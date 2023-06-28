@@ -28,7 +28,7 @@
 		amplifier = 2
 		#Duration in seconds.
 		#Range: 1.0 ~ 999.0
-		duration = 6.0
+		duration = 3.0
 
 	[GameModifiers.Bandages]
 
@@ -68,7 +68,7 @@
 		game_stages = ["MASTER"]
 		#Chance for this to happen.
 		#Range: 0.0 ~ 1.0
-		chance = 0.5
+		chance = 0.1
 		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
 		scaled_by_crd = true
 		#Specifies whether this is enabled.
@@ -80,7 +80,7 @@
 		game_stages = ["NORMAL", "EXPERT", "MASTER"]
 		#Chance for this to happen.
 		#Range: 0.0 ~ 1.0
-		chance = 0.4
+		chance = 0.3
 		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
 		scaled_by_crd = false
 		#Specifies whether this is enabled.
@@ -92,7 +92,7 @@
 		game_stages = ["NORMAL", "EXPERT", "MASTER"]
 		#Chance for this to happen.
 		#Range: 0.0 ~ 1.0
-		chance = 0.25
+		chance = 0.1
 		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
 		scaled_by_crd = true
 		#Specifies whether this is enabled.
@@ -114,13 +114,13 @@
 		[GameModifiers.SpiderPoisonAttack.Duration]
 			#Normal Mode
 			#Range: 1.0 ~ 999.0
-			normal = 4.0
+			normal = 3.0
 			#Expert Mode
 			#Range: 1.0 ~ 999.0
-			expert = 7.0
+			expert = 6.0
 			#Master Mode
 			#Range: 1.0 ~ 999.0
-			master = 15.0
+			master = 10.0
 
 	#If the player dies from a zombie or bleeding, then a zombie with player's name spawns in the same place.
 	[GameModifiers.SpawnPlayerZombie]
@@ -132,7 +132,7 @@
 		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
 		scaled_by_crd = false
 		#Specifies whether this is enabled.
-		is_enabled = true
+		is_enabled = false
 		#Chance for a zombie to have player's head.
 		#Range: 0.0 ~ 1.0
 		head_chance = 1.0
@@ -155,7 +155,7 @@
 		game_stages = ["EXPERT", "MASTER"]
 		#Chance for this to happen.
 		#Range: 0.0 ~ 1.0
-		chance = 0.5
+		chance = 0.3
 		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
 		scaled_by_crd = true
 		#Specifies whether this is enabled.
@@ -177,10 +177,10 @@
 		[GameModifiers.SlimeSlownessAttack.Duration]
 			#Normal Mode
 			#Range: 1.0 ~ 999.0
-			normal = 6.0
+			normal = 3.0
 			#Expert Mode
 			#Range: 1.0 ~ 999.0
-			expert = 6.0
+			expert = 5.0
 			#Master Mode
 			#Range: 1.0 ~ 999.0
 			master = 6.0
@@ -191,14 +191,14 @@
 		game_stages = ["MASTER"]
 		#Chance for this to happen.
 		#Range: 0.0 ~ 1.0
-		chance = 0.5
+		chance = 0.3
 		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
 		scaled_by_crd = true
 		#Specifies whether this is enabled.
 		is_enabled = true
 		#Maximum duration in seconds it can reach.
 		#Range: 5.0 ~ 9999.0
-		maximum_duration = 60.0
+		maximum_duration = 20.0
 
 		#Level of the effect to apply.
 		[GameModifiers.ShulkerBlindnessAttack.Amplifier]
@@ -230,7 +230,7 @@
 		game_stages = ["NORMAL", "EXPERT", "MASTER"]
 		#Chance for this to happen.
 		#Range: 0.0 ~ 1.0
-		chance = 0.25
+		chance = 0.2
 		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
 		scaled_by_crd = false
 		#Specifies whether this is enabled.
@@ -239,7 +239,7 @@
 	#Makes all explosions (creepers, ghast ball etc.) much more deadly.
 	[GameModifiers.PowerfulExplosions]
 		#Specifies whether this is enabled.
-		is_enabled = true
+		is_enabled = false
 		#Multiplies explosion radius by the given value (this value is scaled by Clamped Regional Difficulty).
 		#Range: 1.0 ~ 10.0
 		radius_multiplier = 1.2599
@@ -257,7 +257,7 @@
 		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
 		scaled_by_crd = true
 		#Specifies whether this is enabled.
-		is_enabled = true
+		is_enabled = false
 		#Maximum duration in seconds it can reach.
 		#Range: 5.0 ~ 9999.0
 		maximum_duration = 60.0
@@ -291,7 +291,7 @@
 		#Specifies whether this is enabled.
 		is_enabled = true
 		#List of mobs that should not get health and damage bonuses. (for instance minecraft:wither)
-		excluded_mobs = []
+		excluded_mobs = ["minecraft:wither", "minecraft:ender_dragon"]
 		#List of dimensions where health and damage bonuses should not be applied. (for instance minecraft:overworld)
 		excluded_dimensions = []
 
@@ -321,10 +321,10 @@
 		[GameModifiers.MobsSpawnStronger.NightMultiplier]
 			#Normal Mode
 			#Range: 1.0 ~ 10.0
-			normal = 2.0
+			normal = 1.0
 			#Expert Mode
 			#Range: 1.0 ~ 10.0
-			expert = 2.0
+			expert = 1.0
 			#Master Mode
 			#Range: 1.0 ~ 10.0
 			master = 2.0
@@ -347,7 +347,7 @@
 		game_stages = ["EXPERT", "MASTER"]
 		#Chance for this to happen.
 		#Range: 0.0 ~ 1.0
-		chance = 0.25
+		chance = 0.15
 		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
 		scaled_by_crd = true
 		#Specifies whether this is enabled.
@@ -367,7 +367,7 @@
 		game_stages = ["EXPERT", "MASTER"]
 		#Chance for this to happen.
 		#Range: 0.0 ~ 1.0
-		chance = 0.25
+		chance = 0.15
 		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
 		scaled_by_crd = true
 		#Specifies whether this is enabled.
@@ -387,11 +387,11 @@
 		game_stages = ["EXPERT", "MASTER"]
 		#Chance for this to happen.
 		#Range: 0.0 ~ 1.0
-		chance = 0.25
+		chance = 0.15
 		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
 		scaled_by_crd = true
 		#Specifies whether this is enabled.
-		is_enabled = true
+		is_enabled = false
 
 		[GameModifiers.PiglinsInGroup.Piglins]
 			#Minimum amount of mobs to spawn (leader is not considered).
@@ -407,7 +407,7 @@
 		game_stages = ["NORMAL", "EXPERT", "MASTER"]
 		#Chance for this to happen.
 		#Range: 0.0 ~ 1.0
-		chance = 1.0
+		chance = 0.5
 		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
 		scaled_by_crd = false
 		#Specifies whether this is enabled.
@@ -431,13 +431,13 @@
 			[GameModifiers.FallDebuffs.Nausea.Duration]
 				#Normal Mode
 				#Range: 1.0 ~ 999.0
-				normal = 8.0
+				normal = 2.0
 				#Expert Mode
 				#Range: 1.0 ~ 999.0
-				expert = 8.0
+				expert = 2.0
 				#Master Mode
 				#Range: 1.0 ~ 999.0
-				master = 8.0
+				master = 2.0
 
 		[GameModifiers.FallDebuffs.Slowness]
 
@@ -457,13 +457,13 @@
 			[GameModifiers.FallDebuffs.Slowness.Duration]
 				#Normal Mode
 				#Range: 1.0 ~ 999.0
-				normal = 6.0
+				normal = 2.0
 				#Expert Mode
 				#Range: 1.0 ~ 999.0
-				expert = 6.0
+				expert = 2.0
 				#Master Mode
 				#Range: 1.0 ~ 999.0
-				master = 6.0
+				master = 2.0
 
 	#Gives extra experience as the difficulty increases.
 	[GameModifiers.ExperienceBonus]
@@ -488,7 +488,7 @@
 		game_stages = ["NORMAL", "EXPERT", "MASTER"]
 		#Chance for this to happen.
 		#Range: 0.0 ~ 1.0
-		chance = 1.0
+		chance = 0.3
 		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
 		scaled_by_crd = true
 		#Specifies whether this is enabled.
@@ -504,14 +504,14 @@
 		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
 		scaled_by_crd = true
 		#Specifies whether this is enabled.
-		is_enabled = true
+		is_enabled = false
 
 	#Drowned trident throw may spawn a lightning bolt when it rains.
 	[GameModifiers.DrownedLightningAttack]
 		#Determines during which game stages it can happen.
 		game_stages = ["EXPERT", "MASTER"]
 		#Specifies whether this is enabled.
-		is_enabled = true
+		is_enabled = false
 
 	#Inflicts several debuffs when taking drown damage (these debuffs stack).
 	[GameModifiers.DrownDebuffs]
@@ -519,11 +519,11 @@
 		game_stages = ["NORMAL", "EXPERT", "MASTER"]
 		#Chance for this to happen.
 		#Range: 0.0 ~ 1.0
-		chance = 1.0
+		chance = 0.5
 		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
 		scaled_by_crd = false
 		#Specifies whether this is enabled.
-		is_enabled = true
+		is_enabled = false
 
 		[GameModifiers.DrownDebuffs.Nausea]
 			#Maximum duration in seconds it can reach.
@@ -604,7 +604,7 @@
 			game_stages = ["EXPERT"]
 			#Chance for this to happen.
 			#Range: 0.0 ~ 1.0
-			chance = 0.2
+			chance = 0.1
 			#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
 			scaled_by_crd = false
 
@@ -614,7 +614,7 @@
 			game_stages = ["MASTER"]
 			#Chance for this to happen.
 			#Range: 0.0 ~ 1.0
-			chance = 0.4
+			chance = 0.2
 			#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
 			scaled_by_crd = false
 
@@ -628,7 +628,7 @@
 		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
 		scaled_by_crd = false
 		#Specifies whether this is enabled.
-		is_enabled = true
+		is_enabled = false
 
 		#Maximum amount of Creeperlings to spawn.
 		[GameModifiers.CreeperSplitIntoCreeperlings.MaxCreeperlings]
@@ -652,7 +652,7 @@
 		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
 		scaled_by_crd = true
 		#Specifies whether this is enabled.
-		is_enabled = true
+		is_enabled = false
 
 		[GameModifiers.CreeperSpawnDebuffed.Weakness]
 			#Level of the effect to apply.
@@ -696,14 +696,14 @@
 		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
 		scaled_by_crd = true
 		#Specifies whether this is enabled.
-		is_enabled = true
+		is_enabled = false
 
 	#Decreases damage taken by Creepers from explosions.
 	[GameModifiers.CreeperExplosionImmunity]
 		#Determines during which game stages it can happen.
 		game_stages = ["EXPERT", "MASTER"]
 		#Specifies whether this is enabled.
-		is_enabled = true
+		is_enabled = false
 		#Range: 0.0 ~ 0.99
 		damage_multiplier = 0.2
 
@@ -717,14 +717,14 @@
 		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
 		scaled_by_crd = false
 		#Specifies whether this is enabled.
-		is_enabled = true
+		is_enabled = false
 
 	#Makes a Creeper ignite when any other Creeper explodes nearby.
 	[GameModifiers.CreeperChainReaction]
 		#Determines during which game stages it can happen.
 		game_stages = ["EXPERT", "MASTER"]
 		#Specifies whether this is enabled.
-		is_enabled = true
+		is_enabled = false
 
 	#Cactus damage may inflict bleeding.
 	[GameModifiers.CactusBleeding]
@@ -744,7 +744,7 @@
 		game_stages = ["NORMAL", "EXPERT", "MASTER"]
 		#Chance for this to happen.
 		#Range: 0.0 ~ 1.0
-		chance = 0.5
+		chance = 0.2
 		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
 		scaled_by_crd = false
 		#Specifies whether this is enabled.
@@ -758,7 +758,7 @@
 	#Black Widow spawns the web when in combat.
 	[GameModifiers.BlackWidowWebAbility]
 		#Specifies whether this is enabled.
-		is_enabled = true
+		is_enabled = false
 		#Duration between creating a new web (in seconds).
 		#Range: 5.0 ~ 600.0
 		delay = 30.0
@@ -798,13 +798,13 @@
 		[GameModifiers.Bleeding.Duration]
 			#Normal Mode
 			#Range: 1.0 ~ 999.0
-			normal = 24.0
+			normal = 6.0
 			#Expert Mode
 			#Range: 1.0 ~ 999.0
-			expert = 24.0
+			expert = 12.0
 			#Master Mode
 			#Range: 1.0 ~ 999.0
-			master = 24.0
+			master = 15.0
 
 [UndeadArmy]
 	#Determines whether the Undead Army can spawn in any way.
@@ -836,14 +836,14 @@
 	#Allowed Values: NORMAL, EXPERT, MASTER
 	default_mode = "NORMAL"
 	#Determines whether any dimension should start Expert Mode (useful for integration with other mods).
-	any_dimension_expert = true
+	any_dimension_expert = false
 
 	#Determines what starts the Expert Mode.
 	[GameStage.ExpertMode]
 		#List of entities which start the game stage after killing them.
-		triggering_entities = ["none"]
+		triggering_entities = ["minecraft:wither"]
 		#List of dimensions which start the game stage after entering them.
-		triggering_dimensions = ["minecraft:the_nether"]
+		triggering_dimensions = ["none"]
 
 	#Determines what starts the Master Mode.
 	[GameStage.MasterMode]
@@ -890,13 +890,13 @@
 		[TreasureBag.Fishing.RequiredFishCount]
 			#Normal Mode
 			#Range: 3 ~ 100
-			normal = 20
+			normal = 40
 			#Expert Mode
 			#Range: 3 ~ 100
-			expert = 15
+			expert = 30
 			#Master Mode
 			#Range: 3 ~ 100
-			master = 10
+			master = 20
 
 	[TreasureBag.PillagerRaid]
 		#Determines whether this Treasure Bag should drop.
