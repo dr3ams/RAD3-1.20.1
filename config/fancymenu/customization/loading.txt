@@ -1,0 +1,58 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/drippyloadingscreen/wallhaven-46j.jpg
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 131
+  width = 352
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = b60c09fc-5eab-445d-a6d9-265744ffe3671676882628789
+  y = 132
+  height = 88
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = 56fc0544-5ae1-45b4-8332-39b607d052761676882628802
+  y = -1000000
+  height = 0
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 196
+  width = 528
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = f9803ffb-bed9-4e87-ab29-2cdfab95a78f1676882628802
+  y = 435
+  height = 10
+}
+

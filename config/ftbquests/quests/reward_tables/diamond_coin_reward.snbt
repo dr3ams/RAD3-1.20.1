@@ -1,0 +1,76 @@
+{
+	id: "0BC9EE62BBE93C0A"
+	order_index: 28
+	title: "Diamond coin reward"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "minecraft:emerald_ore"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 64
+		}
+		{
+			item: {
+				id: "minecraft:diamond"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 16
+			random_bonus: 16
+		}
+		{ item: "minecraft:totem_of_undying" }
+		{
+			item: {
+				id: "randomite:randomite_ore"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 32
+			random_bonus: 32
+		}
+		{
+			item: {
+				id: "quark:blank_rune"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 16
+		}
+		{
+			item: {
+				id: "buddycards:mystery_pack"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+		}
+		{
+			ftb_money: 100L
+			random_bonus: 200
+			type: "ftbmoney:money"
+		}
+	]
+}

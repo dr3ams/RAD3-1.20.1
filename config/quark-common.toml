@@ -36,6 +36,12 @@
 	"Enable Quark Advancements" = true
 	#Set to false to disable the popup message telling you that you can config quark in the q menu
 	"Enable Onboarding" = true
+	#Set to false to disable the behavior where quark will automatically hide any disabled items
+	"Hide Disabled Content" = true
+	#Set to false to disable Quark's item info when viewing recipe/uses for an item in JEI
+	"Enable Jei Item Info" = true
+	#For JEI info purposes, add any items here to specifically disable their JEI info from Quark. Note that Quark already only shows info that's relevant to which features are enabled
+	"Suppressed Info" = []
 
 [categories]
 	Automation = true
@@ -91,6 +97,12 @@
 
 	[automation.dispensers_place_blocks]
 		Blacklist = ["minecraft:water", "minecraft:lava", "minecraft:fire"]
+		#Set to false to refrain from registering any behaviors for blocks that have optional dispense behaviors already set.
+		#An optional behavior is one that will defer to the generic dispense item behavior if its condition fails.
+		#e.g. the Shulker Box behavior is optional, because it'll throw out the item if it fails, whereas TNT is not optional.
+		#If true, it'll attempt to use the previous behavior before trying to place the block in the world.
+		#Requires a game restart to re-apply.
+		"Wrap Existing Behaviors" = true
 
 [building]
 	"Wooden Posts" = true
@@ -165,6 +177,12 @@
 	[building.thatch]
 		#Allowed values: [0,1]
 		"Fall Damage Multiplier" = 0.5
+		#This feature disables itself if any of the following mods are loaded: 
+		# - goated
+		# - environmental
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
 
 	[building.rope]
 		#Set to true to allow ropes to move Tile Entities even if Pistons Push TEs is disabled.
@@ -252,6 +270,10 @@
 	[building.celebratory_lamps]
 		"Light Level" = 15
 
+	[building.vertical_slabs]
+		#Should Walls and Panes attempt to connect to the side of Vertical Slabs?
+		"Allow Side Connections" = true
+
 [management]
 	"Quick Armor Swapping" = true
 	"Item Sharing" = true
@@ -296,6 +318,10 @@
 		#Enable comparing enchantments to find a replacement
 		"Enable Enchant Matching" = true
 		"Unstackables Only" = false
+		#Allow pulling items from one hotbar slot to another
+		"Check Hotbar" = false
+		#Any items you place in this list will be ignored by the restock feature
+		"Ignored Items" = ["botania:exchange_rod", "botania:dirt_rod", "botania:skydirt_rod", "botania:cobble_rod"]
 
 [tools]
 	Trowel = true
@@ -351,6 +377,12 @@
 			"Attack Damage" = 2
 			#How many ticks do you have to wait between using the pickarang again
 			Cooldown = 10
+			#Whether this pickarang type can act as a hoe.
+			"Can Act As Hoe" = false
+			#Whether this pickarang type can act as a shovel.
+			"Can Act As Shovel" = true
+			#Whether this pickarang type can act as an axe.
+			"Can Act As Axe" = true
 
 		[tools.pickarang.flamerang]
 			#How long it takes before the Pickarang starts returning to the player if it doesn't hit anything.
@@ -365,6 +397,12 @@
 			"Attack Damage" = 3
 			#How many ticks do you have to wait between using the pickarang again
 			Cooldown = 10
+			#Whether this pickarang type can act as a hoe.
+			"Can Act As Hoe" = false
+			#Whether this pickarang type can act as a shovel.
+			"Can Act As Shovel" = true
+			#Whether this pickarang type can act as an axe.
+			"Can Act As Axe" = true
 
 		[tools.pickarang.echorang]
 			#How long it takes before the Pickarang starts returning to the player if it doesn't hit anything.
@@ -379,6 +417,12 @@
 			"Attack Damage" = 2
 			#How many ticks do you have to wait between using the pickarang again
 			Cooldown = 10
+			#Whether this pickarang type can act as a hoe.
+			"Can Act As Hoe" = true
+			#Whether this pickarang type can act as a shovel.
+			"Can Act As Shovel" = true
+			#Whether this pickarang type can act as an axe.
+			"Can Act As Axe" = true
 
 	[tools.pathfinder_maps]
 		#In this section you can add custom Pathfinder Maps. This works for both vanilla and modded biomes.
@@ -398,6 +442,18 @@
 		Customs = []
 		"Search Radius" = 6400
 		"Xp From Trade" = 5
+		#Set to false to make it so the default quark Pathfinder Map Built-In don't get added, and only the custom ones do
+		"Apply Default Trades" = true
+		#How many steps in the search should the Pathfinder's Quill do per tick? The higher this value, the faster it'll find a result, but the higher chance it'll lag the game while doing so
+		"Pathfinders Quill Speed" = 32
+		#Experimental. Determines if quills should be multithreaded instead. Will ignore quill speed. This could drastically improve performance as it execute the logic off the main thread ideally causing no lag at all
+		"Multi Threaded" = true
+		"Add To Cartographer" = true
+		"Add To Wandering Trader Forced" = true
+		"Add To Wandering Trader Generic" = false
+		"Add To Wandering Trader Rare" = false
+		"Draw Hud" = true
+		"Hud On Top" = false
 
 	[tools.parrot_eggs]
 		#The chance feeding a parrot will produce an egg
@@ -419,6 +475,10 @@
 		"Desert Temple Weight" = 8
 		"Item Quality" = 0
 		"Apply Cost" = 5
+		#Whether you can blend runes of each of the 'primary' colors plus white to create rainbow runes.
+		"Rainbow Rune Craftable" = true
+		#Whether you can blend runes of the 'primary' colors to create other colors of rune.
+		"Color Blending Runes" = true
 
 	[tools.bottled_cloud]
 		"Cloud Level Bottom" = 191
@@ -441,8 +501,12 @@
 		"Deepslate Tweak Needs Haste2" = true
 		#Master Librarians will offer to exchange Ancient Tomes, provided you give them a max-level Enchanted Book of the Tome's enchantment too.
 		"Librarians Exchange Ancient Tomes" = true
-		#Also applies a random curse along each book
+		#Applying a tome will also randomly curse your item
 		"Curse Gear" = false
+		#Allows combining tomes with normal books
+		"Combine With Books" = true
+		#Whether a sanity check is performed on the valid enchantments. If this is turned off, enchantments such as Silk Touch will be allowed to generate Ancient Tomes, if explicitly added to the Valid Enchantments.
+		"Sanity Check" = true
 
 	[tools.ambient_discs]
 		"Drop On Spider Kill" = true
@@ -494,6 +558,9 @@
 	"Better Elytra Rocket" = true
 	"Automatic Recipe Unlock" = true
 	"Armed Armor Stands" = true
+	"Slimes To Magma Cubes" = true
+	"Sponges Better" = true
+	"Diamond Repair" = true
 
 	[tweaks.utility_recipes]
 		#Can any wool color be dyed?
@@ -528,6 +595,8 @@
 		"Easy Sticks" = true
 		#Can raw ore blocks be smelted, taking 9x the time a normal item?
 		"Smelt Raw Ore Blocks" = true
+		#Can you craft a boat around a chest to directly make a chest boat?
+		"Enable Chest Boats" = true
 
 	[tweaks.simple_harvest]
 		#Can players harvest crops with empty hand clicks?
@@ -616,6 +685,8 @@
 		"Fortune Level" = 2
 		#Allowed values: [0,4]
 		"Harvest Level" = 2
+		"Display Fortune In Tooltip" = true
+		"Italic Tooltip" = true
 
 	[tweaks.enhanced_ladders]
 		#Allowed values: (,0]
@@ -654,6 +725,31 @@
 		"Disable Recipe Book" = false
 		#If enabled, advancements granting recipes will be stopped from loading, potentially reducing the lagspike on first world join.
 		"Filter Recipe Advancements" = true
+
+	[tweaks.sponges_better]
+		#The maximum number of water tiles that a sponge can soak up. Vanilla default is 64.
+		#Allowed values: [64,)
+		"Maximum Water Drain" = 256
+		#The maximum number of water tiles that a sponge can 'crawl along' for draining. Vanilla default is 6.
+		#Allowed values: [6,)
+		"Maximum Crawl Distance" = 10
+
+	[tweaks.double_door_opening]
+		#This feature disables itself if any of the following mods are loaded: 
+		# - utilitix
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
+		"Enable Doors" = true
+		"Enable Fence Gates" = true
+
+	[tweaks.diamond_repair]
+		#List of changes to apply to repair items, format is "<item>=<repair_item>" as seen in the defualt.
+		#Multiple repair items can be applied for the same base item, and as long as at least one is provided, any vanilla option will be removed.
+		#To use multiple items, comma separate them (e.g. "minecraft:diamond_sword=minecraft:diamond,minecraft:emerald")If you want the vanilla option back, you must add it again manually.
+		"Repair Item Changes" = ["minecraft:netherite_sword=minecraft:diamond", "minecraft:netherite_pickaxe=minecraft:diamond", "minecraft:netherite_axe=minecraft:diamond", "minecraft:netherite_shovel=minecraft:diamond", "minecraft:netherite_hoe=minecraft:diamond", "minecraft:netherite_helmet=minecraft:diamond", "minecraft:netherite_chestplate=minecraft:diamond", "minecraft:netherite_leggings=minecraft:diamond", "minecraft:netherite_boots=minecraft:diamond"]
+		"Unrepairable Items" = []
+		"Enable Jei Hints" = true
 
 [world]
 	"Spiral Spires" = true
@@ -873,12 +969,12 @@
 			Dimensions = ["minecraft:overworld"]
 
 	[world.glimmering_weald]
-		#Experimental, dont change if you dont know what you are doing. Weirdness min value from which biome will spawn. Decreasing will make biome appear more often
-		#Allowed values: [-2,2]
-		"Min Weirdness Range" = 1.5499999523162842
-		#Experimental, dont change if you dont know what you are doing. Weirdness max value until which biome will spawn. Increasing will make biome appear more often
+		#Experimental, dont change if you dont know what you are doing. Depth max value until which biome will spawn. Increasing will make biome appear more often
 		#Allowed values: [-2,2]
 		"Max Weirdness Range" = 2.0
+		#Experimental, dont change if you dont know what you are doing. Depth min value from which biome will spawn. Decreasing will make biome appear more often
+		#Allowed values: [-2,2]
+		"Min Depth Range" = 1.5499999523162842
 
 	[world.fairy_rings]
 		"Forest Chance" = 0.00625
@@ -1466,7 +1562,8 @@
 		"Show Saturation" = true
 		"Food Compression Threshold" = 4
 		"Fuel Time Divisor" = 200
-		#The value of each shank of food. Tweak this when using mods like Hardcore Hunger which change that value.
+		#The value of each shank of food.
+		#Tweak this when using mods like Hardcore Hunger which change that value.
 		"Food Divisor" = 2
 		"Enchanting Stacks" = ["minecraft:diamond_sword", "minecraft:diamond_pickaxe", "minecraft:diamond_shovel", "minecraft:diamond_axe", "minecraft:diamond_hoe", "minecraft:diamond_helmet", "minecraft:diamond_chestplate", "minecraft:diamond_leggings", "minecraft:diamond_boots", "minecraft:shears", "minecraft:bow", "minecraft:fishing_rod", "minecraft:crossbow", "minecraft:trident", "minecraft:elytra", "minecraft:shield", "quark:pickarang", "supplementaries:slingshot", "supplementaries:bubble_blower", "farmersdelight:diamond_knife"]
 		#A list of additional stacks to display on each enchantment
@@ -1475,6 +1572,11 @@
 		#So to display a carrot on a stick on a mending book, for example, you use:
 		#minecraft:mending=minecraft:carrot_on_a_stick
 		"Enchanting Additional Stacks" = []
+		#Should item attributes be colored relative to your current equipped item?
+		#e.g. if wearing an Iron Helmet, the armor value in a Diamond Helmet will show as green, and vice versa would be red.
+		#If set to false, item attributes will show in white or red if they're negative values.
+		"Show Upgrade Status" = true
+		"Animate Up Down Arrows" = true
 
 	[client.greener_grass]
 		"Affect Leaves" = true
@@ -1511,6 +1613,13 @@
 	"Game Nerfs" = false
 	"Enchantments Begone" = false
 	"Adjustable Chat" = false
+	#This feature generates Resource Pack Item Model predicates on the items defined in 'Items to Change'
+	#for the Enchantments defined in 'Enchantments to Register'.
+	#
+	#Example: if 'minecraft:silk_touch' is added to 'Enchantments to Register', and 'minecraft:netherite_pickaxe'
+	#is added to 'Items to Change', then a predicate named 'quark_has_enchant_minecraft_silk_touch' will be available
+	#to the netherite_pickaxe.json item model, whose value will be the enchantment level.
+	"Enchantment Predicates" = false
 
 	[experimental.spawner_replacer]
 		#Mobs to be replaced with other mobs.
@@ -1538,6 +1647,13 @@
 		#Disables mob griefing for only specific entities
 		"Enable Selective Mob Griefing" = true
 		"Non Griefing Entities" = ["minecraft:creeper", "minecraft:enderman"]
+		#Force Elytra to only work in specific dimensions
+		"Enable Dimension Locked Elytra" = true
+		#Makes falling blocks not able to be duped via dimension crossing
+		"Disable Falling Block Dupe" = true
+		#Fixes several piston physics exploits, most notably including TNT duping
+		"Disable Piston Physics Exploits" = true
+		"Elytra Allowed Dimensions" = ["minecraft:the_end"]
 
 	[experimental.enchantments_begone]
 		"Enchantments To Begone" = []
@@ -1545,6 +1661,10 @@
 	[experimental.adjustable_chat]
 		"Horizontal Shift" = 0
 		"Vertical Shift" = 0
+
+	[experimental.enchantment_predicates]
+		"Items To Change" = []
+		"Enchantments To Register" = []
 
 [oddities]
 	"Totem Of Holding" = true
@@ -1639,6 +1759,8 @@
 		"Influence Power" = 0.125
 		#If you set this to false, the vanilla Enchanting Table will no longer automatically convert to the Matrix Enchanting table. You'll have to add a recipe for the Matrix Enchanting Table to make use of this.
 		"Automatically Convert" = true
+		#Any treasure enchantment IDs here will be able to appear in books in matrix enchanting
+		"Treasure Whitelist" = []
 
 	[oddities.magnets]
 		#Any items you place in this list will be derived so that any block made of it will become magnetizable

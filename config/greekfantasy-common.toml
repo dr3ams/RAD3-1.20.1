@@ -1,0 +1,165 @@
+
+[items]
+	#Range: 0 ~ 64
+	apollo_bow_durability_on_use = 1
+	#Range: 0 ~ 64
+	artemis_bow_durability_on_use = 1
+	#Range: 0 ~ 64
+	avernal_bow_durability_on_use = 1
+	#Range: 1 ~ 24000
+	bag_of_wind_duration = 400
+	#Range: 0 ~ 12000
+	bag_of_wind_cooldown = 700
+	#Range: 0 ~ 64
+	bag_of_wind_durability_on_use = 1
+	#Range: 0 ~ 64
+	conch_durability_on_use = 0
+	helm_hides_armor = true
+	#Range: 0 ~ 8
+	dragon_tooth_sparti_count = 1
+	#Range: 1 ~ 24000
+	dragon_tooth_sparti_lifespan = 300
+	#Range: 0 ~ 64
+	horn_of_plenty_durability_on_use = 1
+	#Range: 0 ~ 24000
+	thunderbolt_cooldown = 100
+	#Range: 0 ~ 128
+	thunderbolt_durability_on_use = 15
+	#Range: 0 ~ 128
+	thunderbolt_durability_on_fireflash = 25
+	#Range: 0 ~ 24000
+	thyrsus_cooldown = 60
+	#Range: 0 ~ 64
+	thyrsus_durability_on_use = 1
+	#Range: 0 ~ 24000
+	staff_of_healing_cooldown = 35
+	#Range: 0 ~ 64
+	staff_of_healing_durability_on_use = 1
+	unicorn_horn_cures_effects = true
+	#Range: 0 ~ 64
+	unicorn_horn_durability_on_use = 1
+	#Range: 1 ~ 24000
+	wand_of_circe_duration = 900
+	#Range: 0 ~ 24000
+	wand_of_circe_cooldown = 50
+	#Range: 0 ~ 64
+	wand_of_circe_durability_on_use = 1
+	#Percent chance of winged sandals losing durability each tick
+	#Range: 0.0 ~ 1.0
+	winged_sandals_durability_chance = 0.0
+
+[enchantments]
+	bane_of_serpents_enabled = true
+	bane_of_serpents_tradeable_by_villagers = true
+	daybreak_enabled = true
+	fireflash_enabled = true
+	fireflash_destroys_blocks = true
+	flying_enabled = true
+	hunting_enabled = true
+	hunting_tradeable_by_villagers = true
+	lord_of_the_sea_enabled = true
+	#Range: 1 ~ 1200
+	lord_of_the_sea_whirl_lifespan = 60
+	mirroring_enabled = true
+	mirroring_tradeable_by_villagers = true
+	#When true, Smashing applies slowness instead of stunning
+	smashing_nerf = false
+	smashing_tradeable_by_villagers = false
+	overstep_enabled = true
+	overstep_tradeable_by_villagers = true
+	poisoning_enabled = true
+	poisoning_tradeable_by_villagers = false
+	raising_enabled = true
+	#Range: 1 ~ 1200
+	raising_sparti_lifespan = 120
+	silkstep_enabled = true
+	silkstep_tradeable_by_villagers = false
+
+[mobs]
+	#Range: 0.0 ~ 100.0
+	circe_spawn_chance = 2.0
+	#Whether a hoglin must be outside of the nether to be turned to a Giant Boar
+	giant_boar_non_nether = true
+	#Percent chance that opening a mysterious box spawns an Elpis
+	#Range: 0.0 ~ 100.0
+	elpis_spawn_chance = 60.0
+	#Percent chance that lightning converts Gorgon to Medusa
+	#Range: 0.0 ~ 100.0
+	medusa_lightning_chance = 95.0
+	#Range: 0.0 ~ 100.0
+	medusa_spawn_chance = 0.800000011920929
+	#Percent chance that lightning converts strengthened Ocelot to Nemean Lion
+	#Range: 0.0 ~ 100.0
+	nemean_lion_lightning_chance = 100.0
+	#Range: 0.0 ~ 100.0
+	shade_spawn_chance = 100.0
+	#Range: 0.0 ~ 100.0
+	satyr_shaman_chance = 24.0
+	#Percent chance that creating a Charybdis also creates a Scylla
+	#Range: 0.0 ~ 100.0
+	scylla_spawn_chance = 55.0
+	satyr_song = "greekfantasy:greensleeves"
+	shade_immune_to_nonowner = true
+	show_arachne_boss_bar = false
+	show_circe_boss_bar = false
+	show_cretan_boss_bar = false
+	show_giant_boar_boss_bar = true
+	show_hydra_boss_bar = true
+	show_medusa_boss_bar = false
+	show_nemean_lion_boss_bar = true
+	show_python_boss_bar = true
+	show_scylla_boss_bar = true
+
+[goals]
+	ara_seek_camp = true
+	centaur_seek_camp = false
+	cyclops_seek_cave = false
+	dolphin_seek_ocean_village = false
+	gigante_seek_camp = false
+	guardian_seek_ocean_village = true
+	hydra_seek_lair = true
+	nemean_lion_seek_den = true
+	satyr_seek_camp = false
+	triton_seek_ocean_village = true
+
+[mob_effects]
+	curse_of_circe_enabled = true
+	#Range: 1 ~ 24000
+	curse_of_circe_duration = 900
+	#Mobs that can be affected by the Curse of Circe.
+	#Accepts entity id or mod id with wildcard.
+	#Example: ["minecraft:zombie", "othermod:*"]
+	curse_of_circe_whitelist = ["minecraft:player", "minecraft:villager", "minecraft:zombie", "minecraft:zombie_villager", "minecraft:husk", "minecraft:vindicator", "minecraft:wandering_trader", "minecraft:illusioner", "minecraft:pillager", "greekfantasy:ara", "greekfantasy:dryad", "greekfantasy:lampad", "greekfantasy:naiad", "greekfantasy:satyr"]
+	mirroring_enabled = false
+	#When true, Petrified applies slowness instead of stunning
+	petrified_nerf = false
+	#When true, Stunned applies slowness instead of stunning
+	stunned_nerf = false
+
+[palladium]
+	#Whether the Palladium can prevent monster spawns
+	palladium_enabled = true
+	#The radius (in chunks) of the area protected by Palladium blocks (0=same chunk only)
+	#Range: 0 ~ 3
+	palladium_chunk_range = 2
+	#The vertical area (in blocks) protected by Palladium blocks
+	#Range: 0 ~ 255
+	palladium_y_range = 128
+
+[mob_spawns]
+	#Dimensions in which mobs can spawn.
+	#Accepts dimension id or mod id with wildcard.
+	#Example: ["minecraft:the_nether", "rftoolsdim:*"]
+	spawn_dimensions = ["minecraft:*"]
+	#true if the above list is a whitelist, false for blacklist
+	is_whitelist = true
+
+#Feature generation chances (higher number = more features)
+[features]
+	#Dimensions in which mobs can spawn.
+	#Accepts dimension id or mod id with wildcard.
+	#Example: ["minecraft:the_nether", "rftoolsdim:*"]
+	spawn_dimensions = ["minecraft:*"]
+	#true if the above list is a whitelist, false for blacklist
+	is_whitelist = true
+

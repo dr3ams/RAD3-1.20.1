@@ -1,0 +1,9 @@
+#Define which sounds generate cues for mobs to detect, followed by their size. Use *snippet to select all sounds that include the snippet in their full name. The list is processed top-down, so putting *tags first will allow you to override specific ones later. Shouting disregards this and always generates a sound cue of the defined radius, regardless of which sound clients have it set as.
+"sound cue list" = ["*armor.equip, 4", "*arrow, 4", "*scream, 16", "*door.open, 4", "*door.close, 4", "*.break, 4", "*.place, 4", "*music_disc, 8", "*note_block, 8", "*angry, 8", "*click_off, 4", "*click_on, 4", "entity.bee.loop_aggressive, 4", "item.crossbow.shoot, 4", "entity.generic.eat, 4", "entity.generic.drink, 4", "entity.minecart.riding, 4", "entity.generic.explode, 16", "entity.player.big_fall, 8", "entity.player.burp, 6", "entity.ravager.roar, 16"]
+#Define the loudness of a shout. All shouts, regardless of which client-defined sound is used, will generate a sound cue of this radius.
+#Range: 0 ~ 100
+"shout cue radius" = 16
+#Define the maximum number of sounds every tick that the server should calculate sound cues for. Lowering this value will increase performance, but cause mobs to notice their surroundings less.
+#Range: > 0
+"sound calculation cap" = 100
+
