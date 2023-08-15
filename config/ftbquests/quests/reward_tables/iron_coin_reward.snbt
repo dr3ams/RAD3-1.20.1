@@ -1,108 +1,108 @@
 {
 	id: "32F9A93C0635A760"
-	order_index: 24
-	title: "Iron coin reward"
 	loot_size: 1
+	order_index: 24
 	rewards: [
-		{ item: "aquaculture:lockbox", count: 4 }
+		{ count: 4, item: "aquaculture:lockbox" }
 		{
+			count: 8
 			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 				id: "minecraft:gunpowder"
+			}
+		}
+		{ count: 4, item: "minecraft:book" }
+		{
+			count: 8
+			item: {
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			count: 8
-		}
-		{ item: "minecraft:book", count: 4 }
-		{
-			item: {
 				id: "minecraft:slime_ball"
+			}
+		}
+		{
+			count: 4
+			item: {
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			count: 8
-		}
-		{
-			item: {
 				id: "byg:therium_crystal"
+			}
+		}
+		{
+			count: 4
+			item: {
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			count: 4
-		}
-		{
-			item: {
 				id: "minecraft:snow_block"
+			}
+		}
+		{
+			count: 4
+			item: {
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			count: 4
-		}
-		{
-			item: {
 				id: "minecraft:feather"
+			}
+		}
+		{
+			count: 4
+			item: {
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			count: 4
-		}
-		{
-			item: {
 				id: "minecraft:cactus"
+			}
+		}
+		{
+			item: {
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			count: 4
-		}
-		{
-			item: {
 				id: "minecraft:water_bucket"
+			}
+		}
+		{
+			item: {
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-		}
-		{
-			title: "Blossom Saplings"
-			item: {
 				id: "ftbquests:lootcrate"
-				Count: 1b
 				tag: {
 					type: "blossom_saplings"
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
+			title: "Blossom Saplings"
 		}
 	]
+	title: "Iron coin reward"
 }

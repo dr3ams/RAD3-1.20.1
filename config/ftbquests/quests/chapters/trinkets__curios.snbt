@@ -1,1807 +1,1674 @@
 {
-	id: "33E10527DCD06E5D"
-	group: "5AAD108D5AD37CD9"
-	order_index: 4
-	filename: "trinkets__curios"
-	title: "Trinkets 'n Curios"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "trinkets__curios"
+	group: "5AAD108D5AD37CD9"
+	id: "33E10527DCD06E5D"
+	order_index: 3
+	quest_links: [ ]
 	quests: [
 		{
-			x: 6.0d
-			y: 2.5d
-			id: "3AABACB45BD17A3D"
-			tasks: [{
-				id: "51E07B6FEB1097E5"
-				type: "item"
-				item: {
-					id: "bountifulbaubles:disintegration_tablet"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+			id: "6C45CE02A03DCEE9"
+			rewards: [{
+				id: "00744BCDCB47279B"
+				type: "xp_levels"
+				xp_levels: 1
 			}]
-			rewards: [
-				{
-					id: "211BA03DC3456080"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "0757087747F58DD1"
-					type: "custom"
-				}
-			]
-		}
-		{
-			x: 4.0d
-			y: 2.5d
-			id: "71455036E8DC2C51"
-			tasks: [{
-				id: "262FD7A74760A60F"
-				type: "item"
-				item: {
-					id: "bountifulbaubles:spectral_silt"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "5E8473B0DF6B658E"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "4413CF3CEE5F4490"
-					type: "custom"
-				}
-			]
-		}
-		{
-			x: 5.0d
-			y: 2.5d
-			id: "660A9800A8365339"
-			tasks: [{
-				id: "0F20DA19C3FF6F66"
-				type: "item"
-				item: {
-					id: "bountifulbaubles:resplendent_token"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "3AB7F8EA75F0774F"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "4B2E410F560CD6F0"
-					type: "custom"
-				}
-			]
-		}
-		{
-			x: 5.0d
-			y: 7.5d
 			shape: "octagon"
 			size: 2.0d
-			id: "6C45CE02A03DCEE9"
 			tasks: [{
-				id: "4B96497B3B93445F"
-				type: "item"
+				id: "1E2C2EE12673FB6B"
 				item: {
-					id: "relics:runic_altar"
 					Count: 1b
 					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
+						"dungeons_libraries:built_in_enchantments": { }
 					}
+					id: "relics:researching_table"
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "319E144C178E5115"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "1FD1DA91D3454EFF"
-					type: "custom"
-				}
-			]
-		}
-		{
 			x: 5.0d
-			y: 3.5d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["6C45CE02A03DCEE9"]
-			id: "3BFC6AA60A53EBEF"
-			tasks: [{
-				id: "5C2C5B614B13EF4E"
-				type: "item"
-				item: {
-					id: "relics:runic_anvil"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "1AA9303F99F35CE5"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "6018E74860BB5ADB"
-					type: "custom"
-				}
-			]
-		}
-		{
-			x: 3.0d
-			y: 4.0d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["6C45CE02A03DCEE9"]
-			id: "056C737A9F7067AC"
-			tasks: [{
-				id: "595EEACA48CE2333"
-				type: "item"
-				item: {
-					id: "relics:runic_hammer"
-					Count: 1b
-					tag: {
-						Damage: 0
-						itemModifier: "modifiers:damaged"
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "1B02F04C80D5D360"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "27498848F0AE56B7"
-					type: "custom"
-				}
-			]
-		}
-		{
-			x: 3.0d
-			y: 11.0d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["6C45CE02A03DCEE9"]
-			id: "4AC02F79E1FC598E"
-			tasks: [{
-				id: "5B293DAF792E36AA"
-				type: "item"
-				item: {
-					id: "relics:rune_of_earth"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "20B9823C5D935B5D"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "32B2DCDAC5926249"
-					type: "custom"
-				}
-			]
-		}
-		{
-			x: 1.5d
-			y: 9.5d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["6C45CE02A03DCEE9"]
-			id: "04810B465CB4CFBC"
-			tasks: [{
-				id: "6F3E6D0355E8BC98"
-				type: "item"
-				item: {
-					id: "relics:rune_of_air"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "4FCCE8C6BA4115D5"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "2F1C7307F62B6B31"
-					type: "custom"
-				}
-			]
-		}
-		{
-			x: 1.5d
-			y: 5.5d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["6C45CE02A03DCEE9"]
-			id: "4FA2DA9A1472A660"
-			tasks: [{
-				id: "6645E18329022AC9"
-				type: "item"
-				item: {
-					id: "relics:rune_of_cold"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "67CA93717EC1189D"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "4FA5891A9B808057"
-					type: "custom"
-				}
-			]
-		}
-		{
-			x: 1.0d
 			y: 7.5d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["6C45CE02A03DCEE9"]
-			id: "3593E9928FEE5A23"
-			tasks: [{
-				id: "6694C1EE02BB5402"
-				type: "item"
-				item: {
-					id: "relics:rune_of_moon"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "39504CBC2D81CC19"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "7EB64F6DAD817115"
-					type: "custom"
-				}
-			]
 		}
 		{
-			x: 5.0d
-			y: 11.5d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["6C45CE02A03DCEE9"]
-			id: "65076A3CC0CD08D3"
-			tasks: [{
-				id: "6436E15FA73A54BB"
-				type: "item"
-				item: {
-					id: "relics:rune_of_explosion"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "06675AB01C2B5B21"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "7356EF213931DB6B"
-					type: "custom"
-				}
-			]
-		}
-		{
-			x: 7.0d
-			y: 4.0d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["6C45CE02A03DCEE9"]
-			id: "4D77F0FB2E285FF1"
-			tasks: [{
-				id: "0F7B5B2DFC6D83CE"
-				type: "item"
-				item: {
-					id: "relics:rune_of_fire"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "0E9E737C5EEC7D3A"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "0F6B4C0A8AE9AAF3"
-					type: "custom"
-				}
-			]
-		}
-		{
-			x: 9.0d
-			y: 7.5d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["6C45CE02A03DCEE9"]
-			id: "242A5C2AEE70A243"
-			tasks: [{
-				id: "26EEBCCC4C5BC6A8"
-				type: "item"
-				item: {
-					id: "relics:rune_of_water"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "6D6325386FBB759A"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "1101D120A282F773"
-					type: "custom"
-				}
-			]
-		}
-		{
-			x: 8.5d
-			y: 5.5d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["6C45CE02A03DCEE9"]
-			id: "74E8668933CCF55C"
-			tasks: [{
-				id: "173F1A4391914B2B"
-				type: "item"
-				item: {
-					id: "relics:rune_of_lightning"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "16E98CF11F5B91C5"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "7F77A7EA43DDAF34"
-					type: "custom"
-				}
-			]
-		}
-		{
-			x: 7.0d
-			y: 11.0d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["6C45CE02A03DCEE9"]
-			id: "58D2B9BA292FF97D"
-			tasks: [{
-				id: "72A46651D28BF5A5"
-				type: "item"
-				item: {
-					id: "relics:rune_of_love"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "47D7EC9C06D26988"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "0D256758F3FD116C"
-					type: "custom"
-				}
-			]
-		}
-		{
-			x: 8.5d
-			y: 9.5d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["6C45CE02A03DCEE9"]
-			id: "29D20461B83BD6F1"
-			tasks: [{
-				id: "673B14E67F942E0F"
-				type: "item"
-				item: {
-					id: "relics:rune_of_sun"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "0F8D94859F6C39FC"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "3CBA7C434D58147D"
-					type: "custom"
-				}
-			]
-		}
-		{
-			x: 5.0d
-			y: 5.0d
-			dependencies: ["6C45CE02A03DCEE9"]
-			id: "675F9F5E9DE54E52"
-			tasks: [{
-				id: "79212E9BC3EEE869"
-				type: "item"
-				item: {
-					id: "relics:ice_breaker"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "6508381DF96BF043"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "5E9A63972504F8EF"
-					type: "custom"
-				}
-			]
-		}
-		{
-			x: 6.5d
-			y: 6.0d
-			dependencies: ["6C45CE02A03DCEE9"]
-			id: "12F45FBD6CA8D79D"
-			tasks: [{
-				id: "2A1887353BA73C3D"
-				type: "item"
-				item: {
-					id: "relics:ice_skates"
-					Count: 1b
-					tag: {
-						Damage: 0
-						itemModifier: "modifiers:wild"
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "3DB83DBEBAD28367"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "793EDE5F9FEF9297"
-					type: "custom"
-				}
-			]
-		}
-		{
-			x: 3.5d
-			y: 6.0d
 			dependencies: ["6C45CE02A03DCEE9"]
 			id: "408CD22C821A32E8"
+			rewards: [{
+				id: "3163AE4CB4465155"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Magma walker boots are sturdy and comfortable boots that are perfect for hiking and outdoor activities. They are made with high-quality materials and provide excellent support for your feet."
 			tasks: [{
 				id: "7F45F6B325F4028E"
-				type: "item"
 				item: {
-					id: "relics:magma_walker"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "relics:magma_walker"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "627DF87198043405"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "15BB8061E2EC1312"
-					type: "custom"
-				}
-			]
+			x: 2.0d
+			y: 6.0d
 		}
 		{
-			x: 2.5d
-			y: 7.5d
 			dependencies: ["6C45CE02A03DCEE9"]
 			id: "3BF946836371EEB8"
+			rewards: [{
+				id: "24D0CC68C72C9FF2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "These boots are perfect for any adventure! They're waterproof and durable, so you can wear them in any weather. Plus, they look great with any outfit."
 			tasks: [{
 				id: "6658E84CAC5AA569"
-				type: "item"
 				item: {
-					id: "relics:amphibian_boot"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "relics:amphibian_boot"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "7E51122D5702898F"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "4FACC77ACCBCEEAE"
-					type: "custom"
-				}
-			]
+			x: 9.0d
+			y: 7.0d
 		}
 		{
-			x: 5.0d
-			y: 10.0d
 			dependencies: ["6C45CE02A03DCEE9"]
 			id: "1F653D87579A55F5"
+			rewards: [{
+				id: "24E37FDE9D66D17D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "This Hunter belt is the perfect accessory for any outfit. Made with high-quality materials, it's durable and stylish. The classic design will never go out of fashion."
 			tasks: [{
 				id: "7C1704BB21C3DC9B"
-				type: "item"
 				item: {
-					id: "relics:hunter_belt"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "relics:hunter_belt"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "52257F9F1D066C44"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "58C703ABB30E0D0B"
-					type: "custom"
-				}
-			]
+			x: 5.0d
+			y: 11.5d
 		}
 		{
-			x: 6.5d
-			y: 9.0d
 			dependencies: ["6C45CE02A03DCEE9"]
 			id: "58AD1BD73DE914DF"
+			rewards: [{
+				id: "0C1CCC1B4A851A1C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "This belt is perfect for those who love a unique and edgy style. The drowned effect adds a touch of mystery and intrigue to any outfit."
 			tasks: [{
 				id: "400B1517626AAB8E"
-				type: "item"
 				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
 					id: "relics:drowned_belt"
-					Count: 1b
 					tag: {
 						Damage: 0
 					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
 				}
-			}]
-			rewards: [
-				{
-					id: "5900D34F47D705BA"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "23AE97FE2658A0AA"
-					type: "custom"
-				}
-			]
-		}
-		{
-			x: 7.5d
-			y: 7.5d
-			dependencies: ["6C45CE02A03DCEE9"]
-			id: "29CDF04791B5170E"
-			tasks: [{
-				id: "5A010B73BD617583"
 				type: "item"
-				item: {
-					id: "relics:out_runner"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
 			}]
-			rewards: [
-				{
-					id: "31B799387F2E03AF"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "20C071727C07B3F8"
-					type: "custom"
-				}
-			]
+			x: 6.5d
+			y: 10.5d
 		}
 		{
-			x: 3.5d
-			y: 9.0d
-			dependencies: ["6C45CE02A03DCEE9"]
-			id: "5A52435B70FFF051"
-			tasks: [{
-				id: "2A185E4701CFEBDD"
-				type: "item"
-				item: {
-					id: "relics:rage_glove"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "7FB800BC0684CBD5"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "22117F5D58B9E04B"
-					type: "custom"
-				}
-			]
-		}
-		{
-			x: -1.0d
-			y: 5.5d
 			id: "2FDF00E7CA12E60D"
+			rewards: [{
+				id: "7CD870F157588E54"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "783EC4F06C271F1D"
-				type: "item"
 				item: {
-					id: "dungeons_gear:eye_of_the_guardian"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:eye_of_the_guardian"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "2C985A82C4481E7F"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "4722B9B40730B564"
-					type: "custom"
-				}
-			]
+			x: -1.0d
+			y: 5.5d
 		}
 		{
-			x: -1.5d
-			y: 7.5d
 			id: "5286E78A4DF9A954"
+			rewards: [{
+				id: "14EA2E0F54A23C83"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4DB7A1C4EBE837C5"
-				type: "item"
 				item: {
-					id: "dungeons_gear:updraft_tome"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:updraft_tome"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "2493CA474D8859A7"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "65BEAFCBB5439EE5"
-					type: "custom"
-				}
-			]
+			x: -1.5d
+			y: 7.5d
 		}
 		{
-			x: -0.5d
-			y: 4.5d
 			id: "0337A6E2B165AA9C"
+			rewards: [{
+				id: "7808BB2F20BA4F6A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3A5D2DBD9B4EEAD0"
-				type: "item"
 				item: {
-					id: "dungeons_gear:powershaker"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:powershaker"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "387488D2760AA371"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "1BA994D8ED277839"
-					type: "custom"
-				}
-			]
+			x: -0.5d
+			y: 4.5d
 		}
 		{
-			x: 11.5d
-			y: 7.5d
 			id: "1A0B0B0C455CD7DD"
+			rewards: [{
+				id: "0938DF9DDA9FB4FF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4E43D455BE42DDCD"
-				type: "item"
 				item: {
-					id: "dungeons_gear:satchel_of_elements"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:satchel_of_elements"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "1D82DACF1C251063"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "5AAF1646F2AEF444"
-					type: "custom"
-				}
-			]
+			x: 11.5d
+			y: 7.5d
 		}
 		{
-			x: 2.0d
-			y: 2.0d
 			id: "3FCFBEBEB40100CF"
+			rewards: [{
+				id: "38EB189CFF5118A1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "7AAD8E6F37E37931"
-				type: "item"
 				item: {
-					id: "dungeons_gear:satchel_of_snacks"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:satchel_of_snacks"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "5F05490677ECF654"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "1A0923103373CD65"
-					type: "custom"
-				}
-			]
+			x: 2.0d
+			y: 2.0d
 		}
 		{
-			x: 5.0d
-			y: 1.0d
 			id: "323BB1B3705C832B"
+			rewards: [{
+				id: "5A68818920F0DD00"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "46021BC544DFBE7A"
-				type: "item"
 				item: {
-					id: "dungeons_gear:satchel_of_elixirs"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:satchel_of_elixirs"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "634EC3FA9A95641D"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "4A7A8BCB9F56CA53"
-					type: "custom"
-				}
-			]
+			x: 5.0d
+			y: 1.0d
 		}
 		{
-			x: 5.0d
-			y: 14.0d
 			id: "38C99F434F124A89"
+			rewards: [{
+				id: "6DFE5CD94223489B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "7FB54850F13903D4"
-				type: "item"
 				item: {
-					id: "dungeons_gear:harpoon_quiver"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:harpoon_quiver"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "1D811DCC4B9FD021"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "6DA5C945B1DAE720"
-					type: "custom"
-				}
-			]
+			x: 5.0d
+			y: 14.0d
 		}
 		{
-			x: 8.0d
-			y: 2.0d
 			id: "111F7DA351EE9339"
+			rewards: [{
+				id: "74696FAB4725AFE9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "52ECF39F8ED147A1"
-				type: "item"
 				item: {
-					id: "dungeons_gear:boots_of_swiftness"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:boots_of_swiftness"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "32EDE5ABB3605D9E"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "3CF4D9602DB23E8D"
-					type: "custom"
-				}
-			]
+			x: 8.0d
+			y: 2.0d
 		}
 		{
-			x: 0.5d
-			y: 12.0d
 			id: "10C69118C27044C4"
+			rewards: [{
+				id: "5A4635D978C3D554"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5BD4CC2E307160E0"
-				type: "item"
 				item: {
-					id: "dungeons_gear:golem_kit"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:golem_kit"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "735686849EB27EBE"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "3D819DB586542D40"
-					type: "custom"
-				}
-			]
+			x: 0.5d
+			y: 12.0d
 		}
 		{
-			x: 9.5d
-			y: 12.0d
 			id: "5447EF309A6F6181"
+			rewards: [{
+				id: "51BCC6405E795EE2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4918595049885351"
-				type: "item"
 				item: {
-					id: "dungeons_gear:tasty_bone"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:tasty_bone"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "5D3FD83B8DF7A6FC"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "438EEFC18B4FB106"
-					type: "custom"
-				}
-			]
+			x: 9.5d
+			y: 12.0d
 		}
 		{
-			x: -1.5d
-			y: 8.5d
 			id: "7D22D20B86C2D33B"
+			rewards: [{
+				id: "449B9366CFC55A5A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "791CDA3C64BFC824"
-				type: "item"
 				item: {
-					id: "dungeons_gear:wonderful_wheat"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:wonderful_wheat"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "54DEB9A2D060FA13"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "52B0DEBDA241BB61"
-					type: "custom"
-				}
-			]
+			x: -1.5d
+			y: 8.5d
 		}
 		{
-			x: -0.5d
-			y: 10.5d
 			id: "6A6B392D80E179EE"
+			rewards: [{
+				id: "2774636F62810264"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "64846A8B714D0900"
-				type: "item"
 				item: {
-					id: "dungeons_gear:gong_of_weakening"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:gong_of_weakening"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "04B3C9D06160DDA5"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "2A5F335C9C936C68"
-					type: "custom"
-				}
-			]
+			x: -0.5d
+			y: 10.5d
 		}
 		{
-			x: 10.5d
-			y: 4.5d
 			id: "514ADDD70D49C805"
+			rewards: [{
+				id: "5493157AB71345CC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "389921EA9DEC979D"
-				type: "item"
 				item: {
-					id: "dungeons_gear:lightning_rod"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:lightning_rod"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "77CC91BE50CCCC49"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "39D416BC034FF27A"
-					type: "custom"
-				}
-			]
+			x: 10.5d
+			y: 4.5d
 		}
 		{
-			x: -1.0d
-			y: 9.5d
 			id: "6A4432085A4EDE7A"
+			rewards: [{
+				id: "20750E8FAC0925E6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2F9223E1832D278C"
-				type: "item"
 				item: {
-					id: "dungeons_gear:iron_hide_amulet"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:iron_hide_amulet"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "190B886B6BE4BDFA"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "3DF8E9A3C60DEFD5"
-					type: "custom"
-				}
-			]
+			x: -1.0d
+			y: 9.5d
 		}
 		{
-			x: 2.0d
-			y: 13.0d
 			id: "1A7B3032764043F1"
+			rewards: [{
+				id: "55F5FA3F1B269B3D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3BDDB94A5C23109A"
-				type: "item"
 				item: {
-					id: "dungeons_gear:love_medallion"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:love_medallion"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "146D1410EB6B6E9C"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "461302B2A01CFAD8"
-					type: "custom"
-				}
-			]
+			x: 2.0d
+			y: 13.0d
 		}
 		{
-			x: 3.0d
-			y: 13.5d
 			id: "13B1BAC45C900E70"
+			rewards: [{
+				id: "307B72B17D228AA1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "16ACE4A693B82CD3"
-				type: "item"
 				item: {
-					id: "dungeons_gear:flaming_quiver"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:flaming_quiver"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "76ABD47CD36A3EF3"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "08DAD5FAD3D9D7A6"
-					type: "custom"
-				}
-			]
+			x: 3.0d
+			y: 13.5d
 		}
 		{
-			x: 7.0d
-			y: 13.5d
 			id: "45BC33FB2B2F14F2"
+			rewards: [{
+				id: "1DECCCEE6F188DB3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "73F506AB86117FE5"
-				type: "item"
 				item: {
-					id: "dungeons_gear:light_feather"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:light_feather"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "08EA4AA80B716468"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "2137B5A038EAF282"
-					type: "custom"
-				}
-			]
+			x: 7.0d
+			y: 13.5d
 		}
 		{
-			x: 0.5d
-			y: 3.0d
 			id: "02577FE7B31039C2"
+			rewards: [{
+				id: "7AD6967D14FACE7D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "07BA315BC269ECFD"
-				type: "item"
 				item: {
-					id: "dungeons_gear:soul_healer"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:soul_healer"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "1B78ACDC6C647098"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "38357022867339FD"
-					type: "custom"
-				}
-			]
+			x: 0.5d
+			y: 3.0d
 		}
 		{
-			x: 8.0d
-			y: 13.0d
 			id: "770842B0FD8C2CDC"
+			rewards: [{
+				id: "6712A876C3596314"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2BFAD046ED4494BF"
-				type: "item"
 				item: {
-					id: "dungeons_gear:wind_horn"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:wind_horn"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "062F2FAF4FE6D35E"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "7C5149A3A5184C6A"
-					type: "custom"
-				}
-			]
+			x: 8.0d
+			y: 13.0d
 		}
 		{
-			x: 11.0d
-			y: 9.5d
 			id: "6C7E9C9561EA31F9"
+			rewards: [{
+				id: "2E1441503D2D2194"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "334B90A74D177D86"
-				type: "item"
 				item: {
-					id: "dungeons_gear:ice_wand"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:ice_wand"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "590E74EC4B40C404"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "6E2C78BDEA9CA3BD"
-					type: "custom"
-				}
-			]
+			x: 11.0d
+			y: 9.5d
 		}
 		{
-			x: 10.5d
-			y: 10.5d
 			id: "6909DCD346596566"
+			rewards: [{
+				id: "62282228EA5177B6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "63FF1D85CB620519"
-				type: "item"
 				item: {
-					id: "dungeons_gear:corrupted_seeds"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:corrupted_seeds"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "3461DFA73C794020"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "6DA8336187668F26"
-					type: "custom"
-				}
-			]
+			x: 10.5d
+			y: 10.5d
 		}
 		{
-			x: 4.0d
-			y: 1.0d
 			id: "3D9299C466992703"
+			rewards: [{
+				id: "4D6F287A2335E039"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1D58D42D98317443"
-				type: "item"
 				item: {
-					id: "dungeons_gear:shock_powder"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:shock_powder"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "168B2C05E2732B7B"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "79B69A72E9414AEC"
-					type: "custom"
-				}
-			]
+			x: 4.0d
+			y: 1.0d
 		}
 		{
-			x: 6.0d
-			y: 1.0d
 			id: "2A98C5C2D27B62C4"
+			rewards: [{
+				id: "41A33DDB718CEE33"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4F4A10497ABCBEC4"
-				type: "item"
 				item: {
-					id: "dungeons_gear:harvester"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:harvester"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "22214AF630F5C734"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "582198A65E3BDE2E"
-					type: "custom"
-				}
-			]
+			x: 6.0d
+			y: 1.0d
 		}
 		{
-			x: 7.0d
-			y: 1.5d
 			id: "2C4C2C5419747E78"
+			rewards: [{
+				id: "6EB2CE0C5CE37A00"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1D13FF4BC7D90346"
-				type: "item"
 				item: {
-					id: "dungeons_gear:ghost_cloak"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:ghost_cloak"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "65C97A427603DC01"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "291B0A59D68C13B1"
-					type: "custom"
-				}
-			]
+			x: 7.0d
+			y: 1.5d
 		}
 		{
-			x: 9.5d
-			y: 3.0d
 			id: "1E10D8E9066FE566"
+			rewards: [{
+				id: "6AABBB4F0DCECACA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "314B192EC70E45FD"
-				type: "item"
 				item: {
-					id: "dungeons_gear:torment_quiver"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:torment_quiver"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "269A8EADB36CE16A"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "01641CE4CC073A47"
-					type: "custom"
-				}
-			]
+			x: 9.5d
+			y: 3.0d
 		}
 		{
-			x: 11.5d
-			y: 6.5d
 			id: "1604341F1BC18F95"
+			rewards: [{
+				id: "7259F2F2D5FC76BD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0178D6096C9AEA86"
-				type: "item"
 				item: {
-					id: "dungeons_gear:totem_of_shielding"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:totem_of_shielding"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "1B27A7F721448C3D"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "5E96834EC26E191B"
-					type: "custom"
-				}
-			]
+			x: 11.5d
+			y: 6.5d
 		}
 		{
-			x: 11.5d
-			y: 8.5d
 			id: "569E6F3199D47AB8"
+			rewards: [{
+				id: "3BA90A3830C92A44"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "423373963A612B80"
-				type: "item"
 				item: {
-					id: "dungeons_gear:totem_of_soul_protection"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:totem_of_soul_protection"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "47ABE974EF543F10"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "2BE36D59F74384D0"
-					type: "custom"
-				}
-			]
+			x: 11.5d
+			y: 8.5d
 		}
 		{
-			x: 4.0d
-			y: 14.0d
 			id: "5B652569061DE6F3"
+			rewards: [{
+				id: "050CEB00F2F53DB9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "63F46F848C42189A"
-				type: "item"
 				item: {
-					id: "dungeons_gear:buzzy_nest"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:buzzy_nest"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "3B6E49F9B015B209"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "565751F25FCC1D86"
-					type: "custom"
-				}
-			]
+			x: 4.0d
+			y: 14.0d
 		}
 		{
-			x: 6.0d
-			y: 14.0d
 			id: "199744C8E04EDD39"
+			rewards: [{
+				id: "325475D5A815A533"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "603FC1769E05259D"
-				type: "item"
 				item: {
-					id: "dungeons_gear:corrupted_beacon"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:corrupted_beacon"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "0E707E5A708873EC"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "132A148F58A91BA5"
-					type: "custom"
-				}
-			]
+			x: 6.0d
+			y: 14.0d
 		}
 		{
-			x: -1.5d
-			y: 6.5d
 			id: "39E2243C32CCADF9"
+			rewards: [{
+				id: "1BAEC482EE5168B7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2D3EDDC91E5C6CAA"
-				type: "item"
 				item: {
-					id: "dungeons_gear:enchanted_grass"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:enchanted_grass"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "605BF59566668CB8"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "6075BA99E87EF812"
-					type: "custom"
-				}
-			]
+			x: -1.5d
+			y: 6.5d
 		}
 		{
-			x: 11.0d
-			y: 5.5d
 			id: "6D99960BCE7C37E4"
+			rewards: [{
+				id: "2948F57E1CE61B5E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4CDE0D394D91671F"
-				type: "item"
 				item: {
-					id: "dungeons_gear:corrupted_pumpkin"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:corrupted_pumpkin"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "1BFE2665C0C973E3"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "50F019692B2B5E7E"
-					type: "custom"
-				}
-			]
+			x: 11.0d
+			y: 5.5d
 		}
 		{
-			x: 3.0d
-			y: 1.5d
 			id: "4862D9E14E68B083"
+			rewards: [{
+				id: "0D9EA51B6E8406A2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0BEBA23473038CC5"
-				type: "item"
 				item: {
-					id: "dungeons_gear:thundering_quiver"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "dungeons_gear:thundering_quiver"
+					tag: {
+						Damage: 0
+					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "5106B845DC98082A"
-					type: "xp_levels"
-					xp_levels: 2
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "6B9D3ECFBAA581C7"
+			rewards: [{
+				id: "2FFD18EEC51BDE96"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "The ultimate weapon for any warrior. With its sleek design and deadly sharp blade, you'll be unstoppable in battle."
+			tasks: [{
+				id: "2EEF33BC391FF932"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:shadow_glaive"
+					tag: {
+						Damage: 0
+						abilities: {
+							glaive: {
+								points: 0
+								stats: {
+									bounces: 4.38353d
+									damage: 2.6254d
+									radius: 2.96191d
+									recharge: 28.00851d
+								}
+							}
+							saw: {
+								points: 0
+								stats: {
+									damage: 1.47667d
+									speed: 15.89248d
+								}
+							}
+						}
+						charges: 8
+					}
 				}
-				{
-					id: "749B9666CB4D0667"
-					type: "custom"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "250B43DCABEA816C"
+			rewards: [{
+				id: "54CEB1DC62C379E2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "This necklace is perfect for those who want to show off their dark side. Made with infernal hatred, it's sure to turn heads and make a statement."
+			tasks: [{
+				id: "143A1D9A48D53308"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:reflection_necklace"
+					tag: {
+						Damage: 0
+						abilities: {
+							explode: {
+								points: 0
+								stats: {
+									capacity: 49.37164d
+									damage: 0.29567d
+									stun: 0.09832d
+								}
+							}
+						}
+					}
 				}
-			]
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "62BD55FFC0600FEF"
+			rewards: [{
+				id: "0F03E02023F1EF65"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "These Aqua walker boots are perfect for any outdoor adventure! With their waterproof design and sturdy grip, you'll be able to tackle any terrain with ease."
+			tasks: [{
+				id: "77CB63C75BFD5333"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:aqua_walker"
+					tag: {
+						Damage: 0
+						abilities: {
+							walking: {
+								points: 0
+								stats: {
+									time: 50.78999d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "052E4E7C654A2C02"
+			rewards: [{
+				id: "2621C841CAAAC409"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Luxurious and comfortable robe that disappears into thin air when you need it to. Perfect for those who value convenience and style."
+			tasks: [{
+				id: "1EDDCE781E3F4E54"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:midnight_robe"
+					tag: {
+						Damage: 0
+						abilities: {
+							backstab: {
+								points: 0
+								stats: {
+									damage: 1.29258d
+									distance: 15.86999d
+								}
+							}
+							vanish: {
+								points: 0
+								stats: {
+									light: 1.89497d
+									speed: 0.27435d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "24F9917942E6531C"
+			rewards: [{
+				id: "460898BF151DE42E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "This necklace features a jellyfish pendant made of resin and suspended on a silver chain. It is a unique and eye-catching accessory for any outfit."
+			tasks: [{
+				id: "50B692D83B762957"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:jellyfish_necklace"
+					tag: {
+						Damage: 0
+						abilities: {
+							paralysis: {
+								points: 0
+								stats: {
+									duration: 0.60597d
+								}
+							}
+							shock: {
+								points: 0
+								stats: {
+									damage: 1.10359d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "2BD60874182BB807"
+			rewards: [{
+				id: "171F5CD63A1DB080"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "The ultimate weapon against the undead. With its powerful enchantments, this ring will make you unstoppable in your quest to rid the world of the undead."
+			tasks: [{
+				id: "5A395432E3A43766"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:bastion_ring"
+					tag: {
+						Damage: 0
+						abilities: {
+							trade: {
+								points: 0
+								stats: {
+									rolls: 0.89605d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "256D54EAF5CE7A01"
+			rewards: [{
+				id: "61EC4583C2F410A7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "This ring allows you to control teleportation. Simply think of your desired location and you will be instantly transported there. Perfect for adventurers and travelers."
+			tasks: [{
+				id: "24B31E0785FD41CB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:chorus_inhibitor"
+					tag: {
+						Damage: 0
+						abilities: {
+							blink: {
+								points: 0
+								stats: {
+									cooldown: 9.07565d
+									distance: 21.89957d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "4FD75759DDEBAD72"
+			rewards: [{
+				id: "6AE302245DFD2EC3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Quiver is a lightweight and durable backpack designed for archers. It has a special compartment for arrows and a comfortable shoulder strap for easy carrying."
+			tasks: [{
+				id: "7AA12894DA74CEF5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:arrow_quiver"
+					tag: {
+						Damage: 0
+						abilities: {
+							agility: {
+								points: 0
+								stats: {
+									modifier: 1.0d
+								}
+							}
+							leap: {
+								points: 0
+								stats: {
+									cooldown: 13.7508d
+									duration: 5.31392d
+									multiplier: 0.19622d
+								}
+							}
+							rain: {
+								points: 0
+								stats: {
+									delay: 0.76021d
+									duration: 11.71048d
+									radius: 3.20259d
+								}
+							}
+							receptacle: {
+								points: 0
+								stats: {
+									slots: 2.36127d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "7CC6A7C3798F18CE"
+			rewards: [{
+				id: "5A1D6E1D37051E63"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "This relic allows you to travel through portals and time. It's a powerful tool for adventurers and explorers. Get ready for an exciting journey!"
+			tasks: [{
+				id: "5AD26CD8490C576F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:space_dissector"
+					tag: {
+						Damage: 0
+						abilities: {
+							dissection: {
+								points: 0
+								stats: {
+									distance: 31.95579d
+									time: 5.95396d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "2D3834E1E7147F8D"
+			rewards: [{
+				id: "2B83C6D9869FA726"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Keep your hands warm and cozy with our wool mittens. Perfect for chilly days, these mittens are made with high-quality wool to ensure maximum comfort and durability."
+			tasks: [{
+				id: "4F5A37A18058B69F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:wool_mitten"
+					tag: {
+						Damage: 0
+						abilities: {
+							mold: {
+								points: 0
+								stats: {
+									damage: 0.09217d
+									freeze: 1.22105d
+									size: 17.59146d
+									stun: 0.02658d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "7D3820F8A43208E4"
+			rewards: [{
+				id: "0005CFA24707202F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Looking for a unique musical instrument? Check out our horse flute! Made from high-quality materials, it produces a beautiful sound that will transport you to the countryside. Perfect for musicians and horse lovers alike."
+			tasks: [{
+				id: "4F2C2A9D15883182"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:horse_flute"
+					tag: {
+						Damage: 0
+						abilities: {
+							heal: {
+								points: 0
+								stats: {
+									amount: 0.065d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "13F77099EA96DC86"
+			rewards: [{
+				id: "45CF58BF48E80DAE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "This leather belt is perfect for carrying your talismans with you wherever you go. It's stylish, durable, and will keep your lucky charms close at hand."
+			tasks: [{
+				id: "5977366ECBCA4B65"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:leather_belt"
+					tag: {
+						Damage: 0
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									talisman: 1.0618d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "689134DB90D29173"
+			rewards: [{
+				id: "7163C2A0075AF745"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: " These skates are designed to help you move faster and smoother. Perfect for beginners and pros alike."
+			tasks: [{
+				id: "6DB0E81E3EA282D8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:roller_skates"
+					tag: {
+						Damage: 0
+						abilities: {
+							skating: {
+								points: 0
+								stats: {
+									duration: 25.64074d
+									speed: 0.00332d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "0846BA65AB3BF6AA"
+			rewards: [{
+				id: "251E46B3F62B2EC2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Introducing the ultimate solution for all your spore needs - the Spore Sack! With its durable and compact design, this sack is perfect for storing and transporting spores."
+			tasks: [{
+				id: "488C0A5BB956A197"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:spore_sack"
+					tag: {
+						Damage: 0
+						abilities: {
+							buffer: {
+								points: 0
+								stats: {
+									capacity: 4.22112d
+									chance: 0.05194d
+								}
+							}
+							explosion: {
+								points: 0
+								stats: {
+									size: 0.1474d
+								}
+							}
+							multiplying: {
+								points: 0
+								stats: {
+									amount: 0.10177d
+									chance: 0.10651d
+									size: 0.0688d
+								}
+							}
+							spore: {
+								points: 0
+								stats: {
+									cooldown: 13.40025d
+									damage: 0.46325d
+									duration: 2.96891d
+									size: 0.34771d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "36B5D00271374AC3"
+			rewards: [{
+				id: "6D6B330D654F824A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "With its innovative design, this flask ensures safe and secure travel."
+			tasks: [{
+				id: "6EE8D13366F82D37"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:blazing_flask"
+					tag: {
+						Damage: 0
+						abilities: {
+							bonfire: {
+								points: 0
+								stats: {
+									height: 3.81905d
+									speed: 0.0334d
+									step: 1.64646d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "254E90FE50B40A99"
+			rewards: [{
+				id: "46F6F8015B3B135A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "The Elytra booster is the ultimate tool for Minecraft players who want to soar through the skies with ease. With its powerful boost, you'll be flying like a pro in no time!"
+			tasks: [{
+				id: "7A253E444147C332"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:elytra_booster"
+					tag: {
+						Damage: 0
+						abilities: {
+							boost: {
+								points: 0
+								stats: {
+									capacity: 89.4381d
+									speed: 1.32468d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "331A3B5422FF4DEC"
+			rewards: [{
+				id: "6F88BCB05C0CFB35"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "These gloves are perfect for Minecraft players who want to avoid angering Endermen. They allow you to look at them without provoking an attack."
+			tasks: [{
+				id: "5F24345F1F850345"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:enders_hand"
+					tag: {
+						Damage: 0
+						abilities: {
+							swap: {
+								points: 0
+								stats: {
+									distance: 20.00591d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "3CA95C8191A2414B"
+			rewards: [{
+				id: "4DE1F05D4EEFC43B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "The Holy Locket is a sacred pendant that holds a small amount of holy water. It is believed to provide protection and blessings to the wearer."
+			tasks: [{
+				id: "33A1064C21F3F683"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:holy_locket"
+					tag: {
+						Damage: 0
+						abilities: {
+							steal: {
+								points: 0
+								stats: {
+									amount: 0.12243d
+									radius: 5.18466d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
 		}
 	]
-	quest_links: [ ]
+	title: "Trinkets 'n Curios"
 }

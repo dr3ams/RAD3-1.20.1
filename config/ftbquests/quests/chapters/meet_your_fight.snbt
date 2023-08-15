@@ -1,17 +1,14 @@
 {
-	id: "0F590B3A1FD5D993"
-	group: "0FF98225FE921275"
-	order_index: 4
-	filename: "meet_your_fight"
-	title: "Meet Your Fight!"
-	icon: "meetyourfight:haunted_bell"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "meet_your_fight"
+	group: "0FF98225FE921275"
+	icon: "meetyourfight:haunted_bell"
+	id: "0F590B3A1FD5D993"
+	order_index: 2
+	quest_links: [ ]
 	quests: [
 		{
-			x: -3.5d
-			y: 3.0d
-			shape: "hexagon"
 			description: [
 				"Bellringer is a boss added by Meet Your Fight. It can be summoned by using a Haunted Bell. When killed, it drops 1 Phantoplasm and 3-4 Gold Ingots."
 				""
@@ -21,34 +18,28 @@
 				""
 				"After falling below 50%, it rings its bell to apply Slowness II for 15 seconds to all nearby entities, then quickly fire 20 lines of projectiles at ground level that go toward its current target. After this attack is finished, Bellringer resumes its normal attacks, but each will fire 4 waves of projectiles instead of 3 for the rest of the fight."
 			]
-			size: 1.5d
 			id: "01586496C0B6EB67"
-			tasks: [{
-				id: "0263104BCAE479EB"
-				type: "item"
-				item: "meetyourfight:haunted_bell"
-			}]
 			rewards: [
 				{
 					id: "2E2EA952DF5D2827"
-					type: "item"
 					item: "aquaculture:treasure_chest"
+					type: "item"
 				}
 				{
 					id: "030091FB19C36FEF"
-					type: "item"
 					item: "randomite:randomite_ore"
+					type: "item"
 				}
 				{
 					id: "6ECA1FA51AD4B2E4"
-					type: "item"
 					item: {
-						id: "roughtweaks:medkit"
 						Count: 1b
+						id: "roughtweaks:medkit"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "792365B00559EB46"
@@ -56,11 +47,17 @@
 					xp_levels: 5
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0263104BCAE479EB"
+				item: "meetyourfight:haunted_bell"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
 		}
 		{
-			x: 0.0d
-			y: 2.25d
-			shape: "hexagon"
 			description: [
 				"Swampjaw is a boss added by Meet Your Fight. It can be summoned by using a Fossil Bait. When killed, it drops 1 Mossy Tooth, 3-6 Bones, 2-4 Vines, and 1-3 Dirt."
 				""
@@ -69,34 +66,28 @@
 				"Rapidly move above its target to drop 3 mines, these explode when touching the ground with half the strength of TNT and do not destroy blocks or hurt Swampjaw."
 				"Swoop down to charge its target, dealing 7 damage on contact. Damaging Swampjaw prematurely cancels this attack."
 			]
-			size: 1.5d
 			id: "6A51E5206B5F75D4"
-			tasks: [{
-				id: "750587A9AF516FFB"
-				type: "item"
-				item: "meetyourfight:fossil_bait"
-			}]
 			rewards: [
 				{
 					id: "5116A99A7CDB8246"
-					type: "item"
 					item: "aquaculture:treasure_chest"
+					type: "item"
 				}
 				{
 					id: "4421F827CEAE4603"
-					type: "item"
 					item: "randomite:randomite_ore"
+					type: "item"
 				}
 				{
 					id: "3DF51433F2C563C9"
-					type: "item"
 					item: {
-						id: "roughtweaks:medkit"
 						Count: 1b
+						id: "roughtweaks:medkit"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "5E254AE76002A078"
@@ -104,39 +95,39 @@
 					xp_levels: 5
 				}
 			]
-		}
-		{
-			x: 3.5d
-			y: 3.0d
 			shape: "hexagon"
 			size: 1.5d
-			id: "4BBEF37E398FA6EA"
 			tasks: [{
-				id: "129B22DDDD62E34F"
+				id: "750587A9AF516FFB"
+				item: "meetyourfight:fossil_bait"
 				type: "item"
-				item: "meetyourfight:devils_ante"
 			}]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			id: "4BBEF37E398FA6EA"
 			rewards: [
 				{
 					id: "3647C275D967D9ED"
-					type: "item"
 					item: "aquaculture:treasure_chest"
+					type: "item"
 				}
 				{
 					id: "2DFA4E5875842DA1"
-					type: "item"
 					item: "randomite:randomite_ore"
+					type: "item"
 				}
 				{
 					id: "3C3808BABF16D216"
-					type: "item"
 					item: {
-						id: "roughtweaks:medkit"
 						Count: 1b
+						id: "roughtweaks:medkit"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "56631FF9380F6F5A"
@@ -144,114 +135,112 @@
 					xp_levels: 5
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "129B22DDDD62E34F"
+				item: "meetyourfight:devils_ante"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
 		}
 		{
-			x: -5.0d
-			y: 3.0d
 			dependencies: ["01586496C0B6EB67"]
 			id: "4FA4121CB7AE573E"
-			tasks: [{
-				id: "265903DA5FB66C0E"
-				type: "item"
-				item: "meetyourfight:phantoplasm"
-			}]
 			rewards: [
 				{
 					id: "1ADCD9F237A2088D"
-					type: "item"
 					item: {
-						id: "roughtweaks:bandage"
 						Count: 1b
+						id: "roughtweaks:bandage"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "43DD1491F7812A8F"
-					type: "ftbmoney:money"
-					ftb_money: 50L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				id: "265903DA5FB66C0E"
+				item: "meetyourfight:phantoplasm"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
 		}
 		{
-			x: 0.0d
-			y: 4.0d
 			dependencies: ["6A51E5206B5F75D4"]
 			id: "430B95CA9EB92E5C"
-			tasks: [{
-				id: "0EF3C88336006C14"
-				type: "item"
-				item: "meetyourfight:mossy_tooth"
-			}]
 			rewards: [
 				{
 					id: "495B533D45D5ADBB"
-					type: "item"
 					item: {
-						id: "roughtweaks:bandage"
 						Count: 1b
+						id: "roughtweaks:bandage"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "2C5C91DF0C956BDE"
-					type: "ftbmoney:money"
-					ftb_money: 50L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				id: "0EF3C88336006C14"
+				item: "meetyourfight:mossy_tooth"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
 		}
 		{
-			x: 5.0d
-			y: 3.0d
 			dependencies: ["4BBEF37E398FA6EA"]
 			id: "2902A2D96332A34A"
-			tasks: [{
-				id: "2FAFABEE9523C596"
-				type: "item"
-				item: "meetyourfight:fortunes_favor"
-			}]
 			rewards: [
 				{
 					id: "556D62595703A413"
-					type: "item"
 					item: {
-						id: "roughtweaks:bandage"
 						Count: 1b
+						id: "roughtweaks:bandage"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "7ACDD0BA914DF8F0"
-					type: "ftbmoney:money"
-					ftb_money: 50L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				id: "2FAFABEE9523C596"
+				item: "meetyourfight:fortunes_favor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
 		}
 		{
-			x: 7.0d
-			y: 2.5d
 			dependencies: ["2902A2D96332A34A"]
 			id: "2BFC276EEE062A1F"
-			tasks: [{
-				id: "48A86AA284E403AD"
-				type: "item"
-				item: "meetyourfight:slicers_dice"
-			}]
 			rewards: [
 				{
 					id: "04F59EE3B6C98861"
-					type: "item"
 					item: "losttrinkets:treasure_bag"
+					type: "item"
 				}
 				{
 					id: "31ABC829A6846DBA"
-					type: "ftbmoney:money"
-					ftb_money: 20L
+					type: "custom"
 				}
 				{
 					id: "6485C274F25B611C"
@@ -260,31 +249,30 @@
 				}
 				{
 					id: "21B2CB2EFD44E679"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 			]
+			tasks: [{
+				id: "48A86AA284E403AD"
+				item: "meetyourfight:slicers_dice"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
 		}
 		{
-			x: 6.0d
-			y: 4.0d
 			dependencies: ["2902A2D96332A34A"]
 			id: "3825DCF170FB6A6A"
-			tasks: [{
-				id: "7135218C5DB4A6CC"
-				type: "item"
-				item: "meetyourfight:ace_of_iron"
-			}]
 			rewards: [
 				{
 					id: "43FF82623951904F"
-					type: "item"
 					item: "losttrinkets:treasure_bag"
+					type: "item"
 				}
 				{
 					id: "681C1190289A63E5"
-					type: "ftbmoney:money"
-					ftb_money: 20L
+					type: "custom"
 				}
 				{
 					id: "2EFB303F1092E74F"
@@ -293,37 +281,30 @@
 				}
 				{
 					id: "0F865CD58D1D9EAC"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 			]
+			tasks: [{
+				id: "7135218C5DB4A6CC"
+				item: "meetyourfight:ace_of_iron"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
 		}
 		{
-			x: 6.0d
-			y: 2.0d
 			dependencies: ["2902A2D96332A34A"]
 			id: "6B90A18AD9F4B77D"
-			tasks: [{
-				id: "72D054F4A09BDE0E"
-				type: "item"
-				item: {
-					id: "meetyourfight:cocktail_cutlass"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [
 				{
 					id: "7D9E36ED246A851F"
-					type: "item"
 					item: "losttrinkets:treasure_bag"
+					type: "item"
 				}
 				{
 					id: "24A1A0A5BF4EF7C0"
-					type: "ftbmoney:money"
-					ftb_money: 20L
+					type: "custom"
 				}
 				{
 					id: "1D5957914C8F8DFE"
@@ -332,31 +313,36 @@
 				}
 				{
 					id: "30B516E473A3EECD"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 			]
+			tasks: [{
+				id: "72D054F4A09BDE0E"
+				item: {
+					Count: 1b
+					id: "meetyourfight:cocktail_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
 		}
 		{
-			x: 7.0d
-			y: 3.5d
 			dependencies: ["2902A2D96332A34A"]
 			id: "0D656D70646EA87A"
-			tasks: [{
-				id: "2C23BB9C70F3A657"
-				type: "item"
-				item: "meetyourfight:velvet_fortune"
-			}]
 			rewards: [
 				{
 					id: "37AD492ADC148CC1"
-					type: "item"
 					item: "losttrinkets:treasure_bag"
+					type: "item"
 				}
 				{
 					id: "52AC3D67C0075878"
-					type: "ftbmoney:money"
-					ftb_money: 20L
+					type: "custom"
 				}
 				{
 					id: "18135C0CE3517572"
@@ -365,31 +351,30 @@
 				}
 				{
 					id: "4670B6A8528F1B10"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 			]
+			tasks: [{
+				id: "2C23BB9C70F3A657"
+				item: "meetyourfight:velvet_fortune"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
 		}
 		{
-			x: -1.5d
-			y: 4.0d
 			dependencies: ["430B95CA9EB92E5C"]
 			id: "36FC8D7BB0D670BF"
-			tasks: [{
-				id: "14016C294E417E22"
-				type: "item"
-				item: "meetyourfight:bone_raker"
-			}]
 			rewards: [
 				{
 					id: "3A39ED2D5D97C8F1"
-					type: "item"
 					item: "losttrinkets:treasure_bag"
+					type: "item"
 				}
 				{
 					id: "5338EBA9E2EBEA0A"
-					type: "ftbmoney:money"
-					ftb_money: 20L
+					type: "custom"
 				}
 				{
 					id: "07860FC27826D32A"
@@ -398,37 +383,30 @@
 				}
 				{
 					id: "43814013DF13D2DD"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 			]
+			tasks: [{
+				id: "14016C294E417E22"
+				item: "meetyourfight:bone_raker"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
 		}
 		{
-			x: 1.0d
-			y: 5.0d
 			dependencies: ["430B95CA9EB92E5C"]
 			id: "00C8004131AAE6F7"
-			tasks: [{
-				id: "34EA9CD8E6B8B223"
-				type: "item"
-				item: {
-					id: "meetyourfight:depth_star"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [
 				{
 					id: "68F922688855E95E"
-					type: "item"
 					item: "losttrinkets:treasure_bag"
+					type: "item"
 				}
 				{
 					id: "0C1BA495CD9EC011"
-					type: "ftbmoney:money"
-					ftb_money: 20L
+					type: "custom"
 				}
 				{
 					id: "7F6B9B7D46628FFF"
@@ -437,31 +415,36 @@
 				}
 				{
 					id: "30DF1294D8C959B0"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 			]
+			tasks: [{
+				id: "34EA9CD8E6B8B223"
+				item: {
+					Count: 1b
+					id: "meetyourfight:depth_star"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
 		}
 		{
-			x: 1.5d
-			y: 4.0d
 			dependencies: ["430B95CA9EB92E5C"]
 			id: "3E12346156015D00"
-			tasks: [{
-				id: "7640E032ECEE9D20"
-				type: "item"
-				item: "meetyourfight:caged_heart"
-			}]
 			rewards: [
 				{
 					id: "7967F4EC65B0917E"
-					type: "item"
 					item: "losttrinkets:treasure_bag"
+					type: "item"
 				}
 				{
 					id: "42FAC2B0718E0242"
-					type: "ftbmoney:money"
-					ftb_money: 20L
+					type: "custom"
 				}
 				{
 					id: "36D5361BD1C59ED9"
@@ -470,31 +453,30 @@
 				}
 				{
 					id: "576B9958828C84ED"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 			]
+			tasks: [{
+				id: "7640E032ECEE9D20"
+				item: "meetyourfight:caged_heart"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
 		}
 		{
-			x: -1.0d
-			y: 5.0d
 			dependencies: ["430B95CA9EB92E5C"]
 			id: "3F3BE8A3EBB7D7B7"
-			tasks: [{
-				id: "0C030F9D9D37D1BE"
-				type: "item"
-				item: "meetyourfight:marshy_delight"
-			}]
 			rewards: [
 				{
 					id: "6FC841F939D276E2"
-					type: "item"
 					item: "losttrinkets:treasure_bag"
+					type: "item"
 				}
 				{
 					id: "4BCEB0DE79F5D4D1"
-					type: "ftbmoney:money"
-					ftb_money: 20L
+					type: "custom"
 				}
 				{
 					id: "7F43A6D2C1EF4D30"
@@ -503,31 +485,30 @@
 				}
 				{
 					id: "64F13B068A8A27C0"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 			]
+			tasks: [{
+				id: "0C030F9D9D37D1BE"
+				item: "meetyourfight:marshy_delight"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
 		}
 		{
-			x: -7.0d
-			y: 3.5d
 			dependencies: ["4FA4121CB7AE573E"]
 			id: "6FB76A93A64BE52D"
-			tasks: [{
-				id: "1FC67AF6ECF95F8A"
-				type: "item"
-				item: "meetyourfight:passages_toll"
-			}]
 			rewards: [
 				{
 					id: "46CCDE781D952102"
-					type: "item"
 					item: "losttrinkets:treasure_bag"
+					type: "item"
 				}
 				{
 					id: "5075A8329EFC976E"
-					type: "ftbmoney:money"
-					ftb_money: 20L
+					type: "custom"
 				}
 				{
 					id: "6A553F9EABC5D0F4"
@@ -536,31 +517,30 @@
 				}
 				{
 					id: "3257F3A5203CD32C"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 			]
+			tasks: [{
+				id: "1FC67AF6ECF95F8A"
+				item: "meetyourfight:passages_toll"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
 		}
 		{
-			x: -6.0d
-			y: 2.0d
 			dependencies: ["4FA4121CB7AE573E"]
 			id: "0B6A4216C393C695"
-			tasks: [{
-				id: "11B61D7607768A58"
-				type: "item"
-				item: "meetyourfight:spectres_eye"
-			}]
 			rewards: [
 				{
 					id: "38D39B157681C41B"
-					type: "item"
 					item: "losttrinkets:treasure_bag"
+					type: "item"
 				}
 				{
 					id: "029F4C121C7EBD25"
-					type: "ftbmoney:money"
-					ftb_money: 20L
+					type: "custom"
 				}
 				{
 					id: "53E2137D5D3AD4B9"
@@ -569,31 +549,30 @@
 				}
 				{
 					id: "7219330DD0E6C6C5"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 			]
+			tasks: [{
+				id: "11B61D7607768A58"
+				item: "meetyourfight:spectres_eye"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
 		}
 		{
-			x: -6.0d
-			y: 4.0d
 			dependencies: ["4FA4121CB7AE573E"]
 			id: "352860E048E56249"
-			tasks: [{
-				id: "40E0566D964682F9"
-				type: "item"
-				item: "meetyourfight:spectres_grasp"
-			}]
 			rewards: [
 				{
 					id: "550F3A90DDDD1D6D"
-					type: "item"
 					item: "losttrinkets:treasure_bag"
+					type: "item"
 				}
 				{
 					id: "1BEC12C0531771D4"
-					type: "ftbmoney:money"
-					ftb_money: 20L
+					type: "custom"
 				}
 				{
 					id: "43EBE3262772ED33"
@@ -602,31 +581,30 @@
 				}
 				{
 					id: "5797BAAD224C245E"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 			]
+			tasks: [{
+				id: "40E0566D964682F9"
+				item: "meetyourfight:spectres_grasp"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
 		}
 		{
-			x: -7.0d
-			y: 2.5d
 			dependencies: ["4FA4121CB7AE573E"]
 			id: "2C8425F45507BE14"
-			tasks: [{
-				id: "7595D2FFCC54DE2B"
-				type: "item"
-				item: "meetyourfight:aether_glazed_cupcake"
-			}]
 			rewards: [
 				{
 					id: "60BAE526966E791A"
-					type: "item"
 					item: "losttrinkets:treasure_bag"
+					type: "item"
 				}
 				{
 					id: "425A9C17DDFDCD2A"
-					type: "ftbmoney:money"
-					ftb_money: 20L
+					type: "custom"
 				}
 				{
 					id: "1A86F38545310C89"
@@ -635,53 +613,50 @@
 				}
 				{
 					id: "06698B1D31384D89"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 			]
+			tasks: [{
+				id: "7595D2FFCC54DE2B"
+				item: "meetyourfight:aether_glazed_cupcake"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
 		}
 		{
-			x: -8.5d
-			y: 0.0d
-			shape: "octagon"
-			size: 1.5d
 			id: "33ED106956388C27"
-			tasks: [{
-				id: "110E81D678BC0DBB"
-				type: "item"
-				item: "mowziesmobs:wrought_helmet"
-			}]
 			rewards: [
 				{
 					id: "1FF9EE63C754A0D8"
-					type: "item"
 					item: {
-						id: "roughtweaks:bandage"
 						Count: 1b
+						id: "roughtweaks:bandage"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "25DEB11CB17F503D"
-					type: "item"
 					item: "aquaculture:treasure_chest"
+					type: "item"
 				}
 				{
 					id: "38665752FB5C6B50"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 				{
 					id: "2013AE83DD9F3CD8"
-					type: "ftbmoney:money"
-					ftb_money: 50L
+					type: "custom"
 				}
 				{
 					id: "5406404A5D1CC4A6"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "719832C8EB4EEB5F"
@@ -689,55 +664,48 @@
 					xp_levels: 5
 				}
 			]
-		}
-		{
-			x: -8.5d
-			y: -1.5d
 			shape: "octagon"
 			size: 1.5d
-			id: "4446A9B07703FE84"
 			tasks: [{
-				id: "35F34EF819E92C44"
+				id: "110E81D678BC0DBB"
+				item: "mowziesmobs:wrought_helmet"
 				type: "item"
-				item: {
-					id: "mowziesmobs:barakoa_mask_fury"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
 			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			id: "4446A9B07703FE84"
 			rewards: [
 				{
 					id: "5FC61BBF3A5C973B"
-					type: "item"
 					item: {
-						id: "roughtweaks:bandage"
 						Count: 1b
+						id: "roughtweaks:bandage"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "350B525172E19A53"
-					type: "item"
 					item: "aquaculture:treasure_chest"
+					type: "item"
 				}
 				{
 					id: "673F56027F88F750"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 				{
 					id: "61C9A39323903D23"
-					type: "ftbmoney:money"
-					ftb_money: 50L
+					type: "custom"
 				}
 				{
 					id: "5E91CD013401CD7E"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "134CAF3F781BD3E1"
@@ -745,55 +713,54 @@
 					xp_levels: 5
 				}
 			]
-		}
-		{
-			x: -7.0d
-			y: 0.0d
 			shape: "octagon"
 			size: 1.5d
-			id: "382A5D280EB90F59"
 			tasks: [{
-				id: "59A7293A030FBA86"
-				type: "item"
+				id: "35F34EF819E92C44"
 				item: {
-					id: "mowziesmobs:barakoa_mask_fear"
 					Count: 1b
+					id: "mowziesmobs:barakoa_mask_fury"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			id: "382A5D280EB90F59"
 			rewards: [
 				{
 					id: "5A20B9844B218CB1"
-					type: "item"
 					item: {
-						id: "roughtweaks:bandage"
 						Count: 1b
+						id: "roughtweaks:bandage"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "115E2BFF9AAD14C3"
-					type: "item"
 					item: "aquaculture:treasure_chest"
+					type: "item"
 				}
 				{
 					id: "0808E19DD9A2622C"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 				{
 					id: "026E0F783AFAAA83"
-					type: "ftbmoney:money"
-					ftb_money: 50L
+					type: "custom"
 				}
 				{
 					id: "688CE5059EEACB74"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "5EA8BA50E8F59F26"
@@ -801,55 +768,54 @@
 					xp_levels: 5
 				}
 			]
-		}
-		{
-			x: -5.5d
-			y: -3.0d
 			shape: "octagon"
 			size: 1.5d
-			id: "7E0B0B3735772BEB"
 			tasks: [{
-				id: "5C71D1543FF31270"
-				type: "item"
+				id: "59A7293A030FBA86"
 				item: {
-					id: "mowziesmobs:barakoa_mask_rage"
 					Count: 1b
+					id: "mowziesmobs:barakoa_mask_fear"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			id: "7E0B0B3735772BEB"
 			rewards: [
 				{
 					id: "4A96A404740B2082"
-					type: "item"
 					item: {
-						id: "roughtweaks:bandage"
 						Count: 1b
+						id: "roughtweaks:bandage"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "14E3EED1546E429C"
-					type: "item"
 					item: "aquaculture:treasure_chest"
+					type: "item"
 				}
 				{
 					id: "01B2761DB67583FB"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 				{
 					id: "3D1F667F8087FEF7"
-					type: "ftbmoney:money"
-					ftb_money: 50L
+					type: "custom"
 				}
 				{
 					id: "0D07BD34643C2873"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "115525E2E80ADC4C"
@@ -857,55 +823,54 @@
 					xp_levels: 5
 				}
 			]
-		}
-		{
-			x: -7.0d
-			y: -3.0d
 			shape: "octagon"
 			size: 1.5d
-			id: "1A32C61A2D159BC3"
 			tasks: [{
-				id: "311562887109916F"
-				type: "item"
+				id: "5C71D1543FF31270"
 				item: {
-					id: "mowziesmobs:barakoa_mask_bliss"
 					Count: 1b
+					id: "mowziesmobs:barakoa_mask_rage"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			id: "1A32C61A2D159BC3"
 			rewards: [
 				{
 					id: "648D39E4936457AC"
-					type: "item"
 					item: {
-						id: "roughtweaks:bandage"
 						Count: 1b
+						id: "roughtweaks:bandage"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "783B70A039DD5EAF"
-					type: "item"
 					item: "aquaculture:treasure_chest"
+					type: "item"
 				}
 				{
 					id: "6B975E2EF5298CF6"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 				{
 					id: "4EEDAAABFCEBD3F1"
-					type: "ftbmoney:money"
-					ftb_money: 50L
+					type: "custom"
 				}
 				{
 					id: "4F49F3370AB6E001"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "14213AFBA10C168C"
@@ -913,55 +878,54 @@
 					xp_levels: 5
 				}
 			]
-		}
-		{
-			x: -8.5d
-			y: -3.0d
 			shape: "octagon"
 			size: 1.5d
-			id: "34F0AA6D88CF1F5B"
 			tasks: [{
-				id: "5D4467765DEC19FB"
-				type: "item"
+				id: "311562887109916F"
 				item: {
-					id: "mowziesmobs:barakoa_mask_misery"
 					Count: 1b
+					id: "mowziesmobs:barakoa_mask_bliss"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			id: "34F0AA6D88CF1F5B"
 			rewards: [
 				{
 					id: "22360D08D6FE9490"
-					type: "item"
 					item: {
-						id: "roughtweaks:bandage"
 						Count: 1b
+						id: "roughtweaks:bandage"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "4AA6B48D4B0325E1"
-					type: "item"
 					item: "aquaculture:treasure_chest"
+					type: "item"
 				}
 				{
 					id: "4DB25974B72D5940"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 				{
 					id: "56C870F4D0592471"
-					type: "ftbmoney:money"
-					ftb_money: 50L
+					type: "custom"
 				}
 				{
 					id: "16065169647B5341"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "4A5FEED6775E5B23"
@@ -969,55 +933,54 @@
 					xp_levels: 5
 				}
 			]
-		}
-		{
-			x: -5.5d
-			y: -1.5d
 			shape: "octagon"
 			size: 1.5d
-			id: "0740419211FF21CA"
 			tasks: [{
-				id: "097B9102417584C1"
-				type: "item"
+				id: "5D4467765DEC19FB"
 				item: {
-					id: "mowziesmobs:barakoa_mask_faith"
 					Count: 1b
+					id: "mowziesmobs:barakoa_mask_misery"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			id: "0740419211FF21CA"
 			rewards: [
 				{
 					id: "5BEC883114FAD4F9"
-					type: "item"
 					item: {
-						id: "roughtweaks:bandage"
 						Count: 1b
+						id: "roughtweaks:bandage"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "6D2EFBBB9CB77152"
-					type: "item"
 					item: "aquaculture:treasure_chest"
+					type: "item"
 				}
 				{
 					id: "5276CBC794DECD14"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 				{
 					id: "3784F2EA04C4B17D"
-					type: "ftbmoney:money"
-					ftb_money: 50L
+					type: "custom"
 				}
 				{
 					id: "53F47E198146C964"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "14579AF83CA2E03D"
@@ -1025,49 +988,54 @@
 					xp_levels: 5
 				}
 			]
-		}
-		{
-			x: -7.0d
-			y: -1.5d
 			shape: "octagon"
 			size: 1.5d
-			id: "54F57E26D76A7CBE"
 			tasks: [{
-				id: "7214FCEFA037D90D"
+				id: "097B9102417584C1"
+				item: {
+					Count: 1b
+					id: "mowziesmobs:barakoa_mask_faith"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
-				item: "mowziesmobs:barako_mask"
 			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			id: "54F57E26D76A7CBE"
 			rewards: [
 				{
 					id: "37268038E4A81BAE"
-					type: "item"
 					item: {
-						id: "roughtweaks:bandage"
 						Count: 1b
+						id: "roughtweaks:bandage"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "7720BDD8F662E677"
-					type: "item"
 					item: "aquaculture:treasure_chest"
+					type: "item"
 				}
 				{
 					id: "587590CF5501013B"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 				{
 					id: "0D16E352FF17ACE1"
-					type: "ftbmoney:money"
-					ftb_money: 50L
+					type: "custom"
 				}
 				{
 					id: "6515E2B7901F3603"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "4DBFDB9BE9E64E61"
@@ -1075,49 +1043,48 @@
 					xp_levels: 5
 				}
 			]
-		}
-		{
-			x: -5.5d
-			y: 0.0d
 			shape: "octagon"
 			size: 1.5d
-			id: "69E6868AE0269E59"
 			tasks: [{
-				id: "3793CA43ECC51FF5"
+				id: "7214FCEFA037D90D"
+				item: "mowziesmobs:barako_mask"
 				type: "item"
-				item: "mowziesmobs:naga_fang"
 			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			id: "69E6868AE0269E59"
 			rewards: [
 				{
 					id: "10C16DCB10D52C98"
-					type: "item"
 					item: {
-						id: "roughtweaks:bandage"
 						Count: 1b
+						id: "roughtweaks:bandage"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "31DAFD6C7561DB90"
-					type: "item"
 					item: "aquaculture:treasure_chest"
+					type: "item"
 				}
 				{
 					id: "218571033E135056"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 				{
 					id: "70F3385175B0508C"
-					type: "ftbmoney:money"
-					ftb_money: 50L
+					type: "custom"
 				}
 				{
 					id: "1AF9BBD6B63B06FA"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "0D12B4DD7A734E92"
@@ -1125,24 +1092,18 @@
 					xp_levels: 5
 				}
 			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "3793CA43ECC51FF5"
+				item: "mowziesmobs:naga_fang"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
 		}
 		{
-			title: "Gateways"
-			icon: {
-				id: "gateways:gate_pearl"
-				Count: 1b
-				tag: {
-					gateway: "gateways:ghast_gate"
-				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: 0.0d
-			y: -2.0d
-			shape: "hexagon"
+			dependencies: ["636C994CC9BDE02A"]
 			description: [
 				"Gateways are a great way to farm mob drops after you have collected a few."
 				""
@@ -1156,43 +1117,49 @@
 				""
 				"A gateway's max number of stages is indicated by its boss bar.  Every section on the bar represents a wave, and each section will tick down once it begins.  Clearing a wave will immediately end that wave's timer, and start the sequence for the next wave.  Every time a wave is completed, additional loot (as if more of the spawned mob had died) will spawn from the portal.  The more waves you clear, the more loot spawns at the center, but the stronger the spawned monsters become.  Each wave, the mobs that come forth will be exponentially stronger than their predecessors.  Upon completion of every wave, you will receive a large burst of experience and loot, and the portal will close with no adverse effects."
 			]
-			dependencies: ["636C994CC9BDE02A"]
-			size: 2.0d
-			id: "2859B5A6AAB94D7E"
-			tasks: [{
-				id: "6B770A19DC00095E"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "557B489BEE277204"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
 			icon: {
-				id: "minecraft:zombie_head"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:ghast_gate"
+				}
 			}
-			x: -10.0d
-			y: 6.5d
-			id: "273BBE58DA6C6B5E"
-			tasks: [{
-				id: "42B5455E3940F98A"
-				type: "kill"
-				entity: "minecraft:zombie"
-				value: 15L
+			id: "2859B5A6AAB94D7E"
+			rewards: [{
+				id: "557B489BEE277204"
+				type: "custom"
 			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6B770A19DC00095E"
+				type: "checkmark"
+			}]
+			title: "Gateways"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:zombie_head"
+			}
+			id: "273BBE58DA6C6B5E"
 			rewards: [
 				{
 					id: "4E41CA8238C8E252"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 				{
 					id: "09E2C3F9CC6C1C73"
@@ -1201,28 +1168,27 @@
 				}
 				{
 					id: "7C67CE02F9D23233"
-					type: "ftbmoney:money"
-					ftb_money: 20L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "42B5455E3940F98A"
+				type: "kill"
+				value: 15L
+			}]
+			x: -10.0d
+			y: 6.5d
 		}
 		{
-			icon: "minecraft:zombie_head"
-			x: -10.0d
-			y: 7.5d
 			dependencies: ["273BBE58DA6C6B5E"]
+			icon: "minecraft:zombie_head"
 			id: "6D6F752283D9311E"
-			tasks: [{
-				id: "2C62246C5F9EDF36"
-				type: "kill"
-				entity: "minecraft:zombie"
-				value: 30L
-			}]
 			rewards: [
 				{
 					id: "629CF85EB172F740"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "7D18EC556A8887C7"
@@ -1231,110 +1197,106 @@
 				}
 				{
 					id: "4BC1B5109670FE53"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "2C62246C5F9EDF36"
+				type: "kill"
+				value: 30L
+			}]
+			x: -10.0d
+			y: 7.5d
 		}
 		{
-			icon: "minecraft:zombie_head"
-			x: -10.0d
-			y: 9.5d
 			dependencies: ["0C2F14176C8B6233"]
+			icon: "minecraft:zombie_head"
 			id: "24D7205FF1E55192"
-			tasks: [{
-				id: "16E8E02A92168725"
-				type: "kill"
-				entity: "minecraft:zombie"
-				value: 100L
-			}]
 			rewards: [
 				{
 					id: "4E1CF3E644AF67A8"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "7532ECCBCF95FD47"
-					type: "ftbmoney:money"
-					ftb_money: 80L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "16E8E02A92168725"
+				type: "kill"
+				value: 100L
+			}]
+			x: -10.0d
+			y: 9.5d
 		}
 		{
-			icon: "minecraft:zombie_head"
-			x: -10.0d
-			y: 10.5d
 			dependencies: ["24D7205FF1E55192"]
+			icon: "minecraft:zombie_head"
 			id: "36CB6AB1F16744C3"
-			tasks: [{
-				id: "0A574ECB6510405C"
-				type: "kill"
-				entity: "minecraft:zombie"
-				value: 200L
-			}]
 			rewards: [
 				{
 					id: "748A9325E2D41D1F"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "23C9A087CA55AF0F"
-					type: "ftbmoney:money"
-					ftb_money: 100L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "0A574ECB6510405C"
+				type: "kill"
+				value: 200L
+			}]
+			x: -10.0d
+			y: 10.5d
 		}
 		{
-			icon: "minecraft:zombie_head"
-			x: -10.0d
-			y: 11.5d
 			dependencies: ["36CB6AB1F16744C3"]
+			icon: "minecraft:zombie_head"
 			id: "42B5C52B1EB2CF21"
-			tasks: [{
-				id: "3420BA4854BEB2AE"
-				type: "kill"
-				entity: "minecraft:zombie"
-				value: 500L
-			}]
 			rewards: [
 				{
 					id: "12CA7534C12D7D60"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "0F56FBC2B5391C50"
-					type: "ftbmoney:money"
-					ftb_money: 200L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "3420BA4854BEB2AE"
+				type: "kill"
+				value: 500L
+			}]
+			x: -10.0d
+			y: 11.5d
 		}
 		{
 			icon: {
-				id: "minecraft:skeleton_skull"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "minecraft:skeleton_skull"
 			}
-			x: -7.5d
-			y: 6.5d
 			id: "3E1D08F6D98A914F"
-			tasks: [{
-				id: "748792FF4EB3C697"
-				type: "kill"
-				entity: "minecraft:skeleton"
-				value: 15L
-			}]
 			rewards: [
 				{
 					id: "49DCF0375D18ECFA"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 				{
 					id: "731EA944C13B333A"
@@ -1343,36 +1305,35 @@
 				}
 				{
 					id: "0ACB71D1CDBA7FC9"
-					type: "ftbmoney:money"
-					ftb_money: 20L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "748792FF4EB3C697"
+				type: "kill"
+				value: 15L
+			}]
+			x: -7.5d
+			y: 6.5d
 		}
 		{
+			dependencies: ["3E1D08F6D98A914F"]
 			icon: {
-				id: "minecraft:skeleton_skull"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "minecraft:skeleton_skull"
 			}
-			x: -7.5d
-			y: 7.5d
-			dependencies: ["3E1D08F6D98A914F"]
 			id: "708C3073CDD71408"
-			tasks: [{
-				id: "5D99AB8D10E4DCC3"
-				type: "kill"
-				entity: "minecraft:skeleton"
-				value: 30L
-			}]
 			rewards: [
 				{
 					id: "5B954C142B833986"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "4E21495BC15B3534"
@@ -1381,36 +1342,35 @@
 				}
 				{
 					id: "6BDBE5B354200CD7"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "5D99AB8D10E4DCC3"
+				type: "kill"
+				value: 30L
+			}]
+			x: -7.5d
+			y: 7.5d
 		}
 		{
+			dependencies: ["708C3073CDD71408"]
 			icon: {
-				id: "minecraft:skeleton_skull"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "minecraft:skeleton_skull"
 			}
-			x: -7.5d
-			y: 8.5d
-			dependencies: ["708C3073CDD71408"]
 			id: "4A070C730B96D131"
-			tasks: [{
-				id: "3F7D026CA8DECD17"
-				type: "kill"
-				entity: "minecraft:skeleton"
-				value: 60L
-			}]
 			rewards: [
 				{
 					id: "25FD615EEB4FB324"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "4F6C796DA541D307"
@@ -1419,102 +1379,99 @@
 				}
 				{
 					id: "2339E592F35409D5"
-					type: "ftbmoney:money"
-					ftb_money: 50L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "3F7D026CA8DECD17"
+				type: "kill"
+				value: 60L
+			}]
+			x: -7.5d
+			y: 8.5d
 		}
 		{
+			dependencies: ["4A070C730B96D131"]
 			icon: {
-				id: "minecraft:skeleton_skull"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "minecraft:skeleton_skull"
 			}
-			x: -7.5d
-			y: 9.5d
-			dependencies: ["4A070C730B96D131"]
 			id: "7C643C8DA7163F80"
-			tasks: [{
-				id: "34A2A0F7D815BE58"
-				type: "kill"
-				entity: "minecraft:skeleton"
-				value: 100L
-			}]
 			rewards: [
 				{
 					id: "5A96309EF4B06FFF"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "1BEB4B5E5F90F97D"
-					type: "ftbmoney:money"
-					ftb_money: 80L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "34A2A0F7D815BE58"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 9.5d
 		}
 		{
+			dependencies: ["7C643C8DA7163F80"]
 			icon: {
-				id: "minecraft:skeleton_skull"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "minecraft:skeleton_skull"
 			}
-			x: -7.5d
-			y: 10.5d
-			dependencies: ["7C643C8DA7163F80"]
 			id: "02CA897446FE0C16"
-			tasks: [{
-				id: "19CB74C05D36A294"
-				type: "kill"
-				entity: "minecraft:skeleton"
-				value: 200L
-			}]
 			rewards: [
 				{
 					id: "787D0F7620EDF81B"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "70B8596B24B421D5"
-					type: "ftbmoney:money"
-					ftb_money: 100L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "19CB74C05D36A294"
+				type: "kill"
+				value: 200L
+			}]
+			x: -7.5d
+			y: 10.5d
 		}
 		{
+			dependencies: ["6D6F752283D9311E"]
 			icon: {
-				id: "minecraft:zombie_head"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "minecraft:zombie_head"
 			}
-			x: -10.0d
-			y: 8.5d
-			dependencies: ["6D6F752283D9311E"]
 			id: "0C2F14176C8B6233"
-			tasks: [{
-				id: "5FCB62D2A01560CA"
-				type: "kill"
-				entity: "minecraft:zombie"
-				value: 60L
-			}]
 			rewards: [
 				{
 					id: "316C4AAE3EC74A63"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "0124CFF9E4D518D9"
@@ -1523,68 +1480,66 @@
 				}
 				{
 					id: "1DFEBDDF6F3CCDC4"
-					type: "ftbmoney:money"
-					ftb_money: 50L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "5FCB62D2A01560CA"
+				type: "kill"
+				value: 60L
+			}]
+			x: -10.0d
+			y: 8.5d
 		}
 		{
+			dependencies: ["02CA897446FE0C16"]
 			icon: {
-				id: "minecraft:skeleton_skull"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "minecraft:skeleton_skull"
 			}
-			x: -7.5d
-			y: 11.5d
-			dependencies: ["02CA897446FE0C16"]
 			id: "7AA5044D18A2E23E"
-			tasks: [{
-				id: "14321354793AEE6E"
-				type: "kill"
-				entity: "minecraft:skeleton"
-				value: 500L
-			}]
 			rewards: [
 				{
 					id: "4D514CF7824E47CF"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "4045429D23F64DB7"
-					type: "ftbmoney:money"
-					ftb_money: 200L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "14321354793AEE6E"
+				type: "kill"
+				value: 500L
+			}]
+			x: -7.5d
+			y: 11.5d
 		}
 		{
 			icon: {
-				id: "minecraft:creeper_head"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "minecraft:creeper_head"
 			}
-			x: -6.0d
-			y: 6.5d
 			id: "36C063A88D708055"
-			tasks: [{
-				id: "24D9F5F9B0FC65F0"
-				type: "kill"
-				entity: "minecraft:creeper"
-				value: 10L
-			}]
 			rewards: [
 				{
 					id: "35979555667CD87D"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 				{
 					id: "3BCBB82AC3AD70F8"
@@ -1593,36 +1548,35 @@
 				}
 				{
 					id: "11FF61351D74E30C"
-					type: "ftbmoney:money"
-					ftb_money: 20L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "24D9F5F9B0FC65F0"
+				type: "kill"
+				value: 10L
+			}]
+			x: -6.0d
+			y: 6.5d
 		}
 		{
+			dependencies: ["36C063A88D708055"]
 			icon: {
-				id: "minecraft:creeper_head"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "minecraft:creeper_head"
 			}
-			x: -6.0d
-			y: 7.5d
-			dependencies: ["36C063A88D708055"]
 			id: "1D6BCC0FB9627EFB"
-			tasks: [{
-				id: "1D3C15699121588E"
-				type: "kill"
-				entity: "minecraft:creeper"
-				value: 30L
-			}]
 			rewards: [
 				{
 					id: "344548DAFFFD2AAC"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "2485D22A50042E49"
@@ -1631,36 +1585,35 @@
 				}
 				{
 					id: "11019937A9B52FDD"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "1D3C15699121588E"
+				type: "kill"
+				value: 30L
+			}]
+			x: -6.0d
+			y: 7.5d
 		}
 		{
+			dependencies: ["1D6BCC0FB9627EFB"]
 			icon: {
-				id: "minecraft:creeper_head"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "minecraft:creeper_head"
 			}
-			x: -6.0d
-			y: 8.5d
-			dependencies: ["1D6BCC0FB9627EFB"]
 			id: "7DD33DBEE207DD46"
-			tasks: [{
-				id: "08E9993926B7767E"
-				type: "kill"
-				entity: "minecraft:creeper"
-				value: 60L
-			}]
 			rewards: [
 				{
 					id: "77802341898B7855"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "75FD611C760EA9CB"
@@ -1669,35 +1622,34 @@
 				}
 				{
 					id: "7F7E0ECCB1AB8C31"
-					type: "ftbmoney:money"
-					ftb_money: 50L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "08E9993926B7767E"
+				type: "kill"
+				value: 60L
+			}]
+			x: -6.0d
+			y: 8.5d
 		}
 		{
 			icon: {
-				id: "minecraft:wither_skeleton_skull"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "minecraft:wither_skeleton_skull"
 			}
-			x: 4.5d
-			y: 6.5d
 			id: "5C2C1E234FEA1C04"
-			tasks: [{
-				id: "415DB1EB8A5355E0"
-				type: "kill"
-				entity: "minecraft:wither_skeleton"
-				value: 10L
-			}]
 			rewards: [
 				{
 					id: "0311C7E99586496A"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 				{
 					id: "025E37F43005D4F3"
@@ -1706,36 +1658,35 @@
 				}
 				{
 					id: "7F509E5081A7304B"
-					type: "ftbmoney:money"
-					ftb_money: 20L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "415DB1EB8A5355E0"
+				type: "kill"
+				value: 10L
+			}]
+			x: 4.5d
+			y: 6.5d
 		}
 		{
+			dependencies: ["5C2C1E234FEA1C04"]
 			icon: {
-				id: "minecraft:wither_skeleton_skull"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "minecraft:wither_skeleton_skull"
 			}
-			x: 4.5d
-			y: 7.5d
-			dependencies: ["5C2C1E234FEA1C04"]
 			id: "682B081A32B48DDE"
-			tasks: [{
-				id: "785E98699CCD3F5F"
-				type: "kill"
-				entity: "minecraft:wither_skeleton"
-				value: 50L
-			}]
 			rewards: [
 				{
 					id: "44FAE3FA7D83DC7B"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "027233AED185959D"
@@ -1744,61 +1695,60 @@
 				}
 				{
 					id: "79F8025ABF87CC5C"
-					type: "ftbmoney:money"
-					ftb_money: 50L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "785E98699CCD3F5F"
+				type: "kill"
+				value: 50L
+			}]
+			x: 4.5d
+			y: 7.5d
 		}
 		{
+			dependencies: ["682B081A32B48DDE"]
 			icon: {
-				id: "minecraft:wither_skeleton_skull"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "minecraft:wither_skeleton_skull"
 			}
-			x: 4.5d
-			y: 8.5d
-			dependencies: ["682B081A32B48DDE"]
 			id: "1041E459F94EE676"
-			tasks: [{
-				id: "0523A24B92E81805"
-				type: "kill"
-				entity: "minecraft:wither_skeleton"
-				value: 100L
-			}]
 			rewards: [{
 				id: "6F5484A38616CB66"
-				type: "choice"
 				table_id: 768393147870328736L
+				type: "choice"
 			}]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "0523A24B92E81805"
+				type: "kill"
+				value: 100L
+			}]
+			x: 4.5d
+			y: 8.5d
 		}
 		{
 			icon: {
-				id: "spartanweaponry:spider_head"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "spartanweaponry:spider_head"
 			}
-			x: -3.5d
-			y: 6.5d
 			id: "1D31E5ABED3743E7"
-			tasks: [{
-				id: "2018B8343D76AC1F"
-				type: "kill"
-				entity: "minecraft:spider"
-				value: 10L
-			}]
 			rewards: [
 				{
 					id: "49B72610443526AD"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 				{
 					id: "1ADD8BC61AF2E9DD"
@@ -1807,36 +1757,35 @@
 				}
 				{
 					id: "3211EE883D534D14"
-					type: "ftbmoney:money"
-					ftb_money: 20L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "2018B8343D76AC1F"
+				type: "kill"
+				value: 10L
+			}]
+			x: -3.5d
+			y: 6.5d
 		}
 		{
+			dependencies: ["1D31E5ABED3743E7"]
 			icon: {
-				id: "spartanweaponry:spider_head"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "spartanweaponry:spider_head"
 			}
-			x: -3.5d
-			y: 7.5d
-			dependencies: ["1D31E5ABED3743E7"]
 			id: "2A1CD461BF2F4A46"
-			tasks: [{
-				id: "445087023DEB2AFF"
-				type: "kill"
-				entity: "minecraft:spider"
-				value: 30L
-			}]
 			rewards: [
 				{
 					id: "1D06C9EE45B2B631"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "5324D8E1184A4234"
@@ -1845,36 +1794,35 @@
 				}
 				{
 					id: "64A9EBF85FB13853"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "445087023DEB2AFF"
+				type: "kill"
+				value: 30L
+			}]
+			x: -3.5d
+			y: 7.5d
 		}
 		{
+			dependencies: ["2A1CD461BF2F4A46"]
 			icon: {
-				id: "spartanweaponry:spider_head"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "spartanweaponry:spider_head"
 			}
-			x: -3.5d
-			y: 8.5d
-			dependencies: ["2A1CD461BF2F4A46"]
 			id: "16B7281F7910FF1E"
-			tasks: [{
-				id: "2D30E8A8D8C0236A"
-				type: "kill"
-				entity: "minecraft:spider"
-				value: 100L
-			}]
 			rewards: [
 				{
 					id: "6C5934EDE080E6C6"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "649482A4A4BB56D4"
@@ -1883,31 +1831,29 @@
 				}
 				{
 					id: "3F143B2FFB487D39"
-					type: "ftbmoney:money"
-					ftb_money: 50L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "2D30E8A8D8C0236A"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.5d
+			y: 8.5d
 		}
 		{
-			x: -3.5d
-			y: 10.5d
 			id: "0D9F089E98AADBA5"
-			tasks: [{
-				id: "29E9E152501083FA"
-				type: "kill"
-				entity: "artifacts:mimic"
-				value: 5L
-			}]
 			rewards: [
 				{
 					id: "084186EA34770330"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "6711A7AE8013DC92"
-					type: "ftbmoney:money"
-					ftb_money: 20L
+					type: "custom"
 				}
 				{
 					id: "713C7FC71A30BEF1"
@@ -1915,23 +1861,23 @@
 					xp_levels: 3
 				}
 			]
+			tasks: [{
+				entity: "artifacts:mimic"
+				id: "29E9E152501083FA"
+				type: "kill"
+				value: 5L
+			}]
+			x: -3.5d
+			y: 10.5d
 		}
 		{
-			x: -3.5d
-			y: 11.5d
 			dependencies: ["0D9F089E98AADBA5"]
 			id: "33B1EEED95230156"
-			tasks: [{
-				id: "64EDE97C92EA5711"
-				type: "kill"
-				entity: "artifacts:mimic"
-				value: 10L
-			}]
 			rewards: [
 				{
 					id: "738FD45C2D89CC72"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "106E31A9B4850B3C"
@@ -1940,59 +1886,57 @@
 				}
 				{
 					id: "1F578E865133F841"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "artifacts:mimic"
+				id: "64EDE97C92EA5711"
+				type: "kill"
+				value: 10L
+			}]
+			x: -3.5d
+			y: 11.5d
 		}
 		{
-			x: -3.5d
-			y: 12.5d
 			dependencies: ["33B1EEED95230156"]
 			id: "051B70EFF9CDE3D2"
-			tasks: [{
-				id: "4EDBC053436B248A"
-				type: "kill"
-				entity: "artifacts:mimic"
-				value: 50L
-			}]
 			rewards: [
 				{
 					id: "3BE81C6DA7E55CB0"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "0F17518773F0B97C"
-					type: "ftbmoney:money"
-					ftb_money: 80L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "artifacts:mimic"
+				id: "4EDBC053436B248A"
+				type: "kill"
+				value: 50L
+			}]
+			x: -3.5d
+			y: 12.5d
 		}
 		{
 			icon: {
-				id: "minecraft:slime_ball"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "minecraft:slime_ball"
 			}
-			x: -1.5d
-			y: 6.5d
 			id: "43B77AFB99476020"
-			tasks: [{
-				id: "61C2E428A8B7D6E3"
-				type: "kill"
-				entity: "minecraft:slime"
-				value: 10L
-			}]
 			rewards: [
 				{
 					id: "75C0CD07865438C0"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 				{
 					id: "3102A24CFA15F6B4"
@@ -2001,36 +1945,35 @@
 				}
 				{
 					id: "7F138B8806B5B549"
-					type: "ftbmoney:money"
-					ftb_money: 20L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "61C2E428A8B7D6E3"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.5d
+			y: 6.5d
 		}
 		{
+			dependencies: ["43B77AFB99476020"]
 			icon: {
-				id: "minecraft:slime_ball"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "minecraft:slime_ball"
 			}
-			x: -1.5d
-			y: 7.5d
-			dependencies: ["43B77AFB99476020"]
 			id: "08F70564BCE33B34"
-			tasks: [{
-				id: "5D4697E898573527"
-				type: "kill"
-				entity: "minecraft:slime"
-				value: 30L
-			}]
 			rewards: [
 				{
 					id: "5C2E78A5187C3D91"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "5918312B0D7D7B4B"
@@ -2039,36 +1982,35 @@
 				}
 				{
 					id: "2AE11763EB507879"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "5D4697E898573527"
+				type: "kill"
+				value: 30L
+			}]
+			x: -1.5d
+			y: 7.5d
 		}
 		{
+			dependencies: ["08F70564BCE33B34"]
 			icon: {
-				id: "minecraft:slime_ball"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "minecraft:slime_ball"
 			}
-			x: -1.5d
-			y: 8.5d
-			dependencies: ["08F70564BCE33B34"]
 			id: "0A417DAC88234DED"
-			tasks: [{
-				id: "3E511BB5D79CA3BB"
-				type: "kill"
-				entity: "minecraft:slime"
-				value: 100L
-			}]
 			rewards: [
 				{
 					id: "619BC6792BE9E699"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "3BB0C07D0A6601FC"
@@ -2077,116 +2019,113 @@
 				}
 				{
 					id: "5138C44F00DE5DCB"
-					type: "ftbmoney:money"
-					ftb_money: 50L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "3E511BB5D79CA3BB"
+				type: "kill"
+				value: 100L
+			}]
+			x: -1.5d
+			y: 8.5d
 		}
 		{
-			x: -1.5d
-			y: 9.5d
 			dependencies: ["0A417DAC88234DED"]
 			id: "5964A60436E9CAC5"
-			tasks: [{
-				id: "7F9FF2BF5A48B9B9"
-				type: "kill"
-				icon: "minecraft:slime_ball"
-				entity: "minecraft:slime"
-				value: 200L
-			}]
 			rewards: [
 				{
 					id: "1BC8CCC568820645"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "3F34FD8DD08BD75A"
-					type: "ftbmoney:money"
-					ftb_money: 80L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:slime"
+				icon: "minecraft:slime_ball"
+				id: "7F9FF2BF5A48B9B9"
+				type: "kill"
+				value: 200L
+			}]
+			x: -1.5d
+			y: 9.5d
 		}
 		{
-			x: -1.5d
-			y: 10.5d
 			dependencies: ["5964A60436E9CAC5"]
 			id: "30CC1CE792CF948C"
-			tasks: [{
-				id: "18083296F033EEF3"
-				type: "kill"
-				icon: "minecraft:slime_ball"
-				entity: "minecraft:slime"
-				value: 400L
-			}]
 			rewards: [{
 				id: "3BBB8A7A2CD4CC5F"
-				type: "choice"
 				table_id: 768393147870328736L
+				type: "choice"
 			}]
+			tasks: [{
+				entity: "minecraft:slime"
+				icon: "minecraft:slime_ball"
+				id: "18083296F033EEF3"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 10.5d
 		}
 		{
+			dependencies: ["30CC1CE792CF948C"]
 			icon: {
-				id: "minecraft:slime_ball"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "minecraft:slime_ball"
 			}
-			x: -1.5d
-			y: 11.5d
-			dependencies: ["30CC1CE792CF948C"]
 			id: "3ABE874AEB3190FD"
-			tasks: [{
-				id: "2944EA85C53B17E8"
-				type: "kill"
-				entity: "minecraft:slime"
-				value: 1000L
-			}]
 			rewards: [
 				{
 					id: "399BC6E084220D1C"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "06BC38B6F5A7DD03"
-					type: "item"
 					item: {
-						id: "relics:slime_heart"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "relics:slime_heart"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "0EBD6785DFDD9EA9"
-					type: "item"
 					item: {
-						id: "curios:crown"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "curios:crown"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "38B18E34FBE08031"
-					type: "ftbmoney:money"
-					ftb_money: 100L
+					type: "custom"
 				}
 				{
 					id: "735353843D9053DD"
@@ -2194,31 +2133,31 @@
 					xp_levels: 30
 				}
 			]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "2944EA85C53B17E8"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -1.5d
+			y: 11.5d
 		}
 		{
 			icon: {
-				id: "spartanweaponry:illager_head"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "spartanweaponry:illager_head"
 			}
-			x: 7.5d
-			y: 6.5d
 			id: "3E4FABF49DF8A4A0"
-			tasks: [{
-				id: "737BDF5CFFF1D71E"
-				type: "kill"
-				entity: "minecraft:evoker"
-				value: 1L
-			}]
 			rewards: [
 				{
 					id: "7353832C1CB68C06"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 				{
 					id: "080EF117FE6F7A42"
@@ -2227,37 +2166,36 @@
 				}
 				{
 					id: "44F0CA59ABC867A9"
-					type: "ftbmoney:money"
-					ftb_money: 20L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:evoker"
+				id: "737BDF5CFFF1D71E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: 6.5d
 		}
 		{
+			dependencies: ["3E4FABF49DF8A4A0"]
+			description: [""]
 			icon: {
-				id: "spartanweaponry:illager_head"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "spartanweaponry:illager_head"
 			}
-			x: 7.5d
-			y: 7.5d
-			description: [""]
-			dependencies: ["3E4FABF49DF8A4A0"]
 			id: "4C0A01CEE6B9573F"
-			tasks: [{
-				id: "45B1B1448FA90192"
-				type: "kill"
-				entity: "minecraft:evoker"
-				value: 5L
-			}]
 			rewards: [
 				{
 					id: "34627ABDD5A06928"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "5B70AAF40B7A9A45"
@@ -2266,59 +2204,51 @@
 				}
 				{
 					id: "2B7EEDF967E74D1B"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:evoker"
+				id: "45B1B1448FA90192"
+				type: "kill"
+				value: 5L
+			}]
+			x: 7.5d
+			y: 7.5d
 		}
 		{
+			dependencies: ["4C0A01CEE6B9573F"]
 			icon: {
-				id: "spartanweaponry:illager_head"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "spartanweaponry:illager_head"
 			}
-			x: 7.5d
-			y: 8.5d
-			dependencies: ["4C0A01CEE6B9573F"]
 			id: "657547F95421C44F"
-			tasks: [{
-				id: "2D066D05ED250E60"
-				type: "kill"
-				entity: "minecraft:evoker"
-				value: 10L
-			}]
 			rewards: [{
 				id: "6ED9287169469FC1"
-				type: "choice"
 				table_id: 768393147870328736L
+				type: "choice"
 			}]
-		}
-		{
-			x: 7.5d
-			y: 10.5d
-			id: "6D160C596B6D789D"
 			tasks: [{
-				id: "483457EF721D49CC"
+				entity: "minecraft:evoker"
+				id: "2D066D05ED250E60"
 				type: "kill"
-				icon: {
-					id: "minecraft:iron_axe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-				entity: "minecraft:vindicator"
 				value: 10L
 			}]
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			id: "6D160C596B6D789D"
 			rewards: [
 				{
 					id: "78D1CA8DDD8D260E"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "188A66C9F1277412"
@@ -2327,34 +2257,33 @@
 				}
 				{
 					id: "63AAF6A5E9D577B7"
-					type: "ftbmoney:money"
-					ftb_money: 20L
+					type: "custom"
 				}
 			]
-		}
-		{
-			x: 7.5d
-			y: 11.5d
-			dependencies: ["6D160C596B6D789D"]
-			id: "18023C5D8E985695"
 			tasks: [{
-				id: "63E4694994947713"
-				type: "kill"
+				entity: "minecraft:vindicator"
 				icon: {
-					id: "minecraft:iron_axe"
 					Count: 1b
+					id: "minecraft:iron_axe"
 					tag: {
 						Damage: 0
 					}
 				}
-				entity: "minecraft:vindicator"
-				value: 30L
+				id: "483457EF721D49CC"
+				type: "kill"
+				value: 10L
 			}]
+			x: 7.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6D160C596B6D789D"]
+			id: "18023C5D8E985695"
 			rewards: [
 				{
 					id: "2A0AE009A8AB8681"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "00936A70EF171C0A"
@@ -2363,69 +2292,67 @@
 				}
 				{
 					id: "2CE9E530127EC948"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 			]
-		}
-		{
-			x: 7.5d
-			y: 12.5d
-			dependencies: ["18023C5D8E985695"]
-			id: "7E06D127A3796ACD"
 			tasks: [{
-				id: "75C3E613D773EC19"
-				type: "kill"
+				entity: "minecraft:vindicator"
 				icon: {
-					id: "minecraft:iron_axe"
 					Count: 1b
+					id: "minecraft:iron_axe"
 					tag: {
 						Damage: 0
 					}
+				}
+				id: "63E4694994947713"
+				type: "kill"
+				value: 30L
+			}]
+			x: 7.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["18023C5D8E985695"]
+			id: "7E06D127A3796ACD"
+			rewards: [
+				{
+					id: "3F15883B2647680E"
+					table_id: 768393147870328736L
+					type: "choice"
+				}
+				{
+					id: "3DD9735BB2089BAE"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:vindicator"
+				icon: {
+					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
-				}
-				entity: "minecraft:vindicator"
-				value: 100L
-			}]
-			rewards: [
-				{
-					id: "3F15883B2647680E"
-					type: "choice"
-					table_id: 768393147870328736L
-				}
-				{
-					id: "3DD9735BB2089BAE"
-					type: "ftbmoney:money"
-					ftb_money: 80L
-				}
-			]
-		}
-		{
-			x: 9.0d
-			y: 6.5d
-			id: "66E4D05FE4EB1B37"
-			tasks: [{
-				id: "31343EE2D54123F1"
-				type: "kill"
-				icon: {
-					id: "minecraft:crossbow"
-					Count: 1b
+					id: "minecraft:iron_axe"
 					tag: {
 						Damage: 0
 					}
 				}
-				entity: "minecraft:pillager"
-				value: 10L
+				id: "75C3E613D773EC19"
+				type: "kill"
+				value: 100L
 			}]
+			x: 7.5d
+			y: 12.5d
+		}
+		{
+			id: "66E4D05FE4EB1B37"
 			rewards: [
 				{
 					id: "0FC0289633D7AFEB"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 				{
 					id: "6385754E72704CC7"
@@ -2434,27 +2361,33 @@
 				}
 				{
 					id: "7752B52AB3BD4A9E"
-					type: "ftbmoney:money"
-					ftb_money: 20L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:pillager"
+				icon: {
+					Count: 1b
+					id: "minecraft:crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "31343EE2D54123F1"
+				type: "kill"
+				value: 10L
+			}]
+			x: 9.0d
+			y: 6.5d
 		}
 		{
-			x: 9.0d
-			y: 7.5d
 			dependencies: ["66E4D05FE4EB1B37"]
 			id: "78BCB063DF450FEA"
-			tasks: [{
-				id: "6C29EE9F8549D219"
-				type: "kill"
-				entity: "minecraft:pillager"
-				value: 30L
-			}]
 			rewards: [
 				{
 					id: "0743DCD826AD69FF"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "3E9259DEBCB493B7"
@@ -2463,27 +2396,26 @@
 				}
 				{
 					id: "2A8DDEA22A2294A4"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "6C29EE9F8549D219"
+				type: "kill"
+				value: 30L
+			}]
+			x: 9.0d
+			y: 7.5d
 		}
 		{
-			x: 9.0d
-			y: 8.5d
 			dependencies: ["78BCB063DF450FEA"]
 			id: "3E37363F614DB7CF"
-			tasks: [{
-				id: "4EFD44C2651919BA"
-				type: "kill"
-				entity: "minecraft:pillager"
-				value: 60L
-			}]
 			rewards: [
 				{
 					id: "39A2740675F360A5"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "02A472AE57332F2E"
@@ -2492,144 +2424,138 @@
 				}
 				{
 					id: "073BF72E4CECC601"
-					type: "ftbmoney:money"
-					ftb_money: 50L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "4EFD44C2651919BA"
+				type: "kill"
+				value: 60L
+			}]
+			x: 9.0d
+			y: 8.5d
 		}
 		{
-			x: 9.0d
-			y: 9.5d
 			dependencies: ["3E37363F614DB7CF"]
 			id: "372F44A7635E5FB8"
-			tasks: [{
-				id: "3464651AD0C97011"
-				type: "kill"
-				entity: "minecraft:pillager"
-				value: 100L
-			}]
 			rewards: [
 				{
 					id: "7B123FB7D67E4414"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "029CEBB45709B633"
-					type: "ftbmoney:money"
-					ftb_money: 80L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "3464651AD0C97011"
+				type: "kill"
+				value: 100L
+			}]
+			x: 9.0d
+			y: 9.5d
 		}
 		{
-			x: 9.0d
-			y: 10.5d
 			dependencies: ["372F44A7635E5FB8"]
 			id: "3A90C6BB095363CF"
-			tasks: [{
-				id: "626C8D8D44CF3A0E"
-				type: "kill"
-				entity: "minecraft:pillager"
-				value: 200L
-			}]
 			rewards: [
 				{
 					id: "690ABAB21B9D579D"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "61C89807E53C2F05"
-					type: "ftbmoney:money"
-					ftb_money: 100L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "626C8D8D44CF3A0E"
+				type: "kill"
+				value: 200L
+			}]
+			x: 9.0d
+			y: 10.5d
 		}
 		{
-			x: 9.0d
-			y: 11.5d
 			dependencies: ["3A90C6BB095363CF"]
 			id: "386E3605520B9CC4"
-			tasks: [{
-				id: "14612657FC694FA4"
-				type: "kill"
-				entity: "minecraft:pillager"
-				value: 400L
-			}]
 			rewards: [
 				{
 					id: "310310352DA83BE7"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "2FE10DB3898E08D4"
-					type: "ftbmoney:money"
-					ftb_money: 200L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "14612657FC694FA4"
+				type: "kill"
+				value: 400L
+			}]
+			x: 9.0d
+			y: 11.5d
 		}
 		{
-			x: 10.5d
-			y: 6.5d
 			id: "6B835736FC7C4119"
-			tasks: [{
-				id: "6BC0AA3EFD3F34D8"
-				type: "kill"
-				entity: "illagers_plus:illager_general"
-				value: 1L
-			}]
 			rewards: [
 				{
 					id: "557B85DE2B6CB6E2"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "44F12B161A0F4DF9"
-					type: "ftbmoney:money"
-					ftb_money: 50L
+					type: "custom"
 				}
 			]
-		}
-		{
-			x: 10.5d
-			y: 7.5d
-			id: "2D8C58A0B2073AC4"
 			tasks: [{
-				id: "247A3AA968C0F3F2"
+				entity: "illagers_plus:illager_general"
+				id: "6BC0AA3EFD3F34D8"
 				type: "kill"
-				entity: "illagers_plus:illager_king"
 				value: 1L
 			}]
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			id: "2D8C58A0B2073AC4"
 			rewards: [
 				{
 					id: "5C8B265DB65EB55F"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "485F4F83D01476AA"
-					type: "ftbmoney:money"
-					ftb_money: 50L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "illagers_plus:illager_king"
+				id: "247A3AA968C0F3F2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.5d
+			y: 7.5d
 		}
 		{
-			x: 10.5d
-			y: 8.5d
 			id: "3B931FE5DA0EC3CE"
-			tasks: [{
-				id: "0FFCCA545FBFFFA7"
-				type: "kill"
-				entity: "illagers_plus:miner"
-				value: 10L
-			}]
 			rewards: [
 				{
 					id: "3812FA6E190462AC"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "5862F686A9F17791"
@@ -2638,35 +2564,34 @@
 				}
 				{
 					id: "17726AEC4B1CC22A"
-					type: "ftbmoney:money"
-					ftb_money: 20L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "illagers_plus:miner"
+				id: "0FFCCA545FBFFFA7"
+				type: "kill"
+				value: 10L
+			}]
+			x: 10.5d
+			y: 8.5d
 		}
 		{
 			icon: {
-				id: "minecraft:ghast_tear"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "minecraft:ghast_tear"
 			}
-			x: 4.5d
-			y: 9.5d
 			id: "3C7112CE44982D6D"
-			tasks: [{
-				id: "34823DB462CC9EE2"
-				type: "kill"
-				entity: "minecraft:ghast"
-				value: 10L
-			}]
 			rewards: [
 				{
 					id: "69F0B6D70E3A8A02"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "190FFC8F9AA2DD3A"
@@ -2675,36 +2600,35 @@
 				}
 				{
 					id: "0EEFC1324735A3E9"
-					type: "ftbmoney:money"
-					ftb_money: 20L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "34823DB462CC9EE2"
+				type: "kill"
+				value: 10L
+			}]
+			x: 4.5d
+			y: 9.5d
 		}
 		{
+			dependencies: ["3C7112CE44982D6D"]
 			icon: {
-				id: "minecraft:ghast_tear"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "minecraft:ghast_tear"
 			}
-			x: 4.5d
-			y: 10.5d
-			dependencies: ["3C7112CE44982D6D"]
 			id: "43A621B14FB554AC"
-			tasks: [{
-				id: "4C441BB778244486"
-				type: "kill"
-				entity: "minecraft:ghast"
-				value: 30L
-			}]
 			rewards: [
 				{
 					id: "6729D11D203E895C"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "49B2EA58A60B061E"
@@ -2713,68 +2637,66 @@
 				}
 				{
 					id: "6CFA6B4DCFA36EBB"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "4C441BB778244486"
+				type: "kill"
+				value: 30L
+			}]
+			x: 4.5d
+			y: 10.5d
 		}
 		{
+			dependencies: ["43A621B14FB554AC"]
 			icon: {
-				id: "minecraft:ghast_tear"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "minecraft:ghast_tear"
 			}
-			x: 4.5d
-			y: 11.5d
-			dependencies: ["43A621B14FB554AC"]
 			id: "3F4E0FB2177E7F52"
-			tasks: [{
-				id: "33C3D544D070055F"
-				type: "kill"
-				entity: "minecraft:ghast"
-				value: 60L
-			}]
 			rewards: [
 				{
 					id: "77C64D5AC1730712"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "1FFB736831FBD766"
-					type: "ftbmoney:money"
-					ftb_money: 80L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "33C3D544D070055F"
+				type: "kill"
+				value: 60L
+			}]
+			x: 4.5d
+			y: 11.5d
 		}
 		{
 			icon: {
-				id: "spartanweaponry:piglin_head"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "spartanweaponry:piglin_head"
 			}
-			x: 3.0d
-			y: 6.5d
 			id: "04C9E8009D84B7A1"
-			tasks: [{
-				id: "2D26F348F7EF4D12"
-				type: "kill"
-				entity: "minecraft:piglin"
-				value: 10L
-			}]
 			rewards: [
 				{
 					id: "638FAE7585791CDB"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 				{
 					id: "70FDBFC55C98101D"
@@ -2783,59 +2705,57 @@
 				}
 				{
 					id: "4C3EF65AF982FC1A"
-					type: "ftbmoney:money"
-					ftb_money: 20L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "2D26F348F7EF4D12"
+				type: "kill"
+				value: 10L
+			}]
+			x: 3.0d
+			y: 6.5d
 		}
 		{
+			dependencies: ["04C9E8009D84B7A1"]
 			icon: {
-				id: "spartanweaponry:piglin_head"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "spartanweaponry:piglin_head"
 			}
-			x: 3.0d
-			y: 7.5d
-			dependencies: ["04C9E8009D84B7A1"]
 			id: "686519D5266C6F27"
-			tasks: [{
-				id: "1C2249144A048D79"
-				type: "kill"
-				entity: "minecraft:piglin"
-				value: 100L
-			}]
 			rewards: [
 				{
 					id: "7EDE3872A64B547B"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "54B866816332BC37"
-					type: "ftbmoney:money"
-					ftb_money: 50L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "1C2249144A048D79"
+				type: "kill"
+				value: 100L
+			}]
+			x: 3.0d
+			y: 7.5d
 		}
 		{
-			x: 3.0d
-			y: 10.5d
 			id: "11944C68F6D95C77"
-			tasks: [{
-				id: "3E1BB1EE7BF49EA5"
-				type: "kill"
-				entity: "minecraft:piglin_brute"
-				value: 10L
-			}]
 			rewards: [
 				{
 					id: "271D861B9DEFF7C1"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "24D1555281A7FCEE"
@@ -2844,27 +2764,26 @@
 				}
 				{
 					id: "71D39A66C50A85F9"
-					type: "ftbmoney:money"
-					ftb_money: 20L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "3E1BB1EE7BF49EA5"
+				type: "kill"
+				value: 10L
+			}]
+			x: 3.0d
+			y: 10.5d
 		}
 		{
-			x: 3.0d
-			y: 11.5d
 			dependencies: ["11944C68F6D95C77"]
 			id: "307EEF462D4E001C"
-			tasks: [{
-				id: "714191E33DE7E476"
-				type: "kill"
-				entity: "minecraft:piglin_brute"
-				value: 50L
-			}]
 			rewards: [
 				{
 					id: "2F8F8E01BA9A3ABF"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "536B8F281F2D7360"
@@ -2873,72 +2792,70 @@
 				}
 				{
 					id: "6DB602B49826367B"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "714191E33DE7E476"
+				type: "kill"
+				value: 50L
+			}]
+			x: 3.0d
+			y: 11.5d
 		}
 		{
-			x: 3.0d
-			y: 12.5d
 			dependencies: ["307EEF462D4E001C"]
 			id: "005B0AC8724A04CA"
-			tasks: [{
-				id: "424A82ED75AD396C"
-				type: "kill"
-				entity: "minecraft:piglin_brute"
-				value: 100L
-			}]
 			rewards: [
 				{
 					id: "0560A2F58D74FAD2"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "4625DE30D907A0DF"
-					type: "ftbmoney:money"
-					ftb_money: 100L
+					type: "custom"
 				}
 				{
 					id: "77A4DEED1E7775BB"
-					type: "item"
 					item: {
-						id: "kubejs:gold_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:gold_coin"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "424A82ED75AD396C"
+				type: "kill"
+				value: 100L
+			}]
+			x: 3.0d
+			y: 12.5d
 		}
 		{
 			icon: {
-				id: "spartanweaponry:blaze_head"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "spartanweaponry:blaze_head"
 			}
-			x: 1.5d
-			y: 6.5d
 			id: "4B68EB265B0E1129"
-			tasks: [{
-				id: "2C6BB4B0132BCE2E"
-				type: "kill"
-				entity: "minecraft:blaze"
-				value: 10L
-			}]
 			rewards: [
 				{
 					id: "384EF15588029245"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 				{
 					id: "363F9A60B5811C4A"
@@ -2947,133 +2864,119 @@
 				}
 				{
 					id: "5D294DBA533C16FC"
-					type: "ftbmoney:money"
-					ftb_money: 20L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "2C6BB4B0132BCE2E"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.5d
+			y: 6.5d
 		}
 		{
 			icon: {
-				id: "spartanweaponry:husk_head"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "spartanweaponry:husk_head"
 			}
-			x: 0.0d
-			y: 9.0d
 			id: "61CCF5EFBAC2D198"
-			tasks: [{
-				id: "6D7CFB65833A37C8"
-				type: "kill"
-				entity: "minecraft:husk"
-				value: 100L
-			}]
 			rewards: [
 				{
 					id: "1DB8044E2283952E"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "6E18512432E3E406"
-					type: "ftbmoney:money"
-					ftb_money: 80L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:husk"
+				id: "6D7CFB65833A37C8"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 9.0d
 		}
 		{
 			icon: {
-				id: "spartanweaponry:stray_skull"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "spartanweaponry:stray_skull"
 			}
-			x: 0.0d
-			y: 11.5d
 			id: "5927A8C2376D0588"
-			tasks: [{
-				id: "2A52880819C52579"
-				type: "kill"
-				entity: "minecraft:stray"
-				value: 100L
-			}]
 			rewards: [
 				{
 					id: "7BB95C6F9E35A244"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "6D213D2A7FED4C87"
-					type: "ftbmoney:money"
-					ftb_money: 80L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:stray"
+				id: "2A52880819C52579"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 11.5d
 		}
 		{
 			icon: {
-				id: "spartanweaponry:drowned_head"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "spartanweaponry:drowned_head"
 			}
-			x: 0.0d
-			y: 6.5d
 			id: "32E4964F2AAA4E25"
-			tasks: [{
-				id: "2C80F70C40CE718F"
-				type: "kill"
-				entity: "minecraft:drowned"
-				value: 100L
-			}]
 			rewards: [
 				{
 					id: "0E305C515EF913CC"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "74B77681D35CC8C7"
-					type: "ftbmoney:money"
-					ftb_money: 50L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "2C80F70C40CE718F"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 6.5d
 		}
 		{
-			title: "Any Gate Pearl"
-			x: 0.0d
-			y: -3.5d
-			shape: "hexagon"
 			dependencies: ["2859B5A6AAB94D7E"]
 			id: "708556958CC998BE"
-			tasks: [{
-				id: "3F20ECAB58D7FF2C"
-				type: "item"
-				item: {
-					id: "gateways:gate_pearl"
-					Count: 1b
-					tag: { }
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
 			rewards: [
 				{
 					id: "4790D2538E078E87"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "36AA73BB03AB93CC"
@@ -3082,950 +2985,925 @@
 				}
 				{
 					id: "4F21C6CA74AA160E"
-					type: "ftbmoney:money"
-					ftb_money: 60L
+					type: "custom"
 				}
 				{
 					id: "491F411908A9772E"
-					type: "item"
 					item: {
-						id: "gateways:gate_pearl"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "gateways:gate_pearl"
 						tag: {
 							gateway: "gateways:skeleton_gate_small"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3F20ECAB58D7FF2C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "gateways:gate_pearl"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Any Gate Pearl"
+			x: 0.0d
+			y: -3.5d
 		}
 		{
+			dependencies: ["7AA5044D18A2E23E"]
 			icon: {
-				id: "minecraft:skeleton_skull"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "minecraft:skeleton_skull"
 			}
-			x: -7.5d
-			y: 12.5d
-			dependencies: ["7AA5044D18A2E23E"]
 			id: "72ED70613E3B7E52"
-			tasks: [{
-				id: "2AE68A2DAD3B3FCC"
-				type: "kill"
-				entity: "minecraft:skeleton"
-				value: 1000L
-			}]
 			rewards: [
 				{
 					id: "0370E3D229A59F08"
-					type: "item"
 					item: {
-						id: "kubejs:gold_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:gold_coin"
 					}
+					type: "item"
 				}
 				{
 					id: "2D3BB11CE362BA4A"
-					type: "ftbmoney:money"
-					ftb_money: 50L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "2AE68A2DAD3B3FCC"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -7.5d
+			y: 12.5d
 		}
 		{
+			dependencies: ["42B5C52B1EB2CF21"]
 			icon: {
-				id: "minecraft:zombie_head"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "minecraft:zombie_head"
 			}
-			x: -10.0d
-			y: 12.5d
-			dependencies: ["42B5C52B1EB2CF21"]
 			id: "733169FE486DB8DD"
-			tasks: [{
-				id: "445B449D3FA7F188"
-				type: "kill"
-				entity: "minecraft:zombie"
-				value: 1000L
-			}]
 			rewards: [
 				{
 					id: "05DF1D5A8C6EA5E4"
-					type: "item"
 					item: {
-						id: "kubejs:gold_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:gold_coin"
 					}
+					type: "item"
 				}
 				{
 					id: "71BBBF089ECBF3A4"
-					type: "ftbmoney:money"
-					ftb_money: 50L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "445B449D3FA7F188"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -10.0d
+			y: 12.5d
 		}
 		{
-			x: -8.5d
-			y: 9.5d
 			dependencies: ["7C643C8DA7163F80"]
 			id: "2FDED9C5C6011798"
-			tasks: [{
-				id: "3AC5EEC7DC15B805"
-				type: "kill"
-				entity: "majruszs_difficulty:elite_skeleton"
-				value: 100L
-			}]
 			rewards: [
 				{
 					id: "650D2078C7AA9026"
-					type: "ftbmoney:money"
-					ftb_money: 100L
+					type: "custom"
 				}
 				{
 					id: "3E97A39802A0AE44"
-					type: "item"
 					item: {
-						id: "kubejs:gold_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:gold_coin"
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: -11.0d
-			y: 9.5d
-			dependencies: ["24D7205FF1E55192"]
-			id: "336930A0E23D9E2E"
 			tasks: [{
-				id: "1C83BACB05E772C6"
+				entity: "majruszs_difficulty:elite_skeleton"
+				id: "3AC5EEC7DC15B805"
 				type: "kill"
-				entity: "betterdefaultbiomes:frozen_zombie"
 				value: 100L
 			}]
+			x: -8.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["24D7205FF1E55192"]
+			id: "336930A0E23D9E2E"
 			rewards: [
 				{
 					id: "16BA6181D3D83FBA"
-					type: "ftbmoney:money"
-					ftb_money: 100L
+					type: "custom"
 				}
 				{
 					id: "20D065708C993D7D"
-					type: "item"
 					item: {
-						id: "kubejs:gold_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:gold_coin"
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: -11.0d
-			y: 10.5d
-			dependencies: ["24D7205FF1E55192"]
-			id: "4AEA984BA064D20A"
 			tasks: [{
-				id: "15A9DD637AE57E7C"
+				entity: "betterdefaultbiomes:frozen_zombie"
+				id: "1C83BACB05E772C6"
 				type: "kill"
-				entity: "eidolon:zombie_brute"
 				value: 100L
 			}]
+			x: -11.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["24D7205FF1E55192"]
+			id: "4AEA984BA064D20A"
 			rewards: [
 				{
 					id: "4F4A9608E8E6B6B8"
-					type: "ftbmoney:money"
-					ftb_money: 100L
+					type: "custom"
 				}
 				{
 					id: "689CC7350DE3446E"
-					type: "item"
 					item: {
-						id: "kubejs:gold_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:gold_coin"
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: -8.5d
-			y: 10.5d
-			dependencies: ["7C643C8DA7163F80"]
-			id: "7CE5BD5932677CA2"
 			tasks: [{
-				id: "3DD556BBB9A7D8B3"
+				entity: "eidolon:zombie_brute"
+				id: "15A9DD637AE57E7C"
 				type: "kill"
-				entity: "twilightforest:skeleton_druid"
 				value: 100L
 			}]
+			x: -11.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7C643C8DA7163F80"]
+			id: "7CE5BD5932677CA2"
 			rewards: [
 				{
 					id: "4AA69A076064C4A4"
-					type: "ftbmoney:money"
-					ftb_money: 100L
+					type: "custom"
 				}
 				{
 					id: "13460A5A3204F159"
-					type: "item"
 					item: {
-						id: "kubejs:gold_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:gold_coin"
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: -6.0d
-			y: 9.5d
-			dependencies: ["7DD33DBEE207DD46"]
-			id: "0674AD4EEDEEF4E4"
 			tasks: [{
-				id: "3E554616A645C8FC"
+				entity: "twilightforest:skeleton_druid"
+				id: "3DD556BBB9A7D8B3"
 				type: "kill"
-				entity: "minecraft:creeper"
 				value: 100L
 			}]
+			x: -8.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7DD33DBEE207DD46"]
+			id: "0674AD4EEDEEF4E4"
 			rewards: [
 				{
 					id: "348E615E54BA5348"
-					type: "ftbmoney:money"
-					ftb_money: 80L
+					type: "custom"
 				}
 				{
 					id: "483BBCFB7167EA22"
-					type: "item"
 					item: {
-						id: "kubejs:iron_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:iron_coin"
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: -5.0d
-			y: 9.5d
-			dependencies: ["0674AD4EEDEEF4E4"]
-			id: "625E8C6D6672AEFA"
 			tasks: [{
-				id: "31C72DE260D4410A"
+				entity: "minecraft:creeper"
+				id: "3E554616A645C8FC"
 				type: "kill"
-				entity: "majruszs_difficulty:creeperling"
 				value: 100L
 			}]
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0674AD4EEDEEF4E4"]
+			id: "625E8C6D6672AEFA"
 			rewards: [
 				{
 					id: "2E511352C2EE1593"
-					type: "item"
 					item: {
-						id: "kubejs:iron_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:iron_coin"
 					}
+					type: "item"
 				}
 				{
 					id: "72519AA6D9FE9FB2"
-					type: "ftbmoney:money"
-					ftb_money: 80L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "majruszs_difficulty:creeperling"
+				id: "31C72DE260D4410A"
+				type: "kill"
+				value: 100L
+			}]
+			x: -5.0d
+			y: 9.5d
 		}
 		{
-			x: -6.0d
-			y: 10.5d
 			dependencies: ["0674AD4EEDEEF4E4"]
 			id: "781AA84E08C4367A"
-			tasks: [{
-				id: "2EC0D26EEE3E5288"
-				type: "kill"
-				entity: "minecraft:creeper"
-				value: 200L
-			}]
 			rewards: [
 				{
 					id: "04293A4BC13D9BBB"
-					type: "ftbmoney:money"
-					ftb_money: 100L
+					type: "custom"
 				}
 				{
 					id: "4B2858A89C35A31B"
-					type: "item"
 					item: {
-						id: "kubejs:iron_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:iron_coin"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "2EC0D26EEE3E5288"
+				type: "kill"
+				value: 200L
+			}]
+			x: -6.0d
+			y: 10.5d
 		}
 		{
-			x: -6.0d
-			y: 11.5d
 			dependencies: ["781AA84E08C4367A"]
 			id: "552084F86F88D15C"
-			tasks: [{
-				id: "08EFF62508DFA82E"
-				type: "kill"
-				entity: "minecraft:creeper"
-				value: 500L
-			}]
 			rewards: [
 				{
 					id: "28FF008052434F14"
-					type: "ftbmoney:money"
-					ftb_money: 200L
+					type: "custom"
 				}
 				{
 					id: "118757F64C40D74F"
-					type: "item"
 					item: {
-						id: "kubejs:gold_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:gold_coin"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "08EFF62508DFA82E"
+				type: "kill"
+				value: 500L
+			}]
+			x: -6.0d
+			y: 11.5d
 		}
 		{
+			dependencies: ["4B68EB265B0E1129"]
 			icon: {
-				id: "spartanweaponry:blaze_head"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "spartanweaponry:blaze_head"
 			}
-			x: 1.5d
-			y: 7.5d
-			dependencies: ["4B68EB265B0E1129"]
 			id: "67EE916849A729B1"
-			tasks: [{
-				id: "7F5C5B4E788DCADE"
-				type: "kill"
-				entity: "minecraft:blaze"
-				value: 50L
-			}]
 			rewards: [
 				{
 					id: "1CFFFB68AD11C626"
-					type: "ftbmoney:money"
-					ftb_money: 50L
+					type: "custom"
 				}
 				{
 					id: "24BF6E79258BE844"
-					type: "item"
 					item: {
-						id: "kubejs:iron_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:iron_coin"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "7F5C5B4E788DCADE"
+				type: "kill"
+				value: 50L
+			}]
+			x: 1.5d
+			y: 7.5d
 		}
 		{
+			dependencies: ["67EE916849A729B1"]
 			icon: {
-				id: "spartanweaponry:blaze_head"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "spartanweaponry:blaze_head"
 			}
-			x: 1.5d
-			y: 8.5d
-			dependencies: ["67EE916849A729B1"]
 			id: "5537F265CE8EBD3E"
-			tasks: [{
-				id: "7E1DE21F68BC1487"
-				type: "kill"
-				entity: "minecraft:blaze"
-				value: 150L
-			}]
 			rewards: [
 				{
 					id: "22532167F462B79F"
-					type: "ftbmoney:money"
-					ftb_money: 100L
+					type: "custom"
 				}
 				{
 					id: "0D0E1D3BEBDF95AC"
-					type: "item"
 					item: {
-						id: "kubejs:iron_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:iron_coin"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "7E1DE21F68BC1487"
+				type: "kill"
+				value: 150L
+			}]
+			x: 1.5d
+			y: 8.5d
 		}
 		{
+			dependencies: ["5537F265CE8EBD3E"]
 			icon: {
-				id: "spartanweaponry:blaze_head"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "spartanweaponry:blaze_head"
 			}
-			x: 1.5d
-			y: 9.5d
-			dependencies: ["5537F265CE8EBD3E"]
 			id: "75244E4C3649BA77"
-			tasks: [{
-				id: "2225F5E4286A5440"
-				type: "kill"
-				entity: "minecraft:blaze"
-				value: 300L
-			}]
 			rewards: [
 				{
 					id: "452FB51AED6FE253"
-					type: "ftbmoney:money"
-					ftb_money: 150L
+					type: "custom"
 				}
 				{
 					id: "6C8B83DAC5286354"
-					type: "item"
 					item: {
-						id: "kubejs:gold_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:gold_coin"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "2225F5E4286A5440"
+				type: "kill"
+				value: 300L
+			}]
+			x: 1.5d
+			y: 9.5d
 		}
 		{
+			dependencies: ["32E4964F2AAA4E25"]
 			icon: {
-				id: "spartanweaponry:drowned_head"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "spartanweaponry:drowned_head"
 			}
-			x: 0.0d
-			y: 7.5d
-			dependencies: ["32E4964F2AAA4E25"]
 			id: "124CDF84B0FC4EF8"
-			tasks: [{
-				id: "69C5EECC4586DA06"
-				type: "kill"
-				entity: "minecraft:drowned"
-				value: 200L
-			}]
 			rewards: [
 				{
 					id: "1DFC14B786129211"
-					type: "ftbmoney:money"
-					ftb_money: 100L
+					type: "custom"
 				}
 				{
 					id: "5EF4BC22D6DAC3DB"
-					type: "item"
 					item: {
-						id: "kubejs:gold_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:gold_coin"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "69C5EECC4586DA06"
+				type: "kill"
+				value: 200L
+			}]
+			x: 0.0d
+			y: 7.5d
 		}
 		{
+			dependencies: ["61CCF5EFBAC2D198"]
 			icon: {
-				id: "spartanweaponry:husk_head"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "spartanweaponry:husk_head"
 			}
-			x: 0.0d
-			y: 10.0d
-			dependencies: ["61CCF5EFBAC2D198"]
 			id: "14C32922D8142F37"
-			tasks: [{
-				id: "172649389C5185DC"
-				type: "kill"
-				entity: "minecraft:husk"
-				value: 200L
-			}]
 			rewards: [
 				{
 					id: "44F4EA37D0837D5F"
-					type: "item"
 					item: {
-						id: "kubejs:gold_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:gold_coin"
 					}
+					type: "item"
 				}
 				{
 					id: "44FCBD3E0AAC1A75"
-					type: "ftbmoney:money"
-					ftb_money: 100L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:husk"
+				id: "172649389C5185DC"
+				type: "kill"
+				value: 200L
+			}]
+			x: 0.0d
+			y: 10.0d
 		}
 		{
+			dependencies: ["5927A8C2376D0588"]
 			icon: {
-				id: "spartanweaponry:stray_skull"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "spartanweaponry:stray_skull"
 			}
-			x: 0.0d
-			y: 12.5d
-			dependencies: ["5927A8C2376D0588"]
 			id: "2D7D534F253D0806"
-			tasks: [{
-				id: "0657FC98101B13D0"
-				type: "kill"
-				entity: "minecraft:stray"
-				value: 200L
-			}]
 			rewards: [
 				{
 					id: "184F7CDB60CEF5FE"
-					type: "ftbmoney:money"
-					ftb_money: 100L
+					type: "custom"
 				}
 				{
 					id: "7B7BA170F5103A9D"
-					type: "item"
 					item: {
-						id: "kubejs:gold_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:gold_coin"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:stray"
+				id: "0657FC98101B13D0"
+				type: "kill"
+				value: 200L
+			}]
+			x: 0.0d
+			y: 12.5d
 		}
 		{
+			dependencies: ["686519D5266C6F27"]
 			icon: {
-				id: "spartanweaponry:piglin_head"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "spartanweaponry:piglin_head"
 			}
-			x: 3.0d
-			y: 8.5d
-			dependencies: ["686519D5266C6F27"]
 			id: "37A9A6535E7429F0"
-			tasks: [{
-				id: "2010972436B14537"
-				type: "kill"
-				icon: {
-					id: "spartanweaponry:zombified_piglin_head"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				entity: "minecraft:piglin"
-				value: 300L
-			}]
 			rewards: [
 				{
 					id: "3196F982F3CB7B1C"
-					type: "ftbmoney:money"
-					ftb_money: 100L
+					type: "custom"
 				}
 				{
 					id: "7BC474E47358CB3E"
-					type: "item"
 					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
 						id: "kubejs:gold_coin"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
-				}
-			]
-		}
-		{
-			icon: {
-				id: "minecraft:ghast_tear"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: 4.5d
-			y: 12.5d
-			dependencies: ["3F4E0FB2177E7F52"]
-			id: "34E47A2C5335A2A7"
-			tasks: [{
-				id: "31CDF278D4CCA4FB"
-				type: "kill"
-				entity: "minecraft:ghast"
-				value: 100L
-			}]
-			rewards: [
-				{
-					id: "5A67EBF361AAA16F"
-					type: "ftbmoney:money"
-					ftb_money: 100L
-				}
-				{
-					id: "373607B19C58BA22"
 					type: "item"
-					item: {
-						id: "kubejs:gold_coin"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
 				}
 			]
-		}
-		{
-			icon: {
-				id: "infernalexp:magma_cube_bucket"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: 1.5d
-			y: 11.5d
-			id: "02BF15564572F2BA"
 			tasks: [{
-				id: "4E22A2F800BF4D87"
-				type: "kill"
-				entity: "minecraft:magma_cube"
-				value: 100L
-			}]
-			rewards: [
-				{
-					id: "61F7ED50486F88A6"
-					type: "ftbmoney:money"
-					ftb_money: 50L
-				}
-				{
-					id: "6F86B26E34FF4548"
-					type: "item"
-					item: {
-						id: "kubejs:iron_coin"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 1.5d
-			y: 12.5d
-			dependencies: ["02BF15564572F2BA"]
-			id: "3CCA705BCF4124B9"
-			tasks: [{
-				id: "631BA55EDE88F5B8"
-				type: "kill"
+				entity: "minecraft:piglin"
 				icon: {
-					id: "infernalexp:magma_cube_bucket"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "spartanweaponry:zombified_piglin_head"
 				}
-				entity: "minecraft:magma_cube"
+				id: "2010972436B14537"
+				type: "kill"
 				value: 300L
 			}]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3F4E0FB2177E7F52"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:ghast_tear"
+			}
+			id: "34E47A2C5335A2A7"
+			rewards: [
+				{
+					id: "5A67EBF361AAA16F"
+					type: "custom"
+				}
+				{
+					id: "373607B19C58BA22"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "31CDF278D4CCA4FB"
+				type: "kill"
+				value: 100L
+			}]
+			x: 4.5d
+			y: 12.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "infernalexp:magma_cube_bucket"
+			}
+			id: "02BF15564572F2BA"
+			rewards: [
+				{
+					id: "61F7ED50486F88A6"
+					type: "custom"
+				}
+				{
+					id: "6F86B26E34FF4548"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:iron_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				id: "4E22A2F800BF4D87"
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["02BF15564572F2BA"]
+			id: "3CCA705BCF4124B9"
 			rewards: [
 				{
 					id: "668FFE96789F8397"
-					type: "ftbmoney:money"
-					ftb_money: 100L
+					type: "custom"
 				}
 				{
 					id: "35B877360B97D6D0"
-					type: "item"
 					item: {
-						id: "kubejs:gold_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:gold_coin"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "infernalexp:magma_cube_bucket"
+				}
+				id: "631BA55EDE88F5B8"
+				type: "kill"
+				value: 300L
+			}]
+			x: 1.5d
+			y: 12.5d
 		}
 		{
-			title: "Bad Reputation I"
-			x: 10.5d
-			y: 10.5d
 			id: "40F5EEC0C7474750"
-			tasks: [{
-				id: "634CFAF0104F83AF"
-				type: "kill"
-				entity: "minecraft:wandering_trader"
-				value: 10L
-			}]
 			rewards: [
 				{
 					id: "7DD8DCDAB7D5F66D"
-					type: "ftbmoney:money"
-					ftb_money: 50L
+					type: "custom"
 				}
 				{
 					id: "56338ED0D36A5078"
-					type: "item"
 					item: {
-						id: "kubejs:copper_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:copper_coin"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:wandering_trader"
+				id: "634CFAF0104F83AF"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Bad Reputation I"
+			x: 10.5d
+			y: 10.5d
 		}
 		{
-			title: "Bad Reputation II"
-			x: 10.5d
-			y: 11.5d
 			dependencies: ["40F5EEC0C7474750"]
 			id: "234394677552B368"
-			tasks: [{
-				id: "791007DE26AFE145"
-				type: "kill"
-				entity: "minecraft:wandering_trader"
-				value: 50L
-			}]
 			rewards: [
 				{
 					id: "5F86F398757EA14E"
-					type: "ftbmoney:money"
-					ftb_money: 100L
+					type: "custom"
 				}
 				{
 					id: "594952BE2D90F466"
-					type: "item"
 					item: {
-						id: "kubejs:iron_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:iron_coin"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:wandering_trader"
+				id: "791007DE26AFE145"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Bad Reputation II"
+			x: 10.5d
+			y: 11.5d
 		}
 		{
-			title: "Bad Reputation III"
-			x: 10.5d
-			y: 12.5d
 			dependencies: ["234394677552B368"]
 			id: "0F58A03E48624EA5"
-			tasks: [{
-				id: "3081D7A3C8398AC1"
-				type: "kill"
-				entity: "minecraft:wandering_trader"
-				value: 100L
-			}]
 			rewards: [
 				{
 					id: "16C23F3DAF4C8773"
-					type: "ftbmoney:money"
-					ftb_money: 100L
+					type: "custom"
 				}
 				{
 					id: "49BF4FC6C3611AB8"
-					type: "item"
 					item: {
-						id: "kubejs:gold_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:gold_coin"
 					}
+					type: "item"
 				}
 				{
-					id: "2F2FDD238219EFFF"
-					type: "pmmo:xpreward"
 					auto: "invisible"
-					skill: "shadow"
-					amount: 100.0d
-					ignoreBonuses: false
+					id: "2F2FDD238219EFFF"
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:wandering_trader"
+				id: "3081D7A3C8398AC1"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Bad Reputation III"
+			x: 10.5d
+			y: 12.5d
 		}
 		{
-			x: 0.0d
-			y: -0.5d
 			description: [
 				"Spirit Orbs can drop from spawners and other various structures."
 				"They can be used to craft gateways or upgrade your paraglider's stamina using a goddess statue."
 			]
 			id: "636C994CC9BDE02A"
-			tasks: [{
-				id: "5BDA5878F5F0AC4D"
-				type: "item"
-				item: {
-					id: "paraglider:spirit_orb"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
 			rewards: [
 				{
 					id: "5843306522B75D9F"
-					type: "item"
 					item: {
-						id: "iceandfire:ectoplasm"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "iceandfire:ectoplasm"
 					}
+					type: "item"
 				}
 				{
 					id: "31B8FC616B36110C"
-					type: "ftbmoney:money"
-					ftb_money: 1L
+					type: "custom"
 				}
 			]
-		}
-		{
-			x: -1.5d
-			y: -1.5d
-			description: ["Upgraded version of spirit orb used to make bigger gateways."]
-			dependencies: ["636C994CC9BDE02A"]
-			id: "382CA6AE28A6316A"
 			tasks: [{
-				id: "48004E16F3D39B67"
-				type: "item"
+				id: "5BDA5878F5F0AC4D"
 				item: {
-					id: "cofh_core:ectoplasm"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "paraglider:spirit_orb"
 				}
+				type: "item"
 			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["636C994CC9BDE02A"]
+			description: ["Upgraded version of spirit orb used to make bigger gateways."]
+			id: "382CA6AE28A6316A"
 			rewards: [
 				{
 					id: "735189302BDB1158"
@@ -4034,47 +3912,50 @@
 				}
 				{
 					id: "51C9313795B5D69C"
-					type: "item"
 					item: {
-						id: "ftbquests:lootcrate"
 						Count: 1b
-						tag: {
-							type: "food_crate"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "food_crate"
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "7C9A34C884DEDA7A"
-					type: "ftbmoney:money"
-					ftb_money: 5L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				id: "48004E16F3D39B67"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "cofh_core:ectoplasm"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
 		}
 		{
-			title: "Break 25 Spawners"
-			x: 1.5d
-			y: -1.5d
-			description: ["Spawners are the easiest way to get spirit orbs"]
 			dependencies: ["636C994CC9BDE02A"]
+			description: ["Spawners are the easiest way to get spirit orbs"]
 			id: "203172A2D2865B49"
-			tasks: [{
-				id: "2D4C7AB93F4CF1A6"
-				type: "questsadditions:break"
-				title: "Spawner Smasher"
-				block: "minecraft:spawner"
-				value: 25L
-				checkItem: false
-			}]
 			rewards: [
 				{
 					id: "66636CCA5BFC19AA"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 				{
 					id: "23CB584988852B7A"
@@ -4083,169 +3964,169 @@
 				}
 				{
 					id: "5D5F100FE489C1E3"
-					type: "ftbmoney:money"
-					ftb_money: 25L
+					type: "custom"
 				}
 				{
 					id: "5657ECEB9F1241AD"
-					type: "item"
 					item: {
-						id: "kubejs:monster_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:monster_coin"
 					}
+					type: "item"
 				}
 				{
 					id: "3AEA869766421A85"
-					type: "item"
 					item: {
-						id: "tombstone:grave_dust"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tombstone:grave_dust"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				block: "minecraft:spawner"
+				block_type: 0
+				checkItem: false
+				id: "2D4C7AB93F4CF1A6"
+				title: "Spawner Smasher"
+				type: "questsadditions:break"
+				value: 25L
+			}]
+			title: "Break 25 Spawners"
+			x: 1.5d
+			y: -1.5d
 		}
 		{
-			x: -3.0d
-			y: -1.0d
 			description: ["Dropped during the Undead Army event."]
 			id: "7D48C1C4B70B99F8"
-			tasks: [{
-				id: "1839C0D23C028D73"
-				type: "item"
-				item: {
-					id: "majruszs_difficulty:tattered_cloth"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
 			rewards: [{
 				id: "61F61252F1E30FFE"
-				type: "ftbmoney:money"
-				ftb_money: 5L
+				type: "custom"
 			}]
-		}
-		{
-			x: -3.0d
-			y: -2.0d
-			description: ["Do it again! The mob spawners this event creates is a great way to get renewable spirit orbs"]
-			dependencies: ["7D48C1C4B70B99F8"]
-			id: "71296448B1C20014"
 			tasks: [{
-				id: "0F7C9427796636CB"
-				type: "item"
+				id: "1839C0D23C028D73"
 				item: {
-					id: "majruszs_difficulty:undead_battle_standard"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "majruszs_difficulty:tattered_cloth"
 				}
+				type: "item"
 			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7D48C1C4B70B99F8"]
+			description: ["Do it again! The mob spawners this event creates is a great way to get renewable spirit orbs"]
+			id: "71296448B1C20014"
 			rewards: [
 				{
 					id: "4D60E973316EBA29"
-					type: "ftbmoney:money"
-					ftb_money: 25L
+					type: "custom"
 				}
 				{
 					id: "1B21D7D5F8170D09"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 			]
-		}
-		{
-			x: -5.0d
-			y: 10.5d
-			id: "21E7D8572F331C73"
 			tasks: [{
-				id: "7415843D64333573"
-				type: "kill"
-				icon: {
-					id: "dungeons_mobs:icy_creeper_spawn_egg"
+				id: "0F7C9427796636CB"
+				item: {
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "majruszs_difficulty:undead_battle_standard"
 				}
-				entity: "dungeons_mobs:icy_creeper"
-				value: 100L
+				type: "item"
 			}]
+			x: -3.0d
+			y: -2.0d
 		}
 		{
-			x: -6.0d
-			y: 12.5d
+			id: "21E7D8572F331C73"
+			tasks: [{
+				entity: "dungeons_mobs:icy_creeper"
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "dungeons_mobs:icy_creeper_spawn_egg"
+				}
+				id: "7415843D64333573"
+				type: "kill"
+				value: 100L
+			}]
+			x: -5.0d
+			y: 10.5d
+		}
+		{
 			dependencies: ["552084F86F88D15C"]
 			id: "3CF6376C2F15744D"
-			tasks: [{
-				id: "013A697F588F3CD4"
-				type: "kill"
-				entity: "minecraft:creeper"
-				value: 1000L
-			}]
 			rewards: [
 				{
 					id: "60E4B44B234C1258"
-					type: "ftbmoney:money"
-					ftb_money: 250L
+					type: "custom"
 				}
 				{
 					id: "3498443ED1F82FB9"
-					type: "item"
 					item: {
-						id: "kubejs:gold_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:gold_coin"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "013A697F588F3CD4"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -6.0d
+			y: 12.5d
 		}
 		{
 			icon: {
-				id: "spartanweaponry:enderman_head"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "spartanweaponry:enderman_head"
 			}
-			x: 6.0d
-			y: 6.5d
 			id: "6EE8F9129E0A1D60"
-			tasks: [{
-				id: "2BFE36FBC380F7D3"
-				type: "kill"
-				entity: "minecraft:enderman"
-				value: 10L
-			}]
 			rewards: [
 				{
 					id: "5F0F7C92344A5CE2"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 				{
 					id: "334797DAED97A549"
@@ -4254,35 +4135,34 @@
 				}
 				{
 					id: "6EA2ACE325DC9658"
-					type: "ftbmoney:money"
-					ftb_money: 25L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "2BFE36FBC380F7D3"
+				type: "kill"
+				value: 10L
+			}]
+			x: 6.0d
+			y: 6.5d
 		}
 		{
 			icon: {
-				id: "spartanweaponry:cave_spider_head"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "spartanweaponry:cave_spider_head"
 			}
-			x: -2.5d
-			y: 8.0d
 			id: "189B48C7EE98B1EF"
-			tasks: [{
-				id: "7FCC20C2E6061313"
-				type: "kill"
-				entity: "minecraft:cave_spider"
-				value: 100L
-			}]
 			rewards: [
 				{
 					id: "34A07664347CB8CF"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 				{
 					id: "7BFFABC1F04B191E"
@@ -4291,36 +4171,26 @@
 				}
 				{
 					id: "268E3A5997205D07"
-					type: "ftbmoney:money"
-					ftb_money: 25L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:cave_spider"
+				id: "7FCC20C2E6061313"
+				type: "kill"
+				value: 100L
+			}]
+			x: -2.5d
+			y: 8.0d
 		}
 		{
-			x: 6.0d
-			y: 7.5d
 			dependencies: ["6EE8F9129E0A1D60"]
 			id: "2B0920822CAF3FEB"
-			tasks: [{
-				id: "11B9CB4AE304B4F2"
-				type: "kill"
-				icon: {
-					id: "spartanweaponry:enderman_head"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				entity: "minecraft:enderman"
-				value: 25L
-			}]
 			rewards: [
 				{
 					id: "682E8EA71FEDF99D"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 				{
 					id: "7D7BC37F07600B81"
@@ -4329,74 +4199,71 @@
 				}
 				{
 					id: "79585ED1161C746D"
-					type: "ftbmoney:money"
-					ftb_money: 45L
+					type: "custom"
 				}
 			]
-		}
-		{
-			x: 6.0d
-			y: 8.5d
-			dependencies: ["2B0920822CAF3FEB"]
-			id: "0AB325E800C9C5B9"
 			tasks: [{
-				id: "700BF6C0744020B5"
-				type: "kill"
+				entity: "minecraft:enderman"
 				icon: {
-					id: "spartanweaponry:enderman_head"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "spartanweaponry:enderman_head"
 				}
-				entity: "minecraft:enderman"
-				value: 50L
+				id: "11B9CB4AE304B4F2"
+				type: "kill"
+				value: 25L
 			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2B0920822CAF3FEB"]
+			id: "0AB325E800C9C5B9"
 			rewards: [
 				{
 					id: "16D2FAB8FFC907EB"
-					type: "choice"
 					table_id: 768393147870328736L
+					type: "choice"
 				}
 				{
 					id: "2FABB3383482475F"
-					type: "ftbmoney:money"
-					ftb_money: 60L
+					type: "custom"
 				}
 			]
-		}
-		{
-			x: 6.0d
-			y: 9.5d
-			dependencies: ["0AB325E800C9C5B9"]
-			id: "3109A29AC8E8F676"
 			tasks: [{
-				id: "6CCE994B58DE96E7"
-				type: "kill"
+				entity: "minecraft:enderman"
 				icon: {
-					id: "spartanweaponry:enderman_head"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "spartanweaponry:enderman_head"
 				}
-				entity: "minecraft:enderman"
-				value: 100L
+				id: "700BF6C0744020B5"
+				type: "kill"
+				value: 50L
 			}]
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0AB325E800C9C5B9"]
+			id: "3109A29AC8E8F676"
 			rewards: [
 				{
 					id: "7845A2CBDF7D15FA"
-					type: "choice"
 					table_id: 3680913278004027102L
+					type: "choice"
 				}
 				{
 					id: "16307893889A443C"
-					type: "ftbmoney:money"
-					ftb_money: 75L
+					type: "custom"
 				}
 				{
 					id: "4D0AA9EF0DE9AFA8"
@@ -4404,79 +4271,77 @@
 					xp: 150
 				}
 			]
-		}
-		{
-			x: 9.0d
-			y: 12.5d
-			description: ["Illusioners start to spawn naturally in Expert Mode (after wither is defeated), but can also spawn in raids."]
-			id: "4F18B88B2A7608F8"
 			tasks: [{
-				id: "46494CE179A84D35"
-				type: "kill"
-				entity: "minecraft:illusioner"
-				value: 100L
-			}]
-			rewards: [
-				{
-					id: "2A6FADEAE69F64B5"
-					type: "choice"
-					table_id: 8545390299491237994L
-				}
-				{
-					id: "132A8493462A541D"
-					type: "ftbmoney:money"
-					ftb_money: 50L
-				}
-			]
-		}
-		{
-			x: 5.5d
-			y: 12.0d
-			id: "4F565EBA69E9725A"
-			tasks: [{
-				id: "7B5EBD45A8D05025"
-				type: "kill"
-				entity: "twilightforest:tower_ghast"
-				value: 10L
-			}]
-			rewards: [
-				{
-					id: "4DA9D3E728B2C2C4"
-					type: "choice"
-					table_id: 8545390299491237994L
-				}
-				{
-					id: "25A2698D7196177F"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
-			x: -3.5d
-			y: 9.5d
-			dependencies: ["16B7281F7910FF1E"]
-			id: "7500D3E11DFC4CAA"
-			tasks: [{
-				id: "59BF32BD54F5D46D"
-				type: "kill"
+				entity: "minecraft:enderman"
 				icon: {
-					id: "spartanweaponry:spider_head"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "spartanweaponry:enderman_head"
 				}
-				entity: "minecraft:spider"
-				value: 500L
+				id: "6CCE994B58DE96E7"
+				type: "kill"
+				value: 100L
 			}]
+			x: 6.0d
+			y: 9.5d
+		}
+		{
+			description: ["Illusioners start to spawn naturally in Expert Mode (after wither is defeated), but can also spawn in raids."]
+			id: "4F18B88B2A7608F8"
+			rewards: [
+				{
+					id: "2A6FADEAE69F64B5"
+					table_id: 8545390299491237994L
+					type: "choice"
+				}
+				{
+					id: "132A8493462A541D"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:illusioner"
+				id: "46494CE179A84D35"
+				type: "kill"
+				value: 100L
+			}]
+			x: 9.0d
+			y: 12.5d
+		}
+		{
+			id: "4F565EBA69E9725A"
+			rewards: [
+				{
+					id: "4DA9D3E728B2C2C4"
+					table_id: 8545390299491237994L
+					type: "choice"
+				}
+				{
+					id: "25A2698D7196177F"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:tower_ghast"
+				id: "7B5EBD45A8D05025"
+				type: "kill"
+				value: 10L
+			}]
+			x: 5.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["16B7281F7910FF1E"]
+			id: "7500D3E11DFC4CAA"
 			rewards: [
 				{
 					id: "5E0E858CBB4A9038"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 				{
 					id: "573369C602352F82"
@@ -4485,52 +4350,57 @@
 				}
 				{
 					id: "65F57E434BC91E34"
-					type: "ftbmoney:money"
-					ftb_money: 80L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "spartanweaponry:spider_head"
+				}
+				id: "59BF32BD54F5D46D"
+				type: "kill"
+				value: 500L
+			}]
+			x: -3.5d
+			y: 9.5d
 		}
 		{
-			x: 5.5d
-			y: 11.0d
 			id: "014B8B99CC212F9F"
-			tasks: [{
-				id: "2954F0A08418711C"
-				type: "kill"
-				entity: "twilightforest:mini_ghast"
-				value: 100L
-			}]
 			rewards: [
 				{
 					id: "333470F6999381C3"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 				{
 					id: "76DC9C61DC21B1DD"
-					type: "ftbmoney:money"
-					ftb_money: 10L
+					type: "custom"
 				}
 			]
+			tasks: [{
+				entity: "twilightforest:mini_ghast"
+				id: "2954F0A08418711C"
+				type: "kill"
+				value: 100L
+			}]
+			x: 5.5d
+			y: 11.0d
 		}
 		{
-			title: "Break 50 Spawners"
-			x: 2.5d
-			y: -1.5d
 			dependencies: ["203172A2D2865B49"]
 			id: "3AEDA39629AAEB5D"
-			tasks: [{
-				id: "35B71F3D14A7D57B"
-				type: "questsadditions:break"
-				block: "minecraft:spawner"
-				value: 50L
-				checkItem: false
-			}]
 			rewards: [
 				{
 					id: "35BAFE024DA2CA14"
-					type: "choice"
 					table_id: 7685042081442074286L
+					type: "choice"
 				}
 				{
 					id: "388E850A22DBCB25"
@@ -4539,65 +4409,63 @@
 				}
 				{
 					id: "1070CAA6DADCF804"
-					type: "ftbmoney:money"
-					ftb_money: 60L
+					type: "custom"
 				}
 				{
+					count: 2
 					id: "548A3B21B9B58C73"
-					type: "item"
 					item: {
-						id: "kubejs:monster_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:monster_coin"
 					}
-					count: 2
+					type: "item"
 				}
 				{
 					id: "20348D52C7F3E788"
-					type: "loot"
 					table_id: 5655352712931457870L
+					type: "loot"
 				}
 				{
-					id: "04AAD0460AB5AFCA"
-					type: "pmmo:xpreward"
-					title: "Dungeoneering XP"
 					icon: {
-						id: "kubejs:chest2"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:chest2"
 					}
-					skill: "dungeoneering"
-					amount: 100.0d
-					ignoreBonuses: false
+					id: "04AAD0460AB5AFCA"
+					title: "Dungeoneering XP"
+					type: "custom"
 				}
 			]
+			tasks: [{
+				block: "minecraft:spawner"
+				block_type: 0
+				checkItem: false
+				id: "35B71F3D14A7D57B"
+				type: "questsadditions:break"
+				value: 50L
+			}]
+			title: "Break 50 Spawners"
+			x: 2.5d
+			y: -1.5d
 		}
 		{
-			x: 1.5d
-			y: -0.5d
-			description: ["Monster Boxes also drop orbs when mined. Just don't get too close!"]
 			dependencies: ["636C994CC9BDE02A"]
+			description: ["Monster Boxes also drop orbs when mined. Just don't get too close!"]
 			id: "58C1C68226071763"
-			tasks: [{
-				id: "4B19FD7770FDC807"
-				type: "questsadditions:break"
-				block: "quark:monster_box"
-				value: 25L
-				checkItem: false
-			}]
 			rewards: [
 				{
 					id: "1D685E2E26A3250F"
-					type: "choice"
 					table_id: 8545390299491237994L
+					type: "choice"
 				}
 				{
 					id: "2BCF22D308180355"
@@ -4606,54 +4474,54 @@
 				}
 				{
 					id: "225AE9E41A7E3635"
-					type: "ftbmoney:money"
-					ftb_money: 25L
+					type: "custom"
 				}
 				{
 					id: "077D51E5EEE7CC16"
-					type: "item"
 					item: {
-						id: "kubejs:monster_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:monster_coin"
 					}
+					type: "item"
 				}
 				{
 					id: "3469CB92A79A99BA"
-					type: "item"
 					item: {
-						id: "tombstone:grave_dust"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tombstone:grave_dust"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				block: "quark:monster_box"
+				block_type: 0
+				checkItem: false
+				id: "4B19FD7770FDC807"
+				type: "questsadditions:break"
+				value: 25L
+			}]
+			x: 1.5d
+			y: -0.5d
 		}
 		{
-			x: 2.5d
-			y: -0.5d
 			dependencies: ["58C1C68226071763"]
 			id: "7CA0166C29898F7A"
-			tasks: [{
-				id: "10D71FBED6C96A34"
-				type: "questsadditions:break"
-				block: "quark:monster_box"
-				value: 50L
-				checkItem: false
-			}]
 			rewards: [
 				{
 					id: "222871C1D0D4F730"
-					type: "choice"
 					table_id: 7685042081442074286L
+					type: "choice"
 				}
 				{
 					id: "05D3B437A9EF549E"
@@ -4662,65 +4530,61 @@
 				}
 				{
 					id: "46697283396B7452"
-					type: "ftbmoney:money"
-					ftb_money: 60L
+					type: "custom"
 				}
 				{
+					count: 2
 					id: "0DC47115B061AF30"
-					type: "item"
 					item: {
-						id: "kubejs:monster_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:monster_coin"
 					}
-					count: 2
+					type: "item"
 				}
 				{
 					id: "5525313DA550020D"
-					type: "loot"
 					table_id: 5655352712931457870L
+					type: "loot"
 				}
 				{
-					id: "2383888442AA197C"
-					type: "pmmo:xpreward"
-					title: "Dungeoneering XP"
 					icon: {
-						id: "kubejs:chest2"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:chest2"
 					}
-					skill: "dungeoneering"
-					amount: 100.0d
-					ignoreBonuses: false
+					id: "2383888442AA197C"
+					title: "Dungeoneering XP"
+					type: "custom"
 				}
 			]
+			tasks: [{
+				block: "quark:monster_box"
+				block_type: 0
+				checkItem: false
+				id: "10D71FBED6C96A34"
+				type: "questsadditions:break"
+				value: 50L
+			}]
+			x: 2.5d
+			y: -0.5d
 		}
 		{
-			x: 3.5d
-			y: -1.5d
 			dependencies: ["3AEDA39629AAEB5D"]
 			id: "5A3FA8B6A53D834D"
-			tasks: [{
-				id: "5DA228070189B1B1"
-				type: "questsadditions:break"
-				title: "Break 100 Spawners"
-				block: "minecraft:spawner"
-				value: 100L
-				checkItem: false
-			}]
 			rewards: [
 				{
 					id: "6E4DD9937167816E"
-					type: "choice"
 					table_id: 3680913278004027102L
+					type: "choice"
 				}
 				{
 					id: "63DF3BB1E662ED2A"
@@ -4729,69 +4593,70 @@
 				}
 				{
 					id: "31ED6F442C598E4B"
-					type: "ftbmoney:money"
-					ftb_money: 75L
+					type: "custom"
 				}
 				{
+					count: 3
 					id: "0F4E825F03714863"
-					type: "item"
 					item: {
-						id: "kubejs:monster_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:monster_coin"
 					}
-					count: 3
+					type: "item"
 				}
 				{
 					id: "331912857847F6A3"
-					type: "item"
 					item: {
-						id: "kubejs:gold_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:gold_coin"
 					}
+					type: "item"
 				}
 				{
+					count: 5
 					id: "65B4A1466D232AF5"
-					type: "item"
 					item: {
-						id: "tombstone:grave_dust"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tombstone:grave_dust"
 					}
-					count: 5
+					type: "item"
 				}
 			]
+			tasks: [{
+				block: "minecraft:spawner"
+				block_type: 0
+				checkItem: false
+				id: "5DA228070189B1B1"
+				title: "Break 100 Spawners"
+				type: "questsadditions:break"
+				value: 100L
+			}]
+			x: 3.5d
+			y: -1.5d
 		}
 		{
-			x: 3.5d
-			y: -0.5d
 			dependencies: ["7CA0166C29898F7A"]
 			id: "7FC5E3377BF8195C"
-			tasks: [{
-				id: "72B4F1BE542409E1"
-				type: "questsadditions:break"
-				block: "quark:monster_box"
-				value: 100L
-				checkItem: false
-			}]
 			rewards: [
 				{
 					id: "1EC1DDBF30CF5DC5"
-					type: "choice"
 					table_id: 3680913278004027102L
+					type: "choice"
 				}
 				{
 					id: "740D27ABA1EFBAC7"
@@ -4800,76 +4665,73 @@
 				}
 				{
 					id: "5F70817CED2B7F09"
-					type: "ftbmoney:money"
-					ftb_money: 75L
+					type: "custom"
 				}
 				{
+					count: 3
 					id: "20D7AC1DA22A436B"
-					type: "item"
 					item: {
-						id: "kubejs:monster_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:monster_coin"
 					}
-					count: 3
+					type: "item"
 				}
 				{
 					id: "51E22FEF384B18B6"
-					type: "item"
 					item: {
-						id: "kubejs:gold_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:gold_coin"
 					}
+					type: "item"
 				}
 				{
+					count: 5
 					id: "2B8D073998D0DA70"
-					type: "item"
 					item: {
-						id: "tombstone:grave_dust"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tombstone:grave_dust"
 					}
-					count: 5
+					type: "item"
 				}
 			]
+			tasks: [{
+				block: "quark:monster_box"
+				block_type: 0
+				checkItem: false
+				id: "72B4F1BE542409E1"
+				type: "questsadditions:break"
+				value: 100L
+			}]
+			x: 3.5d
+			y: -0.5d
 		}
 		{
-			x: 4.5d
-			y: -1.5d
-			shape: "square"
-			subtitle: "Break 500 Spawners"
+			dependencies: ["5A3FA8B6A53D834D"]
 			description: [
 				"Those who resist the temptation to spawner farm and go out of their way to break 500 spawners in the world will be granted the title of Spawner Smasher!"
 				"(the title can be claimed in the \"Titles\" chapter after completing this)"
 			]
-			dependencies: ["5A3FA8B6A53D834D"]
 			id: "40FF66BE65AF171D"
-			tasks: [{
-				id: "0BA38C8135DBD375"
-				type: "questsadditions:break"
-				title: "Spawner Smasher"
-				block: "minecraft:spawner"
-				value: 500L
-				checkItem: false
-			}]
 			rewards: [
 				{
 					id: "4FACAC916D9610C3"
-					type: "choice"
 					table_id: 3680913278004027102L
+					type: "choice"
 				}
 				{
 					id: "2FFAD71E1DBE55D8"
@@ -4878,68 +4740,65 @@
 				}
 				{
 					id: "35CB99F7BA276C77"
-					type: "ftbmoney:money"
-					ftb_money: 260L
+					type: "custom"
 				}
 				{
-					id: "7F8BC65C013D4AEB"
-					type: "item"
-					item: {
-						id: "kubejs:monster_coin"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
 					count: 10
-				}
-				{
-					id: "153C8C7D45877D2D"
-					type: "item"
+					id: "7F8BC65C013D4AEB"
 					item: {
-						id: "kubejs:diamond_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:monster_coin"
 					}
-					count: 2
+					type: "item"
 				}
 				{
-					id: "75A20CDEB1600DA8"
-					type: "pmmo:xpreward"
-					title: "1337 Dungeoneering XP"
+					count: 2
+					id: "153C8C7D45877D2D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:diamond_coin"
+					}
+					type: "item"
+				}
+				{
 					icon: "kubejs:chest2"
-					skill: "dungeoneering"
-					amount: 1337.0d
-					ignoreBonuses: false
+					id: "75A20CDEB1600DA8"
+					title: "1337 Dungeoneering XP"
+					type: "custom"
 				}
 			]
+			shape: "square"
+			subtitle: "Break 500 Spawners"
+			tasks: [{
+				block: "minecraft:spawner"
+				block_type: 0
+				checkItem: false
+				id: "0BA38C8135DBD375"
+				title: "Spawner Smasher"
+				type: "questsadditions:break"
+				value: 500L
+			}]
+			x: 4.5d
+			y: -1.5d
 		}
 		{
-			x: 4.5d
-			y: -0.5d
-			shape: "square"
-			subtitle: "Break 500 Monster Box"
 			dependencies: ["7FC5E3377BF8195C"]
 			id: "03B12F1965ADB68A"
-			tasks: [{
-				id: "144956EFB7B19305"
-				type: "questsadditions:break"
-				title: "Box Buster"
-				block: "quark:monster_box"
-				value: 500L
-				checkItem: false
-			}]
 			rewards: [
 				{
 					id: "2B41C567E2A21A7F"
-					type: "choice"
 					table_id: 3680913278004027102L
+					type: "choice"
 				}
 				{
 					id: "4EA6AF700E2BC93F"
@@ -4948,47 +4807,57 @@
 				}
 				{
 					id: "2B48AAEC3AC68022"
-					type: "ftbmoney:money"
-					ftb_money: 260L
+					type: "custom"
 				}
 				{
-					id: "381213364F8A807E"
-					type: "item"
-					item: {
-						id: "kubejs:monster_coin"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
 					count: 10
-				}
-				{
-					id: "3449A6A113241569"
-					type: "item"
+					id: "381213364F8A807E"
 					item: {
-						id: "kubejs:diamond_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "kubejs:monster_coin"
 					}
-					count: 2
+					type: "item"
 				}
 				{
-					id: "0D1976BBC5B3A26F"
-					type: "pmmo:xpreward"
-					title: "1337 Dungeoneering XP"
+					count: 2
+					id: "3449A6A113241569"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:diamond_coin"
+					}
+					type: "item"
+				}
+				{
 					icon: "kubejs:chest2"
-					skill: "dungeoneering"
-					amount: 1337.0d
-					ignoreBonuses: false
+					id: "0D1976BBC5B3A26F"
+					title: "1337 Dungeoneering XP"
+					type: "custom"
 				}
 			]
+			shape: "square"
+			subtitle: "Break 500 Monster Box"
+			tasks: [{
+				block: "quark:monster_box"
+				block_type: 0
+				checkItem: false
+				id: "144956EFB7B19305"
+				title: "Box Buster"
+				type: "questsadditions:break"
+				value: 500L
+			}]
+			x: 4.5d
+			y: -0.5d
 		}
 	]
+	title: "Meet Your Fight!"
 }

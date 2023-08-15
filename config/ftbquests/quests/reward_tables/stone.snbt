@@ -1,32 +1,32 @@
 {
 	id: "7009BCE9EB258656"
-	order_index: 21
-	title: "Stone"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "stone"
+	}
 	loot_size: 1
+	order_index: 21
 	rewards: [
-		{ item: "minecraft:granite", count: 64 }
-		{ item: "minecraft:diorite", count: 64 }
-		{ item: "minecraft:andesite", count: 64 }
+		{ count: 64, item: "minecraft:granite" }
+		{ count: 64, item: "minecraft:diorite" }
+		{ count: 64, item: "minecraft:andesite" }
 		{
+			count: 64
 			item: {
-				id: "minecraft:stone"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "minecraft:stone"
 			}
-			count: 64
 		}
 	]
-	loot_crate: {
-		drops: {
-			boss: 0
-			passive: 0
-			monster: 0
-		}
-		color: 16777215
-		string_id: "stone"
-	}
+	title: "Stone"
 }

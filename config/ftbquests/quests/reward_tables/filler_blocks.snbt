@@ -1,96 +1,96 @@
 {
-	id: "738E382631EA6C99"
-	order_index: 64
-	title: "Filler Blocks"
 	icon: "minecraft:dirt"
-	loot_size: 1
-	use_title: true
-	rewards: [
-		{
-			item: {
-				id: "minecraft:dirt"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			count: 64
-			weight: 2
-		}
-		{
-			item: {
-				id: "minecraft:sand"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			count: 64
-			weight: 2
-		}
-		{
-			item: {
-				id: "minecraft:red_sand"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			count: 64
-			weight: 2
-		}
-		{
-			item: {
-				id: "minecraft:gravel"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			count: 64
-			weight: 2
-		}
-		{
-			item: {
-				id: "minecraft:clay_ball"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			count: 64
-			weight: 2
-		}
-		{
-			item: {
-				id: "minecraft:grass_block"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			count: 16
-		}
-	]
+	id: "738E382631EA6C99"
 	loot_crate: {
+		color: 16777215
 		drops: {
 			boss: 0
-			passive: 0
 			monster: 0
+			passive: 0
 		}
-		color: 16777215
 		string_id: "filler_blocks"
 	}
+	loot_size: 1
+	order_index: 64
+	rewards: [
+		{
+			count: 64
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:dirt"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:sand"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:red_sand"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:gravel"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:clay_ball"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 16
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:grass_block"
+			}
+		}
+	]
+	title: "Filler Blocks"
+	use_title: true
 }

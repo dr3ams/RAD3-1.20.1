@@ -1,116 +1,116 @@
 {
-	id: "33BCAFB9011EDB3D"
-	order_index: 79
-	title: "Vanilla Materials 3"
 	icon: {
-		id: "minecraft:obsidian"
 		Count: 1b
 		ForgeCaps: {
 			"dungeons_libraries:built_in_enchantments": {
 				BuiltInEnchantments: [ ]
 			}
 		}
+		id: "minecraft:obsidian"
 	}
-	loot_size: 1
-	rewards: [
-		{
-			item: {
-				id: "minecraft:slime_ball"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			count: 64
-			weight: 10
-		}
-		{
-			item: {
-				id: "minecraft:ink_sac"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			count: 64
-			weight: 10
-		}
-		{
-			item: {
-				id: "minecraft:ender_pearl"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			count: 64
-			weight: 8
-		}
-		{
-			item: {
-				id: "minecraft:rotten_flesh"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			count: 64
-		}
-		{
-			item: {
-				id: "minecraft:leather"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			count: 64
-			weight: 5
-		}
-		{
-			item: {
-				id: "minecraft:sugar_cane"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			count: 64
-			weight: 5
-		}
-		{
-			item: {
-				id: "minecraft:obsidian"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			count: 64
-			weight: 5
-		}
-	]
+	id: "33BCAFB9011EDB3D"
 	loot_crate: {
+		color: 16777215
 		drops: {
 			boss: 0
-			passive: 0
 			monster: 0
+			passive: 0
 		}
-		color: 16777215
 		string_id: "materials_3"
 	}
+	loot_size: 1
+	order_index: 79
+	rewards: [
+		{
+			count: 64
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:slime_ball"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:ink_sac"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:ender_pearl"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:rotten_flesh"
+			}
+		}
+		{
+			count: 64
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:leather"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:sugar_cane"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:obsidian"
+			}
+			weight: 5.0f
+		}
+	]
+	title: "Vanilla Materials 3"
 }

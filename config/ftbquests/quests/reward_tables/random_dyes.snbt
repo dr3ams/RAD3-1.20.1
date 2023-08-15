@@ -1,18 +1,26 @@
 {
-	id: "6A93A345CDF7C226"
-	order_index: 3
-	title: "Random Dyes"
 	icon: {
-		id: "minecraft:purple_dye"
 		Count: 1b
 		ForgeCaps: {
 			"dungeons_libraries:built_in_enchantments": {
 				BuiltInEnchantments: [ ]
 			}
 		}
+		id: "minecraft:purple_dye"
+	}
+	id: "6A93A345CDF7C226"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "random_dyes"
 	}
 	loot_size: 2
-	use_title: true
+	order_index: 3
 	rewards: [
 		{ item: "minecraft:white_dye" }
 		{ item: "minecraft:orange_dye" }
@@ -32,14 +40,6 @@
 		{ item: "minecraft:light_gray_dye" }
 		{ item: "minecraft:cyan_dye" }
 	]
-	loot_crate: {
-		drops: {
-			boss: 0
-			passive: 0
-			monster: 0
-		}
-		color: 16777215
-		glow: 1b
-		string_id: "random_dyes"
-	}
+	title: "Random Dyes"
+	use_title: true
 }

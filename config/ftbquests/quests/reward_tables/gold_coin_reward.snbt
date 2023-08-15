@@ -1,96 +1,91 @@
 {
 	id: "5D7127D0072C76C4"
-	order_index: 27
-	title: "Gold coin reward"
 	loot_size: 1
+	order_index: 27
 	rewards: [
 		{
-			item: {
-				id: "aquaculture:treasure_chest"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
 			count: 32
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquaculture:treasure_chest"
+			}
 		}
 		{
+			count: 16
 			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 				id: "minecraft:ender_pearl"
+			}
+		}
+		{
+			count: 16
+			item: {
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			count: 16
-		}
-		{
-			item: {
 				id: "randomite:randomite_ore"
+			}
+		}
+		{
+			count: 64
+			item: {
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			count: 16
-		}
-		{
-			item: {
 				id: "minecraft:golden_carrot"
+			}
+		}
+		{
+			count: 64
+			item: {
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			count: 64
-		}
-		{
-			item: {
 				id: "minecraft:quartz"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
-			count: 64
 		}
 		{
-			item: {
-				id: "minecraft:blaze_rod"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
 			count: 8
-		}
-		{
 			item: {
-				id: "quark:blank_rune"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "minecraft:blaze_rod"
 			}
 		}
 		{
-			ftb_money: 50L
-			random_bonus: 50
-			type: "ftbmoney:money"
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "quark:blank_rune"
+			}
 		}
 	]
+	title: "Gold coin reward"
 }

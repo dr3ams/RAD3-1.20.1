@@ -1,35 +1,42 @@
 {
-	id: "57B98D90761AB9F1"
-	order_index: 10
-	title: "Materials Magic"
-	loot_size: 1
 	hide_tooltip: true
-	use_title: true
+	id: "57B98D90761AB9F1"
+	loot_crate: {
+		color: 9525759
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "materials_magic"
+	}
+	loot_size: 1
+	order_index: 10
 	rewards: [
 		{ item: "eidolon:arcane_gold_ingot" }
-		{ item: "eidolon:arcane_gold_nugget", count: 3 }
+		{ count: 3, item: "eidolon:arcane_gold_nugget" }
 		{
 			item: {
-				id: "ars_nouveau:runic_chalk"
 				Count: 1b
+				id: "ars_nouveau:runic_chalk"
 				tag: {
 					Damage: 0
 				}
 			}
 		}
-		{ item: "ars_nouveau:blank_glyph", count: 5 }
+		{ count: 5, item: "ars_nouveau:blank_glyph" }
 		{ item: "eidolon:pewter_blend" }
 		{ item: "eidolon:pewter_ingot" }
 		{ item: "eidolon:sulfur" }
 		{ item: "eidolon:soul_shard" }
 		{
 			item: {
-				id: "minecraft:enchanted_book"
 				Count: 1b
+				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
-						lvl: 1s
 						id: "ars_nouveau:reactive"
+						lvl: 1s
 					}]
 				}
 			}
@@ -43,20 +50,20 @@
 		{ item: "ars_nouveau:blaze_fiber" }
 		{
 			item: {
-				id: "minecraft:enchanted_book"
 				Count: 1b
+				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
-						lvl: 1s
 						id: "ars_nouveau:mana_boost"
+						lvl: 1s
 					}]
 				}
 			}
 		}
 		{
 			item: {
-				id: "minecraft:potion"
 				Count: 1b
+				id: "minecraft:potion"
 				tag: {
 					Potion: "ars_nouveau:spell_damage"
 				}
@@ -64,8 +71,8 @@
 		}
 		{
 			item: {
-				id: "minecraft:potion"
 				Count: 1b
+				id: "minecraft:potion"
 				tag: {
 					Potion: "ars_nouveau:spell_damage_long"
 				}
@@ -73,8 +80,8 @@
 		}
 		{
 			item: {
-				id: "minecraft:potion"
 				Count: 1b
+				id: "minecraft:potion"
 				tag: {
 					Potion: "ars_nouveau:spell_damage_strong"
 				}
@@ -87,20 +94,20 @@
 		{ item: "ars_nouveau:end_fiber" }
 		{
 			item: {
-				id: "minecraft:enchanted_book"
 				Count: 1b
+				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
-						lvl: 1s
 						id: "ars_nouveau:mana_regen"
+						lvl: 1s
 					}]
 				}
 			}
 		}
 		{
 			item: {
-				id: "minecraft:potion"
 				Count: 1b
+				id: "minecraft:potion"
 				tag: {
 					Potion: "ars_nouveau:mana_regen_potion"
 				}
@@ -108,8 +115,8 @@
 		}
 		{
 			item: {
-				id: "minecraft:potion"
 				Count: 1b
+				id: "minecraft:potion"
 				tag: {
 					Potion: "ars_nouveau:mana_regen_potion_long"
 				}
@@ -117,8 +124,8 @@
 		}
 		{
 			item: {
-				id: "minecraft:potion"
 				Count: 1b
+				id: "minecraft:potion"
 				tag: {
 					Potion: "ars_nouveau:mana_regen_potion_strong"
 				}
@@ -146,23 +153,16 @@
 		{ item: "mysticalworld:silk_cocoon" }
 		{
 			item: {
-				id: "tombstone:dust_of_vanishing"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "tombstone:dust_of_vanishing"
 			}
 		}
 	]
-	loot_crate: {
-		drops: {
-			boss: 0
-			passive: 0
-			monster: 0
-		}
-		color: 9525759
-		string_id: "materials_magic"
-	}
+	title: "Materials Magic"
+	use_title: true
 }

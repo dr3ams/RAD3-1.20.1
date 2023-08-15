@@ -1,67 +1,64 @@
 {
-	id: "2B8506307F0DA912"
-	group: "241F1DC7B6D6E9D6"
-	order_index: 3
-	filename: "dimensional_dungeons"
-	title: "Dimensional Travels"
-	icon: "dimdungeons:block_portal_keyhole"
-	subtitle: ["Limitless adventure from a single portal that you can build anywhere!"]
-	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "dimensional_dungeons"
+	group: "241F1DC7B6D6E9D6"
+	icon: "dimdungeons:block_portal_keyhole"
+	id: "2B8506307F0DA912"
 	images: [
 		{
-			x: 5.5d
-			y: 2.0d
-			width: 2.0d
+			click: ""
+			corner: false
+			dev: false
 			height: 2.0d
-			rotation: 0.0d
+			hover: [ ]
 			image: "dimdungeons:textures/block/block_keyhole_front_lit2.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 2.0d
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "dimdungeons:textures/block/block_keyhole_front_empty.png"
+			rotation: 0.0d
+			width: 2.0d
 			x: 7.5d
 			y: 4.0d
-			width: 2.0d
-			height: 2.0d
-			rotation: 0.0d
-			image: "dimdungeons:textures/block/block_keyhole_front_empty.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "dimdungeons:textures/block/block_charger_top_3.png"
+			rotation: 0.0d
+			width: 2.0d
 			x: 7.5d
 			y: 2.0d
-			width: 2.0d
-			height: 2.0d
-			rotation: 0.0d
-			image: "dimdungeons:textures/block/block_charger_top_3.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "dimdungeons:textures/block/block_charger_top_1.png"
+			rotation: 0.0d
+			width: 2.0d
 			x: 5.5d
 			y: 4.0d
-			width: 2.0d
-			height: 2.0d
-			rotation: 0.0d
-			image: "dimdungeons:textures/block/block_charger_top_1.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 	]
+	order_index: 3
+	quest_links: [ ]
 	quests: [
 		{
-			x: 4.0d
-			y: 3.0d
 			description: [
 				"Dimensional Dungeons adds limitless procedurally generated dungeons to Minecraft! These dungeons are all placed in a single, separate dimension which can be accessed from a portal anywhere on the Overworld. This makes the dungeons themselves renewable and it provides challenging, replayable content."
 				""
@@ -71,65 +68,59 @@
 				"Besides challenges in room design the dungeons are also randomly populated with enemies and worthwhile loot! Many rooms with valuable treasure chests require solving a puzzle that will test your knowledge of Minecraft game mechanics."
 			]
 			id: "373262E31E3E4D5B"
+			rewards: [
+				{
+					id: "5C2D4295AB59621B"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+				{
+					id: "1735164BA2D78666"
+					item: "randomite:randomite_ore"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0549D2EE17A5251A"
-				type: "item"
 				item: {
-					id: "patchouli:guide_book"
 					Count: 1b
+					id: "patchouli:guide_book"
 					tag: {
 						"patchouli:book": "dimdungeons:guide_book"
 					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "5C2D4295AB59621B"
-					type: "item"
-					item: "aquaculture:lockbox"
-				}
-				{
-					id: "1735164BA2D78666"
-					type: "item"
-					item: "randomite:randomite_ore"
-				}
-			]
+			x: 4.0d
+			y: 3.0d
 		}
 		{
-			x: 4.0d
-			y: 5.5d
-			description: ["Blank Portal Keys are crafted from a Blaze Rod and a Name Tag. You may want several."]
 			dependencies: ["373262E31E3E4D5B"]
+			description: ["Blank Portal Keys are crafted from a Blaze Rod and a Name Tag. You may want several."]
 			id: "49D31A8380AFA032"
-			tasks: [{
-				id: "12B2B5EEC9822AE4"
-				type: "item"
-				item: "dimdungeons:item_portal_key"
-			}]
 			rewards: [{
 				id: "61B9A2749C052810"
-				type: "item"
 				item: {
-					id: "ftbquests:lootcrate"
 					Count: 1b
+					id: "ftbquests:lootcrate"
 					tag: {
 						type: "materials_random"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "12B2B5EEC9822AE4"
+				item: "dimdungeons:item_portal_key"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
 		}
 		{
-			x: 6.5d
-			y: 0.5d
-			description: ["First craft three Gilded Portal Blocks, which are a Chiseled Stone Brick surrounded by 8 Gold Ingots."]
 			dependencies: ["19C09B0537FF8F85"]
+			description: ["First craft three Gilded Portal Blocks, which are a Chiseled Stone Brick surrounded by 8 Gold Ingots."]
 			id: "06FDB1551D976F28"
-			tasks: [{
-				id: "4DF5F1A54C512A3A"
-				type: "item"
-				item: "dimdungeons:block_gilded_portal"
-				count: 3L
-			}]
 			rewards: [
 				{
 					id: "49785DA9C5E9C87B"
@@ -137,22 +128,23 @@
 				}
 				{
 					id: "4C2D7FF0D88E1E94"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 			]
+			tasks: [{
+				count: 3L
+				id: "4DF5F1A54C512A3A"
+				item: "dimdungeons:block_gilded_portal"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
 		}
 		{
-			x: 9.0d
-			y: 0.5d
-			description: ["Second, combine one of your three Gilded Portal Blocks with the Trapped Chest and the Eye of Ender to form a Portal Keyhole Block."]
 			dependencies: ["06FDB1551D976F28"]
+			description: ["Second, combine one of your three Gilded Portal Blocks with the Trapped Chest and the Eye of Ender to form a Portal Keyhole Block."]
 			id: "467404C9A88BA929"
-			tasks: [{
-				id: "3C4B4629A328B684"
-				type: "item"
-				item: "dimdungeons:block_portal_keyhole"
-			}]
 			rewards: [
 				{
 					id: "3FC9CD30F75F7A70"
@@ -160,15 +152,20 @@
 				}
 				{
 					id: "77E853324AA3466E"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "3C4B4629A328B684"
+				item: "dimdungeons:block_portal_keyhole"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
 		}
 		{
-			title: "Activating Portal Keys"
-			x: 6.5d
-			y: 5.5d
+			dependencies: ["49D31A8380AFA032"]
 			description: [
 				"A blank key cannot be used to enter a dungeon. A newly crafted key must first be used in an 'activation ritual' which will inscribe the name and location of a randomly generated dungeon onto the key. This action will require you to bring the key to a fitting location on The Overworld."
 				""
@@ -178,20 +175,21 @@
 				""
 				"Keys can only be written to once. However keys are absolutely reusable! If you find a dungeon that is worth visiting more than once be sure to save that key somewhere in your base. A named key will always consistently take you back to the same dungeon."
 			]
-			dependencies: ["49D31A8380AFA032"]
 			id: "2205A97ACB6A9309"
-			tasks: [{
-				id: "028ACB8879FC66F1"
-				type: "checkmark"
-			}]
 			rewards: [{
 				id: "557BA510C4195368"
 				type: "custom"
 			}]
+			tasks: [{
+				id: "028ACB8879FC66F1"
+				type: "checkmark"
+			}]
+			title: "Activating Portal Keys"
+			x: 6.5d
+			y: 5.5d
 		}
 		{
-			x: 4.0d
-			y: 0.5d
+			dependencies: ["373262E31E3E4D5B"]
 			description: [
 				"First, here is a minimum raw materials list:"
 				"- 9x Stone Bricks"
@@ -202,21 +200,21 @@
 				""
 				"Keep in mind you will also need to craft and activate keys. This is only the first step."
 			]
-			dependencies: ["373262E31E3E4D5B"]
 			id: "19C09B0537FF8F85"
-			tasks: [{
-				id: "0E498E4858047C55"
-				type: "checkmark"
-				title: "Creating the Basic Portal"
-			}]
 			rewards: [{
 				id: "7E79C499DFD17B21"
 				type: "custom"
 			}]
+			tasks: [{
+				id: "0E498E4858047C55"
+				title: "Creating the Basic Portal"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.5d
 		}
 		{
-			x: 9.0d
-			y: 2.5d
+			dependencies: ["467404C9A88BA929"]
 			description: [
 				"Basically you need a frame of Stone Bricks surrounding two air blocks. And replace the top center block with the Portal Keyhole Block. The two spires on the side need to have your two remaining Gilded Portal BLocks on top."
 				""
@@ -225,46 +223,45 @@
 				""
 				"Other Stone Brick variants can be used in the build, too. And the only air blocks that matter are the two blocks where the portal will appear."
 			]
-			dependencies: ["467404C9A88BA929"]
 			id: "46BDA3FB1FD338F7"
-			tasks: [{
-				id: "48F36A95518DC117"
-				type: "checkmark"
-				title: "Valid Portal Builds"
-			}]
 			rewards: [{
 				id: "06781A553566752E"
 				type: "custom"
 			}]
+			tasks: [{
+				id: "48F36A95518DC117"
+				title: "Valid Portal Builds"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 2.5d
 		}
 		{
-			x: 9.0d
-			y: 5.5d
-			subtitle: "Activate portal key"
 			dependencies: ["2205A97ACB6A9309"]
 			id: "5F3AE6FDE9AC06B6"
-			tasks: [{
-				id: "4F86E5AD6BC0CB17"
-				type: "advancement"
-				advancement: "dimdungeons:dungeons/activate_basic_key"
-				criterion: ""
-			}]
 			rewards: [{
 				id: "5E68E60CB268C538"
-				type: "item"
 				item: {
-					id: "ftbquests:lootcrate"
 					Count: 1b
+					id: "ftbquests:lootcrate"
 					tag: {
 						type: "potions"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Activate portal key"
+			tasks: [{
+				advancement: "dimdungeons:dungeons/activate_basic_key"
+				criterion: ""
+				id: "4F86E5AD6BC0CB17"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 5.5d
 		}
 		{
-			x: 9.0d
-			y: 3.5d
-			subtitle: "Find two portal crown blocks"
+			dependencies: ["5F3AE6FDE9AC06B6"]
 			description: [
 				"Advanced dungeons are exactly what they sound like. Bigger layouts, tougher monsters, and improved loot!"
 				""
@@ -276,26 +273,29 @@
 				""
 				"Second you must place two Portal Crown Blocks on top of your portal frame. You're going to have to rely on finding Portal Crown Blocks as loot in basic dungeon chests."
 			]
-			dependencies: ["5F3AE6FDE9AC06B6"]
 			id: "563459F7C0D8D8D3"
-			tasks: [{
-				id: "3A7C69B1D45081EA"
-				type: "advancement"
-				advancement: "dimdungeons:dungeons/find_crown"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "03D3B4BD7967EF3C"
-					type: "item"
 					item: "aquaculture:treasure_chest"
+					type: "item"
 				}
 				{
 					id: "58626ABC605251BF"
 					type: "custom"
 				}
 			]
+			subtitle: "Find two portal crown blocks"
+			tasks: [{
+				advancement: "dimdungeons:dungeons/find_crown"
+				criterion: ""
+				id: "3A7C69B1D45081EA"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 3.5d
 		}
 	]
-	quest_links: [ ]
+	subtitle: ["Limitless adventure from a single portal that you can build anywhere!"]
+	title: "Dimensional Travels"
 }

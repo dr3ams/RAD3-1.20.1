@@ -1,197 +1,197 @@
 {
 	id: "0527508734875860"
-	order_index: 88
-	title: "Modifiers (Tools)"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "modifiers_tools_"
+	}
 	loot_size: 1
+	order_index: 88
 	rewards: [
 		{
 			item: {
-				id: "modifiers:modifier_book"
 				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "modifiers:modifier_book"
 				tag: {
 					bookModifier: "modifiers:swift"
 				}
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 100
-		}
-		{
-			item: {
 				id: "modifiers:modifier_book"
-				Count: 1b
 				tag: {
 					bookModifier: "modifiers:agile"
 				}
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 100
-		}
-		{
-			item: {
 				id: "modifiers:modifier_book"
-				Count: 1b
 				tag: {
 					bookModifier: "modifiers:damaged"
 				}
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 100
-		}
-		{
-			item: {
 				id: "modifiers:modifier_book"
-				Count: 1b
 				tag: {
 					bookModifier: "modifiers:broken"
 				}
+			}
+			weight: 70.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 70
-		}
-		{
-			item: {
 				id: "modifiers:modifier_book"
-				Count: 1b
 				tag: {
 					bookModifier: "modifiers:sharp"
 				}
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 100
-		}
-		{
-			item: {
 				id: "modifiers:modifier_book"
-				Count: 1b
 				tag: {
 					bookModifier: "modifiers:vicious"
 				}
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 100
-		}
-		{
-			item: {
 				id: "modifiers:modifier_book"
-				Count: 1b
 				tag: {
 					bookModifier: "modifiers:deadly"
 				}
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 100
-		}
-		{
-			item: {
 				id: "modifiers:modifier_book"
-				Count: 1b
 				tag: {
 					bookModifier: "modifiers:legendary"
 				}
+			}
+			weight: 30.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 30
-		}
-		{
-			item: {
 				id: "modifiers:modifier_book"
-				Count: 1b
 				tag: {
 					bookModifier: "modifiers:heavy"
 				}
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 100
-		}
-		{
-			item: {
 				id: "modifiers:modifier_book"
-				Count: 1b
 				tag: {
 					bookModifier: "modifiers:light"
 				}
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 100
-		}
-		{
-			item: {
 				id: "modifiers:modifier_book"
-				Count: 1b
 				tag: {
 					bookModifier: "modifiers:slow"
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
-			weight: 100
+			weight: 100.0f
 		}
 		{
 			item: {
-				id: "modifiers:modifier_book"
 				Count: 1b
-				tag: {
-					bookModifier: "modifiers:sluggish"
-				}
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "modifiers:modifier_book"
+				tag: {
+					bookModifier: "modifiers:sluggish"
+				}
 			}
-			weight: 100
+			weight: 100.0f
 		}
 	]
-	loot_crate: {
-		drops: {
-			boss: 0
-			passive: 0
-			monster: 0
-		}
-		color: 16777215
-		string_id: "modifiers_tools_"
-	}
+	title: "Modifiers (Tools)"
 }

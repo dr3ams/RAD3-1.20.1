@@ -1,115 +1,115 @@
 {
 	id: "130231C87959F255"
-	order_index: 83
-	title: "Ores 4"
-	loot_size: 1
-	rewards: [
-		{
-			item: {
-				id: "minecraft:ancient_debris"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			count: 16
-			random_bonus: 16
-			weight: 15
-		}
-		{
-			item: {
-				id: "minecraft:diamond_block"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			count: 8
-			random_bonus: 8
-			weight: 10
-		}
-		{
-			item: {
-				id: "minecraft:gold_block"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			count: 16
-			random_bonus: 16
-			weight: 8
-		}
-		{
-			item: {
-				id: "minecraft:lapis_block"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			count: 16
-			random_bonus: 16
-			weight: 5
-		}
-		{
-			item: {
-				id: "minecraft:redstone_block"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			count: 16
-			random_bonus: 16
-			weight: 2
-		}
-		{
-			item: {
-				id: "randomite:randomite_ore"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			count: 64
-			random_bonus: 32
-			weight: 5
-		}
-		{
-			item: {
-				id: "ars_nouveau:mana_gem_block"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			count: 16
-			random_bonus: 16
-			weight: 5
-		}
-	]
 	loot_crate: {
+		color: 16777215
 		drops: {
 			boss: 0
-			passive: 0
 			monster: 0
+			passive: 0
 		}
-		color: 16777215
 		string_id: "ores_4"
 	}
+	loot_size: 1
+	order_index: 83
+	rewards: [
+		{
+			count: 16
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:ancient_debris"
+			}
+			random_bonus: 16
+			weight: 15.0f
+		}
+		{
+			count: 8
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:diamond_block"
+			}
+			random_bonus: 8
+			weight: 10.0f
+		}
+		{
+			count: 16
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:gold_block"
+			}
+			random_bonus: 16
+			weight: 8.0f
+		}
+		{
+			count: 16
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:lapis_block"
+			}
+			random_bonus: 16
+			weight: 5.0f
+		}
+		{
+			count: 16
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:redstone_block"
+			}
+			random_bonus: 16
+			weight: 2.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "randomite:randomite_ore"
+			}
+			random_bonus: 32
+			weight: 5.0f
+		}
+		{
+			count: 16
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ars_nouveau:mana_gem_block"
+			}
+			random_bonus: 16
+			weight: 5.0f
+		}
+	]
+	title: "Ores 4"
 }

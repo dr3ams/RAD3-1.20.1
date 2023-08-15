@@ -1,114 +1,114 @@
 {
 	id: "41B3133EE4B82E1A"
-	order_index: 6
-	title: "Common loot crate"
+	loot_crate: {
+		color: 12895428
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "common_loot_crate"
+	}
 	loot_size: 1
-	use_title: true
+	order_index: 6
 	rewards: [
 		{
-			title: "Logs"
 			item: {
-				id: "ftbquests:lootcrate"
 				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
 				tag: {
 					type: "logs"
 				}
+			}
+			title: "Logs"
+			weight: 6.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 6
-		}
-		{
-			title: "Food"
-			item: {
 				id: "ftbquests:lootcrate"
-				Count: 1b
 				tag: {
 					type: "vanilla_food"
 				}
+			}
+			title: "Food"
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 4
-		}
-		{
-			title: "Materials"
-			item: {
 				id: "ftbquests:lootcrate"
-				Count: 1b
 				tag: {
 					type: "vanilla_materials"
 				}
+			}
+			title: "Materials"
+			weight: 6.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 6
-		}
-		{
-			title: "Blocks"
-			item: {
 				id: "ftbquests:lootcrate"
-				Count: 1b
 				tag: {
 					type: "filler_blocks"
 				}
+			}
+			title: "Blocks"
+			weight: 6.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 6
-		}
-		{
-			title: "Planks"
-			item: {
 				id: "ftbquests:lootcrate"
-				Count: 1b
 				tag: {
 					type: "planks"
 				}
+			}
+			title: "Planks"
+			weight: 6.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 6
-		}
-		{
-			title: "Junk"
-			item: {
 				id: "ftbquests:lootcrate"
-				Count: 1b
 				tag: {
 					type: "duds1"
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
-			weight: 4
+			title: "Junk"
+			weight: 4.0f
 		}
 	]
-	loot_crate: {
-		drops: {
-			boss: 0
-			passive: 0
-			monster: 0
-		}
-		color: 12895428
-		string_id: "common_loot_crate"
-	}
+	title: "Common loot crate"
+	use_title: true
 }

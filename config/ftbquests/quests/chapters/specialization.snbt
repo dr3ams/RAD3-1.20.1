@@ -1,84 +1,80 @@
 {
-	id: "0954925BF18F6751"
-	group: ""
-	order_index: 2
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
 	filename: "specialization"
-	title: "Specialization"
+	group: ""
 	icon: {
-		id: "kubejs:armour"
 		Count: 1b
+		id: "kubejs:armour"
 		tag: { }
 	}
-	default_quest_shape: "rsquare"
-	default_hide_dependency_lines: false
+	id: "0954925BF18F6751"
 	images: [
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "rad2:textures/misc/class_.png"
+			rotation: 0.0d
+			width: 5.0d
 			x: 0.0d
 			y: -4.5d
-			width: 5.0d
-			height: 5.0d
-			rotation: 0.0d
-			image: "rad2:textures/misc/class_.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 8.0d
+			hover: [ ]
+			image: "rad2:textures/misc/class_crafter.png"
+			rotation: 0.0d
+			width: 8.0d
 			x: -5.5d
 			y: -9.5d
-			width: 8.0d
-			height: 8.0d
-			rotation: 0.0d
-			image: "rad2:textures/misc/class_crafter.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "rad2:textures/misc/class_fighter.png"
+			rotation: 0.0d
+			width: 5.5d
 			x: 6.5d
 			y: -9.0d
-			width: 5.5d
-			height: 9.0d
-			rotation: 0.0d
-			image: "rad2:textures/misc/class_fighter.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 11.0d
+			hover: [ ]
+			image: "rad2:textures/misc/class_wizard.png"
+			rotation: 0.0d
+			width: 5.5d
 			x: 7.0d
 			y: 2.0d
-			width: 5.5d
-			height: 11.0d
-			rotation: 0.0d
-			image: "rad2:textures/misc/class_wizard.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "rad2:textures/misc/class_rogue.png"
+			rotation: 0.0d
+			width: 6.0d
 			x: -6.0d
 			y: 2.0d
-			width: 6.0d
-			height: 10.0d
-			rotation: 0.0d
-			image: "rad2:textures/misc/class_rogue.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 	]
+	order_index: 5
+	quest_links: [ ]
 	quests: [
 		{
-			x: 0.0d
-			y: -4.5d
-			shape: "octagon"
-			subtitle: "Specialization(Starterkit/kits/item sets)"
 			description: [
 				""
 				"Kits are sets of items that are designed to help you at the start and throughout your gameplay."
@@ -90,1563 +86,1546 @@
 				""
 				"Choosing your first Specialization is free and to aquire tier 2 and 3 Specialization you will need to do some tasks."
 			]
-			size: 2.0d
 			id: "7D7A71EA9FCC15E2"
-			tasks: [{
-				id: "0358255126AF5F51"
-				type: "checkmark"
-				title: "Choose your Specialization"
-			}]
 			rewards: [{
 				id: "2FF8A00EB9982608"
-				type: "choice"
-				team_reward: false
 				table_id: 6814204258493389491L
+				team_reward: false
+				type: "choice"
 			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Specialization(Starterkit/kits/item sets)"
+			tasks: [{
+				id: "0358255126AF5F51"
+				title: "Choose your Specialization"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.5d
 		}
 		{
-			icon: "kubejs:mark_miner"
-			x: -5.0d
-			y: -7.0d
 			dependencies: ["7AE8ABA3444E05E8"]
+			icon: "kubejs:mark_miner"
 			id: "683225884B0525D7"
-			tasks: [{
-				id: "6ABFED21BC7228F6"
-				type: "item"
-				item: {
-					id: "kubejs:mark_miner"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				consume_items: true
-			}]
 			rewards: [
 				{
 					id: "5E876B253B2194F6"
-					type: "item"
 					item: {
-						id: "minecraft:water_bucket"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:water_bucket"
 					}
+					type: "item"
 				}
 				{
 					id: "2EF09BD3F96859BA"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "alexsmobs:clinging"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "4AD1B0AFCD71AB77"
-					type: "item"
 					item: {
-						id: "roughtweaks:bandage"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "roughtweaks:bandage"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "12C58ED04C14B30F"
-					type: "item"
 					item: {
-						id: "roughtweaks:plaster"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "roughtweaks:plaster"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "45DFB17F551EA7DF"
-					type: "item"
 					item: {
-						id: "iceandfire:silver_pickaxe"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:silver_pickaxe"
 						tag: {
 							Damage: 0
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "17D88E16E1B75A99"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "vanillafoodpantry:long_sugar_bombed"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
-					id: "25EDE524C9C12BCE"
-					type: "item"
-					item: {
-						id: "minecraft:torch"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
 					count: 32
-				}
-				{
-					id: "2560454088D95031"
-					type: "item"
+					id: "25EDE524C9C12BCE"
 					item: {
-						id: "vanillafoodpantry:cave_stew"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:torch"
 					}
+					type: "item"
+				}
+				{
 					count: 24
+					id: "2560454088D95031"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "vanillafoodpantry:cave_stew"
+					}
+					type: "item"
 				}
 				{
 					id: "0376597CF5125159"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
-						tag: {
-							Potion: "goblintraders:extended_night_vision"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "goblintraders:extended_night_vision"
+						}
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			icon: "kubejs:mark_farmer"
-			x: -4.0d
-			y: -8.5d
-			dependencies: ["7AE8ABA3444E05E8"]
-			id: "4124F9EEBAA895F0"
 			tasks: [{
-				id: "75798495E4D81490"
-				type: "item"
+				consume_items: true
+				id: "6ABFED21BC7228F6"
 				item: {
-					id: "kubejs:mark_farmer"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_miner"
 				}
-				consume_items: true
+				type: "item"
 			}]
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7AE8ABA3444E05E8"]
+			icon: "kubejs:mark_farmer"
+			id: "4124F9EEBAA895F0"
 			rewards: [
 				{
 					id: "0E6FA5503452F897"
-					type: "item"
 					item: {
-						id: "minecraft:melon_seeds"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:melon_seeds"
 					}
+					type: "item"
 				}
 				{
 					id: "35892C2F5A26B062"
-					type: "item"
 					item: {
-						id: "minecraft:pumpkin_seeds"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:pumpkin_seeds"
 					}
+					type: "item"
 				}
 				{
 					id: "772D192CC4BB9DE6"
-					type: "item"
 					item: {
-						id: "roughtweaks:bandage"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "roughtweaks:bandage"
 						tag: {
 							Damage: 0
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
+					count: 32
 					id: "44AB0A8117B493DF"
-					type: "item"
 					item: {
-						id: "minecraft:torch"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:torch"
 					}
-					count: 32
+					type: "item"
 				}
 				{
 					id: "2CEEECAC7CD2C694"
-					type: "item"
 					item: {
-						id: "roughtweaks:plaster"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "roughtweaks:plaster"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "78E5CA23A3BF4E0E"
-					type: "item"
 					item: {
-						id: "usefulhats:straw_hat"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "usefulhats:straw_hat"
 						tag: {
 							Damage: 0
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "35B364010468E2F7"
-					type: "item"
 					item: {
-						id: "minecraft:cocoa_beans"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:cocoa_beans"
 					}
+					type: "item"
 				}
 				{
 					id: "17E1E444FC13FF9E"
-					type: "item"
 					item: {
-						id: "minecraft:stone_hoe"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:stone_hoe"
 						tag: {
 							Damage: 0
 							itemModifier: "modifiers:slow"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "731DB3E6679B950D"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "quark:long_danger_sight"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "2D2BB435AB5EA99F"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "abundance:supportive_strong"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "6BE59974EF919616"
-					type: "item"
 					item: {
-						id: "minecraft:beetroot_seeds"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:beetroot_seeds"
 					}
+					type: "item"
 				}
 				{
 					id: "03799763A9E5A202"
-					type: "item"
 					item: {
-						id: "majruszs_accessories:giant_seed"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "majruszs_accessories:giant_seed"
 						tag: {
 							Effectiveness: {
 								Value: 0.3d
 							}
 							itemModifier: "modifiers:angry"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
+					count: 32
 					id: "6E70686287BFAE26"
-					type: "item"
 					item: {
-						id: "buzzier_bees:honey_apple"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "buzzier_bees:honey_apple"
 					}
-					count: 32
+					type: "item"
 				}
 			]
-		}
-		{
-			icon: "kubejs:mark_warrior"
-			x: 4.0d
-			y: -5.0d
-			dependencies: ["21ED1D6F4A0DADA6"]
-			id: "2B8432D35FB49159"
 			tasks: [{
-				id: "474DECE6A48BF3A6"
-				type: "item"
+				consume_items: true
+				id: "75798495E4D81490"
 				item: {
-					id: "kubejs:mark_warrior"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_farmer"
 				}
-				consume_items: true
+				type: "item"
 			}]
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["21ED1D6F4A0DADA6"]
+			icon: "kubejs:mark_warrior"
+			id: "2B8432D35FB49159"
 			rewards: [
 				{
 					id: "75BFC8E9C0A4BD00"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "apotheosis:long_resistance"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
+					count: 32
 					id: "3A340075039AF287"
-					type: "item"
 					item: {
-						id: "minecraft:torch"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:torch"
 					}
-					count: 32
+					type: "item"
 				}
 				{
 					id: "1B8B3F0E0D520841"
-					type: "item"
 					item: {
-						id: "roughtweaks:bandage"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "roughtweaks:bandage"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "4AB8A7AD0018827A"
-					type: "item"
 					item: {
-						id: "roughtweaks:plaster"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "roughtweaks:plaster"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "0D97E79B1051F9A3"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:long_regeneration"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "7E4D602B180F2F44"
-					type: "item"
 					item: {
-						id: "minecraft:stone_sword"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:stone_sword"
 						tag: {
 							Damage: 0
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
+					count: 21
 					id: "06C85F334E7AF459"
-					type: "item"
 					item: {
-						id: "minecraft:cooked_beef"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:cooked_beef"
 					}
-					count: 21
+					type: "item"
 				}
 			]
-		}
-		{
-			icon: "kubejs:mark_archer"
-			x: -3.5d
-			y: 0.0d
-			description: ["Archers are skilled bowmen. Generally independent and used to working alone, this tends to make them practical, a little haughty or arrogant and not the best at following orders, especially from those they don't respect. Due to the nature of their weapon, archers are typically stealthy and graceful and tend to fight at a distance. As a result, they're often portrayed as vulnerable to close-quarters combat unless they switch to a different weapon."]
-			dependencies: ["7F23DAD698D6D126"]
-			id: "3A9272D0C456214D"
 			tasks: [{
-				id: "1916577F27A50E89"
-				type: "item"
+				consume_items: true
+				id: "474DECE6A48BF3A6"
 				item: {
-					id: "kubejs:mark_archer"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_warrior"
 				}
-				consume_items: true
+				type: "item"
 			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7F23DAD698D6D126"]
+			description: ["Archers are skilled bowmen. Generally independent and used to working alone, this tends to make them practical, a little haughty or arrogant and not the best at following orders, especially from those they don't respect. Due to the nature of their weapon, archers are typically stealthy and graceful and tend to fight at a distance. As a result, they're often portrayed as vulnerable to close-quarters combat unless they switch to a different weapon."]
+			icon: "kubejs:mark_archer"
+			id: "3A9272D0C456214D"
 			rewards: [
 				{
+					count: 32
 					id: "734BC22EA1BC3108"
-					type: "item"
 					item: {
-						id: "minecraft:cooked_salmon"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:cooked_salmon"
 					}
-					count: 32
+					type: "item"
 				}
 				{
 					id: "6281F8EC73EF1B36"
-					type: "item"
 					item: {
-						id: "roughtweaks:bandage"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "roughtweaks:bandage"
 						tag: {
 							Damage: 0
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
+					count: 32
 					id: "63A1E2D9139C414F"
-					type: "item"
 					item: {
-						id: "minecraft:torch"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:torch"
 					}
-					count: 32
+					type: "item"
 				}
 				{
 					id: "0490DA710D1DED7C"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "dungeons_gear:short_speed"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
+					count: 32
 					id: "27D665D697C5EEE1"
-					type: "item"
 					item: {
-						id: "minecraft:arrow"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:arrow"
 					}
-					count: 32
+					type: "item"
 				}
 				{
 					id: "3CCDB5D593DE4FA7"
-					type: "item"
 					item: {
-						id: "minecraft:bow"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
+							"dungeons_gear:bow": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
-							"dungeons_gear:bow": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
+						}
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "04BD984E5E522D90"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "vanillafoodpantry:wolfspirit"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "4570C66E864BA161"
-					type: "item"
 					item: {
-						id: "roughtweaks:plaster"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "roughtweaks:plaster"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "6C8C09C11F1F9322"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
-						tag: {
-							Potion: "minecraft:long_slow_falling"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_slow_falling"
+						}
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			icon: "kubejs:mark_pirate"
-			x: -4.5d
-			y: -1.5d
-			description: ["Pirate will use a combination of weaponry instead of specializing - usually being able to switch freely between pistols and swords. They may also receive bonuses for fighting in water terrain or on ships, or be the best class at swimming. May have some aspects of the Bandit, or the Bandit class may be folded into Pirate entirely."]
-			dependencies: ["7F23DAD698D6D126"]
-			id: "5ABCBE93E9B7A41E"
 			tasks: [{
-				id: "28697CD0160A8852"
-				type: "item"
+				consume_items: true
+				id: "1916577F27A50E89"
 				item: {
-					id: "kubejs:mark_pirate"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_archer"
 				}
-				consume_items: true
+				type: "item"
 			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F23DAD698D6D126"]
+			description: ["Pirate will use a combination of weaponry instead of specializing - usually being able to switch freely between pistols and swords. They may also receive bonuses for fighting in water terrain or on ships, or be the best class at swimming. May have some aspects of the Bandit, or the Bandit class may be folded into Pirate entirely."]
+			icon: "kubejs:mark_pirate"
+			id: "5ABCBE93E9B7A41E"
 			rewards: [
 				{
 					id: "5D438713DAE63B8E"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:long_swiftness"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
+					count: 32
 					id: "023820C1A4F6A589"
-					type: "item"
 					item: {
-						id: "minecraft:torch"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:torch"
 					}
-					count: 32
+					type: "item"
 				}
 				{
 					id: "7320F1564D4D1BB6"
-					type: "item"
 					item: {
-						id: "roughtweaks:plaster"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "roughtweaks:plaster"
 						tag: {
 							Damage: 0
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
+					count: 32
 					id: "346F6F2EDABA2816"
-					type: "item"
 					item: {
-						id: "minecraft:cooked_salmon"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:cooked_salmon"
 					}
-					count: 32
+					type: "item"
 				}
 				{
 					id: "049808729794354C"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:luck"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "666BA1D027FDF741"
-					type: "item"
 					item: {
-						id: "pirate_hat:eyepatch_helmet"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "pirate_hat:eyepatch_helmet"
 						tag: {
 							itemModifier: "modifiers:wild"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "7ED6EACD48646D40"
-					type: "item"
 					item: {
-						id: "spartanweaponry:rapier_stone"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "spartanweaponry:rapier_stone"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "485E1F146C7EB45D"
-					type: "item"
 					item: {
-						id: "roughtweaks:bandage"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "roughtweaks:bandage"
 						tag: {
 							Damage: 0
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "38EB2AB1E47E2E0F"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
-						tag: {
-							Potion: "minecraft:long_slow_falling"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_slow_falling"
+						}
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			icon: "kubejs:mark_thief"
-			x: -4.0d
-			y: -3.0d
-			description: ["The Thief, when it is a separate class, is a version of the Rogue with lower damage, but the ability to steal items from enemies. Sometimes, this can extend even to intangible items, such as experience points, but more commonly includes rare items that cannot be obtained in any other way."]
-			dependencies: ["7F23DAD698D6D126"]
-			id: "17B7928C5E72DF4A"
 			tasks: [{
-				id: "5CAE8A90A68C2AE4"
-				type: "item"
+				consume_items: true
+				id: "28697CD0160A8852"
 				item: {
-					id: "kubejs:mark_thief"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_pirate"
 				}
-				consume_items: true
+				type: "item"
 			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7F23DAD698D6D126"]
+			description: ["The Thief, when it is a separate class, is a version of the Rogue with lower damage, but the ability to steal items from enemies. Sometimes, this can extend even to intangible items, such as experience points, but more commonly includes rare items that cannot be obtained in any other way."]
+			icon: "kubejs:mark_thief"
+			id: "17B7928C5E72DF4A"
 			rewards: [
 				{
 					id: "4D98DEB9B899192D"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:long_swiftness"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "2C6AF0FE1CE1F115"
-					type: "item"
 					item: {
-						id: "dungeons_gear:light_feather"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:light_feather"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "2647AA6E4164FA39"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "dungeons_gear:shadow_brew"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "72290944407FE738"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
-						tag: {
-							Potion: "apotheosis:haste"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "apotheosis:haste"
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "0FBEC69DA008C19D"
-					type: "item"
 					item: {
-						id: "dungeons_gear:moon_dagger"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_gear:dualwield": {
 								fake: 0b
 								wrapped: {
+									Count: 0b
 									ForgeCaps: {
 										"dungeons_libraries:built_in_enchantments": {
 											BuiltInEnchantments: [ ]
 										}
 									}
 									id: "minecraft:air"
-									Count: 0b
 								}
 							}
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [{
 									data: [{
-										lvl: 1s
 										id: "dungeons_gear:enigma_resonator"
+										lvl: 1s
 									}]
 									source: "dungeons_libraries:gear_config"
 								}]
 							}
 						}
+						id: "dungeons_gear:moon_dagger"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "5580874D20FBC880"
-					type: "item"
 					item: {
-						id: "roughtweaks:bandage"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "roughtweaks:bandage"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "0E33B9B7973774A4"
-					type: "item"
 					item: {
-						id: "roughtweaks:plaster"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "roughtweaks:plaster"
 						tag: {
 							Damage: 0
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
+					count: 32
 					id: "28734B4D32CDAFEF"
-					type: "item"
 					item: {
-						id: "minecraft:torch"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:torch"
 					}
-					count: 32
+					type: "item"
 				}
 				{
 					id: "5EDCB8642A110B03"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
-						tag: {
-							Potion: "alexsmobs:speed_iii"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "alexsmobs:speed_iii"
+						}
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			icon: "kubejs:mark_huntsman"
-			x: -4.5d
-			y: -5.5d
-			dependencies: ["7AE8ABA3444E05E8"]
-			id: "04399280EC946CB6"
 			tasks: [{
-				id: "2EFA530BF8A20808"
-				type: "item"
+				consume_items: true
+				id: "5CAE8A90A68C2AE4"
 				item: {
-					id: "kubejs:mark_huntsman"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_thief"
 				}
-				consume_items: true
+				type: "item"
 			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7AE8ABA3444E05E8"]
+			icon: "kubejs:mark_huntsman"
+			id: "04399280EC946CB6"
 			rewards: [
 				{
+					count: 32
 					id: "49BD4B32FA0EA551"
-					type: "item"
 					item: {
-						id: "minecraft:arrow"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:arrow"
 					}
-					count: 32
+					type: "item"
 				}
 				{
 					id: "4F1C6824581A3A9E"
-					type: "item"
 					item: {
-						id: "roughtweaks:bandage"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "roughtweaks:bandage"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "23C21EE29A328C1F"
-					type: "item"
 					item: {
-						id: "roughtweaks:plaster"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "roughtweaks:plaster"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "6EAE26D20711EF95"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "apotheosis:long_knowledge"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "1D9CDEE79069E892"
-					type: "item"
 					item: {
-						id: "dungeons_gear:hunting_bow"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
+							"dungeons_gear:bow": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
-							"dungeons_gear:bow": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
+						}
+						id: "dungeons_gear:hunting_bow"
+						tag: {
+							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "43276BF5186F8085"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
-						tag: {
-							Potion: "elenaidodge2:long_forceful"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "elenaidodge2:long_forceful"
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "08AA90618FCCBE97"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "alexsmobs:speed_iii"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
+					count: 32
 					id: "24A52423B4911FE7"
-					type: "item"
 					item: {
-						id: "minecraft:torch"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:torch"
 					}
-					count: 32
+					type: "item"
 				}
 				{
 					id: "199EEACD05F73094"
-					type: "item"
 					item: {
-						id: "dungeons_gear:boots_of_swiftness"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "dungeons_gear:boots_of_swiftness"
 						tag: {
 							Damage: 0
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
+					count: 5
 					id: "041C6805E1E4BCFC"
-					type: "item"
 					item: {
-						id: "minecraft:bone"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:bone"
 					}
-					count: 5
+					type: "item"
 				}
 			]
-		}
-		{
-			icon: "kubejs:mark_healer"
-			x: 4.0d
-			y: -3.0d
-			description: ["A squishy dedicated healer with little abilities at offense, though their magic may be able to harm specific types of enemies, most commonly demonic entities and the undead."]
-			dependencies: ["64A211BFC1049648"]
-			id: "591E749ECBF3BF91"
 			tasks: [{
-				id: "55215A5038799BE6"
-				type: "item"
+				consume_items: true
+				id: "2EFA530BF8A20808"
 				item: {
-					id: "kubejs:mark_healer"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_huntsman"
 				}
-				consume_items: true
+				type: "item"
 			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["64A211BFC1049648"]
+			description: ["A squishy dedicated healer with little abilities at offense, though their magic may be able to harm specific types of enemies, most commonly demonic entities and the undead."]
+			icon: "kubejs:mark_healer"
+			id: "591E749ECBF3BF91"
 			rewards: [
 				{
 					id: "1DAE3D1282AD6B70"
-					type: "item"
 					item: {
-						id: "dungeons_gear:gong_of_weakening"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:gong_of_weakening"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "4495BF03C323843D"
-					type: "item"
 					item: {
-						id: "minecraft:splash_potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:splash_potion"
 						tag: {
 							Potion: "minecraft:healing"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "24ECBC007E2A0A86"
-					type: "item"
 					item: {
-						id: "roughtweaks:medkit"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "roughtweaks:medkit"
 						tag: {
 							Damage: 0
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "0FA4A1A7227FDA78"
-					type: "item"
 					item: {
-						id: "minecraft:splash_potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:splash_potion"
 						tag: {
 							Potion: "minecraft:strong_healing"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "478DE72F50BB3EEB"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "vanillafoodpantry:super_bearspirit"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "6F6ABB58D6B308E9"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "abundance:supportive_strong"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "61CAB824200577A5"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "quark:long_danger_sight"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
+					count: 32
 					id: "1FC9133125E03859"
-					type: "item"
 					item: {
-						id: "minecraft:torch"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:torch"
 					}
-					count: 32
+					type: "item"
 				}
 			]
-		}
-		{
-			icon: "kubejs:mark_pitfighter"
-			x: -2.0d
-			y: 0.5d
-			description: ["While they have all the standard Rogue abilities, they tend to use them in less subtle ways - instead of unlocking a door they'll kick it down, and instead of stealthily pickpocketing their enemies they'll simply walk up and grab things from them. Sometimes they also have the ability to intimidate their enemies or are good at destroying structures, as well as whole slew of other \"gang\" related abilities."]
-			dependencies: ["7F23DAD698D6D126"]
-			id: "064CD4861C2413A8"
 			tasks: [{
-				id: "0F518C109B53CBA8"
-				type: "item"
+				consume_items: true
+				id: "55215A5038799BE6"
 				item: {
-					id: "kubejs:mark_pitfighter"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_healer"
 				}
-				consume_items: true
+				type: "item"
 			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7F23DAD698D6D126"]
+			description: ["While they have all the standard Rogue abilities, they tend to use them in less subtle ways - instead of unlocking a door they'll kick it down, and instead of stealthily pickpocketing their enemies they'll simply walk up and grab things from them. Sometimes they also have the ability to intimidate their enemies or are good at destroying structures, as well as whole slew of other \"gang\" related abilities."]
+			icon: "kubejs:mark_pitfighter"
+			id: "064CD4861C2413A8"
 			rewards: [
 				{
 					id: "0927300223230674"
-					type: "item"
 					item: {
-						id: "dungeons_gear:iron_hide_amulet"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:iron_hide_amulet"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "492BF00FBBFB6341"
-					type: "item"
 					item: {
-						id: "dungeons_gear:light_feather"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:light_feather"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "503F2B46D2D7B587"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "dungeons_gear:shadow_brew"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "7774A01BCB41E517"
-					type: "item"
 					item: {
-						id: "roughtweaks:bandage"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "roughtweaks:bandage"
 						tag: {
 							Damage: 0
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
+					count: 32
 					id: "64F6CF717B0901B2"
-					type: "item"
 					item: {
-						id: "minecraft:torch"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:torch"
 					}
-					count: 32
+					type: "item"
 				}
 				{
 					id: "0BB4823987FD6968"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:long_swiftness"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "30385D79132586BD"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "alexsmobs:speed_iii"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "34B9C8BCCC85B207"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "elenaidodge2:long_forceful"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "5A4FDD4D84F4CF42"
-					type: "item"
 					item: {
-						id: "roughtweaks:bandage"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
-					}
-				}
-				{
-					id: "53084EE34C8CFB6B"
-					type: "item"
-					item: {
-						id: "dungeons_gear:fighters_binding"
-						Count: 1b
+						id: "roughtweaks:bandage"
 						tag: {
 							Damage: 0
 						}
+					}
+					type: "item"
+				}
+				{
+					id: "53084EE34C8CFB6B"
+					item: {
+						Count: 1b
 						ForgeCaps: {
 							"dungeons_gear:dualwield": {
 								fake: 0b
 								wrapped: {
+									Count: 0b
 									ForgeCaps: {
 										"dungeons_libraries:built_in_enchantments": {
 											BuiltInEnchantments: [ ]
 										}
 									}
 									id: "minecraft:air"
-									Count: 0b
 								}
 							}
 							"dungeons_libraries:built_in_enchantments": {
@@ -1656,1819 +1635,1857 @@
 								}]
 							}
 						}
-					}
-				}
-			]
-		}
-		{
-			icon: "kubejs:mark_tamer"
-			x: 1.0d
-			y: 0.0d
-			description: ["Pet Masters specialize in controlling a powerful \"pet\" to fight by their side. The pet can be anything from a tamed animal to a summoned elemental to a constructed Golem, but usually it serves as a front-line melee combatant while the master hangs back to support it with healing, buffing and long-range attacks. In extreme cases the master does not take part in combat at all. If the pet is an animal then this class is often folded into Ranger or Nature Magician, and comes with the ability to control animals in general. If folded into Summoner then the character might have access to multiple pets, but only be able to use one at a time."]
-			dependencies: ["64A211BFC1049648"]
-			id: "75434610CC4789B4"
-			tasks: [{
-				id: "1B16801BFACD6CED"
-				type: "item"
-				item: {
-					id: "kubejs:mark_tamer"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				consume_items: true
-			}]
-			rewards: [
-				{
-					id: "48671746BE486F62"
-					type: "item"
-					item: {
-						id: "minecraft:bone"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 8
-				}
-				{
-					id: "40152F120884A56A"
-					type: "item"
-					item: {
-						id: "doggytalents:training_treat"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "5237BDB227D4B4D1"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:long_swiftness"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "19925036C0D50D45"
-					type: "item"
-					item: {
-						id: "minecraft:torch"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 32
-				}
-				{
-					id: "56DCFC66CF34FBE6"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "abundance:supportive_strong"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "21EE5B8E33FA9256"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "quark:long_danger_sight"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "2532A777C75E7259"
-					type: "item"
-					item: {
-						id: "doggytalents:super_treat"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "3F51AD9AFFAA7A21"
-					type: "item"
-					item: {
-						id: "spartanweaponry:parrying_dagger_stone"
-						Count: 1b
+						id: "dungeons_gear:fighters_binding"
 						tag: {
 							Damage: 0
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
-				}
-				{
-					id: "7201E560B31F0E0C"
 					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:healing"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "792E1B74FE8DFA33"
-					type: "item"
-					item: {
-						id: "losttrinkets:piggy"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
 				}
 			]
-		}
-		{
-			x: -7.5d
-			y: -9.0d
-			dependencies: ["21887C44858A1CCC"]
-			id: "23D32CEF3529DC11"
 			tasks: [{
-				id: "306118CD623F792B"
-				type: "item"
+				consume_items: true
+				id: "0F518C109B53CBA8"
 				item: {
-					id: "kubejs:mark_spelunker"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_pitfighter"
 				}
-				consume_items: true
+				type: "item"
 			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["64A211BFC1049648"]
+			description: ["Pet Masters specialize in controlling a powerful \"pet\" to fight by their side. The pet can be anything from a tamed animal to a summoned elemental to a constructed Golem, but usually it serves as a front-line melee combatant while the master hangs back to support it with healing, buffing and long-range attacks. In extreme cases the master does not take part in combat at all. If the pet is an animal then this class is often folded into Ranger or Nature Magician, and comes with the ability to control animals in general. If folded into Summoner then the character might have access to multiple pets, but only be able to use one at a time."]
+			icon: "kubejs:mark_tamer"
+			id: "75434610CC4789B4"
 			rewards: [
 				{
-					id: "51E89D1867F5F92C"
-					type: "item"
+					count: 8
+					id: "48671746BE486F62"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
-						tag: {
-							Potion: "vanillafoodpantry:long_sugar_bombed"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:bone"
 					}
+					type: "item"
 				}
 				{
-					id: "573D84C16AA560D8"
-					type: "item"
+					id: "40152F120884A56A"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
-						tag: {
-							Potion: "infernalexp:long_luminous"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "doggytalents:training_treat"
 					}
+					type: "item"
 				}
 				{
-					id: "414DFC619952E2E5"
-					type: "item"
+					id: "5237BDB227D4B4D1"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:long_swiftness"
 						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "19925036C0D50D45"
+					item: {
+						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:torch"
 					}
+					type: "item"
+				}
+				{
+					id: "56DCFC66CF34FBE6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "abundance:supportive_strong"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21EE5B8E33FA9256"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "quark:long_danger_sight"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2532A777C75E7259"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "doggytalents:super_treat"
+					}
+					type: "item"
+				}
+				{
+					id: "3F51AD9AFFAA7A21"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "spartanweaponry:parrying_dagger_stone"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7201E560B31F0E0C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "792E1B74FE8DFA33"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "losttrinkets:piggy"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "1B16801BFACD6CED"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:mark_tamer"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21887C44858A1CCC"]
+			id: "23D32CEF3529DC11"
+			rewards: [
+				{
+					id: "51E89D1867F5F92C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "vanillafoodpantry:long_sugar_bombed"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "573D84C16AA560D8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "infernalexp:long_luminous"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "414DFC619952E2E5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_swiftness"
+						}
+					}
+					type: "item"
 				}
 				{
 					id: "739FD7F5D7C18819"
-					type: "item"
 					item: {
-						id: "losttrinkets:miners_pick"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "losttrinkets:miners_pick"
 					}
+					type: "item"
 				}
 				{
 					id: "3A7CF81D153AD82A"
-					type: "item"
 					item: {
-						id: "dungeons_gear:spelunker_chestplate"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "dungeons_gear:spelunker_chestplate"
 						tag: {
 							Damage: 0
 							itemModifier: "modifiers:wild"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "5003460B7419AF42"
-					type: "item"
 					item: {
-						id: "dungeons_gear:spelunker_helmet"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:spelunker_helmet"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: -6.0d
-			y: -11.0d
-			dependencies: ["7FF5520CEDEE2939"]
-			id: "2D76206095D119CB"
 			tasks: [{
-				id: "6CE5E63971CBDED4"
-				type: "item"
+				consume_items: true
+				id: "306118CD623F792B"
 				item: {
-					id: "kubejs:mark_rancher"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_spelunker"
 				}
-				consume_items: true
+				type: "item"
 			}]
+			x: -7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7FF5520CEDEE2939"]
+			id: "2D76206095D119CB"
 			rewards: [
 				{
 					id: "2BD0A420438D9FB2"
-					type: "item"
 					item: {
-						id: "minecraft:nether_wart"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:nether_wart"
 					}
+					type: "item"
 				}
 				{
 					id: "006CBF035095E794"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
-						tag: {
-							Potion: "upgrade_aquatic:repellence_long"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "upgrade_aquatic:repellence_long"
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "197518FEA7DE0351"
-					type: "item"
 					item: {
-						id: "usefulhats:chopping_hat"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "usefulhats:chopping_hat"
 						tag: {
 							Damage: 0
 							itemModifier: "modifiers:rash"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "4D2ED61BE77B9FC0"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "quark:long_danger_sight"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "2CF076BCAD0CB54C"
-					type: "item"
 					item: {
-						id: "dungeons_gear:corrupted_seeds"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:corrupted_seeds"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "62578987D9A682EE"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "upgrade_aquatic:repellence"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: 8.0d
-			y: -6.0d
-			dependencies: ["43D73A55BBC63531"]
-			id: "0B619314C9EEA318"
 			tasks: [{
-				id: "7664573FCB589386"
-				type: "item"
+				consume_items: true
+				id: "6CE5E63971CBDED4"
 				item: {
-					id: "kubejs:mark_mercenary"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_rancher"
 				}
-				consume_items: true
+				type: "item"
 			}]
+			x: -6.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["43D73A55BBC63531"]
+			id: "0B619314C9EEA318"
 			rewards: [
 				{
 					id: "3D705C31972DB3B9"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "apotheosis:strong_resistance"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "21EC47315F2AFA81"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "apotheosis:long_resistance"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "27EA0A6DD7F286BE"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "vanillafoodpantry:super_bearspirit"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "75B067DD5CB29C77"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "apotheosis:long_absorption"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "16228D95D65D6CF1"
-					type: "item"
 					item: {
-						id: "dungeons_gear:mercenary_helmet"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:mercenary_helmet"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "4732439AE36C7A4C"
-					type: "item"
 					item: {
-						id: "dungeons_gear:mercenary_chestplate"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:mercenary_chestplate"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "452232F9DC240261"
-					type: "item"
 					item: {
-						id: "dungeons_gear:death_cap_mushroom"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:death_cap_mushroom"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: -6.0d
-			y: 1.5d
-			dependencies: ["7B0E0B4307737D27"]
-			id: "457B4C8DB54B2C78"
 			tasks: [{
-				id: "75714E1D034C0CBC"
-				type: "item"
+				consume_items: true
+				id: "7664573FCB589386"
 				item: {
-					id: "kubejs:mark_arbalester"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_mercenary"
 				}
-				consume_items: true
+				type: "item"
 			}]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7B0E0B4307737D27"]
+			id: "457B4C8DB54B2C78"
 			rewards: [
 				{
 					id: "3A69DE3AEE152CAF"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "dungeons_gear:short_speed"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "16B644B52EAAF98C"
-					type: "item"
 					item: {
-						id: "dungeons_gear:archers_hood"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:archers_hood"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "6EB8798AF933DA9A"
-					type: "item"
 					item: {
-						id: "dungeons_gear:archers_vest"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "dungeons_gear:archers_vest"
 						tag: {
 							Damage: 0
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "7FBAC937038248A7"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
-						tag: {
-							Potion: "dungeons_gear:oakwood_brew"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "dungeons_gear:oakwood_brew"
+						}
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: -2.5d
-			y: -9.5d
-			dependencies: ["7AE8ABA3444E05E8"]
-			id: "150C2D107C30D787"
 			tasks: [{
-				id: "4856C0D7D76E491A"
-				type: "item"
+				consume_items: true
+				id: "75714E1D034C0CBC"
 				item: {
-					id: "kubejs:mark_alchemist"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_arbalester"
 				}
-				consume_items: true
+				type: "item"
 			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7AE8ABA3444E05E8"]
+			id: "150C2D107C30D787"
 			rewards: [
 				{
 					id: "487024FECB5AF48E"
-					type: "item"
 					item: {
-						id: "dungeons_gear:ember_hat"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:ember_hat"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "4E3DFC889F29DD7C"
-					type: "item"
 					item: {
-						id: "dungeons_gear:ember_robe"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
-					}
-				}
-				{
-					id: "02BB40692AE0B9A9"
-					type: "item"
-					item: {
-						id: "dungeons_gear:battlestaff_of_terror"
-						Count: 1b
+						id: "dungeons_gear:ember_robe"
 						tag: {
 							Damage: 0
 						}
+					}
+					type: "item"
+				}
+				{
+					id: "02BB40692AE0B9A9"
+					item: {
+						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [{
 									data: [{
-										lvl: 1s
 										id: "dungeons_gear:exploding"
+										lvl: 1s
 									}]
 									source: "dungeons_libraries:gear_config"
 								}]
 							}
 						}
+						id: "dungeons_gear:battlestaff_of_terror"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "124CC3E0F1190F3F"
-					type: "item"
 					item: {
-						id: "ars_nouveau:amulet_of_mana_boost"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "ars_nouveau:amulet_of_mana_boost"
 					}
+					type: "item"
 				}
 				{
 					id: "763DC659B52D9F3D"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
-						tag: {
-							Potion: "ars_nouveau:spell_damage_strong"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "ars_nouveau:spell_damage_strong"
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "3FF9E1A89D7B4845"
-					type: "item"
 					item: {
-						id: "apotheosis:potion_charm"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "apotheosis:potion_charm"
 						tag: {
 							Damage: 0
 							Potion: "ars_nouveau:mana_regen_potion_long"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "48D52B943C1A0067"
-					type: "item"
 					item: {
-						id: "minecraft:splash_potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:splash_potion"
 						tag: {
 							Potion: "ars_nouveau:mana_regen_potion_strong"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "1BD5A7311D104C35"
-					type: "item"
 					item: {
-						id: "ars_nouveau:source_berry_pie"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "ars_nouveau:source_berry_pie"
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: -7.5d
-			y: -0.5d
-			dependencies: ["0232037859276063"]
-			id: "7FE110B6FD08031B"
 			tasks: [{
-				id: "064A3E0E65176FE5"
-				type: "item"
+				consume_items: true
+				id: "4856C0D7D76E491A"
 				item: {
-					id: "kubejs:mark_corsair"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_alchemist"
 				}
-				consume_items: true
+				type: "item"
 			}]
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0232037859276063"]
+			id: "7FE110B6FD08031B"
 			rewards: [
 				{
 					id: "04EC6DB0840DC464"
-					type: "item"
 					item: {
-						id: "dungeons_gear:anchor"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [{
 									data: [
 										{
-											lvl: 1s
 											id: "dungeons_gear:swirling"
+											lvl: 1s
 										}
 										{
-											lvl: 1s
 											id: "dungeons_gear:gravity"
+											lvl: 1s
 										}
 									]
 									source: "dungeons_libraries:gear_config"
 								}]
 							}
 						}
+						id: "dungeons_gear:anchor"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "374B520369273861"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "vanillafoodpantry:wolfspirit"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "6C63358A2FF0A53A"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "vanillafoodpantry:super_good_juju"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "0DD01C63326A0F94"
-					type: "item"
 					item: {
-						id: "pirate_hat:sailor_helmet"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "pirate_hat:sailor_helmet"
 						tag: {
 							itemModifier: "modifiers:fleeting"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "3F2F771F14E961A6"
-					type: "item"
 					item: {
-						id: "artifacts:charm_of_sinking"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "artifacts:charm_of_sinking"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: -7.5d
-			y: -2.5d
-			dependencies: ["3F25D47EE14139AF"]
-			id: "75803607F74E0EA9"
 			tasks: [{
-				id: "20FF86079C9B8C4B"
-				type: "item"
+				consume_items: true
+				id: "064A3E0E65176FE5"
 				item: {
-					id: "kubejs:mark_bandit"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_corsair"
 				}
-				consume_items: true
+				type: "item"
 			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3F25D47EE14139AF"]
+			id: "75803607F74E0EA9"
 			rewards: [
 				{
 					id: "160ECB2CE1A636C8"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "elenaidodge2:long_forceful"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "23EA3ED03D3ED93B"
-					type: "item"
 					item: {
-						id: "dungeons_gear:shadow_walker_vest"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:shadow_walker_vest"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "4546540FBA62D44D"
-					type: "item"
 					item: {
-						id: "dungeons_gear:shadow_walker_hood"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:shadow_walker_hood"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "529074AFB9FDE8ED"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "apotheosis:strong_haste"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "09E064C1AEE9DEB1"
-					type: "item"
 					item: {
-						id: "dungeons_gear:shortbow"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
+							"dungeons_gear:bow": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
-							"dungeons_gear:bow": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
+						}
+						id: "dungeons_gear:shortbow"
+						tag: {
+							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "2ADCAEE9E5B12485"
-					type: "item"
 					item: {
-						id: "dungeons_gear:ghost_cloak"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:ghost_cloak"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
+					count: 3
 					id: "69370AA3A371588A"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "vanillafoodpantry:bearspirit"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
-					count: 3
+					type: "item"
 				}
 				{
+					count: 32
 					id: "7F166A7387D74150"
-					type: "item"
 					item: {
-						id: "minecraft:arrow"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:arrow"
 					}
-					count: 32
+					type: "item"
 				}
 				{
 					id: "1D4A4B93B2B650B2"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
-						tag: {
-							Potion: "elenaidodge2:long_endurance"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "elenaidodge2:long_endurance"
+						}
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: -9.0d
-			y: -7.5d
-			dependencies: ["4052BF0820AE08B5"]
-			id: "46B016B40B360CEF"
 			tasks: [{
-				id: "3281D85AD3F95397"
-				type: "item"
+				consume_items: true
+				id: "20FF86079C9B8C4B"
 				item: {
-					id: "kubejs:mark_tracker"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_bandit"
 				}
-				consume_items: true
+				type: "item"
 			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4052BF0820AE08B5"]
+			id: "46B016B40B360CEF"
 			rewards: [
 				{
 					id: "76EA768B1BD2907B"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "elenaidodge2:long_endurance"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "3734EACFC1FA78DE"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "elenaidodge2:strong_replenishment"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "4A23959C1F02081D"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "apotheosis:strong_knowledge"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "5A089A5E01DB1C42"
-					type: "item"
 					item: {
-						id: "relics:hunter_belt"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "relics:hunter_belt"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "04160D457710300D"
-					type: "item"
 					item: {
-						id: "dungeons_gear:hunters_promise"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
+							"dungeons_gear:bow": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
-							"dungeons_gear:bow": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
+						}
+						id: "dungeons_gear:hunters_promise"
+						tag: {
+							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "64D904E7242989A0"
-					type: "item"
 					item: {
-						id: "dungeons_gear:hunters_vest"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:hunters_vest"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: 8.0d
-			y: -2.0d
-			dependencies: ["490A71C4BD4E06AB"]
-			id: "50DB09954A68BDF3"
 			tasks: [{
-				id: "13B95D75C2E163A6"
-				type: "item"
+				consume_items: true
+				id: "3281D85AD3F95397"
 				item: {
-					id: "kubejs:mark_spiritualist"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_tracker"
 				}
-				consume_items: true
+				type: "item"
 			}]
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["490A71C4BD4E06AB"]
+			id: "50DB09954A68BDF3"
 			rewards: [
 				{
 					id: "24E2E5F9658B475E"
-					type: "item"
 					item: {
-						id: "dungeons_gear:totem_of_regeneration"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:totem_of_regeneration"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "2AA7BB9217F42FCB"
-					type: "item"
 					item: {
-						id: "dungeons_gear:fox_vest"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:fox_vest"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "10D4454FFD025ADF"
-					type: "item"
 					item: {
-						id: "dungeons_gear:fox_hood"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:fox_hood"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "2A784F465DC30A80"
-					type: "item"
 					item: {
-						id: "atum:isis_healing"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "atum:isis_healing"
 					}
+					type: "item"
 				}
 				{
+					count: 3
 					id: "79D7E9F1192977B2"
-					type: "item"
 					item: {
-						id: "minecraft:splash_potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:splash_potion"
 						tag: {
 							Potion: "minecraft:strong_healing"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
-					count: 3
+					type: "item"
 				}
 				{
 					id: "1BF8ED4E003C7AF5"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:strong_healing"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "785D752883ACF8AF"
-					type: "item"
 					item: {
-						id: "roughtweaks:medkit_enchanted"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "roughtweaks:medkit_enchanted"
 						tag: {
 							Damage: 0
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "4127CB5AFB59031C"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
-						tag: {
-							Potion: "abundance:supportive_strong"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "abundance:supportive_strong"
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "5BD0FAFCB4807079"
-					type: "item"
 					item: {
-						id: "majruszs_accessories:secret_ingredient"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "majruszs_accessories:secret_ingredient"
 						tag: {
 							Effectiveness: {
 								Value: 0.0d
 							}
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: -4.0d
-			y: 3.5d
-			dependencies: ["7DD56E45EFC3F12A"]
-			id: "42CC938BE615A4AF"
 			tasks: [{
-				id: "23F2D3C3E71EAB2E"
-				type: "item"
-				item: "kubejs:mark_gladiator"
 				consume_items: true
-			}]
-			rewards: [
-				{
-					id: "2EAB4269E49997AC"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "alexsmobs:speed_iii"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "5D9D6B2B0E654975"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "elenaidodge2:strong_replenishment"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "686FC022D771B77D"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "vanillafoodpantry:super_wolfspirit"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "3293C946E5DD15C3"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "elenaidodge2:long_endurance"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "1EBDD4F682EFC962"
-					type: "item"
-					item: {
-						id: "dungeons_gear:shadow_walker_hood"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "5CC0CB65B818DDAF"
-					type: "item"
-					item: {
-						id: "dungeons_gear:shadow_walker_vest"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "5E3CA9A1B0775148"
-					type: "item"
-					item: {
-						id: "artifacts:cloud_in_a_bottle"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 1.5d
-			y: 3.5d
-			dependencies: ["747D1B2AA878430E"]
-			id: "18156A17C2B04B79"
-			tasks: [{
-				id: "1515C27AAFCB2DBF"
-				type: "item"
+				id: "13B95D75C2E163A6"
 				item: {
-					id: "kubejs:mark_summoner"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_spiritualist"
 				}
-				consume_items: true
+				type: "item"
 			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7DD56E45EFC3F12A"]
+			id: "42CC938BE615A4AF"
 			rewards: [
 				{
-					id: "3765CA26B01A48FF"
-					type: "item"
+					id: "2EAB4269E49997AC"
 					item: {
-						id: "dungeons_gear:grim_chestplate"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
-					}
-				}
-				{
-					id: "4F5ECE1360941D04"
-					type: "item"
-					item: {
-						id: "dungeons_gear:grim_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "1C0EF8424DA46E8D"
-					type: "item"
-					item: {
-						id: "dungeons_gear:tasty_bone"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "77CC104B0C829516"
-					type: "item"
-					item: {
 						id: "minecraft:potion"
-						Count: 1b
 						tag: {
-							Potion: "vanillafoodpantry:wolfspirit"
+							Potion: "alexsmobs:speed_iii"
 						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D9D6B2B0E654975"
+					item: {
+						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "elenaidodge2:strong_replenishment"
+						}
 					}
+					type: "item"
 				}
 				{
-					id: "06E7BE5E494A832A"
-					type: "item"
+					id: "686FC022D771B77D"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "vanillafoodpantry:super_wolfspirit"
 						}
+					}
+					type: "item"
+				}
+				{
+					id: "3293C946E5DD15C3"
+					item: {
+						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "elenaidodge2:long_endurance"
+						}
 					}
+					type: "item"
+				}
+				{
+					id: "1EBDD4F682EFC962"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "dungeons_gear:shadow_walker_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CC0CB65B818DDAF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "dungeons_gear:shadow_walker_vest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E3CA9A1B0775148"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "artifacts:cloud_in_a_bottle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				consume_items: true
+				id: "23F2D3C3E71EAB2E"
+				item: "kubejs:mark_gladiator"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
 		}
 		{
-			icon: "kubejs:arrow_45"
-			x: -6.5d
-			y: -8.0d
-			shape: "diamond"
+			dependencies: ["747D1B2AA878430E"]
+			id: "18156A17C2B04B79"
+			rewards: [
+				{
+					id: "3765CA26B01A48FF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "dungeons_gear:grim_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F5ECE1360941D04"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "dungeons_gear:grim_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C0EF8424DA46E8D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "dungeons_gear:tasty_bone"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77CC104B0C829516"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "vanillafoodpantry:wolfspirit"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06E7BE5E494A832A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "vanillafoodpantry:super_wolfspirit"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "1515C27AAFCB2DBF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:mark_summoner"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
 			dependencies: ["683225884B0525D7"]
+			icon: "kubejs:arrow_45"
 			id: "21887C44858A1CCC"
+			rewards: [{
+				id: "2ACAFE6415A2BFFE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:mark_spelunker"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
 			tasks: [
 				{
 					id: "1D412E8D80E63B5D"
+					points: false
 					type: "xp"
 					value: 30L
-					points: false
 				}
 				{
 					id: "089F032A95C285FB"
 					type: "custom"
 				}
 			]
+			x: -6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4124F9EEBAA895F0"]
+			icon: "kubejs:arrow_45"
+			id: "7FF5520CEDEE2939"
 			rewards: [{
-				id: "2ACAFE6415A2BFFE"
-				type: "item"
+				id: "02AE973AA7794D94"
 				item: {
-					id: "kubejs:mark_spelunker"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_rancher"
 				}
+				type: "item"
 			}]
-		}
-		{
-			icon: "kubejs:arrow_45"
-			x: -4.5d
-			y: -10.0d
 			shape: "diamond"
-			dependencies: ["4124F9EEBAA895F0"]
-			id: "7FF5520CEDEE2939"
 			tasks: [
 				{
 					id: "707D463C1A7276CE"
+					points: false
 					type: "xp"
 					value: 30L
-					points: false
 				}
 				{
 					id: "4497B54F088DE11C"
 					type: "custom"
 				}
 			]
+			x: -4.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["2B8432D35FB49159"]
+			icon: "kubejs:arrow_right"
+			id: "43D73A55BBC63531"
 			rewards: [{
-				id: "02AE973AA7794D94"
-				type: "item"
+				id: "1791B61EEB53C288"
 				item: {
-					id: "kubejs:mark_rancher"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_mercenary"
 				}
+				type: "item"
 			}]
-		}
-		{
-			icon: "kubejs:arrow_right"
-			x: 6.5d
-			y: -5.0d
 			shape: "diamond"
-			dependencies: ["2B8432D35FB49159"]
-			id: "43D73A55BBC63531"
 			tasks: [
 				{
 					id: "0F65A47657B51964"
+					points: false
 					type: "xp"
 					value: 30L
-					points: false
 				}
 				{
 					id: "005883E24AB68676"
 					type: "custom"
 				}
 			]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3A9272D0C456214D"]
+			icon: "kubejs:arrow_left"
+			id: "7B0E0B4307737D27"
 			rewards: [{
-				id: "1791B61EEB53C288"
-				type: "item"
+				id: "78F70008BBD72136"
 				item: {
-					id: "kubejs:mark_mercenary"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_arbalester"
 				}
+				type: "item"
 			}]
-		}
-		{
-			icon: "kubejs:arrow_left"
-			x: -4.5d
-			y: 1.0d
 			shape: "diamond"
-			dependencies: ["3A9272D0C456214D"]
-			id: "7B0E0B4307737D27"
 			tasks: [
 				{
 					id: "0087A4E51A9E3ACB"
+					points: false
 					type: "xp"
 					value: 30L
-					points: false
 				}
 				{
 					id: "302A5435C2F27E30"
 					type: "custom"
 				}
 			]
-			rewards: [{
-				id: "78F70008BBD72136"
-				type: "item"
-				item: {
-					id: "kubejs:mark_arbalester"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
+			x: -4.5d
+			y: 1.0d
 		}
 		{
-			icon: "kubejs:arrow_45"
-			x: -3.0d
-			y: -11.0d
-			shape: "diamond"
 			dependencies: ["150C2D107C30D787"]
+			icon: "kubejs:arrow_45"
 			id: "5219B48B6F4A2440"
-			tasks: [{
-				id: "6FA0683AAFEC0E06"
-				type: "xp"
-				value: 30L
-				points: false
-			}]
 			rewards: [{
 				id: "4D3508F71196583D"
-				type: "item"
 				item: {
-					id: "kubejs:mark_alchemist"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_alchemist"
 				}
+				type: "item"
 			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6FA0683AAFEC0E06"
+				points: false
+				type: "xp"
+				value: 30L
+			}]
+			x: -3.0d
+			y: -11.0d
 		}
 		{
-			icon: "kubejs:arrow_left"
-			x: -6.0d
-			y: -0.5d
-			shape: "diamond"
 			dependencies: ["5ABCBE93E9B7A41E"]
+			icon: "kubejs:arrow_left"
 			id: "0232037859276063"
+			rewards: [{
+				id: "5D002C8F1AD6A91C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:mark_corsair"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
 			tasks: [
 				{
 					id: "69E8522847C7B4E9"
+					points: false
 					type: "xp"
 					value: 30L
-					points: false
 				}
 				{
 					id: "7CE1A03F16CA9315"
 					type: "custom"
 				}
 			]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["17B7928C5E72DF4A"]
+			icon: "kubejs:arrow_left"
+			id: "3F25D47EE14139AF"
 			rewards: [{
-				id: "5D002C8F1AD6A91C"
-				type: "item"
+				id: "66EFEC6D66A6E07A"
 				item: {
-					id: "kubejs:mark_corsair"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_bandit"
 				}
+				type: "item"
 			}]
-		}
-		{
-			icon: "kubejs:arrow_left"
-			x: -6.0d
-			y: -3.0d
 			shape: "diamond"
-			dependencies: ["17B7928C5E72DF4A"]
-			id: "3F25D47EE14139AF"
 			tasks: [
 				{
 					id: "6AAF29734317F5EB"
+					points: false
 					type: "xp"
 					value: 30L
-					points: false
 				}
 				{
 					id: "276A7B3A575E91B4"
 					type: "custom"
 				}
 			]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["04399280EC946CB6"]
+			icon: "kubejs:arrow_45"
+			id: "4052BF0820AE08B5"
 			rewards: [{
-				id: "66EFEC6D66A6E07A"
-				type: "item"
+				id: "1C9481B01E976C06"
 				item: {
-					id: "kubejs:mark_bandit"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_tracker"
 				}
+				type: "item"
 			}]
-		}
-		{
-			icon: "kubejs:arrow_45"
-			x: -7.5d
-			y: -6.0d
 			shape: "diamond"
-			dependencies: ["04399280EC946CB6"]
-			id: "4052BF0820AE08B5"
 			tasks: [
 				{
 					id: "03187A51F036FAE6"
+					points: false
 					type: "xp"
 					value: 30L
-					points: false
 				}
 				{
 					id: "5B4CD8014C2F7954"
@@ -3479,107 +3496,107 @@
 					type: "custom"
 				}
 			]
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["591E749ECBF3BF91"]
+			icon: "kubejs:arrow_right"
+			id: "490A71C4BD4E06AB"
 			rewards: [{
-				id: "1C9481B01E976C06"
-				type: "item"
+				id: "5543653DF5D99C2D"
 				item: {
-					id: "kubejs:mark_tracker"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_spiritualist"
 				}
+				type: "item"
 			}]
-		}
-		{
-			icon: "kubejs:arrow_right"
-			x: 6.5d
-			y: -3.0d
 			shape: "diamond"
-			dependencies: ["591E749ECBF3BF91"]
-			id: "490A71C4BD4E06AB"
 			tasks: [
 				{
 					id: "72315DCD9E705F9B"
+					points: false
 					type: "xp"
 					value: 30L
-					points: false
 				}
 				{
 					id: "46F8F7F20944FAF5"
 					type: "custom"
 				}
 			]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["064CD4861C2413A8"]
+			icon: "kubejs:arrow_left"
+			id: "7DD56E45EFC3F12A"
 			rewards: [{
-				id: "5543653DF5D99C2D"
-				type: "item"
+				id: "663BBC4F4EF6186F"
 				item: {
-					id: "kubejs:mark_spiritualist"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_fighter"
 				}
+				type: "item"
 			}]
-		}
-		{
-			icon: "kubejs:arrow_left"
-			x: -2.5d
-			y: 2.0d
 			shape: "diamond"
-			dependencies: ["064CD4861C2413A8"]
-			id: "7DD56E45EFC3F12A"
 			tasks: [
 				{
 					id: "2BACCA2E13D17DF5"
+					points: false
 					type: "xp"
 					value: 30L
-					points: false
 				}
 				{
 					id: "0C9772BF5E90AFD1"
 					type: "custom"
 				}
 			]
-			rewards: [{
-				id: "663BBC4F4EF6186F"
-				type: "item"
-				item: {
-					id: "kubejs:mark_fighter"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
+			x: -2.5d
+			y: 2.0d
 		}
 		{
+			dependencies: ["75434610CC4789B4"]
 			icon: {
-				id: "kubejs:arrow_down"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "kubejs:arrow_down"
 			}
-			x: 1.0d
-			y: 1.5d
-			shape: "diamond"
-			dependencies: ["75434610CC4789B4"]
 			id: "747D1B2AA878430E"
+			rewards: [{
+				id: "15768F2FB6C07F35"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:mark_summoner"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
 			tasks: [
 				{
 					id: "2A2DEEEFFA73995A"
+					points: false
 					type: "xp"
 					value: 30L
-					points: false
 				}
 				{
 					id: "12573D4516BEC57E"
@@ -3590,2002 +3607,2003 @@
 					type: "custom"
 				}
 			]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["23D32CEF3529DC11"]
+			icon: "kubejs:arrow_45_yellow"
+			id: "3BBDE03F8B0A8787"
 			rewards: [{
-				id: "15768F2FB6C07F35"
-				type: "item"
+				id: "4440EECA9529B877"
 				item: {
-					id: "kubejs:mark_summoner"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_cavemaster"
 				}
+				type: "item"
 			}]
-		}
-		{
-			icon: "kubejs:arrow_45_yellow"
-			x: -8.5d
-			y: -10.5d
 			shape: "diamond"
-			dependencies: ["23D32CEF3529DC11"]
-			id: "3BBDE03F8B0A8787"
 			tasks: [
 				{
 					id: "1E63CFCD947A90C5"
+					points: false
 					type: "xp"
 					value: 60L
-					points: false
 				}
 				{
+					block: "minecraft:stone"
+					block_type: 0
+					checkItem: false
 					id: "05920564F20B0AB0"
 					type: "questsadditions:break"
-					block_type: 0
-					block: "minecraft:stone"
 					value: 640L
-					checkItem: false
 				}
 			]
-			rewards: [{
-				id: "4440EECA9529B877"
-				type: "item"
-				item: {
-					id: "kubejs:mark_cavemaster"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
+			x: -8.5d
+			y: -10.5d
 		}
 		{
-			icon: "kubejs:arrow_45_yellow"
-			x: -7.0d
-			y: -12.0d
-			shape: "diamond"
 			dependencies: ["2D76206095D119CB"]
+			icon: "kubejs:arrow_45_yellow"
 			id: "1B5540BBC981B856"
-			tasks: [{
-				id: "3D11696445AC1C8C"
-				type: "xp"
-				value: 60L
-				points: false
-			}]
 			rewards: [{
 				id: "4A8ED173A60DA932"
-				type: "item"
 				item: {
-					id: "kubejs:mark_agrarian"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_agrarian"
 				}
+				type: "item"
 			}]
-		}
-		{
-			icon: "kubejs:arrow_right_yellow"
-			x: 10.0d
-			y: -6.5d
 			shape: "diamond"
-			dependencies: ["0B619314C9EEA318"]
-			id: "24E0FADA45D0B349"
 			tasks: [{
-				id: "2CBE4D1232694FDF"
+				id: "3D11696445AC1C8C"
+				points: false
 				type: "xp"
 				value: 60L
-				points: false
 			}]
+			x: -7.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0B619314C9EEA318"]
+			icon: "kubejs:arrow_right_yellow"
+			id: "24E0FADA45D0B349"
 			rewards: [{
 				id: "1F9EE21CCBA9C717"
-				type: "item"
 				item: {
-					id: "kubejs:mark_champion"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_champion"
 				}
+				type: "item"
 			}]
-		}
-		{
-			icon: "kubejs:arrow_left_yellow"
-			x: -8.0d
-			y: 1.5d
 			shape: "diamond"
-			dependencies: ["457B4C8DB54B2C78"]
-			id: "69C134B9D4820F57"
 			tasks: [{
-				id: "567F146124153071"
+				id: "2CBE4D1232694FDF"
+				points: false
 				type: "xp"
 				value: 60L
-				points: false
 			}]
+			x: 10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["457B4C8DB54B2C78"]
+			icon: "kubejs:arrow_left_yellow"
+			id: "69C134B9D4820F57"
 			rewards: [{
 				id: "5E7468DE9B5BE63B"
-				type: "item"
 				item: {
-					id: "kubejs:mark_artillerist"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_artillerist"
 				}
+				type: "item"
 			}]
-		}
-		{
-			icon: "kubejs:arrow_45_yellow"
-			x: -4.5d
-			y: -13.5d
 			shape: "diamond"
-			dependencies: ["1A5023EA275AAF04"]
-			id: "55400766E27D2AF3"
 			tasks: [{
-				id: "6C3DAAA1CF84BCD5"
+				id: "567F146124153071"
+				points: false
 				type: "xp"
 				value: 60L
-				points: false
 			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A5023EA275AAF04"]
+			icon: "kubejs:arrow_45_yellow"
+			id: "55400766E27D2AF3"
 			rewards: [{
 				id: "238E2278DD38F6D9"
-				type: "item"
 				item: {
-					id: "kubejs:mark_thaumaturge"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_thaumaturge"
 				}
+				type: "item"
 			}]
-		}
-		{
-			icon: "kubejs:arrow_left_yellow"
-			x: -9.0d
-			y: -0.5d
 			shape: "diamond"
-			dependencies: ["7FE110B6FD08031B"]
-			id: "1AFB43991CE7ED02"
 			tasks: [{
-				id: "7FB5F0ACFF8E6304"
+				id: "6C3DAAA1CF84BCD5"
+				points: false
 				type: "xp"
 				value: 60L
-				points: false
 			}]
+			x: -4.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["7FE110B6FD08031B"]
+			icon: "kubejs:arrow_left_yellow"
+			id: "1AFB43991CE7ED02"
 			rewards: [{
 				id: "6862D61417E24A17"
-				type: "item"
 				item: {
-					id: "kubejs:mark_captain"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_captain"
 				}
+				type: "item"
 			}]
-		}
-		{
-			icon: "kubejs:arrow_left_yellow"
-			x: -9.0d
-			y: -3.0d
 			shape: "diamond"
-			dependencies: ["75803607F74E0EA9"]
-			id: "23E282F224289272"
 			tasks: [{
-				id: "21FA3B2DCFD48FCC"
+				id: "7FB5F0ACFF8E6304"
+				points: false
 				type: "xp"
 				value: 60L
-				points: false
 			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["75803607F74E0EA9"]
+			icon: "kubejs:arrow_left_yellow"
+			id: "23E282F224289272"
 			rewards: [{
 				id: "4C7BC07D959EE848"
-				type: "item"
 				item: {
-					id: "kubejs:mark_rogue"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_rogue"
 				}
+				type: "item"
 			}]
-		}
-		{
-			icon: "kubejs:arrow_45_yellow"
-			x: -10.0d
-			y: -8.5d
 			shape: "diamond"
-			dependencies: ["46B016B40B360CEF"]
-			id: "11FE4B3D6390417B"
 			tasks: [{
-				id: "09EBE9B30A5EFF46"
+				id: "21FA3B2DCFD48FCC"
+				points: false
 				type: "xp"
 				value: 60L
-				points: false
 			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["46B016B40B360CEF"]
+			icon: "kubejs:arrow_45_yellow"
+			id: "11FE4B3D6390417B"
 			rewards: [{
 				id: "0F8528924A2B0C15"
-				type: "item"
 				item: {
-					id: "kubejs:mark_pursuer"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_pursuer"
 				}
+				type: "item"
 			}]
-		}
-		{
-			icon: "kubejs:arrow_right_yellow"
-			x: 10.0d
-			y: -1.0d
 			shape: "diamond"
-			dependencies: ["50DB09954A68BDF3"]
-			id: "00E8654931C503B8"
 			tasks: [{
-				id: "7F02BC7E25B3412F"
+				id: "09EBE9B30A5EFF46"
+				points: false
 				type: "xp"
 				value: 60L
-				points: false
 			}]
+			x: -10.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["50DB09954A68BDF3"]
+			icon: "kubejs:arrow_right_yellow"
+			id: "00E8654931C503B8"
 			rewards: [{
 				id: "7BE8523371C6D587"
-				type: "item"
 				item: {
-					id: "kubejs:mark_shaman"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_shaman"
 				}
+				type: "item"
 			}]
-		}
-		{
-			icon: "kubejs:arrow_left_yellow"
-			x: -6.0d
-			y: 4.5d
 			shape: "diamond"
-			dependencies: ["42CC938BE615A4AF"]
-			id: "5445B697B5A9FF87"
 			tasks: [{
-				id: "172EBA377314275E"
+				id: "7F02BC7E25B3412F"
+				points: false
 				type: "xp"
 				value: 60L
-				points: false
 			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["42CC938BE615A4AF"]
+			icon: "kubejs:arrow_left_yellow"
+			id: "5445B697B5A9FF87"
 			rewards: [{
 				id: "48F3135651DB9E70"
-				type: "item"
 				item: {
-					id: "kubejs:mark_underdog"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_underdog"
 				}
+				type: "item"
 			}]
+			shape: "diamond"
+			tasks: [{
+				id: "172EBA377314275E"
+				points: false
+				type: "xp"
+				value: 60L
+			}]
+			x: -6.0d
+			y: 4.5d
 		}
 		{
+			dependencies: ["18156A17C2B04B79"]
 			icon: {
-				id: "kubejs:arrow_down_yellow"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "kubejs:arrow_down_yellow"
 			}
-			x: 2.5d
-			y: 5.0d
-			shape: "diamond"
-			dependencies: ["18156A17C2B04B79"]
 			id: "4ED61B005E3495D6"
-			tasks: [{
-				id: "70CAA20677E6CF5E"
-				type: "xp"
-				value: 60L
-				points: false
-			}]
 			rewards: [{
 				id: "60058493B39410CE"
-				type: "item"
 				item: {
-					id: "kubejs:mark_beastmaster"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_beastmaster"
 				}
+				type: "item"
 			}]
+			shape: "diamond"
+			tasks: [{
+				id: "70CAA20677E6CF5E"
+				points: false
+				type: "xp"
+				value: 60L
+			}]
+			x: 2.5d
+			y: 5.0d
 		}
 		{
-			x: -9.5d
-			y: -11.5d
 			dependencies: ["3BBDE03F8B0A8787"]
 			id: "25FE6F8D9076C909"
-			tasks: [{
-				id: "55DECC181D8DD7A8"
-				type: "item"
-				item: {
-					id: "kubejs:mark_cavemaster"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				consume_items: true
-			}]
 			rewards: [
 				{
 					id: "619D8A3670D7A2D3"
-					type: "item"
 					item: {
-						id: "dungeons_gear:cave_crawler_helmet"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "dungeons_gear:cave_crawler_helmet"
 						tag: {
 							Damage: 0
 							itemModifier: "modifiers:jagged"
 						}
+					}
+					type: "item"
+				}
+				{
+					id: "12241DD6FF74763D"
+					item: {
+						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
-					}
-				}
-				{
-					id: "12241DD6FF74763D"
-					type: "item"
-					item: {
 						id: "dungeons_gear:cave_crawler_chestplate"
-						Count: 1b
 						tag: {
 							Damage: 0
 							itemModifier: "modifiers:armored"
 						}
+					}
+					type: "item"
+				}
+				{
+					id: "483333C59D674CD9"
+					item: {
+						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
-					}
-				}
-				{
-					id: "483333C59D674CD9"
-					type: "item"
-					item: {
 						id: "alexsmobs:centipede_leggings"
-						Count: 1b
 						tag: {
 							Damage: 0
 							itemModifier: "modifiers:brisk"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "3FD4D58388BCA004"
-					type: "item"
 					item: {
-						id: "artifacts:digging_claws"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "artifacts:digging_claws"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: -8.0d
-			y: -13.5d
-			dependencies: ["1B5540BBC981B856"]
-			id: "228F0BED78F0BD1F"
 			tasks: [{
-				id: "59A7E63D9703D7DA"
-				type: "item"
+				consume_items: true
+				id: "55DECC181D8DD7A8"
 				item: {
-					id: "kubejs:mark_agrarian"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_cavemaster"
 				}
-				consume_items: true
+				type: "item"
 			}]
+			x: -9.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["1B5540BBC981B856"]
+			id: "228F0BED78F0BD1F"
 			rewards: [
 				{
 					id: "2244D45DA2A15129"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "abundance:supportive_strong"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "1D273B6659EEE244"
-					type: "item"
 					item: {
-						id: "ars_nouveau:mana_bloom_crop"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "ars_nouveau:mana_bloom_crop"
 					}
+					type: "item"
 				}
 				{
 					id: "5F412E6AA630CDDE"
-					type: "item"
 					item: {
-						id: "dungeons_gear:vine_whip"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [{
 									data: [{
-										lvl: 1s
 										id: "dungeons_gear:poison_cloud"
+										lvl: 1s
 									}]
 									source: "dungeons_libraries:gear_config"
 								}]
 							}
 						}
+						id: "dungeons_gear:vine_whip"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "3EFFC2FF67EAAC23"
-					type: "item"
 					item: {
-						id: "dungeons_gear:enchanted_grass"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:enchanted_grass"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "29F63496EC74CB09"
-					type: "item"
 					item: {
-						id: "dungeons_gear:satchel_of_snacks"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:satchel_of_snacks"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: 11.5d
-			y: -5.0d
-			dependencies: ["24E0FADA45D0B349"]
-			id: "79B3B9D8435C6B6C"
 			tasks: [{
-				id: "06CF43D161090C05"
-				type: "item"
+				consume_items: true
+				id: "59A7E63D9703D7DA"
 				item: {
-					id: "kubejs:mark_champion"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_agrarian"
 				}
-				consume_items: true
+				type: "item"
 			}]
+			x: -8.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["24E0FADA45D0B349"]
+			id: "79B3B9D8435C6B6C"
 			rewards: [
 				{
 					id: "4B8D1712A73CF68F"
-					type: "item"
 					item: {
-						id: "dungeons_gear:powershaker"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "dungeons_gear:powershaker"
 						tag: {
 							Damage: 0
 							itemModifier: "modifiers:half_hearted"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "3A3636F4C821289B"
-					type: "item"
 					item: {
-						id: "dungeons_gear:full_metal_helmet"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:full_metal_helmet"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "746748BBB0D3F3CC"
-					type: "item"
 					item: {
-						id: "dungeons_gear:full_metal_chestplate"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:full_metal_chestplate"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "294448B0B550DC54"
-					type: "item"
 					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
 						id: "losttrinkets:tha_golem"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: -9.5d
-			y: 2.5d
-			dependencies: ["69C134B9D4820F57"]
-			id: "27155BAC83580A64"
 			tasks: [{
-				id: "0B490CDDBE456061"
-				type: "item"
-				item: "kubejs:mark_sniper"
-			}]
-			rewards: [
-				{
-					id: "7CF706DD04BFDC4E"
-					type: "item"
-					item: {
-						id: "dungeons_gear:ghost_cloak"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "1B8C7844E7CF477D"
-					type: "item"
-					item: {
-						id: "dungeons_gear:masters_bow"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-							"dungeons_gear:bow": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-								bowChargeTime: 0.0f
-							}
-						}
-					}
-				}
-				{
-					id: "3C93EFCD6A3BFF62"
-					type: "item"
-					item: {
-						id: "dungeons_gear:flaming_quiver"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "399641B3713D6F10"
-					type: "item"
-					item: {
-						id: "losttrinkets:slingshot"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -5.5d
-			y: -14.5d
-			dependencies: ["55400766E27D2AF3"]
-			id: "6E51D4735105419A"
-			tasks: [{
-				id: "61C4BF9F8BB33C0C"
-				type: "item"
+				consume_items: true
+				id: "06CF43D161090C05"
 				item: {
-					id: "kubejs:mark_thaumaturge"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_champion"
 				}
-				consume_items: true
+				type: "item"
 			}]
+			x: 11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["69C134B9D4820F57"]
+			id: "27155BAC83580A64"
+			rewards: [
+				{
+					id: "7CF706DD04BFDC4E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "dungeons_gear:ghost_cloak"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B8C7844E7CF477D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:bow": {
+								bowChargeTime: 0.0f
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "dungeons_gear:masters_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C93EFCD6A3BFF62"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "dungeons_gear:flaming_quiver"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "399641B3713D6F10"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "losttrinkets:slingshot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B490CDDBE456061"
+				item: "kubejs:mark_sniper"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["55400766E27D2AF3"]
+			id: "6E51D4735105419A"
 			rewards: [
 				{
 					id: "695F5C420AF2F9C2"
-					type: "item"
 					item: {
-						id: "dungeons_gear:satchel_of_elixirs"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "dungeons_gear:satchel_of_elixirs"
 						tag: {
 							Damage: 0
 							itemModifier: "modifiers:spiked"
 						}
+					}
+					type: "item"
+				}
+				{
+					id: "29B770F4871F5BAF"
+					item: {
+						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
-					}
-				}
-				{
-					id: "29B770F4871F5BAF"
-					type: "item"
-					item: {
 						id: "apotheosis:potion_charm"
-						Count: 1b
 						tag: {
 							Damage: 0
 							Potion: "ars_nouveau:mana_regen_potion_strong"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "0D93C592502318A9"
-					type: "item"
 					item: {
-						id: "artifacts:antidote_vessel"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "artifacts:antidote_vessel"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: -10.5d
-			y: 0.0d
-			dependencies: ["1AFB43991CE7ED02"]
-			id: "5835821DED0B50BB"
 			tasks: [{
-				id: "38F970647A89D7D5"
-				type: "item"
+				consume_items: true
+				id: "61C4BF9F8BB33C0C"
 				item: {
-					id: "kubejs:mark_captain"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_thaumaturge"
 				}
-				consume_items: true
+				type: "item"
 			}]
+			x: -5.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["1AFB43991CE7ED02"]
+			id: "5835821DED0B50BB"
 			rewards: [
 				{
 					id: "724E4BA045309611"
-					type: "item"
 					item: {
-						id: "pirate_hat:pirate_helmet"
 						Count: 1b
-						tag: {
-							itemModifier: "modifiers:half_hearted"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "pirate_hat:pirate_helmet"
+						tag: {
+							itemModifier: "modifiers:half_hearted"
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "25F60801E5D216D6"
-					type: "item"
 					item: {
-						id: "dungeons_gear:highland_chestplate"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:highland_chestplate"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "24C0CDB3DFA14D05"
-					type: "item"
 					item: {
-						id: "dungeons_gear:highland_helmet"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:highland_helmet"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "3A443B62EF887FC7"
-					type: "item"
 					item: {
-						id: "dungeons_gear:shock_powder"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:shock_powder"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "1E9A03F25500B6BE"
-					type: "item"
 					item: {
-						id: "artifacts:golden_hook"
 						Count: 1b
-						tag: {
-							itemModifier: "modifiers:fleeting"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "artifacts:golden_hook"
+						tag: {
+							Damage: 0
+							itemModifier: "modifiers:fleeting"
+						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				consume_items: true
+				id: "38F970647A89D7D5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:mark_captain"
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.0d
 		}
 		{
-			x: -10.5d
-			y: -3.5d
 			dependencies: ["23E282F224289272"]
 			id: "086467EF70DFCE43"
-			tasks: [{
-				id: "1379A41ED77D7E47"
-				type: "item"
-				item: "kubejs:mark_brigand"
-			}]
 			rewards: [
 				{
+					count: 2
 					id: "7AA51E356CD2EFD4"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "vanillafoodpantry:super_bearspirit"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
-					count: 2
+					type: "item"
 				}
 				{
 					id: "74C8BEC0E95C74BE"
-					type: "item"
 					item: {
-						id: "dungeons_gear:spider_hood"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:spider_hood"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "06B54CEB98FF11F9"
-					type: "item"
 					item: {
-						id: "dungeons_gear:spider_vest"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:spider_vest"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "0DD1510D48511BFD"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "elenaidodge2:strong_replenishment"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "475282ACB35B9595"
-					type: "item"
 					item: {
-						id: "dungeons_gear:totem_of_shielding"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:totem_of_shielding"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "2911861434202D5E"
-					type: "item"
 					item: {
-						id: "losttrinkets:tha_spirit"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "losttrinkets:tha_spirit"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "1379A41ED77D7E47"
+				item: "kubejs:mark_brigand"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.5d
 		}
 		{
-			x: -10.5d
-			y: -9.5d
 			dependencies: ["11FE4B3D6390417B"]
 			id: "289B1DE30DC52A57"
-			tasks: [{
-				id: "7C4AC19A47A181C4"
-				type: "item"
-				item: {
-					id: "kubejs:mark_pursuer"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				consume_items: true
-			}]
 			rewards: [
 				{
 					id: "10900A6CD8BA20CF"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:long_swiftness"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "46B6E0597B3EA77E"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
-						tag: {
-							Potion: "vanillafoodpantry:super_bearspirit"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "vanillafoodpantry:super_bearspirit"
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "434BD6DFBEB6CF7D"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
-						tag: {
-							Potion: "dungeons_gear:shadow_brew"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "dungeons_gear:shadow_brew"
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "097F047F79FF0485"
-					type: "item"
 					item: {
-						id: "artifacts:aqua_dashers"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "artifacts:aqua_dashers"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "014CA1636AD7F05A"
-					type: "item"
 					item: {
-						id: "losttrinkets:minds_eye"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "losttrinkets:minds_eye"
 					}
+					type: "item"
 				}
 				{
 					id: "6C89B5822F061BA2"
-					type: "item"
 					item: {
-						id: "dungeons_gear:love_medallion"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:love_medallion"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: 12.0d
-			y: -1.5d
-			dependencies: ["00E8654931C503B8"]
-			id: "2541699B18497F4D"
 			tasks: [{
-				id: "430789429978685A"
-				type: "item"
+				consume_items: true
+				id: "7C4AC19A47A181C4"
 				item: {
-					id: "kubejs:mark_shaman"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_pursuer"
 				}
-				consume_items: true
+				type: "item"
 			}]
+			x: -10.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["00E8654931C503B8"]
+			id: "2541699B18497F4D"
 			rewards: [
 				{
 					id: "73FECF9A9B96090B"
-					type: "item"
 					item: {
-						id: "dungeons_gear:wind_horn"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "dungeons_gear:wind_horn"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "64EAA4053F1EF29A"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
-						tag: {
-							Potion: "goblintraders:powerful_instant_health"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "goblintraders:powerful_instant_health"
+						}
 					}
+					type: "item"
 				}
 				{
+					count: 2
 					id: "795F29673D0A5895"
-					type: "item"
 					item: {
-						id: "minecraft:splash_potion"
 						Count: 1b
-						tag: {
-							Potion: "goblintraders:powerful_instant_health"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "goblintraders:powerful_instant_health"
+						}
 					}
-					count: 2
+					type: "item"
 				}
 				{
 					id: "1DA2EF8D75118D8A"
-					type: "item"
 					item: {
-						id: "dungeons_gear:totem_of_soul_protection"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "dungeons_gear:totem_of_soul_protection"
 						tag: {
 							Damage: 0
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "12364DDD3CD5E8F8"
-					type: "item"
 					item: {
-						id: "artifacts:crystal_heart"
 						Count: 1b
-						tag: {
-							itemModifier: "modifiers:hard"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "artifacts:crystal_heart"
+						tag: {
+							Damage: 0
+							itemModifier: "modifiers:hard"
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "7841BECD7D368C59"
-					type: "item"
 					item: {
-						id: "losttrinkets:tha_wizard"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "losttrinkets:tha_wizard"
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: -8.0d
-			y: 4.5d
-			dependencies: ["5445B697B5A9FF87"]
-			id: "366092E413554761"
 			tasks: [{
-				id: "72D3BEBBBBD1B29D"
-				type: "item"
+				consume_items: true
+				id: "430789429978685A"
 				item: {
-					id: "kubejs:mark_underdog"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_shaman"
 				}
-				consume_items: true
+				type: "item"
 			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5445B697B5A9FF87"]
+			id: "366092E413554761"
 			rewards: [
 				{
 					id: "3C9C882755DD04FC"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "dungeons_gear:shadow_brew"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "0B064FC3CA630341"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "vanillafoodpantry:super_bearspirit"
 						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "425E9DCE53FC03AA"
+					item: {
+						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
-					}
-				}
-				{
-					id: "425E9DCE53FC03AA"
-					type: "item"
-					item: {
 						id: "minecraft:potion"
-						Count: 1b
 						tag: {
 							Potion: "apotheosis:long_absorption"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
-					count: 2
+					type: "item"
 				}
 				{
 					id: "205AFB1F81C48F8F"
-					type: "item"
 					item: {
-						id: "bountifulbaubles:phylactery_charm"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "bountifulbaubles:phylactery_charm"
 					}
+					type: "item"
 				}
 				{
 					id: "5D9F11DA7C364247"
-					type: "item"
 					item: {
-						id: "losttrinkets:butchers_cleaver"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "losttrinkets:butchers_cleaver"
 					}
+					type: "item"
 				}
 				{
 					id: "48244D3668B427B5"
-					type: "item"
 					item: {
-						id: "artifacts:vampiric_glove"
 						Count: 1b
-						tag: {
-							itemModifier: "modifiers:half_hearted"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "artifacts:vampiric_glove"
+						tag: {
+							Damage: 0
+							itemModifier: "modifiers:half_hearted"
+						}
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: 4.0d
-			y: 6.0d
-			dependencies: ["4ED61B005E3495D6"]
-			id: "5E27B6A9814D748F"
 			tasks: [{
-				id: "1FE7EEDF6536FB2D"
-				type: "item"
+				consume_items: true
+				id: "72D3BEBBBBD1B29D"
 				item: {
-					id: "kubejs:mark_beastmaster"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "kubejs:mark_underdog"
 				}
-				consume_items: true
+				type: "item"
 			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4ED61B005E3495D6"]
+			id: "5E27B6A9814D748F"
 			rewards: [
 				{
 					id: "605C30BD86D729B6"
-					type: "item"
 					item: {
-						id: "losttrinkets:dark_egg"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "losttrinkets:dark_egg"
 					}
+					type: "item"
 				}
 				{
 					id: "7064AE921A7CB508"
-					type: "item"
 					item: {
-						id: "majruszs_accessories:taming_certificate"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "majruszs_accessories:taming_certificate"
 						tag: {
 							Effectiveness: {
 								Value: 0.0d
 							}
 							itemModifier: "modifiers:jagged"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "1930BF9E8656C912"
-					type: "item"
 					item: {
-						id: "dungeons_gear:golem_kit"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "dungeons_gear:golem_kit"
 						tag: {
 							Damage: 0
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "7BCFBD3B3D7ACD55"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
 						tag: {
 							Potion: "vanillafoodpantry:bearspirit"
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
+					type: "item"
 				}
 				{
 					id: "06DF35CAFDACFB01"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
-						tag: {
-							Potion: "vanillafoodpantry:super_bearspirit"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "vanillafoodpantry:super_bearspirit"
+						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				consume_items: true
+				id: "1FE7EEDF6536FB2D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:mark_beastmaster"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
 		}
 		{
-			x: -2.0d
-			y: -2.5d
 			description: ["Rogues are a diverse class that contains everything from dexterous thieves, to treasure-hunters, to assassins. Masters of stealth and infiltration, Rogues prefer to attack when their opponent is least aware. They are quick but fragile, unable to take heavy damage, and instead rely on their speed to dodge attacks and slip in and out of the shadows to catch their opponent off guard; setting traps and inflicting status effects on foes to give them the edge. Outside of battle Rogues usually have a wide range of helpful utility abilities such as lockpicking to allow them to open locked doors and treasure chests without needing to find/buy keys or the ability to detect and disarm traps. Some can even steal items directly from enemies allowing the player to obtain items that otherwise might be unobtainable. Sometimes Rogues are lumped in with the Ranger class, but more commonly they are differentiated by specializing in melee - particularly with light blades and daggers or ranged attacks using throwing weapons such as knives and shuriken."]
 			id: "7F23DAD698D6D126"
 			tasks: [{
 				id: "2A4B49D7BA4C0D0C"
-				type: "item"
 				item: "kubejs:roguefp"
+				type: "item"
 			}]
+			x: -2.0d
+			y: -2.5d
 		}
 		{
-			x: 2.0d
-			y: -2.5d
 			id: "64A211BFC1049648"
 			tasks: [{
 				id: "747ACF6DD7B5C166"
-				type: "item"
 				item: "kubejs:wizardfp"
+				type: "item"
 			}]
+			x: 2.0d
+			y: -2.5d
 		}
 		{
-			x: 2.0d
-			y: -6.5d
 			description: ["Fighter puts emphasis on strength and physical combat. Wielding melee weapons, they typically lack range, or have only limited ranged attack options, but they excel at fighting enemies in close range combat, often having high HP, defense, and attack capabilities to aid in this. In a team or party based game they put themselves at risk at the front of the group and take the brunt of the damage meant for their less sturdy comrades. A Fighter's strength is boosted by the wide variety of equipment they can use and they are usually able to equip the widest variety of weaponry and armor, including stuff too heavy for other classes. Most of the time the Fighter is considered the default \"hero\" class and as such they are often considered good for beginners."]
 			id: "21ED1D6F4A0DADA6"
 			tasks: [{
 				id: "5D8ED809B45A1EE3"
-				type: "item"
 				item: "kubejs:fighterfp"
+				type: "item"
 			}]
+			x: 2.0d
+			y: -6.5d
 		}
 		{
-			x: -2.0d
-			y: -6.5d
 			id: "7AE8ABA3444E05E8"
 			tasks: [{
 				id: "785866DC42402E2E"
-				type: "item"
 				item: "kubejs:crafterfp"
+				type: "item"
 			}]
+			x: -2.0d
+			y: -6.5d
 		}
 		{
-			x: -1.0d
-			y: -8.5d
 			dependencies: ["7AE8ABA3444E05E8"]
 			id: "20997FC878556B1C"
 			tasks: [{
 				id: "149B1FB15A5ED298"
-				type: "item"
 				item: "kubejs:mark_explorer"
+				type: "item"
 			}]
+			x: -1.0d
+			y: -8.5d
 		}
 		{
-			icon: "kubejs:mark_shadow"
-			x: -0.5d
-			y: -0.5d
-			description: ["A more offensive Rogue, who sacrifices technical expertise for better stealth and killing abilities. Often have a variety of weakening and poisoning abilities and are able to cripple a foe to leave him open for allies or to let him die from Damage Over Time."]
 			dependencies: ["7F23DAD698D6D126"]
+			description: ["A more offensive Rogue, who sacrifices technical expertise for better stealth and killing abilities. Often have a variety of weakening and poisoning abilities and are able to cripple a foe to leave him open for allies or to let him die from Damage Over Time."]
+			icon: "kubejs:mark_shadow"
 			id: "6FC17C71BEC8762E"
 			tasks: [{
 				id: "225822EC5D49F155"
-				type: "item"
 				item: "kubejs:mark_shadow"
+				type: "item"
 			}]
+			x: -0.5d
+			y: -0.5d
 		}
 		{
-			x: 3.0d
-			y: 1.0d
 			dependencies: ["64A211BFC1049648"]
 			id: "3B44EDA737FEF194"
 			tasks: [{
 				id: "09B128FFEB9F9E66"
-				type: "item"
 				item: "kubejs:mark_elementalist"
+				type: "item"
 			}]
+			x: 3.0d
+			y: 1.0d
 		}
 		{
-			x: 5.0d
-			y: -1.5d
-			description: ["An offensively-focused spellcaster who lacks some of the weaknesses of their setting's normal Squishy Wizards - they're tougher and can cast their spells faster or more reliably, in exchange for their arsenal being weaker or limited entirely to offense. Explanations for this can vary from special training, to special equipment, to their magic being somehow \"artificial\". Usually has at least a mild military theme, being either a soldier (possibly a Super Soldier) or someone who Had to Be Sharp. Tends to use spells with shorter ranges than other spellcasters, or to simply cast their spells at close range more often. Can sometimes equip better weapons or armor than other mages, in which case they're distinguished from the Magic Knight through poor physical stats or lack of advanced combat skills."]
 			dependencies: ["64A211BFC1049648"]
+			description: ["An offensively-focused spellcaster who lacks some of the weaknesses of their setting's normal Squishy Wizards - they're tougher and can cast their spells faster or more reliably, in exchange for their arsenal being weaker or limited entirely to offense. Explanations for this can vary from special training, to special equipment, to their magic being somehow \"artificial\". Usually has at least a mild military theme, being either a soldier (possibly a Super Soldier) or someone who Had to Be Sharp. Tends to use spells with shorter ranges than other spellcasters, or to simply cast their spells at close range more often. Can sometimes equip better weapons or armor than other mages, in which case they're distinguished from the Magic Knight through poor physical stats or lack of advanced combat skills."]
 			id: "400F579D0850605B"
 			tasks: [{
 				id: "3C991D6E023A2EA5"
-				type: "item"
 				item: "kubejs:mark_battlemage"
+				type: "item"
 			}]
+			x: 5.0d
+			y: -1.5d
 		}
 		{
-			x: 4.5d
-			y: 0.0d
 			dependencies: ["64A211BFC1049648"]
 			id: "23CFE8A4C41610AB"
 			tasks: [{
 				id: "614C690E18652410"
-				type: "item"
 				item: "kubejs:mark_mage"
+				type: "item"
 			}]
+			x: 4.5d
+			y: 0.0d
 		}
 		{
-			x: 1.0d
-			y: -8.0d
-			description: ["The Paladin is a Fighter with the power of Light and healing magic, as well as defensive buffs for their allies. Most paladins got their powers from their devotion to gods but paladins do not nesessary follow or worship deities to gain power. Some paladins got their powers throught sacred oaths and virtues. Their dedication to their faith gives them various prayers, healing abilities and holy-based spells to protect themselves and others. Naturally, they are a type of Magic Knight. They are also quite good at laying the smite down on undead, demons and other traditionally evil supernatural creatures."]
 			dependencies: ["21ED1D6F4A0DADA6"]
+			description: ["The Paladin is a Fighter with the power of Light and healing magic, as well as defensive buffs for their allies. Most paladins got their powers from their devotion to gods but paladins do not nesessary follow or worship deities to gain power. Some paladins got their powers throught sacred oaths and virtues. Their dedication to their faith gives them various prayers, healing abilities and holy-based spells to protect themselves and others. Naturally, they are a type of Magic Knight. They are also quite good at laying the smite down on undead, demons and other traditionally evil supernatural creatures."]
 			id: "012FB4CD1F4DFF66"
 			tasks: [{
 				id: "7C4B8D767B5141B3"
-				type: "item"
 				item: "kubejs:mark_paladin"
+				type: "item"
 			}]
+			x: 1.0d
+			y: -8.0d
 		}
 		{
-			x: 2.5d
-			y: -9.0d
-			description: ["The Dark Knight class is the opposite number of the Paladin, possessing the power of Darkness and often necromantic or dark-magic oriented abilities that deal large amounts of damage to enemies, although often at the cost of their own HP. They may have abilities that lower their target's stats or inflict status effects also. As the opposite of the Paladin, they may do more damage to light based enemies such as angels, fairies or other traditionally good/holy creatures even if Light Is Not Good or find such foes to be their biggest weakness."]
 			dependencies: ["21ED1D6F4A0DADA6"]
+			description: ["The Dark Knight class is the opposite number of the Paladin, possessing the power of Darkness and often necromantic or dark-magic oriented abilities that deal large amounts of damage to enemies, although often at the cost of their own HP. They may have abilities that lower their target's stats or inflict status effects also. As the opposite of the Paladin, they may do more damage to light based enemies such as angels, fairies or other traditionally good/holy creatures even if Light Is Not Good or find such foes to be their biggest weakness."]
 			id: "56B3B70206EE7478"
 			tasks: [{
 				id: "289AC3AF3D1F5207"
-				type: "item"
 				item: "kubejs:mark_blackguard"
+				type: "item"
 			}]
+			x: 2.5d
+			y: -9.0d
 		}
 		{
-			x: 4.0d
-			y: -8.0d
-			description: ["Barbarian  is a character who throws themself into a fight with such reckless abandon, it seems like they want to die. It could be over-enthusiasm, overconfidence, Unstoppable Rage, or the desire to die in battle. Whatever the cause, it's usually accompanied by a bellowing warcry. Sometimes with total obliviousness to whether they're actually fighting the enemy. And they never, ever retreat."]
 			dependencies: ["21ED1D6F4A0DADA6"]
+			description: ["Barbarian  is a character who throws themself into a fight with such reckless abandon, it seems like they want to die. It could be over-enthusiasm, overconfidence, Unstoppable Rage, or the desire to die in battle. Whatever the cause, it's usually accompanied by a bellowing warcry. Sometimes with total obliviousness to whether they're actually fighting the enemy. And they never, ever retreat."]
 			id: "152D28B677520DA7"
 			tasks: [{
 				id: "75D934A99B17D77D"
-				type: "item"
 				item: "kubejs:mark_barbarian"
+				type: "item"
 			}]
+			x: 4.0d
+			y: -8.0d
 		}
 		{
-			x: 5.0d
-			y: -6.5d
-			description: ["The Warlord is a tactical master. They can hold their own in frontline combat as well as giving out buffs to their underlings and allies, usually by commanding them to superior positions than the ones they would have thought of on their own, and they may have protective auras made of their own charisma to increase a team's effectiveness in battle. Sometimes may be able to summon their own troops."]
 			dependencies: ["21ED1D6F4A0DADA6"]
+			description: ["The Warlord is a tactical master. They can hold their own in frontline combat as well as giving out buffs to their underlings and allies, usually by commanding them to superior positions than the ones they would have thought of on their own, and they may have protective auras made of their own charisma to increase a team's effectiveness in battle. Sometimes may be able to summon their own troops."]
 			id: "3456211026FF64C1"
 			tasks: [{
 				id: "708D404B177CDF8A"
-				type: "item"
 				item: "kubejs:mark_warlord"
+				type: "item"
 			}]
+			x: 5.0d
+			y: -6.5d
 		}
 		{
-			x: -3.5d
-			y: -12.5d
 			dependencies: ["5219B48B6F4A2440"]
 			id: "1A5023EA275AAF04"
 			tasks: [{
 				id: "65F1B49DDB8B577D"
-				type: "item"
 				item: "kubejs:mark_enchanter"
+				type: "item"
 			}]
+			x: -3.5d
+			y: -12.5d
 		}
 		{
-			icon: "kubejs:arrow_up"
-			x: 1.0d
-			y: -9.5d
 			dependencies: ["012FB4CD1F4DFF66"]
+			icon: "kubejs:arrow_up"
 			id: "229E5B40EAD7A519"
 			tasks: [{
 				id: "756D156F1E4C8A9A"
+				points: false
 				type: "xp"
 				value: 30L
-				points: false
 			}]
+			x: 1.0d
+			y: -9.5d
 		}
 		{
-			x: 1.0d
-			y: -11.0d
 			dependencies: ["229E5B40EAD7A519"]
 			id: "35A289B908F24E62"
 			tasks: [{
 				id: "74708179E1FC633F"
-				type: "item"
 				item: "kubejs:mark_crusader"
+				type: "item"
 			}]
+			x: 1.0d
+			y: -11.0d
 		}
 		{
-			x: 1.5d
-			y: -14.0d
 			dependencies: ["5150314058A462F4"]
 			id: "3012EA51B31CDC7B"
 			tasks: [{
 				id: "1F90C2E398307E5D"
-				type: "item"
 				item: "kubejs:mark_templar"
+				type: "item"
 			}]
+			x: 1.5d
+			y: -14.0d
 		}
 		{
-			icon: "kubejs:arrow_up_yellow"
-			x: 1.0d
-			y: -12.5d
 			dependencies: ["35A289B908F24E62"]
+			icon: "kubejs:arrow_up_yellow"
 			id: "5150314058A462F4"
 			tasks: [{
 				id: "22FB2E2B45A05A00"
+				points: false
 				type: "xp"
 				value: 60L
-				points: false
 			}]
+			x: 1.0d
+			y: -12.5d
 		}
 		{
-			x: 3.5d
-			y: -12.5d
 			dependencies: ["4369E0E8D047C1B9"]
 			id: "01B20E69958B3A93"
 			tasks: [{
 				id: "0B88A0F4B56748C9"
-				type: "item"
 				item: "kubejs:mark_hexblade"
+				type: "item"
 			}]
+			x: 3.5d
+			y: -12.5d
 		}
 		{
-			x: 7.0d
-			y: -14.0d
 			dependencies: ["533E166DBB91E9B8"]
 			id: "4ED012DB26E18BB4"
 			tasks: [{
 				id: "641139DCA6DBBF1B"
-				type: "item"
 				item: "kubejs:mark_deathknight"
+				type: "item"
 			}]
+			x: 7.0d
+			y: -14.0d
 		}
 		{
-			x: 7.0d
-			y: -10.5d
 			dependencies: ["3F96B059EF6A4FBF"]
 			id: "193687783A88CC7E"
 			tasks: [{
 				id: "19D31328E3E8B428"
-				type: "item"
 				item: "kubejs:mark_savage"
+				type: "item"
 			}]
+			x: 7.0d
+			y: -10.5d
 		}
 		{
-			x: 10.0d
-			y: -11.5d
 			dependencies: ["759B633CF5037571"]
 			id: "50C71217DE6BF843"
 			tasks: [{
 				id: "3BFA6C880570FBE6"
-				type: "item"
 				item: "kubejs:mark_berserker"
+				type: "item"
 			}]
+			x: 10.0d
+			y: -11.5d
 		}
 		{
-			x: 8.0d
-			y: -8.5d
 			dependencies: ["3C9425B661D84A50"]
 			id: "088715270F290018"
 			tasks: [{
 				id: "54C3F25DE45A6479"
-				type: "item"
 				item: "kubejs:mark_marshal"
+				type: "item"
 			}]
+			x: 8.0d
+			y: -8.5d
 		}
 		{
-			x: 11.5d
-			y: -8.5d
 			dependencies: ["71291348EDB8E4AC"]
 			id: "334060CED958A2DC"
 			tasks: [{
 				id: "3E5980E550224D9F"
-				type: "item"
 				item: "kubejs:mark_commander"
+				type: "item"
 			}]
+			x: 11.5d
+			y: -8.5d
 		}
 		{
-			x: 8.5d
-			y: 1.0d
 			dependencies: ["50F08228DFB5D334"]
 			id: "028B2BE2557D1F48"
 			tasks: [{
 				id: "0CAA1658E2FAB363"
-				type: "item"
 				item: "kubejs:mark_spellblade"
+				type: "item"
 			}]
+			x: 8.5d
+			y: 1.0d
 		}
 		{
-			x: 12.0d
-			y: 1.0d
 			dependencies: ["4BADAC4510E8CEB2"]
 			id: "332E45771F381815"
 			tasks: [{
 				id: "4F2DF5B798C31438"
-				type: "item"
 				item: "kubejs:mark_warmage"
+				type: "item"
 			}]
+			x: 12.0d
+			y: 1.0d
 		}
 		{
-			x: 8.0d
-			y: 3.5d
 			dependencies: ["60D506F049E9C00A"]
 			id: "4EAE504CB1B74582"
 			tasks: [{
 				id: "6B215778982D64F8"
-				type: "item"
 				item: "kubejs:mark_warlock"
+				type: "item"
 			}]
+			x: 8.0d
+			y: 3.5d
 		}
 		{
-			x: 11.5d
-			y: 3.5d
 			dependencies: ["2E22CD38A3E70035"]
 			id: "05D0E23105C5BBE2"
 			tasks: [{
 				id: "212FBD239DB387BB"
-				type: "item"
 				item: "kubejs:mark_archmage"
+				type: "item"
 			}]
+			x: 11.5d
+			y: 3.5d
 		}
 		{
-			x: 4.5d
-			y: 3.5d
 			dependencies: ["1E0C06CA072449D7"]
 			id: "7C2362C90DA68545"
 			tasks: [{
 				id: "6A9F863B7FDE0937"
-				type: "item"
 				item: "kubejs:mark_sorcerer"
+				type: "item"
 			}]
+			x: 4.5d
+			y: 3.5d
 		}
 		{
-			x: 7.5d
-			y: 6.0d
 			dependencies: ["513B7286BA0742AB"]
 			id: "14286FB977C2D81D"
 			tasks: [{
 				id: "2AD7491D3019ABF5"
-				type: "item"
 				item: "kubejs:mark_masterlementalist"
+				type: "item"
 			}]
+			x: 7.5d
+			y: 6.0d
 		}
 		{
-			x: -1.5d
-			y: 3.5d
 			dependencies: ["61464C8EE7F49445"]
 			id: "32F5DAF1F2823D9C"
 			tasks: [{
 				id: "6D272D4A50C2F276"
-				type: "item"
 				item: "kubejs:mark_assasin"
+				type: "item"
 			}]
+			x: -1.5d
+			y: 3.5d
 		}
 		{
-			x: -4.0d
-			y: 6.0d
 			dependencies: ["21D84F04D1E1B537"]
 			id: "7D150BAB9F464500"
 			tasks: [{
 				id: "1041DF81A34AE53A"
-				type: "item"
 				item: "kubejs:mark_nightblade"
+				type: "item"
 			}]
+			x: -4.0d
+			y: 6.0d
 		}
 		{
-			x: -1.5d
-			y: -11.5d
 			dependencies: ["73EBC18E251672FE"]
 			id: "48B6EEEF7B608E4A"
 			tasks: [{
 				id: "2EE55749F7EA8B30"
-				type: "item"
 				item: "kubejs:mark_wanderer"
+				type: "item"
 			}]
+			x: -1.5d
+			y: -11.5d
 		}
 		{
-			x: -2.5d
-			y: -14.5d
 			dependencies: ["222B27CAA8028EE6"]
 			id: "4A54C3EE564463F1"
 			tasks: [{
 				id: "4873E043F2F97832"
-				type: "item"
 				item: "kubejs:mark_pathfinder"
+				type: "item"
 			}]
+			x: -2.5d
+			y: -14.5d
 		}
 		{
-			icon: "kubejs:arrow_up"
-			x: 3.0d
-			y: -10.5d
 			dependencies: ["56B3B70206EE7478"]
+			icon: "kubejs:arrow_up"
 			id: "4369E0E8D047C1B9"
 			tasks: [{
 				id: "2EB9FAD5B58A2F8C"
+				points: false
 				type: "xp"
 				value: 30L
-				points: false
 			}]
+			x: 3.0d
+			y: -10.5d
 		}
 		{
-			icon: "kubejs:arrow_right"
-			x: 5.0d
-			y: -9.5d
 			dependencies: ["152D28B677520DA7"]
+			icon: "kubejs:arrow_right"
 			id: "3F96B059EF6A4FBF"
 			tasks: [{
 				id: "63225CECDF1CB609"
+				points: false
 				type: "xp"
 				value: 30L
-				points: false
 			}]
+			x: 5.0d
+			y: -9.5d
 		}
 		{
-			icon: "kubejs:arrow_right"
-			x: 6.5d
-			y: -8.0d
 			dependencies: ["3456211026FF64C1"]
+			icon: "kubejs:arrow_right"
 			id: "3C9425B661D84A50"
 			tasks: [{
 				id: "59E2CBEB0D0F243B"
+				points: false
 				type: "xp"
 				value: 30L
-				points: false
 			}]
+			x: 6.5d
+			y: -8.0d
 		}
 		{
-			icon: "kubejs:arrow_right"
-			x: 7.0d
-			y: 0.0d
 			dependencies: ["400F579D0850605B"]
+			icon: "kubejs:arrow_right"
 			id: "50F08228DFB5D334"
 			tasks: [{
 				id: "231F6612526945B2"
+				points: false
 				type: "xp"
 				value: 30L
-				points: false
 			}]
+			x: 7.0d
+			y: 0.0d
 		}
 		{
-			icon: "kubejs:arrow_right"
-			x: 6.5d
-			y: 2.0d
 			dependencies: ["23CFE8A4C41610AB"]
+			icon: "kubejs:arrow_right"
 			id: "60D506F049E9C00A"
 			tasks: [{
 				id: "733FA9B3F36A43E6"
+				points: false
 				type: "xp"
 				value: 30L
-				points: false
 			}]
+			x: 6.5d
+			y: 2.0d
 		}
 		{
-			icon: "kubejs:arrow_right"
-			x: 3.5d
-			y: 2.5d
 			dependencies: ["3B44EDA737FEF194"]
+			icon: "kubejs:arrow_right"
 			id: "1E0C06CA072449D7"
 			tasks: [{
 				id: "12EF97E5A2F24269"
+				points: false
 				type: "xp"
 				value: 30L
-				points: false
 			}]
+			x: 3.5d
+			y: 2.5d
 		}
 		{
-			icon: "kubejs:arrow_down"
-			x: -1.0d
-			y: 1.5d
 			dependencies: ["6FC17C71BEC8762E"]
+			icon: "kubejs:arrow_down"
 			id: "61464C8EE7F49445"
 			tasks: [{
 				id: "54D3478504DF5480"
+				points: false
 				type: "xp"
 				value: 30L
-				points: false
 			}]
+			x: -1.0d
+			y: 1.5d
 		}
 		{
-			icon: "kubejs:arrow_down"
-			x: -2.5d
-			y: 5.0d
 			dependencies: ["32F5DAF1F2823D9C"]
+			icon: "kubejs:arrow_down"
 			id: "21D84F04D1E1B537"
 			tasks: [{
 				id: "50A65C317C273272"
+				points: false
 				type: "xp"
 				value: 60L
-				points: false
 			}]
+			x: -2.5d
+			y: 5.0d
 		}
 		{
-			icon: "kubejs:arrow_right_yellow"
-			x: 6.0d
-			y: 4.5d
 			dependencies: ["7C2362C90DA68545"]
+			icon: "kubejs:arrow_right_yellow"
 			id: "513B7286BA0742AB"
 			tasks: [{
 				id: "6F46F8BDFD37AC41"
+				points: false
 				type: "xp"
 				value: 60L
-				points: false
 			}]
+			x: 6.0d
+			y: 4.5d
 		}
 		{
-			icon: "kubejs:arrow_right_yellow"
-			x: 9.5d
-			y: 4.0d
 			dependencies: ["4EAE504CB1B74582"]
+			icon: "kubejs:arrow_right_yellow"
 			id: "2E22CD38A3E70035"
 			tasks: [{
 				id: "1F3196D7B534F380"
+				points: false
 				type: "xp"
 				value: 60L
-				points: false
 			}]
+			x: 9.5d
+			y: 4.0d
 		}
 		{
-			icon: "kubejs:arrow_right_yellow"
-			x: 10.0d
-			y: 1.5d
 			dependencies: ["028B2BE2557D1F48"]
+			icon: "kubejs:arrow_right_yellow"
 			id: "4BADAC4510E8CEB2"
 			tasks: [{
 				id: "3218D5686845B3F0"
+				points: false
 				type: "xp"
 				value: 60L
-				points: false
 			}]
+			x: 10.0d
+			y: 1.5d
 		}
 		{
-			icon: "kubejs:arrow_up"
-			x: -1.0d
-			y: -10.0d
 			dependencies: ["20997FC878556B1C"]
+			icon: "kubejs:arrow_up"
 			id: "73EBC18E251672FE"
 			tasks: [{
 				id: "10FC22E930B54E08"
+				points: false
 				type: "xp"
 				value: 30L
-				points: false
 			}]
+			x: -1.0d
+			y: -10.0d
 		}
 		{
-			icon: "kubejs:arrow_up_yellow"
-			x: -2.0d
-			y: -13.0d
 			dependencies: ["48B6EEEF7B608E4A"]
+			icon: "kubejs:arrow_up_yellow"
 			id: "222B27CAA8028EE6"
 			tasks: [{
 				id: "18E243A80ABE08FB"
+				points: false
 				type: "xp"
 				value: 60L
-				points: false
 			}]
+			x: -2.0d
+			y: -13.0d
 		}
 		{
-			icon: "kubejs:arrow_right_yellow"
-			x: 5.0d
-			y: -13.5d
 			dependencies: ["01B20E69958B3A93"]
+			icon: "kubejs:arrow_right_yellow"
 			id: "533E166DBB91E9B8"
 			tasks: [{
 				id: "701440D89A22B421"
+				points: false
 				type: "xp"
 				value: 60L
-				points: false
 			}]
+			x: 5.0d
+			y: -13.5d
 		}
 		{
-			icon: "kubejs:arrow_right_yellow"
-			x: 8.5d
-			y: -11.5d
 			dependencies: ["193687783A88CC7E"]
+			icon: "kubejs:arrow_right_yellow"
 			id: "759B633CF5037571"
 			tasks: [{
 				id: "464C0C9EC3389A41"
+				points: false
 				type: "xp"
 				value: 60L
-				points: false
 			}]
+			x: 8.5d
+			y: -11.5d
 		}
 		{
-			icon: "kubejs:arrow_right_yellow"
-			x: 9.5d
-			y: -9.0d
 			dependencies: ["088715270F290018"]
+			icon: "kubejs:arrow_right_yellow"
 			id: "71291348EDB8E4AC"
 			tasks: [{
 				id: "045E596F716BE3DB"
+				points: false
 				type: "xp"
 				value: 60L
-				points: false
 			}]
+			x: 9.5d
+			y: -9.0d
 		}
 	]
-	quest_links: [ ]
+	title: "Specialization"
 }

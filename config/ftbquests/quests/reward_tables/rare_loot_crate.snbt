@@ -1,111 +1,111 @@
 {
 	id: "13D32E1B91340CA1"
-	order_index: 11
-	title: "Rare loot crate"
+	loot_crate: {
+		color: 3048191
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "rare_loot_crate"
+	}
 	loot_size: 1
-	use_title: true
+	order_index: 11
 	rewards: [
 		{
+			count: 16
 			item: {
-				id: "aquaculture:lockbox"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "aquaculture:lockbox"
 			}
-			count: 16
-			weight: 2
+			weight: 2.0f
 		}
-		{ item: "aquaculture:treasure_chest", count: 4, weight: 5 }
+		{ count: 4, item: "aquaculture:treasure_chest", weight: 5.0f }
 		{
-			title: "Ores 3"
 			item: {
-				id: "ftbquests:lootcrate"
 				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
 				tag: {
 					type: "ores_3"
 				}
+			}
+			title: "Ores 3"
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 3
-		}
-		{
-			title: "Materials 3"
-			item: {
 				id: "ftbquests:lootcrate"
-				Count: 1b
 				tag: {
 					type: "materials_3"
 				}
+			}
+			title: "Materials 3"
+			weight: 15.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 15
-		}
-		{
-			title: "Junk 3"
-			item: {
 				id: "ftbquests:lootcrate"
-				Count: 1b
 				tag: {
 					type: "junk_3"
 				}
+			}
+			title: "Junk 3"
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-		}
-		{
-			title: "Food 3"
-			item: {
 				id: "ftbquests:lootcrate"
-				Count: 1b
 				tag: {
 					type: "vanilla_food_3"
 				}
+			}
+			title: "Food 3"
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 4
-		}
-		{
-			title: "Spawn Eggs 2"
-			item: {
 				id: "ftbquests:lootcrate"
-				Count: 1b
 				tag: {
 					type: "spawn_eggs_2"
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
-			weight: 15
+			title: "Spawn Eggs 2"
+			weight: 15.0f
 		}
 	]
-	loot_crate: {
-		drops: {
-			boss: 0
-			passive: 0
-			monster: 0
-		}
-		color: 3048191
-		string_id: "rare_loot_crate"
-	}
+	title: "Rare loot crate"
+	use_title: true
 }

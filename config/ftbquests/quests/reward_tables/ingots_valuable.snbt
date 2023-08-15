@@ -1,10 +1,17 @@
 {
-	id: "60BF6515F4373139"
-	order_index: 7
-	title: "Ingots Valuable"
-	loot_size: 1
 	hide_tooltip: true
-	use_title: true
+	id: "60BF6515F4373139"
+	loot_crate: {
+		color: 16766976
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "ingots_valuable"
+	}
+	loot_size: 1
+	order_index: 7
 	rewards: [
 		{ item: "undergarden:forgotten_ingot" }
 		{ item: "undergarden:regalium_ingot" }
@@ -31,23 +38,16 @@
 		{ item: "aquaculture:lockbox" }
 		{
 			item: {
-				id: "blue_skies:horizonite_ingot"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "blue_skies:horizonite_ingot"
 			}
 		}
 	]
-	loot_crate: {
-		drops: {
-			boss: 0
-			passive: 0
-			monster: 0
-		}
-		color: 16766976
-		string_id: "ingots_valuable"
-	}
+	title: "Ingots Valuable"
+	use_title: true
 }

@@ -1,145 +1,145 @@
 {
-	id: "69CFEAD2C3F4F1B6"
-	order_index: 80
-	title: "Junk 3"
 	icon: "kubejs:diamond_nugget"
+	id: "69CFEAD2C3F4F1B6"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "junk_3"
+	}
 	loot_size: 1
+	order_index: 80
 	rewards: [
 		{
+			count: 8
 			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 				id: "kubejs:diamond_nugget"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 8
+			item: {
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			count: 8
-			weight: 3
-		}
-		{
-			item: {
 				id: "kubejs:emerald_nugget"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 8
+			item: {
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			count: 8
-			weight: 3
-		}
-		{
-			item: {
 				id: "buddycards:buddysteel_nugget"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
-			count: 8
-			weight: 3
+			weight: 3.0f
 		}
 		{
-			item: {
-				id: "aquaculture:box"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
 			count: 16
-			weight: 10
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquaculture:box"
+			}
+			weight: 10.0f
 		}
 		{
+			count: 8
 			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 				id: "aquaculture:lockbox"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 64
+			item: {
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			count: 8
-			weight: 5
-		}
-		{
-			item: {
 				id: "minecraft:torch"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 64
+			item: {
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			count: 64
-			weight: 5
-		}
-		{
-			item: {
 				id: "minecraft:cobblestone"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
-			count: 64
-			weight: 5
+			weight: 5.0f
 		}
 		{
-			item: {
-				id: "minecraft:gold_nugget"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
 			count: 8
-			weight: 10
-		}
-		{
 			item: {
-				id: "mysticalworld:gold_dust"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "minecraft:gold_nugget"
 			}
-			weight: 5
+			weight: 10.0f
 		}
 		{
 			item: {
-				id: "kubejs:gold_coin"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "mysticalworld:gold_dust"
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:gold_coin"
 			}
 		}
 	]
-	loot_crate: {
-		drops: {
-			boss: 0
-			passive: 0
-			monster: 0
-		}
-		color: 16777215
-		string_id: "junk_3"
-	}
+	title: "Junk 3"
 }

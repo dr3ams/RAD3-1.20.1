@@ -1,131 +1,131 @@
 {
-	id: "3AB88D93F3A690BF"
-	order_index: 69
-	title: "Junk 1"
 	icon: "kubejs:emerald_nugget"
+	id: "3AB88D93F3A690BF"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "duds1"
+	}
 	loot_size: 1
-	use_title: true
+	order_index: 69
 	rewards: [
 		{
 			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 				id: "kubejs:emerald_nugget"
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 10
-		}
-		{
-			item: {
 				id: "kubejs:diamond_nugget"
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 10
-		}
-		{
-			item: {
 				id: "aquaculture:box"
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 10
-		}
-		{
-			title: "Random Dyes"
-			item: {
 				id: "ftbquests:lootcrate"
-				Count: 1b
 				tag: {
 					type: "random_dyes"
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
-			weight: 10
+			title: "Random Dyes"
+			weight: 10.0f
 		}
 		{
-			item: {
-				id: "mysticalworld:copper_nugget"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
 			count: 8
-			weight: 10
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "mysticalworld:copper_nugget"
+			}
+			weight: 10.0f
 		}
 		{
 			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 				id: "mysticalworld:copper_dust"
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 5
-		}
-		{
-			item: {
 				id: "quark:clear_shard"
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 5
-		}
-		{
-			item: {
 				id: "kubejs:copper_coin"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
 		}
 		{
 			item: {
-				id: "minecraft:coarse_dirt"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "minecraft:coarse_dirt"
 			}
-			weight: 5
+			weight: 5.0f
 		}
 	]
-	loot_crate: {
-		drops: {
-			boss: 0
-			passive: 0
-			monster: 0
-		}
-		color: 16777215
-		string_id: "duds1"
-	}
+	title: "Junk 1"
+	use_title: true
 }

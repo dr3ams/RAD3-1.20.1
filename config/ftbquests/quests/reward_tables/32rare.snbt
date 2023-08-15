@@ -1,21 +1,21 @@
 {
 	id: "42FD5CBD40DA353D"
-	order_index: 94
-	title: "32 Rare Crates"
 	loot_size: 1
+	order_index: 94
 	rewards: [{
+		count: 32
 		item: {
-			id: "ftbquests:lootcrate"
 			Count: 1b
-			tag: {
-				type: "rare_loot_crate"
-			}
 			ForgeCaps: {
 				"dungeons_libraries:built_in_enchantments": {
 					BuiltInEnchantments: [ ]
 				}
 			}
+			id: "ftbquests:lootcrate"
+			tag: {
+				type: "rare_loot_crate"
+			}
 		}
-		count: 32
 	}]
+	title: "32 Rare Crates"
 }

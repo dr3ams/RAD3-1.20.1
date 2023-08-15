@@ -1,130 +1,130 @@
 {
 	id: "3A00AA024D71440E"
-	order_index: 12
-	title: "Epic loot crate"
+	loot_crate: {
+		color: 12664063
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "epic_loot_crate"
+	}
 	loot_size: 1
-	use_title: true
+	order_index: 12
 	rewards: [
 		{
-			title: "Ores 4"
 			item: {
-				id: "ftbquests:lootcrate"
 				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
 				tag: {
 					type: "ores_4"
 				}
+			}
+			title: "Ores 4"
+			weight: 50.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 50
-		}
-		{
-			title: "Junk 4"
-			item: {
 				id: "ftbquests:lootcrate"
-				Count: 1b
 				tag: {
 					type: "junk_4"
 				}
+			}
+			title: "Junk 4"
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 10
-		}
-		{
-			title: "Food 4"
-			item: {
 				id: "ftbquests:lootcrate"
-				Count: 1b
 				tag: {
 					type: "food_4"
 				}
+			}
+			title: "Food 4"
+			weight: 30.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 30
-		}
-		{
-			title: "Vanilla Materials 4"
-			item: {
 				id: "ftbquests:lootcrate"
-				Count: 1b
 				tag: {
 					type: "vanilla_materials_4"
 				}
+			}
+			title: "Vanilla Materials 4"
+			weight: 30.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 30
-		}
-		{
-			title: "Enchanted Items"
-			item: {
 				id: "ftbquests:lootcrate"
-				Count: 1b
 				tag: {
 					type: "enchanted_books_4"
 				}
+			}
+			title: "Enchanted Items"
+			weight: 70.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 70
-		}
-		{
-			title: "Modifiers"
-			item: {
 				id: "ftbquests:lootcrate"
-				Count: 1b
 				tag: {
 					type: "modifiers"
 				}
+			}
+			title: "Modifiers"
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 100
-		}
-		{
-			title: "Spawn Eggs 3"
-			item: {
 				id: "ftbquests:lootcrate"
-				Count: 1b
 				tag: {
 					type: "spawn_eggs_3"
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
-			weight: 80
+			title: "Spawn Eggs 3"
+			weight: 80.0f
 		}
 	]
-	loot_crate: {
-		drops: {
-			boss: 0
-			passive: 0
-			monster: 0
-		}
-		color: 12664063
-		string_id: "epic_loot_crate"
-	}
+	title: "Epic loot crate"
+	use_title: true
 }

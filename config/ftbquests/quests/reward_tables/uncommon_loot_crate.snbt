@@ -1,126 +1,126 @@
 {
 	id: "4F98A2D03CE849CC"
-	order_index: 9
-	title: "Uncommon loot crate"
+	loot_crate: {
+		color: 56450
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "uncommon_loot_crate"
+	}
 	loot_size: 1
-	use_title: true
+	order_index: 9
 	rewards: [
 		{
-			title: "Junk 2"
 			item: {
-				id: "ftbquests:lootcrate"
 				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
 				tag: {
 					type: "duds2"
 				}
+			}
+			title: "Junk 2"
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 2
-		}
-		{
-			title: "Spawn Eggs"
-			item: {
 				id: "ftbquests:lootcrate"
-				Count: 1b
 				tag: {
 					type: "passive_spawn_eggs"
 				}
+			}
+			title: "Spawn Eggs"
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 10
-		}
-		{
-			title: "Materials 2"
-			item: {
 				id: "ftbquests:lootcrate"
-				Count: 1b
 				tag: {
 					type: "vanilla_materials_2"
 				}
+			}
+			title: "Materials 2"
+			weight: 8.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 8
-		}
-		{
-			title: "Food 2"
-			item: {
 				id: "ftbquests:lootcrate"
-				Count: 1b
 				tag: {
 					type: "vanilla_food_2"
 				}
+			}
+			title: "Food 2"
+			weight: 8.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 8
-		}
-		{
-			title: "Ores 2"
-			item: {
 				id: "ftbquests:lootcrate"
-				Count: 1b
 				tag: {
 					type: "ores_2"
 				}
+			}
+			title: "Ores 2"
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 10
-		}
-		{
-			title: "Hat Crate"
-			item: {
 				id: "ftbquests:lootcrate"
-				Count: 1b
 				tag: {
 					type: "hat_crate"
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
-			weight: 5
+			title: "Hat Crate"
+			weight: 5.0f
 		}
 		{
 			item: {
-				id: "aquaculture:treasure_chest"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "aquaculture:treasure_chest"
 			}
-			weight: 5
+			weight: 5.0f
 		}
 	]
-	loot_crate: {
-		drops: {
-			boss: 0
-			passive: 0
-			monster: 0
-		}
-		color: 56450
-		string_id: "uncommon_loot_crate"
-	}
+	title: "Uncommon loot crate"
+	use_title: true
 }

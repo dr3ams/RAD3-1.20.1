@@ -1,79 +1,79 @@
 {
-	id: "61339CF7E948D6A0"
-	order_index: 73
-	title: "Ores 2"
 	icon: "randomite:randomite_ore"
-	loot_size: 1
-	use_title: true
-	rewards: [
-		{
-			item: {
-				id: "minecraft:lapis_lazuli"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			count: 16
-		}
-		{
-			item: {
-				id: "minecraft:redstone"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			count: 32
-		}
-		{
-			item: {
-				id: "minecraft:iron_ingot"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			count: 16
-		}
-		{
-			item: {
-				id: "minecraft:gold_ingot"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			count: 16
-		}
-		{
-			item: {
-				id: "randomite:randomite_ore"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			count: 4
-		}
-	]
+	id: "61339CF7E948D6A0"
 	loot_crate: {
+		color: 16777215
 		drops: {
 			boss: 0
-			passive: 0
 			monster: 0
+			passive: 0
 		}
-		color: 16777215
 		string_id: "ores_2"
 	}
+	loot_size: 1
+	order_index: 73
+	rewards: [
+		{
+			count: 16
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:lapis_lazuli"
+			}
+		}
+		{
+			count: 32
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:redstone"
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:iron_ingot"
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:gold_ingot"
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "randomite:randomite_ore"
+			}
+		}
+	]
+	title: "Ores 2"
+	use_title: true
 }

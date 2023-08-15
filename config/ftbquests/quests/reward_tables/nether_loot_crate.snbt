@@ -1,87 +1,87 @@
 {
 	id: "06D97134E53F8B2D"
-	order_index: 44
-	title: "Nether loot crate"
 	loot_size: 1
+	order_index: 44
 	rewards: [
 		{ item: "minecraft:golden_apple" }
-		{ item: "minecraft:obsidian", count: 2 }
-		{ item: "minecraft:experience_bottle", count: 16 }
+		{ count: 2, item: "minecraft:obsidian" }
+		{ count: 16, item: "minecraft:experience_bottle" }
 		{
-			item: {
-				id: "minecraft:netherrack"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
 			count: 64
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:netherrack"
+			}
 		}
 		{
+			count: 32
 			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 				id: "minecraft:nether_bricks"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
-			count: 32
 		}
 		{
-			item: {
-				id: "minecraft:quartz"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
 			count: 16
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:quartz"
+			}
 		}
 		{
+			count: 32
 			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 				id: "minecraft:soul_sand"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
-			count: 32
 		}
-		{ item: "iceandfire:witherbone", count: 2 }
+		{ count: 2, item: "iceandfire:witherbone" }
 		{ item: "minecraft:nether_wart" }
-		{ item: "quark:blue_nether_bricks", count: 32 }
-		{ item: "quark:netherrack_bricks", count: 64 }
-		{ item: "minecraft:soul_soil", count: 32 }
-		{ item: "quark:soul_sandstone", count: 32 }
-		{ item: "minecraft:crimson_stem", count: 32 }
-		{ item: "minecraft:warped_stem", count: 32 }
-		{ item: "minecraft:red_nether_bricks", count: 32 }
-		{ item: "minecraft:blackstone", count: 32 }
-		{ item: "minecraft:glowstone_dust", count: 16 }
-		{ item: "minecraft:gold_nugget", count: 16 }
-		{ item: "minecraft:blaze_rod", count: 2 }
-		{ item: "minecraft:magma_cream", count: 4 }
-		{ item: "minecraft:ghast_tear", count: 2 }
+		{ count: 32, item: "quark:blue_nether_bricks" }
+		{ count: 64, item: "quark:netherrack_bricks" }
+		{ count: 32, item: "minecraft:soul_soil" }
+		{ count: 32, item: "quark:soul_sandstone" }
+		{ count: 32, item: "minecraft:crimson_stem" }
+		{ count: 32, item: "minecraft:warped_stem" }
+		{ count: 32, item: "minecraft:red_nether_bricks" }
+		{ count: 32, item: "minecraft:blackstone" }
+		{ count: 16, item: "minecraft:glowstone_dust" }
+		{ count: 16, item: "minecraft:gold_nugget" }
+		{ count: 2, item: "minecraft:blaze_rod" }
+		{ count: 4, item: "minecraft:magma_cream" }
+		{ count: 2, item: "minecraft:ghast_tear" }
 		{
+			count: 32
 			item: {
-				id: "minecraft:magma_block"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "minecraft:magma_block"
 			}
-			count: 32
 		}
-		{ item: "minecraft:basalt", count: 32 }
+		{ count: 32, item: "minecraft:basalt" }
 	]
+	title: "Nether loot crate"
 }

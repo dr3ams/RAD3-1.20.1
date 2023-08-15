@@ -1,114 +1,114 @@
 {
-	id: "3CEEE922E7373466"
-	order_index: 82
-	title: "Spawn Eggs 2"
 	icon: "minecraft:villager_spawn_egg"
+	id: "3CEEE922E7373466"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "spawn_eggs_2"
+	}
 	loot_size: 1
+	order_index: 82
 	rewards: [
 		{
 			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 				id: "goblintraders:goblin_trader_spawn_egg"
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 5
-		}
-		{
-			item: {
 				id: "greekfantasy:unicorn_spawn_egg"
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 10
-		}
-		{
-			item: {
 				id: "minecraft:wandering_trader_spawn_egg"
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 10
-		}
-		{
-			item: {
 				id: "greekfantasy:golden_ram_spawn_egg"
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
-			}
-			weight: 10
-		}
-		{
-			item: {
 				id: "rats:spawn_egg_plague_doctor"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
-			weight: 8
+			weight: 8.0f
 		}
 		{
-			item: {
-				id: "minecraft:villager_spawn_egg"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
 			count: 2
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:villager_spawn_egg"
+			}
 		}
 		{
 			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 				id: "minecraft:mooshroom_spawn_egg"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
-			weight: 2
+			weight: 2.0f
 		}
 		{
 			item: {
-				id: "quark:forgotten_spawn_egg"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
+				id: "quark:forgotten_spawn_egg"
 			}
-			weight: 2
+			weight: 2.0f
 		}
 	]
-	loot_crate: {
-		drops: {
-			boss: 0
-			passive: 0
-			monster: 0
-		}
-		color: 16777215
-		string_id: "spawn_eggs_2"
-	}
+	title: "Spawn Eggs 2"
 }
