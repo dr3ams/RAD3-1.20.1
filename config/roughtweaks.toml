@@ -3,12 +3,12 @@
 [General]
 	#Chance 1 in X that a hostile entity drops either salve, a plaster or a bandage\nSet this to 0 if you want to disable entity drops
 	#Range: 0 ~ 32767
-	dropChance = 30
+	dropChance = 0
 	#Amount of half hearts sleeping heals. Set to 0 to disable this feature
 	#Range: 0.0 ~ 32767.0
 	sleepHealAmount = 4.0
 	#Set to true if you want to regenerate health without the use of healing items
-	healthRegen = false
+	healthRegen = true
 
 #Defines how often you're able to rightclick the item to heal yourself. Set the use count to 0 to disable the item.
 [HealCount]

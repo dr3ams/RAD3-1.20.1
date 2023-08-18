@@ -116,6 +116,29 @@ ServerEvents.recipes(event => {
 
 })
 
+PlayerEvents.loggedIn(event => {
+  // Check if player doesn't have "starting_items" stage yet
+  if (!event.player.stages.has('starting_items')) {
+    // Add the stage
+    event.player.stages.add('starting_items')
+    // Give some items to player
+	event.player.give('ftbquests:book')
+    event.player.give('minecraft:stone_sword')
+    event.player.give(Item.of('minecraft:stone_pickaxe', "{Damage: 10}"))
+    event.player.give('10x minecraft:apple')
+	event.player.give('collectorsalbum:common_card_package')
+	event.player.give('minecraft:cake')
+	event.player.give('6x minecraft:wheat_seeds')
+	event.player.give('4x minecraft:potato')
+	event.player.give('supplementaries:bubble_blower')
+	event.player.give('minecraft:leather_leggings')
+	event.player.give('minecraft:leather_boots')
+	event.player.give('64x minecraft:torch')
+	event.player.give('constructionwand:iron_wand')
+	event.player.give(Item.of('sophisticatedbackpacks:gold_backpack'))
+  }
+})
+
 	MoreJSEvents.wandererTrades((event) => {
 // change to "MoreJSEvents.wandererTrades" in 1.19
 

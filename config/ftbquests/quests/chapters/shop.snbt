@@ -116,10 +116,11 @@
 			y: 0.5d
 		}
 	]
-	order_index: 4
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			can_repeat: true
 			description: ["This quest will give you the item as soon as the coin is submitted."]
 			disable_toast: true
 			icon: {
@@ -131,11 +132,10 @@
 			}
 			id: "64AE92F598464E3E"
 			rewards: [{
-				auto: "enabled"
-				id: "314181AFAC5E20D3"
+				exclude_from_claim_all: true
+				id: "799D54165FC7CC49"
 				table_id: 4734148794142699034L
-				team_reward: false
-				type: "questsadditions:repeat_random"
+				type: "random"
 			}]
 			shape: "octagon"
 			size: 2.0d
@@ -151,6 +151,7 @@
 			y: -1.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: {
 				Count: 1b
@@ -161,11 +162,10 @@
 			}
 			id: "071F9F757CCADA93"
 			rewards: [{
-				auto: "enabled"
-				id: "0E5F4DD7AFF34BFD"
+				exclude_from_claim_all: true
+				id: "43074D0676F89F44"
 				table_id: 5735513140715080140L
-				team_reward: false
-				type: "questsadditions:repeat_random"
+				type: "random"
 			}]
 			shape: "octagon"
 			size: 2.0d
@@ -181,6 +181,7 @@
 			y: -1.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: {
 				Count: 1b

@@ -3,330 +3,11 @@
 	default_quest_shape: ""
 	filename: "simple_storage"
 	group: "67B03B24E53297B4"
-	icon: {
-		Count: 1b
-		id: "kubejs:chest"
-		tag: { }
-	}
+	icon: "toms_storage:ts.inventory_connector"
 	id: "27EF62BB9D2D4031"
-	order_index: 0
+	order_index: 2
 	quest_links: [ ]
 	quests: [
-		{
-			dependencies: ["0000000000001247"]
-			description: ["The root of your Simple Storage Network. You will only need a single root per network."]
-			id: "00000000000001A1"
-			rewards: [{
-				id: "5F2BB0532CA7C353"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			size: 1.5d
-			tasks: [{
-				id: "00000000000001A2"
-				item: "storagenetwork:master"
-				type: "item"
-			}]
-			x: 11.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["00000000000001A1"]
-			description: ["Link cables are used to link inventories (a chest for example) into a network. Only a single link cable must be in contact with the chest, a standard network cable can then connect the remaining distance to the network."]
-			id: "00000000000001A3"
-			rewards: [{
-				id: "3C318D73A3125C5C"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
-			tasks: [{
-				id: "00000000000001A4"
-				item: "storagenetwork:storage_kabel"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["00000000000001A1"]
-			description: ["This block allows you to craft with items from a network."]
-			id: "00000000000001A5"
-			rewards: [{
-				id: "00000000000004B1"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
-			tasks: [{
-				id: "00000000000001A6"
-				item: "storagenetwork:request"
-				type: "item"
-			}]
-			x: 13.0d
-			y: 6.5d
-		}
-		{
-			description: ["These cables are the basis of the Simple Storage Network. Use these cables to link your network together."]
-			id: "00000000000001A7"
-			rewards: [{
-				id: "1E83E4F9BB76809B"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			tasks: [{
-				id: "00000000000001A8"
-				item: "storagenetwork:kabel"
-				type: "item"
-			}]
-			x: 8.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["00000000000001A1"]
-			description: ["This block will allow you to see what is stored in a network."]
-			id: "00000000000001A9"
-			rewards: [{
-				id: "11CD692C4D6802E4"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			tasks: [{
-				id: "00000000000001AA"
-				item: "storagenetwork:inventory"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["00000000000001A1"]
-			description: ["An import cable imports items INTO the network (aka the output of machine into the network). Only a single import cable needs to be placed on a block to attach it to a network, the remaining distance can be connected with standard network cable."]
-			id: "0000000000001132"
-			rewards: [
-				{
-					id: "1B1F98DC6263F64D"
-					type: "xp"
-					xp: 430
-				}
-				{
-					id: "28610D411322E501"
-					item: "kubejs:emerald_nugget"
-					random_bonus: 3
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0000000000001133"
-				item: "storagenetwork:import_kabel"
-				type: "item"
-			}]
-			x: 13.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["00000000000001A1"]
-			description: [
-				"An export cable pulls items OUT of a network and into a block (aka importing a item into a machine from the network). Only a single export cable needs to be placed to put into a block, they can be connected by standard network cable to the network."
-				"Can be right clicked to set whitelists/blacklists of items for the link."
-			]
-			id: "0000000000001134"
-			rewards: [
-				{
-					id: "5F9FA6CD0989C90B"
-					type: "xp"
-					xp: 430
-				}
-				{
-					id: "00B15957F62890ED"
-					item: "kubejs:emerald_nugget"
-					random_bonus: 3
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0000000000001135"
-				item: "storagenetwork:export_kabel"
-				type: "item"
-			}]
-			x: 11.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["00000000000001A3"]
-			description: ["Functions as a link cable but can limit the items that are connected and set storage priority."]
-			id: "0000000000001136"
-			rewards: [
-				{
-					id: "1C241C575BC7499A"
-					type: "xp"
-					xp: 430
-				}
-				{
-					id: "30D7A9DD54D4B116"
-					item: "kubejs:emerald_nugget"
-					random_bonus: 3
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0000000000001137"
-				item: "storagenetwork:filter_kabel"
-				type: "item"
-			}]
-			x: 10.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["0000000000001132"]
-			description: ["Acts like an input cable but allows the input to the network to be filtered."]
-			id: "0000000000001138"
-			rewards: [
-				{
-					id: "12462BD0B1450058"
-					type: "xp"
-					xp: 430
-				}
-				{
-					id: "6B175AA3D96732C0"
-					item: "kubejs:emerald_nugget"
-					random_bonus: 4
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0000000000001139"
-				item: "storagenetwork:import_filter_kabel"
-				type: "item"
-			}]
-			x: 12.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["00000000000001A1"]
-			description: ["This upgrade will improve the speed that a cable will operate at. Can be input when right clicking a linked cable and input at the top right."]
-			id: "000000000000113E"
-			rewards: [
-				{
-					id: "18E54E01CD8C6511"
-					type: "xp"
-					xp: 350
-				}
-				{
-					id: "01908C4FAD174446"
-					item: "aquaculture:lockbox"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "000000000000113F"
-				item: "storagenetwork:speed_upgrade"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["000000000000113E"]
-			description: ["This upgrade will increase the size of a stack of items that a link cable can move. Can be input by right clicking a linked cable and input at the top right."]
-			id: "0000000000001140"
-			rewards: [
-				{
-					id: "02269FE7FEC42B59"
-					type: "xp"
-					xp: 350
-				}
-				{
-					id: "781E0DA22B774DF3"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0000000000001141"
-				item: "storagenetwork:stack_upgrade"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["00000000000001A1"]
-			description: [
-				"This remote will allow you to see the contents of a network at a distance. Can be linked to a network by shift right clicking the root with the remote."
-				""
-				"The network will need to be chunk loaded to be seen at a distance."
-			]
-			id: "0000000000001142"
-			rewards: [
-				{
-					id: "251D7BC60B3B7D9F"
-					type: "xp"
-					xp: 350
-				}
-				{
-					id: "18521CF849183838"
-					item: "aquaculture:lockbox"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0000000000001143"
-				item: "storagenetwork:inventory_remote"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["0000000000001142"]
-			description: [
-				"An upgrade of the storage remote that allows you to craft at a distance from your storage network."
-				""
-				"Your network will need to be chunk loaded to remain active at a distance."
-			]
-			id: "0000000000001144"
-			rewards: [
-				{
-					id: "74AF05A268BEB1C7"
-					type: "xp"
-					xp: 350
-				}
-				{
-					id: "779ED19F45C0BDB6"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0000000000001145"
-				item: "storagenetwork:crafting_remote"
-				type: "item"
-			}]
-			x: 13.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["00000000000001A7"]
-			description: ["The Network Guide Book will be your guide to Simple Storage Network machines and mechanics."]
-			id: "0000000000001247"
-			rewards: [{
-				id: "763B3C01122046A2"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "33818785937E10F5"
-				item: {
-					Count: 1b
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "storagenetwork:network_book"
-					}
-				}
-				type: "item"
-			}]
-			x: 9.5d
-			y: 5.5d
-		}
 		{
 			description: [
 				"The Drawer Controller will allow you to connect all storage drawers in a 12 block radius making a large combined storage."
@@ -2187,6 +1868,289 @@
 				type: "item"
 			}]
 			x: 7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["009F78659E60A2F0"]
+			id: "56FE6C65EF970DF6"
+			rewards: [{
+				id: "0B8C5958A50B4BFA"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "1CFD8B0F6D4183BE"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			id: "009F78659E60A2F0"
+			rewards: [{
+				id: "755612B7BC480181"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E4FE74EB2E1F0C9"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["56FE6C65EF970DF6"]
+			id: "14A7FC20651F8AE1"
+			rewards: [{
+				id: "30C9D12591922C30"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CB0007698511085"
+				item: "toms_storage:ts.trim"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["56FE6C65EF970DF6"]
+			id: "58D9D065DCEE2FA0"
+			rewards: [{
+				id: "3F244F08E54F3ADE"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "279D24C0440C208B"
+				item: "toms_storage:ts.open_crate"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["56FE6C65EF970DF6"]
+			id: "67BD0E855C210483"
+			rewards: [{
+				id: "4188ED530FB9DB3B"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0319895BD9686106"
+				item: "toms_storage:ts.inventory_cable"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["67BD0E855C210483"]
+			id: "723A7805CDE29697"
+			rewards: [{
+				id: "465CDDB6C0F28432"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "085ECD090DBC3260"
+					item: "toms_storage:ts.inventory_cable_framed"
+					type: "item"
+				}
+				{
+					id: "15547E7B9E18914E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"maledicta:energy_collector": {
+								energy: 0.0d
+								processes: 0
+							}
+						}
+						id: "toms_storage:ts.paint_kit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["67BD0E855C210483"]
+			id: "588E7DF4F8F03283"
+			rewards: [{
+				id: "008C406EE0402335"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7194E2DE66FE0FCB"
+				item: "toms_storage:ts.inventory_cable_connector"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["56FE6C65EF970DF6"]
+			id: "4EDB984C00749AC1"
+			rewards: [{
+				id: "6184CBF63D2C69CD"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CE78366C1E76568"
+				item: "toms_storage:ts.inventory_proxy"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["009F78659E60A2F0"]
+			id: "6D4A7DDAAD5FE02E"
+			rewards: [{
+				id: "590B7084755B23E1"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "291A16009C9D19AA"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["67BD0E855C210483"]
+			id: "5A2E4268D4A8FAD6"
+			rewards: [{
+				id: "239263170D4BD628"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CF221D89D64DF64"
+				item: "toms_storage:ts.inventory_hopper_basic"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["009F78659E60A2F0"]
+			id: "4C058290A6851D63"
+			rewards: [{
+				id: "7D41183AB047CC31"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E19CCDA8496D9FF"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4C058290A6851D63"]
+			id: "114CD177C06195FC"
+			rewards: [{
+				id: "0814642EF962ECF0"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BFD1295500377F7"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["588E7DF4F8F03283"]
+			id: "27E04B6883C1BACA"
+			rewards: [{
+				id: "22B1CAB2BEA5C7C4"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CC8A8961DE84711"
+				item: {
+					Count: 1b
+					id: "toms_storage:ts.item_filter"
+					tag: {
+						Filter: [ ]
+						allowlist: 0b
+						matchNBT: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["27E04B6883C1BACA"]
+			id: "7BE8D29E4B0A9065"
+			rewards: [
+				{
+					id: "6BB14F2707ECF12A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "777FE25A3B7A93B6"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 11
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4004BFAC0B985845"
+				item: "toms_storage:ts.polymorphic_item_filter"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["27E04B6883C1BACA"]
+			id: "1504243E308FB786"
+			rewards: [
+				{
+					id: "2B832EF15F953A7B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "12BF54E4729BDC85"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 12
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B3115EB1469DE7D"
+				item: "toms_storage:ts.tag_item_filter"
+				type: "item"
+			}]
+			x: 13.0d
 			y: 10.0d
 		}
 	]

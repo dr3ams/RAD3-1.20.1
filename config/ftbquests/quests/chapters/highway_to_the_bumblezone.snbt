@@ -2,22 +2,22 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "highway_to_the_bumblezone"
-	group: "5AAD108D5AD37CD9"
+	group: "241F1DC7B6D6E9D6"
 	icon: "rats:rat_upgrade_bee"
 	id: "76389659C6680826"
 	images: [{
 		click: ""
 		corner: false
 		dev: false
-		height: 10.0d
+		height: 5.0d
 		hover: [ ]
-		image: "feywild:textures/item/honeycomb.png"
+		image: "rad2:textures/misc/rad_bee.png"
 		rotation: 0.0d
-		width: 10.0d
-		x: 0.0d
+		width: 8.0d
+		x: 4.0d
 		y: 0.0d
 	}]
-	order_index: 1
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -32,11 +32,9 @@
 			icon: {
 				Count: 1b
 				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
+					"dungeons_libraries:built_in_enchantments": { }
 				}
-				id: "feywild:honeycomb"
+				id: "minecraft:honeycomb"
 			}
 			id: "17777CD49B8B6F41"
 			rewards: [{
@@ -73,22 +71,6 @@
 		{
 			dependencies: ["17777CD49B8B6F41"]
 			id: "5E4C69CC15CADF88"
-			rewards: [
-				{
-					id: "3A78F2B47DC05DB4"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "117F06DA4F7A0656"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "2A6B50B3264D3D50"
-					type: "custom"
-				}
-			]
 			tasks: [{
 				id: "59B034778B633DD3"
 				item: {
@@ -108,22 +90,6 @@
 		{
 			dependencies: ["5E4C69CC15CADF88"]
 			id: "3E69CC75B111D4A4"
-			rewards: [
-				{
-					id: "17787B5E1B0E8890"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "46D7792752576FE6"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "2CF068393A5B5CEA"
-					type: "custom"
-				}
-			]
 			tasks: [{
 				id: "52042FF627E24425"
 				item: {
@@ -146,22 +112,6 @@
 		{
 			dependencies: ["17777CD49B8B6F41"]
 			id: "1FB762B916742CA8"
-			rewards: [
-				{
-					id: "350947017A819A5A"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "65D766DD0691C1B7"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "7E8BDA40E50B1FF9"
-					type: "custom"
-				}
-			]
 			tasks: [{
 				id: "1F8C6ABDCBA42758"
 				item: {
@@ -181,22 +131,6 @@
 		{
 			dependencies: ["17777CD49B8B6F41"]
 			id: "33D0C473F05F9631"
-			rewards: [
-				{
-					id: "728C28673FCE608F"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "45E2AF0021A70C59"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "279EA6197C70FF0F"
-					type: "custom"
-				}
-			]
 			tasks: [{
 				id: "47CD1F4F0BD2475B"
 				item: {
@@ -216,22 +150,6 @@
 		{
 			dependencies: ["17777CD49B8B6F41"]
 			id: "3BFBB0CC1C2BE735"
-			rewards: [
-				{
-					id: "44CAECB66D0AB62A"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "5300B5EFCB1DAFDC"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "180B35209241CCC9"
-					type: "custom"
-				}
-			]
 			tasks: [{
 				id: "323F6FE496B9FA0A"
 				item: {
@@ -251,22 +169,6 @@
 		{
 			dependencies: ["17777CD49B8B6F41"]
 			id: "3730EDB687A5A265"
-			rewards: [
-				{
-					id: "621F6CE424992BEE"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "1CA62C94382C0934"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "378DBE25B041FD04"
-					type: "custom"
-				}
-			]
 			tasks: [{
 				id: "31C72068708F3FEB"
 				item: {
@@ -286,22 +188,6 @@
 		{
 			dependencies: ["17777CD49B8B6F41"]
 			id: "5C0AEAAA45EB107A"
-			rewards: [
-				{
-					id: "59FF631405BCFBED"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "41273E0E0168DA52"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "0FFCB54C92256CAF"
-					type: "custom"
-				}
-			]
 			subtitle: "Tame a Behemoth with buckets of honey"
 			tasks: [{
 				advancement: "the_bumblezone:the_bumblezone/beehemoth/tamed_beehemoth"
@@ -315,22 +201,6 @@
 		{
 			dependencies: ["17777CD49B8B6F41"]
 			id: "1AE3D1728F1CC7A6"
-			rewards: [
-				{
-					id: "3A9C1CE71CA71843"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "5DAF3D5F3CC801D8"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "602E17C9DD31E6EB"
-					type: "custom"
-				}
-			]
 			subtitle: "Infused a Slime with honey"
 			tasks: [{
 				advancement: "the_bumblezone:the_bumblezone/honey_slime/honey_slime_creation"

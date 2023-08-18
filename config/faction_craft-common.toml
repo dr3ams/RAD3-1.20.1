@@ -13,6 +13,9 @@
 	#Enables default faction for entities. Turning this off might cause some mobs to no longer attack villagers. 
 	#Default true
 	enableDefaultFaction = true
+	#Enables Gaia faction for entities. Turning this off might cause some weirdness with factions, but can fix unforeseen bugs. 
+	#Default true
+	enableGaiaFaction = true
 
 #Standard Raid Calculations
 [standard_raid_calculations]
@@ -172,13 +175,22 @@
 	#Default false
 	reconstructOnLoss = false
 	#This value plus the variable version together make up the time required before reconstructing. 
-	#Default 100
+	#Default 200
 	#Range: 0 ~ 999999999
 	reconstructTickDelay = 100
 	#A random value between 0 and this value is added to the static delay to determine total delay. 
 	#Default 200
 	#Range: 0 ~ 999999999
 	reconstructVariableTickDelay = 60
+	#Enables Reconstruct Blocks outside raids 
+	#Default True
+	enableReconstructBlocksOutsideRaids = true
+	#Enables Reconstruct Blocks from the Gaia factions 
+	#Default False
+	enableReconstructBlocksFromGaia = false
+	#Enables Reconstruct Blocks from players 
+	#Default False
+	enableReconstructBlocksFromPlayers = false
 
 #AI Config
 [ai_config]

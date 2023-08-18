@@ -12,7 +12,7 @@
 [general]
 	#The duration of the Ghostly Shape effect in seconds [0..MAX|default:120]
 	#Range: > 0
-	ghostly_shape_duration = 120
+	ghostly_shape_duration = 60
 	#The chance that a player receives an already enchanted Grave's Key on death [-1..100|default:0|disabled:-1]
 	#Range: -1 ~ 100
 	chance_enchanted_grave_key = 0
@@ -37,7 +37,7 @@
 	#Enables the enchantment Frostbite [false/true|default:true]
 	enable_enchantment_frostbite = true
 	#Allows Soulbound at enchanting table [false/true|default:false]
-	soulbound_enchanting_table = true
+	soulbound_enchanting_table = false
 	#Allows Spectral Bite at enchanting table [false/true|default:false]
 	spectral_bite_enchanting_table = false
 	#Allows Magic Siphon at enchanting table [false/true|default:false]
@@ -128,7 +128,7 @@
 	#Enchanted Bundle [false/true|default:true]
 	allow_enchanted_bundle = true
 	#Book of Recycling [false/true|default:true]
-	allow_book_of_recycling = true
+	allow_book_of_recycling = false
 	#Book of Repairing [false/true|default:true]
 	allow_book_of_repairing = true
 	#Book of Magic Impregnation [false/true|default:true]
@@ -144,7 +144,7 @@
 	#Magic Scroll [false/true|default:true]
 	allow_magic_scroll = true
 	#Familiar Stone [false/true|default:true]
-	allow_familiar_stone = true
+	allow_familiar_stone = false
 	#Merchant Stone [false/true|default:true]
 	allow_merchant_stone = true
 

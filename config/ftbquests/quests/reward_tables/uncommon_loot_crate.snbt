@@ -7,6 +7,7 @@
 			monster: 0
 			passive: 0
 		}
+		item_name: "Uncommon loot crate"
 		string_id: "uncommon_loot_crate"
 	}
 	loot_size: 1
@@ -16,9 +17,7 @@
 			item: {
 				Count: 1b
 				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
+					"dungeons_libraries:built_in_enchantments": { }
 				}
 				id: "ftbquests:lootcrate"
 				tag: {
@@ -96,9 +95,7 @@
 			item: {
 				Count: 1b
 				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
+					"dungeons_libraries:built_in_enchantments": { }
 				}
 				id: "ftbquests:lootcrate"
 				tag: {
