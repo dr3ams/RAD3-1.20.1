@@ -16,6 +16,8 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -29,6 +31,8 @@
 				treasure = false
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 10
@@ -45,7 +49,7 @@
 				#Range: > 1
 				trancendence = 200
 				#Enchantments that are not compatible with this Enchantment
-				incompats = ["uniquee:swift_blade", "uniquee:spartan_weapon"]
+				incompats = ["uniquee:vitae", "uniquee:ares_blessing"]
 				#Allows to add custom incompatible Items
 				incompatible_items = []
 				#Allows to add custom compatible Items
@@ -62,6 +66,8 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -75,6 +81,8 @@
 				treasure = true
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 25
@@ -108,6 +116,8 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -121,6 +131,8 @@
 				treasure = true
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 6
@@ -158,6 +170,8 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -171,6 +185,8 @@
 				treasure = true
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 6
@@ -193,17 +209,72 @@
 				#Allows to add custom compatible Items
 				compatible_items = []
 
+		[general.base.brittling_blade]
+			#Range: 0.0 ~ 1.7976931348623157E308
+			damage_scaling = 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			durability_exponent = 8.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			transcended_exponent_scaling = 0.5
+
+			[general.base.brittling_blade."General Settings"]
+				#If the Enchantment is Obtainable
+				enabled = true
+				#If the Enchantment has any effect
+				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
+				#Minimum Enchantment Level
+				#Range: > 0
+				min_level = 1
+				#Maximum Enchantment Level
+				#Range: > 0
+				max_level = 5
+				#Rarity of the Enchantment
+				#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+				rarity = "RARE"
+				#If the Enchantment is a Treasure
+				treasure = false
+				#If the Enchantment is Tradeable by Villagers
+				tradeable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
+				#Minimum Level for Enchanting
+				#Range: > 0
+				base_cost = 10
+				#Increase of levels per Enchantment Level
+				#Range: > 0
+				per_level_cost = 10
+				#The Additional Upper Range of Required Levels
+				#Range: > 0
+				cost_limit = 50
+				#Hard Limit of where the Enchantment will be capped even if the level is higher
+				#Range: > 0
+				hard_cap = 100
+				#Defines the Required XP level to trigger the Trancendence Effect
+				#Range: > 1
+				trancendence = 500
+				#Enchantments that are not compatible with this Enchantment
+				incompats = []
+				#Allows to add custom incompatible Items
+				incompatible_items = []
+				#Allows to add custom compatible Items
+				compatible_items = []
+
 		[general.base.vitae]
 			#Range: 0.0 ~ 1.7976931348623157E308
-			base_boost = 29.482631
+			base_boost = 29.4826318204
 			#Range: 0.0 ~ 1.7976931348623157E308
 			scale_boost = 1.0
+			alt_formula = false
 
 			[general.base.vitae."General Settings"]
 				#If the Enchantment is Obtainable
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -217,6 +288,8 @@
 				treasure = false
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 5
@@ -247,6 +320,8 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -260,6 +335,8 @@
 				treasure = false
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 14
@@ -290,6 +367,8 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -303,6 +382,8 @@
 				treasure = false
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 15
@@ -335,6 +416,8 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -348,6 +431,8 @@
 				treasure = false
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 10
@@ -374,13 +459,15 @@
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_speed_comparison = 1.05
 			#Range: 0.0 ~ 1.7976931348623157E308
-			transcended_attack_speed_mulitiplier = 0.5
+			transcended_attack_speed_mulitiplier = 0.715
 
 			[general.base.focused_impact."General Settings"]
 				#If the Enchantment is Obtainable
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -394,6 +481,8 @@
 				treasure = false
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 2
@@ -427,6 +516,8 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -440,6 +531,8 @@
 				treasure = true
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 2
@@ -471,12 +564,16 @@
 			reduction_base = 1.0
 			#Range: 0.0 ~ 1.7976931348623157E308
 			reduction_level = 2.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			mining_fatique = 0.25
 
 			[general.base.range."General Settings"]
 				#If the Enchantment is Obtainable
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -490,6 +587,8 @@
 				treasure = false
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 10
@@ -520,6 +619,8 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -533,6 +634,8 @@
 				treasure = true
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 22
@@ -545,6 +648,9 @@
 				#Hard Limit of where the Enchantment will be capped even if the level is higher
 				#Range: > 0
 				hard_cap = 100
+				#Defines the Required XP level to trigger the Trancendence Effect
+				#Range: > 1
+				trancendence = 200
 				#Enchantments that are not compatible with this Enchantment
 				incompats = []
 				#Allows to add custom incompatible Items
@@ -554,15 +660,15 @@
 
 		[general.base.swift_blade]
 			#Range: 0.0 ~ 1.7976931348623157E308
-			base_speed = 1.2
-			#Range: 0.0 ~ 1.7976931348623157E308
-			transcended_attack_speed_multiplier = 2.0
+			transcended_attack_speed_cap = 20.0
 
 			[general.base.swift_blade."General Settings"]
 				#If the Enchantment is Obtainable
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -576,6 +682,8 @@
 				treasure = false
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 30
@@ -600,13 +708,15 @@
 
 		[general.base.spartan_weapon]
 			#Range: 0.0 ~ 1.7976931348623157E308
-			scalar = 0.075
+			scalar = 1.0
 
 			[general.base.spartan_weapon."General Settings"]
 				#If the Enchantment is Obtainable
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -615,17 +725,19 @@
 				max_level = 5
 				#Rarity of the Enchantment
 				#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
-				rarity = "UNCOMMON"
+				rarity = "VERY_RARE"
 				#If the Enchantment is a Treasure
 				treasure = true
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 25
 				#Increase of levels per Enchantment Level
 				#Range: > 0
-				per_level_cost = 3
+				per_level_cost = 5
 				#The Additional Upper Range of Required Levels
 				#Range: > 0
 				cost_limit = 50
@@ -646,16 +758,18 @@
 			bonus_per_level = 1.0
 			#Range: > 0
 			transcended_mercy_hits = 1
-			#changes damage formual to exponential instead of logarithmic
+			#Range: > 0
+			hit_cap = 2147483647
+			#changes damage formula to exponential instead of logarithmic
 			exponential_scaling = false
-			#Range: 0.0 ~ 1.7976931348623157E308
-			bonus_per_hit = 0.1
 
 			[general.base.perpetual_strike."General Settings"]
 				#If the Enchantment is Obtainable
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -669,6 +783,8 @@
 				treasure = false
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 16
@@ -683,7 +799,7 @@
 				hard_cap = 100
 				#Defines the Required XP level to trigger the Trancendence Effect
 				#Range: > 1
-				trancendence = 200
+				trancendence = 600
 				#Enchantments that are not compatible with this Enchantment
 				incompats = ["uniquee:spartan_weapon"]
 				#Allows to add custom incompatible Items
@@ -704,37 +820,46 @@
 			attack_bonus_level = 0.03
 			#Range: > 0
 			burn_time = 1
+			#Range: 0.0 ~ 1.7976931348623157E308
+			transcended_burn_damage = 0.5
 
 			[general.base.climate_tranquility."General Settings"]
 				#If the Enchantment is Obtainable
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
 				#Maximum Enchantment Level
 				#Range: > 0
-				max_level = 3
+				max_level = 5
 				#Rarity of the Enchantment
 				#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
 				rarity = "RARE"
 				#If the Enchantment is a Treasure
-				treasure = true
+				treasure = false
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
-				base_cost = 20
+				base_cost = 10
 				#Increase of levels per Enchantment Level
 				#Range: > 0
-				per_level_cost = 7
+				per_level_cost = 5
 				#The Additional Upper Range of Required Levels
 				#Range: > 0
 				cost_limit = 30
 				#Hard Limit of where the Enchantment will be capped even if the level is higher
 				#Range: > 0
 				hard_cap = 100
+				#Defines the Required XP level to trigger the Trancendence Effect
+				#Range: > 1
+				trancendence = 500
 				#Enchantments that are not compatible with this Enchantment
 				incompats = []
 				#Allows to add custom incompatible Items
@@ -759,6 +884,8 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -772,6 +899,8 @@
 				treasure = true
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 10
@@ -805,6 +934,8 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -818,6 +949,8 @@
 				treasure = true
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 20
@@ -848,6 +981,8 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -861,6 +996,8 @@
 				treasure = false
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 28
@@ -889,6 +1026,8 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -902,6 +1041,8 @@
 				treasure = true
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 22
@@ -930,6 +1071,8 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -943,6 +1086,8 @@
 				treasure = true
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 28
@@ -971,6 +1116,8 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -984,6 +1131,8 @@
 				treasure = true
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 28
@@ -996,6 +1145,9 @@
 				#Hard Limit of where the Enchantment will be capped even if the level is higher
 				#Range: > 0
 				hard_cap = 100
+				#Defines the Required XP level to trigger the Trancendence Effect
+				#Range: > 1
+				trancendence = 500
 				#Enchantments that are not compatible with this Enchantment
 				incompats = []
 				#Allows to add custom incompatible Items
@@ -1007,13 +1159,15 @@
 			#Range: 0.0 ~ 1.7976931348623157E308
 			transcended_duration_multiplier = 0.25
 			#Which Potion Effects should be applied. Format: Potion;StartEnchantmentLvL;StartPotionLvL;PotionLvLPerEnchantLvL;BaseDuration;Fighting;Mining
-			effects = ["minecraft:regeneration;1;0;0.25;10;true;false", "minecraft:speed;1;0;1.0;60;true;true", "minecraft:haste;2;0;1.0;40;true;true", "minecraft:speed;2;1;0.5;70;true;true", "minecraft:resistance;3;0;1.0;20;true;false", "minecraft:haste;3;1;0.5;60;true;true", "minecraft:strength;4;0;1.0;20;true;false", "minecraft:resistance;4;1;0.25;25;true;false", "minecraft:fire_resistance;4;0;1.0;30;false;true", "minecraft:strength;5;1;0.2;30;true;false"]
+			effects = ["minecraft:regeneration;1;0;0.25;10;true;false", "minecraft:speed;1;0;1.0;60;true;true", "minecraft:haste;2;0;1.0;40;true;true", "minecraft:speed;2;1;0.5;70;true;true", "minecraft:resistance;3;0;1.0;20;true;false", "minecraft:haste;3;1;0.5;60;true;true", "uniquee:ameliorated_strength;4;0;1.0;20;true;false", "minecraft:resistance;4;1;0.25;25;true;false", "minecraft:fire_resistance;4;0;1.0;30;false;true", "uniquee:ameliorated_strength;5;1;0.2;30;true;false"]
 
 			[general.base.alchemists_grace."General Settings"]
 				#If the Enchantment is Obtainable
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -1027,6 +1181,8 @@
 				treasure = true
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 18
@@ -1062,6 +1218,8 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -1075,6 +1233,8 @@
 				treasure = true
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 12
@@ -1112,6 +1272,8 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -1125,6 +1287,8 @@
 				treasure = true
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 14
@@ -1160,6 +1324,8 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -1173,6 +1339,8 @@
 				treasure = true
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 10
@@ -1194,15 +1362,17 @@
 
 		[general.base.ecological]
 			#Range: > 0
-			baseDuration = 330
+			baseDuration = 600
 			#Range: 0.0 ~ 1.7976931348623157E308
-			scalingReduction = 16.0
+			amountScaling = 1.0
 
 			[general.base.ecological."General Settings"]
 				#If the Enchantment is Obtainable
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -1216,6 +1386,8 @@
 				treasure = false
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 20
@@ -1248,6 +1420,8 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -1261,6 +1435,8 @@
 				treasure = true
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 26
@@ -1285,12 +1461,15 @@
 			gold_cost_base = 1.0
 			#Range: 0.0 ~ 1.7976931348623157E308
 			gold_cost_level = 1.0
+			blacklist = []
 
 			[general.base.midas_blessing."General Settings"]
 				#If the Enchantment is Obtainable
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -1304,6 +1483,8 @@
 				treasure = true
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 14
@@ -1333,6 +1514,8 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -1346,6 +1529,8 @@
 				treasure = true
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 14
@@ -1374,6 +1559,8 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -1387,6 +1574,8 @@
 				treasure = true
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 16
@@ -1413,12 +1602,14 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
 				#Maximum Enchantment Level
 				#Range: > 0
-				max_level = 1
+				max_level = 10
 				#Rarity of the Enchantment
 				#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
 				rarity = "VERY_RARE"
@@ -1426,15 +1617,17 @@
 				treasure = true
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
-				base_cost = 24
+				base_cost = 20
 				#Increase of levels per Enchantment Level
 				#Range: > 0
 				per_level_cost = 3
 				#The Additional Upper Range of Required Levels
 				#Range: > 0
-				cost_limit = 10
+				cost_limit = 50
 				#Hard Limit of where the Enchantment will be capped even if the level is higher
 				#Range: > 0
 				hard_cap = 100
@@ -1449,7 +1642,7 @@
 			#Range: 0.0 ~ 1.7976931348623157E308
 			bonus_damage_level = 0.5
 			#Range: 0.0 ~ 1.7976931348623157E308
-			reap_multiplier = 0.01
+			reap_multiplier = 1.0
 			#Range: 0.0 ~ 1.7976931348623157E308
 			transcended_chance = 0.25
 			validMobs = ["minecraft:ender_dragon;8", "minecraft:wither;3", "minecraft:shulker;1", "minecraft:elder_guardian;5", "minecraft:ravager;2", "minecraft:evoker;1"]
@@ -1459,6 +1652,8 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -1472,6 +1667,8 @@
 				treasure = true
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 30
@@ -1496,18 +1693,17 @@
 
 		[general.base.grimoire]
 			#Range: 0.0 ~ 1.7976931348623157E308
-			level_scaling = 0.9
+			flat_scaling = 1.0
 			#Range: 0.0 ~ 1.7976931348623157E308
-			step_skip = 5.0
-			ignored_enchantments = ["minecraft:fortune", "minecraft:efficiency", "minecraft:looting", "uniquee:midas_blessing", "uniquee:endest_reap", "minecraft:mending", "minecraft:silk_touch"]
-			#Range: > 0
-			start_level = 50
+			level_scaling = 1.0
 
 			[general.base.grimoire."General Settings"]
 				#If the Enchantment is Obtainable
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -1521,6 +1717,8 @@
 				treasure = true
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 70
@@ -1534,7 +1732,7 @@
 				#Range: > 0
 				hard_cap = 100
 				#Enchantments that are not compatible with this Enchantment
-				incompats = ["minecraft:mending", "uniquee:ender_mending"]
+				incompats = []
 				#Allows to add custom incompatible Items
 				incompatible_items = []
 				#Allows to add custom compatible Items
@@ -1546,13 +1744,15 @@
 			#Range: > 0
 			delay = 300
 			#Range: 0.0 ~ 1.7976931348623157E308
-			damage_per_tick = 0.25
+			damage_per_tick = 1.0
 
 			[general.base.pestilences_odium."General Settings"]
 				#If the Enchantment is Obtainable
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -1566,6 +1766,8 @@
 				treasure = false
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 10
@@ -1598,6 +1800,8 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -1611,6 +1815,8 @@
 				treasure = false
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 10
@@ -1643,12 +1849,14 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
 				#Maximum Enchantment Level
 				#Range: > 0
-				max_level = 2
+				max_level = 4
 				#Rarity of the Enchantment
 				#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
 				rarity = "VERY_RARE"
@@ -1656,6 +1864,8 @@
 				treasure = false
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 20

@@ -8,7 +8,7 @@
 	#Hostile day mobs will no longer attack players on sight [default: false]
 	passiveHostileMobs = false
 	#Stop befriended mobs from despawning [Default: false]
-	friendlyPersistence = false
+	friendlyPersistence = true
 
 #Attribute settings
 [Attributes]
@@ -59,12 +59,12 @@
 #Spawn settings
 [Spawn]
 	#Mobs only spawn after a certain amount of days have passed [Default: false]
-	spawnDaysPassed = false
+	spawnDaysPassed = true
 	#Amount of days required to have passed before they can start spawning [Default: 3]
 	#Range: > 1
-	spawnDaysSet = 3
+	spawnDaysSet = 7
 	#Level 3 mobs only spawn when it is raining/snowing [Default: false]
-	spawnLevel3Rain = false
+	spawnLevel3Rain = true
 	#Remove spawn conditions related to height (Y-axis) [Default: false]
 	disableYRestriction = false
 	#Remove spawn conditions related to weather [Default: false]

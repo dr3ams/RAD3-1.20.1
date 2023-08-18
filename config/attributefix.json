@@ -44,6 +44,17 @@
         "value": 1
       }
     },
+    "malum:soul_ward_capacity": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "footwork:max_fracture": {
       "enabled": false,
       "min": {
@@ -110,6 +121,17 @@
         "value": 1024
       }
     },
+    "lodestone:magic_proficiency": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "footwork:evasion": {
       "enabled": false,
       "min": {
@@ -165,15 +187,26 @@
         "value": 10000
       }
     },
-    "forge:reach_distance": {
+    "l2artifacts:bow_strength": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1024,
-        "value": 1024
+        "default": 1000,
+        "value": 1000
+      }
+    },
+    "forge:reach_distance": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 16
       }
     },
     "combatroll:distance": {
@@ -231,6 +264,17 @@
         "value": 200
       }
     },
+    "feathers:feathers.feather_regen": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "footwork:skill_effectiveness": {
       "enabled": false,
       "min": {
@@ -275,6 +319,17 @@
         "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
       }
     },
+    "l2artifacts:crit_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
     "minecraft:zombie.spawn_reinforcements": {
       "enabled": true,
       "min": {
@@ -308,6 +363,17 @@
         "value": 1000000
       }
     },
+    "lodestone:magic_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "forge:swim_speed": {
       "enabled": false,
       "min": {
@@ -338,7 +404,7 @@
       },
       "max": {
         "default": 20,
-        "value": 1000000
+        "value": 120
       }
     },
     "additionalentityattributes:dig_speed": {
@@ -363,6 +429,17 @@
         "value": 1
       }
     },
+    "malum:scythe_proficiency": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "additionalentityattributes:water_visibility": {
       "enabled": false,
       "min": {
@@ -383,6 +460,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "l2artifacts:crit_rate": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "forge:nametag_distance": {
@@ -418,6 +506,28 @@
         "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
       }
     },
+    "malum:spirit_spoils": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "malum:soul_ward_strength": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "ars_nouveau:ars_nouveau.perk.percent_max_mana": {
       "enabled": false,
       "min": {
@@ -436,8 +546,8 @@
         "value": 0
       },
       "max": {
-        "default": 1024,
-        "value": 1024
+        "default": 4,
+        "value": 20
       }
     },
     "ars_nouveau:ars_nouveau.perk.mana_regen": {
@@ -459,7 +569,7 @@
       },
       "max": {
         "default": 2048,
-        "value": 1000000
+        "value": 512
       }
     },
     "ars_nouveau:ars_nouveau.perk.feather": {
@@ -473,6 +583,17 @@
         "value": 1
       }
     },
+    "feathers:feathers.max_feathers": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "minecraft:generic.armor": {
       "enabled": true,
       "min": {
@@ -481,7 +602,7 @@
       },
       "max": {
         "default": 30,
-        "value": 1000000
+        "value": 300
       }
     },
     "doggytalents:generic.jump_power": {
@@ -561,6 +682,17 @@
         "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
       }
     },
+    "malum:arcane_resonance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "minecraft:generic.flying_speed": {
       "enabled": true,
       "min": {
@@ -581,6 +713,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "malum:soul_ward_recovery_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
       }
     },
     "footwork:posture_regen": {
@@ -624,7 +767,7 @@
       },
       "max": {
         "default": 1024,
-        "value": 1024
+        "value": 4
       }
     },
     "caelus:fall_flying": {
@@ -646,7 +789,7 @@
       },
       "max": {
         "default": 1024,
-        "value": 1000000
+        "value": 65536
       }
     },
     "combatroll:count": {
@@ -757,6 +900,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "lodestone:magic_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
       }
     },
     "footwork:stealth": {

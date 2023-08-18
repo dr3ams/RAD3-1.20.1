@@ -6,7 +6,7 @@
 	#Whether to handle player death [false/true|default:true]
 	handle_player_death = true
 	#Whether to restore beneficial effects after a player dies [false/true|default:true]
-	restore_effects_on_death = false
+	restore_effects_on_death = true
 	#Only abandoned graves can have losses of items (based on the decay_time) [false/true|default:true]
 	loss_on_death_only_for_abandoned_grave = true
 	#Only stackable items can be lost on death [false/true|default:true]
@@ -73,7 +73,7 @@
 #Miscellaneous options
 [general]
 	#Allows teleportation to other dimensions [false/true|default:true]
-	teleport_dim = false
+	teleport_dim = true
 	#Increases the minimum time without sleeping for phantom spawn around player based on their level in Knowledge of Death [false/true|default:true]
 	knowledge_reduce_phantom_spawn = true
 	#Allows players to be hurt by special damages related to some items [false/true|default:true]
@@ -86,10 +86,10 @@
 	cooldown_request_teleport = 1
 	#Cooldown in minutes to use the command tbteleportdeath [-1..1440|default:-1]
 	#Range: -1 ~ 1440
-	cooldown_teleport_death = 1
+	cooldown_teleport_death = 5
 	#Cooldown in minutes to use the command tbbind [-1..1440|default:-1]
 	#Range: -1 ~ 1440
-	cooldown_teleport_bind = 1
+	cooldown_teleport_bind = 2
 	#Beneficial effects that can't used by certain features such as ankh of pray, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment
 	unhandled_beneficial_effects = ["astralsorcery:potiontimefreeze"]
 	#Harmful effects that can't used by certain features such as tablet of cupidity and the enchantment plague bringer

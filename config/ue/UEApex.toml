@@ -9,13 +9,17 @@
 
 		[general.apex.absolute_protection]
 			#Range: 0.0 ~ 1.7976931348623157E308
-			scale = 1.0
+			scale = 0.004
+			#Range: 0.0 ~ 1.7976931348623157E308
+			protection_multiplier = 0.01
 
 			[general.apex.absolute_protection."General Settings"]
 				#If the Enchantment is Obtainable
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -29,6 +33,8 @@
 				treasure = false
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 0
@@ -59,6 +65,8 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -72,6 +80,8 @@
 				treasure = false
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 0
@@ -100,6 +110,8 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -113,6 +125,8 @@
 				treasure = false
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 0
@@ -133,12 +147,15 @@
 				compatible_items = []
 
 		[general.apex.pickaxe404]
+			blacklist = []
 
 			[general.apex.pickaxe404."General Settings"]
 				#If the Enchantment is Obtainable
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -152,6 +169,8 @@
 				treasure = false
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 0
@@ -182,6 +201,8 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -195,6 +216,8 @@
 				treasure = false
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 0
@@ -225,6 +248,8 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -238,6 +263,8 @@
 				treasure = false
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 0
@@ -264,6 +291,8 @@
 				enabled = true
 				#If the Enchantment has any effect
 				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -277,6 +306,151 @@
 				treasure = false
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
+				#Minimum Level for Enchanting
+				#Range: > 0
+				base_cost = 0
+				#Increase of levels per Enchantment Level
+				#Range: > 0
+				per_level_cost = 0
+				#The Additional Upper Range of Required Levels
+				#Range: > 0
+				cost_limit = 0
+				#Hard Limit of where the Enchantment will be capped even if the level is higher
+				#Range: > 0
+				hard_cap = 100
+				#Enchantments that are not compatible with this Enchantment
+				incompats = []
+				#Allows to add custom incompatible Items
+				incompatible_items = []
+				#Allows to add custom compatible Items
+				compatible_items = []
+
+		[general.apex.harbingers_odium]
+			#Range: 0.0 ~ 1.7976931348623157E308
+			value_modifier = 0.01
+			#Range: 0.0 ~ 1.7976931348623157E308
+			value_cap_scaling = 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			effect_level_scaling = 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			effect_duration_scaling = 1.0
+
+			[general.apex.harbingers_odium."General Settings"]
+				#If the Enchantment is Obtainable
+				enabled = true
+				#If the Enchantment has any effect
+				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
+				#Minimum Enchantment Level
+				#Range: > 0
+				min_level = 1
+				#Maximum Enchantment Level
+				#Range: > 0
+				max_level = 100
+				#Rarity of the Enchantment
+				#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+				rarity = "VERY_RARE"
+				#If the Enchantment is a Treasure
+				treasure = false
+				#If the Enchantment is Tradeable by Villagers
+				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
+				#Minimum Level for Enchanting
+				#Range: > 0
+				base_cost = 0
+				#Increase of levels per Enchantment Level
+				#Range: > 0
+				per_level_cost = 0
+				#The Additional Upper Range of Required Levels
+				#Range: > 0
+				cost_limit = 0
+				#Hard Limit of where the Enchantment will be capped even if the level is higher
+				#Range: > 0
+				hard_cap = 100
+				#Enchantments that are not compatible with this Enchantment
+				incompats = []
+				#Allows to add custom incompatible Items
+				incompatible_items = []
+				#Allows to add custom compatible Items
+				compatible_items = []
+
+	[general.base]
+
+		[general.base.sages_fragment]
+			#Range: 0.0 ~ 1.7976931348623157E308
+			scale = 1.0
+
+			[general.base.sages_fragment."General Settings"]
+				#If the Enchantment is Obtainable
+				enabled = true
+				#If the Enchantment has any effect
+				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
+				#Minimum Enchantment Level
+				#Range: > 0
+				min_level = 1
+				#Maximum Enchantment Level
+				#Range: > 0
+				max_level = 100
+				#Rarity of the Enchantment
+				#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+				rarity = "VERY_RARE"
+				#If the Enchantment is a Treasure
+				treasure = false
+				#If the Enchantment is Tradeable by Villagers
+				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
+				#Minimum Level for Enchanting
+				#Range: > 0
+				base_cost = 0
+				#Increase of levels per Enchantment Level
+				#Range: > 0
+				per_level_cost = 0
+				#The Additional Upper Range of Required Levels
+				#Range: > 0
+				cost_limit = 0
+				#Hard Limit of where the Enchantment will be capped even if the level is higher
+				#Range: > 0
+				hard_cap = 100
+				#Enchantments that are not compatible with this Enchantment
+				incompats = []
+				#Allows to add custom incompatible Items
+				incompatible_items = []
+				#Allows to add custom compatible Items
+				compatible_items = []
+
+		[general.base.aeons_soul]
+			#Range: > 0
+			xp_factor = 300
+
+			[general.base.aeons_soul."General Settings"]
+				#If the Enchantment is Obtainable
+				enabled = true
+				#If the Enchantment has any effect
+				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
+				#Minimum Enchantment Level
+				#Range: > 0
+				min_level = 1
+				#Maximum Enchantment Level
+				#Range: > 0
+				max_level = 100
+				#Rarity of the Enchantment
+				#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+				rarity = "VERY_RARE"
+				#If the Enchantment is a Treasure
+				treasure = false
+				#If the Enchantment is Tradeable by Villagers
+				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 0

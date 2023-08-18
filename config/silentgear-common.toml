@@ -18,29 +18,29 @@
 		#Setting to zero would make the repair kit unusable.
 		[item.repairKits.capacity]
 			#Range: > 0
-			very_crude = 8
+			very_crude = 16
 			#Range: > 0
-			crude = 16
+			crude = 32
 			#Range: > 0
-			sturdy = 32
+			sturdy = 64
 			#Range: > 0
-			crimson = 48
+			crimson = 128
 			#Range: > 0
-			azure = 64
+			azure = 512
 
 		#Efficiency is the percentage of the repair value used. Higher values mean less materials used.
 		#Setting to zero would make the repair kit unusable.
 		[item.repairKits.efficiency]
 			#Range: 0.0 ~ 10.0
-			very_crude = 0.30000001192092896
+			very_crude = 0.3
 			#Range: 0.0 ~ 10.0
-			crude = 0.3499999940395355
+			crude = 0.3
 			#Range: 0.0 ~ 10.0
-			sturdy = 0.4000000059604645
+			sturdy = 0.5
 			#Range: 0.0 ~ 10.0
-			crimson = 0.44999998807907104
+			crimson = 0.75
 			#Range: 0.0 ~ 10.0
-			azure = 0.5
+			azure = 0.95
 			#Repair efficiency with loose materials if no repair kit is used.
 			#Setting a value greater than zero makes repair kits optional.
 			#Range: 0.0 ~ 10.0
@@ -82,13 +82,13 @@
 	#If set to false all conversion recipes (type 'silentgear:conversion') will be disabled
 	#An example of a conversion recipe is placing a vanilla stone pickaxe into a crafting grid to make a Silent Gear stone pickaxe
 	#Note: This also affects conversion recipes added by data packs and other mods
-	allowConversionRecipes = true
+	allowConversionRecipes = false
 	#Displays a message in chat, notifying the player that an item broke and hinting that it can be repaired
 	sendBrokenMessage = true
 	#How frequently gear will recalcute stats as damaged
 	#Higher numbers will cause more recalculations, allowing traits to update stat values more often
 	#Range: > 1
-	damageFactorLevels = 10
+	damageFactorLevels = 50
 	#If true, gear breaks permanently, like vanilla tools and armor
 	breaksPermanently = false
 	#The item tier assigned to gear tool items.
@@ -161,7 +161,7 @@
 	#Larger numbers will make both higher and lower grades more common.
 	#Extremely large values may completely break the curve, yielding mostly the lowest and highest grades.
 	#Range: 0.0 ~ 100.0
-	standardDeviation = 1.5
+	standardDeviation = 1.85
 
 #Settings for the salvager
 [salvager]
@@ -180,10 +180,10 @@
 [starlightCharger]
 	#The rate at which the starlight charger gathers energy during the night
 	#Range: > 0
-	chargeRate = 50
+	chargeRate = 250
 	#The maximum amount of energy the starlight charger can store
 	#Range: > 0
-	maxCharge = 1000000
+	maxCharge = 250000
 
 [debug]
 
