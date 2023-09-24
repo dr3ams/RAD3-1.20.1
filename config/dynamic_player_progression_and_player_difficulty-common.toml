@@ -33,10 +33,10 @@
 ["Dealt Damage (from the player)"]
 	#Increases the dealt damage by the amount of % (0 = disabled).
 	#Range: 0 ~ 1000
-	dealtDamageIncrease = 20
+	dealtDamageIncrease = 40
 	#Reduces the dealt damage by the amount of % (0 = disabled).
 	#Range: 0 ~ 100
-	dealtDamageReduction = 50
+	dealtDamageReduction = 40
 	#Level cap when dealt damage should be reduced or increased.
 	#e.g. 10 = means as long the player is <= lvl 10, their dealt damage will be increasedas soon the player is > lvl 10, their dealt damage will be decreased
 	#Range: 1 ~ 999
@@ -45,7 +45,7 @@
 ["Hurt Damage (to the player)"]
 	#Increases the hurt damage by the amount of % (0 = disabled).
 	#Range: 0 ~ 1000
-	hurtDamageIncrease = 100
+	hurtDamageIncrease = 40
 	#Reduces the hurt damage by the amount of % (0 = disabled).
 	#Range: 0 ~ 100
 	hurtDamageReduction = 40

@@ -346,10 +346,10 @@
 	[server.tankUpgrade]
 		#Capacity in mB the tank upgrade will have per row of storage slots
 		#Range: 500 ~ 20000
-		capacityPerSlotRow = 4000
+		capacityPerSlotRow = 16000
 		#Ratio that gets applied (multiplies) to inventory stack multiplier before this is applied to max energy of the battery and max in/out. Value lower than 1 makes stack multiplier affect the max energy less, higher makes it affect the max energy more. 0 turns off stack multiplier affecting battery upgrade
 		#Range: 0.0 ~ 5.0
-		stackMultiplierRatio = 1.0
+		stackMultiplierRatio = 2.0
 		#Cooldown between fill/drain actions done on fluid containers in tank slots. Only fills/drains one bucket worth to/from container after this cooldown and then waits again.
 		#Range: 1 ~ 100
 		autoFillDrainContainerCooldown = 20
@@ -375,7 +375,7 @@
 	#Xp Pump Upgrade Settings
 	[server.xpPumpUpgrade]
 		#Whether xp pump can mend items with mending. Set false here to turn off the feature altogether.
-		mendingOn = true
+		mendingOn = false
 		#How many experience points at a maximum would be used to mend an item per operation (every 5 ticks and 1 xp point usually translates to 2 damage repaired).
 		#Range: 1 ~ 20
 		maxXpPointsPerMending = 5

@@ -1,0 +1,27 @@
+{
+    "type": "uniqueapex:fusion",
+    "ingredients": [
+        {
+            "input": { "item": "minecraft:heart_of_the_sea" },
+            "amount": 1
+        },
+        {
+            "input": { "item": "minecraft:obsidian" },
+            "amount": 256
+        },
+        {
+            "input": { "item": "minecraft:enchanted_golden_apple" },
+            "amount": 1
+        }
+    ],
+    "enchantments": [
+        { "type": "uniquee:sages_blessing", "level": 1 },
+        { "type": "uniqueutil:sages_soul", "level": 1 },
+        { "type": "uniquebattle:artemis_soul", "level": 1 },
+        {"type":"minecraft:mending","level":1}
+    ],
+    "lock": true,
+    "max": 10,
+    "output": "uniqueapex:sages_fragment",
+    "output_mode":"average"
+}

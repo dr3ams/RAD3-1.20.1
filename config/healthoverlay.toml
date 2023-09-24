@@ -54,7 +54,7 @@
 	[qol.counter]
 		#Visualizes health/absorption to left of the hearts.
 		#Allowed Values: OFF, ALWAYS, ON_CHANGE
-		displayMode = "OFF"
+		displayMode = "ALWAYS"
 		#Text displayed next to health. Minecraft chat color codes are allowed.
 		#Available variables:
 		#    "[HEALTH]": Current health.
@@ -63,7 +63,7 @@
 		#    "[MAX_HEARTS]": Max health in hearts.
 		#    "[ROW]": Current health row.
 		#    "[MAX_ROW]": Max health row.
-		textHealth = "§4[HEALTH]§7/§2[MAX]"
+		textHealth = "§4[ROW]§7/§2[MAX_ROW]"
 		#Text displayed next to absorption. Minecraft chat color codes are allowed.
 		#In case 'absorptionOverHealth' is true, this text is displayed at the same position as or left of 'textHealth'.
 		#Available variables:

@@ -6,7 +6,7 @@
 		"Enchanting Table XP override" = true
 		#Allows modify the conversion rate from Level to XP points. This can result in consuming more then the player actually has
 		#Range: 0.1 ~ 1000.0
-		"Enchanting Table XP multiplier" = 1.0
+		"Enchanting Table XP multiplier" = 0.1
 		#Enables the feature that Anvils take Levels worth of XP instead of XPLevels, this affects only consumtion not checks
 		"Anvil XP override" = true
 		#Allows modify the conversion rate from Level to XP points. This can result in consuming more then the player actually has
@@ -28,22 +28,22 @@
 		#Default value of Complexity, for items that are not in the list
 		#Defines the Default Value for Item limits if they are not defined
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"item complexity default_base" = 7.0
+		"item complexity default_base" = 13.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"item complexity default_level" = 0.5
+		"item complexity default_level" = 0.65
 		#Should enchantability increase the maximum complexity of the item
 		itemConsiderEnchantability = true
 		#Defines the Complexity of the Enchantment, read "Item Complexity Limits" to understand what that is.
 		#Format: EnchantmentRegistryName;base;perLevel
 		#Example: minecraft:protection;1;2.3
 		#Default: 1*level
-		"Enchantment Complexity" = []
+		"Enchantment Complexity" = ["minecraft:fire_protection;0.5;0.3", "minecraft:blast_protection;0.5;0.3", "minecraft:projectile_protection;0.5;0.3", "minecraft:sharpness;0.5;0.3", "minecraft:Mending;2.5;0.5", "minecraft:unbreaking;0.5;1.5", "minecraft:respiration;0.5;0.5", "minecraft:vanishing_curse;-2.0;0.0", "minecraft:binding_curse;-2.0;0.0", "enigmaticlegacy:eternal_binding;-2.0;0.0", "enigmaticlegacy:nemesis;-2.0;0.0", "enigmaticlegacy:sorrow;-2.0;0.0", "uniquebattle:ifrits_judgement;-0.7;-0.3", "uniquebattle:lunatic_despair;-0.7;-0.3", "uniquebattle:wars_odium;-0.7;-0.3", "uniquee:combo_star;-0.7;-0.3", "uniquee:deaths_odium;-0.7;-0.3", "uniquee:pestilences_odium;-0.7;-0.3", "uniqueutil:famines_odium;-0.7;-0.3", "uniqueutil:phanes_regret;-0.7;-0.3", "uniqueutil:rocket_man;-0.7;-0.3"]
 		#Default base value of Enchantments that arent listed under enchantment Complexity
 		#Range: 0.1 ~ 1.7976931348623157E308
 		"Default Base Enchantment Complexity" = 1.0
 		#Default level value of Enchantments that arent listed under enchantment Complexity
 		#Range: 0.1 ~ 1.7976931348623157E308
-		"Default Level Enchantment Complexity" = 1.0
+		"Default Level Enchantment Complexity" = 0.5
 		#Should higher levels increase the cost
 		enchantmentComplexityConsiderLevel = true
 		attribute_activators = []
@@ -51,7 +51,7 @@
 #Useful tool can be found here https://hugabor.github.io/color-picker/ for help with colors. Name uses RGB hex, Tooltip uses RGBA hex
 ["Book Textures"]
 	#Toggle for Item Overlay Coloring of Enchanted Books so if the texture is disabled you can turn this optioanlly of too so we don't ruin your texture
-	"Enable Item Coloring" = false
+	"Enable Item Coloring" = true
 	#Allows to override colors of Enchantment Text, Tooltip Border/Background of each individual Enchantment
 	#Format: EnchantmentRegistryId;TextColor;BackgroundColor;BorderColorTop;BorderColorBottom
 	#Supports RGBA and expects a # or 0x at the beginning of the color string
@@ -63,7 +63,7 @@
 	#If Applicable tools should be displayed below the Enchantment
 	"Enable Applicable Tool-Icons" = true
 	#If Icons should be displayed. Can be toggled ingame with a key
-	"Show Enchantment Icons" = true
+	"Show Enchantment Icons" = false
 	#How many Icons should be visible underneath the Enchantment
 	#Everything: Shows every item that could have said Enchantment applied
 	#Normal: Applies a basic filter to remove duplicates

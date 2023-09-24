@@ -17,4 +17,7 @@
 "unaware stab multiplier" = 1.5
 #whether unaware stabs ignore parry, deflection, shatter, and absorption
 "unaware stab defense ignore" = true
+#on every detection check your stealth is increased by a random number rolled between 0 and the difference of your and your enemy's luck. This multiplier applies to the resultant effective stealth increase (or decrease!). Set to 0 to disable.
+#Range: 0.0 ~ 100.0
+"luck stealth" = 0.5
 

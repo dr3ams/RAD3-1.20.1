@@ -5,7 +5,7 @@
 	enabled = true
 	#Cost
 	#Range: > -2147483648
-	cost = 200
+	cost = 300
 	#Is Starter Glyph?
 	starter = false
 	#The maximum number of times this glyph may appear in a single spell
@@ -16,7 +16,7 @@
 	glyph_tier = 2
 	#Limits the number of times a given augment may be applied to a given effect
 	#Example entry: "glyph_amplify=5"
-	augment_limits = ["glyph_amplify:3", "glyph_amplify_two:2", "glyph_amplify_three:1"]
+	augment_limits = []
 	#Base maximum number of blocks struck when targeting blocks
 	#Range: > 1
 	base_max_blocks = 8
