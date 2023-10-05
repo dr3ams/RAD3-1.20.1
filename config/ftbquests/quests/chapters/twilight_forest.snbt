@@ -506,7 +506,7 @@
 		{
 			dependencies: ["43FF6B04F1048E09"]
 			description: ["The Alpha Yeti is found in the Yeti Lair, in the center of Snowy Forest biomes. There are four natural entrances. Inside the lair are many Yeti packs. Killing the Alpha Yeti and obtaining the Alpha Yeti Fur will unlock the Glacier biome."]
-			icon: "twilightforest:yeti_trophy"
+			icon: "twilightforest:alpha_yeti_trophy"
 			id: "78493192F7A18FD2"
 			rewards: [
 				{
@@ -548,8 +548,8 @@
 			size: 1.5d
 			subtitle: "Line your garments with the soft fur from the Alpha Yeti, keeping you safe from the Glacier's cold."
 			tasks: [{
-				entity: "twilightforest:yeti_alpha"
-				id: "3B74574A7A378B5D"
+				entity: "twilightforest:alpha_yeti"
+				id: "532916D5B1C38EB2"
 				type: "kill"
 				value: 1L
 			}]
@@ -1620,16 +1620,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "689207BFA6216ADB"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "twilightforest:alpha_fur"
-				}
+				id: "00BCA18367F25B24"
+				item: "twilightforest:alpha_yeti_fur"
 				type: "item"
 			}]
 			x: 18.0d
@@ -2022,15 +2014,10 @@
 				}
 			]
 			tasks: [{
-				id: "17F944328BBFD47D"
+				id: "16E3585E20EFC784"
 				item: {
 					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "twilightforest:peacock_fan"
+					id: "twilightforest:peacock_feather_fan"
 					tag: {
 						Damage: 0
 					}
@@ -2151,16 +2138,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "5A24FB0A42778A97"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "twilightforest:magic_map_empty"
-				}
+				id: "4B837C01EEB41803"
+				item: "twilightforest:magic_map"
 				type: "item"
 			}]
 			x: 4.0d
@@ -2457,16 +2436,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "2DBC738F3EA29777"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "twilightforest:maze_map_empty"
-				}
+				id: "450694B10CA28A9D"
+				item: "twilightforest:maze_map"
 				type: "item"
 			}]
 			x: 4.0d

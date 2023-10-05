@@ -5,104 +5,112 @@
 	rewards: [
 		{ count: 4, item: "aquaculture:lockbox" }
 		{
-			count: 8
 			item: {
 				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "minecraft:gunpowder"
-			}
-		}
-		{ count: 4, item: "minecraft:book" }
-		{
-			count: 8
-			item: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "minecraft:slime_ball"
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "byg:therium_crystal"
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "minecraft:snow_block"
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "minecraft:feather"
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "minecraft:cactus"
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "minecraft:water_bucket"
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 				id: "ftbquests:lootcrate"
 				tag: {
-					type: "blossom_saplings"
+					type: "uncommon_loot_crate"
 				}
 			}
-			title: "Blossom Saplings"
 		}
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "vanilla_food_2"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "ores_2"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "passive_spawn_eggs"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "vanilla_materials_2"
+				}
+			}
+		}
+		{ item: "minecraft:iron_ore", random_bonus: 5 }
+		{
+			count: 2
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "common_loot_crate"
+				}
+			}
+			random_bonus: 2
+		}
+		{ count: 8, item: "minecraft:iron_ingot" }
+		{ count: 8, item: "minecraft:gold_ingot" }
+		{ count: 4, item: "minecraft:ender_pearl" }
+		{ count: 16, item: "minecraft:bone" }
+		{ count: 8, item: "minecraft:gold_ore" }
+		{ count: 16, item: "minecraft:cooked_beef" }
+		{ item: "minecraft:golden_apple" }
+		{ item: "minecraft:cake" }
+		{ count: 3, item: "minecraft:phantom_membrane" }
+		{ item: "minecraft:saddle" }
+		{ item: "croptopia:cinnamon_sapling" }
+		{ item: "minecraft:creeper_head" }
+		{ item: "supplementaries:notice_board" }
+		{ count: 16, item: "minecraft:cooked_chicken" }
+		{ count: 16, item: "minecraft:redstone" }
+		{ count: 8, item: "minecraft:lapis_lazuli" }
+		{ count: 8, item: "minecraft:leather" }
+		{ count: 16, item: "minecraft:golden_carrot" }
+		{ count: 64, item: "minecraft:torch" }
+		{ item: "aquaculture:lockbox" }
+		{ count: 8, item: "minecraft:gunpowder" }
+		{ count: 32, item: "minecraft:clay_ball" }
+		{ count: 16, item: "minecraft:ink_sac" }
+		{ count: 8, item: "minecraft:book" }
+		{ count: 8, item: "minecraft:slime_ball" }
+		{ count: 32, item: "minecraft:sand" }
+		{ count: 2, item: "randomite:randomite_ore" }
+		{ item: "kubejs:diamond_nugget" }
+		{ item: "kubejs:emerald_nugget" }
+		{ count: 4, item: "minecraft:bookshelf" }
+		{ count: 8, item: "minecraft:lantern" }
+		{ item: "simplehats:hatbag_uncommon" }
+		{ item: "minecraft:tnt" }
+		{ item: "minecraft:lead" }
+		{ item: "minecraft:cactus" }
+		{ item: "minecraft:feather" }
+		{ item: "minecraft:gunpowder" }
+		{ count: 32, item: "minecraft:rail" }
+		{ item: "minecraft:redstone_lamp" }
+		{ count: 6, item: "supplementaries:bomb" }
+		{ count: 5, item: "supplementaries:candle_holder" }
+		{ item: "supplementaries:jar" }
+		{ item: "supplementaries:pedestal" }
+		{ item: "buildersaddition:arcade_oak" }
+		{ count: 64, item: "buildersaddition:hedge_dark_oak" }
+		{ count: 64, item: "buildersaddition:hedge_spruce" }
+		{ count: 16, item: "farmersdelight:mixed_salad" }
+		{ item: "waystones:bound_scroll" }
+		{ item: "waystones:sharestone" }
+		{ item: "waystones:warp_plate" }
 	]
 	title: "Iron coin reward"
 }

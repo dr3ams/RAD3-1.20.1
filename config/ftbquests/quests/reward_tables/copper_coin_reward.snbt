@@ -12,92 +12,74 @@
 	loot_size: 1
 	order_index: 22
 	rewards: [
+		{ count: 5, item: "aquaculture:box" }
 		{
-			count: 4
 			item: {
 				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "common_loot_crate"
 				}
-				id: "minecraft:coal"
 			}
 		}
-		{ count: 4, item: "minecraft:clay_ball" }
+		{ count: 8, item: "minecraft:coal" }
+		{ count: 16, item: "minecraft:clay_ball" }
+		{ count: 4, item: "minecraft:leather" }
+		{ count: 4, item: "minecraft:paper" }
+		{ count: 4, item: "minecraft:ink_sac" }
+		{ count: 4, item: "minecraft:bone" }
 		{
-			count: 2
 			item: {
 				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "random_dyes"
 				}
-				id: "minecraft:leather"
 			}
 		}
-		{ count: 2, item: "minecraft:ink_sac" }
-		{
-			count: 2
-			item: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "minecraft:bone"
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "minecraft:sand"
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "aquaculture:box"
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "minecraft:flint"
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "minecraft:dirt"
-			}
-		}
+		{ count: 16, item: "minecraft:sand" }
+		{ item: "randomite:randomite_ore" }
+		{ item: "minecraft:bamboo" }
+		{ count: 5, item: "minecraft:lily_pad" }
+		{ item: "minecraft:kelp" }
+		{ item: "simplehats:hatbag_common" }
+		{ count: 2, item: "minecraft:bookshelf" }
+		{ count: 4, item: "minecraft:sponge" }
+		{ count: 8, item: "minecraft:feather" }
+		{ count: 8, item: "farmersdelight:fruit_salad" }
+		{ item: "minecraft:dark_oak_sapling" }
+		{ item: "minecraft:acacia_sapling" }
+		{ item: "minecraft:jungle_sapling" }
+		{ item: "minecraft:painting" }
+		{ item: "minecraft:lead" }
+		{ item: "supplementaries:item_shelf" }
+		{ count: 32, item: "minecraft:scaffolding" }
+		{ item: "minecraft:flower_pot" }
+		{ item: "buildersaddition:bookshelf_birch" }
+		{ item: "minecraft:item_frame" }
+		{ item: "buildersaddition:shelf_birch" }
+		{ item: "buildersaddition:bookshelf_dark_oak" }
+		{ item: "buildersaddition:shelf_dark_oak" }
+		{ item: "buildersaddition:bookshelf_oak" }
+		{ item: "buildersaddition:shelf_jungle" }
+		{ item: "buildersaddition:shelf_spruce" }
+		{ item: "buildersaddition:bookshelf_spruce" }
+		{ item: "buildersaddition:shelf_oak" }
+		{ item: "buildersaddition:shelf_acacia" }
+		{ item: "buildersaddition:bookshelf_acacia" }
+		{ item: "buildersaddition:bookshelf_jungle" }
+		{ item: "minecraft:moss_block" }
+		{ count: 5, item: "minecraft:cactus" }
+		{ item: "minecraft:flowering_azalea" }
+		{ item: "minecraft:sea_pickle" }
+		{ item: "minecraft:mangrove_propagule" }
+		{ count: 5, item: "quark:moss_paste" }
+		{ item: "supplementaries:bomb" }
+		{ item: "minecraft:lantern" }
+		{ item: "minecraft:amethyst_cluster" }
+		{ item: "minecraft:glow_lichen" }
+		{ item: "minecraft:vine" }
+		{ item: "waystones:warp_scroll" }
 	]
 	title: "Copper coin reward"
 }

@@ -21,1388 +21,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			icon: "byg:allium_flower_bush"
-			id: "0772B36D2DBE03C6"
-			rewards: [
-				{
-					id: "7E515436209FD9A9"
-					type: "custom"
-				}
-				{
-					id: "1657D37312D573C2"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:allium_fields"
-				id: "2C002F8173104C7B"
-				type: "biome"
-			}]
-			x: 0.5d
-			y: -4.5d
-		}
-		{
-			description: [
-				"This modpack contains over 60 new unique biomes to find and explore each with unique atmosphere."
-				""
-			]
-			icon: "supplementaries:globe"
-			id: "26393DF1645B5F2A"
-			rewards: [{
-				id: "3BCD356A504755E6"
-				type: "xp"
-				xp: 1
-			}]
-			shape: "hexagon"
-			size: 2.0d
-			tasks: [{
-				id: "2F5C2B2819A0C381"
-				type: "checkmark"
-			}]
-			title: "Oh the biomes...."
-			x: 5.5d
-			y: 2.0d
-		}
-		{
-			icon: "byg:white_anemone"
-			id: "20FA0040137DCEBB"
-			rewards: [
-				{
-					id: "31D48E4699D55F0B"
-					type: "custom"
-				}
-				{
-					id: "3416BAFD3A807EFF"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:meadow"
-				id: "4F649369606969B8"
-				type: "biome"
-			}]
-			x: -0.5d
-			y: -4.0d
-		}
-		{
-			icon: "byg:holly_sapling"
-			id: "3EF1DDFBE14706A5"
-			rewards: [
-				{
-					id: "794006F61BB728D5"
-					type: "custom"
-				}
-				{
-					id: "133AE8499D0FA7AF"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:evergreen_taiga"
-				id: "7BA60CA1426ADE82"
-				type: "biome"
-			}]
-			x: 5.0d
-			y: 6.5d
-		}
-		{
-			icon: "minecraft:sand"
-			id: "3600766046ABF8BA"
-			rewards: [
-				{
-					id: "314A6139B9E9319D"
-					type: "custom"
-				}
-				{
-					id: "63990F8C6A7BECF8"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:dunes"
-				id: "794A0043D0A7CCD9"
-				type: "biome"
-			}]
-			x: 8.5d
-			y: -5.0d
-		}
-		{
-			icon: "betterdefaultbiomes:feather_reed_grass"
-			id: "089C7EF4351C89DB"
-			rewards: [
-				{
-					id: "146C81C357A92F21"
-					type: "custom"
-				}
-				{
-					id: "1143814DA505232B"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:grassland_plateau"
-				id: "79EA55DA171A9325"
-				type: "biome"
-			}]
-			x: 1.0d
-			y: -1.5d
-		}
-		{
-			icon: "byg:overgrown_stone"
-			id: "0104A3F31D16A5C4"
-			rewards: [
-				{
-					id: "74E4073F0FF95251"
-					type: "custom"
-				}
-				{
-					id: "133C4A5102F4D8EB"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:bluff_steeps"
-				id: "7FCFF8CA30210889"
-				type: "biome"
-			}]
-			x: 3.5d
-			y: 7.5d
-		}
-		{
-			icon: "betterendforge:dense_snow"
-			id: "710D97723589A136"
-			rewards: [
-				{
-					id: "0DBAD98E5A0FFFFF"
-					type: "custom"
-				}
-				{
-					id: "2FAFE632B72BA5DC"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:alps"
-				id: "68D0E6BE02031864"
-				type: "biome"
-			}]
-			x: 5.0d
-			y: 9.5d
-		}
-		{
-			icon: "minecraft:red_sand"
-			id: "7F8662BDEEBD8DA5"
-			rewards: [
-				{
-					id: "103C332AA2827297"
-					type: "custom"
-				}
-				{
-					id: "7179F6073CF4831D"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:red_desert"
-				id: "6306B417A0BDF4AB"
-				type: "biome"
-			}]
-			x: 4.5d
-			y: -6.0d
-		}
-		{
-			icon: "byg:blue_spruce_sapling"
-			id: "0E751CEC1EAB4036"
-			rewards: [
-				{
-					id: "765A8507D23DCF04"
-					type: "custom"
-				}
-				{
-					id: "0B2CC6AE0DE67176"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:snowy_blue_taiga"
-				id: "2491E382C183D86A"
-				type: "biome"
-			}]
-			x: 7.5d
-			y: 7.5d
-		}
-		{
-			icon: "byg:green_mushroom_block"
-			id: "3736229FD7A7523B"
-			rewards: [
-				{
-					id: "7567D1E63522D43E"
-					type: "custom"
-				}
-				{
-					id: "479B9E19E0CD68F2"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:tropical_fungal_forest"
-				id: "652B6DF8D51E9C17"
-				type: "biome"
-			}]
-			x: 2.5d
-			y: -5.0d
-		}
-		{
-			icon: "byg:overgrown_dacite"
-			id: "30AC98E3DC3DF480"
-			rewards: [
-				{
-					id: "4376F86DD511084A"
-					type: "custom"
-				}
-				{
-					id: "79562115D55C3B68"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:dover_mountains"
-				id: "0DB25DD66332452D"
-				type: "biome"
-			}]
-			x: 6.0d
-			y: 6.5d
-		}
-		{
-			icon: "byg:silver_maple_sapling"
-			id: "27B38055DF0CFAC5"
-			rewards: [
-				{
-					id: "474574458B300888"
-					type: "custom"
-				}
-				{
-					id: "2BAF2BF0489F9B22"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:ancient_forest"
-				id: "7AC8C63B90D36722"
-				type: "biome"
-			}]
-			x: -2.0d
-			y: 0.5d
-		}
-		{
-			icon: "byg:guzmania"
-			id: "0FC67D0F05009C6E"
-			rewards: [
-				{
-					id: "21070DCA2EFDF7C4"
-					type: "custom"
-				}
-				{
-					id: "58DB5BD881701AB2"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:guiana_shield"
-				id: "340173D895734262"
-				type: "biome"
-			}]
-			x: 6.5d
-			y: -4.0d
-		}
-		{
-			icon: "byg:witch_hazel_sapling"
-			id: "41CE3FC7D793EC13"
-			rewards: [
-				{
-					id: "15F7DF5406A74E2E"
-					type: "custom"
-				}
-				{
-					id: "4C06CA6800D5BF77"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:weeping_witch_forest"
-				id: "26FACC552AC25092"
-				type: "biome"
-			}]
-			x: -2.0d
-			y: 1.5d
-		}
-		{
-			icon: "projectvibrantjourneys:desert_agave"
-			id: "2AC16F650B6548EF"
-			rewards: [
-				{
-					id: "38E02B141CCBE998"
-					type: "custom"
-				}
-				{
-					id: "60D716FDEF983758"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:mojave_desert"
-				id: "70DD78F2953079B0"
-				type: "biome"
-			}]
-			x: 3.5d
-			y: -5.5d
-		}
-		{
-			icon: "byg:red_rock"
-			id: "5A92A5B867917149"
-			rewards: [
-				{
-					id: "476E1111DF856B2D"
-					type: "custom"
-				}
-				{
-					id: "5F59152D555DBF21"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:canyons"
-				id: "6A10678E75881D67"
-				type: "biome"
-			}]
-			x: 5.5d
-			y: -6.0d
-		}
-		{
-			icon: "projectvibrantjourneys:orange_maple_sapling"
-			id: "43D21549B8FCAB5F"
-			rewards: [
-				{
-					id: "77A22302EF7E2681"
-					type: "custom"
-				}
-				{
-					id: "02B1C977ED3189D1"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:autumnal_valley"
-				id: "7A03DA4F9DA7A536"
-				type: "biome"
-			}]
-			x: -3.0d
-			y: 4.5d
-		}
-		{
-			icon: "byg:mangrove_sapling"
-			id: "36CB451804556124"
-			rewards: [
-				{
-					id: "73B308853D76A9A5"
-					type: "custom"
-				}
-				{
-					id: "50F27BD998D476F5"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:mangrove_marshes"
-				id: "5E765ED790C2CA38"
-				type: "biome"
-			}]
-			x: 4.5d
-			y: -4.0d
-		}
-		{
-			icon: "byg:brown_oak_sapling"
-			id: "27697E313BDE6D4B"
-			rewards: [
-				{
-					id: "6AFD423D7E5D14C5"
-					type: "custom"
-				}
-				{
-					id: "00F4A979766459D7"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:seasonal_deciduous_forest"
-				id: "0C36ECA0AA1755FC"
-				type: "biome"
-			}]
-			x: -3.5d
-			y: 2.5d
-		}
-		{
-			icon: "byg:purple_amaranth"
-			id: "158CF80DD67BFD6C"
-			rewards: [
-				{
-					id: "2ED389EC71B6A76D"
-					type: "custom"
-				}
-				{
-					id: "7267F173BDA72F70"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:amaranth_fields"
-				id: "02F30EC934EDE8EA"
-				type: "biome"
-			}]
-			x: 0.5d
-			y: -3.0d
-		}
-		{
-			icon: "byg:black_rose"
-			id: "78CD8320370AB29E"
-			rewards: [
-				{
-					id: "1B01CC0848D29ECC"
-					type: "custom"
-				}
-				{
-					id: "5127CCDC3402CE6C"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:the_black_forest"
-				id: "61AAB251950C829D"
-				type: "biome"
-			}]
-			x: -1.5d
-			y: -0.5d
-		}
-		{
-			icon: "projectvibrantjourneys:fir_sapling"
-			id: "5D6BC56074265234"
-			rewards: [
-				{
-					id: "02DF364EA7EFB0F2"
-					type: "custom"
-				}
-				{
-					id: "4D5327442813EABB"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:snowy_deciduous_forest"
-				id: "6B2A928A99C498DF"
-				type: "biome"
-			}]
-			x: 4.5d
-			y: 8.0d
-		}
-		{
-			icon: "minecraft:andesite"
-			id: "59CDE2D8E2A1DA7A"
-			rewards: [
-				{
-					id: "3A65D6024929EE7F"
-					type: "custom"
-				}
-				{
-					id: "6F5F573A7B577728"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:stone_forest"
-				id: "006D6CA12D6EF97B"
-				type: "biome"
-			}]
-			x: 2.5d
-			y: 5.0d
-		}
-		{
-			icon: "byg:rainbow_eucalyptus_sapling"
-			id: "7958C22C789F2136"
-			rewards: [
-				{
-					id: "0FE40F13A4EB82A1"
-					type: "custom"
-				}
-				{
-					id: "54D0853F6F44CDC4"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:crag_gardens"
-				id: "7022541B79627088"
-				type: "biome"
-			}]
-			x: 6.0d
-			y: -2.5d
-		}
-		{
-			icon: "projectvibrantjourneys:prairie_grass"
-			id: "2024F7B64A0949FC"
-			rewards: [
-				{
-					id: "3E1B63826053110D"
-					type: "custom"
-				}
-				{
-					id: "393B810E7BFB8EDF"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:prairie"
-				id: "093943876E75338B"
-				type: "biome"
-			}]
-			x: 2.5d
-			y: -1.0d
-		}
-		{
-			icon: "mushroomquest:snowfungus"
-			id: "7374BEF0A10FCDC1"
-			rewards: [
-				{
-					id: "56DA5D9C16CFBBEE"
-					type: "custom"
-				}
-				{
-					id: "51CB4A913A535D14"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:snowy_coniferous_forest"
-				id: "2732E0A500EF8FCD"
-				type: "biome"
-			}]
-			x: 7.5d
-			y: 9.0d
-		}
-		{
-			icon: "betterdefaultbiomes:swamp_willow_sapling"
-			id: "6A45A61B5F91E7AD"
-			rewards: [
-				{
-					id: "59D428E310C3C6E2"
-					type: "custom"
-				}
-				{
-					id: "5AC1CA354FC04C18"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:vibrant_swamplands"
-				id: "669A477C4C54F553"
-				type: "biome"
-			}]
-			x: 5.0d
-			y: -2.5d
-		}
-		{
-			icon: "byg:araucaria_sapling"
-			id: "4E212FEC6AEC84CC"
-			rewards: [
-				{
-					id: "49ED3301FE86F0B8"
-					type: "custom"
-				}
-				{
-					id: "76DB22C17ECF551F"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:araucaria_savanna"
-				id: "56C1771BBFD9ED27"
-				type: "biome"
-			}]
-			x: 4.0d
-			y: -2.0d
-		}
-		{
-			icon: "byg:baobab_sapling"
-			id: "0B190F73D32E3899"
-			rewards: [
-				{
-					id: "0E1B5580F1D4A90C"
-					type: "custom"
-				}
-				{
-					id: "0422AF922114968C"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:baobab_savanna"
-				id: "7EE811D8A7413835"
-				type: "biome"
-			}]
-			x: 3.5d
-			y: -3.5d
-		}
-		{
-			icon: "byg:zelkova_sapling"
-			id: "316499A2F5E0847A"
-			rewards: [
-				{
-					id: "12FE692F4AB61DD2"
-					type: "custom"
-				}
-				{
-					id: "4A836911EC6A33DD"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:lush_tundra"
-				id: "784F829F364ADD86"
-				type: "biome"
-			}]
-			x: 4.0d
-			y: 6.0d
-		}
-		{
-			icon: "minecraft:rose_bush"
-			id: "697418346B9500DA"
-			rewards: [
-				{
-					id: "582AD6A2D7110FCA"
-					type: "custom"
-				}
-				{
-					id: "3882536BB33A6AE0"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:rose_fields"
-				id: "7595AF0ED5364F6D"
-				type: "biome"
-			}]
-			x: -1.0d
-			y: -3.0d
-		}
-		{
-			icon: "simplefarming:blackberry_bush"
-			id: "00EA088956E4F23F"
-			rewards: [
-				{
-					id: "048A8D1531FA6FD8"
-					type: "custom"
-				}
-				{
-					id: "3F6741D3D326B868"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:woodlands"
-				id: "316AFFF7E45263E5"
-				type: "biome"
-			}]
-			x: -0.5d
-			y: 2.0d
-		}
-		{
-			icon: "byg:ebony_log"
-			id: "2ECFB29DAD5D29F6"
-			rewards: [
-				{
-					id: "73F4EBB05D6531FC"
-					type: "custom"
-				}
-				{
-					id: "08133A9888C59D82"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:ebony_woods"
-				id: "0A539290344B77EF"
-				type: "biome"
-			}]
-			x: -0.5d
-			y: 1.0d
-		}
-		{
-			icon: "byg:mossy_red_rock_bricks"
-			id: "3200C98D113F937E"
-			rewards: [
-				{
-					id: "09779D7F94EDE31A"
-					type: "custom"
-				}
-				{
-					id: "6F482C03E236A8F9"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:red_rock_mountains"
-				id: "6069FDCC51B5A431"
-				type: "biome"
-			}]
-			x: 7.5d
-			y: -5.5d
-		}
-		{
-			icon: "byg:red_oak_sapling"
-			id: "66100FF7816ED631"
-			rewards: [
-				{
-					id: "3B10DF1A40A6DF5A"
-					type: "custom"
-				}
-				{
-					id: "3B77AA06A01E1B65"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:red_oak_forest"
-				id: "6FACE373B391A72F"
-				type: "biome"
-			}]
-			x: 1.5d
-			y: 3.5d
-		}
-		{
-			icon: "byg:skyris_sapling"
-			id: "1389603AEC204653"
-			rewards: [
-				{
-					id: "03A3F4A5D357E1F6"
-					type: "custom"
-				}
-				{
-					id: "1A53FA6EB65835A3"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:skyris_highlands"
-				id: "04FBFD49FDFC1E2E"
-				type: "biome"
-			}]
-			x: -2.0d
-			y: 2.5d
-		}
-		{
-			icon: "minecraft:water_bucket"
-			id: "21B7FFBA2E18150E"
-			rewards: [
-				{
-					id: "634CE0481A289F2A"
-					type: "custom"
-				}
-				{
-					id: "380702E55459DF1A"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:great_lakes"
-				id: "1665C95B6F4FDFAE"
-				type: "biome"
-			}]
-			x: 0.5d
-			y: 7.0d
-		}
-		{
-			icon: "betterdefaultbiomes:palm_sapling"
-			id: "4F5F5EB66ED8F398"
-			rewards: [
-				{
-					id: "412632821C514233"
-					type: "custom"
-				}
-				{
-					id: "5E18C507B7418196"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:tropical_rainforest"
-				id: "57137184C3BB272D"
-				type: "biome"
-			}]
-			x: 5.5d
-			y: -4.0d
-		}
-		{
-			icon: "byg:peat"
-			id: "06D4FF4FA3CEB3C1"
-			rewards: [
-				{
-					id: "797EF59B4712D11B"
-					type: "custom"
-				}
-				{
-					id: "290588BC5FC3D969"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:boreal_forest"
-				id: "6A4F92A518BAC6AB"
-				type: "biome"
-			}]
-			x: -0.5d
-			y: -1.0d
-		}
-		{
-			icon: "minecraft:oak_leaves"
-			id: "55A6FD55EBE6DDF0"
-			rewards: [
-				{
-					id: "0F1B4A7AAB5AA1F6"
-					type: "custom"
-				}
-				{
-					id: "7E8560A2018877C5"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:deciduous_forest"
-				id: "093B95AC4EEAE491"
-				type: "biome"
-			}]
-			x: -0.5d
-			y: 5.0d
-		}
-		{
-			icon: "byg:cika_sapling"
-			id: "0167FB2562164A52"
-			rewards: [
-				{
-					id: "62178A6610072EF2"
-					type: "custom"
-				}
-				{
-					id: "06FD83B4DCECEC53"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:cika_woods"
-				id: "2E5F4DB1BDDF7699"
-				type: "biome"
-			}]
-			x: 0.0d
-			y: 4.0d
-		}
-		{
-			icon: "byg:orchard_sapling"
-			id: "49B4E0611996B37D"
-			rewards: [
-				{
-					id: "08329C3A0B1D1836"
-					type: "custom"
-				}
-				{
-					id: "53D40413DEC735AB"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:orchard"
-				id: "2262AD3EA9F685E8"
-				type: "biome"
-			}]
-			x: 1.0d
-			y: 2.5d
-		}
-		{
-			icon: "projectvibrantjourneys:redwood_sapling"
-			id: "58BD2AD745BE2CD6"
-			rewards: [
-				{
-					id: "73C545E583E12C15"
-					type: "custom"
-				}
-				{
-					id: "7B691AF89B557394"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:redwood_tropics"
-				id: "373574C80A04D6CF"
-				type: "biome"
-			}]
-			x: 7.0d
-			y: -2.0d
-		}
-		{
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "minecraft:blue_orchid"
-			}
-			id: "6A7074CB684BD834"
-			rewards: [
-				{
-					id: "497460BFBE3346BA"
-					type: "custom"
-				}
-				{
-					id: "7A136430A1FF29EC"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:blue_taiga"
-				id: "7DEEB93097F3721C"
-				type: "biome"
-			}]
-			x: 6.0d
-			y: 9.5d
-		}
-		{
-			icon: "mushroomquest:shrump"
-			id: "0B01D4A2A32BB75F"
-			rewards: [
-				{
-					id: "349965A3A2334E9C"
-					type: "custom"
-				}
-				{
-					id: "773BB1F32B1E4611"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:shrublands"
-				id: "042797862A4E1480"
-				type: "biome"
-			}]
-			x: 6.5d
-			y: -6.0d
-		}
-		{
-			icon: "minecraft:coarse_dirt"
-			id: "76D58863E33B501C"
-			rewards: [
-				{
-					id: "391A8F5DF8F1281E"
-					type: "custom"
-				}
-				{
-					id: "3A77933061CB9932"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "byg:coniferous_forest"
-				id: "3E41D6B49D86DF9B"
-				type: "biome"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			icon: "projectvibrantjourneys:aspen_sapling"
-			id: "32241299F3224416"
-			rewards: [
-				{
-					id: "1B7F4AEF16CAF745"
-					type: "custom"
-				}
-				{
-					id: "548C1DB13852747C"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "projectvibrantjourneys:aspen_grove"
-				id: "41871078EAF7DA4E"
-				type: "biome"
-			}]
-			x: -2.0d
-			y: 3.5d
-		}
-		{
-			icon: "projectvibrantjourneys:tamarack_sapling"
-			id: "0272C09077110816"
-			rewards: [
-				{
-					id: "2B4FFF7B73883506"
-					type: "custom"
-				}
-				{
-					id: "48D7C3A191434BEE"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "projectvibrantjourneys:autumnal_coniferous_forest"
-				id: "46651C43F46BD842"
-				type: "biome"
-			}]
-			x: -0.5d
-			y: 3.0d
-		}
-		{
-			icon: "projectvibrantjourneys:baobab_sapling"
-			id: "4CAA6718D055E8CF"
-			rewards: [
-				{
-					id: "0EE5EBD023E26CFD"
-					type: "custom"
-				}
-				{
-					id: "5C74EA1009454CDF"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "projectvibrantjourneys:baobab_fields"
-				id: "587C4D9617C0B7D7"
-				type: "biome"
-			}]
-			x: 7.5d
-			y: -3.5d
-		}
-		{
-			icon: "projectvibrantjourneys:pink_sakura_sapling"
-			id: "1592A8B90B9EBAD8"
-			rewards: [
-				{
-					id: "339EE4A6B2A43BBE"
-					type: "custom"
-				}
-				{
-					id: "621276672C8D4B2C"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "projectvibrantjourneys:blossoming_fields"
-				id: "1ED7724EEFC7DF75"
-				type: "biome"
-			}]
-			x: -1.5d
-			y: 4.5d
-		}
-		{
-			icon: "minecraft:mossy_cobblestone"
-			id: "5C0D4E8390F7B83A"
-			rewards: [
-				{
-					id: "04F93F61536ABEBF"
-					type: "custom"
-				}
-				{
-					id: "1E6FA0A6394DF0F4"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "projectvibrantjourneys:boreal_forest"
-				id: "5D8FD26CB45AB045"
-				type: "biome"
-			}]
-			x: 1.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["26393DF1645B5F2A"]
-			hide_dependency_lines: true
-			icon: "projectvibrantjourneys:fir_leaves"
-			id: "5B8088FCE2348BB5"
-			rewards: [
-				{
-					id: "7BD74AD54F5B0376"
-					type: "custom"
-				}
-				{
-					id: "44246487D9898E02"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "projectvibrantjourneys:boreal_plateau"
-				id: "1DA0DE185ED65ADC"
-				type: "biome"
-			}]
-			x: 1.5d
-			y: 0.5d
-		}
-		{
-			icon: "atum:cyan_stained_crystal_glass_pane"
-			id: "23D60B48FFEC87CF"
-			rewards: [
-				{
-					id: "3C0B9D0CEADF600C"
-					type: "custom"
-				}
-				{
-					id: "0E9E9A1B1CF2EB1A"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "projectvibrantjourneys:crystal_lakes"
-				id: "76F98FA8DFBCCEBB"
-				type: "biome"
-			}]
-			x: -0.5d
-			y: 8.0d
-		}
-		{
-			icon: "minecraft:jungle_sapling"
-			id: "2A5C1D0F092D02B5"
-			rewards: [
-				{
-					id: "5647B54A68358D92"
-					type: "custom"
-				}
-				{
-					id: "407C0F9B671575B3"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "projectvibrantjourneys:overgrown_spires"
-				id: "602CFE69808C722C"
-				type: "biome"
-			}]
-			x: 5.5d
-			y: 8.0d
-		}
-		{
-			icon: "projectvibrantjourneys:pinecones"
-			id: "23F343CC67F4C11C"
-			rewards: [
-				{
-					id: "07F1543F074A064D"
-					type: "custom"
-				}
-				{
-					id: "59911D78FC89EC8B"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "projectvibrantjourneys:pine_meadows"
-				id: "334AFA27B0392556"
-				type: "biome"
-			}]
-			x: 6.5d
-			y: 8.0d
-		}
-		{
-			icon: "byg:prairie_grass"
-			id: "095461C457252548"
-			rewards: [
-				{
-					id: "24588D372F9E75E5"
-					type: "custom"
-				}
-				{
-					id: "6BA2D2C5B0A95994"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "projectvibrantjourneys:prairie"
-				id: "561A72BAD3FA0607"
-				type: "biome"
-			}]
-			x: 2.0d
-			y: -2.5d
-		}
-		{
-			icon: "byg:redwood_sapling"
-			id: "4F7863E921A32542"
-			rewards: [
-				{
-					id: "18783F7F4C0FE736"
-					type: "custom"
-				}
-				{
-					id: "5BFEF19AE93696C2"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "projectvibrantjourneys:redwood_peaks"
-				id: "3B952930BA376F52"
-				type: "biome"
-			}]
-			x: -3.5d
-			y: 1.5d
-		}
-		{
-			icon: "projectvibrantjourneys:redwood_log"
-			id: "425DE3287BD46C5E"
-			rewards: [
-				{
-					id: "12950B4F408E7F09"
-					type: "custom"
-				}
-				{
-					id: "142737FBF6E507BB"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "projectvibrantjourneys:redwoods"
-				id: "42ED4107EBD2E717"
-				type: "biome"
-			}]
-			x: -3.0d
-			y: -0.5d
-		}
-		{
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "minecraft:snowball"
-			}
-			id: "4FB1AB2D08BB9803"
-			rewards: [
-				{
-					id: "580612875B1F7FD8"
-					type: "custom"
-				}
-				{
-					id: "0909D05FA4405717"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "projectvibrantjourneys:snowy_boreal_forest"
-				id: "4EA5E3DE7010AAAA"
-				type: "biome"
-			}]
-			x: 7.0d
-			y: 6.0d
-		}
-		{
-			icon: "byg:snowdrops"
-			id: "1A2526DC2243A6DC"
-			rewards: [
-				{
-					id: "2B1FA352B07B563F"
-					type: "custom"
-				}
-				{
-					id: "0F2F136CB519982C"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "projectvibrantjourneys:snowy_redwoods"
-				id: "3038A14A7D1A6EC2"
-				type: "biome"
-			}]
-			x: 3.5d
-			y: 9.0d
-		}
-		{
-			icon: "minecraft:cobblestone"
-			id: "24BC016A6A79E018"
-			rewards: [
-				{
-					id: "42FC983B7BDBB3F0"
-					type: "custom"
-				}
-				{
-					id: "48A03CDFE7B9C297"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				biome: "projectvibrantjourneys:windswept_cliffs"
-				id: "0C27A1E6CE2DB9D8"
-				type: "biome"
-			}]
-			x: 1.5d
-			y: 6.0d
-		}
-		{
 			description: [
 				"There are dozens of new dungeons, some of them are guarded with Bosses."
 				"What are you waiting for? Go conquer them all!"
@@ -1410,9 +28,9 @@
 			icon: "supplementaries:key"
 			id: "2DADDB2315AB67D6"
 			rewards: [{
-				id: "213653105613DC54"
+				id: "52A558672DFBB115"
 				type: "xp"
-				xp: 1
+				xp: 100
 			}]
 			shape: "octagon"
 			size: 2.0d
@@ -1422,35 +40,21 @@
 				title: "Dungeon Diving"
 				type: "checkmark"
 			}]
-			x: 11.0d
+			x: 5.5d
 			y: 2.0d
 		}
 		{
 			id: "4F20540765A93D77"
 			rewards: [
 				{
-					id: "67830A77E9C06FE1"
-					type: "custom"
-				}
-				{
-					id: "217C6419541FDBB9"
+					id: "2703423B2CD8A81C"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "60A0F8C25178ECDA"
-					type: "custom"
-				}
-				{
-					id: "5A0A74506655CFD4"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "5FD7C5ACC8C740D5"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "575231E04221D5B0"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Battle Tower"
@@ -1460,35 +64,21 @@
 				id: "7B81785A915B6A7F"
 				type: "advancement"
 			}]
-			x: 16.0d
-			y: 0.0d
+			x: 12.0d
+			y: 3.0d
 		}
 		{
 			id: "24975F8795218934"
 			rewards: [
 				{
-					id: "574131A23AF83A2B"
-					type: "custom"
-				}
-				{
-					id: "72CC37E960A91B7F"
+					id: "0E940CF556135F6F"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "7C6F8A3D7FFDD582"
-					type: "custom"
-				}
-				{
-					id: "2D978FFE16C44F12"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "6C80D302B6B45AB0"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "65416FDC1E5F2E59"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Abandoned Temple"
@@ -1498,35 +88,21 @@
 				id: "2D54AE47A2678D34"
 				type: "advancement"
 			}]
-			x: 16.5d
-			y: 1.0d
+			x: 11.5d
+			y: -0.5d
 		}
 		{
 			id: "58BFD3C77C4D1AC6"
 			rewards: [
 				{
-					id: "30375D92CD45765D"
-					type: "custom"
-				}
-				{
-					id: "53373862F4FB41DC"
+					id: "12A7296644B29EF6"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "3CE17F81929A074E"
-					type: "custom"
-				}
-				{
-					id: "34551342738276EF"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "0596A29D04CFB195"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "6DA1CEC30B45386A"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Monastery"
@@ -1536,30 +112,21 @@
 				id: "1FD6AFD394AEB398"
 				type: "advancement"
 			}]
-			x: 14.0d
-			y: -0.5d
+			x: 4.0d
+			y: 6.0d
 		}
 		{
 			id: "5954871D011EA31B"
 			rewards: [
 				{
-					id: "709F61E58BDAF589"
-					type: "custom"
-				}
-				{
-					id: "2A1742850A3FB63B"
+					id: "440F196106B73065"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "52E9520F3282BD04"
-					type: "custom"
-				}
-				{
-					id: "7504416459CAA73E"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "6D973DFB81BEF06A"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Spider Cave"
@@ -1569,35 +136,21 @@
 				id: "1D501E3BD17DD079"
 				type: "advancement"
 			}]
-			x: 15.5d
-			y: -1.0d
+			x: 12.0d
+			y: 1.0d
 		}
 		{
 			id: "028BAD294AD040AF"
 			rewards: [
 				{
-					id: "51A0C444E9904C11"
-					type: "custom"
-				}
-				{
-					id: "38CDB8A3C2D7C0B8"
+					id: "369E26F8B3D8365C"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "09619C3EAE2CA9EC"
-					type: "custom"
-				}
-				{
-					id: "72458ACD3F10AD88"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "3AEC73D3D57FD605"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "4B60D964FC93479D"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Catacomb"
@@ -1607,35 +160,21 @@
 				id: "35AD77BC9FF9119A"
 				type: "advancement"
 			}]
-			x: 15.0d
+			x: 10.0d
 			y: 1.5d
 		}
 		{
 			id: "2FF97DE5D1B0F727"
 			rewards: [
 				{
-					id: "07E16CFFF415CF5E"
-					type: "custom"
-				}
-				{
-					id: "7B721698CF021DF2"
+					id: "445E1C23D100BF77"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "78394B2F48CF5CCE"
-					type: "custom"
-				}
-				{
-					id: "65454F90CBBB4A95"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "4DB354C0F05AF914"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "28F702406AFFD695"
+					item: "kubejs:iron_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Fortress of the Undead"
@@ -1645,35 +184,21 @@
 				id: "19375711FD111567"
 				type: "advancement"
 			}]
-			x: 15.0d
+			x: 10.0d
 			y: 2.5d
 		}
 		{
 			id: "3C6CA584F934B8B9"
 			rewards: [
 				{
-					id: "2C81A2EB8B3DAD44"
-					type: "custom"
-				}
-				{
-					id: "22C9765AF1C14A31"
+					id: "3F592276562A3FCD"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "17005445218B4EBA"
-					type: "custom"
-				}
-				{
-					id: "1FDA4583F9607BBE"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "56075207F95E5616"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "214832411276783E"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Monster Room"
@@ -1683,35 +208,21 @@
 				id: "1F0BFB0430425384"
 				type: "advancement"
 			}]
-			x: 14.5d
-			y: 3.5d
+			x: 8.5d
+			y: 5.0d
 		}
 		{
 			id: "1C6EB956684D3209"
 			rewards: [
 				{
-					id: "795276F67A1929C6"
-					type: "custom"
-				}
-				{
-					id: "7B28C0122611DCBE"
+					id: "0154104C47904CD4"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "028E13A53ABBF74C"
-					type: "custom"
-				}
-				{
-					id: "1D6C95634F44F2C6"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "625345834DB26CA3"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "747CD97111D052CE"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Buried Dungeon"
@@ -1721,35 +232,21 @@
 				id: "3533A980E4933C2D"
 				type: "advancement"
 			}]
-			x: 14.5d
-			y: 0.5d
+			x: 12.0d
+			y: 2.0d
 		}
 		{
 			id: "40822E5624735C13"
 			rewards: [
 				{
-					id: "5E2769134E80D0C6"
-					type: "custom"
-				}
-				{
-					id: "6C9358C5967C30DE"
+					id: "3419E8014DD2B31A"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "4281AB325407B16E"
-					type: "custom"
-				}
-				{
-					id: "581726C2C3306495"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "62BF7124F4D75F65"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "26D52C9253885E7A"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Bandit Village"
@@ -1759,30 +256,21 @@
 				id: "68D52A350D5DB36D"
 				type: "advancement"
 			}]
-			x: 15.5d
-			y: 5.0d
+			x: 4.5d
+			y: 8.5d
 		}
 		{
 			id: "4A3AA5FFA243704A"
 			rewards: [
 				{
-					id: "454DB01B43E01DC6"
-					type: "custom"
-				}
-				{
-					id: "6D97295CBE5C8A05"
+					id: "1A31530C426B6D8C"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "3A4F264DB4764764"
-					type: "custom"
-				}
-				{
-					id: "4911CD6F58D4F3EF"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "7FE5BB273E404F8B"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Bandit Towers"
@@ -1792,30 +280,21 @@
 				id: "4C91484F9B7963E7"
 				type: "advancement"
 			}]
-			x: 14.0d
-			y: 8.0d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			id: "344F9833FEABA87E"
 			rewards: [
 				{
-					id: "396904E8AE7B7AE1"
-					type: "custom"
-				}
-				{
-					id: "4C77983F4673D416"
+					id: "75DAD32794B49ECE"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "2F1D937F2A181BE5"
-					type: "custom"
-				}
-				{
-					id: "5E6007E5A35F2547"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "21A702555C59C281"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Infested Temple"
@@ -1825,30 +304,21 @@
 				id: "62264F31DA18C312"
 				type: "advancement"
 			}]
-			x: 13.0d
-			y: -4.5d
+			x: -1.0d
+			y: -3.0d
 		}
 		{
 			id: "5906FA87FDF566D6"
 			rewards: [
 				{
-					id: "73F39E87D9969D4E"
-					type: "custom"
-				}
-				{
-					id: "2BC7F39D46DE520D"
+					id: "0001463357F5EC92"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "0A65236412AE0AF0"
-					type: "custom"
-				}
-				{
-					id: "152DB82DCD97744A"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "08C98096FF7AA9CD"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Merchant Campsite"
@@ -1858,35 +328,21 @@
 				id: "5C2E6CE7098CD784"
 				type: "advancement"
 			}]
-			x: 14.5d
-			y: -3.0d
+			x: -3.0d
+			y: 1.0d
 		}
 		{
 			id: "134BE651109B1400"
 			rewards: [
 				{
-					id: "06000B5F82363158"
-					type: "custom"
-				}
-				{
-					id: "1E632A5DD5DBD137"
+					id: "3D0619BD31A5E8E8"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "503C14E45E22A47D"
-					type: "custom"
-				}
-				{
-					id: "419B8DCABD2A04AD"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "641730367E82AA97"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "0AF25EB005E7CC6B"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Illager Campsite"
@@ -1896,30 +352,21 @@
 				id: "1714231BC1DD7644"
 				type: "advancement"
 			}]
-			x: 17.5d
-			y: 0.0d
+			x: -3.5d
+			y: 2.0d
 		}
 		{
 			id: "2A670AD78403811C"
 			rewards: [
 				{
-					id: "295ACA9C4D543662"
-					type: "custom"
-				}
-				{
-					id: "50BF6FD016E2D42C"
+					id: "3D92023E19BAD837"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "039A7C24FF54DD5D"
-					type: "custom"
-				}
-				{
-					id: "20237E21977C4506"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "21FFC28F1EF2E144"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Small Blimp"
@@ -1929,30 +376,21 @@
 				id: "389007D5BE4D3447"
 				type: "advancement"
 			}]
-			x: 14.5d
-			y: 7.0d
+			x: 7.0d
+			y: 6.0d
 		}
 		{
 			id: "5DBEE11FFCE9799C"
 			rewards: [
 				{
-					id: "2AC412A4617ACAB2"
-					type: "custom"
-				}
-				{
-					id: "2A58BD5AC09453C2"
+					id: "74B50B46037AF015"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "58AB961BE8DD6C6A"
-					type: "custom"
-				}
-				{
-					id: "7FFF44C5DE729CCF"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "5EB5B5B32F4BD223"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Mining System"
@@ -1962,30 +400,21 @@
 				id: "0EA577261C3A8FFA"
 				type: "advancement"
 			}]
-			x: 13.0d
-			y: 7.0d
+			x: 5.0d
+			y: 6.5d
 		}
 		{
 			id: "4426873BBA8DDC45"
 			rewards: [
 				{
-					id: "7DB5CB9B28E7F605"
-					type: "custom"
-				}
-				{
-					id: "32246609116A8A0D"
+					id: "115CA3B7F65584CB"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "599941D8520B047C"
-					type: "custom"
-				}
-				{
-					id: "13D8FE613EF952AD"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "6CCF0D5C8C1FFA4E"
+					item: "kubejs:iron_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Shiraz Palace"
@@ -1995,30 +424,21 @@
 				id: "1D53FEB0C8FF1FB6"
 				type: "advancement"
 			}]
-			x: 14.0d
-			y: -4.0d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			id: "3D91A92E43A1F29F"
 			rewards: [
 				{
-					id: "0EFD537FF56F6327"
-					type: "custom"
-				}
-				{
-					id: "4ABA3BE785081317"
+					id: "41ECA24C16CD0360"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "4D19C904A2DFE5CD"
-					type: "custom"
-				}
-				{
-					id: "243A4B52674961DE"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "7C3F9DADBDF82E93"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Ceryneian Hind"
@@ -2028,35 +448,21 @@
 				id: "2809FA5EE73043B7"
 				type: "advancement"
 			}]
-			x: 11.0d
+			x: 9.0d
 			y: -1.0d
 		}
 		{
 			id: "290A2645FBD90100"
 			rewards: [
 				{
-					id: "38F277F501527155"
-					type: "custom"
-				}
-				{
-					id: "637657F2480AC8AE"
+					id: "03231660A1B9B45A"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "47E6A70779F9F7B3"
-					type: "custom"
-				}
-				{
-					id: "633E781059A3CEB2"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "3DBE3BCEB58BE55E"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "3D078FF000489B9D"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Typhon"
@@ -2066,35 +472,21 @@
 				id: "1974F6593F122F0A"
 				type: "advancement"
 			}]
-			x: 17.0d
-			y: 5.0d
+			x: 6.5d
+			y: 8.5d
 		}
 		{
 			id: "33E5692AD32B0E14"
 			rewards: [
 				{
-					id: "466ACB444D39A409"
-					type: "custom"
-				}
-				{
-					id: "3FF1BFD90AEBDF6C"
+					id: "5E1C25FB7AD61E99"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "7EC0673C56F5F827"
-					type: "custom"
-				}
-				{
-					id: "4BB559A0E64E8B8C"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "07B8EEEDA5674BDD"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "3C2C1692406FC31C"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Heavenly Rider"
@@ -2104,35 +496,21 @@
 				id: "0897C5068E941795"
 				type: "advancement"
 			}]
-			x: 11.5d
-			y: -2.5d
+			x: 10.0d
+			y: -3.0d
 		}
 		{
 			id: "61FCBA9A8F1A7A5C"
 			rewards: [
 				{
-					id: "1E583A2F8EF80346"
-					type: "custom"
-				}
-				{
-					id: "616C38437C1664A9"
+					id: "75B5C2759DB727C3"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "68780229CE085FBD"
-					type: "custom"
-				}
-				{
-					id: "7D29BB8DF9CA1561"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "268D7DBD9BF243F2"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "60F893C1D90AAC34"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Heavenly Conqueror"
@@ -2142,35 +520,21 @@
 				id: "4EDC0626E98B5E73"
 				type: "advancement"
 			}]
-			x: 18.0d
-			y: 1.0d
+			x: 1.5d
+			y: 0.5d
 		}
 		{
 			id: "174122AEDDBE021E"
 			rewards: [
 				{
-					id: "50B5051EE34AD5FD"
-					type: "custom"
-				}
-				{
-					id: "3E82695E10FB6BD1"
+					id: "4EC3B8180FD64DC1"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "7848D7E4C27A6E1A"
-					type: "custom"
-				}
-				{
-					id: "400747A9FAB6A4D1"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "50CA7565893A82B0"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "166120CD202E21D9"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Scorched Mines"
@@ -2180,35 +544,21 @@
 				id: "4A068189A168ED81"
 				type: "advancement"
 			}]
-			x: 16.5d
-			y: 2.0d
+			x: -0.5d
+			y: 4.5d
 		}
 		{
 			id: "6ED59A6312146A9C"
 			rewards: [
 				{
-					id: "12ACAB71591E6FC9"
-					type: "custom"
-				}
-				{
-					id: "7CB82F784EC4B20E"
+					id: "52C7D0203DDCB218"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "08133F6CE3CF88D6"
-					type: "custom"
-				}
-				{
-					id: "5D3F13A60C2511C3"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "6EAB33B7F8719FB1"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "55CCA5E24C58082B"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Foundry"
@@ -2218,30 +568,21 @@
 				id: "5512C4023307F9A0"
 				type: "advancement"
 			}]
-			x: 12.5d
-			y: -1.5d
+			x: 11.0d
+			y: -2.0d
 		}
 		{
 			id: "6523AEAB5C36B178"
 			rewards: [
 				{
-					id: "2434EE3E537C312B"
-					type: "custom"
-				}
-				{
-					id: "2B2E585785D32641"
+					id: "5C0ED7B9DCFE9739"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "7652D3166A07CD32"
-					type: "custom"
-				}
-				{
-					id: "71F0E4DF4379ABAA"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "77172EB4956B4357"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Plague Asylum"
@@ -2251,35 +592,21 @@
 				id: "4A7C02F7232558C4"
 				type: "advancement"
 			}]
-			x: 13.0d
-			y: -3.0d
+			x: 14.5d
+			y: 2.0d
 		}
 		{
 			id: "7853F4333CEA424A"
 			rewards: [
 				{
-					id: "2649059D3824854F"
-					type: "custom"
-				}
-				{
-					id: "6732B2BE0127F2D5"
+					id: "741816F7C09948D6"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "11AE0669B1D479B7"
-					type: "custom"
-				}
-				{
-					id: "4093468639AFB7D5"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "352C552330109DF0"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "386D455653183906"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Small Prairie House"
@@ -2289,35 +616,21 @@
 				id: "37F30C1A60C5BC67"
 				type: "advancement"
 			}]
-			x: 16.5d
-			y: 3.0d
+			x: 11.5d
+			y: 4.5d
 		}
 		{
 			id: "7B1123035B215BED"
 			rewards: [
 				{
-					id: "415D36A732D1C957"
-					type: "custom"
-				}
-				{
-					id: "39978EEA20528D82"
+					id: "0A0DFCBB00582643"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "51A49C29B655F391"
-					type: "custom"
-				}
-				{
-					id: "7B57BB85A6BFC231"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "0CDA17F45905F7B8"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "2AD66AD9E90BA15D"
+					item: "kubejs:iron_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Thornborn Towers"
@@ -2327,30 +640,21 @@
 				id: "62C6F6B702B1B5F9"
 				type: "advancement"
 			}]
-			x: 18.0d
-			y: 2.0d
+			x: 12.5d
+			y: 8.5d
 		}
 		{
 			id: "78843E770921D42B"
 			rewards: [
 				{
-					id: "7CAD57E39E841449"
-					type: "custom"
-				}
-				{
-					id: "4C3955607AB14D87"
+					id: "3975FF3B45B1394B"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "51218F49E90F0445"
-					type: "custom"
-				}
-				{
-					id: "50D6C0FF7BAEE9E4"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "1D44EE5E96AA4434"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Fishing House"
@@ -2360,30 +664,21 @@
 				id: "3D35BF69A35BB333"
 				type: "advancement"
 			}]
-			x: 11.0d
+			x: 2.5d
 			y: 5.0d
 		}
 		{
 			id: "33D0DE47FEC48EF3"
 			rewards: [
 				{
-					id: "36C91290818D74F5"
-					type: "custom"
-				}
-				{
-					id: "523FA110A0F19F2D"
+					id: "065521BA85D6D6F4"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "404D998F5B5EC345"
-					type: "custom"
-				}
-				{
-					id: "7A5948DD375DC606"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "5B507BDECBC73D68"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Undead Pirate Ship"
@@ -2393,35 +688,21 @@
 				id: "13EA20708EE965B9"
 				type: "advancement"
 			}]
-			x: 11.5d
-			y: 6.5d
+			x: -1.0d
+			y: 8.5d
 		}
 		{
 			id: "2CD398B43AEFF428"
 			rewards: [
 				{
-					id: "54718E31728E50A5"
-					type: "custom"
-				}
-				{
-					id: "69443C42DDA1FEE2"
+					id: "2247DA40480831F4"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "120C121434A5F956"
-					type: "custom"
-				}
-				{
-					id: "014A9E033D203687"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "432D846D93BE2930"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "4A44D9B947518C92"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Giant Mushroom"
@@ -2431,35 +712,21 @@
 				id: "1D4C58E79B9D6404"
 				type: "advancement"
 			}]
-			x: 17.0d
-			y: -1.0d
+			x: 14.0d
+			y: 1.0d
 		}
 		{
 			id: "689E731ECC22F152"
 			rewards: [
 				{
-					id: "2014EFC1C364D484"
-					type: "custom"
-				}
-				{
-					id: "2459F0A2B5AAC13D"
+					id: "4E247BC88D3AFA33"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "6BF641276007601A"
-					type: "custom"
-				}
-				{
-					id: "2F9E461DF293A07D"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "2D5966093A13430B"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "454F1A05E8FA5A4C"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Mushroom Mine"
@@ -2469,30 +736,21 @@
 				id: "20768D8E6F19533A"
 				type: "advancement"
 			}]
-			x: 18.0d
+			x: -3.0d
 			y: 3.0d
 		}
 		{
 			id: "5FB1C1B11EE60A30"
 			rewards: [
 				{
-					id: "439D6EEE1400036F"
-					type: "custom"
-				}
-				{
-					id: "737E3D551E6F5876"
+					id: "3010EE1373F6D10D"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "5F891F74F7011A95"
-					type: "custom"
-				}
-				{
-					id: "7D64E6959A286B3E"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "4FD4388866CB8F2D"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Mushroom House"
@@ -2502,30 +760,21 @@
 				id: "0CD6596213E7E826"
 				type: "advancement"
 			}]
-			x: 12.5d
-			y: 5.5d
+			x: 1.0d
+			y: 1.5d
 		}
 		{
 			id: "5DD1A32CAD544DCC"
 			rewards: [
 				{
-					id: "12319FBF90ACFB87"
-					type: "custom"
-				}
-				{
-					id: "3CBCE1269010266B"
+					id: "24E7C59D82CDA4E2"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "3D3B039A617AA946"
-					type: "custom"
-				}
-				{
-					id: "1351B048E1EA95D9"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "30C4D48AF746C54D"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover an Illager Corsair or an Illager Galley"
@@ -2535,30 +784,21 @@
 				id: "4A1BDAEFF8AC3CF8"
 				type: "advancement"
 			}]
-			x: 14.0d
-			y: 2.0d
+			x: 9.5d
+			y: 0.5d
 		}
 		{
 			id: "571DC9D0A8C23585"
 			rewards: [
 				{
-					id: "5B742E5A3E0DBB37"
-					type: "custom"
-				}
-				{
-					id: "21DB60ABD7717B32"
+					id: "619AD41E17AA7E8A"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "2786F9136929817B"
-					type: "custom"
-				}
-				{
-					id: "22E11B4BEBBABA2E"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "3FCF488A6FA39722"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Lighthouse"
@@ -2568,35 +808,21 @@
 				id: "420A0AB17D3D027D"
 				type: "advancement"
 			}]
-			x: 13.0d
-			y: 8.5d
+			x: 1.0d
+			y: 2.5d
 		}
 		{
 			id: "337BABA052DA1E0E"
 			rewards: [
 				{
-					id: "52AFD713A40C2EA1"
-					type: "custom"
-				}
-				{
-					id: "4705F68BF77C6CBA"
+					id: "4E68A02D0D8F8A46"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "2C1387C56B7970A4"
-					type: "custom"
-				}
-				{
-					id: "55BA6200C68FDA89"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "21796C7D754A11FD"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "39874D6C5B7D0A95"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Wishing Well"
@@ -2606,35 +832,21 @@
 				id: "1EF98D4A90EA9BB5"
 				type: "advancement"
 			}]
-			x: 17.5d
-			y: 4.0d
+			x: 0.5d
+			y: -2.0d
 		}
 		{
 			id: "145F74705341F30E"
 			rewards: [
 				{
-					id: "1F3DF771E7EB8D2F"
-					type: "custom"
-				}
-				{
-					id: "5B2F71216B31DAE5"
+					id: "6563A8DC2A1D581A"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "7790CA513008D9E7"
-					type: "custom"
-				}
-				{
-					id: "1DC30CE85071D32F"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "6CD696A1907F80FC"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "2FFF255D4203BF7E"
+					item: "kubejs:iron_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Coliseum"
@@ -2644,35 +856,21 @@
 				id: "0358569F8DCB2703"
 				type: "advancement"
 			}]
-			x: 16.5d
-			y: 6.0d
+			x: 5.5d
+			y: 8.5d
 		}
 		{
 			id: "674C4F6C629090C7"
 			rewards: [
 				{
-					id: "521FAAD9A14A13A1"
-					type: "custom"
-				}
-				{
-					id: "75D12F150E85BB3F"
+					id: "5201518CB409DC5C"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "25C31F67C09B14E6"
-					type: "custom"
-				}
-				{
-					id: "70B04501F1398D58"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "2E00407698D1E787"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "4CB73B4EA2B0F871"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Nether City"
@@ -2682,35 +880,21 @@
 				id: "5556E908ECF2D79A"
 				type: "advancement"
 			}]
-			x: 16.0d
-			y: 4.0d
+			x: 8.0d
+			y: 8.0d
 		}
 		{
 			id: "0E132FABA501393B"
 			rewards: [
 				{
-					id: "20390D949AA2B596"
-					type: "custom"
-				}
-				{
-					id: "6382634AB46B01D0"
+					id: "3E89592DCD015104"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "66E6B3ADF5E6F0C7"
-					type: "custom"
-				}
-				{
-					id: "2E1D4539E216B3DF"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-				{
-					id: "0A3632F149B43F4F"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "2146E3D4A7A68F2F"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Discover a Jungle Fortress"
@@ -2720,32 +904,16 @@
 				id: "3C1E0553A3F0F7C6"
 				type: "advancement"
 			}]
-			x: 14.0d
-			y: 4.5d
+			x: 9.5d
+			y: 3.5d
 		}
 		{
 			id: "7DE3544787B49D46"
-			rewards: [
-				{
-					id: "089BE7587C9542B1"
-					type: "custom"
-				}
-				{
-					id: "59B486060019D995"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					auto: "invisible"
-					id: "6FCE2E77A7217702"
-					type: "custom"
-				}
-				{
-					id: "000A774F9DC33DA0"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-			]
+			rewards: [{
+				id: "398A9C9A1A2DF642"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			subtitle: "Discover a Underground Bastion"
 			tasks: [{
 				advancement: "repurposed_structures:bastion_underground"
@@ -2753,30 +921,21 @@
 				id: "0CCE25B115509756"
 				type: "advancement"
 			}]
-			x: 16.5d
-			y: -2.0d
+			x: 9.5d
+			y: 7.0d
 		}
 		{
 			id: "11B012F060DFF2F3"
 			rewards: [
 				{
-					id: "4A12773C35F77ABE"
-					type: "custom"
-				}
-				{
-					id: "78491A77B1DF6B54"
+					id: "07D4D79C87D02BBD"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "2EB44305519FF5ED"
-					type: "custom"
-				}
-				{
-					id: "0CD9D93C7D01C1DA"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "7FEB6D2446FFA707"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Find an Ice Pit"
@@ -2786,30 +945,21 @@
 				id: "5BA16AB06E385F21"
 				type: "advancement"
 			}]
-			x: 11.5d
-			y: -4.0d
+			x: 13.0d
+			y: 7.5d
 		}
 		{
 			id: "5CBB111DF657D689"
 			rewards: [
 				{
-					id: "79D2525DC76D69BF"
-					type: "custom"
-				}
-				{
-					id: "615B3FC3B9DB6F14"
+					id: "19B0321C6FB7BB15"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "6866C4E14F744CCF"
-					type: "custom"
-				}
-				{
-					id: "28A28A1F5901D185"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "53589A53B67B29A6"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Find a Castle"
@@ -2819,30 +969,21 @@
 				id: "39B08C30E8378D82"
 				type: "advancement"
 			}]
-			x: 15.0d
-			y: -4.0d
+			x: -1.0d
+			y: 3.0d
 		}
 		{
 			id: "059C3889FEEB8688"
 			rewards: [
 				{
-					id: "35A4E5FE6F5541C7"
-					type: "custom"
-				}
-				{
-					id: "1DE4F6DBAD0C7B22"
+					id: "1C4A32549E00DE57"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "0F8FC2597F354183"
-					type: "custom"
-				}
-				{
-					id: "2B500120020DBA3F"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "3C7CA193EED1322B"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Find a Desert Temple"
@@ -2853,29 +994,20 @@
 				type: "advancement"
 			}]
 			x: 11.5d
-			y: 8.0d
+			y: 9.0d
 		}
 		{
 			id: "7D9B765A3367AA22"
 			rewards: [
 				{
-					id: "7C95FB4B40869E43"
-					type: "custom"
-				}
-				{
-					id: "4F3F90CCCFC4BF05"
+					id: "3341263CEE5B4872"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "3F907ACABB1AFE6B"
-					type: "custom"
-				}
-				{
-					id: "1BC6EFD1B8FB6967"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "07EFDFE830CBC012"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Find a Monster Maze"
@@ -2885,30 +1017,21 @@
 				id: "0CFDC47AF1C3D9F0"
 				type: "advancement"
 			}]
-			x: 14.0d
-			y: -5.0d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			id: "6295F936F893D27B"
 			rewards: [
 				{
-					id: "286A9EDA74DA1C78"
-					type: "custom"
-				}
-				{
-					id: "2450881DB41C7CB7"
+					id: "66FDA9B4D8679480"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "5FE0647CEAE70FF4"
-					type: "custom"
-				}
-				{
-					id: "78D49D0E51A3E871"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "06EC6DB2D983D418"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Find a Mushroom House"
@@ -2918,30 +1041,21 @@
 				id: "406C8DCD54A9B285"
 				type: "advancement"
 			}]
-			x: 14.0d
-			y: 9.0d
+			x: 6.0d
+			y: 6.5d
 		}
 		{
 			id: "39C49F2F329A1CC3"
 			rewards: [
 				{
-					id: "6178CCA7CE70852B"
-					type: "custom"
-				}
-				{
-					id: "40646DF3FC387577"
+					id: "30226223B3B4DD79"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "2551E3665A3FEB7C"
-					type: "custom"
-				}
-				{
-					id: "59AE95585A8D15C7"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "6A84D4BF03322EB8"
+					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Find a Jungle Monument"
@@ -2951,30 +1065,21 @@
 				id: "11A8863BB271D3A5"
 				type: "advancement"
 			}]
-			x: 15.0d
+			x: 3.0d
 			y: 8.0d
 		}
 		{
 			id: "58E0DDDAEB7E6186"
 			rewards: [
 				{
-					id: "1382BC58B33B1979"
-					type: "custom"
-				}
-				{
-					id: "4FE2743A32D6CAA9"
+					id: "0F7661BC4699F14F"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					auto: "invisible"
-					id: "2AD92C5297F2157A"
-					type: "custom"
-				}
-				{
-					id: "1177740E03DF8366"
-					table_id: 8545390299491237994L
-					type: "choice"
+					id: "611CCC3B08C5ADB9"
+					item: "kubejs:iron_coin"
+					type: "item"
 				}
 			]
 			subtitle: "Find a Large Dungeon"
@@ -2984,8 +1089,705 @@
 				id: "2DB5096D969C8F84"
 				type: "advancement"
 			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "2E9F04184292A264"
+			rewards: [
+				{
+					id: "7B28C0122611DCBE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "305A222C0288C6E2"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "idas:witches_treestump"
+				criterion: ""
+				id: "4F1B14FAB5721A15"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			id: "14750E31CE414075"
+			rewards: [
+				{
+					id: "72CC37E960A91B7F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1106BCE25CE8F564"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "idas:enchantingtower"
+				criterion: ""
+				id: "22CC784BC0342053"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			id: "3E13C8F0EE2ECCA2"
+			rewards: [
+				{
+					id: "68799541023FD079"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "27C72E74292C5F15"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				advancement: "idas:necromancers_spire"
+				criterion: ""
+				id: "369F0A82DECEBBE8"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			id: "725867AD010248A6"
+			rewards: [
+				{
+					id: "254539A5C822CC61"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "2C3C446828BDDF64"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				advancement: "idas:fishermans_lodge"
+				criterion: ""
+				id: "1C1E8952D30A0DBB"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			id: "18F22679FA467A3B"
+			rewards: [
+				{
+					id: "217C6419541FDBB9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0E004A7DDD593DE6"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Discover a Battle Tower"
+			tasks: [{
+				advancement: "idas:ancient_mines"
+				criterion: ""
+				id: "2A105B69E5021648"
+				type: "advancement"
+			}]
+			x: 13.5d
+			y: 5.0d
+		}
+		{
+			id: "60A36721F16C9A19"
+			rewards: [
+				{
+					id: "1E632A5DD5DBD137"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "752CE3D1F632D6F6"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "idas:sunken_ship"
+				criterion: ""
+				id: "1003CDDD83A4912C"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			id: "392C1055DFA53518"
+			rewards: [
+				{
+					id: "321F528EE1254797"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "1125551AD7A9F45F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				advancement: "idas:redhorn_guild"
+				criterion: ""
+				id: "67AF29C1C7F509F5"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "0292B5904A252DC8"
+			rewards: [
+				{
+					id: "0C0927802BD3DAE5"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "2C971478FE9D7688"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "idas:ruins_of_the_deep"
+				criterion: ""
+				id: "64ECB5471837B045"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "484761920DE90F52"
+			rewards: [
+				{
+					id: "53373862F4FB41DC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "44E52017DBF9B7ED"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "idas:bearclaw_inn"
+				criterion: ""
+				id: "450E88982A9A94E5"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			id: "0BAF8044877BFF84"
+			rewards: [
+				{
+					id: "69443C42DDA1FEE2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "785F90644C60568D"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "idas:hunters_cabin"
+				criterion: ""
+				id: "74ABC9AE3F212665"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			id: "6D6187CF453B4B2E"
+			rewards: [
+				{
+					id: "3CBCE1269010266B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7AA99964597A2CD6"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "3FF252C391887B74"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Discover an Illager Fortress"
+			tasks: [{
+				advancement: "idas:pillager_fortress"
+				criterion: ""
+				id: "615F494D5C661882"
+				type: "advancement"
+			}]
 			x: 12.0d
-			y: 9.5d
+			y: -4.0d
+		}
+		{
+			id: "360A14ED6EBA64D4"
+			rewards: [
+				{
+					id: "3D3BC43C1AF0E0D9"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "590733C07B00AD6D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "547D134A5B6E5577"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "rare_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Discover every biome(49)"
+			tasks: [{
+				advancement: "minecraft:adventure/adventuring_time"
+				criterion: ""
+				id: "0D817B9D696B05AA"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			id: "0E6B88147B9F1896"
+			rewards: [
+				{
+					id: "3E82695E10FB6BD1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "020A096057CA5A0C"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "idas:labyrinth"
+				criterion: ""
+				id: "0C503EE052BEDA8B"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "4BCA960017B0992C"
+			rewards: [
+				{
+					id: "4E01993DAFC4C371"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "582457F027FF9D53"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Locate a Bastille"
+			tasks: [{
+				advancement: "takesapillage:bastille"
+				criterion: ""
+				id: "2B9E2AC9EDA5E69A"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			id: "6848C93746CC1FC0"
+			rewards: [
+				{
+					id: "2768BD5FF43A5CCA"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "22B8E980B43AE487"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Locate a Pillager Camp"
+			tasks: [{
+				advancement: "takesapillage:pillager_camp"
+				criterion: ""
+				id: "6543D27A26C0B9EB"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			id: "1F384765FE3167DB"
+			rewards: [
+				{
+					id: "2459F0A2B5AAC13D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "123FDA2BC5564F97"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Find all the new Mineshafts(14)"
+			tasks: [{
+				advancement: "repurposed_structures:mineshafts"
+				criterion: ""
+				id: "1605CAE126F3AE6A"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: 10.5d
+		}
+		{
+			id: "3B822759AA2551D5"
+			rewards: [
+				{
+					id: "6C9358C5967C30DE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "34895188FCFE3BD6"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "idas:wizardtower"
+				criterion: ""
+				id: "20FC5CBC7066CE6D"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			id: "26C4DC505D176884"
+			rewards: [
+				{
+					id: "5B2F71216B31DAE5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "59BB6257FADC9182"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "047E74B6C234003F"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Find all new outposts(14)"
+			tasks: [{
+				advancement: "repurposed_structures:outposts"
+				criterion: ""
+				id: "12F59EC27FF06187"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			id: "2BFF62DE2B1CE10C"
+			rewards: [
+				{
+					id: "29F0D455A6BA12D8"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "29BFFFF1F6FEAD60"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				advancement: "idas:apothecary_abode"
+				criterion: ""
+				id: "1A78566257294BB7"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			id: "761D7D6E84D82F9B"
+			rewards: [
+				{
+					id: "4705F68BF77C6CBA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "472830A1EBC3592D"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "476BB742A901D839"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Find all the new Villages(11)"
+			tasks: [{
+				advancement: "repurposed_structures:villages"
+				criterion: ""
+				id: "3E9411D058A52071"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			id: "6E0F6DFA958172F8"
+			rewards: [
+				{
+					id: "314012A1F1608FDC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0E9AC39CEE953CBE"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "idas:nexus"
+				criterion: ""
+				id: "1D2F17ACB664AFC7"
+				type: "advancement"
+			}]
+			x: 13.5d
+			y: -1.0d
+		}
+		{
+			id: "6D7846F53919A4D9"
+			rewards: [
+				{
+					id: "23F0CA85D98CF337"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3AE66F448E631AAF"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "idas:tinkers_workshop"
+				criterion: ""
+				id: "40B9D329DA3A4E7C"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			id: "1A19338C58738423"
+			rewards: [
+				{
+					id: "050EC6648BCFBD4D"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "0758F0CEC48DA064"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				advancement: "idas:winter_wagon"
+				criterion: ""
+				id: "7F580B20F36EF103"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			id: "4855DE6C38E2BB1A"
+			rewards: [
+				{
+					id: "6732B2BE0127F2D5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6296921EC78C1AE6"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "3374322ED3AE7CBB"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Discover a Small Prairie House"
+			tasks: [{
+				advancement: "idas:castle"
+				criterion: ""
+				id: "7944AE0474BFC3BA"
+				type: "advancement"
+			}]
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			id: "26132E58E0F26C12"
+			rewards: [
+				{
+					id: "22C9765AF1C14A31"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "069044A06C605DA9"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "45B656A21D9B75E0"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Discover a Monster Room"
+			tasks: [{
+				advancement: "betterdungeons:small_dungeon"
+				criterion: ""
+				id: "6C63863C421CC2D5"
+				type: "advancement"
+			}]
+			x: 12.5d
+			y: -3.0d
+		}
+		{
+			id: "2AB2AAFC44200DBC"
+			tasks: [{
+				advancement: "dungeons_arise:find_heavenly_challenger"
+				criterion: ""
+				id: "5E63D2FC523F9086"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "3BBC3ADD6990D183"
+			tasks: [{
+				advancement: "dungeons_arise:find_aviary"
+				criterion: ""
+				id: "250954E9C9BEE58D"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			id: "176367F84C9DC00A"
+			tasks: [{
+				advancement: "dungeons_arise:find_illager_fort"
+				criterion: ""
+				id: "0EB063DCDF538475"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -4.0d
 		}
 	]
 	title: "Pathfinder"
