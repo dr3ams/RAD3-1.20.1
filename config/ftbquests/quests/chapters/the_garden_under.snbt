@@ -29,30 +29,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4C6F949FFA715364"]
-			id: "29BF84A63E82A63C"
-			rewards: [{
-				id: "54C08C074F409245"
-				item: {
-					Count: 1b
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "potions"
-					}
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				dimension: "undergarden:undergarden"
-				id: "75D470E0AFB9470C"
-				type: "dimension"
-			}]
-			x: 1.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["0B5EF31B3DBC9DE2"]
 			id: "556166EB2D38864C"
 			rewards: [
@@ -96,7 +72,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["274C8CD10763851C"]
 			id: "018570DD4BB7DE24"
 			rewards: [
 				{
@@ -125,7 +100,7 @@
 				item: "undergarden:raw_cloggrum"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 3.0d
 		}
 		{
@@ -153,50 +128,8 @@
 				item: "undergarden:cloggrum_ingot"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 4.5d
-		}
-		{
-			dependencies: ["499F09164370C639"]
-			id: "6EC6F2C9D32D1B8E"
-			rewards: [
-				{
-					id: "5CC1DF1AACE7B542"
-					item: {
-						Count: 1b
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "ingots_basic"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0382082EFC7FEE90"
-					item: {
-						Count: 1b
-						id: "roughtweaks:medkit"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1493FF3B897A6161"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-			]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				id: "4247547D29BB8384"
-				item: "undergarden:diamond_ore"
-				type: "item"
-			}]
-			x: 12.5d
-			y: 1.5d
 		}
 		{
 			dependencies: ["2BE179E3CB62EC60"]
@@ -256,69 +189,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["29BF84A63E82A63C"]
-			id: "274C8CD10763851C"
-			rewards: [
-				{
-					id: "7F3AFD2691DDA269"
-					item: {
-						Count: 1b
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "ingots_basic"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4FF89A6B57124BF2"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-			]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				id: "68B2ADB1ADC86EA8"
-				item: "undergarden:shiverstone_iron_ore"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["274C8CD10763851C"]
-			id: "499F09164370C639"
-			rewards: [
-				{
-					id: "6FB7DB8F260E5079"
-					item: {
-						Count: 1b
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "ingots_basic"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "185852805D97FB9A"
-					table_id: 8545390299491237994L
-					type: "choice"
-				}
-			]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				id: "4F54BBC5EE37EBF7"
-				item: "undergarden:gold_ore"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["499F09164370C639"]
 			id: "3E8D81625369E9E9"
 			rewards: [
 				{
@@ -347,11 +217,10 @@
 				item: "undergarden:regalium_crystal"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["6EC6F2C9D32D1B8E"]
 			id: "4A455CCEEE973422"
 			rewards: [
 				{
@@ -376,11 +245,10 @@
 				item: "undergarden:forgotten_ingot"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 4.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["274C8CD10763851C"]
 			id: "28413C0BD4F59A16"
 			rewards: [
 				{
@@ -409,7 +277,7 @@
 				item: "undergarden:raw_froststeel"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: 3.0d
 		}
 		{
@@ -437,7 +305,7 @@
 				item: "undergarden:froststeel_ingot"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: 4.5d
 		}
 		{
@@ -459,8 +327,8 @@
 				item: "undergarden:shard_torch"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -1.0d
+			x: 8.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["658339B2ABB5FB34"]
@@ -475,8 +343,8 @@
 				item: "undergarden:shard_o_lantern"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -2.0d
+			x: 8.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0B5EF31B3DBC9DE2"]
@@ -522,11 +390,11 @@
 				item: "undergarden:blisterberry"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -2.0d
+			x: 6.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["6EC6F2C9D32D1B8E"]
+			dependencies: ["0B5EF31B3DBC9DE2"]
 			id: "2DC795CB47957AB2"
 			rewards: [
 				{
@@ -551,11 +419,11 @@
 				item: "undergarden:underbeans"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -0.5d
+			x: 7.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["29BF84A63E82A63C"]
+			dependencies: ["37083F3C9F54C566"]
 			id: "0B5EF31B3DBC9DE2"
 			rewards: [
 				{
@@ -582,7 +450,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["29BF84A63E82A63C"]
+			dependencies: ["37083F3C9F54C566"]
 			id: "703849AAE5F2D4BC"
 			rewards: [{
 				id: "2AA79D87AF20C2BE"
@@ -597,7 +465,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["499F09164370C639"]
+			dependencies: ["07114E47F767CBB4"]
 			id: "24BD242ECF4E943A"
 			rewards: [
 				{
@@ -615,11 +483,11 @@
 				item: "undergarden:veiled_stew"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 9.5d
 			y: 0.5d
 		}
 		{
-			dependencies: ["499F09164370C639"]
+			dependencies: ["07114E47F767CBB4"]
 			id: "760DC5559AB33E17"
 			rewards: [
 				{
@@ -637,11 +505,11 @@
 				item: "undergarden:indigo_stew"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.5d
+			x: 10.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["274C8CD10763851C"]
+			dependencies: ["07114E47F767CBB4"]
 			id: "091975CE7D583E34"
 			rewards: [
 				{
@@ -659,11 +527,11 @@
 				item: "undergarden:inky_stew"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.5d
+			x: 8.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["6EC6F2C9D32D1B8E"]
+			dependencies: ["07114E47F767CBB4"]
 			id: "483F411F5D478DBA"
 			rewards: [
 				{
@@ -681,8 +549,8 @@
 				item: "undergarden:bloody_stew"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 0.0d
+			x: 8.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0B5EF31B3DBC9DE2"]
@@ -739,7 +607,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["499F09164370C639"]
 			id: "27654986081EFE73"
 			rewards: [{
 				id: "492D32CEA3F56EC0"
@@ -751,8 +618,8 @@
 				item: "undergarden:utheric_shard"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 0.0d
+			x: 7.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4A455CCEEE973422"]
@@ -786,7 +653,7 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
+			x: 4.0d
 			y: 4.5d
 		}
 		{
@@ -818,8 +685,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: 5.5d
+			x: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4A455CCEEE973422"]
@@ -846,39 +713,11 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
-			y: 5.5d
+			x: 5.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["4A455CCEEE973422"]
-			id: "247089BEDE2B3704"
-			rewards: [{
-				id: "67994B284108DCD1"
-				item: {
-					Count: 1b
-					id: "roughtweaks:bandage"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "083DF5B42F98EB4C"
-				item: {
-					Count: 1b
-					id: "undergarden:forgotten_axe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 13.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["499F09164370C639"]
+			dependencies: ["27654986081EFE73"]
 			id: "55A4EF2BD2B47F6F"
 			rewards: [
 				{
@@ -907,8 +746,8 @@
 				item: "undergarden:utherium_crystal"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 3.0d
+			x: 7.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6021E7E3254ACF31"]
@@ -964,7 +803,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 3.0d
 			y: 6.0d
 		}
 		{
@@ -988,6 +827,134 @@
 			}]
 			x: 2.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["2BE179E3CB62EC60"]
+			id: "70D0D5AD9E8408EF"
+			tasks: [{
+				id: "41124350370BC311"
+				item: "undergarden:cloggrum_lantern"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			id: "07114E47F767CBB4"
+			subtitle: "Collect every type of plant"
+			tasks: [
+				{
+					id: "1ACBD32B26169940"
+					item: "undergarden:amorous_bristle"
+					type: "item"
+				}
+				{
+					id: "48C1B6427FCE3155"
+					item: "undergarden:miserabell"
+					type: "item"
+				}
+				{
+					id: "33BF7E2F793EE248"
+					item: "undergarden:butterbunch"
+					type: "item"
+				}
+				{
+					id: "09464C561E248102"
+					item: "undergarden:shimmerweed"
+					type: "item"
+				}
+				{
+					id: "4E37416A7E28D529"
+					item: "undergarden:veil_mushroom"
+					type: "item"
+				}
+				{
+					id: "37071444E78E620B"
+					item: "undergarden:smogstem_sapling"
+					type: "item"
+				}
+				{
+					id: "5DC527ACDA536B7E"
+					item: "undergarden:ink_mushroom"
+					type: "item"
+				}
+				{
+					id: "43727E431FF0C55F"
+					item: "undergarden:blood_mushroom"
+					type: "item"
+				}
+				{
+					id: "58A94B4F5CAC2689"
+					item: "undergarden:indigo_mushroom"
+					type: "item"
+				}
+				{
+					id: "3B6C0BCC249D40EC"
+					item: "undergarden:wigglewood_sapling"
+					type: "item"
+				}
+				{
+					id: "0016A21876EE1309"
+					item: "undergarden:grongle_sapling"
+					type: "item"
+				}
+			]
+			title: "Undergarden Botanist"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			id: "48E0E1A14FB2B977"
+			tasks: [
+				{
+					id: "0F8F83231D606524"
+					item: "undergarden:tremblecrust"
+					type: "item"
+				}
+				{
+					id: "02E32EB3FC86C521"
+					item: "undergarden:shiverstone"
+					type: "item"
+				}
+				{
+					id: "5C6E1437F97E02DF"
+					item: "undergarden:depthrock"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			id: "2C08D45277284F90"
+			tasks: [
+				{
+					id: "171E50DA3A571A3F"
+					item: "undergarden:wigglewood_log"
+					type: "item"
+				}
+				{
+					id: "0D7371542EC0C738"
+					item: "undergarden:grongle_log"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4C6F949FFA715364"]
+			id: "37083F3C9F54C566"
+			shape: "hexagon"
+			subtitle: "The forgotten land awaits..."
+			tasks: [{
+				advancement: "undergarden:undergarden/enter_undergarden"
+				criterion: ""
+				id: "6AD34BDA5B10DEF5"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 0.0d
 		}
 	]
 	title: "The garden Under"

@@ -1,13 +1,5 @@
 {
-	icon: {
-		Count: 1b
-		ForgeCaps: {
-			"dungeons_libraries:built_in_enchantments": {
-				BuiltInEnchantments: [ ]
-			}
-		}
-		id: "minecraft:enchanted_golden_apple"
-	}
+	icon: "minecraft:enchanted_golden_apple"
 	id: "2D3CF7CE85753D90"
 	loot_crate: {
 		color: 16777215
@@ -60,32 +52,6 @@
 			weight: 15.0f
 		}
 		{
-			count: 2
-			item: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "simplefarming:lasagna"
-			}
-			weight: 10.0f
-		}
-		{
-			count: 2
-			item: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "simplefarming:hamburger"
-			}
-			weight: 10.0f
-		}
-		{
 			item: {
 				Count: 1b
 				ForgeCaps: {
@@ -106,35 +72,11 @@
 						BuiltInEnchantments: [ ]
 					}
 				}
-				id: "fins:golden_river_ray_wing_fillet"
-			}
-			weight: 5.0f
-		}
-		{
-			count: 8
-			item: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 				id: "minecraft:melon"
 			}
 			weight: 5.0f
 		}
-		{
-			count: 60
-			item: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "berry_nice:goldensweetberry"
-			}
-		}
+		{ count: 8, item: "minecraft:glow_berries" }
 	]
 	title: "Food 3"
 }

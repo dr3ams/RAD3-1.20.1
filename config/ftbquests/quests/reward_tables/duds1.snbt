@@ -66,31 +66,6 @@
 			weight: 10.0f
 		}
 		{
-			count: 8
-			item: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "mysticalworld:copper_nugget"
-			}
-			weight: 10.0f
-		}
-		{
-			item: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "mysticalworld:copper_dust"
-			}
-			weight: 5.0f
-		}
-		{
 			item: {
 				Count: 1b
 				ForgeCaps: {
@@ -125,6 +100,8 @@
 			}
 			weight: 5.0f
 		}
+		{ count: 4, item: "minecraft:string" }
+		{ count: 3, item: "minecraft:flint" }
 	]
 	title: "Junk 1"
 	use_title: true

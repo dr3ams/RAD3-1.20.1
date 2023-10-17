@@ -82,7 +82,7 @@
 				type: "checkmark"
 			}]
 			x: 10.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2DDD649416AA95EC"]
@@ -300,8 +300,8 @@
 				}
 			]
 			title: "Iron Armor"
-			x: 13.5d
-			y: -3.0d
+			x: 17.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["01ECE22274DDE487"]
@@ -376,8 +376,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.5d
-			y: -2.0d
+			x: 17.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["446936F80D06B8A4"]
@@ -417,7 +417,7 @@
 				type: "item"
 			}]
 			x: 20.0d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["544027B606EEA00D"]
@@ -475,7 +475,7 @@
 			]
 			title: "Cover me in diamonds"
 			x: 21.0d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7FC81AF332294769"]
@@ -523,7 +523,7 @@
 				type: "item"
 			}]
 			title: "Craft basic infrastructure"
-			x: 9.5d
+			x: 10.0d
 			y: -1.0d
 		}
 		{
@@ -552,7 +552,7 @@
 				title: "Any #minecraft:beds"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: -2.0d
 		}
 		{
@@ -615,7 +615,7 @@
 				type: "item"
 			}]
 			x: 20.0d
-			y: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["43509530CAD67EE9"]
@@ -644,7 +644,7 @@
 				type: "item"
 			}]
 			x: 20.0d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["01ECE22274DDE487"]
@@ -704,7 +704,7 @@
 				type: "item"
 			}]
 			title: "Go full nomad!"
-			x: 7.0d
+			x: 7.5d
 			y: -2.0d
 		}
 		{
@@ -728,7 +728,7 @@
 				type: "item"
 			}]
 			x: 20.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5F7DCF112F9F6C1C"]
@@ -842,17 +842,6 @@
 		{
 			dependencies: ["446936F80D06B8A4"]
 			id: "4CC0C281BCE93043"
-			rewards: [
-				{
-					id: "12BF27AD7713D975"
-					item: "randomloot:basic_case"
-					type: "item"
-				}
-				{
-					id: "7C320F66009D8B3F"
-					type: "custom"
-				}
-			]
 			tasks: [{
 				id: "27B18CB58A827FCC"
 				item: {
@@ -862,8 +851,8 @@
 				}
 				type: "item"
 			}]
-			x: 22.0d
-			y: 0.0d
+			x: 21.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5F7DCF112F9F6C1C"]
@@ -944,7 +933,7 @@
 				type: "item"
 			}]
 			x: 15.5d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["766E4FEA8148AEDA"]
@@ -968,7 +957,7 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 14.5d
 			y: -1.0d
 		}
 		{
@@ -995,7 +984,7 @@
 				item: "supplementaries:planter"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.0d
 			y: -2.0d
 		}
 		{
@@ -1022,7 +1011,7 @@
 				item: "supplementaries:planter_rich"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.5d
 			y: -2.0d
 		}
 		{
@@ -1189,8 +1178,8 @@
 				}
 			]
 			title: "Nomadic dreams"
-			x: 6.5d
-			y: -3.0d
+			x: 7.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["0000000000000013"]
@@ -1234,10 +1223,11 @@
 				}
 				type: "item"
 			}]
-			x: 15.5d
+			x: 13.5d
 			y: 0.0d
 		}
 		{
+			dependencies: ["18FF6DA5335C0711"]
 			description: ["Campfire will provide Regeneration Effect"]
 			id: "3BEED9F6C8434FF5"
 			rewards: [{
@@ -1455,16 +1445,17 @@
 				}
 			]
 			title: "Humble accommodation "
-			x: 9.5d
+			x: 10.0d
 			y: -5.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["518DF4A178673014"]
 			id: "479C78EE75C68AC0"
 			rewards: [{
-				id: "786BA5646CD3FA65"
-				table_id: 768393147870328736L
-				type: "choice"
+				id: "0FD1A7BD9D4725EF"
+				type: "xp"
+				xp: 200
 			}]
 			tasks: [{
 				block: "minecraft:stone"
@@ -1501,8 +1492,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
-			y: -3.0d
+			x: 14.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2CBBD6A070EE8FB3"]
@@ -1527,8 +1518,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
-			y: -4.5d
+			x: 13.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2CBBD6A070EE8FB3"]
@@ -1553,8 +1544,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: -5.5d
+			x: 14.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["2CBBD6A070EE8FB3"]
@@ -1579,8 +1570,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
-			y: -5.5d
+			x: 15.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["2CBBD6A070EE8FB3"]
@@ -1605,8 +1596,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: -4.5d
+			x: 15.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["446936F80D06B8A4"]
@@ -1627,8 +1618,8 @@
 				}
 				type: "item"
 			}]
-			x: 21.5d
-			y: 1.0d
+			x: 21.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7CD3436C8DD7B7F9"]
@@ -1646,8 +1637,8 @@
 				type: "questsadditions:break"
 				value: 640L
 			}]
-			x: 22.5d
-			y: 1.5d
+			x: 22.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["268FEFB76E852EE6"]
@@ -1813,8 +1804,8 @@
 				type: "questsadditions:break"
 				value: 32L
 			}]
-			x: 14.0d
-			y: 3.0d
+			x: 15.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3C06C79413BD4E04"]
@@ -1832,8 +1823,8 @@
 				type: "questsadditions:break"
 				value: 64L
 			}]
-			x: 14.0d
-			y: 4.5d
+			x: 15.0d
+			y: 6.5d
 		}
 		{
 			icon: {
@@ -2303,6 +2294,7 @@
 			y: -15.0d
 		}
 		{
+			dependencies: ["0000000000000171"]
 			description: [
 				"The Paraglider can be crafted by using some leathers and sticks. While you're holding Paraglider midair, you fall more slowly, gliding over the land."
 				""
@@ -2328,8 +2320,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: -5.5d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["446936F80D06B8A4"]
@@ -2376,7 +2368,7 @@
 				id: "3F511FABA46A9D5C"
 				type: "advancement"
 			}]
-			x: 24.0d
+			x: 22.5d
 			y: -1.0d
 		}
 		{
@@ -2445,7 +2437,7 @@
 				title: "Full Storage Drawer: Single Item"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.5d
 			y: -3.0d
 		}
 		{
@@ -2469,7 +2461,7 @@
 				item: "mcwwindows:oak_window"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: -4.0d
 		}
 		{
@@ -2498,7 +2490,7 @@
 				item: "minecraft:barrel"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.0d
 			y: -4.0d
 		}
 		{
@@ -2522,11 +2514,11 @@
 				item: "quark:chute"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.0d
 			y: -4.0d
 		}
 		{
-			dependencies: ["01ECE22274DDE487"]
+			dependencies: ["518DF4A178673014"]
 			id: "34DE20EAE1581254"
 			subtitle: "Get every color of Corundum Cluster(9)"
 			tasks: [{
@@ -2535,8 +2527,8 @@
 				id: "0F095B7B41816327"
 				type: "advancement"
 			}]
-			x: 5.5d
-			y: -2.5d
+			x: 8.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["766E4FEA8148AEDA"]
@@ -2581,10 +2573,11 @@
 				type: "item"
 			}]
 			title: "It's a box!"
-			x: 9.5d
+			x: 10.0d
 			y: -3.0d
 		}
 		{
+			dependencies: ["01ECE22274DDE487"]
 			id: "394202A011E33493"
 			rewards: [{
 				id: "0A13DC3141847F1C"
@@ -2604,7 +2597,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -5.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["01ECE22274DDE487"]
@@ -2632,8 +2625,8 @@
 				item: "kubejs:copper_coin"
 				type: "item"
 			}]
-			x: 4.2d
-			y: -2.1d
+			x: 4.55d
+			y: -1.75d
 		}
 		{
 			dependencies: ["01ECE22274DDE487"]
@@ -2977,8 +2970,8 @@
 				item: "farmersdelight:cooking_pot"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -4.5d
+			x: 13.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["7FC81AF332294769"]
@@ -3007,8 +3000,8 @@
 				item: "supplementaries:faucet"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 0.0d
+			x: 16.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7FC81AF332294769"]
@@ -3071,8 +3064,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
-			y: 0.0d
+			x: 16.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7FC81AF332294769"]
@@ -3102,8 +3095,8 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 1.0d
+			x: 14.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["000000000000004C"]
@@ -3132,8 +3125,8 @@
 				item: "villagertools:contract"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 3.0d
+			x: 14.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["000000000000004C"]
@@ -3149,8 +3142,8 @@
 				item: "villagertools:restock"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 2.5d
+			x: 12.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["37D53E78124BF341"]
@@ -3179,8 +3172,8 @@
 				item: "villagertools:badge"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 1.0d
+			x: 12.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["37D53E78124BF341"]
@@ -3220,8 +3213,8 @@
 				item: "villagertools:darkness"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 1.5d
+			x: 11.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["37D53E78124BF341"]
@@ -3261,8 +3254,8 @@
 				item: "villagertools:guard"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 2.5d
+			x: 11.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["37D53E78124BF341"]
@@ -3302,8 +3295,8 @@
 				item: "villagertools:gears"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 3.5d
+			x: 11.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["37D53E78124BF341"]
@@ -3332,8 +3325,8 @@
 				item: "villagertools:knowledge"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 4.0d
+			x: 12.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["000000000000004C"]
@@ -3350,8 +3343,8 @@
 				id: "114773E0AF9E547B"
 				type: "advancement"
 			}]
-			x: 15.5d
-			y: 2.5d
+			x: 16.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["198CC8D9E11D3EE4"]
@@ -3385,8 +3378,8 @@
 				item: "villagertools:key"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 4.5d
+			x: 14.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["031D29EEE7B5A5A7"]
@@ -3410,8 +3403,8 @@
 				id: "6EDEDE0D451B0079"
 				type: "advancement"
 			}]
-			x: 15.5d
-			y: 4.0d
+			x: 16.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["031D29EEE7B5A5A7"]
@@ -3428,8 +3421,8 @@
 				id: "04724854D2AB6D77"
 				type: "advancement"
 			}]
-			x: 16.5d
-			y: 3.5d
+			x: 17.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["6DA54AD3576429BD"]
@@ -3459,8 +3452,8 @@
 				id: "6C6D7A81184FDD7D"
 				type: "advancement"
 			}]
-			x: 17.0d
-			y: 2.5d
+			x: 18.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5972F6732B417E5B"]
@@ -3490,8 +3483,8 @@
 				id: "471FC757C0A5ADBB"
 				type: "advancement"
 			}]
-			x: 18.0d
-			y: 2.5d
+			x: 18.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["031D29EEE7B5A5A7"]
@@ -3522,8 +3515,8 @@
 				id: "0BC58EE1695D4729"
 				type: "advancement"
 			}]
-			x: 16.5d
-			y: 1.5d
+			x: 17.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["031D29EEE7B5A5A7"]
@@ -3540,8 +3533,8 @@
 				id: "752864CAF8E2E6AC"
 				type: "advancement"
 			}]
-			x: 15.5d
-			y: 1.0d
+			x: 16.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["62D2AC9343C06D18"]
@@ -3554,8 +3547,8 @@
 				type: "questsadditions:break"
 				value: 100L
 			}]
-			x: 17.0d
-			y: -2.0d
+			x: 18.0d
+			y: 0.0d
 		}
 	]
 	title: "World Exploration"
