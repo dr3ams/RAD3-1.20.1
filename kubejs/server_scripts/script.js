@@ -4,11 +4,7 @@ console.info('New recipes script is loading...')
 
 ServerEvents.recipes(event => {
 	// Change recipes here
-	
-    event.remove({output: 'oreberriesreplanted:iron_oreberry_bush'})
-    event.remove({output: 'oreberriesreplanted:gold_oreberry_bush'})
-    event.remove({output: 'oreberriesreplanted:copper_oreberry_bush'})
-    event.remove({output: 'oreberriesreplanted:zinc_oreberry_bush'})
+
 
     event.remove({output: 'waystones:waystone'})
     event.remove({output: 'waystones:mossy_waystone'})
@@ -37,7 +33,6 @@ ServerEvents.recipes(event => {
     event.remove({output: 'villagertools:darkness'})
     event.remove({output: 'villagertools:guard'})
     event.remove({output: 'villagertools:knowledge'})
-    event.remove({mod: 'gateways'})
 
     event.remove({output: 'greekfantasy:golden_sapling'})
     event.remove({output: 'greekfantasy:winged_sandals'})
