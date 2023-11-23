@@ -644,7 +644,7 @@
 				type: "item"
 			}]
 			x: 20.0d
-			y: -5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["01ECE22274DDE487"]
@@ -1223,8 +1223,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: 0.0d
+			x: 13.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["18FF6DA5335C0711"]
@@ -1861,10 +1861,6 @@
 				"The perks are small bonus related to all the features of tombstone, instead of providing them by default."
 			]
 			id: "5FD02944DC20453B"
-			rewards: [{
-				id: "63163631DC0E8308"
-				type: "custom"
-			}]
 			subtitle: "Chose your first knowledge of death"
 			tasks: [{
 				advancement: "tombstone:adventure/choose_knowledge"
@@ -1938,6 +1934,11 @@
 		}
 		{
 			dependencies: ["5FD02944DC20453B"]
+			description: [
+				"Once enchanted, they allow to teleport in various ways."
+				""
+				"In ancient time, tablets had the ability to transport multiple creatures, but not one remembers the secret of their creation."
+			]
 			id: "631533869B9D2B84"
 			rewards: [
 				{
@@ -1969,6 +1970,17 @@
 		}
 		{
 			dependencies: ["5FD02944DC20453B"]
+			description: [
+				"The Ankh allows you to use prayers by period."
+				""
+				"You can pray near a Decorative Grave giving you a chance to receive a beneficial effect or on certain creatures depending on your alignment."
+				""
+				"If your alignment is neutral or better, you can use Exorcism to convert a zombie-villager into a villager (or Zombify doing the opposite if your alignment is negative)"
+				""
+				"If your alignment is +1, you can use Prayer of Protection on a villager preventing its next death."
+				""
+				"If your alignment is +2, you can use Prayer of Empathy to rally a tameable creature."
+			]
 			id: "054955FDD2370B91"
 			rewards: [
 				{
@@ -2052,70 +2064,6 @@
 					type: "item"
 				}
 				{
-					id: "42EC7A2426693D44"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "byg:raw_pendorite"
-					}
-					type: "item"
-				}
-				{
-					id: "6C27A83BA79F4D24"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							rpgloot.randomize: 0b
-							type: "ingots_basic"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0D2AA099D12A74A3"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							rpgloot.randomize: 0b
-							type: "materials_monsters"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0D7A67BCC8CB2BBA"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							rpgloot.randomize: 0b
-							type: "materials_random"
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "6079C827DC85BA7F"
 					item: {
 						Count: 1b
@@ -2180,32 +2128,6 @@
 							rpgloot.randomize: 0b
 							type: "materials_magic"
 						}
-					}
-					type: "item"
-				}
-				{
-					id: "45586F4DBF75786F"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "randomloot:basic_case"
-					}
-					type: "item"
-				}
-				{
-					id: "0EA53129FDEF92EC"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "randomloot:golden_case"
 					}
 					type: "item"
 				}
