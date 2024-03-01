@@ -109,3 +109,5 @@ ServerEvents.recipes(event => {
     event.shapeless('9x kubejs:coin_05', ['kubejs:coin_06'])
 
 })
+
+Platform.getInfo('rad3').name = 'RAD 3'

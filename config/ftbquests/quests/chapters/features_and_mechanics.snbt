@@ -14,109 +14,25 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 4.0d
+			height: 3.5430579964850613d
 			hover: [ ]
-			image: "rad2:textures/misc/rad.png"
+			image: "rad3:textures/misc/rad.png"
 			rotation: 0.0d
-			width: 20.0d
-			x: 5.0d
-			y: 4.0d
+			width: 18.0d
+			x: 0.0d
+			y: -10.5d
 		}
 		{
 			click: ""
 			corner: false
 			dev: false
-			height: 9.0d
+			height: 20.224137931034484d
 			hover: [ ]
-			image: "rad2:textures/misc/paper1.png"
-			rotation: -5.0d
-			width: 9.0d
-			x: 0.5d
-			y: -2.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 9.0d
-			hover: [ ]
-			image: "rad2:textures/misc/paper2.png"
-			rotation: 5.0d
-			width: 9.0d
-			x: 11.0d
-			y: -1.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 9.0d
-			hover: [ ]
-			image: "rad2:textures/misc/paper3.png"
-			rotation: 5.0d
-			width: 9.0d
-			x: -2.5d
-			y: 9.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 9.0d
-			hover: [ ]
-			image: "rad2:textures/misc/paper4.png"
-			rotation: -8.0d
-			width: 9.0d
-			x: 9.0d
-			y: 9.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 5.0d
-			hover: [ ]
-			image: "rad2:textures/misc/qb-combatmech.png"
+			image: "rad3:textures/misc/quest-info.png"
 			rotation: 0.0d
-			width: 8.84848484848485d
-			x: -3.5d
-			y: -7.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 5.408554572271386d
-			hover: [ ]
-			image: "rad2:textures/misc/qb-difficultymech.png"
-			rotation: 0.0d
-			width: 9.5d
-			x: 14.5d
-			y: -6.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 4.5d
-			hover: [ ]
-			image: "rad2:textures/misc/qb-exloration.png"
-			rotation: 0.0d
-			width: 12.542553191489361d
-			x: -6.5d
-			y: 13.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 4.0d
-			hover: [ ]
-			image: "rad2:textures/misc/qb-player.png"
-			rotation: 0.0d
-			width: 11.02158273381295d
-			x: 16.0d
-			y: 9.0d
+			width: 18.0d
+			x: 0.0d
+			y: 0.0d
 		}
 	]
 	order_index: 0
@@ -150,8 +66,8 @@
 				type: "checkmark"
 			}]
 			title: "New mechanics overview"
-			x: 15.0d
-			y: 4.0d
+			x: 0.0d
+			y: -6.0d
 		}
 		{
 			description: [
@@ -187,8 +103,8 @@
 				title: "New Piglins Behavior"
 				type: "checkmark"
 			}]
-			x: -3.5d
-			y: 9.0d
+			x: 3.5d
+			y: -0.5d
 		}
 		{
 			description: [
@@ -209,8 +125,8 @@
 				title: "New Lunar events"
 				type: "checkmark"
 			}]
-			x: 23.5d
-			y: 3.0d
+			x: 3.5d
+			y: 2.5d
 		}
 		{
 			description: [
@@ -228,13 +144,7 @@
 				""
 				"• Undergarden - a dark, subterranean world located deep below the bedrock of the Overworld. The flora here has adapted to their conditions and can grow anywhere, independent of light. Strange creatures call these dark lands home, and are plagued by the invasive Rotspawn, monsters originating from a chaotic, mysterious realm."
 			]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "twilightforest:twilight_portal_miniature_structure"
-			}
+			icon: "twilightforest:twilight_portal_miniature_structure"
 			id: "6EAF4C02AC262FC0"
 			rewards: [{
 				id: "59B1B5BF66E28F2F"
@@ -250,15 +160,15 @@
 				type: "item"
 			}]
 			shape: "square"
-			size: 2.0d
+			size: 1.5d
 			subtitle: "Current dimensions count: 8"
 			tasks: [{
 				id: "1A3AEEE0A82E3188"
 				title: "New dimensions!"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: 7.5d
+			x: 1.25d
+			y: -1.25d
 		}
 		{
 			description: [
@@ -288,18 +198,17 @@
 				}
 				type: "item"
 			}]
-			size: 2.0d
+			size: 1.5d
 			tasks: [{
 				id: "3E8E9CE8F8302CF2"
 				title: "New structures!"
 				type: "checkmark"
 			}]
 			title: "New and overhauled structures!"
-			x: -2.0d
-			y: 9.5d
+			x: 1.25d
+			y: 0.25d
 		}
 		{
-			dependencies: ["375994C478ED20DF"]
 			description: [
 				"Each animal and human being can now bleed. This is an effect that deals damage similar to poison and can be removed using a new item: Bandages. The chance of bleeding is lower the more pieces of armor you have."
 				""
@@ -324,8 +233,8 @@
 				title: "Bleeding"
 				type: "checkmark"
 			}]
-			x: 2.5d
-			y: -1.5d
+			x: -6.5d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -372,7 +281,7 @@
 				title: "Progressive Bosses"
 				type: "checkmark"
 			}]
-			x: 23.5d
+			x: -1.5d
 			y: 2.0d
 		}
 		{
@@ -385,13 +294,7 @@
 				""
 				"- Master Mode starts when the Ender Dragon is defeated by someone."
 			]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "kubejs:scaling"
-			}
+			icon: "kubejs:scaling"
 			id: "577182F7C0C5B85B"
 			rewards: [{
 				id: "203EF8DF6395F7A6"
@@ -404,14 +307,14 @@
 				}
 				type: "item"
 			}]
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "654635E50ADA3AD9"
 				title: "Progressive Difficulty"
 				type: "checkmark"
 			}]
-			x: 11.5d
-			y: -3.0d
+			x: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["577182F7C0C5B85B"]
@@ -457,8 +360,8 @@
 				type: "checkmark"
 			}]
 			title: "Normal mode changes"
-			x: 11.5d
-			y: -1.5d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -500,8 +403,8 @@
 				type: "checkmark"
 			}]
 			title: "Overhauled Villages and Villagers"
-			x: -3.5d
-			y: 10.0d
+			x: 2.5d
+			y: 0.5d
 		}
 		{
 			description: [
@@ -539,8 +442,8 @@
 				title: "Trinkets and curious"
 				type: "checkmark"
 			}]
-			x: 10.0d
-			y: 10.0d
+			x: 5.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6E509EA1B20B6476"]
@@ -600,8 +503,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 11.5d
-			y: -0.5d
+			x: -3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["78655B49D92DA1AB"]
@@ -658,8 +561,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 11.5d
-			y: 0.5d
+			x: -3.0d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -695,8 +598,8 @@
 				id: "6121BA739D1C7316"
 				type: "advancement"
 			}]
-			x: 10.0d
-			y: 11.0d
+			x: 6.5d
+			y: 0.5d
 		}
 		{
 			description: ["The core of the mod is its mechanics, which add new ways to attack and defend. These are intended to supplement the vanilla combat system, and make new playstyles viable. If you aren't sure how to get started, a patchouli guidebook is available, crafted with a book and gold sword."]
@@ -722,17 +625,16 @@
 				}
 				type: "item"
 			}]
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "143C73DD83BE9F6C"
 				type: "checkmark"
 			}]
 			title: "Combat Mechanics"
-			x: 0.0d
-			y: -2.0d
+			x: -6.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["375994C478ED20DF"]
 			description: ["Parrying is a relatively simple mechanic. When you are hit with a melee attack, if you are swinging a weapon the attack will be deflected. A \"weapon\" in this case is any item with an attack damage value, eg a sword or pickaxe. To parry, you must be aiming at the attacker. Parrying is easier the higher the attack recharge meter is. A successful parry reduces the defense meter."]
 			icon: "kubejs:parry"
 			id: "0C2E1DD15D80D4F7"
@@ -741,11 +643,10 @@
 				title: "Parrying"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: -4.5d
+			x: -5.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["375994C478ED20DF"]
 			description: ["Dual Wielding allows you to use a weapon from your offhand. Parry This! uses a unique implementation of dual wield. Instead of using right click to trigger an offhand attack, you will alternate between your main and off hands by attacking normally. Dual wielding grants a small boost in attack speed, as well as a penalty for using weapons with differing speeds. Some weapons are marked as \"two handed\", and cannot be used for dual wielding."]
 			icon: "kubejs:dualwield"
 			id: "4E816C3883966AE9"
@@ -754,11 +655,10 @@
 				title: "Dual Wielding"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: -4.5d
+			x: -5.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["375994C478ED20DF"]
 			description: ["Shield bash is a special attack that can be performed using a shield. While blocking, pressing the attack button (default left click) will cause the shield to bash against anything in front of you. A bash can hit a maximum of 3 targets at once, though the \"bashing\" enchant can allow you to hit more. Bashing a target will do one of two things; Against players, bashing will briefly remove their ability to parry attacks. Against mobs, it will cause the them to briefly take 150% damage. Upon bashing, your shield will be placed on a cooldown. This cooldown increases with each target hit, and is drastically reduced if you miss your shield bash."]
 			icon: "kubejs:shield"
 			id: "3E19A4FC23E03CEA"
@@ -767,11 +667,10 @@
 				title: "Shield Bash"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: -4.5d
+			x: -5.5d
+			y: -0.5d
 		}
 		{
-			dependencies: ["375994C478ED20DF"]
 			description: ["Backstab is a powerful special attack that can be performed by attacking a target from behind. It's hard to hit, but if you get your aim right, you can deal 300% damage to your target. Combined with vanilla stealth mechanics, such as sneaking and invisibility, a rouge or ninja playstyle becomes practical. In pvp, backstabs are practically impossible if your enemy knows you are coming, so use stealth to your advantage. Backstab works with both melee and ranged attacks, making sniping possible as well. Backstab only affects targets with 20 max health or less by default."]
 			icon: "kubejs:backstab"
 			id: "5005C51CA1B68CC3"
@@ -780,11 +679,10 @@
 				title: "Backstab"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: -4.5d
+			x: -5.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["375994C478ED20DF"]
 			description: ["Dodge is a movement ability, similar to sprinting. By holding alt (configurable) and tapping A, S, or D (or whatever keys your movement is bound to) you can leap left, backwards, or right, respectively. This ability has a short, invisible cooldown. Knockback resistance has an adverse effect on dodging, reducing its power. Thus, wearing Netherite armor will make dodging somewhat less effective. Additionally, you must be touching the ground to dodge, so it may not always be effective in pvp due to the large amount of jumping. The distance you dodge can be improved through the jump boost effect. Each level of jump boost adds roughly one block of dodge distance."]
 			icon: "kubejs:dodge"
 			id: "14F6CBFA581F6A50"
@@ -793,11 +691,10 @@
 				title: "Dodge"
 				type: "checkmark"
 			}]
-			x: 2.5d
-			y: -4.5d
+			x: -6.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["375994C478ED20DF"]
 			description: ["Certain weapons have a new attribute called \"armor penetration\". This attribute specifies a percentage of the weapon's damage that ignores armor. So if your weapon has 35% armor penetration, 35% of the weapon's damage will ignore armor. All bludgeoning weapons possess armor penetration to varying degrees."]
 			icon: "kubejs:armorpen"
 			id: "7BD97790AFE589EC"
@@ -819,11 +716,10 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: -3.5d
+			x: -6.5d
+			y: -0.5d
 		}
 		{
-			dependencies: ["375994C478ED20DF"]
 			description: [
 				"The defense meter is the little shield under your crosshair that appears whenever you block or parry. Whenever you parry a blow or block one with a shield, your defense meter is reduced. If it hits zero, you are briefly stunned, and any shield you were using is disabled briefly. It recharges fairly quickly, but higher damage blows will reduce the meter more, so be careful when up against high damage enemies such as vindicators or players with a hammer."
 				"{image:kubejs:textures/item/defence.png width:50 height:50 align:1}"
@@ -835,8 +731,8 @@
 				title: "Defense Meter"
 				type: "checkmark"
 			}]
-			x: 2.5d
-			y: -2.5d
+			x: -6.5d
+			y: 0.5d
 		}
 		{
 			description: [
@@ -853,8 +749,8 @@
 				title: "JEI (recipe browser)"
 				type: "checkmark"
 			}]
-			x: 9.0d
-			y: 11.0d
+			x: 0.0d
+			y: -7.5d
 		}
 		{
 			description: [
@@ -872,35 +768,15 @@
 			]
 			icon: "ftbquests:book"
 			id: "18CBF0FC77FABE29"
+			size: 2.0d
 			tasks: [{
 				id: "4937242851A973EA"
 				title: "Quests"
 				type: "checkmark"
 			}]
 			title: "Quest types and Rewards"
-			x: 10.0d
-			y: 8.0d
-		}
-		{
-			icon: {
-				Count: 1b
-				id: "twilightforest:ironwood_pickaxe"
-				tag: {
-					Damage: 0
-					Enchantments: [{
-						id: "minecraft:efficiency"
-						lvl: 1s
-					}]
-				}
-			}
-			id: "4FE32FA75F3AC8FB"
-			tasks: [{
-				id: "7FC7FF0F609743DA"
-				title: "Veinminer and how to deal with it"
-				type: "checkmark"
-			}]
-			x: 8.0d
-			y: 11.0d
+			x: 5.5d
+			y: -6.0d
 		}
 		{
 			icon: "majruszsdifficulty:pillager_treasure_bag"
@@ -910,20 +786,20 @@
 				title: "Difficult Raids"
 				type: "checkmark"
 			}]
-			x: 13.0d
-			y: -3.0d
+			x: -1.5d
+			y: -1.5d
 		}
 		{
 			icon: "kubejs:armour"
 			id: "58E45F3CBD4827C1"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "2AA6D07315357B13"
 				title: "Equipment properties"
 				type: "checkmark"
 			}]
-			x: 8.5d
-			y: 9.5d
+			x: 5.5d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -953,8 +829,8 @@
 				title: "Companions"
 				type: "checkmark"
 			}]
-			x: -3.5d
-			y: 11.0d
+			x: 3.5d
+			y: 0.5d
 		}
 		{
 			description: [
@@ -983,8 +859,8 @@
 				title: "Potioneering"
 				type: "checkmark"
 			}]
-			x: 9.0d
-			y: 8.0d
+			x: 6.5d
+			y: -0.5d
 		}
 		{
 			description: [
@@ -1003,8 +879,8 @@
 				title: "Paraglider"
 				type: "checkmark"
 			}]
-			x: -3.5d
-			y: 7.0d
+			x: 3.5d
+			y: -1.5d
 		}
 		{
 			description: [
@@ -1027,8 +903,8 @@
 				title: "ViesCraft Machines"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: 11.0d
+			x: 3.5d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -1046,8 +922,8 @@
 				title: "Amplified Nether"
 				type: "checkmark"
 			}]
-			x: -2.5d
-			y: 11.0d
+			x: 2.5d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -1079,8 +955,8 @@
 				title: "RPG Gods"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: 11.0d
+			x: 2.5d
+			y: 2.5d
 		}
 		{
 			description: ["Similar to Wandering Traders, goblins are found randomly underground in caves or in the nether and provide exclusive and beneficial trades that allow you to take your adventure to the next level! Goblin Traders adds two new traders, the Golbin Trader which is found in the overworld and the Vein Goblin Trader which is found in The Nether; both with their own unique set of trades. These little goblins have a little attitude and don't like it when you hit them. If you're feeling generous you can feed them their favourite food for a fun animation."]
@@ -1092,8 +968,8 @@
 				title: "Goblin traders"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: 10.0d
+			x: 2.5d
+			y: -1.5d
 		}
 		{
 			id: "6D12F4512F2EAAAB"
@@ -1104,8 +980,8 @@
 				title: "Harder Branch Mining"
 				type: "checkmark"
 			}]
-			x: 22.5d
-			y: 2.0d
+			x: 5.5d
+			y: 3.5d
 		}
 		{
 			id: "3F5526776AC13993"
@@ -1114,8 +990,8 @@
 				title: "Factions"
 				type: "checkmark"
 			}]
-			x: 13.0d
-			y: -1.0d
+			x: -1.5d
+			y: 0.5d
 		}
 		{
 			description: [
@@ -1162,8 +1038,8 @@
 				title: "Champions"
 				type: "checkmark"
 			}]
-			x: 13.0d
-			y: -2.0d
+			x: -1.5d
+			y: -0.5d
 		}
 		{
 			description: [
@@ -1198,8 +1074,8 @@
 				title: "Wall-Jump!"
 				type: "checkmark"
 			}]
-			x: 24.5d
-			y: 2.0d
+			x: 6.5d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -1243,8 +1119,8 @@
 				title: "Dodge"
 				type: "checkmark"
 			}]
-			x: 25.5d
-			y: 2.0d
+			x: -5.5d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -1274,8 +1150,8 @@
 				type: "item"
 			}]
 			title: "Waystones"
-			x: -0.5d
-			y: 9.0d
+			x: 2.5d
+			y: -0.5d
 		}
 		{
 			description: [
@@ -1310,8 +1186,8 @@
 				title: "Dietary Diversity"
 				type: "checkmark"
 			}]
-			x: 10.0d
-			y: 9.0d
+			x: 5.5d
+			y: -0.5d
 		}
 		{
 			description: [
@@ -1327,8 +1203,8 @@
 				type: "checkmark"
 			}]
 			title: "Specializations (Quest book)"
-			x: 8.0d
-			y: 8.0d
+			x: 6.5d
+			y: -1.5d
 		}
 		{
 			icon: "kubejs:arrow_left"
@@ -1340,8 +1216,8 @@
 				title: "MORE QUESTS ARE WAITING!"
 				type: "checkmark"
 			}]
-			x: -7.0d
-			y: 4.0d
+			x: -6.0d
+			y: -6.0d
 		}
 		{
 			description: [
@@ -1386,8 +1262,8 @@
 				title: "Disenchanting"
 				type: "checkmark"
 			}]
-			x: 11.0d
-			y: 10.0d
+			x: 5.5d
+			y: 0.5d
 		}
 		{
 			description: [
@@ -1413,8 +1289,167 @@
 				type: "checkmark"
 			}]
 			title: "Combat Roll ability"
-			x: 1.5d
-			y: -0.5d
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Press 'J' (you will most likely have to change this if it conflicts with something) to open the Titles gui."
+				""
+				"Understand that you may not have any titles to choose from at first."
+				"Simply complete advancements  to start growing your selection."
+			]
+			icon: "titles:title_scroll_common"
+			id: "4B93CE8715CACD5A"
+			rewards: [{
+				id: "0A699ECD95D9583E"
+				item: "titles:title_scroll_common"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5392A0BFA52D6B1C"
+				title: "Titles"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"- Renders white lines around blocks that will be mined."
+				"- You can also use hoe on grass in similar way to till multiple blocks at once."
+				"- Harvest crops by right-clicking on them"
+				""
+				"Select a shape by holding shift and the grave key while scrolling the mouse scroll wheel."
+				"- Shapeless: No shape applied."
+				"- Small Tunnel: A 1x1 deep tunnel."
+				"- Small Square: A 3x3x1. (Depth of one. If you want a long 3x3 tunnel, you are probably better off digging 9 separate small tunnels.)"
+				"- Mining Tunnel: A 1x1 tunnel angled down. (You will need at least 3 of these to form stairs you can walk down.)"
+				"- Escape Tunnel: Same as the mining tunnel, but upward."
+				""
+				"Tip: Just remember to reset your shape to shapeless for clearing ore deposits or you will only mine the ores in the selected shape."
+			]
+			icon: "itemfilters:not"
+			id: "143E7EB383FC8A60"
+			rewards: [{
+				id: "65B246D328EEEA52"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "apotheosis:strong_haste"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Veinminer/OreExcavation alternative"
+			tasks: [{
+				id: "0EEDD89EE27ED37B"
+				title: "Ultimine"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			id: "3FB7CA8B1B9177B4"
+			tasks: [{
+				id: "670F2A9BF4205B90"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			id: "14073087024F4551"
+			tasks: [{
+				id: "6F84BC404DF63DAF"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			description: [""]
+			icon: "minecraft:grass_block"
+			id: "2D971B6D39514E9B"
+			tasks: [{
+				id: "13D715AFAB489779"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r &2'World Exploration'&r &6chapter&r"
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			id: "3BC63DBDCE08EDBB"
+			tasks: [{
+				id: "369E6D1DC3B0D8A7"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			description: [""]
+			icon: "minecraft:crimson_nylium"
+			id: "4FE6302AF76BF9EE"
+			tasks: [{
+				id: "2CAF77C722D60D4A"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r &4'Nether Exploration'&r &6chapter&r"
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			description: [""]
+			icon: "minecraft:end_crystal"
+			id: "2E3A0AF4AD866EBE"
+			tasks: [{
+				id: "7C2A6F8848CFA541"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r &f'End Exploration'&r &6chapter&r"
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			description: [""]
+			icon: "undergarden:deepturf_block"
+			id: "6DB365442C2C823F"
+			tasks: [{
+				id: "49251F92DA7B03C9"
+				title: "Complete 'The garden Under' chapter"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r &2'The garden Under'&r &6chapter&r"
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			description: [""]
+			icon: "the_bumblezone:beehemoth_spawn_egg"
+			id: "373214B57FF3A1D8"
+			tasks: [{
+				id: "08C142A115970BB1"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r &e'To the Bumblezone'&r &6chapter&r"
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			description: ["&6Complete&r &f'Stairway to Aether'&r &6chapter&r"]
+			icon: "aether:aether_grass_block"
+			id: "3FE60105340A9769"
+			tasks: [{
+				id: "569AE99D41C782C3"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r &f'Stairway to Aether'&r &6chapter&r"
+			x: -2.0d
+			y: 8.0d
 		}
 	]
 	title: "Features | mechanics"

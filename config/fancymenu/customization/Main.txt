@@ -37,46 +37,13 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
-  orientation = top-right
-  x = -20
-  action = movebutton
-  y = 0
-}
-
-customization {
   identifier = %id=376322%
   action = hidebutton
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  orientation = mid-left
-  x = 1
-  action = movebutton
-  y = 37
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  width = 117
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config\fancymenu\buttons\options_h.png
-  backgroundnormal = config\fancymenu\buttons\options.png
+  identifier = %id=9384%
+  action = hidebutton
 }
 
 customization {
@@ -110,14 +77,6 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  orientation = top-right
-  x = -44
-  action = movebutton
-  y = 0
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-left
   x = 1
@@ -141,17 +100,58 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  action = hidebutton
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   action = hidebutton
 }
 
 customization {
-  identifier = %id=376346%
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = top-right
+  x = -20
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-left
+  x = 1
+  action = movebutton
+  y = 37
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 117
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\buttons\options_h.png
+  backgroundnormal = config\fancymenu\buttons\options.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = top-right
+  x = -44
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   action = hidebutton
 }
 
@@ -258,6 +258,18 @@ customization {
 }
 
 customization {
+  path = config/fancymenu/changelog.png
+  orientation = mid-right
+  x = -268
+  width = 267
+  action = addtexture
+  actionid = eaeb4a6b-297f-4013-90cc-1440cd881e981704470193337
+  y = -40
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:84a3bf1c-5838-43e5-8de1-6f574be977291704470816083] = 1900
+  height = 138
+}
+
+customization {
   path = config/fancymenu/buttons/rad.png
   orientation = top-left
   x = 1
@@ -266,5 +278,25 @@ customization {
   actionid = 8638351a-3b4e-48c9-885d-ce05bb73d7961617450957456
   y = 18
   height = 76
+}
+
+customization {
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:df9596a1-0e3a-4ad9-bd29-662942ec6beb1704470705834] = 1900
+  orientation = mid-right
+  enable_scrolling = true
+  shadow = true
+  scale = 0.6
+  source = https://raw.githubusercontent.com/dr3ams/RAD2-1.20.1/main/changelog.txt
+  text_border = 0
+  case_mode = normal
+  source_mode = web
+  line_spacing = 1
+  x = -266
+  width = 248
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = b2e29bb2-3b85-4720-b135-8fb307ba54801704469739548
+  y = -34
+  alignment = left
+  height = 124
 }
 

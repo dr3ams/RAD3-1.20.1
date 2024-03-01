@@ -96,6 +96,9 @@
     # Whether or not Darkest Scroll should be enabled. [default: true, synchronized: yes]
     B:DarkestScrollEnabled=true
 
+    # Whether or not Deception Amulet should be enabled. [default: true, synchronized: yes]
+    B:DeceptionAmuletEnabled=true
+
     # If true, tools with area of effect abilities will not have those abilities disabled when player holds Shift (crouches). [default: false, synchronized: yes]
     B:DisableAOEShiftSuppression=false
 
@@ -258,6 +261,9 @@
     # Whether or not Slayer Enchantment should be enabled. [default: true, synchronized: yes]
     B:SlayerEnchantmentEnabled=true
 
+    # Whether or not Soul Dust should be enabled. [default: true, synchronized: yes]
+    B:SoulDustEnabled=true
+
     # Whether or not Tattered Tome should be enabled. [default: true, synchronized: yes]
     B:TatteredTomeEnabled=true
 
@@ -275,6 +281,9 @@
 
     # Whether or not The Infinitum should be enabled. [default: true, synchronized: yes]
     B:TheInfinitumEnabled=true
+
+    # Whether or not The Judgement should be enabled. [default: true, synchronized: yes]
+    B:TheJudgementEnabled=true
 
     # Whether or not The Testament of Contempt should be enabled. [default: true, synchronized: yes]
     B:TheTestamentofContemptEnabled=true
@@ -350,19 +359,19 @@
     I:AstralBreakerMiningRadius=3
 
     # Chance to get an Emerald when slaying any mob with Pact of Infinite Avarice equipped. [range: 0 ~ 100, default: 15, synchronized: yes]
-    I:AvariceScrollEmeraldChance=5
+    I:AvariceScrollEmeraldChance=15
 
     # Attack speed increase provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 1.0, synchronized: yes]
-    D:BerserkEmblemAttackSpeedBoost=0.0
+    D:BerserkEmblemAttackSpeedBoost=1.0
 
     # Damage increase provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 1.0, synchronized: yes]
-    D:BerserkEmblemDamageBoost=1.5
+    D:BerserkEmblemDamageBoost=1.0
 
     # Damage resistance provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 0.5, synchronized: yes]
-    D:BerserkEmblemResistanceBoost=0.2
+    D:BerserkEmblemResistanceBoost=0.5
 
     # Movement speed increase provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 0.5, synchronized: yes]
-    D:BerserkEmblemSpeedBoost=0.2
+    D:BerserkEmblemSpeedBoost=0.5
 
     # Active ability cooldown for Blazing Core. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 0, synchronized: yes]
     I:BlazingCoreCooldown=0
@@ -389,10 +398,10 @@
     I:CosmicScrollUnchosenKnockbackBonus=100
 
     # Damage increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 4, synchronized: yes]
-    I:CursedScrollDamageBoost=1
+    I:CursedScrollDamageBoost=4
 
     # Mining speed increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 7, synchronized: yes]
-    I:CursedScrollMiningBoost=2
+    I:CursedScrollMiningBoost=7
 
     # Health regeneration increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 4, synchronized: yes]
     I:CursedScrollRegenBoost=4
@@ -424,7 +433,7 @@
     I:EnderSlayerEndKnockbackBonus=600
 
     # The damage bonus stat provided by red Enigmatic Amulet. [range: -32768.0 ~ 32768.0, default: 1.5, synchronized: yes]
-    D:EnigmaticAmuletDamageBonus=1.0
+    D:EnigmaticAmuletDamageBonus=1.5
 
     # Whether or not it should be possible to equip multiple Enigmatic Amulets, granted player somehow gets more than one charm slot. [default: false, synchronized: yes]
     B:EnigmaticAmuletMultiequip=false
@@ -481,10 +490,10 @@
     I:EyeOfNebulaDodgeChance=15
 
     # Range in which Eye of the Nebula searches for a position to teleport it's bearer to when dodging the attack. [range: 1.0 ~ 128.0, default: 16.0, synchronized: yes]
-    D:EyeOfNebulaDodgeRange=6.0
+    D:EyeOfNebulaDodgeRange=16.0
 
     # Magic Damage boost provided by Eye of the Nebula. Defined as percentage. [range: 0 ~ 32768, default: 40, synchronized: yes]
-    I:EyeOfNebulaMagicBoost=20
+    I:EyeOfNebulaMagicBoost=40
 
     # Magic Damage resistance provided by Eye of the Nebula. Defined as percentage. [range: 0 ~ 100, default: 65, synchronized: yes]
     I:EyeOfNebulaMagicResistance=65
@@ -502,13 +511,13 @@
     D:ForbiddenFruitDebuffDurationMultiplier=1.0
 
     # How much should be subtracted from regeneration of player who have consumed The Forbidden Fruit.  [range: 0 ~ 100, default: 80, synchronized: yes]
-    I:ForbiddenFruitRegenerationSubtraction=95
+    I:ForbiddenFruitRegenerationSubtraction=80
 
     # Active ability cooldown for Heart of the Golem. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 0, synchronized: yes]
     I:GolemHeartCooldown=0
 
     # Default amount of armor points provided by Heart of the Golem. [range: 0.0 ~ 256.0, default: 4.0, synchronized: yes]
-    D:GolemHeartDefaultArmor=6.0
+    D:GolemHeartDefaultArmor=4.0
 
     # List of items that should not be counted as armor by Heart of the Golem, even when equipped in armor slots. [default: [minecraft:elytra], [enigmaticlegacy:enigmatic_elytra], synchronized: no]
     S:GolemHeartExcludedArmor <
@@ -517,19 +526,19 @@
      >
 
     # Resistance to explosion damage provided by Heart of the Golem. Defined as percentage. [range: 0 ~ 100, default: 40, synchronized: yes]
-    I:GolemHeartExplosionResistance=60
+    I:GolemHeartExplosionResistance=40
 
     # Resistance to knockback provided by Heart of the Golem. Defined as percentage. [range: 0 ~ 100, default: 100, synchronized: yes]
     I:GolemHeartKnockbackResistance=100
 
     # Resistance to melee attacks provided by Heart of the Golem. Defined as percentage. [range: 0 ~ 100, default: 25, synchronized: yes]
-    I:GolemHeartMeleeResistance=30
+    I:GolemHeartMeleeResistance=25
 
     # The amount of armor points provided by Heart of the Golem when it's bearer has no armor equipped. [range: 0.0 ~ 256.0, default: 16.0, synchronized: yes]
-    D:GolemHeartSuperArmor=18.0
+    D:GolemHeartSuperArmor=16.0
 
     # The amount of armor toughness provided by Heart of the Golem when it's bearer has no armor equipped. [range: 0.0 ~ 256.0, default: 4.0, synchronized: yes]
-    D:GolemHeartSuperArmorToughness=8.0
+    D:GolemHeartSuperArmorToughness=4.0
 
     # Modifier for Magic Damage vulnerability applied by Heart of the Golem. Default value of 2.0 means that player will receive twice as much damage from magic. [range: 1.0 ~ 256.0, default: 2.0, synchronized: yes]
     D:GolemHeartVulnerabilityModifier=2.0
@@ -562,13 +571,13 @@
     I:MegaspongeRadius=4
 
     # Mining speed boost granted by Charm of Treasure Hunter. Defined as percentage. [range: 0 ~ 1000, default: 30, synchronized: yes]
-    I:MiningCharmBreakSpeed=20
+    I:MiningCharmBreakSpeed=30
 
     # Whether Night Vision ability of Charm of Treasure Hunter should be enabled. [default: true, synchronized: yes]
     B:MiningCharmEnableNightVision=true
 
     # Additional block reach granted by Charm of Treasure Hunter. [range: 0.0 ~ 16.0, default: 2.15, synchronized: yes]
-    D:MiningCharmReachDistance=1.25
+    D:MiningCharmReachDistance=2.15
 
     # Whether or not Emblem of Monster Slayer should provide +1 Looting Level. [default: true, synchronized: yes]
     B:MonsterCharmBonusLooting=true
@@ -577,7 +586,7 @@
     B:MonsterCharmDoubleXP=true
 
     # Damage bonus against agressive creatures for Emblem of Monster Slayer. Defined as percentage. [range: 0 ~ 1000, default: 10, synchronized: yes]
-    I:MonsterCharmHostileDamage=25
+    I:MonsterCharmHostileDamage=10
 
     # Damage bonus against undead enemies for Emblem of Monster Slayer. Defined as percentage. [range: 0 ~ 1000, default: 25, synchronized: yes]
     I:MonsterCharmUndeadDamage=25
@@ -696,7 +705,7 @@
 
 "Save the Bees" {
     # If true, bees will never affected by the Second Curse of Ring of the Seven Curses. [default: false, synchronized: yes]
-    B:CursedRingDontTouchMyBees=true
+    B:CursedRingDontTouchMyBees=false
 }
 
 
@@ -708,37 +717,37 @@
 
 "The Seven Curses" {
     # How much less effective armor will be for those who bear the ring. Measured as percetage. [range: 0 ~ 100, default: 30, synchronized: yes]
-    I:CursedRingArmorDebuff=25
+    I:CursedRingArmorDebuff=30
 
     # If true, Ring of the Seven Curses will be equipped into player's ring slot right away when it enters their inventory. This is different from ultra hardcore option as the way through which ring ends up in player's inventory does not matter. [default: false, synchronized: yes]
     B:CursedRingAutoEquip=false
 
     # Set to false to disable ALL special drops that can be obtained from vanilla mobs when bearing Ring of the Seven Curses. [default: true, synchronized: yes]
-    B:CursedRingEnableSpecialDrops=false
+    B:CursedRingEnableSpecialDrops=true
 
     # How much additional Enchanting Power ring provides in Enchanting Table. [range: 0 ~ 32768, default: 10, synchronized: yes]
     I:CursedRingEnchantingBonus=10
 
     # Allows to adjust how frequently Endermen will try to randomly teleport to player bearing the ring, even if they can't see the player and are not angered yet. Lower value = less probability of this happening. [range: 0.01 ~ 32768.0, default: 1.0, synchronized: yes]
-    D:CursedRingEndermenRandomportFrequency=0.05
+    D:CursedRingEndermenRandomportFrequency=1.0
 
     # Range in which Endermen can try to randomly teleport to bearers of the ring. [range: 8.0 ~ 32768.0, default: 32.0, synchronized: yes]
-    D:CursedRingEndermenRandomportRange=16.0
+    D:CursedRingEndermenRandomportRange=32.0
 
     # How much experience will drop from mobs to bearers of the ring, measured in percents. [range: 0 ~ 32768, default: 400, synchronized: yes]
-    I:CursedRingExperienceBonus=200
+    I:CursedRingExperienceBonus=400
 
     # How many bonus Fortune levels ring provides [range: 0 ~ 32768, default: 1, synchronized: yes]
-    I:CursedRingFortuneBonus=2
+    I:CursedRingFortuneBonus=1
 
     # How much knockback bearers of the ring take, measured in percents. [range: 0 ~ 32768, default: 200, synchronized: yes]
     I:CursedRingKnockbackDebuff=200
 
     # How many bonus Looting levels ring provides [range: 0 ~ 32768, default: 1, synchronized: yes]
-    I:CursedRingLootingBonus=2
+    I:CursedRingLootingBonus=1
 
     # How much damage monsters receive from bearers of the ring will be decreased, in percents. [range: 0 ~ 32768, default: 50, synchronized: yes]
-    I:CursedRingMonsterDamageDebuff=60
+    I:CursedRingMonsterDamageDebuff=50
 
     # List of entities that should never be affected by the Second Curse of Ring of the Seven Curses. Examples: minecraft:iron_golem, minecraft:zombified_piglin. Changing this option required game restart to take effect. [default: , synchronized: no]
     S:CursedRingNeutralAngerBlacklist <
@@ -757,7 +766,7 @@
     B:CursedRingUltraHardcore=false
 
     # Set to true to prevent curse of insomnia from actually doing anything. [default: false, synchronized: yes]
-    B:CursedRingdisableInsomnia=true
+    B:CursedRingdisableInsomnia=false
 }
 
 

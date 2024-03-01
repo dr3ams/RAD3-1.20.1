@@ -18,29 +18,29 @@
 		#Setting to zero would make the repair kit unusable.
 		[item.repairKits.capacity]
 			#Range: > 0
-			very_crude = 16
+			very_crude = 8
 			#Range: > 0
-			crude = 32
+			crude = 16
 			#Range: > 0
-			sturdy = 64
+			sturdy = 32
 			#Range: > 0
-			crimson = 128
+			crimson = 48
 			#Range: > 0
-			azure = 512
+			azure = 64
 
 		#Efficiency is the percentage of the repair value used. Higher values mean less materials used.
 		#Setting to zero would make the repair kit unusable.
 		[item.repairKits.efficiency]
 			#Range: 0.0 ~ 10.0
-			very_crude = 0.3
+			very_crude = 0.30000001192092896
 			#Range: 0.0 ~ 10.0
-			crude = 0.3
+			crude = 0.3499999940395355
 			#Range: 0.0 ~ 10.0
-			sturdy = 0.5
+			sturdy = 0.4000000059604645
 			#Range: 0.0 ~ 10.0
-			crimson = 0.75
+			crimson = 0.44999998807907104
 			#Range: 0.0 ~ 10.0
-			azure = 0.95
+			azure = 0.5
 			#Repair efficiency with loose materials if no repair kit is used.
 			#Setting a value greater than zero makes repair kits optional.
 			#Range: 0.0 ~ 10.0
@@ -78,26 +78,28 @@
 [gear]
 	#Allow parts to be crafted with mixed materials in a crafting grid, like earlier versions.
 	#In 1.17, mixing is normally only allowed in compound-crafting blocks.
-	allowLegacyMaterialMixing = true
+	allowLegacyMaterialMixing = false
 	#If set to false all conversion recipes (type 'silentgear:conversion') will be disabled
 	#An example of a conversion recipe is placing a vanilla stone pickaxe into a crafting grid to make a Silent Gear stone pickaxe
 	#Note: This also affects conversion recipes added by data packs and other mods
-	allowConversionRecipes = false
+	allowConversionRecipes = true
 	#Displays a message in chat, notifying the player that an item broke and hinting that it can be repaired
 	sendBrokenMessage = true
 	#How frequently gear will recalcute stats as damaged
 	#Higher numbers will cause more recalculations, allowing traits to update stat values more often
 	#Range: > 1
-	damageFactorLevels = 50
+	damageFactorLevels = 10
 	#If true, gear breaks permanently, like vanilla tools and armor
 	breaksPermanently = false
 	#The item tier assigned to gear tool items.
 	#Leave this alone unless you are trying to work around mod compatibility issues!
 	#Normally, this value is not used for anything. But some mods mistakenly check it.
+	#Allowed Values: WOOD, STONE, IRON, DIAMOND, GOLD, NETHERITE
 	dummyToolTier = "WOOD"
 	#The armor material assigned to the gear armor items.
 	#Leave this alone unless you are trying to work around mod compatibility issues!
 	#Normally, this value is not used for anything. But some mods mistakenly check it.
+	#Allowed Values: LEATHER, CHAIN, IRON, GOLD, DIAMOND, TURTLE, NETHERITE
 	dummyArmorMaterial = "LEATHER"
 
 	[gear.enchanting]
@@ -161,7 +163,7 @@
 	#Larger numbers will make both higher and lower grades more common.
 	#Extremely large values may completely break the curve, yielding mostly the lowest and highest grades.
 	#Range: 0.0 ~ 100.0
-	standardDeviation = 2.15
+	standardDeviation = 1.5
 
 #Settings for the salvager
 [salvager]
@@ -180,10 +182,10 @@
 [starlightCharger]
 	#The rate at which the starlight charger gathers energy during the night
 	#Range: > 0
-	chargeRate = 250
+	chargeRate = 50
 	#The maximum amount of energy the starlight charger can store
 	#Range: > 0
-	maxCharge = 250000
+	maxCharge = 1000000
 
 [debug]
 

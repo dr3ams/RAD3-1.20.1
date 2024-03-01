@@ -67,7 +67,7 @@
 			y: -2.5d
 		}
 	]
-	order_index: 10
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -2711,13 +2711,9 @@
 				}
 			]
 			tasks: [{
-				block: "minecraft:spawner"
-				block_type: 0
-				checkItem: false
 				id: "2D4C7AB93F4CF1A6"
 				title: "Spawner Smasher"
-				type: "questsadditions:break"
-				value: 25L
+				type: "custom"
 			}]
 			title: "Break 25 Spawners"
 			x: -1.5d
@@ -2961,12 +2957,8 @@
 				}
 			]
 			tasks: [{
-				block: "minecraft:spawner"
-				block_type: 0
-				checkItem: false
 				id: "35B71F3D14A7D57B"
-				type: "questsadditions:break"
-				value: 50L
+				type: "custom"
 			}]
 			title: "Break 50 Spawners"
 			x: -1.5d
@@ -2996,12 +2988,8 @@
 				}
 			]
 			tasks: [{
-				block: "quark:monster_box"
-				block_type: 0
-				checkItem: false
 				id: "4B19FD7770FDC807"
-				type: "questsadditions:break"
-				value: 25L
+				type: "custom"
 			}]
 			x: 10.5d
 			y: 6.5d
@@ -3023,12 +3011,8 @@
 				}
 			]
 			tasks: [{
-				block: "quark:monster_box"
-				block_type: 0
-				checkItem: false
 				id: "10D71FBED6C96A34"
-				type: "questsadditions:break"
-				value: 50L
+				type: "custom"
 			}]
 			x: 10.5d
 			y: 7.5d
@@ -3077,13 +3061,9 @@
 				}
 			]
 			tasks: [{
-				block: "minecraft:spawner"
-				block_type: 0
-				checkItem: false
 				id: "5DA228070189B1B1"
 				title: "Break 100 Spawners"
-				type: "questsadditions:break"
-				value: 100L
+				type: "custom"
 			}]
 			x: -1.5d
 			y: 8.5d
@@ -3127,12 +3107,8 @@
 				}
 			]
 			tasks: [{
-				block: "quark:monster_box"
-				block_type: 0
-				checkItem: false
 				id: "72B4F1BE542409E1"
-				type: "questsadditions:break"
-				value: 100L
+				type: "custom"
 			}]
 			x: 10.5d
 			y: 8.5d
@@ -3170,13 +3146,9 @@
 			shape: "square"
 			subtitle: "Break 500 Spawners"
 			tasks: [{
-				block: "minecraft:spawner"
-				block_type: 0
-				checkItem: false
 				id: "0BA38C8135DBD375"
 				title: "Spawner Smasher"
-				type: "questsadditions:break"
-				value: 500L
+				type: "custom"
 			}]
 			x: -1.5d
 			y: 9.5d
@@ -3209,13 +3181,9 @@
 			shape: "square"
 			subtitle: "Break 500 Monster Box"
 			tasks: [{
-				block: "quark:monster_box"
-				block_type: 0
-				checkItem: false
 				id: "144956EFB7B19305"
 				title: "Box Buster"
-				type: "questsadditions:break"
-				value: 500L
+				type: "custom"
 			}]
 			x: 10.5d
 			y: 9.5d
@@ -3476,11 +3444,9 @@
 				command: "/gamestate NORMAL"
 				icon: "minecraft:dandelion"
 				id: "6A9AAECB23E4D994"
-				player_command: true
 				title: "Revert gamemode to Normal"
 				type: "command"
 			}]
-			secret: true
 			subtitle: "You have only one chance to bring back your world to normal"
 			tasks: [{
 				id: "3EE133C70097D88F"

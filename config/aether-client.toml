@@ -5,9 +5,9 @@
 	#Disables the Aether's custom skybox in case you have a shader that is incompatible with custom skyboxes
 	"Disables Aether custom skybox" = false
 	#Removes warm-tinting of the lightmap in the Aether, giving the lighting a colder feel
-	"Makes lightmap colder" = false
+	"Makes lightmap colder" = true
 	#Enables a green-tinted sunrise and sunset in the Aether, similar to the original mod
-	"Enables green sunrise/sunset" = false
+	"Enables green sunrise/sunset" = true
 
 [Gui]
 	#Adds a button to the top right of the main menu screen to toggle between the Aether and vanilla menu
@@ -15,9 +15,9 @@
 	#Changes the background panorama into a preview of the latest played world
 	"Enables world preview" = false
 	#Adds a button to the top right of the main menu screen to toggle between the panorama and world preview
-	"Enables toggle world button" = true
+	"Enables toggle world button" = false
 	#Adds a button to the top right of the main menu screen to allow quick loading into a world if the world preview is enabled
-	"Enables quick load button" = true
+	"Enables quick load button" = false
 	#Determines that menu elements will align left if the menu's world preview is active, if true, this overrides 'Align menu elements left'
 	"Align menu elements left with world preview" = false
 	#Determines the default Aether menu style to switch to with the menu theme button
@@ -25,11 +25,13 @@
 	#Determines the default Minecraft menu style to switch to with the menu theme button
 	"Default Minecraft menu style" = "cumulus_menus:minecraft"
 	#Adds random trivia and tips to the bottom of loading screens
-	"Enables random trivia" = false
+	"Enables random trivia" = true
 	#Makes the extra hearts given by life shards display as silver colored
 	"Enables silver life shard hearts" = true
 	#Disables the Aether's accessories button from appearing in GUIs
 	"Disables the accessories button" = false
+	#The y-coordinate of the Ascending to the Aether and Descending from the Aether text in loading screens
+	"Portal text y-coordinate in loading screens" = 50
 	#The x-coordinate of the accessories button in the inventory and curios menus
 	"Button x-coordinate in inventory menus" = 27
 	#The y-coordinate of the accessories button in the inventory and curios menus
@@ -43,17 +45,15 @@
 	#The y-coordinate of the accessories button in the accessories menu
 	"Button y-coordinate in accessories menu" = 68
 	#The x-coordinate of the perks button layout when in the pause menu
-	"Layout x-coordinate in pause menu" = -126
+	"Layout x-coordinate in pause menu" = -116
 	#The y-coordinate of the perks button layout when in the pause menu
 	"Layout y-coordinate in pause menu" = 0
-	#The y-coordinate of the Ascending to the Aether and Descending from the Aether text in loading screens
-	"Portal text y-coordinate in loading screens" = 50
 
 [Audio]
 	#Sets the minimum delay for the Aether's music manager to use if needing to reset the song delay outside the Aether
-	"Set backup minimum music delay" = 12000
+	"Set backup minimum music delay" = 1
 	#Sets the maximum delay for the Aether's music manager to use if needing to reset the song delay outside the Aether
-	"Set backup maximum music delay" = 24000
+	"Set backup maximum music delay" = 2
 	#Disables the Aether's internal music manager, if true, this overrides all other audio configs
 	"Disables Aether music manager" = false
 	#Disables the Aether's menu music in case another mod implements its own, only works if 'Disables Aether music manager' is false
@@ -66,4 +66,6 @@
 [Miscellaneous]
 	#Disables the Cumulus menu selection screen button on launch
 	"Disable Cumulus button" = false
+	#Enables a direct join button for the official server
+	"Enables server button" = false
 

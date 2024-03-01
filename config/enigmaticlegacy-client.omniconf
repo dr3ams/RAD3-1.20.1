@@ -71,7 +71,7 @@
     B:SuppressUnneccessaryOxygenRender=true
 
     # Whether or not Enigmatic Legacy should show notification in chat when new mod update is available. [default: true]
-    B:UpdateHandlerEnabled=false
+    B:UpdateHandlerEnabled=true
 }
 
 
@@ -83,7 +83,7 @@
 
 "The Seven Curses" {
     # If true, tooltip of Ring of the Seven Curses cannot be read before it is equipped. Fun way to teach players that not every mystery is worth investigating. [default: false]
-    B:CursedRingConcealAbilities=true
+    B:CursedRingConcealAbilities=false
 
     # Set to false to disable displaying lore on Ring of the Seven Curses. Useful if you are a modpack developer wanting to have your own. [default: true]
     B:CursedRingDisplayLore=true

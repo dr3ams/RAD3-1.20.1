@@ -10,8 +10,8 @@
   "name": "gui.xaero_entity_category_root",
   "protection": true,
   "settingOverrides": {
-    "displayHeight": 0.0,
     "displayed": true,
+    "displayHeight": 0.0,
     "heightBasedFade": true,
     "renderOrder": 0.0,
     "color": 13.0,
@@ -21,7 +21,7 @@
     "startFadingAt": 0.0,
     "dotSize": 2.0,
     "renderOverMinimapFrame": 1.0,
-    "icons": 1.0,
+    "icons": 2.0,
     "names": 0.0,
     "heightLimit": 20.0,
     "iconScale": 1.0
@@ -33,13 +33,34 @@
       "includeListInSuperCategory": true,
       "excludeMode": "ONLY",
       "excludeList": [
-        "minecraft:armor_stand"
+        "friendsandfoes:copper_golem",
+        "guardvillagers:guard",
+        "minecraft:armor_stand",
+        "minecraft:villager",
+        "naturalist:bass",
+        "naturalist:butterfly",
+        "naturalist:canary",
+        "naturalist:cardinal",
+        "naturalist:caterpillar",
+        "naturalist:finch",
+        "naturalist:firefly",
+        "naturalist:robin",
+        "naturalist:snail",
+        "naturalist:sparrow",
+        "vampirism:advanced_hunter",
+        "vampirism:hunter",
+        "vampirism:hunter_trainer",
+        "vampirism:vampire"
       ],
       "name": "gui.xaero_entity_category_living",
       "protection": true,
       "settingOverrides": {
+        "displayed": true,
         "renderOrder": 2.0,
-        "color": 14.0
+        "names": 0.0,
+        "color": 14.0,
+        "displayNameWhenIconFails": false,
+        "icons": 2.0
       },
       "subCategories": [
         {
@@ -56,6 +77,30 @@
             "color": 15.0
           },
           "subCategories": [
+            {
+              "hardInclude": "nothing",
+              "includeList": [],
+              "includeListInSuperCategory": true,
+              "excludeMode": "ONLY",
+              "excludeList": [],
+              "name": "gui.xaero_entity_category_friend",
+              "protection": true,
+              "settingOverrides": {},
+              "subCategories": []
+            },
+            {
+              "hardInclude": "tracked",
+              "includeList": [],
+              "includeListInSuperCategory": true,
+              "excludeMode": "ONLY",
+              "excludeList": [],
+              "name": "gui.xaero_entity_category_tracked",
+              "protection": true,
+              "settingOverrides": {
+                "icons": 2.0
+              },
+              "subCategories": []
+            },
             {
               "hardInclude": "same-team",
               "includeList": [],
@@ -91,7 +136,10 @@
           "name": "gui.xaero_entity_category_hostile",
           "protection": true,
           "settingOverrides": {
-            "renderOrder": 3.0
+            "displayed": false,
+            "renderOrder": 3.0,
+            "names": 0.0,
+            "icons": 0.0
           },
           "subCategories": [
             {
@@ -159,6 +207,7 @@
       "name": "gui.xaero_entity_category_other_entities",
       "protection": true,
       "settingOverrides": {
+        "displayed": false,
         "color": 5.0
       },
       "subCategories": []

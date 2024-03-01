@@ -1,31 +1,11 @@
 
-["The Bumblezone Dimension Options"]
+["The Bumblezone Welcome Options"]
 	# 
 	#-----------------------------------------------------
 	#
-	# How bright the fog is in the Bumblezone dimension. 
-	# 
-	# The brightness is represented as a percentage
-	# so 0 will be pitch black, 50 will be half
-	# as bright, 100 will be normal orange brightness,
-	# and 100000 will be white.
+	# Whether to show message saying to check out Bumblezone's advancements when you get enar beehive for first time.
 	#
-	#Range: 0.0 ~ 100000.0
-	fogBrightnessPercentage = 100.0
-	# 
-	#-----------------------------------------------------
-	#
-	# How thick the fog in Bumblezone is.
-	# 2 is a little bit of fog and 50 is super thick fog. Decimal values are allowed.
-	#
-	#Range: 0.0 ~ 100.0
-	fogThickness = 4.0
-	# 
-	#-----------------------------------------------------
-	#
-	# Whether Bumblezone dimension has thick fog or not.
-	#
-	enableDimensionFog = true
+	enableInitialWelcomeMessage = true
 
 ["The Bumblezone Teleportation Options"]
 	# 
@@ -88,7 +68,7 @@
 	# if there is no previously saved dimension on the mob. 
 	# Use this option ONLY if your modpack's default dimension is not the Overworld. 
 	# This will affect forceExitToOverworld, forceBumblezoneOriginMobToOverworldCenter, and onlyOverworldHivesTeleports
-	# config options so that they use this new default dimension instead of overworld.
+	# config options so that they use this new default dimension instead of Overworld.
 	#
 	defaultDimension = "minecraft:overworld"
 

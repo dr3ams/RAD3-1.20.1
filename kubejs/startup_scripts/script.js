@@ -111,6 +111,12 @@ event.create('arrow_right_yellow').displayName('Yellow Arrow Right Icon')
 event.create('copper_coin').displayName('Copper Coin').tooltip('Acquired through quests').rarity('Uncommon')
 event.create('iron_coin').displayName('Iron Coin').tooltip('Acquired through quests').rarity('Uncommon')
 event.create('gold_coin').displayName('Gold Coin').tooltip('Acquired through quests').rarity('Rare')
+
+event.create('aether_coin').displayName('Aether Coin').tooltip('Acquired through completing Aether chapter quests').rarity('Rare')
+event.create('undergarden_coin').displayName('Undergarden Coin').tooltip('Acquired through completing Undergarden chapter quests').rarity('Rare')
+event.create('twilight_coin').displayName('Twilight Coin').tooltip('Acquired through completing Twilight chapter quests').rarity('Rare')
+event.create('bumblezone_coin').displayName('Bumblezone Coin').tooltip('Acquired through completing Bumblezone chapter quests').rarity('Rare')
+
 event.create('diamond_coin').displayName('Diamond Coin').tooltip('Acquired through quests').rarity('Epic')
 event.create('netherite_coin').displayName('Netherite Coin').tooltip('Acquired through quests').rarity('Epic')
 event.create('monster_coin').displayName('Monster Coin')
@@ -191,3 +197,5 @@ StartupEvents.registry('block', event => {
 	// Register new blocks here
 	// event.create('example_block').material('wood').hardness(1.0).displayName('Example Block')
 })
+
+StartupEvents.postInit(event => { Platform.mods.kubejs.name = 'RAD 3'; });

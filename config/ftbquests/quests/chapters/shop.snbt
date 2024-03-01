@@ -1,4 +1,5 @@
 {
+	autofocus_id: "2146186B43D64F53"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	disable_toast: true
@@ -61,18 +62,6 @@
 			dev: false
 			height: 2.0d
 			hover: [ ]
-			image: "kubejs:textures/item/nether_coin.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: 15.0d
-			y: -3.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 2.0d
-			hover: [ ]
 			image: "kubejs:textures/item/monster_coin.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -127,8 +116,20 @@
 			x: -1.0d
 			y: -2.0d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:item/aether_coin"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.0d
+			y: -3.0d
+		}
 	]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -224,28 +225,6 @@
 			y: -1.0d
 		}
 		{
-			description: ["Acquired by defeating any Tier Champions in the Nether."]
-			disable_toast: true
-			id: "637B4E0CF8EE27A0"
-			rewards: [{
-				id: "54144210F25142F5"
-				table_id: 493550106172164909L
-				type: "questsadditions:repeat_choice"
-			}]
-			shape: "octagon"
-			size: 2.0d
-			subtitle: "Choice repeatable reward"
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "415052283BCDC314"
-				item: "kubejs:nether_coin"
-				type: "item"
-			}]
-			x: 15.0d
-			y: -1.0d
-		}
-		{
 			disable_toast: true
 			icon: {
 				Count: 1b
@@ -257,8 +236,7 @@
 			id: "03A1DDD2943E57B1"
 			rewards: [{
 				id: "600299CCD3C22A23"
-				table_id: 5824378382408918036L
-				type: "questsadditions:repeat_choice"
+				type: "custom"
 			}]
 			tasks: [{
 				consume_items: true
@@ -290,8 +268,7 @@
 			id: "079C8AA41B7C34E1"
 			rewards: [{
 				id: "1C505F7EDFA105D4"
-				table_id: 2742965285575870096L
-				type: "questsadditions:repeat_choice"
+				type: "custom"
 			}]
 			tasks: [{
 				consume_items: true
@@ -357,8 +334,7 @@
 			id: "20EB4B6DD6683080"
 			rewards: [{
 				id: "60D0776BF6A0E4DD"
-				table_id: 2742965285575870096L
-				type: "questsadditions:repeat_random"
+				type: "custom"
 			}]
 			tasks: [{
 				consume_items: true
@@ -385,8 +361,7 @@
 			rewards: [{
 				auto: "enabled"
 				id: "0B9011E5CFE93ED0"
-				table_id: 4240587076435250471L
-				type: "questsadditions:repeat_choice"
+				type: "custom"
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -413,8 +388,7 @@
 			id: "37549EDD70F8FC52"
 			rewards: [{
 				id: "40C2C142853233AB"
-				table_id: 728551160774451456L
-				type: "questsadditions:repeat_choice"
+				type: "custom"
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -441,8 +415,7 @@
 			id: "17EEC9C481525FB4"
 			rewards: [{
 				id: "682DF62A1A1BD3FB"
-				table_id: 5809902578025286915L
-				type: "questsadditions:repeat_choice"
+				type: "custom"
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -469,8 +442,7 @@
 			id: "7429769A5FC49E8D"
 			rewards: [{
 				id: "73C020D23636B670"
-				table_id: 3516676733097761999L
-				type: "questsadditions:repeat_choice"
+				type: "custom"
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -504,8 +476,7 @@
 			id: "7A6654B7CF68E559"
 			rewards: [{
 				id: "6F788D5944714C9E"
-				table_id: 2742965285575870096L
-				type: "questsadditions:repeat_random"
+				type: "custom"
 			}]
 			tasks: [{
 				consume_items: true
@@ -539,8 +510,7 @@
 			id: "46D669DCE3F39305"
 			rewards: [{
 				id: "793B3A5D0AB27A93"
-				table_id: 6065820473630880313L
-				type: "questsadditions:repeat_random"
+				type: "custom"
 			}]
 			tasks: [{
 				consume_items: true
@@ -734,6 +704,53 @@
 			title: "Diamond Coin -> Ars Nouveau Glyph Tier 3"
 			x: 4.0d
 			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"&6Coins:&r"
+				"You can gain specific &5Dimensional Coins&r by doing quests in associated dimension."
+				""
+				"&aRewards:&r"
+				"You can then trade &5Dimensional Coins&r to any specific reward related to any dimension."
+				""
+				"&oRewards also contain:&r"
+				""
+				"- &9Aether&r chest: random loot related to Aether dimension;"
+				""
+				"- &4Nether&r chest: random loot related to Nether dimension;"
+				""
+				"- &2Undergarden&r chest: random loot related to Undergarden dimension;"
+			]
+			id: "11723B84E94C06F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B2E0734D338790F"
+				table_id: 566088971814378520L
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "52CED7C66EEF6E98"
+					item: "kubejs:undergarden_coin"
+					type: "item"
+				}
+				{
+					id: "177DFDC7D7133131"
+					item: "kubejs:aether_coin"
+					type: "item"
+				}
+				{
+					id: "52F36EB945F22AE0"
+					item: "kubejs:nether_coin"
+					type: "item"
+				}
+			]
+			title: "Dimensional Coins"
+			x: 8.0d
+			y: -1.0d
 		}
 	]
 	title: "$ - COIN SHOP - $"

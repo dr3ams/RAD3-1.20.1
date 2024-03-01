@@ -36,6 +36,29 @@
 		#Range: 0.0 ~ 1.0
 		spawnrateOfPokecubeBeePokemon = 0.05
 
+	["Mod Compatibility Options"."Tropicraft Options"]
+		# 
+		#-----------------------------------------------------
+		#
+		# Spawn Tropicraft's Tropibee in The Bumblezone and from Honey Brood Blocks alongside
+		# regular bees at a spawnrateOfTropicraftBeesMobs chance when spawning regular bees.
+		#
+		spawnTropicraftBeesMob = true
+		# 
+		#-----------------------------------------------------
+		#
+		# Chance of a Bee spawning from Honeycomb Brood Blocks in Bumblezone dimension being replaced by Tropicraft's Tropibee.
+		# 0 is no Tropicraft's mobs and 1 is max Tropicraft's mobs.
+		#
+		#Range: 0.0 ~ 1.0
+		spawnrateOfTropicraftBeesMobs = 0.025
+		# 
+		#-----------------------------------------------------
+		#
+		# Allow Honeycomb Brood blocks fed by Dispenser to be able to have chance of spawning Tropicraft's Tropibee.
+		#
+		allowTropicraftSpawnFromDispenserFedBroodBlock = true
+
 	["Mod Compatibility Options"."Resourceful Bees Options"]
 		# 
 		#-----------------------------------------------------
@@ -51,7 +74,7 @@
 		#-----------------------------------------------------
 		#
 		# Chance of a Bee spawning from Honeycomb Brood Blocks in Bumblezone dimension being replaced by Resourceful Bee's mob.
-		# 0 is no RB's mobs and 1 is max EB's mobs.
+		# 0 is no RB's mobs and 1 is max RB's mobs.
 		#
 		#Range: 0.0 ~ 1.0
 		spawnrateOfResourcefulBeesMobsBrood = 0.03
@@ -91,7 +114,7 @@
 		# 
 		#-----------------------------------------------------
 		#
-		# Allow filled Bee Jars to turn Empty Honeycomb Brood blocks into 
+		# Allow Bee Jars with bees inside to turn Empty Honeycomb Brood blocks into 
 		# a regular Honeycomb Brood Block with a larva inside! 
 		#
 		allowResourcefulBeesBeeJarRevivingEmptyBroodBlock = true
@@ -123,8 +146,12 @@
 		#
 		# Spawn Productive Bees's various honeycomb variants in The Bumblezone at all
 		# kinds of heights and height bands. Start exploring to find where they spawn!
+		# Disabling this config will make all Productive Bees comb blocks not spawn in Bumblezone dimension.
 		# 
-		# NOTE: Will require a restart of the world to take effect. 
+		# To add or remove specific combs from spawning, datapack replace this placed feature tag file:
+		#`data/the_bumblezone/tags/worldgen/placed_feature/productive_bees_combs.json`
+		# 
+		# NOTE: This config will require a restart of the world to take effect. 
 		#
 		spawnProductiveBeesHoneycombVariants = true
 		# 
@@ -135,17 +162,12 @@
 		# 
 		#-----------------------------------------------------
 		#
-		# Allow what Productive Bees combs should be able to spawn in Bumblezone as ores.
-		allowedCombsAsOres = ["productivebees:iron", "productivebees:redstone", "productivebees:copper", "productivebees:gold", "productivebees:magmatic", "productivebees:crystalline", "productivebees:glowing", "productivebees:blazing", "productivebees:skeletal", "productivebees:ghostly"]
-		# 
-		#-----------------------------------------------------
-		#
 		# Allow what Productive Bees bees should be able to spawn in Bumblezone. 
 		blacklistedBees = ["productivebees:diamond", "productivebees:iron", "productivebees:coal", "productivebees:redstone", "productivebees:copper", "productivebees:lapis", "productivebees:gold", "productivebees:emerald", "productivebees:obsidian", "productivebees:experience", "productivebees:magmatic", "productivebees:amethyst", "productivebees:prismarine", "productivebees:crystalline", "productivebees:sugarbag", "productivebees:glowing", "productivebees:frosty", "productivebees:slimy", "productivebees:silky", "productivebees:blazing", "productivebees:ender", "productivebees:skeletal", "productivebees:ghostly", "productivebees:zombie"]
 		# 
 		#-----------------------------------------------------
 		#
-		# Allow filled Bee Cages to turn Empty Honeycomb Brood blocks into 
+		# Allow Bee Cages with bees inside to turn Empty Honeycomb Brood blocks into 
 		# a regular Honeycomb Brood Block with a larva inside! 
 		#
 		allowProductiveBeesBeeCageRevivingEmptyBroodBlock = true
@@ -168,7 +190,7 @@
 		# 0 is no PB's honeycombs and 1 is max PB's honeycombs.
 		#
 		#Range: 0.0 ~ 1.0
-		PBOreHoneycombSpawnRateBeeDungeon = 0.045
+		PBOreHoneycombSpawnRateBeeDungeon = 0.125
 		# 
 		#-----------------------------------------------------
 		#
@@ -176,7 +198,7 @@
 		# 0 is no PB's honeycombs and 1 is max PB's honeycombs.
 		#
 		#Range: 0.0 ~ 1.0
-		PBOreHoneycombSpawnRateSpiderBeeDungeon = 0.1
+		PBOreHoneycombSpawnRateSpiderBeeDungeon = 0.25
 
 	["Mod Compatibility Options"."Friends and Foes Options"]
 		# 
@@ -198,24 +220,17 @@
 		# 
 		#-----------------------------------------------------
 		#
-		# Allow Bee Bottle to turn Empty Honeycomb Brood blocks into 
-		# a regular Honeycomb Brood Block with a larva inside! 
+		# Allow Bee Bottle to turn Empty Honeycomb Brood blocks into a regular Honeycomb Brood Block with a larva inside! 
 		#
 		allowBeeBottleRevivingEmptyBroodBlock = true
+
+	["Mod Compatibility Options"."Forbidden Arcanus Options"]
 		# 
 		#-----------------------------------------------------
 		#
-		# Allow Buzzier Bees's Crystallized honey block to spawn in patches on surfaces in Bumblezone Dimension. 
-		# Requires a game restart to take effect (close game and re-open) 
+		# Allow Bee Bucket to turn Empty Honeycomb Brood blocks into a regular Honeycomb Brood Block with a larva inside! 
 		#
-		spawnCrystallizedHoneyInDimension = true
-		# 
-		#-----------------------------------------------------
-		#
-		# Allow Buzzier Bees's Honey Tile block to spawn mainly in caves inside Bumblezone Dimension. 
-		# Requires a game restart to take effect (close game and re-open) 
-		#
-		spawnHoneyTilesInDimension = true
+		allowBeeBucketRevivingEmptyBroodBlock = true
 
 	["Mod Compatibility Options"."Potion of Bees Options"]
 		# 

@@ -86,7 +86,7 @@
 
 	[widgets.inventory_compact]
 		#Display string to be used for an effect duration that is too long to show.
-		#Allowed Values: VANILLA, INFINITY, NONE
+		#Allowed Values: INFINITY, ASTERISKS, NONE
 		long_duration = "INFINITY"
 		#Effect amplifier color. Setting this to "EFFECT" will use potion color.
 		#Effect amplifier color. Setting this to "EFFECT" will use potion color.
@@ -98,7 +98,7 @@
 		quality_border = false
 		#Show duration for ambient effects.
 		ambient_duration = false
-		#Display effect duration more compact, allows for always showing duration, even when it is very long (vanilla will not show durations that are longer than ~30 minutes).
+		#Display effect duration more compact, allows for always showing duration, even when it is very long.
 		compact_duration = false
 		#Top corner to draw effect amplifier in, or none.
 		#Allowed Values: NONE, TOP_LEFT, TOP_RIGHT
@@ -111,17 +111,14 @@
 		duration_color = "GRAY"
 
 	[widgets.inventory_full_size]
-		#Display string to be used for an effect duration that is too long to show.
-		#Allowed Values: VANILLA, INFINITY, NONE
-		long_duration = "VANILLA"
-		#Effect name color. Setting this to "EFFECT" will use potion color.
-		#Effect name color. Setting this to "EFFECT" will use potion color.
-		#Allowed Values: EFFECT, BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE
-		name_color = "WHITE"
 		#Should the effect icon start to blink when the effect is running out.
 		blinking_alpha = true
 		#Should effect widgets have a blue or red border depening on if they are beneficial or not.
 		quality_border = false
+		#Effect name color. Setting this to "EFFECT" will use potion color.
+		#Effect name color. Setting this to "EFFECT" will use potion color.
+		#Allowed Values: EFFECT, BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE
+		name_color = "WHITE"
 		#Show duration for ambient effects.
 		ambient_duration = true
 		#Should ambient effect widgets have a cyan colored border.
@@ -133,7 +130,7 @@
 
 	[widgets.gui_small]
 		#Display string to be used for an effect duration that is too long to show.
-		#Allowed Values: VANILLA, INFINITY, NONE
+		#Allowed Values: INFINITY, ASTERISKS, NONE
 		long_duration = "INFINITY"
 		#Effect amplifier color. Setting this to "EFFECT" will use potion color.
 		#Effect amplifier color. Setting this to "EFFECT" will use potion color.
@@ -159,7 +156,7 @@
 
 	[widgets.gui_compact]
 		#Display string to be used for an effect duration that is too long to show.
-		#Allowed Values: VANILLA, INFINITY, NONE
+		#Allowed Values: INFINITY, ASTERISKS, NONE
 		long_duration = "INFINITY"
 		#Effect amplifier color. Setting this to "EFFECT" will use potion color.
 		#Effect amplifier color. Setting this to "EFFECT" will use potion color.
@@ -167,7 +164,7 @@
 		amplifier_color = "WHITE"
 		#Should the effect icon start to blink when the effect is running out.
 		blinking_alpha = true
-		#Display effect duration more compact, allows for always showing duration, even when it is very long (vanilla will not show durations that are longer than ~30 minutes).
+		#Display effect duration more compact, allows for always showing duration, even when it is very long.
 		compact_duration = false
 		#Should effect widgets have a blue or red border depening on if they are beneficial or not.
 		quality_border = false

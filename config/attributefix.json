@@ -22,6 +22,28 @@
         "value": 1024
       }
     },
+    "apotheosis:mining_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "miapi:generic.back_stab": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "skilltree:crafted_necklaces_maximum_life": {
       "enabled": false,
       "min": {
@@ -154,6 +176,17 @@
         "value": 1024
       }
     },
+    "miapi:generic.mining_speed.pickaxe": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "skilltree:damage_if_wounded": {
       "enabled": false,
       "min": {
@@ -185,6 +218,28 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "apotheosis:ghost_health": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
+    "apotheosis:prot_pierce": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 34,
+        "value": 34
       }
     },
     "skilltree:experience_per_hour": {
@@ -220,6 +275,17 @@
         "value": 1024
       }
     },
+    "vampirism:dbno_duration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 2147483647
+      }
+    },
     "skilltree:life_regeneration_with_shield": {
       "enabled": false,
       "min": {
@@ -247,6 +313,17 @@
       "min": {
         "default": 1,
         "value": 1
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "miapi:generic.projectile_accuracy": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
       },
       "max": {
         "default": 1024,
@@ -286,6 +363,17 @@
         "value": 1024
       }
     },
+    "apotheosis:fire_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
     "skilltree:incoming_healing": {
       "enabled": false,
       "min": {
@@ -302,6 +390,17 @@
       "min": {
         "default": 1,
         "value": 1
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "miapi:generic.armor_crushing": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
       },
       "max": {
         "default": 1024,
@@ -352,6 +451,17 @@
         "value": 2048
       }
     },
+    "vampirism:blood_exhaustion": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "skilltree:equipment_repair_efficiency": {
       "enabled": false,
       "min": {
@@ -361,6 +471,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "miapi:generic.resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "skilltree:maximum_life_per_arrow_in_quiver": {
@@ -418,6 +539,28 @@
         "value": 1024
       }
     },
+    "apotheosis:dodge_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "miapi:generic.projectile_crit_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "skilltree:chance_to_apply_better_enchantment": {
       "enabled": false,
       "min": {
@@ -449,6 +592,17 @@
       "max": {
         "default": 10000,
         "value": 10000
+      }
+    },
+    "skilltree:evasion": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 90,
+        "value": 90
       }
     },
     "skilltree:life_on_block": {
@@ -484,11 +638,33 @@
         "value": 1
       }
     },
+    "apotheosis:crit_damage": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additionalentityattributes:critical_bonus_damage": {
       "enabled": false,
       "min": {
         "default": -1,
         "value": -1
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "skilltree:crafted_shields_block_chance": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
       },
       "max": {
         "default": 1024,
@@ -506,11 +682,11 @@
         "value": 1024
       }
     },
-    "skilltree:crafted_shields_block_chance": {
+    "miapi:generic.mining_speed.axe": {
       "enabled": false,
       "min": {
-        "default": 1,
-        "value": 1
+        "default": 0,
+        "value": 0
       },
       "max": {
         "default": 1024,
@@ -616,6 +792,28 @@
         "value": 1024
       }
     },
+    "apotheosis:life_steal": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "apotheosis:experience_gained": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "caelus:fall_flying": {
       "enabled": false,
       "min": {
@@ -625,6 +823,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "ars_nouveau:ars_nouveau.perk.max_mana": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "minecraft:generic.max_health": {
@@ -682,6 +891,17 @@
         "value": 1024
       }
     },
+    "miapi:generic.bow_draw_time": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "dungeons_gear:roll_cooldown": {
       "enabled": false,
       "min": {
@@ -713,6 +933,28 @@
       "max": {
         "default": 8,
         "value": 8
+      }
+    },
+    "miapi:generic.elytra_rocket_efficiency": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "enhancedai:generic.xray_follow_range": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 256,
+        "value": 256
       }
     },
     "skilltree:chance_to_ignite": {
@@ -858,6 +1100,17 @@
         "value": 1024
       }
     },
+    "vampirism:sundamage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
     "combatroll:distance": {
       "enabled": false,
       "min": {
@@ -891,6 +1144,17 @@
         "value": 1024
       }
     },
+    "miapi:generic.projectile_piercing": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "combatroll:recharge": {
       "enabled": false,
       "min": {
@@ -902,7 +1166,7 @@
         "value": 200
       }
     },
-    "skilltree:crafted_melee_weapon_damage_bonus": {
+    "miapi:generic.mining_speed.hoe": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -924,6 +1188,17 @@
         "value": 100
       }
     },
+    "skilltree:crafted_melee_weapon_damage_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "footwork:might_gen": {
       "enabled": false,
       "min": {
@@ -935,6 +1210,17 @@
         "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
       }
     },
+    "miapi:generic.shield_break": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "skilltree:life_regeneration_per_gem_in_helmet": {
       "enabled": false,
       "min": {
@@ -944,6 +1230,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "apotheosis:crit_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "minecraft:generic.attack_knockback": {
@@ -966,6 +1263,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "vampirism:neonatal_duration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 2147483647
       }
     },
     "skilltree:attack_speed_under_potion_effect": {
@@ -1133,17 +1441,6 @@
         "value": 1024
       }
     },
-    "skilltree:cooked_food_life_regeneration": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "footwork:encirclement_distance": {
       "enabled": false,
       "min": {
@@ -1153,6 +1450,17 @@
       "max": {
         "default": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
         "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      }
+    },
+    "skilltree:cooked_food_life_regeneration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "skilltree:triple_loot_chance": {
@@ -1221,6 +1529,17 @@
         "value": 1024
       }
     },
+    "skilltree:blocking": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 90,
+        "value": 90
+      }
+    },
     "skilltree:maximum_life_under_potion_effect": {
       "enabled": false,
       "min": {
@@ -1254,17 +1573,6 @@
         "value": 1024
       }
     },
-    "dungeons_libraries:soul_gathering": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "skilltree:life_regeneration_bonus": {
       "enabled": false,
       "min": {
@@ -1276,11 +1584,11 @@
         "value": 1024
       }
     },
-    "skilltree:damage_against_poisoned": {
+    "dungeons_libraries:soul_gathering": {
       "enabled": false,
       "min": {
-        "default": 1,
-        "value": 1
+        "default": 0,
+        "value": 0
       },
       "max": {
         "default": 1024,
@@ -1296,6 +1604,17 @@
       "max": {
         "default": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
         "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      }
+    },
+    "skilltree:damage_against_poisoned": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "skilltree:maximum_life_with_enchanted_item": {
@@ -1353,6 +1672,17 @@
         "value": 1
       }
     },
+    "footwork:max_fracture": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+        "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      }
+    },
     "skilltree:can_poison_weapons": {
       "enabled": false,
       "min": {
@@ -1373,17 +1703,6 @@
       "max": {
         "default": 1024,
         "value": 1024
-      }
-    },
-    "footwork:max_fracture": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-        "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
       }
     },
     "skilltree:projectile_damage": {
@@ -1474,17 +1793,6 @@
         "value": 1024
       }
     },
-    "dungeons_libraries:magic_damage_multiplier": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "skilltree:maximum_ring_sockets": {
       "enabled": false,
       "min": {
@@ -1496,6 +1804,39 @@
         "value": 1024
       }
     },
+    "dungeons_libraries:magic_damage_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "forge:entity_reach": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "apotheosis:armor_pierce": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
     "skilltree:brewed_beneficial_potions_duration": {
       "enabled": false,
       "min": {
@@ -1505,6 +1846,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "apotheosis:prot_shred": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "forge:reach_distance": {
@@ -1529,6 +1881,17 @@
         "value": 1024
       }
     },
+    "miapi:generic.projectile_damage": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "skilltree:block_chance_with_enchanted_shield": {
       "enabled": false,
       "min": {
@@ -1538,6 +1901,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "apotheosis:arrow_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "skilltree:maximum_life_per_satisfied_hunger": {
@@ -1608,6 +1982,17 @@
     },
     "minecraft:zombie.spawn_reinforcements": {
       "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "apotheosis:current_hp_damage": {
+      "enabled": false,
       "min": {
         "default": 0,
         "value": 0
@@ -1705,6 +2090,17 @@
         "value": 1024
       }
     },
+    "werewolves:bite_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "skilltree:gem_power_in_weapon": {
       "enabled": false,
       "min": {
@@ -1747,6 +2143,28 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "forge:block_reach": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "miapi:generic.player_item_use_speed": {
+      "enabled": false,
+      "min": {
+        "default": -1,
+        "value": -1
+      },
+      "max": {
+        "default": 0,
+        "value": 0
       }
     },
     "skilltree:crafted_rings_critical_damage": {
@@ -1848,22 +2266,22 @@
         "value": 1024
       }
     },
-    "dungeons_libraries:soul_cap": {
+    "skilltree:crafted_weapon_damage_against_burning": {
       "enabled": false,
       "min": {
-        "default": 0,
-        "value": 0
+        "default": 1,
+        "value": 1
       },
       "max": {
         "default": 1024,
         "value": 1024
       }
     },
-    "skilltree:crafted_weapon_damage_against_burning": {
+    "dungeons_libraries:soul_cap": {
       "enabled": false,
       "min": {
-        "default": 1,
-        "value": 1
+        "default": 0,
+        "value": 0
       },
       "max": {
         "default": 1024,
@@ -1934,6 +2352,39 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "miapi:generic.elytra_turn_efficiency": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "apotheosis:armor_shred": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2,
+        "value": 2
+      }
+    },
+    "miapi:generic.elytra_glide_efficiency": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "skilltree:cooked_food_crit_damage_per_saturation": {
@@ -2024,6 +2475,17 @@
         "value": 1024
       }
     },
+    "apotheosis:arrow_velocity": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "skilltree:maximum_life_per_gem_in_armor": {
       "enabled": false,
       "min": {
@@ -2044,6 +2506,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "apotheosis:healing_received": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "skilltree:experience_from_fishing": {
@@ -2068,6 +2541,17 @@
         "value": 1024
       }
     },
+    "apotheosis:draw_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
+      }
+    },
     "skilltree:crafted_quivers_maximum_life": {
       "enabled": false,
       "min": {
@@ -2090,6 +2574,28 @@
         "value": 1024
       }
     },
+    "miapi:generic.projectile_speed": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "skilltree:exp_per_minute": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "footwork:max_might": {
       "enabled": false,
       "min": {
@@ -2102,6 +2608,17 @@
       }
     },
     "skilltree:enchantment_level_requirement": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "miapi:generic.projectile_armor": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -2255,6 +2772,17 @@
         "value": 1024
       }
     },
+    "miapi:generic.mining_speed.shovel": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "skilltree:chestplate_armor": {
       "enabled": false,
       "min": {
@@ -2275,6 +2803,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "apotheosis:overheal": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "skilltree:life_on_block_per_shield_enchantment": {
@@ -2308,6 +2847,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "skilltree:regeneration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "skilltree:life_per_hit_under_potion_effect": {
@@ -2354,6 +2904,17 @@
         "value": 1024
       }
     },
+    "werewolves:time_regain": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "dungeons_gear:roll_limit": {
       "enabled": false,
       "min": {
@@ -2398,17 +2959,6 @@
         "value": 1024
       }
     },
-    "skilltree:chance_to_apply_better_armor_enchantment": {
-      "enabled": false,
-      "min": {
-        "default": 1,
-        "value": 1
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "footwork:posture_gain": {
       "enabled": false,
       "min": {
@@ -2420,6 +2970,17 @@
         "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
       }
     },
+    "skilltree:chance_to_apply_better_armor_enchantment": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "malum:soul_ward_strength": {
       "enabled": false,
       "min": {
@@ -2429,6 +2990,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "apotheosis:cold_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
       }
     },
     "skilltree:evasion_under_potion_effect": {
@@ -2530,6 +3102,17 @@
         "value": 2048
       }
     },
+    "footwork:posture_regen": {
+      "enabled": false,
+      "min": {
+        "default": -179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+        "value": -179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      },
+      "max": {
+        "default": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+        "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      }
+    },
     "skilltree:crafted_armor_defence": {
       "enabled": false,
       "min": {
@@ -2561,17 +3144,6 @@
       "max": {
         "default": 2048,
         "value": 2048
-      }
-    },
-    "footwork:posture_regen": {
-      "enabled": false,
-      "min": {
-        "default": -179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-        "value": -179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-      },
-      "max": {
-        "default": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-        "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
       }
     },
     "dungeons_libraries:summon_cap": {
@@ -2640,17 +3212,6 @@
         "value": 1024
       }
     },
-    "combatroll:count": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 20,
-        "value": 10
-      }
-    },
     "dungeons_libraries:follower_cost_limit": {
       "enabled": false,
       "min": {
@@ -2660,6 +3221,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "combatroll:count": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 10
       }
     },
     "additionalentityattributes:lava_speed": {

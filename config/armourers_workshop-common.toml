@@ -50,10 +50,10 @@
 	enableDyeTab = true
 	#Number of slot columns the mob starts with for skins.
 	#Range: 1 ~ 10
-	mobStartingSlots = 1
+	mobStartingSlots = 3
 	#Number of slot columns the player starts with for skins.
 	#Range: 1 ~ 10
-	playerStartingSlots = 4
+	playerStartingSlots = 3
 	#Should skins be dropped on player death.
 	#0 = use keep inventory rule
 	#1 = never drop
@@ -64,7 +64,7 @@
 #Setting for the library blocks.
 [library]
 	#Allows clients to save skins from a server to their local computer using the library.
-	allowDownloadingSkins = true
+	allowDownloadingSkins = false
 	#Allows clients to load skins from their local computer onto the server using the library.
 	allowUploadingSkins = true
 	#Allow the mod to extract the official skins that come with the mod into the library folder.
@@ -77,9 +77,7 @@
 	#Required permission level 5 or higher.
 	allowManageSkins = false
 	#We priority use https for the access token APIs.
-	customGlobalServerURLs = []
-	#For the private global servers, will have special handling for caching.
-	privateGlobalServer = false
+	skinServerURLs = []
 
 #Enable/disable holiday events.
 [holiday-events]

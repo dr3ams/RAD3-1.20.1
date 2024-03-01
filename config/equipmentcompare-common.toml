@@ -3,6 +3,9 @@
 [client]
 
 	[client.visual_options]
+		# The maximum number of comparison tooltips to show onscreen at once.
+		#Range: 1 ~ 10
+		max_comparisons = 3
 		# If badge_text should override the built-in translatable text.
 		override_badge_text = false
 		# The text shown on the badge above equipped tooltips.

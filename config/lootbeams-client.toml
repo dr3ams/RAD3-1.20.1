@@ -27,6 +27,9 @@
 		#Transparency of the Loot Beam.
 		#Range: 0.0 ~ 1.0
 		beam_alpha = 0.75
+		#The distance from the player the beam should start fading.
+		#Range: 0.0 ~ 100.0
+		beam_fade_distance = 2.0
 		#If the Loot Beam should use a solid texture or the beacon style texture.
 		solid_beam = true
 		#If the Loot Beam should have a white center.
@@ -52,27 +55,59 @@
 		particle_size = 0.25
 		#The speed of the particles.
 		#Range: 1.0E-5 ~ 10.0
-		particle_speed = 0.1
+		particle_speed = 0.2
 		#The radius of the particles.
 		#Range: 1.0E-5 ~ 10.0
-		particle_radius = 0.05
+		particle_radius = 0.1
+		#The intensity of the randomness of the particles.
+		#Range: 0.0 ~ 1.0
+		randomness_intensity = 0.05
 		#The amount of particles to spawn per second.
 		#Range: 1.0 ~ 20.0
-		particle_count = 19.0
+		particle_count = 15.0
 		#The lifetime of the particles in ticks.
 		#Range: 1 ~ 100
-		particle_lifetime = 20
+		particle_lifetime = 15
 		#If particles should only appear on rare items.
 		particle_rare_only = true
+		#The direction of the particles on the X axis.
+		#Range: -1.0 ~ 1.0
+		particle_direction_x = 0.0
+		#The direction of the particles on the Y axis.
+		#Range: -1.0 ~ 1.0
+		particle_direction_y = 1.0
+		#The direction of the particles on the Z axis.
+		#Range: -1.0 ~ 1.0
+		particle_direction_z = 0.0
+		#If the particles should spin around the beam.
+		spin_around_beam = true
+		#If the particles should leave a trail.
+		trails = true
+		#The chance of a particle leaving a trail.
+		#Range: 0.0 ~ 1.0
+		trail_chance = 0.5
+		#If the particles with a trail should be invisible.
+		trail_particles_invisible = true
+		#The width of the trail.
+		#Range: 1.0E-5 ~ 10.0
+		trail_width = 0.2
+		#The length of the trail.
+		#Range: 1 ~ 200
+		trail_length = 30
+		#The frequency of the trail. The maximum value this should be is the length. The lower the frequency, the smoother the trail.
+		#Range: 1 ~ 200
+		trail_frequency = 1
 
 	#Item Config
 	["Loot Beams".Items]
+		#If items should glow.
+		items_glow = false
 		#If all Items Loot Beams should be rendered. Has priority over only_equipment and only_rare.
-		all_items = true
+		all_items = false
 		#If Loot Beams should only be rendered on items with rarity.
-		only_rare = false
+		only_rare = true
 		#If Loot Beams should only be rendered on equipment. (Equipment includes: Swords, Tools, Armor, Shields, Bows, Crossbows, Tridents, Arrows, and Fishing Rods)
-		only_equipment = false
+		only_equipment = true
 		#Registry names of items that Loot Beams should render on. Example: "minecraft:stone", "minecraft:iron_ingot", You can also specify modids for a whole mod's items.
 		whitelist = []
 		#Registry names of items that Loot Beams should NOT render on. This has priority over everything. You can also specify modids for a whole mod's items.
@@ -80,6 +115,10 @@
 
 	#Item nametags
 	["Loot Beams".Nametags]
+		#If vanilla tooltips should be rendered on items in world.
+		advanced_tooltips = true
+		#If tooltips should be rendered in world.
+		worldspace_tooltips = true
 		#Render nametags as bordered. Set to false for flat nametag with background.
 		borders = true
 		#If Item nametags should be rendered.
@@ -111,11 +150,15 @@
 		white_rarities = false
 		#If vanilla rarities should be rendered.
 		vanilla_rarities = true
+		#If the player should be crouching to see extended advanced tooltips.
+		screen_tooltips_require_crouch = true
+		#If the name and rarity should be combined into one tooltip.
+		combine_name_and_rarity = false
 
 	#Sounds
 	["Loot Beams".Sounds]
 		#If sounds should be played when items are dropped up.
-		play_sounds = true
+		play_sounds = false
 		#The volume of the sound.
 		#Range: 0.0 ~ 1.0
 		sound_volume = 1.0

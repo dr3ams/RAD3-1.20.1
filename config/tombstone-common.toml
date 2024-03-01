@@ -6,7 +6,7 @@
 	#Whether to handle player death [false/true|default:true]
 	handle_player_death = true
 	#Whether to restore beneficial effects after a player dies [false/true|default:true]
-	restore_effects_on_death = true
+	restore_effects_on_death = false
 	#Only abandoned graves can have losses of items (based on the decay_time) [false/true|default:true]
 	loss_on_death_only_for_abandoned_grave = true
 	#Only stackable items can be lost on death [false/true|default:true]
@@ -83,13 +83,13 @@
 	time_for_phantom_spawn = 72000
 	#Cooldown in minutes to use the command tbrequestteleport [-1..1440|default:-1]
 	#Range: -1 ~ 1440
-	cooldown_request_teleport = 1
+	cooldown_request_teleport = -1
 	#Cooldown in minutes to use the command tbteleportdeath [-1..1440|default:-1]
 	#Range: -1 ~ 1440
-	cooldown_teleport_death = 2
+	cooldown_teleport_death = -1
 	#Cooldown in minutes to use the command tbbind [-1..1440|default:-1]
 	#Range: -1 ~ 1440
-	cooldown_teleport_bind = 2
+	cooldown_teleport_bind = -1
 	#Beneficial effects that can't used by certain features such as ankh of pray, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment
 	unhandled_beneficial_effects = ["astralsorcery:potiontimefreeze"]
 	#Harmful effects that can't used by certain features such as tablet of cupidity and the enchantment plague bringer
@@ -98,7 +98,7 @@
 #Allows to define the conditions for a village siege to begin
 [village_siege]
 	#Allows to handle village sieges [false/true|default:true]
-	handle_village_siege = false
+	handle_village_siege = true
 	#Logs the different states of a village siege while searching for an adequate place [false/true|default:false]
 	log_siege_state = false
 	#The creatures of the siege have a glowing effect (only uses this for test purposes) [false/true|default:false]
@@ -130,7 +130,7 @@
 	#Allows to disenchant enchanted books with the Book of Disenchantment
 	can_disenchant_enchanted_book = false
 	#Allows lost tablets to find locations outside the current world [false/true|default:true]
-	lost_tablet_search_outside_world = false
+	lost_tablet_search_outside_world = true
 	#Allows lost tablets to find modded structures [false/true|default:true]
 	lost_tablet_modded_structure = true
 	#The structures that can't be discovered by lost tablets

@@ -1,21 +1,26 @@
 
 [general]
-	#Wether ghost blocks are shown when you are holding a framed block
+	#Whether ghost blocks are shown when you are holding a framed block
 	showGhostBlocks = true
-	#Wether certain framed blocks should show fancy hitboxes
+	#If true, an alternate renderer will be used for the placement preview. May solve issues with certain shaders
+	altGhostRenderer = false
+	#Whether certain framed blocks should show fancy hitboxes
 	fancyHitboxes = true
 	#If false only full block faces of framed blocks will be culled, if true all outer faces of famed blocks can be culled
 	detailedCulling = true
 	#If true, the UV remapping will use discrete steps to avoid floating point errors
 	discreteUVSteps = true
 	#Configures how detailed connected textures are supported.
-	#Use anything above FULL_FACE at your own risk (performance impact, unexpected behaviour)!
+	#Use anything above FULL_EDGE at your own risk (performance impact, unexpected behaviour)!
 	#If NONE, all connected textures support is disabled
 	#If FULL_FACE, connected textures are supported on full faces
-	#If FULL_CON_FACE, connected textures are supported as above and on faces whose connecting neighbor covers a full face
+	#If FULL_EDGE, connected textures are supported as above and on faces whose connecting edge covers the full block width
 	#If DETAILED, connected textures are supported as above and on most faces when interacting with other framed blocks
-	#Allowed Values: NONE, FULL_FACE, FULL_CON_FACE, DETAILED
+	#Allowed Values: NONE, FULL_FACE, FULL_EDGE, DETAILED
 	conTexMode = "FULL_FACE"
+	#If true, all possible recipes of the Framing Saw will be added to EMI, else only the permutations using the Framed Cube will be added
+	#This setting only has an effect when EMI is installed
+	showAllRecipePermutationsInEmi = true
 
 [overlay]
 	#If set to HIDDEN, the State Lock overlay will be completely hidden
@@ -58,4 +63,9 @@
 	#If set to DETAILED, the Item Frame Background overlay will show detailed info
 	#Allowed Values: HIDDEN, ICON, DETAILED
 	itemFrameBackgroundMode = "DETAILED"
+	#If set to HIDDEN, the Camo Rotation overlay will be completely hidden
+	#If set to ICON, the Camo Rotation overlay will only show an icon
+	#If set to DETAILED, the Camo Rotation overlay will show detailed info
+	#Allowed Values: HIDDEN, ICON, DETAILED
+	camoRotationMode = "DETAILED"
 

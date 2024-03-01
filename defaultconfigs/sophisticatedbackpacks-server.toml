@@ -3,8 +3,12 @@
 [server]
 	#List of items that are not allowed to be put in backpacks - e.g. "minecraft:shulker_box"
 	disallowedItems = []
+	#Determines if container items (those that override canFitInsideContainerItems to false) are able to fit in backpacks
+	containerItemsDisallowed = false
 	#List of blocks that inventory interaction upgrades can't interact with - e.g. "minecraft:shulker_box"
 	noInteractionBlocks = []
+	#List of blocks that are not allowed to connect to backpacks - e.g. "refinedstorage:external_storage"
+	noConnectionBlocks = ["toms_storage:ts.inventory_connector", "refinedstorage:external_storage", "toms_storage:ts.inventory_cable_connector"]
 	#Turns on/off item fluid handler of backpack in its item form. There are some dupe bugs caused by default fluid handling implementation that manifest when backpack is drained / filled in its item form in another mod's tank and the only way to prevent them is disallowing drain/fill in item form altogether
 	itemFluidHandlerEnabled = true
 	#Determines whether player can right click on backpack that another player is wearing to open it. If off will turn off that capability for everyone and remove related settings from backpack.
@@ -13,6 +17,8 @@
 	itemDisplayDisabled = false
 	#Allows disabling logic that dedupes backpacks with the same UUID in players' inventory. This is here to allow turning off the logic just in case it would be causing performance issues.
 	tickDedupeLogicDisabled = false
+	#Determines if backpacks can be placed in container items (those that check for return value of canFitInsideContainerItems)
+	canBePlacedInContainerItems = false
 
 	#Leather Backpack Settings
 	[server.leatherBackpack]
@@ -346,10 +352,10 @@
 	[server.tankUpgrade]
 		#Capacity in mB the tank upgrade will have per row of storage slots
 		#Range: 500 ~ 20000
-		capacityPerSlotRow = 16000
+		capacityPerSlotRow = 4000
 		#Ratio that gets applied (multiplies) to inventory stack multiplier before this is applied to max energy of the battery and max in/out. Value lower than 1 makes stack multiplier affect the max energy less, higher makes it affect the max energy more. 0 turns off stack multiplier affecting battery upgrade
 		#Range: 0.0 ~ 5.0
-		stackMultiplierRatio = 2.0
+		stackMultiplierRatio = 1.0
 		#Cooldown between fill/drain actions done on fluid containers in tank slots. Only fills/drains one bucket worth to/from container after this cooldown and then waits again.
 		#Range: 1 ~ 100
 		autoFillDrainContainerCooldown = 20
@@ -405,7 +411,7 @@
 		#Range: 0.0 ~ 1.0
 		backpackDropChance = 0.085
 		#Chance increase per looting level of mob dropping backpack
-		#Range: 0.0 ~ 0.2
+		#Range: 0.0 ~ 0.3
 		lootingChanceIncreasePerLevel = 0.01
 
 	[server.nerfs]

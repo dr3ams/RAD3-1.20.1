@@ -13,3 +13,5 @@ event.hide('greekfantasy:iron_spear')
   event.hide('greekfantasy:golden_sapling')
   event.hide('greekfantasy:winged_sandals')
 })
+
+ClientEvents.lang('en_us', event => { event.add("jade.modName.kubejs", "RAD 3"); });

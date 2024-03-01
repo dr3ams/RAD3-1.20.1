@@ -1,8 +1,8 @@
 
-#Easy to access switches to toggle newer features on and off.
+#Easy to access switches to toggle side features on and off.
 #Most of them requires server restart or datapack reload. All of them, actually.
 [features]
-	#For those who wants to remove entirety of Spirit Orbs generated from chests, more specifically...
+	#For those who wants to remove Spirit Orbs generated in the world, more specifically...
 	#  * Spirit Orbs generated in various chests
 	#  * Spirit Orbs dropped by spawners and such
 	#Note that bargain recipe for Heart Containers/Stamina Vessels will persist, even if this option is disabled.
@@ -21,6 +21,7 @@
 [debug]
 	debugPlayerMovement = false
 	traceMovementPacket = false
-	traceParaglidingPacket = false
 	traceVesselPacket = false
+	traceBargainPacket = false
+	traceWindPacket = false
 
