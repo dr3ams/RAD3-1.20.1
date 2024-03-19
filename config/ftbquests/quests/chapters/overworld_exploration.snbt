@@ -1,0 +1,2968 @@
+{
+	autofocus_id: "42794282850FCF78"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overworld_exploration"
+	group: "241F1DC7B6D6E9D6"
+	icon: "minecraft:grass_block"
+	id: "5D0D7CA70E53CCDD"
+	images: [{
+		alpha: 150
+		click: ""
+		corner: false
+		dev: false
+		height: 10.0d
+		hover: [ ]
+		image: "rad3:textures/misc/rad_compass_new_3.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: -4.5d
+		y: -4.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7FC81AF332294769"]
+			id: "6D049357B6972937"
+			rewards: [
+				{
+					id: "137CF1399FFC0175"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+				{
+					id: "2B1E8EE536776EC1"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "dungeons_gear:short_speed"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "443F297BF3A0BAD4"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7A59F70F6CECEB9D"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "254388055F61137E"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F51F5434FCDE447"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7013CDAF65DF6B77"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Iron Armor"
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["42794282850FCF78"]
+			id: "518DF4A178673014"
+			rewards: [{
+				count: 2
+				id: "249C63A931C8878F"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0A4DEEAE9F94ACC9"
+				item: {
+					Count: 1b
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Any #forge:tools/pickaxes"
+				type: "item"
+			}]
+			title: "So much room for activities now!"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["446936F80D06B8A4"]
+			id: "544027B606EEA00D"
+			rewards: [
+				{
+					id: "2939A3764ED2F40A"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "vanillafoodpantry:bearspirit"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DDE4550FE92C2C5"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					id: "73BA3FB9A10AAA40"
+					item: "randomite:randomite_ore"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3CC2A77CFE341C85"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["544027B606EEA00D"]
+			id: "39936E09D0EA4517"
+			rewards: [{
+				id: "7718CBAA3CCA7060"
+				item: "randomloot:basic_case"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "71DB85DA8A05E8D4"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CFA73401384B78A"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74AE2F7C8C718201"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4397A4296E044FE7"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cover me in diamonds"
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7FC81AF332294769"]
+			dependency_requirement: "one_completed"
+			id: "446936F80D06B8A4"
+			rewards: [
+				{
+					id: "467FC5B5C451A16E"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					id: "6C1F687B2A13D026"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					id: "1D100FB166BC1CE4"
+					type: "custom"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "2961E4295D566E39"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FBA77A953CC37C1"]
+			id: "766E4FEA8148AEDA"
+			rewards: [{
+				count: 5
+				id: "0B485935681AA0F8"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			subtitle: "Make yourself at home!"
+			tasks: [{
+				id: "68CB3DC23DB66CBF"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "Craft basic infrastructure"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["766E4FEA8148AEDA"]
+			id: "17FC433734DE388E"
+			rewards: [{
+				id: "2C175A17ADDFAB98"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_regeneration"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CE86177C64AD58B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				title: "Any #minecraft:beds"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["446936F80D06B8A4"]
+			id: "4D4CE785FDA4EFB9"
+			rewards: [
+				{
+					id: "066DFFD2B2419CCB"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					id: "0D137D1D9C39EB00"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "ingots_valuable"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0995187A5468E252"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:obsidian"
+					}
+				}
+				title: "Any #forge:obsidian"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["43509530CAD67EE9"]
+			id: "4E332FAD066528F2"
+			rewards: [{
+				id: "6F9D09629D526A5E"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "vanillafoodpantry:bearspirit"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "26CFFADD8427EB7A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:bookshelves"
+					}
+				}
+				title: "Any #forge:bookshelves"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["42794282850FCF78"]
+			id: "5F7DCF112F9F6C1C"
+			rewards: [{
+				id: "1BB0447B2480217E"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_strength"
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Visit 'Meet your fight' chapter to find more mob hunting quests!"
+			tasks: [{
+				id: "3F4DEA84D3FC13C3"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:swords"
+					}
+				}
+				title: "Any #forge:swords"
+				type: "item"
+			}]
+			title: "Time to hunt!"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17FC433734DE388E"]
+			id: "221A3D2E31B74520"
+			rewards: [
+				{
+					id: "2E9D9E22E7194EA6"
+					item: "aquaculture:box"
+					type: "item"
+				}
+				{
+					id: "2BD4781D8FB9745E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "3F2013E48B41C56A"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "3C3963AFE8D36745"
+				item: "comforts:sleeping_bag_white"
+				type: "item"
+			}]
+			title: "Go full nomad!"
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4D4CE785FDA4EFB9"]
+			description: ["You can also disenchant enchanted books and any equipment on Grindstone and get some levels back"]
+			id: "43509530CAD67EE9"
+			rewards: [
+				{
+					id: "04F3F2EDCEA8FEE0"
+					type: "custom"
+				}
+				{
+					id: "58F9F27DA4F6E2DA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "467B675BE9BBEF80"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5F7DCF112F9F6C1C"]
+			id: "5DFB8E394E15D588"
+			rewards: [
+				{
+					id: "1DA57923100AC132"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "59474157D3865CBF"
+					item: "minecraft:cooked_mutton"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					id: "7A11C9EB58430198"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "530DD4458758A105"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F7DCF112F9F6C1C"]
+			id: "6B4F1F9F0C7DBF65"
+			rewards: [
+				{
+					id: "3A9C9D04742523BB"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1C663C0DA03AB684"
+					item: "minecraft:cooked_mutton"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "75C2B4E7FC38D985"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05A4E3BF0F81B870"]
+			id: "7B627325BF285247"
+			rewards: [
+				{
+					id: "464DFC6436A7920B"
+					item: "farmersdelight:melon_juice"
+					type: "item"
+				}
+				{
+					id: "6D3C90EDEEF988B4"
+					item: "aquaculture:box"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69B7213478415C4D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:bow": {
+							bowChargeTime: 0.0f
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+					}
+					id: "minecraft:bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["446936F80D06B8A4"]
+			id: "4CC0C281BCE93043"
+			tasks: [{
+				id: "27B18CB58A827FCC"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:mining_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5F7DCF112F9F6C1C"]
+			id: "3D96F603D819128E"
+			rewards: [
+				{
+					id: "1D81ED3C684980C0"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2DA6F35A094C0017"
+					item: "minecraft:cooked_mutton"
+					type: "item"
+				}
+				{
+					id: "3C42230EC30DD0E4"
+					item: "majruszs_difficulty:bandage"
+					type: "item"
+				}
+				{
+					id: "427DCF5AAFEDB371"
+					type: "custom"
+				}
+				{
+					id: "71512BD16C11AE12"
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "0FFD8462EA1ED212"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+				{
+					entity: "minecraft:zombie"
+					id: "704F100D8D83F64A"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7FC81AF332294769"]
+			id: "5CD3C0B70F668A36"
+			rewards: [{
+				id: "2281A8E6AE497709"
+				item: "aquaculture:lockbox"
+				type: "item"
+			}]
+			tasks: [{
+				id: "694E2779EDF92E96"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "roughtweaks:medkit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["42794282850FCF78"]
+			id: "7FC81AF332294769"
+			rewards: [
+				{
+					id: "63C308856B60AD76"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+				{
+					id: "5D3C8BC5B5C09E66"
+					item: "farmersdelight:melon_juice"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "4B035BAC70D36833"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["766E4FEA8148AEDA"]
+			id: "4D3A500BA602EAA3"
+			rewards: [
+				{
+					id: "149A8F6AB444A7E8"
+					item: "randomite:randomite_ore"
+					type: "item"
+				}
+				{
+					id: "67B1A5BA6AA4D3AD"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+				{
+					id: "007A9CBEF8E8DFA8"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "3C348F831B66DF98"
+				item: "supplementaries:planter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4D3A500BA602EAA3"]
+			id: "2C6EF7D8EC662472"
+			rewards: [
+				{
+					id: "01139A781405BB22"
+					item: "aquaculture:treasure_chest"
+					type: "item"
+				}
+				{
+					id: "7843F1A22C10442A"
+					item: "randomite:randomite_ore"
+					type: "item"
+				}
+				{
+					id: "2FEBF52D0C1CC087"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "1ECEA011AC385C54"
+				item: "supplementaries:planter_rich"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["221A3D2E31B74520"]
+			description: [
+				"Modpack encourages many different playstyles including nomadic exploring!"
+				""
+				"These items will help you with that. Though it may take time to gather them all..."
+			]
+			id: "21D9206B88C5DE16"
+			rewards: [
+				{
+					id: "0A8998A9C5E49BD9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "vanillafoodpantry:super_wolfspirit"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BD4EAE4E7CC4827"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:cake"
+					}
+					type: "item"
+				}
+				{
+					id: "58D882A43A1F3F6F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "77421003EBBC9E50"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_swiftness"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F747595D6652826"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:treasure_chest"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "13D5F4B106BA6B50"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:sack"
+					}
+					type: "item"
+				}
+				{
+					id: "559380884EAE3607"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+							"polymorph:stack_recipe_data": { }
+						}
+						id: "sophisticatedbackpacks:crafting_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "3166BEE80BC5969E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+							"polymorph:stack_recipe_data": { }
+						}
+						id: "sophisticatedbackpacks:auto_smelting_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "295A438CDDD83909"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "sophisticatedbackpacks:iron_backpack"
+						tag: {
+							contentsUuid: [I;
+								-491808682
+								488787239
+								-2082623860
+								666427245
+							]
+							inventorySlots: 54
+							upgradeSlots: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F7422F1695994FF"
+					item: "sophisticatedbackpacks:tank_upgrade"
+					type: "item"
+				}
+				{
+					id: "5F9B8C62432D4841"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "nutritionalbalance:lunchbox"
+					}
+					type: "item"
+				}
+			]
+			title: "Nomadic dreams"
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0000000000000013"]
+			id: "6564CCC871E811E4"
+			subtitle: "Visit 'Storage Solutions' chapter to find more about storage possibilities"
+			tasks: [{
+				id: "0285996235A5B749"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "sophisticatedbackpacks:backpack"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7FC81AF332294769"]
+			description: ["Anvils have significantly more utility than previously.  Anvils have no level limit, and are enchantable.  Anvils can receive Unbreaking, Splitting, and Obliteration.  Splitting is a new enchantment that allows you to drop an anvil on an enchanted book with multiple enchantments, and receive an individual book for each level.  However, this process only has a 20% success chance per level of splitting, and will always cause damage to the anvil (but can be prevented by unbreaking).  Obliteration is similar, it has the same success rules, but it works on books with a single enchantment above level one.  It will create two books, each a level lower than the original.  Think of it as the inverse of combining two books in an anvil."]
+			id: "2AA12D542527B597"
+			rewards: [{
+				id: "7ED1D9EF85BDCCEE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4F487362297E0A2C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:anvil"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0391CE59C81DC08E"]
+			id: "3A7C045E94E9A459"
+			rewards: [
+				{
+					id: "7723D15CD9A19830"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "decorative_blocks:brazier"
+					}
+					type: "item"
+				}
+				{
+					id: "69E7CBCBA63B2C36"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "buildersaddition:shelf_spruce"
+					}
+					type: "item"
+				}
+				{
+					id: "520B9FF4D38756AD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "buildersaddition:bookshelf_spruce"
+					}
+					type: "item"
+				}
+				{
+					id: "2E6B7E2CC24AC4DE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "buildersaddition:cabinet_spruce"
+					}
+					type: "item"
+				}
+				{
+					id: "38F237A0FDD89D85"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "buildersaddition:bench_spruce"
+					}
+					type: "item"
+				}
+				{
+					id: "08703E9B3A5BDE82"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "buildersaddition:cupboard_spruce"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1F443F87E865B086"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:loom"
+					}
+					type: "item"
+				}
+				{
+					id: "289A1C199514C6E3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:smoker"
+					}
+					type: "item"
+				}
+				{
+					id: "374CF1ECE21C1FF6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:smithing_table"
+					}
+					type: "item"
+				}
+				{
+					id: "35F0EB2695EC88EC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:stonecutter"
+					}
+					type: "item"
+				}
+				{
+					id: "789B54C4DA2E65CB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:grindstone"
+					}
+					type: "item"
+				}
+				{
+					id: "7F2DFBB4A19186E0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:cartography_table"
+					}
+					type: "item"
+				}
+				{
+					id: "349AE1583E41376A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:blast_furnace"
+					}
+					type: "item"
+				}
+				{
+					id: "3F60FC36B5CAA480"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:composter"
+					}
+					type: "item"
+				}
+			]
+			title: "Humble accommodation "
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["518DF4A178673014"]
+			id: "479C78EE75C68AC0"
+			rewards: [{
+				id: "0FD1A7BD9D4725EF"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "35D74D0901EAC51B"
+				type: "custom"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["446936F80D06B8A4"]
+			id: "7CD3436C8DD7B7F9"
+			tasks: [{
+				id: "570220E57AA0CAA7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:diamond_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7CD3436C8DD7B7F9"]
+			id: "6FF6BF31AB27E3B5"
+			rewards: [{
+				id: "6C443F8C07FE54F2"
+				type: "choice"
+			}]
+			tasks: [{
+				id: "55F206EA433E7FBA"
+				type: "custom"
+			}]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["268FEFB76E852EE6"]
+			hide: true
+			id: "76CDF977DD44821E"
+			rewards: [
+				{
+					id: "21FA4534A102D66F"
+					type: "choice"
+				}
+				{
+					id: "63564DC13626B350"
+					type: "custom"
+				}
+				{
+					id: "09C954B6D4DA5DC9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "5CC737BFECC43E69"
+				type: "custom"
+			}]
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["544027B606EEA00D"]
+			hide: true
+			id: "62CC0A7EBAFC51DD"
+			rewards: [{
+				id: "5EB6427F5ADE7314"
+				type: "choice"
+			}]
+			tasks: [{
+				id: "5B96DB466E7BEDA1"
+				type: "custom"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["62CC0A7EBAFC51DD"]
+			hide: true
+			id: "268FEFB76E852EE6"
+			rewards: [
+				{
+					id: "4FDB854668B9C320"
+					type: "choice"
+				}
+				{
+					id: "12916AB9AC163420"
+					type: "custom"
+				}
+				{
+					id: "69159EC2448FCBAC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "771AF7CE54E75D9E"
+				type: "custom"
+			}]
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["518DF4A178673014"]
+			id: "46732178BA7B82A4"
+			rewards: [{
+				id: "50F3DE979F71518D"
+				type: "choice"
+			}]
+			tasks: [{
+				id: "101D3373D18436BD"
+				type: "custom"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["76CDF977DD44821E"]
+			description: ["Blame @Doctor Mage#5234"]
+			hide: true
+			hide_dependency_lines: false
+			id: "2ED6AA00DF16FDBC"
+			rewards: [
+				{
+					id: "192B01343547ABFC"
+					type: "custom"
+				}
+				{
+					count: 100
+					id: "767985A8EA83E04C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "randomloot:titan_case"
+					}
+					type: "item"
+				}
+				{
+					count: 100
+					id: "3782D208352ADA5B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:cake"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6FEA670A38266F94"
+				type: "custom"
+			}]
+			title: "You asked for this, Mage"
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["000000000000004C"]
+			id: "3C06C79413BD4E04"
+			tasks: [{
+				id: "2AB6762BF681AFCF"
+				type: "custom"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C06C79413BD4E04"]
+			id: "7C426A8DEF44C9BE"
+			rewards: [{
+				id: "1A17EB34BB2F2760"
+				type: "choice"
+			}]
+			tasks: [{
+				id: "7B1C2B892B6D394E"
+				type: "custom"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "tombstone:decorative_grave_cross"
+				tag: {
+					model_texture: 1
+				}
+			}
+			id: "68365C63EFD23F2E"
+			rewards: [{
+				id: "02873F690435EC38"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Die at least 1 time"
+			tasks: [{
+				id: "3300C171DE09AC24"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 1
+			}]
+			title: "To Live is to Die"
+			x: 0.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["68365C63EFD23F2E"]
+			description: [
+				"Players earns knowledge points each time they use a grave's soul to enchant an item, when they free a soul from a receptacle, by praying near a decorative grave with a special item called Ankh of Pray (with a cooldown of 6 in-game hours), or by accomplishing the tombstone advancements."
+				""
+				"Theses points allow you to unlock some perks in a special gui \"Knowledge of Death\" (the keybind in \"misc\" is not defined by default)."
+				""
+				"The perks are small bonus related to all the features of tombstone, instead of providing them by default."
+			]
+			id: "5FD02944DC20453B"
+			subtitle: "Chose your first knowledge of death"
+			tasks: [{
+				advancement: "tombstone:adventure/choose_knowledge"
+				criterion: ""
+				id: "2E682B242C3E989A"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5FD02944DC20453B"]
+			description: [
+				"The decorative graves are special blocks with a fog particle only during the night."
+				""
+				"The decorative graves can be haunted by a soul. The soul stays until used and allows some enchants like magic scroll/tablet, or upgrade the grave's key."
+				""
+				"To build a decorative grave, you will need to collect Grave's Dust (the common way to obtain them is by killing undeads or with Cat Morning Gift), and one Essence of Undeath being an ingredient obtainable through the advancements (the first one is by finding how to select your favorite grave in the config in game) and rarely foundable on undeads, Cat Morning Gift and by fishing in deep water (but don't hope to find them by theses ways except by luck)."
+				""
+				"Rarely, a Grave Guardian can appear near a decorative grave. This guardian will protect the surroundings from hostile creatures and will offer to trade with the players. This is one way to obtain Grave's Dust and Essence of Undeath. During special events, the trades may differ."
+			]
+			id: "2D09120BC5B9A53D"
+			rewards: [{
+				id: "43DFB445042A0F29"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Decorative graves"
+			tasks: [
+				{
+					id: "64AA92691069E5A6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "tombstone:essence_of_undeath"
+					}
+					type: "item"
+				}
+				{
+					id: "0CD8784F003BA0C7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "tombstone:grave_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "476032839F26BC6D"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tombstone:decorative_graves"
+						}
+					}
+					title: "Any #tombstone:decorative_graves"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5FD02944DC20453B"]
+			description: [
+				"Once enchanted, they allow to teleport in various ways."
+				""
+				"In ancient time, tablets had the ability to transport multiple creatures, but not one remembers the secret of their creation."
+			]
+			id: "631533869B9D2B84"
+			rewards: [
+				{
+					id: "654F966C4F45530E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5920BE2402347DCB"
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "753B247AF2BAD062"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tombstone:strange_tablet"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5FD02944DC20453B"]
+			description: [
+				"The Ankh allows you to use prayers by period."
+				""
+				"You can pray near a Decorative Grave giving you a chance to receive a beneficial effect or on certain creatures depending on your alignment."
+				""
+				"If your alignment is neutral or better, you can use Exorcism to convert a zombie-villager into a villager (or Zombify doing the opposite if your alignment is negative)"
+				""
+				"If your alignment is +1, you can use Prayer of Protection on a villager preventing its next death."
+				""
+				"If your alignment is +2, you can use Prayer of Empathy to rally a tameable creature."
+			]
+			id: "054955FDD2370B91"
+			rewards: [
+				{
+					id: "2BD3162CBAFA5515"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7854BB23EA398CF0"
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "26009F6D839838AA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tombstone:ankh_of_pray"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 12.5d
+		}
+		{
+			id: "6CDA8EDF5D8B158D"
+			rewards: [
+				{
+					id: "4E86A45261F6DCE7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ars_nouveau:greater_experience_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "2140642E3E07BEB1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "roughtweaks:medkit"
+						tag: {
+							Damage: 0
+							rpgloot.randomize: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D43A713AC6C5EEA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "roughtweaks:plaster"
+						tag: {
+							Damage: 0
+							rpgloot.randomize: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6079C827DC85BA7F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							rpgloot.randomize: 0b
+							type: "materials_dusts"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2ECEA31F9368D390"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							rpgloot.randomize: 0b
+							type: "ingots_valuable"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B548263E58E5A77"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							rpgloot.randomize: 0b
+							type: "potions"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B4470D65965852C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							rpgloot.randomize: 0b
+							type: "materials_magic"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25C6C055582DA0EF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "randomite:randomite_ore"
+					}
+					type: "item"
+				}
+				{
+					id: "337DB15CCD5CDA47"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:box"
+					}
+					type: "item"
+				}
+				{
+					id: "32E30E8EA80A8F82"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:lockbox"
+					}
+					type: "item"
+				}
+				{
+					id: "4483D6182AE1E2EB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:treasure_chest"
+					}
+					type: "item"
+				}
+				{
+					id: "32D312025DD15F1F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "byg:ametrine_gems"
+					}
+					type: "item"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				id: "0DB86C04755292EF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:bedrock"
+				}
+				type: "item"
+			}]
+			title: "test quest please ignore"
+			x: 16.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["0000000000000171"]
+			description: [
+				"The Paraglider can be crafted by using some leathers and sticks. While you're holding Paraglider midair, you fall more slowly, gliding over the land."
+				""
+				"Also there's and Stamina Vessels which you can use it to expand your stamina wheel. Obtaining these will involve talking to a peculiar statue of some foreign goddess. Keep an eye on when you visit a village."
+			]
+			id: "628200F12D42D0E8"
+			rewards: [{
+				id: "7FEA0D6362F0045D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6024102BEA72FD26"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "paraglider:paraglider"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["446936F80D06B8A4"]
+			id: "4DFF53E47185A474"
+			rewards: [
+				{
+					id: "0F03878AFDFB2A1F"
+					type: "custom"
+				}
+				{
+					id: "6B611EBEBFAB9C6E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "majruszs_difficulty:golden_bandage"
+					}
+					type: "item"
+				}
+				{
+					id: "199F1524A6C50813"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:gold_nugget"
+					}
+					random_bonus: 101
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Enter the Nether!"
+			tasks: [{
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+				id: "3F511FABA46A9D5C"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F7DCF112F9F6C1C"]
+			id: "05A4E3BF0F81B870"
+			tasks: [{
+				count: 3L
+				id: "30DAF19016F81C44"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0000000000000013"]
+			description: ["Full-size 1x1 storage drawers will store 32 stacks of an item."]
+			id: "0994B5C8D2761BEA"
+			rewards: [
+				{
+					id: "606FA881459C0167"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "61A6685EAD8774C2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Visit 'Storage Solutions' chapter to find more about storage possibilities"
+			tasks: [{
+				id: "0498B4CE87823DEF"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "storagedrawers:oak_full_drawers_1"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:spruce_full_drawers_1"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:birch_full_drawers_1"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:jungle_full_drawers_1"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:acacia_full_drawers_1"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:dark_oak_full_drawers_1"
+							}
+						]
+					}
+				}
+				title: "Full Storage Drawer: Single Item"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0000000000000013"]
+			id: "548306049450AFD7"
+			rewards: [
+				{
+					id: "77B399E61A46C8FD"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "72F6C70FF4224F16"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Head over to Deco Madness chapter to find more about decorations!"
+			tasks: [{
+				id: "3F31F19698C57CF0"
+				item: "mcwwindows:oak_window"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0000000000000013"]
+			id: "0391CE59C81DC08E"
+			rewards: [
+				{
+					id: "1DC17B5DBF8F2B58"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26721C2A27AC3F64"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "36A398636A6EDC85"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0000000000000013"]
+			id: "0000000000000065"
+			rewards: [
+				{
+					count: 3
+					id: "5B250341C89405D8"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "4411730270783908"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "0000000000000066"
+				item: "quark:chute"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["518DF4A178673014"]
+			id: "34DE20EAE1581254"
+			subtitle: "Get every color of Corundum Cluster(9)"
+			tasks: [{
+				advancement: "quark:get_all_corundum"
+				criterion: ""
+				id: "0F095B7B41816327"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["766E4FEA8148AEDA"]
+			description: [
+				"There are a lot of decorations available to decorate your humble home."
+				""
+				"You can search in JEI by mod:"
+				"- @Macaw"
+				"- @Builder"
+				"- @furniture"
+				"- @lights"
+			]
+			id: "0000000000000013"
+			rewards: [
+				{
+					count: 16
+					id: "00000000000002D1"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					id: "2D7AFF50D1B370CF"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+				{
+					id: "61DD9FB530AEA1D0"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000014"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests"
+					}
+				}
+				title: "Any forge:chests"
+				type: "item"
+			}]
+			title: "It's a box!"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "394202A011E33493"
+			rewards: [{
+				id: "0A13DC3141847F1C"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "027EBE349BC287BC"
+				item: {
+					Count: 1b
+					id: "constructionwand:stone_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["42794282850FCF78"]
+			description: ["While progressing through the quest book you will gain coins which can be traded for different valuable items in dedicated chapter (\"Coin Shop\")"]
+			id: "1132350866F5AC7A"
+			rewards: [
+				{
+					id: "5A63AEDEF75C189C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "67D19FFF347AC943"
+					item: {
+						Count: 1b
+						id: "deeppouches:alpha_pouch"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			size: 0.7d
+			tasks: [{
+				id: "705F72C3A7D20EFB"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			x: -1.05d
+			y: -1.4d
+		}
+		{
+			dependencies: ["42794282850FCF78"]
+			id: "0000000000000171"
+			rewards: [
+				{
+					count: 3
+					id: "2FB3C69A3E892062"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					id: "0EA721BF50CCE4D2"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Visit 'Fish n Farm' chapter to find more about farming possibilities"
+			tasks: [
+				{
+					id: "0000000000000172"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					id: "0000000000000173"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "0000000000000174"
+					item: "minecraft:beetroot_seeds"
+					type: "item"
+				}
+				{
+					id: "36F09AC21431DB8D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "minecraft:stone_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Farming Bob"
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0000000000000171"]
+			id: "0000000000000054"
+			rewards: [
+				{
+					id: "00000000000002C3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 3
+					id: "0AD283FBFA9997C2"
+					item: "minecraft:paper"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000055"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000000054"]
+			id: "00000000000000B7"
+			rewards: [
+				{
+					id: "00000000000002C6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 3
+					id: "4AE0B702FB898EA7"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "427CA4BB18A7EF91"
+					item: "minecraft:paper"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000000B8"
+				item: "minecraft:bookshelf"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0000000000000054"]
+			description: [
+				"First you need to craft your album and then start killing hostile mobs. Hostile mobs have chance to drop card package with random rarity. Opening the package will grant you 5 cards which can be used for album."
+				""
+				"Once you reach certain threshold with your album card collection you will obtain passive effects such as resistance/regeneration/extra health and more."
+			]
+			id: "59AEBB60B068FBF7"
+			subtitle: "900 new collectible cards in varying rarities which can enhance your character by filling your collector's album."
+			tasks: [{
+				id: "359FC96DAD135771"
+				item: {
+					Count: 1b
+					id: "collectorsalbum:album"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0000000000000054"]
+			id: "0000000000000052"
+			rewards: [
+				{
+					count: 4
+					id: "48DAA383BC03B02C"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "371695051C4A8EF4"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "791033E8303D6790"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000053"
+				item: "minecraft:map"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0000000000000052"]
+			id: "0000000000000576"
+			rewards: [{
+				count: 5
+				id: "0000000000000578"
+				item: "randomite:randomite_ore"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000000577"
+				item: {
+					Count: 1b
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0000000000000052"]
+			id: "0000000000000175"
+			rewards: [
+				{
+					id: "7FC1DD7303B55C33"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:swiftness"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00000000000002CE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "00000000000004B3"
+					item: "minecraft:ink_sac"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000176"
+				item: "minecraft:dark_oak_boat"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0000000000000175"]
+			id: "47364855F06FE4C1"
+			rewards: [{
+				id: "6F19971D68A1224B"
+				item: "aquaculture:lockbox"
+				type: "item"
+			}]
+			tasks: [{
+				id: "528621BB05EA0814"
+				item: "minecraft:sea_pickle"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0000000000000175"]
+			id: "2547D23A71DEFCBC"
+			rewards: [{
+				id: "1D75548CF5460C7B"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "56A3B7D99C8D4AE2"
+				item: "minecraft:prismarine_crystals"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0000000000000175"]
+			id: "5CBEE027F9B2BB6E"
+			rewards: [{
+				id: "6FB586E06579E685"
+				item: "aquaculture:lockbox"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7638244305D2B4B3"
+				item: {
+					Count: 1b
+					id: "minecraft:trident"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2547D23A71DEFCBC"]
+			id: "35C79FAAB30AAA94"
+			rewards: [{
+				id: "69965FF1672CDEF5"
+				item: "aquaculture:lockbox"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03D93F95AF4B7C27"
+				item: "minecraft:sea_lantern"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7FC81AF332294769"]
+			id: "09DCF997E89A3D37"
+			rewards: [
+				{
+					id: "5F87F2CCDEC39638"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 5
+					id: "08D7A159DAB3AADB"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "64366B477DF5155F"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Visit 'Not Enough Food' chapter to find more about cooking possibilities"
+			tasks: [{
+				id: "28174D5298762441"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7FC81AF332294769"]
+			id: "3D788072DF4A89FE"
+			rewards: [
+				{
+					count: 2
+					id: "78279B3F9FFD9F29"
+					item: "aquaculture:box"
+					type: "item"
+				}
+				{
+					id: "58E48C82E5EF2CF0"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "random_mob_drops"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4ED71EC26CF18DF5"
+				item: "supplementaries:faucet"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7FC81AF332294769"]
+			description: [
+				"A Trowel tool can be crafted with Iron and Sticks. The Trowel, when right clicked, will place a random block from your hotbar, making it useful for ruins or paths."
+				""
+				"A Trowel will break after placing 256 blocks, or four stacks."
+			]
+			id: "0000000000000063"
+			rewards: [
+				{
+					id: "0E84BA708EA1528E"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					id: "425A86AFBEE6853B"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					id: "4CED59A43E0EFAFC"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "1841BB98D96DBB16"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					id: "72C71CD14970E896"
+					item: "minecraft:mossy_cobblestone"
+					type: "item"
+				}
+				{
+					id: "00969CBA88A0F7FF"
+					item: "minecraft:stone_bricks"
+					type: "item"
+				}
+				{
+					id: "21728F6F8B07D288"
+					item: "minecraft:cracked_stone_bricks"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000064"
+				item: {
+					Count: 1b
+					id: "quark:trowel"
+					tag: {
+						Damage: 0
+						last_stack: {
+							Count: 1
+							id: "minecraft:polished_andesite"
+						}
+						placing_seed: -1712070416600608528L
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7FC81AF332294769"]
+			id: "000000000000004C"
+			rewards: [
+				{
+					count: 3
+					id: "00000000000002C8"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "00000000000002CB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1A551696B251268E"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "000000000000004D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["000000000000004C"]
+			id: "198CC8D9E11D3EE4"
+			rewards: [
+				{
+					id: "12BA6141B7D6D948"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0C362517CBF03A4B"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "random_dyes"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Convert a Wandering Trader into a villager"
+			tasks: [{
+				id: "4F7DB9AF38CB9A01"
+				item: "villagertools:contract"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["000000000000004C"]
+			id: "37D53E78124BF341"
+			rewards: [{
+				id: "7036642D8AC5C4C0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Unlock trades when a villager has them blocked (red X).  Also used as crafting material in many items"
+			tasks: [{
+				id: "69C8072C88798346"
+				item: "villagertools:restock"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["37D53E78124BF341"]
+			id: "570C60946BBFD8FA"
+			rewards: [
+				{
+					id: "5E7699AF90EAB517"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "15DED0123465C30C"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "21B9D2AC1E8A2B48"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Summons Pillagers on use"
+			tasks: [{
+				id: "07DC603B6ACC3BAE"
+				item: "villagertools:badge"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["37D53E78124BF341"]
+			id: "10519DA5BB326464"
+			rewards: [
+				{
+					id: "54CCA31419A7D6B1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "499C028530B15983"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "random_enchant"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "557ABDE62D4FDC80"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "6255AA891D75FFFF"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Corrupt villagers and traders into Pillagers, and can make some illagers even more powerful"
+			tasks: [{
+				id: "11E2DEA8813F2778"
+				item: "villagertools:darkness"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["37D53E78124BF341"]
+			id: "0F59F88E3816010E"
+			rewards: [
+				{
+					id: "3B908718B5E58B2E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "03AAE55F5968ED2A"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "random_dyes"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DCA05FB87960094"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "4BD36FA82D42F70D"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Convert pillagers into Town Guards to fight and defend against raids"
+			tasks: [{
+				id: "241FDC3F1B1901C9"
+				item: "villagertools:guard"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["37D53E78124BF341"]
+			id: "53D5C55000A4B304"
+			rewards: [
+				{
+					id: "3B5263F42E2C00AC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5743FA3A1FE7A714"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "random_materials"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B8CD57064BDC4C0"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "07CE9F409D0B571E"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Upgrade your Iron Golems.  New versions are upgraded and will never attack players even when hit"
+			tasks: [{
+				id: "2AE79AC7913CAC4F"
+				item: "villagertools:gears"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["37D53E78124BF341"]
+			id: "19DE307EB80ECBDD"
+			rewards: [
+				{
+					id: "2A56A5A3B9554DB3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2D04CFB5F87D3797"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "7DFFE78B05A00D18"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Instantly levels up their profession level without doing any trades"
+			tasks: [{
+				id: "106832EF47C5F6B6"
+				item: "villagertools:knowledge"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["000000000000004C"]
+			id: "031D29EEE7B5A5A7"
+			rewards: [{
+				id: "3F9B6F960665E737"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Make your first villager trade"
+			tasks: [{
+				advancement: "morevillagers:first_trade"
+				criterion: ""
+				id: "114773E0AF9E547B"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["198CC8D9E11D3EE4"]
+			id: "38B57EE3DE006632"
+			rewards: [
+				{
+					id: "6E4A50D40C526D5D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "621519DFFAB4C6EA"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "random_enchant"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "479850A21A83D694"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Free Wandering Trader llamas from captivity, converting them to normal"
+			tasks: [{
+				id: "6363A8E87027A1B9"
+				item: "villagertools:key"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["031D29EEE7B5A5A7"]
+			id: "6D4829B88CC59A96"
+			rewards: [
+				{
+					id: "6A3EBA00A83EC80D"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "131BAF251EDD28D4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Obtain every villager workstation (21)"
+			tasks: [{
+				advancement: "morevillagers:all_workstations_get"
+				criterion: ""
+				id: "6EDEDE0D451B0079"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["031D29EEE7B5A5A7"]
+			id: "52FD67FD6156343A"
+			rewards: [{
+				id: "455361B3431332F6"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Successfully defend a village from a raid"
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				id: "04724854D2AB6D77"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6DA54AD3576429BD"]
+			id: "5972F6732B417E5B"
+			rewards: [
+				{
+					id: "0512D2FACA5F7D45"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "20BEF9A50B8C93F1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5CBF45690CB0CB01"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			subtitle: "Trade with the Enderologist in the End dimension"
+			tasks: [{
+				advancement: "morevillagers:end_trade"
+				criterion: ""
+				id: "6C6D7A81184FDD7D"
+				type: "advancement"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5972F6732B417E5B"]
+			id: "0BF1E5F4FD13B804"
+			rewards: [
+				{
+					id: "4123C901B238E055"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "4E1BC620F85C50EA"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "hat_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Trade with every (21) villager profession"
+			tasks: [{
+				advancement: "morevillagers:all_professions_traded"
+				criterion: ""
+				id: "471FC757C0A5ADBB"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["031D29EEE7B5A5A7"]
+			id: "6DA54AD3576429BD"
+			rewards: [
+				{
+					id: "79D3A169D5B0A777"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6B862E9C731FB62B"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+				{
+					id: "2A28E51842126858"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			subtitle: "Trade with the Netherologist in the Nether dimension"
+			tasks: [{
+				advancement: "morevillagers:nether_trade"
+				criterion: ""
+				id: "0BC58EE1695D4729"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["031D29EEE7B5A5A7"]
+			id: "6B22DE7F764EE649"
+			rewards: [{
+				id: "28122D72C203F76B"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			subtitle: "Visit all 5 village types"
+			tasks: [{
+				advancement: "morevillagers:all_villages"
+				criterion: ""
+				id: "752864CAF8E2E6AC"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			id: "42794282850FCF78"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "6F38711688401ED1"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42794282850FCF78"]
+			id: "7FBA77A953CC37C1"
+			tasks: [{
+				id: "796B6A49998B0679"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+	]
+	title: "&2World Exploration&r"
+}

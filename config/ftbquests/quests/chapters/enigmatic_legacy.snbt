@@ -1,0 +1,954 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "enigmatic_legacy"
+	group: "2C344CA71B9F0CFD"
+	icon: "enigmaticlegacy:astral_fruit"
+	id: "6F6B82E04E896DD4"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 27.0d
+		hover: [ ]
+		image: "minecraft:textures/gui/book.png"
+		rotation: 0.0d
+		width: 25.0d
+		x: 6.0d
+		y: 4.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "22FCDA94D8D63817"
+			rewards: [
+				{
+					id: "0DAE35D302073258"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "potions"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A174BD80D0ADF77"
+					type: "custom"
+				}
+				{
+					id: "02244BAA397962D0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "1BBFBD855997FFCB"
+				item: "enigmaticlegacy:the_acknowledgment"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22FCDA94D8D63817"]
+			id: "636B692EB80B1FBE"
+			rewards: [
+				{
+					id: "18EDE8F638D54815"
+					type: "custom"
+				}
+				{
+					id: "4BB9967CD7B96A86"
+					item: {
+						Count: 1b
+						id: "roughtweaks:bandage"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3F5C1F6472902192"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:tattered_tome"
+					tag: {
+						formerReaders: ["dreamsx"]
+						lastHolder: [I;
+							-939465457
+							656887204
+							-1702245167
+							-1888876800
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["636B692EB80B1FBE"]
+			id: "737D3D4923742928"
+			rewards: [
+				{
+					id: "1F1B31583DF22AC8"
+					type: "custom"
+				}
+				{
+					id: "1B9294F513EACB53"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "5E63648912078CB5"
+				item: "enigmaticlegacy:thicc_scroll"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["737D3D4923742928"]
+			id: "4E14FCCB76F9292F"
+			rewards: [
+				{
+					id: "411038DC2807852B"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "materials_magic"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "350F4728CB8B9CFD"
+					type: "custom"
+				}
+				{
+					id: "6CB02B1E9895D078"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "1B13C083DC19A563"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:xp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["737D3D4923742928"]
+			id: "4C6ADE6BEDA551A7"
+			rewards: [
+				{
+					id: "7671FA25506D4CE3"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "materials_magic"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FEC16D5D8707B23"
+					type: "custom"
+				}
+				{
+					id: "693344C067008D49"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "36206C0904555356"
+				item: "enigmaticlegacy:escape_scroll"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["737D3D4923742928"]
+			id: "65E6E33AD2CDD3F2"
+			rewards: [
+				{
+					id: "04C6CEB2D2A4C277"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "materials_magic"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E078B684177B5BF"
+					type: "custom"
+				}
+				{
+					id: "4634105E931FE0F2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "0F155AE4F3585BE2"
+				item: "enigmaticlegacy:heaven_scroll"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["636B692EB80B1FBE"]
+			id: "26B76E1B29624570"
+			rewards: [{
+				id: "2ACE4A38F31BD0DA"
+				item: "aquaculture:lockbox"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A3AE57535FEC21C"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:withered_tome"
+					tag: {
+						lastHolder: [I;
+							-939465457
+							656887204
+							-1702245167
+							-1888876800
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["636B692EB80B1FBE"]
+			id: "195BD8D38C6EEC28"
+			rewards: [{
+				id: "222256BED8E75BD8"
+				item: {
+					Count: 1b
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "materials_monsters"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F96BE582914B3D5"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:corrupted_tome"
+					tag: {
+						lastHolder: [I;
+							-939465457
+							656887204
+							-1702245167
+							-1888876800
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["737D3D4923742928"]
+			id: "2609B9D4BAA8C0FE"
+			rewards: [
+				{
+					id: "2CC8B641C9B18752"
+					type: "custom"
+				}
+				{
+					id: "077DC6C40B99853E"
+					item: "losttrinkets:treasure_bag"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "3B506446860BC371"
+				item: "enigmaticlegacy:darkest_scroll"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2609B9D4BAA8C0FE"]
+			id: "1556AA07575E4055"
+			rewards: [
+				{
+					id: "61787B6DC607A0C5"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "materials_magic"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "457132D9A9F422F5"
+					type: "custom"
+				}
+				{
+					id: "102D431A88AE3B48"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "7E7A7BF110C84B00"
+				item: "enigmaticlegacy:avarice_scroll"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2609B9D4BAA8C0FE"]
+			id: "0F9EF9F297B98E0F"
+			rewards: [
+				{
+					id: "79D69B59E2960F00"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "materials_magic"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "592D4497D86450D9"
+					type: "custom"
+				}
+				{
+					id: "3BAE036B007FCB98"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "4C98DA5F00A4F9DB"
+				item: "enigmaticlegacy:cursed_scroll"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["636B692EB80B1FBE"]
+			id: "17FEFEDE0A353A3E"
+			rewards: [
+				{
+					id: "386FB42B74DFEA5B"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "materials_magic"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19AB5CB1706B637F"
+					type: "custom"
+				}
+				{
+					id: "250FAB7F8ABB2801"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "45FF60B043E8FC81"
+				item: "enigmaticlegacy:recall_potion"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17FEFEDE0A353A3E"]
+			id: "749E7D2E2FE67602"
+			rewards: [
+				{
+					id: "176B743879F170D5"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "materials_magic"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D208E7927C25D6A"
+					type: "custom"
+				}
+				{
+					id: "44D7470941ECBCEB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "7DD7C0F0F2AD5120"
+				item: "enigmaticlegacy:mending_mixture"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1E7C7440246D020E"]
+			id: "30BDCA8C21DF074F"
+			rewards: [
+				{
+					id: "0D91A26E617AA5CC"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "materials_magic"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BBA48543C0CEA31"
+					type: "custom"
+				}
+				{
+					id: "0A174DF2AC6E3D76"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "623F17391DE40ADA"
+				item: "enigmaticlegacy:magnet_ring"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["636B692EB80B1FBE"]
+			id: "4BDC83576A6FAB97"
+			rewards: [
+				{
+					id: "3EB59C3D5F9EC336"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "materials_magic"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F9C721355178FDF"
+					type: "custom"
+				}
+				{
+					id: "53A18225345BA5A6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "439C0A0527281509"
+				item: "enigmaticlegacy:astral_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4BDC83576A6FAB97"]
+			id: "35C994E8314DDE5F"
+			rewards: [
+				{
+					id: "0A8D4051D5C1E8FE"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "materials_magic"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33ABDBAE4E506327"
+					type: "custom"
+				}
+				{
+					id: "7E41C432A7608751"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "064C7D8450048ED7"
+				item: "enigmaticlegacy:etherium_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17FEFEDE0A353A3E"]
+			id: "3C478DA30D0C9461"
+			rewards: [
+				{
+					id: "23BDC311DC9CE499"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "materials_magic"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A2412CED657763F"
+					type: "custom"
+				}
+				{
+					id: "4BBA5BA459963AFE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "367D5F2BF36ED9EB"
+				item: "enigmaticlegacy:dark_mirror"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "32BC5D23EFCBDAAE"
+			rewards: [
+				{
+					id: "5B777542CEFA2A06"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "materials_magic"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "713406E1C7235BA4"
+					type: "custom"
+				}
+				{
+					id: "07807DA00DFFC3E7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "66437D1295AEABB1"
+				item: "enigmaticlegacy:hunter_guide"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "0C58C5A90207F2DD"
+			rewards: [
+				{
+					id: "036198A40B584BE0"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "materials_magic"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04141842E1637B3B"
+					type: "custom"
+				}
+				{
+					id: "5457BEB97574883C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "3E2591BD8821D91A"
+				item: "enigmaticlegacy:animal_guide"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			id: "2D5C31B3C415216C"
+			rewards: [
+				{
+					id: "7683A5048F50FBAB"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "materials_magic"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2177A81D0FD70D2C"
+					type: "custom"
+				}
+				{
+					id: "722886F96DCD16BF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "5F91986B402CFA51"
+				item: "enigmaticlegacy:the_twist"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			id: "4A719CFCE68F97D5"
+			rewards: [
+				{
+					id: "63CB3DCACB361C7A"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "materials_magic"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23FA0E56427F2FCA"
+					type: "custom"
+				}
+				{
+					id: "4258BA2D7D705DAF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "6F76753C8B1C5243"
+				item: "enigmaticlegacy:enchantment_transposer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["636B692EB80B1FBE"]
+			id: "1E7C7440246D020E"
+			rewards: [
+				{
+					id: "1FDFA0806927005D"
+					type: "custom"
+				}
+				{
+					id: "1C40C16A28FB5994"
+					item: "aquaculture:box"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "047DFC80E1462E86"
+				item: "enigmaticlegacy:iron_ring"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30BDCA8C21DF074F"]
+			id: "7A0650ABB1F35FDE"
+			rewards: [
+				{
+					id: "590A26AC2E23FA86"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "materials_magic"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76259BF39FD47F71"
+					type: "custom"
+				}
+				{
+					id: "05AAE0859D462889"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "0F7513F67B0CAB06"
+				item: "enigmaticlegacy:super_magnet_ring"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1E7C7440246D020E"]
+			id: "03AA9DE0CE382658"
+			rewards: [
+				{
+					id: "78EE4494DD778E5A"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "materials_magic"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "689EDEB3FD211AFC"
+					type: "custom"
+				}
+				{
+					id: "3FC0DF8B72EE45EA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "3FB55F14433A58C4"
+				item: "enigmaticlegacy:ender_ring"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			id: "30BAA33E78499F26"
+			rewards: [
+				{
+					id: "177D722F3B481111"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "materials_monsters"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A3AA18972A8E741"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "035397A1A351F85E"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:earth_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["30BAA33E78499F26"]
+			id: "234B5DC00B2AFBFB"
+			rewards: [
+				{
+					id: "5C9764A35E97A4AE"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "materials_magic"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A1F51622DD480E8"
+					type: "custom"
+				}
+				{
+					id: "1EB9F274B36211D0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "7C53246129561248"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:mining_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			id: "6E16203B7577B88A"
+			rewards: [
+				{
+					id: "4056F8EC4B79DCC5"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "materials_monsters"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0511E046E8537193"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "4E16CA54C33CD328"
+				item: "enigmaticlegacy:twisted_core"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6E16203B7577B88A"]
+			id: "586DFB3794C1B728"
+			rewards: [
+				{
+					id: "45121FAAB814BB92"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "materials_magic"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3205DA6B480FF212"
+					type: "custom"
+				}
+				{
+					id: "4A09EF712EDBEA3A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "22E7EBD265742214"
+				item: "enigmaticlegacy:berserk_emblem"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6E16203B7577B88A"]
+			id: "67A6EE38F2FCE4AA"
+			rewards: [
+				{
+					id: "7AB74698DDC9B482"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "materials_magic"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11DA9863D83E4BD2"
+					type: "custom"
+				}
+				{
+					id: "389089565AC83CCA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "646CCD8675645094"
+				item: "enigmaticlegacy:cursed_stone"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+	]
+	title: "Enigmatic Legacy"
+}

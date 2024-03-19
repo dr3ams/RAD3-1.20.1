@@ -1,0 +1,149 @@
+
+#Creeper -> Charged Creeper
+[creeper_to_charged]
+	#Setting this to false disables the creeper -> charged creeper ageing (Default: true)
+	creeperAgeing = true
+	#This specifies the time in second(s) which dictates how long a mob needs to age (Default: 900)
+	#Range: > 1
+	creeperAgeingTime = 900
+
+#Zombie -> Husk
+[zombie_to_husk]
+	#Setting this to false disables the zombie -> husk ageing (Default: true)
+	zombieToHuskAgeing = true
+	#This specifies the time in second(s) which dictates how long a mob needs to age (Default: 30)
+	#Range: > 1
+	zombieToHuskAgeingTime = 30
+
+#Husk -> Zombie
+[husk_to_zombie]
+	#Setting this to false disables the husk -> zombie ageing (Default: true)
+	huskToZombieAgeing = true
+	#This specifies the time in second(s) which dictates how long a mob needs to age (Default: 30)
+	#Range: > 1
+	huskToZombieAgeingTime = 30
+
+#Passive Pillager -> Villager
+[passive_pillager_to_villager]
+	#Setting this to false disables the pillager -> villager ageing if the pillager is not holding a bow-like item (Default: true)
+	passivePillagerToVillagerAgeing = true
+	#This specifies the time in second(s) which dictates how long a mob needs to age (Default: 300)
+	#Range: > 1
+	passivePillagerToVillagerAgeingTime = 300
+
+#Villager -> Vindicator
+[villager_to_vindicator]
+	#Setting this to false disables the villager -> vindicator ageing (Default: true)
+	villagerToVindicatorAgeing = true
+	#This specifies the time in second(s) which dictates how long a mob needs to age (Default: 1200)
+	#Range: > 1
+	villagerToVindicatorAgeingTime = 1200
+	#This specifies the minimum light level from which the mob starts to age (Default: 0)
+	#Range: 0 ~ 15
+	villagerToVindicatorMinLight = 0
+	#This specifies the maximum light level from which the mob starts to age (Default: 8)
+	#Range: 0 ~ 15
+	villagerToVindicatorMaxLight = 8
+
+#Vindicator -> Evoker
+[vindicator_to_evoker]
+	#Setting this to false disables the vindicator -> evoker ageing (Default: true)
+	vindicatorToEvokerAgeing = true
+	#This specifies the time in second(s) which dictates how long a mob needs to age (Default: 600)
+	#Range: > 1
+	vindicatorToEvokerAgeingTime = 600
+
+#Guardian -> Elder Guardian
+[guardian_to_elder_guardian]
+	#Setting this to false disables the guardian -> elder ageing (Default: true)
+	guardianToElderAgeing = true
+	#This specifies the time in second(s) which dictates how long a mob needs to age (Default: 1800)
+	#Range: > 1
+	guardianToElderAgeingTime = 1800
+	#This specifies max amount of elder guardians in the area, 0 = infinite (Default: 2)
+	#Range: > 0
+	guardianToElderAgeingMax = 2
+	#This specifies radius (not the diameter) around the original mob in which it checks for the boss mob, 16 = infinite (Default: 16)
+	#Range: > 1
+	guardianToElderRange = 16
+
+#Baby Zombie -> Zombie
+[baby_zombie_to_zombie]
+	#Setting this to false disables the baby -> zombie ageing (Default: true)
+	babyToZombieAgeing = true
+	#This specifies the time in second(s) which dictates how long a mob needs to age (Default: 1200)
+	#Range: > 1
+	babyToZombieAgeingTime = 1200
+
+#Skeleton -> Stray
+[skeleton_to_stray]
+	#Setting this to false disables the skeleton -> stray ageing (Default: true)
+	skeletonToStrayAgeing = true
+	#This specifies the time in second(s) which dictates how long a mob needs to age (Default: 30)
+	#Range: > 1
+	skeletonToStrayAgeingTime = 30
+
+#Stray -> Skeleton
+[stray_to_skeleton]
+	#Setting this to false disables the stray -> skeleton ageing (Default: true)
+	strayToSkeletonAgeing = true
+	#This specifies the time in second(s) which dictates how long a mob needs to age (Default: 30)
+	#Range: > 1
+	strayToSkeletonAgeingTime = 30
+
+#Skeleton -> Wither Skeleton
+[skeleton_wither_skeleton]
+	#Setting this to false disables the skeleton -> wither skeleton ageing (Default: true)
+	skeletonToWitherSkeletonAgeing = true
+	#This specifies the time in second(s) which dictates how long a mob needs to age (Default: 120)
+	#Range: > 1
+	skeletonToWitherSkeletonAgeingTime = 120
+
+#Rabbit -> Killer
+[rabbit_to_killer_rabbit]
+	#Setting this to false disables the rabbit -> killer rabbit ageing (Default: true)
+	rabbitToKillerAgeing = true
+	#This specifies the time in second(s) which dictates how long a mob needs to age (Default: 300)
+	#Range: > 1
+	rabbitToKillerAgeingTime = 300
+	#TThis specifies the minimum light level from which the mob starts to age (Default: 0)
+	#Range: 0 ~ 15
+	rabbitToKillerMinLight = 0
+	#This specifies the maximum light level from which the mob starts to age (Default: 3)
+	#Range: 0 ~ 15
+	rabbitToKillerMaxLight = 3
+
+#Cow -> Mooshroom
+[cow_to_mooshroom]
+	#Setting this to false disables the cow -> mooshroom ageing (Default: true)
+	cowToMooshroomAgeing = true
+	#This specifies the time in second(s) which dictates how long a mob needs to age (Default: 900)
+	#Range: > 1
+	cowToMooshroomAgeingTime = 900
+	#This specifies radius (not the diameter) around the original mob in which it checks for magic blocks (Default: 5)
+	#Range: > 1
+	cowToMooshroomAgeingRadius = 5
+
+#Slime -> Magma Cube
+[slime_to_magma_cube]
+	#Setting this to false disables the slime -> magma cube ageing (Default: true)
+	slimeToMagmaCubeAgeing = true
+	#This specifies the time in second(s) which dictates how long a mob needs to age (Default: 120)
+	#Range: > 1
+	slimeToMagmaCubeAgeingTime = 120
+
+#Bat -> Vex
+[bat_to_vex]
+	#Setting this to false disables the bat -> vex ageing (Default: true)
+	batToVexAgeing = true
+	#This specifies the time in second(s) which dictates how long a mob needs to age (Default: 666)
+	#Range: > 1
+	batToVexAgeingTime = 666
+
+#Other settings
+[other]
+	#Blocks that are seen as magical, by removing the blocks they won't be seen as magical by the mod. syntax: modid:block;effectiveness
+	magical_blocks = ["minecraft:bookshelf;0.2", "minecraft:brewing_stand;0.5", "minecraft:enchanting_table;1"]
+	#Dimensions that the mod recognizes having a moon. By default only has the overworld
+	moon_dimensions = ["minecraft:overworld"]
+

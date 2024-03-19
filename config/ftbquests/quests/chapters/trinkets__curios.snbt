@@ -1,0 +1,2831 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "trinkets__curios"
+	group: "2C344CA71B9F0CFD"
+	id: "33E10527DCD06E5D"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6C45CE02A03DCEE9"
+			rewards: [{
+				id: "00744BCDCB47279B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "1E2C2EE12673FB6B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:researching_table"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "408CD22C821A32E8"
+			rewards: [{
+				id: "3163AE4CB4465155"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Magma walker boots are sturdy and comfortable boots that are perfect for hiking and outdoor activities. They are made with high-quality materials and provide excellent support for your feet."
+			tasks: [{
+				id: "7F45F6B325F4028E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "relics:magma_walker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "3BF946836371EEB8"
+			rewards: [{
+				id: "24D0CC68C72C9FF2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "These boots are perfect for any adventure! They're waterproof and durable, so you can wear them in any weather. Plus, they look great with any outfit."
+			tasks: [{
+				id: "6658E84CAC5AA569"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "relics:amphibian_boot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "1F653D87579A55F5"
+			rewards: [{
+				id: "24E37FDE9D66D17D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "This Hunter belt is the perfect accessory for any outfit. Made with high-quality materials, it's durable and stylish. The classic design will never go out of fashion."
+			tasks: [{
+				id: "7C1704BB21C3DC9B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "relics:hunter_belt"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "58AD1BD73DE914DF"
+			rewards: [{
+				id: "0C1CCC1B4A851A1C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "This belt is perfect for those who love a unique and edgy style. The drowned effect adds a touch of mystery and intrigue to any outfit."
+			tasks: [{
+				id: "400B1517626AAB8E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "relics:drowned_belt"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "6B9D3ECFBAA581C7"
+			rewards: [{
+				id: "2FFD18EEC51BDE96"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "The ultimate weapon for any warrior. With its sleek design and deadly sharp blade, you'll be unstoppable in battle."
+			tasks: [{
+				id: "2EEF33BC391FF932"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:shadow_glaive"
+					tag: {
+						Damage: 0
+						abilities: {
+							glaive: {
+								points: 0
+								stats: {
+									bounces: 4.38353d
+									damage: 2.6254d
+									radius: 2.96191d
+									recharge: 28.00851d
+								}
+							}
+							saw: {
+								points: 0
+								stats: {
+									damage: 1.47667d
+									speed: 15.89248d
+								}
+							}
+						}
+						charges: 8
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "250B43DCABEA816C"
+			rewards: [{
+				id: "54CEB1DC62C379E2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "This necklace is perfect for those who want to show off their dark side. Made with infernal hatred, it's sure to turn heads and make a statement."
+			tasks: [{
+				id: "143A1D9A48D53308"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:reflection_necklace"
+					tag: {
+						Damage: 0
+						abilities: {
+							explode: {
+								points: 0
+								stats: {
+									capacity: 49.37164d
+									damage: 0.29567d
+									stun: 0.09832d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "62BD55FFC0600FEF"
+			rewards: [{
+				id: "0F03E02023F1EF65"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "These Aqua walker boots are perfect for any outdoor adventure! With their waterproof design and sturdy grip, you'll be able to tackle any terrain with ease."
+			tasks: [{
+				id: "77CB63C75BFD5333"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:aqua_walker"
+					tag: {
+						Damage: 0
+						abilities: {
+							walking: {
+								points: 0
+								stats: {
+									time: 50.78999d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "052E4E7C654A2C02"
+			rewards: [{
+				id: "2621C841CAAAC409"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Luxurious and comfortable robe that disappears into thin air when you need it to. Perfect for those who value convenience and style."
+			tasks: [{
+				id: "1EDDCE781E3F4E54"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:midnight_robe"
+					tag: {
+						Damage: 0
+						abilities: {
+							backstab: {
+								points: 0
+								stats: {
+									damage: 1.29258d
+									distance: 15.86999d
+								}
+							}
+							vanish: {
+								points: 0
+								stats: {
+									light: 1.89497d
+									speed: 0.27435d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "24F9917942E6531C"
+			rewards: [{
+				id: "460898BF151DE42E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "This necklace features a jellyfish pendant made of resin and suspended on a silver chain. It is a unique and eye-catching accessory for any outfit."
+			tasks: [{
+				id: "50B692D83B762957"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:jellyfish_necklace"
+					tag: {
+						Damage: 0
+						abilities: {
+							paralysis: {
+								points: 0
+								stats: {
+									duration: 0.60597d
+								}
+							}
+							shock: {
+								points: 0
+								stats: {
+									damage: 1.10359d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "2BD60874182BB807"
+			rewards: [{
+				id: "171F5CD63A1DB080"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "The ultimate weapon against the undead. With its powerful enchantments, this ring will make you unstoppable in your quest to rid the world of the undead."
+			tasks: [{
+				id: "5A395432E3A43766"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:bastion_ring"
+					tag: {
+						Damage: 0
+						abilities: {
+							trade: {
+								points: 0
+								stats: {
+									rolls: 0.89605d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "256D54EAF5CE7A01"
+			rewards: [{
+				id: "61EC4583C2F410A7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "This ring allows you to control teleportation. Simply think of your desired location and you will be instantly transported there. Perfect for adventurers and travelers."
+			tasks: [{
+				id: "24B31E0785FD41CB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:chorus_inhibitor"
+					tag: {
+						Damage: 0
+						abilities: {
+							blink: {
+								points: 0
+								stats: {
+									cooldown: 9.07565d
+									distance: 21.89957d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "4FD75759DDEBAD72"
+			rewards: [{
+				id: "6AE302245DFD2EC3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Quiver is a lightweight and durable backpack designed for archers. It has a special compartment for arrows and a comfortable shoulder strap for easy carrying."
+			tasks: [{
+				id: "7AA12894DA74CEF5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:arrow_quiver"
+					tag: {
+						Damage: 0
+						abilities: {
+							agility: {
+								points: 0
+								stats: {
+									modifier: 1.0d
+								}
+							}
+							leap: {
+								points: 0
+								stats: {
+									cooldown: 13.7508d
+									duration: 5.31392d
+									multiplier: 0.19622d
+								}
+							}
+							rain: {
+								points: 0
+								stats: {
+									delay: 0.76021d
+									duration: 11.71048d
+									radius: 3.20259d
+								}
+							}
+							receptacle: {
+								points: 0
+								stats: {
+									slots: 2.36127d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "7CC6A7C3798F18CE"
+			rewards: [{
+				id: "5A1D6E1D37051E63"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "This relic allows you to travel through portals and time. It's a powerful tool for adventurers and explorers. Get ready for an exciting journey!"
+			tasks: [{
+				id: "5AD26CD8490C576F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:space_dissector"
+					tag: {
+						Damage: 0
+						abilities: {
+							dissection: {
+								points: 0
+								stats: {
+									distance: 31.95579d
+									time: 5.95396d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "2D3834E1E7147F8D"
+			rewards: [{
+				id: "2B83C6D9869FA726"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Keep your hands warm and cozy with our wool mittens. Perfect for chilly days, these mittens are made with high-quality wool to ensure maximum comfort and durability."
+			tasks: [{
+				id: "4F5A37A18058B69F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:wool_mitten"
+					tag: {
+						Damage: 0
+						abilities: {
+							mold: {
+								points: 0
+								stats: {
+									damage: 0.09217d
+									freeze: 1.22105d
+									size: 17.59146d
+									stun: 0.02658d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "7D3820F8A43208E4"
+			rewards: [{
+				id: "0005CFA24707202F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Looking for a unique musical instrument? Check out our horse flute! Made from high-quality materials, it produces a beautiful sound that will transport you to the countryside. Perfect for musicians and horse lovers alike."
+			tasks: [{
+				id: "4F2C2A9D15883182"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:horse_flute"
+					tag: {
+						Damage: 0
+						abilities: {
+							heal: {
+								points: 0
+								stats: {
+									amount: 0.065d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "13F77099EA96DC86"
+			rewards: [{
+				id: "45CF58BF48E80DAE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "This leather belt is perfect for carrying your talismans with you wherever you go. It's stylish, durable, and will keep your lucky charms close at hand."
+			tasks: [{
+				id: "5977366ECBCA4B65"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:leather_belt"
+					tag: {
+						Damage: 0
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									talisman: 1.0618d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "689134DB90D29173"
+			rewards: [{
+				id: "7163C2A0075AF745"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: " These skates are designed to help you move faster and smoother. Perfect for beginners and pros alike."
+			tasks: [{
+				id: "6DB0E81E3EA282D8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:roller_skates"
+					tag: {
+						Damage: 0
+						abilities: {
+							skating: {
+								points: 0
+								stats: {
+									duration: 25.64074d
+									speed: 0.00332d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "0846BA65AB3BF6AA"
+			rewards: [{
+				id: "251E46B3F62B2EC2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Introducing the ultimate solution for all your spore needs - the Spore Sack! With its durable and compact design, this sack is perfect for storing and transporting spores."
+			tasks: [{
+				id: "488C0A5BB956A197"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:spore_sack"
+					tag: {
+						Damage: 0
+						abilities: {
+							buffer: {
+								points: 0
+								stats: {
+									capacity: 4.22112d
+									chance: 0.05194d
+								}
+							}
+							explosion: {
+								points: 0
+								stats: {
+									size: 0.1474d
+								}
+							}
+							multiplying: {
+								points: 0
+								stats: {
+									amount: 0.10177d
+									chance: 0.10651d
+									size: 0.0688d
+								}
+							}
+							spore: {
+								points: 0
+								stats: {
+									cooldown: 13.40025d
+									damage: 0.46325d
+									duration: 2.96891d
+									size: 0.34771d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "36B5D00271374AC3"
+			rewards: [{
+				id: "6D6B330D654F824A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "With its innovative design, this flask ensures safe and secure travel."
+			tasks: [{
+				id: "6EE8D13366F82D37"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:blazing_flask"
+					tag: {
+						Damage: 0
+						abilities: {
+							bonfire: {
+								points: 0
+								stats: {
+									height: 3.81905d
+									speed: 0.0334d
+									step: 1.64646d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "254E90FE50B40A99"
+			rewards: [{
+				id: "46F6F8015B3B135A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "The Elytra booster is the ultimate tool for Minecraft players who want to soar through the skies with ease. With its powerful boost, you'll be flying like a pro in no time!"
+			tasks: [{
+				id: "7A253E444147C332"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:elytra_booster"
+					tag: {
+						Damage: 0
+						abilities: {
+							boost: {
+								points: 0
+								stats: {
+									capacity: 89.4381d
+									speed: 1.32468d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "331A3B5422FF4DEC"
+			rewards: [{
+				id: "6F88BCB05C0CFB35"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "These gloves are perfect for Minecraft players who want to avoid angering Endermen. They allow you to look at them without provoking an attack."
+			tasks: [{
+				id: "5F24345F1F850345"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:enders_hand"
+					tag: {
+						Damage: 0
+						abilities: {
+							swap: {
+								points: 0
+								stats: {
+									distance: 20.00591d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6C45CE02A03DCEE9"]
+			id: "3CA95C8191A2414B"
+			rewards: [{
+				id: "4DE1F05D4EEFC43B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "The Holy Locket is a sacred pendant that holds a small amount of holy water. It is believed to provide protection and blessings to the wearer."
+			tasks: [{
+				id: "33A1064C21F3F683"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "relics:holy_locket"
+					tag: {
+						Damage: 0
+						abilities: {
+							steal: {
+								points: 0
+								stats: {
+									amount: 0.12243d
+									radius: 5.18466d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			hide_text_until_complete: true
+			id: "352616DEAD99A037"
+			rewards: [
+				{
+					id: "416124DAA5842F79"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F8045FFEFA09A7D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "465CBB65A33C321F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:missing_page"
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"There are custom amount of useful trinkets that you may find and use. "
+				""
+				"Can you collect them all?"
+			]
+			id: "789546E95FB14039"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				advancement: "nameless_trinkets:obtain/root"
+				criterion: ""
+				id: "5CBFAAB5C72DDDBD"
+				type: "advancement"
+			}]
+			x: 18.5d
+			y: 8.0d
+		}
+		{
+			id: "6F855F7BF8FDE1E3"
+			rewards: [
+				{
+					id: "6AF0148F6981012E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28C8DDDF2E5B577D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "769CE6BB5E68D82F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:electric_paddle"
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			id: "74DBC24F3B1CCB9B"
+			rewards: [
+				{
+					id: "5D68A9B5A26BE5ED"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47EBAB8A12CDD0D8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3ECF4B556EC2C4A2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:sleeping_pills"
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.0d
+		}
+		{
+			id: "4B6651AC39A5BDC9"
+			rewards: [
+				{
+					id: "6B3DC7B43D4A05FC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2424B4640D6082A6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7C05965DD6E48233"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:spider_legs"
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: 2.0d
+		}
+		{
+			id: "2A10A55BB3B6EBB7"
+			rewards: [
+				{
+					id: "20F387332BD52796"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "659648BC99B26546"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5BDD48BA480587A8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:moon_stone"
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 4.0d
+		}
+		{
+			id: "63EEBDCC7CA1EA48"
+			rewards: [
+				{
+					id: "76201CCED308862E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20E0620EF9461C88"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1622F7690228B960"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:true_heart_of_the_sea"
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: 4.0d
+		}
+		{
+			id: "0A3DD254286E4626"
+			rewards: [
+				{
+					id: "14E3C768997A4642"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1AA7435347D76DDB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4B98E9164E64AEE7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:reverse_card"
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.0d
+		}
+		{
+			id: "6CDF6F9D48146C5A"
+			rewards: [
+				{
+					id: "43584147D145D7CD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34BDFCAEAD8F1AF2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6F9D9D23CED764E7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:experience_battery"
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 12.5d
+		}
+		{
+			id: "50856C4AA550C35A"
+			rewards: [
+				{
+					id: "50C8CD6DC83DB6BE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DBE8140333EC7CA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C6C6265EF97C315"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:broken_ankh"
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			id: "792C5AA5915BC9D1"
+			rewards: [
+				{
+					id: "662C16A0F42727CA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "088C7B497003A83A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "230299A7F24078AA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:experience_magnet"
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 11.5d
+		}
+		{
+			id: "0711A5334048D23E"
+			rewards: [
+				{
+					id: "384B5C53B8E0DA4A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E541F117764A63C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5605D502766E7B01"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:broken_magnet"
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.0d
+		}
+		{
+			id: "0D39F0D25D4B9DB0"
+			rewards: [
+				{
+					id: "672302349995A054"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36DF977FB3253401"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2209882BE247141D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:super_magnet"
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: 6.0d
+		}
+		{
+			id: "6315183C2358F6B0"
+			rewards: [
+				{
+					id: "56BAE00A7D66CDB8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4444FAF88E9519C9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17690EB95556EF6C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:what_magnet"
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: 5.0d
+		}
+		{
+			id: "4B201F1694EE4680"
+			rewards: [
+				{
+					id: "3AFE95A393F34724"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5763F7EDD7C10840"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3DD72064895E8175"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:callus"
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: 6.0d
+		}
+		{
+			id: "763CECB4EB378C88"
+			rewards: [
+				{
+					id: "26BAF678F852DD15"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5504C9DBC01F25A7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0EB7BACEA474F418"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:speed_force"
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: 5.0d
+		}
+		{
+			id: "5C20FF74F8D91B3E"
+			rewards: [
+				{
+					id: "724CC855AAA50BC0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "247591AB81AC069D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "73833C46BC19C2D2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:vampire_blood"
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			id: "0C501B7E7302895F"
+			rewards: [
+				{
+					id: "3BF74A0E4C3C2936"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2134AE9E799D0ED4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1CAFDB36F220595D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:lucky_rock"
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			id: "5258BB465ACF87DB"
+			rewards: [
+				{
+					id: "5111A723FBD0AA26"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "645FED5D71C07EBA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7AE6D79DF21CF21E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:puffer_fish_liver"
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 5.0d
+		}
+		{
+			id: "0B3CB8FF1E302A60"
+			rewards: [
+				{
+					id: "0301734BF0CD18D3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18532958A8F2C592"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "34883489DDE44EA0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:rage_mind"
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			id: "44F2A1EEC253F5BB"
+			rewards: [
+				{
+					id: "11321389729C3C88"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28AC8651CB6B28F6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2AC48B7A7833A2BF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:tick"
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 7.0d
+		}
+		{
+			id: "0D606B729ABA8A8B"
+			rewards: [
+				{
+					id: "6E28A387D53DBA16"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0316B327E22E1333"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4BD447F2B25227B2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:blindfold"
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			id: "32DDF445A397C737"
+			rewards: [
+				{
+					id: "6F0D3D8EA62EFBE4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19AE40A16206B1BC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "203FDFD20E558276"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:explosion_proof_jacket"
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 9.0d
+		}
+		{
+			id: "4E87D602ED039521"
+			rewards: [
+				{
+					id: "795353958B88AE26"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "652F66A0B8428790"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "017536700E125C42"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:cracked_crown"
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: 7.0d
+		}
+		{
+			id: "71D0B51818C32AE5"
+			rewards: [
+				{
+					id: "0CE0C4E2391A43F4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DBE5629B6CF83C2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "76442DC5CA6CA717"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:ghast_eye"
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: 2.0d
+		}
+		{
+			id: "42C3D4242735E0E7"
+			rewards: [
+				{
+					id: "2081063DF00873EE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E093C43BADFB4D5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A16707521A4D5E3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:wooden_stick"
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: 13.5d
+		}
+		{
+			id: "3DA24AB27CBA4928"
+			rewards: [
+				{
+					id: "361DAC27279DFD66"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10E322F61F035259"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7F3E1E90B43B6A5F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:blaze_nucleus"
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: 9.0d
+		}
+		{
+			id: "43A45350EB0E1661"
+			rewards: [
+				{
+					id: "2DA348E8D7912DDF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61059BD78B408E1D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "06A07101D9D729ED"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:ice_cube"
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: 8.0d
+		}
+		{
+			id: "0C1296B70E6DB76D"
+			rewards: [
+				{
+					id: "4D70083B401AF079"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2506B43B984003C2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "01ECECF5484F8486"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:sigil_of_baphomet"
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: 12.5d
+		}
+		{
+			id: "4B9531310E59748F"
+			rewards: [
+				{
+					id: "6FE6C8048DE73D64"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13049BE1397A3F9F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4752D25EF5198311"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:creeper_sense"
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 11.5d
+		}
+		{
+			id: "5F19C19368A26E84"
+			rewards: [
+				{
+					id: "4087BE79DACCCF8B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01999C987ED38C16"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "633204D6DFE45F83"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:fertilizer"
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: 13.5d
+		}
+		{
+			id: "35E7386440585F02"
+			rewards: [
+				{
+					id: "62E9C6E46E6C0883"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67F08B3723C5209B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "449348FF78742633"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:tear_of_the_sea"
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 12.5d
+		}
+		{
+			id: "0650F83BAC191698"
+			rewards: [
+				{
+					id: "0712B8C795A74E81"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "174C76757A8BA9FE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "383F9D78B5A927EA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:amphibious_hands"
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: 10.0d
+		}
+		{
+			id: "20F09FD2C8C4DC4E"
+			rewards: [
+				{
+					id: "1EBB1AB89C2F7108"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19F4B488B78235F6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4977F9735AAB283E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:gills"
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: 10.5d
+		}
+		{
+			id: "48D330331BD97760"
+			rewards: [
+				{
+					id: "60C44AC93D558F94"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CAE5F9F7BD8FEF2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "01904EA91D4A0A31"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:fractured_nullstone"
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: 11.0d
+		}
+		{
+			id: "33AB89A39FA5C7A5"
+			rewards: [
+				{
+					id: "10F4CA8432F1816C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "564E11C7EB53521E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "150B0D6E027A734E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:miners_soul"
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: 10.0d
+		}
+		{
+			id: "2AF8F0D616A77320"
+			rewards: [
+				{
+					id: "04CCA47F2FE54CEE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39EF243B9013F48E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "588118FFB9EEBB2B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:pocket_lightning_rod"
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 10.0d
+		}
+		{
+			id: "6D1AC238FDA27F7A"
+			rewards: [
+				{
+					id: "5C0BCE1B77DFCBDD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A8CFE7C6BA6040D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5209180B25DB7FDE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:fragile_cloud"
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 11.0d
+		}
+		{
+			id: "1AD5D219693CD311"
+			rewards: [
+				{
+					id: "700940DAABE70A61"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BA735D69CE6D0AF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6525AC1EFB455460"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:scarab_amulet"
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 10.5d
+		}
+		{
+			id: "4CCD42217872B2C9"
+			rewards: [
+				{
+					id: "454F652EEB49635C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5883F773F93D7003"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B6BBB88D9E1B31F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:fate_emerald"
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.0d
+		}
+		{
+			id: "4F3A8E44BDB52FA1"
+			rewards: [
+				{
+					id: "7793E00C07D37B4D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31ACED89935FA197"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "08BA54B2DF698540"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:light_gloves"
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: 13.5d
+		}
+		{
+			id: "66D07F37A92FEA50"
+			rewards: [
+				{
+					id: "4C2FBE8809093F7E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1DB6E71F0376FE0A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "000017C992BE491B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:dragons_eye"
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 12.5d
+		}
+		{
+			id: "5F82D70EE868702B"
+			rewards: [
+				{
+					id: "4263CD55783E6B38"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "654DEF6DE1383B7E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "646E68A0ABB92854"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:four_leaf_clover"
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: 3.0d
+		}
+		{
+			id: "2F6A27A5AADE549B"
+			rewards: [
+				{
+					id: "3448F53533B16633"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58B91FA6C94A1189"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C935AD5488CDB2C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:dark_nelumbo"
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: 11.5d
+		}
+		{
+			id: "7431E027DE3ED2B6"
+			rewards: [
+				{
+					id: "786C2DEBE0284305"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57A420D861C17195"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "simplehats:hatscraps_uncommon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "581C43D014EE12EC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "nameless_trinkets:nelumbo"
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"6F855F7BF8FDE1E3"
+				"0A3DD254286E4626"
+				"74DBC24F3B1CCB9B"
+				"0711A5334048D23E"
+				"50856C4AA550C35A"
+				"4B6651AC39A5BDC9"
+				"352616DEAD99A037"
+				"2A10A55BB3B6EBB7"
+				"63EEBDCC7CA1EA48"
+				"71D0B51818C32AE5"
+				"5F82D70EE868702B"
+				"6315183C2358F6B0"
+				"3DA24AB27CBA4928"
+				"792C5AA5915BC9D1"
+				"33AB89A39FA5C7A5"
+				"2F6A27A5AADE549B"
+				"5258BB465ACF87DB"
+				"6CDF6F9D48146C5A"
+				"0D39F0D25D4B9DB0"
+				"0B3CB8FF1E302A60"
+				"4CCD42217872B2C9"
+				"4B201F1694EE4680"
+				"66D07F37A92FEA50"
+				"48D330331BD97760"
+				"35E7386440585F02"
+				"43A45350EB0E1661"
+				"7431E027DE3ED2B6"
+				"1AD5D219693CD311"
+				"0D606B729ABA8A8B"
+				"0C1296B70E6DB76D"
+				"4E87D602ED039521"
+				"20F09FD2C8C4DC4E"
+				"2AF8F0D616A77320"
+				"0650F83BAC191698"
+				"4F3A8E44BDB52FA1"
+				"5F19C19368A26E84"
+				"4B9531310E59748F"
+				"0C501B7E7302895F"
+				"5C20FF74F8D91B3E"
+				"44F2A1EEC253F5BB"
+				"42C3D4242735E0E7"
+				"763CECB4EB378C88"
+				"32DDF445A397C737"
+				"6D1AC238FDA27F7A"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "nameless_trinkets:mysterious_trinket"
+			}
+			id: "3A3699FAAAFC1B96"
+			rewards: [{
+				id: "02FAF31E4B550C84"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "farmersdelight:cake_slice"
+				}
+				type: "item"
+			}]
+			subtitle: "You've collected all of them"
+			tasks: [{
+				id: "0BF0E1522DBA3683"
+				points: false
+				type: "xp"
+				value: 100L
+			}]
+			title: "You did it!"
+			x: 18.5d
+			y: 9.5d
+		}
+	]
+	title: "Trinkets 'n Curios"
+}

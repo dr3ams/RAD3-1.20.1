@@ -1,0 +1,24 @@
+[
+    {
+        "spawner": false,
+        "structure": false,
+        "hostile": true,
+        "mincount": {
+            "amount": 3,
+            "hostile": true,
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "spawner": false,
+        "structure": false,
+        "passive": true,
+        "mincount": {
+            "amount": 1,
+            "passive": true,
+            "perchunk": true
+        },
+        "result": "deny"
+    }
+]

@@ -1,0 +1,826 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "task_board"
+	group: ""
+	icon: "bountiful:bountyboard"
+	id: "57276A78DAB3896B"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.4139784946236559d
+			hover: [ ]
+			image: "rad3:textures/misc/quest-line.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.4435483870967742d
+			hover: [ ]
+			image: "rad3:textures/misc/quest-line.png"
+			rotation: 180.0d
+			width: 13.0d
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.4139784946236559d
+			hover: [ ]
+			image: "rad3:textures/misc/quest-line.png"
+			rotation: 180.0d
+			width: 13.0d
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.4139784946236559d
+			hover: [ ]
+			image: "rad3:textures/misc/quest-line.png"
+			rotation: 180.0d
+			width: 13.0d
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.4139784946236559d
+			hover: [ ]
+			image: "rad3:textures/misc/quest-line.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.4139784946236559d
+			hover: [ ]
+			image: "rad3:textures/misc/quest-line.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: -8.5d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.4139784946236559d
+			hover: [ ]
+			image: "rad3:textures/misc/quest-line.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: -8.5d
+			y: 9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.4435483870967742d
+			hover: [ ]
+			image: "rad3:textures/misc/quest-line.png"
+			rotation: 180.0d
+			width: 13.0d
+			x: 8.5d
+			y: 9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.4139784946236559d
+			hover: [ ]
+			image: "rad3:textures/misc/quest-line.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.4139784946236559d
+			hover: [ ]
+			image: "rad3:textures/misc/quest-line.png"
+			rotation: 180.0d
+			width: 13.0d
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 20.682816048448146d
+			hover: [ ]
+			image: "rad3:textures/misc/quest-tasks.png"
+			rotation: 0.0d
+			width: 38.0d
+			x: 0.5d
+			y: 3.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "28C01C40FF8462BD"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "0E5E15C3BAC8034F"
+				item: "kubejs:coin_gear"
+				type: "item"
+			}]
+			title: "Gearing"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "03C9EDB4F7D3C3EA"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "38D1893468C8B5BA"
+				item: "kubejs:coin_magic"
+				type: "item"
+			}]
+			title: "Magic"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "3E2EAF8300D6E131"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "11C2BF93A65B1780"
+				item: "kubejs:coin_food"
+				type: "item"
+			}]
+			title: "Cooking"
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			id: "0B50533AF883B2FA"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "6F9B03E30D924402"
+				item: "kubejs:coin_gathering"
+				type: "item"
+			}]
+			title: "Gathering"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"To earn more &6Quest Coins&r you can buy and complete set of specific &2Tasks&r."
+				""
+				"&2Tasks&r are basically quest chains sorted by theme that allows you to target-farm &6Quest Coins&r you need. "
+				""
+				"They're mostly based on:"
+				"- &9statistics&r(for example Distance Walked);"
+				"- &9advancements&r (Visit number of structures);"
+				"- &9crafting&r specific item(s);"
+				"- &9killing&r specific mob(s);"
+				"- &9gathering&r specific amount of items."
+				""
+				"Some of them can be completed passively(like some Tasks in Exploration chain) and some require crafting, killing mobs or gathering resources."
+			]
+			icon: "kubejs:help"
+			id: "0EDEE4B31F9F928C"
+			size: 2.0d
+			tasks: [{
+				id: "7CA6D7309F66FD10"
+				type: "checkmark"
+			}]
+			title: "&2Tasks&r"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "70E0B584F558A6C8"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "43B93BF217F100DE"
+				item: "kubejs:coin_exploration"
+				type: "item"
+			}]
+			title: "Exploration"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "0B9E9606BA1704FF"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "07554F30E94E7B72"
+				item: "kubejs:coin_engineer"
+				type: "item"
+			}]
+			title: "Engineering"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "2CFD4F0386887010"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "209340759AF75309"
+				item: "kubejs:coin_monster"
+				type: "item"
+			}]
+			title: "Slaying"
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["70E0B584F558A6C8"]
+			id: "74830734956F3639"
+			tasks: [{
+				id: "43E8736AC6E70418"
+				stat: "minecraft:sprint_one_cm"
+				type: "stat"
+				value: 100000
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["74830734956F3639"]
+			id: "3D9B90F57C590515"
+			subtitle: "Find all new Villages"
+			tasks: [{
+				advancement: "repurposed_structures:villages"
+				criterion: ""
+				id: "43A45AEE88120D80"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0B50533AF883B2FA"]
+			icon: {
+				Count: 1b
+				id: "minecraft:iron_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0AA1E785BC736997"
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "537A6159DB307A10"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			title: "Farming"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0B50533AF883B2FA"]
+			icon: {
+				Count: 1b
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3C65EC74BDF74DD9"
+			tasks: [{
+				block: "minecraft:stone"
+				block_type: 0
+				checkItem: false
+				id: "77DB7157A4CE94FC"
+				type: "questsadditions:break"
+				value: 512L
+			}]
+			title: "Mining"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0B50533AF883B2FA"]
+			icon: "minecraft:crafting_table"
+			id: "205783CDC9942558"
+			tasks: [{
+				icon: "minecraft:crafting_table"
+				id: "6A2DCC302DC13A9E"
+				stat: "minecraft:interact_with_crafting_table"
+				type: "stat"
+				value: 25
+			}]
+			title: "Crafting"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"&6Dimensional Coins:&r"
+				"You can gain specific &5Dimensional Coins&r by doing quests in associated dimension."
+				""
+				"&aRewards:&r"
+				"You can then trade &5Dimensional Coins&r to any specific reward related to any dimension."
+				""
+				"&oRewards also contain:&r"
+				""
+				"- &9Aether&r chest: random loot related to Aether dimension;"
+				""
+				"- &4Nether&r chest: random loot related to Nether dimension;"
+				""
+				"- &2Undergarden&r chest: random loot related to Undergarden dimension;"
+			]
+			id: "67D3FEC26748321A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40C8D1072FF3CE2A"
+				table_id: 566088971814378520L
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [
+				{
+					consume_items: true
+					id: "761F5563527634D1"
+					item: "kubejs:coin_undergarden"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5576A5A4BFBADBFA"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "25C5FB52308C8487"
+					item: "kubejs:coin_nether"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0967C591D96EFD4A"
+					item: "kubejs:coin_bumblezone"
+					type: "item"
+				}
+			]
+			title: "&5Dimensional Exploration&r"
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			id: "518E2D098F8E6DB2"
+			tasks: [{
+				id: "6455C62B1516061D"
+				stat: "minecraft:enchant_item"
+				type: "stat"
+				value: 1
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B67E4FCA06D5818"]
+			id: "67E79A4F2E4CA020"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "50D260D92EDC46AC"
+				stat: "minecraft:fish_caught"
+				type: "stat"
+				value: 50
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2CFD4F0386887010"]
+			id: "697479FE914BED54"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:wooden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0DF804FB162E5E41"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 100
+			}]
+			title: "&cKill 100 Mobs"
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			id: "1C4E3A8713946314"
+			tasks: [{
+				id: "6149B0EB68620E1E"
+				stat: "lootr:looted_stat"
+				type: "stat"
+				value: 1
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			id: "09D3D366A72AFD71"
+			tasks: [{
+				id: "164A7028B6637328"
+				stat: "minecraft:damage_absorbed"
+				type: "stat"
+				value: 1
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0AA1E785BC736997"]
+			id: "2B67E4FCA06D5818"
+			tasks: [{
+				icon: "artifacts:crystal_heart"
+				id: "28D83D5C3AE3D87F"
+				stat: "minecraft:animals_bred"
+				type: "stat"
+				value: 128
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			id: "4EF2EC699E5152D7"
+			tasks: [{
+				id: "4ECFDAB8B32957AC"
+				stat: "goblintraders:trade_with_goblin"
+				type: "stat"
+				value: 1
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["697479FE914BED54"]
+			id: "2F74792D5B2107AB"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:stone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4B223471B9E15C3E"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 250
+			}]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2F74792D5B2107AB"]
+			id: "005F8DB2C8B7A98C"
+			tasks: [{
+				id: "020B40BC3C340A3A"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 500
+			}]
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["005F8DB2C8B7A98C"]
+			id: "1175A570B80EB2F3"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:golden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "26EF36FC720DB6DB"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 750
+			}]
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1175A570B80EB2F3"]
+			id: "0FE79BE011F94857"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "62B373A77A41D73A"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1000
+			}]
+			x: -9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0FE79BE011F94857"]
+			id: "3C7041DE6F39B900"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "72965ED3498C7087"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1500
+			}]
+			x: -10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3C7041DE6F39B900"]
+			id: "280C304F0FF0CB85"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "l2complements:sculkium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2F21187049DFFB28"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 2500
+			}]
+			x: -11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["280C304F0FF0CB85"]
+			id: "1289F4206A2080D3"
+			size: 1.5d
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "lost_aether_content:phoenix_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "00A5EA5152B05EDA"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 5000
+			}]
+			x: -13.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3C65EC74BDF74DD9"]
+			id: "14F489FDC95E676F"
+			tasks: [{
+				id: "28B55A125B072217"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["14F489FDC95E676F"]
+			id: "0E2E68D9C75E4234"
+			tasks: [{
+				id: "222B7C7B9507E450"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0E2E68D9C75E4234"]
+			id: "1FD5DE875C52F940"
+			tasks: [{
+				id: "5AE7CE6272DDADC4"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			id: "2F09522220DA6AA2"
+			tasks: [{
+				icon: "farmersdelight:cake_slice"
+				id: "4BE5DBD9FECA643F"
+				stat: "minecraft:eat_cake_slice"
+				type: "stat"
+				value: 1
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["74830734956F3639"]
+			id: "06D4A42E11BA4CA3"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "lost_aether_content:agility_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "73F8EC5B38E8987D"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1000
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5E63501798DE9D97"]
+			id: "318E9A8BC7927366"
+			tasks: [{
+				id: "5A3987547517C3DA"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1FD5DE875C52F940"]
+			id: "5E63501798DE9D97"
+			tasks: [{
+				id: "0C988F04F20FD4CA"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			id: "3E10C285303F3AFD"
+			tasks: [
+				{
+					id: "0067AE673E08D81E"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23A581ACEEEC19E4"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23B1A1ACB366B191"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05F9F404A0B0F1DE"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			id: "7D9038F6404A99CA"
+			subtitle: "Breed all the animals"
+			tasks: [{
+				advancement: "minecraft:husbandry/bred_all_animals"
+				criterion: ""
+				id: "1AA1CDBCBF32DE40"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			description: ["Lucky for you it's only count vanilla Minecraft food."]
+			id: "6BBA980AC610A750"
+			subtitle: "Eat everything that is edible."
+			tasks: [{
+				advancement: "create:foods"
+				criterion: ""
+				id: "05279004B7C8F6B6"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			id: "1F6B7C72EE8AD3D8"
+			subtitle: "Aquire Archmage spellbook from Ars Nouveau"
+			tasks: [{
+				advancement: "ars_nouveau:archmage_spell_book"
+				criterion: ""
+				id: "078AB58AEA929AFF"
+				type: "advancement"
+			}]
+			x: -12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["67E79A4F2E4CA020"]
+			id: "32724F52FA8C8734"
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "74511B80539EBC39"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["32724F52FA8C8734"]
+			id: "604007026A0AC91C"
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "440E5BD106BA10DE"
+				item: "minecraft:melon"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+	]
+	title: "⭐ Task board"
+}

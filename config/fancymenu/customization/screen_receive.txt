@@ -1,0 +1,35 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = net.minecraft.client.gui.screen.DownloadTerrainScreen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1709843943302
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:8b8d9f3f-3b03-4f56-941b-d061054d8313-1709843943302] = [groups:][instances:]
+}
+
+menu_background {
+  image_path = [source:local]config/drippyloadingscreen/screen_loading.jpg
+  slide = false
+  repeat_texture = false
+  background_type = image
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
