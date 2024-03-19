@@ -17,21 +17,21 @@
 	["Loot Beams".Beam]
 		#The radius of the Loot Beam.
 		#Range: 0.0 ~ 5.0
-		beam_radius = 0.55
+		beam_radius = 1.35
 		#The height of the Loot Beam.
 		#Range: 0.0 ~ 10.0
-		beam_height = 1.5
+		beam_height = 3.5
 		#The Y-offset of the loot beam.
 		#Range: -30.0 ~ 30.0
-		beam_y_offset = 0.5
+		beam_y_offset = 0.0
 		#If the Loot Beam should be shorter for common items.
 		common_shorter_beam = true
 		#Transparency of the Loot Beam.
 		#Range: 0.0 ~ 1.0
-		beam_alpha = 0.75
+		beam_alpha = 0.65
 		#The distance from the player the beam should start fading.
 		#Range: 0.0 ~ 100.0
-		beam_fade_distance = 2.0
+		beam_fade_distance = 24.0
 		#If the Loot Beam should use a solid texture or the beacon style texture.
 		solid_beam = true
 		#If the Loot Beam should have a white center.
@@ -42,7 +42,7 @@
 		glow_effect = true
 		#The radius of the glow effect.
 		#Range: 1.0E-5 ~ 1.0
-		glow_effect_radius = 0.5
+		glow_effect_radius = 0.75
 		#If the glow effect should be animated.
 		animate_glow = true
 		#If the item must be on the ground to render a beam.
@@ -51,25 +51,22 @@
 	#Particle Config
 	["Loot Beams".Particles]
 		#If particles should appear around the item.
-		particles = true
+		particles = false
 		#The size of the particles.
 		#Range: 1.0E-5 ~ 10.0
-		particle_size = 0.25
+		particle_size = 0.3
 		#The speed of the particles.
 		#Range: 1.0E-5 ~ 10.0
-		particle_speed = 0.2
+		particle_speed = 0.025
 		#The radius of the particles.
 		#Range: 1.0E-5 ~ 10.0
-		particle_radius = 0.1
-		#The intensity of the randomness of the particles.
-		#Range: 0.0 ~ 1.0
-		randomness_intensity = 0.05
+		particle_radius = 0.25
 		#The amount of particles to spawn per second.
 		#Range: 1.0 ~ 20.0
-		particle_count = 15.0
+		particle_count = 10.0
 		#The lifetime of the particles in ticks.
 		#Range: 1 ~ 100
-		particle_lifetime = 15
+		particle_lifetime = 10
 		#If particles should only appear on rare items.
 		particle_rare_only = true
 		#The direction of the particles on the X axis.
@@ -85,44 +82,43 @@
 		spin_around_beam = true
 		#If the particles should leave a trail.
 		trails = true
-		#The chance of a particle leaving a trail.
-		#Range: 0.0 ~ 1.0
-		trail_chance = 0.5
-		#If the particles with a trail should be invisible.
-		trail_particles_invisible = true
 		#The width of the trail.
 		#Range: 1.0E-5 ~ 10.0
-		trail_width = 0.2
+		trail_width = 0.4
 		#The length of the trail.
 		#Range: 1 ~ 200
-		trail_length = 30
+		trail_length = 16
 		#The frequency of the trail. The maximum value this should be is the length. The lower the frequency, the smoother the trail.
 		#Range: 1 ~ 200
 		trail_frequency = 1
+		#The intensity of the randomness of the particles.
+		#Range: 0.0 ~ 1.0
+		randomness_intensity = 0.25
+		#The chance of a particle leaving a trail.
+		#Range: 0.0 ~ 1.0
+		trail_chance = 0.0
+		#If the particles with a trail should be invisible.
+		trail_particles_invisible = true
 
 	#Item Config
 	["Loot Beams".Items]
-		#If items should glow.
-		items_glow = false
 		#If all Items Loot Beams should be rendered. Has priority over only_equipment and only_rare.
 		all_items = false
 		#If Loot Beams should only be rendered on items with rarity.
 		only_rare = true
 		#If Loot Beams should only be rendered on equipment. (Equipment includes: Swords, Tools, Armor, Shields, Bows, Crossbows, Tridents, Arrows, and Fishing Rods)
-		only_equipment = true
+		only_equipment = false
 		#Registry names of items that Loot Beams should render on. Example: "minecraft:stone", "minecraft:iron_ingot", You can also specify modids for a whole mod's items.
 		whitelist = []
 		#Registry names of items that Loot Beams should NOT render on. This has priority over everything. You can also specify modids for a whole mod's items.
 		blacklist = []
+		#If items should glow.
+		items_glow = false
 
 	#Item nametags
 	["Loot Beams".Nametags]
-		#If vanilla tooltips should be rendered on items in world.
-		advanced_tooltips = true
-		#If tooltips should be rendered in world.
-		worldspace_tooltips = true
 		#Render nametags as bordered. Set to false for flat nametag with background.
-		borders = true
+		borders = false
 		#If Item nametags should be rendered.
 		render_nametags = true
 		#If Item nametags should be rendered when looking at items.
@@ -154,13 +150,17 @@
 		vanilla_rarities = true
 		#If the player should be crouching to see extended advanced tooltips.
 		screen_tooltips_require_crouch = true
+		#If vanilla tooltips should be rendered on items in world.
+		advanced_tooltips = true
+		#If tooltips should be rendered in world.
+		worldspace_tooltips = true
 		#If the name and rarity should be combined into one tooltip.
-		combine_name_and_rarity = false
+		combine_name_and_rarity = true
 
 	#Sounds
 	["Loot Beams".Sounds]
 		#If sounds should be played when items are dropped up.
-		play_sounds = false
+		play_sounds = true
 		#The volume of the sound.
 		#Range: 0.0 ~ 1.0
 		sound_volume = 1.0
