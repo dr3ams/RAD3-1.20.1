@@ -6,7 +6,7 @@
 	dropChance = 30
 	#Amount of half hearts sleeping heals. Set to 0 to disable this feature
 	#Range: 0.0 ~ 32767.0
-	sleepHealAmount = 4.0
+	sleepHealAmount = 10.0
 	#Set to true if you want to regenerate health without the use of healing items
 	healthRegen = false
 
@@ -14,10 +14,10 @@
 [HealCount]
 	#Use count for the salve item
 	#Range: > 0
-	salveHealCount = 4
+	salveHealCount = 2
 	#Use count for the plaster item
 	#Range: > 0
-	plasterHealCount = 4
+	plasterHealCount = 1
 	#Use count for the bandage item
 	#Range: > 0
 	bandageHealCount = 6
@@ -32,19 +32,19 @@
 [HealAmount]
 	#Salve heal amount
 	#Range: 1.0 ~ 1.7976931348623157E308
-	salveHealAmount = 1.0
+	salveHealAmount = 8.0
 	#Salve heal amount
 	#Range: 1.0 ~ 1.7976931348623157E308
-	plasterHealAmount = 1.0
+	plasterHealAmount = 10.0
 	#Salve heal amount
 	#Range: 1.0 ~ 1.7976931348623157E308
-	bandageHealAmount = 1.0
+	bandageHealAmount = 6.0
 	#Salve heal amount
 	#Range: 1.0 ~ 1.7976931348623157E308
-	medkitHealAmount = 2.0
+	medkitHealAmount = 10.0
 	#Salve heal amount
 	#Range: 1.0 ~ 1.7976931348623157E308
-	medkitEnchantedHealAmount = 3.0
+	medkitEnchantedHealAmount = 16.0
 
 #Defines how long it takes for a healing item to get used.
 [HealTime]
@@ -59,8 +59,8 @@
 	bandageUseTime = 20
 	#Use count for the medkit item
 	#Range: 0 ~ 72000
-	medkitUseTime = 40
+	medkitUseTime = 20
 	#Use count for the enchanted medkit item
 	#Range: 0 ~ 72000
-	medkitEnchantedUseTime = 40
+	medkitEnchantedUseTime = 20
 
