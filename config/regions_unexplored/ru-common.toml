@@ -2,7 +2,7 @@
 #Config for Regions Unexplored!
 [region_configs]
 	#Enable this before changing the other region config files. If disabled, RU will use builtin biome placement.
-	toggle_custom_regions = false
+	toggle_custom_regions = true
 	#Sets Terrablender region weight for the primary region.
 	#Range: 0 ~ 2147483646
 	primary_region_weight = 11
@@ -11,18 +11,18 @@
 	secondary_region_weight = 8
 	#Sets Terrablender region weight for the rare region.
 	#Range: 0 ~ 2147483646
-	rare_region_weight = 1
+	rare_region_weight = 3
 	#Sets Terrablender region weight for Nether region.
 	#Range: 0 ~ 2147483646
 	nether_region_weight = 14
 
 [biome_toggles]
 	#overworld_biomes
-	toggle_alpha_grove = false
+	toggle_alpha_grove = true
 	toggle_arid_mountains = true
-	toggle_smouldering_woodland = false
+	toggle_smouldering_woodland = true
 	toggle_autumnal_maple_forest = true
-	toggle_bamboo_forest = false
+	toggle_bamboo_forest = true
 	toggle_baobab_savanna = true
 	toggle_barley_fields = true
 	toggle_bayou = true
@@ -35,9 +35,9 @@
 	toggle_cold_river = true
 	toggle_deciduous_forest = true
 	toggle_dry_bushland = true
-	toggle_eucalyptus_forest = false
+	toggle_eucalyptus_forest = true
 	toggle_fen = true
-	toggle_flower_field = false
+	toggle_flower_field = true
 	toggle_frozen_pine_taiga = true
 	toggle_frozen_tundra = true
 	toggle_fungal_fen = true
@@ -46,15 +46,15 @@
 	toggle_grassy_beach = true
 	toggle_gravel_beach = true
 	toggle_highland_fields = true
-	toggle_hyacinth_deeps = false
+	toggle_hyacinth_deeps = true
 	toggle_icy_desert = true
 	toggle_icy_heights = true
-	toggle_joshua_desert = false
+	toggle_joshua_desert = true
 	toggle_magnolia_woodland = true
 	toggle_maple_forest = true
-	toggle_marsh = false
-	toggle_mauve_hills = false
-	toggle_meadow = false
+	toggle_marsh = true
+	toggle_mauve_hills = true
+	toggle_meadow = true
 	toggle_mountains = true
 	toggle_muddy_river = true
 	toggle_old_growth_bayou = true
@@ -62,7 +62,7 @@
 	toggle_outback = true
 	toggle_pine_slopes = true
 	toggle_pine_taiga = true
-	toggle_poppy_fields = false
+	toggle_poppy_fields = true
 	toggle_prairie = true
 	toggle_pumpkin_fields = true
 	toggle_rainforest = true
@@ -70,7 +70,7 @@
 	toggle_redwoods = true
 	toggle_saguaro_desert = true
 	toggle_shrubland = true
-	toggle_silver_birch_forest = false
+	toggle_silver_birch_forest = true
 	toggle_sparse_rainforest = true
 	toggle_sparse_redwoods = true
 	toggle_spires = true
@@ -81,10 +81,10 @@
 	toggle_tropics = true
 	toggle_willow_forest = true
 	#cave_biomes
-	toggle_ancient_delta = false
-	toggle_bioshroom_caves = false
-	toggle_prismachasm = false
-	toggle_redstone_caves = false
+	toggle_ancient_delta = true
+	toggle_bioshroom_caves = true
+	toggle_prismachasm = true
+	toggle_redstone_caves = true
 	toggle_scorching_caves = true
 	#nether_biomes
 	toggle_blackstone_basin = true
