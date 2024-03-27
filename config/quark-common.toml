@@ -187,8 +187,8 @@
 
 	[building.leaf_carpet]
 		#This feature disables itself if any of the following mods are loaded:
-		# - immersive_weathering
 		# - woodworks
+		# - immersive_weathering
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -222,8 +222,8 @@
 		#Allowed values: [0,1]
 		"Fall Damage Multiplier" = 0.5
 		#This feature disables itself if any of the following mods are loaded:
-		# - environmental
 		# - goated
+		# - environmental
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -1062,15 +1062,15 @@
 			#Allowed values: [0,)
 			Rarity = 400
 			"Min Y Level" = 0
-			"Max Y Level" = 64
+			"Max Y Level" = 632
 			#Allowed values: [0,)
-			"Horizontal Size" = 36
+			"Horizontal Size" = 26
 			#Allowed values: [0,)
-			"Vertical Size" = 14
+			"Vertical Size" = 10
 			#Allowed values: [0,)
-			"Horizontal Variation" = 8
+			"Horizontal Variation" = 6
 			#Allowed values: [0,)
-			"Vertical Variation" = 6
+			"Vertical Variation" = 3
 
 			[world.corundum.generation_settings.dimensions]
 				"Is Blacklist" = false
@@ -1108,7 +1108,7 @@
 	[world.monster_box]
 		#The chance for the monster box generator to try and place one in a chunk. 0 is 0%, 1 is 100%
 		#This can be higher than 100% if you want multiple per chunk.
-		"Chance Per Chunk" = 0.2
+		"Chance Per Chunk" = 0.1
 		"Min Y" = -50
 		"Max Y" = 0
 		"Min Mob Count" = 5
@@ -1407,7 +1407,7 @@
 			#Allowed values: [1,)
 			"Min Group Size" = 1
 			#Allowed values: [1,)
-			"Max Group Size" = 3
+			"Max Group Size" = 2
 
 			[mobs.shiba.spawn_config.biomes]
 
@@ -1474,7 +1474,7 @@
 			#Allowed values: [1,)
 			"Min Group Size" = 2
 			#Allowed values: [1,)
-			"Max Group Size" = 4
+			"Max Group Size" = 2
 
 			[mobs.toretoise.spawn_config.biomes]
 
@@ -1501,7 +1501,7 @@
 			#Allowed values: [1,)
 			"Min Group Size" = 1
 			#Allowed values: [1,)
-			"Max Group Size" = 3
+			"Max Group Size" = 2
 
 			[mobs.wraith.spawn_config.biomes]
 
