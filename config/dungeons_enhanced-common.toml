@@ -4,7 +4,7 @@
 	# The biomes this structure should generate in. Use # to define a tag. Use ! to define a blacklist. If no values are set, the structure's default biomes will be used.
 	# Example: ["minecraft:plains, #minecraft:is_forest, !minecraft:birch_forest, !#minecraft:has_structure/woodland_mansion"]
 	# Default: ["#forge:is_cold/overworld", "#forge:is_snowy", "!#forge:is_water", "!#forge:is_mountain", "!#dungeons_enhanced:is_shore"]
-	"dungeons_enhanced:castle" = ["#forge:is_cold/overworld", "#forge:is_snowy", "!#forge:is_water", "!#forge:is_mountain", "!#dungeons_enhanced:is_shore"]
+	"dungeons_enhanced:castle" = ["#minecraft:is_forest", "#forge:is_cold/overworld", "#forge:is_snowy", "!#forge:is_water", "!#forge:is_mountain", "!#dungeons_enhanced:is_shore"]
 
 [deep_crypt]
 	#
@@ -88,7 +88,7 @@
 	# The biomes this structure should generate in. Use # to define a tag. Use ! to define a blacklist. If no values are set, the structure's default biomes will be used.
 	# Example: ["minecraft:plains, #minecraft:is_forest, !minecraft:birch_forest, !#minecraft:has_structure/woodland_mansion"]
 	# Default: ["#forge:is_plains", "#minecraft:is_forest", "#minecraft:is_taiga", "!#dungeons_enhanced:is_bad_for_structure", "!#forge:is_mountain", "!#forge:is_water"]
-	"dungeons_enhanced:large_dungeon" = ["#forge:is_plains", "#minecraft:is_forest", "#minecraft:is_taiga", "!#dungeons_enhanced:is_bad_for_structure", "!#forge:is_mountain", "!#forge:is_water"]
+	"dungeons_enhanced:large_dungeon" = ["#forge:is_plains", "#minecraft:is_taiga", "!#dungeons_enhanced:is_bad_for_structure", "!#forge:is_mountain", "!#forge:is_water"]
 
 [miners_house]
 	#
@@ -137,7 +137,7 @@
 	# The biomes this structure should generate in. Use # to define a tag. Use ! to define a blacklist. If no values are set, the structure's default biomes will be used.
 	# Example: ["minecraft:plains, #minecraft:is_forest, !minecraft:birch_forest, !#minecraft:has_structure/woodland_mansion"]
 	# Default: ["#forge:is_plains", "#minecraft:is_forest", "!#dungeons_enhanced:is_bad_for_structure", "!#forge:is_mountain", "!#forge:is_water", "!minecraft:dark_forest"]
-	"dungeons_enhanced:stables" = ["#forge:is_plains", "#minecraft:is_forest", "!#dungeons_enhanced:is_bad_for_structure", "!#forge:is_mountain", "!#forge:is_water", "!minecraft:dark_forest"]
+	"dungeons_enhanced:stables" = ["!#dungeons_enhanced:is_bad_for_structure", "!#forge:is_mountain", "!#forge:is_water", "!minecraft:dark_forest"]
 
 [sunken_shrine]
 	#
@@ -158,7 +158,7 @@
 	# The biomes this structure should generate in. Use # to define a tag. Use ! to define a blacklist. If no values are set, the structure's default biomes will be used.
 	# Example: ["minecraft:plains, #minecraft:is_forest, !minecraft:birch_forest, !#minecraft:has_structure/woodland_mansion"]
 	# Default: ["#minecraft:is_overworld", "!#forge:is_sandy", "!#forge:is_water", "!#minecraft:is_jungle", "!#dungeons_enhanced:is_bad_for_structure", "!#minecraft:is_badlands"]
-	"dungeons_enhanced:tower_of_the_undead" = ["#minecraft:is_overworld", "!#forge:is_sandy", "!#forge:is_water", "!#minecraft:is_jungle", "!#dungeons_enhanced:is_bad_for_structure", "!#minecraft:is_badlands"]
+	"dungeons_enhanced:tower_of_the_undead" = ["#minecraft:is_overworld", "!#forge:is_sandy", "!#forge:is_water", "!#minecraft:is_jungle", "!#dungeons_enhanced:is_bad_for_structure", "!#minecraft:is_badlands", "#minecraft:is_forest"]
 
 [tree_house]
 	#
@@ -172,7 +172,7 @@
 	# The biomes this structure should generate in. Use # to define a tag. Use ! to define a blacklist. If no values are set, the structure's default biomes will be used.
 	# Example: ["minecraft:plains, #minecraft:is_forest, !minecraft:birch_forest, !#minecraft:has_structure/woodland_mansion"]
 	# Default: ["#forge:is_cold/overworld", "!#forge:is_water"]
-	"dungeons_enhanced:watch_tower" = ["#forge:is_cold/overworld", "!#forge:is_water"]
+	"dungeons_enhanced:watch_tower" = ["#forge:is_cold/overworld", "#minecraft:is_forest", "!#forge:is_water"]
 
 [witch_tower]
 	#
