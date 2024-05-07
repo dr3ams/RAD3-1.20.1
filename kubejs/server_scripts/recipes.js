@@ -368,6 +368,11 @@ ServerEvents.recipes((event) => {
     "minecraft:diamond",
     "#forge:storage_blocks/diamond"
   );
+  event.replaceInput(
+    { output: "l2hostility:ring_of_life" },
+    "l2hostility:undying",
+    "l2hostility:protection"
+  );
 
   upgradeMap.forEach((key, value) => {
     event.shapeless(Item.of(key), [Item.of(value)]);
