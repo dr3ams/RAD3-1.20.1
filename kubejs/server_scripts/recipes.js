@@ -3,14 +3,6 @@
 console.info("New recipes script is loading...");
 
 const removals = [
-  "waystones:waystone",
-  "waystones:mossy_waystone",
-  "waystones:sandy_waystone",
-  "waystones:sharestone",
-  "waystones:bound_scroll",
-  "waystones:warp_scroll",
-  "waystones:warp_plate",
-  "waystones:warp_stone",
   "gag:time_sand_pouch",
   "gag:escape_rope",
   "gag:hearthstone",
