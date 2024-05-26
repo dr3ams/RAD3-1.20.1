@@ -1,0 +1,4699 @@
+{
+	autofocus_id: "35A027D4B827463C"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "adventure_begins"
+	group: "241F1DC7B6D6E9D6"
+	icon: "minecraft:crafting_table"
+	id: "444EE0B011D2925F"
+	images: [
+		{
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			rotation: 45.0d
+			width: 1.1d
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			rotation: 45.0d
+			width: 1.1d
+			x: -5.75d
+			y: -3.75d
+		}
+		{
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			rotation: 45.0d
+			width: 1.1d
+			x: -5.75d
+			y: -2.25d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:block/barrier"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:block/barrier"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:block/barrier"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:block/barrier"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:block/barrier"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:block/barrier_open"
+			rotation: 45.0d
+			width: 1.5d
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:block/barrier_open"
+			rotation: 45.0d
+			width: 1.5d
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:block/barrier_open"
+			rotation: 45.0d
+			width: 1.5d
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			alpha: 150
+			height: 10.0d
+			image: "rad3:textures/misc/rad_compass_new_3.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -2.0d
+			y: -3.0d
+		}
+	]
+	order_index: 0
+	quest_links: [
+		{
+			id: "28D458E6F5625B9F"
+			linked_quest: "085E485E8091D543"
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			id: "287B78958ED96F15"
+			linked_quest: "2AF1B6A89DD4F4C2"
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "bonfires:coiled_sword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+					reinforce_level: 0
+					reinforce_max: 10
+				}
+			}
+			id: "2ECB5EA439F3A83B"
+			linked_quest: "7B7944F875F4F424"
+			x: -6.0d
+			y: 1.0d
+		}
+	]
+	quests: [
+		{
+			id: "35A027D4B827463C"
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "04608ED76862CEA9"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["35A027D4B827463C"]
+			description: [
+				"&oThe mining process was revamped to improve the mining experience, introduce new underground landmarks and points of interest, and to provide novel and useful tools to improve otherwise mundane tasks related to underground exploration.&r"
+				""
+				"- &7Iron&r, &eGold&r, and &6Copper&r metals now all have Raw Nuggets"
+				""
+				"- &nThe Deepslate&r version of each of the metal ores &nwill drop a few extra&r raw nuggets when mined, incentivizing mining &0deep underground&r"
+				""
+				"- &6Copper&r now has a nugget which can be obtained from Copper Ingots or smelting a Raw Copper Nugget"
+				""
+				"- &4Nether&r &eGold Ore&r also now drops &eRaw Gold Nuggets&r"
+			]
+			id: "033105F673C5EF80"
+			shape: "hexagon_important"
+			size: 2.0d
+			tasks: [
+				{
+					id: "61FB2C3CA5841E29"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D55F06D13B66819"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "spelunkery:raw_zinc_nugget"
+								}
+								{
+									Count: 1b
+									id: "spelunkery:raw_iron_nugget"
+								}
+								{
+									Count: 1b
+									id: "spelunkery:raw_copper_nugget"
+								}
+								{
+									Count: 1b
+									id: "spelunkery:raw_gold_nugget"
+								}
+							]
+						}
+					}
+					title: "Any Raw Nugget"
+					type: "item"
+				}
+			]
+			title: "&9Mining"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["35A027D4B827463C"]
+			id: "1966320B37D990A0"
+			rewards: [
+				{
+					count: 8
+					id: "1F2CAFD78C5913F7"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5EA7D0219A25B358"
+					item: "minecraft:cod"
+					type: "item"
+				}
+			]
+			shape: "hexagon_important"
+			size: 2.0d
+			tasks: [{
+				id: "041C388F97AE9DB9"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "&9Processing"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["35A027D4B827463C"]
+			description: [""]
+			id: "43EFBBF0712C67B9"
+			rewards: [
+				{
+					count: 16
+					id: "1CA4C73F85F3961D"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					id: "137D150BEAF2F9E5"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+			]
+			shape: "hexagon_important"
+			size: 2.0d
+			tasks: [{
+				icon: "minecraft:chest"
+				id: "5B5DA6B362BDF52E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests"
+					}
+				}
+				title: "Any forge:chests"
+				type: "item"
+			}]
+			title: "&9Organizing"
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0000000000000017"]
+			id: "7343C10D6EEAA88B"
+			rewards: [
+				{
+					id: "57EFED8B0FDF975D"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "728D604B1B3DDA27"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Make yourself at home!"
+			tasks: [
+				{
+					id: "79409487518DC9CE"
+					item: "minecraft:loom"
+					type: "item"
+				}
+				{
+					id: "6151D9DD55A70B2E"
+					item: "minecraft:composter"
+					type: "item"
+				}
+				{
+					id: "51109AAD95079A0D"
+					item: "minecraft:smoker"
+					type: "item"
+				}
+				{
+					id: "476C04AA541BF1CE"
+					item: "minecraft:blast_furnace"
+					type: "item"
+				}
+				{
+					id: "0060DD3C5D8B2927"
+					item: "minecraft:stonecutter"
+					type: "item"
+				}
+				{
+					id: "1719489DE4801E27"
+					item: "minecraft:cartography_table"
+					type: "item"
+				}
+				{
+					id: "559A19A999D7957D"
+					item: "minecraft:smithing_table"
+					type: "item"
+				}
+				{
+					id: "438C812E22453866"
+					item: "minecraft:grindstone"
+					type: "item"
+				}
+			]
+			title: "Humble adobe"
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["033105F673C5EF80"]
+			description: [
+				"- &bDiamonds&r and &2Emeralds&r can only be ground on a Diamond Grindstone, crafted with Rough Diamond Shards and Deepslate"
+				""
+				"- The Diamond Grindstone retains all functionality of the normal grindstone, including polishing other rough gems"
+				""
+				"- It has the additional ability to grind Curse enchantments off of items"
+				""
+				"- Each time you polish something with a Diamond Grindstone, there is a 5% chance it will increase its \"Depleted\" level by one"
+				""
+				"- Once a Diamond Grindstone reaches Depleted 3, it can no longer polish rough diamonds or emeralds"
+				""
+				"- Shift right-clicking a depleted Diamond Grindstone with a Rough Diamond Shard will restore it by one Depletion stage at a time"
+			]
+			id: "7F9831246F75C5C6"
+			tasks: [
+				{
+					id: "00CEB6A8C9816F7F"
+					item: "spelunkery:rough_diamond"
+					type: "item"
+				}
+				{
+					id: "0DE7F6DB858B44C1"
+					item: "spelunkery:diamond_grindstone"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1966320B37D990A0"]
+			icon: "minecraft:iron_ingot"
+			id: "3A7C49FC5AA2927F"
+			rewards: [
+				{
+					id: "03D4591291173909"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "08BA4B6935F6F10F"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3D854BFCF0487812"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "272FE66AB2163D13"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5F212814620367AE"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "27C6918DDDCE99CD"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["149CB61732F787CF"]
+			id: "031D29EEE7B5A5A7"
+			rewards: [{
+				id: "3F9B6F960665E737"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Make your first villager trade"
+			tasks: [{
+				advancement: "morevillagers:first_trade"
+				criterion: ""
+				id: "114773E0AF9E547B"
+				type: "advancement"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["031D29EEE7B5A5A7"]
+			id: "5972F6732B417E5B"
+			rewards: [
+				{
+					id: "0512D2FACA5F7D45"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "20BEF9A50B8C93F1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5CBF45690CB0CB01"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			subtitle: "Trade with the Enderologist in the End dimension"
+			tasks: [{
+				advancement: "morevillagers:end_trade"
+				criterion: ""
+				id: "6C6D7A81184FDD7D"
+				type: "advancement"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["031D29EEE7B5A5A7"]
+			id: "6DA54AD3576429BD"
+			rewards: [
+				{
+					id: "79D3A169D5B0A777"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6B862E9C731FB62B"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+				{
+					id: "2A28E51842126858"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			subtitle: "Trade with the Netherologist in the Nether dimension"
+			tasks: [{
+				advancement: "morevillagers:nether_trade"
+				criterion: ""
+				id: "0BC58EE1695D4729"
+				type: "advancement"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["031D29EEE7B5A5A7"]
+			id: "6B22DE7F764EE649"
+			rewards: [{
+				id: "28122D72C203F76B"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			subtitle: "Visit all 5 village types"
+			tasks: [{
+				advancement: "morevillagers:all_villages"
+				criterion: ""
+				id: "752864CAF8E2E6AC"
+				type: "advancement"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5972F6732B417E5B"]
+			id: "0BF1E5F4FD13B804"
+			rewards: [
+				{
+					id: "4123C901B238E055"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "4E1BC620F85C50EA"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "hat_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Trade with every (21) villager profession"
+			tasks: [{
+				advancement: "morevillagers:all_professions_traded"
+				criterion: ""
+				id: "471FC757C0A5ADBB"
+				type: "advancement"
+			}]
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["031D29EEE7B5A5A7"]
+			id: "6D4829B88CC59A96"
+			rewards: [
+				{
+					id: "6A3EBA00A83EC80D"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "131BAF251EDD28D4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Obtain every villager workstation (21)"
+			tasks: [{
+				advancement: "morevillagers:all_workstations_get"
+				criterion: ""
+				id: "6EDEDE0D451B0079"
+				type: "advancement"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["031D29EEE7B5A5A7"]
+			id: "52FD67FD6156343A"
+			rewards: [{
+				id: "455361B3431332F6"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Successfully defend a village from a raid"
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				id: "04724854D2AB6D77"
+				type: "advancement"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["249AA12A5A125F45"]
+			description: [
+				"- Glow Sticks are a light source that can be placed on any surface or thrown like a snowball (placing itself wherever it lands)"
+				""
+				"- They can be thrown and placed underwater, making them ideal for subnautical exploration"
+				""
+				"- Glow sticks also come in all 16 colors + the glow ink hue, making them ideal for marking out pathways to different location"
+			]
+			id: "3C117B063253F59D"
+			tasks: [{
+				id: "6A72A66C282AB276"
+				item: "spelunkery:glowstick"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["033105F673C5EF80"]
+			description: [
+				"&6Collectibles&r drop very very rare when you mine specific blocks, open dungeon chests or brush suspicious blocks. If you complete one set of collectibles, craft a &5loot bag&r with it and use it, as a reward you will receive very valuable items and xp!"
+				"{image:rad3:textures/misc/q-b-collect.png width:130 height:150 align:1}"
+			]
+			id: "14A5A832247630AC"
+			subtitle: "Collect enough collectibles and craft a Lootbag!"
+			tasks: [
+				{
+					id: "4AD54254921FCE59"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:collectibles"
+						}
+					}
+					title: "Any #forge:collectibles"
+					type: "item"
+				}
+				{
+					advancement: "collectibles:lootbag"
+					criterion: ""
+					id: "0040310D1F7F1059"
+					type: "advancement"
+				}
+			]
+			title: "Collectibles"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["366659E50333BC5A"]
+			id: "70EE00F2D166500E"
+			rewards: [
+				{
+					id: "7B767CE1FCBF19F3"
+					item: "ftbquests:book"
+					type: "item"
+				}
+				{
+					id: "5DE10AA0D4257E31"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Die at least 1 time"
+			tasks: [{
+				id: "51A7BB84F95A8A07"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 1
+			}]
+			x: -6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["70EE00F2D166500E"]
+			description: [
+				"Players earns knowledge points each time they use a grave's soul to enchant an item, when they free a soul from a receptacle, by praying near a decorative grave with a special item called Ankh of Pray (with a cooldown of 6 in-game hours), or by accomplishing the tombstone advancements."
+				""
+				"Theses points allow you to unlock some perks in a special gui \"Knowledge of Death\" (the keybind in \"misc\" is not defined by default)."
+				""
+				"The perks are small bonus related to all the features of tombstone, instead of providing them by default."
+			]
+			id: "2C5C6BA3B3AFEFD7"
+			rewards: [{
+				id: "688962A447F65683"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Chose your first knowledge of death"
+			tasks: [{
+				advancement: "tombstone:adventure/choose_knowledge"
+				criterion: ""
+				id: "518B97A059D9C268"
+				type: "advancement"
+			}]
+			x: -7.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2C5C6BA3B3AFEFD7"]
+			description: [
+				"The Ankh allows you to use prayers by period."
+				""
+				"You can pray near a Decorative Grave giving you a chance to receive a beneficial effect or on certain creatures depending on your alignment."
+				""
+				"If your alignment is neutral or better, you can use Exorcism to convert a zombie-villager into a villager (or Zombify doing the opposite if your alignment is negative)"
+				""
+				"If your alignment is +1, you can use Prayer of Protection on a villager (or citizen of Minecolonies) preventing its next death."
+				""
+				"If your alignment is +2, you can use Prayer of Empathy to rally a tameable creature."
+			]
+			id: "0611628E78DF44FB"
+			rewards: [{
+				id: "453C2306AEB7BFD8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5A7D361140FECB49"
+				item: {
+					Count: 1b
+					id: "tombstone:ankh_of_pray"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2C5C6BA3B3AFEFD7"]
+			description: [
+				"Once enchanted, they allow to teleport in various ways."
+				""
+				"In ancient time, tablets had the ability to transport multiple creatures, but not one remembers the secret of their creation."
+			]
+			id: "05E6055834D440E5"
+			rewards: [{
+				id: "3B73BA00E43033DC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7CF72A116DB6C85C"
+				item: "tombstone:strange_tablet"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2C5C6BA3B3AFEFD7"]
+			description: [
+				"The decorative graves are special blocks with a fog particle only during the night."
+				""
+				"The decorative graves can be haunted by a soul. The soul stays until used and allows some enchants like magic scroll/tablet, or upgrade the grave's key."
+				""
+				"To build a decorative grave, you will need to collect Grave's Dust (the common way to obtain them is by killing undeads or with Cat Morning Gift), and one Essence of Undeath being an ingredient obtainable through the advancements (the first one is by finding how to select your favorite grave in the config in game) and rarely foundable on undeads, Cat Morning Gift and by fishing in deep water (but don't hope to find them by theses ways except by luck)."
+				""
+				"Rarely, a Grave Guardian can appear near a decorative grave. This guardian will protect the surroundings from hostile creatures and will offer to trade with the players. This is one way to obtain Grave's Dust and Essence of Undeath. During special events, the trades may differ."
+			]
+			icon: "tombstone:essence_of_undeath"
+			id: "1747432114401210"
+			rewards: [{
+				id: "2ECF31D51DEB3A77"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "7FD817A158BC24AB"
+					item: "tombstone:essence_of_undeath"
+					type: "item"
+				}
+				{
+					id: "63E06DA1257CDC4A"
+					item: "tombstone:grave_dust"
+					type: "item"
+				}
+				{
+					id: "0707C6E6A7C3A185"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tombstone:decorative_graves"
+						}
+					}
+					title: "Any #tombstone:decorative_graves"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["35A027D4B827463C"]
+			description: [
+				""
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"273BBE58DA6C6B5E\" } }"
+			]
+			id: "366659E50333BC5A"
+			shape: "hexagon_important"
+			size: 2.0d
+			subtitle: "Visit 'Meet your fight' chapter to find more mob hunting quests!"
+			tasks: [{
+				advancement: "minecraft:adventure/kill_a_mob"
+				criterion: ""
+				id: "6F5281C75824ABBC"
+				type: "advancement"
+			}]
+			title: "&9Fighting"
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["35A027D4B827463C"]
+			description: [""]
+			icon: {
+				Count: 1b
+				id: "undergarden:forgotten_pickaxe"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+					reinforce_level: 0
+					reinforce_max: 10
+				}
+			}
+			id: "6CC45B856CF1EC09"
+			rewards: [{
+				count: 3
+				id: "36B2D29BE1DA6025"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			shape: "gear_important"
+			size: 1.2d
+			subtitle: "TBA"
+			tasks: [{
+				id: "70D416AECE2E29F2"
+				type: "checkmark"
+			}]
+			title: "&9Equipment"
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["35A027D4B827463C"]
+			description: ["&o(following is optional)&r"]
+			id: "149CB61732F787CF"
+			shape: "hexagon_important"
+			size: 2.0d
+			subtitle: "Find a Sign and follow it"
+			tasks: [{
+				advancement: "supplementaries:adventure/way_sign"
+				criterion: ""
+				id: "575337A25E86B56B"
+				type: "advancement"
+			}]
+			title: "&9Adventuring"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35A027D4B827463C"]
+			description: [
+				"There are a lot of &9decorations&r available to decorate your humble home."
+				""
+				"You can search in JEI by mod:"
+				"- @chipped"
+				"- @Macaw"
+				"- @Builder"
+				"- @handcrafted"
+				"- @workshop"
+				"- @furniture"
+				"- @lights"
+			]
+			id: "52AB2CD360AC4DDE"
+			shape: "gear_important"
+			size: 1.2d
+			tasks: [{
+				id: "41FDDDBDC2EB9C63"
+				item: "chipped:carpenters_table"
+				type: "item"
+			}]
+			title: "&9Decorating"
+			x: -5.75d
+			y: -2.25d
+		}
+		{
+			dependencies: ["35A027D4B827463C"]
+			id: "0000000000000171"
+			rewards: [
+				{
+					count: 3
+					id: "2FB3C69A3E892062"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					id: "0EA721BF50CCE4D2"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+			]
+			shape: "gear_important"
+			size: 1.2d
+			subtitle: "Visit 'Fish n Farm' chapter to find more about farming possibilities"
+			tasks: [
+				{
+					id: "0000000000000172"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					id: "0000000000000173"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "0000000000000174"
+					item: "minecraft:beetroot_seeds"
+					type: "item"
+				}
+			]
+			title: "&9Farming"
+			x: -5.75d
+			y: -3.75d
+		}
+		{
+			dependencies: ["18AC39AD9539D884"]
+			id: "1F988A67F250159F"
+			tasks: [{
+				id: "336A43E20C6C69BD"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3A7C49FC5AA2927F"]
+			id: "18AC39AD9539D884"
+			tasks: [
+				{
+					id: "492E4F21FA247D83"
+					item: {
+						Count: 1b
+						id: "kubejs:hammer_iron"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64E420126C019B04"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1F988A67F250159F"]
+			description: [
+				"&3Zinc ore&r must be mined with an &7Iron pickaxe&r or higher."
+				""
+				"It can generate in the &2Overworld&r in the form of Blobs."
+				""
+				"It can be found between Y levels &6&n-63 to 70&r&r."
+			]
+			icon: "create:andesite_alloy"
+			id: "53BF868730713984"
+			tasks: [
+				{
+					id: "7F43B2ED6EAE58EC"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+				{
+					id: "4531E6A588CF556D"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					id: "258DC7B57C3DF3F8"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			title: "Andesite Alloy"
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["55C87018D524A77E"]
+			id: "09DCF997E89A3D37"
+			rewards: [
+				{
+					id: "5F87F2CCDEC39638"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 5
+					id: "08D7A159DAB3AADB"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "64366B477DF5155F"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+			]
+			shape: "gear_important"
+			size: 1.5d
+			subtitle: "Visit 'Not Enough Food' chapter to find more about cooking possibilities"
+			tasks: [{
+				id: "28174D5298762441"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			title: "&9Cooking"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3A7C49FC5AA2927F"]
+			id: "00000000000000C8"
+			rewards: [{
+				count: 2
+				id: "49BDAB5E7C72165D"
+				item: "quark:nether_brick_chest"
+				type: "item"
+			}]
+			shape: "octagon_important"
+			size: 1.5d
+			subtitle: "Build, light and enter the nether portal"
+			tasks: [{
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "minecraft:block/nether_portal"
+					}
+				}
+				id: "2DE1C61F2D3234DB"
+				type: "advancement"
+			}]
+			title: "See you in Hell (chapter)"
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3A7C49FC5AA2927F"]
+			icon: {
+				Count: 1b
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "00000000000002AA"
+			rewards: [
+				{
+					id: "00000000000002D9"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 3
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00000000000002DA"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:feather_falling"
+								lvl: 1
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4229240D9A9F4A3D"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strength"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57B43ECDF08F48DC"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "00000000000002AB"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00000000000002AC"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00000000000002AD"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00000000000002AE"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "554729809ED5063C"
+					item: {
+						Count: 1b
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Iron Armor"
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["149CB61732F787CF"]
+			id: "0000000000000576"
+			rewards: [{
+				count: 5
+				id: "0000000000000578"
+				item: "randomite:randomite_ore"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000000577"
+				item: {
+					Count: 1b
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0000000000000017"]
+			id: "394202A011E33493"
+			rewards: [{
+				id: "0A13DC3141847F1C"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5B9BC199451D5FCD"
+					item: {
+						Count: 1b
+						id: "buildinggadgets2:gadget_building"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0732CCF54B6F752D"
+					item: "buildinggadgets2:gadget_exchanging"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["35A027D4B827463C"]
+			description: [
+				"While progressing through the quest book you will gain coins which can be traded for different valuable items in dedicated chapter"
+				" "
+				"{ \"text\": \"The market\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0000000000000579\" } }"
+			]
+			id: "1132350866F5AC7A"
+			rewards: [{
+				id: "5A63AEDEF75C189C"
+				type: "xp"
+				xp: 100
+			}]
+			size: 0.7d
+			tasks: [{
+				id: "705F72C3A7D20EFB"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			title: "Quest coins"
+			x: -0.35d
+			y: -1.75d
+		}
+		{
+			dependencies: ["43EFBBF0712C67B9"]
+			description: [
+				"Move you base! An entire base packed in a 31x31x31 can be moved entirely including machines. You can be a real &onomad&r traveler now."
+				""
+				"Build faster with &9blueprints&r! Blueprint capsules can take materials from chests or other inventories to duplicate a structure. It supports rotation and mirror."
+			]
+			icon: {
+				Count: 1b
+				id: "capsule:capsule"
+				tag: {
+					color: 12244701
+					size: 3
+					state: 0
+				}
+			}
+			id: "3C58EBDE41F0F9F2"
+			subtitle: "Portable homes"
+			tasks: [{
+				id: "25465A26772FA47E"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "capsule:capsule"
+								tag: {
+									color: 13421772
+									size: 3
+									state: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "capsule:capsule"
+								tag: {
+									color: 14126427
+									size: 3
+									state: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "capsule:capsule"
+								tag: {
+									color: 16766720
+									size: 5
+									state: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "capsule:capsule"
+								tag: {
+									color: 65522
+									size: 7
+									state: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "capsule:capsule"
+								tag: {
+									color: 1972267
+									size: 9
+									state: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "capsule:capsule"
+								tag: {
+									color: 1564002
+									size: 11
+									state: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Available Options"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["149CB61732F787CF"]
+			id: "3D4767A8879BE0C1"
+			subtitle: "Find an Artifact"
+			tasks: [{
+				advancement: "artifacts:amateur_archaeologist"
+				criterion: ""
+				id: "6BC4EDA1490D011F"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["366659E50333BC5A"]
+			id: "0B143DFB7C2FC5FC"
+			subtitle: "Kill a Forgotten underground and loot its hat"
+			tasks: [{
+				advancement: "quark:get_forgotten_hat"
+				criterion: ""
+				id: "747B9E78636AABC1"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["033105F673C5EF80"]
+			description: [
+				"- &lClick&r on a &lfull side&r of a block to &ldraw&r a mark"
+				""
+				"- &lDirection&r of the mark depends on the &lclick location&r relative to the center of the dace"
+				""
+				"- &lDot mark&r is drawn by clicking in the &lcenter&r"
+				""
+				"- &lRight-click&r while sneaking to open a menu there you can choose desired &l&9symbol&r&r to draw"
+			]
+			id: "249AA12A5A125F45"
+			subtitle: "Chalk allows you to draw marks for easier navigation in caves or structures."
+			tasks: [{
+				id: "7E142BB4D4F903A7"
+				item: {
+					Count: 1b
+					id: "chalk:white_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "It's dangerous to go alone"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["366659E50333BC5A"]
+			description: [
+				"There are different types of companions with unique abilities."
+				""
+				"&6- Collector&r"
+				"The collector collects automatic items in a specific radius in his own inventory. You can access the inventory like a normal chest."
+				""
+				"&6- Follower&r"
+				"Is more like a cosmetic mob which will follow you around the world."
+				""
+				"&6- Guard&r"
+				"The guard will protected you from hostile mobs and will attack any target you are attacking. Equip your guard with weapons and armor to deal more damage and to have a better protection."
+				""
+				"&6- Healer&r"
+				"The healer companion heals any player and your own companions in a specific radius. Additional healer will stack up the effect, so if you are traveling with your friends it good to have 1-2 healers in the group."
+				""
+				"&6- Supporter&r"
+				"The supporter companions gives buffs to any player and your own companions in a specific radius. Additional supporter will not stack up, but they will be able to buff the whole group."
+			]
+			icon: {
+				Count: 1b
+				id: "player_companions:samurai_default"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "02466D62F5A6CA5F"
+			rewards: [{
+				id: "780EDF87501EC9B9"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "player_companions:guide"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Player companions"
+			tasks: [
+				{
+					id: "46BEC7D90A99E618"
+					item: "minecraft:lead"
+					type: "item"
+				}
+				{
+					id: "3A53A48BEC6D25BF"
+					item: "player_companions:tame_carrot"
+					type: "item"
+				}
+			]
+			title: "Player companions"
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7F9831246F75C5C6"]
+			id: "34DE20EAE1581254"
+			rewards: [{
+				id: "791AF2FCBC442E9F"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Get every color of Corundum Cluster(9)"
+			tasks: [{
+				advancement: "quark:get_all_corundum"
+				criterion: ""
+				id: "0F095B7B41816327"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["033105F673C5EF80"]
+			description: [
+				"- &d&l&nPink Salt&r&r&r"
+				""
+				"- A mineral that can take several different forms including a powder, a crystal and multiple blocks"
+				""
+				"- Its raw and crystalline forms can be found naturally in stripes and clusters at high elevations in mountainous biomes"
+				""
+				"- Mining raw salt blocks will give you Rock Salt items that can be crafted into blocks"
+				""
+				"- Grinding Rock Salt on a Grindstone will give you &nSalt&r in powder form"
+				""
+				"- Rock Salt can also be created by throwing powdered &nSalt&r into a bucket of water placed above a Fire or Campfire"
+				""
+				"- &e&l&nSulfur&r&r&r"
+				""
+				"- Sulfur is a yellow powder that can be made into a block or placed as layers"
+				""
+				"- It can be obtained in the nether in patches on the shores of Soul Sand Valleys"
+				""
+				"- It can be used to craft gunpowder"
+				""
+				"- &l&n&7Saltpeter&r&r&r"
+				"- Saltpeter is a white powder that can be made into a block or placed as layers"
+				"- It can be obtained in a Sluice by washing clay through water or passively from Spring Water"
+				"- It can be used to craft Bonemeal, Gunpowder or dry Rotten Flesh into Leather"
+				""
+				"- &l&n&2Nephrite&r&r&r"
+				""
+				"- A dark green stone found in small boulders deep underground, encased by Tuff and surrounding something more sinister in its core"
+				""
+				"- Can be crafted into various useful components"
+			]
+			id: "037911ABA28CDC08"
+			subtitle: "Pink Salt, Sulfur, Saltpeter, Nephrite"
+			tasks: [
+				{
+					id: "000BA325FA839D66"
+					item: "spelunkery:rock_salt"
+					type: "item"
+				}
+				{
+					id: "1792CB23B1DE3D97"
+					item: "spelunkery:sulfur"
+					type: "item"
+				}
+				{
+					id: "4C3CDE503445FDDC"
+					item: "spelunkery:saltpeter"
+					type: "item"
+				}
+				{
+					id: "1A449497AD5F226D"
+					item: "spelunkery:nephrite_chunk"
+					type: "item"
+				}
+			]
+			title: "New resources"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7F9831246F75C5C6"]
+			id: "733A59C038C65E4B"
+			size: 1.5d
+			tasks: [{
+				id: "3BA93612D1CBC3A5"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["033105F673C5EF80"]
+			description: [
+				"The vanilla &5gemstone ores&r have had their drops changed to Rough versions, similar to the Raw versions from metal ores."
+				""
+				"Dig up &bRough Diamonds&r and &2Emeralds&r. &1Lapis Lazuli&r ore will drop &1Rough Lazurite&r and &4Redstone Ores&r drop &4Rough Cinnabar&r."
+				""
+				"- Use them on a grindstone to polish them into their refined states."
+				""
+				"- You can grind any Rough Shard, Gem or Block and always receive the proportional amount of xp and items."
+				""
+				"- Some &5gems&r create additional byproducts when ground."
+				""
+				"- Shift-right clicking a stack of rough materials on a grindstone will polish the entire stack and create the appropriate amount of byproduct."
+			]
+			id: "6A01EC7A01F35671"
+			tasks: [{
+				id: "2476A9211E40437D"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "spelunkery:rough_lazurite"
+							}
+							{
+								Count: 1b
+								id: "spelunkery:rough_cinnabar"
+							}
+							{
+								Count: 1b
+								id: "spelunkery:rough_cinnabar_shard"
+							}
+							{
+								Count: 1b
+								id: "spelunkery:rough_lazurite_shard"
+							}
+						]
+					}
+				}
+				title: "Any Rough Gem Shards"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["033105F673C5EF80"]
+			description: [
+				"- &1Large Lapis Veins&r can be found in deserts and consist of a cluster of several roughly 3x3x10 tall veins in close proximity"
+				"The veins consist of Sandstone Lapis Ore, Gold Ore, and Rough Lazurite Blocks lapis vein"
+				""
+				"- &2Large Emerald Veins&r can be found in Mountains and consist of random clusters of Andesite Emerald Ore and Rough Emerald Blocks"
+				""
+				"- &4Large Cinnabar Veins&r can be found at the very bottom of the world in any overworld biome and spread out like the wires of a machine"
+				"These veins consist of Calcite Redstone Ore and Rough Cinnabar Blocks"
+				""
+				"- &0Large Coal Veins&r can be found in Swamps and consist of flat, strata-like sheets of coal ore, coal blocks and Smooth Basalt Diamond Ore"
+				""
+				"- &bRare Diamond Clusters&r - Deep underground, you may rarely find concentrations of Diamond Ore and Rough Diamond Blocks, always adjacent to or very near Lava"
+				""
+				"- &6Large Gold Veins&r can be found throughout the nether in random clusters consisting of Nether Gold Ore and Raw Gold Blocks"
+				""
+				"- &fQuartz geodes&r comprised of Netherrack, Blackstone, Nether Quartz Ore and Rough Quartz Blocks can be found throughout the nether."
+			]
+			icon: "kubejs:help"
+			id: "65CB7B9BFFA05C7D"
+			tasks: [{
+				id: "6B7460962C1DD065"
+				type: "checkmark"
+			}]
+			title: "Ore Veins"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["149CB61732F787CF"]
+			description: [
+				"- The parachute is an item crafted from string and wool that, when held in your inventory will automatically deploy and slow your fall if it detects youve fallen far enough that you will take significant damage when you land"
+				""
+				"- The parachute needs to be folded back up once you land in order for it to be ready to catch you if you fall again"
+			]
+			id: "6919B75261523426"
+			tasks: [{
+				id: "05628460ED131063"
+				item: {
+					Count: 1b
+					id: "spelunkery:parachute"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A01EC7A01F35671"]
+			description: [
+				"- Raw magnetite blocks can be found mixed into Large Iron Veins"
+				""
+				"- When activated by right click, draws nearby items toward the player"
+				""
+				"- Activated Item Magnets in Item Frames will also draw in items, useful for automatic farms"
+			]
+			id: "7BA828910935E8A0"
+			tasks: [{
+				id: "44FE2B47EFEE5DAC"
+				item: {
+					Count: 1b
+					id: "spelunkery:item_magnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["366659E50333BC5A"]
+			description: [
+				"- Right Click to detect and highlights all living entities within a configurable range"
+				""
+				"- Shift Right-Click to clear the glow effect"
+				""
+				"- Using the fork has a cooldown of 30 seconds"
+				""
+				"- Can be found in Ancient City chests or crafted with Echo Shards, Sculk Veins and Iron"
+			]
+			id: "1E502C67261C3780"
+			tasks: [{
+				id: "40DC799B3FFAE7B0"
+				item: "spelunkery:echo_fork"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["037911ABA28CDC08"]
+			description: [
+				"- &2&l&nCarved Nephrite&r&r&r"
+				""
+				"Carved Nephrite is able to store experience inside itself in the form of \"Charge\" which it will equalize among neighboring Carved Nephrite. Charge will always prioritize flowing downward before checking to the side so keep that in mind when designing a storage vessel. Think of it like there's a fluid inside of the block. Each block of Carved Nephrite can store 100 Charge (just over 7 levels if you start from zero)."
+				""
+				"- &2&n&lNephrite Siphon&r&r&r"
+				""
+				"Nephrite Siphons are used to convert XP into Charge by draining XP from players that stand on it or absorbing nearby XP orbs"
+				""
+				"- &l&n&2Nephrite Fountain&r&r&r"
+				""
+				"Nephrite Fountains drain the Charge from Carved Nephrite it is placed on and converts it into XP orbs when it is powered with a redstone signal"
+				"If a Nephrite Fountain is adjacent to charged Carved Nephrite, it can be right-clicked with a glass bottle and the charge will be exhanged for a bottle of XP"
+				""
+				"- &l&n&2Nephrite Diode&r&r&r"
+				"- Nephrite Diodes take one charge from the Carved Nephrite behind it and transfer it to the Carved Nephrite in front of it whenever it receives a redstone signal"
+				"- Diodes can be placed in any direction so the most useful thing they can do is transfer Charge vertically upward"
+				"- Diodes can be pushed by pistons unlike the other components"
+				"- A Redstone clock is required to make the best use of a Diode as it only transfers 1 Charge when it receives a signal"
+			]
+			icon: "spelunkery:carved_nephrite"
+			id: "2C0C2641BC5C7BB4"
+			tasks: [
+				{
+					id: "4F82447F4EC9DF0C"
+					item: "spelunkery:carved_nephrite"
+					type: "item"
+				}
+				{
+					id: "6801F9B62CA4FAD9"
+					item: "spelunkery:nephrite_siphon"
+					type: "item"
+				}
+				{
+					id: "51307218889F2191"
+					item: "spelunkery:nephrite_fountain"
+					type: "item"
+				}
+				{
+					id: "6E8705B8C300DAE1"
+					item: "spelunkery:nephrite_diode"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["037911ABA28CDC08"]
+			description: [
+				"- Salt can be placed on the ground in the form of piles and lines"
+				""
+				"- Salt is impassable to Undead creatures, enabling you to trap them by encircling them with salt"
+				""
+				"- Salt can be washed away by flowing water"
+				""
+				"- Salt will dissolve if exposed to rain"
+				""
+				"- If it is on top of Grass or Mycelium when it dissolves, it will convert the block it's on into Coarse Dirt"
+				""
+				"&dBucket of Salt&r"
+				""
+				"- Smelting a Bucket of Water in a Furnace or combining a Bucket with eight Salt will produce a Bucket of Salt"
+				""
+				"- Buckets of Salt can be used to place down eight piles of salt"
+				""
+				"- Rock Salt can also be used to make a Salt Lamp, a light toggleable by right-click that can be placed on the ground or hung from the ceiling"
+			]
+			id: "0B3168B426A40DD4"
+			tasks: [{
+				id: "024CC23A0E91C5E5"
+				item: "spelunkery:salt"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["43EFBBF0712C67B9"]
+			id: "0000000000000017"
+			rewards: [
+				{
+					id: "77D7A2ED18656D97"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "139BCB2FF48E6A6C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0000000000000018"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				title: "Any minecraft:beds"
+				type: "item"
+			}]
+			title: "Bed Time"
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0000000000000017"]
+			id: "0000000000000019"
+			rewards: [
+				{
+					id: "2BE60659152CE25A"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "22622B8F0A8873D3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "000000000000001A"
+				item: "comforts:sleeping_bag_white"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["43EFBBF0712C67B9"]
+			description: [
+				"Sophisticated backpacks is a backpack that you can place in world, color in different color combinations, upgrade with more inventory and enhance with many functional upgrades."
+				""
+				"&l&nBackpack in its item form&r&r"
+				"- Can be accessed using a key press (by default B)"
+				""
+				"- Renders on player when put in their chest slot"
+				""
+				"- Curios compatibility makes it possible to wear and render the backpack when put in “Back” slot"
+				""
+				"&l&nBackpack can also be placed in world&r&r"
+				""
+				"- Shift right clicking the backpack on the ground puts it down"
+				""
+				"- When in world player can use it the same way they would use a chest"
+				""
+				"- Backpacks can also have items piped in/out using hoppers or any kind of modded pipes, external storage access, …"
+				""
+				"- Shift right clicking the backpack on the ground with empty hand picks it back up or it can also be brokend and picked up as any other item"
+				""
+				"&l&nBackpacks can be upgraded&r&r"
+				"- 5 tiers - leather, iron, gold, diamond, netherite"
+				""
+				"- Each of the tiers adds more storage slots and more upgrade slots"
+			]
+			icon: "sophisticatedbackpacks:backpack"
+			id: "5F8B9C6BD22D03AB"
+			rewards: [
+				{
+					id: "4A31EA2880391F51"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "3EB9971D36C14070"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "3698B6956F8EBAE6"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
+				}
+				{
+					id: "671F7E095854F0A9"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:iron_backpack"
+									tag: {
+										contentsUuid: [I;
+											-1964328264
+											1047741827
+											-1638301706
+											2128982801
+										]
+										inventorySlots: 54
+										renderInfo: {
+											upgradeItems: [
+												{
+													Count: 1b
+													id: "minecraft:air"
+													tag: {
+														glide: 0b
+														struck: 0b
+													}
+												}
+												{
+													Count: 1b
+													id: "minecraft:air"
+													tag: {
+														glide: 0b
+														struck: 0b
+													}
+												}
+											]
+										}
+										upgradeSlots: 2
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:gold_backpack"
+									tag: {
+										contentsUuid: [I;
+											1081377980
+											-1398583973
+											-1666445812
+											901473448
+										]
+										inventorySlots: 81
+										renderInfo: {
+											upgradeItems: [
+												{
+													Count: 1b
+													id: "minecraft:air"
+													tag: {
+														glide: 0b
+														struck: 0b
+													}
+												}
+												{
+													Count: 1b
+													id: "minecraft:air"
+													tag: {
+														glide: 0b
+														struck: 0b
+													}
+												}
+												{
+													Count: 1b
+													id: "minecraft:air"
+													tag: {
+														glide: 0b
+														struck: 0b
+													}
+												}
+											]
+										}
+										upgradeSlots: 3
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:diamond_backpack"
+									tag: {
+										contentsUuid: [I;
+											-1794880706
+											958745218
+											-1156338539
+											-462013609
+										]
+										inventorySlots: 108
+										renderInfo: {
+											upgradeItems: [
+												{
+													Count: 1b
+													id: "minecraft:air"
+													tag: {
+														glide: 0b
+														struck: 0b
+													}
+												}
+												{
+													Count: 1b
+													id: "minecraft:air"
+													tag: {
+														glide: 0b
+														struck: 0b
+													}
+												}
+												{
+													Count: 1b
+													id: "minecraft:air"
+													tag: {
+														glide: 0b
+														struck: 0b
+													}
+												}
+												{
+													Count: 1b
+													id: "minecraft:air"
+													tag: {
+														glide: 0b
+														struck: 0b
+													}
+												}
+												{
+													Count: 1b
+													id: "minecraft:air"
+													tag: {
+														glide: 0b
+														struck: 0b
+													}
+												}
+											]
+										}
+										upgradeSlots: 5
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:netherite_backpack"
+									tag: {
+										contentsUuid: [I;
+											-2145760023
+											435244269
+											-1810371328
+											259459106
+										]
+										inventorySlots: 120
+										renderInfo: {
+											upgradeItems: [
+												{
+													Count: 1b
+													id: "minecraft:air"
+													tag: {
+														glide: 0b
+														struck: 0b
+													}
+												}
+												{
+													Count: 1b
+													id: "minecraft:air"
+													tag: {
+														glide: 0b
+														struck: 0b
+													}
+												}
+												{
+													Count: 1b
+													id: "minecraft:air"
+													tag: {
+														glide: 0b
+														struck: 0b
+													}
+												}
+												{
+													Count: 1b
+													id: "minecraft:air"
+													tag: {
+														glide: 0b
+														struck: 0b
+													}
+												}
+												{
+													Count: 1b
+													id: "minecraft:air"
+													tag: {
+														glide: 0b
+														struck: 0b
+													}
+												}
+												{
+													Count: 1b
+													id: "minecraft:air"
+													tag: {
+														glide: 0b
+														struck: 0b
+													}
+												}
+												{
+													Count: 1b
+													id: "minecraft:air"
+													tag: {
+														glide: 0b
+														struck: 0b
+													}
+												}
+											]
+										}
+										upgradeSlots: 7
+									}
+								}
+							]
+						}
+					}
+					title: "Backpack Upgrade"
+					type: "item"
+				}
+				{
+					id: "2B9F43BBFAC24B5A"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:pickup_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:magnet_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:feeding_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:void_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:deposit_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:smelting_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:blasting_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:crafting_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:tool_swapper_upgrade"
+								}
+							]
+						}
+					}
+					title: "Upgrade backpack with Upgrade"
+					type: "item"
+				}
+			]
+			title: "Sophisticated Backpacks"
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["366659E50333BC5A"]
+			id: "61B3C7722CE2E9F4"
+			rewards: [
+				{
+					id: "312B6801D782BA48"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "1D696396D27A8784"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Weaken and then cure the zombie villager"
+			tasks: [{
+				advancement: "minecraft:story/cure_zombie_villager"
+				criterion: ""
+				id: "00897EB3BEEE3685"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["733A59C038C65E4B"]
+			id: "63F3D645C8C30D01"
+			subtitle: "Collect one of each type of ore"
+			tasks: [{
+				advancement: "spelunkery:spelunkery/every_ore"
+				criterion: ""
+				id: "3940A6AA1121E0A9"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["733A59C038C65E4B"]
+			description: [""]
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "50DF10155B7366FF"
+			rewards: [{
+				id: "289A3343DB83D85F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [
+				{
+					id: "6BB131699E21FDB6"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D22FE1D7EB7149D"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1640D7A699DEF0DA"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6165A318A0C852C0"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Diamond Armor"
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["529D1D72F3E57C1D"]
+			description: [
+				"- &1Barrels&r function like regular Minecraft barrels but allow customization and upgrades."
+				""
+				"- &9Limited Barrels&r only have 1 to 4 slots for items with higher stack size limits in each that get even higher when their tier gets upgraded."
+			]
+			id: "68BE52500EBA3198"
+			subtitle: "&cCan be crafted with &nany&r &cwood!&r"
+			tasks: [
+				{
+					id: "7328DA5EA523CFEA"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "sophisticatedstorage:iron_barrel"
+									tag: {
+										woodType: "oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:gold_barrel"
+									tag: {
+										woodType: "oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:diamond_barrel"
+									tag: {
+										woodType: "oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:netherite_barrel"
+									tag: {
+										woodType: "oak"
+									}
+								}
+							]
+						}
+					}
+					title: "Barrels"
+					type: "item"
+				}
+				{
+					id: "604EB1A22F5464C0"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "sophisticatedstorage:limited_barrel_1"
+									tag: {
+										woodType: "oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:limited_iron_barrel_1"
+									tag: {
+										woodType: "oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:limited_gold_barrel_1"
+									tag: {
+										woodType: "oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:limited_diamond_barrel_1"
+									tag: {
+										woodType: "oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:limited_netherite_barrel_1"
+									tag: {
+										woodType: "oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:limited_barrel_2"
+									tag: {
+										woodType: "oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:limited_iron_barrel_2"
+									tag: {
+										woodType: "oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:limited_gold_barrel_2"
+									tag: {
+										woodType: "oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:limited_diamond_barrel_2"
+									tag: {
+										woodType: "oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:limited_netherite_barrel_2"
+									tag: {
+										woodType: "oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:limited_barrel_3"
+									tag: {
+										woodType: "oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:limited_iron_barrel_3"
+									tag: {
+										woodType: "oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:limited_gold_barrel_3"
+									tag: {
+										woodType: "oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:limited_diamond_barrel_3"
+									tag: {
+										woodType: "oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:limited_netherite_barrel_3"
+									tag: {
+										woodType: "oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:limited_barrel_4"
+									tag: {
+										woodType: "oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:limited_iron_barrel_4"
+									tag: {
+										woodType: "oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:limited_gold_barrel_4"
+									tag: {
+										woodType: "oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:limited_diamond_barrel_4"
+									tag: {
+										woodType: "oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:limited_netherite_barrel_4"
+									tag: {
+										woodType: "oak"
+									}
+								}
+							]
+						}
+					}
+					title: "Limited Barrels"
+					type: "item"
+				}
+			]
+			title: "Sophisticated Barrels"
+			x: 1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["43EFBBF0712C67B9"]
+			description: [
+				"Chests that you can &ncustomize&r from any variety of color or wood type and &nupgrade&r each box with a variety of tiers and types of upgrades."
+				""
+				"Upgrades are self-explanatory."
+			]
+			id: "529D1D72F3E57C1D"
+			subtitle: "&cCan be crafted with &nany&r &cwood!&r"
+			tasks: [
+				{
+					id: "31AA1CD5C760CBEB"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "sophisticatedstorage:iron_chest"
+									tag: {
+										woodType: "oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:gold_chest"
+									tag: {
+										woodType: "oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:diamond_chest"
+									tag: {
+										woodType: "oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:netherite_chest"
+									tag: {
+										woodType: "oak"
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04CBF36B5324995B"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "sophisticatedstorage:pickup_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:filter_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:magnet_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:smelting_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:blasting_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:crafting_upgrade"
+								}
+							]
+						}
+					}
+					title: "Upgrades"
+					type: "item"
+				}
+			]
+			title: "Sophisticated Chests"
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["009F78659E60A2F0"]
+			description: [
+				"Connects all of the touching inventories into one."
+				""
+				"Use the Storage Terminal to access all of your items. "
+			]
+			id: "56FE6C65EF970DF6"
+			rewards: [{
+				id: "0B8C5958A50B4BFA"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "1CFD8B0F6D4183BE"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["529D1D72F3E57C1D"]
+			description: [
+				"Gives access to your items."
+				""
+				"Place it on an inventory or Inventory Connector."
+			]
+			id: "009F78659E60A2F0"
+			rewards: [{
+				id: "755612B7BC480181"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E4FE74EB2E1F0C9"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["009F78659E60A2F0"]
+			description: [
+				"&9Inventory Cable:&r "
+				""
+				"- Connects inventories across long distances. Inventory Cable Connectors have to be used to attach inventories. One Inventory Connector must be present in the network."
+				""
+				"&9Inventory Hopper: &r"
+				""
+				"- Import or export from your Inventory Network. "
+				"Right click an item to set the filter. "
+				"Shift click with an empty hand to clear filter."
+				""
+				"&9Inventory Cable Connector: &r"
+				""
+				"- Connects the inventory to the Inventory Network. Or gives access to the network. Required to connect terminals."
+				""
+				"&9Item Filter:&r "
+				""
+				"- Allow filtering multiple items, damage and NBT."
+			]
+			id: "4EDB984C00749AC1"
+			rewards: [{
+				id: "6184CBF63D2C69CD"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "465FBBAA9138622F"
+					item: "toms_storage:ts.inventory_cable"
+					type: "item"
+				}
+				{
+					id: "407EB61F4FD9CB93"
+					item: "toms_storage:ts.inventory_hopper_basic"
+					type: "item"
+				}
+				{
+					id: "2D4CA69DE1137593"
+					item: "toms_storage:ts.inventory_cable_connector"
+					type: "item"
+				}
+				{
+					id: "728F11F4E65FF6A7"
+					item: "toms_storage:ts.item_filter"
+					type: "item"
+				}
+			]
+			title: "Inventory Managment"
+			x: 4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["35A027D4B827463C"]
+			description: [
+				"To learn about new and changed mechanics please visit &5&nInformation&r&r quest chapter."
+				""
+				"{ \"text\": \"CLICK HERE TO JUMP STRAIGHT TO IT\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2A79FAE23F150F49\" } }"
+			]
+			icon: "kubejs:help"
+			id: "416124D7D0317D58"
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "2BF376ED89D83077"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["149CB61732F787CF"]
+			description: [
+				"Paragliding is probably one of the easiest and convenient method of getting around, after running of course."
+				""
+				"All you need is Paraglider and a bit of stamina."
+				""
+				"You can increase your stamina with Stamina Vessels."
+				""
+				"Can ride ascending wind to gain height! Look out for rising particles while holding the Paraglider."
+			]
+			id: "4EAB0F8461B6B3C4"
+			tasks: [{
+				id: "3D305FBCC0F8BF0F"
+				item: "paraglider:paraglider"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1966320B37D990A0"]
+			description: [
+				"- Any animals you &4slay&r using a Knife are guaranteed to &2drop&r secondary items, such as &nLeather&r and &nFeathers;&r"
+				""
+				"- Grassy plants (grass, wheat, rice etc) &2cut&r with a Knife will occasionally yield &6Straw&r, a firm and useful fiber;"
+				""
+				"- They act as a &4modest melee weapon&r: swings faster than a sword for lesser damage;"
+				""
+				"- Later on, they are also useful for &ncutting and portioning&r ingredients when preparing meals."
+			]
+			id: "06FCFD49B9DC5C59"
+			rewards: [{
+				id: "1B694323AEFC9E27"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "Knives are scavenging tools: they allow you to obtain a few more resources from both fauna and flora."
+			tasks: [
+				{
+					id: "325414C7C64C34F1"
+					item: {
+						Count: 1b
+						id: "farmersdelight:flint_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "256F840BDAAB9CB0"
+					item: "farmersdelight:straw"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["56D3BC7D09F900CA"]
+			description: [
+				"When any growable plant is placed on Rich Soil, its growth will be randomly boosted, similar to the usage of Bone Meal."
+				"Rich Soil can be tilled into Rich Farmland through the use of hoes. Rich Farmland is immune to mob trampling and won't unravel to Melons or Pumpkins, but requires hydration in order to boost crops."
+				""
+				"Mushrooms planted on Rich Soil under sufficient darkness will eventually form a Mushroom Colony. Such colonies will grow from 2 to 5 mushroom caps over time, dropping them when harvested."
+			]
+			id: "1729A82B2351DE53"
+			rewards: [
+				{
+					id: "5DFF93BF5E61BECD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "15FDF1C12591F0B7"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5229C5BEC0FE4C1B"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["06FCFD49B9DC5C59"]
+			description: [
+				"Rich Soil is an enhanced type of dirt, more fertile and durable to the elements."
+				""
+				"Rich Soil cannot be directly crafted. To make it, you must craft Organic Compost and place it into the world, letting it decompose over time."
+				""
+				"Organic Compost will decompose more easily under sunlight and moisture from nearby water, but doesn't actually hydrate like farmland. It can also be gently accelerated by placing activators next to it, in a 3x3x3 area centered on itself."
+				""
+				"Currently, the following blocks behave as activators for Organic Compost:"
+				"- Brown and Red Mushrooms, and their Colonies;"
+				"- Podzol and Mycelium;"
+				"- Other blocks of Organic Compost;"
+				"- Rich Soil, normal or tilled."
+			]
+			id: "56D3BC7D09F900CA"
+			rewards: [{
+				id: "3868E5AC6AFC1217"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D4707A71CD44077"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["06FCFD49B9DC5C59"]
+			description: [
+				"&4Ropes&r are essentially reverse scaffolding: the can be continuously deployed downward from the same spot, and can be climbed without collision. This allows players to safely descend or ascend high altitudes, such as ravines or mountains."
+				""
+				"When placing Rope, you can use more ropes against the first one to deploy them downward. This will continuously extend a column of rope down to the bottom-most Y-level possible, allowing for easy and controllable descents into chasms, ravines or from high locations."
+				""
+				"To suppress rope deployment, simply sneak while placing it. If there's no space underneath to deploy, it will also place normally."
+			]
+			id: "27E4CBB51DBD27CD"
+			rewards: [{
+				id: "180CFD2E2371FBF5"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52366E5C113F92FE"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:rope"
+					}
+				}
+				title: "Any #forge:rope"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["27E4CBB51DBD27CD"]
+			description: ["Fully absorbs your fall without dealing damage."]
+			id: "22E1A465FAF7EAA2"
+			rewards: [
+				{
+					id: "2820EBBBFA117AD2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "23850B15A830AB3C"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E02EF01A2AC0E72"
+				item: "farmersdelight:safety_net"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["53BF868730713984"]
+			id: "3339228AB3EFD1AF"
+			shape: "gear_important"
+			size: 1.5d
+			subtitle: "(with addons)"
+			tasks: [{
+				advancement: "create:andesite_alloy"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "create:textures/gui/logo.png"
+					}
+				}
+				id: "239AA2CA7320D704"
+				type: "advancement"
+			}]
+			title: "Time to Create!"
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["366659E50333BC5A"]
+			description: [
+				"&9Step 1:&r"
+				"Find a wild wolf (the Vanilla Minecraft wolf)."
+				""
+				"&9Step 2:&r"
+				"Feed it bones (right click with a bone in your hand) until hearts appear above its head. If a collar appears on its neck and it sits down, you've done it right!"
+				""
+				"&9Step 3:&r"
+				"Feed the dog at least one Training Treat and the dog will disappear for a very brief second and a dog without a collar will take its place. At this point, you now have a Doggy Talents dog."
+			]
+			id: "000000000000062D"
+			rewards: [{
+				id: "000000000000066F"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				id: "000000000000062E"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			title: "Good doggy"
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["000000000000062D"]
+			description: [
+				"&2Training treat&r"
+				"The first treat you will need to level up your dog. It can only level the dog to 20. After that, you will require the next tier treat, the Super Treat."
+				""
+				"&6Super Treat&r"
+				"The second treat you will need to level up your dog. It can only level the dog to 40. After that, you will require the next tier treat, the Master Treat."
+				""
+				"&bMaster Treat&r"
+				"The third treat you will need to level up your dog. It can only level the dog to 60. After that, you will require the final tier treat, the Dire Treat."
+				""
+				"&5Kami Treat&r"
+				"The forth and final treat you will need to level up your dog. It adds dire levels, which is maxed at 30. After that, you will no longer have the ability to level up the dog, hence the dog has reached the ultimate level. Also, at the maximum dire level, end-like particles will begin to emit from your dog."
+			]
+			id: "000000000000062F"
+			rewards: [{
+				id: "000000000000065C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "0000000000000630"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "doggytalents:treats"
+					}
+				}
+				title: "Any #doggytalents:treats"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["000000000000062F"]
+			description: [
+				"Once you have a Doggy Talents dog, you will be able to right click on it with a stick in hand (main or secondary) to open the dog information/talents menu."
+				""
+				"This menu allows you to change the name of your dog, toggle its behavior, add talents, and toggle whether to obey other players. In the menu, your dog's basic level, dire level, and level spending points will be displayed just under the name box."
+				""
+				"The more you level up your dog using the Treats in this order: Training Treat, Super Treat, Master Treat, and Dire Treat; the more points you have available to spend on your talents. Eventually, the dog will hit its maximum level, which will not allow you to get anymore points once it hits this level cap."
+				""
+				"&6Energizer Stick&r"
+				"This special stick gives your dog the Glowing Level 1 effect for 100 ticks (5 seconds), the Speed Level 6 effect for 200 ticks (10 seconds), and the regeneration Level 1 effect for 100 ticks (5 seconds)."
+			]
+			id: "0000000000000631"
+			rewards: [{
+				id: "0000000000000664"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "0000000000000632"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					id: "4F2AAFC281D500E3"
+					item: "doggytalents:energizer_stick"
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0000000000000631"]
+			description: [
+				"&5Whistle&r"
+				"&nWhistle&r is the item that gives your dog commands that it can listen to. Different commands are expressed via several modes."
+				""
+				"&6Tracker&r"
+				"This item is like a map, but for locating your dog when it has the &4Radio Collar&r equipped. To locate your dog, right click with the item in your main hand and it will give your dog's distance away from you and in which direction it is in. However, this item only works if the dog is in the same dimension."
+			]
+			id: "0000000000000639"
+			rewards: [{
+				id: "0F94554843199F33"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "000000000000063A"
+					item: {
+						Count: 1b
+						id: "doggytalents:whistle"
+						tag: {
+							mode: 4
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0077CB6F65E5D875"
+					item: "doggytalents:canine_tracker"
+					type: "item"
+				}
+				{
+					id: "3AAED60F746C6B9C"
+					item: "doggytalents:radio_collar"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0000000000000631"]
+			description: [
+				"This item allows you to carry food items for your dog. You can feed your dog the items inside by right clicking on your dog with the bag in hand."
+				"You can also place the items from inside the bag into a Food Bowl by right clicking on the bowl with the bag in your hand."
+			]
+			id: "000000000000063D"
+			rewards: [
+				{
+					count: 5
+					id: "000000000000067F"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					id: "27F7407B851D24A3"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "000000000000063E"
+				item: "doggytalents:treat_bag"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0000000000000631"]
+			description: [
+				"&nDog Bed&r is a placeable block that allows your dog to respawn if it happens to get slain."
+				""
+				"&nDog Food Bowl&r is a utility block that automatically feeds the dog whenever its nourishment point drops to a certain range."
+			]
+			id: "0000000000000651"
+			rewards: [
+				{
+					count: 3
+					id: "0000000000000681"
+					item: "minecraft:egg"
+					type: "item"
+				}
+				{
+					id: "7DDF9CD29627B0D3"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0000000000000652"
+					item: {
+						Count: 1b
+						id: "doggytalents:dog_bed"
+						tag: {
+							doggytalents: {
+								beddingId: "minecraft:white_wool"
+								casingId: "minecraft:oak_planks"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CD851FEE744594B"
+					item: "doggytalents:food_bowl"
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["000000000000062F"]
+			description: [
+				"Modes"
+				""
+				"These control how the dog reacts to other entities and interacts with you. The tips of each mode appear above the dog."
+				""
+				"Docile (D)"
+				"In this mode, your dog will follow you but not attack anything. They will also play fetch with you when you throw the Throw Bone or Throw Stick. This mode will show up as the tip,\"(D)\" just above the dogs name."
+				""
+				"Wandering (W)"
+				"In this mode, your dog will stay near its bowl and wait for your next command. To set your dog's bowl, simply place one and bring your dog within 1 block of it. This mode will show up as the tip,\"(W)\" just above the dog's name."
+				""
+				"Aggressive (A)"
+				"In this mode, your dog will follow you and attack anything that either attacks you or that you attack. This mode will show up as the tip,\"(A)\" just above the dogs name."
+				""
+				"Berserker (B)"
+				"In this mode, your dog will follow you and will attack any mob that draws near. This mode will show up as the tip,\"(B)\" just above the dogs name."
+				""
+				"Tactical (T)"
+				"In this mode, your dog will follow you but will not attack anything unless you use the command beam to attack the entity you right click on (with the item in hand). This mode will show up as the tip,\"(T)\" just above the dogs name."
+				""
+				"Incapacitated (I)"
+				"In this mode, your dog will be covered in blood and it will not attack nor will let you interact with it (except to let you make it sit down). The dog will enter this mode only when its health is 1/2 of a heart (1 HP) and its health will not reach 0,"
+				"preventing the dog from dying. The dog will eventually exit this mode once its health reaches above 1 HP, however, it will not be at full health after exiting this mode. To force the dog to exit the mode at full health, feed it a cake."
+				"This mode can be turned off in the configuration settings. This mode will show up as the tip,\"(I)\" just above the dogs name."
+			]
+			id: "000000000000065A"
+			rewards: [{
+				id: "7816B7CB959BF985"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: "itemfilters:tag"
+				id: "000000000000065B"
+				title: "Dog Modes"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5BD0024E8E16BB8E"]
+			id: "0000000000000047"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000000279"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "00000000000002DC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "0000000000000048"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["031D29EEE7B5A5A7"]
+			description: ["Ever felt bored of the Minecraft Villagers? Do you wish they sold more useful items? More Villagers aims to fix that by adding multiple new villager jobs, all with unique trades, workstations, and advancements!"]
+			id: "676CA2E8216F97FD"
+			tasks: [
+				{
+					id: "16C4B42BD066F182"
+					item: "morevillagers:mining_bench"
+					type: "item"
+				}
+				{
+					id: "57638E8D5778F28B"
+					item: "morevillagers:oceanography_table"
+					type: "item"
+				}
+				{
+					id: "5224EDA9A9B7A741"
+					item: "morevillagers:woodworking_table"
+					type: "item"
+				}
+				{
+					id: "544F05BB4DD3399F"
+					item: "morevillagers:decayed_workbench"
+					type: "item"
+				}
+				{
+					id: "3D4922681CB85699"
+					item: "morevillagers:purpur_altar"
+					type: "item"
+				}
+				{
+					id: "61CCBACD22237C38"
+					item: "morevillagers:blueprint_table"
+					type: "item"
+				}
+				{
+					id: "1C52B8DA81CDB307"
+					item: "morevillagers:gardening_table"
+					type: "item"
+				}
+				{
+					id: "539138C6F4D69E69"
+					item: "morevillagers:hunting_post"
+					type: "item"
+				}
+			]
+			title: "Even more villagers"
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["00000000000015F4"]
+			id: "0000000000000168"
+			rewards: [
+				{
+					id: "6EFAB257E0BC7800"
+					item: "quark:pink_blossom_sapling"
+					type: "item"
+				}
+				{
+					id: "0000000000000361"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2F97F8F9A311A5E9"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2C90592E111D8242"
+					item: "aquaculture:driftwood"
+					type: "item"
+				}
+				{
+					id: "000000000000016C"
+					item: "aquaculture:tin_can"
+					type: "item"
+				}
+				{
+					id: "000000000000016D"
+					item: "aquaculture:message_in_a_bottle"
+					type: "item"
+				}
+				{
+					id: "000000000000016E"
+					item: "aquaculture:box"
+					type: "item"
+				}
+				{
+					id: "000000000000016F"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+				{
+					id: "0000000000000170"
+					item: "aquaculture:treasure_chest"
+					type: "item"
+				}
+			]
+			title: "What is this junk?"
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["00000000000015F4"]
+			id: "000000000000033B"
+			rewards: [
+				{
+					count: 3
+					id: "000000000000035B"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "011BDDFD8FF8A919"
+					item: {
+						Count: 1b
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "408945D7AF67DCD8"
+					item: "aquaculture:treasure_chest"
+					type: "item"
+				}
+				{
+					id: "000000000000035F"
+					item: {
+						Count: 1b
+						id: "aquaculture:neptunium_fillet_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0000000000000360"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "000000000000033C"
+					item: "aquaculture:brown_shrooma"
+					type: "item"
+				}
+				{
+					id: "000000000000033D"
+					item: "aquaculture:red_shrooma"
+					type: "item"
+				}
+				{
+					id: "2A24BD51AE9AE953"
+					item: "aquaculture:jellyfish"
+					type: "item"
+				}
+				{
+					id: "193BEF7F3099C189"
+					item: "aquaculture:red_grouper"
+					type: "item"
+				}
+				{
+					id: "76D26F074226B00F"
+					item: "aquaculture:tuna"
+					type: "item"
+				}
+				{
+					id: "0000000000000341"
+					item: "aquaculture:goldfish"
+					type: "item"
+				}
+				{
+					id: "0000000000000342"
+					item: "aquaculture:atlantic_cod"
+					type: "item"
+				}
+				{
+					id: "0000000000000343"
+					item: "aquaculture:blackfish"
+					type: "item"
+				}
+				{
+					id: "0000000000000344"
+					item: "aquaculture:atlantic_halibut"
+					type: "item"
+				}
+				{
+					id: "0000000000000345"
+					item: "aquaculture:atlantic_herring"
+					type: "item"
+				}
+				{
+					id: "0000000000000346"
+					item: "aquaculture:pink_salmon"
+					type: "item"
+				}
+				{
+					id: "0000000000000347"
+					item: "aquaculture:pollock"
+					type: "item"
+				}
+				{
+					id: "0000000000000348"
+					item: "aquaculture:rainbow_trout"
+					type: "item"
+				}
+				{
+					id: "0000000000000349"
+					item: "aquaculture:carp"
+					type: "item"
+				}
+				{
+					id: "000000000000034A"
+					item: "aquaculture:brown_trout"
+					type: "item"
+				}
+				{
+					id: "000000000000034B"
+					item: "aquaculture:bluegill"
+					type: "item"
+				}
+				{
+					id: "000000000000034C"
+					item: "aquaculture:smallmouth_bass"
+					type: "item"
+				}
+				{
+					id: "000000000000034D"
+					item: "aquaculture:synodontis"
+					type: "item"
+				}
+				{
+					id: "000000000000034E"
+					item: "aquaculture:capitaine"
+					type: "item"
+				}
+				{
+					id: "000000000000034F"
+					item: "aquaculture:boulti"
+					type: "item"
+				}
+				{
+					id: "0000000000000350"
+					item: "aquaculture:bayad"
+					type: "item"
+				}
+				{
+					id: "0000000000000351"
+					item: "aquaculture:tambaqui"
+					type: "item"
+				}
+				{
+					id: "0000000000000352"
+					item: "aquaculture:piranha"
+					type: "item"
+				}
+				{
+					id: "0000000000000353"
+					item: "aquaculture:arapaima"
+					type: "item"
+				}
+				{
+					id: "0000000000000354"
+					item: "aquaculture:perch"
+					type: "item"
+				}
+				{
+					id: "0000000000000355"
+					item: "aquaculture:muskellunge"
+					type: "item"
+				}
+				{
+					id: "0000000000000356"
+					item: {
+						Count: 1b
+						id: "aquaculture:minnow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0000000000000357"
+					item: "aquaculture:gar"
+					type: "item"
+				}
+				{
+					id: "0000000000000358"
+					item: "aquaculture:catfish"
+					type: "item"
+				}
+				{
+					id: "0000000000000359"
+					item: "aquaculture:box_turtle"
+					type: "item"
+				}
+				{
+					id: "000000000000035A"
+					item: "aquaculture:arrau_turtle"
+					type: "item"
+				}
+			]
+			title: "Gotta Catch Them All!"
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["00000000000015F4"]
+			description: [
+				"Fillet of fish sure sounds a lot better than eating a whole fish, scales and all."
+				""
+				"Pretty much a sharp stick."
+			]
+			id: "000000000000161A"
+			rewards: [
+				{
+					id: "000000000000163C"
+					item: "minecraft:string"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "35DF86D427699A6D"
+					item: "aquaculture:box"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "10BEB003F990DDEB"
+					item: {
+						Count: 1b
+						id: "aquaculture:stone_fillet_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "480CA779F32B86AC"
+					item: "aquaculture:fish_fillet_raw"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["149CB61732F787CF"]
+			description: ["My own custom designed fishing rod. Can be customized with special tackle and bait."]
+			id: "00000000000015DD"
+			rewards: [
+				{
+					id: "000000000000164B"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "000000000000164C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "00C983DF9427E5C6"
+					item: "aquaculture:box"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000015DE"
+				item: {
+					Count: 1b
+					id: "aquaculture:iron_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["00000000000015E7"]
+			description: ["Worms are but a single bait that can be used with fishing rods. Their are also leeches and minnows that you catch by fishing."]
+			id: "00000000000015E9"
+			rewards: [
+				{
+					id: "0000000000001654"
+					item: {
+						Count: 1b
+						id: "aquaculture:minnow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0000000000001655"
+					item: {
+						Count: 1b
+						id: "aquaculture:leech"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000015EA"
+				item: {
+					Count: 1b
+					id: "aquaculture:worm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Bait"
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["00000000000015DD"]
+			description: ["The worm box works like the composter (load with vegetables or fruit) but it produces worms to use as bait."]
+			id: "00000000000015E7"
+			rewards: [{
+				id: "789B8054E2F35A78"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000015E8"
+				item: "aquaculture:worm_farm"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["00000000000015DD"]
+			description: ["Is placed on the ground with a rightclick. From there, you can access it's inventory where you can apply tackle to fishing rods on the right. The box also has storage slots to hold bait and tackle. To pickup the box again simply shift rightclick it."]
+			id: "00000000000015E5"
+			rewards: [{
+				id: "0000000000001656"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "00000000000015E6"
+				item: "aquaculture:tackle_box"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["00000000000015DD"]
+			description: ["I caught a chest..... wonder if it is anything valuable?"]
+			id: "00000000000015EB"
+			rewards: [
+				{
+					id: "2353B80B7BD4239F"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+				{
+					id: "5E68FBA272149ED6"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "00000000000015EC"
+				item: "aquaculture:neptunes_bounty"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["00000000000015E5"]
+			description: ["Can be dyed like leather and can be used to customize your fishing rod."]
+			id: "00000000000015F0"
+			rewards: [{
+				id: "7FA632633CF0E126"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000015F1"
+				item: "aquaculture:bobber"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00000000000015E5"]
+			description: ["Can be dyed like leather and can be used to customize your fishing rod."]
+			id: "00000000000015F2"
+			rewards: [{
+				id: "29509B1943C17344"
+				item: {
+					Count: 1b
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "materials_monsters"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000015F3"
+				item: "aquaculture:fishing_line"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00000000000015E5"]
+			id: "00000000000015F4"
+			rewards: [{
+				id: "1285FCBA26C94E3D"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4D5AB05E4D1593DD"
+					item: "aquaculture:iron_hook"
+					type: "item"
+				}
+				{
+					id: "41808C4F4B8D4FA6"
+					item: "aquaculture:gold_hook"
+					type: "item"
+				}
+				{
+					id: "788D493E018BB7BF"
+					item: "aquaculture:diamond_hook"
+					type: "item"
+				}
+				{
+					id: "0EFD68D0519B0FBE"
+					item: "aquaculture:light_hook"
+					type: "item"
+				}
+				{
+					id: "3EC861B0B1EDAA06"
+					item: "aquaculture:heavy_hook"
+					type: "item"
+				}
+				{
+					id: "3D06714560CDC248"
+					item: "aquaculture:double_hook"
+					type: "item"
+				}
+				{
+					id: "0E541A374739A468"
+					item: "aquaculture:redstone_hook"
+					type: "item"
+				}
+				{
+					id: "033FB99AC0834BD3"
+					item: "aquaculture:note_hook"
+					type: "item"
+				}
+				{
+					id: "10E47D28CFAE1550"
+					item: "aquaculture:nether_star_hook"
+					type: "item"
+				}
+			]
+			title: "All the hooks!"
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["00000000000015DD"]
+			description: ["When you are the best fisherman around."]
+			id: "00000000000015DF"
+			rewards: [{
+				id: "336047F18F270D0B"
+				item: "aquaculture:lockbox"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000015E0"
+				item: {
+					Count: 1b
+					id: "aquaculture:gold_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["00000000000015DF"]
+			description: ["When you just want to blind the fish."]
+			id: "00000000000015E1"
+			rewards: [
+				{
+					id: "0000000000001648"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 10
+					id: "0000000000001649"
+					item: {
+						Count: 1b
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D3544F42B9548EA"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000015E2"
+				item: {
+					Count: 1b
+					id: "aquaculture:diamond_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["00000000000015E1"]
+			description: ["The best fishing rod around. Neptune's personal rod. Increases bite rate of fish."]
+			id: "00000000000015E3"
+			rewards: [
+				{
+					id: "0000000000001645"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6A80FEA9F5625E8C"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "017443979F5F4A08"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000015E4"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3A7C49FC5AA2927F"]
+			id: "55C87018D524A77E"
+			tasks: [{
+				id: "42FEB8220A1D720B"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["55C87018D524A77E"]
+			description: [
+				"- &bSpring Water&r is a rare resource that only generates in the highest mountaintops"
+				""
+				"- It has &cnatural healing&r properties but it cannot be made into an infinite source"
+				""
+				"- When a &4magma block&r is placed below it, it will attempt to boil upward through the ceiling, if there are natural blocks in its way it will burrow through until it breaks through to the surface above"
+			]
+			id: "5AA5BFD3FCB010B0"
+			tasks: [{
+				id: "0D1E2459F7BD15DF"
+				item: "spelunkery:spring_water_bucket"
+				type: "item"
+			}]
+			title: "Spring Water"
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0000000000000017"]
+			description: ["&2Wind Chimes&r produce &oambient&r chiming sounds when hung from supporting blocks and can be interacted with. In addition, &2Wind Chimes&r animate in the wind and repel &7Phantoms&r from approaching players near a chiming Wind Chime!"]
+			id: "120E3243A96AA459"
+			subtitle: "Bring the sound of Chimes into your Minecraft world!"
+			tasks: [{
+				id: "45B7F7E96D0AA230"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "chimes:bamboo_chimes"
+							}
+							{
+								Count: 1b
+								id: "chimes:carved_bamboo_chimes"
+							}
+							{
+								Count: 1b
+								id: "chimes:iron_chimes"
+							}
+							{
+								Count: 1b
+								id: "chimes:copper_chimes"
+							}
+							{
+								Count: 1b
+								id: "chimes:amethyst_chimes"
+							}
+						]
+					}
+				}
+				title: "Chimes Variants"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["733A59C038C65E4B"]
+			id: "5BD0024E8E16BB8E"
+			tasks: [{
+				id: "53B7D2BEB1474AA7"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:obsidian"
+					}
+				}
+				title: "Any #forge:obsidian"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5BD0024E8E16BB8E"]
+			description: [
+				"&8Titanite&r is used near the &4Bonfires&r to &3Reinforce&r tools and weapons. Each Reinforcement adds &c+0.5 attack damage&r."
+				""
+				"- &8Titanite Shard&r - can be used until +3 Reinforcement."
+				""
+				"- &8Large Titanite Shard&r - used from +3 to +6 Reinforcements."
+				""
+				"- &8Titanite Chunk&r - used from +6 to +9 Reinforcements."
+				""
+				"- &8Titanite Slab&r - used from +9 to +10 Reinforcements."
+			]
+			id: "4058A62B9B24E64F"
+			tasks: [
+				{
+					id: "1937A8A87FCA8E6A"
+					item: "bonfires:titanite_shard"
+					type: "item"
+				}
+				{
+					id: "65631EDFF71F69CD"
+					item: "bonfires:large_titanite_shard"
+					type: "item"
+				}
+				{
+					id: "35CAF093794E288C"
+					item: "bonfires:titanite_chunk"
+					type: "item"
+				}
+				{
+					id: "195B98CB5872AB9C"
+					item: "bonfires:titanite_slab"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["149CB61732F787CF"]
+			description: [
+				"Book Wyrms adds Book Wyrms to your forests, &2lizards&r that come in a variety of colors. You can herd them for their meat and colorful scales, using plain books to breed them. Most importantly, you can feed them &ounwanted enchanted books&r to &drecycle&r them into new random enchanted books."
+				""
+				"Wyrms come in 7 colors, each with a different pool of enchantments they can provide:"
+				""
+				"- &8Gray&r, most common, can produce any enchantment"
+				"- &4Red&r, can produce enchantments for melee weapons like Swords"
+				"- &6Orange&r, can produce enchantments for ranged weapons, like Bows or Crossbows"
+				"- &aGreen&r, can produce enchantments for tools, like Pickaxes or Shovels"
+				"- &1Blue&r, can produce enchantments for armor or Shields"
+				"- &3Teal&r, can produce enchantments for Fishing Rods and Tridents"
+				"- &5Purple&r, can produce enchantments for some misc modded items"
+				""
+				"Additionally, Wyrms have genes that can be improved (or worsened) and passed on to future generations. Use the &dBook Wyrm Analyzer&r to see these stats and breed them strategically to obtain your perfects specimens. The following stats can be meddled with:"
+				""
+				"- &9Enchanting level&r, determines how many levels the Wyrm needs to digest before making a new book (stronger enchantments are worth more levels) and how strong are the enchantments it can produce"
+				""
+				"- &2Digesting speed&r, determines how fast does the Wyrm digests books"
+				""
+				"- &eIndigestion chance&r, determines how likely the Wyrm is to have an indigestion and regurgitate some shredded paper and (magical) digestive fluids"
+				""
+				"While the bonuses produced by indigestion may feel bad, they can be refed to recover part of the magic of the digested books, or made into Wyrmutagen. This substance will let you modify the stats of your Wyrm's offsprings to a much better degree, if you can make enough of it."
+			]
+			id: "35EA73868124C4C6"
+			tasks: [{
+				id: "6589A07A987BBAA6"
+				item: "bookwyrms:analyzer"
+				type: "item"
+			}]
+			title: "Book Wyrms"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["43EFBBF0712C67B9"]
+			description: [
+				"&5Chipped&r adds a variety of blocks with different, unique textures, allowing to add more variety to your builds."
+				""
+				"To begin creating it - craft one of the thematical workstations."
+			]
+			id: "5807B58B6D07D0AD"
+			size: 1.0d
+			tasks: [{
+				id: "2E2945006EB8F434"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "chipped:botanist_workbench"
+							}
+							{
+								Count: 1b
+								id: "chipped:glassblower"
+							}
+							{
+								Count: 1b
+								id: "chipped:carpenters_table"
+							}
+							{
+								Count: 1b
+								id: "chipped:loom_table"
+							}
+							{
+								Count: 1b
+								id: "chipped:mason_table"
+							}
+							{
+								Count: 1b
+								id: "chipped:alchemy_bench"
+							}
+							{
+								Count: 1b
+								id: "chipped:tinkering_table"
+							}
+						]
+					}
+				}
+				title: "Available Workstations"
+				type: "item"
+			}]
+			title: "Extended block variety"
+			x: -0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["5807B58B6D07D0AD"]
+			description: ["Framed Blocks will allow you to create various shaped blocks that you can use to decorate your base with complex shapes. The texture of the frame blocks can then be changed by right clicking them with a block of your choosing, which is held until the block is broken."]
+			id: "289133175EA692FE"
+			rewards: [{
+				id: "290BDC3817CC2ABA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "30B831BE27F8291F"
+				item: "framedblocks:framed_cube"
+				type: "item"
+			}]
+			title: "Framed Blocks"
+			x: -0.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["5466EEF8BC1D892F"]
+			id: "557A1A0C8ACA0F84"
+			rewards: [
+				{
+					id: "4A888414B760B06D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "77906AC2F1CBFFC6"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7ACC26C03249F929"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "200F6AAEBE659A14"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "buildersaddition:bench_oak"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:bench_birch"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:bench_spruce"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:bench_dark_oak"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:bench_jungle"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:bench_acacia"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:bench_cherry"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:stool_dark_oak"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:bench_mangrove"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:stool_jungle"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:stool_acacia"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:chair_birch"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:chair_dark_oak"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:stool_mangrove"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:chair_jungle"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:stool_cherry"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:stool_oak"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:chair_acacia"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:chair_mangrove"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:stool_spruce"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:stool_birch"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:chair_cherry"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:chair_oak"
+							}
+						]
+					}
+				}
+				title: "Available Variants"
+				type: "item"
+			}]
+			title: "Something to sit on"
+			x: -2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["43EFBBF0712C67B9"]
+			id: "007AF41A705DEAD4"
+			rewards: [
+				{
+					count: 2
+					id: "4A9F981C4113641E"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "545BA43BE7DE2A02"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			subtitle: "To show all your trophies"
+			tasks: [{
+				id: "2871183500DF05A9"
+				item: "supplementaries:pedestal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5807B58B6D07D0AD"]
+			description: ["Also functional as you can store items inside!"]
+			id: "00000000000000BC"
+			rewards: [{
+				id: "000000000000013E"
+				item: "minecraft:armor_stand"
+				type: "item"
+			}]
+			subtitle: "Some slightly more decorative storage."
+			tasks: [
+				{
+					id: "2F8814D48037A431"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "buildersaddition:cabinet_oak"
+								}
+								{
+									Count: 1b
+									id: "buildersaddition:cabinet_birch"
+								}
+								{
+									Count: 1b
+									id: "buildersaddition:cabinet_spruce"
+								}
+								{
+									Count: 1b
+									id: "buildersaddition:cabinet_dark_oak"
+								}
+								{
+									Count: 1b
+									id: "buildersaddition:cabinet_jungle"
+								}
+								{
+									Count: 1b
+									id: "buildersaddition:cabinet_acacia"
+								}
+								{
+									Count: 1b
+									id: "buildersaddition:cabinet_mangrove"
+								}
+								{
+									Count: 1b
+									id: "buildersaddition:cabinet_cherry"
+								}
+							]
+						}
+					}
+					title: "Cabinets Variants"
+					type: "item"
+				}
+				{
+					id: "60B7A48AF2E7C1E4"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "buildersaddition:counter_birch_andesite"
+								}
+								{
+									Count: 1b
+									id: "buildersaddition:counter_oak_andesite"
+								}
+								{
+									Count: 1b
+									id: "buildersaddition:counter_spruce_andesite"
+								}
+								{
+									Count: 1b
+									id: "buildersaddition:counter_acacia_andesite"
+								}
+								{
+									Count: 1b
+									id: "buildersaddition:counter_dark_oak_andesite"
+								}
+								{
+									Count: 1b
+									id: "buildersaddition:counter_jungle_andesite"
+								}
+								{
+									Count: 1b
+									id: "buildersaddition:counter_cherry_andesite"
+								}
+							]
+						}
+					}
+					title: "Counters Variants"
+					type: "item"
+				}
+				{
+					id: "26A89E82A18E8890"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "buildersaddition:cupboard_oak"
+								}
+								{
+									Count: 1b
+									id: "buildersaddition:cupboard_birch"
+								}
+								{
+									Count: 1b
+									id: "buildersaddition:cupboard_spruce"
+								}
+								{
+									Count: 1b
+									id: "buildersaddition:cupboard_dark_oak"
+								}
+								{
+									Count: 1b
+									id: "buildersaddition:cupboard_jungle"
+								}
+								{
+									Count: 1b
+									id: "buildersaddition:cupboard_acacia"
+								}
+								{
+									Count: 1b
+									id: "buildersaddition:cupboard_mangrove"
+								}
+								{
+									Count: 1b
+									id: "buildersaddition:cupboard_cherry"
+								}
+							]
+						}
+					}
+					title: "Cupboard Variants"
+					type: "item"
+				}
+				{
+					id: "2C17DE56F08DF9E1"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "buildersaddition:small_cupboard_cherry"
+								}
+								{
+									Count: 1b
+									id: "buildersaddition:small_cupboard_oak"
+								}
+								{
+									Count: 1b
+									id: "buildersaddition:small_cupboard_birch"
+								}
+								{
+									Count: 1b
+									id: "buildersaddition:small_cupboard_spruce"
+								}
+								{
+									Count: 1b
+									id: "buildersaddition:small_cupboard_dark_oak"
+								}
+								{
+									Count: 1b
+									id: "buildersaddition:small_cupboard_jungle"
+								}
+								{
+									Count: 1b
+									id: "buildersaddition:small_cupboard_acacia"
+								}
+								{
+									Count: 1b
+									id: "buildersaddition:small_cupboard_mangrove"
+								}
+							]
+						}
+					}
+					title: "Small Cupboard Variants"
+					type: "item"
+				}
+			]
+			title: "Cupboards, Cabinets and Counters"
+			x: 0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["00000000000000BC"]
+			description: ["Some nice decorative bookshelves that can hold the manuals from mods or self written books."]
+			id: "00000000000000BE"
+			rewards: [{
+				count: 16
+				id: "0000000000000123"
+				item: "minecraft:cyan_dye"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A43DEE690A69FAD"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "buildersaddition:bookshelf_oak"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:bookshelf_birch"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:bookshelf_spruce"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:bookshelf_dark_oak"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:bookshelf_jungle"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:bookshelf_acacia"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:bookshelf_mangrove"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:bookshelf_cherry"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:shelf_birch"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:shelf_spruce"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:shelf_dark_oak"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:shelf_jungle"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:shelf_acacia"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:shelf_cherry"
+							}
+						]
+					}
+				}
+				title: "Bookshelves Variants"
+				type: "item"
+			}]
+			title: "Bookshelves"
+			x: 1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["00000000000000BE"]
+			description: ["Collect all those books! Some of these manuals can be combined in the Eccentric Tome for safe keeping."]
+			icon: {
+				Count: 1b
+				id: "eccentrictome:tome"
+				tag: {
+					"eccentrictome:mods": { }
+				}
+			}
+			id: "0000000000000723"
+			tasks: [
+				{
+					id: "0000000000000729"
+					item: "ftbquests:book"
+					type: "item"
+				}
+				{
+					id: "15D9B059AA37FF21"
+					item: {
+						Count: 1b
+						id: "eccentrictome:tome"
+						tag: {
+							"eccentrictome:mods": { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A95A92EF6610B75"
+					item: "aether:book_of_lore"
+					type: "item"
+				}
+			]
+			title: "The Librarian"
+			x: 1.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["5807B58B6D07D0AD"]
+			description: [
+				"A Trowel tool can be crafted with Iron and Sticks. The Trowel, when right clicked, will place a random block from your hotbar, making it useful for ruins or paths."
+				""
+				"A Trowel will break after placing 256 blocks, or four stacks."
+			]
+			id: "0000000000000063"
+			rewards: [
+				{
+					id: "0E84BA708EA1528E"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					id: "425A86AFBEE6853B"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					id: "4CED59A43E0EFAFC"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "1841BB98D96DBB16"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					id: "72C71CD14970E896"
+					item: "minecraft:mossy_cobblestone"
+					type: "item"
+				}
+				{
+					id: "00969CBA88A0F7FF"
+					item: "minecraft:stone_bricks"
+					type: "item"
+				}
+				{
+					id: "21728F6F8B07D288"
+					item: "minecraft:cracked_stone_bricks"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "0000000000000064"
+				item: {
+					Count: 1b
+					id: "quark:trowel"
+					tag: {
+						Damage: 0
+						last_stack: {
+							Count: 1
+							id: "minecraft:polished_andesite"
+						}
+						placing_seed: -1712070416600608528L
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["5807B58B6D07D0AD"]
+			id: "5466EEF8BC1D892F"
+			tasks: [{
+				id: "00A7116AB30E5964"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "buildersaddition:table_oak"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:bedside_table_oak"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:bedside_table_birch"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:bedside_table_acacia"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:bedside_table_dark_oak"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:bedside_table_jungle"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:bedside_table_mangrove"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:bedside_table_cherry"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:table_spruce"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:table_birch"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:table_dark_oak"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:table_jungle"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:table_acacia"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:table_mangrove"
+							}
+							{
+								Count: 1b
+								id: "buildersaddition:table_cherry"
+							}
+						]
+					}
+				}
+				title: "Available Variants"
+				type: "item"
+			}]
+			title: "Tables"
+			x: -1.5d
+			y: -9.5d
+		}
+	]
+	title: "&2World Exploration&r"
+}

@@ -11,11 +11,7 @@
 	id: "2A79FAE23F150F49"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.5430579964850613d
-			hover: [ ]
 			image: "rad3:textures/misc/rad.png"
 			rotation: 0.0d
 			width: 18.0d
@@ -23,11 +19,7 @@
 			y: -10.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 20.224137931034484d
-			hover: [ ]
 			image: "rad3:textures/misc/quest-info.png"
 			rotation: 0.0d
 			width: 18.0d
@@ -36,7 +28,47 @@
 		}
 	]
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [
+		{
+			icon: "kubejs:skull"
+			id: "4943E70330B985E2"
+			linked_quest: "085E485E8091D543"
+			size: 1.5d
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "44D8AD3BBE521524"
+			linked_quest: "544FFD8F98E83BED"
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			id: "5DBB6947C697CE0B"
+			linked_quest: "14A5A832247630AC"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "1058B756BA75B8ED"
+			linked_quest: "121E70CAE78BC36D"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "player_companions:samurai_default"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "366C937FAB3AA5B2"
+			linked_quest: "02466D62F5A6CA5F"
+			x: 6.5d
+			y: 3.0d
+		}
+	]
 	quests: [
 		{
 			description: [
@@ -61,11 +93,11 @@
 			shape: "circle"
 			size: 2.0d
 			tasks: [{
-				id: "6FCE6B669DDF6914"
-				title: "New mechanics and features"
-				type: "checkmark"
+				dimension: "minecraft:overworld"
+				id: "671AFBD1F93D2FE9"
+				type: "dimension"
 			}]
-			title: "New mechanics overview"
+			title: "Check all the new mechanics in Questbook"
 			x: 0.0d
 			y: -6.0d
 		}
@@ -104,45 +136,19 @@
 				type: "checkmark"
 			}]
 			x: 3.5d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			description: [
-				"Blood Moon:"
-				"Blood Moons are a lunar event that cranks up the monster spawn cap as well as preventing the player from sleeping! The mechanics of the blood moon are inspired by the spawn rate increase that occurs in Terraria's Blood Moon."
+				"• &bAether&r "
 				""
-				"Harvest Moon:"
-				"The harvest moon is a lunar which cranks up both the crop growth rate and crop drop rate!"
+				"• &8Dimensional Dungeons&r - limitless procedurally generated dungeons dimension."
 				""
-				"Blue Moon:"
-				"The blue moon is a lunar event that gives you the luck effect and increases the quality of loot in vanilla loot tables!"
-			]
-			icon: "ars_nouveau:ritual_moonfall"
-			id: "1D7B582F298ADFDF"
-			invisible: true
-			tasks: [{
-				id: "2166672F8EECC3D0"
-				title: "New Lunar events"
-				type: "checkmark"
-			}]
-			x: 3.5d
-			y: 2.5d
-		}
-		{
-			description: [
-				"• Atum 2 - a new and unique desert dimension full of sand, temples, as well as many new enemies! Traveling through the dimension you can discover new artifacts, making your way to them through mountains of sand and enemies."
+				"• &6The Bumblezone&r - an unBEElievable dimension full of bees that become REALLY angry if you take their honey!"
 				""
-				"• Blue skies: Everbright and Everdawn - two new dimensions, one lighter and colder, and the other darker and warmer. In each of them you will find new blocks, mobs, tools, weapons and bosses."
+				"• &aTwilight forest&r - a realm basked in mystery and eerie twilight."
 				""
-				"• Dimensional Dungeons - limitless procedurally generated dungeons dimension."
-				""
-				"• The Bumblezone - an unBEElievable dimension full of bees that become REALLY angry if you take their honey!"
-				""
-				"• Tropicraft - dimension adding tropical world"
-				""
-				"• Twilight forest - a realm basked in mystery and eerie twilight."
-				""
-				"• Undergarden - a dark, subterranean world located deep below the bedrock of the Overworld. The flora here has adapted to their conditions and can grow anywhere, independent of light. Strange creatures call these dark lands home, and are plagued by the invasive Rotspawn, monsters originating from a chaotic, mysterious realm."
+				"• &2Undergarden&r - a dark, subterranean world located deep below the bedrock of the Overworld. The flora here has adapted to their conditions and can grow anywhere, independent of light. Strange creatures call these dark lands home, and are plagued by the invasive Rotspawn, monsters originating from a chaotic, mysterious realm."
 			]
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			id: "6EAF4C02AC262FC0"
@@ -168,7 +174,7 @@
 				type: "checkmark"
 			}]
 			x: 1.25d
-			y: -1.25d
+			y: -1.5d
 		}
 		{
 			description: [
@@ -205,163 +211,8 @@
 				type: "checkmark"
 			}]
 			title: "New and overhauled structures!"
-			x: 1.25d
-			y: 0.25d
-		}
-		{
-			description: [
-				"Each animal and human being can now bleed. This is an effect that deals damage similar to poison and can be removed using a new item: Bandages. The chance of bleeding is lower the more pieces of armor you have."
-				""
-				"Bleeding is caused by many different sources such as receiving sword damage, being bitten by a spider, or by touching a cactus..."
-				""
-				"It is important to keep bandages with you at all times because bleeding becomes more deadly as the game progresses!"
-				"{image:majruszsdifficulty:textures/mob_effect/bleeding.png width:30 height:30 align:1}"
-			]
-			icon: {
-				Count: 1b
-				id: "kubejs:bleed"
-				tag: { }
-			}
-			id: "04CC7C1C1BFE864D"
-			rewards: [{
-				id: "7B08A97B81394C0F"
-				item: "majruszsdifficulty:bandage"
-				type: "item"
-			}]
-			tasks: [{
-				id: "344ADACFCEB0D8A7"
-				title: "Bleeding"
-				type: "checkmark"
-			}]
-			x: -6.5d
-			y: 1.5d
-		}
-		{
-			description: [
-				"Each Wither killed and Ender Dragon (re)spawned will count towards a point of Difficulty, making them harder the next time they're spawned.Each point of difficulty increases the Bosses stats and unlocks abilities."
-				""
-				"Wither "
-				"Wither Health increases by 10 for each point of difficulty."
-				"Regenerates 0.05 HP per second for each point of difficulty (up to 1 HP per second). This is summed to the base regeneration of 1 HP per second the Wither already has."
-				"After the first Wither Spawned the second Wither will spawn Wither Minions (Wither Skeletons)."
-				"Has 2% chance per point of difficulty (up to 50%) to drop a Nether Star Shard."
-				""
-				"Ender Dragon"
-				"The Ender Dragon deals 10% more damage per point of difficulty for both attacking and the Acid Pool."
-				"Has 10 more HP per point of Difficulty"
-				"Can spit an acid fireball more frequently, given by the Difficulty and the remaining Ender Crystals."
-				"As the difficulty goes up, more cages will spawn around Crystals on the towers."
-				"After the first Dragon Killed the second one will spawn Larvae (Endermites) at the center of the island."
-				"From the third Dragon she will start spawning Minions (Purple Shulkers) around the island."
-				""
-			]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "kubejs:skull2"
-			}
-			id: "68203BBBB58B26EA"
-			invisible: true
-			rewards: [{
-				id: "3678E73DDD73B55C"
-				item: {
-					Count: 1b
-					id: "minecraft:potion"
-					tag: {
-						Potion: "minecraft:long_strength"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				icon: "productivebees:upgrade_productivity"
-				id: "6C079A785E1D9855"
-				title: "Progressive Bosses"
-				type: "checkmark"
-			}]
-			x: -1.5d
-			y: 2.0d
-		}
-		{
-			description: [
-				"The game progress is divided into three parts: Normal Mode, Expert Mode, and Master Mode. These are not per-player, and affect the whole world."
-				""
-				"- Normal Mode starts at the beginning of the game."
-				""
-				"- Expert Mode starts when anyone kills the Wither. (or enters the End)"
-				""
-				"- Master Mode starts when the Ender Dragon is defeated by someone."
-			]
-			icon: "kubejs:scaling"
-			id: "577182F7C0C5B85B"
-			rewards: [{
-				id: "203EF8DF6395F7A6"
-				item: {
-					Count: 1b
-					id: "minecraft:potion"
-					tag: {
-						Potion: "minecraft:healing"
-					}
-				}
-				type: "item"
-			}]
-			size: 1.0d
-			tasks: [{
-				id: "654635E50ADA3AD9"
-				title: "Progressive Difficulty"
-				type: "checkmark"
-			}]
-			x: -3.0d
+			x: 3.25d
 			y: -1.5d
-		}
-		{
-			dependencies: ["577182F7C0C5B85B"]
-			description: [
-				"- Groups of enemies"
-				"Enemies appear in groups with one leader and followers who attack the same target as the leader. Followers are more likely to have weapons and leaders to have armors."
-				""
-				"- Undead Army (new Raid)"
-				"The new raid starts after killing a certain amount of undead enemies. It has 3-5 waves, scales difficulty over time, and rewards the player with a treasure bag after finishing it. Also scales difficulty with each player participating in!"
-				""
-				"- fall damage can causes Slowness and Nausea"
-				""
-				"- drowning damage can causes Nausea and Weakness"
-				""
-				"- Creepers may spawn with a negative effect"
-				""
-				"- animals (like Wolves), Zombies, and Spiders can bite you causing Bleeding"
-				""
-				"- arrows and direct damage from sharp items (tools, weapons, shears) also can cause Bleeding"
-				""
-				"- touching a cactus also may cause Bleeding"
-			]
-			icon: "minecraft:skeleton_skull"
-			id: "6E509EA1B20B6476"
-			rewards: [{
-				id: "33105A1C2A38899F"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "healingflasks:healing_flask"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Some of the new difficulty mechanics:"
-			tasks: [{
-				id: "413AD55DBDF6F7A1"
-				title: "New difficulty mechanics"
-				type: "checkmark"
-			}]
-			title: "Normal mode changes"
-			x: -3.0d
-			y: 0.0d
 		}
 		{
 			description: [
@@ -377,11 +228,7 @@
 				""
 				"While travelling you may also find villages transformed into towns!"
 			]
-			icon: {
-				Count: 1b
-				id: "villagertools:restock"
-				tag: { }
-			}
+			icon: "artifacts:villager_hat"
 			id: "2574DDCEFF8FE519"
 			rewards: [{
 				id: "1A3E8B8ABF4D5B26"
@@ -403,8 +250,8 @@
 				type: "checkmark"
 			}]
 			title: "Overhauled Villages and Villagers"
-			x: 2.5d
-			y: 0.5d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -443,126 +290,7 @@
 				type: "checkmark"
 			}]
 			x: 5.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["6E509EA1B20B6476"]
-			description: [
-				"- loot has a 25% chance to be doubled"
-				""
-				"- experience from all sources is increased by 20%"
-				""
-				"- all monsters have their health and damage increased by 20%(at night the bonus is doubled to 40%)"
-				""
-				"- Illusioner spawn naturally during the night"
-				""
-				"- new Elite Skeleton spawn naturally during the night(shoots arrows extremely precisely)"
-				""
-				"- Piglins may spawn in a group"
-				""
-				"- Pillagers may spawn in a group"
-				""
-				"- Creepers on explosion may spawn more Creeperlings"
-				""
-				"- Slimes have a chance to inflict Slowness effect"
-				""
-				"- Wither Skeletons may spawn with the Wither Sword instead of the Stone Sword"
-				""
-				"- Undead Army now has 4 waves"
-				""
-				"- undead spawned during the Undead Army are twice as likely to have enchanted items"
-				""
-				"- undead spawned during the Undead Army are twice as likely to have armor pieces"
-				""
-				"- Undead Army gives 100% more experience for completing it"
-				""
-				"- whenever you die from Bleeding or are killed by a Zombie there spawns a special Zombie with your head"
-			]
-			icon: "ars_nouveau:glyph_wither"
-			id: "78655B49D92DA1AB"
-			rewards: [{
-				id: "382323F735456BD6"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "roughtweaks:medkit"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "- Expert Mode starts when the first player kills the Wither"
-			tasks: [{
-				entity: "minecraft:wither"
-				id: "4F575278249F1D60"
-				type: "kill"
-				value: 1L
-			}]
-			x: -3.0d
 			y: 1.0d
-		}
-		{
-			dependencies: ["78655B49D92DA1AB"]
-			description: [
-				"- loot has a 75% chance to be doubled"
-				""
-				"- experience from all sources is increased by 50%"
-				""
-				"- all monsters have their health and damage increased by 40% (instead of 20% chance)(at night the bonus is doubled to 80%)"
-				""
-				"- Phantom and new End Keeper spawn naturally near new structures"
-				""
-				"- Elite Skeleton may spawn in a group"
-				""
-				"- Enderman may teleport target on hit"
-				""
-				"- Shulker may inflict Blindness effect"
-				""
-				"- Creepers on explosion may spawn more Creeperlings"
-				""
-				"- Undead Army now has 5 waves"
-				""
-				"- undead spawned during the Undead Army are quadruple as likely to have enchanted items"
-				""
-				"- undead spawned during the Undead Army are thrice as likely to have armor pieces"
-				""
-				"- Undead Army now rewards with 2 Treasure Bags (instead of 1)"
-				""
-				"- Undead Army gives 200% more experience for completing it (instead of 100%)"
-				""
-			]
-			icon: "minecraft:end_crystal"
-			id: "13FD3ACE5C674BD1"
-			rewards: [{
-				id: "106880E710C077BF"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "roughtweaks:medkit_enchanted"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "- Master Mode starts when you defeat the Ender Dragon."
-			tasks: [{
-				entity: "minecraft:ender_dragon"
-				id: "6D379DD2E28FDD77"
-				type: "kill"
-				value: 1L
-			}]
-			x: -3.0d
-			y: 2.0d
 		}
 		{
 			description: [
@@ -599,67 +327,25 @@
 				type: "advancement"
 			}]
 			x: 6.5d
-			y: 0.5d
+			y: 6.5d
 		}
 		{
-			description: ["The core of the mod is its mechanics, which add new ways to attack and defend. These are intended to supplement the vanilla combat system, and make new playstyles viable. If you aren't sure how to get started, a patchouli guidebook is available, crafted with a book and gold sword."]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "cnb:cinder_sword"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "375994C478ED20DF"
-			rewards: [{
-				id: "730676DC6373DBB9"
-				item: {
-					Count: 1b
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "parrying:book"
-					}
-				}
-				type: "item"
-			}]
-			size: 1.0d
-			tasks: [{
-				id: "143C73DD83BE9F6C"
-				type: "checkmark"
-			}]
-			title: "Combat Mechanics"
-			x: -6.5d
-			y: 3.0d
-		}
-		{
-			description: ["Parrying is a relatively simple mechanic. When you are hit with a melee attack, if you are swinging a weapon the attack will be deflected. A \"weapon\" in this case is any item with an attack damage value, eg a sword or pickaxe. To parry, you must be aiming at the attacker. Parrying is easier the higher the attack recharge meter is. A successful parry reduces the defense meter."]
-			icon: "kubejs:parry"
-			id: "0C2E1DD15D80D4F7"
-			tasks: [{
-				id: "4F3C6115E95635BD"
-				title: "Parrying"
-				type: "checkmark"
-			}]
-			x: -5.5d
-			y: 1.5d
-		}
-		{
-			description: ["Dual Wielding allows you to use a weapon from your offhand. Parry This! uses a unique implementation of dual wield. Instead of using right click to trigger an offhand attack, you will alternate between your main and off hands by attacking normally. Dual wielding grants a small boost in attack speed, as well as a penalty for using weapons with differing speeds. Some weapons are marked as \"two handed\", and cannot be used for dual wielding."]
-			icon: "kubejs:dualwield"
-			id: "4E816C3883966AE9"
-			tasks: [{
-				id: "71F82111DCCF8E2E"
-				title: "Dual Wielding"
-				type: "checkmark"
-			}]
-			x: -5.5d
-			y: 0.5d
-		}
-		{
-			description: ["Shield bash is a special attack that can be performed using a shield. While blocking, pressing the attack button (default left click) will cause the shield to bash against anything in front of you. A bash can hit a maximum of 3 targets at once, though the \"bashing\" enchant can allow you to hit more. Bashing a target will do one of two things; Against players, bashing will briefly remove their ability to parry attacks. Against mobs, it will cause the them to briefly take 150% damage. Upon bashing, your shield will be placed on a cooldown. This cooldown increases with each target hit, and is drastically reduced if you miss your shield bash."]
+			description: [
+				"Shields have now two stats:"
+				""
+				"- &9Damage reduction on block&r: Blocking reduces damage by the given percent."
+				"- &9Damage reduction on holding&r: Holding the shield in the offhand now grants percentage damage reduction, even when not using it to block. "
+				""
+				"Different shields will have varying amounts of block and passive protection."
+				""
+				"Also there are 5 new enchantments for shields:"
+				""
+				"&9Blocking&r: Increase Block damage reduction by 10%"
+				"&9Last Resort&r: Chance to gain absorbtion hearts upon blocking on low life"
+				"&9Blindness&r: Chance to blind attackers on block"
+				"&9Knockback&r: Chance to knock attackers back on block"
+				"&9Slowness&r: Chance to slow attackers on block"
+			]
 			icon: "kubejs:shield"
 			id: "3E19A4FC23E03CEA"
 			tasks: [{
@@ -667,104 +353,23 @@
 				title: "Shield Bash"
 				type: "checkmark"
 			}]
-			x: -5.5d
-			y: -0.5d
-		}
-		{
-			description: ["Backstab is a powerful special attack that can be performed by attacking a target from behind. It's hard to hit, but if you get your aim right, you can deal 300% damage to your target. Combined with vanilla stealth mechanics, such as sneaking and invisibility, a rouge or ninja playstyle becomes practical. In pvp, backstabs are practically impossible if your enemy knows you are coming, so use stealth to your advantage. Backstab works with both melee and ranged attacks, making sniping possible as well. Backstab only affects targets with 20 max health or less by default."]
-			icon: "kubejs:backstab"
-			id: "5005C51CA1B68CC3"
-			tasks: [{
-				id: "77A86EE482E71220"
-				title: "Backstab"
-				type: "checkmark"
-			}]
-			x: -5.5d
+			title: "Shield Mechanics"
+			x: -5.0d
 			y: -1.5d
-		}
-		{
-			description: ["Dodge is a movement ability, similar to sprinting. By holding alt (configurable) and tapping A, S, or D (or whatever keys your movement is bound to) you can leap left, backwards, or right, respectively. This ability has a short, invisible cooldown. Knockback resistance has an adverse effect on dodging, reducing its power. Thus, wearing Netherite armor will make dodging somewhat less effective. Additionally, you must be touching the ground to dodge, so it may not always be effective in pvp due to the large amount of jumping. The distance you dodge can be improved through the jump boost effect. Each level of jump boost adds roughly one block of dodge distance."]
-			icon: "kubejs:dodge"
-			id: "14F6CBFA581F6A50"
-			tasks: [{
-				id: "5E2C34784B3F897E"
-				title: "Dodge"
-				type: "checkmark"
-			}]
-			x: -6.5d
-			y: -1.5d
-		}
-		{
-			description: ["Certain weapons have a new attribute called \"armor penetration\". This attribute specifies a percentage of the weapon's damage that ignores armor. So if your weapon has 35% armor penetration, 35% of the weapon's damage will ignore armor. All bludgeoning weapons possess armor penetration to varying degrees."]
-			icon: "kubejs:armorpen"
-			id: "7BD97790AFE589EC"
-			tasks: [
-				{
-					id: "11384B9FB9DFF313"
-					title: "Armor Penetration"
-					type: "checkmark"
-				}
-				{
-					id: "5D5010EE4B684C21"
-					item: {
-						Count: 1b
-						id: "parrying:wooden_hammer"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: -6.5d
-			y: -0.5d
-		}
-		{
-			description: [
-				"The defense meter is the little shield under your crosshair that appears whenever you block or parry. Whenever you parry a blow or block one with a shield, your defense meter is reduced. If it hits zero, you are briefly stunned, and any shield you were using is disabled briefly. It recharges fairly quickly, but higher damage blows will reduce the meter more, so be careful when up against high damage enemies such as vindicators or players with a hammer."
-				"{image:kubejs:textures/item/defence.png width:50 height:50 align:1}"
-			]
-			icon: "kubejs:defence"
-			id: "5F578BB3FEEB067B"
-			tasks: [{
-				id: "7C632776FBD87E6D"
-				title: "Defense Meter"
-				type: "checkmark"
-			}]
-			x: -6.5d
-			y: 0.5d
-		}
-		{
-			description: [
-				"• Hovering over an item and pressing the \"R\" key (for Recipe) will display that item\\s recipe."
-				"• Pressing the \"U\" key (for Use) shows what that item can be used to create through crafting grids."
-				"• To search by mod name use the \"@\" key before search in search box. (e.g. @Quark)"
-				"• To select the search box without clicking on it, the player can press Ctrl + F."
-				"• To bookmark a recipe (for easier crafting later, will also save in a menu on the left side of the inventory screen): Hover over the item + A."
-			]
-			icon: "ars_nouveau:glyph_craft"
-			id: "07A082A159E7B8C7"
-			tasks: [{
-				id: "05523D39D656B96D"
-				title: "JEI (recipe browser)"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: -7.5d
 		}
 		{
 			description: [
 				"Quests come in a number of different types in this pack:"
 				""
-				"- You can have quests for simply traveling to a destination or by traveling a certain number of blocks."
+				"- Some quests are tied to completing an &9advancement&r (you can see them as &oadvancement with reward&r). For example visiting Nether quest is tied to \"We Need to Go Deeper\" advancement."
 				""
-				"- You can have quests for simply traveling to a destination or by traveling a certain number of blocks. This type of quests are often tied to completing an advancement. For example visiting Nether quest is tied to \"We Need to Go Deeper\" advancement."
+				"- You can have quests for simply &9traveling&r to a destination or by traveling a certain number of blocks."
 				""
-				"- A majority of the quests in this pack will be completed by gaining the required item in your inventory. You will automatically get a pop up message in the top corner when this happens."
+				"- A majority of the quests in this pack will be completed by &9gaining the required item&r in your inventory. You will automatically get a pop up message in the top corner when this happens."
 				""
-				"- The final quest type, such as this one, simply requires you to click the checkbox in the Tasks box to complete the quest (as a confirmation of reading :])."
+				"- The final quest type, such as this one, simply requires you to &9click the checkbox&r in the Tasks box to complete the quest (as a confirmation of reading :])."
 				""
-				"- Finally to collect any reward simply click on in it in the above Rewards box, as you can above, to get a torch for some light as you get going."
+				"- Finally &6to collect any reward simply click on in it&r in the above Rewards box, as you can above, to get a torch for some light as you get going."
 			]
 			icon: "ftbquests:book"
 			id: "18CBF0FC77FABE29"
@@ -775,31 +380,8 @@
 				type: "checkmark"
 			}]
 			title: "Quest types and Rewards"
-			x: 5.5d
+			x: 6.5d
 			y: -6.0d
-		}
-		{
-			icon: "majruszsdifficulty:pillager_treasure_bag"
-			id: "0E5022066563E43E"
-			tasks: [{
-				id: "795FB8C6EC8850E8"
-				title: "Difficult Raids"
-				type: "checkmark"
-			}]
-			x: -1.5d
-			y: -1.5d
-		}
-		{
-			icon: "kubejs:armour"
-			id: "58E45F3CBD4827C1"
-			size: 1.0d
-			tasks: [{
-				id: "2AA6D07315357B13"
-				title: "Equipment properties"
-				type: "checkmark"
-			}]
-			x: 5.5d
-			y: 1.5d
 		}
 		{
 			description: [
@@ -830,37 +412,7 @@
 				type: "checkmark"
 			}]
 			x: 3.5d
-			y: 0.5d
-		}
-		{
-			description: [
-				"- Potions now stack"
-				""
-				"- Splash potions throw much further"
-				""
-				"- More efficient brewing"
-				""
-				"- Coated weapons"
-				""
-				"- Milk bottles"
-				""
-				"- New potion-based weapon"
-			]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "enigmaticlegacy:twisted_potion"
-			}
-			id: "4BBCC3FAA2073857"
-			tasks: [{
-				id: "12916109DEFF53FD"
-				title: "Potioneering"
-				type: "checkmark"
-			}]
-			x: 6.5d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -879,84 +431,8 @@
 				title: "Paraglider"
 				type: "checkmark"
 			}]
-			x: 3.5d
-			y: -1.5d
-		}
-		{
-			description: [
-				"Current machine types: Flying, Ground, Sea, Hauler"
-				""
-				"- Flying Machines: These are machines that have the ability to travel through the air."
-				""
-				"- Ground Machines: These are machines that hover 1 to 2 blocks above the ground when powered on and burning fuel."
-				""
-				"- Sea Machines: These are machines that have the ability to travel over water."
-				""
-				"- Hauler Machines: These machines are 1 seater, slow machines that move like ground machines and have a lot of storage slots with their 'Storage Box' system."
-				""
-				"You can find more info about them in corresponding quest chapter"
-			]
-			id: "68CC41B30E5B6875"
-			subtitle: "More advanced method of moving around"
-			tasks: [{
-				id: "4D3ADA131CE7AAB5"
-				title: "ViesCraft Machines"
-				type: "checkmark"
-			}]
-			x: 3.5d
-			y: 1.5d
-		}
-		{
-			description: [
-				"This pack uses the 1.18 features to create brand new terrain in the Nether - with 3D biomes and tons of new terrain types."
-				""
-				"It also brings back the Nether mountains from the original Nether Update trailer. Many players saw these and were upset that they weren't in the game - we've added them for you to enjoy!"
-				""
-				"3D biomes are used extensively as well - you might find a different biome at the base of a mountain than at the top, and you'll find much more biome variation in normal Nether terrain. Biome borders that were previously impossible are now commonplace - any biome can border any other biome!"
-			]
-			icon: "minecraft:netherrack"
-			id: "533001DF566AB5A6"
-			subtitle: "256 blocks tall Nether"
-			tasks: [{
-				id: "383D2BC86F4BD090"
-				title: "Amplified Nether"
-				type: "checkmark"
-			}]
-			x: 2.5d
-			y: 1.5d
-		}
-		{
-			description: [
-				"Gods and Favor systems"
-				""
-				"- Random gifts from the gods"
-				""
-				"- The ability to tame any (yes any) creature!"
-				""
-				"- The ability to scare monsters into becoming passive or even running away"
-				""
-				"- Random effects (or extra damage) when you shoot an arrow"
-				""
-				"- Potion effects when you begin a fight"
-				""
-				"- Various creatures that are summoned by the gods, either to help or hurt you"
-				""
-				"- Trade discounts with villagers"
-				""
-				"- Bonus offspring from breeding"
-				""
-				"- Bonus XP from XP orbs"
-			]
-			icon: "nameless_trinkets:gods_crown"
-			id: "78CB2326068E830C"
-			subtitle: "A powerful, flexible way to add ancient mythology"
-			tasks: [{
-				id: "47430AD74A35DDBA"
-				title: "RPG Gods"
-				type: "checkmark"
-			}]
-			x: 2.5d
-			y: 2.5d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			description: ["Similar to Wandering Traders, goblins are found randomly underground in caves or in the nether and provide exclusive and beneficial trades that allow you to take your adventure to the next level! Goblin Traders adds two new traders, the Golbin Trader which is found in the overworld and the Vein Goblin Trader which is found in The Nether; both with their own unique set of trades. These little goblins have a little attitude and don't like it when you hit them. If you're feeling generous you can feed them their favourite food for a fun animation."]
@@ -968,190 +444,8 @@
 				title: "Goblin traders"
 				type: "checkmark"
 			}]
-			x: 2.5d
-			y: -1.5d
-		}
-		{
-			id: "6D12F4512F2EAAAB"
-			invisible: true
-			subtitle: "To encourage caving"
-			tasks: [{
-				id: "5C7FC431F4F1F6FE"
-				title: "Harder Branch Mining"
-				type: "checkmark"
-			}]
-			x: 5.5d
-			y: 3.5d
-		}
-		{
-			id: "3F5526776AC13993"
-			tasks: [{
-				id: "540B84A006532FBF"
-				title: "Factions"
-				type: "checkmark"
-			}]
-			x: -1.5d
-			y: 0.5d
-		}
-		{
-			description: [
-				"Mobs now have a chance to spawn as Champions, elite mobs with enhanced stats, extra abilities, and extra loot (Enchanted Books and Coins)."
-				""
-				"Champions have affixes that grant them powers, with higher tiers having more affixes."
-				""
-				"There are currently 6 tiers of Champions, locked behind game stages."
-				""
-				"- Tier 1 and 2: Always Spawn"
-				"- Tier 3, 4, 5 and 6: Master Mode"
-				""
-				"For information on what coins which tiers drop, check out the Coin Shop!"
-			]
-			id: "38049609F73B874B"
-			rewards: [{
-				id: "5B1856CC55FD4B38"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "roughtweaks:salve"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Elite Mobs"
-			tasks: [{
-				icon: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "kubejs:skull"
-				}
-				id: "72DE9AD07435F340"
-				title: "Champions"
-				type: "checkmark"
-			}]
-			x: -1.5d
-			y: -0.5d
-		}
-		{
-			description: [
-				"Wall Cling: Jump towards a wall and hold the Wall Jump / Cling keybind (Default: Left Shift)."
-				""
-				"Wall Jump: While wall clinging, keep holding W and let go of the keybind to wall jump"
-				""
-				"You can chain together wall jumps to go as high as you want!"
-			]
-			icon: "ars_nouveau:glyph_leap"
-			id: "0617314E10C6AEF9"
-			invisible: true
-			rewards: [{
-				id: "19A9DBC835F1A160"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "minecraft:potion"
-					tag: {
-						Potion: "minecraft:leaping"
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Even more new movement features!"
-			tasks: [{
-				id: "5E69C9DEC9B3F925"
-				title: "Wall-Jump!"
-				type: "checkmark"
-			}]
-			x: 6.5d
-			y: 1.5d
-		}
-		{
-			description: [
-				"The blue/gray feather icons above your hunger indicate your Dodge Meter."
-				""
-				"Every armor has a weight that affects your maximum dodges. Gray feathers indicate armor weight."
-				""
-				"The Lightweight enchantment can decrease armor weight, granting you feathers back."
-				""
-				"You can dash by holding any direction and pressing the Dodge keybind (Default: Left Alt)."
-			]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "ars_nouveau:glyph_leap"
-			}
-			id: "55DE8B3522A4F8A6"
-			invisible: true
-			rewards: [
-				{
-					id: "012430C1D7AE5D6B"
-					item: {
-						Count: 1b
-						id: "minecraft:potion"
-						tag: {
-							Potion: "elenaidodge2:long_replenishment"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "54785A567EA1C042"
-					type: "custom"
-				}
-			]
-			subtitle: "In-Depth, Well Balanced and Seamlessly Integrated Dodging"
-			tasks: [{
-				id: "36478D84CB178449"
-				title: "Dodge"
-				type: "checkmark"
-			}]
-			x: -5.5d
-			y: 3.0d
-		}
-		{
-			description: [
-				"Waystones allows players to return to them once they've been activated, either through a Warp Scroll, a Warp Stone, or another waystone."
-				""
-				"You can find some in the wild, in towers, and in villages."
-				""
-				"You can also buy one in the shop and put it wherever you want."
-			]
-			id: "6AA5B436C67A93FF"
-			rewards: [{
-				id: "0BE7676AB6C019ED"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "6AA055C5A9696592"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "waystones:waystone"
-				}
-				type: "item"
-			}]
-			title: "Waystones"
-			x: 2.5d
-			y: -0.5d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -1186,25 +480,8 @@
 				title: "Dietary Diversity"
 				type: "checkmark"
 			}]
-			x: 5.5d
-			y: -0.5d
-		}
-		{
-			description: [
-				"You can choose starter gear in the Specialization chapter. These are just items, there are no other benefits."
-				""
-				"You only get to choose one path, and get three sets of rewards total."
-			]
-			icon: "kubejs:mark_miner"
-			id: "0A8694E6D7E5B93E"
-			tasks: [{
-				id: "2371A22BE0EE5213"
-				title: "Specialization"
-				type: "checkmark"
-			}]
-			title: "Specializations (Quest book)"
-			x: 6.5d
-			y: -1.5d
+			x: 8.5d
+			y: 3.5d
 		}
 		{
 			icon: "kubejs:arrow_left"
@@ -1216,7 +493,7 @@
 				title: "MORE QUESTS ARE WAITING!"
 				type: "checkmark"
 			}]
-			x: -6.0d
+			x: -6.5d
 			y: -6.0d
 		}
 		{
@@ -1262,8 +539,8 @@
 				title: "Disenchanting"
 				type: "checkmark"
 			}]
-			x: 5.5d
-			y: 0.5d
+			x: 8.5d
+			y: 4.5d
 		}
 		{
 			description: [
@@ -1289,85 +566,8 @@
 				type: "checkmark"
 			}]
 			title: "Combat Roll ability"
-			x: -5.5d
-			y: 4.0d
-		}
-		{
-			description: [
-				"Press 'J' (you will most likely have to change this if it conflicts with something) to open the Titles gui."
-				""
-				"Understand that you may not have any titles to choose from at first."
-				"Simply complete advancements  to start growing your selection."
-			]
-			icon: "titles:title_scroll_common"
-			id: "4B93CE8715CACD5A"
-			rewards: [{
-				id: "0A699ECD95D9583E"
-				item: "titles:title_scroll_common"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5392A0BFA52D6B1C"
-				title: "Titles"
-				type: "checkmark"
-			}]
-			x: -2.5d
-			y: -7.5d
-		}
-		{
-			description: [
-				"- Renders white lines around blocks that will be mined."
-				"- You can also use hoe on grass in similar way to till multiple blocks at once."
-				"- Harvest crops by right-clicking on them"
-				""
-				"Select a shape by holding shift and the grave key while scrolling the mouse scroll wheel."
-				"- Shapeless: No shape applied."
-				"- Small Tunnel: A 1x1 deep tunnel."
-				"- Small Square: A 3x3x1. (Depth of one. If you want a long 3x3 tunnel, you are probably better off digging 9 separate small tunnels.)"
-				"- Mining Tunnel: A 1x1 tunnel angled down. (You will need at least 3 of these to form stairs you can walk down.)"
-				"- Escape Tunnel: Same as the mining tunnel, but upward."
-				""
-				"Tip: Just remember to reset your shape to shapeless for clearing ore deposits or you will only mine the ores in the selected shape."
-			]
-			icon: "itemfilters:not"
-			id: "143E7EB383FC8A60"
-			rewards: [{
-				id: "65B246D328EEEA52"
-				item: {
-					Count: 1b
-					id: "minecraft:potion"
-					tag: {
-						Potion: "apotheosis:strong_haste"
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Veinminer/OreExcavation alternative"
-			tasks: [{
-				id: "0EEDD89EE27ED37B"
-				title: "Ultimine"
-				type: "checkmark"
-			}]
-			x: -2.5d
-			y: -6.0d
-		}
-		{
-			id: "3FB7CA8B1B9177B4"
-			tasks: [{
-				id: "670F2A9BF4205B90"
-				type: "checkmark"
-			}]
-			x: 2.5d
-			y: -6.0d
-		}
-		{
-			id: "14073087024F4551"
-			tasks: [{
-				id: "6F84BC404DF63DAF"
-				type: "checkmark"
-			}]
-			x: 2.5d
-			y: -7.5d
+			x: -6.5d
+			y: -1.5d
 		}
 		{
 			description: [""]
@@ -1404,18 +604,6 @@
 		}
 		{
 			description: [""]
-			icon: "minecraft:end_crystal"
-			id: "2E3A0AF4AD866EBE"
-			tasks: [{
-				id: "7C2A6F8848CFA541"
-				type: "checkmark"
-			}]
-			title: "&6Complete&r &f'End Exploration'&r &6chapter&r"
-			x: -5.0d
-			y: 8.0d
-		}
-		{
-			description: [""]
 			icon: "undergarden:deepturf_block"
 			id: "6DB365442C2C823F"
 			tasks: [{
@@ -1424,7 +612,7 @@
 				type: "checkmark"
 			}]
 			title: "&6Complete&r &2'The garden Under'&r &6chapter&r"
-			x: -4.0d
+			x: -1.0d
 			y: 8.0d
 		}
 		{
@@ -1450,6 +638,820 @@
 			title: "&6Complete&r &f'Stairway to Aether'&r &6chapter&r"
 			x: -2.0d
 			y: 8.0d
+		}
+		{
+			description: [
+				"For healing options see quest"
+				"{ \"text\": \"Healing Sources\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2AF1B6A89DD4F4C2\" } } "
+			]
+			icon: "kubejs:heart"
+			id: "0B3E19BB0E6C5069"
+			rewards: [{
+				id: "1834E373A75ED33F"
+				item: {
+					Count: 1b
+					id: "bonfires:estus_flask"
+					tag: {
+						estus: 0
+						reinforce_level: 0
+						reinforce_max: 10
+						uses: 3
+					}
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "2B24EE4073AB55F0"
+				title: "Regen"
+				type: "checkmark"
+			}]
+			title: "&4(No) Natural Healing&r"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			icon: "minecraft:spawner"
+			id: "69BBE7810BD594BA"
+			tasks: [{
+				id: "47122E801F18D530"
+				title: "Harder Spawners"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"There are a several new mechanics and difficulty scaling to the Ender Dragon fight, making it a challenge and fun experience for any player amount."
+				""
+				"- The fight scales with the player amount"
+				"- The fight scales with world and config difficulty "
+			]
+			icon: "minecraft:dragon_egg"
+			id: "552109E874C66707"
+			tasks: [{
+				id: "0DDBA1BEB38B706E"
+				title: "Savage Ender Dragon"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["70EE00F2D166500E"]
+			description: [
+				"&eHealing Salve :&r"
+				""
+				"- The Healing Salve is the least aiding item in the mod, it lasts up to 4 uses, retains 0.5 hearts per use and is very annoying to craft!"
+				""
+				"&aPlaster :&r"
+				""
+				"- The Plaster is yet another healing item, it lasts up to 4 uses, retains 0.5 hearts per use but it's more easier to craft than a salve!"
+				""
+				"&9Bandage :&r"
+				""
+				"- The Bandage is a better healing item than both the plaster and the bandage, it lasts up to 6 uses, takes a little longer to use, retains 0.5 hearts per use and is very easy to craft!"
+				""
+				"&cMedkit :&r"
+				""
+				"- The Medkit is a good replacement for all of the above, it lasts up to 16 uses, takes much longer to use, retains 1 heart per use, but it requires all of the above plus some quartz and nether warts to craft!"
+				""
+				"&4Enchanted Medkit :&r"
+				""
+				"- The Enchanted Medkit is the best healing item in the mod, it lasts up to 16 uses (just like a normal medkit!), takes as long as a normal medkit to use, retains 1.5 hearts per use and gives absorption effect to the consumer, but requires a medkit, a golden apple and a ghast tear!"
+				""
+				"&dThe Estus Flask&r"
+				""
+				"- The Estus Flask when crafted has 3 uses which can be increased using &6Estus Shards&r. To reinforce the Estus Flask simply right click while holding an Estus Shard with the Estus Flask in your inventory. Drinking the Estus Flask will heal 3 hearts."
+			]
+			icon: {
+				Count: 1b
+				id: "roughtweaks:medkit"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2AF1B6A89DD4F4C2"
+			tasks: [{
+				id: "58FFC2B9CDC9E641"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "roughtweaks:plaster"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "roughtweaks:salve"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "roughtweaks:bandage"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "roughtweaks:medkit"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "roughtweaks:medkit_enchanted"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "bonfires:estus_flask"
+								tag: {
+									estus: 3
+									reinforce_level: 0
+									reinforce_max: 10
+									uses: 3
+								}
+							}
+						]
+					}
+				}
+				title: "Options"
+				type: "item"
+			}]
+			title: "Healing Options"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			description: ["If you have 7 or more hearts of health, damage that would have originally killed you in one hit will now leave you with half a heart! This allows you a chance to react to what would have been a lethal blow!"]
+			id: "142333754FEA48BB"
+			tasks: [{
+				id: "06F7F1ACB96815CF"
+				title: "Second Chance"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			icon: "kubejs:dodge"
+			id: "219C6641A038984F"
+			tasks: [{
+				id: "63E81347BD43263A"
+				title: "Parcool"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "5DE1E54F9B6C99E4"
+			tasks: [{
+				id: "2FFC88E0186199D4"
+				title: "Wall-jump"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"How to use JEI (The mod that shows you all the game items on the right of the screen when in an inventory)"
+				""
+				"• Hovering over an item and pressing the \"R\" key (for Recipe) will display that items recipe."
+				"• Pressing the \"U\" key (for Use) shows what that item can be used to create through crafting grids and machines. "
+				"• To search by mod name use the \"@\" key before search in search box. (e.g. @notreepunch)"
+				"• To select the search box without clicking on it, the player can press Ctrl + F."
+				"• To bookmark a recipe (for easier crafting later, will also save in a menu on the left side of the inventory screen): Hover over the item + A."
+				""
+			]
+			id: "000000000000009B"
+			rewards: [{
+				id: "000000000000035C"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "In-game item and recipe browser"
+			tasks: [{
+				icon: "itemfilters:not"
+				id: "000000000000009C"
+				title: "Just Enough Items"
+				type: "checkmark"
+			}]
+			title: "Just Enough Items"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["18CBF0FC77FABE29"]
+			icon: "kubejs:help"
+			id: "759565BD4CB7872D"
+			size: 1.0d
+			subtitle: "They contain useful info that may help you during your playthrough."
+			tasks: [{
+				id: "55399A3A9CF095CE"
+				type: "checkmark"
+			}]
+			title: "Info Quests"
+			x: 6.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"Please note that there are may be some issues and recipe inconsistencies. This is &oprobably&r my oversight as it hard to check every item and block interaction."
+				""
+				"This pack was developed in the intervals of my free time and will be improved over time according to player's feedback."
+				""
+				"If you found something that seems strange to you please report it to github or discord."
+				""
+				"&2Thank you for your understanding and sorry if something went wrong.&r"
+				""
+				"https://github.com/dr3ams/Industrial-Village"
+			]
+			icon: "kubejs:icon_exclamation"
+			id: "2A9DC8C72AD9AED0"
+			shape: "circle"
+			subtitle: "Understand and forgive"
+			tasks: [{
+				id: "5CCB77F4EFDC3569"
+				type: "checkmark"
+			}]
+			title: "Recipe issues and incompatibilities"
+			x: -7.0d
+			y: -7.5d
+		}
+		{
+			icon: "minecraft:chest"
+			id: "3BC390AEACCA7408"
+			tasks: [{
+				id: "359880B02E0AA920"
+				title: "Storage Options"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"Different useful gadgets that will help you in your journey."
+				""
+				""
+				"{ \"text\": \"Click here to jump to it\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"576E37A04D699593\" } }"
+			]
+			icon: {
+				Count: 1b
+				id: "minecolonies:build_goggles"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "64F9C670BE4CB4E9"
+			subtitle: "&o&9Check the dedicated quest chapter to found out more!&r&r"
+			tasks: [{
+				id: "7E7C8040F11EFFB1"
+				type: "checkmark"
+			}]
+			title: "Useful Gadgets"
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"- To claim &ca chunk&r &9open a world map&r (M) and &9right-click&r the chunk you want to claim."
+				""
+				"From the dropdown menu select '&9Claim Selected&r'."
+				""
+				"- To claim &cmultiple&r &9hold right-click&r and drag the mouse across the chunks you want to claim."
+				""
+				"If playing on a server you can also forceload a chunk by clicking on already claiming chunk and choosing '&9Forceload selected&r'"
+			]
+			icon: "kubejs:lock"
+			id: "1539FF1BB1B405C9"
+			tasks: [{
+				id: "7422BA6FEAA82318"
+				type: "checkmark"
+			}]
+			title: "Chunk Claiming"
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"To create a &2Team&r, use"
+				""
+				"&2/ftbteams party create [team_name]&r"
+				""
+				"Being in one Team allows multiple people to complete the same quests together."
+				"&9&n                                                  &r&9               "
+				"To create a &3Party&r, use"
+				""
+				"&3/openpac-parties create&r"
+				""
+				"Parties are related to chunk claiming and player's permission inside claimed chunks."
+			]
+			icon: "kubejs:star"
+			id: "750C1B65255EB146"
+			tasks: [{
+				id: "5631A0CD11BC7726"
+				title: "Team"
+				type: "checkmark"
+			}]
+			title: "Teams and Parties"
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			description: [
+				"&5⭐ Cauldrons&r"
+				""
+				"- Can store ANY liquid"
+				"- Can be used to Mix Potions and Dyes"
+				"- When holding water or a potion can Boil if they have a heat source below"
+				"- Boiling cauldrons can inflict boiling damage"
+				"- Stepping into a splash or lingering potion cauldron will apply that potion"
+				"- Can be used to make stews. Just throw the ingredients into a boiling water cauldron"
+				" "
+				"&5⭐ Lecterns&r"
+				""
+				"- When holding a Book and Quill will have a new GUI that adds a Quill button and an Ink Well button"
+				"- Click on the Ink Well to cycle between available font colors"
+				"- Click on the Quill to cycle between available fonts"
+				"- Can now interact with hoppers!"
+				" "
+				"&5⭐ Lanterns&r"
+				""
+				"- Can be hung on walls. Works with ANY lantern"
+				""
+				"&5⭐ Hanging Signs&r"
+				""
+				"- Can hold any item on both their faces"
+				"- Can also display a banner patterns"
+				""
+				"&5⭐ Carpets&r"
+				"- Can be placed on Slabs"
+				"- Can be placed on Stairs"
+				""
+				"&5⭐ Cakes&r"
+				"- Can be stacked by placing two ontop of eachother. Works with ANY cake"
+				""
+				"&5⭐ Lilypads&r"
+				""
+				"- Can have any block placed on them"
+				" "
+				"&5⭐ Mob Skulls&r"
+				""
+				"- Can be stacked. Works with ANY skull in any combination"
+				"- Can have candles placed ontop"
+				"- Candle will leave a wax overlay on the skull"
+				" "
+				"&5⭐ Banners and Pots&r"
+				""
+				"- Can be placed on ceilings"
+				""
+				"&5⭐ Tripwire Hook&r"
+				"- Can hold tools when you shift click on one"
+			]
+			icon: "supplementaries:cog_block"
+			id: "68E94396D20366E4"
+			tasks: [{
+				id: "125A6F326A10264B"
+				title: "Tweaks to many existing blocks"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"You will need to &4change the hotkey&r (or unnasign everything else from the button) for toolbelt in Controls. (&nsearch 'toolbelt'&r)"
+				""
+				"- Holds any non-stackable item."
+				"- 2 stock slots, upgradeable to 9 by combining with tool pouches in an anvil."
+				"- Item Display on Players -- show off your tools at all times. (only the first 2 slots are shown)"
+			]
+			id: "061AB51F066E50A2"
+			subtitle: "Quickly switch between tools using the handy Radial Menu!"
+			tasks: [{
+				id: "50E2E7103B3ACE33"
+				item: {
+					Count: 1b
+					id: "toolbelt:belt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&n&5Better End Island&r&r"
+				""
+				"Obsidian pillars, End gateways, the spawn platform, and the portal itself in the middle of the island have all been redesigned. Additionally, the dragon no longer spawns from the start - instead, it will be summoned once a player gets close to the bell tower in the center."
+				""
+				"&lTo resummon the dragon&r, the 4 crystals no longer go right next to the portal. Instead, you'll see 4 bedrock blocks on the floor inside the tower, one in each directional wing of the building. The crystals can be placed on these 4 blocks to start summoning the dragon again. That being said, we do actually still support vanilla crystal summoning positions, to avoid confusing players who aren't familiar with the mod."
+				""
+				"&n&5Nullscape&r&r"
+				""
+				"Overhauls the End's generation in a way that maintains this identity - &0&oa realm of utter desolation&r&r. Nullscape will make you feel tiny and alone in the vast expanse of the End. You against the void - nothing more than that."
+				""
+				"Nullscape boosts the End's height to 384 blocks, introduces a new terrain system based around materials science. Essentially, different regions of the End - on very large scales - have different properties and a different 'feel' to allow for almost infinite variation in terrain shapes. From sponge-like porous terrain to stretched alien landscapes to stacked rounded islands, you'll find new and interesting terrain no matter how far you go."
+			]
+			icon: "minecraft:end_crystal"
+			id: "2620A08E1295B3A3"
+			subtitle: "Mods: YUNG's Better End Island, Nullscape"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "2D5F4D54C3C6EDF1"
+				type: "dimension"
+			}]
+			title: "End Overhaul"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"First you need to craft your album and then start killing hostile mobs. Hostile mobs have chance to drop card package with random rarity. Opening the package will grant you 5 cards which can be used for album."
+				""
+				"&l&2Album is divided into 5 categories:&r&r"
+				""
+				"- Tools"
+				"- Armor"
+				"- Mobs"
+				"- Nature"
+				"- Items"
+				""
+				"&l&2Each card has custom parameters:&r&r"
+				""
+				""
+				"- Card number -> Used to identify correct slot in album"
+				"- Card category -> See category list above"
+				"- Card rarity -> Rarity of card (Common=Worst, Mythical=Best)"
+				"- Card value -> Value based on rarity"
+				""
+				"&n&l&5Bonuses&r&r&r"
+				""
+				"Once you reach certain threshold with your album card collection you will obtain passive effects such as &1resistance&r/&cregeneration&r/&4extra health&r and more."
+				""
+				"These thresholds are unlocked by having certain amount of points or filling full categories."
+			]
+			id: "2D02F0E1C3DFBCA5"
+			subtitle: "900 new collectible cards in varying rarities which can enhance your character by filling your collector's album."
+			tasks: [{
+				id: "0FD09E3BD337D936"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "collectorsalbum:cards_common"
+					}
+				}
+				title: "Any #collectorsalbum:cards_common"
+				type: "item"
+			}]
+			title: "Collector's Album"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"This mod allows you to harvest multiple blocks at once if you hold the Grave/Tilde ( ` / ~ ) key (configurable in Controls, change FTB Ultimine key)."
+				""
+				"- Renders white lines around blocks that will be mined."
+				"- You can also use hoe on grass in similar way to till multiple blocks at once"
+				"- Harvest crops by right-clicking on them"
+				""
+				"Tip: Just remember to reset your shape to shapeless for clearing ore deposits or you will only mine the ores in the selected shape."
+			]
+			icon: {
+				Count: 1b
+				id: "gems:dragonyx_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "72BFE0836C00EDB8"
+			rewards: [{
+				id: "16C68C828A31E4E2"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "gemsnjewels:solid_black_opal_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6CE4CBD49CC0573A"
+				title: "FTB Ultimine"
+				type: "checkmark"
+			}]
+			title: "Vein Mining"
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"&5&nPassive Skill Tree&r&r"
+				""
+				"To get started, gather some &aexperience&r to acquire your first skill point."
+				""
+				"Then press O (default key, if it doesn't work - check your key bindings)."
+				""
+				"Then select your &5class&r but choose carefully, &nyou cannot change it.&r"
+				""
+				"You can path to other classes later if you think it is worth it."
+				""
+				"&4&nGems&r&r"
+				""
+				"You can find &4gems&r in any ore."
+				""
+				"Can be inserted into equipment on a &5smithing table.&r"
+				""
+				"To remove &4gems&r from equipment, you need to insert &9Vacucite&r gem into it. It will &nconsume all&r the gems."
+				""
+				"&9Vacucite&r have a smaller drop chance."
+				""
+				"Each &4gem&r provides different attribute bonuses, based on the type of equipment it is in."
+			]
+			icon: "create:experience_nugget"
+			id: "1A6295743A494017"
+			rewards: [{
+				id: "38CA208D214B1E77"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "486CEA2F560F219A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "skilltree:gems"
+					}
+				}
+				title: "Any #skilltree:gems"
+				type: "item"
+			}]
+			title: "Passive Skill Tree"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			description: ["The Global Skin Library loads a list of skins that have been uploaded to the skin database. There are lots and lots of pre-built designs to search through, and they can be downloaded to your private instance by clicking on one and hitting the download button."]
+			id: "4DCD0744847F44B8"
+			rewards: [{
+				id: "7FBB9EAE677E1BB5"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Apply custom skins to anything: from equipment to blocks!"
+			tasks: [{
+				id: "483DFE0BA1E6149D"
+				item: "armourers_workshop:skin-library-global"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4DCD0744847F44B8"]
+			description: ["This is your local skin library"]
+			icon: "armourers_workshop:skin-library"
+			id: "789F5AA2E53CFE82"
+			rewards: [{
+				id: "5F170B5F24C8424D"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [
+				{
+					id: "6018EBA6E3FC1694"
+					item: "armourers_workshop:skin-library"
+					type: "item"
+				}
+				{
+					id: "48536602B54C6B4C"
+					item: "armourers_workshop:skin-template"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["789F5AA2E53CFE82"]
+			id: "7B0A6930B521088F"
+			rewards: [{
+				id: "30B0B51473AFD1DA"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "For applying skins from your local skin library"
+			tasks: [{
+				id: "460571AA8E2DF4C7"
+				item: "armourers_workshop:skinning-table"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["149CB61732F787CF"]
+			description: [
+				"&4Bonfires&r can be created and named which then can be used to travel to any other &4Bonfire&r.  Using a Bonfire will also set your spawn location like a bed. "
+				""
+				"To create a &4Bonfire&r you'll need:"
+				""
+				"- &cThe Coiled Sword&r (can be used as a sword which will set mobs on fire)"
+				""
+				"- &7Piles of Ash&r - have a chance to drop from mobs when burnt to death."
+				""
+				"- &eHomeward Bones&r - crafted with a blaze rod, bone and enderpearl."
+				""
+				"Once you placed &6Pile of Bone and Ash&r on the ground - right click it with the &cCoiled Sword&r. This will place the Coiled sword on the pile creating a &4Bonfire&r. "
+				"&nTo light the &4Bonfire&r&r you simply &9right-click&r it."
+				""
+				"There are also 2 items which can be used to return to your spawn point, the &eHomeward Bone&r and the &cCoiled Sword Fragment&r."
+			]
+			icon: {
+				Count: 1b
+				id: "bonfires:coiled_sword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+					reinforce_level: 0
+					reinforce_max: 10
+				}
+			}
+			id: "7B7944F875F4F424"
+			rewards: [{
+				id: "69AD16E915753326"
+				item: {
+					Count: 1b
+					id: "bonfires:coiled_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "are lit."
+			tasks: [
+				{
+					id: "78309EA551E2B13F"
+					item: "bonfires:ash_pile"
+					type: "item"
+				}
+				{
+					id: "26F167F33704C07C"
+					item: "bonfires:homeward_bone"
+					type: "item"
+				}
+				{
+					id: "522AB8B18DE4E780"
+					item: {
+						Count: 1b
+						id: "bonfires:coiled_sword"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							reinforce_level: 0
+							reinforce_max: 10
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F3DDE4DB4722FAA"
+					item: "bonfires:ash_bone_pile"
+					type: "item"
+				}
+			]
+			title: "Bonfires"
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			icon: "kubejs:gold_coin"
+			id: "071ACC337ED11C6A"
+			tasks: [{
+				id: "2DDBD686B0936A3D"
+				title: "The Market"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			icon: "bountiful:bountyboard"
+			id: "7F7B6EFF4B5F2CB4"
+			tasks: [{
+				id: "435FE5AFBC11629C"
+				title: "Tasks"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			description: [""]
+			icon: "create:flywheel"
+			id: "01BBA8E3CC86CC78"
+			tasks: [{
+				id: "4E929113D0982E1C"
+				title: "Complete 'The garden Under' chapter"
+				type: "checkmark"
+			}]
+			title: "&6Complete 'Create Contraptions' chapter&r"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			description: [""]
+			icon: "supplementaries:globe"
+			id: "7E24A5916D94D4D2"
+			tasks: [{
+				id: "7348AE24A435B71B"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r &2'Pathfinder'&r &6chapter&r"
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			description: [""]
+			icon: "nameless_trinkets:mysterious_trinket"
+			id: "1F2E73B5039DA243"
+			tasks: [{
+				id: "70CC0A27B542201C"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r &2'Trinkets 'n Curios'&r &6chapter&r"
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			description: [""]
+			icon: "ars_nouveau:archmage_spell_book"
+			id: "2BB14A88868C1345"
+			tasks: [{
+				id: "6412E3E4981014C8"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r &5Ars Nouveau&r &6chapter&r"
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"l2complements burning"
+				""
+				"lychee"
+			]
+			id: "35ACE4F999AC0ECF"
+			subtitle: "describe in-world interactions mechanic"
+			tasks: [{
+				id: "08454CEC2A03B200"
+				title: "l2 complements"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			id: "20B31C51C3CEFBF8"
+			tasks: [{
+				id: "2A1C5AD77DD170F5"
+				title: "Mounts"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: -3.0d
 		}
 	]
 	title: "⭐ Features "

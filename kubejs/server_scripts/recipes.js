@@ -104,7 +104,15 @@ const removals = [
   "ars_trinkets:white_essence",
   "ars_trinkets:yellow_essence",
   "ars_trinkets:purple_essence",
-  "celestial_artifacts:flight_ring"
+  "celestial_artifacts:flight_ring",
+  "toms_storage:ts.trim",
+  "toms_storage:ts.open_crate",
+  "toms_storage:ts.inventory_proxy",
+  "toms_storage:ts.wireless_terminal",
+  "toms_storage:ts.adv_wireless_terminal",
+  "toms_storage:ts.trim",
+  "toms_storage:ts.level_emitter",
+  "toms_storage:ts.adv_wireless_terminal",
 ];
 
 const upgradeMap = new Map([
@@ -458,147 +466,6 @@ ServerEvents.recipes((event) => {
     "ars_nouveau:enchanters_sword"
   );
 
-  ars_nouveau
-    .glyph(
-      "ars_trinkets:glyph_water_spear",
-      [
-        "minecraft:trident",
-        "minecraft:diamond_block",
-        "ars_nouveau:water_essence",
-        "ars_nouveau:water_essence",
-        "ars_nouveau:water_essence",
-        "ars_nouveau:water_essence",
-        "ars_nouveau:water_essence",
-        "ars_nouveau:water_essence",
-        "minecraft:diamond_block",
-      ],
-      550
-    )
-    .id("ars_trinkets:glyph_water_spear");
 
-  ars_nouveau
-    .glyph(
-      "ars_trinkets:glyph_sword",
-      [
-        "minecraft:diamond_sword",
-        "minecraft:netherite_ingot",
-        "ars_nouveau:air_essence",
-        "ars_nouveau:air_essence",
-        "ars_nouveau:air_essence",
-        "ars_nouveau:air_essence",
-        "ars_nouveau:air_essence",
-        "ars_nouveau:air_essence",
-        "minecraft:netherite_ingot",
-      ],
-      550
-    )
-    .id("ars_trinkets:glyph_sword");
-
-  ars_nouveau
-    .glyph(
-      "ars_trinkets:glyph_exp_sac",
-      [
-        "minecraft:diamond_block",
-        "minecraft:experience_bottle",
-        "minecraft:experience_bottle",
-        "minecraft:enchanted_book",
-        "minecraft:enchanted_book",
-        "minecraft:enchanted_book",
-        "minecraft:experience_bottle",
-        "minecraft:experience_bottle",
-      ],
-      550
-    )
-    .id("ars_trinkets:glyph_exp_sac");
-
-  ars_nouveau
-    .glyph(
-      "ars_trinkets:glyph_sacrifice",
-      [
-        "bloodmagic:sacrificialdagger",
-        "ars_nouveau:glyph_harm",
-        "ars_elemental:anima_essence",
-        "ars_nouveau:glyph_self",
-        "ars_elemental:anima_essence",
-        "ars_nouveau:glyph_harm",
-      ],
-      160
-    )
-    .id("ars_trinkets:glyph_sacrifice");
-
-  ars_nouveau
-    .glyph(
-      "ars_trinkets:glyph_devour",
-      [
-        "ars_trinkets:glyph_sacrifice",
-        "ars_nouveau:glyph_heal",
-        "ars_elemental:anima_essence",
-        "ars_nouveau:glyph_self",
-        "ars_elemental:anima_essence",
-        "ars_nouveau:glyph_heal",
-      ],
-      160
-    )
-    .id("ars_trinkets:glyph_devour");
-
-  ars_nouveau
-    .glyph(
-      "ars_trinkets:glyph_shadow_veil",
-      [
-        "minecraft:calibrated_sculk_sensor",
-        "minecraft:sculk",
-        "minecraft:black_dye",
-        "ars_elemental:anima_essence",
-        "ars_elemental:anima_essence",
-        "minecraft:black_dye",
-        "minecraft:sculk",
-      ],
-      550
-    )
-    .id("ars_trinkets:glyph_shadow_veil");
-
-  ars_nouveau
-    .glyph(
-      "ars_trinkets:glyph_sound_boom",
-      [
-        "minecraft:sculk_shrieker",
-        "ars_nouveau:air_essence",
-        "minecraft:tnt",
-        "minecraft:diamond_block",
-        "minecraft:tnt",
-        "ars_nouveau:air_essence",
-      ],
-      550
-    )
-    .id("ars_trinkets:glyph_sound_boom");
-
-  ars_nouveau
-    .glyph(
-      "ars_trinkets:glyph_mana_bomb",
-      [
-        "ars_elemental:glyph_bubble_shield",
-        "paraglider:spirit_orb",
-        "ars_nouveau:manipulation_essence",
-        "ars_nouveau:manipulation_essence",
-        "paraglider:spirit_orb",
-      ],
-      160
-    )
-    .id("ars_trinkets:glyph_mana_bomb");
-
-    ars_nouveau
-    .glyph(
-      "ars_trinkets:glyph_sun_flare",
-      [
-        "ars_nouveau:glyph_light",
-        "ars_nouveau:fire_essence",
-        "minecraft:glowstone",
-        "minecraft:glowstone",
-        "minecraft:glowstone",
-        "ars_nouveau:fire_essence",
-      ],
-      160
-    )
-    .id("ars_trinkets:glyph_sun_flare");
 });
     

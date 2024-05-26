@@ -3,24 +3,15 @@
 	default_quest_shape: "octagon"
 	filename: "ars_noveau"
 	group: "2C344CA71B9F0CFD"
-	icon: {
-		Count: 1b
-		id: "ars_nouveau:apprentice_hood"
-		tag: {
-			Damage: 0
-		}
-	}
+	icon: "ars_nouveau:archmage_spell_book"
 	id: "690C3D15379D602D"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
+		alpha: 100
 		height: 21.0d
-		hover: [ ]
 		image: "ars_nouveau:textures/gui/spell_book_template.png"
 		rotation: 0.0d
 		width: 31.391752577319586d
-		x: 2.5d
+		x: 3.5d
 		y: 3.0d
 	}]
 	order_index: 0
@@ -124,6 +115,7 @@
 			y: 0.0d
 		}
 		{
+			description: [""]
 			id: "0DDCA8596165F660"
 			rewards: [
 				{
@@ -2713,5 +2705,5 @@
 			y: -0.5d
 		}
 	]
-	title: "Ars Nouveau"
+	title: "&5Ars Nouveau&r"
 }

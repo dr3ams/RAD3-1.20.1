@@ -1,0 +1,823 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "wip"
+	group: "5AAD108D5AD37CD9"
+	icon: "kubejs:caution"
+	id: "65252A62C849819E"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "221A3D2E31B74520"
+			rewards: [
+				{
+					id: "2E9D9E22E7194EA6"
+					item: "aquaculture:box"
+					type: "item"
+				}
+				{
+					id: "2BD4781D8FB9745E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "3F2013E48B41C56A"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "3C3963AFE8D36745"
+				item: "comforts:sleeping_bag_white"
+				type: "item"
+			}]
+			title: "Go full nomad!"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["221A3D2E31B74520"]
+			description: [
+				"Modpack encourages many different playstyles including nomadic exploring!"
+				""
+				"These items will help you with that. Though it may take time to gather them all..."
+			]
+			id: "21D9206B88C5DE16"
+			rewards: [
+				{
+					id: "0A8998A9C5E49BD9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "vanillafoodpantry:super_wolfspirit"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BD4EAE4E7CC4827"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:cake"
+					}
+					type: "item"
+				}
+				{
+					id: "58D882A43A1F3F6F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "77421003EBBC9E50"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_swiftness"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F747595D6652826"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:treasure_chest"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "13D5F4B106BA6B50"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:sack"
+					}
+					type: "item"
+				}
+				{
+					id: "559380884EAE3607"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+							"polymorph:stack_recipe_data": { }
+						}
+						id: "sophisticatedbackpacks:crafting_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "3166BEE80BC5969E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+							"polymorph:stack_recipe_data": { }
+						}
+						id: "sophisticatedbackpacks:auto_smelting_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "295A438CDDD83909"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "sophisticatedbackpacks:iron_backpack"
+						tag: {
+							contentsUuid: [I;
+								-491808682
+								488787239
+								-2082623860
+								666427245
+							]
+							inventorySlots: 54
+							upgradeSlots: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F7422F1695994FF"
+					item: "sophisticatedbackpacks:tank_upgrade"
+					type: "item"
+				}
+				{
+					id: "5F9B8C62432D4841"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "nutritionalbalance:lunchbox"
+					}
+					type: "item"
+				}
+			]
+			title: "Nomadic dreams"
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Each animal and human being can now bleed. This is an effect that deals damage similar to poison and can be removed using a new item: Bandages. The chance of bleeding is lower the more pieces of armor you have."
+				""
+				"Bleeding is caused by many different sources such as receiving sword damage, being bitten by a spider, or by touching a cactus..."
+				""
+				"It is important to keep bandages with you at all times because bleeding becomes more deadly as the game progresses!"
+				"{image:majruszsdifficulty:textures/mob_effect/bleeding.png width:30 height:30 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "kubejs:bleed"
+				tag: { }
+			}
+			id: "04CC7C1C1BFE864D"
+			rewards: [{
+				id: "7B08A97B81394C0F"
+				item: "majruszsdifficulty:bandage"
+				type: "item"
+			}]
+			tasks: [{
+				id: "344ADACFCEB0D8A7"
+				title: "Bleeding"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			description: ["The core of the mod is its mechanics, which add new ways to attack and defend. These are intended to supplement the vanilla combat system, and make new playstyles viable. If you aren't sure how to get started, a patchouli guidebook is available, crafted with a book and gold sword."]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "cnb:cinder_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "375994C478ED20DF"
+			rewards: [{
+				id: "730676DC6373DBB9"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "parrying:book"
+					}
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "143C73DD83BE9F6C"
+				type: "checkmark"
+			}]
+			title: "Combat Mechanics"
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			description: ["Parrying is a relatively simple mechanic. When you are hit with a melee attack, if you are swinging a weapon the attack will be deflected. A \"weapon\" in this case is any item with an attack damage value, eg a sword or pickaxe. To parry, you must be aiming at the attacker. Parrying is easier the higher the attack recharge meter is. A successful parry reduces the defense meter."]
+			icon: "kubejs:parry"
+			id: "0C2E1DD15D80D4F7"
+			tasks: [{
+				id: "4F3C6115E95635BD"
+				title: "Parrying"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			description: ["Dual Wielding allows you to use a weapon from your offhand. Parry This! uses a unique implementation of dual wield. Instead of using right click to trigger an offhand attack, you will alternate between your main and off hands by attacking normally. Dual wielding grants a small boost in attack speed, as well as a penalty for using weapons with differing speeds. Some weapons are marked as \"two handed\", and cannot be used for dual wielding."]
+			icon: "kubejs:dualwield"
+			id: "4E816C3883966AE9"
+			tasks: [{
+				id: "71F82111DCCF8E2E"
+				title: "Dual Wielding"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: -1.0d
+		}
+		{
+			description: ["Backstab is a powerful special attack that can be performed by attacking a target from behind. It's hard to hit, but if you get your aim right, you can deal 300% damage to your target. Combined with vanilla stealth mechanics, such as sneaking and invisibility, a rouge or ninja playstyle becomes practical. In pvp, backstabs are practically impossible if your enemy knows you are coming, so use stealth to your advantage. Backstab works with both melee and ranged attacks, making sniping possible as well. Backstab only affects targets with 20 max health or less by default."]
+			icon: "kubejs:backstab"
+			id: "5005C51CA1B68CC3"
+			tasks: [{
+				id: "77A86EE482E71220"
+				title: "Backstab"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: -3.0d
+		}
+		{
+			description: ["Dodge is a movement ability, similar to sprinting. By holding alt (configurable) and tapping A, S, or D (or whatever keys your movement is bound to) you can leap left, backwards, or right, respectively. This ability has a short, invisible cooldown. Knockback resistance has an adverse effect on dodging, reducing its power. Thus, wearing Netherite armor will make dodging somewhat less effective. Additionally, you must be touching the ground to dodge, so it may not always be effective in pvp due to the large amount of jumping. The distance you dodge can be improved through the jump boost effect. Each level of jump boost adds roughly one block of dodge distance."]
+			icon: "kubejs:dodge"
+			id: "14F6CBFA581F6A50"
+			tasks: [{
+				id: "5E2C34784B3F897E"
+				title: "Dodge"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			description: ["Certain weapons have a new attribute called \"armor penetration\". This attribute specifies a percentage of the weapon's damage that ignores armor. So if your weapon has 35% armor penetration, 35% of the weapon's damage will ignore armor. All bludgeoning weapons possess armor penetration to varying degrees."]
+			icon: "kubejs:armorpen"
+			id: "7BD97790AFE589EC"
+			tasks: [
+				{
+					id: "11384B9FB9DFF313"
+					title: "Armor Penetration"
+					type: "checkmark"
+				}
+				{
+					id: "5D5010EE4B684C21"
+					item: {
+						Count: 1b
+						id: "parrying:wooden_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"The defense meter is the little shield under your crosshair that appears whenever you block or parry. Whenever you parry a blow or block one with a shield, your defense meter is reduced. If it hits zero, you are briefly stunned, and any shield you were using is disabled briefly. It recharges fairly quickly, but higher damage blows will reduce the meter more, so be careful when up against high damage enemies such as vindicators or players with a hammer."
+				"{image:kubejs:textures/item/defence.png width:50 height:50 align:1}"
+			]
+			icon: "kubejs:defence"
+			id: "5F578BB3FEEB067B"
+			tasks: [{
+				id: "7C632776FBD87E6D"
+				title: "Defense Meter"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The blue/gray feather icons above your hunger indicate your Dodge Meter."
+				""
+				"Every armor has a weight that affects your maximum dodges. Gray feathers indicate armor weight."
+				""
+				"The Lightweight enchantment can decrease armor weight, granting you feathers back."
+				""
+				"You can dash by holding any direction and pressing the Dodge keybind (Default: Left Alt)."
+			]
+			icon: "ars_nouveau:glyph_leap"
+			id: "55DE8B3522A4F8A6"
+			rewards: [
+				{
+					id: "012430C1D7AE5D6B"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "elenaidodge2:long_replenishment"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54785A567EA1C042"
+					type: "custom"
+				}
+			]
+			subtitle: "In-Depth, Well Balanced and Seamlessly Integrated Dodging"
+			tasks: [{
+				id: "36478D84CB178449"
+				title: "Dodge"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Each Wither killed and Ender Dragon (re)spawned will count towards a point of Difficulty, making them harder the next time they're spawned.Each point of difficulty increases the Bosses stats and unlocks abilities."
+				""
+				"Wither "
+				"Wither Health increases by 10 for each point of difficulty."
+				"Regenerates 0.05 HP per second for each point of difficulty (up to 1 HP per second). This is summed to the base regeneration of 1 HP per second the Wither already has."
+				"After the first Wither Spawned the second Wither will spawn Wither Minions (Wither Skeletons)."
+				"Has 2% chance per point of difficulty (up to 50%) to drop a Nether Star Shard."
+				""
+				"Ender Dragon"
+				"The Ender Dragon deals 10% more damage per point of difficulty for both attacking and the Acid Pool."
+				"Has 10 more HP per point of Difficulty"
+				"Can spit an acid fireball more frequently, given by the Difficulty and the remaining Ender Crystals."
+				"As the difficulty goes up, more cages will spawn around Crystals on the towers."
+				"After the first Dragon Killed the second one will spawn Larvae (Endermites) at the center of the island."
+				"From the third Dragon she will start spawning Minions (Purple Shulkers) around the island."
+				""
+			]
+			icon: "kubejs:skull2"
+			id: "68203BBBB58B26EA"
+			rewards: [{
+				id: "3678E73DDD73B55C"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_strength"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: "productivebees:upgrade_productivity"
+				id: "6C079A785E1D9855"
+				title: "Progressive Bosses"
+				type: "checkmark"
+			}]
+			x: 23.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["577182F7C0C5B85B"]
+			description: [
+				"- Groups of enemies"
+				"Enemies appear in groups with one leader and followers who attack the same target as the leader. Followers are more likely to have weapons and leaders to have armors."
+				""
+				"- Undead Army (new Raid)"
+				"The new raid starts after killing a certain amount of undead enemies. It has 3-5 waves, scales difficulty over time, and rewards the player with a treasure bag after finishing it. Also scales difficulty with each player participating in!"
+				""
+				"- fall damage can causes Slowness and Nausea"
+				""
+				"- drowning damage can causes Nausea and Weakness"
+				""
+				"- Creepers may spawn with a negative effect"
+				""
+				"- animals (like Wolves), Zombies, and Spiders can bite you causing Bleeding"
+				""
+				"- arrows and direct damage from sharp items (tools, weapons, shears) also can cause Bleeding"
+				""
+				"- touching a cactus also may cause Bleeding"
+			]
+			icon: "minecraft:skeleton_skull"
+			id: "6E509EA1B20B6476"
+			rewards: [{
+				id: "33105A1C2A38899F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "healingflasks:healing_flask"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Some of the new difficulty mechanics:"
+			tasks: [{
+				id: "413AD55DBDF6F7A1"
+				title: "New difficulty mechanics"
+				type: "checkmark"
+			}]
+			title: "Normal mode changes"
+			x: 22.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E509EA1B20B6476"]
+			description: [
+				"- loot has a 25% chance to be doubled"
+				""
+				"- experience from all sources is increased by 20%"
+				""
+				"- all monsters have their health and damage increased by 20%(at night the bonus is doubled to 40%)"
+				""
+				"- Illusioner spawn naturally during the night"
+				""
+				"- new Elite Skeleton spawn naturally during the night(shoots arrows extremely precisely)"
+				""
+				"- Piglins may spawn in a group"
+				""
+				"- Pillagers may spawn in a group"
+				""
+				"- Creepers on explosion may spawn more Creeperlings"
+				""
+				"- Slimes have a chance to inflict Slowness effect"
+				""
+				"- Wither Skeletons may spawn with the Wither Sword instead of the Stone Sword"
+				""
+				"- Undead Army now has 4 waves"
+				""
+				"- undead spawned during the Undead Army are twice as likely to have enchanted items"
+				""
+				"- undead spawned during the Undead Army are twice as likely to have armor pieces"
+				""
+				"- Undead Army gives 100% more experience for completing it"
+				""
+				"- whenever you die from Bleeding or are killed by a Zombie there spawns a special Zombie with your head"
+			]
+			icon: "ars_nouveau:glyph_wither"
+			id: "78655B49D92DA1AB"
+			rewards: [{
+				id: "382323F735456BD6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "roughtweaks:medkit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "- Expert Mode starts when the first player kills the Wither"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "4F575278249F1D60"
+				type: "kill"
+				value: 1L
+			}]
+			x: 22.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["78655B49D92DA1AB"]
+			description: [
+				"- loot has a 75% chance to be doubled"
+				""
+				"- experience from all sources is increased by 50%"
+				""
+				"- all monsters have their health and damage increased by 40% (instead of 20% chance)(at night the bonus is doubled to 80%)"
+				""
+				"- Phantom and new End Keeper spawn naturally near new structures"
+				""
+				"- Elite Skeleton may spawn in a group"
+				""
+				"- Enderman may teleport target on hit"
+				""
+				"- Shulker may inflict Blindness effect"
+				""
+				"- Creepers on explosion may spawn more Creeperlings"
+				""
+				"- Undead Army now has 5 waves"
+				""
+				"- undead spawned during the Undead Army are quadruple as likely to have enchanted items"
+				""
+				"- undead spawned during the Undead Army are thrice as likely to have armor pieces"
+				""
+				"- Undead Army now rewards with 2 Treasure Bags (instead of 1)"
+				""
+				"- Undead Army gives 200% more experience for completing it (instead of 100%)"
+				""
+			]
+			icon: "minecraft:end_crystal"
+			id: "13FD3ACE5C674BD1"
+			rewards: [{
+				id: "106880E710C077BF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "roughtweaks:medkit_enchanted"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "- Master Mode starts when you defeat the Ender Dragon."
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "6D379DD2E28FDD77"
+				type: "kill"
+				value: 1L
+			}]
+			x: 22.0d
+			y: 0.5d
+		}
+		{
+			id: "3F5526776AC13993"
+			tasks: [{
+				id: "540B84A006532FBF"
+				title: "Factions"
+				type: "checkmark"
+			}]
+			x: 23.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Mobs now have a chance to spawn as Champions, elite mobs with enhanced stats, extra abilities, and extra loot (Enchanted Books and Coins)."
+				""
+				"Champions have affixes that grant them powers, with higher tiers having more affixes."
+				""
+				"There are currently 6 tiers of Champions, locked behind game stages."
+				""
+				"- Tier 1 and 2: Always Spawn"
+				"- Tier 3, 4, 5 and 6: Master Mode"
+				""
+				"For information on what coins which tiers drop, check out the Coin Shop!"
+			]
+			id: "38049609F73B874B"
+			rewards: [{
+				id: "5B1856CC55FD4B38"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "roughtweaks:salve"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Elite Mobs"
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:skull"
+				}
+				id: "72DE9AD07435F340"
+				title: "Champions"
+				type: "checkmark"
+			}]
+			x: 23.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"The game progress is divided into three parts: Normal Mode, Expert Mode, and Master Mode. These are not per-player, and affect the whole world."
+				""
+				"- Normal Mode starts at the beginning of the game."
+				""
+				"- Expert Mode starts when anyone kills the Wither. (or enters the End)"
+				""
+				"- Master Mode starts when the Ender Dragon is defeated by someone."
+			]
+			icon: "kubejs:scaling"
+			id: "577182F7C0C5B85B"
+			rewards: [{
+				id: "203EF8DF6395F7A6"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "654635E50ADA3AD9"
+				title: "Progressive Difficulty"
+				type: "checkmark"
+			}]
+			x: 22.0d
+			y: -3.0d
+		}
+		{
+			icon: "majruszsdifficulty:pillager_treasure_bag"
+			id: "0E5022066563E43E"
+			tasks: [{
+				id: "795FB8C6EC8850E8"
+				title: "Difficult Raids"
+				type: "checkmark"
+			}]
+			x: 23.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"You can choose starter gear in the Specialization chapter. These are just items, there are no other benefits."
+				""
+				"You only get to choose one path, and get three sets of rewards total."
+			]
+			icon: "kubejs:mark_miner"
+			id: "0A8694E6D7E5B93E"
+			tasks: [{
+				id: "2371A22BE0EE5213"
+				title: "Specialization"
+				type: "checkmark"
+			}]
+			title: "Specializations (Quest book)"
+			x: 25.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"- Potions now stack"
+				""
+				"- Splash potions throw much further"
+				""
+				"- More efficient brewing"
+				""
+				"- Coated weapons"
+				""
+				"- Milk bottles"
+				""
+				"- New potion-based weapon"
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "enigmaticlegacy:twisted_potion"
+			}
+			id: "4BBCC3FAA2073857"
+			tasks: [{
+				id: "12916109DEFF53FD"
+				title: "Potioneering"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 3.5d
+		}
+		{
+			icon: "kubejs:armour"
+			id: "58E45F3CBD4827C1"
+			size: 1.0d
+			tasks: [{
+				id: "2AA6D07315357B13"
+				title: "Equipment properties"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 5.5d
+		}
+		{
+			description: [
+				"This pack uses the 1.18 features to create brand new terrain in the Nether - with 3D biomes and tons of new terrain types."
+				""
+				"It also brings back the Nether mountains from the original Nether Update trailer. Many players saw these and were upset that they weren't in the game - we've added them for you to enjoy!"
+				""
+				"3D biomes are used extensively as well - you might find a different biome at the base of a mountain than at the top, and you'll find much more biome variation in normal Nether terrain. Biome borders that were previously impossible are now commonplace - any biome can border any other biome!"
+			]
+			icon: "minecraft:netherrack"
+			id: "533001DF566AB5A6"
+			subtitle: "256 blocks tall Nether"
+			tasks: [{
+				id: "383D2BC86F4BD090"
+				title: "Amplified Nether"
+				type: "checkmark"
+			}]
+			x: 20.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Press 'J' (you will most likely have to change this if it conflicts with something) to open the Titles gui."
+				""
+				"Understand that you may not have any titles to choose from at first."
+				"Simply complete advancements  to start growing your selection."
+			]
+			icon: "titles:title_scroll_common"
+			id: "4B93CE8715CACD5A"
+			rewards: [{
+				id: "0A699ECD95D9583E"
+				item: "titles:title_scroll_common"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5392A0BFA52D6B1C"
+				title: "Titles"
+				type: "checkmark"
+			}]
+			x: 19.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Waystones allows players to return to them once they've been activated, either through a Warp Scroll, a Warp Stone, or another waystone."
+				""
+				"You can find some in the wild, in towers, and in villages."
+			]
+			icon: "waystones:waystone"
+			id: "6AA5B436C67A93FF"
+			rewards: [{
+				id: "0BE7676AB6C019ED"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "18F530F6AD45F35F"
+				type: "checkmark"
+			}]
+			title: "Waystones"
+			x: 14.5d
+			y: 2.0d
+		}
+	]
+	title: "WIP"
+}

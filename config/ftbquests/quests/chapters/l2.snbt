@@ -5,10 +5,11 @@
 	group: "241F1DC7B6D6E9D6"
 	icon: "l2hostility:weakness"
 	id: "7928F5D289CB8B3D"
-	order_index: 10
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["085E485E8091D543"]
 			description: ["This charm is a must-have for all adventurers. Equipping it will allow mobs to drop rare items related to the traits they have. You'll want to hunt fiery, moonwalk, and gravity mobs for blaze rods and dragon breath. Those are used to craft the next tier of looting charm. "]
 			id: "4AB1E47BD55C667F"
 			rewards: [{
@@ -200,7 +201,6 @@
 				"They can also be used on mobs to give them that item's trait. This includes some pets!"
 			]
 			id: "19E3721B38A7E89F"
-			min_required_tasks: 1
 			rewards: [{
 				count: 5
 				id: "5DE174B0D7B5E28B"
@@ -439,6 +439,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["4AB1E47BD55C667F"]
 			id: "7CB2EC23265E714B"
 			tasks: [{
 				id: "7D1BA320342BBCD2"
@@ -446,7 +447,7 @@
 				type: "item"
 			}]
 			x: -15.0d
-			y: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4AB1E47BD55C667F"]
@@ -462,8 +463,8 @@
 				item: "l2hostility:detector_glasses"
 				type: "item"
 			}]
-			x: -16.0d
-			y: -3.0d
+			x: -15.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2F1B8FFAB949F4BF"]
@@ -1614,7 +1615,7 @@
 				item: "l2hostility:oddeyes_glasses"
 				type: "item"
 			}]
-			x: -12.5d
+			x: -13.0d
 			y: 1.0d
 		}
 		{
@@ -1632,7 +1633,7 @@
 				item: "l2hostility:triple_strip_cape"
 				type: "item"
 			}]
-			x: -11.5d
+			x: -11.0d
 			y: 1.0d
 		}
 		{
@@ -1646,6 +1647,105 @@
 			}]
 			x: -12.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["366659E50333BC5A"]
+			description: [
+				"- &4Mob strength&r progress with player. Player &nwould not&r encounter absurdly strong mobs at the beginning"
+				""
+				"- &4Mob strength&r are dependent on a lot of factors, instead of just being randomly strong."
+				""
+				"- Reasonable progression: &cIncrease&r difficulty only when you kill strong enemies. &2Decrease&r difficulty when you die."
+				""
+				"- There is a mechanic to make a region safe. You don't need to worry about strong mobs around your base"
+				""
+				"- 28 curio items to make you stronger and 2 enchantments to help fighting the mobs."
+				""
+				"There is a &4level&r associated with all enemies. &4Level&r is determined by the &3dimension&r, &2biome&r, position, &6nearby player difficulty&r, and &centity type&r. As the &4level&r becomes higher, mobs have higher health and deal higher damage, and higher chance to have strong traits."
+				""
+				"There is a difficulty level assigned to chunk sections and players. Killing mobs to gain chunk and player difficulty, and die to lose player difficulty. Use &9Hostility Detector&r to know about current difficulty, use &5Hostility Orb&r to make a chunk section permanently not spawning mobs with level."
+			]
+			icon: "kubejs:skull"
+			id: "085E485E8091D543"
+			subtitle: "Stronger mobs with special abilities."
+			tasks: [{
+				id: "6F34BE3F91ED8359"
+				type: "checkmark"
+			}]
+			title: "Hostile World"
+			x: -17.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["085E485E8091D543"]
+			description: [
+				"&2Regular Traits&r"
+				""
+				"- &3Fiery:&r Mobs can ignite you when attacked or attack you."
+				"- &9Invisible:&r Mobs and their armors/weapons will become invisible. Use Detector Glass to see them."
+				"- &3Protection:&r Mobs get damage resistance effect"
+				"- &9Regenerate:&r Mobs will regenerate health slowly."
+				"- &9Speedy:&r Mobs will move at absurd speed"
+				"- &3Tank:&r Mobs will gain much more health and armor"
+				"- &9Shulker:&r Shoot shulker bullets every few seconds. It will not inflict levitation, but will inflict - other potion effects the mob carries."
+				"- &3Gravity:&r mobs and players around it will have higher gravity, falling faster and jumping lower"
+				"- &9Moonwalk:&r mobs and players around it will have lower gravity, falling slower and jumping higher"
+				"- &3Counter Strike:&r when the mob is attacked, after it lands on ground, it will attempt to dash-strike back, launching itself toward target."
+				""
+				"&n&4See more on the next page ->&r&r"
+				"{@pagebreak}"
+				"&5Advanced Traits&r"
+				""
+				"&oThese traits only appear after Lv.100&r"
+				""
+				"- &3Adaptive:&r Mobs will get memorize and get used to damage types. Higher level allows mobs to memorize more damage types"
+				"- &9Reflect:&r Mobs will reflect direct physical damage. Try to use arrow or magic."
+				"- &3Grenade:&r Shoot explosive bullet every few seconds after the previous bullet disappears."
+				"- &9Growth:&r Slime only. Slime will grow larger when healed to full health. Growth III slime can be very large."
+				"- &3Split:&r Mobs will split into 2 with half level and same trait (with 1 level lower split trait) when killed. Subsequent mobs won't drop anything."
+				"- &9Drain:&r Mobs will remove random positive potion effects, and increase duration of negative effects on target. Deals more damage if target has negative effects."
+				"- &3Reprint:&r When hit target, copy target equipment enchantments. Increase damage based on target total enchantment points"
+				"- &9Corrosion:&r Appears only after Lv.200. When mob hit target, it will consume target equipment durability based on lost durability. Use Hardened enchantment to mitigate this effect."
+				"- &3Erosion:&r Appears only after Lv.200. When mob hit target, it will consume target equipment durability based on remaining durability. Use Hardened enchantment to mitigate this effect."
+				""
+				"&n&4See more on the next page ->&r&r"
+				"{@pagebreak}"
+				"&ePotion Traits&r"
+				""
+				"- &5Blinder&r - Blindness"
+				"- &bDistorter&r - Nausea"
+				"- &5Levitater&r - Levitation"
+				"- &bStray&r - Slowness"
+				"- &5Weakener&r - Weakness"
+				"- &bPoisonous&r - Poison"
+				"- &5Withering&r - Wither"
+				"- &bCursed&r (from L2Complements)"
+				"- &5Soul Burner&r (from L2Complements)"
+				"- &bFreezing&r (From L2Complements)"
+				""
+				"&n&4See more on the next page ->&r&r"
+				"{@pagebreak}"
+				"&6Legendary Traits&r"
+				"&oThese traits will only be unlocked when you kills a mob with Rank 5 traits, and appear only after Lv.100&r"
+				""
+				"- &4Dementor:&r Mobs will be immune to physical attack, and their damage will bypass armor"
+				"- &6Dispelling:&r Mobs will be immune to magic attack, and their damage will bypass magical protections. They can also disable enchantments on your equipments for a short time"
+				"- &4Teleport:&r Mobs can teleport to avoid physical damage. Try to use magic."
+				"- &6Repelling:&r Mobs will repel you. Use full set insulation enchantment to reduce the force."
+				"- &4Pulling:&r Mobs will pull you toward it. Use full set insulation enchantment to reduce the force."
+				"- &6Undying:&r Mobs will respawn indefinitely. Try to use Cursed potion or weapons that can inflict Cursed effect"
+				"- &4Killer Aura:&r Appears only after Lv.300. Mobs will deal damage to nearby targets every few seconds, range indicated by particle effects."
+				"- &6Ragnarok:&r Appears only after Lv.600. When mob hit target, mob will \"seal\" some equipments or curios on target, which can be unsealed by hold using the item for a few seconds."
+			]
+			icon: "kubejs:backstab"
+			id: "544FFD8F98E83BED"
+			tasks: [{
+				id: "0F89D372B785514B"
+				title: "Mob Traits"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: 0.5d
 		}
 	]
 	title: "Hostile World"

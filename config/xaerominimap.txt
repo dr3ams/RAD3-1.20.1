@@ -1,5 +1,5 @@
 #CONFIG ONLY OPTIONS
-ignoreUpdate:0
+ignoreUpdate:373
 settingsButton:false
 allowWrongWorldTeleportation:false
 differentiateByServerAddress:true
@@ -19,7 +19,7 @@ deathpoints:true
 oldDeathpoints:true
 distance:1
 lockNorth:false
-zoom:0
+zoom:1
 minimapSize:0
 chunkGrid:-1
 slimeChunks:false
@@ -54,6 +54,7 @@ waypointOpacityMap:90
 hideWorldNames:1
 openSlimeSettings:true
 alwaysShowDistance:false
+renderLayerIndex:1
 crossDimensionalTp:true
 biomeColorsVanillaMode:false
 lookingAtAngle:10
@@ -77,7 +78,7 @@ lightOverlayColor:13
 uiScale:0
 bossHealthPushBox:1
 potionEffectPushBox:1
-minimapFrame:0
+minimapFrame:3
 minimapFrameColor:9
 compassColor:9
 northCompassColor:-1
@@ -116,7 +117,7 @@ infoDisplay:overworld_coords:false:15:-1
 infoDisplay:chunk_coords:false:15:-1
 infoDisplay:angles:false:15:-1
 infoDisplay:dimension:false:15:-1
-infoDisplay:biome:false:15:-1
+infoDisplay:biome:true:15:-1
 infoDisplay:weather:false:15:-1
 infoDisplay:light_level:0:15:-1
 infoDisplay:time:0:15:-1
@@ -131,15 +132,3 @@ interface:dummy:0:0:false:false:true:false
 interface:dummy:0:36:true:false:false:false
 interface:gui.xaero_minimap:68:-45:false:false:true:false
 #WAYPOINTS HAVE BEEN MOVED TO /XaeroWaypoints
-[XP] Show Render Distance:false
-[XP] Show Render Distance WorldMap:false
-[XP] Minimap FPS Limiter:false
-[XP] Minimap FPS Limit:60.0
-[XP] Transparent Background:false
-[XP] Minimap Scaling Factor:2.0
-[XP] Always Render Player Name:true
-[XP] Always Render Player Icon:true
-[XP] Fix Main Entity Dot:true
-[XP] Waypoint Beacons:false
-[XP] Waypoint Beacon Scale Min:0.0
-[XP] Waypoint Beacon Distance Min:0.0

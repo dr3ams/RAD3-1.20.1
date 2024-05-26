@@ -7,11 +7,7 @@
 	id: "57276A78DAB3896B"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.4139784946236559d
-			hover: [ ]
 			image: "rad3:textures/misc/quest-line.png"
 			rotation: 0.0d
 			width: 13.0d
@@ -19,11 +15,7 @@
 			y: 0.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.4435483870967742d
-			hover: [ ]
 			image: "rad3:textures/misc/quest-line.png"
 			rotation: 180.0d
 			width: 13.0d
@@ -31,11 +23,7 @@
 			y: 6.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.4139784946236559d
-			hover: [ ]
 			image: "rad3:textures/misc/quest-line.png"
 			rotation: 180.0d
 			width: 13.0d
@@ -43,11 +31,7 @@
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.4139784946236559d
-			hover: [ ]
 			image: "rad3:textures/misc/quest-line.png"
 			rotation: 180.0d
 			width: 13.0d
@@ -55,11 +39,7 @@
 			y: 0.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.4139784946236559d
-			hover: [ ]
 			image: "rad3:textures/misc/quest-line.png"
 			rotation: 0.0d
 			width: 13.0d
@@ -67,11 +47,7 @@
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.4139784946236559d
-			hover: [ ]
 			image: "rad3:textures/misc/quest-line.png"
 			rotation: 0.0d
 			width: 13.0d
@@ -79,11 +55,7 @@
 			y: 6.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.4139784946236559d
-			hover: [ ]
 			image: "rad3:textures/misc/quest-line.png"
 			rotation: 0.0d
 			width: 13.0d
@@ -91,11 +63,7 @@
 			y: 9.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.4435483870967742d
-			hover: [ ]
 			image: "rad3:textures/misc/quest-line.png"
 			rotation: 180.0d
 			width: 13.0d
@@ -103,11 +71,7 @@
 			y: 9.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.4139784946236559d
-			hover: [ ]
 			image: "rad3:textures/misc/quest-line.png"
 			rotation: 0.0d
 			width: 13.0d
@@ -115,11 +79,7 @@
 			y: -2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.4139784946236559d
-			hover: [ ]
 			image: "rad3:textures/misc/quest-line.png"
 			rotation: 180.0d
 			width: 13.0d
@@ -127,11 +87,7 @@
 			y: -2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 20.682816048448146d
-			hover: [ ]
 			image: "rad3:textures/misc/quest-tasks.png"
 			rotation: 0.0d
 			width: 38.0d
@@ -316,12 +272,8 @@
 			}
 			id: "3C65EC74BDF74DD9"
 			tasks: [{
-				block: "minecraft:stone"
-				block_type: 0
-				checkItem: false
 				id: "77DB7157A4CE94FC"
-				type: "questsadditions:break"
-				value: 512L
+				type: "custom"
 			}]
 			title: "Mining"
 			x: 5.0d
@@ -451,10 +403,23 @@
 		{
 			id: "1C4E3A8713946314"
 			tasks: [{
+				icon: {
+					Count: 1b
+					id: "sophisticatedstorage:copper_chest"
+					tag: {
+						uuid: [I;
+							790118311
+							-1374076498
+							-1903951109
+							-1684599853
+						]
+						woodType: "acacia"
+					}
+				}
 				id: "6149B0EB68620E1E"
 				stat: "lootr:looted_stat"
 				type: "stat"
-				value: 1
+				value: 25
 			}]
 			x: 7.0d
 			y: 3.0d
@@ -820,6 +785,17 @@
 			}]
 			x: 10.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["205783CDC9942558"]
+			id: "68A716DAA739BB6A"
+			tasks: [{
+				id: "60D4FCABAA1516E8"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
 		}
 	]
 	title: "⭐ Task board"

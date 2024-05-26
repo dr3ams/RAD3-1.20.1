@@ -6,18 +6,14 @@
 	icon: "the_bumblezone:beehemoth_spawn_egg"
 	id: "76389659C6680826"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 5.0d
-		hover: [ ]
 		image: "rad2:textures/misc/rad_bee.png"
 		rotation: 0.0d
 		width: 8.0d
 		x: 4.0d
 		y: 0.0d
 	}]
-	order_index: 8
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -102,6 +98,9 @@
 					id: "the_bumblezone:honey_crystal_shield"
 					tag: {
 						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
 					}
 				}
 				type: "item"
