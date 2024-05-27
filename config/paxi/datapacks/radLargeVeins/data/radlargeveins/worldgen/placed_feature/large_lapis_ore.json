@@ -1,0 +1,121 @@
+{
+  "feature": {
+    "type": "minecraft:random_patch",
+    "config": {
+      "tries": 512,
+      "xz_spread": 8,
+      "y_spread": 1,
+      "feature": {
+        "feature": {
+          "type": "minecraft:random_selector",
+          "config": {
+            "features": [
+              {
+                "chance": 0.05,
+                "feature": {
+                  "feature": {
+                    "type": "minecraft:replace_single_block",
+                    "config": {
+                      "targets": [
+                        {
+                          "target": {
+                            "predicate_type": "minecraft:tag_match",
+                            "tag": "minecraft:base_stone_overworld"
+                          },
+                          "state": {
+                            "Name": "spelunkery:rough_lazurite_block"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "placement": []
+                }
+              }
+            ],
+            "default": {
+              "feature": {
+                "type": "minecraft:replace_single_block",
+                "config": {
+                  "targets": [
+                    {
+                      "target": {
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "minecraft:stone_ore_replaceables"
+                      },
+                      "state": {
+                        "Name": "minecraft:lapis_ore"
+                      }
+                    },
+                    {
+                      "target": {
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "minecraft:deepslate_ore_replaceables"
+                      },
+                      "state": {
+                        "Name": "minecraft:deepslate_lapis_ore"
+                      }
+                    }
+                  ]
+                }
+              },
+              "placement": []
+            }
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:count",
+            "count": 7
+          },
+          {
+            "type": "minecraft:random_offset",
+            "xz_spread": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": -3,
+                "max_inclusive": 3
+              }
+            },
+            "y_spread": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": -1,
+                "max_inclusive": 1
+              }
+            }
+          },
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 3
+          }
+        ]
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 1
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 750
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:biased_to_bottom",
+        "min_inclusive": {
+          "above_bottom": 8
+        },
+        "max_inclusive": {
+          "absolute": 120
+        }
+      }
+    }
+  ]
+}
