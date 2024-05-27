@@ -1,0 +1,28 @@
+#Multiplier to the amount of lp created by the Dagger of Bloodletting
+#Values less than 1 will result in less LP, values greater than 1 result in more LP.
+#Range: 0.0 ~ 1.7976931348623157E308
+LPMulti = 1.0
+#Multiplier to the amount of lp created by the Sentient Dagger of Bloodletting
+#Values less than 1 will result in less LP, values greater than 1 result in more LP.
+#Range: 0.0 ~ 1.7976931348623157E308
+sentientLPMulti = 0.8
+#Multiplier to the amount of lp created by the Dagger of the Orb
+#Values less than 1 will result in less LP, values greater than 1 result in more LP.
+#Range: 0.0 ~ 1.7976931348623157E308
+orbDaggerLPMulti = 0.5
+#This value is the max LP a Weak Blood Orb bound Dagger of the Orb can add to your network.
+#Range: > 0
+weakBloodOrbDaggerCapacity = 5000
+#This value is the max LP an Apprentice Blood Orb bound Dagger of the Orb can add to your network.
+#Range: > 0
+apprenticeBloodOrbDaggerCapacity = 25000
+#This value is the max LP a Magician Blood Orb bound Dagger of the Orb can add to your network.
+#Range: > 0
+magicianBloodOrbDaggerCapacity = 150000
+#This value is the max LP a Master Blood Orb bound Dagger of the Orb can add to your network.
+#Range: > 0
+masterBloodOrbDaggerCapacity = 1000000
+#This value is the max LP an Archmage Blood Orb bound Dagger of the Orb can add to your network.
+#Range: > 0
+archmageBloodOrbDaggerCapacity = 10000000
+

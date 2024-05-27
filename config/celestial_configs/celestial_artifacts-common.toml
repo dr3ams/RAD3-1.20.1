@@ -64,11 +64,89 @@
 	#Leech Scabbard: healing rate as percentage of damage dealt
 	#Range: 0.0 ~ 100.0
 	leechScabbardHealFactor = 0.25
+	#Iron Scabbard: interval in seconds for blade modifier effect
+	#Range: 0 ~ 100
+	ironScabbardBladeInterval = 10
+	#Leech Scabbard: interval in seconds for blade modifier effect
+	#Range: 0 ~ 100
+	leechScabbardBladeInterval = 10
+	#Titan Scabbard: interval in seconds for blade modifier effect
+	#Range: 0 ~ 100
+	titanScabbardBladeInterval = 7
+	#Titan Scabbard: damage bonus when effect applies
+	#Range: 0.0 ~ 100.0
+	titanScabbardDamageFactor = 0.75
+	#Twisted Scabbard: interval, in seconds, to lose 1 layer of Twist
+	#Range: 1 ~ 1000
+	twistedScabbardInterval = 5
+	#Twisted Scabbard: attack bonus per layer of Twist
+	#Range: 0.0 ~ 1.0
+	twistedScabbardAttack = 0.05
+	#Twisted Scabbard: attack bonus in End curse
+	#Range: 0.0 ~ 1.0
+	twistedScabbardAttackEnd = 0.1
+	#Twisted Scabbard: interval in seconds for blade modifier effect
+	#Range: 0 ~ 100
+	twistedScabbardBladeInterval = 5
+	#Twisted Scabbard: attack knock back
+	#Range: 0.0 ~ 100.0
+	twistedScabbardAtkKonck = 1.0
+	#Twisted Scabbard: attack speed bonus
+	#Range: 0.0 ~ 1.0
+	twistedScabbardAtkSpeed = 0.25
+	#Twisted Scabbard: heal rate penalty
+	#Range: 0.0 ~ 1.0
+	twistedScabbardHealRate = 0.5
 
 [bracelet]
-	#Hidden Bracelet: Stealth effect interval
+	#Hidden Bracelet: Hidden effect interval
+	#Range: 1 ~ 100000
+	hiddenBraceletInterval = 7
+	#Hidden Bracelet: Damage boost in hidden effect
+	#Range: 0.0 ~ 100.0
+	hiddenBraceletDamageBoost = 0.25
+	#Charming Bracelet: Armor bonus
+	#Range: > 0
+	charmingBraceletArmor = 2
+	#Charming Bracelet: Cool down for target transfer on hurt, in seconds
 	#Range: > 1
-	hiddenBraceletEffectDuration = 7
+	charmingBraceletCooldown = 10
+	#Charming Bracelet: Reputation bonus when you kill zombies
+	#Range: > 0
+	charmingBraceletReputationBonus = 1
+	#Scarlet Bracelet: remaining HP as percentage
+	#Range: 0.0 ~ 1.0
+	scarletMaxCost = 0.5
+	#Scarlet Bracelet: damage boost as percentage of target max health per health cost
+	#Range: 0.0 ~ 2.147483647E9
+	scarletBraceletDamageBonus = 0.01
+	#Scarlet Bracelet: max damage boost as percentage of target max health
+	#Range: 0.0 ~ 2.147483647E9
+	scarletBraceletDamageLimit = 0.5
+	#Spirit Bracelet: speed effect duration in seconds
+	#Range: > 1
+	spiritBraceletEffectDuration = 5
+	#Emerald Bracelet: crit rate bonus
+	#Range: 0.0 ~ 1.0
+	emeraldBraceletCritRate = 0.1
+	#Emerald Bracelet: luck requirement to gain effect
+	#Range: 0 ~ 100
+	emeraldBraceletLuckReq = 2
+	#Emerald Bracelet: absorption effect chance
+	#Range: 0.0 ~ 1.0
+	emeraldBraceletEffChance = 0.1
+	#Life Bracelet: regen rate bonus
+	#Range: 0.0 ~ 10.0
+	lifeBraceletRegenBonus = 0.15
+	#Precious Bracelet: block reach bonus
+	#Range: 0.0 ~ 10.0
+	preciousBraceletReach = 1.0
+	#Precious Bracelet: magic damage reduction
+	#Range: 0.0 ~ 1.0
+	preciousBraceletMagicReduction = 0.4
+	#Red Ruby Bracelet: fire damage reduction
+	#Range: 0.0 ~ 1.0
+	redRubyBraceletFireReduction = 0.9
 
 [charm]
 	#Destroyer Badge: attack bonus
@@ -314,19 +392,20 @@
 	#War Dead Badge: health threshold to trigger healing
 	#Range: 0.01 ~ 1.0
 	warDeadBadgeThreshold = 0.5
+	#Solar Magnet: damage bonus at day
+	#Range: 0.0 ~ 10.0
+	solarMagnetDamageBonus = 0.25
 
 [curse]
-	#When true, when the player enters the world, the accessory will be directly worn in the accessory bar
-	catastropheScrollStart = false
 	#Chaotic Curse: Damage increment percentage for explosion
 	#Range: 0.01 ~ 100.0
 	chaoticExplosionDamage = 0.5
 	#Chaotic Curse: Damage increment percentage for non-explosion
 	#Range: 0.01 ~ 100.0
-	chaoticOtherDamage = 0.5
+	chaoticOtherDamage = 0.25
 	#Chaotic Bless: Max damage reduction at zero health
 	#Range: 0.01 ~ 1.0
-	chaoticBlessDamageReduction = 0.5
+	chaoticBlessDamageReduction = 0.35
 	#Origin Curse: Durability threshold to trigger curse 
 	#Range: 0 ~ 1000000
 	originTriggerDurability = 30
@@ -344,16 +423,10 @@
 	lifeCurseHeal = 0.5
 	#Life Bless: Player max health bonus
 	#Range: 0.01 ~ 100.0
-	lifeBlessHealth = 1.0
+	lifeBlessHealth = 0.25
 	#Life Bless: Player healing bonus
 	#Range: 0.01 ~ 100.0
-	lifeBlessHeal = 0.25
-	#Truth Curse: minimum damage from mobs
-	#Range: 0.01 ~ 1.0
-	truthCurseThreshold = 0.1
-	#Truth Bless: maximum damage from mobs
-	#Range: 0.01 ~ 1.0
-	truthBlessThreshold = 0.35
+	lifeBlessHeal = 0.5
 	#Nihility Curse: negative effect duration
 	#Range: 0.01 ~ 100.0
 	nihilityCurseDuration = 1.0
@@ -365,13 +438,19 @@
 	nihilityBlessDuration = 5
 	#End Curse: damage threshold for negative effects
 	#Range: 0.01 ~ 1.0
-	endCurseThreshold = 0.2
+	endCurseThreshold = 0.35
 	#End Curse: negative effect duration
 	#Range: 1 ~ 1000
 	endCurseDuration = 5
 	#End Bless: healing as percentage of health lost
 	#Range: 0.01 ~ 1.0
-	endBlessHeal = 0.025
+	endBlessHeal = 0.1
+	#Truth Curse: minimum damage from mobs
+	#Range: 0.01 ~ 1.0
+	truthCurseMinDamage = 0.25
+	#Truth Bless: maximum damage from mobs
+	#Range: 0.01 ~ 1.0
+	truthBlessMaxDamage = 0.6
 
 [head]
 	#Abyss Core: effect cooldown
@@ -433,6 +512,9 @@
 	#Twisted Heart: toughness
 	#Range: 0.01 ~ 1.0
 	twistedHeartToughness = 0.2
+	#Greedy Heart: Xp pickup bonus
+	#Range: 0.0 ~ 100.0
+	greedyHeartXpBonus = 2.0
 
 [necklace]
 	#Star Necklace: Damage bonus from behind
@@ -501,6 +583,15 @@
 	#Hierloom Necklace: exp pickup bonus
 	#Range: 0.0 ~ 10.0
 	hierloomNecklaceExp = 0.1
+	#Ender Protector: armor toughness bonus
+	#Range: 0.0 ~ 100.0
+	enderProtectorToughness = 4.0
+	#Red Heart Necklace: max health bonus
+	#Range: 0.0 ~ 10.0
+	redHeartNecklaceMaxHealth = 0.05
+	#Spirit Necklace: projectile damage bonus
+	#Range: 0.0 ~ 10.0
+	spiritNecklaceProjectile = 0.25
 
 [pendant]
 	#Shadow Pendant: damage heal multiplier
@@ -540,4 +631,142 @@
 	#Traveller Scroll: effect duration in seconds
 	#Range: 1 ~ 10000
 	travelerEffectDuration = 15
+	#Twisted Scroll: chance for encountered mobs to duplicate
+	#Range: 0.0 ~ 1.0
+	twistedDuplicateChance = 0.6
+	#Traveller Scroll: speed bonus of all kinds
+	#Range: 0.0 ~ 10.0
+	travellerScrollSpeedBonus = 0.25
+
+[set]
+	#Sea God Set: damage reduction of water mob damage
+	#Range: 0.0 ~ 1.0
+	seaGodProtect = 0.35
+	#Sea God Set: damage bonus of trident melee
+	#Range: 0.0 ~ 10.0
+	seaGodMelee = 0.5
+	#Sea God Set: damage bonus of trident throw
+	#Range: 0.0 ~ 10.0
+	seaGodThrow = 0.75
+	#Emerald Set: Luck bonus
+	#Range: 0 ~ 10
+	emeraldLuck = 2
+	#Emerald Set: Crit rate bonus
+	#Range: 0.0 ~ 1.0
+	emeraldCrit = 0.15
+	#Spirit Set: time in seconds after pulling bow to apply pulling bonus
+	#Range: 0 ~ 100
+	spiritPullDuration = 3
+	#Spirit Set: damage bonus when shooting target from behind
+	#Range: 0.0 ~ 10.0
+	spiritBackShootBonus = 0.5
+	#Spirit Set: chance to inflict slowness effect
+	#Range: 0.0 ~ 1.0
+	spiritInflictChance = 0.5
+	#Spirit Set: slowness effect duration
+	#Range: 0 ~ 100
+	spiritEffectDuration = 3
+	#Spirit Set: slowness effect level (0 means Lv.I)
+	#Range: 0 ~ 10
+	spiritEffectAmplifier = 1
+	#Spirit Set: chance to dodge projectile
+	#Range: 0.0 ~ 1.0
+	spiritDodgeChance = 0.2
+	#Spirit Set: projectile damage reduction
+	#Range: 0.0 ~ 1.0
+	spiritProtect = 0.2
+
+[misc]
+	#Range: 0 ~ 10000
+	backtrackMirrorCooldown = 10
+	#Range: 0 ~ 10000
+	repentMirrorCooldown = 10
+	#If true, Catastrophe will be directly equipped onto new players
+	catastropheScrollStart = false
+
+[itemToggle]
+	gold_ring = true
+	amethyst_ring = true
+	diamond_ring = true
+	emerald_ring = true
+	flight_ring = true
+	netherite_ring = true
+	ring_of_life = true
+	thunder_ring = true
+	nether_fire = true
+	freeze_ring = true
+	war_dead_badge = true
+	undead_charm = true
+	destroyer_badge = true
+	twisted_brain = true
+	corrupt_badge = true
+	cursed_talisman = true
+	cursed_protector = true
+	cursed_totem = true
+	holy_talisman = true
+	holy_sword = true
+	angel_heart = true
+	angel_pearl = true
+	demon_curse = true
+	knight_shelter = true
+	soul_box = true
+	solar_magnet = true
+	gluttony_badge = true
+	magic_horseshoe = true
+	bearing_stamen = true
+	abyss_will_badge = true
+	sands_talisman = true
+	sacrificial_object = true
+	heart_of_revenge = true
+	twisted_heart = true
+	greedy_heart = true
+	demon_heart = true
+	traveler_scroll = true
+	sea_god_scroll = true
+	skywalker_scroll = true
+	twisted_scroll = true
+	emerald_bracelet = true
+	life_bracelet = true
+	precious_bracelet = true
+	red_ruby_bracelet = true
+	hidden_bracelet = true
+	scarlet_bracelet = true
+	charming_bracelet = true
+	spirit_bracelet = true
+	unowned_pendant = true
+	chaotic_pendant = true
+	shadow_pendant = true
+	star_necklace = true
+	cross_necklace = true
+	gallop_necklace = true
+	fang_necklace = true
+	precious_necklace = true
+	holy_necklace = true
+	heirloom_necklace = true
+	emerald_necklace = true
+	ender_protector = true
+	red_heart_necklace = true
+	lock_of_abyss = true
+	spirit_necklace = true
+	sea_god_crown = true
+	prayer_crown = true
+	abyss_core = true
+	guardian_eye = true
+	evil_eye = true
+	spirit_crown = true
+	magic_arrow_bag = true
+	flame_arrow_bag = true
+	spirit_arrow_bag = true
+	iron_scabbard = true
+	leech_scabbard = true
+	titan_scabbard = true
+	twisted_scabbard = true
+	catastrophe_scroll = true
+	chaotic_etching = true
+	origin_etching = true
+	life_etching = true
+	truth_etching = true
+	desire_etching = true
+	nihility_etching = true
+	end_etching = true
 

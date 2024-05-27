@@ -15,9 +15,6 @@ enableEntitySpecificDatapack = true
 	#Experience drop factor per level
 	#Range: 0.0 ~ 1000.0
 	expDropFactor = 0.025
-	#Armor rank per n level
-	#Range: 0 ~ 1000
-	armorFactor = 25
 	#Enchantment bonus per level.
 	#Note: use it only when Apotheosis is installed
 	#Otherwise too high enchantment level will yield no enchantment
@@ -72,6 +69,12 @@ enableEntitySpecificDatapack = true
 	allowPlayerAllies = true
 	#Keep traits on mobs tamed by player
 	allowTraitOnOwnable = true
+	#Chance per level for drowned to hold trident
+	#Range: 0.0 ~ 1000.0
+	drownedTridentChancePerLevel = 0.005
+	#Drop rate of hostility loot from mobs from spawner
+	#Range: 0.0 ~ 1.0
+	dropRateFromSpawner = 0.5
 
 [difficulty]
 	#Max player adaptive level

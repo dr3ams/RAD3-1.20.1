@@ -7,11 +7,7 @@
 	id: "2B8506307F0DA912"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "dimdungeons:textures/block/block_keyhole_front_lit2.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -19,11 +15,7 @@
 			y: 2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "dimdungeons:textures/block/block_keyhole_front_empty.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -31,11 +23,7 @@
 			y: 4.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "dimdungeons:textures/block/block_charger_top_3.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -43,11 +31,7 @@
 			y: 2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "dimdungeons:textures/block/block_charger_top_1.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -55,7 +39,7 @@
 			y: 4.0d
 		}
 	]
-	order_index: 4
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -68,29 +52,29 @@
 				"Besides challenges in room design the dungeons are also randomly populated with enemies and worthwhile loot! Many rooms with valuable treasure chests require solving a puzzle that will test your knowledge of Minecraft game mechanics."
 			]
 			id: "373262E31E3E4D5B"
-			rewards: [
-				{
-					id: "5C2D4295AB59621B"
-					item: "aquaculture:lockbox"
-					type: "item"
-				}
-				{
-					id: "1735164BA2D78666"
-					item: "randomite:randomite_ore"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0549D2EE17A5251A"
-				item: {
-					Count: 1b
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "dimdungeons:guide_book"
-					}
-				}
+			rewards: [{
+				id: "5C2D4295AB59621B"
+				item: "aquaculture:lockbox"
 				type: "item"
 			}]
+			tasks: [
+				{
+					disable_toast: true
+					id: "0549D2EE17A5251A"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "dimdungeons:guide_book"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A4034A4937136DF"
+					type: "checkmark"
+				}
+			]
 			x: 4.0d
 			y: 3.0d
 		}

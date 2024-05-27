@@ -27,6 +27,16 @@
 	"Enable Onboarding" = true
 	#The amount of slots the chest button system should seek when trying to figure out if a container should be eligible for them.
 	"Chest Button Slot Target" = 27
+	#Set this to false to not generate the Quark Programmer Art resource pack
+	"Generate Programmer Art" = true
+
+	[general.chest_button_offsets]
+		"Player X" = 0
+		"Player Y" = 0
+		"Top X" = 0
+		"Top Y" = 0
+		"Middle X" = 0
+		"Middle Y" = 0
 
 [categories]
 	automation = true
@@ -187,8 +197,8 @@
 
 	[building.leaf_carpet]
 		#This feature disables itself if any of the following mods are loaded:
-		# - immersive_weathering
 		# - woodworks
+		# - immersive_weathering
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -222,8 +232,8 @@
 		#Allowed values: [0,1]
 		"Fall Damage Multiplier" = 0.5
 		#This feature disables itself if any of the following mods are loaded:
-		# - environmental
 		# - goated
+		# - environmental
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -537,6 +547,8 @@
 	"Vexes Die With Their Masters" = true
 	"Villagers Follow Emeralds" = true
 	"Zombie Villagers On Normal" = true
+	"Magma Keeps Concrete Powder" = true
+	"Petals On Water" = true
 
 	[tweaks.automatic_recipe_unlock]
 		#A list of recipe names that should NOT be added in by default
@@ -545,6 +557,11 @@
 		"Disable Recipe Book" = true
 		#If enabled, advancements granting recipes will be stopped from loading, potentially reducing the lagspike on first world join.
 		"Filter Recipe Advancements" = true
+		#This feature disables itself if any of the following mods are loaded:
+		# - nerb
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
 
 	[tweaks.campfires_boost_elytra]
 		"Boost Strength" = 0.5
@@ -751,6 +768,7 @@
 	"No More Lava Pockets" = true
 	Permafrost = true
 	"Spiral Spires" = true
+	"Fallen Logs" = true
 
 	[world.ancient_wood]
 		"Ancient Fruit Gives Exp" = true
@@ -1062,15 +1080,15 @@
 			#Allowed values: [0,)
 			Rarity = 400
 			"Min Y Level" = 0
-			"Max Y Level" = 64
+			"Max Y Level" = 632
 			#Allowed values: [0,)
-			"Horizontal Size" = 36
+			"Horizontal Size" = 26
 			#Allowed values: [0,)
-			"Vertical Size" = 14
+			"Vertical Size" = 10
 			#Allowed values: [0,)
-			"Horizontal Variation" = 8
+			"Horizontal Variation" = 6
 			#Allowed values: [0,)
-			"Vertical Variation" = 6
+			"Vertical Variation" = 3
 
 			[world.corundum.generation_settings.dimensions]
 				"Is Blacklist" = false
@@ -1097,18 +1115,10 @@
 			"Is Blacklist" = false
 			Dimensions = ["minecraft:overworld"]
 
-	[world.glimmering_weald]
-		#Experimental, dont change if you dont know what you are doing. Depth min value from which biome will spawn. Decreasing will make biome appear more often
-		#Allowed values: [-2,2]
-		"Min Depth Range" = 1.5499999523162842
-		#Experimental, dont change if you dont know what you are doing. Depth max value until which biome will spawn. Increasing will make biome appear more often
-		#Allowed values: [-2,2]
-		"Max Weirdness Range" = 2.0
-
 	[world.monster_box]
 		#The chance for the monster box generator to try and place one in a chunk. 0 is 0%, 1 is 100%
 		#This can be higher than 100% if you want multiple per chunk.
-		"Chance Per Chunk" = 0.2
+		"Chance Per Chunk" = 0.1
 		"Min Y" = -50
 		"Max Y" = 0
 		"Min Mob Count" = 5
@@ -1310,6 +1320,18 @@
 				Biomes = ["minecraft:end_highlands"]
 				"Is Blacklist" = false
 
+	[world.fallen_logs]
+		#Requires the Hollow Logs module to be enabled too
+		"Use Hollow Logs" = true
+		Rarity = 5
+		"Sparse Biome Rarity" = 12
+		#Tags that define which biomes can have which wood types
+		"Biome Tags" = ["quark:has_fallen_acacia=minecraft:acacia_log", "quark:has_fallen_birch=minecraft:birch_log", "quark:has_fallen_cherry=minecraft:cherry_log", "quark:has_fallen_dark_oak=minecraft:dark_oak_log", "quark:has_fallen_jungle=minecraft:jungle_log", "quark:has_fallen_mangrove=minecraft:mangrove_log", "quark:has_fallen_oak=minecraft:oak_log", "quark:has_fallen_spruce=minecraft:spruce_log"]
+
+		[world.fallen_logs.dimensions]
+			"Is Blacklist" = false
+			Dimensions = ["minecraft:overworld"]
+
 [mobs]
 	Crabs = true
 	Forgotten = true
@@ -1407,7 +1429,7 @@
 			#Allowed values: [1,)
 			"Min Group Size" = 1
 			#Allowed values: [1,)
-			"Max Group Size" = 3
+			"Max Group Size" = 2
 
 			[mobs.shiba.spawn_config.biomes]
 
@@ -1474,7 +1496,7 @@
 			#Allowed values: [1,)
 			"Min Group Size" = 2
 			#Allowed values: [1,)
-			"Max Group Size" = 4
+			"Max Group Size" = 2
 
 			[mobs.toretoise.spawn_config.biomes]
 
@@ -1501,7 +1523,7 @@
 			#Allowed values: [1,)
 			"Min Group Size" = 1
 			#Allowed values: [1,)
-			"Max Group Size" = 3
+			"Max Group Size" = 2
 
 			[mobs.wraith.spawn_config.biomes]
 

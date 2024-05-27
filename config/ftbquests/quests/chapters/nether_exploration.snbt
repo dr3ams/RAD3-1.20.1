@@ -1,1150 +1,59 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "hexagon"
 	filename: "nether_exploration"
 	group: "241F1DC7B6D6E9D6"
-	icon: "minecraft:crimson_nylium"
-	id: "0B0F7E88D52F378E"
-	images: [
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "nethersdelight:block/crimson_fungus_colony_stage0"
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.0d
-			y: -6.4d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "nethersdelight:block/crimson_fungus_colony_stage3"
-			rotation: 0.0d
-			width: 1.0d
-			x: 6.0d
-			y: 0.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "nethersdelight:block/crimson_fungus_colony_stage1"
-			rotation: 0.0d
-			width: 1.0d
-			x: 9.0d
-			y: -2.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "nethersdelight:block/crimson_fungus_colony_stage0"
-			rotation: 0.0d
-			width: 1.0d
-			x: 9.5d
-			y: 0.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "nethersdelight:block/warped_fungus_colony_stage2"
-			rotation: 0.0d
-			width: 1.0d
-			x: 8.5d
-			y: 0.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "nethersdelight:block/warped_fungus_colony_stage0"
-			rotation: 0.0d
-			width: 1.0d
-			x: 4.5d
-			y: 0.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "supplementaries:textures/map_markers/nether_fortress.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 6.0d
-			y: -2.5d
-		}
-	]
+	icon: "minecraft:netherrack"
+	id: "1D0517C3BEA06389"
+	images: [{
+		height: 11.653846153846153d
+		image: "rad3:textures/misc/nebula.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 17.5d
+		y: 2.5d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			id: "4ABA0AF14F4830E5"
+			description: [""]
+			id: "2180E83A0BF99108"
 			rewards: [
 				{
-					id: "753897D7E79A3329"
+					id: "717522BAE4B4E0C0"
+					item: "minecraft:gold_ingot"
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					id: "3C7E5B828F4C583E"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_leaping"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43D736688F1921D7"
 					item: "aquaculture:lockbox"
 					type: "item"
 				}
-				{
-					id: "706DE69EA80B301C"
-					item: "minecraft:cake"
-					type: "item"
-				}
-				{
-					id: "23EAEB5BF0046E19"
-					item: "farmersdelight:melon_juice"
-					type: "item"
-				}
 			]
 			shape: "octagon"
-			size: 1.5d
+			size: 2.0d
+			subtitle: "Build, light and enter the nether portal"
 			tasks: [{
 				advancement: "minecraft:story/enter_the_nether"
 				criterion: ""
-				id: "40BE8B207EE5313B"
+				id: "3A28C5F6C5F31A32"
 				type: "advancement"
 			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "46986285004F8604"
-			rewards: [
-				{
-					id: "4B7E5C8736523516"
-					item: "farmersdelight:melon_juice"
-					type: "item"
-				}
-				{
-					id: "6BB95B4CAACB68A3"
-					item: "minecraft:golden_carrot"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "3DE0DFF246102EAC"
-				item: "minecraft:basalt"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["46986285004F8604"]
-			id: "0BC837BAE9BF5D1D"
-			rewards: [
-				{
-					id: "4BD734E66B5B5949"
-					item: "farmersdelight:melon_juice"
-					type: "item"
-				}
-				{
-					id: "2725679FB19F83B0"
-					item: "minecraft:golden_carrot"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "53D9BE3D344F0B59"
-				item: "minecraft:polished_basalt"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "5924C8AA2148FC68"
-			rewards: [
-				{
-					id: "290185B21B1A4BFC"
-					item: "farmersdelight:melon_juice"
-					type: "item"
-				}
-				{
-					id: "42AA588530A43F82"
-					item: "minecraft:golden_carrot"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0523357F29E2E5FD"
-				item: "minecraft:blackstone"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["5924C8AA2148FC68"]
-			id: "09D61D5FA721A63F"
-			rewards: [
-				{
-					id: "56C6ABA6E2A51CD6"
-					item: "farmersdelight:melon_juice"
-					type: "item"
-				}
-				{
-					id: "73274FAEE5D9F37A"
-					item: "minecraft:golden_carrot"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "46B34FF518F8D7F3"
-				item: "minecraft:polished_blackstone"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -6.5d
-		}
-		{
-			dependencies: ["5924C8AA2148FC68"]
-			id: "5D3072BDDCF2CCDA"
-			rewards: [
-				{
-					id: "27377B1B8BCCF8F0"
-					item: "farmersdelight:melon_juice"
-					type: "item"
-				}
-				{
-					id: "08CFFE9163063EDD"
-					item: "minecraft:golden_carrot"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "38C22498B35BA7C8"
-				item: "minecraft:gilded_blackstone"
-				type: "item"
-			}]
-			x: 3.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "67A339531A61A13F"
-			rewards: [
-				{
-					id: "5DCD112866E8B619"
-					item: "farmersdelight:melon_juice"
-					type: "item"
-				}
-				{
-					id: "18C5751A138E87B7"
-					item: "minecraft:golden_carrot"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "68AD8A8F335EF91F"
-				item: "minecraft:nether_gold_ore"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "40609C59E4FA4972"
-			rewards: [
-				{
-					id: "5086AD5FC25B34B3"
-					item: {
-						Count: 1b
-						id: "minecraft:potion"
-						tag: {
-							Potion: "minecraft:long_regeneration"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "63D77BB5509ADFF5"
-					item: "farmersdelight:melon_juice"
-					type: "item"
-				}
-				{
-					id: "18201286EAFF10E1"
-					item: "minecraft:golden_carrot"
-					type: "item"
-				}
-				{
-					id: "73121D8C1E6CD319"
-					item: {
-						Count: 1b
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "materials_monsters"
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "039546A5A8CD96B7"
-				item: "minecraft:shroomlight"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "0D02D42CC2FE1569"
-			rewards: [{
-				id: "3B44E17FF5FC683A"
-				item: {
-					Count: 1b
-					id: "minecraft:potion"
-					tag: {
-						Potion: "minecraft:healing"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "79564CBC68B5670B"
-				item: "minecraft:warped_nylium"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "3974D350BB9DAE3A"
-			rewards: [{
-				id: "009FBBDEBAFECCC2"
-				type: "custom"
-			}]
-			tasks: [{
-				id: "5D6A645089BC6306"
-				item: "minecraft:crimson_nylium"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "4111908B09AAFE7D"
-			rewards: [{
-				id: "2CF7A1A187C8AD39"
-				type: "custom"
-			}]
-			tasks: [{
-				id: "6378CFAE315823D3"
-				item: "minecraft:crimson_stem"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["4111908B09AAFE7D"]
-			id: "18DCBB7814DAF929"
-			rewards: [{
-				id: "7A0E6416286C9851"
-				type: "custom"
-			}]
-			tasks: [{
-				id: "7CC1B0852FA2DB7B"
-				item: "supplementaries:crimson_lantern"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["3974D350BB9DAE3A"]
-			id: "3547528CA228CD35"
-			rewards: [{
-				id: "7B31AD95B24EF082"
-				type: "custom"
-			}]
-			tasks: [{
-				id: "60F479E513B5144D"
-				item: "minecraft:crimson_fungus"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["4111908B09AAFE7D"]
-			id: "5F0EB14CE3831AE9"
-			rewards: [{
-				id: "11BF22A7EE7EDD98"
-				type: "custom"
-			}]
-			tasks: [{
-				id: "0A3BAD56B238BA49"
-				item: "floormats:connected/nether/connected_gilded_crimson_stem"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["4111908B09AAFE7D"]
-			id: "3A9F44F58CBB1632"
-			rewards: [{
-				id: "150B4073413E12DB"
-				type: "custom"
-			}]
-			tasks: [{
-				id: "07517DC6DA222C63"
-				item: "floormats:connected/nether/connected_crimson_stem"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["4111908B09AAFE7D"]
-			id: "29490C6065BD6AAC"
-			rewards: [
-				{
-					id: "386EE48756D87B73"
-					item: {
-						Count: 1b
-						id: "minecraft:potion"
-						tag: {
-							Potion: "minecraft:healing"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "077F7E12A3361B6F"
-					type: "custom"
-				}
-			]
-			tasks: [{
-				id: "546574C5FCB24D40"
-				item: "quark:crimson_chest"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -6.5d
-		}
-		{
-			dependencies: ["0F0AA12E6E9A4350"]
-			id: "3A0EF46E832AB5E4"
-			rewards: [
-				{
-					id: "2DE6F23F35670218"
-					type: "custom"
-				}
-				{
-					id: "0BF69E955C71CF52"
-					item: {
-						Count: 1b
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "materials_monsters"
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "3DBB1C9ECAB1C116"
-				item: "floormats:connected/nether/connected_warped_stem"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["0F0AA12E6E9A4350"]
-			id: "34C353266CF4D229"
-			rewards: [{
-				id: "68F9BDF6A8C5DF02"
-				type: "custom"
-			}]
-			tasks: [{
-				id: "7CD040E160309DD7"
-				item: "floormats:connected/nether/connected_gilded_warped_stem"
-				type: "item"
-			}]
-			x: -5.5d
+			x: 1.5d
 			y: 1.0d
-		}
-		{
-			dependencies: ["0F0AA12E6E9A4350"]
-			id: "43A18A19D4D9D8E2"
-			tasks: [{
-				id: "516723368B3D9747"
-				item: "quark:warped_chest"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["0F0AA12E6E9A4350"]
-			id: "04013B081700E4A9"
-			rewards: [{
-				id: "7F2986E56E2264DF"
-				type: "custom"
-			}]
-			tasks: [{
-				id: "60A827DB82BEB6E9"
-				item: "valhelsia_structures:warped_post"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "0F0AA12E6E9A4350"
-			rewards: [{
-				id: "5273057D3607AB4A"
-				item: "supplementaries:candy"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6D690E6928BE634E"
-				item: "minecraft:warped_stem"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["0F0AA12E6E9A4350"]
-			id: "39B4598D10583635"
-			rewards: [{
-				id: "2B7FAC4F31780F71"
-				type: "custom"
-			}]
-			tasks: [{
-				id: "43E060F4CBD7350E"
-				item: "minecraft:warped_door"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["0F0AA12E6E9A4350"]
-			id: "70BC62E7AF939546"
-			rewards: [
-				{
-					id: "3348A8D7D4B5F8A7"
-					type: "custom"
-				}
-				{
-					id: "3B4049A1C71A3B32"
-					item: {
-						Count: 1b
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "materials_monsters"
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "6233D945FF30CB8B"
-				item: "quark:warped_post"
-				type: "item"
-			}]
-			x: -7.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["4ABA0AF14F4830E5"]
-			hide_dependency_lines: true
-			id: "63871B96A2A11F52"
-			rewards: [{
-				id: "22A3270247FD2C99"
-				item: {
-					Count: 1b
-					id: "minecraft:potion"
-					tag: {
-						Potion: "minecraft:healing"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "3DE176441FA028F7"
-				item: "decorative_blocks:soul_brazier"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["4ABA0AF14F4830E5"]
-			hide_dependency_lines: true
-			id: "60EE45363E31B08B"
-			rewards: [
-				{
-					id: "33BA4FC62E58B08B"
-					item: "farmersdelight:melon_juice"
-					type: "item"
-				}
-				{
-					id: "3A8B818AF34A8042"
-					item: "minecraft:golden_carrot"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "31104495250E3539"
-				item: "minecraft:soul_campfire"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["7137B3D4835692E8"]
-			id: "4A163C73BCFE6474"
-			rewards: [
-				{
-					id: "049C63E7861E4DEA"
-					item: "farmersdelight:melon_juice"
-					type: "item"
-				}
-				{
-					id: "15EEEAE6CEAA853B"
-					item: "minecraft:golden_carrot"
-					type: "item"
-				}
-				{
-					id: "4FDB69572109C47D"
-					type: "custom"
-				}
-				{
-					id: "6DB3D917A8F87B71"
-					item: {
-						Count: 1b
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "materials_monsters"
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0BD2721107AED2B4"
-				item: "minecraft:respawn_anchor"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "7137B3D4835692E8"
-			rewards: [
-				{
-					id: "6F527B6D48A00F53"
-					item: {
-						Count: 1b
-						id: "minecraft:potion"
-						tag: {
-							Potion: "minecraft:healing"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "57A8B2FE62FEA9CC"
-					item: "farmersdelight:melon_juice"
-					type: "item"
-				}
-				{
-					id: "732A9F26810E2099"
-					item: "minecraft:golden_carrot"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "1ED4462D359C783F"
-				item: "minecraft:crying_obsidian"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["5F0EB14CE3831AE9"]
-			id: "7B2D427CAF90540B"
-			rewards: [{
-				id: "172A81EE1762714C"
-				type: "custom"
-			}]
-			tasks: [{
-				id: "2BD352363122F8A0"
-				item: "floormats:nether/crimson_stem/gilded_crimson_stem_floormat_item"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["3A9F44F58CBB1632"]
-			id: "10591673E1C1B10F"
-			rewards: [
-				{
-					id: "2810F1BECD402F74"
-					type: "custom"
-				}
-				{
-					id: "39A35A728AFD13A3"
-					item: {
-						Count: 1b
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "materials_monsters"
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "16C1E34D147314C4"
-				item: "floormats:nether/crimson_stem/crimson_stem_floormat_item"
-				type: "item"
-			}]
-			x: -3.5d
-			y: -7.5d
-		}
-		{
-			dependencies: ["34C353266CF4D229"]
-			id: "4F3F64911B9A47E4"
-			rewards: [{
-				id: "1000F8C6E3DE03D8"
-				type: "custom"
-			}]
-			tasks: [{
-				id: "5FC14B204FBABAD9"
-				item: "floormats:nether/warped_stem/gilded_warped_stem_floormat_item"
-				type: "item"
-			}]
-			x: -6.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["3A0EF46E832AB5E4"]
-			id: "1C41CF5FCC54E352"
-			rewards: [{
-				id: "67D99C447E344317"
-				type: "custom"
-			}]
-			tasks: [{
-				id: "5E817E7015907CF9"
-				item: "floormats:nether/warped_stem/warped_stem_floormat_item"
-				type: "item"
-			}]
-			x: -8.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["4111908B09AAFE7D"]
-			id: "17EE68968A44657A"
-			rewards: [{
-				id: "29C76C6BFCC88DD0"
-				type: "custom"
-			}]
-			tasks: [{
-				id: "7A826A100E53D9C8"
-				item: "minecraft:crimson_door"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "38E3B9FEC8AA6D51"
-			rewards: [
-				{
-					id: "38831E9812B7C615"
-					item: {
-						Count: 1b
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "ingots_basic"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6920CFC5557DF331"
-					item: "randomite:randomite_ore"
-					type: "item"
-				}
-				{
-					id: "19AFFE72D84D7030"
-					type: "custom"
-				}
-				{
-					id: "7F980359995C6522"
-					item: "minecraft:gold_ingot"
-					random_bonus: 5
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "298525A9BE1B7322"
-				item: "minecraft:ancient_debris"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "192679B4B812DFED"
-			rewards: [
-				{
-					id: "7F81777E298E3B2A"
-					item: "farmersdelight:melon_juice"
-					type: "item"
-				}
-				{
-					id: "109D1976CA7A846F"
-					item: "minecraft:golden_carrot"
-					type: "item"
-				}
-				{
-					id: "3E28231E224DCEBE"
-					item: {
-						Count: 1b
-						id: "minecraft:potion"
-						tag: {
-							Potion: "infernalexp:luminous"
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 5
-					id: "3B2ABB752B6471F1"
-					item: "minecraft:gold_nugget"
-					random_bonus: 64
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "47FB7EC89D3B860B"
-				item: "minecraft:quartz"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["192679B4B812DFED"]
-			id: "27DAA8AF156AFCCB"
-			rewards: [{
-				id: "7742F23A540C97F9"
-				item: {
-					Count: 1b
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "ingots_basic"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "66C89E9E6EAAB6D3"
-				item: "mining_dimension:teleporter"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["3D007BCE6C843D07"]
-			id: "5A302A15FA9774B4"
-			rewards: [
-				{
-					id: "48A781EDE9A8944A"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "7BEA39B220898A14"
-					item: {
-						Count: 1b
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "ingots_valuable"
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "1580B2B8188C3FA0"
-				item: "minecraft:nether_star"
-				type: "item"
-			}]
-			x: 10.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["5A302A15FA9774B4"]
-			description: ["A beacon is a block that projects a beam skyward, and can provide beneficial status effects to players in a radius around it when placed on top of a solid pyramid base constructed from iron, gold, diamond, emerald or netherite blocks."]
-			id: "30D48209ECED6B8B"
-			rewards: [{
-				id: "51DB0DDED8AB2D7F"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "rare_loot_crate"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "6A6D74F8242D99D0"
-				item: "minecraft:beacon"
-				type: "item"
-			}]
-			x: 13.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "2DF36A4C59310AB7"
-			rewards: [
-				{
-					id: "03E127BCF758580F"
-					item: {
-						Count: 1b
-						id: "roughtweaks:medkit"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 5
-					id: "48B51F823188CDD2"
-					item: "minecraft:gold_nugget"
-					random_bonus: 50
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			tasks: [{
-				count: 3L
-				id: "69EB4E8A2CBECC28"
-				item: "minecraft:wither_skeleton_skull"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["2DF36A4C59310AB7"]
-			description: [
-				"- loot has a 25% chance to be doubled"
-				""
-				"- experience from all sources is increased by 20%"
-				""
-				"- all monsters have their health and damage increased by 20%(at night the bonus is doubled to 40%)"
-				""
-				"- Illusioner spawn naturally during the night"
-				""
-				"- new Elite Skeleton spawn naturally during the night(shoots arrows extremely precisely)"
-				""
-				"- Piglins may spawn in a group"
-				""
-				"- Pillagers may spawn in a group"
-				""
-				"- Creepers on explosion may spawn more Creeperlings"
-				""
-				"- Slimes have a chance to inflict Slowness effect"
-				""
-				"- Wither Skeletons may spawn with the Wither Sword instead of the Stone Sword"
-				""
-				"- Undead Army now has 4 waves"
-				""
-				"- undead spawned during the Undead Army are twice as likely to have enchanted items"
-				""
-				"- undead spawned during the Undead Army are twice as likely to have armor pieces"
-				""
-				"- Undead Army gives 100% more experience for completing it"
-				""
-				"- whenever you die from Bleeding or are killed by a Zombie there spawns a special Zombie with your head"
-			]
-			id: "3D007BCE6C843D07"
-			rewards: [{
-				id: "3CCC16EA6E4A8D58"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "aquaculture:treasure_chest"
-				}
-				type: "item"
-			}]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "New mechanics for Expert Mode:"
-			tasks: [{
-				entity: "minecraft:wither"
-				id: "259EE186B9E4E3F1"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Now entering: Expert Mode!"
-			x: 7.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["00FACACE1AADA314"]
-			id: "641181016BC6E8FA"
-			rewards: [{
-				id: "06BA05200F48099C"
-				item: "minecraft:cake"
-				type: "item"
-			}]
-			tasks: [{
-				id: "644ED2DE7E420084"
-				item: "minecraft:blaze_rod"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["641181016BC6E8FA"]
-			id: "1C6B53E307B94F2B"
-			rewards: [
-				{
-					id: "3A6CF24705B51DD8"
-					item: "minecraft:cake"
-					type: "item"
-				}
-				{
-					id: "211B5BA8F42C9C49"
-					item: "minecraft:gold_ingot"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "76545626A1EB4AAF"
-					item: {
-						Count: 1b
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "potions"
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "271191E07F9E2EAD"
-				item: "minecraft:brewing_stand"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["641181016BC6E8FA"]
-			description: [
-				"Now you have needed materials to locate the End portal and face the Ender Dragon!"
-				""
-				"Are you sure you are ready?"
-			]
-			id: "216F05F4361A6D0F"
-			rewards: [
-				{
-					id: "29A3AC25E7CA7733"
-					item: "randomite:randomite_ore"
-					type: "item"
-				}
-				{
-					id: "62082B80C8BAD229"
-					type: "custom"
-				}
-				{
-					id: "44EF56DC7470E1F7"
-					item: "minecraft:gold_ingot"
-					random_bonus: 5
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "78A7178A8C763044"
-					item: "minecraft:ender_eye"
-					type: "item"
-				}
-				{
-					id: "6695E73DCC21B3CF"
-					item: "minecraft:blaze_powder"
-					type: "item"
-				}
-			]
-			x: 10.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["216F05F4361A6D0F"]
-			id: "744D7446D8F67623"
-			rewards: [{
-				id: "4F83A0D2CE6453EE"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "hexagon"
-			size: 2.0d
-			subtitle: "... and go to 'The End' quest chapter to view more End related quests"
-			tasks: [{
-				advancement: "minecraft:story/enter_the_end"
-				criterion: ""
-				id: "72B3A1EAC451D1AE"
-				type: "advancement"
-			}]
-			title: "Enter the End portal..."
-			x: 13.0d
-			y: -2.0d
 		}
 		{
 			dependencies: ["38D6932079FC5877"]
@@ -1179,11 +88,11 @@
 				item: "quark:soul_sandstone"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -4.5d
+			x: -2.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["4ABA0AF14F4830E5"]
+			dependencies: ["2180E83A0BF99108"]
 			id: "38D6932079FC5877"
 			rewards: [
 				{
@@ -1204,8 +113,8 @@
 				item: "minecraft:soul_sand"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -2.0d
+			x: -3.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["287AA5F2913FF7BA"]
@@ -1239,8 +148,8 @@
 				item: "minecraft:soul_lantern"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -4.0d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["287AA5F2913FF7BA"]
@@ -1263,8 +172,8 @@
 				item: "supplementaries:sconce_soul"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -2.0d
+			x: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["38D6932079FC5877"]
@@ -1286,37 +195,264 @@
 				item: "minecraft:soul_torch"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -2.5d
+			x: -4.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["40609C59E4FA4972"]
-			id: "234390770A83B9DF"
+			dependencies: ["2180E83A0BF99108"]
+			id: "3A874C0C28B98BF8"
+			rewards: [{
+				id: "1D020E124B4BEF57"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "010FC3931AFA3B6F"
+				item: "minecraft:crimson_stem"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3A874C0C28B98BF8"]
+			id: "62E4B0123943B783"
 			rewards: [
 				{
-					id: "0416FE58DC7EAA5F"
-					item: "minecraft:paper"
-					random_bonus: 8
+					id: "1300091DDCAEEC20"
+					item: "minecraft:gold_nugget"
+					random_bonus: 15
 					type: "item"
 				}
 				{
-					id: "008AB71E7A7E8B19"
-					item: "minecraft:slime_ball"
-					random_bonus: 3
-					type: "item"
-				}
-				{
-					id: "3A9F513F5B993A21"
-					item: "minecraft:emerald"
+					id: "2FF01AFF06125EE1"
+					item: "kubejs:nether_coin"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "0E801DC15DD330AD"
-				item: "supplementaries:crimson_lantern"
+				id: "3CCAEF914E36E30F"
+				item: "floormats:connected/nether/connected_gilded_crimson_stem"
 				type: "item"
 			}]
-			x: 2.5d
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3A874C0C28B98BF8"]
+			id: "4122C33D384CF98D"
+			rewards: [
+				{
+					id: "0DABB5DB54DEA387"
+					item: "minecraft:redstone"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "3BD9AA923C8C4229"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4C96051E1D9BCFB4"
+					item: "kubejs:nether_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4CB3FDE433ECFB90"
+				item: "floormats:connected/nether/connected_crimson_stem"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["399D0F4FA424B5A4"]
+			id: "6B2A287DAD092F9D"
+			rewards: [
+				{
+					id: "69B56B0D8DDECE00"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "1696187BFFC02FA0"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+				{
+					id: "6C91D8BCA9AF77ED"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C8C6781E62DCADA"
+					item: "kubejs:nether_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6D5571A0D8229608"
+				item: "minecraft:crimson_fungus"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2180E83A0BF99108"]
+			id: "399D0F4FA424B5A4"
+			rewards: [
+				{
+					id: "7A53463D52B96FB8"
+					item: "minecraft:ink_sac"
+					type: "item"
+				}
+				{
+					id: "06B734CEC247F1E7"
+					item: "aquaculture:box"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "434970DB0E6FFA49"
+				item: "minecraft:crimson_nylium"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2180E83A0BF99108"]
+			id: "536B521F13679850"
+			rewards: [{
+				id: "60F1882D2030BC3E"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10C1474929C0C813"
+				item: "minecraft:warped_stem"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["536B521F13679850"]
+			id: "40A34660A26BB44F"
+			rewards: [
+				{
+					id: "6B87399F1A2F26D8"
+					item: "minecraft:glowstone_dust"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "4A8B9467CE8CA25E"
+					item: "minecraft:gold_nugget"
+					random_bonus: 8
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1BC3510879D1728B"
+				item: "floormats:connected/nether/connected_gilded_warped_stem"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["536B521F13679850"]
+			id: "2B32BE7E83266F81"
+			rewards: [
+				{
+					id: "03218D916D12F3CD"
+					item: "minecraft:paper"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "1D74B21A995479F7"
+					item: "minecraft:iron_nugget"
+					random_bonus: 8
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B259D2E0B2DD716"
+				item: "floormats:connected/nether/connected_warped_stem"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["536B521F13679850"]
+			id: "39D411EBF412394A"
+			rewards: [
+				{
+					id: "6BB1871A6D604B80"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "34DE9B231AE35807"
+					item: "minecraft:gold_nugget"
+					random_bonus: 7
+					type: "item"
+				}
+				{
+					id: "4A7A801036687E29"
+					item: "kubejs:nether_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0F1EEF1EA840B4D9"
+				item: {
+					Count: 1b
+					id: "minecraft:warped_fungus_on_a_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2180E83A0BF99108"]
+			id: "2EA5028B44B954C5"
+			rewards: [
+				{
+					id: "68FB8B88F3EED9F6"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "7CA3024ECFFF338A"
+					item: "kubejs:nether_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "776956F9B3950832"
+				item: "minecraft:shroomlight"
+				type: "item"
+			}]
+			x: 3.0d
 			y: 4.0d
 		}
 		{
@@ -1333,8 +469,8 @@
 				item: "quark:blue_nether_bricks"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -3.5d
+			x: 2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7BF4F7FA6F5489B8"]
@@ -1362,11 +498,52 @@
 				item: "minecraft:red_nether_bricks"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.5d
+			x: 1.5d
+			y: -6.0d
 		}
 		{
-			dependencies: ["5924C8AA2148FC68"]
+			dependencies: ["2180E83A0BF99108"]
+			id: "1579F030A62BD23B"
+			rewards: [{
+				id: "10E2AF407A28DE7C"
+				item: "minecraft:glowstone_dust"
+				random_bonus: 5
+				type: "item"
+			}]
+			tasks: [{
+				id: "02247DDCF9983FB9"
+				item: "minecraft:blackstone"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1579F030A62BD23B"]
+			id: "758DB0E456768CA8"
+			rewards: [
+				{
+					id: "1049524E44880884"
+					item: "minecraft:paper"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "35F4FFF1FBD3007C"
+					item: "kubejs:nether_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "54981FEDDD097D2A"
+				item: "minecraft:polished_blackstone"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1579F030A62BD23B"]
 			id: "2E525D0F8BB84C24"
 			rewards: [
 				{
@@ -1391,11 +568,35 @@
 				item: "supplementaries:blackstone_tile"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -5.5d
+			x: 7.0d
+			y: -3.5d
 		}
 		{
-			dependencies: ["00FACACE1AADA314"]
+			dependencies: ["1579F030A62BD23B"]
+			id: "2134AF23429FA6E2"
+			rewards: [
+				{
+					id: "19C4BC460A893359"
+					item: "minecraft:gold_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "63BCCE9E82CBB51A"
+					item: "kubejs:nether_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7EA164EBF3CC075C"
+				item: "minecraft:gilded_blackstone"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2180E83A0BF99108"]
 			id: "7BF4F7FA6F5489B8"
 			rewards: [
 				{
@@ -1415,8 +616,158 @@
 				item: "minecraft:nether_bricks"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -3.0d
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2180E83A0BF99108"]
+			id: "7302E3D9693F151A"
+			rewards: [
+				{
+					id: "002C694BB905C989"
+					item: "minecraft:gunpowder"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					id: "44A14ED550752381"
+					item: "minecraft:redstone"
+					random_bonus: 8
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5587B31A70FD1DB9"
+				item: "minecraft:basalt"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7302E3D9693F151A"]
+			id: "1184F04280AB950F"
+			rewards: [
+				{
+					id: "3203377AC3696BA2"
+					item: "minecraft:paper"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					id: "3113D9533AACF7E8"
+					item: "minecraft:ink_sac"
+					type: "item"
+				}
+				{
+					id: "475271A6D9BEFDAC"
+					item: "kubejs:nether_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B406A383510EDBF"
+				item: "minecraft:polished_basalt"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2180E83A0BF99108"]
+			id: "6FDC0ADE3275BB7A"
+			rewards: [
+				{
+					id: "3C45E6F00C4FEC9E"
+					item: "kubejs:nether_coin"
+					type: "item"
+				}
+				{
+					id: "5BE9A4A3E9D58F18"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "4E1D29E47EF602F4"
+				type: "kill"
+				value: 5L
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6FDC0ADE3275BB7A"]
+			id: "56135589A8A4C819"
+			rewards: [
+				{
+					count: 2
+					id: "43EBB69BCAB5D8A3"
+					item: "kubejs:nether_coin"
+					type: "item"
+				}
+				{
+					id: "7C979BB6D7FB81E4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "3B4A715A425B428A"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "2E6DB2EF206CBEE4"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["56135589A8A4C819"]
+			id: "4A29297E9C755469"
+			rewards: [
+				{
+					count: 4
+					id: "736F2EED1CB6C5E7"
+					item: "kubejs:nether_coin"
+					type: "item"
+				}
+				{
+					id: "3570B7A976DD41A1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3E2C9D5B4086E320"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "68CCFD7F0DB8FF17"
+				type: "kill"
+				value: 20L
+			}]
+			x: -1.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["7BF4F7FA6F5489B8"]
@@ -1439,8 +790,8 @@
 				type: "kill"
 				value: 5L
 			}]
-			x: 4.5d
-			y: -4.0d
+			x: 2.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["6E15B29ADEF21112"]
@@ -1474,8 +825,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: 5.5d
-			y: -5.0d
+			x: 3.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3A6CB0263E300028"]
@@ -1510,12 +861,47 @@
 				type: "kill"
 				value: 40L
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -6.0d
 		}
 		{
-			dependencies: ["4ABA0AF14F4830E5"]
-			hide_dependency_lines: true
+			dependencies: ["2180E83A0BF99108"]
+			id: "43E414A246A05B0E"
+			rewards: [{
+				id: "579EEEC31051EDA6"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			subtitle: "Enter a Bastion Remnant"
+			tasks: [{
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+				id: "22EC98254ACE06F8"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["43E414A246A05B0E"]
+			id: "4890308F6A77A05C"
+			rewards: [{
+				id: "25313F141668BDED"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Loot a chest in a Bastion Remnant"
+			tasks: [{
+				advancement: "minecraft:nether/loot_bastion"
+				criterion: ""
+				id: "0F37DAFE4DE9CF39"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2180E83A0BF99108"]
 			id: "339674EB5D2A2852"
 			rewards: [{
 				id: "0D7EE29089F8B62D"
@@ -1529,12 +915,11 @@
 				id: "48C05B6ABB55D87B"
 				type: "advancement"
 			}]
-			x: 3.5d
-			y: -0.5d
+			x: 2.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["4ABA0AF14F4830E5"]
-			hide_dependency_lines: true
+			dependencies: ["2180E83A0BF99108"]
 			id: "21CEC05CBFEA8B0E"
 			rewards: [
 				{
@@ -1555,11 +940,286 @@
 				id: "3ED6FA0361D6D6B6"
 				type: "advancement"
 			}]
-			x: 2.0d
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["00FACACE1AADA314"]
+			id: "155E4E7BC087647A"
+			rewards: [
+				{
+					id: "685BB37A3BAD7949"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2353F6E9F1127871"
+					item: "kubejs:nether_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5043B99BF9B87153"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["155E4E7BC087647A"]
+			id: "6668401BF4304212"
+			rewards: [{
+				count: 5
+				id: "57A26A8D0FD349C1"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:water"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D930A359922D5E7"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["155E4E7BC087647A"]
+			id: "00000000000000BB"
+			rewards: [{
+				count: 3
+				id: "6A687A7DB06BE41D"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			subtitle: "Locate the End portal."
+			tasks: [{
+				id: "5D82777831D07A11"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2180E83A0BF99108"]
+			id: "3805D1BB400ED6FE"
+			rewards: [
+				{
+					id: "55FF34C88CB0DC2D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4D63B5EABF812A8B"
+					item: "minecraft:gold_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "169DFBA331053040"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2180E83A0BF99108"]
+			id: "717E0E4B8EE8DBFE"
+			rewards: [
+				{
+					id: "38F5B34E9BFF8ACC"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "51D3B4AD826BAEF1"
+					item: "kubejs:nether_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "5CD578C92F43E2F3"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["717E0E4B8EE8DBFE"]
+			id: "00000000000000C4"
+			rewards: [
+				{
+					id: "3A2CC45FB5BF739C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "0000000000000497"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "000000000000049D"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "00000000000004A3"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "00000000000004A9"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "14D7A761313041D0"
+					item: "kubejs:nether_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "4834851F1566671D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00000000000000C4"]
+			id: "3738B0DE6CC37452"
+			rewards: [
+				{
+					id: "1B63729398FBDCB9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "2CD58BCD0CD733F0"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0000000000000498"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "000000000000049E"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "00000000000004A4"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "00000000000004AA"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1E75963DDA2DE483"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "rare_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42EE04AFFCF9FF6F"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "36EA0616B1B6BBA4"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 9.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["4ABA0AF14F4830E5"]
+			dependencies: ["3738B0DE6CC37452"]
+			id: "75F630520D632862"
+			rewards: [
+				{
+					id: "481966AB751CF4E8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "0000000000000499"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "000000000000049F"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "00000000000004A5"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "00000000000004AB"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000000C3"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2180E83A0BF99108"]
 			id: "00FACACE1AADA314"
 			rewards: [{
 				id: "3DEEFBD9C9D04197"
@@ -1573,8 +1233,245 @@
 				id: "65E9058E644A8CA4"
 				type: "advancement"
 			}]
-			x: 5.0d
-			y: -2.0d
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["39D411EBF412394A"]
+			id: "47996E93799B3383"
+			rewards: [{
+				id: "16C022CF2C40B93F"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			subtitle: "Ride a Strider with a Warped Fungus on a stick"
+			tasks: [{
+				advancement: "minecraft:nether/ride_strider"
+				criterion: ""
+				id: "6593AE2B1DB95124"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00FACACE1AADA314"]
+			id: "62D0DB8C0B2BAE56"
+			subtitle: "Find a small nether dungeon"
+			tasks: [{
+				advancement: "betterdungeons:small_nether_dungeon"
+				criterion: ""
+				id: "222A5F9405FD8918"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["155E4E7BC087647A"]
+			id: "15BA69671841A79B"
+			rewards: [
+				{
+					id: "60624B9ED5985CA3"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "4BDC97DAE1FBE0C0"
+					item: "aquaculture:treasure_chest"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "21D001863B88C48D"
+				item: "minecraft:ender_chest"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["00000000000000BB"]
+			id: "77F17C15B698F3CC"
+			rewards: [
+				{
+					count: 3
+					id: "0000000000000278"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "5F9788776D205820"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			shape: "octagon_important"
+			size: 2.0d
+			subtitle: "Enter the End portal"
+			tasks: [{
+				advancement: "minecraft:story/enter_the_end"
+				criterion: ""
+				id: "128FAC40150681E1"
+				type: "advancement"
+			}]
+			title: "This is the End....."
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["77F17C15B698F3CC"]
+			icon: "minecraft:dragon_head"
+			id: "6CDC6733BD84ACA1"
+			rewards: [
+				{
+					id: "1A77CF7500E23858"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1F50061C97E06AA7"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "rare_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "178EE111694A84FC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6CDC6733BD84ACA1"]
+			id: "01D2A7528EF5B6A6"
+			rewards: [{
+				id: "71FB50142E3B5EC9"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Respawn the Ender Dragon"
+			tasks: [{
+				advancement: "minecraft:end/respawn_dragon"
+				criterion: ""
+				id: "33FC909BAC6F4424"
+				type: "advancement"
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6CDC6733BD84ACA1"]
+			id: "0A5F8CB7AF0AF2BA"
+			rewards: [{
+				id: "659680B7AB9C9200"
+				type: "xp"
+				xp: 200
+			}]
+			size: 2.0d
+			subtitle: "Escape the Island"
+			tasks: [{
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+				id: "56F1731DC44B96AD"
+				type: "advancement"
+			}]
+			x: 17.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["241AD7C07B239921"]
+			id: "30EB863CBF1958F8"
+			rewards: [
+				{
+					id: "524BCBA00B0AA3B0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "08C7D94F1A2391BF"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6DDF71DF91984D36"
+				item: "quark:dusky_myalite"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0A5F8CB7AF0AF2BA"]
+			id: "241AD7C07B239921"
+			rewards: [
+				{
+					id: "24F991AB17494B8B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "4EE88268F2524F21"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "316A7969B84AD847"
+				item: "quark:myalite"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["241AD7C07B239921"]
+			id: "583DEE4BEBD427A8"
+			rewards: [
+				{
+					id: "70E2CC5DCC237831"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "5B70E093B4500769"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "060E9AA8C980C0FC"
+				item: "quark:myalite_crystal"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["155E4E7BC087647A"]
+			description: ["Right click with the Estus Flask in your inventory to reinforce Estus Flask."]
+			id: "20C579D8989534F4"
+			tasks: [{
+				id: "061D75521E0BC031"
+				item: "bonfires:estus_shard"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
 		}
 	]
 	title: "&4Nether Exploration&r"

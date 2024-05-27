@@ -6,7 +6,20 @@ StartupEvents.registry('item', event => {
 	// Register new items here
 	// event.create('example_item').displayName('Example Item')
 	
-	event.create('roguefp').displayName('Rogue Fingerprint').tooltip('Used to choose your Specialization path')
+//processing
+event.create('hammer_iron', 'pickaxe').tier('iron').maxDamage(250)
+event.create('wooden_form').displayName('Wooden Form').maxDamage(64)
+event.create('stone_mortar').displayName('Stone Mortar').maxDamage(64)
+event.create('iron_mortar').displayName('Iron Mortar').maxDamage(220)
+event.create('dust_zinc').displayName('Zinc Dust')
+event.create('dust_andesite').displayName('Andesite Dust')
+event.create('dust_andesite_alloy').displayName('Andesite Alloy Dust')
+
+event.create('rick').displayName('Pet Coal').unstackable().burnTime(60000).rarity('EPIC').tooltip('Named Rick')	
+	
+		
+	
+event.create('roguefp').displayName('Rogue Fingerprint').tooltip('Used to choose your Specialization path')
 event.create('wizardfp').displayName('Wizard Fingerprint').tooltip('Used to choose your Specialization path')
 event.create('fighterfp').displayName('Fighter Fingerprint').tooltip('Used to choose your Specialization path')
 event.create('crafterfp').displayName('Crafter Fingerprint').tooltip('Used to choose your Specialization path')

@@ -1,25 +1,10 @@
-LootJS.modifiers(event => {
-    event.addBlockLootModifier(['occultism:silver_ore', 'occultism:silver_ore_deepslate'])
-        .replaceLoot('occultism:raw_silver', 'embers:raw_silver', true)
-        .replaceLoot('occultism:silver_ore', 'embers:silver_ore', true)
-        .replaceLoot('occultism:silver_ore_deepslate', 'embers:deepslate_silver_ore', true);
-})
+
 
 ServerEvents.recipes(event =>{
-    event.replaceInput({condition: true},'occultism:raw_silver' , 'embers:raw_silver')
-    event.replaceOutput({condition: true},'occultism:raw_silver' , 'embers:raw_silver')
-    event.replaceInput({condition: true},'occultism:silver_ingot' , 'embers:silver_ingot')
-    event.replaceOutput({condition: true},'occultism:silver_ingot' , 'embers:silver_ingot')
-    event.replaceInput({condition: true},'occultism:silver_nugget' , 'embers:silver_nugget')
-    event.replaceOutput({condition: true},'occultism:silver_nugget' , 'embers:silver_nugget')
-    event.replaceInput({condition: true},'occultism:silver_block' , 'embers:silver_block')
-    event.replaceOutput({condition: true},'occultism:silver_block' , 'embers:silver_block')
-    event.replaceInput({condition: true},'occultism:raw_silver_block' , 'embers:raw_silver_block')
-    event.replaceOutput({condition: true},'occultism:raw_silver_block' , 'embers:raw_silver_block')
-    event.replaceInput({condition: true},'occultism:silver_ore_deepslate' , 'embers:deepslate_silver_ore')
-    event.replaceOutput({condition: true},'occultism:silver_ore_deepslate' , 'embers:deepslate_silver_ore')
-    event.replaceInput({condition: true},'occultism:silver_ore' , 'embers:silver_ore')
-    event.replaceOutput({condition: true},'occultism:silver_ore' , 'embers:silver_ore')
+	// keeping this as an example for future use
+    //event.replaceInput({condition: true},'occultism:raw_silver' , 'embers:raw_silver')
+    //event.replaceOutput({condition: true},'occultism:raw_silver' , 'embers:raw_silver')
+
     event.blasting('embers:silver_ingot', '#forge:ores/silver')
     event.smelting('embers:silver_ingot', '#forge:ores/silver')
 })

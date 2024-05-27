@@ -1,0 +1,1752 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l2"
+	group: "241F1DC7B6D6E9D6"
+	icon: "l2hostility:weakness"
+	id: "7928F5D289CB8B3D"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["085E485E8091D543"]
+			description: ["This charm is a must-have for all adventurers. Equipping it will allow mobs to drop rare items related to the traits they have. You'll want to hunt fiery, moonwalk, and gravity mobs for blaze rods and dragon breath. Those are used to craft the next tier of looting charm. "]
+			id: "4AB1E47BD55C667F"
+			rewards: [{
+				id: "3AD57CB764CFFE7B"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1487D4DC87887C0E"
+				item: "l2hostility:charm_of_looting_1"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4AB1E47BD55C667F"]
+			description: ["This looting charm enables unique drops from mobs based on their traits. These rare drops are far more difficult to get without this charm."]
+			id: "4647DFF4EABDE353"
+			shape: "diamond"
+			tasks: [{
+				id: "7178D3E1EDD737B7"
+				item: "l2hostility:charm_of_looting_2"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4647DFF4EABDE353"]
+			description: [
+				"The Chaos Ingot is used to craft many powerful items. Curses, rings, charms, and more! You'll need a lot of these as you progress."
+				""
+				"Note: Unlike the other rare drops, the Essence of Wind doesn't drop with the Magical Looting Charm equipped. You'll need to move 200m/s with Wind Capturing bottles in your inventory. Possible ways to achieve this:"
+				" - Shooting yourself out of a TNT cannon"
+				" - Riptide trident + Elytra in the rain"
+				" - Getting knocked back by the Ender Dragon"
+				" - Holding a shield and getting rammed by a Ravager"
+			]
+			id: "2C8184EF50649550"
+			tasks: [{
+				id: "2FB8AE9C0F310FB3"
+				item: "l2hostility:chaos_ingot"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C8184EF50649550"]
+			description: [
+				"The first curse you should craft. It's required to progress further in the mod. Kill mobs for a small chance of obtaining the item form of a trait they have. These trait items are used in many crafting recipes."
+				""
+				"This curse also raises the difficulty, allowing mobs with more powerful traits to appear. Make sure you're ready! Enchant your armor and weapons, and craft Detector Glasses if you haven't already."
+				""
+				"Note: When an enchanted book appears in a crafting recipe, ANY ITEM with that enchantment can be used. So, for example, this curse can be crafted with a sword with looting and a pickaxe with silk touch."
+			]
+			id: "1887FFFDF2F18508"
+			shape: "octagon"
+			subtitle: "I want what you have"
+			tasks: [{
+				id: "6531E6FD09790BC7"
+				item: "l2hostility:curse_of_envy"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2C8184EF50649550"]
+			description: ["Stops the difficulty from rising, but also stops you from getting special loot. Basically, a pause button on progress."]
+			id: "2C7BE26B882BA97A"
+			shape: "octagon"
+			subtitle: "I want a break"
+			tasks: [{
+				id: "1108D3ABFFE642A6"
+				item: "l2hostility:curse_of_sloth"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2C8184EF50649550"]
+			description: ["Equipping the Chaotic Looting Charm enables even more unique drops. "]
+			id: "2F1B8FFAB949F4BF"
+			rewards: [{
+				count: 8
+				id: "433DB80AF4DACF60"
+				item: "l2complements:black_fire_charge"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "644933C86C6EA2E1"
+				item: "l2hostility:charm_of_looting_3"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1887FFFDF2F18508"]
+			description: ["This curse makes mobs drop Bottles of Curse based on their level. You are going to need A LOT of Bottles of Curse."]
+			id: "1EAB72EC26A866EF"
+			shape: "octagon"
+			subtitle: "MORE BOTTLES"
+			tasks: [{
+				id: "35A8A25BACED3031"
+				item: "l2hostility:curse_of_gluttony"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1887FFFDF2F18508"]
+			description: ["Gives you more loot, but raises the difficulty. Raising the difficulty can be good, since it lets mobs with new, powerful traits spawn. High risk, high reward."]
+			id: "37EFC27EA5A642AC"
+			shape: "octagon"
+			subtitle: "I want more"
+			tasks: [{
+				id: "41D4E55C7DFD707C"
+				item: "l2hostility:curse_of_greed"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1887FFFDF2F18508"]
+			description: ["This curse makes mobs drop all their armor and weapons. Very helpful for collecting tridents or items with Protection 4."]
+			id: "44E782F20A5B4CF2"
+			shape: "octagon"
+			subtitle: "Take off your armor~♪"
+			tasks: [{
+				id: "457615BB9A7F18B4"
+				item: "l2hostility:curse_of_lust"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6BB9F5B1E1AE4BDE"]
+			description: ["The fourth and final looting charm. Equipping it will make Eternium nuggets drop from mobs with Ragnarok and the Imagine Breaker to drop from mobs with Dispell 3."]
+			id: "6DF2981982ED9BAE"
+			shape: "diamond"
+			tasks: [{
+				id: "18CC932CB8D7B0BB"
+				item: "l2hostility:charm_of_looting_4"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1EAB72EC26A866EF"]
+			description: [
+				"To make a Miracle Ingot, you need Hostility Essence. The only way to get that is by burning Bottles of Curse in fire or lava. It's a 1/512 chance per burned bottle. That means, to craft items that need Miracle Ingots or Hostility Essence, you're going to need THOUSANDS of Bottles of Curse."
+				""
+				"Bottles of Curse can also be drunk to increase your difficulty. This is the only way to encounter some of the rarest and most powerful mob traits, such as Ragnarok."
+			]
+			id: "32C34F16A99784BF"
+			rewards: [{
+				id: "6C54F024FAED0846"
+				item: "l2hostility:hostility_essence"
+				type: "item"
+			}]
+			tasks: [{
+				count: 512L
+				id: "7A26D3694D0094F1"
+				item: "l2hostility:bottle_of_curse"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1887FFFDF2F18508"
+				"2F1B8FFAB949F4BF"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"These trait items are used to craft many advanced items. Any you don't need can be smelted into Miracle Powder, used in Miracle Ingots."
+				""
+				"They can also be used on mobs to give them that item's trait. This includes some pets!"
+			]
+			id: "19E3721B38A7E89F"
+			rewards: [{
+				count: 5
+				id: "5DE174B0D7B5E28B"
+				item: "l2hostility:miracle_powder"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "375857BCC9B9B79E"
+					item: "l2hostility:speedy"
+					type: "item"
+				}
+				{
+					id: "2CA042AB09CBE427"
+					item: "l2hostility:tank"
+					type: "item"
+				}
+				{
+					id: "35C59923FC43AFAA"
+					item: "l2hostility:protection"
+					type: "item"
+				}
+				{
+					id: "67D684C2223C5803"
+					item: "l2hostility:invisible"
+					type: "item"
+				}
+				{
+					id: "1C3597DFCD7CA354"
+					item: "l2hostility:fiery"
+					type: "item"
+				}
+				{
+					id: "06159EA58FB53341"
+					item: "l2hostility:regenerate"
+					type: "item"
+				}
+				{
+					id: "082C442F086DD7D1"
+					item: "l2hostility:weakness"
+					type: "item"
+				}
+				{
+					id: "3ABA345E0ED77235"
+					item: "l2hostility:slowness"
+					type: "item"
+				}
+				{
+					id: "6EEFAEF55C927C5D"
+					item: "l2hostility:poison"
+					type: "item"
+				}
+				{
+					id: "2A9298A5C87E5745"
+					item: "l2hostility:wither"
+					type: "item"
+				}
+				{
+					id: "23FB43BF203421E2"
+					item: "l2hostility:levitation"
+					type: "item"
+				}
+				{
+					id: "11A5191611FB6FD3"
+					item: "l2hostility:blindness"
+					type: "item"
+				}
+				{
+					id: "22B38629C1E1FA21"
+					item: "l2hostility:nausea"
+					type: "item"
+				}
+				{
+					id: "66EC1C1177C27F4F"
+					item: "l2hostility:freezing"
+					type: "item"
+				}
+				{
+					id: "6B30DEB442E59809"
+					item: "l2hostility:cursed"
+					type: "item"
+				}
+				{
+					id: "48CCF9E920EABA2C"
+					item: "l2hostility:soul_burner"
+					type: "item"
+				}
+			]
+			title: "Trait Items"
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"32C34F16A99784BF"
+				"19E3721B38A7E89F"
+			]
+			description: ["Miracle Ingots are used to craft the last two curses as well as other end-game gear."]
+			id: "6BB9F5B1E1AE4BDE"
+			tasks: [{
+				id: "5FFA445BDF4BAAA5"
+				item: "l2hostility:miracle_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6BB9F5B1E1AE4BDE"]
+			description: ["A powerful offensive curse. Grants immunity to several negative effects and gives a massive, scaling attack boost. You'll definitely need it."]
+			id: "43B44F0D48673B37"
+			shape: "octagon"
+			subtitle: "I'm gonna kill you"
+			tasks: [{
+				id: "11F9FF16D9172330"
+				item: "l2hostility:curse_of_wrath"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6BB9F5B1E1AE4BDE"]
+			description: ["An even more powerful offensive curse. Gives a scaling health and damage boost against mobs, but makes mob traits 300% more common. Don't underestimate that downside."]
+			id: "4D584EC8ED383E57"
+			shape: "octagon"
+			subtitle: "I'm the best"
+			tasks: [{
+				id: "0FF4129423628988"
+				item: "l2hostility:curse_of_pride"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6DF2981982ED9BAE"]
+			description: ["Eternium can either be crafted one nugget at a time, or looted from mobs with Ragnarok if you have the Miraculous Looting Charm equipped. It is used to craft end-game gear."]
+			id: "07FAEDB31A2025A5"
+			tasks: [{
+				id: "5B96EEFEE9E93A00"
+				item: "l2complements:eternium_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6DF2981982ED9BAE"]
+			description: ["Equipping this allows you to bypass all protective traits and deal damage to the mob directly. Having this equipped is the ONLY way to kill a mob with both Dispell and Dementor. After you get your first one, any extras can be smelted down into chaos ingots."]
+			id: "638E809A1EB154B2"
+			rewards: [{
+				id: "239D1A7BA8A4ED20"
+				item: "l2hostility:chaos_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E0B3E3ED3AF6301"
+				item: "l2hostility:imagine_breaker"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37EFC27EA5A642AC"]
+			description: ["Straight-up multiplies mob drops. You can even get overstacked items with it. Even higher risk for even higher reward!"]
+			id: "5B44C59226BC1BFE"
+			subtitle: "I want it all!"
+			tasks: [{
+				id: "6345EF91C80A9B6B"
+				item: "l2hostility:greed_of_nidhoggur"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["07FAEDB31A2025A5"]
+			description: ["Despite the similar-looking tooltip, the Abrahadabra is far more powerful than the Ring of Reflection. The Abrahadabra gives you immunity to (almost) all traits. Pulling, Repelling, Killer Aura, Ragnarok, they all do nothing to you. Reprint, though, still hurts."]
+			id: "500559C4EC48DAE9"
+			tasks: [{
+				id: "05CAF95AC3121999"
+				item: "l2hostility:abrahadabra"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["07FAEDB31A2025A5"]
+			description: ["Makes every mob as powerful as it can be for its level, but you'll always get all of its traits. High risk, high reward. Good for hunting down rare mob traits."]
+			id: "2447BA68A5E96A73"
+			tasks: [{
+				id: "41452B1B165DB2AA"
+				item: "l2hostility:abyssal_thorn"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2C7BE26B882BA97A"]
+			description: ["Resets the difficulty to minimum. It'll only raise from curios and dimension-specific difficulty. This curio lacks the downside of the Curse of Sloth, so you can still get special drops while you have it."]
+			id: "14CF2EF91064A780"
+			subtitle: "I don't want to fight"
+			tasks: [{
+				id: "1AFDFEA5A78D0F4C"
+				item: "l2hostility:divinity_light"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["07FAEDB31A2025A5"]
+			description: [
+				"This anvil will never break and can be right clicked in the inventory to use it."
+				""
+				"fun fact: it takes 558 anvils to craft this anvil"
+			]
+			id: "4720DBBDF38D580A"
+			rewards: [{
+				count: 2
+				id: "76247E0E23B1F17E"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			subtitle: "lol. lmao even."
+			tasks: [{
+				id: "67C48D6AC003956B"
+				item: "l2complements:eternal_anvil"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4AB1E47BD55C667F"]
+			id: "7CB2EC23265E714B"
+			tasks: [{
+				id: "7D1BA320342BBCD2"
+				item: "l2hostility:hostility_detector"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4AB1E47BD55C667F"]
+			description: ["Once you start seeing mobs above level 50, I highly recommend crafting and wearing a pair of these goggles. They'll stop invisible mobs from sneaking up on you. And they're just handy to have in general."]
+			id: "424EC719533E15F9"
+			rewards: [{
+				id: "2A803104AD99D1CD"
+				item: "nameless_trinkets:dragons_eye"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EB097F588A25867"
+				item: "l2hostility:detector_glasses"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F1B8FFAB949F4BF"]
+			description: ["When an enchantment is applied to this book in an anvil, it creates two of that enchanted book. You'll need this later on."]
+			id: "1BEBBCBDDF2D0138"
+			tasks: [{
+				id: "3EF1C561C6D9F946"
+				item: "l2hostility:book_of_reprint"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1BEBBCBDDF2D0138"]
+			description: ["This book can be renamed in an anvil to the ID of any non-treasure enchantment (so no Mending or Frost Walker, for example) to turn it into that enchanted book. Can be very helpful, if expensive."]
+			id: "5FDE0BD13FFD0089"
+			tasks: [{
+				id: "61F724EE27A52A9F"
+				item: "l2hostility:book_of_omniscience"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Totemic gold is obtained from smelting Totems of Undying. It can also be looted from mobs with Regenerating 3+ with a Chaotic Looting Charm."
+				""
+				"Totemic gold armor is only about as good as iron, but it heals you when it loses durability. This pairs well with the Life-Mending enchantment. If you add the Hardened enchantment, you won't heal as much."
+			]
+			icon: {
+				Count: 1b
+				id: "l2complements:totemic_gold_chestplate"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "774FA7C8E9128CE7"
+			rewards: [
+				{
+					count: 3
+					id: "22A1BA84593EF78E"
+					item: "l2complements:life_essence"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2C73A61DBD4D480A"
+					item: "l2complements:totemic_apple"
+					type: "item"
+				}
+				{
+					id: "0BFA5DF07564039F"
+					item: "l2complements:enchanted_totemic_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "107352A16C2A0639"
+					item: {
+						Count: 1b
+						id: "l2complements:totemic_gold_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3650F5C27EB333CA"
+					item: {
+						Count: 1b
+						id: "l2complements:totemic_gold_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BD010BD2220BE5A"
+					item: {
+						Count: 1b
+						id: "l2complements:totemic_gold_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2539B1C12EA2589D"
+					item: {
+						Count: 1b
+						id: "l2complements:totemic_gold_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Totemic Gold Armor"
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			description: ["Totemic gold tools and weapons heal you when they lose durability. They also deal more damage to undead."]
+			icon: {
+				Count: 1b
+				id: "l2complements:totemic_gold_pickaxe"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+			id: "22A646931FC362B3"
+			rewards: [
+				{
+					count: 2
+					id: "5ED42FAFAC7E5D5B"
+					item: "l2complements:life_essence"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5E65712F6B6FC09F"
+					item: "l2complements:totemic_carrot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "57A56502DFAB8628"
+					item: "l2complements:enchanted_totemic_carrot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6DBE8A095C4A54FC"
+					item: {
+						Count: 1b
+						id: "l2complements:totemic_gold_sword"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E67554F5B2801D0"
+					item: {
+						Count: 1b
+						id: "l2complements:totemic_gold_axe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D65D60676D3C689"
+					item: {
+						Count: 1b
+						id: "l2complements:totemic_gold_shovel"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43ACE5E2C3708A4F"
+					item: {
+						Count: 1b
+						id: "l2complements:totemic_gold_pickaxe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4175649FD1126C56"
+					item: {
+						Count: 1b
+						id: "l2complements:totemic_gold_hoe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Totemic Gold Tools"
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6BB9F5B1E1AE4BDE"]
+			description: ["Pairs well with the Ring of Divinity."]
+			id: "66DA3907930D748C"
+			tasks: [{
+				id: "635B7BE001EED842"
+				item: "l2hostility:divinity_cross"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Shulkerate can be crafted from iron, shulker shells, and shulker bullets in a bottle. It can also be looted from mobs with both Protected and Tanky as long as you have a Magical Looting Charm equipped."
+				""
+				"Shulkerate armor is as good as diamond, but it's extremely durable."
+			]
+			icon: {
+				Count: 1b
+				id: "l2complements:shulkerate_chestplate"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "6DEAF842B0E4079B"
+			tasks: [
+				{
+					id: "0902B520CC095AA6"
+					item: {
+						Count: 1b
+						id: "l2complements:shulkerate_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C165E164808965B"
+					item: {
+						Count: 1b
+						id: "l2complements:shulkerate_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "618EFC0E0DB54390"
+					item: {
+						Count: 1b
+						id: "l2complements:shulkerate_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D531047FF583972"
+					item: {
+						Count: 1b
+						id: "l2complements:shulkerate_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Shulkerate Armor"
+			x: -14.0d
+			y: 3.0d
+		}
+		{
+			description: ["Shulkerate tools are extremely durable and have a slightly longer reach than most tools."]
+			icon: {
+				Count: 1b
+				id: "l2complements:shulkerate_pickaxe"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+			id: "5828F847AEC344A1"
+			tasks: [
+				{
+					id: "5B74E2F044A6AAF8"
+					item: {
+						Count: 1b
+						id: "l2complements:shulkerate_sword"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7EB399CE0C0C3BD7"
+					item: {
+						Count: 1b
+						id: "l2complements:shulkerate_axe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7342F9D1BF9A0D04"
+					item: {
+						Count: 1b
+						id: "l2complements:shulkerate_shovel"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46FF8402489F9C35"
+					item: {
+						Count: 1b
+						id: "l2complements:shulkerate_pickaxe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2105639322808160"
+					item: {
+						Count: 1b
+						id: "l2complements:shulkerate_hoe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Shulkerate Tools"
+			x: -14.0d
+			y: 4.0d
+		}
+		{
+			description: ["Riptide on land! Fall damage protection not included."]
+			id: "0F8CD94C12F70AB6"
+			tasks: [{
+				id: "457999D6F409903F"
+				item: {
+					Count: 1b
+					id: "l2hostility:ring_of_ocean"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.0d
+		}
+		{
+			description: ["Stops you from getting obliterated in one hit. But watch out for the second hit."]
+			id: "4C9A4D021457F777"
+			tasks: [{
+				id: "5BC9F641E51A557D"
+				item: {
+					Count: 1b
+					id: "l2hostility:ring_of_life"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 4.0d
+		}
+		{
+			description: ["Erases all potion effects, both good and bad."]
+			id: "4B0874B6C46A9363"
+			tasks: [{
+				id: "305266B59F923567"
+				item: {
+					Count: 1b
+					id: "l2hostility:ring_of_divinity"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 3.0d
+		}
+		{
+			description: ["Tired of getting blinded, weakened, poisoned, withered, nauseated, frozen, and slowed? This ring is for you!"]
+			id: "5B05AD90640A64D0"
+			tasks: [{
+				id: "06B664BA3235FF04"
+				item: {
+					Count: 1b
+					id: "l2hostility:ring_of_reflection"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 4.0d
+		}
+		{
+			description: ["Very handy for preventing Endermen or other teleporting mobs from teleporting away from you."]
+			id: "0DAB16C5E892D9A0"
+			tasks: [{
+				id: "08D0012ECCD28F37"
+				item: {
+					Count: 1b
+					id: "l2hostility:ring_of_incarceration"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 5.0d
+		}
+		{
+			description: ["Pairs well with Totemic Gold equipment or the Hardened enchantment, but not both at once!"]
+			id: "0A4A56A37F9F870E"
+			tasks: [{
+				id: "6178AF00FF5A983F"
+				item: {
+					Count: 1b
+					id: "l2hostility:ring_of_corrosion"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 5.0d
+		}
+		{
+			description: ["Contrary to the tooltip, heals you for .1% of your health per second. Better than nothing, I guess."]
+			id: "7B7FA58532DDA106"
+			tasks: [{
+				id: "6D6452AA06F7DA61"
+				item: {
+					Count: 1b
+					id: "l2hostility:ring_of_healing"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Poseidite is made out of smelted tridents. The Curse of Lust is very helpful for making trident-wielding drowned always drop their tridents."
+				""
+				"Poseidite armor is about as good as diamond armor on land. In the water, it becomes arguably the best armor in the pack, giving huge boosts to speed and defense. If you plan on wearing the full set DO NOT put Depth Strider on the boots. The Dolphin's Grace effect combined with Depth Strider will make it impossible to control your player in the water."
+			]
+			icon: {
+				Count: 1b
+				id: "l2complements:poseidite_chestplate"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "5C62136D3A02E4F4"
+			rewards: [{
+				id: "18EE1D7963B43DF9"
+				item: "celestial_artifacts:sea_god_scroll"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "308451A1B1C6A7CF"
+					item: {
+						Count: 1b
+						id: "l2complements:poseidite_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "093F99E2969ACF36"
+					item: {
+						Count: 1b
+						id: "l2complements:poseidite_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F56993011B8A627"
+					item: {
+						Count: 1b
+						id: "l2complements:poseidite_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1285B31F20DEE9AF"
+					item: {
+						Count: 1b
+						id: "l2complements:poseidite_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Poseidite Armor"
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			description: ["Poseidite weapons and tools are about as good as diamond on land. In the water, they receive huge boosts to speed and damage. They also deal extra damage to aquatic mobs and mobs damaged by water."]
+			icon: {
+				Count: 1b
+				id: "l2complements:poseidite_pickaxe"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+			id: "301FF317265D6162"
+			rewards: [{
+				id: "66ED7578151A8025"
+				item: "celestial_artifacts:sea_god_crown"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2390E74060862535"
+					item: {
+						Count: 1b
+						id: "l2complements:poseidite_sword"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A90B0546EF9C07B"
+					item: {
+						Count: 1b
+						id: "l2complements:poseidite_axe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05685602777C3712"
+					item: {
+						Count: 1b
+						id: "l2complements:poseidite_shovel"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FBC2EFBDFE0D21B"
+					item: {
+						Count: 1b
+						id: "l2complements:poseidite_pickaxe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BEB3CCB3C11A714"
+					item: {
+						Count: 1b
+						id: "l2complements:poseidite_hoe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Poseidite Tools"
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Sculkium can be crafted from copper, wither bone shards, and echo shards. It can also be looted from mobs with Tanky and Speedy 3+ with a Chaotic Looting Charm."
+				""
+				"Sculkium armor has high defense, durability, and gives bonus health and attack speed. Wearing even one piece will give immunity to several negative effects and knockback. Wearing a full set will make you silent, undetectable by sculk sensors or the Warden."
+			]
+			icon: {
+				Count: 1b
+				id: "l2complements:sculkium_chestplate"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "78FABABB88DAE33C"
+			rewards: [
+				{
+					count: 4
+					id: "73805C9B94BC3607"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "5CE3782A8A0C88D6"
+					item: "minecraft:disc_fragment_5"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7504F111EF2CB68F"
+					item: {
+						Count: 1b
+						id: "l2complements:sculkium_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A41928523134CDA"
+					item: {
+						Count: 1b
+						id: "l2complements:sculkium_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4888EE234DAD2084"
+					item: {
+						Count: 1b
+						id: "l2complements:sculkium_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72754C37B7D7AB34"
+					item: {
+						Count: 1b
+						id: "l2complements:sculkium_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Sculkium Armor"
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			description: ["Sculkium tools have high durability and break all blocks at the same speed."]
+			icon: {
+				Count: 1b
+				id: "l2complements:sculkium_pickaxe"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+			id: "49999EA3508F4288"
+			rewards: [
+				{
+					count: 4
+					id: "7BFC87B2CAE9E390"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "32DF0ACD0DE5582D"
+					item: "minecraft:disc_fragment_5"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "430EE60C8E7292A0"
+					item: {
+						Count: 1b
+						id: "l2complements:sculkium_sword"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1DBC18D4B0694349"
+					item: {
+						Count: 1b
+						id: "l2complements:sculkium_axe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28D98BA209BB8092"
+					item: {
+						Count: 1b
+						id: "l2complements:sculkium_shovel"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74508D2B9FA2BBC8"
+					item: {
+						Count: 1b
+						id: "l2complements:sculkium_pickaxe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "670C299651E6BE57"
+					item: {
+						Count: 1b
+						id: "l2complements:sculkium_hoe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Sculkium Tools"
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			description: ["Eternium armor has incredible armor toughness and knockback resistance. It is unbreakable. The durability is just for show."]
+			icon: {
+				Count: 1b
+				id: "l2complements:eternium_chestplate"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "0DA142972824CF3A"
+			rewards: [{
+				id: "2838807164BB7FEC"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4DAD3A192395CEC8"
+					item: {
+						Count: 1b
+						id: "l2complements:eternium_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B3F2D942C465612"
+					item: {
+						Count: 1b
+						id: "l2complements:eternium_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6161B44A1ED0007C"
+					item: {
+						Count: 1b
+						id: "l2complements:eternium_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C54E8B863D5BA93"
+					item: {
+						Count: 1b
+						id: "l2complements:eternium_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Eternium Armor"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			description: ["Eternium tools are unbreakable."]
+			icon: {
+				Count: 1b
+				id: "l2complements:eternium_pickaxe"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+			id: "4D31EAAF28AD8953"
+			rewards: [{
+				id: "53D27FF5C7947FEB"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "374AAA9EAD1A56EB"
+					item: {
+						Count: 1b
+						id: "l2complements:eternium_sword"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43395F3BD9C054EA"
+					item: {
+						Count: 1b
+						id: "l2complements:eternium_axe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "607755D62E33C9D3"
+					item: {
+						Count: 1b
+						id: "l2complements:eternium_shovel"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41C3A99A599A7982"
+					item: {
+						Count: 1b
+						id: "l2complements:eternium_pickaxe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "283AB0166B42D0C8"
+					item: {
+						Count: 1b
+						id: "l2complements:eternium_hoe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Eternium Tools"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6BB9F5B1E1AE4BDE"]
+			description: ["This item automatically unseals items that have been sealed by the Ragnarok trait. It is immune to being sealed."]
+			id: "45806027148F0D54"
+			tasks: [{
+				id: "7C0C7994EDB744B6"
+				item: {
+					Count: 1b
+					id: "l2hostility:pocket_of_restoration"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6BB9F5B1E1AE4BDE"]
+			description: ["Spam click to your heart's content. Doesn't work on swords or axes because of Better Combat, but with a high enough attack boost, even a pickaxe or fist can become a deadly weapon."]
+			id: "28D8095FD4371A77"
+			subtitle: "Return to 1.8"
+			tasks: [{
+				id: "1322FD4CBD91D50D"
+				item: "l2hostility:platinum_star"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["19E3721B38A7E89F"]
+			id: "46A0376C04C60574"
+			tasks: [{
+				id: "4AF881FFAF30DC0A"
+				item: {
+					Count: 1b
+					id: "l2hostility:witch_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C8184EF50649550"]
+			description: ["Adds 2 more head slots. Now you can wear your Detector Glasses and your Night Vision Goggles at the same time! Can be stacked infinitely to add even MORE head slots if you want that for some reason."]
+			id: "0ABFF4AB2E27B025"
+			tasks: [{
+				id: "6EB35F3195E844A5"
+				item: "l2hostility:oddeyes_glasses"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C8184EF50649550"]
+			description: ["Adds 3 more back slots. Also stacks infinitely. Now you can wear every Aether cape at once!"]
+			id: "1359529A03001723"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A199F955C1F5010"
+				table_id: 1273250903021309944L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "3624D21DEC0547A4"
+				item: "l2hostility:triple_strip_cape"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C8184EF50649550"]
+			description: ["Adds 5 rings slots and 1 charm slot. Very helpful due to the sheer number of rings and charms in the pack."]
+			id: "36AF8F60D4EFD9ED"
+			tasks: [{
+				id: "38BBB7F626FC0844"
+				item: "l2hostility:infinity_glove"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["366659E50333BC5A"]
+			description: [
+				"- &4Mob strength&r progress with player. Player &nwould not&r encounter absurdly strong mobs at the beginning"
+				""
+				"- &4Mob strength&r are dependent on a lot of factors, instead of just being randomly strong."
+				""
+				"- Reasonable progression: &cIncrease&r difficulty only when you kill strong enemies. &2Decrease&r difficulty when you die."
+				""
+				"- There is a mechanic to make a region safe. You don't need to worry about strong mobs around your base"
+				""
+				"- 28 curio items to make you stronger and 2 enchantments to help fighting the mobs."
+				""
+				"There is a &4level&r associated with all enemies. &4Level&r is determined by the &3dimension&r, &2biome&r, position, &6nearby player difficulty&r, and &centity type&r. As the &4level&r becomes higher, mobs have higher health and deal higher damage, and higher chance to have strong traits."
+				""
+				"There is a difficulty level assigned to chunk sections and players. Killing mobs to gain chunk and player difficulty, and die to lose player difficulty. Use &9Hostility Detector&r to know about current difficulty, use &5Hostility Orb&r to make a chunk section permanently not spawning mobs with level."
+			]
+			icon: "kubejs:skull"
+			id: "085E485E8091D543"
+			subtitle: "Stronger mobs with special abilities."
+			tasks: [{
+				id: "6F34BE3F91ED8359"
+				type: "checkmark"
+			}]
+			title: "Hostile World"
+			x: -17.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["085E485E8091D543"]
+			description: [
+				"&2Regular Traits&r"
+				""
+				"- &3Fiery:&r Mobs can ignite you when attacked or attack you."
+				"- &9Invisible:&r Mobs and their armors/weapons will become invisible. Use Detector Glass to see them."
+				"- &3Protection:&r Mobs get damage resistance effect"
+				"- &9Regenerate:&r Mobs will regenerate health slowly."
+				"- &9Speedy:&r Mobs will move at absurd speed"
+				"- &3Tank:&r Mobs will gain much more health and armor"
+				"- &9Shulker:&r Shoot shulker bullets every few seconds. It will not inflict levitation, but will inflict - other potion effects the mob carries."
+				"- &3Gravity:&r mobs and players around it will have higher gravity, falling faster and jumping lower"
+				"- &9Moonwalk:&r mobs and players around it will have lower gravity, falling slower and jumping higher"
+				"- &3Counter Strike:&r when the mob is attacked, after it lands on ground, it will attempt to dash-strike back, launching itself toward target."
+				""
+				"&n&4See more on the next page ->&r&r"
+				"{@pagebreak}"
+				"&5Advanced Traits&r"
+				""
+				"&oThese traits only appear after Lv.100&r"
+				""
+				"- &3Adaptive:&r Mobs will get memorize and get used to damage types. Higher level allows mobs to memorize more damage types"
+				"- &9Reflect:&r Mobs will reflect direct physical damage. Try to use arrow or magic."
+				"- &3Grenade:&r Shoot explosive bullet every few seconds after the previous bullet disappears."
+				"- &9Growth:&r Slime only. Slime will grow larger when healed to full health. Growth III slime can be very large."
+				"- &3Split:&r Mobs will split into 2 with half level and same trait (with 1 level lower split trait) when killed. Subsequent mobs won't drop anything."
+				"- &9Drain:&r Mobs will remove random positive potion effects, and increase duration of negative effects on target. Deals more damage if target has negative effects."
+				"- &3Reprint:&r When hit target, copy target equipment enchantments. Increase damage based on target total enchantment points"
+				"- &9Corrosion:&r Appears only after Lv.200. When mob hit target, it will consume target equipment durability based on lost durability. Use Hardened enchantment to mitigate this effect."
+				"- &3Erosion:&r Appears only after Lv.200. When mob hit target, it will consume target equipment durability based on remaining durability. Use Hardened enchantment to mitigate this effect."
+				""
+				"&n&4See more on the next page ->&r&r"
+				"{@pagebreak}"
+				"&ePotion Traits&r"
+				""
+				"- &5Blinder&r - Blindness"
+				"- &bDistorter&r - Nausea"
+				"- &5Levitater&r - Levitation"
+				"- &bStray&r - Slowness"
+				"- &5Weakener&r - Weakness"
+				"- &bPoisonous&r - Poison"
+				"- &5Withering&r - Wither"
+				"- &bCursed&r (from L2Complements)"
+				"- &5Soul Burner&r (from L2Complements)"
+				"- &bFreezing&r (From L2Complements)"
+				""
+				"&n&4See more on the next page ->&r&r"
+				"{@pagebreak}"
+				"&6Legendary Traits&r"
+				"&oThese traits will only be unlocked when you kills a mob with Rank 5 traits, and appear only after Lv.100&r"
+				""
+				"- &4Dementor:&r Mobs will be immune to physical attack, and their damage will bypass armor"
+				"- &6Dispelling:&r Mobs will be immune to magic attack, and their damage will bypass magical protections. They can also disable enchantments on your equipments for a short time"
+				"- &4Teleport:&r Mobs can teleport to avoid physical damage. Try to use magic."
+				"- &6Repelling:&r Mobs will repel you. Use full set insulation enchantment to reduce the force."
+				"- &4Pulling:&r Mobs will pull you toward it. Use full set insulation enchantment to reduce the force."
+				"- &6Undying:&r Mobs will respawn indefinitely. Try to use Cursed potion or weapons that can inflict Cursed effect"
+				"- &4Killer Aura:&r Appears only after Lv.300. Mobs will deal damage to nearby targets every few seconds, range indicated by particle effects."
+				"- &6Ragnarok:&r Appears only after Lv.600. When mob hit target, mob will \"seal\" some equipments or curios on target, which can be unsealed by hold using the item for a few seconds."
+			]
+			icon: "kubejs:backstab"
+			id: "544FFD8F98E83BED"
+			tasks: [{
+				id: "0F89D372B785514B"
+				title: "Mob Traits"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: 0.5d
+		}
+	]
+	title: "Hostile World"
+}

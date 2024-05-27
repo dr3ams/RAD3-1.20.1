@@ -254,7 +254,7 @@
 			#Range: 1.0 ~ 64.0
 			Maximum = 32.0
 
-		#The ticks cooldown after shooting. This is halved in Hard difficulty
+		#The ticks cooldown after shooting. This is reduced by 33% in Hard difficulty
 		[Skeletons."Skeleton Shoot"."Shooting Cooldown"]
 			#Range: 0.0 ~ 1.7976931348623157E308
 			Minimum = 50.0
@@ -365,7 +365,7 @@
 	"Enable Movement" = true
 	#Makes mobs be able to leap over a few blocks.
 	"Enable Leap" = true
-	#Mobs will run away from exploding creepers / TNT. Use the entity type tag enhancedai:no_run_from_explosion to blacklist them
+	#Mobs will run away from exploding creepers / TNT. Use the entity type tag enhancedai:can_run_from_explosion to whitelist them
 	"Enable Avoid Explosions" = false
 	#Mobs can flee or attack Wardens. Use the entity type tag enhancedai:ignore_warden_interaction to blacklist mobs.
 	"Enable Warden Interacting" = false
@@ -414,7 +414,7 @@
 		#Range: 0.0 ~ 4.0
 		"Swim Speed Addition Multiplier" = 2.5
 
-	#Mobs will run away from exploding creepers / TNT. Use the entity type tag enhancedai:no_run_from_explosion to blacklist them
+	#Mobs will run away from exploding creepers / TNT. Use the entity type tag enhancedai:can_run_from_explosion to whitelist them
 	[Mobs."Avoid Explosions"]
 		#Speed multiplier when the mob runs from explosions and it's within 7 blocks from him.
 		#Range: 0.0 ~ 10.0
@@ -440,7 +440,7 @@
 	[Mobs."Miner Mobs"]
 		#Chance for a mob in the entity type tag enhancedai:can_be_miner to spawn with the miner ability
 		#Range: 0.0 ~ 1.0
-		"Miner Chance" = 0.07
+		"Miner Chance" = 0.025
 		#Mobs with the miner AI will mine only if they have any tool in the off-hand
 		"Can mine with tool only" = true
 		#Mobs with the miner AI will mine only if their off-hand tool can mine targeted blocks (e.g. zombies with shovels will not mine stone). Blocks that require no tool (e.g. planks) will be minable regardless of proper tool or not.
@@ -456,7 +456,7 @@
 		#Range: 0 ~ 128
 		"Max Distance" = 0
 		#Mobs with Miner AI will not be able to break tile entities
-		"Blacklist Tile Entities" = false
+		"Blacklist Tile Entities" = true
 		#Multiplier for the time a mob takes to break blocks. E.g. with this set to 2, mobs will take twice the time to mine a block.
 		#Range: 0.0 ~ 128.0
 		"Time to break multiplier" = 1.0
@@ -470,7 +470,7 @@
 	#Prevent players from abusing some game mechanics to stop mobs. Only mobs in the entity type tag enhancedai:can_use_anti_cheese will be affected by this feature.
 	[Mobs.Anti-Cheese]
 		#If true, 'Enemies' will no longer be able to be Boated and Minecarted.
-		"Prevent Boating & Minecarting" = false
+		"Prevent Boating & Minecarting" = true
 		#If true, 'Enemies' will break boats or minecarts if boated or minecarted.
 		"Break trapping vehicles" = true
 
@@ -575,7 +575,7 @@
 		"Equip Fishing Rod Chance" = 0.07
 		#Chance for a fisher mob to steal an item from the players' inventory instead of reeling the player.
 		#Range: 0.0 ~ 1.0
-		"Hook Inventory Chance" = 0.4
+		"Hook Inventory Chance" = 0.0
 
 		#How fast will a mob reel in the grappled entity (or if the hook is on the ground).
 		[Mobs."Fisher Mobs"."Reel in ticks"]
@@ -706,16 +706,16 @@
 	[Creepers."Creeper Swell"]
 		#Percentage chance for a Creeper to keep walking while exploding. This is overwritten if the creeper has the beta property.
 		#Range: 0.0 ~ 1.0
-		"Walking Fuse Chance" = 0.1
+		"Walking Fuse Chance" = 0.25
 		#Speed modifier when a walking fuse creeper is swelling.
 		#Range: -1.0 ~ 64.0
 		"Walking Fuse Speed Modifier" = -0.5
 		#Percentage chance for a Creeper to ignore walls while targeting a player. This means that a creeper will be able to explode if it's in the correct range from a player even if there's a wall between.
 		#Range: 0.0 ~ 1.0
-		"Ignore Walls Chance" = 0.65
-		#Breaching creepers will try to open an hole in the wall to let mobs in.
+		"Ignore Walls Chance" = 1.0
+		#Breaching creepers will try to open a hole in the wall to let mobs in.
 		#Range: 0.0 ~ 1.0
-		"Breach Chance" = 0.075
+		"Breach Chance" = 0.0
 		#Disables the creeper feature that makes them start swelling when falling.
 		"Disable falling swelling" = true
 		#If true creepers will ignite if damaged by an explosion.
@@ -723,16 +723,18 @@
 		#Beta creepers when exploding will walk around the target, like the creepers in pre-1.2.
 		#Range: 0.0 ~ 1.0
 		"Beta Creeper Chance" = 0.35
+		#If IguanaTweaks Reborn is installed and Explosion Overhaul is enabled, Angry creeper will deal more knockback and break more blocks and breaching creepers will break more blocks
+		"IguanaTweaks Reborn Integration" = true
 
 		[Creepers."Creeper Swell".Launch]
 			#Launching creepers will try ignite and throw themselves at the player.
 			#Range: 0.0 ~ 1.0
-			Chance = 0.05
+			Chance = 0.1
 			#If true, Launching Creepers emit particles
 			Particles = true
 			#The inaccuracy of the launching creeper in Normal difficulty, easy is increased, hard is decreased.
 			#Range: 0.0 ~ 8.0
-			inaccuracy = 0.5
+			inaccuracy = 0.87
 			#The explosion radius of launching creepers. Set to 0 to not change. (Overrides Cena creepers explosion radius)
 			#Range: 0 ~ 127
 			"Explosion Radius" = 2
@@ -740,7 +742,7 @@
 		[Creepers."Creeper Swell"."Angry Creeper"]
 			#Chance for a creeper to spawn angry
 			#Range: 0.0 ~ 1.0
-			Chance = 0.03
+			Chance = 0.01
 			#If true, Angry Creeper emits particles
 			Particles = true
 			#If true, Angry Creeper will have a name
@@ -748,7 +750,7 @@
 			#When ignited, Angry Creeper will not stop swelling
 			"Force Explosion" = true
 			#If true, Angry Creeper explosion will generate fire
-			"Generates fire" = false
+			"Generates fire" = true
 			#Explosion power of Angry Creeper
 			#Range: 0.0 ~ 12.0
 			"Explosion power" = 4.0
@@ -756,9 +758,7 @@
 			"Forced Explosion" = true
 			#The special sound effect that the Angry Creeper plays
 			#Allowed Values: NONE, CENA, WTF_BOOM
-			Sounds = "WTF_BOOM"
-			#If IguanaTweaks Reborn is installed and Explosion Overhaul is enabled, Angry creeper will deal more knockback and break more blocks
-			"IguanaTweaks Reborn Integration" = true
+			Sounds = "CENA"
 
 [Blazes]
 	#Make blazes fire faster/more fireballs. Only mobs in enhancedai:change_blaze_attack entity type tag are affected by this feature.
@@ -854,19 +854,19 @@
 	[Bugs.Silverfish]
 		#Chance (1 in x every 2 ticks) for a silverfish to merge with a stone block. Vanilla is 10.
 		#Range: > 1
-		"Chance to merge with stone" = 10
+		"Chance to merge with stone" = 20
 		#Vanilla is 20.
 		#Range: > 0
-		"Ticks after hurt to wake up friends" = 10
+		"Ticks after hurt to wake up friends" = 30
 		#In vanilla everytime a silverfish is woken up there is 1 in 2 chance to stop waking up more silverfish. This changes the 1 in x chance.
 		#Range: > 1
-		"Chance to stop waking up friends" = 10
+		"Chance to stop waking up friends" = 3
 		#Y range on which a hurt silverfish checks for infested stone to break. Vanilla is 5.
 		#Range: 1 ~ 32
-		"Vertical Wake up Range" = 5
+		"Vertical Wake up Range" = 4
 		#XZ range on which a hurt silverfish checks for infested stone to break. Vanilla is 10.
 		#Range: 1 ~ 32
-		"Horizontal Wake up Range" = 10
+		"Horizontal Wake up Range" = 8
 
 [Warden]
 	"Enable Warden Attacking" = true
@@ -874,8 +874,8 @@
 	[Warden."Warden Attacking"]
 		#Multiplies max distance from target where warden can use the sonic boom. Vanilla is 15 horizontal and 20 vertical.
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-		"Sonic Boom range multiplier" = 3.0
+		"Sonic Boom range multiplier" = 2.0
 		#Multiplies the distance at which the darkness effect is applied.
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-		"Darkness range multiplier" = 2.0
+		"Darkness range multiplier" = 1.0
 

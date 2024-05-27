@@ -153,70 +153,6 @@
 	# 
 	#-----------------------------------------------------
 	#
-	# How long in seconds this music disc will be playing music.
-	# This is used for the server to know when to make Allays stop dancing when Jukebox stops playing this music disc.
-	#
-	#Range: 0 ~ 1000000
-	musicDiscTimeLengthFlightOfTheBumblebee = 84
-	# 
-	#-----------------------------------------------------
-	#
-	# How long in seconds this music disc will be playing music.
-	# This is used for the server to know when to make Allays stop dancing when Jukebox stops playing this music disc.
-	#
-	#Range: 0 ~ 1000000
-	musicDiscTimeLengthHoneyBee = 216
-	# 
-	#-----------------------------------------------------
-	#
-	# How long in seconds this music disc will be playing music.
-	# This is used for the server to know when to make Allays stop dancing when Jukebox stops playing this music disc.
-	#
-	#Range: 0 ~ 1000000
-	musicDiscTimeLengthBeeLaxingWithTheHomBees = 300
-	# 
-	#-----------------------------------------------------
-	#
-	# How long in seconds this music disc will be playing music.
-	# This is used for the server to know when to make Allays stop dancing when Jukebox stops playing this music disc.
-	#
-	#Range: 0 ~ 1000000
-	musicDiscTimeLengthLaBeeDaLoca = 176
-	# 
-	#-----------------------------------------------------
-	#
-	# How long in seconds this music disc will be playing music.
-	# This is used for the server to know when to make Allays stop dancing when Jukebox stops playing this music disc.
-	#
-	#Range: 0 ~ 1000000
-	musicDiscTimeLengthBeeWareOfTheTemple = 371
-	# 
-	#-----------------------------------------------------
-	#
-	# How long in seconds this music disc will be playing music.
-	# This is used for the server to know when to make Allays stop dancing when Jukebox stops playing this music disc.
-	#
-	#Range: 0 ~ 1000000
-	musicDiscTimeLengthKnowing = 251
-	# 
-	#-----------------------------------------------------
-	#
-	# How long in seconds this music disc will be playing music.
-	# This is used for the server to know when to make Allays stop dancing when Jukebox stops playing this music disc.
-	#
-	#Range: 0 ~ 1000000
-	musicDiscTimeLengthRadiance = 106
-	# 
-	#-----------------------------------------------------
-	#
-	# How long in seconds this music disc will be playing music.
-	# This is used for the server to know when to make Allays stop dancing when Jukebox stops playing this music disc.
-	#
-	#Range: 0 ~ 1000000
-	musicDiscTimeLengthLife = 86
-	# 
-	#-----------------------------------------------------
-	#
 	# Whether the Crystalline Flower block will eat any item entity that touches the block's collision box in the world
 	#
 	crystallineFlowerConsumeItemEntities = true
@@ -264,6 +200,12 @@
 	#
 	#Range: -5 ~ 5
 	crystallineFlowerExtraTierCost = 0
+	# 
+	#-----------------------------------------------------
+	#
+	# Allow Bee Queen to respawn in Throne Pillar when located with fresh Throne Honey Compass.
+	#
+	beeQueenRespawning = true
 
 ["Essence Options"]
 	# 
@@ -376,4 +318,84 @@
 	#
 	#Range: 0 ~ 1000000
 	continuityEssenceCooldown = 48000
+
+["Music Disc Options"]
+	# 
+	#-----------------------------------------------------
+	#
+	# Whether Wandering Traders can have rare trade for Bumblezone Music Discs
+	#
+	allowWanderingTraderMusicDiscsTrades = true
+	# 
+	#-----------------------------------------------------
+	#
+	# How long in seconds this music disc will be playing music.
+	# This is used for the server to know when to make Allays stop dancing when Jukebox stops playing this music disc.
+	#
+	#Range: 0 ~ 1000000
+	musicDiscTimeLengthFlightOfTheBumblebee = 84
+	# 
+	#-----------------------------------------------------
+	#
+	# How long in seconds this music disc will be playing music.
+	# This is used for the server to know when to make Allays stop dancing when Jukebox stops playing this music disc.
+	#
+	#Range: 0 ~ 1000000
+	musicDiscTimeLengthHoneyBee = 216
+	# 
+	#-----------------------------------------------------
+	#
+	# How long in seconds this music disc will be playing music.
+	# This is used for the server to know when to make Allays stop dancing when Jukebox stops playing this music disc.
+	#
+	#Range: 0 ~ 1000000
+	musicDiscTimeLengthBeeLaxingWithTheHomBees = 300
+	# 
+	#-----------------------------------------------------
+	#
+	# How long in seconds this music disc will be playing music.
+	# This is used for the server to know when to make Allays stop dancing when Jukebox stops playing this music disc.
+	#
+	#Range: 0 ~ 1000000
+	musicDiscTimeLengthLaBeeDaLoca = 176
+	# 
+	#-----------------------------------------------------
+	#
+	# How long in seconds this music disc will be playing music.
+	# This is used for the server to know when to make Allays stop dancing when Jukebox stops playing this music disc.
+	#
+	#Range: 0 ~ 1000000
+	musicDiscTimeLengthBeeWareOfTheTemple = 371
+	# 
+	#-----------------------------------------------------
+	#
+	# How long in seconds this music disc will be playing music.
+	# This is used for the server to know when to make Allays stop dancing when Jukebox stops playing this music disc.
+	#
+	#Range: 0 ~ 1000000
+	musicDiscTimeLengthKnowing = 251
+	# 
+	#-----------------------------------------------------
+	#
+	# How long in seconds this music disc will be playing music.
+	# This is used for the server to know when to make Allays stop dancing when Jukebox stops playing this music disc.
+	#
+	#Range: 0 ~ 1000000
+	musicDiscTimeLengthRadiance = 106
+	# 
+	#-----------------------------------------------------
+	#
+	# How long in seconds this music disc will be playing music.
+	# This is used for the server to know when to make Allays stop dancing when Jukebox stops playing this music disc.
+	#
+	#Range: 0 ~ 1000000
+	musicDiscTimeLengthLife = 86
+	# 
+	#-----------------------------------------------------
+	#
+	# How long in seconds this music disc will be playing music.
+	# This is used for the server to know when to make Allays stop dancing when Jukebox stops playing this music disc.
+	#
+	#Range: 0 ~ 1000000
+	musicDiscTimeAFirstALast = 652
 
