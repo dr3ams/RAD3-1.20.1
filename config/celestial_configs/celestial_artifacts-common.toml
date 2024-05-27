@@ -402,10 +402,10 @@
 	chaoticExplosionDamage = 0.5
 	#Chaotic Curse: Damage increment percentage for non-explosion
 	#Range: 0.01 ~ 100.0
-	chaoticOtherDamage = 0.5
+	chaoticOtherDamage = 0.25
 	#Chaotic Bless: Max damage reduction at zero health
 	#Range: 0.01 ~ 1.0
-	chaoticBlessDamageReduction = 0.5
+	chaoticBlessDamageReduction = 0.35
 	#Origin Curse: Durability threshold to trigger curse 
 	#Range: 0 ~ 1000000
 	originTriggerDurability = 30
@@ -423,10 +423,10 @@
 	lifeCurseHeal = 0.5
 	#Life Bless: Player max health bonus
 	#Range: 0.01 ~ 100.0
-	lifeBlessHealth = 1.0
+	lifeBlessHealth = 0.25
 	#Life Bless: Player healing bonus
 	#Range: 0.01 ~ 100.0
-	lifeBlessHeal = 0.25
+	lifeBlessHeal = 0.5
 	#Nihility Curse: negative effect duration
 	#Range: 0.01 ~ 100.0
 	nihilityCurseDuration = 1.0
@@ -438,16 +438,16 @@
 	nihilityBlessDuration = 5
 	#End Curse: damage threshold for negative effects
 	#Range: 0.01 ~ 1.0
-	endCurseThreshold = 0.2
+	endCurseThreshold = 0.35
 	#End Curse: negative effect duration
 	#Range: 1 ~ 1000
 	endCurseDuration = 5
 	#End Bless: healing as percentage of health lost
 	#Range: 0.01 ~ 1.0
-	endBlessHeal = 0.025
+	endBlessHeal = 0.1
 	#Truth Curse: minimum damage from mobs
 	#Range: 0.01 ~ 1.0
-	truthCurseMinDamage = 0.3
+	truthCurseMinDamage = 0.25
 	#Truth Bless: maximum damage from mobs
 	#Range: 0.01 ~ 1.0
 	truthBlessMaxDamage = 0.6
