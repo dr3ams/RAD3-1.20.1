@@ -279,6 +279,13 @@
 		}
 		{
 			dependencies: ["0000000000000017"]
+			description: [
+				"There are a lot of &9decorations&r available to decorate your humble home."
+				""
+				"You can search in JEI by mod:"
+				"- @chipped"
+				"- @Builder"
+			]
 			id: "7343C10D6EEAA88B"
 			rewards: [
 				{
@@ -873,26 +880,18 @@
 		{
 			dependencies: ["35A027D4B827463C"]
 			description: [
-				"There are a lot of &9decorations&r available to decorate your humble home."
 				""
-				"You can search in JEI by mod:"
-				"- @chipped"
-				"- @Macaw"
-				"- @Builder"
-				"- @handcrafted"
-				"- @workshop"
-				"- @furniture"
-				"- @lights"
+				"{ \"text\": \"Click here to jump to it\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5E204AB79DAAB52D\" } }"
 			]
 			id: "52AB2CD360AC4DDE"
 			shape: "gear_important"
 			size: 1.2d
+			subtitle: "Visit 'Useful Gadgets' chapter to find more about different gadgets"
 			tasks: [{
-				id: "41FDDDBDC2EB9C63"
-				item: "chipped:carpenters_table"
-				type: "item"
+				id: "70FC8985C5CDA82E"
+				type: "checkmark"
 			}]
-			title: "&9Decorating"
+			title: "&9Useful Gadgets"
 			x: -5.75d
 			y: -2.25d
 		}
@@ -937,37 +936,21 @@
 			y: -3.75d
 		}
 		{
-			dependencies: ["18AC39AD9539D884"]
-			id: "1F988A67F250159F"
-			tasks: [{
-				id: "336A43E20C6C69BD"
-				item: "minecraft:blast_furnace"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -4.5d
-		}
-		{
 			dependencies: ["3A7C49FC5AA2927F"]
-			id: "18AC39AD9539D884"
+			id: "1F988A67F250159F"
 			tasks: [
 				{
-					id: "492E4F21FA247D83"
-					item: {
-						Count: 1b
-						id: "kubejs:hammer_iron"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "64E420126C019B04"
+					id: "4D9728682750EE3F"
 					item: "create:iron_sheet"
 					type: "item"
 				}
+				{
+					id: "3590645E6C82B9B4"
+					item: "minecraft:blast_furnace"
+					type: "item"
+				}
 			]
+			title: "Blast Furnace"
 			x: 7.0d
 			y: -4.5d
 		}
@@ -994,13 +977,18 @@
 					type: "item"
 				}
 				{
-					id: "258DC7B57C3DF3F8"
+					id: "57CA9E833F7DA295"
+					item: "kubejs:dust_andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "4760CF60C2619DFB"
 					item: "create:andesite_alloy"
 					type: "item"
 				}
 			]
 			title: "Andesite Alloy"
-			x: 9.0d
+			x: 8.0d
 			y: -4.5d
 		}
 		{
@@ -1398,6 +1386,26 @@
 		{
 			dependencies: ["366659E50333BC5A"]
 			description: [
+				"- Find them in the wild by their house"
+				""
+				"- Give them something edible and they might join you as a companion."
+				""
+				"- Once they join you, you can access their inventory with right click."
+				""
+				"- They have names, but you can rename them with tags."
+				""
+				"- Shift+right click to toggle \"sit\", making them stay in place and not do anything."
+				""
+				"- Give them armor and weapons and they will automatically equip the best one in their inventory. They can only use the weapon they spawn with. Archers and arbalists do not need arrows."
+				""
+				"- They will follow you around the same way a wolf does. They will attack mobs that hurt you or you hurt, except creepers. They will give a warning if a creeper is nearby and run away."
+				""
+				"- Put food in their inventory and they will eat to heal themselves."
+				""
+				"- Toggle between follow, patrol, and guard states"
+				""
+				"{@pagebreak}"
+				""
 				"There are different types of companions with unique abilities."
 				""
 				"&6- Collector&r"

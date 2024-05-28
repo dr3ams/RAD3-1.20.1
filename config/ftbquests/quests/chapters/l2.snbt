@@ -1663,10 +1663,25 @@
 				""
 				"There is a &4level&r associated with all enemies. &4Level&r is determined by the &3dimension&r, &2biome&r, position, &6nearby player difficulty&r, and &centity type&r. As the &4level&r becomes higher, mobs have higher health and deal higher damage, and higher chance to have strong traits."
 				""
-				"There is a difficulty level assigned to chunk sections and players. Killing mobs to gain chunk and player difficulty, and die to lose player difficulty. Use &9Hostility Detector&r to know about current difficulty, use &5Hostility Orb&r to make a chunk section permanently not spawning mobs with level."
+				"There is a &4difficulty level&r assigned to chunk sections and players. "
+				""
+				"&nKilling mobs&r to &ngain&r chunk and player difficulty, and &ndie&r to &nlose&r player difficulty. "
+				""
+				"Use &9Hostility Detector&r to know about current difficulty, use &5Hostility Spawner&r to make a chunk section permanently not spawning mobs with level."
 			]
 			icon: "kubejs:skull"
 			id: "085E485E8091D543"
+			rewards: [{
+				id: "269C760CA02A0F2B"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "l2hostility:hostility_guide"
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "Stronger mobs with special abilities."
 			tasks: [{
 				id: "6F34BE3F91ED8359"
