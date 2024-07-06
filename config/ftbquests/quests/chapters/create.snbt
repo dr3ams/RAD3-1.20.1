@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
 	filename: "create"
-	group: "67B03B24E53297B4"
+	group: "5AAD108D5AD37CD9"
 	icon: "create:flywheel"
 	id: "0817BDFE298D5C86"
 	images: [
@@ -48,7 +48,7 @@
 			y: -2.5d
 		}
 	]
-	order_index: 0
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -155,7 +155,7 @@
 					advancement: "create:water_wheel"
 					criterion: ""
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "create:textures/gui/logo.png"
@@ -464,7 +464,7 @@
 				{
 					id: "6A66A84C77FF2FBD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -493,7 +493,7 @@
 					advancement: "create:windmill"
 					criterion: ""
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "create:textures/gui/logo.png"
@@ -614,7 +614,7 @@
 				{
 					id: "1680E769F323492B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -1004,7 +1004,7 @@
 					advancement: "create:brass"
 					criterion: ""
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "create:textures/gui/logo.png"
@@ -1184,7 +1184,7 @@
 				{
 					id: "3AAEEC9A82197E5F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -1232,7 +1232,7 @@
 			tasks: [{
 				id: "001209B084037A32"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1426,7 +1426,7 @@
 				{
 					id: "0D44296DECECD6BB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -1508,7 +1508,7 @@
 				{
 					id: "7A494BFAA11D3430"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -1645,7 +1645,7 @@
 				{
 					id: "11443D8F3B2B3A1F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -1936,7 +1936,7 @@
 				{
 					id: "6C0C30529A5A3E48"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -2080,7 +2080,7 @@
 				{
 					id: "3D02924C9DFC2641"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -2519,14 +2519,9 @@
 					type: "item"
 				}
 				{
-					id: "6CEA523DA0897D16"
-					item: "create:linked_controller"
-					type: "item"
-				}
-				{
 					id: "1545D06FA9E07E04"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [

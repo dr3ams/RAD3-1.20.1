@@ -7,13 +7,13 @@ StartupEvents.registry('item', event => {
 	// event.create('example_item').displayName('Example Item')
 	
 //processing
-event.create('hammer_iron', 'pickaxe').tier('iron').maxDamage(250)
+//event.create('hammer_iron', 'pickaxe').tier('iron').maxDamage(250)
 event.create('wooden_form').displayName('Wooden Form').maxDamage(64)
 event.create('stone_mortar').displayName('Stone Mortar').maxDamage(64)
 event.create('iron_mortar').displayName('Iron Mortar').maxDamage(220)
 event.create('dust_zinc').displayName('Zinc Dust')
-event.create('dust_andesite').displayName('Andesite Dust')
-event.create('dust_andesite_alloy').displayName('Andesite Alloy Dust')
+//event.create('dust_andesite').displayName('Andesite Dust')
+event.create('dust_andesite_alloy').displayName('Andesite Alloy Blend')
 
 event.create('rick').displayName('Pet Coal').unstackable().burnTime(60000).rarity('EPIC').tooltip('Named Rick')	
 	

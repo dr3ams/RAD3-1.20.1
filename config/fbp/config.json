@@ -1,0 +1,91 @@
+{
+  "global": {
+    "enabled": true,
+    "locked": false,
+    "freezeEffect": false,
+    "cartoonMode": false,
+    "cullParticles": true,
+    "infiniteDuration": false,
+    "disabledParticles": [],
+    "disabledAnimations": []
+  },
+  "terrain": {
+    "fancyBreakingParticles": true,
+    "fancyCrackingParticles": true,
+    "spawnWhileFrozen": true,
+    "infiniteDuration": false,
+    "smartBreaking": true,
+    "lowTraction": false,
+    "restOnFloor": true,
+    "bounceOffWalls": true,
+    "entityCollision": false,
+    "waterPhysics": true,
+    "randomSize": true,
+    "randomRotation": true,
+    "randomFadingSpeed": true,
+    "particlesPerAxis": 4,
+    "minLifetime": 10,
+    "maxLifetime": 55,
+    "sizeMultiplier": 0.75,
+    "rotationMultiplier": 1.0,
+    "gravityMultiplier": 1.0
+  },
+  "flame": {
+    "enabled": true,
+    "spawnWhileFrozen": false,
+    "infiniteDuration": false,
+    "randomSize": true,
+    "randomFadingSpeed": true,
+    "minLifetime": 10,
+    "maxLifetime": 15,
+    "sizeMultiplier": 0.75
+  },
+  "smoke": {
+    "enabled": true,
+    "spawnWhileFrozen": false,
+    "infiniteDuration": false,
+    "randomSize": true,
+    "randomFadingSpeed": true,
+    "minLifetime": 10,
+    "maxLifetime": 15,
+    "sizeMultiplier": 0.75
+  },
+  "rain": {
+    "enabled": true,
+    "waterPhysics": false,
+    "randomSize": true,
+    "randomFadingSpeed": true,
+    "renderDistance": 4,
+    "simulationDistance": 12,
+    "rainParticleDensity": 1.0,
+    "sizeMultiplier": 1.0,
+    "gravityMultiplier": 1.0
+  },
+  "snow": {
+    "enabled": true,
+    "lowTraction": false,
+    "restOnFloor": true,
+    "bounceOffWalls": true,
+    "waterPhysics": false,
+    "infiniteDuration": false,
+    "randomSize": true,
+    "randomRotation": true,
+    "randomFadingSpeed": true,
+    "minLifetime": 250,
+    "maxLifetime": 300,
+    "renderDistance": 4,
+    "simulationDistance": 12,
+    "snowParticleDensity": 1.0,
+    "sizeMultiplier": 1.0,
+    "rotationMultiplier": 1.0,
+    "gravityMultiplier": 1.0
+  },
+  "animations": {
+    "fancyPlacingAnimation": false,
+    "smoothAnimationLighting": false
+  },
+  "overlay": {
+    "freezeEffectOverlay": true,
+    "freezeEffectColor": 33023
+  }
+}

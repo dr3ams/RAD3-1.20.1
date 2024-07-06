@@ -78,7 +78,7 @@ enableEntitySpecificDatapack = true
 
 [difficulty]
 	#Max player adaptive level
-	#Range: 600 ~ 100000
+	#Range: 100 ~ 100000
 	maxPlayerLevel = 999
 	#Difficulty increment takes this many kills of same level mob
 	#Range: 1 ~ 100000
@@ -95,6 +95,9 @@ enableEntitySpecificDatapack = true
 	#Mobs spawned within this range will use lowest player level in range instead of nearest player's level to determine mob level
 	#Range: 0 ~ 128
 	newPlayerProtectRange = 48
+	#Max mob level
+	#Range: 100 ~ 100000
+	maxMobLevel = 3000
 
 [orb_and_spawner]
 	#Allow to use hostility orb
@@ -116,7 +119,7 @@ enableEntitySpecificDatapack = true
 	#Disable curio requirement for hostility loot
 	disableHostilityLootCurioRequirement = false
 	#Number of level to add when using bottle of curse
-	#Range: 1 ~ 1000
+	#Range: 0 ~ 1000
 	bottleOfCurseLevel = 25
 	#Minimum duration for witch charge to be effective, in ticks
 	#Range: 20 ~ 10000
@@ -187,6 +190,8 @@ enableEntitySpecificDatapack = true
 	#Insulator Enchantment factor for reducing pushing
 	#Range: 0.0 ~ 1.0
 	insulatorFactor = 0.8
+	#Ban drinking bottle of curse and sanity
+	banBottles = false
 
 [traits]
 	#Health bonus for Tank trait per level
@@ -368,4 +373,5 @@ enableEntitySpecificDatapack = true
 	allow_soul_burner = true
 	allow_freezing = true
 	allow_cursed = true
+	allow_master = true
 

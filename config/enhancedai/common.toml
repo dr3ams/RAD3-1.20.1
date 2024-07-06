@@ -365,7 +365,7 @@
 	"Enable Movement" = true
 	#Makes mobs be able to leap over a few blocks.
 	"Enable Leap" = true
-	#Mobs will run away from exploding creepers / TNT. Use the entity type tag enhancedai:can_run_from_explosion to whitelist them
+	#Mobs will run away from exploding creepers / TNT. Use the entity type tag enhancedai:no_run_from_explosion to blacklist them
 	"Enable Avoid Explosions" = false
 	#Mobs can flee or attack Wardens. Use the entity type tag enhancedai:ignore_warden_interaction to blacklist mobs.
 	"Enable Warden Interacting" = false
@@ -414,7 +414,7 @@
 		#Range: 0.0 ~ 4.0
 		"Swim Speed Addition Multiplier" = 2.5
 
-	#Mobs will run away from exploding creepers / TNT. Use the entity type tag enhancedai:can_run_from_explosion to whitelist them
+	#Mobs will run away from exploding creepers / TNT. Use the entity type tag enhancedai:no_run_from_explosion to blacklist them
 	[Mobs."Avoid Explosions"]
 		#Speed multiplier when the mob runs from explosions and it's within 7 blocks from him.
 		#Range: 0.0 ~ 10.0
@@ -725,6 +725,9 @@
 		"Beta Creeper Chance" = 0.35
 		#If IguanaTweaks Reborn is installed and Explosion Overhaul is enabled, Angry creeper will deal more knockback and break more blocks and breaching creepers will break more blocks
 		"IguanaTweaks Reborn Integration" = true
+		#Makes creepers blow up on death like when they were added back in 0.30
+		#Allowed Values: NONE, CHARGED, ALL
+		"Blow up on death" = "NONE"
 
 		[Creepers."Creeper Swell".Launch]
 			#Launching creepers will try ignite and throw themselves at the player.
@@ -759,6 +762,8 @@
 			#The special sound effect that the Angry Creeper plays
 			#Allowed Values: NONE, CENA, WTF_BOOM
 			Sounds = "CENA"
+			#Makes angry creepers blow up on death like when they were added back in 0.30
+			"Explode on death" = true
 
 [Blazes]
 	#Make blazes fire faster/more fireballs. Only mobs in enhancedai:change_blaze_attack entity type tag are affected by this feature.

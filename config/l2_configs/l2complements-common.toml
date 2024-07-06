@@ -28,9 +28,6 @@ enableSpawnEggRecipe = true
 	#Enable immunity enchantments
 	#Be sure to inform players when you turn this off
 	enableImmunityEnchantments = true
-	#digging Enchantment Requires Shift to work
-	#Be sure to inform players when you turn this on, as it's opposite to enchantment descriptions
-	diggingEnchantmentRequiresShiftToWork = false
 
 ["fire charge"]
 	#Soul Fire Charge Duration
@@ -42,6 +39,8 @@ enableSpawnEggRecipe = true
 	#Strong Fire Charge Power
 	#Range: 1 ~ 10
 	strongFireChargePower = 2
+	#Strong Fire Charge Breaks Block
+	strongFireChargeBreakBlock = true
 
 [properties]
 	#Totemic Armor healing interval
@@ -119,4 +118,10 @@ enableSpawnEggRecipe = true
 	#2 for clearing negative only
 	#Range: 0 ~ 2
 	cleansePredicate = 0
+
+[enchantability]
+	#Allow enchantments on wands
+	enableWandEnchantments = true
+	#Use tag for wand enchantment whitelisting
+	useTagsForWandEnchantmentWhiteList = true
 

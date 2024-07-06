@@ -414,30 +414,8 @@ ServerEvents.recipes((event) => {
     "ars_nouveau:earth_essence",
   ]);
 
-  event.recipes.create.mixing("ars_nouveau:source_berry_pie", [
-    "farmersdelight:pie_crust",
-    "minecraft:sugar",
-    "3x ars_nouveau:sourceberry_bush",
-    "#forge:eggs",
-    "ars_nouveau:magebloom",
-  ]);
 
   let ars_nouveau = event.recipes.ars_nouveau;
-
-  ars_nouveau.enchanting_apparatus(
-    [
-      "#forge:planks",
-      "create:shaft",
-      "#forge:planks",
-      "create:shaft",
-      "#forge:planks",
-      "create:shaft",
-      "#forge:planks",
-      "create:shaft",
-    ],
-    "ars_nouveau:starbuncle_charm",
-    "ars_creo:starbuncle_wheel"
-  );
 
   ars_nouveau.enchanting_apparatus(
     [
