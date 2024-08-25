@@ -1,0 +1,31 @@
+{
+	id: "749F031C0EA31235"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "End Loot Crate"
+		string_id: "end_loot_crate"
+	}
+	loot_size: 1
+	order_index: 49
+	rewards: [
+		{ count: 8, item: "minecraft:ender_pearl" }
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "apotheosis:the_end/endersurge"
+				}
+			}
+		}
+	]
+	title: "End Loot Crate"
+}

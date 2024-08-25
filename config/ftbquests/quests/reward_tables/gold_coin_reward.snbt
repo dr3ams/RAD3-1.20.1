@@ -1,7 +1,7 @@
 {
 	id: "5D7127D0072C76C4"
 	loot_size: 1
-	order_index: 21
+	order_index: 22
 	rewards: [
 		{
 			item: {
@@ -66,23 +66,13 @@
 				}
 			}
 		}
-		{
-			item: {
-				Count: 1b
-				id: "constructionwand:diamond_wand"
-				tag: {
-					Damage: 0
-					wand_options: { }
-				}
-			}
-		}
 		{ count: 64, item: "minecraft:spider_eye" }
 		{ count: 32, item: "minecraft:comparator" }
 		{ count: 32, item: "minecraft:repeater" }
 		{ count: 32, item: "minecraft:lapis_ore" }
 		{ count: 32, item: "minecraft:redstone_ore" }
 		{ count: 16, item: "minecraft:glowstone" }
-		{ item: "compactxpbottles:x64experiencebottle" }
+		{ count: 5, item: "aquaculture:treasure_chest" }
 	]
 	title: "Gold coin reward"
 }

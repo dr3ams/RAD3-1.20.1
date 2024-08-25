@@ -14,7 +14,7 @@ enableEntitySpecificDatapack = true
 	exponentialDamage = true
 	#Experience drop factor per level
 	#Range: 0.0 ~ 1000.0
-	expDropFactor = 0.025
+	expDropFactor = 0.005
 	#Enchantment bonus per level.
 	#Note: use it only when Apotheosis is installed
 	#Otherwise too high enchantment level will yield no enchantment
@@ -101,11 +101,11 @@ enableEntitySpecificDatapack = true
 
 [orb_and_spawner]
 	#Allow to use hostility orb
-	allowHostilityOrb = false
+	allowHostilityOrb = true
 	#Radius for Hostility Orb to take effect.
 	#0 means 1x1x1 section, 1 means 3x3x3 sections, 2 means 5x5x5 sections
 	#Range: 0 ~ 10
-	orbRadius = 2
+	orbRadius = 0
 	#Allow to use hostility spawner
 	allowHostilitySpawner = true
 	#Number of mobs to spawn in Hostility Spawner
@@ -192,6 +192,10 @@ enableEntitySpecificDatapack = true
 	insulatorFactor = 0.8
 	#Ban drinking bottle of curse and sanity
 	banBottles = false
+	#Cap drop at item max stack size
+	nidhoggurCapAtItemMaxStack = false
+	#When using book of reprint to copy books, drop extra on player and does not allow overstacking
+	bookOfReprintSpread = false
 
 [traits]
 	#Health bonus for Tank trait per level

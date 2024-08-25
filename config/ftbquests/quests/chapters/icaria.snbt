@@ -6,35 +6,47 @@
 	id: "1DC4DF1994634F20"
 	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		id: "528C5558C3EBA559"
-		tasks: [
-			{
-				count: 6L
-				id: "5AFDF72535BB845F"
-				item: { Count: 6, id: "minecraft:quartz_pillar" }
+	quests: [
+		{
+			id: "528C5558C3EBA559"
+			tasks: [
+				{
+					count: 6L
+					id: "5AFDF72535BB845F"
+					item: { Count: 6, id: "minecraft:quartz_pillar" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "04C03DA9854F1318"
+					item: { Count: 2, id: "landsoficaria:quartz_pillar_head" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "5DE5B36F855B2966"
+					item: { Count: 6, id: "minecraft:quartz_slab" }
+					type: "item"
+				}
+				{
+					id: "6A4A544F1825E49E"
+					item: "landsoficaria:greek_fire_grenade"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "70FAD65365767FAC"
+			tasks: [{
+				id: "6CE569F7015BBF1A"
+				item: "landsoficaria:orichalcum_ingot"
 				type: "item"
-			}
-			{
-				count: 2L
-				id: "04C03DA9854F1318"
-				item: { Count: 2, id: "landsoficaria:quartz_pillar_head" }
-				type: "item"
-			}
-			{
-				count: 6L
-				id: "5DE5B36F855B2966"
-				item: { Count: 6, id: "minecraft:quartz_slab" }
-				type: "item"
-			}
-			{
-				id: "6A4A544F1825E49E"
-				item: "landsoficaria:greek_fire_grenade"
-				type: "item"
-			}
-		]
-		x: -1.0d
-		y: -1.5d
-	}]
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+	]
 	title: "Icaria"
 }

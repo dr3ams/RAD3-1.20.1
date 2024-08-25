@@ -113,6 +113,21 @@ const removals = [
   "toms_storage:ts.trim",
   "toms_storage:ts.level_emitter",
   "toms_storage:ts.adv_wireless_terminal",
+  "skilltree:copper_ring",
+  "skilltree:iron_ring",
+  "skilltree:golden_ring",
+  "celestial_artifacts:gold_ring", 
+  "celestial_artifacts:amethyst_ring", 
+  "celestial_artifacts:diamond_ring", 
+  "celestial_artifacts:emerald_ring", 
+  "celestial_artifacts:flight_ring", 
+  "celestial_artifacts:netherite_ring", 
+  "celestial_artifacts:ring_of_life",
+  "celestial_artifacts:bearing_stamen",
+  "silentgear:ring_blueprint",
+  "silentgear:ring_template",
+  "silentgear:ring_shank",
+  "silentgear:ring"
 ];
 
 const upgradeMap = new Map([

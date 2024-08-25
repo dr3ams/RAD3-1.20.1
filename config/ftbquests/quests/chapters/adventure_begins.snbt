@@ -84,19 +84,11 @@
 			image: "ftbquests:block/barrier_open"
 			rotation: 45.0d
 			width: 1.5d
-			x: 10.5d
-			y: -4.5d
-		}
-		{
-			height: 1.5d
-			image: "ftbquests:block/barrier_open"
-			rotation: 45.0d
-			width: 1.5d
 			x: 11.5d
 			y: -3.0d
 		}
 		{
-			alpha: 150
+			alpha: 100
 			height: 10.0d
 			image: "rad3:textures/misc/rad_compass_new_3.png"
 			rotation: 0.0d
@@ -287,24 +279,11 @@
 				"- @Builder"
 			]
 			id: "7343C10D6EEAA88B"
-			rewards: [
-				{
-					id: "57EFED8B0FDF975D"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "common_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "728D604B1B3DDA27"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "728D604B1B3DDA27"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Make yourself at home!"
 			tasks: [
 				{
@@ -431,6 +410,19 @@
 		}
 		{
 			dependencies: ["149CB61732F787CF"]
+			description: [
+				"There are multiple new villager jobs, all with unique trades, workstations, and advancements!"
+				"- Oceanographer (Oceanography Table)"
+				"- Forester (Forestry Bench)"
+				"- Engineer (Blueprint Table)"
+				"- Florist (Gardening Table)"
+				"- Hunter (Hunting Post)"
+				"- Netherologist (Decayed Workbench)"
+				"- Enderologist (Purpur Altar)"
+				"- Apiarist (Honey Pot)"
+				""
+				"While travelling you may also find villages transformed into towns!"
+			]
 			id: "031D29EEE7B5A5A7"
 			rewards: [{
 				id: "3F9B6F960665E737"
@@ -951,44 +943,7 @@
 				}
 			]
 			title: "Blast Furnace"
-			x: 7.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["1F988A67F250159F"]
-			description: [
-				"&3Zinc ore&r must be mined with an &7Iron pickaxe&r or higher."
-				""
-				"It can generate in the &2Overworld&r in the form of Blobs."
-				""
-				"It can be found between Y levels &6&n-63 to 70&r&r."
-			]
-			icon: "create:andesite_alloy"
-			id: "53BF868730713984"
-			tasks: [
-				{
-					id: "7F43B2ED6EAE58EC"
-					item: "create:zinc_ingot"
-					type: "item"
-				}
-				{
-					id: "4531E6A588CF556D"
-					item: "minecraft:andesite"
-					type: "item"
-				}
-				{
-					id: "57CA9E833F7DA295"
-					item: "kubejs:dust_andesite_alloy"
-					type: "item"
-				}
-				{
-					id: "4760CF60C2619DFB"
-					item: "create:andesite_alloy"
-					type: "item"
-				}
-			]
-			title: "Andesite Alloy"
-			x: 8.0d
+			x: 6.5d
 			y: -4.5d
 		}
 		{
@@ -1167,7 +1122,7 @@
 				}
 			]
 			title: "Iron Armor"
-			x: 5.0d
+			x: 5.5d
 			y: -4.5d
 		}
 		{
@@ -1442,7 +1397,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Player companions"
+			subtitle: "This mod adds new human companions that can help you on your journey."
 			tasks: [
 				{
 					id: "46BEC7D90A99E618"
@@ -2845,29 +2800,6 @@
 			}]
 			x: 5.0d
 			y: -1.5d
-		}
-		{
-			dependencies: ["53BF868730713984"]
-			id: "3339228AB3EFD1AF"
-			shape: "gear_important"
-			size: 1.5d
-			subtitle: "(with addons)"
-			tasks: [{
-				advancement: "create:andesite_alloy"
-				criterion: ""
-				icon: {
-					Count: 1
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "create:textures/gui/logo.png"
-					}
-				}
-				id: "239AA2CA7320D704"
-				type: "advancement"
-			}]
-			title: "Time to Create!"
-			x: 10.5d
-			y: -4.5d
 		}
 		{
 			dependencies: ["366659E50333BC5A"]
@@ -4701,6 +4633,53 @@
 			title: "Tables"
 			x: -1.5d
 			y: -9.5d
+		}
+		{
+			description: ["The Global Skin Library loads a list of skins that have been uploaded to the skin database. There are lots and lots of pre-built designs to search through, and they can be downloaded to your private instance by clicking on one and hitting the download button."]
+			id: "4DCD0744847F44B8"
+			rewards: [{
+				id: "7FBB9EAE677E1BB5"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Apply custom skins to anything: from equipment to blocks!"
+			tasks: [
+				{
+					id: "483DFE0BA1E6149D"
+					item: "armourers_workshop:skin-library-global"
+					type: "item"
+				}
+				{
+					id: "65D2623972E0889B"
+					item: "armourers_workshop:skin-library"
+					type: "item"
+				}
+				{
+					id: "3D2F471D782E6E08"
+					item: "armourers_workshop:skin-template"
+					type: "item"
+				}
+				{
+					id: "4FE0D6974FBDD93B"
+					item: "armourers_workshop:skinning-table"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -10.5d
+		}
+		{
+			description: ["Similar to Wandering Traders, goblins are found randomly underground in caves or in the nether and provide exclusive and beneficial trades that allow you to take your adventure to the next level! Goblin Traders adds two new traders, the Golbin Trader which is found in the overworld and the Vein Goblin Trader which is found in The Nether; both with their own unique set of trades. These little goblins have a little attitude and don't like it when you hit them. If you're feeling generous you can feed them their favourite food for a fun animation."]
+			icon: "kubejs:coin_05"
+			id: "0603EEDA36C27ED6"
+			subtitle: "Unique and useful trades"
+			tasks: [{
+				id: "388F28C17259CA5D"
+				title: "Goblin traders"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 1.0d
 		}
 	]
 	title: "&2World Exploration&r"

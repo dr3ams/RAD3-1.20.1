@@ -22,7 +22,7 @@
 	#Range: -1 ~ 1024
 	"Maximum Health" = 60
 	#The levels at which a user will gain a heart. Cannot be zero or less than zero and cannot be more than 255.
-	"Level Ramp" = [3, 8, 15, 20, 30, 35, 40, 45, 50, 60, 70, 80, 90, 100, 105, 110, 115, 120, 125, 130, 135, 140, 145, 150, 155, 160, 180, 190, 200, 210, 220, 230, 250]
+	"Level Ramp" = [5, 10, 15, 25, 30, 35, 40, 45, 50, 60, 70, 80, 90, 100, 105, 110, 115, 120, 125, 130, 135, 140, 145, 150, 155, 160, 180, 190, 200, 210, 220, 230, 255]
 	#Whether or not to play the level up XP sound each time the player receives a new heart (from the ramp or containers).
 	"Play Sound on Heart Gain" = true
 	#How many hearts (not health) to take away from the user each time they die. -1 to disable.

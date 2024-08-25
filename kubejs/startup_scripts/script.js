@@ -121,18 +121,20 @@ event.create('arrow_right').displayName('Arrow Right Icon')
 event.create('arrow_right_yellow').displayName('Yellow Arrow Right Icon')
 
 //coins
-event.create('copper_coin').displayName('Copper Coin').tooltip('Acquired through quests').rarity('Uncommon')
-event.create('iron_coin').displayName('Iron Coin').tooltip('Acquired through quests').rarity('Uncommon')
-event.create('gold_coin').displayName('Gold Coin').tooltip('Acquired through quests').rarity('Rare')
-event.create('diamond_coin').displayName('Diamond Coin').tooltip('Acquired through quests').rarity('Epic')
-
-event.create('coin_aether').displayName('Aether Coin').tooltip('Acquired through completing Aether chapter quests').rarity('Rare')
-event.create('coin_undergarden').displayName('Undergarden Coin').tooltip('Acquired through completing Undergarden chapter quests').rarity('Rare')
-event.create('coin_twilight').displayName('Twilight Coin').tooltip('Acquired through completing Twilight chapter quests').rarity('Rare')
-event.create('coin_bumblezone').displayName('Bumblezone Coin').tooltip('Acquired through completing Bumblezone chapter quests').rarity('Rare')
-event.create('coin_end').displayName('End Coin').tooltip('Acquired through completing End chapter quests').rarity('Uncommon')
-event.create('coin_nether').displayName('Nether Coin').tooltip('Acquired through completing Nether chapter quests').rarity('Uncommon')
-
+//quest coins
+event.create('copper_coin').displayName('Copper Coin').rarity('Uncommon')
+event.create('iron_coin').displayName('Iron Coin').rarity('Uncommon')
+event.create('gold_coin').displayName('Gold Coin').rarity('Rare')
+event.create('diamond_coin').displayName('Diamond Coin').rarity('Epic')
+//dimensional coins
+event.create('coin_aether').displayName('Aether Coin').rarity('Rare')
+event.create('coin_undergarden').displayName('Undergarden Coin').rarity('Rare')
+event.create('coin_twilight').displayName('Twilight Coin').rarity('Rare')
+event.create('coin_bumblezone').displayName('Bumblezone Coin').rarity('Rare')
+event.create('coin_icaria').displayName('Icaria Coin').rarity('Rare')
+event.create('coin_end').displayName('End Coin').rarity('Uncommon')
+event.create('coin_nether').displayName('Nether Coin').rarity('Uncommon')
+//task coins
 event.create('coin_engineer').displayName('Engineer`s Coin')
 event.create('coin_food').displayName('Food Coin')
 event.create('coin_gathering').displayName('Gathering Coin')
@@ -140,11 +142,14 @@ event.create('coin_exploration').displayName('Exploration Coin')
 event.create('coin_gear').displayName('Gear Coin')
 event.create('coin_magic').displayName('Magic Coin')
 event.create('coin_monster').displayName('Monster Coin')
+//loot coin
+event.create('coin_dungeon').displayName('Dungeon Coin')
+//??? coin
 event.create('coin_black').displayName('Black Market Coin')
+//minecolony coin
+event.create('proofofwork').displayName('Proof Of Work').rarity('Rare')
 
-event.create('diamond_nugget').displayName('Diamond Nugget')
-event.create('emerald_nugget').displayName('Emerald Nugget')
-  
+//exchange coins
 event.create('coin_01').displayName('Coin').tooltip('Acquired by selling valuable materials')
 event.create('coin_02').displayName('Couple of Coins').tooltip('Acquired by selling valuable materials')
 event.create('coin_03').displayName('Stack of Coins').tooltip('Acquired by selling valuable materials')
@@ -152,8 +157,9 @@ event.create('coin_04').displayName('Pile of Coins').tooltip('Acquired by sellin
 event.create('coin_05').displayName('Dozen of Coins').tooltip('Acquired by selling valuable materials')
 event.create('coin_06').displayName('Bunch of Coins').tooltip('Acquired by selling valuable materials')
 
-event.create('coin_q_1').displayName('Quest Coin').tooltip('Acquired by doing quests')
-event.create('coin_q_2').displayName('Quest Coin').tooltip('Acquired by doing quests')
+
+event.create('diamond_nugget').displayName('Diamond Nugget')
+event.create('emerald_nugget').displayName('Emerald Nugget')
 
 event.create('defence').displayName('defence')
 event.create('armorpen').displayName('armorpen')

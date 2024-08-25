@@ -6,7 +6,12 @@
 	icon: "embers:ember_crystal_cluster"
 	id: "26FFA683A2A5D5E1"
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [{
+		id: "0A032C00FF75172C"
+		linked_quest: "70FAD65365767FAC"
+		x: 12.5d
+		y: -4.5d
+	}]
 	quests: [
 		{
 			description: [
@@ -451,7 +456,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["2A6B0183F60EC90B"]
+			dependencies: [
+				"2A6B0183F60EC90B"
+				"70FAD65365767FAC"
+			]
 			id: "1970A98FDBB9923D"
 			shape: "hexagon_important"
 			tasks: [{
