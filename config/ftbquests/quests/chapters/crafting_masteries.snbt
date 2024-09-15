@@ -1,0 +1,491 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "crafting_masteries"
+	group: ""
+	icon: "ars_elemental:mark_of_mastery"
+	id: "6DB574665F149141"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&4Mastery&r allows you to specialize in certain &bdiscipline,&r level it up by completing &9tasks&r and then earn extra rewards from &6repeatable quests&r associated with it."
+				""
+				"With every reward in corresponding &bdiscipline&r you will also get knowledge points (in item form) which is needed for further trades and for leveling up the discipline."
+				""
+				"You can unlock &4masteries&r one after another."
+			]
+			icon: "ars_elemental:mark_of_mastery"
+			id: "494B3A437F2FF633"
+			shape: "octagon_important"
+			size: 2.0d
+			tasks: [{
+				id: "52135A3009FE75AB"
+				type: "checkmark"
+			}]
+			title: "&4Masteries&r"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["494B3A437F2FF633"]
+			description: [
+				"&dAlchemy powder&r is a knowledge points for this &4Mastery.&r"
+				""
+				"With every reward you will get &dAlchemy powder&r which is needed for further trades and for leveling up the &4Mastery.&r"
+				""
+				"You can also receive &dAlchemy powder&r by processing some raw materials in Portable Alchemy Device"
+			]
+			icon: "kubejs:mark_alchemist"
+			id: "767A6845346F46F7"
+			rewards: [{
+				id: "6AE3FA838455FE94"
+				item: {
+					Count: 1
+					id: "naturesaura:effect_powder"
+					tag: {
+						effect: "naturesaura:animal"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon_important"
+			size: 1.5d
+			subtitle: "Allows you to gain more resources"
+			tasks: [{
+				id: "27150696C53152B9"
+				type: "checkmark"
+			}]
+			title: "Alchemy"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["494B3A437F2FF633"]
+			description: ["Scrap or maybe refinement powder(kit)?: salvage copper ore, junk items(add new as loot?)"]
+			id: "2C5E501FA26E92FF"
+			shape: "hexagon_important"
+			size: 1.5d
+			subtitle: "Salvage items into more useful items"
+			tasks: [{
+				id: "6143F21405648414"
+				type: "checkmark"
+			}]
+			title: "Scrapper or Scavenger or Refiner?"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["494B3A437F2FF633"]
+			description: [
+				"Experience dust: extract with portable experience extractor from:"
+				"- experience scroll (new item)"
+				"- bottle of enchantment"
+				"- some books"
+				"- magic items"
+			]
+			id: "47A62BACCFD304F9"
+			shape: "hexagon_important"
+			size: 1.5d
+			subtitle: "Exchange levels for desired enchants"
+			tasks: [{
+				id: "63841FACDE2137D4"
+				type: "checkmark"
+			}]
+			title: "Enchanting"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["767A6845346F46F7"]
+			id: "7638380502E5562D"
+			rewards: [{
+				id: "19DCFE8CB0317ED6"
+				item: {
+					Count: 1
+					id: "naturesaura:effect_powder"
+					tag: {
+						effect: "naturesaura:animal"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Complete this task to unlock recipes in &1Novice Level Alchemy&r section"
+			tasks: [
+				{
+					id: "7115D99B464E9B0B"
+					points: false
+					type: "xp"
+					value: 30L
+				}
+				{
+					id: "223FD68C748597E2"
+					item: "landsoficaria:greenpowder"
+					type: "item"
+				}
+				{
+					id: "6168D6119B885F84"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					id: "7DFEEBAF204F54DF"
+					item: "embers:alchemical_waste"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7638380502E5562D"]
+			description: [
+				"Monster essence to:"
+				"- mob drops"
+				"- experience"
+				"- magic items"
+				""
+				""
+				"Rotten Flesh"
+			]
+			icon: "kubejs:mark_alchemist"
+			id: "1CCE0BB671E02BC3"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0D61E09F8191614F"
+				title: "Novice Alchemy"
+				type: "checkmark"
+			}]
+			title: "&1Novice Level Alchemy&r"
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A49B0937DE2857D"]
+			id: "6415470142D7A281"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "150B518E71EFDD9E"
+				title: "Apprentice Alchemy"
+				type: "checkmark"
+			}]
+			title: "Apprentice Level Alchemy"
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5D30E41C1899837D"]
+			id: "76115E4AB84A7AEF"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "051553BB7DEEF255"
+				title: "Journeyman Level Alchemy"
+				type: "checkmark"
+			}]
+			title: "Master Level Alchemy"
+			x: 0.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1CCE0BB671E02BC3"]
+			id: "3A49B0937DE2857D"
+			tasks: [{
+				id: "2A91C77270EFA433"
+				points: false
+				type: "xp"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6415470142D7A281"]
+			id: "5D30E41C1899837D"
+			tasks: [{
+				id: "4EA458D96849662C"
+				points: false
+				type: "xp"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1CCE0BB671E02BC3"]
+			id: "0E99FDE04DABE19E"
+			subtitle: "monster essence -> bones, gunpowder, feathers"
+			tasks: [{
+				id: "2C198DADD0ECB423"
+				item: "landsoficaria:greenpowder"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			description: [
+				"all knowledge point items must be added as loot"
+				"also add knowledge point items as gobling trader trades"
+			]
+			id: "02D0A83DD753A990"
+			tasks: [{
+				id: "7447412A67405B32"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C5E501FA26E92FF"]
+			id: "1841E82A8EF623E4"
+			tasks: [{
+				id: "00CE8D93E97A4BBE"
+				points: false
+				type: "xp"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1841E82A8EF623E4"]
+			id: "132E2FA2094CD5E2"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "01A42F3B089A2724"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["132E2FA2094CD5E2"]
+			id: "0261E59B7BF6E337"
+			tasks: [{
+				id: "64F443E28492727F"
+				points: false
+				type: "xp"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0261E59B7BF6E337"]
+			id: "38244A01FB371C21"
+			shape: "hexagon"
+			tasks: [{
+				id: "03AD7B383B2DB562"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["38244A01FB371C21"]
+			id: "36B67EDD09CABC67"
+			tasks: [{
+				id: "35D94A5997DBE65C"
+				points: false
+				type: "xp"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["36B67EDD09CABC67"]
+			id: "62BC62A1467C3269"
+			shape: "hexagon"
+			tasks: [{
+				id: "26C9468B574C4EF8"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["47A62BACCFD304F9"]
+			id: "6414B5020209B983"
+			tasks: [{
+				id: "3BA2749E7F21B0BC"
+				points: false
+				type: "xp"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["05B1E1D18C37306D"]
+			id: "2EBF210EDB5C5344"
+			tasks: [{
+				id: "22575A56065AC717"
+				points: false
+				type: "xp"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1E9C1429B65E8B67"]
+			id: "139CDD4FD5A88E65"
+			tasks: [{
+				id: "5B2CC888A966477C"
+				points: false
+				type: "xp"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6414B5020209B983"]
+			id: "05B1E1D18C37306D"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "702B4F1C16F2B5EE"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2EBF210EDB5C5344"]
+			id: "1E9C1429B65E8B67"
+			shape: "hexagon"
+			tasks: [{
+				id: "78F324FDEB362DE7"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["139CDD4FD5A88E65"]
+			id: "1082AFB9D8CEFAD5"
+			shape: "hexagon"
+			tasks: [{
+				id: "0387EE6EACCFFB65"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1CCE0BB671E02BC3"]
+			id: "165D6E3253F5BBE4"
+			subtitle: "Earth essence-> iron, gold redstone, lappis"
+			tasks: [{
+				id: "2A7C7BDE442ADE77"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6415470142D7A281"]
+			id: "5C98CBA6A4476B20"
+			subtitle: "ender pearls, gold"
+			tasks: [{
+				id: "1AEF551EDCEDE998"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6415470142D7A281"]
+			id: "6588470CC1FFFFE9"
+			subtitle: "Earth essence-> diamond, emerald"
+			tasks: [{
+				id: "0735CDE3A619AE0B"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["76115E4AB84A7AEF"]
+			id: "2F3FB3784D533319"
+			tasks: [{
+				id: "660A1E4819944C4D"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["76115E4AB84A7AEF"]
+			id: "74A7621C680E9145"
+			subtitle: "Earth essence-> something modded?"
+			tasks: [{
+				id: "3DA2FB660C999C32"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["132E2FA2094CD5E2"]
+			id: "57D453202729984A"
+			subtitle: "junk -> resources"
+			tasks: [{
+				id: "7FA0B5D454538976"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["132E2FA2094CD5E2"]
+			id: "62297E1BCBCB76B2"
+			subtitle: "Sift sand/gravel to get valuables?"
+			tasks: [{
+				id: "3E1D096997097366"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["05B1E1D18C37306D"]
+			id: "6C8A69BDB81904F2"
+			tasks: [{
+				id: "2B8C79F7DF3589F0"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["05B1E1D18C37306D"]
+			id: "52217142465DC332"
+			tasks: [{
+				id: "7E20BED5F2222462"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["38244A01FB371C21"]
+			id: "075C9A5043FC9824"
+			subtitle: "gold coins -> resources"
+			tasks: [{
+				id: "413F494C184ED1F9"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+	]
+	title: "⭐ Masteries"
+}
