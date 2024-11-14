@@ -22,8 +22,17 @@ LootJS.modifiers(event => {
 	)
 	;
 	
+	event.addLootTypeModifier(LootType.CHEST)
+	.addLoot(
+	LootEntry.of("kubejs:dust_experience").when((c) => c.randomChance(0.3)).limitCount([1, 2]),
+	LootEntry.of("kubejs:dust_alchemical").when((c) => c.randomChance(0.3)).limitCount([1, 2]),
+	LootEntry.of("kubejs:scraps").when((c) => c.randomChance(0.3)).limitCount([1, 2])
+	)
+	;
+	
 	event.addBlockLootModifier('minecraft:spawner')
     .addLoot('kubejs:coin_dungeon')
+	.addLoot('kubejs:spawnercore')
 
 	event.addLootTypeModifier(LootType.CHEST).anyDimension("aether:the_aether").addLoot(
 	LootEntry.of("kubejs:coin_aether").when((c) => c.randomChance(0.6)).limitCount([1, 1])

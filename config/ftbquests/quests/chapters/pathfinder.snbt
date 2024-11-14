@@ -49,13 +49,12 @@
 				}
 				{
 					id: "575231E04221D5B0"
-					item: "kubejs:copper_coin"
+					item: "kubejs:iron_coin"
 					type: "item"
 				}
 			]
-			subtitle: "Discover a Battle Tower"
 			tasks: [{
-				advancement: "dungeons_plus:adventure/find_tower"
+				advancement: "nova_structures:adventure/find_illager_manor"
 				criterion: ""
 				id: "7B81785A915B6A7F"
 				type: "advancement"
@@ -221,9 +220,9 @@
 					type: "item"
 				}
 			]
-			subtitle: "Discover a Buried Dungeon"
+			subtitle: "Discover a Monster Room"
 			tasks: [{
-				advancement: "dungeons_plus:adventure/find_bigger_dungeon"
+				advancement: "betterdungeons:small_dungeon"
 				criterion: ""
 				id: "3533A980E4933C2D"
 				type: "advancement"
@@ -289,7 +288,7 @@
 				}
 				{
 					id: "21A702555C59C281"
-					item: "kubejs:copper_coin"
+					item: "kubejs:iron_coin"
 					type: "item"
 				}
 			]
@@ -444,7 +443,7 @@
 				id: "2809FA5EE73043B7"
 				type: "advancement"
 			}]
-			x: 9.0d
+			x: 8.5d
 			y: -1.0d
 		}
 		{
@@ -492,7 +491,7 @@
 				id: "0897C5068E941795"
 				type: "advancement"
 			}]
-			x: 10.0d
+			x: 9.5d
 			y: -3.0d
 		}
 		{
@@ -564,7 +563,7 @@
 				id: "5512C4023307F9A0"
 				type: "advancement"
 			}]
-			x: 11.0d
+			x: 10.5d
 			y: -2.0d
 		}
 		{
@@ -636,8 +635,8 @@
 				id: "62C6F6B702B1B5F9"
 				type: "advancement"
 			}]
-			x: 12.5d
-			y: 8.5d
+			x: 10.5d
+			y: 9.0d
 		}
 		{
 			id: "78843E770921D42B"
@@ -684,8 +683,8 @@
 				id: "13EA20708EE965B9"
 				type: "advancement"
 			}]
-			x: -1.0d
-			y: 8.5d
+			x: -0.5d
+			y: 8.0d
 		}
 		{
 			id: "2CD398B43AEFF428"
@@ -893,11 +892,11 @@
 					type: "item"
 				}
 			]
-			subtitle: "Discover a Jungle Fortress"
+			subtitle: "Find a Pirate Ship"
 			tasks: [{
-				advancement: "repurposed_structures:fortress_jungle"
+				advancement: "dungeons_enhanced:ahoy"
 				criterion: ""
-				id: "3C1E0553A3F0F7C6"
+				id: "1EF290347315AADC"
 				type: "advancement"
 			}]
 			x: 9.5d
@@ -905,14 +904,20 @@
 		}
 		{
 			id: "7DE3544787B49D46"
-			rewards: [{
-				id: "398A9C9A1A2DF642"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			subtitle: "Discover a Underground Bastion"
+			rewards: [
+				{
+					id: "398A9C9A1A2DF642"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "51CCFB0FFC2682CD"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
-				advancement: "repurposed_structures:bastion_underground"
+				advancement: "dungeons_enhanced:sunken_deeps"
 				criterion: ""
 				id: "0CCE25B115509756"
 				type: "advancement"
@@ -941,7 +946,7 @@
 				id: "5BA16AB06E385F21"
 				type: "advancement"
 			}]
-			x: 13.0d
+			x: 12.0d
 			y: 7.5d
 		}
 		{
@@ -990,7 +995,7 @@
 				type: "advancement"
 			}]
 			x: 11.5d
-			y: 9.0d
+			y: 8.5d
 		}
 		{
 			id: "7D9B765A3367AA22"
@@ -1094,16 +1099,16 @@
 				{
 					id: "7B28C0122611DCBE"
 					type: "xp_levels"
-					xp_levels: 1
+					xp_levels: 3
 				}
 				{
 					id: "305A222C0288C6E2"
-					item: "kubejs:iron_coin"
+					item: "kubejs:gold_coin"
 					type: "item"
 				}
 			]
 			tasks: [{
-				advancement: "idas:witches_treestump"
+				advancement: "incendium:ash_barrens/enter_castle"
 				criterion: ""
 				id: "4F1B14FAB5721A15"
 				type: "advancement"
@@ -1126,7 +1131,7 @@
 				}
 			]
 			tasks: [{
-				advancement: "idas:enchantingtower"
+				advancement: "incendium:quartz_flats/rescue_mission"
 				criterion: ""
 				id: "22CC784BC0342053"
 				type: "advancement"
@@ -1149,7 +1154,7 @@
 				}
 			]
 			tasks: [{
-				advancement: "idas:necromancers_spire"
+				advancement: "incendium:quartz_flats/torte/root"
 				criterion: ""
 				id: "369F0A82DECEBBE8"
 				type: "advancement"
@@ -1172,7 +1177,7 @@
 				}
 			]
 			tasks: [{
-				advancement: "idas:fishermans_lodge"
+				advancement: "incendium:misc/ruined_lab"
 				criterion: ""
 				id: "1C1E8952D30A0DBB"
 				type: "advancement"
@@ -1182,6 +1187,7 @@
 		}
 		{
 			id: "18F22679FA467A3B"
+			invisible: true
 			rewards: [
 				{
 					id: "217C6419541FDBB9"
@@ -1196,7 +1202,6 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Discover Ancient Mines"
 			tasks: [{
 				advancement: "idas:ancient_mines"
 				criterion: ""
@@ -1210,18 +1215,19 @@
 			id: "60A36721F16C9A19"
 			rewards: [
 				{
-					id: "1E632A5DD5DBD137"
+					id: "4699311E7DF0FC0B"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					id: "752CE3D1F632D6F6"
+					id: "3B35E1FEE7B3F93A"
 					item: "kubejs:iron_coin"
 					type: "item"
 				}
 			]
+			subtitle: "Discover a Bathhouse"
 			tasks: [{
-				advancement: "idas:sunken_ship"
+				advancement: "dungeons_arise:find_bathhouse"
 				criterion: ""
 				id: "1003CDDD83A4912C"
 				type: "advancement"
@@ -1244,7 +1250,7 @@
 				}
 			]
 			tasks: [{
-				advancement: "idas:redhorn_guild"
+				advancement: "incendium:infernal_dunes/pipeline/root"
 				criterion: ""
 				id: "67AF29C1C7F509F5"
 				type: "advancement"
@@ -1254,6 +1260,7 @@
 		}
 		{
 			id: "0292B5904A252DC8"
+			invisible: true
 			rewards: [
 				{
 					id: "0C0927802BD3DAE5"
@@ -1283,16 +1290,16 @@
 				{
 					id: "53373862F4FB41DC"
 					type: "xp_levels"
-					xp_levels: 1
+					xp_levels: 3
 				}
 				{
 					id: "44E52017DBF9B7ED"
-					item: "kubejs:iron_coin"
+					item: "kubejs:gold_coin"
 					type: "item"
 				}
 			]
 			tasks: [{
-				advancement: "idas:bearclaw_inn"
+				advancement: "incendium:quartz_flats/sanctum/root"
 				criterion: ""
 				id: "450E88982A9A94E5"
 				type: "advancement"
@@ -1315,7 +1322,7 @@
 				}
 			]
 			tasks: [{
-				advancement: "idas:hunters_cabin"
+				advancement: "incendium:toxic_heap/nuclear_fusion"
 				criterion: ""
 				id: "74ABC9AE3F212665"
 				type: "advancement"
@@ -1329,33 +1336,21 @@
 				{
 					id: "3CBCE1269010266B"
 					type: "xp_levels"
-					xp_levels: 1
+					xp_levels: 3
 				}
 				{
 					id: "7AA99964597A2CD6"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "3FF252C391887B74"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "common_loot_crate"
-						}
-					}
+					item: "kubejs:gold_coin"
 					type: "item"
 				}
 			]
-			subtitle: "Discover an Illager Fortress"
 			tasks: [{
-				advancement: "idas:pillager_fortress"
+				advancement: "graveyard:graveyard/crypt"
 				criterion: ""
 				id: "615F494D5C661882"
 				type: "advancement"
 			}]
-			x: 12.0d
+			x: 11.5d
 			y: -4.0d
 		}
 		{
@@ -1373,13 +1368,7 @@
 				}
 				{
 					id: "547D134A5B6E5577"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "rare_loot_crate"
-						}
-					}
+					item: "collectibles:epic_loot_bag"
 					type: "item"
 				}
 			]
@@ -1405,13 +1394,14 @@
 				}
 				{
 					id: "020A096057CA5A0C"
-					item: "kubejs:iron_coin"
+					item: "kubejs:copper_coin"
 					type: "item"
 				}
 			]
-			shape: "hexagon"
+			shape: "rsquare"
+			subtitle: "Discover a Tavern"
 			tasks: [{
-				advancement: "idas:labyrinth"
+				advancement: "nova_structures:adventure/find_tavern"
 				criterion: ""
 				id: "0C503EE052BEDA8B"
 				type: "advancement"
@@ -1471,21 +1461,26 @@
 			id: "1F384765FE3167DB"
 			rewards: [
 				{
-					id: "2459F0A2B5AAC13D"
-					type: "xp_levels"
-					xp_levels: 1
+					id: "123FDA2BC5564F97"
+					item: "kubejs:diamond_coin"
+					type: "item"
 				}
 				{
-					id: "123FDA2BC5564F97"
-					item: "kubejs:iron_coin"
+					id: "44B3A48C1A9126F6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "553202C52AA91577"
+					item: "collectibles:epic_loot_bag"
 					type: "item"
 				}
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Find all the new Mineshafts(14)"
+			subtitle: "Discover every other biome (61)"
 			tasks: [{
-				advancement: "repurposed_structures:mineshafts"
+				advancement: "regions_unexplored:pioneer"
 				criterion: ""
 				id: "1605CAE126F3AE6A"
 				type: "advancement"
@@ -1513,8 +1508,8 @@
 				id: "20FC5CBC7066CE6D"
 				type: "advancement"
 			}]
-			x: -1.5d
-			y: 7.5d
+			x: -1.0d
+			y: 7.0d
 		}
 		{
 			id: "26C4DC505D176884"
@@ -1526,47 +1521,36 @@
 				}
 				{
 					id: "59BB6257FADC9182"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "047E74B6C234003F"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "common_loot_crate"
-						}
-					}
+					item: "kubejs:copper_coin"
 					type: "item"
 				}
 			]
-			subtitle: "Find all new outposts(14)"
+			subtitle: "Find a Flying Dutchman"
 			tasks: [{
-				advancement: "repurposed_structures:outposts"
+				advancement: "dungeons_enhanced:in_the_air"
 				criterion: ""
 				id: "12F59EC27FF06187"
 				type: "advancement"
 			}]
-			x: 0.0d
-			y: 9.0d
+			x: 0.5d
+			y: 8.5d
 		}
 		{
 			id: "2BFF62DE2B1CE10C"
 			rewards: [
 				{
-					id: "29F0D455A6BA12D8"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-				{
 					id: "29BFFFF1F6FEAD60"
 					type: "xp_levels"
 					xp_levels: 1
 				}
+				{
+					id: "37392EF5AEF21FD5"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
 			]
 			tasks: [{
-				advancement: "idas:apothecary_abode"
+				advancement: "dungeons_arise:find_mechanical_nest"
 				criterion: ""
 				id: "1A78566257294BB7"
 				type: "advancement"
@@ -1580,28 +1564,16 @@
 				{
 					id: "4705F68BF77C6CBA"
 					type: "xp_levels"
-					xp_levels: 1
+					xp_levels: 3
 				}
 				{
 					id: "472830A1EBC3592D"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "476BB742A901D839"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "common_loot_crate"
-						}
-					}
+					item: "kubejs:gold_coin"
 					type: "item"
 				}
 			]
-			subtitle: "Find all the new Villages(11)"
 			tasks: [{
-				advancement: "repurposed_structures:villages"
+				advancement: "dungeons_arise:find_keep_kayra"
 				criterion: ""
 				id: "3E9411D058A52071"
 				type: "advancement"
@@ -1611,6 +1583,7 @@
 		}
 		{
 			id: "6E0F6DFA958172F8"
+			invisible: true
 			rewards: [
 				{
 					id: "314012A1F1608FDC"
@@ -1636,6 +1609,7 @@
 		}
 		{
 			id: "6D7846F53919A4D9"
+			invisible: true
 			rewards: [
 				{
 					id: "23F0CA85D98CF337"
@@ -1674,7 +1648,7 @@
 				}
 			]
 			tasks: [{
-				advancement: "idas:winter_wagon"
+				advancement: "dungeons_arise:find_greenwood_pub"
 				criterion: ""
 				id: "7F580B20F36EF103"
 				type: "advancement"
@@ -1692,29 +1666,17 @@
 				}
 				{
 					id: "6296921EC78C1AE6"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "3374322ED3AE7CBB"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "common_loot_crate"
-						}
-					}
+					item: "kubejs:copper_coin"
 					type: "item"
 				}
 			]
-			subtitle: "Discover a Small Prairie House"
 			tasks: [{
-				advancement: "idas:castle"
+				advancement: "graveyard:graveyard/giant_mushroom"
 				criterion: ""
 				id: "7944AE0474BFC3BA"
 				type: "advancement"
 			}]
-			x: 11.0d
+			x: 10.5d
 			y: -4.5d
 		}
 		{
@@ -1730,30 +1692,30 @@
 					item: "kubejs:iron_coin"
 					type: "item"
 				}
-				{
-					id: "45B656A21D9B75E0"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "common_loot_crate"
-						}
-					}
-					type: "item"
-				}
 			]
-			subtitle: "Discover a Monster Room"
 			tasks: [{
-				advancement: "betterdungeons:small_dungeon"
+				advancement: "graveyard:graveyard/haunted_house"
 				criterion: ""
 				id: "6C63863C421CC2D5"
 				type: "advancement"
 			}]
-			x: 12.5d
+			x: 12.0d
 			y: -3.0d
 		}
 		{
 			id: "2AB2AAFC44200DBC"
+			rewards: [
+				{
+					id: "7DA5BFDE925CD8F1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5DC642794C3F5F45"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				advancement: "dungeons_arise:find_heavenly_challenger"
 				criterion: ""
@@ -1765,6 +1727,18 @@
 		}
 		{
 			id: "3BBC3ADD6990D183"
+			rewards: [
+				{
+					id: "63A6C1CB2CED3106"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "2F0D7E739F87028D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			tasks: [{
 				advancement: "dungeons_arise:find_aviary"
 				criterion: ""
@@ -1776,6 +1750,19 @@
 		}
 		{
 			id: "176367F84C9DC00A"
+			rewards: [
+				{
+					id: "779D9325851E09DF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "249F9F4A25080787"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Discover an Illager Fort"
 			tasks: [{
 				advancement: "dungeons_arise:find_illager_fort"
 				criterion: ""

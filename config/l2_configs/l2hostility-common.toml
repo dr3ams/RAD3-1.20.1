@@ -1,5 +1,7 @@
 #Allow entity specific difficulty configs to load
 enableEntitySpecificDatapack = true
+#Allow structure specific difficulty configs to load
+enableStructureSpecificDatapack = true
 
 [scaling]
 	#Health factor per level
@@ -75,6 +77,9 @@ enableEntitySpecificDatapack = true
 	#Drop rate of hostility loot from mobs from spawner
 	#Range: 0.0 ~ 1.0
 	dropRateFromSpawner = 0.5
+	#Drop rate of equipments spawned via hostility
+	#Range: 0.0 ~ 1.0
+	equipmentDropRate = 0.085
 
 [difficulty]
 	#Max player adaptive level
@@ -114,6 +119,8 @@ enableEntitySpecificDatapack = true
 	#Level bonus factor for mobs to spawn in Hostility Spawner
 	#Range: 1 ~ 10000
 	hostilitySpawnLevelFactor = 2
+	#Give player hostility orbs when upleveling difficulty
+	enableHostilityOrbDrop = true
 
 [items]
 	#Disable curio requirement for hostility loot
@@ -378,4 +385,17 @@ enableEntitySpecificDatapack = true
 	allow_freezing = true
 	allow_cursed = true
 	allow_master = true
+
+[performance]
+	#Enable curios checks whitelist for items such as ring of ocean, on only selected mobs to reduce lag
+	enableCurioCheckFilter = true
+	#Interval for which traits check if they are banned and to be removed
+	#Range: 1 ~ 1000
+	removeTraitCheckInterval = 10
+	#Interval for aura effect traits to apply
+	#Range: 1 ~ 1000
+	auraEffectApplicationInterval = 5
+	#Interval for self effect traits to apply
+	#Range: 1 ~ 1000
+	selfEffectApplicationInterval = 200
 

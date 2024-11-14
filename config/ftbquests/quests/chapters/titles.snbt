@@ -57,13 +57,9 @@
 			optional: true
 			rewards: [{
 				command: "/titles add @p titles:feedbacker"
-				command_three: ""
-				command_two: ""
 				console: false
-				elevate_perms: false
 				icon: "titles:title_scroll_rare"
 				id: "11C10744446F9668"
-				silent: false
 				team_reward: false
 				title: "the §6§lC§6§lo§6§ln§6§lt§6§lr§6§li§6§lb§6§lu§6§lt§6§lo§6§lr"
 				type: "command"
@@ -122,13 +118,9 @@
 			optional: true
 			rewards: [{
 				command: "/titles add @p titles:developer"
-				command_three: ""
-				command_two: ""
 				console: false
-				elevate_perms: false
 				icon: "titles:title_scroll_rare"
 				id: "7CEEC0584CF0E4D4"
-				silent: false
 				team_reward: false
 				title: "the §c§lD§6§le§e§lv§a§le§d§ll§b§lo§d§lp§c§le§6§lr"
 				type: "command"
@@ -253,10 +245,7 @@
 			optional: true
 			rewards: [{
 				command: "/titles add @p titles:patreon"
-				command_three: ""
-				command_two: ""
 				console: false
-				elevate_perms: false
 				icon: {
 					Count: 1
 					ForgeCaps: {
@@ -267,7 +256,6 @@
 					id: "titles:title_scroll_rare"
 				}
 				id: "11E518256C81330E"
-				silent: false
 				team_reward: false
 				title: "the §6§lP§f§la§6§lt§f§lr§6§lo§f§ln"
 				type: "command"
@@ -506,13 +494,9 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/tellraw @p {\"text\":\"The fall of a dragon has awakened the power of some weaker bosses previously held under its control.\",\"color\":\"dark_red\",\"bold\":true}"
-				command_three: ""
-				command_two: ""
 				console: false
-				elevate_perms: false
 				icon: "iceandfire:manuscript"
 				id: "7EEDC06EAE308F30"
-				silent: false
 				title: "Dragonslayer's Message"
 				type: "command"
 			}]
@@ -595,10 +579,7 @@
 				{
 					auto: "invisible"
 					command: "/execute as @p if entity @s[nbt={ForgeCaps:{\"titles:titles\":{display_title:\"titles:null\"}}}] run titles display tombstone:adventure/chain_death"
-					command_three: ""
-					command_two: ""
 					console: false
-					elevate_perms: false
 					icon: {
 						Count: 1
 						ForgeCaps: {
@@ -609,7 +590,6 @@
 						id: "titles:title_scroll_common"
 					}
 					id: "1426261C0B6627E4"
-					silent: false
 					team_reward: false
 					title: "The Noob"
 					type: "command"
@@ -617,10 +597,7 @@
 				{
 					auto: "invisible"
 					command: "/tellraw @p [{\"text\":\"You got a title! Press \",\"color\":\"yellow\"},{\"keybind\":\"key.titles.openTitleSelection\",\"color\":\"light_purple\",\"bold\":\"true\"},{\"text\":\" to see all your earned titles.\",\"color\":\"yellow\"}]"
-					command_three: ""
-					command_two: ""
 					console: false
-					elevate_perms: false
 					icon: {
 						Count: 1b
 						ForgeCaps: {
@@ -631,7 +608,6 @@
 						id: "iceandfire:manuscript"
 					}
 					id: "6854B6A3D61AB392"
-					silent: false
 					team_reward: false
 					title: "Noob's Message"
 					type: "command"
@@ -671,13 +647,9 @@
 			rewards: [{
 				auto: "disabled"
 				command: "/titles add @p titles:tester"
-				command_three: ""
-				command_two: ""
 				console: false
-				elevate_perms: false
 				icon: "titles:title_scroll_rare"
 				id: "1F290226068867C5"
-				silent: false
 				team_reward: false
 				title: "The Tester"
 				type: "command"
@@ -711,10 +683,7 @@
 			id: "4B455D9DA6A65FFC"
 			rewards: [{
 				command: "/titles add @p rad_recipes:spawner_buster"
-				command_three: ""
-				command_two: ""
 				console: false
-				elevate_perms: false
 				icon: {
 					Count: 1
 					ForgeCaps: {
@@ -731,7 +700,6 @@
 					}
 				}
 				id: "74215E966E019CB8"
-				silent: false
 				title: "§2Spawner Smasher"
 				type: "command"
 			}]
@@ -843,10 +811,7 @@
 			id: "7F643383AC98A054"
 			rewards: [{
 				command: "/titles add @p rad_recipes:mad_mage"
-				command_three: ""
-				command_two: ""
 				console: false
-				elevate_perms: false
 				icon: {
 					Count: 1
 					ForgeCaps: {
@@ -874,7 +839,6 @@
 					}
 				}
 				id: "1F01B4A8483A413F"
-				silent: false
 				title: "Mad Mage"
 				type: "command"
 			}]

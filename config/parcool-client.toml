@@ -1,46 +1,4 @@
 
-["Possibility of Actions(Some do not have to work)"]
-	can_BreakfallReady = false
-	can_CatLeap = false
-	can_ClimbPoles = true
-	can_ClimbUp = true
-	can_ClingToCliff = true
-	can_Crawl = true
-	can_Dive = true
-	can_Dodge = false
-	can_FastRun = true
-	can_Flipping = true
-	can_HangDown = true
-	can_HorizontalWallRun = false
-	can_JumpFromBar = true
-	can_QuickTurn = true
-	can_Roll = false
-	can_SkyDive = true
-	can_Slide = true
-	can_Tap = true
-	can_Vault = false
-	can_VerticalWallRun = false
-	can_WallJump = false
-	can_WallSlide = false
-	can_FastSwim = true
-
-["Stamina HUD Configuration"]
-	#Allowed Values: Normal, Light, Hide
-	stamina_hud_type = "Light"
-	#horizontal alignment
-	#Allowed Values: Left, Right
-	align_h_s_hud = "Right"
-	#vertical alignment
-	#Allowed Values: Top, Bottom
-	align_v_s_hud = "Bottom"
-	hide_hud_if_stamina_infinite = true
-	#horizontal margin of normal HUD
-	#Range: 0 ~ 100
-	margin_h_stamina_hud = 3
-	#vertical margin of normal HUD
-	#Range: 0 ~ 100
-	margin_v_stamina_hud = 3
-
 [Animations]
 	#Enable custom animations
 	enable_animation = false
@@ -88,6 +46,8 @@
 		enable_WallSlideAnimator = false
 		enable_DiveIntoWaterAnimator = true
 		enable_FastSwimAnimator = true
+		enable_ChargeJumpAnimator = true
+		enable_JumpChargingAnimator = true
 
 [Control]
 	#Control of FastRun
@@ -124,6 +84,9 @@
 	flip_control = "PressRightAndLeft"
 	#Enable getting off steps while doing dodge
 	can_get_off_steps_while_dodge = false
+	#Control of Horizontal Wall Run
+	#Allowed Values: PressKey, Auto
+	h-wall-run_control = "PressKey"
 
 [Modifier]
 	#How long you can do Horizontal Wall Run
@@ -138,20 +101,9 @@
 	#Dodge speed modifier
 	#Range: 0.5 ~ 1.5
 	dodge-speed_modifier = 1.0
-
-["Other Configuration"]
-	#Vault Animation(Dynamic is to select animation dynamically)
-	#Allowed Values: SpeedVault, KongVault, Dynamic
-	vault_animation_mode = "Dynamic"
-	#Color theme of Setting GUI
-	#Allowed Values: Red, Green, Blue, Yellow, Black
-	gui_color_theme = "Blue"
-	#Enable just timing effect of Breakfall
-	enable_just_time_effect_breakfall = true
-	#Enable sounds triggered by Action
-	enable_sounds = true
-	#Whether ParCool is active
-	parcool_activation = true
+	#FastSwim speed modifier
+	#Range: 0.001 ~ 4.0
+	fast-swim_modifier = 2.0
 
 [Stamina]
 	#Allowed Values: Default, Hunger, Feathers, Paraglider, EpicFight
@@ -210,4 +162,69 @@
 		stamina_consumption_of_CatLeap = 150
 		#Range: 0 ~ 10000
 		stamina_consumption_of_FastSwim = 3
+		#Range: 0 ~ 10000
+		stamina_consumption_of_ChargeJump = 100
+
+["Possibility_of_Actions(Some_do_not_have_to_work)"]
+	can_BreakfallReady = true
+	can_CatLeap = true
+	can_ChargeJump = true
+	can_ClimbPoles = true
+	can_ClimbUp = true
+	can_ClingToCliff = true
+	can_Crawl = true
+	can_Dive = true
+	can_Dodge = true
+	can_FastRun = true
+	can_FastSwim = true
+	can_Flipping = true
+	can_HangDown = true
+	can_HorizontalWallRun = true
+	can_JumpFromBar = true
+	can_QuickTurn = true
+	can_Roll = true
+	can_SkyDive = true
+	can_Slide = true
+	can_Tap = true
+	can_Vault = true
+	can_VerticalWallRun = true
+	can_WallJump = true
+	can_WallSlide = true
+
+[Stamina_HUD_Configuration]
+	#Allowed Values: Normal, Light, Hide
+	stamina_hud_type = "Light"
+	#horizontal alignment
+	#Allowed Values: Left, Right
+	align_h_s_hud = "Right"
+	#vertical alignment
+	#Allowed Values: Top, Bottom
+	align_v_s_hud = "Bottom"
+	hide_hud_if_stamina_infinite = true
+	#horizontal offset of normal HUD
+	#Range: 0 ~ 100
+	offset_h_stamina_hud = 3
+	#vertical offset of normal HUD
+	#Range: 0 ~ 100
+	offset_v_stamina_hud = 3
+	#horizontal offset of light HUD
+	#Range: -100 ~ 100
+	offset_h_light_hud = 0
+	#vertical offset of light HUD
+	#Range: -100 ~ 100
+	offset_v_light_hud = 0
+
+[Other_Configuration]
+	#Vault Animation(Dynamic is to select animation dynamically)
+	#Allowed Values: SpeedVault, KongVault, Dynamic
+	vault_animation_mode = "Dynamic"
+	#Color theme of Setting GUI
+	#Allowed Values: Red, Green, Blue, Yellow, Black
+	gui_color_theme = "Blue"
+	#Enable just timing effect of Breakfall
+	enable_just_time_effect_breakfall = true
+	#Enable sounds triggered by Action
+	enable_sounds = true
+	#Whether ParCool is active
+	parcool_activation = true
 

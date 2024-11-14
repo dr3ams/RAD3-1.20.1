@@ -326,6 +326,11 @@
 					item: "minecraft:grindstone"
 					type: "item"
 				}
+				{
+					id: "1C410EFF06FE7079"
+					item: "minecraft:fletching_table"
+					type: "item"
+				}
 			]
 			title: "Humble adobe"
 			x: 3.5d
@@ -455,7 +460,7 @@
 				}
 				{
 					id: "5CBF45690CB0CB01"
-					item: "kubejs:emerald_nugget"
+					item: "minecraft:emerald"
 					random_bonus: 3
 					type: "item"
 				}
@@ -487,7 +492,7 @@
 				}
 				{
 					id: "2A28E51842126858"
-					item: "kubejs:emerald_nugget"
+					item: "minecraft:emerald"
 					random_bonus: 3
 					type: "item"
 				}
@@ -531,13 +536,7 @@
 				}
 				{
 					id: "4E1BC620F85C50EA"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "hat_loot_crate"
-						}
-					}
+					item: "simplehats:hatbag_epic"
 					type: "item"
 				}
 			]
@@ -723,7 +722,7 @@
 				id: "5A7D361140FECB49"
 				item: {
 					Count: 1
-					id: "tombstone:ankh_of_pray"
+					id: "tombstone:ankh_of_prayer"
 					tag: {
 						Damage: 0
 					}
@@ -808,7 +807,7 @@
 			id: "366659E50333BC5A"
 			shape: "hexagon_important"
 			size: 2.0d
-			subtitle: "Visit 'Meet your fight' chapter to find more mob hunting quests!"
+			subtitle: "Visit 'Seek and Destroy' chapter to find more mob hunting quests!"
 			tasks: [{
 				advancement: "minecraft:adventure/kill_a_mob"
 				criterion: ""
@@ -929,6 +928,7 @@
 		}
 		{
 			dependencies: ["3A7C49FC5AA2927F"]
+			description: ["It's a little more expensive now."]
 			id: "1F988A67F250159F"
 			tasks: [
 				{
@@ -1127,11 +1127,17 @@
 		}
 		{
 			dependencies: ["149CB61732F787CF"]
+			description: ["Choose a biome, and this compass will point to the nearest one as long as it's within 5000 blocks."]
 			id: "0000000000000576"
 			rewards: [{
-				count: 5
 				id: "0000000000000578"
-				item: "randomite:randomite_ore"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "resource_loot_crate_1"
+					}
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -1170,7 +1176,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 4.0d
 			y: -7.0d
 		}
 		{
@@ -1736,7 +1742,7 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "common_loot_crate"
+							type: "resource_loot_crate_1"
 						}
 					}
 					type: "item"
@@ -3816,42 +3822,45 @@
 		}
 		{
 			dependencies: ["0000000000000017"]
-			description: ["&2Wind Chimes&r produce &oambient&r chiming sounds when hung from supporting blocks and can be interacted with. In addition, &2Wind Chimes&r animate in the wind and repel &7Phantoms&r from approaching players near a chiming Wind Chime!"]
+			description: ["The Fruit and Sword of Insomnia become more powerful the longer it has been since you slept. They max out at 6 days without sleep. You won't be able to sleep as long as they are in your inventory."]
 			id: "120E3243A96AA459"
-			subtitle: "Bring the sound of Chimes into your Minecraft world!"
-			tasks: [{
-				id: "45B7F7E96D0AA230"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "chimes:bamboo_chimes"
-							}
-							{
-								Count: 1b
-								id: "chimes:carved_bamboo_chimes"
-							}
-							{
-								Count: 1b
-								id: "chimes:iron_chimes"
-							}
-							{
-								Count: 1b
-								id: "chimes:copper_chimes"
-							}
-							{
-								Count: 1b
-								id: "chimes:amethyst_chimes"
-							}
-						]
-					}
-				}
-				title: "Chimes Variants"
+			rewards: [{
+				id: "7935F43927E83565"
+				item: "nameless_trinkets:sleeping_pills"
 				type: "item"
 			}]
+			subtitle: "All-nighter"
+			tasks: [
+				{
+					id: "07DBF0F138A27783"
+					item: {
+						Count: 1
+						id: "hmag:insomnia_fruit"
+						tag: {
+							hmag.level: 5b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "101DC6DE3B8694C7"
+					item: {
+						Count: 1
+						id: "hmag:insomnia_sword"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							hmag.level: 5b
+							reinforce_level: 0
+							reinforce_max: 10
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Insomnia"
 			x: 2.5d
 			y: -5.5d
 		}

@@ -13,21 +13,23 @@
 	loot_size: 1
 	order_index: 30
 	rewards: [
-		{ item: "railcraft:zinc_ore" }
-		{ item: "railcraft:tin_ore" }
-		{ count: 2, item: "railcraft:saltpeter_ore" }
-		{ count: 2, item: "railcraft:sulfur_ore" }
 		{ count: 8, item: "minecraft:coal_ore" }
-		{ count: 6, item: "minecraft:iron_nugget" }
+		{ count: 6, item: "spelunkery:raw_iron_nugget" }
 		{ item: "minecraft:raw_iron" }
-		{ item: "immersiveengineering:raw_nickel" }
-		{ count: 11, item: "minecraft:gold_nugget" }
+		{ count: 11, item: "spelunkery:raw_gold_nugget" }
 		{ count: 2, item: "minecraft:raw_copper" }
 		{ item: "minecraft:raw_gold" }
-		{ item: "immersiveengineering:raw_lead" }
-		{ item: "immersiveengineering:raw_silver" }
-		{ count: 3, item: "kubejs:emerald_nugget" }
-		{ count: 3, item: "kubejs:diamond_nugget" }
+		{ count: 3, item: "spelunkery:rough_emerald_shard" }
+		{ count: 3, item: "spelunkery:rough_diamond_shard" }
+		{ count: 5, item: "spelunkery:rough_cinnabar" }
+		{ count: 24, item: "spelunkery:rough_cinnabar_shard" }
+		{ count: 4, item: "spelunkery:rough_lazurite" }
+		{ count: 19, item: "spelunkery:rough_lazurite_shard" }
+		{ item: "spelunkery:raw_magnetite_nugget", random_bonus: 8 }
+		{ count: 8, item: "minecraft:raw_copper" }
+		{ count: 27, item: "spelunkery:raw_copper_nugget" }
+		{ count: 3, item: "embers:raw_lead" }
+		{ count: 2, item: "embers:raw_silver" }
 	]
 	title: "Ores 1"
 	use_title: true

@@ -13,6 +13,232 @@ ItemEvents.tooltip(event =>{
         }
     })
 
+	event.addAdvanced(['kubejs:essence_monster', 'kubejs:essence_monster_raw'], (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').gold(),
+        Text.of('to see more info.').gray()
+      ])
+	    text.add(2, [
+        Text.of('⭐ Mastery: ').darkRed(),
+        Text.of('Enchanting, Alchemy ').white()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• Can drop from monsters or found in chests').white()
+		])
+      text.add(2, [
+        Text.of('• Additional resources can be extracted from it using one of the ').white(),
+        Text.of('⭐ Masteries').darkRed()
+		])
+      text.add(2, [
+	    Text.of('• Find out more details in ').white(),
+        Text.of('⭐ Masteries ').darkRed(),
+        Text.of('questbook chapter').white()
+      ])
+    }
+  })
+	
+	event.addAdvanced('kubejs:spawnercore', (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').gold(),
+        Text.of('to see more info.').gray()
+      ])
+	    text.add(2, [
+        Text.of('⭐ Mastery: ').darkRed(),
+        Text.of('Enchanting, Alchemy, Scavenging ').white()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• Right-click to gain small amount of ').white(),
+        Text.of('experience').green()
+		])
+      text.add(2, [
+	    Text.of('• Can be exchanged for more rewards in ').white(),
+        Text.of('⭐ Masteries ').red(),
+        Text.of('questbook chapter').white()
+      ])
+    }
+  })
+	
+	event.addAdvanced('kubejs:scroll_exp', (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').blue(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• Right-click to gain small amount of ').white(),
+        Text.of('experience').green()
+		])
+      text.add(2, [
+	    Text.of('• Can be exchanged for more rewards in ').white(),
+        Text.of('⭐ Masteries ').darkRed(),
+        Text.of('questbook chapter').white()
+      ])
+	  text.add(3, [
+	    Text.of('• Portable Experience Dissolver ').aqua(),
+        Text.of('can be used to extract ').white(),
+        Text.of('Experience dust ').green(),
+		Text.of('needed in ').white(),
+        Text.of('Enchanting Mastery ').darkGreen(),
+		Text.of('recipes').white()
+      ])
+    }
+  })
+
+	event.addAdvanced('kubejs:scraps', (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').blue(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• Main ingridient needed for leveling up the ').white(),
+		Text.of('Scavenging ⭐ Mastery').blue()
+		])
+		text.add(2, [
+        Text.of('• Can be found in  ').white(),
+		Text.of('dungeons chests ').gold(),
+		Text.of('or crafted with ').white(),
+        Text.of('Portable Mini Salvager').purple()
+		])
+      text.add(3, [
+	    Text.of('• Find out more details in ').white(),
+        Text.of('⭐ Masteries ').darkRed(),
+        Text.of('questbook chapter').white()
+      ])
+    }
+  })
+
+	event.addAdvanced('kubejs:dust_alchemical', (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').blue(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• Main ingridient needed for leveling up the ').white(),
+		Text.of('Alchemy ⭐ Mastery').darkPurple()
+		])
+		text.add(2, [
+        Text.of('• Can be found in  ').white(),
+		Text.of('dungeons chests ').gold(),
+		Text.of('or crafted with ').white(),
+        Text.of('Portable Transmutation Device').purple()
+		])
+      text.add(3, [
+	    Text.of('• Find out more details in ').white(),
+        Text.of('⭐ Masteries ').darkRed(),
+        Text.of('questbook chapter').white()
+      ])
+    }
+  })
+
+	event.addAdvanced('kubejs:dust_experience', (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').blue(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• Main ingridient needed for leveling up the ').white(),
+		Text.of('Enchanting ⭐ Mastery').green()
+		])
+		text.add(2, [
+        Text.of('• Can be found in  ').white(),
+		Text.of('dungeons chests ').gold(),
+		Text.of('or crafted with ').white(),
+        Text.of('Portable Experience Dissolver').purple()
+		])
+      text.add(3, [
+	    Text.of('• Find out more details in ').white(),
+        Text.of('⭐ Masteries ').darkRed(),
+        Text.of('questbook chapter').white()
+      ])
+    }
+  })
+
+	event.addAdvanced('kubejs:portable_dissolver', (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').blue(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• Used to obtain ').white(),
+		Text.of('Experience Dust ').green(),
+		Text.of('needed in ').white(),
+        Text.of('Enchanting Mastery ').green(),
+		Text.of('recipes').white()
+		])
+      text.add(2, [
+	    Text.of('• Find out more details in ').white(),
+        Text.of('⭐ Masteries ').darkRed(),
+        Text.of('questbook chapter').white()
+      ])
+    }
+  })
+  
+  	event.addAdvanced('kubejs:portable_transmutator', (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').blue(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• Used to obtain ').white(),
+		Text.of('Alchemy Powder ').lightPurple(),
+		Text.of('needed in ').white(),
+        Text.of('Alchemy Mastery ').darkPurple(),
+		Text.of('recipes').white()
+		])
+      text.add(2, [
+	    Text.of('• Find out more details in ').white(),
+        Text.of('⭐ Masteries ').darkRed(),
+        Text.of('questbook chapter').white()
+      ])
+    }
+  })
+
+	event.addAdvanced('kubejs:portable_salvager', (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').blue(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• Used to obtain ').white(),
+		Text.of('Scraps ').blue(),
+		Text.of('needed in ').white(),
+        Text.of('Scavenging Mastery ').darkPurple(),
+		Text.of('recipes').white()
+		])
+      text.add(2, [
+	    Text.of('• Find out more details in ').white(),
+        Text.of('⭐ Masteries ').darkRed(),
+        Text.of('questbook chapter').white()
+      ])
+    }
+  })
+
 	event.addAdvanced('farmersdelight:straw', (item, advanced, text) => {
     if (!event.isShift()) {
       text.add(1, [
@@ -179,7 +405,9 @@ ItemEvents.tooltip(event =>{
       ])
     } else {
       text.add(1, [
-        Text.of('• Acquired through doing corresponding ').white(),
+        Text.of('• Acquired from ').white(), 
+		Text.of('loot ').purple(), 
+		Text.of('or through doing corresponding ').white(),
 		Text.of('dimension-based ').aqua(),
         Text.of('quests ').gold(),
 		Text.of('from the ').white(),

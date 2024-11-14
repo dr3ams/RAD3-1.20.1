@@ -1,0 +1,47 @@
+{
+	id: "287F80D20B283668"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Tablet Crate"
+		string_id: "tablet_crate"
+	}
+	loot_size: 1
+	order_index: 58
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "tombstone:tablet_of_recall"
+				tag: {
+					ancient: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tombstone:tablet_of_home"
+				tag: {
+					ancient: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tombstone:tablet_of_cupidity"
+				tag: {
+					ancient: 1b
+				}
+			}
+		}
+		{ item: "tombstone:tablet_of_guard" }
+		{ item: "tombstone:lost_tablet" }
+	]
+	title: "Tablet Crate"
+}

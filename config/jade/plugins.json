@@ -22,6 +22,7 @@
     "crop_progress": true,
     "command_block": true,
     "mob_growth": true,
+    "waxed": true,
     "harvest_tool.new_line": false,
     "entity_health.max_for_render": 40,
     "entity_health.show_fractions": false,
@@ -56,8 +57,22 @@
   "l2hostility": {
     "mob": true
   },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
   "tombstone": {
     "graves": true
+  },
+  "player_companions": {
+    "player_companion_entity_provider": true,
+    "player_companion_collector_entity_provider": true,
+    "player_companion_guard_entity_provider": true
+  },
+  "supplementaries": {
+    "hat_stand": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -73,31 +88,6 @@
   },
   "lootr": {
     "info": true
-  },
-  "ars_nouveau": {
-    "mob_jar": true
-  },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
-  "player_companions": {
-    "player_companion_entity_provider": true,
-    "player_companion_collector_entity_provider": true,
-    "player_companion_guard_entity_provider": true
-  },
-  "supplementaries": {
-    "hat_stand": true
-  },
-  "create": {
-    "filter": true,
-    "backtank_capacity": true,
-    "goggles.requires_goggles": true,
-    "goggles": true,
-    "blaze_burner": true,
-    "exact_block": true,
-    "crafting_blueprint": true,
-    "goggles.detailed": false,
-    "placard": true
   },
   "cookingforblockheads": {
     "fridge": true,

@@ -840,7 +840,7 @@
 				""
 				"&6⭐ Quest coins&r - doing quests"
 				""
-				"&5⭐ Dimensional coins&r - doing dimension quests"
+				"&5⭐ Dimensional coins&r - doing dimension quests and chest loot in dimensions"
 				""
 				"&9⭐ Task coins&r - completing tasks from Task Board chapter"
 				""
@@ -1110,6 +1110,12 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					exclude_from_claim_all: true
+					id: "3E22F805F32E2C5F"
+					table_id: 7712988558282718562L
+					type: "random"
+				}
 			]
 			shape: "octagon"
 			size: 1.5d
@@ -1240,6 +1246,108 @@
 			}]
 			x: -4.5d
 			y: -8.25d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "021505E5B897885F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29D9FBA6E0871180"
+				table_id: 2197301107086804354L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					disable_toast: true
+					id: "44ED5A6326AD9DD5"
+					item: "kubejs:voucher_weapon"
+					type: "item"
+				}
+				{
+					id: "2948AE31E7E41B3F"
+					points: false
+					type: "xp"
+					value: 1L
+				}
+			]
+			x: 16.0d
+			y: -12.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["58BB07133751F879"]
+			disable_toast: true
+			id: "1DE3F2D82D1CDAEB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "187346C9B4084F08"
+				table_id: 1950373705698130098L
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 0.75d
+			subtitle: "&2&oChoice repeatable reward&r&r"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				disable_toast: true
+				id: "64C05D71CBBDA2EC"
+				item: "kubejs:coin_dungeon"
+				type: "item"
+			}]
+			x: -1.75d
+			y: -11.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1DE3F2D82D1CDAEB"]
+			disable_toast: true
+			id: "6A55C9E5876A8BED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "052ECF278FC12706"
+				table_id: 8736506527408628701L
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 0.75d
+			subtitle: "&2&oChoice repeatable reward&r&r"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "614ED2213DFB9D77"
+				item: "kubejs:coin_dungeon"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -11.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["78F9882C7D8B91FF"]
+			disable_toast: true
+			id: "58BB07133751F879"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0749BFCBE3CBE93A"
+				table_id: 6412561280443426099L
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 0.75d
+			subtitle: "&2&oChoice repeatable reward&r&r"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "6733C0C9E0C0E947"
+				item: "kubejs:coin_dungeon"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -11.0d
 		}
 	]
 	title: "⭐ The Market"

@@ -133,7 +133,7 @@
 [Spiders]
 	#Various small changes to Spiders.
 	"Enable Miscellaneous" = true
-	#Makes spiders throw a web at a player, slowing them. Use the enhancedai:
+	#Makes spiders throw a web at a player, slowing them
 	"Enable Throwing Web" = true
 
 	#Various small changes to Spiders.
@@ -142,7 +142,7 @@
 		#Range: 0.0 ~ 1.0
 		"Fall Damage Reduction" = 0.9
 
-	#Makes spiders throw a web at a player, slowing them. Use the enhancedai:
+	#Makes spiders throw a web at a player, slowing them
 	[Spiders."Throwing Web"]
 		#Chance for a Spider to spawn with the ability to throw webs at the target.
 		#Range: 0.0 ~ 1.0
@@ -355,6 +355,10 @@
 	#Use the enhancedai:change_wolves entity type tag to add more wolves.
 	[Pets.Wolves]
 		"Double HP and Damage" = true
+		"Bonus Movement Speed" = true
+		#Wolves will slowly heal like horses. This is 1 in x chance to heal 1 hp each tick.
+		#Range: > -2147483648
+		"Passive Heal Speed" = 900
 
 [Mobs]
 	#Makes mobs ride other mobs
@@ -365,7 +369,7 @@
 	"Enable Movement" = true
 	#Makes mobs be able to leap over a few blocks.
 	"Enable Leap" = true
-	#Mobs will run away from exploding creepers / TNT. Use the entity type tag enhancedai:no_run_from_explosion to blacklist them
+	#Mobs will run away from exploding creepers / TNT. Use the entity type tag enhancedai:can_run_from_explosion to whitelist them
 	"Enable Avoid Explosions" = false
 	#Mobs can flee or attack Wardens. Use the entity type tag enhancedai:ignore_warden_interaction to blacklist mobs.
 	"Enable Warden Interacting" = false
@@ -388,6 +392,8 @@
 	"Enable Break Anger" = false
 	#Mobs can bite if are attacked with non-weapons. Only mobs in the enhancedai:can_bite entity type tag can bite.
 	"Enable Biting Mobs" = true
+	#Makes mobs be able to jump in place when target is a few blocks above the mob.
+	"Enable Jump" = true
 
 	#Makes mobs ride other mobs
 	[Mobs.Riding]
@@ -414,7 +420,7 @@
 		#Range: 0.0 ~ 4.0
 		"Swim Speed Addition Multiplier" = 2.5
 
-	#Mobs will run away from exploding creepers / TNT. Use the entity type tag enhancedai:no_run_from_explosion to blacklist them
+	#Mobs will run away from exploding creepers / TNT. Use the entity type tag enhancedai:can_run_from_explosion to whitelist them
 	[Mobs."Avoid Explosions"]
 		#Speed multiplier when the mob runs from explosions and it's within 7 blocks from him.
 		#Range: 0.0 ~ 10.0
@@ -460,6 +466,8 @@
 		#Multiplier for the time a mob takes to break blocks. E.g. with this set to 2, mobs will take twice the time to mine a block.
 		#Range: 0.0 ~ 128.0
 		"Time to break multiplier" = 1.0
+		#If true, the block tag `enhancedai:miner_block_blacklist` will be treated as a whitelist instead of blacklist
+		"Block Blacklist as Whitelist" = false
 
 		#Dimensions where mobs can't spawn with the ability to mine.
 		[Mobs."Miner Mobs"."Dimension Blacklist"]
@@ -483,15 +491,17 @@
 		#If the mobs' affected by blindness effect the target range is multiplied by this value
 		#Range: 0.0 ~ 1.0
 		"Blindness range multiplier" = 0.1
+		#By default, the new targeting AI only changes for targeting players. Setting this to true allows overriding target AI for entities other than players. Please note this might break specific AIs
+		"Targeting Override for non-Players" = false
 
-		#How far away can the mobs see the player. This overrides the vanilla value (16 for most mobs). Setting 'Max' to 0 will leave the follow range as vanilla. I recommend using mods like Mobs Properties Randomness to have more control over the attribute.
+		#How far away can the mobs see the player. This overrides the vanilla value (16 for most mobs). Setting 'Max' to 0 will leave the follow range as vanilla. I recommend using mods like Mobs Properties Randomness to have more control over the attribute. Only mobs in the entity type tag `enhancedai:change_follow_range` will be affected by this override
 		[Mobs.Targeting."Follow Range Override"]
 			#Range: 0.0 ~ 128.0
 			Minimum = 24.0
 			#Range: 0.0 ~ 128.0
 			Maximum = 48.0
 
-		#How far away can the mobs see the player even through walls. Setting 'Max' to 0 will make mobs not able to see through walls. I recommend using mods like Mobs Properties Randomness to have more control over the attribute; the attribute name is 'enhancedai:generic.xray_follow_range'.
+		#How far away can the mobs see the player even through walls. Setting 'Max' to 0 will make mobs not able to see through walls. I recommend using mods like Mobs Properties Randomness to have more control over the attribute; the attribute name is 'enhancedai:generic.xray_follow_range'. Only mobs in the entity type tag `enhancedai:apply_xray` will be affected by this override.
 		[Mobs.Targeting."XRay Range Override"]
 			#Range: 0.0 ~ 128.0
 			Minimum = 12.0
@@ -499,10 +509,12 @@
 			Maximum = 24.0
 
 		[Mobs.Targeting."Hurt by target"]
-			#Mobs will no longer switch target if it's the same or if the current one it's closer.
+			#Mobs will actually switch target when attacked unless it's the same or if the current one it's closer.
 			"Better version" = true
 			#Mobs will no longer attack each other.
 			"Prevent infighting" = true
+			#Mobs will prefer to attack players instead of other mobs (Note that 'Prevent infighting' should be disabled).
+			"Prefer players" = true
 
 		#Chances for a mob to spawn neutral
 		[Mobs.Targeting."Neutral Chances"]
@@ -647,10 +659,10 @@
 		#Distance from a player that will make the skeleton run away.
 		#Range: 0.0 ~ 32.0
 		"Flee Distance Far" = 2.0
-		#Speed multiplier when the skeleton avoids the player and it's within 'Flee Distance Near' blocks from him.
+		#Speed multiplier when the pillager avoids the player and it's within 'Flee Distance Near' blocks from him.
 		#Range: 0.0 ~ 4.0
 		"Flee speed Multiplier Near" = 1.1
-		#Speed multiplier when the skeleton avoids the player and it's farther than 'Flee Distance Far' blocks from him.
+		#Speed multiplier when the pillager avoids the player and it's farther than 'Flee Distance Far' blocks from him.
 		#Range: 0.0 ~ 4.0
 		"Flee speed Multiplier Far" = 1.0
 
@@ -713,9 +725,6 @@
 		#Percentage chance for a Creeper to ignore walls while targeting a player. This means that a creeper will be able to explode if it's in the correct range from a player even if there's a wall between.
 		#Range: 0.0 ~ 1.0
 		"Ignore Walls Chance" = 1.0
-		#Breaching creepers will try to open a hole in the wall to let mobs in.
-		#Range: 0.0 ~ 1.0
-		"Breach Chance" = 0.0
 		#Disables the creeper feature that makes them start swelling when falling.
 		"Disable falling swelling" = true
 		#If true creepers will ignite if damaged by an explosion.
@@ -760,10 +769,18 @@
 			#Angry Creeper will not stop swelling when triggered
 			"Forced Explosion" = true
 			#The special sound effect that the Angry Creeper plays
-			#Allowed Values: NONE, CENA, WTF_BOOM
+			#Allowed Values: NONE, CENA, WTF_BOOM, OLD_EXPLOSION
 			Sounds = "CENA"
 			#Makes angry creepers blow up on death like when they were added back in 0.30
 			"Explode on death" = true
+
+		[Creepers."Creeper Swell".Breach]
+			#Breaching creepers will try to open a hole in the wall to let mobs in.
+			#Range: 0.0 ~ 1.0
+			Chance = 0.075
+			#How far away (horizontally) from the target breaching creepers can breach.
+			#Range: > 0
+			"Horizontal Range" = 24
 
 [Blazes]
 	#Make blazes fire faster/more fireballs. Only mobs in enhancedai:change_blaze_attack entity type tag are affected by this feature.
@@ -838,6 +855,12 @@
 		Knockback = 1.5
 		#Animals' knockback attribute will be increased/decreased based on the side of the mob.
 		"Knockback size based" = true
+		#Speed multiplier when the animal avoids the player and it's within 8 blocks from him.
+		#Range: 0.0 ~ 4.0
+		"Flee speed Multiplier Near" = 1.1
+		#Speed multiplier when the animal avoids the player and it's farther than 16 blocks from him.
+		#Range: 0.0 ~ 4.0
+		"Flee speed Multiplier Far" = 1.0
 
 	#Makes animals not tempted by food. Use the entity type tag enhancedai:can_ignore_food_temptation to change animals.
 	[Animals."Not Tempted Animals"]

@@ -5,7 +5,7 @@
 	group: "241F1DC7B6D6E9D6"
 	icon: "l2hostility:weakness"
 	id: "7928F5D289CB8B3D"
-	order_index: 7
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -69,7 +69,7 @@
 				"Note: When an enchanted book appears in a crafting recipe, ANY ITEM with that enchantment can be used. So, for example, this curse can be crafted with a sword with looting and a pickaxe with silk touch."
 			]
 			id: "1887FFFDF2F18508"
-			shape: "octagon"
+			shape: "octagon_important"
 			subtitle: "I want what you have"
 			tasks: [{
 				id: "6531E6FD09790BC7"
@@ -83,7 +83,7 @@
 			dependencies: ["2C8184EF50649550"]
 			description: ["Stops the difficulty from rising, but also stops you from getting special loot. Basically, a pause button on progress."]
 			id: "2C7BE26B882BA97A"
-			shape: "octagon"
+			shape: "octagon_important"
 			subtitle: "I want a break"
 			tasks: [{
 				id: "1108D3ABFFE642A6"
@@ -116,7 +116,7 @@
 			dependencies: ["1887FFFDF2F18508"]
 			description: ["This curse makes mobs drop Bottles of Curse based on their level. You are going to need A LOT of Bottles of Curse."]
 			id: "1EAB72EC26A866EF"
-			shape: "octagon"
+			shape: "octagon_important"
 			subtitle: "MORE BOTTLES"
 			tasks: [{
 				id: "35A8A25BACED3031"
@@ -130,7 +130,7 @@
 			dependencies: ["1887FFFDF2F18508"]
 			description: ["Gives you more loot, but raises the difficulty. Raising the difficulty can be good, since it lets mobs with new, powerful traits spawn. High risk, high reward."]
 			id: "37EFC27EA5A642AC"
-			shape: "octagon"
+			shape: "octagon_important"
 			subtitle: "I want more"
 			tasks: [{
 				id: "41D4E55C7DFD707C"
@@ -144,7 +144,7 @@
 			dependencies: ["1887FFFDF2F18508"]
 			description: ["This curse makes mobs drop all their armor and weapons. Very helpful for collecting tridents or items with Protection 4."]
 			id: "44E782F20A5B4CF2"
-			shape: "octagon"
+			shape: "octagon_important"
 			subtitle: "Take off your armor~♪"
 			tasks: [{
 				id: "457615BB9A7F18B4"
@@ -298,6 +298,7 @@
 				"32C34F16A99784BF"
 				"19E3721B38A7E89F"
 			]
+			dependency_requirement: "one_completed"
 			description: ["Miracle Ingots are used to craft the last two curses as well as other end-game gear."]
 			id: "6BB9F5B1E1AE4BDE"
 			tasks: [{
@@ -312,7 +313,7 @@
 			dependencies: ["6BB9F5B1E1AE4BDE"]
 			description: ["A powerful offensive curse. Grants immunity to several negative effects and gives a massive, scaling attack boost. You'll definitely need it."]
 			id: "43B44F0D48673B37"
-			shape: "octagon"
+			shape: "octagon_important"
 			subtitle: "I'm gonna kill you"
 			tasks: [{
 				id: "11F9FF16D9172330"
@@ -326,7 +327,7 @@
 			dependencies: ["6BB9F5B1E1AE4BDE"]
 			description: ["An even more powerful offensive curse. Gives a scaling health and damage boost against mobs, but makes mob traits 300% more common. Don't underestimate that downside."]
 			id: "4D584EC8ED383E57"
-			shape: "octagon"
+			shape: "octagon_important"
 			subtitle: "I'm the best"
 			tasks: [{
 				id: "0FF4129423628988"
@@ -1615,7 +1616,7 @@
 				item: "l2hostility:oddeyes_glasses"
 				type: "item"
 			}]
-			x: -13.0d
+			x: -12.5d
 			y: 1.0d
 		}
 		{
@@ -1633,7 +1634,7 @@
 				item: "l2hostility:triple_strip_cape"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -11.5d
 			y: 1.0d
 		}
 		{
@@ -1691,7 +1692,7 @@
 				type: "checkmark"
 			}]
 			title: "Hostile World"
-			x: -17.0d
+			x: -18.0d
 			y: -1.0d
 		}
 		{
@@ -1762,8 +1763,8 @@
 				title: "Mob Traits"
 				type: "checkmark"
 			}]
-			x: -17.0d
-			y: 0.5d
+			x: -18.0d
+			y: 1.0d
 		}
 	]
 	title: "Hostile World"

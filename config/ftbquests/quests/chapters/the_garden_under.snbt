@@ -5,7 +5,7 @@
 	group: "241F1DC7B6D6E9D6"
 	icon: "undergarden:deepturf_block"
 	id: "4D9749A9C944ECE8"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -27,17 +27,11 @@
 		{
 			dependencies: ["0B5EF31B3DBC9DE2"]
 			id: "556166EB2D38864C"
-			rewards: [
-				{
-					id: "0B059AE186EFD057"
-					type: "custom"
-				}
-				{
-					id: "3EE74DEEB8D07CB5"
-					item: "aquaculture:lockbox"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3EE74DEEB8D07CB5"
+				item: "aquaculture:lockbox"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3A33923C413913D8"
@@ -102,23 +96,6 @@
 		{
 			dependencies: ["018570DD4BB7DE24"]
 			id: "2BE179E3CB62EC60"
-			rewards: [
-				{
-					id: "1B1A0C374E0C5279"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "ingots_valuable"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "388ACD2D600A7855"
-					type: "custom"
-				}
-			]
 			tasks: [{
 				id: "38D1D570FA3B2873"
 				item: "undergarden:cloggrum_ingot"
@@ -130,11 +107,6 @@
 		{
 			dependencies: ["2BE179E3CB62EC60"]
 			id: "323B957615CD18E2"
-			rewards: [{
-				id: "1B7401D9516E1FE5"
-				item: "randomloot:basic_case"
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "1AA463CF561ADF2F"
@@ -187,27 +159,6 @@
 		{
 			dependencies: ["48E0E1A14FB2B977"]
 			id: "3E8D81625369E9E9"
-			rewards: [
-				{
-					id: "56F03970730E9FE6"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "materials_random"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "37FA1B694B281F5D"
-					type: "custom"
-				}
-				{
-					id: "579A3AFDC4109B79"
-					type: "choice"
-				}
-			]
 			tasks: [{
 				id: "621F5FEFF40A47C2"
 				item: "undergarden:regalium_crystal"
@@ -279,23 +230,6 @@
 		{
 			dependencies: ["28413C0BD4F59A16"]
 			id: "6021E7E3254ACF31"
-			rewards: [
-				{
-					id: "20EDA2BD58FFCA0B"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "ingots_valuable"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "60D1B6E57EB91B4A"
-					type: "custom"
-				}
-			]
 			tasks: [{
 				id: "5D1EA1E30E9F5EF0"
 				item: "undergarden:froststeel_ingot"
@@ -307,17 +241,6 @@
 		{
 			dependencies: ["27654986081EFE73"]
 			id: "658339B2ABB5FB34"
-			rewards: [{
-				id: "2AA30B49F6423D5D"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "potions"
-					}
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "45D22FD41241618E"
 				item: "undergarden:shard_torch"
@@ -330,8 +253,8 @@
 			dependencies: ["658339B2ABB5FB34"]
 			id: "0A930BDB32118A2D"
 			rewards: [{
-				id: "3F8D10653DA1042E"
-				item: "losttrinkets:treasure_bag"
+				id: "1E443CF3AF35587E"
+				item: "collectibles:loot_bag"
 				type: "item"
 			}]
 			tasks: [{
@@ -377,10 +300,6 @@
 		{
 			dependencies: ["0B5EF31B3DBC9DE2"]
 			id: "0E49B77DE8AF8D29"
-			rewards: [{
-				id: "54315EB48DFA1072"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "42CB233D2C470253"
 				item: "undergarden:blisterberry"
@@ -392,24 +311,11 @@
 		{
 			dependencies: ["0B5EF31B3DBC9DE2"]
 			id: "2DC795CB47957AB2"
-			rewards: [
-				{
-					id: "7C0BB6A7D20E1C94"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "potions"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "36721693CD5EC22F"
-					item: "losttrinkets:treasure_bag"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "76E9CD2ACB02C732"
+				item: "collectibles:loot_bag"
+				type: "item"
+			}]
 			tasks: [{
 				id: "367647B21803E1F3"
 				item: "undergarden:underbeans"
@@ -422,10 +328,6 @@
 			dependencies: ["37083F3C9F54C566"]
 			id: "0B5EF31B3DBC9DE2"
 			rewards: [
-				{
-					id: "38650DE88EE21714"
-					type: "custom"
-				}
 				{
 					id: "5F107353ABE9AB7E"
 					type: "xp_levels"
@@ -448,10 +350,6 @@
 		{
 			dependencies: ["37083F3C9F54C566"]
 			id: "703849AAE5F2D4BC"
-			rewards: [{
-				id: "2AA79D87AF20C2BE"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "56B813460A38BA2C"
 				item: "undergarden:droopvine_item"
@@ -463,17 +361,11 @@
 		{
 			dependencies: ["07114E47F767CBB4"]
 			id: "24BD242ECF4E943A"
-			rewards: [
-				{
-					id: "0BA6F7B8E400E027"
-					type: "custom"
-				}
-				{
-					id: "13446F168BDFF251"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "13446F168BDFF251"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5A9A3F4AC43D221C"
 				item: "undergarden:veiled_stew"
@@ -485,17 +377,11 @@
 		{
 			dependencies: ["07114E47F767CBB4"]
 			id: "760DC5559AB33E17"
-			rewards: [
-				{
-					id: "019DBB7193D2E66E"
-					type: "custom"
-				}
-				{
-					id: "5E5C4E7CF1F152AC"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "5E5C4E7CF1F152AC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0916E7A253CFE8F7"
 				item: "undergarden:indigo_stew"
@@ -507,17 +393,11 @@
 		{
 			dependencies: ["07114E47F767CBB4"]
 			id: "091975CE7D583E34"
-			rewards: [
-				{
-					id: "1CCBB72E4461E7ED"
-					type: "custom"
-				}
-				{
-					id: "1E1D04CB7A17FB1B"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "1E1D04CB7A17FB1B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3CA5706B80048326"
 				item: "undergarden:inky_stew"
@@ -529,17 +409,11 @@
 		{
 			dependencies: ["07114E47F767CBB4"]
 			id: "483F411F5D478DBA"
-			rewards: [
-				{
-					id: "6A71832789219CB1"
-					type: "custom"
-				}
-				{
-					id: "5C5C0887C36E6143"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "5C5C0887C36E6143"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4F3396878253753A"
 				item: "undergarden:bloody_stew"
@@ -552,10 +426,6 @@
 			dependencies: ["0B5EF31B3DBC9DE2"]
 			id: "0CF99C9FC38B1ED2"
 			rewards: [
-				{
-					id: "6A54CBA5EB2350EB"
-					type: "custom"
-				}
 				{
 					id: "776A1991EFA0B014"
 					type: "xp_levels"
@@ -579,10 +449,6 @@
 			dependencies: ["0B5EF31B3DBC9DE2"]
 			id: "29198808C005A0FA"
 			rewards: [
-				{
-					id: "13151E6CADC2AB35"
-					type: "custom"
-				}
 				{
 					id: "25E758B0DA7BBDB4"
 					type: "xp_levels"
@@ -621,24 +487,17 @@
 		{
 			dependencies: ["4A455CCEEE973422"]
 			id: "113ADEE783C3B34A"
-			rewards: [
-				{
-					id: "7B53BBF3D81E21AF"
-					item: {
-						Count: 1
-						id: "roughtweaks:bandage"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "7B53BBF3D81E21AF"
+				item: {
+					Count: 1
+					id: "roughtweaks:bandage"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-				{
-					id: "34EE107409F3B19A"
-					item: "randomloot:basic_case"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "2526E202F20807A2"
 				item: {
@@ -716,27 +575,6 @@
 		{
 			dependencies: ["27654986081EFE73"]
 			id: "55A4EF2BD2B47F6F"
-			rewards: [
-				{
-					id: "2882A65F99CD427D"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "materials_random"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5E9CFC3743DF30AB"
-					type: "custom"
-				}
-				{
-					id: "24E66155087DE54D"
-					type: "choice"
-				}
-			]
 			tasks: [{
 				id: "07566FE8FF4A26D5"
 				item: "undergarden:utherium_crystal"
@@ -748,11 +586,6 @@
 		{
 			dependencies: ["6021E7E3254ACF31"]
 			id: "08EB7BF28317474D"
-			rewards: [{
-				id: "194F42A4A9BF05A5"
-				item: "randomloot:basic_case"
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "4C8F69A011F32082"

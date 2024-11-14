@@ -71,7 +71,7 @@
 			y: 1.5d
 		}
 	]
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -157,12 +157,6 @@
 					biome: "aether_redux:gilded_groves"
 					icon: "aether_redux:gilded_oak_sapling"
 					id: "53B351C18E703A21"
-					type: "biome"
-				}
-				{
-					biome: "aether_redux:highfields"
-					icon: "aether_redux:flowering_fieldsprout_sapling"
-					id: "52F8A7D69B77E594"
 					type: "biome"
 				}
 				{
@@ -635,18 +629,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["4167FEC4F9A0252C"]
-			id: "6B9019420292BB98"
-			shape: "diamond"
-			tasks: [{
-				id: "72B168069B0FCBB5"
-				item: "aether_redux:phoenix_ring"
-				type: "item"
-			}]
-			x: 16.5d
-			y: 8.5d
-		}
-		{
 			dependencies: ["08067422126C49AF"]
 			id: "7F6E9A4C601CA13F"
 			shape: "diamond"
@@ -665,11 +647,11 @@
 			shape: "diamond"
 			tasks: [{
 				id: "7ED3856A467445DC"
-				item: "aether_redux:valkyrie_ring"
+				item: "aether_redux:ring_of_construction"
 				type: "item"
 			}]
 			x: 12.5d
-			y: 9.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["08067422126C49AF"]
@@ -698,7 +680,7 @@
 				type: "item"
 			}]
 			x: 13.5d
-			y: 9.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["4167FEC4F9A0252C"]
@@ -783,8 +765,8 @@
 				item: "aether:life_shard"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 9.0d
+			x: 16.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["04576ACE03218FEC"]
@@ -1052,33 +1034,13 @@
 					type: "item"
 				}
 				{
-					id: "5ECADE5334413B12"
-					item: "aether_redux:fieldsprout_petals"
-					type: "item"
-				}
-				{
 					id: "3DB510C999A0CEFC"
 					item: "aether_redux:skysprouts"
 					type: "item"
 				}
 				{
-					id: "6E7F8EA08E9C0BD1"
-					item: "aether_redux:firecap"
-					type: "item"
-				}
-				{
-					id: "1FC80FB711BB9234"
-					item: "aether_redux:gilded_white_flower"
-					type: "item"
-				}
-				{
 					id: "1682205465FBD22F"
 					item: "aether_redux:iridia"
-					type: "item"
-				}
-				{
-					id: "0654C81C5A0C07ED"
-					item: "aether_redux:enchanted_shrub"
 					type: "item"
 				}
 				{
@@ -1097,11 +1059,6 @@
 					type: "item"
 				}
 				{
-					id: "776F8494E65B745A"
-					item: "aether_redux:blighted_fungi"
-					type: "item"
-				}
-				{
 					id: "04B07FAFE399B5C6"
 					item: "aether_redux:cloudcap_mushling"
 					type: "item"
@@ -1109,11 +1066,6 @@
 				{
 					id: "3E905D5B30C72704"
 					item: "aether_redux:lumina"
-					type: "item"
-				}
-				{
-					id: "0F09DADA94528E13"
-					item: "aether_redux:sweetblossom"
 					type: "item"
 				}
 			]
@@ -1330,16 +1282,6 @@
 				{
 					id: "32B25BBEEA6F7E33"
 					item: "deep_aether:blightmoss_holystone_bricks"
-					type: "item"
-				}
-				{
-					id: "719237A4E2C95DE5"
-					item: "deep_aether:frosted_holystone_bricks"
-					type: "item"
-				}
-				{
-					id: "04830CE7DC8CC734"
-					item: "aether_redux:vitrium_bricks"
 					type: "item"
 				}
 			]

@@ -1,630 +1,26 @@
 {
+	autofocus_id: "2A968EAB509DFDF6"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "meet_your_fight"
-	group: "5AAD108D5AD37CD9"
-	icon: "meetyourfight:haunted_bell"
+	group: "241F1DC7B6D6E9D6"
+	icon: {
+		Count: 1
+		id: "hmag:nemesis_blade"
+		tag: {
+			Damage: 0
+			affix_data: {
+				sockets: 1
+			}
+			hmag.level: 6b
+			reinforce_level: 0
+			reinforce_max: 10
+		}
+	}
 	id: "0F590B3A1FD5D993"
-	images: [
-		{
-			height: 2.0d
-			image: "rad2:textures/misc/fight_1.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: -4.5d
-			y: 12.0d
-		}
-		{
-			height: 4.0d
-			image: "rad2:textures/misc/fight_2.png"
-			rotation: 0.0d
-			width: 5.348783314020857d
-			x: -8.5d
-			y: -3.0d
-		}
-		{
-			height: 4.0d
-			image: "rad2:textures/misc/fight_3.png"
-			rotation: 0.0d
-			width: 3.5580464371497196d
-			x: 9.5d
-			y: 4.0d
-		}
-		{
-			height: 3.0d
-			image: "rad2:textures/misc/fight_4.png"
-			rotation: 0.0d
-			width: 5.333333333333333d
-			x: -7.5d
-			y: 4.5d
-		}
-		{
-			height: 5.0d
-			image: "rad2:textures/misc/fight_5.png"
-			rotation: 0.0d
-			width: 6.666666666666666d
-			x: 9.5d
-			y: -2.5d
-		}
-	]
-	order_index: 3
+	order_index: 7
 	quest_links: [ ]
 	quests: [
-		{
-			dependencies: ["3BB8E50299A5126E"]
-			description: [
-				"Bellringer is a boss added by Meet Your Fight. It can be summoned by using a Haunted Bell. When killed, it drops 1 Phantoplasm and 3-4 Gold Ingots."
-				""
-				"Bellringer floats above the ground and can pass through walls, similarly to a Vex. When targeting a player, it tries to constantly stay a few blocks in front and above its target."
-				""
-				"All of its attacks consists of sending waves of projectiles that travel in a straight line after a short delay. Each projectile deals 8 damage on contact and can pass through walls. Bellringer randomly alternates between the following two attacks during the fight:"
-				""
-				"After falling below 50%, it rings its bell to apply Slowness II for 15 seconds to all nearby entities, then quickly fire 20 lines of projectiles at ground level that go toward its current target. After this attack is finished, Bellringer resumes its normal attacks, but each will fire 4 waves of projectiles instead of 3 for the rest of the fight."
-			]
-			icon: "meetyourfight:haunted_bell"
-			id: "01586496C0B6EB67"
-			optional: true
-			rewards: [
-				{
-					id: "2E2EA952DF5D2827"
-					item: "aquaculture:treasure_chest"
-					type: "item"
-				}
-				{
-					id: "030091FB19C36FEF"
-					item: "randomite:randomite_ore"
-					type: "item"
-				}
-				{
-					id: "3D847388C3AD2E26"
-					type: "xp"
-					xp: 1000
-				}
-			]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "Kill this one and Swampjaw to enter Expert Mode"
-			tasks: [
-				{
-					id: "0263104BCAE479EB"
-					item: "meetyourfight:haunted_bell"
-					type: "item"
-				}
-				{
-					entity: "meetyourfight:bellringer"
-					id: "71FF4B63C04425CE"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "Bell Ringer"
-			x: -1.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["3BB8E50299A5126E"]
-			description: [
-				"Swampjaw is a boss added by Meet Your Fight. It can be summoned by using a Fossil Bait. When killed, it drops 1 Mossy Tooth, 3-6 Bones, 2-4 Vines, and 1-3 Dirt."
-				""
-				"Swampjaw usually flies above its current target and moves like a Phantom, except it can see and fly through walls. When attacking it repeats the following pattern in the same order:"
-				"Orbit a few seconds around and above its target."
-				"Rapidly move above its target to drop 3 mines, these explode when touching the ground with half the strength of TNT and do not destroy blocks or hurt Swampjaw."
-				"Swoop down to charge its target, dealing 7 damage on contact. Damaging Swampjaw prematurely cancels this attack."
-			]
-			icon: "meetyourfight:fossil_bait"
-			id: "6A51E5206B5F75D4"
-			optional: true
-			rewards: [
-				{
-					id: "5116A99A7CDB8246"
-					item: "aquaculture:treasure_chest"
-					type: "item"
-				}
-				{
-					id: "4421F827CEAE4603"
-					item: "randomite:randomite_ore"
-					type: "item"
-				}
-				{
-					id: "1B0C68BA1C9EAE1A"
-					type: "xp"
-					xp: 1000
-				}
-			]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "Kill this one and Bell Ringer to enter Expert mode"
-			tasks: [
-				{
-					id: "750587A9AF516FFB"
-					item: "meetyourfight:fossil_bait"
-					type: "item"
-				}
-				{
-					entity: "meetyourfight:swampjaw"
-					id: "7993F8CFAABF7C59"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "Swampjaw"
-			x: -1.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["3BB8E50299A5126E"]
-			icon: "meetyourfight:devils_ante"
-			id: "4BBEF37E398FA6EA"
-			optional: true
-			rewards: [
-				{
-					id: "3647C275D967D9ED"
-					item: "aquaculture:treasure_chest"
-					type: "item"
-				}
-				{
-					id: "2DFA4E5875842DA1"
-					item: "randomite:randomite_ore"
-					type: "item"
-				}
-				{
-					id: "40B8FECC2D6A00A5"
-					type: "xp"
-					xp: 1000
-				}
-			]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "Kill this one and Rosalyne to enter Master mode"
-			tasks: [
-				{
-					id: "129B22DDDD62E34F"
-					item: "meetyourfight:devils_ante"
-					type: "item"
-				}
-				{
-					entity: "meetyourfight:dame_fortuna"
-					id: "0D4A70123E55EB81"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "Dame Fortuna"
-			x: 1.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["01586496C0B6EB67"]
-			id: "4FA4121CB7AE573E"
-			optional: true
-			rewards: [
-				{
-					id: "2B1355C48EF7EADE"
-					item: "majruszsdifficulty:cloth"
-					type: "item"
-				}
-				{
-					id: "213DF01B5614A653"
-					type: "xp"
-					xp: 750
-				}
-			]
-			tasks: [{
-				id: "265903DA5FB66C0E"
-				item: "meetyourfight:phantoplasm"
-				type: "item"
-			}]
-			x: -3.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["6A51E5206B5F75D4"]
-			id: "430B95CA9EB92E5C"
-			optional: true
-			rewards: [
-				{
-					id: "16CE53253253B06A"
-					item: "majruszsdifficulty:cloth"
-					type: "item"
-				}
-				{
-					id: "7D7651D3C5A57578"
-					type: "xp"
-					xp: 750
-				}
-			]
-			tasks: [{
-				id: "0EF3C88336006C14"
-				item: "meetyourfight:mossy_tooth"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["4BBEF37E398FA6EA"]
-			id: "2902A2D96332A34A"
-			optional: true
-			rewards: [
-				{
-					id: "6076348E6806201D"
-					item: "majruszsdifficulty:cloth"
-					type: "item"
-				}
-				{
-					id: "608710EA7D08E060"
-					type: "xp"
-					xp: 750
-				}
-			]
-			tasks: [{
-				id: "2FAFABEE9523C596"
-				item: "meetyourfight:fortunes_favor"
-				type: "item"
-			}]
-			x: 3.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["2902A2D96332A34A"]
-			id: "2BFC276EEE062A1F"
-			optional: true
-			rewards: [
-				{
-					id: "164410FB35E0C8BE"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "179361B4C2502048"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "4858020061520514"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "48A86AA284E403AD"
-				item: "meetyourfight:slicers_dice"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["2902A2D96332A34A"]
-			id: "3825DCF170FB6A6A"
-			optional: true
-			rewards: [
-				{
-					id: "6B7C16ADE02C5EAE"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "4597F32E04BBC06A"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "26D82189A5B811B8"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "7135218C5DB4A6CC"
-				item: "meetyourfight:ace_of_iron"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["2902A2D96332A34A"]
-			id: "6B90A18AD9F4B77D"
-			optional: true
-			rewards: [
-				{
-					id: "407F583CE9E75C97"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "7AFBDD72FCD35588"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "282CBB706FDE1BD3"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "72D054F4A09BDE0E"
-				item: {
-					Count: 1b
-					id: "meetyourfight:cocktail_cutlass"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 4.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["2902A2D96332A34A"]
-			id: "0D656D70646EA87A"
-			optional: true
-			rewards: [
-				{
-					id: "7B24A9FD2F769234"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "4A3370AC08DA187B"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "2CF16AEB9045B253"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "2C23BB9C70F3A657"
-				item: "meetyourfight:velvet_fortune"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["430B95CA9EB92E5C"]
-			id: "36FC8D7BB0D670BF"
-			optional: true
-			rewards: [
-				{
-					id: "35AB0F57D10A5207"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "0567BCC3EF08D955"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "04B6102183FC51CC"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "14016C294E417E22"
-				item: "meetyourfight:bone_raker"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["430B95CA9EB92E5C"]
-			id: "00C8004131AAE6F7"
-			optional: true
-			rewards: [
-				{
-					id: "5BBEF79141CAE708"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "30402AF9C738DD74"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "066362DCEEC618FD"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "34EA9CD8E6B8B223"
-				item: {
-					Count: 1b
-					id: "meetyourfight:depth_star"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -4.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["430B95CA9EB92E5C"]
-			id: "3E12346156015D00"
-			optional: true
-			rewards: [
-				{
-					id: "7383FE333CDD13FC"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "17B1BA3C60569B02"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "0041AAFA992415B8"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "7640E032ECEE9D20"
-				item: "meetyourfight:caged_heart"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["430B95CA9EB92E5C"]
-			id: "3F3BE8A3EBB7D7B7"
-			optional: true
-			rewards: [
-				{
-					id: "4FCB71E1E4003A18"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "1CB8BDBC70E57C36"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "74027CEB1D637121"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0C030F9D9D37D1BE"
-				item: "meetyourfight:marshy_delight"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["4FA4121CB7AE573E"]
-			id: "6FB76A93A64BE52D"
-			optional: true
-			rewards: [
-				{
-					id: "6A553F9EABC5D0F4"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "63C32B31E6427D90"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "53C41488D63BE788"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "1FC67AF6ECF95F8A"
-				item: "meetyourfight:passages_toll"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["4FA4121CB7AE573E"]
-			id: "0B6A4216C393C695"
-			optional: true
-			rewards: [
-				{
-					id: "53E2137D5D3AD4B9"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "5E7CCF7612AD3845"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "7C7E7F0C1E7CFCA2"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "11B61D7607768A58"
-				item: "meetyourfight:spectres_eye"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["4FA4121CB7AE573E"]
-			id: "352860E048E56249"
-			optional: true
-			rewards: [
-				{
-					id: "43EBE3262772ED33"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "447FB457BF729EF0"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "20F873920AC84366"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "40E0566D964682F9"
-				item: "meetyourfight:spectres_grasp"
-				type: "item"
-			}]
-			x: -5.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["4FA4121CB7AE573E"]
-			id: "2C8425F45507BE14"
-			optional: true
-			rewards: [
-				{
-					id: "1A86F38545310C89"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "2CFA620C0B75A8BB"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "7EC12EB60ECC0F8A"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "7595D2FFCC54DE2B"
-				item: "meetyourfight:aether_glazed_cupcake"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -2.0d
-		}
 		{
 			icon: "minecraft:zombie_head"
 			id: "273BBE58DA6C6B5E"
@@ -1219,7 +615,7 @@
 			rewards: [
 				{
 					id: "0E4DCCA7954F3084"
-					item: "kubejs:copper_coin"
+					item: "kubejs:iron_coin"
 					type: "item"
 				}
 				{
@@ -3164,278 +2560,1414 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["3BB8E50299A5126E"]
-			icon: "meetyourfight:dusk_key"
-			id: "6944FB579307EA8D"
-			optional: true
-			rewards: [
-				{
-					id: "57525DA82B16AD57"
-					item: "randomite:randomite_ore"
-					type: "item"
+			description: ["Follow the soul star like an eye of ender to find the Lich's Tower"]
+			icon: "bosses_of_mass_destruction:soul_star"
+			id: "0006C640879633AD"
+			rewards: [{
+				id: "0B79A1BF554BCFE4"
+				item: {
+					Count: 1
+					id: "simplyswords:slumbering_lichblade"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
 				}
-				{
-					id: "2A310A50347DBEDE"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "6CD2BB167369B700"
-					type: "xp"
-					xp: 1000
-				}
-			]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "Kill this one and Dame Fortuna to enter Master mode"
+				type: "item"
+			}]
 			tasks: [
 				{
-					id: "7B83179C0865EF93"
-					item: "meetyourfight:dusk_key"
+					id: "5485E8B05204B190"
+					item: "bosses_of_mass_destruction:soul_star"
 					type: "item"
 				}
 				{
-					entity: "meetyourfight:rosalyne"
-					id: "2E6501D8BC66494C"
+					id: "30FA69D72AAFA97E"
+					structure: "bosses_of_mass_destruction:lich_tower"
+					type: "structure"
+				}
+				{
+					entity: "bosses_of_mass_destruction:lich"
+					id: "18084A6E7757335C"
 					type: "kill"
 					value: 1L
 				}
 			]
-			title: "Rosalyne"
-			x: 1.5d
-			y: 1.5d
+			title: "Night Lich"
+			x: -3.0d
+			y: -3.0d
 		}
 		{
-			description: [
-				"This is designed to add some challenge to your &l&4END-GAME&r&r. "
-				""
-				"&4Activate this only if you know what you're doing and prepared for this.&r"
-				""
-				"&l&4THIS WILL ONLY WORK WHEN YOU KILL THE REQUIRED BOSSes&r&r. "
-				""
-				"There is no effect on Normal gameplay until that. This feature is also disabled on servers. (ask @dreams how to enable it)"
-				""
-				"To enter Expert mode: kill Bell Ringer and Swampjaw"
-				"To enter Master mode: kill Dame Fortuna and Rosalyne"
-				""
-				"- Spider attack may inflict poison effect"
-				"- Increases spawn rate depending on current game stage (Expert, Master)"
-				"- If the player dies from a zombie a new zombie with player's name spawns in the same place"
-				"- Slime attack may inflict slowness effect"
-				"- Shulker attack may inflict stackable blindness effect"
-				"- All hostile mobs get damage and health bonuses (Expert, Master)"
-				"- Jockey is more likely to spawn"
-				"- Zombies may spawn in groups as miners (only underground)"
-				"- Skeletons may spawn in groups"
-				"- Piglins may spawn in groups"
-				"- Gives extra experience as the difficulty increases"
-				"- Evoker may spawn with a Totem of Undying"
-				"- Enderman attack may teleport the player somewhere nearby"
-				"- Drowned trident throw may spawn a lightning bolt when it rains"
-				"- Gives a chance to double the loot"
-				"- When the Creeper explodes it may spawn a few Creeperlings"
-				"- Creeper may spawn with negative effects applied"
-				"- Creeper may spawn charged"
+			dependencies: [
+				"6E081F780A318525"
+				"29DDB0066E43F4D5"
 			]
-			icon: "minecraft:skeleton_skull"
-			id: "3BB8E50299A5126E"
-			optional: true
-			rewards: [{
-				id: "6D421BF9AC3B5420"
-				item: "majruszsdifficulty:bandage"
-				type: "item"
-			}]
-			shape: "octagon"
-			size: 2.0d
-			subtitle: "... add some challenge!"
+			id: "2A968EAB509DFDF6"
+			subtitle: "Just a crumb of Peaceful difficulty"
 			tasks: [{
-				id: "2B177A80654B7BEE"
-				title: "If you're feeling the game is too easy for you..."
-				type: "checkmark"
+				id: "119815001B8053D5"
+				item: "bosses_of_mass_destruction:mob_ward"
+				type: "item"
 			}]
 			x: 0.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["6944FB579307EA8D"]
-			id: "3C495F6E2E72657C"
-			optional: true
-			rewards: [
-				{
-					id: "2F2A06840CA4CF06"
-					item: "majruszsdifficulty:cloth"
-					type: "item"
-				}
-				{
-					id: "35AF7E06CA977555"
-					type: "xp"
-					xp: 750
-				}
+			dependencies: [
+				"6E081F780A318525"
+				"607639870223C868"
 			]
+			id: "6956834B137A7E64"
+			subtitle: "Just a crumb of Creative Mode"
 			tasks: [{
-				id: "4ACF963600802A2D"
-				item: "meetyourfight:violet_bloom"
+				id: "2829007C68DCD1DF"
+				item: "bosses_of_mass_destruction:levitation_block"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 1.5d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["3C495F6E2E72657C"]
-			id: "18A6BE43F285601A"
-			optional: true
-			rewards: [
-				{
-					id: "76866BC3173659AF"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "2B0B941E9DD9F37D"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "3BC700F02712A64A"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
+			dependencies: [
+				"6E081F780A318525"
+				"095748A2E5B64CE5"
 			]
+			id: "5F436AF0604E4FDB"
 			tasks: [{
-				id: "0CA3C2DB7FA73B2A"
-				item: "meetyourfight:tomb_planter"
+				id: "47FED1E2C3827118"
+				item: "bosses_of_mass_destruction:charged_ender_pearl"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.5d
+			x: -1.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["3C495F6E2E72657C"]
-			id: "35905615E3F69F80"
-			optional: true
-			rewards: [
-				{
-					id: "6B949EFBB5ECDFC3"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "6CD57D4816AC8AAF"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "5C81B84967CED0EB"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
+			dependencies: [
+				"607639870223C868"
+				"29DDB0066E43F4D5"
 			]
+			id: "692F3FDFB3081101"
 			tasks: [{
-				id: "02237A3E357D6F3D"
+				id: "4AC9DA5DC1365833"
+				item: "bosses_of_mass_destruction:monolith_block"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"095748A2E5B64CE5"
+				"29DDB0066E43F4D5"
+			]
+			id: "205A8F1A5EAB6D3F"
+			subtitle: "Just a crumb of Spectator Mode"
+			tasks: [{
+				id: "454E813F931F258F"
 				item: {
-					Count: 1b
-					id: "meetyourfight:twilights_thorn"
+					Count: 1
+					id: "bosses_of_mass_destruction:earthdive_spear"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 1.5d
+			x: 0.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["3C495F6E2E72657C"]
-			id: "35AE95549D879DCD"
-			optional: true
-			rewards: [
-				{
-					id: "3A89BBFB64E3B8A4"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "4445799342FDD218"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "645586B9C7B24B35"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
-			]
+			dependencies: ["1103CD03130A6D14"]
+			id: "095748A2E5B64CE5"
 			tasks: [{
-				id: "0259817B396FA241"
-				item: "meetyourfight:wilted_ideals"
+				id: "25D34E76C9EC97E7"
+				item: "bosses_of_mass_destruction:void_thorn"
 				type: "item"
 			}]
-			x: 4.0d
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0953BB27B5ADF021"]
+			id: "29DDB0066E43F4D5"
+			tasks: [{
+				id: "6EC4822A176229B5"
+				item: "bosses_of_mass_destruction:obsidian_heart"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0006C640879633AD"]
+			id: "6E081F780A318525"
+			tasks: [{
+				id: "640B54F2B69C094E"
+				item: "bosses_of_mass_destruction:ancient_anima"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4240B3713672628A"]
+			icon: "bosses_of_mass_destruction:blazing_eye"
+			id: "607639870223C868"
+			tasks: [{
+				id: "572F61F68A0ED7FF"
+				item: "bosses_of_mass_destruction:blazing_eye"
+				type: "item"
+			}]
+			title: "Blazing Eye"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			description: ["Resets a boss arena, allowing you to fight it again."]
+			id: "6BCCFE5F9186FE11"
+			tasks: [{
+				id: "3D2776E12E69A6F1"
+				item: "bosses_of_mass_destruction:brimstone_nectar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: ["It's a massive pit of blackstone brick in the lava ocean, you can't miss it"]
+			icon: "minecraft:polished_blackstone_bricks"
+			id: "4240B3713672628A"
+			rewards: [{
+				id: "6C2A8B87BBDD5EEF"
+				item: {
+					Count: 1
+					id: "simplyswords:emberblade"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "561311B046945101"
+					type: "dimension"
+				}
+				{
+					id: "07E88230F92B2929"
+					structure: "bosses_of_mass_destruction:gauntlet_arena"
+					type: "structure"
+				}
+				{
+					entity: "bosses_of_mass_destruction:gauntlet"
+					id: "3DC71870351B7F7C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Nether Gauntlet"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: ["Follow the pollen and then dig deep underground"]
+			icon: "bosses_of_mass_destruction:void_lily"
+			id: "1103CD03130A6D14"
+			rewards: [{
+				id: "6AD0E7DDFBC3DCD6"
+				item: {
+					Count: 1
+					id: "simplyswords:bramblethorn"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5D0832E8568C12C2"
+					item: "bosses_of_mass_destruction:void_lily"
+					type: "item"
+				}
+				{
+					id: "150A4AB46CC0F36E"
+					structure: "bosses_of_mass_destruction:void_blossom"
+					type: "structure"
+				}
+				{
+					entity: "bosses_of_mass_destruction:void_blossom"
+					id: "2E2EDAB7573826AB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Void Blossom"
+			x: -3.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["3C495F6E2E72657C"]
-			id: "6E4CEECE22730384"
-			optional: true
-			rewards: [
-				{
-					id: "2A320621E1F5D133"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "0E7C6EB4F7DC32D1"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "6C87127040A0693E"
-					item: "majruszsdifficulty:golden_bandage"
-					type: "item"
-				}
+			description: [
+				"It's a massive pillar of obsidian and purpur floating in the air, you can't miss it"
+				""
+				"then place an eye of ender in the frame atop the pillar"
 			]
-			tasks: [{
-				id: "0359CE39BE311587"
-				item: "meetyourfight:blossoming_mind"
+			icon: "minecraft:obsidian"
+			id: "0953BB27B5ADF021"
+			rewards: [{
+				id: "78ACCDE194557B45"
+				item: {
+					Count: 1
+					id: "simplyswords:watcher_claymore"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
 				type: "item"
 			}]
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					id: "718F1DF801815128"
+					type: "dimension"
+				}
+				{
+					id: "3CC38D9F0CBF386C"
+					structure: "bosses_of_mass_destruction:obsidilith_arena"
+					type: "structure"
+				}
+				{
+					id: "7FE29035F48F7791"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					entity: "bosses_of_mass_destruction:obsidilith"
+					id: "033986764F58A315"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Obsidilith"
 			x: 3.0d
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"4BBEF37E398FA6EA"
-				"6944FB579307EA8D"
-				"6A51E5206B5F75D4"
-				"01586496C0B6EB67"
+			icon: "cataclysm:mech_eye"
+			id: "5C293C81D2251DF7"
+			tasks: [
+				{
+					id: "54138CE645A0C215"
+					item: "cataclysm:mech_eye"
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:find_ancient_factory"
+					criterion: ""
+					id: "4F48093C43CC1CE3"
+					type: "advancement"
+				}
 			]
-			description: ["&ocheats must be enabled to work&r"]
-			hide_dependency_lines: true
-			hide_details_until_startable: true
-			id: "07432EEB3F8F2D0C"
-			invisible: true
-			optional: true
-			rewards: [{
-				command: "/gamestate NORMAL"
-				command_three: ""
-				command_two: ""
-				console: false
-				elevate_perms: false
-				icon: "minecraft:dandelion"
-				id: "6A9AAECB23E4D994"
-				silent: false
-				title: "Revert gamemode to Normal"
-				type: "command"
-			}]
-			subtitle: "You have only one chance to bring back your world to normal"
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			icon: "cataclysm:flame_eye"
+			id: "5096E2DD5A0A07DE"
+			tasks: [
+				{
+					id: "4E3F9E2F01F7D89F"
+					item: "cataclysm:flame_eye"
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:find_burning_arena"
+					criterion: ""
+					id: "752180462346B87E"
+					type: "advancement"
+				}
+			]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1103CD03130A6D14"]
+			id: "166D8935EDA3FF90"
 			tasks: [{
-				id: "3EE133C70097D88F"
-				type: "checkmark"
+				id: "024DDA0694455902"
+				item: "bosses_of_mass_destruction:crystal_fruit"
+				type: "item"
 			}]
-			title: "Feels too hard?"
-			x: 0.0d
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			icon: "cataclysm:abyss_eye"
+			id: "368FAA48F926B53F"
+			tasks: [
+				{
+					id: "196DD44BE61F651C"
+					item: "cataclysm:abyss_eye"
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:find_sunken_city"
+					criterion: ""
+					id: "193C8CF7A420E197"
+					type: "advancement"
+				}
+			]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			icon: "cataclysm:desert_eye"
+			id: "59350804DD446DEC"
+			tasks: [
+				{
+					id: "5058B7185F3E5A5D"
+					item: "cataclysm:desert_eye"
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:find_cursed_pyramid"
+					criterion: ""
+					id: "03359451E4A69AAA"
+					type: "advancement"
+				}
+			]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			icon: "cataclysm:monstrous_eye"
+			id: "6007DD0F0E6A6940"
+			tasks: [
+				{
+					id: "67B468C1D1EE6C0D"
+					item: "cataclysm:monstrous_eye"
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:find_soul_black_smith"
+					criterion: ""
+					id: "5C58B6A7DA7270D3"
+					type: "advancement"
+				}
+			]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			icon: "cataclysm:void_eye"
+			id: "643A034439489514"
+			tasks: [
+				{
+					id: "73CDF85CE6023431"
+					item: "cataclysm:void_eye"
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:find_ruined_citadel"
+					criterion: ""
+					id: "3F86C7F6928BD0EF"
+					type: "advancement"
+				}
+			]
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["52D9091AE90972E6"]
+			id: "06732AFEBD313F03"
+			shape: "gear"
+			subtitle: "My quest lines are getting tangled!"
+			tasks: [{
+				id: "054978B167D911D7"
+				item: "cataclysm:mechanical_fusion_anvil"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			description: ["(You &oalready&r get a weapon from killing the Ferrous Wroughtnaut)"]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:wrought_helmet"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "76CEADFC3D9C5DB2"
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:wrought_helmet"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				id: "71F8AC9B6AF48490"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ferrous Wroughtnaut"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "76FC1D5B921F7D89"
+			rewards: [{
+				id: "2BA4C20746C92282"
+				item: {
+					Count: 1
+					id: "simplyswords:frostfall"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2AFD5094355DDFAC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Frostmaw"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			id: "7D6FAAFCE7BFA0E3"
+			rewards: [{
+				id: "021A0B280976DE28"
+				item: {
+					Count: 1
+					id: "simplyswords:stars_edge"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:sol_visage"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				id: "2F055A7CC654A16D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Umvuthi, the Sunbird"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"The normal way you get these staff fragments is by finding them in graveyard ruins, but those are incredibly rare and we don't have time for that. So we're doing quests instead."
+				""
+				"Crypts are huge underground structures full of corrupted enemies and loot. The books here detail the spread of the corruption that destroyed the world."
+			]
+			id: "5D44590854712FF8"
+			rewards: [
+				{
+					id: "586F3F69EAE8CF62"
+					item: "graveyard:upper_bone_staff"
+					type: "item"
+				}
+				{
+					id: "716EFFE9757F125A"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "4A53E095CC33404D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				icon: "graveyard:sarcophagus"
+				id: "420DBE21ED78C526"
+				structure: "graveyard:crypt"
+				type: "structure"
+			}]
+			title: "The First Fragment"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			description: ["At night, the unnamed hanged will trade corruption for various things. He might even offer diamond armor, ancient debris, or staff fragments!"]
+			id: "109D0319DC07E1D6"
+			rewards: [
+				{
+					id: "0259D5EA4A84C411"
+					item: "graveyard:middle_bone_staff"
+					type: "item"
+				}
+				{
+					id: "057499C95970DCAE"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "478C1B7753F51D65"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				icon: "graveyard:hanged_skeleton"
+				id: "46D8E537DA26F5E3"
+				structure: "graveyard:dead_tree"
+				type: "structure"
+			}]
+			title: "The Second Fragment"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			description: ["The haunted house is full of zombies and acolytes that would love to use you in their dark experiments."]
+			id: "2149492707D34338"
+			rewards: [
+				{
+					id: "276B8CB6546A9A2F"
+					item: "graveyard:lower_bone_staff"
+					type: "item"
+				}
+				{
+					id: "05D8DBE6CE520D32"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "2ACABC72F08330D2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "graveyard:bone_dagger"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				id: "379B5C27B64484AD"
+				structure: "graveyard:haunted_house"
+				type: "structure"
+			}]
+			title: "The Third Fragment"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5D44590854712FF8"
+				"109D0319DC07E1D6"
+				"2149492707D34338"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Kill 8 villagers with a bone dagger and a glass bottle in your off hand to collect a full vial of blood."]
+			icon: {
+				Count: 1
+				id: "graveyard:vial_of_blood"
+				tag: {
+					Count: 1b
+					id: "graveyard:vial_of_blood"
+					tag: {
+						Blood: 0.8000001f
+					}
+				}
+			}
+			id: "119E09DD3DB42957"
+			rewards: [
+				{
+					count: 5
+					id: "696A8CA1F7C8EFC5"
+					item: "minecraft:glistering_melon_slice"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7E0D2526B54A0092"
+					item: "hmag:lich_cloth"
+					type: "item"
+				}
+			]
+			subtitle: "You murderer!"
+			tasks: [
+				{
+					id: "38A80C56AF56DC96"
+					item: {
+						Count: 1
+						id: "graveyard:bone_dagger"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							reinforce_level: 0
+							reinforce_max: 10
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7ABC4F2EBA222C80"
+					item: {
+						Count: 1
+						id: "graveyard:vial_of_blood"
+						tag: {
+							Count: 1b
+							id: "graveyard:vial_of_blood"
+							tag: {
+								Blood: 0.8000001f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Vial of Blood"
+			x: 7.5d
 			y: -1.5d
 		}
+		{
+			dependencies: ["119E09DD3DB42957"]
+			description: [
+				"Find the Lich's prison, a floating island high above the ocean. Here, a once great man turned to darkness is imprisoned."
+				""
+				"To summon him, first wait for night. Lay out the three pieces of the staff on the corrupted nodes. Then empty your vial of blood on the altar."
+				""
+				"For this fight, you'll need your most powerful armor, your Smite X sword, and plenty of healing. The final phase can only be damaged by splash healing potions, so make sure to bring a lot."
+			]
+			icon: "graveyard:corruption"
+			id: "74C98BC3055E1993"
+			rewards: [
+				{
+					count: 5
+					id: "4560E2121B5163EF"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "24AE0E44A2353620"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7E2231BEA6580196"
+					item: "collectibles:epic_loot_bag"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "396C12EC65C1E0FC"
+					item: "hmag:evil_crystal_block"
+					type: "item"
+				}
+				{
+					id: "4551D1594234A012"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					icon: "graveyard:corruption"
+					id: "7B52061ACC537006"
+					structure: "graveyard:lich_prison"
+					type: "structure"
+				}
+				{
+					entity: "graveyard:lich"
+					id: "705F856FFEABF365"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "The Corrupted Champion"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29639F3BD6826468"]
+			description: [
+				"Fixed Traits: tanky 3 adaptive 3 master 1 reprint 1"
+				""
+				"Guide to come"
+				""
+				"This boss doesn't have good loot, so here, take this cool sword."
+			]
+			id: "4C16519E8061C611"
+			rewards: [{
+				id: "7BA818A7971FCC54"
+				item: {
+					Count: 1
+					id: "simplyswords:dormant_relic"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon_important"
+			tasks: [{
+				advancement: "cataclysm:kill_remnant"
+				criterion: ""
+				id: "64B712F05D4EDE0B"
+				type: "advancement"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["226C7BC218122A4F"]
+			description: [
+				"Fixed traits: tanky 3, freezing 3, reflect 2"
+				""
+				"Guide to come"
+			]
+			id: "7B1E2798AD487473"
+			shape: "hexagon_important"
+			tasks: [{
+				advancement: "cataclysm:kill_leviathan"
+				criterion: ""
+				id: "453AF8CC96CF26E1"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6007DD0F0E6A6940"]
+			description: [
+				"Fixed traits: tanky 3 stray 5 adaptive 2"
+				""
+				"Guide to come"
+			]
+			id: "5C6FB01D7ADF31BA"
+			shape: "hexagon_important"
+			tasks: [{
+				advancement: "cataclysm:kill_monstrosity"
+				criterion: ""
+				id: "180AAF253677DD05"
+				type: "advancement"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["230A8E6A4E46C783"]
+			description: [
+				"Fixed traits: tanky 3 soul burner 3 cursed 1 master 1"
+				""
+				"Guide to come"
+			]
+			id: "7BF2A7E121BBB84B"
+			shape: "hexagon_important"
+			tasks: [{
+				advancement: "cataclysm:kill_ignis"
+				criterion: ""
+				id: "2D95F0F5290C0305"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["643A034439489514"]
+			description: [
+				"Fixed traits: tanky 3 weakener 5 adaptive 2"
+				""
+				"Guide to come"
+			]
+			id: "721F3CF4D3B9461F"
+			shape: "hexagon_important"
+			tasks: [{
+				advancement: "cataclysm:kill_ender_guardian"
+				criterion: ""
+				id: "5B49C158AD2A9C05"
+				type: "advancement"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["24E9CE1582D7D687"]
+			description: [
+				"Fixed traits: tanky 3, withering 3, cursed 1"
+				""
+				"Guide to come"
+			]
+			icon: "cataclysm:witherite_ingot"
+			id: "52D9091AE90972E6"
+			shape: "hexagon_important"
+			tasks: [{
+				advancement: "cataclysm:kill_harbinger"
+				criterion: ""
+				id: "21B7B4030FB56BE1"
+				type: "advancement"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["368FAA48F926B53F"]
+			description: [
+				"Enter the Sunken City."
+				""
+				"Kill a Deepling Warlock for its Athame, and a Corallosus for a Coral Chunk. Amethyst and buried treasure maps can be found in the library section. The gold, iron, diamond, and emerald can be found in the storage area."
+				""
+				"Craft those into an Abyssal Sacrifice and use it on the Altar of Abyss to summon the Leviathan."
+			]
+			icon: "cataclysm:abyssal_sacrifice"
+			id: "226C7BC218122A4F"
+			tasks: [
+				{
+					id: "5D94F8704372C87D"
+					item: "cataclysm:abyssal_sacrifice"
+					type: "item"
+				}
+				{
+					icon: "cataclysm:altar_of_abyss"
+					id: "7B299DE1F7F67761"
+					observe_type: 0
+					timer: 0L
+					to_observe: "cataclysm:altar_of_abyss"
+					type: "observation"
+				}
+			]
+			title: "Abyssal Sacrifice"
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7B1E2798AD487473"]
+			description: ["Place it in water and wait and it will hatch! Isn't he cute?"]
+			id: "0DD449BA7F5FD7CD"
+			tasks: [{
+				id: "4AE7759823A3509F"
+				item: "cataclysm:abyssal_egg"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7B1E2798AD487473"]
+			id: "3785C1EB8134908B"
+			tasks: [{
+				id: "566E9D493824B428"
+				item: "cataclysm:tidal_claws"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5C293C81D2251DF7"]
+			description: ["Once you've cleared out the other enemies, use a Nether Star to activate the Harbinger."]
+			icon: "minecraft:nether_star"
+			id: "24E9CE1582D7D687"
+			tasks: [{
+				id: "7C05DA6FA0405435"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["52D9091AE90972E6"]
+			id: "5BCD6697FD819A93"
+			tasks: [{
+				id: "5FAA5E3C3CB49266"
+				item: "cataclysm:meat_shredder"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["52D9091AE90972E6"]
+			description: [""]
+			id: "4E6D373D8AF80262"
+			tasks: [{
+				id: "0D092A0CC9D77E90"
+				item: "cataclysm:wither_assault_shoulder_weapon"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["52D9091AE90972E6"]
+			id: "39583139D3A9B6E4"
+			tasks: [{
+				id: "1FD01ACCF8E8D9B6"
+				item: {
+					Count: 1
+					id: "cataclysm:laser_gatling"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5096E2DD5A0A07DE"]
+			description: [
+				"Enter the Burning Arena."
+				""
+				"Climb the stairs and kill one of the Ignited Revenants for its Burning Ashes."
+				""
+				"Use the Ashes on the Altar of Fire to summon Ignis."
+			]
+			icon: "cataclysm:burning_ashes"
+			id: "230A8E6A4E46C783"
+			tasks: [
+				{
+					entity: "cataclysm:ignited_revenant"
+					id: "6546810AE1E7452E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "2DB044A2F35EBC75"
+					item: "cataclysm:burning_ashes"
+					type: "item"
+				}
+				{
+					icon: "cataclysm:altar_of_fire"
+					id: "182265ADC069F6E0"
+					observe_type: 0
+					timer: 0L
+					to_observe: "cataclysm:altar_of_fire"
+					type: "observation"
+				}
+			]
+			title: "Burning Ashes"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C6FB01D7ADF31BA"]
+			id: "69D9F77E0C2385CA"
+			tasks: [{
+				id: "553E064283DCBF0A"
+				item: {
+					Count: 1
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C6FB01D7ADF31BA"]
+			id: "29D9323E73D21692"
+			tasks: [{
+				id: "512D6A99583EA0AC"
+				item: {
+					Count: 1
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7BF2A7E121BBB84B"]
+			icon: {
+				Count: 1
+				id: "cataclysm:ignitium_chestplate"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "1C17CECDBAB58E30"
+			tasks: [
+				{
+					id: "2BE3938D32D46E47"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F0BC21D3D6FB16E"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72006FFE5CD87E00"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FAF75F64DEBD552"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "116F49DEB89F85E0"
+					item: "cataclysm:ignitium_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			title: "Ignitium Armor"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7BF2A7E121BBB84B"]
+			id: "2F35CB7069A59F12"
+			tasks: [{
+				id: "3D5F4AFBEE0D7106"
+				item: {
+					Count: 1
+					id: "cataclysm:bulwark_of_the_flame"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7BF2A7E121BBB84B"]
+			id: "6AE4728389C466D9"
+			tasks: [{
+				id: "6DA2810636BCC3C0"
+				item: "cataclysm:the_incinerator"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["59350804DD446DEC"]
+			description: [
+				"When you make it to the central shaft of the pyramid, don't drop down it yet. On the same level as you, on the sides of the shaft, there are two chambers with suspicious sand. Use a brush to uncover a Necklace of the Desert. &oNow&r you can drop down."
+				""
+				"After you've fought all the koboletons in the lower chamber, use the Necklace of the Desert to wake the Ancient Remnant."
+			]
+			icon: "cataclysm:necklace_of_the_desert"
+			id: "29639F3BD6826468"
+			tasks: [
+				{
+					id: "0F1BB7569B8F9B48"
+					item: {
+						Count: 1
+						id: "minecraft:brush"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5885E89EE203E6B9"
+					item: "cataclysm:necklace_of_the_desert"
+					type: "item"
+				}
+			]
+			title: "Necklace of the Desert"
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["721F3CF4D3B9461F"]
+			id: "3DD5C0E56C52CBB1"
+			tasks: [{
+				id: "54529EF096BD7C79"
+				item: "cataclysm:void_core"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["721F3CF4D3B9461F"]
+			id: "122BDAC42675CAB4"
+			tasks: [{
+				id: "00677D183930C025"
+				item: "cataclysm:gauntlet_of_guard"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3DD5C0E56C52CBB1"
+				"06732AFEBD313F03"
+				"4E6D373D8AF80262"
+			]
+			id: "47BD74F68759461F"
+			tasks: [{
+				id: "106FC9B08BCE0AEB"
+				item: "cataclysm:void_assault_shoulder_weapon"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"06732AFEBD313F03"
+				"29D9323E73D21692"
+				"3DD5C0E56C52CBB1"
+			]
+			id: "25082011B26AA5AA"
+			tasks: [{
+				id: "34B9F260060D4CD4"
+				item: {
+					Count: 1
+					id: "cataclysm:void_forge"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"122BDAC42675CAB4"
+				"2F35CB7069A59F12"
+				"06732AFEBD313F03"
+			]
+			id: "45D584BC67C42F7A"
+			tasks: [{
+				id: "1263F56DAD08F6FA"
+				item: "cataclysm:gauntlet_of_bulwark"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4C16519E8061C611"]
+			id: "27484B84F54E291E"
+			tasks: [{
+				id: "404111989DFAFE09"
+				item: "cataclysm:remnant_skull"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4C16519E8061C611"]
+			icon: {
+				Count: 1
+				id: "cataclysm:bone_reptile_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "433C2ED0904EDB69"
+			tasks: [
+				{
+					id: "5916AF8B7CA790F1"
+					item: {
+						Count: 1
+						id: "cataclysm:bone_reptile_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A339A2FF85E8E60"
+					item: {
+						Count: 1
+						id: "cataclysm:bone_reptile_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bone Reptile Armor"
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			icon: "cataclysm:cursed_eye"
+			id: "6835645D4005C6A4"
+			tasks: [
+				{
+					id: "6CD3AAA3BE2F4F73"
+					item: "cataclysm:cursed_eye"
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:find_frosted_prison"
+					criterion: ""
+					id: "726C5460BFFD69DE"
+					type: "advancement"
+				}
+			]
+			x: -11.0d
+			y: -4.0d
+		}
+		{
+			id: "6E5618EE2994DD2B"
+			tasks: [{
+				advancement: "cataclysm:kill_maledictus"
+				criterion: ""
+				id: "6E620E85AA9E82C5"
+				type: "advancement"
+			}]
+			x: -11.0d
+			y: -2.0d
+		}
 	]
-	title: "Meet Your Fight!"
+	title: "&6Seek and Destroy&r"
 }
