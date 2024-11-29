@@ -1,0 +1,876 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blood_mage"
+	group: "2C344CA71B9F0CFD"
+	icon: "bloodmagic:altar"
+	id: "68581FC88BECFEBB"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["At the start of Blood Magic, you'll be using your own life force. I hope you have a good source of regeneration. Or just die a lot."]
+			icon: "kubejs:bleed"
+			id: "1388DE775715C931"
+			rewards: [
+				{
+					count: 16
+					id: "24D8A824BE7505D0"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					id: "334E3597BBAE0A8E"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "hexagon_important"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3BE79416F087E0CF"
+					item: {
+						Count: 1
+						id: "bloodmagic:sacrificialdagger"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "472E0206BBE016A7"
+					item: "bloodmagic:altar"
+					type: "item"
+				}
+				{
+					id: "076CEDABA0DEA751"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "bloodmagic:guide"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Beginning of Blood Magic"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1388DE775715C931"]
+			description: ["Slates are the foundation of Blood Magic. They are used to craft just about everything in the mod."]
+			id: "54AAFEDAC41F3E7C"
+			rewards: [{
+				id: "7C0A6232847388D8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "6B984E05943FB4F4"
+				item: "bloodmagic:blankslate"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1388DE775715C931"]
+			description: ["Blood orbs serve as a \"storage\" for life essence, as well as a tool for crafting. If you're playing on a server, don't let anyone else get your blood orb. If they do, they'll be able to steal the life force stored in it, as well as your own life!"]
+			id: "0315159DDF58CB27"
+			rewards: [{
+				id: "1AC54CBB6DF0DACF"
+				item: "hmag:evil_crystal_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E183C3F327F53B9"
+				item: "bloodmagic:weakbloodorb"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1388DE775715C931"]
+			description: ["Read the &oSanguine Scientem&r page on the Blood Altar for instructions on how to upgrade it."]
+			icon: "bloodmagic:altar"
+			id: "322BE570358C17A6"
+			rewards: [{
+				id: "13490899ED3FE11E"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "2C68AEB30BF4249D"
+				item: { Count: 8, id: "bloodmagic:blankrune" }
+				type: "item"
+			}]
+			title: "Tier II Altar Upgrade"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54AAFEDAC41F3E7C"]
+			id: "3691AD362252DEAF"
+			rewards: [{
+				id: "66AC69749481641E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "776017AD771ABE2C"
+				item: "bloodmagic:reinforcedslate"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1388DE775715C931"]
+			description: ["A crafting station powered by Demon Will."]
+			hide_dependency_lines: true
+			id: "641060F7EC1F9CC5"
+			tasks: [{
+				id: "2A7B4678C644C1EA"
+				item: "bloodmagic:soulforge"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1388DE775715C931"]
+			hide_dependency_lines: true
+			id: "78EF536FB848DAE6"
+			tasks: [{
+				id: "61180D45EFF81F79"
+				item: "bloodmagic:alchemytable"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5906E9BE6CCF0636"]
+			icon: "bloodmagic:altar"
+			id: "5A9179729D4015FD"
+			rewards: [{
+				id: "4771BC062E2D44C1"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 20L
+					id: "49AAA21C353A696D"
+					item: { Count: 20, id: "bloodmagic:blankrune" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "299A857B5B1A840C"
+					item: { Count: 4, id: "minecraft:glowstone" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6538228CFB3DC81E"
+					item: { Count: 4, id: "minecraft:sea_lantern" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "34B960DC741CC060"
+					item: { Count: 4, id: "minecraft:shroomlight" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Tier III Altar Upgrade"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3691AD362252DEAF"]
+			id: "372CEAA7DDE2C118"
+			rewards: [{
+				id: "0AE2F4F0950FF68D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1E76835ADE342402"
+				item: "bloodmagic:infusedslate"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1146FD3C38D38A26"]
+			icon: "bloodmagic:altar"
+			id: "66E481CEF908567B"
+			rewards: [{
+				id: "5AA5FD6CD6B13CC4"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 28L
+					id: "7DE668541C86E72A"
+					item: { Count: 28, id: "bloodmagic:blankrune" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3C5B25D327246DF0"
+					item: { Count: 4, id: "bloodmagic:largebloodstonebrick" }
+					type: "item"
+				}
+			]
+			title: "Tier IV Altar Upgrade"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["372CEAA7DDE2C118"]
+			id: "76CBE2BFA6C7444C"
+			rewards: [{
+				id: "640E01BF0E64C61A"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				id: "60A4529EBF6145E4"
+				item: "bloodmagic:demonslate"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["06DFB19C259DE2B1"]
+			icon: "bloodmagic:altar"
+			id: "76821B51C4A30C30"
+			rewards: [{
+				id: "727C3A28437A2AAD"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 52L
+					id: "643C1E6C706FF888"
+					item: { Count: 52, id: "bloodmagic:blankrune" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0574659FA8370F43"
+					item: { Count: 4, id: "bloodmagic:dungeon_metal" }
+					type: "item"
+				}
+			]
+			title: "Tier V Altar Upgrade"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["322BE570358C17A6"]
+			description: ["At this point, you can get other things to do the bleeding for you. The Dagger of Sacrifice is disabled in this pack. Mobs damaged near the Blood Altar using the Dagger of Bloodletting will release life essence."]
+			id: "5906E9BE6CCF0636"
+			tasks: [{
+				id: "20468BC8AC50B323"
+				item: {
+					Count: 1
+					id: "dagger_of_bloodletting:daggerofbloodletting"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54AAFEDAC41F3E7C"]
+			hide_dependency_lines: true
+			id: "751DCF6332FCF741"
+			tasks: [
+				{
+					id: "2595C844F4D82F95"
+					item: "bloodmagic:divinationsigil"
+					type: "item"
+				}
+				{
+					id: "7F51B7B68A7EE335"
+					item: "bloodmagic:watersigil"
+					type: "item"
+				}
+				{
+					id: "256B9DD40E4CCEFC"
+					item: "bloodmagic:lavasigil"
+					type: "item"
+				}
+			]
+			title: "Tier 1 Sigils"
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["78EF536FB848DAE6"]
+			id: "0D4A28A0277F4E5E"
+			tasks: [{
+				id: "0464EE0459B03085"
+				item: {
+					Count: 1
+					id: "bloodmagic:arcaneashes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["641060F7EC1F9CC5"]
+			description: ["Storage for Demon Will. Picking up Demon Will items will automatically fill this gem if it is in your inventory."]
+			hide_dependency_lines: false
+			id: "1E881A7C28BE75FD"
+			tasks: [{
+				id: "488DD189F6008A0D"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgempetty"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+						souls: 64.0d
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["76CBE2BFA6C7444C"]
+			description: ["Ethereal Slates aren't good for much besides end game altar upgrades. "]
+			id: "0110C13A62707634"
+			rewards: [{
+				id: "713DDC7E8C2EE2E9"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			tasks: [{
+				id: "2C534E29D78227A3"
+				item: "bloodmagic:etherealslate"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3691AD362252DEAF"]
+			hide_dependency_lines: true
+			id: "47B0E014C9551B5A"
+			tasks: [
+				{
+					id: "2D7FFFF5B4AF6219"
+					item: "bloodmagic:airsigil"
+					type: "item"
+				}
+				{
+					id: "3D20E2ECB8BBA3F6"
+					item: {
+						Count: 1
+						id: "bloodmagic:growthsigil"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "49209A4442B5F24E"
+					item: "bloodmagic:voidsigil"
+					type: "item"
+				}
+				{
+					id: "74CA06BA5D87C9E1"
+					item: "bloodmagic:seersigil"
+					type: "item"
+				}
+				{
+					id: "10DDFC7060C2AD39"
+					item: {
+						Count: 1
+						id: "bloodmagic:miningsigil"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Tier 2 Sigils"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["372CEAA7DDE2C118"]
+			hide_dependency_lines: true
+			id: "78DE3D4A7FD8D633"
+			tasks: [
+				{
+					id: "77FA5655F8E174B6"
+					item: "bloodmagic:bloodlightsigil"
+					type: "item"
+				}
+				{
+					id: "6AE03A7B533D820A"
+					item: {
+						Count: 1
+						id: "bloodmagic:sigilofholding"
+						tag: {
+							currentSigil: 5
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49FA988E4047E910"
+					item: {
+						Count: 1
+						id: "bloodmagic:sigilofmagnetism"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Tier 3 Sigils"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["76CBE2BFA6C7444C"]
+			hide_dependency_lines: true
+			id: "04A314AC321C0A44"
+			tasks: [
+				{
+					id: "1ADD2C654C3E2752"
+					item: "bloodmagic:telepositionsigil"
+					type: "item"
+				}
+				{
+					id: "706B931A951734AA"
+					item: {
+						Count: 1
+						id: "bloodmagic:sigilofsuppression"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Tier 4 Sigils"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0315159DDF58CB27"]
+			id: "7CCF6081E0BA624D"
+			rewards: [{
+				count: 3
+				id: "2B5027C28E915A7C"
+				item: "hmag:evil_crystal_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				id: "070C6DC70F5BAF84"
+				item: "bloodmagic:apprenticebloodorb"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7CCF6081E0BA624D"]
+			id: "60F1E86884B08475"
+			rewards: [{
+				id: "34109427DC86C8CD"
+				item: "hmag:evil_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "259338E47A8A7BC1"
+				item: "bloodmagic:magicianbloodorb"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["60F1E86884B08475"]
+			id: "320E616DD29F2C2C"
+			rewards: [{
+				count: 3
+				id: "6AFF009CB3378357"
+				item: "hmag:evil_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1409ADED9DFA69B6"
+				item: "bloodmagic:masterbloodorb"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["320E616DD29F2C2C"]
+			id: "41990DCD309B5A51"
+			rewards: [{
+				id: "7F62223B8D8571FD"
+				item: "hmag:evil_crystal_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13A11CECA0BEA69E"
+				item: "bloodmagic:archmagebloodorb"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1E881A7C28BE75FD"]
+			id: "1CF66E7CD386393B"
+			tasks: [{
+				id: "519C35866E7959A3"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemlesser"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+						souls: 256.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1CF66E7CD386393B"]
+			id: "268AB69262E7D497"
+			tasks: [{
+				id: "20D31D60E05B30AA"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemcommon"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+						souls: 1024.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["268AB69262E7D497"]
+			id: "1696403D85C57BEA"
+			rewards: [{
+				id: "036E1036AB331C4C"
+				item: "nameless_trinkets:sigil_of_baphomet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A729986CDDB1A4B"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemgreater"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+						souls: 4096.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["71D53E72211F813C"]
+			dependency_requirement: "all_started"
+			icon: {
+				Count: 1
+				id: "bloodmagic:soulpickaxe"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+					reinforce_level: 0
+					reinforce_max: 10
+				}
+			}
+			id: "1258ED315E9F699E"
+			tasks: [
+				{
+					id: "79536AE8EB39DB77"
+					item: {
+						Count: 1
+						id: "bloodmagic:soulaxe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							reinforce_level: 0
+							reinforce_max: 10
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D46A9CF46B0BDA2"
+					item: {
+						Count: 1
+						id: "bloodmagic:soulpickaxe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+							reinforce_level: 0
+							reinforce_max: 10
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "081FEC21A6927F43"
+					item: {
+						Count: 1
+						id: "bloodmagic:soulshovel"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+							reinforce_level: 0
+							reinforce_max: 10
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Sentient Tools"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"641060F7EC1F9CC5"
+				"149FA0A9A03F0B87"
+			]
+			description: ["These weapons are powered by Demon Will in your inventory, and allow you to collect Demon Will without the use of Soul Snares."]
+			icon: {
+				Count: 1
+				id: "bloodmagic:soulsword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+					reinforce_level: 0
+					reinforce_max: 10
+				}
+			}
+			id: "71D53E72211F813C"
+			tasks: [
+				{
+					id: "09C185281FFE345B"
+					item: {
+						Count: 1
+						id: "bloodmagic:soulsword"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							reinforce_level: 0
+							reinforce_max: 10
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CDC6BA134637D60"
+					item: {
+						Count: 1
+						id: "bloodmagic:soulscythe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+							reinforce_level: 0
+							reinforce_max: 10
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E57F325AC4E45AF"
+					item: "bloodmagic:throwing_dagger"
+					type: "item"
+				}
+			]
+			title: "Sentient Weapons"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0D4A28A0277F4E5E"]
+			id: "09391E60AB457A4C"
+			rewards: [{
+				id: "76E00125F3D413E7"
+				item: "bloodmagic:upgradetrainer"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "18B5934AD204B1AE"
+					item: {
+						Count: 1
+						id: "bloodmagic:livinghelmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0707715CC9BCFD6A"
+					item: {
+						Count: 1
+						id: "bloodmagic:livingplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							livingStats: {
+								maxPoints: 100
+								upgrades: [ ]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75F6A895CDEE8B4A"
+					item: {
+						Count: 1
+						id: "bloodmagic:livingleggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38CF90150049DBBC"
+					item: {
+						Count: 1
+						id: "bloodmagic:livingboots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Living Armor"
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1388DE775715C931"]
+			description: ["Throw this at a hostile mob and quickly kill it to collect your first Demon Will."]
+			hide_dependency_lines: true
+			id: "149FA0A9A03F0B87"
+			tasks: [{
+				id: "4BF800A36F04153D"
+				item: "bloodmagic:soulsnare"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A9179729D4015FD"]
+			description: ["Use the &oEdge of the Hidden Realm&r ritual to create a gate to the Demon Realm. Gather your best gear and enter in search of Tau Fruit."]
+			icon: "bloodmagic:dungeon_eye"
+			id: "1146FD3C38D38A26"
+			tasks: [
+				{
+					dimension: "bloodmagic:dungeon"
+					id: "1B0F69A1EAFE592D"
+					type: "dimension"
+				}
+				{
+					id: "1F8D0EA41251B345"
+					item: "bloodmagic:weak_tau"
+					type: "item"
+				}
+			]
+			title: "Visit the Demon Realm"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["66E481CEF908567B"]
+			description: ["Complete the &oEndless Realm&r ritual and dive even deeper into the demon realm. Find and unlock the mines and bring back some Demonite."]
+			id: "06DFB19C259DE2B1"
+			tasks: [{
+				id: "22EB8253DEBB5BD1"
+				item: "bloodmagic:ingot_hellforged"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+	]
+	title: "Blood Mage"
+}

@@ -1,0 +1,37 @@
+{
+  "shields": {
+    "desc:": "List of shield items and their damage values. Start the game once to fill these entries with all modded shields automatically. Format: Shield name id;shield damage reduction on block; shield passive damage reduction when just held.E.g. default: [\"minecraft:shield;65;15\"] this give the minecraft shield 65% damage reduction on block, and 15% passive damage reduction when not blocking but held.To put multiple values seperate them by commas like this:  [\"minecraft:shield;65;15\", \"minecraft:shield;65;15\"] ",
+    "shields": [
+      "hmag:ancient_shield;68;19",
+      "lost_aether_content:gravitite_shield;70;16",
+      "undergarden:cloggrum_shield;67;16",
+      "minecraft:shield;65;15",
+      "lost_aether_content:shield_of_emile;78;11",
+      "ars_nouveau:enchanters_shield;67;17",
+      "lost_aether_content:zanite_shield;64;20",
+      "cataclysm:black_steel_targe;75;13",
+      "hmag:fortress_shield;69;14",
+      "the_bumblezone:honey_crystal_shield;53;10",
+      "deep_aether:skyjade_shield;64;19",
+      "artifacts:umbrella;50;10",
+      "cataclysm:bulwark_of_the_flame;50;10",
+      "deep_aether:stratus_shield;73;16"
+    ]
+  },
+  "playerOnly": {
+    "desc:": "Should the mechanic changes only affect players, default:false",
+    "playerOnly": false
+  },
+  "blockCooldown": {
+    "desc:": "Shield block cooldown(players only), values are in ticks. 20 ticks = 1 sec, default = 5 ticks(0.25s)",
+    "blockCooldown": 5
+  },
+  "maxblockdamagereduction": {
+    "desc:": "Maximum percent of damage allowed to be blocked. Default:85",
+    "maxblockdamagereduction": 85
+  },
+  "maxpassivedamagereduction": {
+    "desc:": "Maximum percent of passive damage reduction while holding a shield(not blocking). Default:25",
+    "maxpassivedamagereduction": 25
+  }
+}

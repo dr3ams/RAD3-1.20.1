@@ -9,7 +9,7 @@
 		#When joining a new world, should players be given a blueprint package?
 		#The blueprint package gives some blueprints when used (right-click).
 		#To change what is given, override the starter_blueprints loot table.
-		spawnWithStarterBlueprints = true
+		spawnWithStarterBlueprints = false
 
 	#Repair kit configs.
 	[item.repairKits]
@@ -18,15 +18,15 @@
 		#Setting to zero would make the repair kit unusable.
 		[item.repairKits.capacity]
 			#Range: > 0
-			very_crude = 8
+			very_crude = 4
 			#Range: > 0
-			crude = 16
+			crude = 8
 			#Range: > 0
-			sturdy = 32
+			sturdy = 12
 			#Range: > 0
-			crimson = 48
+			crimson = 16
 			#Range: > 0
-			azure = 64
+			azure = 32
 
 		#Efficiency is the percentage of the repair value used. Higher values mean less materials used.
 		#Setting to zero would make the repair kit unusable.
@@ -172,17 +172,17 @@
 		#Minimum rate of part loss when salvaging items. 0 = no loss, 1 = complete loss.
 		#Rate depends on remaining durability.
 		#Range: 0.0 ~ 1.0
-		min = 0.0
+		min = 0.1
 		#Maximum rate of part loss when salvaging items. 0 = no loss, 1 = complete loss.
 		#Rate depends on remaining durability.
 		#Range: 0.0 ~ 1.0
-		max = 0.5
+		max = 0.7
 
 #Settings for the starlight charger
 [starlightCharger]
 	#The rate at which the starlight charger gathers energy during the night
 	#Range: > 0
-	chargeRate = 50
+	chargeRate = 20
 	#The maximum amount of energy the starlight charger can store
 	#Range: > 0
 	maxCharge = 1000000

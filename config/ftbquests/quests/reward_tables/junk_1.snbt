@@ -11,31 +11,12 @@
 		string_id: "junk_1"
 	}
 	loot_size: 1
-	order_index: 25
+	order_index: 26
 	rewards: [
 		{ item: "minecraft:zombie_head" }
 		{ count: 4, item: "minecraft:candle" }
 		{ count: 2, item: "minecraft:chicken_spawn_egg" }
 		{ item: "minecraft:bee_spawn_egg" }
-		{
-			item: {
-				Count: 1b
-				id: "healingflasks:t_0_healing_flask"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "constructionwand:stone_wand"
-				tag: {
-					Damage: 0
-					wand_options: { }
-				}
-			}
-		}
 		{ count: 64, item: "minecraft:tripwire_hook" }
 		{ count: 4, item: "minecraft:pumpkin_seeds" }
 		{ count: 10, item: "minecraft:torch" }
@@ -58,7 +39,7 @@
 		{ item: "supplementaries:pedestal" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "supplementaries:slingshot"
 				tag: {
 					Damage: 0
@@ -66,7 +47,6 @@
 			}
 		}
 		{ item: "supplementaries:bomb" }
-		{ count: 2, item: "pneumaticcraft:bandage" }
 		{ item: "simplehats:hatscraps_common" }
 	]
 	title: "Junk 1"

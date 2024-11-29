@@ -1,0 +1,106 @@
+{
+	id: "5CD110258574A96B"
+	loot_size: 1
+	order_index: 47
+	rewards: [
+		{ count: 3, item: "undergarden:depthrock_diamond_ore" }
+		{ count: 3, item: "undergarden:shiverstone_diamond_ore" }
+		{ count: 64, item: "undergarden:polished_depthrock" }
+		{ count: 64, item: "undergarden:shiverstone" }
+		{ count: 64, item: "undergarden:grongle_log" }
+		{ count: 64, item: "undergarden:wigglewood_log" }
+		{ count: 64, item: "undergarden:smogstem_log" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:long_night_vision"
+				}
+			}
+		}
+		{ item: "minecraft:golden_apple" }
+		{ item: "minecraft:enchanted_golden_apple" }
+		{ count: 16, item: "minecraft:golden_carrot" }
+		{ count: 16, item: "minecraft:coal" }
+		{ item: "undergarden:cloggrum_lantern" }
+		{ item: "undergarden:shimmerweed" }
+		{ item: "undergarden:wigglewood_sapling" }
+		{ item: "undergarden:smogstem_sapling" }
+		{ item: "undergarden:grongle_sapling" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "undergarden:ricochet"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "undergarden:longevity"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "undergarden:self_sling"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{ count: 64, item: "undergarden:depthrock_pebble" }
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "food_2"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "food_3"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "resource_loot_crate_2"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "resource_loot_crate_3"
+				}
+			}
+		}
+	]
+	title: "Undergarden Loot Crate"
+}

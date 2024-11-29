@@ -84,19 +84,11 @@
 			image: "ftbquests:block/barrier_open"
 			rotation: 45.0d
 			width: 1.5d
-			x: 10.5d
-			y: -4.5d
-		}
-		{
-			height: 1.5d
-			image: "ftbquests:block/barrier_open"
-			rotation: 45.0d
-			width: 1.5d
 			x: 11.5d
 			y: -3.0d
 		}
 		{
-			alpha: 150
+			alpha: 100
 			height: 10.0d
 			image: "rad3:textures/misc/rad_compass_new_3.png"
 			rotation: 0.0d
@@ -121,7 +113,7 @@
 		}
 		{
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "bonfires:coiled_sword"
 				tag: {
 					Damage: 0
@@ -171,7 +163,7 @@
 				{
 					id: "61FB2C3CA5841E29"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:stone_pickaxe"
 						tag: {
 							Damage: 0
@@ -182,7 +174,7 @@
 				{
 					id: "7D55F06D13B66819"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -264,7 +256,7 @@
 				icon: "minecraft:chest"
 				id: "5B5DA6B362BDF52E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:chests"
@@ -279,25 +271,19 @@
 		}
 		{
 			dependencies: ["0000000000000017"]
-			id: "7343C10D6EEAA88B"
-			rewards: [
-				{
-					id: "57EFED8B0FDF975D"
-					item: {
-						Count: 1b
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "common_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "728D604B1B3DDA27"
-					type: "xp_levels"
-					xp_levels: 5
-				}
+			description: [
+				"There are a lot of &9decorations&r available to decorate your humble home."
+				""
+				"You can search in JEI by mod:"
+				"- @chipped"
+				"- @Builder"
 			]
+			id: "7343C10D6EEAA88B"
+			rewards: [{
+				id: "728D604B1B3DDA27"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Make yourself at home!"
 			tasks: [
 				{
@@ -338,6 +324,11 @@
 				{
 					id: "438C812E22453866"
 					item: "minecraft:grindstone"
+					type: "item"
+				}
+				{
+					id: "1C410EFF06FE7079"
+					item: "minecraft:fletching_table"
 					type: "item"
 				}
 			]
@@ -424,6 +415,19 @@
 		}
 		{
 			dependencies: ["149CB61732F787CF"]
+			description: [
+				"There are multiple new villager jobs, all with unique trades, workstations, and advancements!"
+				"- Oceanographer (Oceanography Table)"
+				"- Forester (Forestry Bench)"
+				"- Engineer (Blueprint Table)"
+				"- Florist (Gardening Table)"
+				"- Hunter (Hunting Post)"
+				"- Netherologist (Decayed Workbench)"
+				"- Enderologist (Purpur Altar)"
+				"- Apiarist (Honey Pot)"
+				""
+				"While travelling you may also find villages transformed into towns!"
+			]
 			id: "031D29EEE7B5A5A7"
 			rewards: [{
 				id: "3F9B6F960665E737"
@@ -456,7 +460,7 @@
 				}
 				{
 					id: "5CBF45690CB0CB01"
-					item: "kubejs:emerald_nugget"
+					item: "minecraft:emerald"
 					random_bonus: 3
 					type: "item"
 				}
@@ -488,7 +492,7 @@
 				}
 				{
 					id: "2A28E51842126858"
-					item: "kubejs:emerald_nugget"
+					item: "minecraft:emerald"
 					random_bonus: 3
 					type: "item"
 				}
@@ -532,13 +536,7 @@
 				}
 				{
 					id: "4E1BC620F85C50EA"
-					item: {
-						Count: 1b
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "hat_loot_crate"
-						}
-					}
+					item: "simplehats:hatbag_epic"
 					type: "item"
 				}
 			]
@@ -625,7 +623,7 @@
 				{
 					id: "4AD54254921FCE59"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:collectibles"
@@ -657,7 +655,7 @@
 				{
 					id: "5DE10AA0D4257E31"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:stone_sword"
 						tag: {
 							Damage: 0
@@ -723,8 +721,8 @@
 			tasks: [{
 				id: "5A7D361140FECB49"
 				item: {
-					Count: 1b
-					id: "tombstone:ankh_of_pray"
+					Count: 1
+					id: "tombstone:ankh_of_prayer"
 					tag: {
 						Damage: 0
 					}
@@ -787,7 +785,7 @@
 				{
 					id: "0707C6E6A7C3A185"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "tombstone:decorative_graves"
@@ -809,7 +807,7 @@
 			id: "366659E50333BC5A"
 			shape: "hexagon_important"
 			size: 2.0d
-			subtitle: "Visit 'Meet your fight' chapter to find more mob hunting quests!"
+			subtitle: "Visit 'Seek and Destroy' chapter to find more mob hunting quests!"
 			tasks: [{
 				advancement: "minecraft:adventure/kill_a_mob"
 				criterion: ""
@@ -824,7 +822,7 @@
 			dependencies: ["35A027D4B827463C"]
 			description: [""]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "undergarden:forgotten_pickaxe"
 				tag: {
 					Damage: 0
@@ -873,26 +871,18 @@
 		{
 			dependencies: ["35A027D4B827463C"]
 			description: [
-				"There are a lot of &9decorations&r available to decorate your humble home."
 				""
-				"You can search in JEI by mod:"
-				"- @chipped"
-				"- @Macaw"
-				"- @Builder"
-				"- @handcrafted"
-				"- @workshop"
-				"- @furniture"
-				"- @lights"
+				"{ \"text\": \"Click here to jump to it\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5E204AB79DAAB52D\" } }"
 			]
 			id: "52AB2CD360AC4DDE"
 			shape: "gear_important"
 			size: 1.2d
+			subtitle: "Visit 'Useful Gadgets' chapter to find more about different gadgets"
 			tasks: [{
-				id: "41FDDDBDC2EB9C63"
-				item: "chipped:carpenters_table"
-				type: "item"
+				id: "70FC8985C5CDA82E"
+				type: "checkmark"
 			}]
-			title: "&9Decorating"
+			title: "&9Useful Gadgets"
 			x: -5.75d
 			y: -2.25d
 		}
@@ -937,70 +927,23 @@
 			y: -3.75d
 		}
 		{
-			dependencies: ["18AC39AD9539D884"]
-			id: "1F988A67F250159F"
-			tasks: [{
-				id: "336A43E20C6C69BD"
-				item: "minecraft:blast_furnace"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -4.5d
-		}
-		{
 			dependencies: ["3A7C49FC5AA2927F"]
-			id: "18AC39AD9539D884"
+			description: ["It's a little more expensive now."]
+			id: "1F988A67F250159F"
 			tasks: [
 				{
-					id: "492E4F21FA247D83"
-					item: {
-						Count: 1b
-						id: "kubejs:hammer_iron"
-						tag: {
-							Damage: 0
-						}
-					}
+					id: "3590645E6C82B9B4"
+					item: "minecraft:blast_furnace"
 					type: "item"
 				}
 				{
-					id: "64E420126C019B04"
-					item: "create:iron_sheet"
+					id: "7116F69046FDE709"
+					item: "embers:iron_plate"
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["1F988A67F250159F"]
-			description: [
-				"&3Zinc ore&r must be mined with an &7Iron pickaxe&r or higher."
-				""
-				"It can generate in the &2Overworld&r in the form of Blobs."
-				""
-				"It can be found between Y levels &6&n-63 to 70&r&r."
-			]
-			icon: "create:andesite_alloy"
-			id: "53BF868730713984"
-			tasks: [
-				{
-					id: "7F43B2ED6EAE58EC"
-					item: "create:zinc_ingot"
-					type: "item"
-				}
-				{
-					id: "4531E6A588CF556D"
-					item: "minecraft:andesite"
-					type: "item"
-				}
-				{
-					id: "258DC7B57C3DF3F8"
-					item: "create:andesite_alloy"
-					type: "item"
-				}
-			]
-			title: "Andesite Alloy"
-			x: 9.0d
+			title: "Blast Furnace"
+			x: 6.5d
 			y: -4.5d
 		}
 		{
@@ -1052,7 +995,7 @@
 				advancement: "minecraft:story/enter_the_nether"
 				criterion: ""
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "minecraft:block/nether_portal"
@@ -1068,7 +1011,7 @@
 		{
 			dependencies: ["3A7C49FC5AA2927F"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:iron_chestplate"
 				tag: {
 					Damage: 0
@@ -1079,7 +1022,7 @@
 				{
 					id: "00000000000002D9"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
@@ -1093,7 +1036,7 @@
 				{
 					id: "00000000000002DA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
@@ -1107,7 +1050,7 @@
 				{
 					id: "4229240D9A9F4A3D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:strength"
@@ -1125,7 +1068,7 @@
 				{
 					id: "00000000000002AB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_helmet"
 						tag: {
 							Damage: 0
@@ -1136,7 +1079,7 @@
 				{
 					id: "00000000000002AC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_chestplate"
 						tag: {
 							Damage: 0
@@ -1147,7 +1090,7 @@
 				{
 					id: "00000000000002AD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_leggings"
 						tag: {
 							Damage: 0
@@ -1158,7 +1101,7 @@
 				{
 					id: "00000000000002AE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_boots"
 						tag: {
 							Damage: 0
@@ -1169,7 +1112,7 @@
 				{
 					id: "554729809ED5063C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:shield"
 						tag: {
 							Damage: 0
@@ -1179,22 +1122,28 @@
 				}
 			]
 			title: "Iron Armor"
-			x: 5.0d
+			x: 5.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["149CB61732F787CF"]
+			description: ["Choose a biome, and this compass will point to the nearest one as long as it's within 5000 blocks."]
 			id: "0000000000000576"
 			rewards: [{
-				count: 5
 				id: "0000000000000578"
-				item: "randomite:randomite_ore"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "resource_loot_crate_1"
+					}
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0000000000000577"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "naturescompass:naturescompass"
 					tag: { }
 				}
@@ -1215,7 +1164,7 @@
 				{
 					id: "5B9BC199451D5FCD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "buildinggadgets2:gadget_building"
 						tag: { }
 					}
@@ -1227,7 +1176,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 4.0d
 			y: -7.0d
 		}
 		{
@@ -1261,7 +1210,7 @@
 				"Build faster with &9blueprints&r! Blueprint capsules can take materials from chests or other inventories to duplicate a structure. It supports rotation and mirror."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "capsule:capsule"
 				tag: {
 					color: 12244701
@@ -1274,7 +1223,7 @@
 			tasks: [{
 				id: "25465A26772FA47E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1383,7 +1332,7 @@
 			tasks: [{
 				id: "7E142BB4D4F903A7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "chalk:white_chalk"
 					tag: {
 						Damage: 0
@@ -1398,6 +1347,26 @@
 		{
 			dependencies: ["366659E50333BC5A"]
 			description: [
+				"- Find them in the wild by their house"
+				""
+				"- Give them something edible and they might join you as a companion."
+				""
+				"- Once they join you, you can access their inventory with right click."
+				""
+				"- They have names, but you can rename them with tags."
+				""
+				"- Shift+right click to toggle \"sit\", making them stay in place and not do anything."
+				""
+				"- Give them armor and weapons and they will automatically equip the best one in their inventory. They can only use the weapon they spawn with. Archers and arbalists do not need arrows."
+				""
+				"- They will follow you around the same way a wolf does. They will attack mobs that hurt you or you hurt, except creepers. They will give a warning if a creeper is nearby and run away."
+				""
+				"- Put food in their inventory and they will eat to heal themselves."
+				""
+				"- Toggle between follow, patrol, and guard states"
+				""
+				"{@pagebreak}"
+				""
 				"There are different types of companions with unique abilities."
 				""
 				"&6- Collector&r"
@@ -1416,7 +1385,7 @@
 				"The supporter companions gives buffs to any player and your own companions in a specific radius. Additional supporter will not stack up, but they will be able to buff the whole group."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "player_companions:samurai_default"
 				tag: {
 					Damage: 0
@@ -1426,7 +1395,7 @@
 			rewards: [{
 				id: "780EDF87501EC9B9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "patchouli:guide_book"
 					tag: {
 						"patchouli:book": "player_companions:guide"
@@ -1434,7 +1403,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Player companions"
+			subtitle: "This mod adds new human companions that can help you on your journey."
 			tasks: [
 				{
 					id: "46BEC7D90A99E618"
@@ -1562,7 +1531,7 @@
 			tasks: [{
 				id: "2476A9211E40437D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1631,7 +1600,7 @@
 			tasks: [{
 				id: "05628460ED131063"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "spelunkery:parachute"
 					tag: {
 						Damage: 0
@@ -1655,7 +1624,7 @@
 			tasks: [{
 				id: "44FE2B47EFEE5DAC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "spelunkery:item_magnet"
 					tag: { }
 				}
@@ -1770,10 +1739,10 @@
 				{
 					id: "77D7A2ED18656D97"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "common_loot_crate"
+							type: "resource_loot_crate_1"
 						}
 					}
 					type: "item"
@@ -1787,7 +1756,7 @@
 			tasks: [{
 				id: "0000000000000018"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:beds"
@@ -1874,7 +1843,7 @@
 				{
 					id: "671F7E095854F0A9"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -2095,7 +2064,7 @@
 				{
 					id: "2B9F43BBFAC24B5A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -2188,7 +2157,7 @@
 			dependencies: ["733A59C038C65E4B"]
 			description: [""]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:diamond_chestplate"
 				tag: {
 					Damage: 0
@@ -2204,7 +2173,7 @@
 				{
 					id: "6BB131699E21FDB6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:diamond_helmet"
 						tag: {
 							Damage: 0
@@ -2215,7 +2184,7 @@
 				{
 					id: "2D22FE1D7EB7149D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:diamond_chestplate"
 						tag: {
 							Damage: 0
@@ -2226,7 +2195,7 @@
 				{
 					id: "1640D7A699DEF0DA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:diamond_leggings"
 						tag: {
 							Damage: 0
@@ -2237,7 +2206,7 @@
 				{
 					id: "6165A318A0C852C0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:diamond_boots"
 						tag: {
 							Damage: 0
@@ -2263,7 +2232,7 @@
 				{
 					id: "7328DA5EA523CFEA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -2304,7 +2273,7 @@
 				{
 					id: "604EB1A22F5464C0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -2472,7 +2441,7 @@
 				{
 					id: "31AA1CD5C760CBEB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -2512,7 +2481,7 @@
 				{
 					id: "04CBF36B5324995B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -2709,7 +2678,7 @@
 				{
 					id: "325414C7C64C34F1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "farmersdelight:flint_knife"
 						tag: {
 							Damage: 0
@@ -2802,7 +2771,7 @@
 			tasks: [{
 				id: "52366E5C113F92FE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:rope"
@@ -2837,29 +2806,6 @@
 			}]
 			x: 5.0d
 			y: -1.5d
-		}
-		{
-			dependencies: ["53BF868730713984"]
-			id: "3339228AB3EFD1AF"
-			shape: "gear_important"
-			size: 1.5d
-			subtitle: "(with addons)"
-			tasks: [{
-				advancement: "create:andesite_alloy"
-				criterion: ""
-				icon: {
-					Count: 1b
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "create:textures/gui/logo.png"
-					}
-				}
-				id: "239AA2CA7320D704"
-				type: "advancement"
-			}]
-			title: "Time to Create!"
-			x: 10.5d
-			y: -4.5d
 		}
 		{
 			dependencies: ["366659E50333BC5A"]
@@ -2915,7 +2861,7 @@
 			tasks: [{
 				id: "0000000000000630"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "doggytalents:treats"
@@ -2979,7 +2925,7 @@
 				{
 					id: "000000000000063A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "doggytalents:whistle"
 						tag: {
 							mode: 4
@@ -3054,7 +3000,7 @@
 				{
 					id: "0000000000000652"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "doggytalents:dog_bed"
 						tag: {
 							doggytalents: {
@@ -3260,7 +3206,7 @@
 					count: 64
 					id: "011BDDFD8FF8A919"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquaculture:worm"
 						tag: {
 							Damage: 0
@@ -3277,7 +3223,7 @@
 				{
 					id: "000000000000035F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquaculture:neptunium_fillet_knife"
 						tag: {
 							Damage: 0
@@ -3425,7 +3371,7 @@
 				{
 					id: "0000000000000356"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquaculture:minnow"
 						tag: {
 							Damage: 0
@@ -3483,7 +3429,7 @@
 				{
 					id: "10BEB003F990DDEB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquaculture:stone_fillet_knife"
 						tag: {
 							Damage: 0
@@ -3525,7 +3471,7 @@
 			tasks: [{
 				id: "00000000000015DE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "aquaculture:iron_fishing_rod"
 					tag: {
 						Damage: 0
@@ -3544,7 +3490,7 @@
 				{
 					id: "0000000000001654"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquaculture:minnow"
 						tag: {
 							Damage: 0
@@ -3555,7 +3501,7 @@
 				{
 					id: "0000000000001655"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquaculture:leech"
 						tag: {
 							Damage: 0
@@ -3567,7 +3513,7 @@
 			tasks: [{
 				id: "00000000000015EA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "aquaculture:worm"
 					tag: {
 						Damage: 0
@@ -3663,7 +3609,7 @@
 			rewards: [{
 				id: "29509B1943C17344"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:lootcrate"
 					tag: {
 						type: "materials_monsters"
@@ -3750,7 +3696,7 @@
 			tasks: [{
 				id: "00000000000015E0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "aquaculture:gold_fishing_rod"
 					tag: {
 						Damage: 0
@@ -3775,7 +3721,7 @@
 					count: 10
 					id: "0000000000001649"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aquaculture:worm"
 						tag: {
 							Damage: 0
@@ -3792,7 +3738,7 @@
 			tasks: [{
 				id: "00000000000015E2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "aquaculture:diamond_fishing_rod"
 					tag: {
 						Damage: 0
@@ -3816,7 +3762,7 @@
 				{
 					id: "6A80FEA9F5625E8C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -3833,7 +3779,7 @@
 			tasks: [{
 				id: "00000000000015E4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "aquaculture:neptunium_fishing_rod"
 					tag: {
 						Damage: 0
@@ -3876,42 +3822,45 @@
 		}
 		{
 			dependencies: ["0000000000000017"]
-			description: ["&2Wind Chimes&r produce &oambient&r chiming sounds when hung from supporting blocks and can be interacted with. In addition, &2Wind Chimes&r animate in the wind and repel &7Phantoms&r from approaching players near a chiming Wind Chime!"]
+			description: ["The Fruit and Sword of Insomnia become more powerful the longer it has been since you slept. They max out at 6 days without sleep. You won't be able to sleep as long as they are in your inventory."]
 			id: "120E3243A96AA459"
-			subtitle: "Bring the sound of Chimes into your Minecraft world!"
-			tasks: [{
-				id: "45B7F7E96D0AA230"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "chimes:bamboo_chimes"
-							}
-							{
-								Count: 1b
-								id: "chimes:carved_bamboo_chimes"
-							}
-							{
-								Count: 1b
-								id: "chimes:iron_chimes"
-							}
-							{
-								Count: 1b
-								id: "chimes:copper_chimes"
-							}
-							{
-								Count: 1b
-								id: "chimes:amethyst_chimes"
-							}
-						]
-					}
-				}
-				title: "Chimes Variants"
+			rewards: [{
+				id: "7935F43927E83565"
+				item: "nameless_trinkets:sleeping_pills"
 				type: "item"
 			}]
+			subtitle: "All-nighter"
+			tasks: [
+				{
+					id: "07DBF0F138A27783"
+					item: {
+						Count: 1
+						id: "hmag:insomnia_fruit"
+						tag: {
+							hmag.level: 5b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "101DC6DE3B8694C7"
+					item: {
+						Count: 1
+						id: "hmag:insomnia_sword"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							hmag.level: 5b
+							reinforce_level: 0
+							reinforce_max: 10
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Insomnia"
 			x: 2.5d
 			y: -5.5d
 		}
@@ -3921,7 +3870,7 @@
 			tasks: [{
 				id: "53B7D2BEB1474AA7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:obsidian"
@@ -4019,7 +3968,7 @@
 			tasks: [{
 				id: "2E2945006EB8F434"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -4104,7 +4053,7 @@
 			tasks: [{
 				id: "200F6AAEBE659A14"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -4249,7 +4198,7 @@
 				{
 					id: "2F8814D48037A431"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -4294,7 +4243,7 @@
 				{
 					id: "60B7A48AF2E7C1E4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -4335,7 +4284,7 @@
 				{
 					id: "26A89E82A18E8890"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -4380,7 +4329,7 @@
 				{
 					id: "2C17DE56F08DF9E1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -4440,7 +4389,7 @@
 			tasks: [{
 				id: "7A43DEE690A69FAD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -4514,7 +4463,7 @@
 			dependencies: ["00000000000000BE"]
 			description: ["Collect all those books! Some of these manuals can be combined in the Eccentric Tome for safe keeping."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "eccentrictome:tome"
 				tag: {
 					"eccentrictome:mods": { }
@@ -4530,7 +4479,7 @@
 				{
 					id: "15D9B059AA37FF21"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "eccentrictome:tome"
 						tag: {
 							"eccentrictome:mods": { }
@@ -4598,7 +4547,7 @@
 			tasks: [{
 				id: "0000000000000064"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "quark:trowel"
 					tag: {
 						Damage: 0
@@ -4620,7 +4569,7 @@
 			tasks: [{
 				id: "00A7116AB30E5964"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -4693,6 +4642,53 @@
 			title: "Tables"
 			x: -1.5d
 			y: -9.5d
+		}
+		{
+			description: ["The Global Skin Library loads a list of skins that have been uploaded to the skin database. There are lots and lots of pre-built designs to search through, and they can be downloaded to your private instance by clicking on one and hitting the download button."]
+			id: "4DCD0744847F44B8"
+			rewards: [{
+				id: "7FBB9EAE677E1BB5"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Apply custom skins to anything: from equipment to blocks!"
+			tasks: [
+				{
+					id: "483DFE0BA1E6149D"
+					item: "armourers_workshop:skin-library-global"
+					type: "item"
+				}
+				{
+					id: "65D2623972E0889B"
+					item: "armourers_workshop:skin-library"
+					type: "item"
+				}
+				{
+					id: "3D2F471D782E6E08"
+					item: "armourers_workshop:skin-template"
+					type: "item"
+				}
+				{
+					id: "4FE0D6974FBDD93B"
+					item: "armourers_workshop:skinning-table"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -10.5d
+		}
+		{
+			description: ["Similar to Wandering Traders, goblins are found randomly underground in caves or in the nether and provide exclusive and beneficial trades that allow you to take your adventure to the next level! Goblin Traders adds two new traders, the Golbin Trader which is found in the overworld and the Vein Goblin Trader which is found in The Nether; both with their own unique set of trades. These little goblins have a little attitude and don't like it when you hit them. If you're feeling generous you can feed them their favourite food for a fun animation."]
+			icon: "kubejs:coin_05"
+			id: "0603EEDA36C27ED6"
+			subtitle: "Unique and useful trades"
+			tasks: [{
+				id: "388F28C17259CA5D"
+				title: "Goblin traders"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 1.0d
 		}
 	]
 	title: "&2World Exploration&r"

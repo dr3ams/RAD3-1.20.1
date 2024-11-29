@@ -71,7 +71,7 @@
 			y: 1.5d
 		}
 	]
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -84,7 +84,7 @@
 				{
 					id: "302F9DF5F4891DA5"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:cold_parachute"
 						tag: {
 							Damage: 0
@@ -157,12 +157,6 @@
 					biome: "aether_redux:gilded_groves"
 					icon: "aether_redux:gilded_oak_sapling"
 					id: "53B351C18E703A21"
-					type: "biome"
-				}
-				{
-					biome: "aether_redux:highfields"
-					icon: "aether_redux:flowering_fieldsprout_sapling"
-					id: "52F8A7D69B77E594"
 					type: "biome"
 				}
 				{
@@ -352,7 +346,7 @@
 		{
 			dependencies: ["5FA2B6E76BD78E36"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "aether:gravitite_chestplate"
 				tag: {
 					Damage: 0
@@ -363,7 +357,7 @@
 				{
 					id: "5DDDDE056BBBF104"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:gravitite_chestplate"
 						tag: {
 							Damage: 0
@@ -374,7 +368,7 @@
 				{
 					id: "14FE68BFF10AC7C1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:gravitite_helmet"
 						tag: {
 							Damage: 0
@@ -385,7 +379,7 @@
 				{
 					id: "2F6D721511613400"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:gravitite_leggings"
 						tag: {
 							Damage: 0
@@ -396,7 +390,7 @@
 				{
 					id: "4F1AA6A1D09C3732"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "aether:gravitite_boots"
 						tag: {
 							Damage: 0
@@ -434,7 +428,7 @@
 			tasks: [{
 				id: "2E4B99FD53AED4AE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "aether:hammer_of_kingbdogz"
 					tag: {
 						Damage: 0
@@ -505,7 +499,7 @@
 			tasks: [{
 				id: "53F772C9C1BD1967"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "lost_aether_content:agility_boots"
 					tag: {
 						Damage: 0
@@ -522,7 +516,7 @@
 			tasks: [{
 				id: "2FEADB53CE1CCA8F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "lost_aether_content:swetty_mask"
 					tag: {
 						Damage: 0
@@ -539,7 +533,7 @@
 			tasks: [{
 				id: "0440093E482E3C9A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "lost_aether_content:phoenix_cape"
 					tag: {
 						Damage: 0
@@ -557,7 +551,7 @@
 			tasks: [{
 				id: "09D84E821D050234"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "lost_aether_content:sentry_shield"
 					tag: {
 						Damage: 0
@@ -574,7 +568,7 @@
 			tasks: [{
 				id: "03E59D4EC42798B6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "lost_aether_content:invincibility_gem"
 					tag: {
 						Damage: 0
@@ -591,7 +585,7 @@
 			tasks: [{
 				id: "3FF0ACBCBD11D7AD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "lost_aether_content:flaming_gemstone"
 					tag: {
 						Damage: 0
@@ -608,7 +602,7 @@
 			tasks: [{
 				id: "3844AC494F64965C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "lost_aether_content:power_gloves"
 					tag: {
 						Damage: 0
@@ -635,18 +629,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["4167FEC4F9A0252C"]
-			id: "6B9019420292BB98"
-			shape: "diamond"
-			tasks: [{
-				id: "72B168069B0FCBB5"
-				item: "aether_redux:phoenix_ring"
-				type: "item"
-			}]
-			x: 16.5d
-			y: 8.5d
-		}
-		{
 			dependencies: ["08067422126C49AF"]
 			id: "7F6E9A4C601CA13F"
 			shape: "diamond"
@@ -665,11 +647,11 @@
 			shape: "diamond"
 			tasks: [{
 				id: "7ED3856A467445DC"
-				item: "aether_redux:valkyrie_ring"
+				item: "aether_redux:ring_of_construction"
 				type: "item"
 			}]
 			x: 12.5d
-			y: 9.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["08067422126C49AF"]
@@ -679,7 +661,7 @@
 			tasks: [{
 				id: "1311BF7B3D11ADB5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "aether_redux:vampire_amulet"
 					tag: { }
 				}
@@ -698,7 +680,7 @@
 				type: "item"
 			}]
 			x: 13.5d
-			y: 9.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["4167FEC4F9A0252C"]
@@ -707,7 +689,7 @@
 			tasks: [{
 				id: "60D9980F86BBA770"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "aether_redux:subzero_crossbow"
 					tag: {
 						Damage: 0
@@ -737,7 +719,7 @@
 			tasks: [{
 				id: "755CF1443C175000"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "deep_aether:slider_eye"
 					tag: {
 						Damage: 0
@@ -783,8 +765,8 @@
 				item: "aether:life_shard"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 9.0d
+			x: 16.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["04576ACE03218FEC"]
@@ -826,7 +808,7 @@
 			tasks: [{
 				id: "3801F3F1FB1EAD3B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "aether:valkyrie_lance"
 					tag: {
 						Damage: 0
@@ -844,7 +826,7 @@
 			tasks: [{
 				id: "0C6769ADF049FE00"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "aether:phoenix_chestplate"
 					tag: {
 						Damage: 0
@@ -862,7 +844,7 @@
 			tasks: [{
 				id: "36B12D52B94ABCBA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "aether:valkyrie_chestplate"
 					tag: {
 						Damage: 0
@@ -1052,33 +1034,13 @@
 					type: "item"
 				}
 				{
-					id: "5ECADE5334413B12"
-					item: "aether_redux:fieldsprout_petals"
-					type: "item"
-				}
-				{
 					id: "3DB510C999A0CEFC"
 					item: "aether_redux:skysprouts"
 					type: "item"
 				}
 				{
-					id: "6E7F8EA08E9C0BD1"
-					item: "aether_redux:firecap"
-					type: "item"
-				}
-				{
-					id: "1FC80FB711BB9234"
-					item: "aether_redux:gilded_white_flower"
-					type: "item"
-				}
-				{
 					id: "1682205465FBD22F"
 					item: "aether_redux:iridia"
-					type: "item"
-				}
-				{
-					id: "0654C81C5A0C07ED"
-					item: "aether_redux:enchanted_shrub"
 					type: "item"
 				}
 				{
@@ -1097,11 +1059,6 @@
 					type: "item"
 				}
 				{
-					id: "776F8494E65B745A"
-					item: "aether_redux:blighted_fungi"
-					type: "item"
-				}
-				{
 					id: "04B07FAFE399B5C6"
 					item: "aether_redux:cloudcap_mushling"
 					type: "item"
@@ -1109,11 +1066,6 @@
 				{
 					id: "3E905D5B30C72704"
 					item: "aether_redux:lumina"
-					type: "item"
-				}
-				{
-					id: "0F09DADA94528E13"
-					item: "aether_redux:sweetblossom"
 					type: "item"
 				}
 			]
@@ -1128,7 +1080,7 @@
 				{
 					id: "7B8A9BCF1BBD5030"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "deep_aether:stratus_helmet"
 						tag: {
 							Damage: 0
@@ -1139,7 +1091,7 @@
 				{
 					id: "38D5DB1976967D8C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "deep_aether:stratus_chestplate"
 						tag: {
 							Damage: 0
@@ -1150,7 +1102,7 @@
 				{
 					id: "57846378298AE203"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "deep_aether:stratus_leggings"
 						tag: {
 							Damage: 0
@@ -1161,7 +1113,7 @@
 				{
 					id: "56DC7D8074D5FC36"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "deep_aether:stratus_boots"
 						tag: {
 							Damage: 0
@@ -1330,16 +1282,6 @@
 				{
 					id: "32B25BBEEA6F7E33"
 					item: "deep_aether:blightmoss_holystone_bricks"
-					type: "item"
-				}
-				{
-					id: "719237A4E2C95DE5"
-					item: "deep_aether:frosted_holystone_bricks"
-					type: "item"
-				}
-				{
-					id: "04830CE7DC8CC734"
-					item: "aether_redux:vitrium_bricks"
 					type: "item"
 				}
 			]

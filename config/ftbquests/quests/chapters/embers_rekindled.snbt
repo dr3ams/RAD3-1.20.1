@@ -5,8 +5,13 @@
 	group: "67B03B24E53297B4"
 	icon: "embers:ember_crystal_cluster"
 	id: "26FFA683A2A5D5E1"
-	order_index: 1
-	quest_links: [ ]
+	order_index: 0
+	quest_links: [{
+		id: "0A032C00FF75172C"
+		linked_quest: "70FAD65365767FAC"
+		x: 12.5d
+		y: -4.5d
+	}]
 	quests: [
 		{
 			description: [
@@ -31,7 +36,7 @@
 			tasks: [{
 				id: "05C3CC4640369090"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "embers:tinker_hammer"
 					tag: {
 						affix_data: {
@@ -278,7 +283,7 @@
 				{
 					id: "668D3BDDDAC30E24"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							Parent: {
 								"embers:ember": 0.0d
@@ -297,7 +302,7 @@
 				{
 					id: "3CD49FA2FC82C1AC"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							Parent: {
 								"embers:ember": 0.0d
@@ -389,7 +394,7 @@
 			tasks: [{
 				id: "1F45E9258BACE0D9"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							"embers:ember": 0.0d
@@ -451,7 +456,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["2A6B0183F60EC90B"]
+			dependencies: [
+				"2A6B0183F60EC90B"
+				"70FAD65365767FAC"
+			]
 			id: "1970A98FDBB9923D"
 			shape: "hexagon_important"
 			tasks: [{
@@ -566,7 +574,7 @@
 				{
 					id: "4A05FF82A1901305"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "embers:clockwork_pickaxe"
 						tag: {
 							affix_data: {
@@ -581,7 +589,7 @@
 				{
 					id: "61FA7986538659E2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "embers:clockwork_axe"
 						tag: {
 							affix_data: {
@@ -596,7 +604,7 @@
 				{
 					id: "73222A2F8C788563"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "embers:grandhammer"
 						tag: {
 							affix_data: {
@@ -764,7 +772,11 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["358250CC71299C5A"]
+			dependencies: [
+				"358250CC71299C5A"
+				"72BDBD0E44B17C0F"
+				"3CFEE7D947C11D8C"
+			]
 			id: "25FF938C6A444EE8"
 			shape: "hexagon_important"
 			size: 1.5d
@@ -823,7 +835,7 @@
 				{
 					id: "7A60F185912FD364"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "embers:glimmer_crystal"
 						tag: {
 							Damage: 0
@@ -834,7 +846,7 @@
 				{
 					id: "7AACDC955606887E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "embers:glimmer_lamp"
 						tag: {
 							Damage: 0
@@ -852,7 +864,7 @@
 			tasks: [{
 				id: "1EC8F5AD183AA2E0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "embers:tyrfing"
 					tag: {
 						Damage: 0
@@ -886,7 +898,7 @@
 				{
 					id: "0A1683035308FF75"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "embers:ashen_goggles"
 						tag: {
 							Damage: 0
@@ -900,7 +912,7 @@
 				{
 					id: "3A1ACD033B6D2796"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "embers:ashen_cloak"
 						tag: {
 							Damage: 0
@@ -914,7 +926,7 @@
 				{
 					id: "32114C68B65D8408"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "embers:ashen_leggings"
 						tag: {
 							Damage: 0
@@ -928,7 +940,7 @@
 				{
 					id: "0B6778DDF872A582"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "embers:ashen_boots"
 						tag: {
 							Damage: 0
@@ -960,7 +972,7 @@
 			tasks: [{
 				id: "73B02AB35C6E9BE2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "embers:inflictor_gem"
 					tag: { }
 				}
@@ -1060,7 +1072,7 @@
 				{
 					id: "172649A0A7E84EEF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [

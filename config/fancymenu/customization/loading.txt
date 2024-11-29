@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = drippy_loading_overlay
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1709843942982
+  last_edited_time = 1724582190564
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:acf18ecb-3b0f-4372-ad6c-b486fca0441b-1709843942982] = [groups:][instances:]
+  [loading_requirement_container_meta:e542c74c-a6e3-464a-94a5-af7bc562245b-1724582172603] = [groups:][instances:]
 }
 
 customization {
@@ -18,10 +18,8 @@ customization {
 }
 
 menu_background {
-  image_path = [source:local]config/drippyloadingscreen/wallhaven-46j.jpg
-  slide = false
-  repeat_texture = false
-  background_type = image
+  color = #171819
+  background_type = drippy_color_background
 }
 
 customization {
@@ -36,6 +34,32 @@ scroll_list_customization {
   show_scroll_list_header_footer_preview_in_editor = false
   repeat_scroll_list_header_texture = false
   repeat_scroll_list_footer_texture = false
+}
+
+element {
+  bar_color = #52171819
+  bar_texture = [source:local]/config/fancymenu/assets/progress_bar.png
+  background_color = #171819
+  direction = right
+  progress_for_element_anchor = false
+  progress_source = 50
+  value_mode = float
+  element_type = progress_bar
+  instance_identifier = 760c80d3-6a49-46a4-b0ca-5dc9ba11fe89-1716814988299
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -138
+  y = -129
+  width = 276
+  height = 218
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = d462fa13-eb07-4cf8-9b4d-0fc0c61bf9fc-1716814988299
+  [loading_requirement_container_meta:d462fa13-eb07-4cf8-9b4d-0fc0c61bf9fc-1716814988299] = [groups:][instances:]
 }
 
 vanilla_button {
@@ -54,10 +78,10 @@ vanilla_button {
   fade_in = false
   fade_in_speed = 1.0
   anchor_point = vanilla
-  x = 0
-  y = 0
-  width = 0
-  height = 0
+  x = 226
+  y = 191
+  width = 508
+  height = 126
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -86,10 +110,10 @@ vanilla_button {
   fade_in = false
   fade_in_speed = 1.0
   anchor_point = vanilla
-  x = 0
-  y = 0
-  width = 0
-  height = 0
+  x = 226
+  y = 418
+  width = 508
+  height = 10
   stretch_x = false
   stretch_y = false
   stay_on_screen = true

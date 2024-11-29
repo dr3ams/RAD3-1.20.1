@@ -7,132 +7,29 @@ StartupEvents.registry('item', event => {
 	// event.create('example_item').displayName('Example Item')
 	
 //processing
-event.create('hammer_iron', 'pickaxe').tier('iron').maxDamage(250)
+//event.create('hammer_iron', 'pickaxe').tier('iron').maxDamage(250)
 event.create('wooden_form').displayName('Wooden Form').maxDamage(64)
 event.create('stone_mortar').displayName('Stone Mortar').maxDamage(64)
 event.create('iron_mortar').displayName('Iron Mortar').maxDamage(220)
-event.create('dust_zinc').displayName('Zinc Dust')
-event.create('dust_andesite').displayName('Andesite Dust')
-event.create('dust_andesite_alloy').displayName('Andesite Alloy Dust')
+
 
 event.create('rick').displayName('Pet Coal').unstackable().burnTime(60000).rarity('EPIC').tooltip('Named Rick')	
-	
-		
-	
-event.create('roguefp').displayName('Rogue Fingerprint').tooltip('Used to choose your Specialization path')
-event.create('wizardfp').displayName('Wizard Fingerprint').tooltip('Used to choose your Specialization path')
-event.create('fighterfp').displayName('Fighter Fingerprint').tooltip('Used to choose your Specialization path')
-event.create('crafterfp').displayName('Crafter Fingerprint').tooltip('Used to choose your Specialization path')
-
-//fighter archetype
-//1st mark fighter
-event.create('mark_paladin').displayName('I. Mark of the Paladin')
-event.create('mark_blackguard').displayName('I. Mark of the Blackguard')
-event.create('mark_warrior').displayName('I. Mark of the Warrior')
-event.create('mark_barbarian').displayName('I. Mark of the Barbarian')
-event.create('mark_warlord').displayName('I. Mark of the Warlord')
-//2nd mark fighter
-event.create('mark_crusader').displayName('II. Mark of the Crusader')
-event.create('mark_hexblade').displayName('II. Mark of the Hexblade')
-event.create('mark_mercenary').displayName('II. Mark of the Mercenary')
-event.create('mark_savage').displayName('II. Mark of the Savage')
-event.create('mark_marshal').displayName('II. Mark of the Marshal')
-//3rd mark fighter
-event.create('mark_templar').displayName('III. Mark of the Templar')
-event.create('mark_deathknight').displayName('III. Mark of the Death Knight')
-event.create('mark_champion').displayName('III. Mark of the Champion')
-event.create('mark_berserker').displayName('III. Mark of the Berserker')
-event.create('mark_commander').displayName('III. Mark of the Commander')
-
-//crafter archetype
-//1st mark crafter
-event.create('mark_miner').displayName('I. Mark of the Miner')
-event.create('mark_alchemist').displayName('I. Mark of the Alchemist')
-event.create('mark_explorer').displayName('I. Mark of the Explorer')
-event.create('mark_huntsman').displayName('I. Mark of the Huntsman')
-event.create('mark_farmer').displayName('I. Mark of the Farmer')
-//2nd mark crafter
-event.create('mark_spelunker').displayName('II. Mark of the Spelunker')
-event.create('mark_enchanter').displayName('II. Mark of the Enchanter')
-event.create('mark_wanderer').displayName('II. Mark of the Wanderer')
-event.create('mark_tracker').displayName('II. Mark of the Tracker')
-event.create('mark_rancher').displayName('II. Mark of the Rancher')
-//3rd mark crafter
-event.create('mark_cavemaster').displayName('III. Mark of the Cavemaster')
-event.create('mark_thaumaturge').displayName('III. Mark of the Thaumaturge')
-event.create('mark_pathfinder').displayName('III. Mark of the Pathfinder')
-event.create('mark_pursuer').displayName('III. Mark of the Pursuer')
-event.create('mark_agrarian').displayName('III. Mark of the Agrarian')
-	
-//wizard archetype
-//1st mark wizard
-event.create('mark_elementalist').displayName('I. Mark of the Elementalist')
-event.create('mark_tamer').displayName('I. Mark of the Tamer')
-event.create('mark_mage').displayName('I. Mark of the Mage')
-event.create('mark_healer').displayName('I. Mark of the Healer')
-event.create('mark_battlemage').displayName('I. Mark of the Battlemage')
-//2nd mark wizard
-event.create('mark_sorcerer').displayName('II. Mark of the Sorcerer')
-event.create('mark_summoner').displayName('II. Mark of the Summoner')
-event.create('mark_warlock').displayName('II. Mark of the Warlock')
-event.create('mark_spiritualist').displayName('II. Mark of the Spiritualist')
-event.create('mark_spellblade').displayName('II. Mark of the Spellblade')
-//3rd mark wizard
-event.create('mark_masterlementalist').displayName('III. Mark of the Master Elementalist')
-event.create('mark_beastmaster').displayName('III. Mark of the Beastmaster')
-event.create('mark_archmage').displayName('III. Mark of the Archmage')
-event.create('mark_shaman').displayName('III. Mark of the Shaman')
-event.create('mark_warmage').displayName('III. Mark of the Warmage')
-
-//rogue archetype
-//1st mark rogue
-event.create('mark_archer').displayName('I. Mark of the Archer')
-event.create('mark_shadow').displayName('I. Mark of the Shadow')
-event.create('mark_pirate').displayName('I. Mark of the Pirate')
-event.create('mark_pitfighter').displayName('I. Mark of the Pitfighter')
-event.create('mark_thief').displayName('I. Mark of the Thief')
-//2nd mark rogue
-event.create('mark_arbalester').displayName('II. Mark of the Arbalester')
-event.create('mark_assasin').displayName('II. Mark of the Assasin')
-event.create('mark_corsair').displayName('II. Mark of the Corsair')
-event.create('mark_gladiator').displayName('II. Mark of the Gladiator')
-event.create('mark_bandit').displayName('II. Mark of the Bandit')
-//3rd mark rogue
-event.create('mark_sniper').displayName('III. Mark of the Sniper')
-event.create('mark_nightblade').displayName('III. Mark of the Nightblade')
-event.create('mark_captain').displayName('III. Mark of the Captain')
-event.create('mark_underdog').displayName('III. Mark of the Underdog')
-event.create('mark_brigand').displayName('III. Mark of the Brigand')
-
-//arrows
-event.create('arrow_down').displayName('Green Arrow Down Icon')
-event.create('arrow_down_yellow').displayName('Yellow Arrow Down Icon')
-
-event.create('arrow_up').displayName('Arrow Up Icon')
-event.create('arrow_up_yellow').displayName('Yellow Arrow Up Icon')
-
-event.create('arrow_left').displayName('Arrow Left Icon')
-event.create('arrow_left_yellow').displayName('Yellow Arrow Left Icon')
-
-event.create('arrow_45').displayName('Green Arrow 45 Icon')
-event.create('arrow_45_yellow').displayName('Yellow Arrow 45 Icon')
-
-event.create('arrow_right').displayName('Arrow Right Icon')
-event.create('arrow_right_yellow').displayName('Yellow Arrow Right Icon')
 
 //coins
-event.create('copper_coin').displayName('Copper Coin').tooltip('Acquired through quests').rarity('Uncommon')
-event.create('iron_coin').displayName('Iron Coin').tooltip('Acquired through quests').rarity('Uncommon')
-event.create('gold_coin').displayName('Gold Coin').tooltip('Acquired through quests').rarity('Rare')
-event.create('diamond_coin').displayName('Diamond Coin').tooltip('Acquired through quests').rarity('Epic')
-
-event.create('coin_aether').displayName('Aether Coin').tooltip('Acquired through completing Aether chapter quests').rarity('Rare')
-event.create('coin_undergarden').displayName('Undergarden Coin').tooltip('Acquired through completing Undergarden chapter quests').rarity('Rare')
-event.create('coin_twilight').displayName('Twilight Coin').tooltip('Acquired through completing Twilight chapter quests').rarity('Rare')
-event.create('coin_bumblezone').displayName('Bumblezone Coin').tooltip('Acquired through completing Bumblezone chapter quests').rarity('Rare')
-event.create('coin_end').displayName('End Coin').tooltip('Acquired through completing End chapter quests').rarity('Uncommon')
-event.create('coin_nether').displayName('Nether Coin').tooltip('Acquired through completing Nether chapter quests').rarity('Uncommon')
-
+//quest coins
+event.create('copper_coin').displayName('Copper Coin').rarity('Uncommon')
+event.create('iron_coin').displayName('Iron Coin').rarity('Uncommon')
+event.create('gold_coin').displayName('Gold Coin').rarity('Rare')
+event.create('diamond_coin').displayName('Diamond Coin').rarity('Epic')
+//dimensional coins
+event.create('coin_aether').displayName('Aether Coin').rarity('Rare')
+event.create('coin_undergarden').displayName('Undergarden Coin').rarity('Rare')
+event.create('coin_twilight').displayName('Twilight Coin').rarity('Rare')
+event.create('coin_bumblezone').displayName('Bumblezone Coin').rarity('Rare')
+event.create('coin_icaria').displayName('Icaria Coin').rarity('Rare')
+event.create('coin_end').displayName('End Coin').rarity('Uncommon')
+event.create('coin_nether').displayName('Nether Coin').rarity('Uncommon')
+//task coins
 event.create('coin_engineer').displayName('Engineer`s Coin')
 event.create('coin_food').displayName('Food Coin')
 event.create('coin_gathering').displayName('Gathering Coin')
@@ -140,11 +37,36 @@ event.create('coin_exploration').displayName('Exploration Coin')
 event.create('coin_gear').displayName('Gear Coin')
 event.create('coin_magic').displayName('Magic Coin')
 event.create('coin_monster').displayName('Monster Coin')
+//loot coin
+event.create('coin_dungeon').displayName('Dungeon Coin')
+//??? coin
 event.create('coin_black').displayName('Black Market Coin')
+//minecolony coin
+event.create('proofofwork').displayName('Proof Of Work').rarity('Rare')
+//vouchers
+event.create('voucher_weapon').displayName('Weapon Exchange Voucher').rarity('Rare')
+event.create('voucher_weapon_fragment').displayName('Weapon Exchange Voucher Fragment').rarity('Uncommon')
+event.create('voucher_resource').displayName('Resource Exchange Voucher').rarity('Uncommon')
+//essences
+event.create('essence_monster').displayName('Monster Essence').rarity('Uncommon')
+event.create('essence_monster_raw').displayName('Raw Monster Essence').rarity('Uncommon')
+event.create('essence_earth').displayName('Earth Essence').rarity('Uncommon')
 
-event.create('diamond_nugget').displayName('Diamond Nugget')
-event.create('emerald_nugget').displayName('Emerald Nugget')
-  
+event.create('key_magic').displayName('Magic Vault Key').rarity('Rare')
+
+event.create('dust_experience').displayName('Experience Dust').tooltip('Not for eating')
+event.create('dust_alchemical').displayName('Alchemy Powder').tooltip('Not for experiments')
+event.create('scraps').displayName('Scraps')
+
+event.create('portable_dissolver').displayName('Portable Experience Dissolver').maxDamage(480).rarity('Rare')
+event.create('portable_transmutator').displayName('Portable Transmutation Device').maxDamage(480).rarity('Rare')
+event.create('portable_salvager').displayName('Portable Mini Salvager').maxDamage(480).rarity('Rare')
+
+event.create('scroll_exp').displayName('Experience Scroll')
+
+event.create('spawnercore').displayName('Spawner Core').rarity('Uncommon')
+
+//exchange coins
 event.create('coin_01').displayName('Coin').tooltip('Acquired by selling valuable materials')
 event.create('coin_02').displayName('Couple of Coins').tooltip('Acquired by selling valuable materials')
 event.create('coin_03').displayName('Stack of Coins').tooltip('Acquired by selling valuable materials')
@@ -152,8 +74,9 @@ event.create('coin_04').displayName('Pile of Coins').tooltip('Acquired by sellin
 event.create('coin_05').displayName('Dozen of Coins').tooltip('Acquired by selling valuable materials')
 event.create('coin_06').displayName('Bunch of Coins').tooltip('Acquired by selling valuable materials')
 
-event.create('coin_q_1').displayName('Quest Coin').tooltip('Acquired by doing quests')
-event.create('coin_q_2').displayName('Quest Coin').tooltip('Acquired by doing quests')
+
+event.create('diamond_nugget').displayName('Diamond Nugget')
+event.create('emerald_nugget').displayName('Emerald Nugget')
 
 event.create('defence').displayName('defence')
 event.create('armorpen').displayName('armorpen')
@@ -196,9 +119,6 @@ event.create('manuscript').displayName('Manuscript')
 event.create('map').displayName('Treasure Map')
 event.create('mine').displayName('Mine')
 event.create('ruby').displayName('Fake Ruby')
-event.create('scroll').displayName('Scroll')
-event.create('scroll2').displayName('Scroll')
-event.create('scroll_01c').displayName('Scroll')
 event.create('magicscroll').displayName('Magic Scroll')
 event.create('slash').displayName('Slashing')
 event.create('spellbook_01d').displayName('Spellbook')

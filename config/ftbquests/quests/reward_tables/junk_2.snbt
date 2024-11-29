@@ -11,91 +11,17 @@
 		string_id: "junk_2"
 	}
 	loot_size: 1
-	order_index: 26
+	order_index: 27
 	rewards: [
 		{ count: 32, item: "minecraft:repeater" }
-		{
-			item: {
-				Count: 1b
-				id: "constructionwand:iron_wand"
-				tag: {
-					Damage: 0
-					wand_options: { }
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "healingflasks:healing_flask"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
 		{ count: 10, item: "minecraft:lantern" }
-		{
-			item: {
-				Count: 1b
-				id: "immersiveengineering:blueprint"
-				tag: {
-					blueprint: "bannerpatterns"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "immersiveengineering:blueprint"
-				tag: {
-					blueprint: "electrode"
-				}
-			}
-		}
 		{ item: "minecraft:dropper" }
 		{ count: 2, item: "minecraft:pig_spawn_egg" }
 		{ count: 2, item: "minecraft:cow_spawn_egg" }
 		{ item: "minecraft:cat_spawn_egg" }
 		{ count: 64, item: "minecraft:glass_bottle" }
-		{ count: 16, item: "immersiveengineering:slag" }
 		{ item: "minecraft:skeleton_skull" }
 		{ item: "supplementaries:flower_box" }
-		{
-			item: {
-				Count: 1b
-				id: "immersiveengineering:blueprint"
-				tag: {
-					blueprint: "components"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "immersiveengineering:blueprint"
-				tag: {
-					blueprint: "specialBullet"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "immersiveengineering:blueprint"
-				tag: {
-					blueprint: "bullet"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "immersiveengineering:blueprint"
-				tag: {
-					blueprint: "molds"
-				}
-			}
-		}
 		{ count: 2, item: "minecraft:piston" }
 		{ count: 3, item: "minecraft:redstone_lamp" }
 		{ item: "minecraft:dispenser" }
@@ -107,7 +33,7 @@
 		{ count: 3, item: "supplementaries:bomb" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "supplementaries:flute"
 				tag: {
 					Damage: 0
@@ -115,7 +41,6 @@
 			}
 		}
 		{ item: "supplementaries:pedestal" }
-		{ count: 8, item: "pneumaticcraft:bandage" }
 		{ item: "simplehats:hatscraps_uncommon" }
 	]
 	title: "Junk 2"

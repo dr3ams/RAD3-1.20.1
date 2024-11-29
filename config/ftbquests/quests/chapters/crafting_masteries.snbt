@@ -1,0 +1,1006 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "crafting_masteries"
+	group: ""
+	icon: "ars_elemental:mark_of_mastery"
+	id: "6DB574665F149141"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&4Mastery&r allows you to specialize in certain &bdiscipline,&r level it up by completing &9tasks&r and then earn extra rewards from &6repeatable quests&r associated with it."
+				""
+				"With every reward in corresponding &4Mastery&r you will also get &eknowledge points&r (in item form) which is needed for further trades and for leveling up the discipline."
+				""
+				"You can unlock &4masteries&r one after another."
+			]
+			icon: "ars_elemental:mark_of_mastery"
+			id: "494B3A437F2FF633"
+			shape: "octagon_important"
+			size: 2.0d
+			tasks: [{
+				id: "52135A3009FE75AB"
+				type: "checkmark"
+			}]
+			title: "&4Masteries&r"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["494B3A437F2FF633"]
+			description: [
+				"&dAlchemy powder&r is a knowledge points for this &4Mastery.&r"
+				""
+				"It is needed for leveling up the &4Mastery&r for unlocking new trades."
+				""
+				"You can receive &dAlchemy powder&r by processing some raw materials in &5Portable Transmutation Device&r, find it as loot or trade with Goblin Trader."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/alchemy"
+				}
+			}
+			id: "767A6845346F46F7"
+			rewards: [{
+				id: "19D0A9F03A27669B"
+				item: "kubejs:dust_alchemical"
+				type: "item"
+			}]
+			shape: "hexagon_important"
+			size: 1.5d
+			subtitle: "Allows you to gain more resources"
+			tasks: [{
+				id: "369C93AEAC15DA21"
+				item: {
+					Count: 1
+					id: "kubejs:portable_transmutator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&dAlchemy"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["494B3A437F2FF633"]
+			description: [
+				"&9Scrap&r is a knowledge points for this &4Mastery.&r"
+				""
+				"It is needed for leveling up the &4Mastery&r for unlocking new trades."
+				""
+				"You can receive &9Scrap&r by processing some raw materials in &3Portable Mini Salvager&r, find it as loot or trade with Goblin Trader."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/salvage"
+				}
+			}
+			id: "2C5E501FA26E92FF"
+			rewards: [{
+				id: "415FA4ECF3E7EBA7"
+				item: "kubejs:scraps"
+				type: "item"
+			}]
+			shape: "hexagon_important"
+			size: 1.5d
+			subtitle: "Salvage items into more useful items"
+			tasks: [{
+				id: "4E243C841926C0D3"
+				item: {
+					Count: 1
+					id: "kubejs:portable_salvager"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&9Scavenging"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["494B3A437F2FF633"]
+			description: [
+				"&2Experience dust&r is a knowledge points for this &4Mastery.&r"
+				""
+				"With every exchange you will get &2Experience dust&r in return which is needed for leveling up the &4Mastery&r for unlocking new trades."
+				""
+				"You can also receive &2Experience dust&r by processing some materials in &aPortable Experience Disolver&r, find it as loot or trade with Goblin Trader."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/enchantery"
+				}
+			}
+			id: "47A62BACCFD304F9"
+			rewards: [{
+				id: "13B9A06735456BC1"
+				item: "kubejs:dust_experience"
+				type: "item"
+			}]
+			shape: "hexagon_important"
+			size: 1.5d
+			subtitle: "Exchange levels for desired enchants, get more experience"
+			tasks: [{
+				id: "42059F88E8AD6617"
+				item: {
+					Count: 1
+					id: "kubejs:portable_dissolver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&2Enchanting"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["767A6845346F46F7"]
+			icon: "kubejs:dust_alchemical"
+			id: "7638380502E5562D"
+			shape: "diamond"
+			subtitle: "Complete this task to unlock recipes in &2Novice Level Alchemy&r section"
+			tasks: [
+				{
+					disable_toast: true
+					id: "7115D99B464E9B0B"
+					points: false
+					type: "xp"
+					value: 30L
+				}
+				{
+					consume_items: true
+					count: 64L
+					disable_toast: true
+					id: "558BD822306C33FC"
+					item: "kubejs:dust_alchemical"
+					type: "item"
+				}
+			]
+			title: "-"
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7638380502E5562D"]
+			description: [
+				"Monster essence to:"
+				"- mob drops"
+				"- experience"
+				"- magic items"
+				""
+				""
+				""
+				"Rotten Flesh"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/1star"
+				}
+			}
+			id: "1CCE0BB671E02BC3"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0D61E09F8191614F"
+				title: "Novice Alchemy"
+				type: "checkmark"
+			}]
+			title: "&2Novice Level Alchemy&r"
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A49B0937DE2857D"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/2star"
+				}
+			}
+			id: "6415470142D7A281"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "150B518E71EFDD9E"
+				title: "Apprentice Alchemy"
+				type: "checkmark"
+			}]
+			title: "&9Apprentice Level Alchemy&r"
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5D30E41C1899837D"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/3star"
+				}
+			}
+			id: "76115E4AB84A7AEF"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "051553BB7DEEF255"
+				title: "Journeyman Level Alchemy"
+				type: "checkmark"
+			}]
+			title: "&cMaster Level Alchemy&r"
+			x: 0.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1CCE0BB671E02BC3"]
+			icon: "kubejs:dust_alchemical"
+			id: "3A49B0937DE2857D"
+			shape: "diamond"
+			subtitle: "Complete this task to unlock recipes in &9Apprentice Level Alchemy&r section"
+			tasks: [
+				{
+					id: "2A91C77270EFA433"
+					points: false
+					type: "xp"
+					value: 1L
+				}
+				{
+					id: "74B755EB59F3446C"
+					item: "kubejs:dust_alchemical"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6415470142D7A281"]
+			icon: "kubejs:dust_alchemical"
+			id: "5D30E41C1899837D"
+			shape: "diamond"
+			subtitle: "Complete this task to unlock recipes in &cMaster Level Alchemy&r section"
+			tasks: [
+				{
+					id: "4EA458D96849662C"
+					points: false
+					type: "xp"
+					value: 1L
+				}
+				{
+					id: "25DD1E3C35D9D1B9"
+					item: "kubejs:dust_alchemical"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 10.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1CCE0BB671E02BC3"]
+			disable_toast: true
+			icon: "kubejs:essence_monster"
+			id: "0E99FDE04DABE19E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D538C10647771C8"
+				table_id: 1620095926065799874L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "0FBDC4D6B838D2BD"
+				item: "kubejs:essence_monster"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			description: [
+				"all knowledge point items must be added as loot"
+				"also add knowledge point items as gobling trader trades"
+			]
+			id: "02D0A83DD753A990"
+			tasks: [{
+				id: "7447412A67405B32"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C5E501FA26E92FF"]
+			icon: "kubejs:scraps"
+			id: "1841E82A8EF623E4"
+			shape: "diamond"
+			subtitle: "Complete this task to unlock recipes in &2Novice Level Alchemy&r section"
+			tasks: [
+				{
+					id: "00CE8D93E97A4BBE"
+					points: false
+					type: "xp"
+					value: 1L
+				}
+				{
+					id: "1D8B8A7EB3B8DFF4"
+					item: "kubejs:scraps"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1841E82A8EF623E4"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/1star"
+				}
+			}
+			id: "132E2FA2094CD5E2"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "01A42F3B089A2724"
+				type: "checkmark"
+			}]
+			title: "&2Novice Level Scavenging&r"
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["132E2FA2094CD5E2"]
+			icon: "kubejs:scraps"
+			id: "0261E59B7BF6E337"
+			shape: "diamond"
+			subtitle: "Complete this task to unlock recipes in &9Apprentice Level Alchemy&r section"
+			tasks: [
+				{
+					id: "64F443E28492727F"
+					points: false
+					type: "xp"
+					value: 1L
+				}
+				{
+					id: "0EC0731CC82C5D46"
+					item: "kubejs:scraps"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0261E59B7BF6E337"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/2star"
+				}
+			}
+			id: "38244A01FB371C21"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "03AD7B383B2DB562"
+				type: "checkmark"
+			}]
+			title: "&9Apprentice Level Scavenging&r"
+			x: 5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["38244A01FB371C21"]
+			icon: "kubejs:scraps"
+			id: "36B67EDD09CABC67"
+			shape: "diamond"
+			subtitle: "Complete this task to unlock recipes in &cMaster Level Alchemy&r section"
+			tasks: [
+				{
+					id: "35D94A5997DBE65C"
+					points: false
+					type: "xp"
+					value: 1L
+				}
+				{
+					id: "40C1CA56C80AD6C2"
+					item: "kubejs:scraps"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["36B67EDD09CABC67"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/3star"
+				}
+			}
+			id: "62BC62A1467C3269"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "26C9468B574C4EF8"
+				type: "checkmark"
+			}]
+			title: "&cMaster Level Scavenging&r"
+			x: 5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["47A62BACCFD304F9"]
+			icon: "kubejs:dust_experience"
+			id: "6414B5020209B983"
+			shape: "diamond"
+			subtitle: "Complete this task to unlock recipes in &2Novice Level Enchanting&r section"
+			tasks: [
+				{
+					id: "3BA2749E7F21B0BC"
+					points: false
+					type: "xp"
+					value: 1L
+				}
+				{
+					id: "38D8D7D136359C6A"
+					item: "kubejs:dust_experience"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["05B1E1D18C37306D"]
+			icon: "kubejs:dust_experience"
+			id: "2EBF210EDB5C5344"
+			shape: "diamond"
+			subtitle: "Complete this task to unlock recipes in &9Apprentice Level Enchanting&r section"
+			tasks: [
+				{
+					id: "22575A56065AC717"
+					points: false
+					type: "xp"
+					value: 1L
+				}
+				{
+					id: "4CEFEB88C427B9DD"
+					item: "kubejs:dust_experience"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1E9C1429B65E8B67"]
+			icon: "kubejs:dust_experience"
+			id: "139CDD4FD5A88E65"
+			shape: "diamond"
+			subtitle: "Complete this task to unlock recipes in &cMaster Level Enchanting&r section"
+			tasks: [
+				{
+					id: "5B2CC888A966477C"
+					points: false
+					type: "xp"
+					value: 1L
+				}
+				{
+					id: "5200938B69FCAAD6"
+					item: "kubejs:dust_experience"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6414B5020209B983"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/1star"
+				}
+			}
+			id: "05B1E1D18C37306D"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "702B4F1C16F2B5EE"
+				type: "checkmark"
+			}]
+			title: "&2Novice Level Enchanting&r"
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2EBF210EDB5C5344"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/2star"
+				}
+			}
+			id: "1E9C1429B65E8B67"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "78F324FDEB362DE7"
+				type: "checkmark"
+			}]
+			title: "&9Apprentice Level Enchanting&r"
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["139CDD4FD5A88E65"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/3star"
+				}
+			}
+			id: "1082AFB9D8CEFAD5"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0387EE6EACCFFB65"
+				type: "checkmark"
+			}]
+			title: "&cMaster Level Enchanting&r"
+			x: -4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1CCE0BB671E02BC3"]
+			icon: "kubejs:essence_earth"
+			id: "165D6E3253F5BBE4"
+			subtitle: "Earth essence-> iron, gold redstone, lappis"
+			tasks: [{
+				id: "010F9B0ADEA9F103"
+				item: "kubejs:essence_earth"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6415470142D7A281"]
+			id: "5C98CBA6A4476B20"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "428A73F51645C96B"
+				table_id: 1513875970209630046L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "1B92C6DFCF756EF9"
+				item: "kubejs:essence_monster"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6415470142D7A281"]
+			id: "6588470CC1FFFFE9"
+			subtitle: "Earth essence-> diamond, emerald"
+			tasks: [{
+				id: "0735CDE3A619AE0B"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["76115E4AB84A7AEF"]
+			id: "2F3FB3784D533319"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "073425873E3A37FF"
+				table_id: 586203648690171808L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "4EC4A4976101784D"
+				item: "kubejs:essence_monster"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["76115E4AB84A7AEF"]
+			id: "74A7621C680E9145"
+			subtitle: "Earth essence-> something modded?"
+			tasks: [{
+				id: "3DA2FB660C999C32"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["132E2FA2094CD5E2"]
+			id: "57D453202729984A"
+			subtitle: "junk -> resources"
+			tasks: [{
+				id: "7FA0B5D454538976"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["132E2FA2094CD5E2"]
+			description: [
+				"new items:"
+				"sifter - durability"
+				"sand+sifter = sifted sand"
+				"exchange stack of sifted sand/gravel for rewards"
+			]
+			id: "62297E1BCBCB76B2"
+			subtitle: "Sift sand/gravel to get valuables?"
+			tasks: [{
+				id: "3E1D096997097366"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["05B1E1D18C37306D"]
+			disable_toast: true
+			id: "52217142465DC332"
+			tasks: [{
+				id: "046CFF48AE482ACB"
+				points: false
+				type: "xp"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["38244A01FB371C21"]
+			id: "075C9A5043FC9824"
+			subtitle: "gold coins -> resources"
+			tasks: [{
+				id: "413F494C184ED1F9"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6415470142D7A281"]
+			id: "4AECE7DC3EE35D3E"
+			rewards: [{
+				id: "5B1B2939099123B6"
+				item: "kubejs:essence_monster"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 9L
+				disable_toast: true
+				id: "2786AED626EDF30A"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1E9C1429B65E8B67"]
+			disable_toast: true
+			icon: "kubejs:essence_monster_raw"
+			id: "650C412552ED7258"
+			rewards: [{
+				id: "22A2EF12EA799C99"
+				item: "ars_nouveau:greater_experience_gem"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "66222AD54D2F318F"
+				item: "kubejs:essence_monster_raw"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1E9C1429B65E8B67"]
+			id: "155C818385D5260C"
+			tasks: [{
+				id: "6D32F515E9E4A495"
+				points: false
+				type: "xp"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1082AFB9D8CEFAD5"]
+			id: "2D0B8921B963A021"
+			rewards: [{
+				id: "3207240EAD663590"
+				item: {
+					Count: 1
+					id: "quark:ancient_tome"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:looting"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A7984D117C7DDDF"
+				points: false
+				type: "xp"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1082AFB9D8CEFAD5"]
+			id: "2E5FDB9EFB3790CB"
+			tasks: [{
+				id: "0938772C82F41D26"
+				points: false
+				type: "xp"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["38244A01FB371C21"]
+			id: "08E879A642E1E795"
+			tasks: [{
+				id: "227EA308E09C1484"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["62BC62A1467C3269"]
+			id: "0C59FC359533AFF0"
+			tasks: [{
+				id: "3DF0FF6CA38D67B8"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["62BC62A1467C3269"]
+			id: "61C33A1615BFFA52"
+			tasks: [{
+				id: "67BDC673D919F98C"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1E9C1429B65E8B67"]
+			icon: "kubejs:spawnercore"
+			id: "59D946DF427124A8"
+			rewards: [{
+				id: "753D6E7ABF16CA54"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					consume_items: true
+					disable_toast: true
+					id: "4BAC0D6105629055"
+					item: "kubejs:spawnercore"
+					type: "item"
+				}
+				{
+					consume_items: true
+					disable_toast: true
+					id: "0F4B8D6E0A32798B"
+					item: "kubejs:dust_experience"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6415470142D7A281"]
+			icon: "kubejs:spawnercore"
+			id: "28D83515989F3082"
+			rewards: [{
+				id: "78568585DD7FA129"
+				item: "kubejs:essence_monster"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					disable_toast: true
+					id: "5CE691BC9EC5CFFC"
+					item: "kubejs:spawnercore"
+					type: "item"
+				}
+				{
+					consume_items: true
+					disable_toast: true
+					id: "042E288FFBDF8341"
+					item: "kubejs:dust_alchemical"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["38244A01FB371C21"]
+			icon: "kubejs:spawnercore"
+			id: "748568380DCC83F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D6B4825C1E1A654"
+				table_id: 328571096273373979L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "35E069A49A136201"
+				item: "kubejs:spawnercore"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["05B1E1D18C37306D"]
+			disable_toast: true
+			id: "5FE1084EFE6826BF"
+			rewards: [{
+				id: "1710B8E987BE191F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "With enough knowledge you're able to extract more experience from Experience Scroll"
+			tasks: [{
+				id: "17018AE31786CBFB"
+				item: "kubejs:scroll_exp"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1E9C1429B65E8B67"]
+			id: "7115105F30F56C9B"
+			rewards: [
+				{
+					id: "1B2D87ADF57A0CBB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "58DA5A06A8A2E639"
+					item: "kubejs:dust_experience"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0C53A077C52CD86D"
+				item: "kubejs:scroll_exp"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 9.0d
+		}
+		{
+			description: [
+				": extract with portable experience extractor from:"
+				"- experience scroll (new item)"
+				"- bottle of enchantment"
+				"- some books"
+				"- magic items"
+			]
+			id: "5A97794C13A21DDB"
+			tasks: [{
+				id: "7AECE0E31BD79ABB"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			description: ["&9Scrap&r: salvage copper ore, junk items(add new as loot?)"]
+			id: "1E274548583D1CDB"
+			tasks: [{
+				id: "30EDF527C64D23C1"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["38244A01FB371C21"]
+			id: "56F41293FB8092B0"
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			id: "2BD6145AFDA30FE9"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "7EB1365DB0BE0A71"
+				item: {
+					Count: 1
+					id: "minecraft:iron_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 4.5d
+			y: 13.0d
+		}
+	]
+	title: "⭐ Masteries"
+}

@@ -1,5 +1,7 @@
 #Allow entity specific difficulty configs to load
 enableEntitySpecificDatapack = true
+#Allow structure specific difficulty configs to load
+enableStructureSpecificDatapack = true
 
 [scaling]
 	#Health factor per level
@@ -14,7 +16,7 @@ enableEntitySpecificDatapack = true
 	exponentialDamage = true
 	#Experience drop factor per level
 	#Range: 0.0 ~ 1000.0
-	expDropFactor = 0.025
+	expDropFactor = 0.005
 	#Enchantment bonus per level.
 	#Note: use it only when Apotheosis is installed
 	#Otherwise too high enchantment level will yield no enchantment
@@ -75,10 +77,13 @@ enableEntitySpecificDatapack = true
 	#Drop rate of hostility loot from mobs from spawner
 	#Range: 0.0 ~ 1.0
 	dropRateFromSpawner = 0.5
+	#Drop rate of equipments spawned via hostility
+	#Range: 0.0 ~ 1.0
+	equipmentDropRate = 0.085
 
 [difficulty]
 	#Max player adaptive level
-	#Range: 600 ~ 100000
+	#Range: 100 ~ 100000
 	maxPlayerLevel = 999
 	#Difficulty increment takes this many kills of same level mob
 	#Range: 1 ~ 100000
@@ -95,14 +100,17 @@ enableEntitySpecificDatapack = true
 	#Mobs spawned within this range will use lowest player level in range instead of nearest player's level to determine mob level
 	#Range: 0 ~ 128
 	newPlayerProtectRange = 48
+	#Max mob level
+	#Range: 100 ~ 100000
+	maxMobLevel = 3000
 
 [orb_and_spawner]
 	#Allow to use hostility orb
-	allowHostilityOrb = false
+	allowHostilityOrb = true
 	#Radius for Hostility Orb to take effect.
 	#0 means 1x1x1 section, 1 means 3x3x3 sections, 2 means 5x5x5 sections
 	#Range: 0 ~ 10
-	orbRadius = 2
+	orbRadius = 0
 	#Allow to use hostility spawner
 	allowHostilitySpawner = true
 	#Number of mobs to spawn in Hostility Spawner
@@ -111,12 +119,14 @@ enableEntitySpecificDatapack = true
 	#Level bonus factor for mobs to spawn in Hostility Spawner
 	#Range: 1 ~ 10000
 	hostilitySpawnLevelFactor = 2
+	#Give player hostility orbs when upleveling difficulty
+	enableHostilityOrbDrop = true
 
 [items]
 	#Disable curio requirement for hostility loot
 	disableHostilityLootCurioRequirement = false
 	#Number of level to add when using bottle of curse
-	#Range: 1 ~ 1000
+	#Range: 0 ~ 1000
 	bottleOfCurseLevel = 25
 	#Minimum duration for witch charge to be effective, in ticks
 	#Range: 20 ~ 10000
@@ -187,6 +197,12 @@ enableEntitySpecificDatapack = true
 	#Insulator Enchantment factor for reducing pushing
 	#Range: 0.0 ~ 1.0
 	insulatorFactor = 0.8
+	#Ban drinking bottle of curse and sanity
+	banBottles = false
+	#Cap drop at item max stack size
+	nidhoggurCapAtItemMaxStack = false
+	#When using book of reprint to copy books, drop extra on player and does not allow overstacking
+	bookOfReprintSpread = false
 
 [traits]
 	#Health bonus for Tank trait per level
@@ -368,4 +384,18 @@ enableEntitySpecificDatapack = true
 	allow_soul_burner = true
 	allow_freezing = true
 	allow_cursed = true
+	allow_master = true
+
+[performance]
+	#Enable curios checks whitelist for items such as ring of ocean, on only selected mobs to reduce lag
+	enableCurioCheckFilter = true
+	#Interval for which traits check if they are banned and to be removed
+	#Range: 1 ~ 1000
+	removeTraitCheckInterval = 10
+	#Interval for aura effect traits to apply
+	#Range: 1 ~ 1000
+	auraEffectApplicationInterval = 5
+	#Interval for self effect traits to apply
+	#Range: 1 ~ 1000
+	selfEffectApplicationInterval = 200
 

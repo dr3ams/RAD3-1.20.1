@@ -1,0 +1,268 @@
+{
+	id: "33CB4C480EB91FE9"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Dungeon Artifact Crate"
+		string_id: "dungeon_artifact_crate"
+	}
+	loot_size: 1
+	order_index: 56
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "relics:roller_skates"
+				tag: {
+					abilities: {
+						skating: {
+							points: 0
+							stats: {
+								duration: 30.47561d
+								speed: 0.00143d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:horse_flute"
+				tag: {
+					abilities: {
+						heal: {
+							points: 0
+							stats: {
+								amount: 0.07916d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:magic_mirror"
+				tag: {
+					abilities: {
+						teleport: {
+							points: 0
+							stats: {
+								cooldown: 71.88167d
+								distance: 980.15995d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:spatial_sign"
+				tag: {
+					abilities: {
+						seal: {
+							points: 0
+							stats: {
+								time: 3.66683d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:spore_sack"
+				tag: {
+					abilities: {
+						buffer: {
+							points: 0
+							stats: {
+								capacity: 2.52463d
+								chance: 0.05162d
+							}
+						}
+						explosion: {
+							points: 0
+							stats: {
+								size: 0.05611d
+							}
+						}
+						multiplying: {
+							points: 0
+							stats: {
+								amount: 0.08263d
+								chance: 0.14729d
+								size: 0.0942d
+							}
+						}
+						spore: {
+							points: 0
+							stats: {
+								cooldown: 13.6793d
+								damage: 0.4901d
+								duration: 3.47982d
+								size: 0.18872d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:infinity_ham"
+				tag: {
+					abilities: {
+						autophagy: {
+							points: 0
+							stats: {
+								feed: 1.85d
+							}
+						}
+						infusion: {
+							points: 0
+							stats: {
+								duration: 1.75274d
+							}
+						}
+					}
+					pieces: 10
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:arrow_quiver"
+				tag: {
+					abilities: {
+						agility: {
+							points: 0
+							stats: {
+								modifier: 1.0d
+							}
+						}
+						leap: {
+							points: 0
+							stats: {
+								cooldown: 13.28124d
+								duration: 4.08766d
+								multiplier: 0.21748d
+							}
+						}
+						rain: {
+							points: 0
+							stats: {
+								delay: 0.96795d
+								duration: 10.21899d
+								radius: 3.88552d
+							}
+						}
+						receptacle: {
+							points: 0
+							stats: {
+								slots: 4.69589d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:midnight_robe"
+				tag: {
+					abilities: {
+						backstab: {
+							points: 0
+							stats: {
+								damage: 1.2576d
+								distance: 18.46341d
+							}
+						}
+						vanish: {
+							points: 0
+							stats: {
+								light: 1.5818d
+								speed: 0.27903d
+							}
+							temp: {
+								ticking: 1b
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:leather_belt"
+				tag: {
+					abilities: {
+						slots: {
+							points: 0
+							stats: {
+								talisman: 2.17799d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:holy_locket"
+				tag: {
+					abilities: {
+						steal: {
+							points: 0
+							stats: {
+								amount: 0.23079d
+								radius: 5.88296d
+							}
+						}
+					}
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "celestial_artifacts:fang_necklace"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{ item: "artifacts:superstitious_hat" }
+		{ item: "artifacts:digging_claws" }
+		{ item: "artifacts:whoopee_cushion" }
+		{ item: "artifacts:pickaxe_heater" }
+		{ item: "artifacts:onion_ring" }
+		{ item: "artifacts:cloud_in_a_bottle" }
+		{ item: "artifacts:obsidian_skull" }
+		{ item: "artifacts:aqua_dashers" }
+		{ item: "artifacts:night_vision_goggles" }
+	]
+	title: "Dungeon Artifact Crate"
+}

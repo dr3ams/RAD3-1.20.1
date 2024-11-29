@@ -1,5 +1,5 @@
 {
-	autofocus_id: "2146186B43D64F53"
+	autofocus_id: "7B64754C3A42FAA1"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	disable_toast: true
@@ -9,92 +9,93 @@
 	id: "0000000000000579"
 	images: [
 		{
-			height: 18.4004004004004d
-			image: "rad3:textures/misc/quest-market.png"
+			height: 19.532732732732732d
+			image: "rad3:textures/misc/quest-market2.png"
+			order: -1
 			rotation: 0.0d
 			width: 27.6d
-			x: 2.1500000000000004d
-			y: 2.25d
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			height: 10.0d
+			image: "rad3:textures/misc/quest-line-vertical.png"
+			rotation: 0.0d
+			width: 0.3225806451612903d
+			x: -8.5d
+			y: -8.0d
+		}
+		{
+			height: 10.0d
+			image: "rad3:textures/misc/quest-line-vertical.png"
+			rotation: 0.0d
+			width: 0.3225806451612903d
+			x: 6.5d
+			y: -8.0d
+		}
+		{
+			height: 10.0d
+			image: "rad3:textures/misc/quest-line-vertical.png"
+			rotation: 0.0d
+			width: 0.3225806451612903d
+			x: 9.5d
+			y: -8.5d
+		}
+		{
+			height: 10.0d
+			image: "rad3:textures/misc/quest-line-vertical.png"
+			rotation: 0.0d
+			width: 0.3225806451612903d
+			x: -5.5d
+			y: -7.5d
+		}
+		{
+			height: 10.0d
+			image: "rad3:textures/misc/quest-line-vertical.png"
+			rotation: 0.0d
+			width: 0.3225806451612903d
+			x: -11.5d
+			y: -8.5d
+		}
+		{
+			height: 10.0d
+			image: "rad3:textures/misc/quest-line-vertical.png"
+			rotation: 0.0d
+			width: 0.3225806451612903d
+			x: 3.5d
+			y: -7.5d
 		}
 		{
 			height: 2.0d
-			image: "kubejs:textures/item/copper_coin.png"
+			image: "kubejs:item/coin_06"
 			rotation: 0.0d
 			width: 2.0d
-			x: -7.0d
-			y: -14.5d
+			x: -1.0d
+			y: -18.0d
 		}
 		{
-			height: 2.0d
-			image: "kubejs:textures/item/diamond_coin.png"
+			height: 0.75d
+			image: "kubejs:item/coin_04"
 			rotation: 0.0d
-			width: 2.0d
-			x: 5.0d
-			y: -14.5d
-		}
-		{
-			height: 2.0d
-			image: "kubejs:textures/item/gold_coin.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: 1.0d
-			y: -14.5d
-		}
-		{
-			height: 2.0d
-			image: "kubejs:textures/item/iron_coin.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: -3.0d
-			y: -14.5d
-		}
-		{
-			height: 2.0d
-			image: "kubejs:textures/item/monster_coin.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: 12.5d
-			y: -14.5d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:item/experience_bottle"
-			rotation: 0.0d
-			width: 1.0d
-			x: -3.0d
-			y: -9.0d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:textures/item/experience_bottle.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 5.0d
-			y: -9.0d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:item/experience_bottle"
-			rotation: 0.0d
-			width: 1.0d
-			x: 1.0d
-			y: -9.0d
-		}
-		{
-			height: 2.0d
-			image: "kubejs:item/coin_aether"
-			rotation: 0.0d
-			width: 2.0d
-			x: 9.0d
-			y: -14.5d
-		}
-		{
-			height: 1.0d
-			image: "ftblibrary:textures/icons/nbt/list_open.png"
-			rotation: 0.0d
-			width: 30.0d
+			width: 0.75d
 			x: 0.5d
-			y: -13.5d
+			y: -17.55d
+		}
+		{
+			height: 0.75d
+			image: "kubejs:item/coin_03"
+			rotation: 0.0d
+			width: 0.75d
+			x: -2.0d
+			y: -17.5d
+		}
+		{
+			height: 0.75d
+			image: "kubejs:item/coin_01"
+			rotation: 0.0d
+			width: 0.75d
+			x: -2.5d
+			y: -17.5d
 		}
 	]
 	order_index: 1
@@ -102,359 +103,7 @@
 	quests: [
 		{
 			can_repeat: true
-			description: [
-				"&6Dimensional Coins:&r"
-				"You can gain specific &5Dimensional Coins&r by doing quests in associated dimension."
-				""
-				"&aRewards:&r"
-				"You can then trade &5Dimensional Coins&r to any specific reward related to any dimension."
-				""
-				"&oRewards also contain:&r"
-				""
-				"- &9Aether&r chest: random loot related to Aether dimension;"
-				""
-				"- &4Nether&r chest: random loot related to Nether dimension;"
-				""
-				"- &2Undergarden&r chest: random loot related to Undergarden dimension;"
-			]
-			disable_toast: true
-			id: "11723B84E94C06F3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0B2E0734D338790F"
-				table_id: 566088971814378520L
-				type: "choice"
-			}]
-			shape: "octagon"
-			size: 2.0d
-			tasks: [
-				{
-					consume_items: true
-					id: "52CED7C66EEF6E98"
-					item: "kubejs:coin_undergarden"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "177DFDC7D7133131"
-					item: "kubejs:coin_aether"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "52F36EB945F22AE0"
-					item: "kubejs:coin_nether"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "755BC26E7E9760A1"
-					item: "kubejs:coin_bumblezone"
-					type: "item"
-				}
-			]
-			title: "&5Dimensional Coins&r"
-			x: 12.0d
-			y: -4.5d
-		}
-		{
-			can_repeat: true
-			disable_toast: true
-			icon: "toomanyglyphs:glyph_filter_item"
-			id: "151018FCE55514EA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "65E34A2B03544351"
-				table_id: 7285108820771666054L
-				type: "choice"
-			}]
-			shape: "circle"
-			tasks: [{
-				consume_items: true
-				id: "3B89A517E0D5D7BA"
-				item: "kubejs:iron_coin"
-				type: "item"
-			}]
-			title: "Iron Coin -> Ars Nouveau Glyph Tier 1"
-			x: -6.0d
-			y: 1.0d
-		}
-		{
-			can_repeat: true
-			disable_toast: true
-			icon: "ars_nouveau:glyph_aoe"
-			id: "0FB09B8DE44E7188"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7D2C85B3DE4AA91C"
-				table_id: 7991991896392932668L
-				type: "choice"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "71DA4BC9EAB02830"
-				item: "kubejs:gold_coin"
-				type: "item"
-			}]
-			title: "Gold Coin -> Ars Nouveau Glyph Tier 2"
-			x: -5.0d
-			y: 1.0d
-		}
-		{
-			can_repeat: true
-			disable_toast: true
-			icon: "toomanyglyphs:glyph_ray"
-			id: "3FDD1CC2D0661BF7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1558B7360367FDDA"
-				table_id: 6403311704261230763L
-				type: "choice"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "4D39F3656322EAB0"
-				item: "kubejs:diamond_coin"
-				type: "item"
-			}]
-			title: "Diamond Coin -> Ars Nouveau Glyph Tier 3"
-			x: -5.5d
-			y: 2.0d
-		}
-		{
-			can_repeat: true
-			disable_toast: true
-			icon: "minecraft:experience_bottle"
-			id: "7D856A868739E3C2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "11F8A76B0946F057"
-				table_id: 7828516811057598700L
-				type: "random"
-			}]
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "6A6261862E49CFB4"
-				item: "kubejs:coin_food"
-				type: "item"
-			}]
-			title: "Iron Coin -> Experience"
-			x: -3.0d
-			y: -0.5d
-		}
-		{
-			can_repeat: true
-			disable_toast: true
-			icon: "minecraft:experience_bottle"
-			id: "3026DD271853A7FB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4AEA5AF276F0802B"
-				table_id: 7828516811057598700L
-				type: "random"
-			}]
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "2B3B30C44794EDCC"
-				item: "kubejs:coin_magic"
-				type: "item"
-			}]
-			title: "Iron Coin -> Experience"
-			x: -5.5d
-			y: -0.5d
-		}
-		{
-			can_repeat: true
-			disable_toast: true
-			icon: "minecraft:experience_bottle"
-			id: "5F486869ED0780F6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "73CDE832CD6EA0A2"
-				table_id: 7828516811057598700L
-				type: "random"
-			}]
-			tasks: [{
-				id: "1E658D1CBCF28FAC"
-				item: "kubejs:coin_gear"
-				type: "item"
-			}]
-			title: "Experience"
-			x: -8.0d
-			y: -0.5d
-		}
-		{
-			can_repeat: true
-			disable_toast: true
-			icon: "minecraft:experience_bottle"
-			id: "4F3754C674C84E9B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0F208EB1660CC3D6"
-				table_id: 7828516811057598700L
-				type: "random"
-			}]
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "2CD5DF81036202D8"
-				item: "kubejs:coin_gathering"
-				type: "item"
-			}]
-			title: "Iron Coin -> Experience"
-			x: -0.5d
-			y: -0.5d
-		}
-		{
-			can_repeat: true
-			disable_toast: true
-			icon: "minecraft:experience_bottle"
-			id: "5339B87BE66A9042"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3C198BE499322164"
-				table_id: 7828516811057598700L
-				type: "random"
-			}]
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "6305F434EF283098"
-				item: "kubejs:coin_exploration"
-				type: "item"
-			}]
-			title: "Iron Coin -> Experience"
-			x: 2.0d
-			y: -0.5d
-		}
-		{
-			can_repeat: true
-			disable_toast: true
-			icon: "minecraft:experience_bottle"
-			id: "37D01DCBCA06D7EA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "092D60CE1EC284A8"
-				table_id: 7828516811057598700L
-				type: "random"
-			}]
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "52513395D6112B62"
-				item: "kubejs:coin_monster"
-				type: "item"
-			}]
-			title: "Iron Coin -> Experience"
-			x: 4.5d
-			y: -0.5d
-		}
-		{
-			can_repeat: true
-			disable_toast: true
-			icon: "minecraft:experience_bottle"
-			id: "4384D06288075257"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "60865EA3562A0A2A"
-				table_id: 7828516811057598700L
-				type: "random"
-			}]
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "36D2F380BE37BC3B"
-				item: "kubejs:coin_engineer"
-				type: "item"
-			}]
-			title: "Iron Coin -> Experience"
-			x: 7.0d
-			y: -0.5d
-		}
-		{
-			description: [
-				"Different &6Quest Coins&r can be gained through various ways:"
-				""
-				"- completing quests specific to the &6Coin&r type;"
-				""
-				"- bounties and deliveries;"
-				""
-				"- special types of quests - Tasks."
-				""
-				"- (&orare&r) &2Goblin Trader&r exchange;"
-				""
-				"- (&orare&r) &3Wandering Trader&r exchange;"
-			]
-			disable_toast: true
-			id: "14E58B53370EE969"
-			shape: "octagon"
-			size: 2.0d
-			tasks: [
-				{
-					id: "01571F93CE1BFB64"
-					item: "kubejs:coin_gear"
-					type: "item"
-				}
-				{
-					id: "7539DE9FDB1FD2CC"
-					item: "kubejs:coin_magic"
-					type: "item"
-				}
-				{
-					id: "56A217E91AA0270D"
-					item: "kubejs:coin_monster"
-					type: "item"
-				}
-				{
-					id: "0468E2EF9444C4A2"
-					item: "kubejs:coin_exploration"
-					type: "item"
-				}
-				{
-					id: "0558D86E7AABF3ED"
-					item: "kubejs:coin_gathering"
-					type: "item"
-				}
-				{
-					id: "6AE5882DDDD3634E"
-					item: "kubejs:coin_food"
-					type: "item"
-				}
-				{
-					id: "5F1C16F48A04CA34"
-					item: "kubejs:coin_engineer"
-					type: "item"
-				}
-			]
-			title: "&6Quest Coins&r"
-			x: 0.5d
-			y: -4.5d
-		}
-		{
-			description: [
-				"&nCan be acquired by:&r"
-				""
-				"- doing quests related to &6Equipment&r or &5Artifacts&r;"
-				""
-				"- completing dedicated &2Task&r quests;"
-				""
-				"- (&orare&r) at &2Goblin Trader&r;"
-			]
-			disable_toast: true
-			id: "0AB161B0A5E0465C"
-			shape: "octagon"
-			size: 2.0d
-			tasks: [{
-				id: "2171CE705E56D802"
-				item: "kubejs:coin_gear"
-				type: "item"
-			}]
-			x: -8.0d
-			y: -2.0d
-		}
-		{
+			dependencies: ["14E58B53370EE969"]
 			description: [
 				"&nCan be acquired by:&r"
 				""
@@ -464,46 +113,23 @@
 				""
 				"- (&orare&r) &3Wandering Trader&r exchange;"
 			]
+			disable_toast: true
 			id: "7F3E3B80BED1D328"
 			shape: "octagon"
-			size: 2.0d
+			size: 1.5d
 			tasks: [{
+				consume_items: true
+				disable_toast: true
 				id: "35B9F6D08594917C"
 				item: "kubejs:coin_magic"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -2.0d
+			x: -4.5d
+			y: -4.5d
 		}
 		{
-			description: [
-				"Can be acquired by:"
-				""
-				"- doing Monster-slaying related quests;"
-				""
-				"- completing dedicated &2Task&r quests;"
-				""
-				"- killing bosses;"
-			]
-			disable_toast: true
-			id: "305331D1BF7617C9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "455C591B071A310F"
-				table_id: 4649025362890387353L
-				type: "choice"
-			}]
-			shape: "octagon"
-			size: 2.0d
-			tasks: [{
-				id: "1B1836623D724D90"
-				item: "kubejs:coin_monster"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -2.0d
-		}
-		{
+			can_repeat: true
+			dependencies: ["14E58B53370EE969"]
 			description: [
 				"Can be acquired by:"
 				""
@@ -514,401 +140,16 @@
 			disable_toast: true
 			id: "036FA5ABC7FBD0DE"
 			shape: "octagon"
-			size: 2.0d
+			size: 1.5d
 			tasks: [{
+				consume_items: true
+				disable_toast: true
 				id: "33E20F91181BD582"
 				item: "kubejs:coin_exploration"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.0d
-		}
-		{
-			can_repeat: true
-			description: [
-				"Can be acquired by:"
-				""
-				"- doing Gathering(Mining, Farming, Fishing, Woodcutting) related quests;"
-				""
-				"- completing dedicated &2Task&r quests;"
-				""
-				"- bounties;"
-			]
-			disable_toast: true
-			id: "669819F52B1E47B4"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "08C302B963A412E4"
-				table_id: 4649025362890387353L
-				type: "choice"
-			}]
-			shape: "octagon"
-			size: 2.0d
-			tasks: [{
-				consume_items: true
-				id: "08D13CF9FCF9F92D"
-				item: "kubejs:coin_gathering"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -2.0d
-		}
-		{
-			description: [
-				"Can be acquired by:"
-				""
-				"- doing Technology related quests;"
-				""
-				"- completing dedicated &2Task&r quests;"
-				""
-				"- bounties and deliveries;"
-			]
-			disable_toast: true
-			id: "1DFB4AA3268C4C47"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5C6EAC8EC52D36F7"
-				table_id: 4649025362890387353L
-				type: "choice"
-			}]
-			shape: "octagon"
-			size: 2.0d
-			tasks: [{
-				id: "01A11CA3EE4C5DB4"
-				item: "kubejs:coin_engineer"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -2.0d
-		}
-		{
-			description: [
-				"&nCan be acquired by:&r"
-				""
-				"- doing Cooking related quests;"
-				""
-				"- completing dedicated &2Task&r quests;"
-				""
-				"- bounties and deliveries;"
-			]
-			disable_toast: true
-			id: "6A4224B3CB598C43"
-			shape: "octagon"
-			size: 2.0d
-			tasks: [{
-				id: "033FE89C27AC7FCD"
-				item: "kubejs:coin_food"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -2.0d
-		}
-		{
-			disable_toast: true
-			id: "7AB7049FA5155DA6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2C32CFFFA21EC6BA"
-				table_id: 6733206692322637508L
-				type: "choice"
-			}]
-			shape: "octagon"
-			size: 2.0d
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "74BAC6E9D2DD47AA"
-				item: "kubejs:gold_coin"
-				type: "item"
-			}]
-			x: 9.5d
-			y: 2.0d
-		}
-		{
-			id: "3ED7E9FF1F990E3A"
-			size: 2.0d
-			tasks: [{
-				id: "2D63B241D37B56D5"
-				type: "checkmark"
-			}]
-			x: 12.0d
-			y: -2.0d
-		}
-		{
-			can_repeat: true
-			icon: "minecraft:cooked_beef"
-			id: "261094D6162488BB"
-			rewards: [{
-				id: "3287A2D503874F78"
-				item: {
-					Count: 1b
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "food_2"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 3L
-				id: "26862EE3ACAB3DB8"
-				item: "kubejs:coin_food"
-				type: "item"
-			}]
-			title: "Food 2 Loot Crate"
-			x: -3.0d
-			y: 1.0d
-		}
-		{
-			disable_toast: true
-			icon: "farmersdelight:chicken_sandwich"
-			id: "26831E252824C99F"
-			rewards: [{
-				id: "57313082877CB00B"
-				item: {
-					Count: 1b
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "food_3"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 5L
-				id: "13F120D2CA609DEA"
-				item: "kubejs:coin_food"
-				type: "item"
-			}]
-			title: "Food 3 Loot Crate"
-			x: -3.0d
-			y: 2.0d
-		}
-		{
-			disable_toast: true
-			icon: "farmersdelight:honey_glazed_ham_block"
-			id: "776732D256C91F24"
-			rewards: [{
-				id: "1063004D693F8256"
-				item: {
-					Count: 1b
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "food_4"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 7L
-				id: "66DC61241D1542E3"
-				item: "kubejs:coin_food"
-				type: "item"
-			}]
-			title: "Food 4 Loot Crate"
-			x: -3.0d
-			y: 3.0d
-		}
-		{
-			icon: "kubejs:help"
-			id: "0D4186DBE0EB0D5B"
-			size: 4.0d
-			tasks: [{
-				id: "61C7EB8982EF16C3"
-				title: "PLEASE GIVE FEEDBACK ON USABILITY"
-				type: "checkmark"
-			}]
-			x: -12.0d
-			y: -8.0d
-		}
-		{
-			id: "30C12EE3068F28D2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "535D5106FAF3E458"
-				table_id: 6888013663897817331L
-				type: "choice"
-			}]
-			shape: "octagon"
-			size: 2.0d
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "189F7EBCF93FB63C"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			x: 9.5d
-			y: -2.0d
-		}
-		{
-			id: "4E88683BFFDDB102"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0461FA31425A3B5B"
-				table_id: 3673153046364661600L
-				type: "choice"
-			}]
-			shape: "octagon"
-			size: 2.0d
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "32AACF2C8941BB76"
-				item: "kubejs:iron_coin"
-				type: "item"
-			}]
-			x: 9.5d
-			y: 0.0d
-		}
-		{
-			id: "55A3EE9E53D3EA0C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "26ABD7A43611F5CA"
-				table_id: 849472112562879498L
-				type: "choice"
-			}]
-			shape: "octagon"
-			size: 2.0d
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "33D15AF935551109"
-				item: "kubejs:diamond_coin"
-				type: "item"
-			}]
-			x: 9.5d
-			y: 4.0d
-		}
-		{
-			disable_toast: true
-			icon: "kubejs:coin_monster"
-			id: "5238CBB8DC7F8081"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3AC03057798274D0"
-				table_id: 7712988558282718562L
-				type: "choice"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 3L
-				id: "234E051FD712EBD9"
-				item: "kubejs:coin_monster"
-				type: "item"
-			}]
-			title: "Resource Loot Crate 2"
-			x: 4.5d
-			y: 1.0d
-		}
-		{
-			disable_toast: true
-			icon: "kubejs:coin_engineer"
-			id: "654B51A98F5B3BC8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3210C6042E98A611"
-				table_id: 7712988558282718562L
-				type: "choice"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 3L
-				id: "44A354EC229E23C1"
-				item: "kubejs:coin_engineer"
-				type: "item"
-			}]
-			title: "Resource Loot Crate 2"
-			x: 7.0d
-			y: 1.0d
-		}
-		{
-			disable_toast: true
-			icon: "kubejs:coin_monster"
-			id: "0EC3F8628C65B086"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3ED33DAE4D9DE28D"
-				table_id: 9088592237941230620L
-				type: "choice"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 6L
-				id: "4D3C603E545E2CB6"
-				item: "kubejs:coin_monster"
-				type: "item"
-			}]
-			title: "Resource Loot Crate 3"
-			x: 4.5d
-			y: 2.0d
-		}
-		{
-			disable_toast: true
-			icon: "kubejs:coin_engineer"
-			id: "7DCA68EC3FC94C4C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "42ED45472DF07C6E"
-				table_id: 9088592237941230620L
-				type: "choice"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 6L
-				id: "48AEC322209A2BA0"
-				item: "kubejs:coin_engineer"
-				type: "item"
-			}]
-			title: "Resource Loot Crate 3"
-			x: 7.0d
-			y: 2.0d
-		}
-		{
-			disable_toast: true
-			icon: "kubejs:coin_monster"
-			id: "39D493960D87FA41"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4C040B9194443765"
-				table_id: 8946700155796119502L
-				type: "choice"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 9L
-				id: "6345FCE15DC007A6"
-				item: "kubejs:coin_monster"
-				type: "item"
-			}]
-			title: "Resource Loot Crate 4"
-			x: 4.5d
-			y: 3.0d
-		}
-		{
-			disable_toast: true
-			icon: "kubejs:coin_engineer"
-			id: "310D6A99DE29252A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6ABEA177C491B4FA"
-				table_id: 8946700155796119502L
-				type: "choice"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 9L
-				id: "524A9E6235BB7445"
-				item: "kubejs:coin_engineer"
-				type: "item"
-			}]
-			title: "Resource Loot Crate 4"
-			x: 7.0d
-			y: 3.0d
+			x: 2.25d
+			y: -4.5d
 		}
 		{
 			can_repeat: true
@@ -930,8 +171,8 @@
 				item: "kubejs:copper_coin"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -12.5d
+			x: -10.0d
+			y: -13.0d
 		}
 		{
 			can_repeat: true
@@ -949,12 +190,13 @@
 			subtitle: "Choice repeatable reward"
 			tasks: [{
 				consume_items: true
+				disable_toast: true
 				id: "0D11EF81DDA0EF14"
 				item: "kubejs:iron_coin"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -12.5d
+			x: -7.0d
+			y: -12.0d
 		}
 		{
 			can_repeat: true
@@ -976,8 +218,8 @@
 				item: "kubejs:gold_coin"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -12.5d
+			x: 5.0d
+			y: -12.0d
 		}
 		{
 			can_repeat: true
@@ -999,16 +241,24 @@
 				item: "kubejs:diamond_coin"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -12.5d
+			x: 8.0d
+			y: -13.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "relics:magma_walker"
 				tag: {
 					Damage: 0
+					abilities: {
+						pace: {
+							stats: {
+								time: 34.16861d
+							}
+						}
+					}
 				}
 			}
 			id: "03A1DDD2943E57B1"
@@ -1016,28 +266,38 @@
 				id: "600299CCD3C22A23"
 				type: "custom"
 			}]
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "41CC8E3C3158575B"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					consume_items: true
+					disable_toast: true
+					id: "41CC8E3C3158575B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
+						id: "kubejs:diamond_coin"
 					}
-					id: "kubejs:diamond_coin"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "099B113AE2427FBB"
+					points: false
+					type: "xp"
+					value: 1L
+				}
+			]
 			title: "Diamond Coin -> Relics Crate"
-			x: 7.5d
-			y: -8.0d
+			x: 8.0d
+			y: -5.5d
 		}
 		{
+			can_repeat: true
+			disable_toast: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "artifacts:fire_gauntlet"
 				tag: {
 					Damage: 0
@@ -1048,195 +308,36 @@
 				id: "1C505F7EDFA105D4"
 				type: "custom"
 			}]
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "069D5335840F51E0"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					consume_items: true
+					disable_toast: true
+					id: "069D5335840F51E0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
+						id: "kubejs:diamond_coin"
 					}
-					id: "kubejs:diamond_coin"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3DAB81D7680FB1BB"
+					points: false
+					type: "xp"
+					value: 1L
+				}
+			]
 			title: "Diamond Coin -> Artifacts Crate"
-			x: 5.0d
-			y: -11.0d
-		}
-		{
-			can_repeat: true
-			description: ["Acquired by defeating Tier 2, 3, 4, 5 \\& 6 Champions."]
-			disable_toast: true
-			id: "2BF225A3266C70D9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "26030B1485CFB406"
-				type: "random"
-			}]
-			shape: "octagon"
-			size: 2.0d
-			subtitle: "Random Repeatable Reward"
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "4445DD2E276F6F57"
-				item: "kubejs:coin_monster"
-				type: "item"
-			}]
-			title: "Monster Coin"
-			x: 12.5d
-			y: -12.5d
-		}
-		{
-			disable_toast: true
-			icon: {
-				Count: 5b
-				id: "artifacts:shock_pendant"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "20EB4B6DD6683080"
-			rewards: [{
-				id: "60D0776BF6A0E4DD"
-				type: "custom"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 10L
-				disable_toast: true
-				id: "1D4BC152A79421E3"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "kubejs:monster_coin"
-				}
-				type: "item"
-			}]
-			title: "Monster Coin -> Random Artifacts Crate"
-			x: 12.5d
-			y: -10.0d
-		}
-		{
-			id: "19B200221A0C486A"
-			rewards: [{
-				auto: "enabled"
-				id: "0B9011E5CFE93ED0"
-				type: "custom"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				consume_items: true
-				count: 32L
-				disable_toast: true
-				id: "754EF9067FB930B2"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "kubejs:copper_coin"
-				}
-				type: "item"
-			}]
-			title: "32x Copper Coin -> 32x Choice Rewards"
-			x: -7.5d
-			y: -11.0d
-		}
-		{
-			id: "37549EDD70F8FC52"
-			rewards: [{
-				id: "40C2C142853233AB"
-				type: "custom"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				consume_items: true
-				count: 64L
-				disable_toast: true
-				id: "1B61B786BFB67541"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "kubejs:copper_coin"
-				}
-				type: "item"
-			}]
-			title: "64x Copper Coin -> 64x Choice Rewards"
-			x: -6.5d
-			y: -11.0d
-		}
-		{
-			id: "17EEC9C481525FB4"
-			rewards: [{
-				id: "682DF62A1A1BD3FB"
-				type: "custom"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				consume_items: true
-				count: 32L
-				disable_toast: true
-				id: "3400F9FCF011A9CD"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "kubejs:iron_coin"
-				}
-				type: "item"
-			}]
-			title: "32x Iron Coin -> 32x Choice Rewards"
-			x: -3.5d
-			y: -11.0d
-		}
-		{
-			id: "7429769A5FC49E8D"
-			rewards: [{
-				id: "73C020D23636B670"
-				type: "custom"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				consume_items: true
-				count: 64L
-				disable_toast: true
-				id: "5587957F432B3724"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "kubejs:iron_coin"
-				}
-				type: "item"
-			}]
-			title: "64x Iron Coin -> 64x Choice Rewards"
-			x: -2.5d
-			y: -11.0d
+			x: 8.0d
+			y: -4.5d
 		}
 		{
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "artifacts:whoopee_cushion"
 				tag: {
 					Damage: 0
@@ -1251,7 +352,7 @@
 				consume_items: true
 				id: "06E6EE5DFB2EFCB6"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1262,8 +363,8 @@
 				type: "item"
 			}]
 			title: "Gold Coin -> Artifacts Crate"
-			x: 1.0d
-			y: -11.0d
+			x: 5.0d
+			y: -5.5d
 		}
 		{
 			can_repeat: true
@@ -1276,21 +377,18 @@
 				table_id: 2806698066889182651L
 				type: "random"
 			}]
+			shape: "octagon"
+			size: 0.75d
 			tasks: [{
 				consume_items: true
-				id: "60E920A96B687E48"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "kubejs:monster_coin"
-				}
+				disable_toast: true
+				id: "055E1C9F4A0EED3D"
+				item: "kubejs:coin_dungeon"
 				type: "item"
 			}]
 			title: "Monster Coin -> Experience"
-			x: 12.5d
-			y: -8.0d
+			x: -3.375d
+			y: -9.75d
 		}
 		{
 			can_repeat: true
@@ -1308,7 +406,7 @@
 				disable_toast: true
 				id: "719D54F3DF570FB8"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
@@ -1317,8 +415,8 @@
 				type: "item"
 			}]
 			title: "Iron Coin -> Experience"
-			x: -3.0d
-			y: -8.0d
+			x: -7.0d
+			y: -9.5d
 		}
 		{
 			can_repeat: true
@@ -1336,7 +434,7 @@
 				disable_toast: true
 				id: "4B47F5B18E2984C4"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
@@ -1345,8 +443,8 @@
 				type: "item"
 			}]
 			title: "Gold Coin -> Experience"
-			x: 1.0d
-			y: -8.0d
+			x: 5.0d
+			y: -9.5d
 		}
 		{
 			can_repeat: true
@@ -1364,7 +462,7 @@
 				disable_toast: true
 				id: "145D736D7F549329"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": { }
 					}
@@ -1373,8 +471,8 @@
 				type: "item"
 			}]
 			title: "Diamond Coin -> Experience"
-			x: 5.0d
-			y: -8.0d
+			x: 8.0d
+			y: -9.5d
 		}
 		{
 			can_repeat: true
@@ -1395,8 +493,8 @@
 				type: "item"
 			}]
 			title: "Iron Coin -> Ars Nouveau Glyph Tier 1"
-			x: -3.0d
-			y: -10.0d
+			x: -7.0d
+			y: -7.0d
 		}
 		{
 			can_repeat: true
@@ -1416,8 +514,8 @@
 				type: "item"
 			}]
 			title: "Gold Coin -> Ars Nouveau Glyph Tier 2"
-			x: 1.0d
-			y: -10.0d
+			x: 5.0d
+			y: -7.0d
 		}
 		{
 			can_repeat: true
@@ -1437,122 +535,819 @@
 				type: "item"
 			}]
 			title: "Diamond Coin -> Ars Nouveau Glyph Tier 3"
-			x: 5.0d
-			y: -10.0d
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"&6Coins:&r"
+				"You can gain specific &bDimensional Coins&r by doing quests in associated dimension."
+				""
+				"&aRewards:&r"
+				"&4Nether&r and &7End&r has dedicated loot crates with specific loot inside."
+			]
+			id: "7B64754C3A42FAA1"
+			rewards: [{
+				id: "34E7501950769936"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "octagon_important"
+			size: 2.0d
+			tasks: [{
+				id: "32A232C4E2A5EFC6"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "rad3:coin_dimension"
+					}
+				}
+				title: "&bDimensional Coins&r"
+				type: "item"
+			}]
+			title: "&bDimensional Coins&r"
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			description: [""]
+			icon: "kubejs:help"
+			id: "6C65EB6265E1FCDE"
+			size: 0.75d
+			subtitle: "&2Rewards&r are added over time"
+			tasks: [{
+				id: "08628E11882A2F01"
+				type: "checkmark"
+			}]
+			title: "Rewards"
+			x: 10.125d
+			y: -16.125d
+		}
+		{
+			can_repeat: true
+			description: ["• Acquired from &6dungeon&r chests and breaking &cspawners&r"]
+			disable_toast: true
+			id: "78F9882C7D8B91FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AE738EE58CC3487"
+				table_id: 205688915300873583L
+				type: "random"
+			}]
+			shape: "octagon_important"
+			size: 2.0d
+			subtitle: "&2&oRandom repeatable reward with a random bonus&r&r"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "30EE46A5ACB62352"
+				item: "kubejs:coin_dungeon"
+				type: "item"
+			}]
+			title: "&6Dungeon Coin&r"
+			x: -4.0d
+			y: -11.0d
 		}
 		{
 			can_repeat: true
 			description: [
-				"&6Coins:&r"
-				"You can gain specific &5Dimensional Coins&r by doing quests in associated dimension."
+				"&lNOTE:&r "
+				"when you exchange &410 coins&r, with this quest, you will receive &41 type of reward multiplied by 10&r, "
+				"while when you exchange &91 coin&r 10 times you will get &910 different random rewards&r. "
 				""
-				"&aRewards:&r"
-				"You can then trade &5Dimensional Coins&r to any specific reward related to any dimension."
-				""
-				"&oRewards also contain:&r"
-				""
-				"- &9Aether&r chest: random loot related to Aether dimension;"
-				""
-				"- &4Nether&r chest: random loot related to Nether dimension;"
-				""
-				"- &2Undergarden&r chest: random loot related to Undergarden dimension;"
+				"It's for you to decide whether it's good or not."
 			]
-			id: "7B64754C3A42FAA1"
+			disable_toast: true
+			id: "11A1A5FA2C02CE60"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "5F2068FC015E8AAD"
-				table_id: 566088971814378520L
+				id: "29CFF33126995212"
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 0.75d
+			subtitle: "&2&oRandom repeatable reward with a random bonus&r&r"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				disable_toast: true
+				id: "15444D59DE48C6AF"
+				item: "kubejs:coin_dungeon"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -9.75d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Can be acquired as:"
+				""
+				"• &aone-time&r quest reward in &6Minecolonies related&r quests."
+				""
+				"• &9repeatable&r random reward from some &6Minecolonies professions&r (sifter, netherminer, miner)"
+			]
+			disable_toast: true
+			id: "1664AD644753F84D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B0468C19C6EB249"
+					table_id: 7385202459114283126L
+					type: "random"
+				}
+				{
+					id: "643D1589CC80FF06"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "octagon_important"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "7E3332F5C3E934C7"
+				item: "kubejs:proofofwork"
+				type: "item"
+			}]
+			title: "&eProof Of Work&r"
+			x: 2.0d
+			y: -11.0d
+		}
+		{
+			can_repeat: true
+			icon: "simplehats:hatbag_common"
+			id: "3B33674AB3EBE3C0"
+			rewards: [{
+				id: "74EC1357FB41CF9B"
+				item: "simplehats:hatbag_common"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				disable_toast: true
+				id: "7A42C627059CC2F8"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			title: "Common Hat Bag"
+			x: -10.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "simplehats:hatbag_uncommon"
+			id: "7B3137C80284F3E0"
+			rewards: [{
+				id: "794E01704DCD5E3A"
+				item: "simplehats:hatbag_uncommon"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "240A4DECB750B673"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			title: "Uncommon Hat Bag"
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "simplehats:hatbag_rare"
+			id: "3790D44A9236B68A"
+			rewards: [{
+				id: "01531153C8F1FA50"
+				item: "simplehats:hatbag_rare"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "794C07D85E334174"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "Rare Hat Bag"
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "simplehats:hatbag_epic"
+			id: "4A836610C6F71BBF"
+			rewards: [{
+				id: "54E9DC3951876556"
+				item: "simplehats:hatbag_epic"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "5C81A46FF8DB86B6"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			title: "Epic Hat Bag"
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "skilltree:amnesia_scroll"
+			id: "03ED494B84C6AB02"
+			rewards: [{
+				id: "6A8DE2412D581610"
+				item: "skilltree:amnesia_scroll"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "70CF626C40D73EEF"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			title: "Passive Skill Tree reset"
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "72029F2DA090C4F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70A564CD037F1914"
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "211372CDA8610E27"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "regions_unexplored:logs"
+					}
+				}
+				title: "Any #regions_unexplored:logs"
+				type: "item"
+			}]
+			title: "Exchange modded logs -> Regular logs"
+			x: -12.5d
+			y: -11.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:stone"
+			id: "7525A4AAA54D2F0F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6AB5DF7E610ADC8A"
+				type: "choice"
+			}]
+			subtitle: "For Granite/Diorite/Andesite"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "6CCAEDACC1C14C99"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			title: "Exchange Stone"
+			x: -12.5d
+			y: -10.0d
+		}
+		{
+			description: [
+				"There are different types of coins that you can find during your playthrough. Some of them are earned &nONLY&r from &6quests&r and are not renewable, some of them can be found while simply &3exploring&r and some of them can be only &2traded&r. Find more in quests or in Coins tooltip."
+				""
+				"Here you can find the brief description of all available coins:"
+				""
+				"&6⭐ Quest coins&r - doing quests"
+				""
+				"&5⭐ Dimensional coins&r - doing dimension quests and chest loot in dimensions"
+				""
+				"&9⭐ Task coins&r - completing tasks from Task Board chapter"
+				""
+				"&3⭐ Loot coin&r - found as loot"
+				""
+				"&e⭐ Minecolony coin&r - Minecolony quest chapter and from workers"
+				""
+				"&2⭐ Exchange coins&r - trading with gobling traders"
+			]
+			id: "3FC568997D0D4672"
+			shape: "gear_important"
+			size: 3.0d
+			subtitle: "... and where to find them!"
+			tasks: [
+				{
+					id: "28C0D9CEB36E654D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "rad3:coin_quest"
+						}
+					}
+					title: "Quest coins"
+					type: "item"
+				}
+				{
+					id: "58D122FA474116E1"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "rad3:coin_dimension"
+						}
+					}
+					title: "Dimensional Coins"
+					type: "item"
+				}
+				{
+					id: "27B081B70040581D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "rad3:coin_task"
+						}
+					}
+					title: "Task coins"
+					type: "item"
+				}
+				{
+					id: "3868FCD3D34A0E19"
+					item: "kubejs:coin_dungeon"
+					type: "item"
+				}
+				{
+					id: "1C273117D576E619"
+					item: "kubejs:proofofwork"
+					type: "item"
+				}
+				{
+					id: "7291078C53B61AF6"
+					item: "kubejs:coin_01"
+					type: "item"
+				}
+			]
+			title: "All about coins"
+			x: -1.0d
+			y: -14.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["14E58B53370EE969"]
+			description: [
+				"&nCan be acquired by:&r"
+				""
+				"- doing quests related to &6Equipment&r or &5Artifacts&r;"
+				""
+				"- completing dedicated &2Task&r quests;"
+				""
+				"- (&orare&r) at &2Goblin Trader&r;"
+			]
+			disable_toast: true
+			id: "0AB161B0A5E0465C"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "2171CE705E56D802"
+				item: "kubejs:coin_gear"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["14E58B53370EE969"]
+			description: [
+				"&nCan be acquired by:&r"
+				""
+				"- doing Cooking related quests;"
+				""
+				"- completing dedicated &2Task&r quests;"
+				""
+				"- bounties and deliveries;"
+			]
+			disable_toast: true
+			id: "6A4224B3CB598C43"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "033FE89C27AC7FCD"
+				item: "kubejs:coin_food"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["14E58B53370EE969"]
+			description: [
+				"Can be acquired by:"
+				""
+				"- doing Gathering(Mining, Farming, Fishing, Woodcutting) related quests;"
+				""
+				"- completing dedicated &2Task&r quests;"
+				""
+				"- bounties;"
+			]
+			disable_toast: true
+			id: "669819F52B1E47B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08C302B963A412E4"
+				table_id: 4649025362890387353L
 				type: "choice"
 			}]
 			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "08D13CF9FCF9F92D"
+				item: "kubejs:coin_gathering"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["14E58B53370EE969"]
+			description: [
+				"Can be acquired by:"
+				""
+				"- doing Monster-slaying related quests;"
+				""
+				"- completing dedicated &2Task&r quests;"
+				""
+				"- killing bosses;"
+			]
+			disable_toast: true
+			id: "305331D1BF7617C9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "455C591B071A310F"
+				table_id: 4649025362890387353L
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "1B1836623D724D90"
+				item: "kubejs:coin_monster"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -2.25d
+		}
+		{
+			description: [
+				"Different &9Task Coins&r can be gained through various activities:"
+				""
+				"- completing tasks specific to the &6Coin&r type;"
+				""
+				"- bounties and deliveries;"
+				""
+				"- special types of quests - Tasks."
+				""
+				"- (&orare&r) &2Goblin Trader&r exchange;"
+				""
+				"- (&orare&r) &3Wandering Trader&r exchange;"
+			]
+			disable_toast: true
+			id: "14E58B53370EE969"
+			shape: "octagon_important"
 			size: 2.0d
-			tasks: [
+			tasks: [{
+				id: "7539DE9FDB1FD2CC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "rad3:coin_task"
+					}
+				}
+				title: "&9Task Coins&r"
+				type: "item"
+			}]
+			title: "&9Task Coins&r"
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["14E58B53370EE969"]
+			description: [
+				"Can be acquired by:"
+				""
+				"- doing Technology related quests;"
+				""
+				"- completing dedicated &2Task&r quests;"
+				""
+				"- bounties and deliveries;"
+			]
+			disable_toast: true
+			id: "1DFB4AA3268C4C47"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C6EAC8EC52D36F7"
+				table_id: 4649025362890387353L
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "01A11CA3EE4C5DB4"
+				item: "kubejs:coin_engineer"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7B64754C3A42FAA1"]
+			disable_toast: true
+			id: "4DE3A0953BC4D6BD"
+			rewards: [
 				{
-					id: "6595EAB31FC4F5A1"
-					item: "kubejs:coin_aether"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "10ED61A55CD5895F"
+					table_id: 8715244928959460216L
+					type: "random"
 				}
 				{
-					id: "7BEF7883B7D287C5"
-					item: "kubejs:coin_undergarden"
-					type: "item"
+					id: "668DEEEB32EA7714"
+					type: "xp"
+					xp: 100
 				}
 				{
-					id: "7159AA048E265652"
-					item: "kubejs:coin_nether"
-					type: "item"
-				}
-				{
-					id: "7E995718C8DF170E"
-					item: "kubejs:coin_bumblezone"
-					type: "item"
-				}
-				{
-					id: "46FA4316790ED8CE"
-					item: "kubejs:coin_end"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "3E22F805F32E2C5F"
+					table_id: 7712988558282718562L
+					type: "random"
 				}
 			]
-			title: "Dimensional Coins"
-			x: 9.0d
-			y: -12.5d
-		}
-		{
-			id: "4B4D1708D65BADAF"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5DE3B13F4075D619"
-				table_id: 7712988558282718562L
-				type: "choice"
-			}]
+			shape: "octagon"
+			size: 1.5d
 			tasks: [{
 				consume_items: true
-				count: 3L
-				id: "6B919AFDFC393246"
-				item: "kubejs:coin_gathering"
+				disable_toast: true
+				id: "55D69B6559DA8FEA"
+				item: "kubejs:coin_aether"
 				type: "item"
 			}]
-			title: "Resource Loot Crate 2"
-			x: -0.5d
-			y: 1.0d
+			x: -2.25d
+			y: -6.0d
 		}
 		{
-			id: "1C863357A59F908B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "26BA09EF0C2F9237"
-				table_id: 9088592237941230620L
-				type: "choice"
-			}]
+			can_repeat: true
+			dependencies: ["7B64754C3A42FAA1"]
+			disable_toast: true
+			icon: "kubejs:coin_undergarden"
+			id: "371F049F259F7FCD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "23D48D6A48A45A7D"
+					table_id: 6688144674960746859L
+					type: "random"
+				}
+				{
+					id: "6D94CFDEDDAE316C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
 			tasks: [{
 				consume_items: true
-				count: 6L
-				id: "1536F54E9CDEDD6C"
-				item: "kubejs:coin_gathering"
+				disable_toast: true
+				id: "52EFFB6489C8627C"
+				item: "kubejs:coin_undergarden"
 				type: "item"
 			}]
-			title: "Resource Loot Crate 3"
-			x: -0.5d
-			y: 2.0d
+			x: 1.5d
+			y: -6.75d
 		}
 		{
-			id: "72D3FA55D69D57D2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "536EE84C3BE68C06"
-				table_id: 8946700155796119502L
-				type: "choice"
-			}]
+			can_repeat: true
+			dependencies: ["7B64754C3A42FAA1"]
+			disable_toast: true
+			id: "28E6468EA732FAB8"
+			shape: "octagon"
+			size: 1.5d
 			tasks: [{
 				consume_items: true
-				count: 9L
-				id: "55E9BF2D09193ABA"
-				item: "kubejs:coin_gathering"
+				disable_toast: true
+				id: "377780B9C5FCC484"
+				item: "kubejs:coin_bumblezone"
 				type: "item"
 			}]
-			title: "Resource Loot Crate 4"
-			x: -0.5d
-			y: 3.0d
+			x: 2.25d
+			y: -8.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7B64754C3A42FAA1"]
+			disable_toast: true
+			id: "3655F8388AC4BEEE"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "64AC4E7D7F1253F1"
+				item: "kubejs:coin_icaria"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7B64754C3A42FAA1"]
+			disable_toast: true
+			id: "7CFEB1181DDAFF2E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FCC8336C0CCFC13"
+				table_id: 8403438848736170549L
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "79F2D662CD0B1B26"
+				item: "kubejs:coin_end"
+				type: "item"
+			}]
+			x: -3.75d
+			y: -6.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7B64754C3A42FAA1"]
+			disable_toast: true
+			id: "4C53B8EB706AD8C7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "289A4131EF096AFC"
+					table_id: 493550106172164909L
+					type: "random"
+				}
+				{
+					id: "7BCC8B449DD40B84"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "6593774AB0B72A6A"
+				item: "kubejs:coin_nether"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -8.25d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "021505E5B897885F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29D9FBA6E0871180"
+				table_id: 2197301107086804354L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					disable_toast: true
+					id: "44ED5A6326AD9DD5"
+					item: "kubejs:voucher_weapon"
+					type: "item"
+				}
+				{
+					id: "2948AE31E7E41B3F"
+					points: false
+					type: "xp"
+					value: 1L
+				}
+			]
+			x: 16.0d
+			y: -12.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["58BB07133751F879"]
+			disable_toast: true
+			id: "1DE3F2D82D1CDAEB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "187346C9B4084F08"
+				table_id: 1950373705698130098L
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 0.75d
+			subtitle: "&2&oChoice repeatable reward&r&r"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				disable_toast: true
+				id: "64C05D71CBBDA2EC"
+				item: "kubejs:coin_dungeon"
+				type: "item"
+			}]
+			x: -1.75d
+			y: -11.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1DE3F2D82D1CDAEB"]
+			disable_toast: true
+			id: "6A55C9E5876A8BED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "052ECF278FC12706"
+				table_id: 8736506527408628701L
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 0.75d
+			subtitle: "&2&oChoice repeatable reward&r&r"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "614ED2213DFB9D77"
+				item: "kubejs:coin_dungeon"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -11.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["78F9882C7D8B91FF"]
+			disable_toast: true
+			id: "58BB07133751F879"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0749BFCBE3CBE93A"
+				table_id: 6412561280443426099L
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 0.75d
+			subtitle: "&2&oChoice repeatable reward&r&r"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "6733C0C9E0C0E947"
+				item: "kubejs:coin_dungeon"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -11.0d
 		}
 	]
 	title: "⭐ The Market"

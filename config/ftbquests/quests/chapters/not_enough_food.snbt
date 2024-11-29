@@ -5,7 +5,7 @@
 	group: "5AAD108D5AD37CD9"
 	icon: "farmersdelight:cooking_pot"
 	id: "62E81CB0EB2A6987"
-	order_index: 5
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -45,7 +45,7 @@
 				{
 					id: "13C0B2E68E8C5156"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_mob_drops"
@@ -80,7 +80,7 @@
 				{
 					id: "5BB5D95CE99B6B49"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_enchant"
@@ -114,7 +114,7 @@
 				{
 					id: "7FCEC06500CB0C20"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_mob_drops"
@@ -143,7 +143,7 @@
 				{
 					id: "4359813A1EE6935E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_materials"
@@ -172,7 +172,7 @@
 				{
 					id: "4B1258A107995AE1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_enchant"
@@ -889,7 +889,7 @@
 				{
 					id: "181762967958B7D4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -918,7 +918,7 @@
 				{
 					id: "514A2BFE5E6D09AD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -1530,8 +1530,8 @@
 				item: "farmersdelight:dumplings"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -11.5d
+			x: 8.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["18F8DADD01FEC9C2"]
@@ -1623,7 +1623,7 @@
 			]
 			tasks: [{
 				id: "06E6EA65EEF79E67"
-				item: "farmersrespite:black_cod"
+				item: "corn_delight:corn_soup"
 				type: "item"
 			}]
 			x: 9.0d
@@ -1647,7 +1647,7 @@
 			]
 			tasks: [{
 				id: "724E44F7B7666B1A"
-				item: "farmersrespite:tea_curry"
+				item: "corn_delight:creamed_corn"
 				type: "item"
 			}]
 			x: 5.0d
@@ -1671,11 +1671,35 @@
 			]
 			tasks: [{
 				id: "773B152573D24B6A"
-				item: "farmersrespite:blazing_chili"
+				item: "corn_delight:cornbread_stuffing"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -13.0d
+			x: 9.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["18F8DADD01FEC9C2"]
+			hide_dependency_lines: true
+			id: "5D46246AD20DEB4E"
+			rewards: [
+				{
+					id: "218B415EC068F882"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "343C880094143FCD"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "0C40E1DEABA15F9C"
+				item: "corn_delight:nachos_block"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -13.5d
 		}
 	]
 	title: "Not Enough Food"

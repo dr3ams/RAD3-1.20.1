@@ -20,21 +20,29 @@
     "void": 1
   },
   "regions": {
-    "dark": {
+    "abyssalcraft_dark": {
       "overall": 1,
       "suspense.suspense": 1
     },
-    "unknown": {
+    "end_unknown": {
       "overall": 1,
       "suspense.suspense": 1
     },
-    "wind": {
+    "galacticraft_planets_wind": {
       "overall": 1,
       "wind.light-wind": 1
     },
-    "suspense": {
+    "nether_suspense": {
       "overall": 1,
       "nether": 1
+    },
+    "twilightforest_unknown": {
+      "overall": 1,
+      "suspense.suspense": 1
+    },
+    "void_dark": {
+      "overall": 1,
+      "suspense.suspense": 1
     },
     "beach": {
       "overall": 1,
@@ -120,6 +128,10 @@
       "ocean": 1,
       "wind.light-wind": 1
     },
+    "ocean_deep": {
+      "overall": 1,
+      "whale": 1
+    },
     "plains": {
       "overall": 1,
       "cricket": 1,
@@ -137,6 +149,7 @@
       "cicadas-desert": 1,
       "cricket-warm-night": 1,
       "wolf": 1,
+      "long-wolf": 1,
       "bird-warm": 1
     },
     "sky": {
@@ -163,7 +176,8 @@
       "overall": 1,
       "cricket-swamp": 1,
       "cricket-warm-night": 1,
-      "frog": 1
+      "frog": 1,
+      "mouring_dove": 1
     },
     "taiga": {
       "overall": 0.8028674125671387,
@@ -192,9 +206,11 @@
         "bird_night": 1
       },
       "cicadas": 1,
-      "cricket": 1,
-      "cricket_day": 1,
-      "cricket_night": 1
+      "cricket": {
+        "cricket": 1,
+        "cricket_day": 1,
+        "cricket_night": 1
+      }
     },
     "cave": 1,
     "weather": 1,

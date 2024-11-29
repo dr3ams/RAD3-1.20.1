@@ -21,7 +21,7 @@
 
 [food_effect]
 	#Smoothing Healing Factor
-	#Range: 0.0 ~ 100.0
+	#Range: 1.0 ~ 100.0
 	smoothingHealingFactor = 1.5
 	#Tea Healing Interval
 	#Range: 0 ~ 10000
@@ -35,6 +35,12 @@
 	#Udumbara full moon damage reduction
 	#Range: 0 ~ 100
 	udumbaraFullMoonReduction = 4
+	#Higi Healing Interval
+	#Range: 0 ~ 10000
+	higiHealingPeriod = 60
+	#Fairy Healing Factor
+	#Range: 1.0 ~ 100.0
+	fairyHealingFactor = 2.0
 
 [suwako_hat]
 	#Number of raiders with different types frogs need to eat in front of villager to drop Suwako hat
@@ -73,4 +79,15 @@
 	#When danmaku hits target, heal youkai health by percentage of max health
 	#Range: 0.0 ~ 1.0
 	danmakuHealOnHitTarget = 0.2
+
+[reimu]
+	#Summon Reimu when player eats flesh in front of villagers
+	reimuSummonFlesh = true
+	#Summon Reimu when player with youkaified/fying effect kills villager in front of other villagers
+	reimuSummonKill = true
+
+[cirno]
+	#Chance for fairy ice crystal to drop
+	#Range: 0.0 ~ 1.0
+	cirnoFairyDrop = 0.03
 

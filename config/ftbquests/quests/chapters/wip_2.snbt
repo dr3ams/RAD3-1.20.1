@@ -1,0 +1,271 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "wip_2"
+	group: "5AAD108D5AD37CD9"
+	id: "5C50D57A5F1AAB06"
+	order_index: 5
+	quest_links: [{
+		id: "476F76E975BF1915"
+		linked_quest: "25FF938C6A444EE8"
+		x: 5.0d
+		y: 2.0d
+	}]
+	quests: [
+		{
+			dependencies: [
+				"754CC999AE34EC64"
+				"05B31AC62741E358"
+				"1D3DEE96BAD1A9D5"
+			]
+			id: "3CFEE7D947C11D8C"
+			tasks: [{
+				id: "22DC7702799496FF"
+				item: "embers:dawnstone_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5B7DC615AA148F82"]
+			id: "754CC999AE34EC64"
+			tasks: [{
+				id: "72C6A2EF72D0C777"
+				item: "landsoficaria:orichalcum_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "1D3DEE96BAD1A9D5"
+			tasks: [{
+				id: "7F9C876ADB530A0E"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "05B31AC62741E358"
+			tasks: [{
+				id: "0A83E5448710F9FC"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["774F3F64B4102D9C"]
+			id: "5C9D4B25E3E6E99C"
+			tasks: [{
+				id: "3F6F07B2A3A78172"
+				item: "landsoficaria:kiln"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5C9D4B25E3E6E99C"
+				"186BAB678ABDE216"
+			]
+			id: "177DAC44BAC85AFF"
+			tasks: [{
+				id: "1D378C3A28C12548"
+				item: "embers:caminite_brick"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2B09C3B2EC805C24"]
+			id: "186BAB678ABDE216"
+			tasks: [{
+				id: "5886EAA4BAF99153"
+				item: "embers:caminite_blend"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "2B09C3B2EC805C24"
+			tasks: [
+				{
+					id: "4F7ACC17AD82A3E7"
+					item: "landsoficaria:grainel"
+					type: "item"
+				}
+				{
+					id: "11FF54090BDA1557"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			id: "774F3F64B4102D9C"
+			tasks: [{
+				id: "21869B460ACB075F"
+				title: "Enter Icaria"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4FF31B9BECF82F94"]
+			id: "2778A161BEA696AB"
+			tasks: [{
+				id: "65CDAE03E8ADC1CA"
+				title: "Progress further into Icaria"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2778A161BEA696AB"]
+			id: "5B7DC615AA148F82"
+			tasks: [{
+				id: "5835DDA40BDB121F"
+				item: "landsoficaria:forge"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5C9D4B25E3E6E99C"]
+			id: "4FF31B9BECF82F94"
+			tasks: [{
+				id: "4628FBE1F6456E45"
+				item: "landsoficaria:loam_brick"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "4B39D8869A06BC57"
+			tasks: [{
+				id: "07BC70676F48BAD0"
+				item: "bonfires:titanite_shard"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["60DD9D6A558978D9"]
+			id: "419F60B7CC97C2E9"
+			tasks: [{
+				id: "231971B8DA828F6B"
+				item: "bonfires:large_titanite_shard"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["31690B1509DCFC31"]
+			id: "56B871AD3BB4621C"
+			tasks: [{
+				id: "1B95F9BDC3128D89"
+				item: "bonfires:titanite_chunk"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"1ECF7CB82EBC5C84"
+				"39781023EF443336"
+			]
+			id: "1E4C34B458DB3302"
+			tasks: [{
+				id: "701A8C89AB22AAD9"
+				item: "bonfires:titanite_slab"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			id: "1ECF7CB82EBC5C84"
+			tasks: [{
+				id: "52A11EB414FD8B3A"
+				title: "EMBERS"
+				type: "checkmark"
+			}]
+			title: "EMBERS ALCHEMY OR ANVIL"
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			id: "60DD9D6A558978D9"
+			tasks: [
+				{
+					id: "6071DFFA9D1E9AC1"
+					title: "AETHER"
+					type: "checkmark"
+				}
+				{
+					id: "61F8D8368DB647B8"
+					item: "aether:altar"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			id: "31690B1509DCFC31"
+			tasks: [{
+				id: "440EDEE795A2D2ED"
+				title: "ICARIA"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			id: "72BDBD0E44B17C0F"
+			tasks: [
+				{
+					id: "335CCB1D77605574"
+					title: "UNDERGARDEN"
+					type: "checkmark"
+				}
+				{
+					id: "2F29C44EEE733BB4"
+					item: "undergarden:regalium_block"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3CFEE7D947C11D8C"]
+			id: "39781023EF443336"
+			tasks: [{
+				id: "7AEDE85504AB5835"
+				item: "embers:dawnstone_anvil"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+	]
+	title: "WIP progression"
+}

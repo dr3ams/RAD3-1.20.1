@@ -89,16 +89,34 @@
 		{
 			height: 20.682816048448146d
 			image: "rad3:textures/misc/quest-tasks.png"
+			order: -1
 			rotation: 0.0d
 			width: 38.0d
 			x: 0.5d
 			y: 3.0d
+		}
+		{
+			height: 2.0d
+			image: "bountiful:item/bounty-rare"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "bountiful:item/bounty-epic"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 8.5d
 		}
 	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["Gearing is important, if not the main, part of any explorations."]
 			id: "28C01C40FF8462BD"
 			shape: "octagon"
 			size: 2.0d
@@ -152,9 +170,9 @@
 		}
 		{
 			description: [
-				"To earn more &6Quest Coins&r you can buy and complete set of specific &2Tasks&r."
+				"To earn &9Task Coins&r you can buy and complete set of specific &2Tasks&r."
 				""
-				"&2Tasks&r are basically quest chains sorted by theme that allows you to target-farm &6Quest Coins&r you need. "
+				"&2Tasks&r are basically quest chains sorted by theme that allows you to target-farm &9Task Coins&r you need. "
 				""
 				"They're mostly based on:"
 				"- &9statistics&r(for example Distance Walked);"
@@ -207,6 +225,8 @@
 			shape: "octagon"
 			size: 2.0d
 			tasks: [{
+				consume_items: true
+				disable_toast: true
 				id: "209340759AF75309"
 				item: "kubejs:coin_monster"
 				type: "item"
@@ -228,22 +248,9 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["74830734956F3639"]
-			id: "3D9B90F57C590515"
-			subtitle: "Find all new Villages"
-			tasks: [{
-				advancement: "repurposed_structures:villages"
-				criterion: ""
-				id: "43A45AEE88120D80"
-				type: "advancement"
-			}]
-			x: 6.0d
-			y: 2.0d
-		}
-		{
 			dependencies: ["0B50533AF883B2FA"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:iron_hoe"
 				tag: {
 					Damage: 0
@@ -264,7 +271,7 @@
 		{
 			dependencies: ["0B50533AF883B2FA"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:iron_pickaxe"
 				tag: {
 					Damage: 0
@@ -320,6 +327,7 @@
 			}]
 			shape: "octagon"
 			size: 2.0d
+			subtitle: "Earn additional coins by completing tasks"
 			tasks: [
 				{
 					consume_items: true
@@ -366,7 +374,7 @@
 			id: "67E79A4F2E4CA020"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:fishing_rod"
 					tag: {
 						Damage: 0
@@ -385,7 +393,7 @@
 			id: "697479FE914BED54"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:wooden_sword"
 					tag: {
 						Damage: 0
@@ -404,7 +412,7 @@
 			id: "1C4E3A8713946314"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedstorage:copper_chest"
 					tag: {
 						uuid: [I;
@@ -464,7 +472,7 @@
 			id: "2F74792D5B2107AB"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:stone_sword"
 					tag: {
 						Damage: 0
@@ -495,7 +503,7 @@
 			id: "1175A570B80EB2F3"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:golden_sword"
 					tag: {
 						Damage: 0
@@ -514,7 +522,7 @@
 			id: "0FE79BE011F94857"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:diamond_sword"
 					tag: {
 						Damage: 0
@@ -533,7 +541,7 @@
 			id: "3C7041DE6F39B900"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:netherite_sword"
 					tag: {
 						Damage: 0
@@ -552,7 +560,7 @@
 			id: "280C304F0FF0CB85"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "l2complements:sculkium_sword"
 					tag: {
 						Damage: 0
@@ -572,7 +580,7 @@
 			size: 1.5d
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "lost_aether_content:phoenix_sword"
 					tag: {
 						Damage: 0
@@ -636,7 +644,7 @@
 			id: "06D4A42E11BA4CA3"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "lost_aether_content:agility_boots"
 					tag: {
 						Damage: 0
@@ -678,7 +686,7 @@
 				{
 					id: "0067AE673E08D81E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:diamond_chestplate"
 						tag: {
 							Damage: 0
@@ -689,7 +697,7 @@
 				{
 					id: "23A581ACEEEC19E4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:diamond_helmet"
 						tag: {
 							Damage: 0
@@ -700,7 +708,7 @@
 				{
 					id: "23B1A1ACB366B191"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:diamond_leggings"
 						tag: {
 							Damage: 0
@@ -711,7 +719,7 @@
 				{
 					id: "05F9F404A0B0F1DE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:diamond_boots"
 						tag: {
 							Damage: 0
@@ -787,16 +795,81 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["205783CDC9942558"]
-			id: "68A716DAA739BB6A"
+			id: "5D5CFAF8DD2B793D"
 			tasks: [{
-				id: "60D4FCABAA1516E8"
-				item: "create:andesite_alloy"
-				type: "item"
+				id: "42D86F331A39A268"
+				stat: "minecraft:minecart_one_cm"
+				type: "stat"
+				value: 100
 			}]
-			x: 6.5d
-			y: 0.0d
+			x: 19.5d
+			y: 0.5d
+		}
+		{
+			id: "590FF2143CF543D8"
+			tasks: [{
+				id: "328331B7F02B4262"
+				stat: "minecraft:trigger_trapped_chest"
+				type: "stat"
+				value: 25
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/alchemy"
+				}
+			}
+			id: "7B92A76959B986BE"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "30A7709DB3D2F719"
+				type: "checkmark"
+			}]
+			x: -3.75d
+			y: 14.25d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/enchantery"
+				}
+			}
+			id: "4D06D1F0F3C2DBE7"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4CFEF44548BD5894"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 14.25d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/salvage"
+				}
+			}
+			id: "0688ADA9E65484A1"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0C183AE0921D0F60"
+				type: "checkmark"
+			}]
+			x: 0.75d
+			y: 14.25d
 		}
 	]
-	title: "⭐ Task board"
+	title: "&9⭐ Task board&r"
 }

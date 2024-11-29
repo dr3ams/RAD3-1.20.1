@@ -20,5 +20,26 @@
             "perchunk": true
         },
         "result": "deny"
+    },
+    {
+        "spawner": false,
+        "structure": false,
+        "mob": "landsoficaria:nether_pyromancer_revenant",
+        "mincount": {
+            "amount": 2,
+            "hostile": true,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+      "dimension": "landsoficaria:icaria",
+      "hostile": true,
+      "mincount": {
+          "amount": 20,
+          "hostile": true,
+          "perplayer": true
+       },
+      "result": "deny"
     }
 ]

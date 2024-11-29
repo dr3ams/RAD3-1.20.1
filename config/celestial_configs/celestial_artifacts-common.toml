@@ -40,8 +40,8 @@
 	truthEtchingDropChance = 0.5
 
 [back]
-	#Magic Arrow Bag: arrow knock
-	#Range: 0 ~ 100
+	#Magic Arrow Bag: bow strength
+	#Range: 0.0 ~ 10.0
 	magicArrowBagBowStrength = 1
 	#Flame Arrow Bag: bow strength
 	#Range: 0.0 ~ 10.0
@@ -97,6 +97,9 @@
 	#Twisted Scabbard: heal rate penalty
 	#Range: 0.0 ~ 1.0
 	twistedScabbardHealRate = 0.5
+	#Magic Arrow Bag: arrow knock
+	#Range: 0 ~ 100
+	magicArrowBagArrowKnock = 1
 
 [bracelet]
 	#Hidden Bracelet: Hidden effect interval
@@ -438,7 +441,7 @@
 	nihilityBlessDuration = 5
 	#End Curse: damage threshold for negative effects
 	#Range: 0.01 ~ 1.0
-	endCurseThreshold = 0.35
+	endCurseThreshold = 0.65
 	#End Curse: negative effect duration
 	#Range: 1 ~ 1000
 	endCurseDuration = 5
@@ -447,10 +450,10 @@
 	endBlessHeal = 0.1
 	#Truth Curse: minimum damage from mobs
 	#Range: 0.01 ~ 1.0
-	truthCurseMinDamage = 0.25
+	truthCurseMinDamage = 0.1
 	#Truth Bless: maximum damage from mobs
 	#Range: 0.01 ~ 1.0
-	truthBlessMaxDamage = 0.6
+	truthBlessMaxDamage = 0.9
 
 [head]
 	#Abyss Core: effect cooldown
@@ -489,6 +492,18 @@
 	#Sea God Crown: skill cool down
 	#Range: 0 ~ 1000
 	seaGodCrownCoolDown = 30
+	#Sakura Hairpin: max health add amount
+	#Range: 0 ~ 500
+	sakuraHairpinMaxHealthAdd = 10
+	#Sakura Hairpin: armor bonus amount
+	#Range: 0.0 ~ 10.0
+	sakuraHairpinArmorBonus = 0.1
+	#Sakura Hairpin: crit rate bonus from luck
+	#Range: 0.0 ~ 1.0
+	sakuraHairpinCritBonusFromLuck = 0.03
+	#Angel Desire: damage bonus when flying
+	#Range: 0.0 ~ 10.0
+	angelDesireDamageBonus = 0.5
 
 [heart]
 	#Heart of Revenge: bow strength
@@ -681,8 +696,12 @@
 	backtrackMirrorCooldown = 10
 	#Range: 0 ~ 10000
 	repentMirrorCooldown = 10
-	#If true, Catastrophe will be directly equipped onto new players
+	#If true, Catastrophe Scroll will be directly equipped onto new players
 	catastropheScrollStart = false
+	#If true, Hierloom Necklace and Catastrophe Scroll will be given to new players
+	giveItemsOnStart = true
+	#If true, Catastrophe Scroll cannot be unequipped once equipped
+	catastropheScrollPreventUnequip = true
 
 [itemToggle]
 	gold_ring = true
@@ -769,4 +788,7 @@
 	desire_etching = true
 	nihility_etching = true
 	end_etching = true
+	sakura_hairpin = true
+	yellow_duck = true
+	angel_desire = true
 

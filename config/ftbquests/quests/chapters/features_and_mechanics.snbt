@@ -4,7 +4,7 @@
 	filename: "features_and_mechanics"
 	group: ""
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "kubejs:book_04g"
 		tag: { }
 	}
@@ -16,15 +16,23 @@
 			rotation: 0.0d
 			width: 18.0d
 			x: 0.0d
-			y: -10.5d
+			y: -11.5d
 		}
 		{
-			height: 20.224137931034484d
+			height: 1.8362068965517242d
 			image: "rad3:textures/misc/quest-info.png"
 			rotation: 0.0d
 			width: 18.0d
 			x: 0.0d
-			y: 0.0d
+			y: 8.0d
+		}
+		{
+			height: 20.224137931034484d
+			image: "rad3:textures/misc/quest-info2.png"
+			rotation: 0.0d
+			width: 18.0d
+			x: 0.0d
+			y: -1.5d
 		}
 	]
 	order_index: 0
@@ -34,30 +42,18 @@
 			id: "4943E70330B985E2"
 			linked_quest: "085E485E8091D543"
 			size: 1.5d
-			x: -1.0d
-			y: -1.5d
+			x: 0.5d
+			y: 0.25d
 		}
 		{
 			id: "44D8AD3BBE521524"
 			linked_quest: "544FFD8F98E83BED"
 			x: -1.0d
-			y: 0.5d
-		}
-		{
-			id: "5DBB6947C697CE0B"
-			linked_quest: "14A5A832247630AC"
-			x: 2.0d
-			y: 1.0d
-		}
-		{
-			id: "1058B756BA75B8ED"
-			linked_quest: "121E70CAE78BC36D"
-			x: 3.5d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "player_companions:samurai_default"
 				tag: {
 					Damage: 0
@@ -65,8 +61,8 @@
 			}
 			id: "366C937FAB3AA5B2"
 			linked_quest: "02466D62F5A6CA5F"
-			x: 6.5d
-			y: 3.0d
+			x: 3.0d
+			y: -5.0d
 		}
 	]
 	quests: [
@@ -98,10 +94,11 @@
 				type: "dimension"
 			}]
 			title: "Check all the new mechanics in Questbook"
-			x: 0.0d
-			y: -6.0d
+			x: -2.0d
+			y: -2.5d
 		}
 		{
+			dependencies: ["085E485E8091D543"]
 			description: [
 				"- Piglins now have a reputation system that works similarly to Villagers. Doing things like fighting alongside them against Wither mobs, giving them gifts and bartering with them increases your reputation. Doing things like hurting or killing Piglin mobs and engaging in unauthorized mining/chest opening around them decreases your reputation."
 				""
@@ -120,7 +117,7 @@
 				""
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "simplehats:pighead"
 				tag: { }
 			}
@@ -135,125 +132,11 @@
 				title: "New Piglins Behavior"
 				type: "checkmark"
 			}]
-			x: 3.5d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
-			description: [
-				"• &bAether&r "
-				""
-				"• &8Dimensional Dungeons&r - limitless procedurally generated dungeons dimension."
-				""
-				"• &6The Bumblezone&r - an unBEElievable dimension full of bees that become REALLY angry if you take their honey!"
-				""
-				"• &aTwilight forest&r - a realm basked in mystery and eerie twilight."
-				""
-				"• &2Undergarden&r - a dark, subterranean world located deep below the bedrock of the Overworld. The flora here has adapted to their conditions and can grow anywhere, independent of light. Strange creatures call these dark lands home, and are plagued by the invasive Rotspawn, monsters originating from a chaotic, mysterious realm."
-			]
-			icon: "twilightforest:twilight_portal_miniature_structure"
-			id: "6EAF4C02AC262FC0"
-			rewards: [{
-				id: "59B1B5BF66E28F2F"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "minecraft:golden_carrot"
-				}
-				type: "item"
-			}]
-			shape: "square"
-			size: 1.5d
-			subtitle: "Current dimensions count: 8"
-			tasks: [{
-				id: "1A3AEEE0A82E3188"
-				title: "New dimensions!"
-				type: "checkmark"
-			}]
-			x: 1.25d
-			y: -1.5d
-		}
-		{
-			description: [
-				"- underground villages"
-				"- overhauled mineshafts and strongholds"
-				"- villages that had grown into Towns"
-				"- new deep caves filled with lava lakes and lava falls"
-				"- castles and fortresses to conquer and make your own"
-				"- hostile ships with pirates or illagers carrying loot which ranges from gold nuggets to unheard-of treasures"
-				"- temples and palaces"
-				"- mysterious planes and airships wander aimlessly around the world"
-				"- mage towers, coliseums, tree houses"
-				"- crypts, ruins, mazes, dungeons, tombs"
-			]
-			icon: "ars_nouveau:familiar_wixie"
-			id: "6560CFA3F7737BBB"
-			rewards: [{
-				id: "1387A24745731B2C"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "minecraft:golden_carrot"
-				}
-				type: "item"
-			}]
-			size: 1.5d
-			tasks: [{
-				id: "3E8E9CE8F8302CF2"
-				title: "New structures!"
-				type: "checkmark"
-			}]
-			title: "New and overhauled structures!"
-			x: 3.25d
-			y: -1.5d
-		}
-		{
-			description: [
-				"There are multiple new villager jobs, all with unique trades, workstations, and advancements!"
-				"- Oceanographer (Oceanography Table)"
-				"- Forester (Forestry Bench)"
-				"- Engineer (Blueprint Table)"
-				"- Florist (Gardening Table)"
-				"- Hunter (Hunting Post)"
-				"- Netherologist (Decayed Workbench)"
-				"- Enderologist (Purpur Altar)"
-				"- Apiarist (Honey Pot)"
-				""
-				"While travelling you may also find villages transformed into towns!"
-			]
-			icon: "artifacts:villager_hat"
-			id: "2574DDCEFF8FE519"
-			rewards: [{
-				id: "1A3E8B8ABF4D5B26"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "minecraft:golden_carrot"
-				}
-				type: "item"
-			}]
-			subtitle: "Also - towns!"
-			tasks: [{
-				id: "62AD44FDD001C367"
-				title: "Improved villagers"
-				type: "checkmark"
-			}]
-			title: "Overhauled Villages and Villagers"
-			x: 1.0d
-			y: 2.0d
-		}
-		{
+			dependencies: ["7373F83ECF99AC4D"]
 			description: [
 				"Lost Trinkets mod adds more than 70+ unlockable trinkets with different abilities and rarities."
 				""
@@ -266,7 +149,7 @@
 				"You can access curio slots from your inventory near your character model.(G button)"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "nameless_trinkets:mysterious_trinket"
 				tag: { }
 			}
@@ -274,7 +157,7 @@
 			rewards: [{
 				id: "70CB36DD6DEEB01C"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -290,9 +173,10 @@
 				type: "checkmark"
 			}]
 			x: 5.5d
-			y: 1.0d
+			y: -2.5d
 		}
 		{
+			dependencies: ["085E485E8091D543"]
 			description: [
 				"Corail Tombstone handles your death in Minecraft by providing tons of configuration options, many features to encourage to discover the world and several compatibilities between mods."
 				""
@@ -303,7 +187,7 @@
 				{
 					id: "3D72B5E03815639D"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -326,10 +210,11 @@
 				id: "6121BA739D1C7316"
 				type: "advancement"
 			}]
-			x: 6.5d
-			y: 6.5d
+			x: -1.0d
+			y: 1.5d
 		}
 		{
+			dependencies: ["219C6641A038984F"]
 			description: [
 				"Shields have now two stats:"
 				""
@@ -354,10 +239,11 @@
 				type: "checkmark"
 			}]
 			title: "Shield Mechanics"
-			x: -5.0d
-			y: -1.5d
+			x: 3.0d
+			y: -4.0d
 		}
 		{
+			dependencies: ["56127AAF761DC8DA"]
 			description: [
 				"Quests come in a number of different types in this pack:"
 				""
@@ -373,81 +259,18 @@
 			]
 			icon: "ftbquests:book"
 			id: "18CBF0FC77FABE29"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "4937242851A973EA"
 				title: "Quests"
 				type: "checkmark"
 			}]
 			title: "Quest types and Rewards"
-			x: 6.5d
-			y: -6.0d
+			x: -5.0d
+			y: -2.5d
 		}
 		{
-			description: [
-				"- Find them in the wild by their house"
-				""
-				"- Give them something edible and they might join you as a companion."
-				""
-				"- Once they join you, you can access their inventory with right click."
-				""
-				"- They have names, but you can rename them with tags."
-				""
-				"- Shift+right click to toggle \"sit\", making them stay in place and not do anything."
-				""
-				"- Give them armor and weapons and they will automatically equip the best one in their inventory. They can only use the weapon they spawn with. Archers and arbalists do not need arrows."
-				""
-				"- They will follow you around the same way a wolf does. They will attack mobs that hurt you or you hurt, except creepers. They will give a warning if a creeper is nearby and run away."
-				""
-				"- Put food in their inventory and they will eat to heal themselves."
-				""
-				"- Toggle between follow, patrol, and guard states"
-			]
-			icon: "simplehats:bigstevehead"
-			id: "4F15A2317A5B2C4C"
-			subtitle: "This mod adds new human companions that can help you on your journey."
-			tasks: [{
-				id: "1C29B5307394CBE9"
-				title: "Companions"
-				type: "checkmark"
-			}]
-			x: 3.5d
-			y: 1.0d
-		}
-		{
-			description: [
-				"Paragliding is probably one of the easiest and convenient method of getting around, after running of course."
-				""
-				"All you need is Paraglider and a bit of stamina."
-				""
-				"You can increase your stamina with Stamina Vessels."
-				""
-				"Can ride ascending wind to gain height! Look out for rising particles while holding the Paraglider."
-			]
-			icon: "paraglider:paraglider"
-			id: "17DFB312CDB13B9D"
-			tasks: [{
-				id: "42A12EA51230DEAC"
-				title: "Paraglider"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			description: ["Similar to Wandering Traders, goblins are found randomly underground in caves or in the nether and provide exclusive and beneficial trades that allow you to take your adventure to the next level! Goblin Traders adds two new traders, the Golbin Trader which is found in the overworld and the Vein Goblin Trader which is found in The Nether; both with their own unique set of trades. These little goblins have a little attitude and don't like it when you hit them. If you're feeling generous you can feed them their favourite food for a fun animation."]
-			icon: "kubejs:coin_05"
-			id: "0603EEDA36C27ED6"
-			subtitle: "Unique and useful trades"
-			tasks: [{
-				id: "388F28C17259CA5D"
-				title: "Goblin traders"
-				type: "checkmark"
-			}]
-			x: 1.0d
-			y: 0.0d
-		}
-		{
+			dependencies: ["2AF1B6A89DD4F4C2"]
 			description: [
 				"Eating a variety of nutrients, with the right balance, will grant you buffs, while having a bad diet will give you debuffs."
 				""
@@ -464,7 +287,7 @@
 			rewards: [{
 				id: "2412AFC561495ACD"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -480,8 +303,8 @@
 				title: "Dietary Diversity"
 				type: "checkmark"
 			}]
-			x: 8.5d
-			y: 3.5d
+			x: 0.5d
+			y: -6.5d
 		}
 		{
 			icon: "kubejs:arrow_left"
@@ -493,8 +316,8 @@
 				title: "MORE QUESTS ARE WAITING!"
 				type: "checkmark"
 			}]
-			x: -6.5d
-			y: -6.0d
+			x: 0.5d
+			y: 12.5d
 		}
 		{
 			description: [
@@ -508,7 +331,7 @@
 			id: "4FFE28F3DB5EC162"
 			rewards: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -524,7 +347,7 @@
 				}
 				id: "48EE2F06FDD8213D"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -539,10 +362,11 @@
 				title: "Disenchanting"
 				type: "checkmark"
 			}]
-			x: 8.5d
-			y: 4.5d
+			x: 4.0d
+			y: 12.5d
 		}
 		{
+			dependencies: ["219C6641A038984F"]
 			description: [
 				"Press R to roll (by default). You can roll into any direction you are heading (forwards, backwards, sideways, etc...)"
 				""
@@ -552,22 +376,21 @@
 				""
 				"Exhaust (aka hunger) is added to the player upon rolling"
 			]
-			icon: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "ars_nouveau:glyph_leap"
-			}
+			icon: "ars_nouveau:glyph_leap"
 			id: "21AD84D45795E334"
+			rewards: [{
+				id: "39B68C399D396243"
+				item: "farmersdelight:cabbage_rolls"
+				type: "item"
+			}]
 			tasks: [{
 				id: "78431B9BB94D27BB"
 				title: "Combat Roll"
 				type: "checkmark"
 			}]
 			title: "Combat Roll ability"
-			x: -6.5d
-			y: -1.5d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
 			description: [""]
@@ -640,6 +463,7 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["56127AAF761DC8DA"]
 			description: [
 				"For healing options see quest"
 				"{ \"text\": \"Healing Sources\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2AF1B6A89DD4F4C2\" } } "
@@ -649,7 +473,7 @@
 			rewards: [{
 				id: "1834E373A75ED33F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "bonfires:estus_flask"
 					tag: {
 						estus: 0
@@ -667,10 +491,11 @@
 				type: "checkmark"
 			}]
 			title: "&4(No) Natural Healing&r"
-			x: -3.0d
-			y: -1.5d
+			x: 0.5d
+			y: -2.5d
 		}
 		{
+			dependencies: ["085E485E8091D543"]
 			icon: "minecraft:spawner"
 			id: "69BBE7810BD594BA"
 			tasks: [{
@@ -678,10 +503,11 @@
 				title: "Harder Spawners"
 				type: "checkmark"
 			}]
-			x: -3.0d
+			x: 2.0d
 			y: 1.5d
 		}
 		{
+			dependencies: ["2620A08E1295B3A3"]
 			description: [
 				"There are a several new mechanics and difficulty scaling to the Ender Dragon fight, making it a challenge and fun experience for any player amount."
 				""
@@ -695,11 +521,14 @@
 				title: "Savage Ender Dragon"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: 3.5d
+			x: 0.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["70EE00F2D166500E"]
+			dependencies: [
+				"70EE00F2D166500E"
+				"0B3E19BB0E6C5069"
+			]
 			description: [
 				"&eHealing Salve :&r"
 				""
@@ -726,7 +555,7 @@
 				"- The Estus Flask when crafted has 3 uses which can be increased using &6Estus Shards&r. To reinforce the Estus Flask simply right click while holding an Estus Shard with the Estus Flask in your inventory. Drinking the Estus Flask will heal 3 hearts."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "roughtweaks:medkit"
 				tag: {
 					Damage: 0
@@ -736,7 +565,7 @@
 			tasks: [{
 				id: "58FFC2B9CDC9E641"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -792,10 +621,11 @@
 				type: "item"
 			}]
 			title: "Healing Options"
-			x: 6.0d
-			y: -1.5d
+			x: 0.5d
+			y: -4.5d
 		}
 		{
+			dependencies: ["2AF1B6A89DD4F4C2"]
 			description: ["If you have 7 or more hearts of health, damage that would have originally killed you in one hit will now leave you with half a heart! This allows you a chance to react to what would have been a lethal blow!"]
 			id: "142333754FEA48BB"
 			tasks: [{
@@ -803,10 +633,11 @@
 				title: "Second Chance"
 				type: "checkmark"
 			}]
-			x: -6.5d
-			y: -0.5d
+			x: -0.5d
+			y: -6.5d
 		}
 		{
+			dependencies: ["0B3E19BB0E6C5069"]
 			icon: "kubejs:dodge"
 			id: "219C6641A038984F"
 			tasks: [{
@@ -814,18 +645,9 @@
 				title: "Parcool"
 				type: "checkmark"
 			}]
-			x: 5.5d
-			y: 0.0d
-		}
-		{
-			id: "5DE1E54F9B6C99E4"
-			tasks: [{
-				id: "2FFC88E0186199D4"
-				title: "Wall-jump"
-				type: "checkmark"
-			}]
-			x: 6.5d
-			y: 0.0d
+			title: "Movement options"
+			x: 3.0d
+			y: -2.5d
 		}
 		{
 			description: [
@@ -852,8 +674,8 @@
 				type: "checkmark"
 			}]
 			title: "Just Enough Items"
-			x: 0.0d
-			y: -8.0d
+			x: -4.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["18CBF0FC77FABE29"]
@@ -866,8 +688,8 @@
 				type: "checkmark"
 			}]
 			title: "Info Quests"
-			x: 6.5d
-			y: -7.5d
+			x: -6.5d
+			y: -2.5d
 		}
 		{
 			description: [
@@ -881,7 +703,7 @@
 				""
 				"https://github.com/dr3ams/Industrial-Village"
 			]
-			icon: "kubejs:icon_exclamation"
+			icon: "kubejs:caution"
 			id: "2A9DC8C72AD9AED0"
 			shape: "circle"
 			subtitle: "Understand and forgive"
@@ -890,43 +712,8 @@
 				type: "checkmark"
 			}]
 			title: "Recipe issues and incompatibilities"
-			x: -7.0d
-			y: -7.5d
-		}
-		{
-			icon: "minecraft:chest"
-			id: "3BC390AEACCA7408"
-			tasks: [{
-				id: "359880B02E0AA920"
-				title: "Storage Options"
-				type: "checkmark"
-			}]
-			x: -3.5d
-			y: -7.5d
-		}
-		{
-			description: [
-				"Different useful gadgets that will help you in your journey."
-				""
-				""
-				"{ \"text\": \"Click here to jump to it\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"576E37A04D699593\" } }"
-			]
-			icon: {
-				Count: 1b
-				id: "minecolonies:build_goggles"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "64F9C670BE4CB4E9"
-			subtitle: "&o&9Check the dedicated quest chapter to found out more!&r&r"
-			tasks: [{
-				id: "7E7C8040F11EFFB1"
-				type: "checkmark"
-			}]
-			title: "Useful Gadgets"
-			x: 5.5d
-			y: 2.0d
+			x: 7.0d
+			y: -9.5d
 		}
 		{
 			description: [
@@ -945,8 +732,8 @@
 				type: "checkmark"
 			}]
 			title: "Chunk Claiming"
-			x: 4.0d
-			y: -5.5d
+			x: -6.0d
+			y: -4.5d
 		}
 		{
 			description: [
@@ -970,8 +757,8 @@
 				type: "checkmark"
 			}]
 			title: "Teams and Parties"
-			x: 4.0d
-			y: -6.5d
+			x: -6.0d
+			y: -5.5d
 		}
 		{
 			description: [
@@ -1031,8 +818,8 @@
 				title: "Tweaks to many existing blocks"
 				type: "checkmark"
 			}]
-			x: -4.5d
-			y: -7.5d
+			x: -5.0d
+			y: -6.0d
 		}
 		{
 			description: [
@@ -1047,16 +834,17 @@
 			tasks: [{
 				id: "50E2E7103B3ACE33"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "toolbelt:belt"
 					tag: { }
 				}
 				type: "item"
 			}]
-			x: 6.5d
-			y: 2.0d
+			x: -5.0d
+			y: 0.5d
 		}
 		{
+			dependencies: ["085E485E8091D543"]
 			description: [
 				"&n&5Better End Island&r&r"
 				""
@@ -1079,10 +867,11 @@
 				type: "dimension"
 			}]
 			title: "End Overhaul"
-			x: 1.0d
-			y: 1.0d
+			x: 0.5d
+			y: 2.5d
 		}
 		{
+			dependencies: ["7373F83ECF99AC4D"]
 			description: [
 				"First you need to craft your album and then start killing hostile mobs. Hostile mobs have chance to drop card package with random rarity. Opening the package will grant you 5 cards which can be used for album."
 				""
@@ -1113,7 +902,7 @@
 			tasks: [{
 				id: "0FD09E3BD337D936"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "collectorsalbum:cards_common"
@@ -1123,32 +912,58 @@
 				type: "item"
 			}]
 			title: "Collector's Album"
-			x: 2.0d
-			y: 2.0d
+			x: 4.5d
+			y: -4.0d
 		}
 		{
 			description: [
-				"This mod allows you to harvest multiple blocks at once if you hold the Grave/Tilde ( ` / ~ ) key (configurable in Controls, change FTB Ultimine key)."
+				"Mining whole veins of ore and chopping whole trees are now craftable enchantments. The effect can be suppressed by holding \"shift\" while mining."
 				""
-				"- Renders white lines around blocks that will be mined."
-				"- You can also use hoe on grass in similar way to till multiple blocks at once"
-				"- Harvest crops by right-clicking on them"
-				""
-				"Tip: Just remember to reset your shape to shapeless for clearing ore deposits or you will only mine the ores in the selected shape."
+				"These ones are free. You'll have to craft the rest yourself."
 			]
 			icon: {
-				Count: 1b
-				id: "gems:dragonyx_pickaxe"
+				Count: 1
+				id: "minecraft:iron_pickaxe"
 				tag: {
 					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+					reinforce_level: 0
+					reinforce_max: 10
 				}
 			}
 			id: "72BFE0836C00EDB8"
-			rewards: [{
-				id: "16C68C828A31E4E2"
-				item: "aquaculture:box"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6BB2CC445C419517"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "l2complements:vien_mining"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2318BB1D2232353C"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "l2complements:tree_chopping"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: {
 					Count: 1b
@@ -1158,14 +973,14 @@
 					}
 				}
 				id: "6CE4CBD49CC0573A"
-				title: "FTB Ultimine"
+				title: "Vien [sic] Mining"
 				type: "checkmark"
 			}]
-			title: "Vein Mining"
-			x: -8.5d
-			y: -5.0d
+			x: -4.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["0E5AE2A43020AFC3"]
 			description: [
 				"&5&nPassive Skill Tree&r&r"
 				""
@@ -1189,7 +1004,7 @@
 				""
 				"Each &4gem&r provides different attribute bonuses, based on the type of equipment it is in."
 			]
-			icon: "create:experience_nugget"
+			icon: "kubejs:levelup"
 			id: "1A6295743A494017"
 			rewards: [{
 				id: "38CA208D214B1E77"
@@ -1199,7 +1014,7 @@
 			tasks: [{
 				id: "486CEA2F560F219A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "skilltree:gems"
@@ -1209,70 +1024,14 @@
 				type: "item"
 			}]
 			title: "Passive Skill Tree"
-			x: 6.5d
-			y: 1.0d
+			x: 7.0d
+			y: -2.5d
 		}
 		{
-			description: ["The Global Skin Library loads a list of skins that have been uploaded to the skin database. There are lots and lots of pre-built designs to search through, and they can be downloaded to your private instance by clicking on one and hitting the download button."]
-			id: "4DCD0744847F44B8"
-			rewards: [{
-				id: "7FBB9EAE677E1BB5"
-				type: "xp"
-				xp: 20
-			}]
-			subtitle: "Apply custom skins to anything: from equipment to blocks!"
-			tasks: [{
-				id: "483DFE0BA1E6149D"
-				item: "armourers_workshop:skin-library-global"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["4DCD0744847F44B8"]
-			description: ["This is your local skin library"]
-			icon: "armourers_workshop:skin-library"
-			id: "789F5AA2E53CFE82"
-			rewards: [{
-				id: "5F170B5F24C8424D"
-				type: "xp"
-				xp: 20
-			}]
-			tasks: [
-				{
-					id: "6018EBA6E3FC1694"
-					item: "armourers_workshop:skin-library"
-					type: "item"
-				}
-				{
-					id: "48536602B54C6B4C"
-					item: "armourers_workshop:skin-template"
-					type: "item"
-				}
+			dependencies: [
+				"149CB61732F787CF"
+				"0B3E19BB0E6C5069"
 			]
-			x: -3.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["789F5AA2E53CFE82"]
-			id: "7B0A6930B521088F"
-			rewards: [{
-				id: "30B0B51473AFD1DA"
-				type: "xp"
-				xp: 20
-			}]
-			subtitle: "For applying skins from your local skin library"
-			tasks: [{
-				id: "460571AA8E2DF4C7"
-				item: "armourers_workshop:skinning-table"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["149CB61732F787CF"]
 			description: [
 				"&4Bonfires&r can be created and named which then can be used to travel to any other &4Bonfire&r.  Using a Bonfire will also set your spawn location like a bed. "
 				""
@@ -1290,7 +1049,7 @@
 				"There are also 2 items which can be used to return to your spawn point, the &eHomeward Bone&r and the &cCoiled Sword Fragment&r."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "bonfires:coiled_sword"
 				tag: {
 					Damage: 0
@@ -1305,7 +1064,7 @@
 			rewards: [{
 				id: "69AD16E915753326"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "bonfires:coiled_sword"
 					tag: {
 						Damage: 0
@@ -1333,7 +1092,7 @@
 				{
 					id: "522AB8B18DE4E780"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bonfires:coiled_sword"
 						tag: {
 							Damage: 0
@@ -1353,8 +1112,8 @@
 				}
 			]
 			title: "Bonfires"
-			x: 5.5d
-			y: 3.0d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			icon: "kubejs:gold_coin"
@@ -1364,8 +1123,8 @@
 				title: "The Market"
 				type: "checkmark"
 			}]
-			x: 9.0d
-			y: -7.0d
+			x: -6.0d
+			y: -1.0d
 		}
 		{
 			icon: "bountiful:bountyboard"
@@ -1375,21 +1134,8 @@
 				title: "Tasks"
 				type: "checkmark"
 			}]
-			x: 9.0d
-			y: -6.0d
-		}
-		{
-			description: [""]
-			icon: "create:flywheel"
-			id: "01BBA8E3CC86CC78"
-			tasks: [{
-				id: "4E929113D0982E1C"
-				title: "Complete 'The garden Under' chapter"
-				type: "checkmark"
-			}]
-			title: "&6Complete 'Create Contraptions' chapter&r"
-			x: 0.0d
-			y: 8.0d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			description: [""]
@@ -1440,18 +1186,125 @@
 				title: "l2 complements"
 				type: "checkmark"
 			}]
-			x: 9.5d
-			y: -4.0d
+			x: 2.0d
+			y: 12.5d
 		}
 		{
+			dependencies: ["219C6641A038984F"]
+			icon: "mythicmounts:dragon_spawn_egg"
 			id: "20B31C51C3CEFBF8"
 			tasks: [{
 				id: "2A1C5AD77DD170F5"
 				title: "Mounts"
 				type: "checkmark"
 			}]
-			x: 9.5d
-			y: -3.0d
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "121E70CAE78BC36D"
+			tasks: [
+				{
+					id: "0BDE65C36D3DCA89"
+					item: "immersive_aircraft:hull"
+					type: "item"
+				}
+				{
+					id: "526ACF97105CEF6C"
+					item: "immersive_aircraft:engine"
+					type: "item"
+				}
+				{
+					id: "5FCB56D1B776FCB5"
+					item: "immersive_aircraft:sail"
+					type: "item"
+				}
+				{
+					id: "1545D06FA9E07E04"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "immersive_aircraft:airship"
+								}
+								{
+									Count: 1b
+									id: "immersive_aircraft:cargo_airship"
+								}
+								{
+									Count: 1b
+									id: "immersive_aircraft:warship"
+								}
+								{
+									Count: 1b
+									id: "immersive_aircraft:biplane"
+								}
+								{
+									Count: 1b
+									id: "immersive_aircraft:quadrocopter"
+								}
+							]
+						}
+					}
+					title: "Available Options"
+					type: "item"
+				}
+			]
+			title: "Assembling your first Airship"
+			x: 3.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["219C6641A038984F"]
+			description: [
+				"Chests found in various structures will look rather different compared to the standard wooden chests you are used to seeing."
+				""
+				"These bejeweled chests are Lootr chests, which provide individual loot for every player that comes across it."
+				""
+				"If you have already opened a lootr chest it will appear a bluish-grey color instead."
+				""
+				"They can also come in the form of barrels and shulker boxes in some structures."
+			]
+			id: "7373F83ECF99AC4D"
+			tasks: [{
+				advancement: "lootr:1chest"
+				criterion: ""
+				id: "724EE7C1475E4DA0"
+				title: "Discover a Lootr Chest"
+				type: "advancement"
+			}]
+			title: "Dungeon Treasures"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			id: "29A66BD7F23D4EDD"
+			tasks: [{
+				id: "1176B1CC4CAAE099"
+				item: "dimdungeons:item_blank_build_key"
+				type: "item"
+			}]
+			title: "Personal Dimension"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B3E19BB0E6C5069"]
+			description: [" You can increase the amount of your health by gaining experience levels"]
+			icon: "levelhearts:heart_container"
+			id: "4F332C345BD6224E"
+			tasks: [{
+				id: "784562C75A46F1D6"
+				points: false
+				type: "xp"
+				value: 5L
+			}]
+			title: "Levels for Hearts"
+			x: -0.5d
+			y: -4.5d
 		}
 	]
 	title: "⭐ Features "

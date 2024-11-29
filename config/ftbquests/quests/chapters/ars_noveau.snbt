@@ -23,7 +23,7 @@
 			rewards: [{
 				id: "5FB1CB2126E754E1"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -51,7 +51,7 @@
 				{
 					id: "1BC8745FF1098785"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -67,7 +67,7 @@
 				{
 					id: "382001C81B2524C7"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -80,7 +80,7 @@
 				{
 					id: "663C15D3F432A6E7"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -102,7 +102,7 @@
 			tasks: [{
 				id: "1C42E3D4D89B643A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:novice_spell_book"
 					tag: {
 						mode: 0
@@ -115,13 +115,17 @@
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"548524CE9F62D2DE"
+				"12BB303FB41B03C3"
+			]
 			description: [""]
 			id: "0DDCA8596165F660"
 			rewards: [
 				{
 					id: "69CBC2D3BEADF77C"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -135,7 +139,7 @@
 					count: 2
 					id: "485D4F05511E4109"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -156,261 +160,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0DDCA8596165F660"]
-			id: "2659D61BF197EB3E"
-			rewards: [
-				{
-					id: "0BC6D502098116B4"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "aquaculture:lockbox"
-					}
-					type: "item"
-				}
-				{
-					id: "22A640A2356E8B68"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ars_nouveau:greater_experience_gem"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "42523DA32A0D6A20"
-				item: "ars_nouveau:dull_trinket"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["0DDCA8596165F660"]
-			id: "1929A82F22BA575D"
-			rewards: [
-				{
-					id: "596F31FA2CD39C81"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "aquaculture:lockbox"
-					}
-					type: "item"
-				}
-				{
-					id: "55F18835B5CEB195"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ars_nouveau:greater_experience_gem"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "4DCDD42066078B25"
-				item: "ars_nouveau:mundane_belt"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["0DDCA8596165F660"]
-			id: "65F152690082DD41"
-			rewards: [
-				{
-					id: "66A2BF57EA4477A7"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "aquaculture:lockbox"
-					}
-					type: "item"
-				}
-				{
-					id: "0F05A92CCED72856"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ars_nouveau:greater_experience_gem"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "23CD085BA29F729D"
-				item: "ars_nouveau:ring_of_potential"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["26485168C1FCD66E"]
-			id: "762F017D149E9018"
-			rewards: [
-				{
-					id: "5DA09079325F31C0"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "randomite:randomite_ore"
-					}
-					random_bonus: 10
-					type: "item"
-				}
-				{
-					id: "6F62EDE79B4DD42E"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "aquaculture:treasure_chest"
-					}
-					type: "item"
-				}
-				{
-					id: "17251A32586B586E"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ars_nouveau:source_berry_roll"
-					}
-					type: "item"
-				}
-				{
-					id: "7C3FAFD3AD854E95"
-					type: "choice"
-				}
-			]
-			tasks: [{
-				id: "4579F48FCB455726"
-				item: "ars_nouveau:mythical_clay"
-				type: "item"
-			}]
-			x: 8.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["4BAEB4A66837BCAD"]
-			id: "26485168C1FCD66E"
-			rewards: [
-				{
-					id: "238547DCEF9F2510"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "randomite:randomite_ore"
-					}
-					random_bonus: 5
-					type: "item"
-				}
-				{
-					id: "1E4A657099926268"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "aquaculture:lockbox"
-					}
-					type: "item"
-				}
-				{
-					id: "25B9BB671B0B6D5A"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ars_nouveau:greater_experience_gem"
-					}
-					type: "item"
-				}
-				{
-					id: "3F1CB2FC113DCE78"
-					type: "custom"
-				}
-			]
-			tasks: [{
-				id: "49A26ACF7C38B481"
-				item: "ars_nouveau:marvelous_clay"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["0DDCA8596165F660"]
-			id: "4BAEB4A66837BCAD"
-			rewards: [{
-				id: "16D0DC6B2E7199B2"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "randomite:randomite_ore"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "47481C7045F1526A"
-				item: "ars_nouveau:magic_clay"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 1.5d
-		}
-		{
 			id: "7F9225E5CA7986A6"
 			rewards: [{
 				id: "25D04C105362E787"
@@ -420,7 +169,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "62F33141CDEAF50D"
-				item: "ars_nouveau:mana_bloom"
+				item: "ars_nouveau:magebloom"
 				type: "item"
 			}]
 			x: 2.25d
@@ -433,7 +182,7 @@
 				{
 					id: "1E681A39973C078A"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -445,25 +194,13 @@
 				}
 				{
 					id: "595B652679D7CA19"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ars_nouveau:mana_gem"
-					}
+					item: "ars_nouveau:source_gem"
 					type: "item"
-				}
-				{
-					id: "69909B039CCAE8C7"
-					type: "custom"
 				}
 			]
 			tasks: [{
 				id: "502D42037EE4914E"
-				item: "ars_nouveau:mana_fiber"
+				item: "ars_nouveau:magebloom_fiber"
 				type: "item"
 			}]
 			x: 4.5d
@@ -476,7 +213,7 @@
 				{
 					id: "371233ACEEF7A942"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -492,7 +229,7 @@
 				{
 					id: "535DABCC0E3019F1"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -521,7 +258,7 @@
 				{
 					id: "182F1DA8C05D43DB"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -534,7 +271,7 @@
 				{
 					id: "2FDE4A3DA1FC6A19"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -567,7 +304,7 @@
 			rewards: [{
 				id: "0DD617DB90F4CB17"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -592,7 +329,7 @@
 				{
 					id: "3559A5D9E3DCF171"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -608,7 +345,7 @@
 				{
 					id: "20E4EED72EDEF82D"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -626,10 +363,13 @@
 				{
 					id: "3BEBDFB84E031B82"
 					item: {
-						Count: 1b
-						id: "ars_nouveau:novice_hood"
+						Count: 1
+						id: "ars_nouveau:sorcerer_hood"
 						tag: {
 							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
 						}
 					}
 					type: "item"
@@ -637,10 +377,13 @@
 				{
 					id: "06F708589E0E1F0B"
 					item: {
-						Count: 1b
-						id: "ars_nouveau:novice_robes"
+						Count: 1
+						id: "ars_nouveau:sorcerer_robes"
 						tag: {
 							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
 						}
 					}
 					type: "item"
@@ -648,10 +391,13 @@
 				{
 					id: "1578A3564E9FDF76"
 					item: {
-						Count: 1b
-						id: "ars_nouveau:novice_leggings"
+						Count: 1
+						id: "ars_nouveau:sorcerer_leggings"
 						tag: {
 							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
 						}
 					}
 					type: "item"
@@ -659,40 +405,28 @@
 				{
 					id: "4E113F953A487192"
 					item: {
-						Count: 1b
-						id: "ars_nouveau:novice_boots"
+						Count: 1
+						id: "ars_nouveau:sorcerer_boots"
 						tag: {
 							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
 						}
 					}
 					type: "item"
 				}
 			]
-			title: "Novice Mage"
+			title: "Sorcerer"
 			x: 5.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["0DDCA8596165F660"]
 			id: "723C95AA69B46EE2"
-			rewards: [{
-				count: 2
-				id: "2E9030BF511FD7BD"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ars_nouveau:archwood_chest"
-				}
-				type: "item"
-			}]
-			size: 1.5d
 			tasks: [{
 				id: "52453A293F344144"
-				item: "ars_nouveau:arcane_stone"
+				item: "ars_nouveau:sourcestone"
 				type: "item"
 			}]
 			x: 1.5d
@@ -718,7 +452,7 @@
 				{
 					id: "588B3484EAF3A8D7"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -731,7 +465,7 @@
 				{
 					id: "60A078F2F08274F8"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -802,7 +536,7 @@
 				{
 					id: "4378A1153E2DF185"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -818,7 +552,7 @@
 				{
 					id: "249C411F9504B3DD"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -831,7 +565,7 @@
 				{
 					id: "229ABA7D59D7AC02"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -844,7 +578,7 @@
 				{
 					id: "306376B758FC34A7"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -922,7 +656,7 @@
 				{
 					id: "5838C7192E637DDE"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -935,7 +669,7 @@
 				{
 					id: "6DC2E8A28B9CC8BC"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -948,7 +682,7 @@
 				{
 					id: "74612C4CF00D2102"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -979,7 +713,7 @@
 				{
 					id: "61D9DE4AD1ED6CCC"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -994,15 +728,12 @@
 			y: 5.5d
 		}
 		{
-			dependencies: [
-				"723C95AA69B46EE2"
-				"4BAEB4A66837BCAD"
-			]
+			dependencies: ["723C95AA69B46EE2"]
 			id: "1CDFAAB12C713AA0"
 			rewards: [{
 				id: "03809235A157A597"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1014,7 +745,7 @@
 			}]
 			tasks: [{
 				id: "7356953D6183525E"
-				item: "ars_nouveau:glyph_press"
+				item: "ars_nouveau:scribes_table"
 				type: "item"
 			}]
 			x: 3.0d
@@ -1040,7 +771,7 @@
 				{
 					id: "1D9974C56200071E"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -1065,7 +796,7 @@
 			rewards: [{
 				id: "571FE87A54C8444C"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1106,7 +837,7 @@
 				{
 					id: "1ABC73F7BE2E705E"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -1123,7 +854,7 @@
 			]
 			tasks: [{
 				id: "1109218834EF5772"
-				item: "ars_nouveau:ritual"
+				item: "ars_nouveau:ritual_brazier"
 				type: "item"
 			}]
 			x: 1.5d
@@ -1136,7 +867,7 @@
 				{
 					id: "7D930A1F5138CF32"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -1149,7 +880,7 @@
 				{
 					id: "3E030B7A566FA9FA"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -1174,7 +905,7 @@
 			tasks: [{
 				id: "48F4E237F2F43E75"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1194,7 +925,7 @@
 				{
 					id: "259A7082A329FB5C"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -1208,19 +939,6 @@
 					type: "item"
 				}
 				{
-					id: "7C84E2DDD9E17EDF"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "randomite:randomite_ore"
-					}
-					type: "item"
-				}
-				{
 					id: "7B4C7BCD3F1A562E"
 					type: "xp_levels"
 					xp_levels: 2
@@ -1228,15 +946,7 @@
 			]
 			tasks: [{
 				id: "2B0A61ADA63C311C"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ars_nouveau:familiar_sylph"
-				}
+				item: "ars_nouveau:familiar_starbuncle"
 				type: "item"
 			}]
 			x: 0.0d
@@ -1249,7 +959,7 @@
 				{
 					id: "6CE7CC974F2B0A94"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -1263,19 +973,6 @@
 					type: "item"
 				}
 				{
-					id: "551C7D8359A9BAA9"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "randomite:randomite_ore"
-					}
-					type: "item"
-				}
-				{
 					id: "0C6636199F2F1FA3"
 					type: "xp_levels"
 					xp_levels: 2
@@ -1284,7 +981,7 @@
 			tasks: [{
 				id: "6F44FAC0DFC49AEF"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1304,7 +1001,7 @@
 				{
 					id: "1081C70162562E91"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -1318,19 +1015,6 @@
 					type: "item"
 				}
 				{
-					id: "7C171DFCC2DD9B6C"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "randomite:randomite_ore"
-					}
-					type: "item"
-				}
-				{
 					id: "4CD1F9E27AAB8F27"
 					type: "xp_levels"
 					xp_levels: 2
@@ -1338,15 +1022,7 @@
 			]
 			tasks: [{
 				id: "78A99079F3824243"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ars_nouveau:familiar_carbuncle"
-				}
+				item: "ars_nouveau:familiar_whirlisprig"
 				type: "item"
 			}]
 			x: 0.5d
@@ -1359,7 +1035,7 @@
 				{
 					id: "1B9144A20131C001"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -1373,19 +1049,6 @@
 					type: "item"
 				}
 				{
-					id: "7F339C0DDE5CEAB9"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "randomite:randomite_ore"
-					}
-					type: "item"
-				}
-				{
 					id: "6B45317F2ED82696"
 					type: "xp_levels"
 					xp_levels: 2
@@ -1394,7 +1057,7 @@
 			tasks: [{
 				id: "68B02328875A9ED7"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1414,7 +1077,7 @@
 				{
 					id: "5E0AE082819B748C"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -1428,19 +1091,6 @@
 					type: "item"
 				}
 				{
-					id: "477845518278AF99"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "randomite:randomite_ore"
-					}
-					type: "item"
-				}
-				{
 					id: "06D03E48625C604E"
 					type: "xp_levels"
 					xp_levels: 2
@@ -1449,7 +1099,7 @@
 			tasks: [{
 				id: "10E3A9D7A0DA8216"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1468,21 +1118,13 @@
 			rewards: [
 				{
 					id: "4203E3C02A2E1789"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ars_nouveau:mana_gem"
-					}
+					item: "ars_nouveau:source_gem"
 					type: "item"
 				}
 				{
 					id: "17991A2480A88DFC"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -1495,74 +1137,11 @@
 			]
 			tasks: [{
 				id: "3CF5CB6AC09D25D0"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ars_nouveau:spell_parchment"
-				}
+				item: "ars_nouveau:scribes_table"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["25BA0194DDD6372F"]
-			id: "10E60641C10C53F9"
-			rewards: [
-				{
-					count: 2
-					id: "748AEF1FFF3A3DE9"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ars_nouveau:archwood_chest"
-					}
-					type: "item"
-				}
-				{
-					id: "511D93373C05838B"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "materials_magic"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "175FDB694FAD0B7C"
-					type: "custom"
-				}
-			]
-			tasks: [{
-				id: "2B6B5A921EAB9B62"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ars_nouveau:scribes_table"
-				}
-				type: "item"
-			}]
-			x: 6.5d
-			y: -1.0d
+			x: 6.0d
+			y: -1.5d
 		}
 		{
 			id: "62D47B00D4AA64AB"
@@ -1608,7 +1187,7 @@
 				count: 10L
 				id: "75B933BAB89968D0"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1665,7 +1244,7 @@
 				count: 10L
 				id: "72B1129652AAA74C"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1722,7 +1301,7 @@
 				count: 10L
 				id: "27EED3E9BC23E6F8"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1732,7 +1311,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: -4.0d
 		}
 		{
@@ -1779,7 +1358,7 @@
 				count: 10L
 				id: "37FD3A88E9ACDC34"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1835,18 +1414,10 @@
 			tasks: [{
 				count: 10L
 				id: "694CC515D908C5D3"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ars_nouveau:sylph_shards"
-				}
+				item: "ars_nouveau:whirlisprig_shards"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: -4.0d
 		}
 		{
@@ -1892,15 +1463,7 @@
 			tasks: [{
 				count: 10L
 				id: "2D7AEAAF7D681E08"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ars_nouveau:carbuncle_shards"
-				}
+				item: "ars_nouveau:starbuncle_shards"
 				type: "item"
 			}]
 			x: -4.0d
@@ -1912,7 +1475,7 @@
 			rewards: [{
 				id: "0DD4E3169CC60311"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1928,7 +1491,7 @@
 			tasks: [{
 				id: "19AAEF4AE422558F"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1945,13 +1508,98 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["198E7721FB2BE726"]
+			dependencies: [
+				"198E7721FB2BE726"
+				"4647DFF4EABDE353"
+			]
+			description: [
+				"L2 adds several enchantments that can ONLY be obtained using Ars Nouveau Enchanting. Some of these are very powerful and critical for surviving the end game of this pack."
+				""
+				"&6Cursed Blade:&r Inflicts &8Curse&r effect on attack."
+				""
+				"&6Soul Flame Blade:&r Inflicts &bSoul Flame&r effect on attack."
+				""
+				"&6Ice Blade:&r Inflicts &9Frost&r effect on attack."
+				""
+				"&6Sharp Blade:&r Inflicts &4Bleeding&r effect on attack. Stacks the more the target is hit."
+				""
+				"&6Wind Sweep:&r Increases the sweeping hitbox of a sword."
+				""
+				"&6Void Touch:&r Has a chance to deal void damage, penetrating all defense."
+				""
+				"&6Soul Flame Thorn:&r Inflicts &bSoul Flame&r effect on attacker."
+				""
+				"&6Ice Thorn:&r Inflicts &9Frost&r effect on attacker."
+				""
+				"&6Projectile Reject:&r Immune to projectiles."
+				""
+				"&6Fire Reject:&r Immune to fire."
+				""
+				"&6Explosion Reject:&r Immune to explosions."
+				""
+				"&6Magic Reject:&r Immune to magic."
+				""
+				"&6Environment Reject:&r Immune to damage without an attacker."
+				""
+				"&bDurable Armor:&r Increases armor durability much better than Unbreaking."
+				""
+				"&bHardended:&r When the item takes damage, only one durability will be lost."
+				""
+				"&bLife Mending:&r When you heal, the damaged item will be repaired instead. Works better on armor than Apotheosis Life Mending."
+				""
+				"&bLife Sync:&r Instead of durability, health is used. "
+				""
+				"&bSafeguard:&r If the item would break, it remains at one durability instead."
+				""
+				"&aEnder Reach:&r Blocks broken by this tool will be placed directly in your inventory."
+				""
+				"&aSmelt:&r Blocks broken by this tool will be smelted. Also works on items inside a chest, if you break the chest."
+				""
+				"&aEnder Mask:&r Endermen will not be angered by your gaze."
+				""
+				"&aShinny:&r Makes piglins neutral."
+				""
+				"&aSnow Walker:&r You won't sink in powdered snow."
+				""
+				"&aSoul Bound:&r The enchanted item will remain with you on death."
+				""
+				"&aTransparent:&r When you are invisible, the item will be too."
+				""
+				"&aStable Body:&r Knockback immunity."
+				""
+				"&aDampened:&r A full set of armor enchanted with this will stop your vibrations from being picked up by skulk sensors."
+				""
+				"&7Cubic Digging:&r Dig 3x3x3 blocks at once. Higher level increase radius. Sneak to bypass."
+				""
+				"&7Plane Digging:&r Dig 5x5 blocks at once (direction sensitive). Higher level increase radius. Sneak to bypass."
+				""
+				"&7Drill Digging:&r Dig 7 blocks at once (direction sensitive). Higher level increase range. Sneak to bypass."
+				""
+				"&7Vien Mining:&r Yes, that's how it's spelled. Dig connected blocks of the same type. Higher level increase max count. Sneak to bypass."
+				""
+				"&7Tree Chopper:&r Chop logs and adjacent leaves. Level 2 cleans leaves as well, and doesn't cost durability when breaking leaves. Sneak to bypass."
+				""
+				"&7Cubic Chunk Eater:&r Dig 4x4x4 chunk-aligned blocks at once. Level 2 makes it 8x8x8. Sneak to bypass."
+				""
+				"&7Planar Chunk Eater:&r Dig 16x16 chunk-aligned blocks at once. Higher level increase depth. Sneak to bypass."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "shieldmechanics:block_damage_enchant"
+						lvl: 2s
+					}]
+				}
+			}
 			id: "5A58777B575B6917"
 			rewards: [
 				{
+					count: 5
 					id: "04420B55D183FD79"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -1963,37 +1611,19 @@
 				}
 				{
 					id: "3E1BC8584F6E54D0"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:golden_apple"
-					}
+					item: "minecraft:enchanted_golden_apple"
 					type: "item"
 				}
-				{
-					id: "1EC740777E79D2D4"
-					type: "custom"
-				}
 			]
+			size: 2.0d
 			tasks: [{
-				id: "7814D46FF9282F10"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ars_nouveau:wand"
-				}
-				type: "item"
+				id: "7C784982FC5FD673"
+				title: "L2 Enchantments"
+				type: "checkmark"
 			}]
-			x: 3.0d
-			y: 4.5d
+			title: "L2 Enchantments"
+			x: 7.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["723C95AA69B46EE2"]
@@ -2002,7 +1632,7 @@
 				{
 					id: "2097A99DBA594B2A"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -2015,7 +1645,7 @@
 				{
 					id: "61D91B87E30142A0"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -2028,15 +1658,7 @@
 			]
 			tasks: [{
 				id: "4104841656480965"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ars_nouveau:mana_jar"
-				}
+				item: "ars_nouveau:source_jar"
 				type: "item"
 			}]
 			x: -1.5d
@@ -2056,7 +1678,7 @@
 				{
 					id: "00A138D4A65E3061"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -2079,15 +1701,7 @@
 			]
 			tasks: [{
 				id: "15AAE4926BBC92E3"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ars_nouveau:arcane_relay"
-				}
+				item: "ars_nouveau:relay"
 				type: "item"
 			}]
 			x: -1.5d
@@ -2099,7 +1713,7 @@
 				{
 					id: "1623DBF1547B840A"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -2121,7 +1735,7 @@
 			tasks: [{
 				id: "3796C06E7CF947F8"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -2140,7 +1754,7 @@
 				{
 					id: "2BEA233F6B06BC6E"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -2162,7 +1776,7 @@
 			tasks: [{
 				id: "0356B7F142ED1E5F"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -2181,7 +1795,7 @@
 				{
 					id: "4D1B2E09782D4340"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -2194,7 +1808,7 @@
 				{
 					id: "48DB0B5343D1602B"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -2216,7 +1830,7 @@
 			tasks: [{
 				id: "1D71DE672EE6171F"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -2235,7 +1849,7 @@
 				{
 					id: "25C72B97F3C7F919"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -2266,15 +1880,7 @@
 			]
 			tasks: [{
 				id: "05B97702A4763FCE"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ars_nouveau:mana_condenser"
-				}
+				item: "ars_nouveau:agronomic_sourcelink"
 				type: "item"
 			}]
 			x: -0.5d
@@ -2286,7 +1892,7 @@
 				{
 					id: "3CA456599BC86A87"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -2307,15 +1913,7 @@
 			]
 			tasks: [{
 				id: "1777FB813CD07F93"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ars_nouveau:volcanic_accumulator"
-				}
+				item: "ars_nouveau:volcanic_sourcelink"
 				type: "item"
 			}]
 			x: 0.0d
@@ -2346,7 +1944,7 @@
 			tasks: [{
 				id: "24D0D2A2677DBF9A"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -2366,7 +1964,7 @@
 				{
 					id: "6D4BBD43BE9DBFC4"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -2390,7 +1988,7 @@
 			tasks: [{
 				id: "509ED6CB77D57E31"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -2409,7 +2007,7 @@
 			rewards: [{
 				id: "6AAAB7F9B1FB2D20"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -2425,7 +2023,7 @@
 			tasks: [{
 				id: "42BA6ECE3586CA36"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -2438,8 +2036,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.5d
+			x: 3.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["198E7721FB2BE726"]
@@ -2448,7 +2046,7 @@
 				{
 					id: "07491ADFC299774B"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -2467,7 +2065,7 @@
 				{
 					id: "4F7356FEA762B7EF"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -2484,7 +2082,7 @@
 			tasks: [{
 				id: "0FEA4D665EAEBE2D"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -2494,23 +2092,23 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 6.5d
+			x: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["198E7721FB2BE726"]
+			description: ["These items can be inscribed with a spell, which triggers when the item is used."]
 			id: "6BC8A28A792C35B2"
 			rewards: [
 				{
+					count: 2
 					id: "47FA32402A204875"
 					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "ars_nouveau_glyph_tier_2"
 						}
-						id: "randomloot:basic_case"
 					}
 					type: "item"
 				}
@@ -2520,22 +2118,101 @@
 					xp_levels: 3
 				}
 			]
-			tasks: [{
-				id: "2C743AC8F24DA388"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					id: "2C743AC8F24DA388"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ars_nouveau:enchanters_sword"
+						tag: {
+							Damage: 0
 						}
 					}
-					id: "ars_nouveau:enchanters_sword"
-					tag: {
-						Damage: 0
-					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7D87F33B00471428"
+					item: {
+						Count: 1
+						id: "ars_nouveau:wand"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "59402584545BFE12"
+					item: {
+						Count: 1
+						id: "ars_nouveau:spell_bow"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7BD08B72A658F91B"
+					item: {
+						Count: 1
+						id: "ars_nouveau:enchanters_shield"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "617FCD57833A29E3"
+					item: {
+						Count: 1
+						id: "ars_nouveau:enchanters_mirror"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5C6513DD393C4E43"
+					item: {
+						Count: 1
+						id: "ars_nouveau:spell_crossbow"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B01A02F25F94ED3"
+					item: {
+						Count: 1
+						id: "ars_nouveau:enchanters_eye"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "09A6079422B9731E"
+					item: {
+						Count: 1
+						id: "ars_elemental:spell_horn"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Enchanter's Arsenal"
 			x: 5.0d
 			y: 6.5d
 		}
@@ -2559,7 +2236,7 @@
 				{
 					id: "0329EDB1E2F95A6B"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -2580,19 +2257,11 @@
 			]
 			tasks: [{
 				id: "3D73A2E99F58229A"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ars_nouveau:mana_bloom_crop"
-				}
+				item: "ars_nouveau:magebloom_crop"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 5.5d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["198E7721FB2BE726"]
@@ -2601,7 +2270,7 @@
 				{
 					id: "472928132024274F"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -2617,7 +2286,7 @@
 				{
 					id: "0F8A793365AEB5A2"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -2634,7 +2303,7 @@
 			tasks: [{
 				id: "22D44C0BD72BCC9A"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -2691,7 +2360,7 @@
 				count: 10L
 				id: "4F3D50C654AB9C31"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -2703,6 +2372,55 @@
 			}]
 			x: -3.5d
 			y: -0.5d
+		}
+		{
+			id: "12BB303FB41B03C3"
+			tasks: [
+				{
+					id: "68EFE0B2366E0EBD"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "5665A5E739959404"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+			]
+			title: "Source Gem Ingredients"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "548524CE9F62D2DE"
+			tasks: [{
+				id: "2CAAF89FC8A5A180"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "51816FBB1F68C522"
+			tasks: [{
+				count: 10L
+				id: "0D6F9192E83B240D"
+				item: { Count: 10, id: "ars_elemental:siren_shards" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			id: "765F5F5322079386"
+			tasks: [{
+				id: "53BAD91CFCA4B97E"
+				item: "quark:hollow_oak_log"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
 		}
 	]
 	title: "&5Ars Nouveau&r"

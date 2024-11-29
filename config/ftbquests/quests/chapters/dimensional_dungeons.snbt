@@ -39,7 +39,7 @@
 			y: 4.0d
 		}
 	]
-	order_index: 6
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
@@ -62,7 +62,7 @@
 					disable_toast: true
 					id: "0549D2EE17A5251A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "patchouli:guide_book"
 						tag: {
 							"patchouli:book": "dimdungeons:guide_book"
@@ -83,12 +83,12 @@
 			description: ["Blank Portal Keys are crafted from a Blaze Rod and a Name Tag. You may want several."]
 			id: "49D31A8380AFA032"
 			rewards: [{
-				id: "61B9A2749C052810"
+				id: "73E63FDEF12D67A0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:lootcrate"
 					tag: {
-						type: "materials_random"
+						type: "materials_1"
 					}
 				}
 				type: "item"
@@ -105,17 +105,11 @@
 			dependencies: ["19C09B0537FF8F85"]
 			description: ["First craft three Gilded Portal Blocks, which are a Chiseled Stone Brick surrounded by 8 Gold Ingots."]
 			id: "06FDB1551D976F28"
-			rewards: [
-				{
-					id: "49785DA9C5E9C87B"
-					type: "custom"
-				}
-				{
-					id: "4C2D7FF0D88E1E94"
-					item: "aquaculture:lockbox"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4C2D7FF0D88E1E94"
+				item: "aquaculture:lockbox"
+				type: "item"
+			}]
 			tasks: [{
 				count: 3L
 				id: "4DF5F1A54C512A3A"
@@ -129,17 +123,11 @@
 			dependencies: ["06FDB1551D976F28"]
 			description: ["Second, combine one of your three Gilded Portal Blocks with the Trapped Chest and the Eye of Ender to form a Portal Keyhole Block."]
 			id: "467404C9A88BA929"
-			rewards: [
-				{
-					id: "3FC9CD30F75F7A70"
-					type: "custom"
-				}
-				{
-					id: "77E853324AA3466E"
-					item: "aquaculture:lockbox"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "77E853324AA3466E"
+				item: "aquaculture:lockbox"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3C4B4629A328B684"
 				item: "dimdungeons:block_portal_keyhole"
@@ -160,10 +148,6 @@
 				"Keys can only be written to once. However keys are absolutely reusable! If you find a dungeon that is worth visiting more than once be sure to save that key somewhere in your base. A named key will always consistently take you back to the same dungeon."
 			]
 			id: "2205A97ACB6A9309"
-			rewards: [{
-				id: "557BA510C4195368"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "028ACB8879FC66F1"
 				type: "checkmark"
@@ -185,10 +169,6 @@
 				"Keep in mind you will also need to craft and activate keys. This is only the first step."
 			]
 			id: "19C09B0537FF8F85"
-			rewards: [{
-				id: "7E79C499DFD17B21"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "0E498E4858047C55"
 				title: "Creating the Basic Portal"
@@ -202,16 +182,12 @@
 			description: [
 				"Basically you need a frame of Stone Bricks surrounding two air blocks. And replace the top center block with the Portal Keyhole Block. The two spires on the side need to have your two remaining Gilded Portal BLocks on top."
 				""
-				"{image:rad2:textures/misc/build_basic_1.png width:170 height:100 align:1}"
+				"{image:rad3:textures/misc/build_basic_1.png width:170 height:100 align:1}"
 				"Sinking the portal into the ground is a good idea so that you don't have to jump into it. But remember you still need to place the Stone Bricks on the bottom even if you can't see them!"
 				""
 				"Other Stone Brick variants can be used in the build, too. And the only air blocks that matter are the two blocks where the portal will appear."
 			]
 			id: "46BDA3FB1FD338F7"
-			rewards: [{
-				id: "06781A553566752E"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "48F36A95518DC117"
 				title: "Valid Portal Builds"
@@ -223,17 +199,6 @@
 		{
 			dependencies: ["2205A97ACB6A9309"]
 			id: "5F3AE6FDE9AC06B6"
-			rewards: [{
-				id: "5E68E60CB268C538"
-				item: {
-					Count: 1b
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "potions"
-					}
-				}
-				type: "item"
-			}]
 			subtitle: "Activate portal key"
 			tasks: [{
 				advancement: "dimdungeons:dungeons/activate_basic_key"
@@ -258,17 +223,11 @@
 				"Second you must place two Portal Crown Blocks on top of your portal frame. You're going to have to rely on finding Portal Crown Blocks as loot in basic dungeon chests."
 			]
 			id: "563459F7C0D8D8D3"
-			rewards: [
-				{
-					id: "03D3B4BD7967EF3C"
-					item: "aquaculture:treasure_chest"
-					type: "item"
-				}
-				{
-					id: "58626ABC605251BF"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				id: "03D3B4BD7967EF3C"
+				item: "aquaculture:treasure_chest"
+				type: "item"
+			}]
 			subtitle: "Find two portal crown blocks"
 			tasks: [{
 				advancement: "dimdungeons:dungeons/find_crown"

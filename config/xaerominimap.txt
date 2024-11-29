@@ -8,7 +8,7 @@ debugEntityVariantIds:false
 radarHideInvisibleEntities:true
 allowInternetAccess:true
 #INGAME SETTINGS (DO NOT EDIT!)
-updateNotification:true
+updateNotification:false
 minimap:true
 caveMaps:2
 caveZoom:1
@@ -19,7 +19,7 @@ deathpoints:true
 oldDeathpoints:true
 distance:1
 lockNorth:false
-zoom:1
+zoom:2
 minimapSize:0
 chunkGrid:-1
 slimeChunks:false
@@ -126,9 +126,4 @@ infoDisplay:highlights:true:15:-1
 infoDisplay:light_overlay_indicator:true:15:-1
 infoDisplay:manual_cave_mode_indicator:true:15:-1
 infoDisplay:custom_sub_world:true:15:-1
-interface:dummy:0:36:true:false:false:false
-interface:dummy:0:10000:true:false:false:false
-interface:dummy:0:0:false:false:true:false
-interface:dummy:0:36:true:false:false:false
-interface:gui.xaero_minimap:68:-45:false:false:true:false
-#WAYPOINTS HAVE BEEN MOVED TO /XaeroWaypoints
+module;id=xaerominimap:minimap;active=true;x=68;y=-45;centered=false;fromRight=true;fromBottom=false;flippedVer=false;flippedHor=false;fromOldSystem=true;
