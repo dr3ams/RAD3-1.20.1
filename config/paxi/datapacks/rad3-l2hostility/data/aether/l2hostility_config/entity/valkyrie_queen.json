@@ -1,0 +1,34 @@
+{
+  "list": [
+    {
+      "blacklist": [ "l2hostility:tank", "l2hostility:protection", "l2hostility:poison", "l2hostility:wither", "l2hostility:soul_burner", "l2hostility:cursed" ],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 30,
+        "min": 100,
+        "scale": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "aether:valkyrie_queen"
+      ],
+      "items": [],
+      "maxLevel": 0,
+      "minSpawnLevel": 0,
+      "specialConditions": [],
+      "traits": [
+        {
+          "free": 3,
+          "min": 5,
+          "trait": "l2hostility:speedy"
+        },
+        {
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:moonwalk"
+        }
+      ]
+    }
+  ]
+}
