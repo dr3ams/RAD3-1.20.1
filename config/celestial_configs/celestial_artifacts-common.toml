@@ -42,7 +42,7 @@
 [back]
 	#Magic Arrow Bag: bow strength
 	#Range: 0.0 ~ 10.0
-	magicArrowBagBowStrength = 1
+	magicArrowBagBowStrength = 0.1
 	#Flame Arrow Bag: bow strength
 	#Range: 0.0 ~ 10.0
 	flameArrowBagBowStrength = 0.1
@@ -699,7 +699,7 @@
 	#If true, Catastrophe Scroll will be directly equipped onto new players
 	catastropheScrollStart = false
 	#If true, Hierloom Necklace and Catastrophe Scroll will be given to new players
-	giveItemsOnStart = true
+	giveItemsOnStart = false
 	#If true, Catastrophe Scroll cannot be unequipped once equipped
 	catastropheScrollPreventUnequip = true
 
