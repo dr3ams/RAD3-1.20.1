@@ -3,26 +3,16 @@
   "category": "equipment",
   "group": "bonfires",
   "key": {
-    "A": {
-      "tag": "forge:ash"
-    },
-    "F": {
-      "item": "minecraft:fire_charge"
-    },
     "L": {
       "item": "minecraft:lava_bucket"
     },
-    "O": {
-      "tag": "forge:obsidian"
-    },
     "S": {
-      "item": "minecraft:diamond_sword"
+      "item": "minecraft:iron_sword"
     }
   },
   "pattern": [
-    "OLO",
-    "FSF",
-    "OAO"
+    "S",
+    "L"
   ],
   "result": {
     "item": "bonfires:coiled_sword"
