@@ -327,12 +327,12 @@
 					type: "item"
 				}
 				{
-					id: "1C410EFF06FE7079"
+					id: "1D14F0D00917C87F"
 					item: "minecraft:fletching_table"
 					type: "item"
 				}
 			]
-			title: "Humble adobe"
+			title: "Humble abode"
 			x: 3.5d
 			y: -8.0d
 		}
@@ -352,6 +352,11 @@
 				"- Shift right-clicking a depleted Diamond Grindstone with a Rough Diamond Shard will restore it by one Depletion stage at a time"
 			]
 			id: "7F9831246F75C5C6"
+			rewards: [{
+				id: "74ED9B8F5203A5B2"
+				item: "nameless_trinkets:lucky_rock"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "00CEB6A8C9816F7F"
@@ -603,6 +608,11 @@
 				"- Glow sticks also come in all 16 colors + the glow ink hue, making them ideal for marking out pathways to different location"
 			]
 			id: "3C117B063253F59D"
+			rewards: [{
+				id: "3A0D5310D829FFF3"
+				item: "nameless_trinkets:light_gloves"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6A72A66C282AB276"
 				item: "spelunkery:glowstick"
@@ -713,11 +723,18 @@
 				"If your alignment is +2, you can use Prayer of Empathy to rally a tameable creature."
 			]
 			id: "0611628E78DF44FB"
-			rewards: [{
-				id: "453C2306AEB7BFD8"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "453C2306AEB7BFD8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4539904AA80E0807"
+					item: "nameless_trinkets:pocket_lightning_rod"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5A7D361140FECB49"
 				item: {
@@ -1187,11 +1204,19 @@
 				"{ \"text\": \"The market\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0000000000000579\" } }"
 			]
 			id: "1132350866F5AC7A"
-			rewards: [{
-				id: "5A63AEDEF75C189C"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "5A63AEDEF75C189C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "7A0310F272A839D2"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
 			size: 0.7d
 			tasks: [{
 				id: "705F72C3A7D20EFB"
@@ -1208,6 +1233,8 @@
 				"Move you base! An entire base packed in a 31x31x31 can be moved entirely including machines. You can be a real &onomad&r traveler now."
 				""
 				"Build faster with &9blueprints&r! Blueprint capsules can take materials from chests or other inventories to duplicate a structure. It supports rotation and mirror."
+				""
+				"&cWARNING!&r Sophisticated Storage chests DO NOT WORK inside Capsules. Sophisticated Storage barrels work, but not chests."
 			]
 			icon: {
 				Count: 1
@@ -1347,25 +1374,7 @@
 		{
 			dependencies: ["366659E50333BC5A"]
 			description: [
-				"- Find them in the wild by their house"
-				""
-				"- Give them something edible and they might join you as a companion."
-				""
-				"- Once they join you, you can access their inventory with right click."
-				""
-				"- They have names, but you can rename them with tags."
-				""
-				"- Shift+right click to toggle \"sit\", making them stay in place and not do anything."
-				""
-				"- Give them armor and weapons and they will automatically equip the best one in their inventory. They can only use the weapon they spawn with. Archers and arbalists do not need arrows."
-				""
-				"- They will follow you around the same way a wolf does. They will attack mobs that hurt you or you hurt, except creepers. They will give a warning if a creeper is nearby and run away."
-				""
-				"- Put food in their inventory and they will eat to heal themselves."
-				""
-				"- Toggle between follow, patrol, and guard states"
-				""
-				"{@pagebreak}"
+				"Companions can be found in the wild and tamed with special food."
 				""
 				"There are different types of companions with unique abilities."
 				""
@@ -1403,7 +1412,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "This mod adds new human companions that can help you on your journey."
+			subtitle: "This mod adds new companions that can help you on your journey."
 			tasks: [
 				{
 					id: "46BEC7D90A99E618"
@@ -1435,7 +1444,7 @@
 				id: "0F095B7B41816327"
 				type: "advancement"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: 2.5d
 		}
 		{
@@ -1592,7 +1601,7 @@
 		{
 			dependencies: ["149CB61732F787CF"]
 			description: [
-				"- The parachute is an item crafted from string and wool that, when held in your inventory will automatically deploy and slow your fall if it detects youve fallen far enough that you will take significant damage when you land"
+				"- The parachute is an item crafted from string and wool that, when held in your inventory will automatically deploy and slow your fall if it detects you've fallen far enough that you will take significant damage when you land"
 				""
 				"- The parachute needs to be folded back up once you land in order for it to be ready to catch you if you fall again"
 			]
@@ -1621,6 +1630,11 @@
 				"- Activated Item Magnets in Item Frames will also draw in items, useful for automatic farms"
 			]
 			id: "7BA828910935E8A0"
+			rewards: [{
+				id: "69F5261166A0038E"
+				item: "nameless_trinkets:broken_magnet"
+				type: "item"
+			}]
 			tasks: [{
 				id: "44FE2B47EFEE5DAC"
 				item: {
@@ -1677,6 +1691,11 @@
 			]
 			icon: "spelunkery:carved_nephrite"
 			id: "2C0C2641BC5C7BB4"
+			rewards: [{
+				id: "435025CE9C64958F"
+				item: "nameless_trinkets:experience_magnet"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4F82447F4EC9DF0C"
@@ -1786,9 +1805,17 @@
 			]
 			tasks: [{
 				id: "000000000000001A"
-				item: "comforts:sleeping_bag_white"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "comforts:sleeping_bags"
+					}
+				}
+				title: "Any #comforts:sleeping_bags"
 				type: "item"
 			}]
+			title: "Sleeping Bag"
 			x: 3.5d
 			y: -6.0d
 		}
@@ -1812,7 +1839,7 @@
 				""
 				"- Backpacks can also have items piped in/out using hoppers or any kind of modded pipes, external storage access, …"
 				""
-				"- Shift right clicking the backpack on the ground with empty hand picks it back up or it can also be brokend and picked up as any other item"
+				"- Shift right clicking the backpack on the ground with empty hand picks it back up or it can also be broken and picked up as any other item"
 				""
 				"&l&nBackpacks can be upgraded&r&r"
 				"- 5 tiers - leather, iron, gold, diamond, netherite"
@@ -2434,6 +2461,8 @@
 				"Chests that you can &ncustomize&r from any variety of color or wood type and &nupgrade&r each box with a variety of tiers and types of upgrades."
 				""
 				"Upgrades are self-explanatory."
+				""
+				"&cWARNING!&r Sophisticated Storage chests DO NOT WORK inside Capsules. Sophisticated Storage barrels work, but not chests."
 			]
 			id: "529D1D72F3E57C1D"
 			subtitle: "&cCan be crafted with &nany&r &cwood!&r"
@@ -2631,6 +2660,7 @@
 				id: "2BF376ED89D83077"
 				type: "checkmark"
 			}]
+			title: "Changes to Vanilla"
 			x: -0.5d
 			y: -4.5d
 		}
@@ -3043,8 +3073,7 @@
 				"In this mode, your dog will follow you but will not attack anything unless you use the command beam to attack the entity you right click on (with the item in hand). This mode will show up as the tip,\"(T)\" just above the dogs name."
 				""
 				"Incapacitated (I)"
-				"In this mode, your dog will be covered in blood and it will not attack nor will let you interact with it (except to let you make it sit down). The dog will enter this mode only when its health is 1/2 of a heart (1 HP) and its health will not reach 0,"
-				"preventing the dog from dying. The dog will eventually exit this mode once its health reaches above 1 HP, however, it will not be at full health after exiting this mode. To force the dog to exit the mode at full health, feed it a cake."
+				"In this mode, your dog will be covered in blood and it will not attack nor will let you interact with it (except to let you make it sit down). The dog will enter this mode only when its health is 1/2 of a heart (1 HP) and its health will not reach 0, preventing the dog from dying. The dog will eventually exit this mode once its health reaches above 1 HP, however, it will not be at full health after exiting this mode. To force the dog to exit the mode at full health, feed it a cake."
 				"This mode can be turned off in the configuration settings. This mode will show up as the tip,\"(I)\" just above the dogs name."
 			]
 			id: "000000000000065A"
@@ -3064,6 +3093,7 @@
 		}
 		{
 			dependencies: ["5BD0024E8E16BB8E"]
+			description: ["Enchanting can be done at levels up to 100. Refer to the &oChronicle of Shadows&r for more details on higher level enchanting."]
 			id: "0000000000000047"
 			rewards: [
 				{
@@ -3076,6 +3106,17 @@
 					id: "00000000000002DC"
 					type: "xp_levels"
 					xp_levels: 5
+				}
+				{
+					id: "3C968275577F927E"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "apotheosis:apoth_chronicle"
+						}
+					}
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -3137,660 +3178,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["00000000000015F4"]
-			id: "0000000000000168"
-			rewards: [
-				{
-					id: "6EFAB257E0BC7800"
-					item: "quark:pink_blossom_sapling"
-					type: "item"
-				}
-				{
-					id: "0000000000000361"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "2F97F8F9A311A5E9"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "2C90592E111D8242"
-					item: "aquaculture:driftwood"
-					type: "item"
-				}
-				{
-					id: "000000000000016C"
-					item: "aquaculture:tin_can"
-					type: "item"
-				}
-				{
-					id: "000000000000016D"
-					item: "aquaculture:message_in_a_bottle"
-					type: "item"
-				}
-				{
-					id: "000000000000016E"
-					item: "aquaculture:box"
-					type: "item"
-				}
-				{
-					id: "000000000000016F"
-					item: "aquaculture:lockbox"
-					type: "item"
-				}
-				{
-					id: "0000000000000170"
-					item: "aquaculture:treasure_chest"
-					type: "item"
-				}
-			]
-			title: "What is this junk?"
-			x: -5.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["00000000000015F4"]
-			id: "000000000000033B"
-			rewards: [
-				{
-					count: 3
-					id: "000000000000035B"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-				{
-					count: 64
-					id: "011BDDFD8FF8A919"
-					item: {
-						Count: 1
-						id: "aquaculture:worm"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 5
-					id: "408945D7AF67DCD8"
-					item: "aquaculture:treasure_chest"
-					type: "item"
-				}
-				{
-					id: "000000000000035F"
-					item: {
-						Count: 1
-						id: "aquaculture:neptunium_fillet_knife"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0000000000000360"
-					item: "aquaculture:neptunium_ingot"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "000000000000033C"
-					item: "aquaculture:brown_shrooma"
-					type: "item"
-				}
-				{
-					id: "000000000000033D"
-					item: "aquaculture:red_shrooma"
-					type: "item"
-				}
-				{
-					id: "2A24BD51AE9AE953"
-					item: "aquaculture:jellyfish"
-					type: "item"
-				}
-				{
-					id: "193BEF7F3099C189"
-					item: "aquaculture:red_grouper"
-					type: "item"
-				}
-				{
-					id: "76D26F074226B00F"
-					item: "aquaculture:tuna"
-					type: "item"
-				}
-				{
-					id: "0000000000000341"
-					item: "aquaculture:goldfish"
-					type: "item"
-				}
-				{
-					id: "0000000000000342"
-					item: "aquaculture:atlantic_cod"
-					type: "item"
-				}
-				{
-					id: "0000000000000343"
-					item: "aquaculture:blackfish"
-					type: "item"
-				}
-				{
-					id: "0000000000000344"
-					item: "aquaculture:atlantic_halibut"
-					type: "item"
-				}
-				{
-					id: "0000000000000345"
-					item: "aquaculture:atlantic_herring"
-					type: "item"
-				}
-				{
-					id: "0000000000000346"
-					item: "aquaculture:pink_salmon"
-					type: "item"
-				}
-				{
-					id: "0000000000000347"
-					item: "aquaculture:pollock"
-					type: "item"
-				}
-				{
-					id: "0000000000000348"
-					item: "aquaculture:rainbow_trout"
-					type: "item"
-				}
-				{
-					id: "0000000000000349"
-					item: "aquaculture:carp"
-					type: "item"
-				}
-				{
-					id: "000000000000034A"
-					item: "aquaculture:brown_trout"
-					type: "item"
-				}
-				{
-					id: "000000000000034B"
-					item: "aquaculture:bluegill"
-					type: "item"
-				}
-				{
-					id: "000000000000034C"
-					item: "aquaculture:smallmouth_bass"
-					type: "item"
-				}
-				{
-					id: "000000000000034D"
-					item: "aquaculture:synodontis"
-					type: "item"
-				}
-				{
-					id: "000000000000034E"
-					item: "aquaculture:capitaine"
-					type: "item"
-				}
-				{
-					id: "000000000000034F"
-					item: "aquaculture:boulti"
-					type: "item"
-				}
-				{
-					id: "0000000000000350"
-					item: "aquaculture:bayad"
-					type: "item"
-				}
-				{
-					id: "0000000000000351"
-					item: "aquaculture:tambaqui"
-					type: "item"
-				}
-				{
-					id: "0000000000000352"
-					item: "aquaculture:piranha"
-					type: "item"
-				}
-				{
-					id: "0000000000000353"
-					item: "aquaculture:arapaima"
-					type: "item"
-				}
-				{
-					id: "0000000000000354"
-					item: "aquaculture:perch"
-					type: "item"
-				}
-				{
-					id: "0000000000000355"
-					item: "aquaculture:muskellunge"
-					type: "item"
-				}
-				{
-					id: "0000000000000356"
-					item: {
-						Count: 1
-						id: "aquaculture:minnow"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0000000000000357"
-					item: "aquaculture:gar"
-					type: "item"
-				}
-				{
-					id: "0000000000000358"
-					item: "aquaculture:catfish"
-					type: "item"
-				}
-				{
-					id: "0000000000000359"
-					item: "aquaculture:box_turtle"
-					type: "item"
-				}
-				{
-					id: "000000000000035A"
-					item: "aquaculture:arrau_turtle"
-					type: "item"
-				}
-			]
-			title: "Gotta Catch Them All!"
-			x: -7.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["00000000000015F4"]
-			description: [
-				"Fillet of fish sure sounds a lot better than eating a whole fish, scales and all."
-				""
-				"Pretty much a sharp stick."
-			]
-			id: "000000000000161A"
-			rewards: [
-				{
-					id: "000000000000163C"
-					item: "minecraft:string"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "35DF86D427699A6D"
-					item: "aquaculture:box"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "10BEB003F990DDEB"
-					item: {
-						Count: 1
-						id: "aquaculture:stone_fillet_knife"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "480CA779F32B86AC"
-					item: "aquaculture:fish_fillet_raw"
-					type: "item"
-				}
-			]
-			x: -6.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["149CB61732F787CF"]
-			description: ["My own custom designed fishing rod. Can be customized with special tackle and bait."]
-			id: "00000000000015DD"
-			rewards: [
-				{
-					id: "000000000000164B"
-					item: "minecraft:iron_ingot"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "000000000000164C"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "00C983DF9427E5C6"
-					item: "aquaculture:box"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "00000000000015DE"
-				item: {
-					Count: 1
-					id: "aquaculture:iron_fishing_rod"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -6.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["00000000000015E7"]
-			description: ["Worms are but a single bait that can be used with fishing rods. Their are also leeches and minnows that you catch by fishing."]
-			id: "00000000000015E9"
-			rewards: [
-				{
-					id: "0000000000001654"
-					item: {
-						Count: 1
-						id: "aquaculture:minnow"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0000000000001655"
-					item: {
-						Count: 1
-						id: "aquaculture:leech"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "00000000000015EA"
-				item: {
-					Count: 1
-					id: "aquaculture:worm"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Bait"
-			x: -5.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["00000000000015DD"]
-			description: ["The worm box works like the composter (load with vegetables or fruit) but it produces worms to use as bait."]
-			id: "00000000000015E7"
-			rewards: [{
-				id: "789B8054E2F35A78"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "00000000000015E8"
-				item: "aquaculture:worm_farm"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["00000000000015DD"]
-			description: ["Is placed on the ground with a rightclick. From there, you can access it's inventory where you can apply tackle to fishing rods on the right. The box also has storage slots to hold bait and tackle. To pickup the box again simply shift rightclick it."]
-			id: "00000000000015E5"
-			rewards: [{
-				id: "0000000000001656"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			tasks: [{
-				id: "00000000000015E6"
-				item: "aquaculture:tackle_box"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["00000000000015DD"]
-			description: ["I caught a chest..... wonder if it is anything valuable?"]
-			id: "00000000000015EB"
-			rewards: [
-				{
-					id: "2353B80B7BD4239F"
-					item: "aquaculture:lockbox"
-					type: "item"
-				}
-				{
-					id: "5E68FBA272149ED6"
-					item: "kubejs:gold_coin"
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				id: "00000000000015EC"
-				item: "aquaculture:neptunes_bounty"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 3.75d
-		}
-		{
-			dependencies: ["00000000000015E5"]
-			description: ["Can be dyed like leather and can be used to customize your fishing rod."]
-			id: "00000000000015F0"
-			rewards: [{
-				id: "7FA632633CF0E126"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "00000000000015F1"
-				item: "aquaculture:bobber"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["00000000000015E5"]
-			description: ["Can be dyed like leather and can be used to customize your fishing rod."]
-			id: "00000000000015F2"
-			rewards: [{
-				id: "29509B1943C17344"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "materials_monsters"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "00000000000015F3"
-				item: "aquaculture:fishing_line"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["00000000000015E5"]
-			id: "00000000000015F4"
-			rewards: [{
-				id: "1285FCBA26C94E3D"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "4D5AB05E4D1593DD"
-					item: "aquaculture:iron_hook"
-					type: "item"
-				}
-				{
-					id: "41808C4F4B8D4FA6"
-					item: "aquaculture:gold_hook"
-					type: "item"
-				}
-				{
-					id: "788D493E018BB7BF"
-					item: "aquaculture:diamond_hook"
-					type: "item"
-				}
-				{
-					id: "0EFD68D0519B0FBE"
-					item: "aquaculture:light_hook"
-					type: "item"
-				}
-				{
-					id: "3EC861B0B1EDAA06"
-					item: "aquaculture:heavy_hook"
-					type: "item"
-				}
-				{
-					id: "3D06714560CDC248"
-					item: "aquaculture:double_hook"
-					type: "item"
-				}
-				{
-					id: "0E541A374739A468"
-					item: "aquaculture:redstone_hook"
-					type: "item"
-				}
-				{
-					id: "033FB99AC0834BD3"
-					item: "aquaculture:note_hook"
-					type: "item"
-				}
-				{
-					id: "10E47D28CFAE1550"
-					item: "aquaculture:nether_star_hook"
-					type: "item"
-				}
-			]
-			title: "All the hooks!"
-			x: -6.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["00000000000015DD"]
-			description: ["When you are the best fisherman around."]
-			id: "00000000000015DF"
-			rewards: [{
-				id: "336047F18F270D0B"
-				item: "aquaculture:lockbox"
-				type: "item"
-			}]
-			tasks: [{
-				id: "00000000000015E0"
-				item: {
-					Count: 1
-					id: "aquaculture:gold_fishing_rod"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -4.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["00000000000015DF"]
-			description: ["When you just want to blind the fish."]
-			id: "00000000000015E1"
-			rewards: [
-				{
-					id: "0000000000001648"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					count: 10
-					id: "0000000000001649"
-					item: {
-						Count: 1
-						id: "aquaculture:worm"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7D3544F42B9548EA"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "00000000000015E2"
-				item: {
-					Count: 1
-					id: "aquaculture:diamond_fishing_rod"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -4.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["00000000000015E1"]
-			description: ["The best fishing rod around. Neptune's personal rod. Increases bite rate of fish."]
-			id: "00000000000015E3"
-			rewards: [
-				{
-					id: "0000000000001645"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "6A80FEA9F5625E8C"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "017443979F5F4A08"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "00000000000015E4"
-				item: {
-					Count: 1
-					id: "aquaculture:neptunium_fishing_rod"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -4.0d
-			y: 5.0d
-		}
-		{
 			dependencies: ["3A7C49FC5AA2927F"]
 			id: "55C87018D524A77E"
 			tasks: [{
@@ -3798,17 +3185,17 @@
 				item: "minecraft:bucket"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["55C87018D524A77E"]
 			description: [
-				"- &bSpring Water&r is a rare resource that only generates in the highest mountaintops"
+				"- &bSpring Water&r is a rare resource that only generates in the highest mountaintops."
 				""
-				"- It has &cnatural healing&r properties but it cannot be made into an infinite source"
+				"- It has &cnatural healing&r properties but it cannot be made into an infinite source."
 				""
-				"- When a &4magma block&r is placed below it, it will attempt to boil upward through the ceiling, if there are natural blocks in its way it will burrow through until it breaks through to the surface above"
+				"- When a &4magma block&r is placed below it, it will attempt to boil upward through the ceiling. If there are natural blocks in its way it, will burrow through until it breaks through to the surface above."
 			]
 			id: "5AA5BFD3FCB010B0"
 			tasks: [{
@@ -3867,6 +3254,11 @@
 		{
 			dependencies: ["733A59C038C65E4B"]
 			id: "5BD0024E8E16BB8E"
+			rewards: [{
+				id: "3B629F7FA8815BF4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "53B7D2BEB1474AA7"
 				item: {
@@ -3885,7 +3277,9 @@
 		{
 			dependencies: ["5BD0024E8E16BB8E"]
 			description: [
-				"&8Titanite&r is used near the &4Bonfires&r to &3Reinforce&r tools and weapons. Each Reinforcement adds &c+0.5 attack damage&r."
+				"&8Titanite&r is made by &6burning&r items - including obsidian - by literally throwing them into fire or lava."
+				""
+				"&8Titanite&r is used at a &4Bonfire&r to &3Reinforce&r tools and weapons. Each Reinforcement adds &c+0.5 attack damage&r."
 				""
 				"- &8Titanite Shard&r - can be used until +3 Reinforcement."
 				""
@@ -3894,8 +3288,16 @@
 				"- &8Titanite Chunk&r - used from +6 to +9 Reinforcements."
 				""
 				"- &8Titanite Slab&r - used from +9 to +10 Reinforcements."
+				""
+				"Tip: The simplest way to get lots of obsidian is to freeze buckets of lava in a freezer from the Aether."
 			]
 			id: "4058A62B9B24E64F"
+			rewards: [{
+				count: 128
+				id: "4606B4ACF91B9E7A"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1937A8A87FCA8E6A"
@@ -4162,19 +3564,11 @@
 		{
 			dependencies: ["43EFBBF0712C67B9"]
 			id: "007AF41A705DEAD4"
-			rewards: [
-				{
-					count: 2
-					id: "4A9F981C4113641E"
-					item: "minecraft:copper_ingot"
-					type: "item"
-				}
-				{
-					id: "545BA43BE7DE2A02"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "545BA43BE7DE2A02"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
 			subtitle: "To show all your trophies"
 			tasks: [{
 				id: "2871183500DF05A9"
@@ -4689,6 +4083,64 @@
 			}]
 			x: -11.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["3C58EBDE41F0F9F2"]
+			description: ["This key, when inserted into a Dimensional Dungeons gate, will lead to your own personal dimension. You can build there to your heart's content and access it from anywhere. See the chapter \"Dimensional Travels\" for more details."]
+			id: "29A66BD7F23D4EDD"
+			tasks: [{
+				id: "1176B1CC4CAAE099"
+				item: "dimdungeons:item_blank_build_key"
+				type: "item"
+			}]
+			title: "Personal Dimension"
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0000000000000047"]
+			description: [
+				"There are multiple methods to perform disenchanting."
+				""
+				"Book of Disenchantment can be used with a Grave Soul to strip multiple enchantments from items (not books), into individual books. Knowledge of Death perks can increase the amount extracted."
+				""
+				"Tome of Scrapping costs a few levels, destroys the item, and returns half the enchantments, rounded up, on a book."
+				""
+				"Tome of Superior Scrapping costs a lot of levels, destroys the item, but returns all of the enchantments."
+			]
+			id: "4FFE28F3DB5EC162"
+			rewards: [{
+				id: "54035E2B956F8E82"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25E69B5E45CA5946"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "tombstone:book_of_disenchantment"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:scrap_tome"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:improved_scrap_tome"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Disenchanting"
+			x: 10.0d
+			y: 2.5d
 		}
 	]
 	title: "&2World Exploration&r"

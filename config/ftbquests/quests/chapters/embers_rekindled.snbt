@@ -79,8 +79,8 @@
 				item: "embers:fluid_dial"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.5d
+			x: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5AAA3D0D91ECFEF0"]
@@ -90,19 +90,21 @@
 				item: "embers:atmospheric_gauge"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -0.5d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["5AAA3D0D91ECFEF0"]
+			dependencies: ["7799424461FD01D7"]
+			description: ["Materials not found in the overworld may be needed to form this brick..."]
 			id: "7813722C1EB553C3"
+			shape: "gear_important"
 			tasks: [{
 				id: "3D5403754CF7BCB8"
 				item: "embers:caminite_brick"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 1.5d
+			x: 2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5AAA3D0D91ECFEF0"]
@@ -221,30 +223,49 @@
 				item: "embers:ember_bore"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["49BB34A1A002967F"]
+			dependencies: ["4555C4D10DA2481F"]
 			id: "08E71728D7683C50"
+			rewards: [{
+				id: "3333EEFF84EBD4E6"
+				item: {
+					Count: 1
+					id: "simplyswords:hearthflame"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "302BA0B31D7C6464"
 				item: "embers:hearth_coil"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: -2.5d
 		}
 		{
-			dependencies: ["49BB34A1A002967F"]
+			dependencies: [
+				"5AAA3D0D91ECFEF0"
+				"7813722C1EB553C3"
+			]
 			id: "4555C4D10DA2481F"
 			tasks: [{
 				id: "51D0596B2B0E54B4"
 				item: "embers:mechanical_core"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -0.5d
+			x: 2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["49BB34A1A002967F"]
@@ -1111,5 +1132,5 @@
 			y: 0.0d
 		}
 	]
-	title: "Embers Rekindled"
+	title: "&6Embers Rekindled&r"
 }

@@ -19,7 +19,7 @@
 			image: "rad3:textures/misc/rad3_aether.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: 16.0d
+			x: 16.5d
 			y: 3.0d
 		}
 		{
@@ -75,10 +75,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				""
-				"Deep within the fabric of Minecraft's universe lies a hidden realm known as the &bAether&r. It is said that the &bAether&r was once a part of the &2Overworld&r, but as the forces of nature and magic intertwined, it became a separate dimension, existing parallel to the familiar lands of Minecraft."
-			]
 			id: "357D3ED968C0B60C"
 			rewards: [
 				{
@@ -100,7 +96,6 @@
 			]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "&n&9The Legend of the Aether&r&r"
 			tasks: [{
 				advancement: "aether:enter_aether"
 				criterion: ""
@@ -241,7 +236,7 @@
 			id: "5FA2B6E76BD78E36"
 			tasks: [{
 				id: "61FECF8098F02B44"
-				item: "aether:enchanted_gravitite"
+				item: "aether_redux:gravitite_ingot"
 				type: "item"
 			}]
 			x: 4.5d
@@ -271,11 +266,14 @@
 				item: "aether:blue_moa_egg"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: 7.0d
 		}
 		{
-			dependencies: ["77A49F5DD325CC07"]
+			dependencies: [
+				"77A49F5DD325CC07"
+				"6A8893C1A5005724"
+			]
 			id: "3BEB71D044190B8F"
 			rewards: [{
 				id: "36F4F8B6B9F552D5"
@@ -287,7 +285,7 @@
 				item: "aether:incubator"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 7.0d
 		}
 		{
@@ -300,7 +298,7 @@
 				id: "7BEFBB858169D0ED"
 				type: "advancement"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: 7.0d
 		}
 		{
@@ -311,8 +309,8 @@
 				item: "aether:ambrosium_shard"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 9.5d
+			x: 2.5d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -330,29 +328,45 @@
 		}
 		{
 			dependencies: ["357D3ED968C0B60C"]
-			description: ["Adventurers who dare to embark on a journey to the &bAether&r are drawn by the allure of its otherworldly beauty and the promise of uncovering ancient secrets. They must navigate the floating islands, harness the power of new resources, and form alliances with the Aerians to bring harmony back to this celestial realm."]
 			id: "3261AA84DF4E4E12"
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "&9&nThe Quest for Harmony&r&r"
 			tasks: [{
 				id: "391ACA058940A955"
 				item: "aether:zanite_gemstone"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["5FA2B6E76BD78E36"]
+			description: ["With a full set, your jump will be increased. The Gravitite Ring boosts it even higher."]
 			icon: {
 				Count: 1
-				id: "aether:gravitite_chestplate"
+				id: "aether:gravitite_helmet"
 				tag: {
 					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
 				}
 			}
 			id: "233AEE1DF9117A05"
+			rewards: [{
+				id: "0D9B5ED48964DB31"
+				item: {
+					Count: 1
+					id: "deep_aether:gravitite_ring"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5DDDDE056BBBF104"
@@ -398,21 +412,31 @@
 					}
 					type: "item"
 				}
+				{
+					id: "7CB8C017A2DB0FD7"
+					item: {
+						Count: 1
+						id: "aether:gravitite_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
+			title: "Gravitite Armor"
 			x: 5.5d
 			y: 12.5d
 		}
 		{
-			dependencies: ["357D3ED968C0B60C"]
-			description: [
-				"Inhabiting the &bAether&r are enigmatic beings known as the Aerians, who are the guardians of this ethereal realm. These winged creatures possess an innate connection to the elements and are revered for their wisdom and benevolence. "
-				""
-				"They watch over the &bAether&r with unwavering dedication, ensuring that its harmonious balance is preserved."
-			]
 			id: "08067422126C49AF"
+			rewards: [{
+				id: "38319BB3E5653DFB"
+				item: "nameless_trinkets:ice_cube"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "&9&nThe Guardians&r&r"
 			tasks: [{
 				id: "70E29EBB56487036"
 				item: "aether:bronze_dungeon_key"
@@ -422,9 +446,8 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["08067422126C49AF"]
 			id: "39F8D249768715BE"
-			shape: "pentagon"
+			shape: "diamond"
 			tasks: [{
 				id: "2E4B99FD53AED4AE"
 				item: {
@@ -437,11 +460,15 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 5.5d
+			y: 11.5d
 		}
 		{
-			dependencies: ["08067422126C49AF"]
 			id: "643083A83E5B9B18"
+			rewards: [{
+				id: "0FA10ECA5AD340C3"
+				item: "nameless_trinkets:speed_force"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.5d
 			subtitle: "A reflective key that is given to you by the Valkyrie Queen after defeating her. Use it to claim the treasure she left behind!"
@@ -450,12 +477,16 @@
 				item: "aether:silver_dungeon_key"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 12.0d
 			y: 7.0d
 		}
 		{
-			dependencies: ["643083A83E5B9B18"]
 			id: "4167FEC4F9A0252C"
+			rewards: [{
+				id: "59F2611718B577FE"
+				item: "nameless_trinkets:explosion_proof_jacket"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.5d
 			subtitle: "A key that has a shiny finish. It is dropped by the Sun Spirit after you defeat him. You can use it to claim the legendary treasure in the back room!"
@@ -464,12 +495,16 @@
 				item: "aether:gold_dungeon_key"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 15.0d
 			y: 7.0d
 		}
 		{
-			dependencies: ["4167FEC4F9A0252C"]
 			id: "75C310C72E5F9F14"
+			rewards: [{
+				id: "5DEE9AB328D5AB12"
+				item: "nameless_trinkets:callus"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
@@ -477,25 +512,33 @@
 				item: "lost_aether_content:platinum_key"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 18.0d
 			y: 7.0d
 		}
 		{
-			dependencies: ["08067422126C49AF"]
 			id: "0A9462330AE2B8EF"
 			shape: "diamond"
 			size: 1.0d
 			tasks: [{
 				id: "634167B4601920E3"
-				item: "aether_redux:sentry_ring"
+				item: {
+					Count: 1
+					id: "aether:sentry_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
 				type: "item"
 			}]
 			x: 9.5d
 			y: 8.5d
 		}
 		{
-			dependencies: ["75C310C72E5F9F14"]
 			id: "3D7E1C891CAEB7E5"
+			shape: "diamond"
 			tasks: [{
 				id: "53F772C9C1BD1967"
 				item: {
@@ -507,8 +550,8 @@
 				}
 				type: "item"
 			}]
-			x: 20.0d
-			y: 9.0d
+			x: 18.0d
+			y: 10.0d
 		}
 		{
 			id: "4DEB1956180D3C61"
@@ -524,8 +567,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
-			y: 12.5d
+			x: 18.0d
+			y: 9.0d
 		}
 		{
 			id: "4FBD00CBE6F39027"
@@ -541,8 +584,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: 12.5d
+			x: 17.5d
+			y: 8.5d
 		}
 		{
 			id: "2B0649FBCDF189B5"
@@ -559,8 +602,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
-			y: 14.0d
+			x: 18.5d
+			y: 8.5d
 		}
 		{
 			id: "0D12DFA2D267AA47"
@@ -576,8 +619,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
-			y: 14.5d
+			x: 18.5d
+			y: 9.5d
 		}
 		{
 			id: "1E1D119DBF1BE50F"
@@ -593,8 +636,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: 14.5d
+			x: 17.5d
+			y: 9.5d
 		}
 		{
 			id: "3C737311F7CDC419"
@@ -610,12 +653,12 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
-			y: 15.0d
+			x: 17.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["04576ACE03218FEC"]
-			description: ["Resembling fluffy clouds, Sheepuff are docile creatures that roam the Aether's landscape. Their wool can be sheared to obtain ethereal clouds, a valuable material with various practical uses."]
+			description: ["Resembling fluffy clouds, Sheepuff are docile creatures that roam the Aether's landscape. They can be sheared for wool just like an ordinary sheep."]
 			id: "2F147D07C676520B"
 			tasks: [{
 				icon: "collectorsalbum:common_sheep_card"
@@ -629,32 +672,18 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["08067422126C49AF"]
 			id: "7F6E9A4C601CA13F"
 			shape: "diamond"
 			size: 1.0d
 			tasks: [{
 				id: "73681E7D73B85673"
-				item: "aether_redux:enchanted_ring"
+				item: "aether:lightning_knife"
 				type: "item"
 			}]
 			x: 8.5d
 			y: 8.5d
 		}
 		{
-			dependencies: ["643083A83E5B9B18"]
-			id: "4BF940784B49F737"
-			shape: "diamond"
-			tasks: [{
-				id: "7ED3856A467445DC"
-				item: "aether_redux:ring_of_construction"
-				type: "item"
-			}]
-			x: 12.5d
-			y: 8.5d
-		}
-		{
-			dependencies: ["08067422126C49AF"]
 			id: "29620F40472C9BB4"
 			shape: "diamond"
 			size: 1.0d
@@ -671,7 +700,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["643083A83E5B9B18"]
 			id: "0B0AB8C2C9CBE5B6"
 			shape: "diamond"
 			tasks: [{
@@ -679,11 +707,10 @@
 				item: "aether:regeneration_stone"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 8.5d
+			x: 12.0d
+			y: 10.0d
 		}
 		{
-			dependencies: ["4167FEC4F9A0252C"]
 			id: "4E11F34EF194B62D"
 			shape: "diamond"
 			tasks: [{
@@ -697,7 +724,7 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
+			x: 14.5d
 			y: 8.5d
 		}
 		{
@@ -708,12 +735,24 @@
 				item: "aether:iron_bubble"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 13.5d
+			x: 14.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["08067422126C49AF"]
 			id: "74BD71A20B66D919"
+			rewards: [
+				{
+					id: "4DA6197161F525E8"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "604B94E13094A7F4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "diamond"
 			subtitle: "Dropped when defeating a Slider without taking a single hit."
 			tasks: [{
@@ -728,11 +767,23 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 10.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["4167FEC4F9A0252C"]
 			id: "4D5977709FF623B4"
+			rewards: [
+				{
+					id: "30BA04091D64DEA7"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "66187229083EE585"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "diamond"
 			subtitle: "Dropped when defeating a Sun Spirit without taking a single hit."
 			tasks: [{
@@ -740,12 +791,24 @@
 				item: "deep_aether:sun_core"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 10.0d
+			x: 15.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["643083A83E5B9B18"]
 			id: "62574471315084C9"
+			rewards: [
+				{
+					id: "7392186D761A7C3E"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "1D2B82030EB7FA6E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "diamond"
 			subtitle: "Dropped when defeating a Valkyrian Queen without taking a single hit."
 			tasks: [{
@@ -753,24 +816,17 @@
 				item: "deep_aether:medal_of_honor"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["4167FEC4F9A0252C"]
-			id: "7095724DAD24296A"
-			shape: "diamond"
-			tasks: [{
-				id: "5EF0E25247738823"
-				item: "aether:life_shard"
-				type: "item"
-			}]
-			x: 16.5d
-			y: 8.5d
+			x: 12.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["04576ACE03218FEC"]
 			id: "38426BE3149DCC59"
+			rewards: [{
+				id: "15A81BD83555FCB7"
+				item: "aether:blue_gummy_swet"
+				type: "item"
+			}]
 			tasks: [{
 				id: "545ED15406D8BB37"
 				item: "aether:swet_ball"
@@ -782,6 +838,11 @@
 		{
 			dependencies: ["04576ACE03218FEC"]
 			id: "2390445545DCD9B2"
+			rewards: [{
+				id: "318C492D9F9F9540"
+				item: "aether:golden_gummy_swet"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7ECB7ABC54B6D15D"
 				item: "aether_redux:golden_swet_ball"
@@ -793,6 +854,11 @@
 		{
 			dependencies: ["04576ACE03218FEC"]
 			id: "0596447CC99F3E85"
+			rewards: [{
+				id: "070F7018AE45A0A5"
+				item: "aether_redux:vanilla_gummy_swet"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5B7630FDF71BD0CA"
 				item: "aether_redux:vanilla_swet_ball"
@@ -802,9 +868,9 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["08067422126C49AF"]
+			description: ["using this as a weapon looks funny because the sprite is sideways"]
 			id: "23E510849CE1FC8D"
-			shape: "pentagon"
+			shape: "diamond"
 			tasks: [{
 				id: "3801F3F1FB1EAD3B"
 				item: {
@@ -817,43 +883,82 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 5.5d
+			y: 11.5d
 		}
 		{
-			dependencies: ["4167FEC4F9A0252C"]
 			id: "00E725158903352D"
-			shape: "pentagon"
-			tasks: [{
-				id: "0C6769ADF049FE00"
-				item: {
-					Count: 1
-					id: "aether:phoenix_chestplate"
-					tag: {
-						Damage: 0
+			shape: "diamond"
+			tasks: [
+				{
+					id: "17E5C85759661357"
+					item: {
+						Count: 1
+						id: "aether:phoenix_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 17.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["643083A83E5B9B18"]
-			id: "792746A8D3073205"
-			shape: "pentagon"
-			tasks: [{
-				id: "36B12D52B94ABCBA"
-				item: {
-					Count: 1
-					id: "aether:valkyrie_chestplate"
-					tag: {
-						Damage: 0
+				{
+					id: "5F438D94880E2EB6"
+					item: {
+						Count: 1
+						id: "aether:phoenix_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 13.0d
-			y: 5.5d
+				{
+					id: "6FD7F61ED79D1139"
+					item: {
+						Count: 1
+						id: "aether:phoenix_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D180D5DCA4CCF97"
+					item: {
+						Count: 1
+						id: "aether:phoenix_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "271C7D37068B5E36"
+					item: {
+						Count: 1
+						id: "aether:phoenix_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["0B6E47092E441BC0"]
@@ -945,8 +1050,8 @@
 				id: "3576438BF3DC3690"
 				type: "advancement"
 			}]
-			x: 3.0d
-			y: 11.0d
+			x: 2.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["0B6E47092E441BC0"]
@@ -1075,7 +1180,22 @@
 		}
 		{
 			dependencies: ["079DFC0E41D92241"]
+			description: ["The Stratus armor keeps the high jump of the Gravitite armor, and also gives a dash."]
 			id: "15A40EE1540457A3"
+			rewards: [{
+				id: "7DA25CED9068DFE9"
+				item: {
+					Count: 1
+					id: "deep_aether:stratus_ring"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7B8A9BCF1BBD5030"
@@ -1121,6 +1241,17 @@
 					}
 					type: "item"
 				}
+				{
+					id: "7E155013D8A1183F"
+					item: {
+						Count: 1
+						id: "deep_aether:stratus_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
 			x: 4.5d
 			y: 15.0d
@@ -1133,20 +1264,20 @@
 				item: "aether:invisibility_cloak"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 13.5d
+			x: 12.0d
+			y: 9.0d
 		}
 		{
+			dependencies: ["3173DC3B54DD3BDB"]
 			id: "13F03A5D89E4C30F"
-			shape: "diamond"
 			subtitle: "Obtained from enchanting Holystone"
 			tasks: [{
 				id: "7B27E32C1B34BC03"
 				item: "aether:healing_stone"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 13.0d
+			x: 6.0d
+			y: 11.0d
 		}
 		{
 			id: "1863FA8D3770A396"
@@ -1156,8 +1287,8 @@
 				item: "deep_aether:music_disc_nabooru"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 13.5d
+			x: 14.5d
+			y: 12.5d
 		}
 		{
 			id: "414610BAA4D63201"
@@ -1167,8 +1298,8 @@
 				item: "deep_aether:music_disc_a_morning_wish"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 13.0d
+			x: 15.5d
+			y: 12.5d
 		}
 		{
 			id: "354EC46A209B3A85"
@@ -1178,8 +1309,8 @@
 				item: "aether:music_disc_aether_tune"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 13.5d
+			x: 15.0d
+			y: 13.0d
 		}
 		{
 			id: "472B2DD91C80D31C"
@@ -1189,8 +1320,8 @@
 				item: "aether:music_disc_ascending_dawn"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 14.0d
+			x: 15.0d
+			y: 12.0d
 		}
 		{
 			id: "5832BF00547EA4C6"
@@ -1200,8 +1331,8 @@
 				item: "lost_aether_content:music_disc_legacy"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 14.5d
+			x: 14.5d
+			y: 13.5d
 		}
 		{
 			id: "01486283D240959E"
@@ -1211,8 +1342,8 @@
 				item: "lost_aether_content:music_disc_sovereign_of_the_skies"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 14.5d
+			x: 15.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["357D3ED968C0B60C"]
@@ -1255,9 +1386,7 @@
 		}
 		{
 			dependencies: ["357D3ED968C0B60C"]
-			description: ["The flora and fauna of the &bAether&r dimension enrich the gameplay experience, offering a captivating array of natural wonders and otherworldly inhabitants for players to encounter, interact with, and harness as they explore this enchanting dimension."]
 			id: "04576ACE03218FEC"
-			subtitle: "&9&nEnchanting and unique&r&r"
 			tasks: [{
 				id: "5EC21C5EA6DC3898"
 				type: "checkmark"
@@ -1284,10 +1413,15 @@
 					item: "deep_aether:blightmoss_holystone_bricks"
 					type: "item"
 				}
+				{
+					id: "4D17B746F5724EAC"
+					item: "aether:holystone_bricks"
+					type: "item"
+				}
 			]
 			title: "...all the bricks"
 			x: 1.0d
-			y: 16.0d
+			y: 17.0d
 		}
 		{
 			id: "7F4E6F49552DCAE7"
@@ -1317,15 +1451,10 @@
 					item: "ancient_aether:aerogetic_stone"
 					type: "item"
 				}
-				{
-					id: "5434465A8674B2DF"
-					item: "lost_aether_content:light_gale_stone"
-					type: "item"
-				}
 			]
 			title: "All the stones..."
 			x: 0.0d
-			y: 16.0d
+			y: 17.0d
 		}
 		{
 			id: "63813B7783C6B9CF"
@@ -1396,6 +1525,880 @@
 			}]
 			x: 11.5d
 			y: 17.0d
+		}
+		{
+			id: "3D7CF29EDE81DD87"
+			shape: "diamond"
+			tasks: [{
+				id: "1D64FA40CCB365EC"
+				item: "aether_redux:slider_music_disc"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 14.0d
+		}
+		{
+			id: "066F5F35C2E89347"
+			tasks: [{
+				id: "376FD4FD6C831219"
+				item: "aether_redux:refined_sentrite_block"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["75C310C72E5F9F14"]
+			id: "2E7059C7EF6965F1"
+			rewards: [
+				{
+					id: "43BE92555A549DCD"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "6CE2BFD1A39C25C0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			subtitle: "Dropped when defeating an Aerwhale King without taking a single hit."
+			tasks: [{
+				id: "5D77E6EB024BC8B8"
+				item: "deep_aether:aerwhale_saddle"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 5.5d
+		}
+		{
+			id: "42D43DB30E1A1A86"
+			shape: "diamond"
+			tasks: [{
+				id: "1DE99CDA47E9DA1E"
+				item: "aether:valkyrie_cape"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 10.5d
+		}
+		{
+			id: "0025237D625DAACA"
+			shape: "diamond"
+			tasks: [{
+				id: "3EF368BDF68359FB"
+				item: {
+					Count: 1
+					id: "aether_redux:grand_victory_medal"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 8.5d
+		}
+		{
+			id: "2FF50A945D63D33A"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "559507C4BBFE088B"
+					item: {
+						Count: 1
+						id: "ancient_aether:divine_pickaxe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+							reinforce_level: 0
+							reinforce_max: 10
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74E447079474A611"
+					item: {
+						Count: 1
+						id: "ancient_aether:divine_shovel"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+							reinforce_level: 0
+							reinforce_max: 10
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "767D813DDBFAA1F4"
+					item: {
+						Count: 1
+						id: "ancient_aether:divine_axe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							reinforce_level: 0
+							reinforce_max: 10
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "455E1EF2845191E2"
+					item: {
+						Count: 1
+						id: "ancient_aether:divine_hoe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+							reinforce_level: 0
+							reinforce_max: 10
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 9.5d
+		}
+		{
+			id: "493C2E0419F41220"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "769710DEE7ABA32C"
+					item: {
+						Count: 1
+						id: "ancient_aether:growth_pendant"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44E2905961AE4519"
+					item: {
+						Count: 1
+						id: "ancient_aether:growth_ring"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 9.5d
+		}
+		{
+			id: "0A2FF65CC6CA5FE4"
+			shape: "diamond"
+			tasks: [{
+				id: "6E17249A83E9FFE5"
+				item: {
+					Count: 1
+					id: "aether:lightning_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 10.5d
+		}
+		{
+			id: "19A0DD4B4D201DEC"
+			shape: "diamond"
+			tasks: [{
+				id: "73DC50166DFCE984"
+				item: {
+					Count: 1
+					id: "aether:holy_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 11.5d
+		}
+		{
+			id: "721CD84BBAF8A7DE"
+			shape: "diamond"
+			tasks: [{
+				id: "0A68F337DE31136A"
+				item: "ancient_aether:strength_stone"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 11.0d
+		}
+		{
+			id: "3F1EF66D944F9E45"
+			shape: "diamond"
+			tasks: [{
+				id: "22299263FDD0B0C3"
+				item: {
+					Count: 1
+					id: "aether:cloud_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 13.5d
+		}
+		{
+			id: "55CDA050ACC819AD"
+			shape: "diamond"
+			tasks: [{
+				id: "024D495A36C85843"
+				item: "aether:agility_cape"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 9.5d
+		}
+		{
+			id: "5A98C9E6C8F046F2"
+			shape: "diamond"
+			tasks: [{
+				id: "6B40A87494BBCF1D"
+				item: {
+					Count: 1
+					id: "aether:shield_of_repulsion"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.5d
+		}
+		{
+			id: "3817281C7E03BCE8"
+			shape: "diamond"
+			tasks: [{
+				id: "797EB9103132CB67"
+				item: {
+					Count: 1
+					id: "aether:phoenix_bow"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 10.0d
+		}
+		{
+			id: "6DEF3929C8C03AA1"
+			shape: "diamond"
+			tasks: [{
+				id: "5D3EBCDB670FDA5A"
+				item: {
+					Count: 1
+					id: "aether:flaming_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 11.0d
+		}
+		{
+			id: "5EF3F213210E8F2C"
+			shape: "diamond"
+			tasks: [{
+				id: "6EE03F261F832A93"
+				item: "aether:swet_cape"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 12.0d
+		}
+		{
+			id: "5260D4402920AB0E"
+			shape: "diamond"
+			tasks: [{
+				id: "47B1E5A398141411"
+				item: "aether_redux:airbound_cape"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 10.5d
+		}
+		{
+			id: "4C6460EF89C9B382"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "797633370A358448"
+					item: {
+						Count: 1
+						id: "aether:neptune_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "126C167298BCA3EA"
+					item: {
+						Count: 1
+						id: "aether:neptune_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18E497DC36EA9722"
+					item: {
+						Count: 1
+						id: "aether:neptune_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64BE9D489388C90D"
+					item: {
+						Count: 1
+						id: "aether:neptune_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FE3ECDE77912CC4"
+					item: {
+						Count: 1
+						id: "aether:neptune_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 10.5d
+		}
+		{
+			id: "34AA3708440E4D9F"
+			shape: "diamond"
+			tasks: [{
+				id: "72D40B0942DDB53B"
+				item: {
+					Count: 1
+					id: "deep_aether:spooky_ring"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 13.5d
+		}
+		{
+			id: "6F77F7CE9E364AB6"
+			shape: "diamond"
+			tasks: [{
+				id: "3B232AE5723B1202"
+				item: {
+					Count: 1
+					id: "aether_redux:ring_of_construction"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 8.5d
+		}
+		{
+			id: "7989DE61CADF9467"
+			rewards: [{
+				id: "3B9B76AAD281060A"
+				item: "nameless_trinkets:wooden_stick"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "483F8CAF49EB8455"
+				item: "ancient_aether:laboratory_dungeon_key"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 7.0d
+		}
+		{
+			description: ["man i love candy canes"]
+			id: "0C2669EEAAAA6D7E"
+			rewards: [{
+				id: "1B9293C4ABA50BF0"
+				item: "simplehats:candycane"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "im eating a candy cane while i make these quests"
+			tasks: [{
+				id: "6FB5DBE47B494BCD"
+				item: {
+					Count: 1
+					id: "aether:candy_cane_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 14.0d
+		}
+		{
+			description: ["A dimension with an unfinished final dungeon? Welcome back Twilight Forest"]
+			id: "7C1E3B2FA781C340"
+			optional: true
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "This part of the mod is not yet finished"
+			tasks: [{
+				id: "31FEC3CD79259C35"
+				item: "ancient_aether:ancient_dungeon_key"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 7.0d
+		}
+		{
+			id: "1C0F14A8697069DB"
+			optional: true
+			shape: "diamond"
+			tasks: [
+				{
+					id: "63E7BB683AEE198F"
+					item: {
+						Count: 1
+						id: "ancient_aether:ancient_pendant"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "448CE45C133B03EE"
+					item: {
+						Count: 1
+						id: "ancient_aether:ancient_ring"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 23.5d
+			y: 8.5d
+		}
+		{
+			id: "59E2164B6FF8E97F"
+			shape: "diamond"
+			subtitle: "This rune is a key used to unlock the Ancient Dungeon"
+			tasks: [{
+				id: "3BB1D90B2E1C1266"
+				item: "ancient_aether:ancient_rune"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 9.0d
+		}
+		{
+			id: "0D7E47E81BB601CF"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "02892D2AC9BDB0A4"
+				item: {
+					Count: 1
+					id: "ancient_aether:ancient_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 24.5d
+			y: 8.5d
+		}
+		{
+			id: "68888F94CAE127E4"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "66A4956F9D134E7D"
+					item: {
+						Count: 1
+						id: "ancient_aether:warrior_pendant"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E37C3110E521FF4"
+					item: {
+						Count: 1
+						id: "ancient_aether:warrior_ring"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 20.5d
+			y: 9.5d
+		}
+		{
+			id: "02CC547AA6264B50"
+			shape: "diamond"
+			tasks: [{
+				id: "60034AFB74207E1F"
+				item: {
+					Count: 1
+					id: "aether:vampire_blade"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 9.5d
+		}
+		{
+			id: "5921D587DFA7F59A"
+			shape: "diamond"
+			tasks: [{
+				id: "15F8DF1DF6683A01"
+				item: {
+					Count: 1
+					id: "aether:pig_slayer"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.0d
+		}
+		{
+			id: "0DCF6EB06F19AA66"
+			shape: "diamond"
+			tasks: [{
+				id: "09E1B0969061A182"
+				item: {
+					Count: 1
+					id: "lost_aether_content:shield_of_emile"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: 10.5d
+		}
+		{
+			id: "2FC2F0F08A028896"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7400160F5C14635A"
+					item: {
+						Count: 1
+						id: "lost_aether_content:phoenix_sword"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							reinforce_level: 0
+							reinforce_max: 10
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FCDCD1C874F1C7F"
+					item: {
+						Count: 1
+						id: "lost_aether_content:phoenix_pickaxe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+							reinforce_level: 0
+							reinforce_max: 10
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31AFBF1EB097D071"
+					item: {
+						Count: 1
+						id: "lost_aether_content:phoenix_shovel"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+							reinforce_level: 0
+							reinforce_max: 10
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6576C92FB3B6EF59"
+					item: {
+						Count: 1
+						id: "lost_aether_content:phoenix_axe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							reinforce_level: 0
+							reinforce_max: 10
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E075A8DE8CAD3B6"
+					item: {
+						Count: 1
+						id: "lost_aether_content:phoenix_hoe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+							reinforce_level: 0
+							reinforce_max: 10
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 11.0d
+		}
+		{
+			id: "2AA52630F1D91DC8"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "60DAFA8B1EF55CE2"
+					item: {
+						Count: 1
+						id: "ancient_aether:hermes_pendant"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17E514A7999537CE"
+					item: {
+						Count: 1
+						id: "ancient_aether:hermes_ring"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 21.5d
+			y: 9.5d
+		}
+		{
+			id: "780B0FB0F027EC08"
+			shape: "diamond"
+			tasks: [{
+				id: "03022DC549FA8191"
+				item: "ancient_aether:shield_of_inebriation"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 8.5d
+		}
+		{
+			id: "6A8D7CFC44A529A7"
+			shape: "diamond"
+			tasks: [{
+				id: "3A6666F1274E830C"
+				item: "ancient_aether:shield_of_remediation"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 8.5d
+		}
+		{
+			id: "48317CB74A4B6904"
+			shape: "diamond"
+			tasks: [{
+				id: "765097BD015C76A7"
+				item: "aether:sun_altar"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3173DC3B54DD3BDB"]
+			description: ["Vanilla, Aether, and HMaG items can be repaired in the Altar. Why HMaG? Because that mod has over a hundred little pieces of cross-mod compatibility built in. Great mod. Anyway, if you complain to me (Samiel) on the discord, I'll add any mod you want to the repair list."]
+			id: "52EF899298675408"
+			tasks: [{
+				id: "20F288E19389014C"
+				title: "Altar Repairing"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6A8893C1A5005724"]
+			description: ["This size of Titanite allows you to upgrade your weapons from +3 to +6."]
+			id: "031092FD31C06C56"
+			rewards: [{
+				count: 16
+				id: "090169FBBEB7C6FC"
+				item: "aether:aerogel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "556790E1F8625610"
+				item: "bonfires:large_titanite_shard"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.5d
 		}
 	]
 	title: "&fStairway to Aether&r"

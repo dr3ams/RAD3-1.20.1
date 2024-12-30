@@ -63,9 +63,9 @@
 			description: ["Slates are the foundation of Blood Magic. They are used to craft just about everything in the mod."]
 			id: "54AAFEDAC41F3E7C"
 			rewards: [{
-				id: "7C0A6232847388D8"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "28FA643B5E414D02"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "6B984E05943FB4F4"
@@ -116,9 +116,9 @@
 			dependencies: ["54AAFEDAC41F3E7C"]
 			id: "3691AD362252DEAF"
 			rewards: [{
-				id: "66AC69749481641E"
-				type: "xp_levels"
-				xp_levels: 2
+				id: "36DCB1DA5EEA6535"
+				type: "xp"
+				xp: 200
 			}]
 			tasks: [{
 				id: "776017AD771ABE2C"
@@ -199,9 +199,9 @@
 			dependencies: ["3691AD362252DEAF"]
 			id: "372CEAA7DDE2C118"
 			rewards: [{
-				id: "0AE2F4F0950FF68D"
-				type: "xp_levels"
-				xp_levels: 5
+				id: "61360B9976504F7C"
+				type: "xp"
+				xp: 500
 			}]
 			tasks: [{
 				id: "1E76835ADE342402"
@@ -242,9 +242,9 @@
 			dependencies: ["372CEAA7DDE2C118"]
 			id: "76CBE2BFA6C7444C"
 			rewards: [{
-				id: "640E01BF0E64C61A"
-				type: "xp_levels"
-				xp_levels: 15
+				id: "1551AAB0EF375910"
+				type: "xp"
+				xp: 1500
 			}]
 			tasks: [{
 				id: "60A4529EBF6145E4"
@@ -285,6 +285,11 @@
 			dependencies: ["322BE570358C17A6"]
 			description: ["At this point, you can get other things to do the bleeding for you. The Dagger of Sacrifice is disabled in this pack. Mobs damaged near the Blood Altar using the Dagger of Bloodletting will release life essence."]
 			id: "5906E9BE6CCF0636"
+			rewards: [{
+				id: "02A1711D52F65C6E"
+				item: "nameless_trinkets:vampire_blood"
+				type: "item"
+			}]
 			tasks: [{
 				id: "20468BC8AC50B323"
 				item: {
@@ -374,9 +379,9 @@
 			description: ["Ethereal Slates aren't good for much besides end game altar upgrades. "]
 			id: "0110C13A62707634"
 			rewards: [{
-				id: "713DDC7E8C2EE2E9"
-				type: "xp_levels"
-				xp_levels: 30
+				id: "655BEE3F4B49BF75"
+				type: "xp"
+				xp: 3000
 			}]
 			tasks: [{
 				id: "2C534E29D78227A3"
@@ -861,8 +866,18 @@
 		}
 		{
 			dependencies: ["66E481CEF908567B"]
-			description: ["Complete the &oEndless Realm&r ritual and dive even deeper into the demon realm. Find and unlock the mines and bring back some Demonite."]
+			description: [
+				"Complete the &oEndless Realm&r ritual and dive even deeper into the demon realm. Find and unlock the mines and bring back some Demonite."
+				""
+				"The demon realm is an endless dungeon full of tough monsters and loot. I had a lot of fun exploring it. Here! I'll save you some grind! Take these keys!"
+			]
 			id: "06DFB19C259DE2B1"
+			rewards: [{
+				count: 64
+				id: "217E33D4D25E9C7C"
+				item: "bloodmagic:simplekey"
+				type: "item"
+			}]
 			tasks: [{
 				id: "22EB8253DEBB5BD1"
 				item: "bloodmagic:ingot_hellforged"
@@ -872,5 +887,5 @@
 			y: 4.0d
 		}
 	]
-	title: "Blood Mage"
+	title: "&4Blood Magic&r"
 }

@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "not_enough_food"
-	group: "5AAD108D5AD37CD9"
+	group: "4DA7EBDF283EFCB0"
 	icon: "farmersdelight:cooking_pot"
 	id: "62E81CB0EB2A6987"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -48,7 +48,7 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "random_mob_drops"
+							type: "resource_loot_crate_1"
 						}
 					}
 					type: "item"
@@ -83,7 +83,7 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "random_enchant"
+							type: "resource_loot_crate_2"
 						}
 					}
 					type: "item"
@@ -117,7 +117,7 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "random_mob_drops"
+							type: "resource_loot_crate_1"
 						}
 					}
 					type: "item"
@@ -146,7 +146,7 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "random_materials"
+							type: "resource_loot_crate_1"
 						}
 					}
 					type: "item"
@@ -175,7 +175,7 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "random_enchant"
+							type: "resource_loot_crate_2"
 						}
 					}
 					type: "item"
@@ -892,7 +892,7 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "common_loot_crate"
+							type: "resource_loot_crate_1"
 						}
 					}
 					type: "item"
@@ -921,7 +921,7 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "common_loot_crate"
+							type: "resource_loot_crate_1"
 						}
 					}
 					type: "item"
@@ -1048,7 +1048,7 @@
 			]
 			tasks: [{
 				id: "7E72E8F8B5D53CBE"
-				item: "farmersdelight:mushroom_rice"
+				item: "miners_delight:seasoned_arthropods"
 				type: "item"
 			}]
 			x: 5.0d
@@ -1216,11 +1216,11 @@
 			]
 			tasks: [{
 				id: "630B6B410B90C5A5"
-				item: "farmersdelight:cooked_rice"
+				item: "miners_delight:vegan_hamburger"
 				type: "item"
 			}]
 			x: 2.0d
-			y: -8.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["18F8DADD01FEC9C2"]
@@ -1291,8 +1291,8 @@
 				item: "farmersdelight:chicken_soup"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -9.5d
+			x: 1.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["18F8DADD01FEC9C2"]
@@ -1623,7 +1623,7 @@
 			]
 			tasks: [{
 				id: "06E6EA65EEF79E67"
-				item: "corn_delight:corn_soup"
+				item: "oceansdelight:cabbage_wrapped_elder_guardian"
 				type: "item"
 			}]
 			x: 9.0d
@@ -1647,11 +1647,11 @@
 			]
 			tasks: [{
 				id: "724E44F7B7666B1A"
-				item: "corn_delight:creamed_corn"
+				item: "miners_delight:glow_ink_pasta"
 				type: "item"
 			}]
 			x: 5.0d
-			y: -12.5d
+			y: -13.5d
 		}
 		{
 			dependencies: ["18F8DADD01FEC9C2"]
@@ -1671,7 +1671,7 @@
 			]
 			tasks: [{
 				id: "773B152573D24B6A"
-				item: "corn_delight:cornbread_stuffing"
+				item: "miners_delight:stuffed_squid"
 				type: "item"
 			}]
 			x: 9.0d
@@ -1695,11 +1695,11 @@
 			]
 			tasks: [{
 				id: "0C40E1DEABA15F9C"
-				item: "corn_delight:nachos_block"
+				item: "oceansdelight:guardian_soup"
 				type: "item"
 			}]
 			x: 5.0d
-			y: -13.5d
+			y: -12.5d
 		}
 	]
 	title: "Not Enough Food"

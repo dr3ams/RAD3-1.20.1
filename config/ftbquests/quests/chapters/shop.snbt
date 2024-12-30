@@ -263,8 +263,15 @@
 			}
 			id: "03A1DDD2943E57B1"
 			rewards: [{
-				id: "600299CCD3C22A23"
-				type: "custom"
+				id: "573FDF082B92138F"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "relics_crate"
+					}
+				}
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -296,17 +303,12 @@
 		{
 			can_repeat: true
 			disable_toast: true
-			icon: {
-				Count: 1
-				id: "artifacts:fire_gauntlet"
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "nameless_trinkets:gods_crown"
 			id: "079C8AA41B7C34E1"
 			rewards: [{
-				id: "1C505F7EDFA105D4"
-				type: "custom"
+				id: "309EA3BA0C067D57"
+				item: "nameless_trinkets:mysterious_trinket"
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -331,7 +333,7 @@
 					value: 1L
 				}
 			]
-			title: "Diamond Coin -> Artifacts Crate"
+			title: "Diamond Coin -> Trinket"
 			x: 8.0d
 			y: -4.5d
 		}
@@ -345,8 +347,15 @@
 			}
 			id: "7A6654B7CF68E559"
 			rewards: [{
-				id: "6F788D5944714C9E"
-				type: "custom"
+				id: "46F4FB9A00DA0882"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "artifact_loot_crate"
+					}
+				}
+				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
@@ -622,7 +631,8 @@
 			id: "11A1A5FA2C02CE60"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "29CFF33126995212"
+				id: "3EB56B9E07224F40"
+				table_id: 205688915300873583L
 				type: "random"
 			}]
 			shape: "octagon"
@@ -787,7 +797,8 @@
 			id: "72029F2DA090C4F4"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "70A564CD037F1914"
+				id: "3B41157FB3F533C2"
+				table_id: 3101518903568742149L
 				type: "choice"
 			}]
 			tasks: [{
@@ -814,11 +825,6 @@
 			disable_toast: true
 			icon: "minecraft:stone"
 			id: "7525A4AAA54D2F0F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6AB5DF7E610ADC8A"
-				type: "choice"
-			}]
 			subtitle: "For Granite/Diorite/Andesite"
 			tasks: [{
 				consume_items: true
@@ -1277,7 +1283,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["58BB07133751F879"]
 			disable_toast: true
 			id: "1DE3F2D82D1CDAEB"
 			rewards: [{
@@ -1302,7 +1307,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["1DE3F2D82D1CDAEB"]
 			disable_toast: true
 			id: "6A55C9E5876A8BED"
 			rewards: [{
@@ -1327,7 +1331,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["78F9882C7D8B91FF"]
 			disable_toast: true
 			id: "58BB07133751F879"
 			rewards: [{
@@ -1349,6 +1352,30 @@
 			x: -2.5d
 			y: -11.0d
 		}
+		{
+			can_repeat: true
+			icon: "celestial_artifacts:red_ruby_bracelet"
+			id: "65FB2F4D4E68B1C1"
+			rewards: [{
+				id: "70BF18DE9E6BBE49"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "celestial_artifact_ce"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "38D5049B22DFBE3A"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			title: "Diamond Coin -> Celestial Artifact"
+			x: 8.0d
+			y: -3.5d
+		}
 	]
-	title: "⭐ The Market"
+	title: "&e⭐ The Market&r"
 }
