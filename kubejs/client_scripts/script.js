@@ -35,7 +35,7 @@ JEIEvents.hideItems(event => {
     
     event.hide('ars_instrumentum:fake_wilden_tribute')
     
-    event.hide('l2artifacts:select')
+    event.hide('l2hostility:undying')
     event.hide('l2complements:space_shard')
     event.hide('l2complements:eternal')
     event.hide('l2complements:invincible')
@@ -49,6 +49,7 @@ JEIEvents.hideItems(event => {
     event.hide('create:creative_blaze_cake')
     
     event.hide('bloodmagic:activationcrystalcreative')
+    event.hide('bloodmagic:daggerofsacrifice');
     
     event.hide('armourers_workshop:skin-library-creative')
     
@@ -64,6 +65,7 @@ JEIEvents.hideItems(event => {
     event.hide('occultism:miner_debug_unspecialized')
     
     event.hide('sophisticatedstorage:debug_tool')
+    event.hide('sophisticatedbackpacks:battery_upgrade')
 
     event.hide('ars_trinkets:essence_lotus_3')
     event.hide('ars_trinkets:essence_lotus_4')
@@ -127,21 +129,28 @@ JEIEvents.hideItems(event => {
     event.hide('ars_trinkets:yellow_essence')
     event.hide('ars_trinkets:purple_essence')
 	
+    event.hide('nameless_trinkets:ethereal_wings')
+	event.hide('nameless_trinkets:fragile_cloud')
+	event.hide('nameless_trinkets:dubious_dust')
+	event.hide('nameless_trinkets:glowing_dust')
+	event.hide('nameless_trinkets:ultimate_dust')
     event.hide('skilltree:copper_ring')
     event.hide('skilltree:iron_ring')
     event.hide('skilltree:golden_ring')
     event.hide('celestial_artifacts:gold_ring')
     event.hide('celestial_artifacts:amethyst_ring')
     event.hide('celestial_artifacts:diamond_ring')
-    event.hide('celestial_artifacts:emerald_ring')
     event.hide('celestial_artifacts:flight_ring')
     event.hide('celestial_artifacts:netherite_ring')
     event.hide('celestial_artifacts:ring_of_life')
-    event.hide('celestial_artifacts:bearing_stamen')
-    event.hide('silentgear:ring_blueprint')
-    event.hide('silentgear:ring_template')
-    event.hide('silentgear:ring_shank')
-    event.hide('silentgear:ring')
+	event.hide('levelhearts:heart_piece')
+	event.hide('levelhearts:heart_container')
+	event.hide('paraglider:heart_container')
+	event.hide('supplementaries:altimeter')
+	event.hide('immersive_aircraft:gyrodyne')
+	event.hide('relics:researching_table')
+	event.hide('aether:life_shard')
+	event.hide('naturesaura:rf_converter')
 	
 	event.hide('toms_storage:ts.trim')
 	event.hide('toms_storage:ts.open_crate')
@@ -157,9 +166,12 @@ JEIEvents.hideItems(event => {
 	//event.hide('toms_storage:ts.item_filter')
 	//event.hide('toms_storage:ts.polymorphic_item_filter')
 	//event.hide('toms_storage:ts.tag_item_filter')
-	event.hide('toms_storage:ts.trim')
+	//event.hide('toms_storage:ts.trim')
 	event.hide('toms_storage:ts.level_emitter')
 	event.hide('toms_storage:ts.adv_wireless_terminal')
 	//event.hide('toms_storage:ts.paint_kit')	
 
+})
+JEIEvents.addItems(event => {
+    event.add("minecraft:bundle")
 })

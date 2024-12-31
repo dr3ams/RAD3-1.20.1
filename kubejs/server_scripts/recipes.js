@@ -3,22 +3,28 @@
 console.info("New recipes script is loading...");
 
 const removals = [
+  "minecraft:reinforced_deepslate",
   "gag:time_sand_pouch",
   "gag:escape_rope",
   "gag:hearthstone",
   "gag:sacred_salt",
   "gag:sacred_salve",
   "gag:sacred_balm",
-  "sophisticatedbackpacks:stack_upgrade_starter_tier",
-  "sophisticatedbackpacks:stack_upgrade_tier_1",
-  "sophisticatedbackpacks:stack_upgrade_tier_2",
-  "sophisticatedbackpacks:stack_upgrade_tier_3",
-  "sophisticatedbackpacks:stack_upgrade_tier_4",
-  "sophisticatedbackpacks:backpack",
+//  "sophisticatedbackpacks:stack_upgrade_starter_tier",
+//  "sophisticatedbackpacks:stack_upgrade_tier_1",
+//  "sophisticatedbackpacks:stack_upgrade_tier_2",
+//  "sophisticatedbackpacks:stack_upgrade_tier_3",
+//  "sophisticatedbackpacks:stack_upgrade_tier_4",
+//  "sophisticatedbackpacks:backpack",
   "sophisticatedbackpacks:copper_backpack",
   "sophisticatedbackpacks:iron_backpack",
   "sophisticatedbackpacks:gold_backpack",
   "sophisticatedbackpacks:diamond_backpack",
+  "sophisticatedbackpacks:crafting_upgrade",
+  "sophisticatedstorage:crafting_upgrade",
+  "sophisticatedbackpacks:battery_upgrade",
+  "sophisticatedbackpacks:magnet_upgrade",
+  "sophisticatedstorage:magnet_upgrade",
   "ars_nouveau:source_berry_pie",
   "ars_nouveau:glyph_animate_block",
   "ars_nouveau:creative_spell_book",
@@ -31,18 +37,18 @@ const removals = [
   "ars_nouveau:ritual_disintegration",
   "ars_nouveau:ritual_containment",
   "ars_nouveau:ritual_flowering",
+  "ars_nouveau:novice_spell_book",
   "starbunclemania:star_battery",
   "starbunclemania:star_sword",
   "ars_creo:starbuncle_wheel",
   "tomeofblood:novice_tome_of_blood",
   "tomeofblood:apprentice_tome_of_blood",
   "tomeofblood:archmage_tome_of_blood",
+  "bloodmagic:daggerofsacrifice",
   "ars_instrumentum:fake_wilden_tribute",
   "l2complements:eternal",
   "l2complements:invincible",
-  "occultism:miner_debug_unspecialized",
-  "sophisticatedbackpacks:crafting_upgrade",
-  "sophisticatedstorage:crafting_upgrade",
+  "l2hostility:flaming_thorn",
   "ars_trinkets:essence_lotus_3",
   "ars_trinkets:essence_lotus_4",
   "ars_trinkets:essence_lotus_5",
@@ -105,7 +111,57 @@ const removals = [
   "ars_trinkets:yellow_essence",
   "ars_trinkets:purple_essence",
   "celestial_artifacts:flight_ring",
-  "toms_storage:ts.trim",
+  "nameless_trinkets:ethereal_wings",
+  "nameless_trinkets:fragile_cloud",
+  "nameless_trinkets:missing_page",
+  "nameless_trinkets:reverse_card",
+  "nameless_trinkets:experience_battery",
+  "nameless_trinkets:broken_ankh",
+  "nameless_trinkets:experience_magnet",
+  "nameless_trinkets:broken_magnet",
+//  "nameless_trinkets:super_magnet",
+  "nameless_trinkets:what_magnet",
+  "nameless_trinkets:callus",
+  "nameless_trinkets:speed_force",
+  "nameless_trinkets:vampire_blood",
+  "nameless_trinkets:lucky_rock",
+  "nameless_trinkets:puffer_fish_liver",
+  "nameless_trinkets:rage_mind",
+  "nameless_trinkets:tick",
+  "nameless_trinkets:blindfold",
+  "nameless_trinkets:explosion_proof_jacket",
+  "nameless_trinkets:cracked_crown",
+  "nameless_trinkets:gods_crown",
+  "nameless_trinkets:ghast_eye",
+  "nameless_trinkets:wooden_stick",
+  "nameless_trinkets:blaze_nucleus",
+  "nameless_trinkets:ice_cube",
+  "nameless_trinkets:sigil_of_baphomet",
+  "nameless_trinkets:creeper_sense",
+  "nameless_trinkets:fertilizer",
+  "nameless_trinkets:tear_of_the_sea",
+  "nameless_trinkets:amphibious_hands",
+  "nameless_trinkets:gills",
+//  "nameless_trinkets:true_heart_of_the_sea",
+  "nameless_trinkets:moon_stone",
+  "nameless_trinkets:sleeping_pills",
+  "nameless_trinkets:spider_legs",
+  "nameless_trinkets:reforger",
+  "nameless_trinkets:electric_paddle",
+  "nameless_trinkets:fractured_nullstone",
+  "nameless_trinkets:miners_soul",
+  "nameless_trinkets:pocket_lightning_rod",
+  "nameless_trinkets:scarab_amulet",
+  "nameless_trinkets:fate_emerald",
+  "nameless_trinkets:light_gloves",
+  "nameless_trinkets:dragons_eye",
+  "nameless_trinkets:four_leaf_clover",
+  "nameless_trinkets:nelumbo",
+  "nameless_trinkets:dark_nelumbo",
+  "nameless_trinkets:dubious_dust",
+  "nameless_trinkets:ultimate_dust",
+  "nameless_trinkets:glowing_dust",
+  "tombstone:book_of_recycling",
   "toms_storage:ts.open_crate",
   "toms_storage:ts.inventory_proxy",
   "toms_storage:ts.wireless_terminal",
@@ -119,16 +175,32 @@ const removals = [
   "celestial_artifacts:gold_ring", 
   "celestial_artifacts:amethyst_ring", 
   "celestial_artifacts:diamond_ring", 
-  "celestial_artifacts:emerald_ring", 
   "celestial_artifacts:flight_ring", 
   "celestial_artifacts:netherite_ring", 
   "celestial_artifacts:ring_of_life",
+  "celestial_artifacts:knight_shelter",
+  "celestial_artifacts:angel_heart",
+  "celestial_artifacts:angel_pearl",
+  "celestial_artifacts:holy_talisman",
+  "celestial_artifacts:holy_sword",
   "celestial_artifacts:bearing_stamen",
-  "silentgear:ring_blueprint",
-  "silentgear:ring_template",
-  "silentgear:ring_shank",
-  "silentgear:ring"
+  "mining_dimension:teleporter",
+  "apotheotic_additions:sacrificial_shelf",
+  "apotheotic_additions:wavebinders_shelf",
+  "apotheotic_additions:void_shelf",
+  "apotheotic_additions:terra_shelf",
+  "regions_unexplored:raw_redstone_block",
+  "levelhearts:heart_piece",
+  "levelhearts:heart_container",
+  "dimdungeons:item_portal_key",
+  "dimdungeons:item_blank_build_key",
+  "bonfires:large_titanite_shard",
+  "bonfires:titanite_chunk",
+  "bonfires:titanite_slab",
+  "naturesaura:rf_converter",
+  "supplementaries:altimeter"
 ];
+
 
 const upgradeMap = new Map([
   [
@@ -171,7 +243,10 @@ const upgradeMap = new Map([
     "sophisticatedbackpacks:advanced_compacting_upgrade",
     "sophisticatedstorage:advanced_compacting_upgrade",
   ],
-  ["sophisticatedbackpacks:void_upgrade", "sophisticatedstorage:void_upgrade"],
+  [
+    "sophisticatedbackpacks:void_upgrade", 
+    "sophisticatedstorage:void_upgrade",
+  ],
   [
     "sophisticatedbackpacks:advanced_void_upgrade",
     "sophisticatedstorage:advanced_void_upgrade",
@@ -212,7 +287,10 @@ const upgradeMap = new Map([
     "sophisticatedbackpacks:jukebox_upgrade",
     "sophisticatedstorage:jukebox_upgrade",
   ],
-  ["sophisticatedbackpacks:pump_upgrade", "sophisticatedstorage:pump_upgrade"],
+  [
+    "sophisticatedbackpacks:pump_upgrade",
+    "sophisticatedstorage:pump_upgrade",
+  ],
   [
     "sophisticatedbackpacks:advanced_pump_upgrade",
     "sophisticatedstorage:advanced_pump_upgrade",
@@ -258,13 +336,18 @@ ServerEvents.recipes((event) => {
   });
   event.remove({ input: "ars_instrumentum:fake_wilden_tribute" });
 
-  function shapedStarRecipe(OutputItem, item1, item2, item3) {
-    event.shaped(OutputItem, ["BPB", "PCP", "BPB"], {
-      B: item1,
-      P: item2,
-      C: item3,
-    });
-  }
+  upgradeMap.forEach((key, value) => {
+    event.shapeless(Item.of(key), [Item.of(value)]);
+    event.shapeless(Item.of(value), [Item.of(key)]);
+  });
+
+//  function shapedStarRecipe(OutputItem, item1, item2, item3) {
+//    event.shaped(OutputItem, ["BPB", "PCP", "BPB"], {
+//      B: item1,
+//      P: item2,
+//      C: item3,
+//    });
+//  }
 
   function backpackUpgrade(backpackBig, backpackSmall, ingredient, corners) {
     var setup = corners ? "MMM" : " M ";
@@ -322,37 +405,37 @@ ServerEvents.recipes((event) => {
     true
   );
 
-  event.shapeless("sophisticatedbackpacks:upgrade_base", ["#curios:bundle"]);
-  shapedStarRecipe(
-    Item.of("sophisticatedbackpacks:stack_upgrade_starter_tier", 3),
-    "#forge:storage_blocks/copper",
-    "sophisticatedbackpacks:backpack",
-    "sophisticatedbackpacks:upgrade_base"
-  );
-  shapedStarRecipe(
-    Item.of("sophisticatedbackpacks:stack_upgrade_tier_1", 3),
-    "#forge:storage_blocks/iron",
-    "sophisticatedbackpacks:stack_upgrade_starter_tier",
-    "sophisticatedbackpacks:copper_backpack"
-  );
-  shapedStarRecipe(
-    Item.of("sophisticatedbackpacks:stack_upgrade_tier_2", 3),
-    "#forge:storage_blocks/gold",
-    "sophisticatedbackpacks:stack_upgrade_tier_1",
-    "sophisticatedbackpacks:iron_backpack"
-  );
-  shapedStarRecipe(
-    Item.of("sophisticatedbackpacks:stack_upgrade_tier_3", 3),
-    "#forge:storage_blocks/diamond",
-    "sophisticatedbackpacks:stack_upgrade_tier_2",
-    "sophisticatedbackpacks:gold_backpack"
-  );
-  shapedStarRecipe(
-    Item.of("sophisticatedbackpacks:stack_upgrade_tier_4", 3),
-    "#forge:storage_blocks/netherite",
-    "sophisticatedbackpacks:stack_upgrade_tier_3",
-    "sophisticatedbackpacks:diamond_backpack"
-  );
+//  event.shapeless("sophisticatedbackpacks:upgrade_base", ["#curios:bundle"]);
+//  shapedStarRecipe(
+//    Item.of("sophisticatedbackpacks:stack_upgrade_starter_tier", 3),
+//    "#forge:storage_blocks/copper",
+//    "sophisticatedbackpacks:backpack",
+//    "sophisticatedbackpacks:upgrade_base"
+//  );
+//  shapedStarRecipe(
+//    Item.of("sophisticatedbackpacks:stack_upgrade_tier_1", 3),
+//    "#forge:storage_blocks/iron",
+//    "sophisticatedbackpacks:stack_upgrade_starter_tier",
+//    "sophisticatedbackpacks:copper_backpack"
+//  );
+//  shapedStarRecipe(
+//    Item.of("sophisticatedbackpacks:stack_upgrade_tier_2", 3),
+//    "#forge:storage_blocks/gold",
+//    "sophisticatedbackpacks:stack_upgrade_tier_1",
+//    "sophisticatedbackpacks:iron_backpack"
+//  );
+//  shapedStarRecipe(
+//    Item.of("sophisticatedbackpacks:stack_upgrade_tier_3", 3),
+//    "#forge:storage_blocks/diamond",
+//    "sophisticatedbackpacks:stack_upgrade_tier_2",
+//    "sophisticatedbackpacks:gold_backpack"
+//  );
+//  shapedStarRecipe(
+//   Item.of("sophisticatedbackpacks:stack_upgrade_tier_4", 3),
+//    "#forge:storage_blocks/netherite",
+//    "sophisticatedbackpacks:stack_upgrade_tier_3",
+//    "sophisticatedbackpacks:diamond_backpack"
+//  );
 
   event.shapeless("sophisticatedbackpacks:crafting_upgrade", [
     "minecraft:crafting_table",
@@ -383,22 +466,455 @@ ServerEvents.recipes((event) => {
     "minecraft:diamond",
     "#forge:storage_blocks/diamond"
   );
+  
+  event.replaceInput(
+    { output: "sophisticatedbackpacks:stack_upgrade_tier_1" },
+    "#forge:storage_blocks/iron",
+	"aether_redux:refined_sentrite_block"
+  );
+  event.replaceInput(
+    { output: "sophisticatedbackpacks:stack_upgrade_tier_2" },
+    "#forge:storage_blocks/gold",
+	"undergarden:cloggrum_block"
+  );
+  event.replaceInput(
+    { output: "sophisticatedbackpacks:stack_upgrade_tier_3" },
+    "#forge:storage_blocks/diamond",
+	"cataclysm:void_stone"
+  );
+  event.replaceInput(
+    { output: "sophisticatedstorage:stack_upgrade_tier_2" },
+    "#forge:storage_blocks/iron",
+	"aether_redux:refined_sentrite_block"
+  );
+  event.replaceInput(
+    { output: "sophisticatedstorage:stack_upgrade_tier_3" },
+    "#forge:storage_blocks/gold",
+	"undergarden:cloggrum_block"
+  );
+  event.replaceInput(
+    { output: "sophisticatedstorage:stack_upgrade_tier_4" },
+    "#forge:storage_blocks/diamond",
+	"cataclysm:void_stone"
+  );
+  event.replaceInput(
+    { output: "sophisticatedstorage:stack_upgrade_tier_2" },
+    "#forge:ingots/iron",
+	"aether_redux:refined_sentrite"
+  );
+  event.replaceInput(
+    { output: "sophisticatedstorage:stack_upgrade_tier_3" },
+    "#forge:ingots/gold",
+	"undergarden:cloggrum_ingot"
+  );
+  event.replaceInput(
+    { output: "sophisticatedstorage:stack_upgrade_tier_4" },
+    "#forge:gems/diamond",
+	"cataclysm:void_infused_end_stone_bricks"
+  );
+  
+  event.replaceInput(
+    { output: "sophisticatedbackpacks:everlasting_upgrade" },
+    "minecraft:nether_star",
+    "l2complements:eternium_nugget"
+  );
+  event.replaceInput(
+    { output: "sophisticatedbackpacks:inception_upgrade" },
+    "minecraft:nether_star",
+    "l2hostility:miracle_ingot"
+  );
+  event.replaceInput(
+    { output: "sophisticatedbackpacks:anvil_upgrade" },
+    "minecraft:diamond",
+    "l2complements:eternium_nugget"
+  );
+  event.replaceInput(
+    { output: "sophisticatedbackpacks:xp_pump_upgrade" },
+    "minecraft:ender_eye",
+    "spelunkery:carved_nephrite"
+  );
+  event.replaceInput(
+    { output: "sophisticatedbackpacks:xp_pump_upgrade" },
+    "minecraft:redstone",
+    "spelunkery:cinnabar"
+  );
+  event.shapeless(
+  Item.of('sophisticatedbackpacks:magnet_upgrade', 1),
+  [
+    'sophisticatedbackpacks:pickup_upgrade',
+    'spelunkery:item_magnet'
+  ]);
+  event.shapeless(
+  Item.of('sophisticatedstorage:magnet_upgrade', 1),
+  [
+    'sophisticatedstorage:pickup_upgrade',
+    'spelunkery:item_magnet'
+  ]);
+  
+  
   event.replaceInput(
     { output: "l2hostility:ring_of_life" },
     "l2hostility:undying",
     "l2hostility:protection"
   );
-
-    event.replaceInput(
+  event.replaceInput(
     { output: "apotheosis:inert_trident" },
     "minecraft:heart_of_the_sea",
     "aquaculture:neptunium_ingot"
   );
-
-  upgradeMap.forEach((key, value) => {
-    event.shapeless(Item.of(key), [Item.of(value)]);
-    event.shapeless(Item.of(value), [Item.of(key)]);
+  event.replaceInput(
+    { output: "celestial_artifacts:life_bracelet" },
+    "minecraft:ghast_tear",
+    "l2hostility:regenerate"
+  );
+  event.replaceInput(
+    { output: "celestial_artifacts:freeze_ring" },
+    "celestial_artifacts:diamond_ring",
+    "aether:ice_ring"
+  );
+  event.replaceInput(
+    { output: "celestial_artifacts:nether_fire" },
+    "celestial_artifacts:netherite_ring",
+    "minecraft:netherite_ingot"
+  );
+  event.replaceInput(
+    { output: "l2complements:diffusion_wand" },
+    "l2complements:storm_core",
+    "hmag:fortune_crystal_plus"
+  );
+  event.replaceInput(
+    { output: "nameless_trinkets:true_heart_of_the_sea" },
+    "nameless_trinkets:ultimate_dust",
+    "celestial_artifacts:guardian_eye"
+  );
+  event.replaceInput(
+    { output: "nameless_trinkets:super_magnet" },
+    "nameless_trinkets:glowing_dust",
+    "spelunkery:raw_magnetite"
+  );
+  event.replaceInput(
+    { output: "regions_unexplored:ash" },
+    "minecraft:gunpowder",
+    "#forge:ash"
+  );
+  event.replaceInput(
+    { output: "bosses_of_mass_destruction:brimstone_nectar" },
+    "minecraft:netherite_scrap",
+    "minecraft:honey_bottle"
+  );
+  event.replaceInput(
+    { output: "bosses_of_mass_destruction:brimstone_nectar" },
+    "minecraft:ghast_tear",
+    "l2complements:cursed_droplet"
+  );
+ 
+  event.shaped('celestial_artifacts:bearing_stamen', [
+    'EBE',
+    'PFP',
+    'SNS'
+	], {
+    E: 'l2complements:life_essence',
+	B: 'minecraft:spore_blossom',
+	F: 'bosses_of_mass_destruction:crystal_fruit',
+	P: 'hmag:mysterious_petal',
+	S: 'farmersdelight:rich_soil',
+	N: 'hmag:cubic_nucleus'
   });
+  event.shaped('celestial_artifacts:knight_shelter', [
+    'FHF',
+    'GSG',
+    'TGT'
+	], {
+    F: 'celestial_core:midnight_fragment',
+	H: 'mowziesmobs:wrought_helmet',
+	S: 'hmag:ancient_shield',
+	G: 'l2complements:totemic_gold_ingot',
+	T: 'l2hostility:tank'
+  });
+  event.shaped('celestial_artifacts:angel_heart', [
+    'GGG',
+    'WSW',
+    'TDR'
+	], {
+	G: 'l2complements:totemic_gold_ingot',
+	T: 'l2hostility:protection',
+	D: 'l2hostility:dispell',
+	R: 'l2hostility:regenerate',
+	W: 'celestial_core:soaring_wings',
+	S: 'celestial_core:pure_nether_star'
+  });
+  event.shaped('celestial_artifacts:angel_pearl', [
+    'GGG',
+    'WPW',
+    'RSK'
+	], {
+	G: 'l2complements:totemic_gold_ingot',
+	P: 'hmag:endless_pearl',
+	R: 'l2hostility:growth',
+	K: 'l2hostility:killer_aura',
+	W: 'celestial_core:soaring_wings',
+	S: 'celestial_core:pure_nether_star'
+  });
+  event.shaped('celestial_artifacts:holy_talisman', [
+    'CNC',
+    'WSW',
+    'PTP'
+	], {
+	T: 'minecraft:totem_of_undying',
+	P: 'l2hostility:protection',
+	C: 'l2hostility:tank',
+	W: 'l2hostility:weakness',
+	S: 'minecraft:nether_star',
+	N: 'aether:iron_pendant'
+  });
+  event.shaped('celestial_artifacts:holy_sword', [
+    'NRN',
+    'WSW',
+    'LDL'
+	], {
+	S: 'ancient_aether:valkyrum_sword',
+	W: 'celestial_core:soaring_wings',
+	L: 'celestial_core:light_fragment',
+	N: 'celestial_core:midnight_fragment',
+	R: 'l2hostility:reflect',
+	D: 'l2hostility:drain'
+  });
+  event.shaped('celestial_artifacts:guardian_eye', [
+    'SES',
+    'EGE',
+    'SES'
+	], {
+    E: 'celestial_core:ocean_essence',
+	S: 'hmag:ancient_stone',
+	G: 'l2complements:guardian_eye'
+  });
+  event.shaped('nameless_trinkets:gods_crown', [
+    'EHE',
+    'GGG',
+    'GCG'
+	], {
+    E: 'l2complements:sun_membrane',
+	G: 'celestial_core:virtual_gold_ingot',
+	H: 'celestial_core:heart_fragment',
+	C: 'nameless_trinkets:cracked_crown'
+  });
+  event.shaped('l2hostility:flaming_thorn', [
+    ' F ',
+    ' T ',
+    ' E '
+	], {
+    F: 'l2complements:soul_flame',
+	T: 'bosses_of_mass_destruction:void_thorn',
+	E: 'bosses_of_mass_destruction:blazing_eye'
+  });
+  event.shaped('minecraft:dragon_head', [
+    'ESS',
+    'SBB',
+    'SSS'
+	], {
+    E: 'minecraft:ender_eye',
+	S: 'quark:dragon_scale',
+	B: 'minecraft:dragon_breath'
+  });
+  event.shaped('ars_nouveau:novice_spell_book', [
+    'GGG',
+    'PBP',
+    'GGG'
+	], {
+	G: 'minecraft:gold_nugget',
+	P: 'minecraft:purple_dye',
+	B: 'minecraft:book'
+  });
+
+  event.shaped('mining_dimension:teleporter', [
+    'ABC',
+    'DEF',
+    'GHI'
+	], {
+    A: 'bloodmagic:infusedslate',
+	B: 'celestial_core:earth_core',
+	C: 'undergarden:regalium_crystal',
+	D: 'bloodmagic:lavacrystal',
+	E: 'minecraft:netherite_pickaxe',
+	F: 'embers:dawnstone_ingot',
+	G: 'spelunkery:compression_blast_miner',
+	H: 'ars_nouveau:earth_essence',
+	I: 'embers:ember_bore'
+  });	
+  event.shaped('mining_dimension:teleporter', [
+    'ABC',
+    'DEF',
+    'GHI'
+	], {
+    A: 'l2complements:sculkium_ingot',
+	B: 'celestial_core:earth_core',
+	C: 'undergarden:utherium_crystal',
+	D: 'l2complements:explosion_shard',
+	E: 'minecraft:netherite_pickaxe',
+	F: 'cataclysm:black_steel_ingot',
+	G: 'cataclysm:amethyst_crab_shell',
+	H: 'aether_redux:gravitite_ingot',
+	I: 'hmag:ancient_stone'
+  });	
+  
+  event.blasting('cataclysm:black_steel_ingot', 'graveyard:dark_iron_ingot');
+  event.blasting('aquaculture:neptunium_ingot', 'aquaculture:neptunes_bounty');
+  
+  event.shapeless(
+  Item.of('tombstone:essence_of_undeath', 1),
+  [
+    '2x #forge:ash',
+    'celestial_core:death_essence',
+    'minecraft:glass_bottle'
+  ]);
+  event.shapeless(
+  Item.of('minecraft:heart_of_the_sea', 1),
+  [
+    'celestial_core:ocean_essence',
+    'celestial_core:heart_fragment'
+  ]);
+  event.shapeless(
+  Item.of('minecraft:shulker_shell', 1),
+  [
+    'celestial_core:shulker_scrap'
+  ]);
+  event.shapeless(
+  Item.of('minecraft:obsidian', 8),
+  [
+    'celestial_core:ocean_essence',
+    'celestial_core:fire_essence'
+  ]);
+  event.shapeless(
+  Item.of('minecraft:gunpowder', 8),
+  [
+    'celestial_core:death_essence',
+    'celestial_core:fire_essence'
+  ]);
+  event.shapeless(
+  Item.of('minecraft:sand', 16),
+  [
+    'celestial_core:ocean_essence',
+    'celestial_core:death_essence'
+  ]);
+  event.shapeless(
+  Item.of('aether:phoenix_helmet', 1),
+  [
+    'aether:obsidian_helmet',
+    '4x celestial_core:fire_essence'
+  ]);
+  event.shapeless(
+  Item.of('aether:phoenix_chestplate', 1),
+  [
+    'aether:obsidian_chestplate',
+    '4x celestial_core:fire_essence'
+  ]);
+  event.shapeless(
+  Item.of('aether:phoenix_leggings', 1),
+  [
+    'aether:obsidian_leggings',
+    '4x celestial_core:fire_essence'
+  ]);
+  event.shapeless(
+  Item.of('aether:phoenix_boots', 1),
+  [
+    'aether:obsidian_boots',
+    '4x celestial_core:fire_essence'
+  ]);
+  event.shapeless(
+  Item.of('aether:phoenix_gloves', 1),
+  [
+    'aether:obsidian_gloves',
+    '4x celestial_core:fire_essence'
+  ]);
+  event.shapeless(
+  Item.of('nameless_trinkets:nelumbo', 1),
+  [
+    'celestial_core:ocean_essence',
+    'nameless_trinkets:dark_nelumbo'
+  ]);
+  event.shapeless(
+  Item.of('nameless_trinkets:dark_nelumbo', 1),
+  [
+    'celestial_core:fire_essence',
+	'nameless_trinkets:nelumbo'
+  ]);
+  event.shapeless(
+  Item.of('dimdungeons:item_portal_key', 1),
+  [
+    'minecraft:name_tag',
+	'minecraft:blaze_rod',
+	'2x l2hostility:miracle_powder'
+  ]);
+  event.shapeless(
+  Item.of('dimdungeons:item_blank_build_key', 1),
+  [
+    'minecraft:obsidian',
+	'minecraft:diamond',
+	'spelunkery:portal_fluid_bottle'
+  ]);
+  event.shapeless(
+  Item.of('bonfires:large_titanite_shard', 1),
+  [
+    '2x bonfires:titanite_shard',
+	'aether:ambrosium_shard'
+  ]);
+  event.shapeless(
+  Item.of('bonfires:titanite_chunk', 1),
+  [
+    '2x bonfires:large_titanite_shard',
+	'landsoficaria:sliver'
+  ]);
+  event.shapeless(
+  Item.of('bonfires:titanite_slab', 1),
+  [
+    '2x bonfires:titanite_chunk',
+	'undergarden:forgotten_ingot'
+  ]);
+  event.shapeless(
+  Item.of('aether_redux:gravitite_ingot', 1),
+  [
+	'aether:enchanted_gravitite'
+  ]);
+  
+  event.shaped('apotheotic_additions:sacrificial_shelf', [
+    'GBG',
+    'SSS',
+    'GBG'
+	], {
+	G: 'minecraft:gold_block',
+	B: 'bloodmagic:weakbloodshard',
+	S: 'bloodmagic:etherealslate'
+  });
+  event.shaped('apotheotic_additions:wavebinders_shelf', [
+    'GPG',
+    'OSO',
+    'GPG'
+	], {
+	G: 'minecraft:gold_block',
+	P: 'l2complements:poseidite_ingot',
+	S: 'l2complements:storm_core',
+	O: 'celestial_core:ocean_essence'
+  });
+  event.shaped('apotheotic_additions:void_shelf', [
+    'GVG',
+    'ECE',
+    'GVG'
+	], {
+	G: 'minecraft:gold_block',
+	E: 'l2complements:void_eye',
+	C: 'celestial_artifacts:nebula_cube',
+	V: 'celestial_core:void_essence'
+  });
+  event.shaped('apotheotic_additions:terra_shelf', [
+    'GGG',
+    'IBI',
+    'GGG'
+	], {
+	G: 'naturesaura:gold_powder',
+	B: 'apotheosis:beeshelf',
+	I: 'naturesaura:infused_iron'
+  });
+
 
   function compressRecipe(item1, item2, reversed) {
     event.shaped(item1, ["AAA", "AAA", "AAA"], { A: item2 });
@@ -407,8 +923,6 @@ ServerEvents.recipes((event) => {
     }
   }
 
-  compressRecipe("minecraft:diamond", "kubejs:diamond_nugget", true);
-  compressRecipe("minecraft:emerald", "kubejs:emerald_nugget", true);
   compressRecipe("kubejs:coin_02", "kubejs:coin_01", true);
   compressRecipe("kubejs:coin_03", "kubejs:coin_02", true);
   compressRecipe("kubejs:coin_04", "kubejs:coin_03", true);

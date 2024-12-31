@@ -75,9 +75,6 @@ event.create('coin_05').displayName('Dozen of Coins').tooltip('Acquired by selli
 event.create('coin_06').displayName('Bunch of Coins').tooltip('Acquired by selling valuable materials')
 
 
-event.create('diamond_nugget').displayName('Diamond Nugget')
-event.create('emerald_nugget').displayName('Emerald Nugget')
-
 event.create('defence').displayName('defence')
 event.create('armorpen').displayName('armorpen')
 event.create('backstab').displayName('backstab')

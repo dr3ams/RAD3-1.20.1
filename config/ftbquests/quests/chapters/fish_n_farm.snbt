@@ -1,0 +1,2157 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fish_n_farm"
+	group: "4DA7EBDF283EFCB0"
+	icon: "minecraft:wheat"
+	id: "60F77D3E4DA6BBA0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The following are your basic crops that will always be handy when you are hungry."
+				""
+				"The quests following the initial crops give a basic recipe to help keep you fed but look to JEI for more complex and fullfilling recipes."
+			]
+			icon: "minecraft:farmland"
+			id: "0000000000000FC0"
+			rewards: [{
+				id: "6A96DE85B76A3635"
+				item: "quark:seed_pouch"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "42EEA74AFBD23BFB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:seeds"
+					}
+				}
+				title: "Any #forge:seeds"
+				type: "item"
+			}]
+			title: "Basic Farming"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			description: ["Should be able to nab some of these to get you started from a village."]
+			id: "00000000000000CD"
+			rewards: [
+				{
+					id: "0000000000000188"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "000000000000033F"
+					item: "minecraft:cake"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "00000000000000CE"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			title: "Potato, Potatoe"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			description: ["Should be able to find a few of these in villages as well."]
+			id: "0000000000000FD0"
+			rewards: [{
+				id: "0000000000001322"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				count: 64L
+				id: "0000000000000FD1"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			title: "Carrots"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000000FD0"]
+			id: "1FA146104659E072"
+			rewards: [{
+				id: "2036ECE79D1E6BC0"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "48B5277F59DE3629"
+				item: { Count: 16, id: "minecraft:golden_carrot" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1FA146104659E072"]
+			id: "7D269CB37BDFB0A1"
+			rewards: [{
+				id: "3240C41F0846CA1E"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B2B7C53840B7E7E"
+				item: "l2complements:totemic_carrot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			description: ["Farmland that is always moist and can't be trampled."]
+			id: "0F6CF9CC1916ED38"
+			rewards: [{
+				id: "0686229BAF26D6F9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0C39181AFEC2E0EF"
+				item: "supplementaries:planter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			description: ["You don't have jack on me Mr. Pumpkin!"]
+			id: "0000000000000FD4"
+			rewards: [{
+				id: "0000000000001326"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0000000000000FD5"
+				item: "minecraft:pumpkin_seeds"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000FD4"]
+			id: "0000000000000FDC"
+			rewards: [{
+				id: "0000000000001339"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0000000000000FDD"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			description: ["You will come across a lot of these from grass."]
+			id: "00000000000000C5"
+			rewards: [{
+				id: "0000000000000178"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "00000000000000C6"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000000C5"]
+			description: ["Get to growing!"]
+			id: "00000000000000C9"
+			rewards: [{
+				count: 3
+				id: "000000000000032B"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "00000000000000CA"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			title: "Wheatabix"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			description: ["I am supposed to beat a root?"]
+			id: "0000000000000FC6"
+			rewards: [{
+				id: "0000000000001321"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0000000000000FC7"
+				item: "minecraft:beetroot_seeds"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["27AF065C882335E1"]
+			id: "4E55AEFCAD3D1F5E"
+			rewards: [{
+				id: "6D465E3FE0E53575"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4F00E56FCE21C6C3"
+				item: "supplementaries:flower_box"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			description: ["Desert adventure time."]
+			id: "0000000000000FC2"
+			rewards: [{
+				id: "0000000000001323"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				count: 12L
+				id: "0000000000000FC3"
+				item: "minecraft:cactus"
+				type: "item"
+			}]
+			title: "Cacti"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000FC6"]
+			id: "0000000000000FC8"
+			rewards: [{
+				id: "0000000000001335"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "0000000000000FC9"
+				item: "minecraft:beetroot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0000000000000FC2"]
+			description: ["Give your base some flair."]
+			id: "00000000000000D3"
+			rewards: [{
+				id: "0000000000000142"
+				item: "minecraft:flower_pot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000000D4"
+				item: "quark:midori_block"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			description: ["Have to eat some melons to make some melons."]
+			id: "0000000000000FD2"
+			rewards: [{
+				id: "0000000000001325"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0000000000000FD3"
+				item: "minecraft:melon_seeds"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000FD2"]
+			id: "0000000000000FDA"
+			rewards: [{
+				id: "0000000000001338"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "0000000000000FDB"
+				item: "minecraft:melon"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0000000000000FDA"]
+			id: "643748DB082D7133"
+			rewards: [
+				{
+					id: "5B3FDF4050EBAC89"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "430C45D743551205"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 64L
+				id: "3EA584B4BA8DD977"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:melon"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			description: ["Nether fortress mold."]
+			id: "0000000000000FD6"
+			rewards: [{
+				id: "0000000000001328"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				count: 64L
+				id: "0000000000000FD7"
+				item: "minecraft:nether_wart"
+				type: "item"
+			}]
+			title: "Hell Wart"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			id: "0000000000001154"
+			rewards: [{
+				id: "0000000000001324"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0000000000001155"
+				item: "minecraft:bamboo"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0000000000001154"]
+			id: "22E18643E07DD4EA"
+			rewards: [{
+				id: "0B5BD8BBD71E3367"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "7BFF0D0902CDA1C4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:bamboo_block"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["22E18643E07DD4EA"]
+			id: "3DC57F999F6E5629"
+			rewards: [{
+				id: "7EBF3F3B020955CC"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "resource_loot_crate_1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "30D0116213A45892"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:bamboo_block"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			description: ["You are going to have to travel to the great white north to find some of these delicous berries."]
+			id: "0000000000000FD8"
+			rewards: [{
+				id: "0000000000001329"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				count: 64L
+				id: "0000000000000FD9"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			title: "Sweet Berries"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			id: "1EA89DD440FBA503"
+			rewards: [
+				{
+					id: "7B812D79A1C904D2"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "184D0303CF84AFD5"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Breed all the animals!(26)"
+			tasks: [{
+				advancement: "minecraft:husbandry/bred_all_animals"
+				criterion: ""
+				id: "6F39AB25FFE68DCA"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			description: ["Let those stalks reach for the sky!"]
+			id: "000000000000072E"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000000734"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					id: "0000000000001327"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "000000000000072F"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			title: "Sugar or Paper?"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["000000000000072E"]
+			description: ["Man I will be able to write so much stuff on this."]
+			id: "0000000000000FCE"
+			rewards: [{
+				id: "000000000000133B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				count: 3L
+				id: "0000000000000FCF"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["000000000000072E"]
+			id: "0000000000000FC4"
+			rewards: [{
+				id: "000000000000133A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				count: 16L
+				id: "0000000000000FC5"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			title: "Sugar"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			id: "27A17EA6EA3056BE"
+			tasks: [{
+				count: 64L
+				id: "62F3FACE3901E223"
+				item: { Count: 64, id: "farmersdelight:onion" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			description: ["Found on beaches."]
+			id: "525F03AF99A1D135"
+			tasks: [{
+				id: "6222761DD1A93D5F"
+				item: "farmersdelight:cabbage_seeds"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			id: "5DD66D89CFFBC6CB"
+			tasks: [{
+				id: "2C92163AC6A0E68D"
+				item: "supplementaries:flax_seeds"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			description: ["Found in savannahs, deserts, and other dry areas."]
+			id: "560AD0F9298122F9"
+			tasks: [{
+				id: "25A6BF170C220383"
+				item: "farmersdelight:tomato_seeds"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["525F03AF99A1D135"]
+			description: ["[insert overdone Avatar joke]"]
+			id: "3636E4985AE5DA4A"
+			tasks: [{
+				count: 64L
+				id: "59D1B3C1813E156D"
+				item: "farmersdelight:cabbage"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			description: ["They really added a whole mob for this plant, huh."]
+			id: "53F9A4108D37742B"
+			tasks: [{
+				id: "09676DA84A069270"
+				item: "minecraft:torchflower_seeds"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["53F9A4108D37742B"]
+			description: ["At least it looks nice."]
+			id: "27AF065C882335E1"
+			tasks: [{
+				id: "07ADAED9C9B62707"
+				item: "minecraft:torchflower"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0000000000000FDC"]
+			id: "60466BDEAEB5226B"
+			tasks: [{
+				id: "104AC2CB9B6DF077"
+				item: "minecraft:pumpkin_pie"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["560AD0F9298122F9"]
+			id: "1F315FE8A7B0B86A"
+			tasks: [{
+				count: 64L
+				id: "3C5ED9C1AC4DEB98"
+				item: { Count: 64, id: "farmersdelight:tomato" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1F315FE8A7B0B86A"]
+			description: ["throw them at your friends"]
+			id: "773B6AA481F91A30"
+			tasks: [{
+				id: "1BC1A01C640E82DF"
+				item: "farmersdelight:rotten_tomato"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5DD66D89CFFBC6CB"]
+			description: ["Wait a minute, I can't eat string!"]
+			id: "3C3D0DC9A0B47CF7"
+			tasks: [{
+				count: 64L
+				id: "3E76D80A140A8DF7"
+				item: { Count: 64, id: "supplementaries:flax" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["00000000000000C9"]
+			description: ["You robbed a village for this, didn't you."]
+			id: "448EFB9BF8C8E4DC"
+			tasks: [{
+				count: 64L
+				id: "001853966E149396"
+				item: { Count: 64, id: "minecraft:hay_block" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			description: ["There's food to be found, deep underground"]
+			id: "14660686F1A64AE5"
+			tasks: [{
+				count: 64L
+				id: "136EAB8CCC9923FF"
+				item: "miners_delight:cave_carrot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			description: ["Found in swamps. Must be grown in water 1 block deep. This is both the seed and the product."]
+			id: "21B44E8D2E48896B"
+			tasks: [{
+				id: "6BF9E6A507AC0571"
+				item: "farmersdelight:rice"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["21B44E8D2E48896B"]
+			id: "2D3315618404C6FB"
+			tasks: [{
+				count: 64L
+				id: "1430851ADFD2FE17"
+				item: { Count: 64, id: "farmersdelight:rice_panicle" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0000000000000FC8"]
+			id: "378862B8056108A3"
+			tasks: [{
+				count: 10L
+				id: "69F2AAA1F9C8BCC7"
+				item: "minecraft:beetroot_soup"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3636E4985AE5DA4A"]
+			description: ["Cabbage is mostly an ingredient in more complex foods. You can't really eat it by itself."]
+			id: "08BA0EFA7BA00A04"
+			tasks: [{
+				count: 64L
+				id: "63AEA07DA2331981"
+				item: { Count: 64, id: "farmersdelight:cabbage_crate" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["14660686F1A64AE5"]
+			id: "25009AD8713D833D"
+			tasks: [{
+				count: 32L
+				id: "2454777715FC624C"
+				item: { Count: 32, id: "miners_delight:baked_cave_carrot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["27A17EA6EA3056BE"]
+			id: "7C1FB9C39840E2CE"
+			rewards: [{
+				id: "5D7CDF9CCFD24C64"
+				item: "artifacts:onion_ring"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "1D22B21FB88DD918"
+				item: { Count: 64, id: "farmersdelight:onion_crate" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0000000000000FD8"]
+			id: "110D80709A6E0A74"
+			tasks: [{
+				count: 16L
+				id: "0DD4DCC9641BDA9C"
+				item: { Count: 16, id: "farmersdelight:sweet_berry_cookie" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "148702145B2BFE27"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "04934A661E040D87"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Fishing"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000000CD"]
+			id: "5581946E99704369"
+			tasks: [{
+				count: 64L
+				id: "41D2A8F9495D5F00"
+				item: { Count: 64, id: "minecraft:baked_potato" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"148702145B2BFE27"
+				"0000000000000168"
+			]
+			description: ["The tacklebox is used to bait your rod and swap hooks. It can be used to store fishing gear, picked up, and moved like a shulker box."]
+			id: "6A6B425160229A27"
+			rewards: [{
+				id: "569A58A9BE9245FC"
+				item: "nameless_trinkets:amphibious_hands"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06B2C1C1A5672C11"
+				item: "aquaculture:tackle_box"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6A6B425160229A27"]
+			description: ["Like a composter, but makes worms instead of compost."]
+			id: "721A95A657A71C08"
+			rewards: [{
+				id: "6EF0AEEC08AD48AA"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C85E079178DDF67"
+				item: "aquaculture:worm_farm"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["721A95A657A71C08"]
+			description: ["Worms can be used to bait your rod, which increases catching power."]
+			id: "5B237B67091E0EE6"
+			rewards: [{
+				id: "468F3DB6E43662F1"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6938B0D2A1796767"
+				item: {
+					Count: 1
+					id: "aquaculture:worm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6A6B425160229A27"]
+			description: ["These can be dyed for a little personal flair to your fishing."]
+			id: "09580BA2B4BC4BEC"
+			rewards: [{
+				id: "2A4D3B9EDE866EEF"
+				item: "artifacts:anglers_hat"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4749EA8CC1DE539E"
+					item: "aquaculture:bobber"
+					type: "item"
+				}
+				{
+					id: "7F6465C419F6E75F"
+					item: "aquaculture:fishing_line"
+					type: "item"
+				}
+			]
+			title: "Fishing Cosmetics"
+			x: 11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6A6B425160229A27"]
+			id: "32800384FDF25FD6"
+			rewards: [{
+				id: "622FDBF42D8AACAA"
+				item: "aquaculture:treasure_chest"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D7E475CC5F404B5"
+				item: "aquaculture:iron_hook"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["32800384FDF25FD6"]
+			id: "5AB0F10B7739CC96"
+			rewards: [{
+				id: "1ABC55D242E85FBC"
+				item: "aquaculture:treasure_chest"
+				type: "item"
+			}]
+			tasks: [{
+				id: "269EEA4B6185C7C8"
+				item: "aquaculture:gold_hook"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["32800384FDF25FD6"]
+			id: "7C37A2EF3DCCE61F"
+			rewards: [
+				{
+					id: "59A64CD7D020FB87"
+					item: {
+						Count: 1
+						id: "nameless_trinkets:gills"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07830C5F43CC319F"
+					item: "aquaculture:treasure_chest"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0704282FC395D643"
+				item: "aquaculture:diamond_hook"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7C37A2EF3DCCE61F"]
+			id: "7D2982F4C8FD94F0"
+			rewards: [{
+				id: "17A9F07C8655EDDD"
+				item: "aquaculture:treasure_chest"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13D905B735259B12"
+				item: "aquaculture:nether_star_hook"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["32800384FDF25FD6"]
+			id: "7049BCFB065CB3B7"
+			rewards: [{
+				id: "1EFBE4654EA7E00B"
+				item: "aquaculture:treasure_chest"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EAA695FAD4F7200"
+				item: "aquaculture:light_hook"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["32800384FDF25FD6"]
+			id: "006CBB1ABC68C111"
+			rewards: [{
+				id: "1A50E85FD6F85B48"
+				item: "aquaculture:treasure_chest"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58A99571ACE62615"
+				item: "aquaculture:heavy_hook"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["32800384FDF25FD6"]
+			id: "317AC8A722CB9316"
+			rewards: [{
+				id: "51858DDBFC7B3266"
+				item: "aquaculture:treasure_chest"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3083B35EB738784C"
+				item: "aquaculture:double_hook"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["32800384FDF25FD6"]
+			id: "5D6B0A411A31BAA1"
+			rewards: [{
+				id: "257B9B2CE6DACDDB"
+				item: "aquaculture:treasure_chest"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71508A48E1D5F987"
+				item: "aquaculture:redstone_hook"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["32800384FDF25FD6"]
+			id: "7C13586B90FD285F"
+			rewards: [{
+				id: "11FB21D8CCC9FAA5"
+				item: "aquaculture:treasure_chest"
+				type: "item"
+			}]
+			tasks: [{
+				id: "076B2D66F0AAC883"
+				item: "aquaculture:note_hook"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "00447E9A207DA93A"
+			rewards: [{
+				id: "4CC07B38085FE3E9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "3DF608F30B23FC19"
+				item: "minecraft:cod"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "317DD5BA7A2FE9B1"
+			rewards: [{
+				id: "71820BF23EAC4E7F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "4EA156AC187A2F46"
+				item: "minecraft:salmon"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "64CE361A732ACC01"
+			rewards: [{
+				id: "68A66D5CE801DB72"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5F7ADD9248CE6D12"
+				item: "minecraft:tropical_fish"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "636C5C576A5D121E"
+			rewards: [{
+				id: "5CC1BEC54EF1EAF4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "3168CCF5126217FC"
+				item: "minecraft:pufferfish"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["636C5C576A5D121E"]
+			id: "10BE0A2837F374B9"
+			rewards: [{
+				id: "03AFB4EBEDFB9155"
+				item: "nameless_trinkets:puffer_fish_liver"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "6C48D91B28046C88"
+				item: { Count: 64, id: "minecraft:pufferfish" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["64CE361A732ACC01"]
+			id: "239A4519AAA5DC57"
+			rewards: [{
+				count: 5
+				id: "4B40809594E938AE"
+				item: "hmag:golden_tropical_fish"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24C6525952230FEC"
+				item: "hmag:golden_tropical_fish"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["00447E9A207DA93A"]
+			id: "5667551548297CD7"
+			rewards: [{
+				count: 5
+				id: "323A27BA6CFE050E"
+				item: "oceansdelight:cooked_stuffed_cod"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E30AE62661F2932"
+				item: "oceansdelight:cooked_stuffed_cod"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			id: "5D30E304E65A1FB4"
+			tasks: [{
+				id: "139248C74239962E"
+				item: "minecraft:kelp"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5D30E304E65A1FB4"]
+			id: "456A4247C5C245B7"
+			tasks: [{
+				count: 64L
+				id: "3EB8C3D9E0A021CE"
+				item: { Count: 64, id: "minecraft:dried_kelp" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["456A4247C5C245B7"]
+			id: "108B521C77B11D4D"
+			tasks: [{
+				count: 64L
+				id: "2BF82344C816BDC1"
+				item: { Count: 64, id: "minecraft:dried_kelp_block" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "080F66D990B84386"
+			rewards: [{
+				id: "68D760CA7A8DAF22"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "2464801E329E58CB"
+				item: "aquaculture:atlantic_cod"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "440B4795DE135FCD"
+			rewards: [{
+				id: "45DB366E912E658F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "736D1EC651FE93B1"
+				item: "aquaculture:blackfish"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "29BF1ED47B7EBB00"
+			rewards: [{
+				id: "24800CF98B89ADC0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0377D78A1D30856B"
+				item: "aquaculture:pacific_halibut"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "1D13E71AFB48A9C8"
+			rewards: [{
+				id: "263FA05572550DBF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "62C61BD1FC8017F4"
+				item: "aquaculture:atlantic_halibut"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "0B7FCCD033E325DC"
+			rewards: [{
+				id: "3075FAD0A198F875"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0E661024FF258FE7"
+				item: "aquaculture:atlantic_herring"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "23E01B043A246845"
+			rewards: [{
+				id: "53047CB3B3D361CF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "50A5FA7B29C6E1C0"
+				item: "aquaculture:pink_salmon"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "6D381F47FD0CC6FD"
+			rewards: [{
+				id: "4C410FCB04019205"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "4D0BDBE80CA9BB45"
+				item: "aquaculture:pollock"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "65C2B2E7C71C82CB"
+			rewards: [{
+				id: "0D5E0ACD1D1FF2AB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "77393769EDDE8039"
+				item: "aquaculture:rainbow_trout"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "45CC47FDADF46C43"
+			rewards: [{
+				id: "5569C6374D6BA6D6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "1CBB4A844E1ED97E"
+				item: "aquaculture:bayad"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "085DED0C6EBE6C08"
+			rewards: [{
+				id: "7A3DA50122052D62"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0FB8CBEBD432062A"
+				item: "aquaculture:boulti"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "46B0F5E291012E64"
+			rewards: [{
+				id: "109CD0F11A795039"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "62B190E8CF2DDFC6"
+				item: "aquaculture:capitaine"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "5D96F0AC32EDB7BF"
+			rewards: [{
+				id: "4AA8578F9CCFFC91"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "08DBE24AA0AED07B"
+				item: "aquaculture:synodontis"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "154703951626E85D"
+			rewards: [{
+				id: "602B83C2CFB29929"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "54406913ED8096AA"
+				item: "aquaculture:smallmouth_bass"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "4D500D64D058A367"
+			rewards: [{
+				id: "17FC6A34F4E163CD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "43D2DE345A19C8DA"
+				item: "aquaculture:bluegill"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "45DED4CACDBA6FE7"
+			rewards: [{
+				id: "5DA13AA665969DBA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0533855675904D73"
+				item: "aquaculture:brown_trout"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "24E60B4F885740DA"
+			rewards: [{
+				id: "16B91D35E944EFF7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "1D194D6336C479F3"
+				item: "aquaculture:carp"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "6B74057A60E729CF"
+			rewards: [{
+				id: "3C16D6A0D0368CB3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "50D91AFC159749DF"
+				item: "aquaculture:catfish"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "4C6C669AD3DDE8B4"
+			rewards: [{
+				id: "0697652167B7F8E6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0911245257B7147C"
+				item: "aquaculture:gar"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "393F898C884509BD"
+			rewards: [{
+				id: "2E7F986E5663A64C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "68F9F0F8534607E6"
+				item: {
+					Count: 1
+					id: "aquaculture:minnow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "40E980CBAF91F22B"
+			rewards: [{
+				id: "327D909BD38BAF39"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "47CA59B60462A4BA"
+				item: "aquaculture:muskellunge"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "44F907A2A70426BB"
+			rewards: [{
+				id: "21D81869B3470FE2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "162657F08F1B0E58"
+				item: "aquaculture:perch"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "0CCD7A2AB957E3E9"
+			rewards: [{
+				id: "08FE2EF24366A553"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "04D271FF475477FA"
+				item: "aquaculture:arapaima"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "5CD60CF8794967B5"
+			rewards: [{
+				id: "6C4BB8FDFFD69767"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "124C24572F11A37D"
+				item: "aquaculture:piranha"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "6F13DE349100F35E"
+			rewards: [{
+				id: "73CB3C5649A4862B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0219FAD9B8E0B21A"
+				item: "aquaculture:tambaqui"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "41CC5BFAA1250438"
+			rewards: [{
+				id: "2347B4376555E7AC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "06DA83D426D701BB"
+				item: "aquaculture:brown_shrooma"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "1FBB1E97DFD29832"
+			rewards: [{
+				id: "7682C76CA4E4D143"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "7F42094F5285ED00"
+				item: "aquaculture:red_shrooma"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "5AF1D346CE845523"
+			rewards: [{
+				id: "4AEC88E15E0A3B96"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "2B35F580AF5ABBF1"
+				item: "aquaculture:red_grouper"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "476B228C4CCC35ED"
+			rewards: [{
+				id: "7DD58BDDDE9426D0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "66433826BE2CEC1F"
+				item: "aquaculture:tuna"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "7219711EB4455DDA"
+			rewards: [{
+				id: "4BD0A66589623C62"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "7C8E646A29FC23C3"
+				item: "aquaculture:goldfish"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A6B425160229A27"]
+			description: ["These treasure chests can be fished up with enough luck. They contain some junk and a random Neptunium item."]
+			id: "69CF521B5823F2BF"
+			rewards: [
+				{
+					id: "582BFF9A9274F5EF"
+					item: "nameless_trinkets:tear_of_the_sea"
+					type: "item"
+				}
+				{
+					id: "02DEF6B5EE693D91"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "593C40C36B492713"
+				item: "aquaculture:neptunes_bounty"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["69CF521B5823F2BF"]
+			id: "694BAA9D2C7B5152"
+			rewards: [{
+				id: "7433477D93A47ACA"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "686CCDBF18A0620D"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_fishing_rod"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["69CF521B5823F2BF"]
+			id: "079F17749B28FB52"
+			rewards: [{
+				id: "0856A79FECD43524"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "293ADFB4E7F011F0"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_fillet_knife"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["317DD5BA7A2FE9B1"]
+			id: "5CA17EF9A37EE150"
+			rewards: [{
+				id: "108F4E534187248D"
+				item: "nameless_trinkets:electric_paddle"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "5AB9B5B8F70A3D66"
+				item: { Count: 64, id: "minecraft:cooked_salmon" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			description: ["Turn the fruits of your garden into liquor with powerful effects!"]
+			id: "0FE8DE378AE2A9DA"
+			tasks: [{
+				id: "043B683FC791C91A"
+				item: "vinery:fermentation_barrel"
+				type: "item"
+			}]
+			title: "A Different Kind of Brewing"
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			id: "57B7ABFF82D3058D"
+			tasks: [{
+				id: "4B057B08FBEB1C79"
+				item: "vinery:red_grape_seeds"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -2.0d
+		}
+		{
+			id: "4F967E85C640401D"
+			tasks: [{
+				id: "5B0051A0380FCF88"
+				item: "vinery:white_grape_seeds"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			id: "7DDD5541F2392278"
+			tasks: [{
+				id: "1CCCEE7CC495FBC2"
+				item: "vinery:savanna_grape_seeds_red"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			id: "0FDEA33E61F29A90"
+			tasks: [{
+				id: "1F4E96AFB65D3896"
+				item: "vinery:savanna_grape_seeds_white"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			id: "6F98EBDE3A5AF072"
+			tasks: [{
+				id: "42CCF63F6D71F3E6"
+				item: "vinery:taiga_grape_seeds_red"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			id: "7EAFCE4A382C639D"
+			tasks: [{
+				id: "0588DB474EF03A6E"
+				item: "vinery:taiga_grape_seeds_white"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			id: "5F5B75162CEB540F"
+			tasks: [{
+				id: "1C33B5B5C650E00E"
+				item: "vinery:jungle_grape_seeds_red"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.0d
+		}
+		{
+			id: "01C3E335FDA2EE7B"
+			tasks: [{
+				id: "547CB25A2E6A0227"
+				item: "vinery:jungle_grape_seeds_white"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 2.0d
+		}
+		{
+			id: "55988662584A558E"
+			tasks: [{
+				id: "332D8D94391EFC9A"
+				item: "vinery:dark_cherry_sapling"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -0.5d
+		}
+		{
+			id: "21267E243A5F2691"
+			tasks: [{
+				id: "6FB11A896591DABE"
+				item: "vinery:apple_tree_sapling"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.5d
+		}
+		{
+			id: "11AD514C0599769F"
+			tasks: [{
+				id: "0B5DC8D1FB8485BE"
+				item: "vinery:cherry"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -0.5d
+		}
+		{
+			id: "205C724D4797FCE7"
+			tasks: [{
+				id: "18D92C4BBC66C32F"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.5d
+		}
+		{
+			id: "604FF7E861A74327"
+			tasks: [{
+				id: "214937F83117CD11"
+				item: "vinery:red_grape"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.0d
+		}
+		{
+			id: "750459D4535B4BDF"
+			tasks: [{
+				id: "31C8ABE112E4A939"
+				item: "vinery:white_grape"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			id: "389F848FC18A5986"
+			tasks: [{
+				id: "34A1C20C12F542E6"
+				item: "vinery:jungle_grapes_white"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			id: "1564A67BF6FB195E"
+			tasks: [{
+				id: "2801D754E6C037D1"
+				item: "vinery:savanna_grapes_white"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			id: "6824F59A6CCE60B4"
+			tasks: [{
+				id: "6E29DB558CB1160A"
+				item: "vinery:taiga_grapes_white"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			id: "483E6A88BAD48DF8"
+			tasks: [{
+				id: "028C1B11EE1B3381"
+				item: "vinery:jungle_grapes_red"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			id: "632DAC1B27E4543F"
+			tasks: [{
+				id: "526CCCB20E69C748"
+				item: "vinery:taiga_grapes_red"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			id: "7E1DD8048AF5B2B5"
+			tasks: [{
+				id: "798527FAF7999510"
+				item: "vinery:savanna_grapes_red"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "7CD7CBEA0089E52C"
+			rewards: [{
+				id: "53EC1B694C3DB903"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "7D69DC5D1C0209E0"
+				item: "aquaculture:box_turtle"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "4C31F1FDD9E9D3AD"
+			rewards: [{
+				id: "2F1F80B9FB6D5E08"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "3035FF0CEF37430D"
+				item: "aquaculture:arrau_turtle"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["148702145B2BFE27"]
+			id: "4EC2765B95D5EC63"
+			rewards: [{
+				id: "647DFA0B274443A8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5ED9DECD5D786083"
+				item: "aquaculture:starshell_turtle"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			id: "0000000000000168"
+			rewards: [
+				{
+					id: "6EFAB257E0BC7800"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "junk_2"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0000000000000361"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2F97F8F9A311A5E9"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2C90592E111D8242"
+					item: "aquaculture:driftwood"
+					type: "item"
+				}
+				{
+					id: "000000000000016C"
+					item: "aquaculture:tin_can"
+					type: "item"
+				}
+				{
+					id: "000000000000016D"
+					item: "aquaculture:message_in_a_bottle"
+					type: "item"
+				}
+				{
+					id: "000000000000016E"
+					item: "aquaculture:box"
+					type: "item"
+				}
+				{
+					id: "000000000000016F"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+				{
+					id: "0000000000000170"
+					item: "aquaculture:treasure_chest"
+					type: "item"
+				}
+			]
+			title: "What is this junk?"
+			x: 12.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			description: ["Good Lord, this stuff explodes!"]
+			id: "6D564EC3B4625C67"
+			rewards: [{
+				id: "0F3F878D79C433E5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "643734262CEA37A3"
+				item: "nethersdelight:propelplant_cane"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6D564EC3B4625C67"]
+			id: "1C662D549DB2E6DB"
+			rewards: [{
+				id: "52122FE05210EA3A"
+				item: "nameless_trinkets:creeper_sense"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "5702643D1F4E754A"
+				item: { Count: 64, id: "nethersdelight:propelplant_cane" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+	]
+	title: "Fish n Farm"
+}

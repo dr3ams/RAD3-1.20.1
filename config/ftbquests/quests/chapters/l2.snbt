@@ -10,13 +10,24 @@
 	quests: [
 		{
 			dependencies: ["085E485E8091D543"]
-			description: ["This charm is a must-have for all adventurers. Equipping it will allow mobs to drop rare items related to the traits they have. You'll want to hunt fiery, moonwalk, and gravity mobs for blaze rods and dragon breath. Those are used to craft the next tier of looting charm. "]
+			description: [
+				"This charm is a must-have for all adventurers. Equipping it will allow mobs to drop rare items related to the traits they have. You'll want to hunt fiery, moonwalk, and gravity mobs for blaze rods and dragon breath. Those are used to craft the next tier of looting charm. "
+				""
+				"&8(Psst. I have secretly given you everything you need to craft one from rewards in the Features chapter.)&r"
+			]
 			id: "4AB1E47BD55C667F"
-			rewards: [{
-				id: "3AD57CB764CFFE7B"
-				item: "minecraft:ender_pearl"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3AD57CB764CFFE7B"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "427D4824C6AB8674"
+					item: "l2hostility:bottle_of_curse"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "1487D4DC87887C0E"
@@ -30,6 +41,11 @@
 			dependencies: ["4AB1E47BD55C667F"]
 			description: ["This looting charm enables unique drops from mobs based on their traits. These rare drops are far more difficult to get without this charm."]
 			id: "4647DFF4EABDE353"
+			rewards: [{
+				id: "3162B16E28FFAB15"
+				item: "l2hostility:bottle_of_curse"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "7178D3E1EDD737B7"
@@ -44,13 +60,19 @@
 			description: [
 				"The Chaos Ingot is used to craft many powerful items. Curses, rings, charms, and more! You'll need a lot of these as you progress."
 				""
-				"Note: Unlike the other rare drops, the Essence of Wind doesn't drop with the Magical Looting Charm equipped. You'll need to move 200m/s with Wind Capturing bottles in your inventory. Possible ways to achieve this:"
+				"Note: Unlike the other rare drops, the Essence of Wind doesn't drop with the Magical Looting Charm equipped. You'll need to move 200m/s &othrough the air&r with Wind Capturing bottles in your inventory. Possible ways to achieve this:"
 				" - Shooting yourself out of a TNT cannon"
 				" - Riptide trident + Elytra in the rain"
 				" - Getting knocked back by the Ender Dragon"
 				" - Holding a shield and getting rammed by a Ravager"
 			]
 			id: "2C8184EF50649550"
+			rewards: [{
+				count: 4
+				id: "10FC875F499F3108"
+				item: "l2hostility:bottle_of_curse"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2FB8AE9C0F310FB3"
 				item: "l2hostility:chaos_ingot"
@@ -69,6 +91,11 @@
 				"Note: When an enchanted book appears in a crafting recipe, ANY ITEM with that enchantment can be used. So, for example, this curse can be crafted with a sword with looting and a pickaxe with silk touch."
 			]
 			id: "1887FFFDF2F18508"
+			rewards: [{
+				id: "56A6CE2633563884"
+				item: "nameless_trinkets:fate_emerald"
+				type: "item"
+			}]
 			shape: "octagon_important"
 			subtitle: "I want what you have"
 			tasks: [{
@@ -83,6 +110,18 @@
 			dependencies: ["2C8184EF50649550"]
 			description: ["Stops the difficulty from rising, but also stops you from getting special loot. Basically, a pause button on progress."]
 			id: "2C7BE26B882BA97A"
+			rewards: [
+				{
+					id: "03CD170265DB9AF4"
+					item: "nameless_trinkets:reverse_card"
+					type: "item"
+				}
+				{
+					id: "4E1AD5C7DF9AABD8"
+					item: "l2hostility:bottle_of_sanity"
+					type: "item"
+				}
+			]
 			shape: "octagon_important"
 			subtitle: "I want a break"
 			tasks: [{
@@ -116,6 +155,11 @@
 			dependencies: ["1887FFFDF2F18508"]
 			description: ["This curse makes mobs drop Bottles of Curse based on their level. You are going to need A LOT of Bottles of Curse."]
 			id: "1EAB72EC26A866EF"
+			rewards: [{
+				id: "507CFA76120EDB90"
+				item: "celestial_artifacts:gluttony_badge"
+				type: "item"
+			}]
 			shape: "octagon_important"
 			subtitle: "MORE BOTTLES"
 			tasks: [{
@@ -130,6 +174,11 @@
 			dependencies: ["1887FFFDF2F18508"]
 			description: ["Gives you more loot, but raises the difficulty. Raising the difficulty can be good, since it lets mobs with new, powerful traits spawn. High risk, high reward."]
 			id: "37EFC27EA5A642AC"
+			rewards: [{
+				id: "40C4FF696E92D3D3"
+				item: "nameless_trinkets:miners_soul"
+				type: "item"
+			}]
 			shape: "octagon_important"
 			subtitle: "I want more"
 			tasks: [{
@@ -144,6 +193,11 @@
 			dependencies: ["1887FFFDF2F18508"]
 			description: ["This curse makes mobs drop all their armor and weapons. Very helpful for collecting tridents or items with Protection 4."]
 			id: "44E782F20A5B4CF2"
+			rewards: [{
+				id: "1B21C3A5AEA5FEFD"
+				item: "nameless_trinkets:sigil_of_baphomet"
+				type: "item"
+			}]
 			shape: "octagon_important"
 			subtitle: "Take off your armor~♪"
 			tasks: [{
@@ -156,8 +210,13 @@
 		}
 		{
 			dependencies: ["6BB9F5B1E1AE4BDE"]
-			description: ["The fourth and final looting charm. Equipping it will make Eternium nuggets drop from mobs with Ragnarok and the Imagine Breaker to drop from mobs with Dispell 3."]
+			description: ["The fourth and final looting charm. Equipping it will make Eternium nuggets drop from mobs with Ragnarok and the Imagine Breaker will drop from mobs with Dispell 3."]
 			id: "6DF2981982ED9BAE"
+			rewards: [{
+				id: "551358B69CD0A19D"
+				item: "nameless_trinkets:experience_battery"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "18CC932CB8D7B0BB"
@@ -181,6 +240,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				count: 512L
 				id: "7A26D3694D0094F1"
 				item: "l2hostility:bottle_of_curse"
@@ -202,93 +262,23 @@
 			]
 			id: "19E3721B38A7E89F"
 			rewards: [{
-				count: 5
+				count: 3
 				id: "5DE174B0D7B5E28B"
 				item: "l2hostility:miracle_powder"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "375857BCC9B9B79E"
-					item: "l2hostility:speedy"
-					type: "item"
+			tasks: [{
+				id: "48CCF9E920EABA2C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "l2hostility:trait_item"
+					}
 				}
-				{
-					id: "2CA042AB09CBE427"
-					item: "l2hostility:tank"
-					type: "item"
-				}
-				{
-					id: "35C59923FC43AFAA"
-					item: "l2hostility:protection"
-					type: "item"
-				}
-				{
-					id: "67D684C2223C5803"
-					item: "l2hostility:invisible"
-					type: "item"
-				}
-				{
-					id: "1C3597DFCD7CA354"
-					item: "l2hostility:fiery"
-					type: "item"
-				}
-				{
-					id: "06159EA58FB53341"
-					item: "l2hostility:regenerate"
-					type: "item"
-				}
-				{
-					id: "082C442F086DD7D1"
-					item: "l2hostility:weakness"
-					type: "item"
-				}
-				{
-					id: "3ABA345E0ED77235"
-					item: "l2hostility:slowness"
-					type: "item"
-				}
-				{
-					id: "6EEFAEF55C927C5D"
-					item: "l2hostility:poison"
-					type: "item"
-				}
-				{
-					id: "2A9298A5C87E5745"
-					item: "l2hostility:wither"
-					type: "item"
-				}
-				{
-					id: "23FB43BF203421E2"
-					item: "l2hostility:levitation"
-					type: "item"
-				}
-				{
-					id: "11A5191611FB6FD3"
-					item: "l2hostility:blindness"
-					type: "item"
-				}
-				{
-					id: "22B38629C1E1FA21"
-					item: "l2hostility:nausea"
-					type: "item"
-				}
-				{
-					id: "66EC1C1177C27F4F"
-					item: "l2hostility:freezing"
-					type: "item"
-				}
-				{
-					id: "6B30DEB442E59809"
-					item: "l2hostility:cursed"
-					type: "item"
-				}
-				{
-					id: "48CCF9E920EABA2C"
-					item: "l2hostility:soul_burner"
-					type: "item"
-				}
-			]
+				title: "Any #l2hostility:trait_item"
+				type: "item"
+			}]
 			title: "Trait Items"
 			x: -8.0d
 			y: -1.0d
@@ -298,9 +288,14 @@
 				"32C34F16A99784BF"
 				"19E3721B38A7E89F"
 			]
-			dependency_requirement: "one_completed"
 			description: ["Miracle Ingots are used to craft the last two curses as well as other end-game gear."]
 			id: "6BB9F5B1E1AE4BDE"
+			rewards: [{
+				count: 4
+				id: "2CDB1243F133CA43"
+				item: "l2hostility:booster_potion"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5FFA445BDF4BAAA5"
 				item: "l2hostility:miracle_ingot"
@@ -313,6 +308,11 @@
 			dependencies: ["6BB9F5B1E1AE4BDE"]
 			description: ["A powerful offensive curse. Grants immunity to several negative effects and gives a massive, scaling attack boost. You'll definitely need it."]
 			id: "43B44F0D48673B37"
+			rewards: [{
+				id: "39EB5A874AF41F52"
+				item: "nameless_trinkets:rage_mind"
+				type: "item"
+			}]
 			shape: "octagon_important"
 			subtitle: "I'm gonna kill you"
 			tasks: [{
@@ -325,8 +325,17 @@
 		}
 		{
 			dependencies: ["6BB9F5B1E1AE4BDE"]
-			description: ["An even more powerful offensive curse. Gives a scaling health and damage boost against mobs, but makes mob traits 300% more common. Don't underestimate that downside."]
+			description: [
+				"An even more powerful offensive curse. Gives a scaling health and damage boost against mobs, but makes mob traits 300% more common. Don't underestimate that downside."
+				""
+				"I recommend removing this curse when summoning a boss, then equipping it again once it is summoned."
+			]
 			id: "4D584EC8ED383E57"
+			rewards: [{
+				id: "385640D64E131B12"
+				item: "nameless_trinkets:cracked_crown"
+				type: "item"
+			}]
 			shape: "octagon_important"
 			subtitle: "I'm the best"
 			tasks: [{
@@ -341,6 +350,12 @@
 			dependencies: ["6DF2981982ED9BAE"]
 			description: ["Eternium can either be crafted one nugget at a time, or looted from mobs with Ragnarok if you have the Miraculous Looting Charm equipped. It is used to craft end-game gear."]
 			id: "07FAEDB31A2025A5"
+			rewards: [{
+				count: 4
+				id: "3FC97EC13D471FB2"
+				item: "l2hostility:eternal_witch_charge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5B96EEFEE9E93A00"
 				item: "l2complements:eternium_ingot"
@@ -370,6 +385,11 @@
 			dependencies: ["37EFC27EA5A642AC"]
 			description: ["Straight-up multiplies mob drops. You can even get overstacked items with it. Even higher risk for even higher reward!"]
 			id: "5B44C59226BC1BFE"
+			rewards: [{
+				id: "1549D52FCB16F0DE"
+				item: "nameless_trinkets:four_leaf_clover"
+				type: "item"
+			}]
 			subtitle: "I want it all!"
 			tasks: [{
 				id: "6345EF91C80A9B6B"
@@ -383,6 +403,11 @@
 			dependencies: ["07FAEDB31A2025A5"]
 			description: ["Despite the similar-looking tooltip, the Abrahadabra is far more powerful than the Ring of Reflection. The Abrahadabra gives you immunity to (almost) all traits. Pulling, Repelling, Killer Aura, Ragnarok, they all do nothing to you. Reprint, though, still hurts."]
 			id: "500559C4EC48DAE9"
+			rewards: [{
+				id: "4FA1FF20ABF0B9F5"
+				item: "nameless_trinkets:fractured_nullstone"
+				type: "item"
+			}]
 			tasks: [{
 				id: "05CAF95AC3121999"
 				item: "l2hostility:abrahadabra"
@@ -395,6 +420,19 @@
 			dependencies: ["07FAEDB31A2025A5"]
 			description: ["Makes every mob as powerful as it can be for its level, but you'll always get all of its traits. High risk, high reward. Good for hunting down rare mob traits."]
 			id: "2447BA68A5E96A73"
+			rewards: [{
+				id: "122ED1777B6F2B93"
+				item: {
+					Count: 1
+					id: "nameless_trinkets:broken_ankh"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "41452B1B165DB2AA"
 				item: "l2hostility:abyssal_thorn"
@@ -407,6 +445,12 @@
 			dependencies: ["2C7BE26B882BA97A"]
 			description: ["Resets the difficulty to minimum. It'll only raise from curios and dimension-specific difficulty. This curio lacks the downside of the Curse of Sloth, so you can still get special drops while you have it."]
 			id: "14CF2EF91064A780"
+			rewards: [{
+				count: 3
+				id: "75098DC75C6B7FDD"
+				item: "l2hostility:bottle_of_sanity"
+				type: "item"
+			}]
 			subtitle: "I don't want to fight"
 			tasks: [{
 				id: "1AFDFEA5A78D0F4C"
@@ -424,12 +468,25 @@
 				"fun fact: it takes 558 anvils to craft this anvil"
 			]
 			id: "4720DBBDF38D580A"
-			rewards: [{
-				count: 2
-				id: "76247E0E23B1F17E"
-				item: "kubejs:diamond_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "76247E0E23B1F17E"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "1718F29CE8A75403"
+					item: "artifacts:eternal_steak"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "54451E8FE5E644C3"
+					item: "l2complements:heirophant_green"
+					type: "item"
+				}
+			]
 			subtitle: "lol. lmao even."
 			tasks: [{
 				id: "67C48D6AC003956B"
@@ -442,6 +499,11 @@
 		{
 			dependencies: ["4AB1E47BD55C667F"]
 			id: "7CB2EC23265E714B"
+			rewards: [{
+				id: "5F7CA0C1CC6ACEDE"
+				item: "l2hostility:bottle_of_curse"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D1BA320342BBCD2"
 				item: "l2hostility:hostility_detector"
@@ -454,11 +516,18 @@
 			dependencies: ["4AB1E47BD55C667F"]
 			description: ["Once you start seeing mobs above level 50, I highly recommend crafting and wearing a pair of these goggles. They'll stop invisible mobs from sneaking up on you. And they're just handy to have in general."]
 			id: "424EC719533E15F9"
-			rewards: [{
-				id: "2A803104AD99D1CD"
-				item: "nameless_trinkets:dragons_eye"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2A803104AD99D1CD"
+					item: "nameless_trinkets:dragons_eye"
+					type: "item"
+				}
+				{
+					id: "6792678A90D1CEF0"
+					item: "l2hostility:bottle_of_curse"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7EB097F588A25867"
 				item: "l2hostility:detector_glasses"
@@ -471,6 +540,12 @@
 			dependencies: ["2F1B8FFAB949F4BF"]
 			description: ["When an enchantment is applied to this book in an anvil, it creates two of that enchanted book. You'll need this later on."]
 			id: "1BEBBCBDDF2D0138"
+			rewards: [{
+				count: 16
+				id: "35A4135267FBF2B3"
+				item: "apotheosis:scrap_tome"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3EF1C561C6D9F946"
 				item: "l2hostility:book_of_reprint"
@@ -481,8 +556,14 @@
 		}
 		{
 			dependencies: ["1BEBBCBDDF2D0138"]
-			description: ["This book can be renamed in an anvil to the ID of any non-treasure enchantment (so no Mending or Frost Walker, for example) to turn it into that enchanted book. Can be very helpful, if expensive."]
+			description: ["This book can be renamed in an anvil to the ID of any non-treasure enchantment (so no Mending or Vien Miner, for example) to turn it into that enchanted book. Can be very helpful, if expensive."]
 			id: "5FDE0BD13FFD0089"
+			rewards: [{
+				count: 16
+				id: "7454132E7FD87A1A"
+				item: "apotheosis:improved_scrap_tome"
+				type: "item"
+			}]
 			tasks: [{
 				id: "61F724EE27A52A9F"
 				item: "l2hostility:book_of_omniscience"
@@ -702,6 +783,19 @@
 			dependencies: ["6BB9F5B1E1AE4BDE"]
 			description: ["Pairs well with the Ring of Divinity."]
 			id: "66DA3907930D748C"
+			rewards: [{
+				id: "620068C4DC85E9DE"
+				item: {
+					Count: 1
+					id: "celestial_artifacts:cross_necklace"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "635B7BE001EED842"
 				item: "l2hostility:divinity_cross"
@@ -727,6 +821,11 @@
 				}
 			}
 			id: "6DEAF842B0E4079B"
+			rewards: [{
+				id: "70EFD95DC78A8270"
+				item: "naturesaura:end_city_finder"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0902B520CC095AA6"
@@ -802,6 +901,12 @@
 				}
 			}
 			id: "5828F847AEC344A1"
+			rewards: [{
+				count: 3
+				id: "094AD061175967D7"
+				item: "l2complements:captured_wind"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5B74E2F044A6AAF8"
@@ -881,6 +986,11 @@
 		{
 			description: ["Riptide on land! Fall damage protection not included."]
 			id: "0F8CD94C12F70AB6"
+			rewards: [{
+				id: "339D369D5E111168"
+				type: "xp"
+				xp: 777
+			}]
 			tasks: [{
 				id: "457999D6F409903F"
 				item: {
@@ -900,6 +1010,11 @@
 		{
 			description: ["Stops you from getting obliterated in one hit. But watch out for the second hit."]
 			id: "4C9A4D021457F777"
+			rewards: [{
+				id: "1F21C02B7B678E6E"
+				type: "xp"
+				xp: 777
+			}]
 			tasks: [{
 				id: "5BC9F641E51A557D"
 				item: {
@@ -917,8 +1032,13 @@
 			y: 4.0d
 		}
 		{
-			description: ["Erases all potion effects, both good and bad."]
+			description: ["Erases all potion effects, both good and bad. Also makes you immune to magic damage."]
 			id: "4B0874B6C46A9363"
+			rewards: [{
+				id: "42A68F864E452B3C"
+				type: "xp"
+				xp: 777
+			}]
 			tasks: [{
 				id: "305266B59F923567"
 				item: {
@@ -938,6 +1058,11 @@
 		{
 			description: ["Tired of getting blinded, weakened, poisoned, withered, nauseated, frozen, and slowed? This ring is for you!"]
 			id: "5B05AD90640A64D0"
+			rewards: [{
+				id: "69823A235DBF08B1"
+				type: "xp"
+				xp: 777
+			}]
 			tasks: [{
 				id: "06B664BA3235FF04"
 				item: {
@@ -957,6 +1082,11 @@
 		{
 			description: ["Very handy for preventing Endermen or other teleporting mobs from teleporting away from you."]
 			id: "0DAB16C5E892D9A0"
+			rewards: [{
+				id: "536798F114EE1936"
+				type: "xp"
+				xp: 777
+			}]
 			tasks: [{
 				id: "08D0012ECCD28F37"
 				item: {
@@ -976,6 +1106,11 @@
 		{
 			description: ["Pairs well with Totemic Gold equipment or the Hardened enchantment, but not both at once!"]
 			id: "0A4A56A37F9F870E"
+			rewards: [{
+				id: "429937B56C3A9D2B"
+				type: "xp"
+				xp: 777
+			}]
 			tasks: [{
 				id: "6178AF00FF5A983F"
 				item: {
@@ -993,8 +1128,13 @@
 			y: 5.0d
 		}
 		{
-			description: ["Contrary to the tooltip, heals you for .1% of your health per second. Better than nothing, I guess."]
+			description: ["Heals you for 1% of your health per second. Better than nothing, and you might be able to abuse it with really high health."]
 			id: "7B7FA58532DDA106"
+			rewards: [{
+				id: "35AC4E5D90CE4AF8"
+				type: "xp"
+				xp: 777
+			}]
 			tasks: [{
 				id: "6D6452AA06F7DA61"
 				item: {
@@ -1563,6 +1703,11 @@
 			dependencies: ["6BB9F5B1E1AE4BDE"]
 			description: ["This item automatically unseals items that have been sealed by the Ragnarok trait. It is immune to being sealed."]
 			id: "45806027148F0D54"
+			rewards: [{
+				id: "10387862CFB71F3F"
+				item: "artifacts:pocket_piston"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7C0C7994EDB744B6"
 				item: {
@@ -1579,9 +1724,13 @@
 		}
 		{
 			dependencies: ["6BB9F5B1E1AE4BDE"]
-			description: ["Spam click to your heart's content. Doesn't work on swords or axes because of Better Combat, but with a high enough attack boost, even a pickaxe or fist can become a deadly weapon."]
+			description: ["This charm allows you to bypass the half-second of damage immunity that mobs get when struck. Very fast weapons can take advantage of this."]
 			id: "28D8095FD4371A77"
-			subtitle: "Return to 1.8"
+			rewards: [{
+				id: "06E8A7D2C971E499"
+				item: "supplementaries:globe"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1322FD4CBD91D50D"
 				item: "l2hostility:platinum_star"
@@ -1593,6 +1742,25 @@
 		{
 			dependencies: ["19E3721B38A7E89F"]
 			id: "46A0376C04C60574"
+			rewards: [
+				{
+					id: "3174C5820289A5AC"
+					item: "simplehats:zigzagwitchhat"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "28EEEFBF9758D2D6"
+					item: "l2hostility:witch_droplet"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "56B34D78DD446601"
+					item: "l2hostility:witch_charge"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4AF881FFAF30DC0A"
 				item: {
@@ -1611,6 +1779,11 @@
 			dependencies: ["2C8184EF50649550"]
 			description: ["Adds 2 more head slots. Now you can wear your Detector Glasses and your Night Vision Goggles at the same time! Can be stacked infinitely to add even MORE head slots if you want that for some reason."]
 			id: "0ABFF4AB2E27B025"
+			rewards: [{
+				id: "47E32F9E354E4B95"
+				item: "simplehats:sunglasses"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6EB35F3195E844A5"
 				item: "l2hostility:oddeyes_glasses"
@@ -1641,6 +1814,31 @@
 			dependencies: ["2C8184EF50649550"]
 			description: ["Adds 5 rings slots and 1 charm slot. Very helpful due to the sheer number of rings and charms in the pack."]
 			id: "36AF8F60D4EFD9ED"
+			rewards: [{
+				id: "4B8128DCE84350D5"
+				item: {
+					Count: 1
+					id: "relics:infinity_ham"
+					tag: {
+						abilities: {
+							autophagy: {
+								points: 0
+								stats: {
+									feed: 1.33384d
+								}
+							}
+							infusion: {
+								points: 0
+								stats: {
+									duration: 1.20923d
+								}
+							}
+						}
+						pieces: 10
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "38BBB7F626FC0844"
 				item: "l2hostility:infinity_glove"
@@ -1752,12 +1950,17 @@
 				"- &4Teleport:&r Mobs can teleport to avoid physical damage. Try to use magic."
 				"- &6Repelling:&r Mobs will repel you. Use full set insulation enchantment to reduce the force."
 				"- &4Pulling:&r Mobs will pull you toward it. Use full set insulation enchantment to reduce the force."
-				"- &6Undying:&r Mobs will respawn indefinitely. Try to use Cursed potion or weapons that can inflict Cursed effect"
+				"- &6Master:&r Mobs will summon allies. This trait is only found on special bosses."
 				"- &4Killer Aura:&r Appears only after Lv.300. Mobs will deal damage to nearby targets every few seconds, range indicated by particle effects."
 				"- &6Ragnarok:&r Appears only after Lv.600. When mob hit target, mob will \"seal\" some equipments or curios on target, which can be unsealed by hold using the item for a few seconds."
 			]
 			icon: "kubejs:backstab"
 			id: "544FFD8F98E83BED"
+			rewards: [{
+				id: "30D385388C235692"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0F89D372B785514B"
 				title: "Mob Traits"
@@ -1767,5 +1970,5 @@
 			y: 1.0d
 		}
 	]
-	title: "Hostile World"
+	title: "&7Hostile World&r"
 }

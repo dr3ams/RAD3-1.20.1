@@ -868,9 +868,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Discover a Nether City"
 			tasks: [{
-				advancement: "repurposed_structures:city_nether"
+				advancement: "hopo:minecraft/adventure/locate_underwater_city"
 				criterion: ""
 				id: "5556E908ECF2D79A"
 				type: "advancement"
@@ -1188,6 +1187,7 @@
 		{
 			id: "18F22679FA467A3B"
 			invisible: true
+			optional: true
 			rewards: [
 				{
 					id: "217C6419541FDBB9"
@@ -1261,6 +1261,7 @@
 		{
 			id: "0292B5904A252DC8"
 			invisible: true
+			optional: true
 			rewards: [
 				{
 					id: "0C0927802BD3DAE5"
@@ -1503,7 +1504,7 @@
 				}
 			]
 			tasks: [{
-				advancement: "idas:wizardtower"
+				advancement: "minecraft:end/find_end_city"
 				criterion: ""
 				id: "20FC5CBC7066CE6D"
 				type: "advancement"
@@ -1584,6 +1585,7 @@
 		{
 			id: "6E0F6DFA958172F8"
 			invisible: true
+			optional: true
 			rewards: [
 				{
 					id: "314012A1F1608FDC"
@@ -1610,6 +1612,7 @@
 		{
 			id: "6D7846F53919A4D9"
 			invisible: true
+			optional: true
 			rewards: [
 				{
 					id: "23F0CA85D98CF337"

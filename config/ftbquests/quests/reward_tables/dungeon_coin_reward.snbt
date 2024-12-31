@@ -4,10 +4,10 @@
 	loot_size: 1
 	order_index: 32
 	rewards: [
-		{ item: "collectorsalbum:common_card_package" }
-		{ item: "collectorsalbum:epic_card_package" }
-		{ item: "collectorsalbum:rare_card_package" }
-		{ item: "collectorsalbum:uncommon_card_package" }
+		{ item: "collectorsalbum:common_card_pack" }
+		{ item: "collectorsalbum:uncommon_card_pack" }
+		{ item: "collectorsalbum:rare_card_pack" }
+		{ item: "collectorsalbum:epic_card_pack" }
 		{ item: "aquaculture:treasure_chest", random_bonus: 2 }
 		{ count: 2, item: "aquaculture:lockbox", random_bonus: 2 }
 		{ count: 2, item: "aquaculture:box", random_bonus: 3 }
@@ -20,7 +20,6 @@
 		{ item: "supplementaries:statue" }
 		{ item: "supplementaries:hat_stand" }
 		{ item: "supplementaries:globe" }
-		{ item: "vintagedelight:fruity_granola_bar" }
 		{ item: "farmersdelight:potato_crate" }
 		{ item: "farmersdelight:beetroot_crate" }
 		{ item: "farmersdelight:carrot_crate" }
@@ -39,16 +38,6 @@
 			item: {
 				Count: 1
 				id: "minecraft:netherite_hoe"
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 0.5f
-		}
-		{
-			item: {
-				Count: 1
-				id: "natprog:diamond_saw"
 				tag: {
 					Damage: 0
 				}
@@ -82,150 +71,6 @@
 		{ item: "miners_delight:baked_cod_stew_cup" }
 		{ item: "miners_delight:bat_cookie" }
 		{ item: "miners_delight:improvised_barbecue_stick" }
-		{
-			item: {
-				Count: 1
-				id: "skilltree:gem"
-				tag: {
-					type: "skilltree:jade_1"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "skilltree:gem"
-				tag: {
-					type: "skilltree:citrine_1"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "skilltree:gem"
-				tag: {
-					type: "skilltree:citrine_2"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "skilltree:gem"
-				tag: {
-					type: "skilltree:citrine_3"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "skilltree:gem"
-				tag: {
-					type: "skilltree:jade_2"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "skilltree:gem"
-				tag: {
-					type: "skilltree:iriscite_1"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "skilltree:gem"
-				tag: {
-					type: "skilltree:iriscite_2"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "skilltree:gem"
-				tag: {
-					type: "skilltree:iriscite_3"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "skilltree:gem"
-				tag: {
-					type: "skilltree:jade_3"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "skilltree:gem"
-				tag: {
-					type: "skilltree:ruby_1"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "skilltree:gem"
-				tag: {
-					type: "skilltree:ruby_2"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "skilltree:gem"
-				tag: {
-					type: "skilltree:ruby_3"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "skilltree:gem"
-				tag: {
-					type: "skilltree:sapphire_2"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "skilltree:gem"
-				tag: {
-					type: "skilltree:sapphire_3"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "skilltree:gem"
-				tag: {
-					type: "skilltree:sapphire_4"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "skilltree:gem"
-				tag: {
-					type: "skilltree:vacucite_3"
-				}
-			}
-		}
 		{
 			item: {
 				Count: 1

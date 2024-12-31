@@ -5,8 +5,315 @@
 	group: "2C344CA71B9F0CFD"
 	icon: "naturesaura:aura_bloom"
 	id: "6D8D40AEC5ED9B90"
+	images: [
+		{
+			height: 6.0d
+			image: "regions_unexplored:block/flowering_shrub_bottom"
+			order: 1
+			rotation: 0.0d
+			width: 6.0d
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			height: 6.0d
+			image: "regions_unexplored:block/flowering_shrub_top"
+			rotation: 0.0d
+			width: 6.0d
+			x: 0.0d
+			y: -6.5d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "363A34A9045D2B19"
+			subtitle: "A much better quide than this chapter"
+			tasks: [{
+				id: "2016DC09CF774A53"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "naturesaura:book"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["363A34A9045D2B19"]
+			id: "0DE996497324AF2F"
+			subtitle: "Craft Brilliant Fiber and use it on a tree's leaves"
+			tasks: [{
+				id: "170FFAD000BEFE1C"
+				item: "naturesaura:gold_fiber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0DE996497324AF2F"]
+			id: "32C3C18CD13635BA"
+			subtitle: "Harvest a crop of Gold Leaves"
+			tasks: [{
+				id: "56EB859F9CD2BD8A"
+				item: "naturesaura:gold_leaf"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["32C3C18CD13635BA"]
+			description: ["Most rituals need an oak sapling, but some use a jungle sapling instead. No other saplings can be used."]
+			icon: "naturesaura:wood_stand"
+			id: "133B744968FFD567"
+			tasks: [
+				{
+					count: 8L
+					id: "03914E008D62BEC2"
+					item: "naturesaura:wood_stand"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7A6E61F235871BDA"
+					item: { Count: 16, id: "naturesaura:gold_powder" }
+					type: "item"
+				}
+				{
+					id: "4184F653E0DE1F0F"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+			]
+			title: "Ritual of the Forest"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["133B744968FFD567"]
+			id: "117AF5C351A3D07C"
+			tasks: [
+				{
+					id: "7E3335A8A7831D07"
+					item: "naturesaura:token_joy"
+					type: "item"
+				}
+				{
+					id: "4D6C6ECE86033DB9"
+					item: "naturesaura:token_fear"
+					type: "item"
+				}
+				{
+					id: "75E0A06D96467548"
+					item: "naturesaura:token_anger"
+					type: "item"
+				}
+				{
+					id: "05377DEDB4C3DC5B"
+					item: "naturesaura:token_sorrow"
+					type: "item"
+				}
+			]
+			title: "Tokens"
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["133B744968FFD567"]
+			description: ["Follow the &oBook of Natural Aura&r for instructions on how to build the Altar structure"]
+			id: "096E8629FFFC19E4"
+			rewards: [{
+				id: "3088099B0B5FF40A"
+				item: "nameless_trinkets:nelumbo"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "23B62CF2B2B2F97F"
+					item: "naturesaura:nature_altar"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "24894AAD74542BA1"
+					item: { Count: 8, id: "naturesaura:gold_brick" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "19178AA561CBCB47"
+					item: { Count: 16, id: "minecraft:stone_bricks" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0031BB2CD7FBF3AF"
+					item: { Count: 4, id: "minecraft:chiseled_stone_bricks" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "13A284611459DA4C"
+					item: { Count: 20, id: "minecraft:oak_planks" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["096E8629FFFC19E4"]
+			id: "7C85B097FECF4252"
+			tasks: [{
+				id: "0207B0B4A7233020"
+				item: "naturesaura:infused_stone"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["096E8629FFFC19E4"]
+			id: "1936F991124987E4"
+			tasks: [{
+				id: "43730984574D0591"
+				item: "naturesaura:infused_iron"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["096E8629FFFC19E4"]
+			id: "35EB9D0FA182E5B0"
+			tasks: [{
+				id: "0DF44269014273E6"
+				item: "naturesaura:tainted_gold"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["133B744968FFD567"]
+			id: "6BAC15223228CC82"
+			tasks: [{
+				id: "2F4E9B8D3935CA81"
+				item: "naturesaura:eye"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7C85B097FECF4252"]
+			description: ["This curio provides a way to power aura-powered equipment on your person."]
+			id: "427DA6F8EB088A5E"
+			subtitle: "Handheld Aura"
+			tasks: [{
+				id: "511638D456FB31D5"
+				item: "naturesaura:aura_cache"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"427DA6F8EB088A5E"
+				"1C6EE12BFB79A0DF"
+			]
+			id: "6F13C82954463624"
+			tasks: [{
+				id: "509A2799C17DB37E"
+				item: "naturesaura:aura_trove"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["133B744968FFD567"]
+			description: ["This tree, once grown, will replenish the local aura with its leaves. When it runs out of leaves, you'll have to plant another. This is not a very good way to generate aura. Better methods will come later."]
+			id: "5BA97B561B210CB2"
+			subtitle: "Aura Production"
+			tasks: [{
+				id: "49226ED6416F111A"
+				item: "naturesaura:ancient_sapling"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["117AF5C351A3D07C"]
+			id: "3A596043B1D5950A"
+			tasks: [
+				{
+					id: "51DFF699D7FA5D23"
+					item: "naturesaura:token_euphoria"
+					type: "item"
+				}
+				{
+					id: "7E1AA3ED91473175"
+					item: "naturesaura:token_terror"
+					type: "item"
+				}
+				{
+					id: "15D727A481977A36"
+					item: "naturesaura:token_rage"
+					type: "item"
+				}
+				{
+					id: "5AEED5A14DE0541E"
+					item: "naturesaura:token_grief"
+					type: "item"
+				}
+			]
+			title: "Advanced Tokens"
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"7C85B097FECF4252"
+				"117AF5C351A3D07C"
+			]
+			icon: "naturesaura:offering_table"
+			id: "708167D628AA5448"
+			tasks: [
+				{
+					id: "37A08E6D2AD5E942"
+					item: "naturesaura:offering_table"
+					type: "item"
+				}
+				{
+					id: "250BA6B452FDA244"
+					item: "naturesaura:calling_spirit"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["708167D628AA5448"]
+			id: "1C6EE12BFB79A0DF"
+			tasks: [{
+				id: "3442996C740606A9"
+				item: "naturesaura:sky_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+	]
 	title: "Nature's Aura"
 }

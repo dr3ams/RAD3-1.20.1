@@ -20,22 +20,29 @@
 		{
 			dependencies: ["0DDCA8596165F660"]
 			id: "1C9F00340D0A1997"
-			rewards: [{
-				id: "5FB1CB2126E754E1"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			rewards: [
+				{
+					id: "5FB1CB2126E754E1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "ars_nouveau:mana_regen_potion"
 						}
 					}
-					id: "minecraft:potion"
-					tag: {
-						Potion: "ars_nouveau:mana_regen_potion"
-					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3DE39F15F2D06FCD"
+					item: "ars_additions:codex_entry"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "625757E4C11D06B9"
 				item: "ars_nouveau:worn_notebook"
@@ -48,22 +55,6 @@
 			dependencies: ["1C9F00340D0A1997"]
 			id: "52BA4A6A022B5A32"
 			rewards: [
-				{
-					id: "1BC8745FF1098785"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:potion"
-						tag: {
-							Potion: "ars_nouveau:spell_damage"
-						}
-					}
-					type: "item"
-				}
 				{
 					id: "382001C81B2524C7"
 					item: {
@@ -78,25 +69,21 @@
 					type: "item"
 				}
 				{
-					id: "663C15D3F432A6E7"
+					id: "01F8848142B56883"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "materials_magic"
+							type: "materials_1"
 						}
 					}
 					type: "item"
 				}
 				{
-					id: "422E2F8F6176FFCA"
-					type: "xp_levels"
-					xp_levels: 3
+					count: 2
+					id: "350040756D7E21C2"
+					item: "ars_additions:codex_entry"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -111,7 +98,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -149,6 +136,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "4852958F94401BEF"
+					item: "ars_additions:codex_entry"
+					type: "item"
+				}
 			]
 			size: 2.0d
 			tasks: [{
@@ -160,20 +152,28 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["6E2F82D196CC174F"]
 			id: "7F9225E5CA7986A6"
-			rewards: [{
-				id: "25D04C105362E787"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "25D04C105362E787"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "750E04EF248BC03D"
+					item: "ars_additions:lost_codex_entry"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "62F33141CDEAF50D"
 				item: "ars_nouveau:magebloom"
 				type: "item"
 			}]
-			x: 2.25d
-			y: -3.0d
+			x: 7.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7F9225E5CA7986A6"]
@@ -197,165 +197,162 @@
 					item: "ars_nouveau:source_gem"
 					type: "item"
 				}
+				{
+					id: "1C0A3093DA4E58EF"
+					item: "ars_additions:lost_codex_entry"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "502D42037EE4914E"
 				item: "ars_nouveau:magebloom_fiber"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -3.0d
+			x: 8.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["4A3496748AB9E7FF"]
 			id: "059A9420DE24D272"
 			rewards: [
 				{
-					id: "371233ACEEF7A942"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "materials_random"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "535DABCC0E3019F1"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "potions"
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "56E2602890E8EB1E"
-				item: "ars_nouveau:blaze_fiber"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["059A9420DE24D272"]
-			id: "2CE8F52EE44DA32B"
-			rewards: [
-				{
-					id: "182F1DA8C05D43DB"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:cake"
-					}
-					type: "item"
-				}
-				{
-					id: "2FDE4A3DA1FC6A19"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:potion"
-						tag: {
-							Potion: "ars_nouveau:spell_damage"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "611BA9648E91496E"
+					id: "3344236238DE09A8"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 1
+				}
+				{
+					id: "1B69C1D327B92AFE"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "materials_2"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D7877141658A6A8"
+					item: "ars_additions:lost_codex_entry"
+					type: "item"
 				}
 			]
-			tasks: [{
-				id: "66CA8D7248324203"
-				item: "ars_nouveau:end_fiber"
-				type: "item"
-			}]
-			x: 8.5d
-			y: -3.0d
+			tasks: [
+				{
+					id: "56E2602890E8EB1E"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_hood"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4251CE6B24204AE0"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_robes"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "028552DC7BB1B96F"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "375E394D6A46DA64"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Arcanist"
+			x: 9.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4A3496748AB9E7FF"]
 			id: "33786A2ED014F391"
-			rewards: [{
-				id: "0DD617DB90F4CB17"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			rewards: [
+				{
+					id: "0DD617DB90F4CB17"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
+						id: "aquaculture:lockbox"
 					}
-					id: "aquaculture:lockbox"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "65C64996C491E9FB"
+					item: "ars_additions:lost_codex_entry"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0BB03AD889A6CC6F"
 				item: "ars_nouveau:blank_parchment"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.5d
+			x: 8.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4A3496748AB9E7FF"]
 			id: "0E79A2269DA68ECF"
 			rewards: [
 				{
-					id: "3559A5D9E3DCF171"
+					id: "149FC57CCFB03854"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2350361EA7B0D824"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "roughtweaks:bandage"
+						id: "ftbquests:lootcrate"
 						tag: {
-							Damage: 0
+							type: "materials_2"
 						}
 					}
 					type: "item"
 				}
 				{
-					id: "20E4EED72EDEF82D"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:potion"
-						tag: {
-							Potion: "ars_nouveau:spell_damage"
-						}
-					}
+					id: "46ACB743AB3DC8C4"
+					item: "ars_additions:lost_codex_entry"
 					type: "item"
 				}
 			]
@@ -418,12 +415,17 @@
 				}
 			]
 			title: "Sorcerer"
-			x: 5.5d
-			y: -4.0d
+			x: 8.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0DDCA8596165F660"]
 			id: "723C95AA69B46EE2"
+			rewards: [{
+				id: "6ECE77AE1FFF2C28"
+				item: "ars_additions:codex_entry"
+				type: "item"
+			}]
 			tasks: [{
 				id: "52453A293F344144"
 				item: "ars_nouveau:sourcestone"
@@ -431,223 +433,6 @@
 			}]
 			x: 1.5d
 			y: 3.5d
-		}
-		{
-			dependencies: ["059A9420DE24D272"]
-			id: "3A26B9512412B253"
-			rewards: [
-				{
-					id: "06332FC7C634CBB6"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "randomite:randomite_ore"
-					}
-					type: "item"
-				}
-				{
-					id: "588B3484EAF3A8D7"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "aquaculture:lockbox"
-					}
-					type: "item"
-				}
-				{
-					id: "60A078F2F08274F8"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "roughtweaks:bandage"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "619FE62BFA9FD2A6"
-					item: {
-						Count: 1b
-						id: "ars_nouveau:apprentice_robes"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "77E5D7AEBC6169A9"
-					item: {
-						Count: 1b
-						id: "ars_nouveau:apprentice_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "189D96429E5D8498"
-					item: {
-						Count: 1b
-						id: "ars_nouveau:apprentice_hood"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "397E6EB0D4434CDC"
-					item: {
-						Count: 1b
-						id: "ars_nouveau:apprentice_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Regular Mage"
-			x: 7.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["2CE8F52EE44DA32B"]
-			id: "1F404A32911A3D3B"
-			rewards: [
-				{
-					id: "4378A1153E2DF185"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "materials_magic"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "249C411F9504B3DD"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:golden_apple"
-					}
-					type: "item"
-				}
-				{
-					id: "229ABA7D59D7AC02"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "aquaculture:treasure_chest"
-					}
-					type: "item"
-				}
-				{
-					id: "306376B758FC34A7"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [{
-								id: "ars_nouveau:mana_boost"
-								lvl: 3s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2E08F0EE5989AF96"
-					type: "choice"
-				}
-			]
-			tasks: [
-				{
-					id: "5AEF5DDB6AEC4E7F"
-					item: {
-						Count: 1b
-						id: "ars_nouveau:archmage_robes"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7BB16762573CBD06"
-					item: {
-						Count: 1b
-						id: "ars_nouveau:archmage_hood"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "25106AB266560256"
-					item: {
-						Count: 1b
-						id: "ars_nouveau:archmage_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "79DC3F40FE6E79B8"
-					item: {
-						Count: 1b
-						id: "ars_nouveau:archmage_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Arch Mage"
-			x: 9.5d
-			y: -4.0d
 		}
 		{
 			dependencies: ["5A2D31CE13582F25"]
@@ -703,6 +488,11 @@
 					id: "225A48F0A0F4DC77"
 					type: "choice"
 				}
+				{
+					id: "2A45A13D734F6CA5"
+					item: "ars_additions:lost_codex_entry"
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -729,45 +519,8 @@
 		}
 		{
 			dependencies: ["723C95AA69B46EE2"]
-			id: "1CDFAAB12C713AA0"
-			rewards: [{
-				id: "03809235A157A597"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ars_nouveau:glyph_gust"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "7356953D6183525E"
-				item: "ars_nouveau:scribes_table"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["723C95AA69B46EE2"]
 			id: "5A2D31CE13582F25"
 			rewards: [
-				{
-					id: "355FC7BEF58D9D87"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "randomite:randomite_ore"
-					}
-					type: "item"
-				}
 				{
 					id: "1D9974C56200071E"
 					item: {
@@ -781,6 +534,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "51AFF12AEF0679FF"
+					item: "ars_additions:lost_codex_entry"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "6492E0AAA498D06F"
@@ -791,47 +549,12 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["723C95AA69B46EE2"]
-			id: "302856FE5F57B0D9"
-			rewards: [{
-				id: "571FE87A54C8444C"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "materials_magic"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "3C02713AFAFBF583"
-				item: "ars_nouveau:crystallizer"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 2.5d
-		}
-		{
 			dependencies: ["5A2D31CE13582F25"]
 			id: "003991D4C43FE16F"
 			rewards: [
 				{
 					id: "64E78F5E9F1BBD4D"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ars_nouveau:mana_gem"
-					}
+					item: "ars_nouveau:source_gem"
 					type: "item"
 				}
 				{
@@ -848,8 +571,9 @@
 					type: "item"
 				}
 				{
-					id: "652AFEF9540490C6"
-					type: "custom"
+					id: "69079982FBC1777A"
+					item: "ars_additions:lost_codex_entry"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -881,25 +605,17 @@
 					id: "3E030B7A566FA9FA"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "materials_magic"
+							type: "materials_1"
 						}
 					}
 					type: "item"
 				}
 				{
-					id: "7082F57B0517A3F8"
-					type: "custom"
-				}
-				{
-					id: "1C6CA31FD197C170"
-					type: "choice"
+					id: "3978C3A919F77273"
+					item: "ars_additions:lost_codex_entry"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -923,25 +639,25 @@
 			id: "65E6C41E6F0112E3"
 			rewards: [
 				{
-					id: "259A7082A329FB5C"
+					id: "4EC6A59028E0639D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "27CFA71D533FEBCC"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "materials_magic"
+							type: "materials_1"
 						}
 					}
 					type: "item"
 				}
 				{
-					id: "7B4C7BCD3F1A562E"
-					type: "xp_levels"
-					xp_levels: 2
+					id: "1EDACC467AB677FB"
+					item: "ars_additions:lost_codex_entry"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -957,25 +673,25 @@
 			id: "16B463C33CFCD102"
 			rewards: [
 				{
-					id: "6CE7CC974F2B0A94"
+					id: "666764EF4142DD16"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "3CC5E50507FA3262"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "materials_magic"
+							type: "materials_1"
 						}
 					}
 					type: "item"
 				}
 				{
-					id: "0C6636199F2F1FA3"
-					type: "xp_levels"
-					xp_levels: 2
+					id: "09AF6831DD58725A"
+					item: "ars_additions:lost_codex_entry"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -999,25 +715,25 @@
 			id: "78FB328E41BAE0BB"
 			rewards: [
 				{
-					id: "1081C70162562E91"
+					id: "096D7780ECAD3008"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "069639050F647ECD"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "materials_magic"
+							type: "materials_1"
 						}
 					}
 					type: "item"
 				}
 				{
-					id: "4CD1F9E27AAB8F27"
-					type: "xp_levels"
-					xp_levels: 2
+					id: "276E94295E56DD3A"
+					item: "ars_additions:lost_codex_entry"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1033,25 +749,25 @@
 			id: "1D5172C70F3B531F"
 			rewards: [
 				{
-					id: "1B9144A20131C001"
+					id: "5A91889CE9D0E6FF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "08AD3BD153559F76"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "materials_magic"
+							type: "materials_1"
 						}
 					}
 					type: "item"
 				}
 				{
-					id: "6B45317F2ED82696"
-					type: "xp_levels"
-					xp_levels: 2
+					id: "74E25871381C4BA4"
+					item: "ars_additions:lost_codex_entry"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1075,25 +791,25 @@
 			id: "3ED3358F2C471AEE"
 			rewards: [
 				{
-					id: "5E0AE082819B748C"
+					id: "2D3152D8CCFFF86E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "074AEA092E0FE153"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "materials_magic"
+							type: "materials_1"
 						}
 					}
 					type: "item"
 				}
 				{
-					id: "06D03E48625C604E"
-					type: "xp_levels"
-					xp_levels: 2
+					id: "6B1E60C135790462"
+					item: "ars_additions:lost_codex_entry"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1134,53 +850,45 @@
 					}
 					type: "item"
 				}
+				{
+					id: "4F2692BFB403A3D3"
+					item: "ars_additions:lost_codex_entry"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "3CF5CB6AC09D25D0"
 				item: "ars_nouveau:scribes_table"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.5d
+			x: 10.0d
+			y: 7.0d
 		}
 		{
 			id: "62D47B00D4AA64AB"
 			rewards: [
 				{
-					id: "5833A1B6C3821D16"
+					id: "453D1D331002C3F7"
 					type: "xp_levels"
 					xp_levels: 2
 				}
 				{
-					id: "0C68732FA73BDFAE"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "randomite:randomite_ore"
-					}
+					count: 5
+					id: "0327B593FAD6DC00"
+					item: "ars_nouveau:source_gem"
 					type: "item"
 				}
 				{
 					count: 5
-					id: "07DB546B5F3F22C1"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ars_nouveau:mana_gem"
-					}
+					id: "2E2669EDFA3F5066"
+					item: "minecraft:gold_ingot"
 					type: "item"
 				}
 				{
-					id: "6781F8D541040DA6"
-					type: "custom"
+					count: 2
+					id: "36CD4CDAB6BB41A6"
+					item: "ars_additions:codex_entry"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1204,40 +912,27 @@
 			id: "50C7CBEC81496AEC"
 			rewards: [
 				{
-					id: "351FF87B5AFA3D8D"
+					id: "7ED2B4C2B63BE1FF"
 					type: "xp_levels"
 					xp_levels: 2
 				}
 				{
-					id: "1F36906221093B53"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "randomite:randomite_ore"
-					}
+					count: 5
+					id: "111E9021A1130535"
+					item: "ars_nouveau:source_gem"
 					type: "item"
 				}
 				{
 					count: 5
-					id: "14B0BBE40EE81FC9"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ars_nouveau:mana_gem"
-					}
+					id: "781112D48A6CDB22"
+					item: "minecraft:gold_ingot"
 					type: "item"
 				}
 				{
-					id: "023DB1E7D87A1A9F"
-					type: "custom"
+					count: 2
+					id: "6BE9465E96091A1F"
+					item: "ars_additions:codex_entry"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1261,40 +956,27 @@
 			id: "02B3B29F629E72D0"
 			rewards: [
 				{
-					id: "179EE1135A745E4A"
+					id: "1909CBA9C983EBF8"
 					type: "xp_levels"
 					xp_levels: 2
 				}
 				{
-					id: "02B04D4487510288"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "randomite:randomite_ore"
-					}
+					count: 5
+					id: "550A26A4DE3D476F"
+					item: "ars_nouveau:source_gem"
 					type: "item"
 				}
 				{
 					count: 5
-					id: "3DE5476F409053D3"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ars_nouveau:mana_gem"
-					}
+					id: "6E26D6FF9D585F94"
+					item: "minecraft:gold_ingot"
 					type: "item"
 				}
 				{
-					id: "5BA0C326E0B104BB"
-					type: "custom"
+					count: 2
+					id: "4976300E9BD4A40E"
+					item: "ars_additions:codex_entry"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1318,40 +1000,27 @@
 			id: "05A16983A2318D38"
 			rewards: [
 				{
-					id: "597BC6AB18A06E04"
+					id: "30F3DAAE8CD7F540"
 					type: "xp_levels"
 					xp_levels: 2
 				}
 				{
-					id: "25A75515801ACBB4"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "randomite:randomite_ore"
-					}
+					count: 5
+					id: "13112E80096E344E"
+					item: "ars_nouveau:source_gem"
 					type: "item"
 				}
 				{
 					count: 5
-					id: "77D746D7024741AD"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ars_nouveau:mana_gem"
-					}
+					id: "41A392B9514D7336"
+					item: "minecraft:gold_ingot"
 					type: "item"
 				}
 				{
-					id: "02E41F014CF5B656"
-					type: "custom"
+					count: 2
+					id: "4038646E496EE20A"
+					item: "ars_additions:codex_entry"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1375,40 +1044,27 @@
 			id: "5BE04A9494368D2B"
 			rewards: [
 				{
-					id: "108E0DEFE1CF54D9"
+					id: "3CE94E9953145904"
 					type: "xp_levels"
 					xp_levels: 2
 				}
 				{
-					id: "661BFB2CFE89D439"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "randomite:randomite_ore"
-					}
+					count: 5
+					id: "75AD4FB4359F8692"
+					item: "ars_nouveau:source_gem"
 					type: "item"
 				}
 				{
 					count: 5
-					id: "06B45590D0C4A062"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ars_nouveau:mana_gem"
-					}
+					id: "52031490DAC2E111"
+					item: "minecraft:gold_ingot"
 					type: "item"
 				}
 				{
-					id: "010D891E0E308DC7"
-					type: "custom"
+					count: 2
+					id: "526DDCBE798F7ADA"
+					item: "ars_additions:codex_entry"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1424,40 +1080,27 @@
 			id: "4882888E941602BC"
 			rewards: [
 				{
-					id: "052185990F4B7AEA"
+					id: "662584679625F42C"
 					type: "xp_levels"
 					xp_levels: 2
 				}
 				{
-					id: "7378DCA71446EA42"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "randomite:randomite_ore"
-					}
+					count: 5
+					id: "3B292BE6354A9625"
+					item: "ars_nouveau:source_gem"
 					type: "item"
 				}
 				{
 					count: 5
-					id: "1EC826C9FAF999E7"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ars_nouveau:mana_gem"
-					}
+					id: "416C6156D456F881"
+					item: "minecraft:gold_ingot"
 					type: "item"
 				}
 				{
-					id: "189AE7982FB6E273"
-					type: "custom"
+					count: 2
+					id: "482192E8E8BF7A00"
+					item: "ars_additions:codex_entry"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1472,22 +1115,24 @@
 		{
 			dependencies: ["198E7721FB2BE726"]
 			id: "5A59A84030FA74FE"
-			rewards: [{
-				id: "0DD4E3169CC60311"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			rewards: [
+				{
+					id: "443EFBF94A00E6BF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "materials_1"
 						}
 					}
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "materials_random"
-					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "54D5284678C143B8"
+					item: "ars_additions:lost_codex_entry"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "19AAEF4AE422558F"
 				item: {
@@ -1622,11 +1267,11 @@
 				type: "checkmark"
 			}]
 			title: "L2 Enchantments"
-			x: 7.0d
-			y: 5.5d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["723C95AA69B46EE2"]
+			dependencies: ["0DDCA8596165F660"]
 			id: "593AA3FBDF9BD18F"
 			rewards: [
 				{
@@ -1653,6 +1298,11 @@
 						}
 						id: "aquaculture:lockbox"
 					}
+					type: "item"
+				}
+				{
+					id: "3575AC5DC0068474"
+					item: "ars_additions:codex_entry"
 					type: "item"
 				}
 			]
@@ -1695,8 +1345,9 @@
 					type: "item"
 				}
 				{
-					id: "57D3867988670F16"
-					type: "choice"
+					id: "5D5D54431503F3AA"
+					item: "ars_additions:codex_entry"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1711,25 +1362,14 @@
 			id: "696BC33ABF272A06"
 			rewards: [
 				{
-					id: "1623DBF1547B840A"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:potion"
-						tag: {
-							Potion: "ars_nouveau:spell_damage"
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "40F54284A5F6C6F4"
 					type: "xp_levels"
 					xp_levels: 2
+				}
+				{
+					id: "4548B9B281D83B77"
+					item: "ars_additions:codex_entry"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1752,25 +1392,14 @@
 			id: "0837AC6784C33A0C"
 			rewards: [
 				{
-					id: "2BEA233F6B06BC6E"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "materials_random"
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "119033851949EA2D"
 					type: "xp_levels"
 					xp_levels: 2
+				}
+				{
+					id: "41A8063CB3F25FAC"
+					item: "ars_additions:codex_entry"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1806,25 +1435,14 @@
 					type: "item"
 				}
 				{
-					id: "48DB0B5343D1602B"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "potions"
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "4BC844FDB44529A6"
 					type: "xp_levels"
 					xp_levels: 2
+				}
+				{
+					id: "3B3DEFBA96BA7A8B"
+					item: "ars_additions:codex_entry"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1860,22 +1478,14 @@
 					type: "item"
 				}
 				{
-					id: "3279813B6C59D399"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "randomite:randomite_ore"
-					}
-					type: "item"
-				}
-				{
 					id: "3EAC172F6F0EB0DA"
 					type: "xp_levels"
 					xp_levels: 2
+				}
+				{
+					id: "0F09FDBE6297661F"
+					item: "ars_additions:codex_entry"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1910,6 +1520,11 @@
 					type: "xp_levels"
 					xp_levels: 2
 				}
+				{
+					id: "356DF284DE2FEF7B"
+					item: "ars_additions:codex_entry"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "1777FB813CD07F93"
@@ -1924,21 +1539,23 @@
 			id: "51D589D3AD532F7B"
 			rewards: [
 				{
-					id: "29601B8707DD67A9"
+					id: "1532AE05C1B09379"
 					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "ars_nouveau:mana_boost"
+								lvl: 1s
+							}]
 						}
-						id: "randomite:randomite_ore"
 					}
 					type: "item"
 				}
 				{
-					id: "2BB32887D9A80012"
-					type: "custom"
+					id: "33F0411363E13908"
+					item: "ars_additions:codex_entry"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1981,8 +1598,9 @@
 					type: "item"
 				}
 				{
-					id: "527615EF0AE4BA6D"
-					type: "custom"
+					id: "3920CBEEDAD1C34D"
+					item: "ars_additions:codex_entry"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -2005,19 +1623,8 @@
 			dependencies: ["198E7721FB2BE726"]
 			id: "1BB5A3BE509A0592"
 			rewards: [{
-				id: "6AAAB7F9B1FB2D20"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "potions"
-					}
-				}
+				id: "097AA5DA145B2822"
+				item: "ars_additions:lost_codex_entry"
 				type: "item"
 			}]
 			tasks: [{
@@ -2078,6 +1685,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "06F1ABDFD7810F57"
+					item: "ars_additions:lost_codex_entry"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "0FEA4D665EAEBE2D"
@@ -2116,6 +1728,11 @@
 					id: "30C1AB6B321574D0"
 					type: "xp_levels"
 					xp_levels: 3
+				}
+				{
+					id: "2824CA470051E4F1"
+					item: "ars_additions:lost_codex_entry"
+					type: "item"
 				}
 			]
 			tasks: [
@@ -2213,38 +1830,20 @@
 				}
 			]
 			title: "Enchanter's Arsenal"
-			x: 5.0d
-			y: 6.5d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["198E7721FB2BE726"]
 			id: "6E2F82D196CC174F"
 			rewards: [
 				{
-					id: "5ECD0AE2ACF4BBC7"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "randomite:randomite_ore"
-					}
-					type: "item"
-				}
-				{
 					id: "0329EDB1E2F95A6B"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "materials_magic"
+							type: "materials_2"
 						}
 					}
 					type: "item"
@@ -2254,35 +1853,24 @@
 					type: "xp_levels"
 					xp_levels: 3
 				}
+				{
+					id: "49DC892613C73D24"
+					item: "ars_additions:lost_codex_entry"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "3D73A2E99F58229A"
 				item: "ars_nouveau:magebloom_crop"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.5d
+			x: 5.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["198E7721FB2BE726"]
 			id: "7135C814D7124C34"
 			rewards: [
-				{
-					id: "472928132024274F"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:potion"
-						tag: {
-							Potion: "ars_nouveau:spell_damage"
-						}
-					}
-					type: "item"
-				}
 				{
 					id: "0F8A793365AEB5A2"
 					item: {
@@ -2299,6 +1887,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "4D2B32EC3187C96A"
+					item: "ars_additions:lost_codex_entry"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "22D44C0BD72BCC9A"
@@ -2313,47 +1906,34 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 4.0d
+			x: 5.0d
+			y: 6.5d
 		}
 		{
 			id: "0BC25D3C9DB2D2D4"
 			rewards: [
 				{
-					id: "27202E6EF4638DA7"
+					id: "3BECC74CC9836983"
 					type: "xp_levels"
 					xp_levels: 2
 				}
 				{
-					id: "10523F7F88879B3E"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "randomite:randomite_ore"
-					}
+					count: 5
+					id: "17DEF80BD8A4CA06"
+					item: "ars_nouveau:source_gem"
 					type: "item"
 				}
 				{
 					count: 5
-					id: "6E84A10E0E0233A9"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ars_nouveau:mana_gem"
-					}
+					id: "4829DA235A5B55A5"
+					item: "minecraft:gold_ingot"
 					type: "item"
 				}
 				{
-					id: "76670F9375252F37"
-					type: "custom"
+					count: 2
+					id: "59F353485C398AC2"
+					item: "ars_additions:codex_entry"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -2375,6 +1955,11 @@
 		}
 		{
 			id: "12BB303FB41B03C3"
+			rewards: [{
+				id: "790C9C5377903F55"
+				item: "ars_additions:codex_entry"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "68EFE0B2366E0EBD"
@@ -2393,6 +1978,11 @@
 		}
 		{
 			id: "548524CE9F62D2DE"
+			rewards: [{
+				id: "6EDA35FBE6DD5CF7"
+				item: "ars_additions:codex_entry"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2CAAF89FC8A5A180"
 				item: "ars_nouveau:imbuement_chamber"
@@ -2403,6 +1993,31 @@
 		}
 		{
 			id: "51816FBB1F68C522"
+			rewards: [
+				{
+					id: "3F8F9BC889DBA861"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 5
+					id: "02B4D11857BE56A8"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "17CCFA60F041CEC6"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "055743EA32BD3B17"
+					item: "ars_additions:codex_entry"
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 10L
 				id: "0D6F9192E83B240D"
@@ -2413,14 +2028,162 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["52BA4A6A022B5A32"]
 			id: "765F5F5322079386"
+			rewards: [
+				{
+					id: "3DAA395B8720F737"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "44A1C9BC6CBDD40F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "materials_2"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2EF53B0049167374"
+					item: "ars_additions:lost_codex_entry"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "53BAD91CFCA4B97E"
-				item: "quark:hollow_oak_log"
+				item: "ars_nouveau:apprentice_spell_book"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -6.5d
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["765F5F5322079386"]
+			id: "25433A1B67AEA768"
+			rewards: [
+				{
+					id: "7B1036D6123BECC1"
+					item: "nameless_trinkets:missing_page"
+					type: "item"
+				}
+				{
+					id: "756DD454D7CEB246"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "materials_3"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4C61439AE8C25A60"
+					item: "ars_additions:ancient_codex_entry"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E49A58AEA9DAE8C"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A3496748AB9E7FF"]
+			id: "69DE73ACE11831FB"
+			rewards: [
+				{
+					id: "692EE52DDB813039"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2EE3936F327B7CD7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "materials_2"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20DDDD6DDA9A0804"
+					item: "ars_additions:lost_codex_entry"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4420BE912ABDEB3C"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_hood"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "582ACC47D67230EC"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_robes"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F83C18424E38808"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B2C2CD3A4C47D3A"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Battlemage"
+			x: 10.0d
+			y: 5.5d
 		}
 	]
 	title: "&5Ars Nouveau&r"

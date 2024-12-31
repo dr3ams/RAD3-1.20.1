@@ -1,4 +1,5 @@
 {
+	autofocus_id: "0B3E19BB0E6C5069"
 	default_hide_dependency_lines: false
 	default_quest_shape: "square"
 	filename: "features_and_mechanics"
@@ -10,14 +11,6 @@
 	}
 	id: "2A79FAE23F150F49"
 	images: [
-		{
-			height: 3.5430579964850613d
-			image: "rad3:textures/misc/rad.png"
-			rotation: 0.0d
-			width: 18.0d
-			x: 0.0d
-			y: -11.5d
-		}
 		{
 			height: 1.8362068965517242d
 			image: "rad3:textures/misc/quest-info.png"
@@ -61,8 +54,8 @@
 			}
 			id: "366C937FAB3AA5B2"
 			linked_quest: "02466D62F5A6CA5F"
-			x: 3.0d
-			y: -5.0d
+			x: 4.5d
+			y: 0.0d
 		}
 	]
 	quests: [
@@ -124,7 +117,7 @@
 			id: "0DA780E82198E59C"
 			rewards: [{
 				id: "665866DA9908B914"
-				item: "minecraft:golden_carrot"
+				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
 			tasks: [{
@@ -138,15 +131,9 @@
 		{
 			dependencies: ["7373F83ECF99AC4D"]
 			description: [
-				"Lost Trinkets mod adds more than 70+ unlockable trinkets with different abilities and rarities."
+				"There are hundreds of &9curios&r which have their own slot in your inventory. Each with unique different ability or property. They can be crafted, looted from chests, received as quest rewards, or purchased in the &eMarket&r."
 				""
-				"Trinkets are randomly unlocked when you doing some activities like fighting enemies and bosses, trading, mining ores, cutting trees, and farming.Each activity has a rarity of unlocking trinkets eg: killing bosses has a better chance than normal enemies"
-				""
-				"You can access the trinket GUI by pressing the R key on your keyboard."
-				"========================"
-				"There are also countless amount of curious(baubles) which have their own slot in your inventory. Each with unique different ability or property. "
-				""
-				"You can access curio slots from your inventory near your character model.(G button)"
+				"You can access &9curio slots&r from a button in your inventory near your character model, or by pressing ALT+E."
 			]
 			icon: {
 				Count: 1
@@ -172,6 +159,7 @@
 				title: "Trinkets and curious"
 				type: "checkmark"
 			}]
+			title: "Trinkets and Curios"
 			x: 5.5d
 			y: -2.5d
 		}
@@ -185,16 +173,9 @@
 			id: "00EEAE0FACC02300"
 			rewards: [
 				{
+					count: 3
 					id: "3D72B5E03815639D"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:bone"
-					}
+					item: "tombstone:grave_dust"
 					type: "item"
 				}
 				{
@@ -226,17 +207,24 @@
 				"Also there are 5 new enchantments for shields:"
 				""
 				"&9Blocking&r: Increase Block damage reduction by 10%"
-				"&9Last Resort&r: Chance to gain absorbtion hearts upon blocking on low life"
 				"&9Blindness&r: Chance to blind attackers on block"
 				"&9Knockback&r: Chance to knock attackers back on block"
 				"&9Slowness&r: Chance to slow attackers on block"
+				"&9Last Resort&r: Chance to gain absorbtion hearts upon blocking on low life (This one is a treasure enchantment)"
 			]
 			icon: "kubejs:shield"
 			id: "3E19A4FC23E03CEA"
 			tasks: [{
-				id: "346652C826161316"
-				title: "Shield Bash"
-				type: "checkmark"
+				id: "7359369816509D95"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/shields"
+					}
+				}
+				title: "Any #forge:tools/shields"
+				type: "item"
 			}]
 			title: "Shield Mechanics"
 			x: 3.0d
@@ -259,6 +247,11 @@
 			]
 			icon: "ftbquests:book"
 			id: "18CBF0FC77FABE29"
+			rewards: [{
+				id: "727572A23E37EE87"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "4937242851A973EA"
@@ -268,43 +261,6 @@
 			title: "Quest types and Rewards"
 			x: -5.0d
 			y: -2.5d
-		}
-		{
-			dependencies: ["2AF1B6A89DD4F4C2"]
-			description: [
-				"Eating a variety of nutrients, with the right balance, will grant you buffs, while having a bad diet will give you debuffs."
-				""
-				"Food now has tooltips that show which nutrients they provide, along with the total number of Nutritional Units (NUs)."
-				""
-				"To see Nutritional Balance, press the Nutrient Gui keybind (Default: N) or click the bread icon in your inventory."
-				""
-				"- Blue indicates your current NUs for each category"
-				"- Green lines show the range for buffs"
-				"- Red lines indicate malnourishment and engorgement, which gives you debuffs"
-			]
-			icon: "farmersdelight:cake_slice"
-			id: "447F65B268F4F6D1"
-			rewards: [{
-				id: "2412AFC561495ACD"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "minecraft:golden_carrot"
-				}
-				type: "item"
-			}]
-			subtitle: "Benefits for eating variety of foods"
-			tasks: [{
-				id: "351BDBFFA1B9313F"
-				title: "Dietary Diversity"
-				type: "checkmark"
-			}]
-			x: 0.5d
-			y: -6.5d
 		}
 		{
 			icon: "kubejs:arrow_left"
@@ -320,61 +276,17 @@
 			y: 12.5d
 		}
 		{
-			description: [
-				"There are multiple methods to perform disenchanting."
-				""
-				"Book of Disenchantment can be used with a Grave Soul to strip multiple enchantments from items (not books), into individual books. Knowledge of Death perks can increase the amount extracted."
-				""
-				"Tome of Hungering Knowledge crafts together with an enchanted item to transfer all enchantments to one book."
-			]
-			icon: "enigmaticlegacy:enchantment_transposer"
-			id: "4FFE28F3DB5EC162"
-			rewards: [{
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "minecraft:enchanted_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "minecraft:protection"
-							lvl: 5s
-						}]
-					}
-				}
-				id: "48EE2F06FDD8213D"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "minecraft:book"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "4C7B1B6EFBA461F3"
-				title: "Disenchanting"
-				type: "checkmark"
-			}]
-			x: 4.0d
-			y: 12.5d
-		}
-		{
 			dependencies: ["219C6641A038984F"]
 			description: [
 				"Press R to roll (by default). You can roll into any direction you are heading (forwards, backwards, sideways, etc...)"
 				""
 				"The combat roll ability has 4 seconds cooldown by default."
 				""
-				"Cooldown of your combat roll ability can be seen on the main UI"
+				"Cooldown of your combat roll ability can be seen on the main UI, right next to your hotbar."
 				""
-				"Exhaust (aka hunger) is added to the player upon rolling"
+				"Exhaust (aka hunger) is added to the player upon rolling."
+				""
+				"There are enchantments for your armor to improve the distance, speed, and cooldown of your rolls."
 			]
 			icon: "ars_nouveau:glyph_leap"
 			id: "21AD84D45795E334"
@@ -405,13 +317,46 @@
 			y: 8.0d
 		}
 		{
+			description: ["The &5&lCatastrophe Scroll&r&r is a cursed item that increases the difficulty of the pack. &4Once equipped, it cannot be removed!&r It carries seven curses that activate through normal gameplay, each one adding a painful debuff to the player. These debuffs can be reversed through equipping &aEtchings&r. &aEtchings&r can be acquired by killing certain bosses in special ways. Check each &aEtching&r in JEI to see how to acquire it. Wearing the &l&5Catastrophe Scroll&r&r also allows you to use powerful cursed curios."]
+			icon: "celestial_artifacts:catastrophe_scroll"
 			id: "3BC63DBDCE08EDBB"
-			tasks: [{
-				id: "369E6D1DC3B0D8A7"
-				type: "checkmark"
+			optional: true
+			rewards: [{
+				id: "3D2E423A18E9F6E2"
+				item: "celestial_artifacts:catastrophe_scroll"
+				type: "item"
 			}]
+			subtitle: "Challenge Mode"
+			tasks: [
+				{
+					id: "369E6D1DC3B0D8A7"
+					title: "Are you sure?"
+					type: "checkmark"
+				}
+				{
+					id: "226D416F79F9C139"
+					title: "Are you absolutely sure?"
+					type: "checkmark"
+				}
+				{
+					id: "22A9115D86C8D8A8"
+					title: "Are you 100% certain you want this scroll?"
+					type: "checkmark"
+				}
+				{
+					id: "56BA7C49AA12F206"
+					title: "The Catastrophe Scroll cannot be removed!"
+					type: "checkmark"
+				}
+				{
+					id: "38BB179D3890CEA5"
+					title: "Alright but don't come cryin' to me."
+					type: "checkmark"
+				}
+			]
+			title: "Catastrophe Scroll"
 			x: 7.0d
-			y: 8.0d
+			y: -6.5d
 		}
 		{
 			description: [""]
@@ -465,6 +410,8 @@
 		{
 			dependencies: ["56127AAF761DC8DA"]
 			description: [
+				"Natural regeneration from food has been turned off in this pack."
+				""
 				"For healing options see quest"
 				"{ \"text\": \"Healing Sources\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2AF1B6A89DD4F4C2\" } } "
 			]
@@ -485,6 +432,7 @@
 				type: "item"
 			}]
 			size: 1.5d
+			subtitle: "Why am I not regenerating?"
 			tasks: [{
 				id: "2B24EE4073AB55F0"
 				title: "Regen"
@@ -496,13 +444,29 @@
 		}
 		{
 			dependencies: ["085E485E8091D543"]
+			description: [
+				"Monster spawners are much harder to break. It takes 20 seconds with an iron pick to break one. Use torches to light up the area before you try to break spawners."
+				""
+				"Monster spawners also burn out after spawning 50 mobs. This can be used to your advantage in a dungeon, but it also means that spawner farms won't last long."
+			]
 			icon: "minecraft:spawner"
 			id: "69BBE7810BD594BA"
-			tasks: [{
-				id: "47122E801F18D530"
-				title: "Harder Spawners"
-				type: "checkmark"
+			rewards: [{
+				count: 16
+				id: "1EDF1E3C488DFB01"
+				item: "minecraft:torch"
+				type: "item"
 			}]
+			subtitle: "Why can't I break spawners?"
+			tasks: [{
+				icon: "minecraft:spawner"
+				id: "76F02C0C5780D97D"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:spawner"
+				type: "observation"
+			}]
+			title: "Harder Spawners and Ageing Spawners"
 			x: 2.0d
 			y: 1.5d
 		}
@@ -562,6 +526,7 @@
 				}
 			}
 			id: "2AF1B6A89DD4F4C2"
+			subtitle: "How am I supposed to heal?"
 			tasks: [{
 				id: "58FFC2B9CDC9E641"
 				item: {
@@ -627,17 +592,34 @@
 		{
 			dependencies: ["2AF1B6A89DD4F4C2"]
 			description: ["If you have 7 or more hearts of health, damage that would have originally killed you in one hit will now leave you with half a heart! This allows you a chance to react to what would have been a lethal blow!"]
+			icon: "kubejs:heart-half"
 			id: "142333754FEA48BB"
+			subtitle: "Why did I say \"oof\" and not die?"
 			tasks: [{
 				id: "06F7F1ACB96815CF"
 				title: "Second Chance"
 				type: "checkmark"
 			}]
-			x: -0.5d
+			x: 0.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["0B3E19BB0E6C5069"]
+			description: [
+				"The mobs you face are more agile than you might be used to, but so are you! There are many more ways to get around than just sprinting and jumping."
+				""
+				"-&aStep Up&r: You can walk right up full blocks. This can be controlled with a keybind."
+				""
+				"-&aCrawl&r: Press C (by default) to crawl through 1 block holes."
+				""
+				"-&aDouble Jump&r: You can jump a second time in midair for a little extra height or distance."
+				""
+				"-&aWall Jump&r: Pressing jump while next to a wall will let you let you do a wall jump, propelling you up and away from the wall. In a narrow shaft, you can keep jumping from wall to wall for even more height!"
+				""
+				"-&aBreak Fall&r: While falling, sneak just before you hit the ground to cushion your fall."
+				""
+				"There are many more maneuvers you can do provided by &2&lParcool&r&r if you bind their keys in Settings!"
+			]
 			icon: "kubejs:dodge"
 			id: "219C6641A038984F"
 			tasks: [{
@@ -701,7 +683,7 @@
 				""
 				"&2Thank you for your understanding and sorry if something went wrong.&r"
 				""
-				"https://github.com/dr3ams/Industrial-Village"
+				"https://github.com/dr3ams/RAD2-1.20.1"
 			]
 			icon: "kubejs:caution"
 			id: "2A9DC8C72AD9AED0"
@@ -841,7 +823,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["085E485E8091D543"]
@@ -897,18 +879,24 @@
 				""
 				"These thresholds are unlocked by having certain amount of points or filling full categories."
 			]
+			icon: "collectorsalbum:album"
 			id: "2D02F0E1C3DFBCA5"
-			subtitle: "900 new collectible cards in varying rarities which can enhance your character by filling your collector's album."
+			rewards: [{
+				id: "5B2326F3BCB55E89"
+				item: "collectorsalbum:album"
+				type: "item"
+			}]
+			subtitle: "900 new collectible cards in varying rarities which can enhance your character as you fill your collector's album."
 			tasks: [{
-				id: "0FD09E3BD337D936"
+				id: "49C0DAC041186E10"
 				item: {
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "collectorsalbum:cards_common"
+						value: "collectorsalbum:cards/common"
 					}
 				}
-				title: "Any #collectorsalbum:cards_common"
+				title: "Any #collectorsalbum:cards/common"
 				type: "item"
 			}]
 			title: "Collector's Album"
@@ -917,9 +905,9 @@
 		}
 		{
 			description: [
-				"Mining whole veins of ore and chopping whole trees are now craftable enchantments. The effect can be suppressed by holding \"shift\" while mining."
+				"Mining whole veins of ore and chopping whole trees are now craftable enchantments. The effect can be toggled by pressing ` (grave) while holding the tool."
 				""
-				"These ones are free. You'll have to craft the rest yourself."
+				"These ones are free. You'll have to craft the rest yourself. Or save these and use Books of Reprint to copy them."
 			]
 			icon: {
 				Count: 1
@@ -964,6 +952,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "How do I vein mine?"
 			tasks: [{
 				icon: {
 					Count: 1b
@@ -977,7 +966,7 @@
 				type: "checkmark"
 			}]
 			x: -4.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0E5AE2A43020AFC3"]
@@ -994,13 +983,11 @@
 				""
 				"&4&nGems&r&r"
 				""
-				"You can find &4gems&r in any ore."
+				"You can find &4gems&r in chests, and sometimes from ore."
 				""
-				"Can be inserted into equipment on a &5smithing table.&r"
+				"They can be inserted into equipment on a &5smithing table.&r"
 				""
-				"To remove &4gems&r from equipment, you need to insert &9Vacucite&r gem into it. It will &nconsume all&r the gems."
-				""
-				"&9Vacucite&r have a smaller drop chance."
+				"To remove &4gems&r from equipment, you need to use a &2Sigil of Withdrawal&r. This preserves the item and the gems."
 				""
 				"Each &4gem&r provides different attribute bonuses, based on the type of equipment it is in."
 			]
@@ -1012,16 +999,9 @@
 				xp: 150
 			}]
 			tasks: [{
-				id: "486CEA2F560F219A"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "skilltree:gems"
-					}
-				}
-				title: "Any #skilltree:gems"
-				type: "item"
+				id: "58E1F9E81EF9C964"
+				title: "Passive Skill Tree"
+				type: "checkmark"
 			}]
 			title: "Passive Skill Tree"
 			x: 7.0d
@@ -1037,11 +1017,9 @@
 				""
 				"To create a &4Bonfire&r you'll need:"
 				""
-				"- &cThe Coiled Sword&r (can be used as a sword which will set mobs on fire)"
+				"- &cCoiled Sword&r (can be used as a sword which will set mobs on fire)"
 				""
-				"- &7Piles of Ash&r - have a chance to drop from mobs when burnt to death."
-				""
-				"- &eHomeward Bones&r - crafted with a blaze rod, bone and enderpearl."
+				"- &7Pile of Bone and Ash&r (Piles of Ash have a chance to drop from mobs when burnt to death)"
 				""
 				"Once you placed &6Pile of Bone and Ash&r on the ground - right click it with the &cCoiled Sword&r. This will place the Coiled sword on the pile creating a &4Bonfire&r. "
 				"&nTo light the &4Bonfire&r&r you simply &9right-click&r it."
@@ -1085,11 +1063,6 @@
 					type: "item"
 				}
 				{
-					id: "26F167F33704C07C"
-					item: "bonfires:homeward_bone"
-					type: "item"
-				}
-				{
 					id: "522AB8B18DE4E780"
 					item: {
 						Count: 1
@@ -1116,6 +1089,7 @@
 			y: -4.5d
 		}
 		{
+			description: ["Many quests give &ecoins&r which can be exchanged in &eThe Market&r chapter for useful items."]
 			icon: "kubejs:gold_coin"
 			id: "071ACC337ED11C6A"
 			tasks: [{
@@ -1124,7 +1098,7 @@
 				type: "checkmark"
 			}]
 			x: -6.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			icon: "bountiful:bountyboard"
@@ -1135,7 +1109,7 @@
 				type: "checkmark"
 			}]
 			x: -6.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			description: [""]
@@ -1174,88 +1148,19 @@
 			y: 8.0d
 		}
 		{
-			description: [
-				"l2complements burning"
-				""
-				"lychee"
-			]
-			id: "35ACE4F999AC0ECF"
-			subtitle: "describe in-world interactions mechanic"
-			tasks: [{
-				id: "08454CEC2A03B200"
-				title: "l2 complements"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: 12.5d
-		}
-		{
 			dependencies: ["219C6641A038984F"]
-			icon: "mythicmounts:dragon_spawn_egg"
+			description: ["While exploring the world, you may come across large, passive creatures. These include moths, ladybugs, turtles, birds, cats, wolves, bats, dragons, and more. These creatures can be tamed and ridden, and some can even fly! Craft a &9Summoning Staff&r and use it to summon your mounts whenever you need!"]
+			icon: "minecraft:saddle"
 			id: "20B31C51C3CEFBF8"
+			subtitle: "Why is this dragon just chilling in a cave?"
 			tasks: [{
-				id: "2A1C5AD77DD170F5"
-				title: "Mounts"
-				type: "checkmark"
+				id: "2DF9BC37C97DF64E"
+				item: "minecraft:saddle"
+				type: "item"
 			}]
+			title: "Mounts"
 			x: 4.5d
 			y: -1.0d
-		}
-		{
-			id: "121E70CAE78BC36D"
-			tasks: [
-				{
-					id: "0BDE65C36D3DCA89"
-					item: "immersive_aircraft:hull"
-					type: "item"
-				}
-				{
-					id: "526ACF97105CEF6C"
-					item: "immersive_aircraft:engine"
-					type: "item"
-				}
-				{
-					id: "5FCB56D1B776FCB5"
-					item: "immersive_aircraft:sail"
-					type: "item"
-				}
-				{
-					id: "1545D06FA9E07E04"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "immersive_aircraft:airship"
-								}
-								{
-									Count: 1b
-									id: "immersive_aircraft:cargo_airship"
-								}
-								{
-									Count: 1b
-									id: "immersive_aircraft:warship"
-								}
-								{
-									Count: 1b
-									id: "immersive_aircraft:biplane"
-								}
-								{
-									Count: 1b
-									id: "immersive_aircraft:quadrocopter"
-								}
-							]
-						}
-					}
-					title: "Available Options"
-					type: "item"
-				}
-			]
-			title: "Assembling your first Airship"
-			x: 3.0d
-			y: 12.5d
 		}
 		{
 			dependencies: ["219C6641A038984F"]
@@ -1269,6 +1174,12 @@
 				"They can also come in the form of barrels and shulker boxes in some structures."
 			]
 			id: "7373F83ECF99AC4D"
+			rewards: [{
+				count: 2
+				id: "3A90376FBB845B72"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "lootr:1chest"
 				criterion: ""
@@ -1281,21 +1192,28 @@
 			y: -2.5d
 		}
 		{
-			id: "29A66BD7F23D4EDD"
-			tasks: [{
-				id: "1176B1CC4CAAE099"
-				item: "dimdungeons:item_blank_build_key"
-				type: "item"
-			}]
-			title: "Personal Dimension"
-			x: 10.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["0B3E19BB0E6C5069"]
-			description: [" You can increase the amount of your health by gaining experience levels"]
+			description: [
+				"You can increase the amount of your health by gaining experience levels. Your bonus hearts return to 0 when you die."
+				""
+				"The number of extra hearts you get is ONLY affected by the MAXIMUM LEVEL that you have been since you last died. If you store or use your experience, you won't lose hearts. But you won't gain any additional hearts until you go over your previous maximum again."
+			]
 			icon: "levelhearts:heart_container"
 			id: "4F332C345BD6224E"
+			rewards: [
+				{
+					count: 3
+					id: "0FC5F677DAEDABA5"
+					item: "farmersdelight:melon_juice"
+					type: "item"
+				}
+				{
+					id: "1062DE17DBAEA15A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Why do I only have 6 hearts?"
 			tasks: [{
 				id: "784562C75A46F1D6"
 				points: false
@@ -1305,6 +1223,29 @@
 			title: "Levels for Hearts"
 			x: -0.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["4F332C345BD6224E"]
+			description: [
+				"After your normal health bar, you have a few hearts of absorbtion. That is your shield. After taking damage, spend some time out of combat, and it will regenerate for free. When you run out of shield, retreat! Heal up, then get back in the fight."
+				""
+				"These power tokens you can find as mob drops and loot can be used to craft Shield Power. It gives a temporary boost to your shield, and increases your max shield by one. But it goes away if you die. So save your copper and diamonds by not dying!"
+			]
+			id: "6862B0C62956C1DA"
+			rewards: [{
+				id: "5C1868F7AB4F096A"
+				item: "shieldinghealth:shield_power"
+				type: "item"
+			}]
+			subtitle: "What are these tokens I keep getting?"
+			tasks: [{
+				id: "75D783DCF2CC151D"
+				item: "shieldinghealth:power_token"
+				type: "item"
+			}]
+			title: "Shielding Health"
+			x: -0.5d
+			y: -6.5d
 		}
 	]
 	title: "⭐ Features "

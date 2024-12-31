@@ -5,11 +5,12 @@
 	group: "241F1DC7B6D6E9D6"
 	icon: "undergarden:deepturf_block"
 	id: "4D9749A9C944ECE8"
-	order_index: 6
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
 			id: "4C6F949FFA715364"
+			subtitle: "Now requires material from the Aether"
 			tasks: [{
 				id: "2DE60313C6484CEE"
 				item: {
@@ -64,27 +65,6 @@
 		{
 			dependencies: ["48E0E1A14FB2B977"]
 			id: "018570DD4BB7DE24"
-			rewards: [
-				{
-					id: "29E704037E8AD65D"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "materials_random"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1611CC0185BE9833"
-					type: "custom"
-				}
-				{
-					id: "61148C915FCDD8E7"
-					type: "choice"
-				}
-			]
 			tasks: [{
 				id: "472ABA5B85358962"
 				item: "undergarden:raw_cloggrum"
@@ -170,23 +150,6 @@
 		{
 			dependencies: ["48E0E1A14FB2B977"]
 			id: "4A455CCEEE973422"
-			rewards: [
-				{
-					id: "548F423F2503CB31"
-					item: {
-						Count: 1
-						id: "roughtweaks:bandage"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3D6A728234E5DCDC"
-					type: "choice"
-				}
-			]
 			tasks: [{
 				id: "21C61D4F8ECF2B57"
 				item: "undergarden:forgotten_ingot"
@@ -198,27 +161,6 @@
 		{
 			dependencies: ["48E0E1A14FB2B977"]
 			id: "28413C0BD4F59A16"
-			rewards: [
-				{
-					id: "7A8A11A4D66B52C8"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "materials_random"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "15F9F4160BD541B1"
-					type: "custom"
-				}
-				{
-					id: "4F1BF1B5F5390632"
-					type: "choice"
-				}
-			]
 			tasks: [{
 				id: "3854CAB7A68A7C22"
 				item: "undergarden:raw_froststeel"
@@ -334,8 +276,8 @@
 					xp_levels: 1
 				}
 				{
-					id: "4FEA68A699656CF1"
-					item: "aquaculture:box"
+					id: "5C00A99399E5AAEF"
+					item: "nameless_trinkets:tick"
 					type: "item"
 				}
 			]
@@ -360,6 +302,7 @@
 		}
 		{
 			dependencies: ["07114E47F767CBB4"]
+			dependency_requirement: "all_started"
 			id: "24BD242ECF4E943A"
 			rewards: [{
 				id: "13446F168BDFF251"
@@ -376,6 +319,7 @@
 		}
 		{
 			dependencies: ["07114E47F767CBB4"]
+			dependency_requirement: "all_started"
 			id: "760DC5559AB33E17"
 			rewards: [{
 				id: "5E5C4E7CF1F152AC"
@@ -392,6 +336,7 @@
 		}
 		{
 			dependencies: ["07114E47F767CBB4"]
+			dependency_requirement: "all_started"
 			id: "091975CE7D583E34"
 			rewards: [{
 				id: "1E1D04CB7A17FB1B"
@@ -408,6 +353,7 @@
 		}
 		{
 			dependencies: ["07114E47F767CBB4"]
+			dependency_requirement: "all_started"
 			id: "483F411F5D478DBA"
 			rewards: [{
 				id: "5C5C0887C36E6143"
@@ -487,17 +433,6 @@
 		{
 			dependencies: ["4A455CCEEE973422"]
 			id: "113ADEE783C3B34A"
-			rewards: [{
-				id: "7B53BBF3D81E21AF"
-				item: {
-					Count: 1
-					id: "roughtweaks:bandage"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "2526E202F20807A2"
 				item: {
@@ -515,17 +450,6 @@
 		{
 			dependencies: ["4A455CCEEE973422"]
 			id: "00723ECE71700C83"
-			rewards: [{
-				id: "25BD203EF2A97C63"
-				item: {
-					Count: 1
-					id: "roughtweaks:bandage"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "52F2EB9493B1065B"
 				item: {
@@ -547,17 +471,6 @@
 		{
 			dependencies: ["4A455CCEEE973422"]
 			id: "7613B36490A0BCBF"
-			rewards: [{
-				id: "2A87178B553BF2B2"
-				item: {
-					Count: 1
-					id: "roughtweaks:bandage"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "379D08C4035C9454"
 				item: {
@@ -638,11 +551,6 @@
 		{
 			dependencies: ["2BE179E3CB62EC60"]
 			id: "247E3AE1E4DE8A8A"
-			rewards: [{
-				id: "2EA1F5636C4ECC5B"
-				item: "aquaculture:lockbox"
-				type: "item"
-			}]
 			tasks: [{
 				id: "15B1C354277FE306"
 				item: {
@@ -771,6 +679,7 @@
 					type: "item"
 				}
 			]
+			title: "Logs"
 			x: 6.0d
 			y: 0.0d
 		}
@@ -788,6 +697,23 @@
 			x: 3.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["4A455CCEEE973422"]
+			description: ["This size of Titanite allows you to upgrade your weapons from +9 to +10."]
+			id: "601C7F98E5B151F5"
+			rewards: [{
+				id: "0C867F0018B91222"
+				item: "undergarden:regalium_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6232106827E50A43"
+				item: "bonfires:titanite_slab"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
 	]
-	title: "&2The garden Under&r"
+	title: "&2The Garden Under&r"
 }

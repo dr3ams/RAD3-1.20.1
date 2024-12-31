@@ -8,30 +8,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "6C45CE02A03DCEE9"
-			rewards: [{
-				id: "00744BCDCB47279B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "octagon"
-			size: 2.0d
-			tasks: [{
-				id: "1E2C2EE12673FB6B"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "relics:researching_table"
-				}
-				type: "item"
-			}]
-			x: 5.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["6C45CE02A03DCEE9"]
 			id: "408CD22C821A32E8"
 			rewards: [{
 				id: "3163AE4CB4465155"
@@ -59,7 +35,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["6C45CE02A03DCEE9"]
 			id: "3BF946836371EEB8"
 			rewards: [{
 				id: "24D0CC68C72C9FF2"
@@ -84,17 +59,16 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
-			dependencies: ["6C45CE02A03DCEE9"]
 			id: "1F653D87579A55F5"
 			rewards: [{
 				id: "24E37FDE9D66D17D"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "This Hunter belt is the perfect accessory for any outfit. Made with high-quality materials, it's durable and stylish. The classic design will never go out of fashion."
+			subtitle: "This Hunter belt is the perfect accessory for any dog trainer. Made with high-quality materials, it's durable and stylish. The classic design will never go out of fashion."
 			tasks: [{
 				id: "7C1704BB21C3DC9B"
 				item: {
@@ -115,14 +89,13 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["6C45CE02A03DCEE9"]
 			id: "58AD1BD73DE914DF"
 			rewards: [{
 				id: "0C1CCC1B4A851A1C"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "This belt is perfect for those who love a unique and edgy style. The drowned effect adds a touch of mystery and intrigue to any outfit."
+			subtitle: "This belt is perfect for those who love a unique and soggy style. It adds a touch of mystery and intrigue to any outfit."
 			tasks: [{
 				id: "400B1517626AAB8E"
 				item: {
@@ -143,7 +116,7 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["6C45CE02A03DCEE9"]
+			description: ["ok but for real this weapon is a lot of fun to use even though it doesn't deal much damage"]
 			id: "6B9D3ECFBAA581C7"
 			rewards: [{
 				id: "2FFD18EEC51BDE96"
@@ -188,14 +161,13 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["6C45CE02A03DCEE9"]
 			id: "250B43DCABEA816C"
 			rewards: [{
 				id: "54CEB1DC62C379E2"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "This necklace is perfect for those who want to show off their dark side. Made with infernal hatred, it's sure to turn heads and make a statement."
+			subtitle: "This necklace of mirrors is perfect for those who love looking at themselves. It's sure to turn heads and make a statement."
 			tasks: [{
 				id: "143A1D9A48D53308"
 				item: {
@@ -224,7 +196,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["6C45CE02A03DCEE9"]
 			id: "62BD55FFC0600FEF"
 			rewards: [{
 				id: "0F03E02023F1EF65"
@@ -255,10 +226,9 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 8.0d
+			y: 8.5d
 		}
 		{
-			dependencies: ["6C45CE02A03DCEE9"]
 			id: "052E4E7C654A2C02"
 			rewards: [{
 				id: "2621C841CAAAC409"
@@ -300,7 +270,6 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["6C45CE02A03DCEE9"]
 			id: "24F9917942E6531C"
 			rewards: [{
 				id: "460898BF151DE42E"
@@ -340,14 +309,13 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["6C45CE02A03DCEE9"]
 			id: "2BD60874182BB807"
 			rewards: [{
 				id: "171F5CD63A1DB080"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "The ultimate weapon against the undead. With its powerful enchantments, this ring will make you unstoppable in your quest to rid the world of the undead."
+			subtitle: "Piglins love this ring and will treat anyone wearing it as one of their own."
 			tasks: [{
 				id: "5A395432E3A43766"
 				item: {
@@ -374,14 +342,13 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["6C45CE02A03DCEE9"]
 			id: "256D54EAF5CE7A01"
 			rewards: [{
 				id: "61EC4583C2F410A7"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "This ring allows you to control teleportation. Simply think of your desired location and you will be instantly transported there. Perfect for adventurers and travelers."
+			subtitle: "This ring allows you to control teleportation. Simply think of your desired location and chow down on a tasty Chorus Fruit and you will be instantly transported there. Perfect for adventurers and travelers."
 			tasks: [{
 				id: "24B31E0785FD41CB"
 				item: {
@@ -409,14 +376,13 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["6C45CE02A03DCEE9"]
 			id: "4FD75759DDEBAD72"
 			rewards: [{
 				id: "6AE302245DFD2EC3"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "Quiver is a lightweight and durable backpack designed for archers. It has a special compartment for arrows and a comfortable shoulder strap for easy carrying."
+			subtitle: "This quiver is a lightweight and durable backpack designed for archers. It has a special compartment for arrows and a comfortable shoulder strap for easy carrying."
 			tasks: [{
 				id: "7AA12894DA74CEF5"
 				item: {
@@ -465,14 +431,13 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["6C45CE02A03DCEE9"]
 			id: "7CC6A7C3798F18CE"
 			rewards: [{
 				id: "5A1D6E1D37051E63"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "This relic allows you to travel through portals and time. It's a powerful tool for adventurers and explorers. Get ready for an exciting journey!"
+			subtitle: "This relic allows you to travel through space and time. It's a powerful tool for adventurers and explorers. Get ready for an exciting journey of a few dozen blocks!"
 			tasks: [{
 				id: "5AD26CD8490C576F"
 				item: {
@@ -500,14 +465,18 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["6C45CE02A03DCEE9"]
+			description: [
+				"recovering from frostbite while i make these quests"
+				""
+				"don't wear wet gloves in a snowstorm"
+			]
 			id: "2D3834E1E7147F8D"
 			rewards: [{
 				id: "2B83C6D9869FA726"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "Keep your hands warm and cozy with our wool mittens. Perfect for chilly days, these mittens are made with high-quality wool to ensure maximum comfort and durability."
+			subtitle: "Keep your hands warm and cozy with these wool mittens. Perfect for chilly days, these mittens are made with high-quality wool to ensure maximum comfort and durability."
 			tasks: [{
 				id: "4F5A37A18058B69F"
 				item: {
@@ -537,14 +506,13 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["6C45CE02A03DCEE9"]
 			id: "7D3820F8A43208E4"
 			rewards: [{
 				id: "0005CFA24707202F"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "Looking for a unique musical instrument? Check out our horse flute! Made from high-quality materials, it produces a beautiful sound that will transport you to the countryside. Perfect for musicians and horse lovers alike."
+			subtitle: "Once a horse hears the sound of this flute, it will follow you anywhere, staying just out of sight, until you play it again."
 			tasks: [{
 				id: "4F2C2A9D15883182"
 				item: {
@@ -571,14 +539,13 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["6C45CE02A03DCEE9"]
 			id: "13F77099EA96DC86"
 			rewards: [{
 				id: "45CF58BF48E80DAE"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "This leather belt is perfect for carrying your talismans with you wherever you go. It's stylish, durable, and will keep your lucky charms close at hand."
+			subtitle: "This leather belt is perfect for carrying your charms with you wherever you go. It's stylish, durable, and will keep your lucky charms close at hand."
 			tasks: [{
 				id: "5977366ECBCA4B65"
 				item: {
@@ -605,7 +572,6 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["6C45CE02A03DCEE9"]
 			id: "689134DB90D29173"
 			rewards: [{
 				id: "7163C2A0075AF745"
@@ -640,7 +606,7 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["6C45CE02A03DCEE9"]
+			description: ["i hope you find that subtitle as funny as i do"]
 			id: "0846BA65AB3BF6AA"
 			rewards: [{
 				id: "251E46B3F62B2EC2"
@@ -698,14 +664,13 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["6C45CE02A03DCEE9"]
 			id: "36B5D00271374AC3"
 			rewards: [{
 				id: "6D6B330D654F824A"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "With its innovative design, this flask ensures safe and secure travel."
+			subtitle: "This magic flask allows you to fly using the power of fire! Great for traversing the most hellish landscapes."
 			tasks: [{
 				id: "6EE8D13366F82D37"
 				item: {
@@ -731,17 +696,16 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
-			dependencies: ["6C45CE02A03DCEE9"]
 			id: "254E90FE50B40A99"
 			rewards: [{
 				id: "46F6F8015B3B135A"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "The Elytra booster is the ultimate tool for Minecraft players who want to soar through the skies with ease. With its powerful boost, you'll be flying like a pro in no time!"
+			subtitle: "The Elytra booster is the ultimate tool for players who want to soar through the skies with ease. With its powerful boost, you'll be flying like a pro in no time!"
 			tasks: [{
 				id: "7A253E444147C332"
 				item: {
@@ -769,14 +733,13 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["6C45CE02A03DCEE9"]
 			id: "331A3B5422FF4DEC"
 			rewards: [{
 				id: "6F88BCB05C0CFB35"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "These gloves are perfect for Minecraft players who want to avoid angering Endermen. They allow you to look at them without provoking an attack."
+			subtitle: "These gloves are perfect for players who want to avoid angering Endermen. They allow you to look at them without provoking an attack. Shake an enderman's hand while wearing it for a fun surprise!"
 			tasks: [{
 				id: "5F24345F1F850345"
 				item: {
@@ -800,10 +763,9 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 8.0d
+			y: 8.5d
 		}
 		{
-			dependencies: ["6C45CE02A03DCEE9"]
 			id: "3CA95C8191A2414B"
 			rewards: [{
 				id: "4DE1F05D4EEFC43B"
@@ -840,33 +802,12 @@
 		{
 			hide_text_until_complete: true
 			id: "352616DEAD99A037"
-			rewards: [
-				{
-					id: "416124DAA5842F79"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1F8045FFEFA09A7D"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3811CC4162104502"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Ars Nouveau"
 			tasks: [{
 				id: "465CBB65A33C321F"
 				item: {
@@ -883,7 +824,7 @@
 		}
 		{
 			description: [
-				"There are custom amount of useful trinkets that you may find and use. "
+				"These trinkets can only be obtained from quests and the coin shop."
 				""
 				"Can you collect them all?"
 			]
@@ -901,33 +842,12 @@
 		}
 		{
 			id: "6F855F7BF8FDE1E3"
-			rewards: [
-				{
-					id: "6AF0148F6981012E"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "28C8DDDF2E5B577D"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "40BC66EA44709A89"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Nether Exploration"
 			tasks: [{
 				id: "769CE6BB5E68D82F"
 				item: {
@@ -944,33 +864,12 @@
 		}
 		{
 			id: "74DBC24F3B1CCB9B"
-			rewards: [
-				{
-					id: "5D68A9B5A26BE5ED"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "47EBAB8A12CDD0D8"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "263B65414056599F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: World Exploration"
 			tasks: [{
 				id: "3ECF4B556EC2C4A2"
 				item: {
@@ -982,38 +881,17 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
+			x: 17.0d
 			y: 2.0d
 		}
 		{
 			id: "4B6651AC39A5BDC9"
-			rewards: [
-				{
-					id: "6B3DC7B43D4A05FC"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2424B4640D6082A6"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6AE23C2270F8CDF3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Flying Like Icarus"
 			tasks: [{
 				id: "7C05965DD6E48233"
 				item: {
@@ -1025,38 +903,17 @@
 				}
 				type: "item"
 			}]
-			x: 19.5d
-			y: 2.0d
+			x: 17.5d
+			y: 14.0d
 		}
 		{
 			id: "2A10A55BB3B6EBB7"
-			rewards: [
-				{
-					id: "20F387332BD52796"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "659648BC99B26546"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3D61A23109210640"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Flying Like Icarus"
 			tasks: [{
 				id: "5BDD48BA480587A8"
 				item: {
@@ -1072,34 +929,18 @@
 			y: 4.0d
 		}
 		{
-			id: "63EEBDCC7CA1EA48"
-			rewards: [
-				{
-					id: "76201CCED308862E"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "20E0620EF9461C88"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
+			dependencies: [
+				"20F09FD2C8C4DC4E"
+				"35E7386440585F02"
+				"0650F83BAC191698"
 			]
+			id: "63EEBDCC7CA1EA48"
+			rewards: [{
+				id: "3957E82B51EE84D4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Crafted"
 			tasks: [{
 				id: "1622F7690228B960"
 				item: {
@@ -1111,38 +952,17 @@
 				}
 				type: "item"
 			}]
-			x: 21.0d
-			y: 4.0d
+			x: 19.5d
+			y: 14.0d
 		}
 		{
 			id: "0A3DD254286E4626"
-			rewards: [
-				{
-					id: "14E3C768997A4642"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1AA7435347D76DDB"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "444EAD9DDF83E358"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Hostile World"
 			tasks: [{
 				id: "4B98E9164E64AEE7"
 				item: {
@@ -1159,33 +979,12 @@
 		}
 		{
 			id: "6CDF6F9D48146C5A"
-			rewards: [
-				{
-					id: "43584147D145D7CD"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "34BDFCAEAD8F1AF2"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "65FE047F66C93EAD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Hostile World"
 			tasks: [{
 				id: "6F9D9D23CED764E7"
 				item: {
@@ -1198,37 +997,16 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 12.5d
+			y: 13.0d
 		}
 		{
 			id: "50856C4AA550C35A"
-			rewards: [
-				{
-					id: "50C8CD6DC83DB6BE"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4DBE8140333EC7CA"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2BF9E1B29C661B27"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Hostile World"
 			tasks: [{
 				id: "1C6C6265EF97C315"
 				item: {
@@ -1240,38 +1018,17 @@
 				}
 				type: "item"
 			}]
-			x: 18.0d
-			y: 3.0d
+			x: 16.0d
+			y: 12.0d
 		}
 		{
 			id: "792C5AA5915BC9D1"
-			rewards: [
-				{
-					id: "662C16A0F42727CA"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "088C7B497003A83A"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2A5E376AD0349BB9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: World Exploration"
 			tasks: [{
 				id: "230299A7F24078AA"
 				item: {
@@ -1283,38 +1040,17 @@
 				}
 				type: "item"
 			}]
-			x: 16.0d
-			y: 11.5d
+			x: 19.0d
+			y: 3.0d
 		}
 		{
 			id: "0711A5334048D23E"
-			rewards: [
-				{
-					id: "384B5C53B8E0DA4A"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7E541F117764A63C"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "79492460B7897FD2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: World Exploration"
 			tasks: [{
 				id: "5605D502766E7B01"
 				item: {
@@ -1330,34 +1066,17 @@
 			y: 3.0d
 		}
 		{
-			id: "0D39F0D25D4B9DB0"
-			rewards: [
-				{
-					id: "672302349995A054"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "36DF977FB3253401"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
+			dependencies: [
+				"792C5AA5915BC9D1"
+				"0711A5334048D23E"
 			]
+			id: "0D39F0D25D4B9DB0"
+			rewards: [{
+				id: "10DBDD6E4ED513DA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Crafted"
 			tasks: [{
 				id: "2209882BE247141D"
 				item: {
@@ -1369,38 +1088,17 @@
 				}
 				type: "item"
 			}]
-			x: 22.0d
-			y: 6.0d
+			x: 18.0d
+			y: 3.0d
 		}
 		{
 			id: "6315183C2358F6B0"
-			rewards: [
-				{
-					id: "56BAE00A7D66CDB8"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4444FAF88E9519C9"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "74FA4DC2B4DCE1BC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: To the Bumblezone"
 			tasks: [{
 				id: "17690EB95556EF6C"
 				item: {
@@ -1417,33 +1115,12 @@
 		}
 		{
 			id: "4B201F1694EE4680"
-			rewards: [
-				{
-					id: "3AFE95A393F34724"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5763F7EDD7C10840"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3AD2354FC122DB02"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Stairway to Aether"
 			tasks: [{
 				id: "3DD72064895E8175"
 				item: {
@@ -1460,33 +1137,12 @@
 		}
 		{
 			id: "763CECB4EB378C88"
-			rewards: [
-				{
-					id: "26BAF678F852DD15"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5504C9DBC01F25A7"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "219D8FBA67B7A09D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Stairway to Aether"
 			tasks: [{
 				id: "0EB7BACEA474F418"
 				item: {
@@ -1503,33 +1159,12 @@
 		}
 		{
 			id: "5C20FF74F8D91B3E"
-			rewards: [
-				{
-					id: "724CC855AAA50BC0"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "247591AB81AC069D"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "30B5C42841224FD6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Blood Magic"
 			tasks: [{
 				id: "73833C46BC19C2D2"
 				item: {
@@ -1546,33 +1181,12 @@
 		}
 		{
 			id: "0C501B7E7302895F"
-			rewards: [
-				{
-					id: "3BF74A0E4C3C2936"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2134AE9E799D0ED4"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "49BDDEAAAEA03C61"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: World Exploration"
 			tasks: [{
 				id: "1CAFDB36F220595D"
 				item: {
@@ -1589,33 +1203,12 @@
 		}
 		{
 			id: "5258BB465ACF87DB"
-			rewards: [
-				{
-					id: "5111A723FBD0AA26"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "645FED5D71C07EBA"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "063094D672C82580"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Fish n Farm"
 			tasks: [{
 				id: "7AE6D79DF21CF21E"
 				item: {
@@ -1632,33 +1225,12 @@
 		}
 		{
 			id: "0B3CB8FF1E302A60"
-			rewards: [
-				{
-					id: "0301734BF0CD18D3"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "18532958A8F2C592"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "145D12C81BC287B0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Hostile World"
 			tasks: [{
 				id: "34883489DDE44EA0"
 				item: {
@@ -1675,33 +1247,12 @@
 		}
 		{
 			id: "44F2A1EEC253F5BB"
-			rewards: [
-				{
-					id: "11321389729C3C88"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "28AC8651CB6B28F6"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7F7C2DE3940B944A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: The Garden Under"
 			tasks: [{
 				id: "2AC48B7A7833A2BF"
 				item: {
@@ -1718,33 +1269,12 @@
 		}
 		{
 			id: "0D606B729ABA8A8B"
-			rewards: [
-				{
-					id: "6E28A387D53DBA16"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0316B327E22E1333"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "769C6B2DAFBD9C77"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Nether Exploration"
 			tasks: [{
 				id: "4BD447F2B25227B2"
 				item: {
@@ -1761,33 +1291,12 @@
 		}
 		{
 			id: "32DDF445A397C737"
-			rewards: [
-				{
-					id: "6F0D3D8EA62EFBE4"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "19AE40A16206B1BC"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5E99C397F31E2A3A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Stairway to Aether"
 			tasks: [{
 				id: "203FDFD20E558276"
 				item: {
@@ -1804,33 +1313,12 @@
 		}
 		{
 			id: "4E87D602ED039521"
-			rewards: [
-				{
-					id: "795353958B88AE26"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "652F66A0B8428790"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "51098BC21AE107FB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Hostile World"
 			tasks: [{
 				id: "017536700E125C42"
 				item: {
@@ -1842,38 +1330,17 @@
 				}
 				type: "item"
 			}]
-			x: 23.0d
-			y: 7.0d
+			x: 18.0d
+			y: 2.0d
 		}
 		{
 			id: "71D0B51818C32AE5"
-			rewards: [
-				{
-					id: "0CE0C4E2391A43F4"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2DBE5629B6CF83C2"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6CB31848FF63928F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Nether Exploration"
 			tasks: [{
 				id: "76442DC5CA6CA717"
 				item: {
@@ -1885,38 +1352,17 @@
 				}
 				type: "item"
 			}]
-			x: 18.5d
-			y: 2.0d
+			x: 23.0d
+			y: 7.0d
 		}
 		{
 			id: "42C3D4242735E0E7"
-			rewards: [
-				{
-					id: "2081063DF00873EE"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2E093C43BADFB4D5"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "43616C82395DB2D3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Stairway to Aether"
 			tasks: [{
 				id: "3A16707521A4D5E3"
 				item: {
@@ -1928,38 +1374,17 @@
 				}
 				type: "item"
 			}]
-			x: 18.5d
-			y: 13.5d
+			x: 21.0d
+			y: 4.0d
 		}
 		{
 			id: "3DA24AB27CBA4928"
-			rewards: [
-				{
-					id: "361DAC27279DFD66"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "10E322F61F035259"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0443CE6832E69F04"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Nether Exploration"
 			tasks: [{
 				id: "7F3E1E90B43B6A5F"
 				item: {
@@ -1976,33 +1401,12 @@
 		}
 		{
 			id: "43A45350EB0E1661"
-			rewards: [
-				{
-					id: "2DA348E8D7912DDF"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "61059BD78B408E1D"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7EA9C5D4F3446C28"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Stairway to Aether"
 			tasks: [{
 				id: "06A07101D9D729ED"
 				item: {
@@ -2019,33 +1423,12 @@
 		}
 		{
 			id: "0C1296B70E6DB76D"
-			rewards: [
-				{
-					id: "4D70083B401AF079"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2506B43B984003C2"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "79A7E8C302DDAFC0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Hostile World"
 			tasks: [{
 				id: "01ECECF5484F8486"
 				item: {
@@ -2057,38 +1440,17 @@
 				}
 				type: "item"
 			}]
-			x: 19.0d
-			y: 12.5d
+			x: 21.0d
+			y: 11.0d
 		}
 		{
 			id: "4B9531310E59748F"
-			rewards: [
-				{
-					id: "6FE6C8048DE73D64"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "13049BE1397A3F9F"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5AA3F4E5B30BB776"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Fish n Farm"
 			tasks: [{
 				id: "4752D25EF5198311"
 				item: {
@@ -2101,37 +1463,16 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 11.5d
+			y: 12.0d
 		}
 		{
 			id: "5F19C19368A26E84"
-			rewards: [
-				{
-					id: "4087BE79DACCCF8B"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "01999C987ED38C16"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5382C586BE2D1BAC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Flying Like Icarus"
 			tasks: [{
 				id: "633204D6DFE45F83"
 				item: {
@@ -2143,38 +1484,17 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
-			y: 13.5d
+			x: 22.0d
+			y: 10.0d
 		}
 		{
 			id: "35E7386440585F02"
-			rewards: [
-				{
-					id: "62E9C6E46E6C0883"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "67F08B3723C5209B"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "12B5642C742D3511"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Fish n Farm"
 			tasks: [{
 				id: "449348FF78742633"
 				item: {
@@ -2187,37 +1507,16 @@
 				type: "item"
 			}]
 			x: 20.0d
-			y: 12.5d
+			y: 13.0d
 		}
 		{
 			id: "0650F83BAC191698"
-			rewards: [
-				{
-					id: "0712B8C795A74E81"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "174C76757A8BA9FE"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3465E892B338951E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Fish n Farm"
 			tasks: [{
 				id: "383F9D78B5A927EA"
 				item: {
@@ -2229,38 +1528,17 @@
 				}
 				type: "item"
 			}]
-			x: 22.0d
-			y: 10.0d
+			x: 19.0d
+			y: 13.0d
 		}
 		{
 			id: "20F09FD2C8C4DC4E"
-			rewards: [
-				{
-					id: "1EBB1AB89C2F7108"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "19F4B488B78235F6"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7E764F8575DEEDF1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Fish n Farm"
 			tasks: [{
 				id: "4977F9735AAB283E"
 				item: {
@@ -2272,38 +1550,17 @@
 				}
 				type: "item"
 			}]
-			x: 21.0d
-			y: 10.5d
+			x: 18.5d
+			y: 14.0d
 		}
 		{
 			id: "48D330331BD97760"
-			rewards: [
-				{
-					id: "60C44AC93D558F94"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1CAE5F9F7BD8FEF2"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3106DC42DD2426F6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Hostile World"
 			tasks: [{
 				id: "01904EA91D4A0A31"
 				item: {
@@ -2320,33 +1577,12 @@
 		}
 		{
 			id: "33AB89A39FA5C7A5"
-			rewards: [
-				{
-					id: "10F4CA8432F1816C"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "564E11C7EB53521E"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "23EE57B0BF52786B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Hostile World"
 			tasks: [{
 				id: "150B0D6E027A734E"
 				item: {
@@ -2363,33 +1599,12 @@
 		}
 		{
 			id: "2AF8F0D616A77320"
-			rewards: [
-				{
-					id: "04CCA47F2FE54CEE"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "39EF243B9013F48E"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3ED9FAFF244737D2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: World Exploration"
 			tasks: [{
 				id: "588118FFB9EEBB2B"
 				item: {
@@ -2405,77 +1620,13 @@
 			y: 10.0d
 		}
 		{
-			id: "6D1AC238FDA27F7A"
-			rewards: [
-				{
-					id: "5C0BCE1B77DFCBDD"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1A8CFE7C6BA6040D"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "5209180B25DB7FDE"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "nameless_trinkets:fragile_cloud"
-				}
-				type: "item"
-			}]
-			x: 15.0d
-			y: 11.0d
-		}
-		{
 			id: "1AD5D219693CD311"
-			rewards: [
-				{
-					id: "700940DAABE70A61"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0BA735D69CE6D0AF"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "202F431228AE95F5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Seek and Destroy"
 			tasks: [{
 				id: "6525AC1EFB455460"
 				item: {
@@ -2488,37 +1639,16 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 10.5d
+			y: 11.0d
 		}
 		{
 			id: "4CCD42217872B2C9"
-			rewards: [
-				{
-					id: "454F652EEB49635C"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5883F773F93D7003"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3232245ACA37240E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Hostile World"
 			tasks: [{
 				id: "5B6BBB88D9E1B31F"
 				item: {
@@ -2535,33 +1665,12 @@
 		}
 		{
 			id: "4F3A8E44BDB52FA1"
-			rewards: [
-				{
-					id: "7793E00C07D37B4D"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "31ACED89935FA197"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "55D57C8BBA88C442"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: World Exploration"
 			tasks: [{
 				id: "08BA54B2DF698540"
 				item: {
@@ -2573,38 +1682,17 @@
 				}
 				type: "item"
 			}]
-			x: 19.5d
-			y: 13.5d
+			x: 15.0d
+			y: 11.0d
 		}
 		{
 			id: "66D07F37A92FEA50"
-			rewards: [
-				{
-					id: "4C2FBE8809093F7E"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1DB6E71F0376FE0A"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "60B76FEC7E9ACE11"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Hostile World"
 			tasks: [{
 				id: "000017C992BE491B"
 				item: {
@@ -2617,37 +1705,16 @@
 				type: "item"
 			}]
 			x: 18.0d
-			y: 12.5d
+			y: 13.0d
 		}
 		{
 			id: "5F82D70EE868702B"
-			rewards: [
-				{
-					id: "4263CD55783E6B38"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "654DEF6DE1383B7E"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3167E96178D2BF2B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Hostile World"
 			tasks: [{
 				id: "646E68A0ABB92854"
 				item: {
@@ -2659,38 +1726,17 @@
 				}
 				type: "item"
 			}]
-			x: 19.0d
-			y: 3.0d
+			x: 22.0d
+			y: 6.0d
 		}
 		{
 			id: "2F6A27A5AADE549B"
-			rewards: [
-				{
-					id: "3448F53533B16633"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "58B91FA6C94A1189"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "25A6F95EB27835D0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Nether Exploration"
 			tasks: [{
 				id: "5C935AD5488CDB2C"
 				item: {
@@ -2703,37 +1749,16 @@
 				type: "item"
 			}]
 			x: 21.0d
-			y: 11.5d
+			y: 12.0d
 		}
 		{
 			id: "7431E027DE3ED2B6"
-			rewards: [
-				{
-					id: "786C2DEBE0284305"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "57A420D861C17195"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
-						id: "simplehats:hatscraps_uncommon"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1A83623E5AB9515F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Nature's Aura"
 			tasks: [{
 				id: "581C43D014EE12EC"
 				item: {
@@ -2746,7 +1771,7 @@
 				type: "item"
 			}]
 			x: 20.0d
-			y: 11.5d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -2793,29 +1818,42 @@
 				"42C3D4242735E0E7"
 				"763CECB4EB378C88"
 				"32DDF445A397C737"
-				"6D1AC238FDA27F7A"
+				"35D69DFDC6EB3272"
+				"5AE66502C3E140CE"
 			]
 			hide_dependency_lines: true
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": { }
-				}
-				id: "nameless_trinkets:mysterious_trinket"
-			}
+			icon: "nameless_trinkets:mysterious_trinket"
 			id: "3A3699FAAAFC1B96"
-			rewards: [{
-				id: "02FAF31E4B550C84"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "farmersdelight:cake_slice"
+			rewards: [
+				{
+					id: "35B7999BE18DD581"
+					item: "minecraft:cake"
+					type: "item"
 				}
-				type: "item"
-			}]
-			subtitle: "You've collected all of them"
+				{
+					id: "588FC50C9772FFEA"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "7CB0FC27718DB991"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7BA9289C091A6168"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "resource_loot_crate_4"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "You've collected all of them!"
 			tasks: [{
 				id: "0BF0E1522DBA3683"
 				points: false
@@ -2825,6 +1863,125 @@
 			title: "You did it!"
 			x: 18.5d
 			y: 9.5d
+		}
+		{
+			dependencies: ["4E87D602ED039521"]
+			id: "35D69DFDC6EB3272"
+			subtitle: "Crafted"
+			tasks: [{
+				id: "553A6B592B8B6C4C"
+				item: "nameless_trinkets:gods_crown"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 2.0d
+		}
+		{
+			id: "012B689D6359F9DC"
+			rewards: [{
+				id: "7112AC4304D581F8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "This delicious ham regrows for an infinite amount of salty goodness!"
+			tasks: [{
+				id: "3A3923653F585F30"
+				item: {
+					Count: 1
+					id: "relics:infinity_ham"
+					tag: {
+						abilities: {
+							autophagy: {
+								points: 0
+								stats: {
+									feed: 1.74569d
+								}
+							}
+							infusion: {
+								points: 0
+								stats: {
+									duration: 2.92246d
+								}
+							}
+						}
+						pieces: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			id: "244FDF0061AD71CE"
+			rewards: [{
+				id: "58FF1FB996BB7D8C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "These comfy skates make for a fun winter day!"
+			tasks: [{
+				id: "69488E358975721B"
+				item: {
+					Count: 1
+					id: "relics:ice_skates"
+					tag: {
+						abilities: {
+							ram: {
+								points: 0
+								stats: {
+									damage: 0.09181d
+								}
+							}
+							skating: {
+								points: 0
+								stats: {
+									duration: 36.18801d
+									speed: 0.01334d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			description: [
+				"Relics are weapons, gadgets, or curios that gain experience as they are used. Gain enough experience and you can upgrade your relics and improve their abilities, or even unlock new powers! Whenever one relic on your person is used, &oall&r of your relics gain experience. Use multiple relics at once to level them up faster!"
+				""
+				"Fun game: guess which subtitles were written by an AI and which were written by me"
+			]
+			icon: "relics:relic_experience_bottle"
+			id: "21D1894093CE48DF"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Equipment that grows with you!"
+			tasks: [{
+				id: "1648EA7EB1D93D42"
+				title: "Relics"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			id: "5AE66502C3E140CE"
+			rewards: [{
+				id: "0A4BE4BC33C6FC09"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Chapter: Flying Like Icarus"
+			tasks: [{
+				id: "43F7301CD46356DE"
+				item: "nameless_trinkets:reforger"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 2.0d
 		}
 	]
 	title: "Trinkets 'n Curios"

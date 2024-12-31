@@ -1,0 +1,29 @@
+{
+  "list": [
+    {
+      "blacklist": [ "l2hostility:poison", "l2hostility:wither", "l2hostility:soul_burner", "l2hostility:cursed" ],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 30,
+        "min": 50,
+        "scale": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "aether:valkyrie"
+      ],
+      "items": [],
+      "maxLevel": 0,
+      "minSpawnLevel": 0,
+      "specialConditions": [],
+      "traits": [
+        {
+          "free": 2,
+          "min": 3,
+          "trait": "l2hostility:speedy"
+        }
+      ]
+    }
+  ]
+}

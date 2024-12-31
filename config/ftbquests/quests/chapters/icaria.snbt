@@ -2,13 +2,23 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "icaria"
-	group: "5AAD108D5AD37CD9"
+	group: "241F1DC7B6D6E9D6"
+	icon: "landsoficaria:chiseled_relicstone"
 	id: "1DC4DF1994634F20"
-	order_index: 4
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"First, travel to the Nether, gather some quartz, and kill a pyromancer for its Greek Fire Grenades. With the materials listed above, construct this arch:"
+				""
+				"{image:rad3:textures/misc/icaria_portal.png width:160 height:100 align:center}"
+				""
+				"Below the arch can be any solid block. Then, throw a Greek Fire Grenade at the portal. It may take a few grenades to light. Once it lights, step through!"
+			]
+			icon: "landsoficaria:greek_fire_grenade"
 			id: "528C5558C3EBA559"
+			size: 1.5d
 			tasks: [
 				{
 					count: 6L
@@ -34,19 +44,667 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: -1.5d
+			title: "Entering Icaria"
+			x: -2.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["552F10398C8E1E8E"]
 			id: "70FAD65365767FAC"
+			shape: "gear_important"
+			subtitle: "Might be useful elsewhere..."
 			tasks: [{
 				id: "6CE569F7015BBF1A"
 				item: "landsoficaria:orichalcum_ingot"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -4.0d
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["528C5558C3EBA559"]
+			description: [
+				"The mining progression of the mod is depth based, and vanilla tools aren’t very good in Icaria. While you can take your diamond pickaxe into the dimension to get started, it won’t help you get through the stronger stone types. From the top down, you will encounter these materials:"
+				"Yellowstone, Silkstone, Sunstone, Voidshale, and Baetyl."
+				""
+				"Each stone type has its own subset of ores that can be found within. Yellowstone requires a Chert Pickaxe to mine, Silkstone requires a Chalkos Pickaxe, Sunstone requires an Orichalcum Pickaxe, Voidshale requires a Vanadiumsteel Pickaxe, and Baetyl requires a Sideros Pickaxe."
+				""
+				"However, you can ignore all this in one of three ways:"
+				"a. The break spell from Ars Nouveau"
+				"b. Explosives"
+				"c. Loot villages for better materials"
+				"If you choose the first two, I recommend also having a magnet so you don't lose items to the void."
+			]
+			icon: "landsoficaria:chiseled_relicstone"
+			id: "5E598ADB0425DE0A"
+			rewards: [{
+				count: 16
+				id: "00E808B56EADED55"
+				item: "spelunkery:mineomite"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "landsoficaria:icaria"
+				id: "3B373334E4FA1B97"
+				type: "dimension"
+			}]
+			title: "Enter Icaria"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E598ADB0425DE0A"]
+			description: ["The Kiln is used to fire glass and bricks. I miss the Atum kiln..."]
+			id: "0CB0FCE3E7B5F92F"
+			tasks: [{
+				id: "1C3AB75DB2779F89"
+				item: "landsoficaria:kiln"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0CB0FCE3E7B5F92F"]
+			description: ["The Forge is a powerful furnace used to smelt and alloy metals."]
+			id: "552F10398C8E1E8E"
+			rewards: [{
+				id: "2AC9674C943591D4"
+				item: "nameless_trinkets:reforger"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "7CA08352BB7AC7F7"
+				item: "landsoficaria:forge"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E598ADB0425DE0A"]
+			description: ["Pots can be picked up and thrown to break them. They're full of loot!"]
+			id: "64C5EB6BEBE15808"
+			tasks: [{
+				advancement: "landsoficaria:loot_vase"
+				criterion: ""
+				id: "5D970AB9DF52815D"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6E063E9EB9CD1948"]
+			description: ["The Grinder uses Sliver (yes I spelled that right) and various Gears to grind items down. Each type of Gear grinds a different set of items so you'll have to collect all of them."]
+			id: "2817AA338DD2F274"
+			rewards: [{
+				id: "2CFB1F3D5EFCD623"
+				item: "landsoficaria:sliver_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54A47607F752A1E3"
+				item: "landsoficaria:grinder"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["552F10398C8E1E8E"]
+			id: "535D2A4231F1D2FB"
+			tasks: [{
+				id: "64C8453EEE0C7F9F"
+				item: "landsoficaria:molybdenumsteel_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["552F10398C8E1E8E"]
+			id: "7A151A90BF3B46C4"
+			tasks: [{
+				id: "2772784DEF380881"
+				item: "landsoficaria:vanadiumsteel_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["64C5EB6BEBE15808"]
+			description: ["Barrels can be filled with loot, water, or even explosives!"]
+			id: "38EB037515E45631"
+			tasks: [{
+				advancement: "landsoficaria:barrel"
+				criterion: ""
+				id: "2ABC4C1E07E0AB8E"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7A151A90BF3B46C4"]
+			description: ["Vanadiumsteel makes the best weapons and armor in Icaria... almost as good as diamond."]
+			id: "135E5D59199FE4A0"
+			tasks: [
+				{
+					id: "629880C920FEF78B"
+					item: {
+						Count: 1
+						id: "landsoficaria:vanadiumsteel_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E0DAB6AA6043987"
+					item: {
+						Count: 1
+						id: "landsoficaria:vanadiumsteel_bident"
+						tag: {
+							Damage: 0
+							reinforce_level: 0
+							reinforce_max: 10
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Vanadiumsteel"
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["535D2A4231F1D2FB"]
+			description: ["Molybdenumsteel makes the best tools in Icaria, capable of mining any block."]
+			id: "06D5B912C3291A58"
+			tasks: [{
+				id: "4BEFD91D29DC1A9F"
+				item: {
+					Count: 1
+					id: "landsoficaria:molybdenumsteel_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			title: "Molybdenumsteel"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["64C5EB6BEBE15808"]
+			description: ["These gear fragments can be found rarely in pots in villages."]
+			id: "1239D23C7CAC4F84"
+			tasks: [
+				{
+					id: "04286945856DAFBD"
+					item: "landsoficaria:blue_gearfragment"
+					type: "item"
+				}
+				{
+					id: "09EB6322B29AA338"
+					item: "landsoficaria:green_gearfragment"
+					type: "item"
+				}
+				{
+					id: "63E5C127AC16F6AA"
+					item: "landsoficaria:yellow_gearfragment"
+					type: "item"
+				}
+			]
+			title: "Gearfragments"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1239D23C7CAC4F84"]
+			description: ["This gear is unbreakable, but can only be used to grind blurred platoshale."]
+			id: "0E74BBA3D7F1F4A2"
+			tasks: [{
+				id: "3BFD221A3772F3E9"
+				item: "landsoficaria:daedalian_gear"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"788B82A79A853630"
+				"0CB0FCE3E7B5F92F"
+			]
+			id: "7799424461FD01D7"
+			shape: "gear_important"
+			subtitle: "Might be useful elsewhere..."
+			tasks: [{
+				id: "4E57B8DB15892800"
+				item: "embers:caminite_brick"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5E598ADB0425DE0A"]
+			id: "788B82A79A853630"
+			tasks: [{
+				id: "751CD1B8F223DD99"
+				item: "embers:caminite_blend"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["552F10398C8E1E8E"]
+			id: "4B1C6BEC8472B5D9"
+			tasks: [{
+				id: "31AB34D0C42A8DF3"
+				item: "landsoficaria:sideros_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["552F10398C8E1E8E"]
+			description: ["The wood and metal found here are very light, but strong. I wonder what I can build with them..."]
+			id: "540E8271E4EFA6A6"
+			tasks: [{
+				id: "0EFCF02DE91FF075"
+				item: "landsoficaria:kassiteros_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["540E8271E4EFA6A6"]
+			description: ["The materials for this can only be found in Icaria"]
+			id: "0256881F319F9840"
+			tasks: [{
+				id: "49B0A153459485FB"
+				item: "immersive_aircraft:hull"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"3A0CFD6024CCB224"
+				"0256881F319F9840"
+				"0A2529CC69DD9DC9"
+			]
+			description: ["An airship to carry you from one island to the next! It takes any fuel that could go in a furnace."]
+			id: "0E28615A7A3DC421"
+			size: 2.0d
+			subtitle: "Flying through open skies"
+			tasks: [{
+				id: "77503176B2E39849"
+				item: "immersive_aircraft:airship"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			description: ["Materials for these will have to be brought from the Overworld"]
+			id: "0A2529CC69DD9DC9"
+			tasks: [
+				{
+					id: "1B3C8FEB7E2FA94D"
+					item: "immersive_aircraft:engine"
+					type: "item"
+				}
+				{
+					id: "49C1852591283E88"
+					item: "embers:atmospheric_gauge"
+					type: "item"
+				}
+			]
+			title: "Overworld Ingredients"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			description: ["The materials for this can be found in many places"]
+			id: "3A0CFD6024CCB224"
+			tasks: [{
+				id: "73BBDF8AE1014E64"
+				item: "immersive_aircraft:sail"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0E28615A7A3DC421"]
+			id: "6866BBDF421A9837"
+			tasks: [{
+				id: "3D8FF5A275A48DC1"
+				item: "immersive_aircraft:cargo_airship"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6866BBDF421A9837"]
+			id: "0D05B550ECF48A7F"
+			tasks: [{
+				id: "287A597FCF027D48"
+				item: "immersive_aircraft:warship"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"0E28615A7A3DC421"
+				"0861D104C45FFE2F"
+			]
+			id: "2E4AA17A148BB6FD"
+			tasks: [{
+				id: "55327088FD9F9156"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E28615A7A3DC421"]
+			id: "5D043431BD92213F"
+			tasks: [{
+				id: "5402B61825EF520F"
+				item: "immersive_aircraft:industrial_gears"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0D05B550ECF48A7F"]
+			id: "13066CFB997CAA45"
+			tasks: [{
+				id: "2F715DD664D094FC"
+				item: "immersive_aircraft:rotary_cannon"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0D05B550ECF48A7F"]
+			id: "5DD1B40A284E7144"
+			tasks: [{
+				id: "2CE19897A2F0D517"
+				item: "immersive_aircraft:heavy_crossbow"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0D05B550ECF48A7F"]
+			id: "626ED60534554D63"
+			tasks: [{
+				id: "4925F29BC8DD3575"
+				item: "immersive_aircraft:bomb_bay"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4B1C6BEC8472B5D9"]
+			id: "0861D104C45FFE2F"
+			tasks: [{
+				id: "6DDA94DCC3305100"
+				item: "immersive_aircraft:propeller"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2E4AA17A148BB6FD"]
+			id: "33256D7B1E0492E6"
+			tasks: [{
+				id: "4E9D3A24C281E4E1"
+				item: "immersive_aircraft:improved_landing_gear"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0E28615A7A3DC421"]
+			id: "481FEDD45A3D2644"
+			tasks: [{
+				id: "5C7A17FC58B00432"
+				item: "immersive_aircraft:sturdy_pipes"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5E598ADB0425DE0A"]
+			description: ["Arachne can be found in ruined villages, and serve as a sort of miniboss."]
+			id: "1B53FBA9CFF2A8EF"
+			rewards: [{
+				id: "35B390C519B24D1B"
+				item: "nameless_trinkets:spider_legs"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "landsoficaria:arachne"
+				icon: "landsoficaria:arachne_string"
+				id: "7B4E45D094D98E6D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5E598ADB0425DE0A"]
+			description: ["The Captain Revenant can be found in damaged villages full of lesser revenants. It is the second miniboss of Icaria."]
+			id: "38344BDD1AA29488"
+			rewards: [{
+				id: "79CF5E18285B5EA2"
+				item: "nameless_trinkets:fertilizer"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "landsoficaria:captain_revenant"
+				icon: "landsoficaria:revenant_skull"
+				id: "43EB8D1C1BB8A919"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["70FAD65365767FAC"]
+			description: [
+				"The kettle is a very confusing block. Here is a step by step guide on how to use it."
+				""
+				"1. Fill the kettle with a bucket of Medeterranian Water."
+				""
+				"2. Acquire a scroll from looting villages. Hold the scroll in your hand. Look at what ingredients it is asking for."
+				""
+				"3. Gather each of those ingredients. Place them in the pot with right click."
+				""
+				"4. When the last ingredient has been placed, wait a few seconds. Your finished spell will pop out of the Kettle."
+			]
+			id: "545FD79030CAC86C"
+			rewards: [{
+				id: "5E7AFB40D2C2A97E"
+				item: "landsoficaria:healing_flask"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7762DD01E0AF9B89"
+				item: "landsoficaria:kettle"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2817AA338DD2F274"]
+			id: "28C0312FA424E135"
+			tasks: [{
+				id: "1CAB09EAD3C529D4"
+				item: {
+					Count: 1
+					id: "landsoficaria:yellowstone_gear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2817AA338DD2F274"]
+			id: "33F087E15718CCEE"
+			tasks: [{
+				id: "05903B99261D54F2"
+				item: {
+					Count: 1
+					id: "landsoficaria:loam_gear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2817AA338DD2F274"]
+			id: "61F0FA4530588A01"
+			tasks: [{
+				id: "7199ABAFB4BEE7F1"
+				item: {
+					Count: 1
+					id: "landsoficaria:voidshale_gear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2817AA338DD2F274"]
+			id: "2008CEA177977FC1"
+			tasks: [{
+				id: "055A02980AD242BC"
+				item: {
+					Count: 1
+					id: "landsoficaria:vanadium_gear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5E598ADB0425DE0A"]
+			description: ["These glowing crystals generate on the underside of each layer of floating island."]
+			id: "4224D4779CAD0530"
+			rewards: [{
+				id: "7E5C0BD6E21D2313"
+				item: "nameless_trinkets:moon_stone"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "27412FCCC125B2EB"
+					item: "landsoficaria:calcite_shard"
+					type: "item"
+				}
+				{
+					id: "20A14B238734F641"
+					item: "landsoficaria:halite_shard"
+					type: "item"
+				}
+				{
+					id: "1CA71B516FC1D6CA"
+					item: "landsoficaria:jasper_shard"
+					type: "item"
+				}
+				{
+					id: "4B889D53B04426B3"
+					item: "landsoficaria:zircon_shard"
+					type: "item"
+				}
+			]
+			title: "Crystal Shards"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["70FAD65365767FAC"]
+			id: "6E063E9EB9CD1948"
+			tasks: [{
+				id: "048ECE9489290EFE"
+				item: "landsoficaria:sliver"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["6E063E9EB9CD1948"]
+			description: ["This size of Titanite allows you to upgrade your weapons from +6 to +9."]
+			id: "60E551CDF422D715"
+			rewards: [{
+				count: 16
+				id: "26F9CEDC721B042D"
+				item: "landsoficaria:cobbled_voidshale"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CF5178F702D823E"
+				item: "bonfires:titanite_chunk"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
 		}
 	]
-	title: "Icaria"
+	title: "&6Flying Like Icarus&r"
 }
