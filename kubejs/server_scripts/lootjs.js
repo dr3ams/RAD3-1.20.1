@@ -59,27 +59,48 @@ LootJS.modifiers(event => {
 	.removeLoot("nameless_trinkets:nelumbo")
 	.removeLoot("nameless_trinkets:dark_nelumbo")
 	
-	event
-	.addLootTypeModifier(LootType.ENTITY)
+	event.addLootTypeModifier(LootType.ENTITY)
 	.removeLoot("bonfires:ash_pile");
 	
-	event.addLootTypeModifier(LootType.CHEST).anyDimension("minecraft:overworld") 
-	.addLoot(
+	event.addLootTypeModifier(LootType.CHEST).anyDimension("minecraft:overworld").addLoot(
 	LootEntry.of("kubejs:coin_dungeon").when((c) => c.randomChance(0.5)).limitCount([1, 3])
 	)
 	;
 	
-	event.addLootTypeModifier(LootType.CHEST)
-	.addLoot(
-	LootEntry.of("kubejs:dust_experience").when((c) => c.randomChance(0.3)).limitCount([1, 2]),
-	LootEntry.of("kubejs:dust_alchemical").when((c) => c.randomChance(0.3)).limitCount([1, 2]),
-	LootEntry.of("kubejs:scraps").when((c) => c.randomChance(0.3)).limitCount([1, 2])
+	event.addLootTypeModifier(LootType.CHEST).addLoot
+	(
+	LootEntry.of("kubejs:dust_experience").when((c) => c.randomChance(0.2)).limitCount([1, 2]),
+	LootEntry.of("kubejs:dust_alchemical").when((c) => c.randomChance(0.2)).limitCount([1, 2]),
+	LootEntry.of("kubejs:scraps").when((c) => c.randomChance(0.2)).limitCount([1, 2])
 	)
 	;
+	
+	event.addLootTypeModifier(LootType.ENTITY).addLoot
+	(
+	LootEntry.of("kubejs:essence_monster").when((c) => c.randomChance(0.05)).limitCount([0, 1]),
+	)
+	;
+	
+	event.addBlockLootModifier("minecraft:gravel").addLoot
+	(
+	LootEntry.of("kubejs:essence_earth").when((c) => c.randomChance(0.05)).limitCount([0, 1]),
+	)
+	;
+	
+    event.addBlockLootModifier("minecraft:coal_ore").randomChance(0.1).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("minecraft:iron_ore").randomChance(0.2).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("minecraft:copper_ore").randomChance(0.2).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("minecraft:redstone_ore").randomChance(0.3).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("minecraft:gold_ore").randomChance(0.3).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("minecraft:lapis_ore").randomChance(0.3).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("minecraft:emerald_ore").randomChance(0.8).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("minecraft:diamond_ore").randomChance(0.8).addLoot("kubejs:essence_earth");
+	
 	
 	event.addBlockLootModifier('minecraft:spawner')
     .addLoot('kubejs:coin_dungeon')
 	.addLoot('kubejs:spawnercore')
+	
 
 	event.addLootTypeModifier(LootType.CHEST).anyDimension("aether:the_aether").addLoot(
 	LootEntry.of("kubejs:coin_aether").when((c) => c.randomChance(0.6)).limitCount([1, 1])

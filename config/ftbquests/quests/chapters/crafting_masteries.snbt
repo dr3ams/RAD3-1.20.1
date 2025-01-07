@@ -178,14 +178,16 @@
 		{
 			dependencies: ["7638380502E5562D"]
 			description: [
-				"Monster essence to:"
-				"- mob drops"
-				"- experience"
+				"&aMonster Essence&r"
+				"With a small chance can drop from &cmonsters&r or found in chests"
+				""
+				"&6Earth Essence&r"
+				"With a small chance can drop while mining ore blocks or from digging gravel"
+				""
+				""
+				""
+				"///Monster essence to:"
 				"- magic items"
-				""
-				""
-				""
-				"Rotten Flesh"
 			]
 			icon: {
 				Count: 1
@@ -313,6 +315,7 @@
 				item: "kubejs:essence_monster"
 				type: "item"
 			}]
+			title: "&aMonster Essence&r - > Monster Drops I"
 			x: -1.0d
 			y: 6.5d
 		}
@@ -334,7 +337,7 @@
 			icon: "kubejs:scraps"
 			id: "1841E82A8EF623E4"
 			shape: "diamond"
-			subtitle: "Complete this task to unlock recipes in &2Novice Level Alchemy&r section"
+			subtitle: "Complete this task to unlock recipes in &2Novice Level Scavenging&r section"
 			tasks: [
 				{
 					id: "00CE8D93E97A4BBE"
@@ -376,7 +379,7 @@
 			icon: "kubejs:scraps"
 			id: "0261E59B7BF6E337"
 			shape: "diamond"
-			subtitle: "Complete this task to unlock recipes in &9Apprentice Level Alchemy&r section"
+			subtitle: "Complete this task to unlock recipes in &9Apprentice Level Scavenging&r section"
 			tasks: [
 				{
 					id: "64F443E28492727F"
@@ -418,7 +421,7 @@
 			icon: "kubejs:scraps"
 			id: "36B67EDD09CABC67"
 			shape: "diamond"
-			subtitle: "Complete this task to unlock recipes in &cMaster Level Alchemy&r section"
+			subtitle: "Complete this task to unlock recipes in &cMaster Level Scavenging&r section"
 			tasks: [
 				{
 					id: "35D94A5997DBE65C"
@@ -585,6 +588,12 @@
 			dependencies: ["1CCE0BB671E02BC3"]
 			icon: "kubejs:essence_earth"
 			id: "165D6E3253F5BBE4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "673C322E6F422E7D"
+				table_id: 8239551914162453554L
+				type: "choice"
+			}]
 			subtitle: "Earth essence-> iron, gold redstone, lappis"
 			tasks: [{
 				id: "010F9B0ADEA9F103"
@@ -610,19 +619,27 @@
 				item: "kubejs:essence_monster"
 				type: "item"
 			}]
+			title: "&aMonster Essence&r - > Monster Drops II"
 			x: -1.0d
 			y: 8.5d
 		}
 		{
-			dependencies: ["6415470142D7A281"]
+			dependencies: ["76115E4AB84A7AEF"]
 			id: "6588470CC1FFFFE9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B7183B768713C72"
+				table_id: 1713371350595859952L
+				type: "choice"
+			}]
 			subtitle: "Earth essence-> diamond, emerald"
 			tasks: [{
-				id: "0735CDE3A619AE0B"
-				type: "checkmark"
+				id: "3D4DD55DAFCE2B3E"
+				item: "kubejs:essence_earth"
+				type: "item"
 			}]
-			x: 2.0d
-			y: 9.5d
+			x: 1.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["76115E4AB84A7AEF"]
@@ -640,16 +657,24 @@
 				item: "kubejs:essence_monster"
 				type: "item"
 			}]
+			title: "&aMonster Essence&r - > Monster Drops III"
 			x: -1.0d
 			y: 12.5d
 		}
 		{
 			dependencies: ["76115E4AB84A7AEF"]
 			id: "74A7621C680E9145"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DDAD203527EF838"
+				table_id: 2172023065945170434L
+				type: "choice"
+			}]
 			subtitle: "Earth essence-> something modded?"
 			tasks: [{
-				id: "3DA2FB660C999C32"
-				type: "checkmark"
+				id: "56884DA00E3DE7E1"
+				item: "kubejs:essence_earth"
+				type: "item"
 			}]
 			x: 2.0d
 			y: 12.5d
@@ -723,6 +748,7 @@
 				item: "minecraft:rotten_flesh"
 				type: "item"
 			}]
+			title: "Rotten Flesh -> &aMonster Essence&r"
 			x: -1.0d
 			y: 9.5d
 		}
@@ -881,6 +907,7 @@
 					type: "item"
 				}
 			]
+			title: "Spawner Core -> &aMonster Essence&r"
 			x: 2.0d
 			y: 8.5d
 		}
@@ -1000,6 +1027,24 @@
 			}]
 			x: 4.5d
 			y: 13.0d
+		}
+		{
+			dependencies: ["6415470142D7A281"]
+			id: "24DBB36C22505E0F"
+			rewards: [{
+				id: "64BD36D35404D9AA"
+				item: "kubejs:scroll_exp"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "0E0B19376855D549"
+				item: "kubejs:essence_monster"
+				type: "item"
+			}]
+			title: "&aMonster Essence&r - > Experience"
+			x: 2.0d
+			y: 9.5d
 		}
 	]
 	title: "⭐ Masteries"

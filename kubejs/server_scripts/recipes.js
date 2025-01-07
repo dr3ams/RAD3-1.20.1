@@ -1015,6 +1015,11 @@ ServerEvents.recipes((event) => {
     'kubejs:portable_dissolver',
     'kubejs:spawnercore'
 	]).damageIngredient(Item.of('kubejs:portable_dissolver'))
+	
+	event.shapeless('3x kubejs:dust_experience', [
+    'kubejs:portable_dissolver',
+    '#minecraft:combat/enchanting_books'
+	]).damageIngredient(Item.of('kubejs:portable_dissolver'))
 
 
 	event.shaped('kubejs:portable_transmutator', [
@@ -1065,6 +1070,11 @@ ServerEvents.recipes((event) => {
 	event.shapeless('2x kubejs:scraps', [
     'kubejs:portable_salvager',
     'minecraft:ender_pearl'
+	]).damageIngredient(Item.of('kubejs:portable_salvager'))
+	
+	event.shapeless('kubejs:scraps', [
+    'kubejs:portable_salvager',
+    'minecraft:raw_copper_block'
 	]).damageIngredient(Item.of('kubejs:portable_salvager'))
   
 	event.shapeless('2x kubejs:scraps', [
