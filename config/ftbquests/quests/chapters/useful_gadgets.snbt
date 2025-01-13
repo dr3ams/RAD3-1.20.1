@@ -1172,6 +1172,21 @@
 			x: 6.5d
 			y: -4.5d
 		}
+		{
+			description: ["Allows crafting of skeleton decorations from bone blocks."]
+			icon: "graveyard:ossuary"
+			id: "4E3787464BABD948"
+			tasks: [{
+				icon: "graveyard:ossuary"
+				id: "5504E32B91DD2C5D"
+				observe_type: 0
+				timer: 0L
+				to_observe: "graveyard:ossuary"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
 	]
 	title: "&2Useful Gadgets&r"
 }

@@ -15,9 +15,9 @@
 				"The quests following the initial crops give a basic recipe to help keep you fed but look to JEI for more complex and fullfilling recipes."
 			]
 			icon: "minecraft:farmland"
-			id: "0000000000000FC0"
+			id: "0150106BEF0605B7"
 			rewards: [{
-				id: "6A96DE85B76A3635"
+				id: "03BE8A894D1F3F4F"
 				item: "quark:seed_pouch"
 				type: "item"
 			}]
@@ -42,22 +42,22 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			description: ["Should be able to nab some of these to get you started from a village."]
-			id: "00000000000000CD"
+			id: "053C0C086704A424"
 			rewards: [
 				{
-					id: "0000000000000188"
+					id: "5B63DBE4AC17C816"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 				{
-					id: "000000000000033F"
+					id: "62E3757CE5FD003A"
 					item: "minecraft:cake"
 					type: "item"
 				}
 			]
 			tasks: [{
 				count: 64L
-				id: "00000000000000CE"
+				id: "7F94F99A33EC2B49"
 				item: "minecraft:potato"
 				type: "item"
 			}]
@@ -68,15 +68,15 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			description: ["Should be able to find a few of these in villages as well."]
-			id: "0000000000000FD0"
+			id: "2CAD2936FBF8C162"
 			rewards: [{
-				id: "0000000000001322"
+				id: "377B1761A5324C69"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			tasks: [{
 				count: 64L
-				id: "0000000000000FD1"
+				id: "7B3B51D1DA3771E3"
 				item: "minecraft:carrot"
 				type: "item"
 			}]
@@ -86,9 +86,9 @@
 		}
 		{
 			dependencies: ["0000000000000FD0"]
-			id: "1FA146104659E072"
+			id: "62A913EB840D6093"
 			rewards: [{
-				id: "2036ECE79D1E6BC0"
+				id: "531C16991DCA4CFB"
 				item: "kubejs:copper_coin"
 				type: "item"
 			}]
@@ -103,9 +103,9 @@
 		}
 		{
 			dependencies: ["1FA146104659E072"]
-			id: "7D269CB37BDFB0A1"
+			id: "07F65CEBEC7D3DC1"
 			rewards: [{
-				id: "3240C41F0846CA1E"
+				id: "5227A19DF1202772"
 				item: "kubejs:iron_coin"
 				type: "item"
 			}]
@@ -120,14 +120,14 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			description: ["Farmland that is always moist and can't be trampled."]
-			id: "0F6CF9CC1916ED38"
+			id: "420C88598C4506FB"
 			rewards: [{
-				id: "0686229BAF26D6F9"
+				id: "51698D9CD86570BF"
 				type: "xp"
 				xp: 100
 			}]
 			tasks: [{
-				id: "0C39181AFEC2E0EF"
+				id: "1AAF951DA04777D4"
 				item: "supplementaries:planter"
 				type: "item"
 			}]
@@ -137,14 +137,14 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			description: ["You don't have jack on me Mr. Pumpkin!"]
-			id: "0000000000000FD4"
+			id: "02D47ED17855D7EF"
 			rewards: [{
-				id: "0000000000001326"
+				id: "5F0A15CE458D448D"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "0000000000000FD5"
+				id: "593DC42110353A1C"
 				item: "minecraft:pumpkin_seeds"
 				type: "item"
 			}]
@@ -153,14 +153,14 @@
 		}
 		{
 			dependencies: ["0000000000000FD4"]
-			id: "0000000000000FDC"
+			id: "734B0DCBA9412A12"
 			rewards: [{
-				id: "0000000000001339"
+				id: "3A2C0A6682B9F08C"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "0000000000000FDD"
+				id: "0A60C2772A762313"
 				item: "minecraft:pumpkin"
 				type: "item"
 			}]
@@ -170,14 +170,14 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			description: ["You will come across a lot of these from grass."]
-			id: "00000000000000C5"
+			id: "31BD9D438DE7C517"
 			rewards: [{
-				id: "0000000000000178"
+				id: "0B1CA8F97E75105C"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "00000000000000C6"
+				id: "48F99AB951712C54"
 				item: "minecraft:wheat_seeds"
 				type: "item"
 			}]
@@ -187,16 +187,16 @@
 		{
 			dependencies: ["00000000000000C5"]
 			description: ["Get to growing!"]
-			id: "00000000000000C9"
+			id: "664517285527B807"
 			rewards: [{
 				count: 3
-				id: "000000000000032B"
+				id: "5D5EA55D9172570F"
 				item: "minecraft:paper"
 				type: "item"
 			}]
 			tasks: [{
 				count: 64L
-				id: "00000000000000CA"
+				id: "16552AD597B7A9F9"
 				item: "minecraft:wheat"
 				type: "item"
 			}]
@@ -207,14 +207,14 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			description: ["I am supposed to beat a root?"]
-			id: "0000000000000FC6"
+			id: "5F18F2B90194BCC3"
 			rewards: [{
-				id: "0000000000001321"
+				id: "4AD57E87135DEE1D"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "0000000000000FC7"
+				id: "7851E931B45888AB"
 				item: "minecraft:beetroot_seeds"
 				type: "item"
 			}]
@@ -223,14 +223,14 @@
 		}
 		{
 			dependencies: ["27AF065C882335E1"]
-			id: "4E55AEFCAD3D1F5E"
+			id: "275387B29232F13A"
 			rewards: [{
-				id: "6D465E3FE0E53575"
+				id: "739BF7E02E37A1A2"
 				type: "xp"
 				xp: 100
 			}]
 			tasks: [{
-				id: "4F00E56FCE21C6C3"
+				id: "00909B4552089BBB"
 				item: "supplementaries:flower_box"
 				type: "item"
 			}]
@@ -240,15 +240,15 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			description: ["Desert adventure time."]
-			id: "0000000000000FC2"
+			id: "7A95813C7465B7C6"
 			rewards: [{
-				id: "0000000000001323"
+				id: "5BADEA7DB8C22471"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			tasks: [{
 				count: 12L
-				id: "0000000000000FC3"
+				id: "413401E96C63F5AC"
 				item: "minecraft:cactus"
 				type: "item"
 			}]
@@ -258,16 +258,16 @@
 		}
 		{
 			dependencies: ["0000000000000FC6"]
-			id: "0000000000000FC8"
+			id: "192A80A11DED531C"
 			rewards: [{
-				id: "0000000000001335"
+				id: "47290453EC38BD02"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			tasks: [{
 				consume_items: true
 				count: 64L
-				id: "0000000000000FC9"
+				id: "4FF5947A791AA566"
 				item: "minecraft:beetroot"
 				type: "item"
 			}]
@@ -277,14 +277,14 @@
 		{
 			dependencies: ["0000000000000FC2"]
 			description: ["Give your base some flair."]
-			id: "00000000000000D3"
+			id: "3BCCF82725DF2A28"
 			rewards: [{
-				id: "0000000000000142"
+				id: "63509E7F692B0B23"
 				item: "minecraft:flower_pot"
 				type: "item"
 			}]
 			tasks: [{
-				id: "00000000000000D4"
+				id: "5C42179F2C7E1F66"
 				item: "quark:midori_block"
 				type: "item"
 			}]
@@ -294,14 +294,14 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			description: ["Have to eat some melons to make some melons."]
-			id: "0000000000000FD2"
+			id: "40AA50EB34627A92"
 			rewards: [{
-				id: "0000000000001325"
+				id: "457EAB66AFAE2E5C"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "0000000000000FD3"
+				id: "49C844695E49CAB5"
 				item: "minecraft:melon_seeds"
 				type: "item"
 			}]
@@ -310,16 +310,16 @@
 		}
 		{
 			dependencies: ["0000000000000FD2"]
-			id: "0000000000000FDA"
+			id: "1952835D9E813B00"
 			rewards: [{
-				id: "0000000000001338"
+				id: "710FE04F2AF7AD01"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			tasks: [{
 				consume_items: true
 				count: 6L
-				id: "0000000000000FDB"
+				id: "5D45F3C63C692E33"
 				item: "minecraft:melon"
 				type: "item"
 			}]
@@ -328,15 +328,15 @@
 		}
 		{
 			dependencies: ["0000000000000FDA"]
-			id: "643748DB082D7133"
+			id: "07CD3B4239E51614"
 			rewards: [
 				{
-					id: "5B3FDF4050EBAC89"
+					id: "2A874F3B237C774A"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
-					id: "430C45D743551205"
+					id: "5BB2D9B4BF9D7075"
 					item: "kubejs:iron_coin"
 					type: "item"
 				}
@@ -344,7 +344,7 @@
 			tasks: [{
 				consume_items: false
 				count: 64L
-				id: "3EA584B4BA8DD977"
+				id: "644A9B3A3C1A831F"
 				item: {
 					Count: 1
 					ForgeCaps: {
@@ -362,15 +362,15 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			description: ["Nether fortress mold."]
-			id: "0000000000000FD6"
+			id: "712C15991B37B7B1"
 			rewards: [{
-				id: "0000000000001328"
+				id: "66DD275B44BB7A45"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			tasks: [{
 				count: 64L
-				id: "0000000000000FD7"
+				id: "15929FF7F9EA6A82"
 				item: "minecraft:nether_wart"
 				type: "item"
 			}]
@@ -380,14 +380,14 @@
 		}
 		{
 			dependencies: ["0000000000000FC0"]
-			id: "0000000000001154"
+			id: "109502AF0E1426E3"
 			rewards: [{
-				id: "0000000000001324"
+				id: "1F1921657E5FF31E"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "0000000000001155"
+				id: "0B7A1B5E2FEE7675"
 				item: "minecraft:bamboo"
 				type: "item"
 			}]
@@ -396,16 +396,16 @@
 		}
 		{
 			dependencies: ["0000000000001154"]
-			id: "22E18643E07DD4EA"
+			id: "3BE59D712783F620"
 			rewards: [{
-				id: "0B5BD8BBD71E3367"
+				id: "4F850F57E41BDB0F"
 				item: "kubejs:copper_coin"
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 32L
-				id: "7BFF0D0902CDA1C4"
+				id: "139533CAF8A0B3D0"
 				item: {
 					Count: 1
 					ForgeCaps: {
@@ -422,9 +422,9 @@
 		}
 		{
 			dependencies: ["22E18643E07DD4EA"]
-			id: "3DC57F999F6E5629"
+			id: "46718966B28E3B14"
 			rewards: [{
-				id: "7EBF3F3B020955CC"
+				id: "49EA5387C05F8455"
 				item: {
 					Count: 1
 					id: "ftbquests:lootcrate"
@@ -437,7 +437,7 @@
 			tasks: [{
 				consume_items: true
 				count: 64L
-				id: "30D0116213A45892"
+				id: "3311E477CC81761E"
 				item: {
 					Count: 1
 					ForgeCaps: {
@@ -455,15 +455,15 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			description: ["You are going to have to travel to the great white north to find some of these delicous berries."]
-			id: "0000000000000FD8"
+			id: "31291BCDDFA51962"
 			rewards: [{
-				id: "0000000000001329"
+				id: "6DCAD01BEF21D5E1"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			tasks: [{
 				count: 64L
-				id: "0000000000000FD9"
+				id: "59445B3F080FDFD1"
 				item: "minecraft:sweet_berries"
 				type: "item"
 			}]
@@ -473,15 +473,15 @@
 		}
 		{
 			dependencies: ["0000000000000FC0"]
-			id: "1EA89DD440FBA503"
+			id: "1CF567879A605CDE"
 			rewards: [
 				{
-					id: "7B812D79A1C904D2"
+					id: "7E9D5D70D2B7F698"
 					item: "kubejs:copper_coin"
 					type: "item"
 				}
 				{
-					id: "184D0303CF84AFD5"
+					id: "3D3C5884F608C675"
 					item: "kubejs:iron_coin"
 					type: "item"
 				}
@@ -490,7 +490,7 @@
 			tasks: [{
 				advancement: "minecraft:husbandry/bred_all_animals"
 				criterion: ""
-				id: "6F39AB25FFE68DCA"
+				id: "657CBF0E6370C304"
 				type: "advancement"
 			}]
 			x: 3.0d
@@ -499,23 +499,23 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			description: ["Let those stalks reach for the sky!"]
-			id: "000000000000072E"
+			id: "479326E5BD12BF8A"
 			rewards: [
 				{
 					count: 5
-					id: "0000000000000734"
+					id: "34EC83CCED1F6064"
 					item: "minecraft:string"
 					type: "item"
 				}
 				{
-					id: "0000000000001327"
+					id: "21C841562B60E0EF"
 					type: "xp_levels"
 					xp_levels: 1
 				}
 			]
 			tasks: [{
 				count: 64L
-				id: "000000000000072F"
+				id: "64DDC7E899C949C0"
 				item: "minecraft:sugar_cane"
 				type: "item"
 			}]
@@ -526,15 +526,15 @@
 		{
 			dependencies: ["000000000000072E"]
 			description: ["Man I will be able to write so much stuff on this."]
-			id: "0000000000000FCE"
+			id: "42E723A5E554D01D"
 			rewards: [{
-				id: "000000000000133B"
+				id: "7E88053127D4450E"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			tasks: [{
 				count: 3L
-				id: "0000000000000FCF"
+				id: "420E9DCA8162ADEB"
 				item: "minecraft:paper"
 				type: "item"
 			}]
@@ -543,15 +543,15 @@
 		}
 		{
 			dependencies: ["000000000000072E"]
-			id: "0000000000000FC4"
+			id: "49961DB59F6635D6"
 			rewards: [{
-				id: "000000000000133A"
+				id: "1EE9334A2F87D5B4"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			tasks: [{
 				count: 16L
-				id: "0000000000000FC5"
+				id: "2A5F424681BE8BA1"
 				item: "minecraft:sugar"
 				type: "item"
 			}]

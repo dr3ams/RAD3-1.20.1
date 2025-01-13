@@ -1015,11 +1015,6 @@ ServerEvents.recipes((event) => {
     'kubejs:portable_dissolver',
     'kubejs:spawnercore'
 	]).damageIngredient(Item.of('kubejs:portable_dissolver'))
-	
-	event.shapeless('3x kubejs:dust_experience', [
-    'kubejs:portable_dissolver',
-    '#minecraft:combat/enchanting_books'
-	]).damageIngredient(Item.of('kubejs:portable_dissolver'))
 
 
 	event.shaped('kubejs:portable_transmutator', [

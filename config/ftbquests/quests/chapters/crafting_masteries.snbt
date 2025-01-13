@@ -31,9 +31,11 @@
 		{
 			dependencies: ["494B3A437F2FF633"]
 			description: [
-				"&dAlchemy powder&r is a knowledge points for this &4Mastery.&r"
+				"&dAlchemy mastery&r allows you to exchange usual drops for additional resources. It interacts with flesh (drops from monsters) and stone (drops while mining) and outcomes are random."
 				""
-				"It is needed for leveling up the &4Mastery&r for unlocking new trades."
+				"With each level of &4mastery&r you will gain access to new recipes. All trades are repeatable."
+				""
+				"&dAlchemy powder&r is a knowledge points for this &4Mastery.&r It is needed for leveling up the &4Mastery&r for unlocking new trades."
 				""
 				"You can receive &dAlchemy powder&r by processing some raw materials in &5Portable Transmutation Device&r, find it as loot or trade with Goblin Trader."
 			]
@@ -71,9 +73,11 @@
 		{
 			dependencies: ["494B3A437F2FF633"]
 			description: [
-				"&9Scrap&r is a knowledge points for this &4Mastery.&r"
+				"&9Scavenging mastery&r allows you to exchange junk drops for additional resources (similar to Alchemy). There is new type of chest loot (depending on dimension) marked as junk that can be salvaged for various resources."
 				""
-				"It is needed for leveling up the &4Mastery&r for unlocking new trades."
+				"With each level of &4mastery&r you will gain access to new recipes. All trades are repeatable."
+				""
+				"&9Scrap&r is a knowledge points for this &4Mastery.&r It is needed for leveling up the &4Mastery&r for unlocking new trades."
 				""
 				"You can receive &9Scrap&r by processing some raw materials in &3Portable Mini Salvager&r, find it as loot or trade with Goblin Trader."
 			]
@@ -111,11 +115,13 @@
 		{
 			dependencies: ["494B3A437F2FF633"]
 			description: [
-				"&2Experience dust&r is a knowledge points for this &4Mastery.&r"
+				"&2Enchanting mastery&r is all about additional manipulations with experience and some enchantments. It allows you to get more experience from ordinary items, though outcomes are random, or exchange your experience for specific enchantment. "
 				""
-				"With every exchange you will get &2Experience dust&r in return which is needed for leveling up the &4Mastery&r for unlocking new trades."
+				"With each level of &4mastery&r you will gain access to new recipes. All trades are repeatable."
 				""
-				"You can also receive &2Experience dust&r by processing some materials in &aPortable Experience Disolver&r, find it as loot or trade with Goblin Trader."
+				"&2Experience dust&r is a knowledge points for this &4Mastery.&r It is needed for leveling up the &4Mastery&r for unlocking new trades."
+				""
+				"You can receive &2Experience dust&r by processing some materials in &aPortable Experience Disolver&r, find it as loot or trade with Goblin Trader."
 			]
 			icon: {
 				Count: 1
@@ -150,6 +156,12 @@
 		}
 		{
 			dependencies: ["767A6845346F46F7"]
+			description: [
+				"&dAlchemy powder&r is a knowledge points for this &4Mastery.&r It is needed for leveling up the &4Mastery&r for unlocking new trades."
+				""
+				"You can receive &dAlchemy powder&r by processing some raw materials in &5Portable Transmutation Device&r, find it as loot or trade with Goblin Trader."
+			]
+			disable_toast: true
 			icon: "kubejs:dust_alchemical"
 			id: "7638380502E5562D"
 			shape: "diamond"
@@ -160,18 +172,18 @@
 					id: "7115D99B464E9B0B"
 					points: false
 					type: "xp"
-					value: 30L
+					value: 5L
 				}
 				{
 					consume_items: true
-					count: 64L
+					count: 32L
 					disable_toast: true
 					id: "558BD822306C33FC"
 					item: "kubejs:dust_alchemical"
 					type: "item"
 				}
 			]
-			title: "-"
+			title: "..."
 			x: 0.5d
 			y: 4.5d
 		}
@@ -254,45 +266,67 @@
 		}
 		{
 			dependencies: ["1CCE0BB671E02BC3"]
+			description: [
+				"&dAlchemy powder&r is a knowledge points for this &4Mastery.&r It is needed for leveling up the &4Mastery&r for unlocking new trades."
+				""
+				"You can receive &dAlchemy powder&r by processing some raw materials in &5Portable Transmutation Device&r, find it as loot or trade with Goblin Trader."
+			]
+			disable_toast: true
 			icon: "kubejs:dust_alchemical"
 			id: "3A49B0937DE2857D"
 			shape: "diamond"
 			subtitle: "Complete this task to unlock recipes in &9Apprentice Level Alchemy&r section"
 			tasks: [
 				{
+					disable_toast: true
 					id: "2A91C77270EFA433"
 					points: false
 					type: "xp"
-					value: 1L
+					value: 15L
 				}
 				{
+					consume_items: true
+					count: 32L
+					disable_toast: true
 					id: "74B755EB59F3446C"
 					item: "kubejs:dust_alchemical"
 					type: "item"
 				}
 			]
+			title: "..."
 			x: 0.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["6415470142D7A281"]
+			description: [
+				"&dAlchemy powder&r is a knowledge points for this &4Mastery.&r It is needed for leveling up the &4Mastery&r for unlocking new trades."
+				""
+				"You can receive &dAlchemy powder&r by processing some raw materials in &5Portable Transmutation Device&r, find it as loot or trade with Goblin Trader."
+			]
+			disable_toast: true
 			icon: "kubejs:dust_alchemical"
 			id: "5D30E41C1899837D"
 			shape: "diamond"
 			subtitle: "Complete this task to unlock recipes in &cMaster Level Alchemy&r section"
 			tasks: [
 				{
+					disable_toast: true
 					id: "4EA458D96849662C"
 					points: false
 					type: "xp"
-					value: 1L
+					value: 30L
 				}
 				{
+					consume_items: true
+					count: 64L
+					disable_toast: true
 					id: "25DD1E3C35D9D1B9"
 					item: "kubejs:dust_alchemical"
 					type: "item"
 				}
 			]
+			title: "..."
 			x: 0.5d
 			y: 10.5d
 		}
@@ -334,23 +368,34 @@
 		}
 		{
 			dependencies: ["2C5E501FA26E92FF"]
+			description: [
+				"&9Scrap&r is a knowledge points for this &4Mastery.&r It is needed for leveling up the &4Mastery&r for unlocking new trades."
+				""
+				"You can receive &9Scrap&r by processing some raw materials in &3Portable Mini Salvager&r, find it as loot or trade with Goblin Trader."
+			]
+			disable_toast: true
 			icon: "kubejs:scraps"
 			id: "1841E82A8EF623E4"
 			shape: "diamond"
 			subtitle: "Complete this task to unlock recipes in &2Novice Level Scavenging&r section"
 			tasks: [
 				{
+					disable_toast: true
 					id: "00CE8D93E97A4BBE"
 					points: false
 					type: "xp"
-					value: 1L
+					value: 5L
 				}
 				{
+					consume_items: true
+					count: 32L
+					disable_toast: true
 					id: "1D8B8A7EB3B8DFF4"
 					item: "kubejs:scraps"
 					type: "item"
 				}
 			]
+			title: "..."
 			x: 5.0d
 			y: 4.0d
 		}
@@ -376,23 +421,34 @@
 		}
 		{
 			dependencies: ["132E2FA2094CD5E2"]
+			description: [
+				"&9Scrap&r is a knowledge points for this &4Mastery.&r It is needed for leveling up the &4Mastery&r for unlocking new trades."
+				""
+				"You can receive &9Scrap&r by processing some raw materials in &3Portable Mini Salvager&r, find it as loot or trade with Goblin Trader."
+			]
+			disable_toast: true
 			icon: "kubejs:scraps"
 			id: "0261E59B7BF6E337"
 			shape: "diamond"
 			subtitle: "Complete this task to unlock recipes in &9Apprentice Level Scavenging&r section"
 			tasks: [
 				{
+					disable_toast: true
 					id: "64F443E28492727F"
 					points: false
 					type: "xp"
-					value: 1L
+					value: 15L
 				}
 				{
+					consume_items: true
+					count: 64L
+					disable_toast: true
 					id: "0EC0731CC82C5D46"
 					item: "kubejs:scraps"
 					type: "item"
 				}
 			]
+			title: "..."
 			x: 5.0d
 			y: 7.0d
 		}
@@ -418,23 +474,34 @@
 		}
 		{
 			dependencies: ["38244A01FB371C21"]
+			description: [
+				"&9Scrap&r is a knowledge points for this &4Mastery.&r It is needed for leveling up the &4Mastery&r for unlocking new trades."
+				""
+				"You can receive &9Scrap&r by processing some raw materials in &3Portable Mini Salvager&r, find it as loot or trade with Goblin Trader."
+			]
+			disable_toast: true
 			icon: "kubejs:scraps"
 			id: "36B67EDD09CABC67"
 			shape: "diamond"
 			subtitle: "Complete this task to unlock recipes in &cMaster Level Scavenging&r section"
 			tasks: [
 				{
+					disable_toast: true
 					id: "35D94A5997DBE65C"
 					points: false
 					type: "xp"
-					value: 1L
+					value: 30L
 				}
 				{
+					consume_items: true
+					count: 64L
+					disable_toast: true
 					id: "40C1CA56C80AD6C2"
 					item: "kubejs:scraps"
 					type: "item"
 				}
 			]
+			title: "..."
 			x: 5.0d
 			y: 10.0d
 		}
@@ -460,67 +527,100 @@
 		}
 		{
 			dependencies: ["47A62BACCFD304F9"]
+			description: [
+				"&2Experience dust&r is a knowledge points for this &4Mastery.&r It is needed for leveling up the &4Mastery&r for unlocking new trades."
+				""
+				"You can receive &2Experience dust&r by processing some materials in &aPortable Experience Disolver&r, find it as loot or trade with Goblin Trader."
+			]
+			disable_toast: true
 			icon: "kubejs:dust_experience"
 			id: "6414B5020209B983"
 			shape: "diamond"
 			subtitle: "Complete this task to unlock recipes in &2Novice Level Enchanting&r section"
 			tasks: [
 				{
+					disable_toast: true
 					id: "3BA2749E7F21B0BC"
 					points: false
 					type: "xp"
-					value: 1L
+					value: 5L
 				}
 				{
+					consume_items: true
+					count: 32L
+					disable_toast: true
 					id: "38D8D7D136359C6A"
 					item: "kubejs:dust_experience"
 					type: "item"
 				}
 			]
+			title: "..."
 			x: -4.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["05B1E1D18C37306D"]
+			description: [
+				"&2Experience dust&r is a knowledge points for this &4Mastery.&r It is needed for leveling up the &4Mastery&r for unlocking new trades."
+				""
+				"You can receive &2Experience dust&r by processing some materials in &aPortable Experience Disolver&r, find it as loot or trade with Goblin Trader."
+			]
+			disable_toast: true
 			icon: "kubejs:dust_experience"
 			id: "2EBF210EDB5C5344"
 			shape: "diamond"
 			subtitle: "Complete this task to unlock recipes in &9Apprentice Level Enchanting&r section"
 			tasks: [
 				{
+					disable_toast: true
 					id: "22575A56065AC717"
 					points: false
 					type: "xp"
-					value: 1L
+					value: 15L
 				}
 				{
+					consume_items: true
+					count: 32L
+					disable_toast: true
 					id: "4CEFEB88C427B9DD"
 					item: "kubejs:dust_experience"
 					type: "item"
 				}
 			]
+			title: "..."
 			x: -4.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["1E9C1429B65E8B67"]
+			description: [
+				"&2Experience dust&r is a knowledge points for this &4Mastery.&r It is needed for leveling up the &4Mastery&r for unlocking new trades."
+				""
+				"You can receive &2Experience dust&r by processing some materials in &aPortable Experience Disolver&r, find it as loot or trade with Goblin Trader."
+			]
+			disable_toast: true
 			icon: "kubejs:dust_experience"
 			id: "139CDD4FD5A88E65"
 			shape: "diamond"
 			subtitle: "Complete this task to unlock recipes in &cMaster Level Enchanting&r section"
 			tasks: [
 				{
+					disable_toast: true
 					id: "5B2CC888A966477C"
 					points: false
 					type: "xp"
-					value: 1L
+					value: 30L
 				}
 				{
+					consume_items: true
+					count: 64L
+					disable_toast: true
 					id: "5200938B69FCAAD6"
 					item: "kubejs:dust_experience"
 					type: "item"
 				}
 			]
+			title: "..."
 			x: -4.0d
 			y: 10.0d
 		}
@@ -695,10 +795,17 @@
 			description: [
 				"new items:"
 				"sifter - durability"
-				"sand+sifter = sifted sand"
-				"exchange stack of sifted sand/gravel for rewards"
+				"dust+sifter = sifted sand"
+				"exchange stack of sifted dust for rewards"
 			]
 			id: "62297E1BCBCB76B2"
+			rewards: [{
+				id: "4C3489832090349C"
+				item: "kubejs:coin_01"
+				random_bonus: 3
+				team_reward: false
+				type: "item"
+			}]
 			subtitle: "Sift sand/gravel to get valuables?"
 			tasks: [{
 				id: "3E1D096997097366"
@@ -711,13 +818,36 @@
 			can_repeat: true
 			dependencies: ["05B1E1D18C37306D"]
 			disable_toast: true
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 10s
+					}]
+				}
+			}
 			id: "52217142465DC332"
-			tasks: [{
-				id: "046CFF48AE482ACB"
-				points: false
-				type: "xp"
-				value: 1L
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "343B0A6F972542AD"
+				table_id: 7863698337905727898L
+				type: "choice"
 			}]
+			tasks: [
+				{
+					id: "046CFF48AE482ACB"
+					points: false
+					type: "xp"
+					value: 1L
+				}
+				{
+					id: "2FD4AF1C79779D97"
+					item: "kubejs:dust_experience"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: 6.0d
 		}
@@ -771,12 +901,28 @@
 				item: "kubejs:essence_monster_raw"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -5.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["1E9C1429B65E8B67"]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "l2complements:cubic_eater"
+						lvl: 6s
+					}]
+				}
+			}
 			id: "155C818385D5260C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29659D1BC67F0409"
+				table_id: 1070082330454135040L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "6D32F515E9E4A495"
 				points: false
@@ -814,7 +960,23 @@
 		}
 		{
 			dependencies: ["1082AFB9D8CEFAD5"]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "l2complements:cubic_eater"
+						lvl: 6s
+					}]
+				}
+			}
 			id: "2E5FDB9EFB3790CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F4D9898355C5016"
+				table_id: 4340173645548253564L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "0938772C82F41D26"
 				points: false
@@ -855,6 +1017,7 @@
 			y: 12.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["1E9C1429B65E8B67"]
 			icon: "kubejs:spawnercore"
 			id: "59D946DF427124A8"
@@ -879,7 +1042,7 @@
 					type: "item"
 				}
 			]
-			x: -5.5d
+			x: -2.5d
 			y: 8.0d
 		}
 		{
@@ -939,10 +1102,11 @@
 			rewards: [{
 				id: "1710B8E987BE191F"
 				type: "xp"
-				xp: 100
+				xp: 50
 			}]
 			subtitle: "With enough knowledge you're able to extract more experience from Experience Scroll"
 			tasks: [{
+				consume_items: true
 				id: "17018AE31786CBFB"
 				item: "kubejs:scroll_exp"
 				type: "item"
@@ -951,22 +1115,24 @@
 			y: 6.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["1E9C1429B65E8B67"]
 			id: "7115105F30F56C9B"
 			rewards: [
 				{
 					id: "1B2D87ADF57A0CBB"
 					type: "xp"
-					xp: 100
+					xp: 40
 				}
 				{
-					count: 2
 					id: "58DA5A06A8A2E639"
 					item: "kubejs:dust_experience"
+					random_bonus: 1
 					type: "item"
 				}
 			]
 			tasks: [{
+				consume_items: true
 				id: "0C53A077C52CD86D"
 				item: "kubejs:scroll_exp"
 				type: "item"
@@ -975,38 +1141,13 @@
 			y: 9.0d
 		}
 		{
-			description: [
-				": extract with portable experience extractor from:"
-				"- experience scroll (new item)"
-				"- bottle of enchantment"
-				"- some books"
-				"- magic items"
-			]
-			id: "5A97794C13A21DDB"
-			tasks: [{
-				id: "7AECE0E31BD79ABB"
-				type: "checkmark"
-			}]
-			x: -5.5d
-			y: 2.0d
-		}
-		{
-			description: ["&9Scrap&r: salvage copper ore, junk items(add new as loot?)"]
-			id: "1E274548583D1CDB"
-			tasks: [{
-				id: "30EDF527C64D23C1"
-				type: "checkmark"
-			}]
-			x: 6.5d
-			y: 2.5d
-		}
-		{
 			dependencies: ["38244A01FB371C21"]
 			id: "56F41293FB8092B0"
 			x: 3.5d
 			y: 8.0d
 		}
 		{
+			dependencies: ["62BC62A1467C3269"]
 			id: "2BD6145AFDA30FE9"
 			tasks: [{
 				consume_items: true
@@ -1045,6 +1186,47 @@
 			title: "&aMonster Essence&r - > Experience"
 			x: 2.0d
 			y: 9.5d
+		}
+		{
+			id: "33CD7F90E017C777"
+			rewards: [{
+				id: "15941D5EC3439D73"
+				item: {
+					Count: 1
+					id: "modifiers:modifier_book"
+					tag: {
+						bookModifier: "modifiers:hard"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "20C66B809936DAB1"
+				type: "checkmark"
+			}]
+			title: "option as a reward"
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1CCE0BB671E02BC3"]
+			id: "17F6856DC91BA418"
+			rewards: [{
+				id: "79A809F77EB090F4"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				disable_toast: true
+				id: "3315BC5B8A8251AB"
+				item: "kubejs:essence_earth"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
 		}
 	]
 	title: "⭐ Masteries"

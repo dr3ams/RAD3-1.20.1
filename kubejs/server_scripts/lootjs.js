@@ -63,7 +63,7 @@ LootJS.modifiers(event => {
 	.removeLoot("bonfires:ash_pile");
 	
 	event.addLootTypeModifier(LootType.CHEST).anyDimension("minecraft:overworld").addLoot(
-	LootEntry.of("kubejs:coin_dungeon").when((c) => c.randomChance(0.5)).limitCount([1, 3])
+	LootEntry.of("kubejs:coin_dungeon").when((c) => c.randomChance(0.5)).limitCount([1, 1])
 	)
 	;
 	

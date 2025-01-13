@@ -176,10 +176,10 @@
 				""
 				"They're mostly based on:"
 				"- &9statistics&r(for example Distance Walked);"
-				"- &9advancements&r (Visit number of structures);"
-				"- &9crafting&r specific item(s);"
-				"- &9killing&r specific mob(s);"
-				"- &9gathering&r specific amount of items."
+				"- &6advancements&r (Visit number of structures);"
+				"- &3crafting&r specific item(s);"
+				"- &ckilling&r specific mob(s);"
+				"- &2gathering&r specific amount of items."
 				""
 				"Some of them can be completed passively(like some Tasks in Exploration chain) and some require crafting, killing mobs or gathering resources."
 			]
@@ -802,8 +802,8 @@
 				type: "stat"
 				value: 100
 			}]
-			x: 19.5d
-			y: 0.5d
+			x: 6.5d
+			y: 4.0d
 		}
 		{
 			id: "590FF2143CF543D8"
@@ -817,58 +817,180 @@
 			y: 4.0d
 		}
 		{
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "kubejs:item/alchemy"
-				}
-			}
-			id: "7B92A76959B986BE"
-			shape: "hexagon"
-			size: 1.5d
+			id: "21492F13F87EDF99"
 			tasks: [{
-				id: "30A7709DB3D2F719"
-				type: "checkmark"
+				id: "00AE9F7D05D619F8"
+				stat: "minecraft:damage_blocked_by_shield"
+				type: "stat"
+				value: 1
 			}]
-			x: -3.75d
-			y: 14.25d
+			x: -6.0d
+			y: -1.0d
 		}
 		{
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "kubejs:item/enchantery"
-				}
-			}
-			id: "4D06D1F0F3C2DBE7"
-			shape: "hexagon"
-			size: 1.5d
+			description: [
+				"- complete specific dimension quest?"
+				"- complete whole dimension chapter?"
+			]
+			id: "721D3E092509B624"
 			tasks: [{
-				id: "4CFEF44548BD5894"
+				id: "1EC37F41884AD740"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: 14.25d
+			x: 5.0d
+			y: 8.0d
 		}
 		{
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "kubejs:item/salvage"
-				}
-			}
-			id: "0688ADA9E65484A1"
-			shape: "hexagon"
-			size: 1.5d
+			id: "5BEECE7B265E6E9B"
 			tasks: [{
-				id: "0C183AE0921D0F60"
+				id: "169407E997EFE62B"
+				points: false
+				type: "xp"
+				value: 100L
+			}]
+			x: -5.5d
+			y: 14.5d
+		}
+		{
+			id: "2468AED137810F8C"
+			tasks: [{
+				id: "7E6452A10AE2ACA6"
+				stat: "minecraft:bell_ring"
+				type: "stat"
+				value: 5000
+			}]
+			x: -2.0d
+			y: 14.0d
+		}
+		{
+			id: "3500F60BFF3A7F6F"
+			tasks: [{
+				id: "18BBA3097CF5AE75"
+				stat: "minecraft:traded_with_villager"
+				type: "stat"
+				value: 1
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			id: "63847EE295B5D42F"
+			tasks: [{
+				entity: "minecraft:glow_squid"
+				id: "0A837DE7E1C8381F"
+				type: "kill"
+				value: 100L
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"- Fire Resistance "
+				"- Infestation "
+				"- Invisibility "
+				"- Jump Boost "
+				"- Night Vision "
+				"- Oozing "
+				"- Poison "
+				"- Regeneration "
+				"- Resistance "
+				"- Slow Falling "
+				"- Slowness "
+				"- Speed "
+				"- Strength "
+				"- Water Breathing "
+				"- Weakness "
+				"- Weaving "
+				"- Wind Charged"
+				""
+				"&oThe source of the effects is irrelevant for the purposes of this advancement. &r"
+			]
+			id: "353649D7EC5DAA62"
+			subtitle: "Have every vanilla(17) potion effect applied at the same time"
+			tasks: [{
+				advancement: "minecraft:nether/all_potions"
+				criterion: ""
+				id: "7503A38D0ECF7D65"
+				type: "advancement"
+			}]
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			id: "32FF531BD1612758"
+			tasks: [{
+				id: "1E3ECFCC75A00EC5"
+				stat: "tombstone:trade_grave_guardian"
+				type: "stat"
+				value: 1
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			id: "290C3CDFFAEDBE63"
+			tasks: [{
+				id: "78437ADFA627BD74"
+				stat: "tombstone:steal_effect"
+				type: "stat"
+				value: 1
+			}]
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			id: "5C5204E9652EB9A1"
+			tasks: [{
+				id: "6A721D49425AEEBD"
+				stat: "tombstone:consume_soul"
+				type: "stat"
+				value: 1
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			id: "02278CA766763E27"
+			tasks: [{
+				id: "540FDA8152D1C339"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			id: "2278270A4C73FAE7"
+			tasks: [{
+				id: "5C28AFE0C541DF6F"
+				stat: "minecraft:inspect_dropper"
+				type: "stat"
+				value: 1
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			id: "63596F5CE43FD09F"
+			tasks: [{
+				id: "5379C54125EC13F3"
+				title: "craft specific tech item"
 				type: "checkmark"
 			}]
-			x: 0.75d
-			y: 14.25d
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			id: "0E2CFBAABF8B2BB8"
+			tasks: [{
+				id: "59C3CA2E2A78229E"
+				title: "kill dim boss"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 8.0d
 		}
 	]
 	title: "&9⭐ Task board&r"

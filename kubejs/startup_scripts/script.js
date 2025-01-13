@@ -11,7 +11,7 @@ StartupEvents.registry('item', event => {
 event.create('wooden_form').displayName('Wooden Form').maxDamage(64)
 event.create('stone_mortar').displayName('Stone Mortar').maxDamage(64)
 event.create('iron_mortar').displayName('Iron Mortar').maxDamage(220)
-
+event.create('sifter').displayName('Sifter').maxDamage(1550)
 
 event.create('rick').displayName('Pet Coal').unstackable().burnTime(60000).rarity('EPIC').tooltip('Named Rick')	
 
