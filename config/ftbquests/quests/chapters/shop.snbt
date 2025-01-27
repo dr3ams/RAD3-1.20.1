@@ -1278,8 +1278,8 @@
 					value: 1L
 				}
 			]
-			x: 16.0d
-			y: -12.0d
+			x: -0.5d
+			y: 0.5d
 		}
 		{
 			can_repeat: true
@@ -1375,6 +1375,22 @@
 			title: "Diamond Coin -> Celestial Artifact"
 			x: 8.0d
 			y: -3.5d
+		}
+		{
+			id: "29749336F779A446"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E16F304D06749A1"
+				table_id: 5555069453760734776L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "6507CD5E694AB55F"
+				type: "checkmark"
+			}]
+			title: "Starter Houses"
+			x: -1.5d
+			y: 0.5d
 		}
 	]
 	title: "&e⭐ The Market&r"

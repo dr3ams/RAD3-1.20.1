@@ -13,6 +13,33 @@ ItemEvents.tooltip(event =>{
         }
     })
 
+	event.addAdvanced(['kubejs:essence_earth'], (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').gold(),
+        Text.of('to see more info.').gray()
+      ])
+	    text.add(2, [
+        Text.of('⭐ Mastery: ').darkRed(),
+        Text.of('Alchemy ').white()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• Can drop while mining ores or digging gravel').white()
+		])
+      text.add(2, [
+        Text.of('• Additional resources can be extracted from it using one of the ').white(),
+        Text.of('⭐ Masteries').darkRed()
+		])
+      text.add(2, [
+	    Text.of('• Find out more details in ').white(),
+        Text.of('⭐ Masteries ').darkRed(),
+        Text.of('questbook chapter').white()
+      ])
+    }
+  })
+
 	event.addAdvanced(['kubejs:essence_monster', 'kubejs:essence_monster_raw'], (item, advanced, text) => {
     if (!event.isShift()) {
       text.add(1, [
@@ -108,7 +135,7 @@ ItemEvents.tooltip(event =>{
         Text.of('• Can be found in  ').white(),
 		Text.of('dungeons chests ').gold(),
 		Text.of('or crafted with ').white(),
-        Text.of('Portable Mini Salvager').purple()
+        Text.of('Portable Mini Salvager').darkPurple()
 		])
       text.add(3, [
 	    Text.of('• Find out more details in ').white(),
@@ -134,7 +161,7 @@ ItemEvents.tooltip(event =>{
         Text.of('• Can be found in  ').white(),
 		Text.of('dungeons chests ').gold(),
 		Text.of('or crafted with ').white(),
-        Text.of('Portable Transmutation Device').purple()
+        Text.of('Portable Transmutation Device').darkPurple()
 		])
       text.add(3, [
 	    Text.of('• Find out more details in ').white(),
@@ -160,7 +187,7 @@ ItemEvents.tooltip(event =>{
         Text.of('• Can be found in  ').white(),
 		Text.of('dungeons chests ').gold(),
 		Text.of('or crafted with ').white(),
-        Text.of('Portable Experience Dissolver').purple()
+        Text.of('Portable Experience Dissolver').darkPurple()
 		])
       text.add(3, [
 	    Text.of('• Find out more details in ').white(),
@@ -406,7 +433,7 @@ ItemEvents.tooltip(event =>{
     } else {
       text.add(1, [
         Text.of('• Acquired from ').white(), 
-		Text.of('loot ').purple(), 
+		Text.of('loot ').darkPurple(), 
 		Text.of('or through doing corresponding ').white(),
 		Text.of('dimension-based ').aqua(),
         Text.of('quests ').gold(),

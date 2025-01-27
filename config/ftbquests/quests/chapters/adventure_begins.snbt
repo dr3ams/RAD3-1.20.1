@@ -129,6 +129,12 @@
 			x: -6.0d
 			y: 1.0d
 		}
+		{
+			id: "6C5D95349F7EEE94"
+			linked_quest: "35EA73868124C4C6"
+			x: -4.0d
+			y: 2.0d
+		}
 	]
 	quests: [
 		{
@@ -776,8 +782,6 @@
 				"The decorative graves are special blocks with a fog particle only during the night."
 				""
 				"The decorative graves can be haunted by a soul. The soul stays until used and allows some enchants like magic scroll/tablet, or upgrade the grave's key."
-				""
-				"To build a decorative grave, you will need to collect Grave's Dust (the common way to obtain them is by killing undeads or with Cat Morning Gift), and one Essence of Undeath being an ingredient obtainable through the advancements (the first one is by finding how to select your favorite grave in the config in game) and rarely foundable on undeads, Cat Morning Gift and by fishing in deep water (but don't hope to find them by theses ways except by luck)."
 				""
 				"Rarely, a Grave Guardian can appear near a decorative grave. This guardian will protect the surroundings from hostile creatures and will offer to trade with the players. This is one way to obtain Grave's Dust and Essence of Undeath. During special events, the trades may differ."
 			]
@@ -3324,41 +3328,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["149CB61732F787CF"]
-			description: [
-				"Book Wyrms adds Book Wyrms to your forests, &2lizards&r that come in a variety of colors. You can herd them for their meat and colorful scales, using plain books to breed them. Most importantly, you can feed them &ounwanted enchanted books&r to &drecycle&r them into new random enchanted books."
-				""
-				"Wyrms come in 7 colors, each with a different pool of enchantments they can provide:"
-				""
-				"- &8Gray&r, most common, can produce any enchantment"
-				"- &4Red&r, can produce enchantments for melee weapons like Swords"
-				"- &6Orange&r, can produce enchantments for ranged weapons, like Bows or Crossbows"
-				"- &aGreen&r, can produce enchantments for tools, like Pickaxes or Shovels"
-				"- &1Blue&r, can produce enchantments for armor or Shields"
-				"- &3Teal&r, can produce enchantments for Fishing Rods and Tridents"
-				"- &5Purple&r, can produce enchantments for some misc modded items"
-				""
-				"Additionally, Wyrms have genes that can be improved (or worsened) and passed on to future generations. Use the &dBook Wyrm Analyzer&r to see these stats and breed them strategically to obtain your perfects specimens. The following stats can be meddled with:"
-				""
-				"- &9Enchanting level&r, determines how many levels the Wyrm needs to digest before making a new book (stronger enchantments are worth more levels) and how strong are the enchantments it can produce"
-				""
-				"- &2Digesting speed&r, determines how fast does the Wyrm digests books"
-				""
-				"- &eIndigestion chance&r, determines how likely the Wyrm is to have an indigestion and regurgitate some shredded paper and (magical) digestive fluids"
-				""
-				"While the bonuses produced by indigestion may feel bad, they can be refed to recover part of the magic of the digested books, or made into Wyrmutagen. This substance will let you modify the stats of your Wyrm's offsprings to a much better degree, if you can make enough of it."
-			]
-			id: "35EA73868124C4C6"
-			tasks: [{
-				id: "6589A07A987BBAA6"
-				item: "bookwyrms:analyzer"
-				type: "item"
-			}]
-			title: "Book Wyrms"
-			x: -4.0d
-			y: 2.0d
-		}
-		{
 			dependencies: ["43EFBBF0712C67B9"]
 			description: [
 				"&5Chipped&r adds a variety of blocks with different, unique textures, allowing to add more variety to your builds."
@@ -4141,6 +4110,28 @@
 			title: "Disenchanting"
 			x: 10.0d
 			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1747432114401210"
+				"3B713701E442645A"
+			]
+			id: "0D3C9711C0517F9F"
+			tasks: [
+				{
+					id: "05B8B4EC99866557"
+					item: "tombstone:book_of_disenchantment"
+					type: "item"
+				}
+				{
+					id: "33FE1436AD7CD590"
+					item: "tombstone:scroll_of_knowledge"
+					type: "item"
+				}
+			]
+			title: "Store experience and disenchant"
+			x: -9.0d
+			y: -11.5d
 		}
 	]
 	title: "&2World Exploration&r"

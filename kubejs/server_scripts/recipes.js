@@ -10,6 +10,12 @@ const removals = [
   "gag:sacred_salt",
   "gag:sacred_salve",
   "gag:sacred_balm",
+  
+  "minecraft:chainmail_helmet",
+  "minecraft:chainmail_boots",
+  "minecraft:chainmail_leggings",
+  "minecraft:chainmail_chestplate",
+  
 //  "sophisticatedbackpacks:stack_upgrade_starter_tier",
 //  "sophisticatedbackpacks:stack_upgrade_tier_1",
 //  "sophisticatedbackpacks:stack_upgrade_tier_2",
@@ -1061,6 +1067,20 @@ ServerEvents.recipes((event) => {
 	A: 'minecraft:amethyst_shard',
 	L: 'minecraft:lapis_lazuli'
 	})
+	
+	event.shaped('kubejs:sifter', [
+    'TTT',
+    'SSS',
+    'TTT'
+	], {
+    S: 'minecraft:string',
+	T: 'minecraft:stick'
+	})
+	
+	event.shapeless('kubejs:sifted_dust', [
+    'kubejs:sifter',
+    'spelunkery:dust_block'
+	]).damageIngredient(Item.of('kubejs:sifter'))
 	
 	event.shapeless('2x kubejs:scraps', [
     'kubejs:portable_salvager',

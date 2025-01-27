@@ -54,6 +54,10 @@ event.create('essence_earth').displayName('Earth Essence').rarity('Uncommon')
 
 event.create('key_magic').displayName('Magic Vault Key').rarity('Rare')
 
+event.create('salvage').displayName('Scavenging Mastery Mark')
+event.create('alchemy').displayName('Alchemy Mastery Mark')
+event.create('enchantery').displayName('Enchanting Mastery Mark')
+
 event.create('dust_experience').displayName('Experience Dust').tooltip('Not for eating')
 event.create('dust_alchemical').displayName('Alchemy Powder').tooltip('Not for experiments')
 event.create('scraps').displayName('Scraps')
@@ -61,6 +65,8 @@ event.create('scraps').displayName('Scraps')
 event.create('portable_dissolver').displayName('Portable Experience Dissolver').maxDamage(480).rarity('Rare')
 event.create('portable_transmutator').displayName('Portable Transmutation Device').maxDamage(480).rarity('Rare')
 event.create('portable_salvager').displayName('Portable Mini Salvager').maxDamage(480).rarity('Rare')
+event.create('junk').displayName('Junk')
+event.create('sifted_dust').displayName('Sifted Dust')
 
 event.create('scroll_exp').displayName('Experience Scroll')
 

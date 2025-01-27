@@ -13,7 +13,7 @@ const startingItems = [
   [5, 'roughtweaks:plaster'],
   [7, Item.of('supplementaries:sack', '{BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:"spelunkery:item_magnet"},{Count:1b,Slot:1b,id:"nameless_trinkets:mysterious_trinket"},{Count:64b,Slot:2b,id:"minecraft:torch"},{Count:1b,Slot:3b,id:"paraglider:paraglider"},{Count:1b,Slot:4b,id:"minecraft:brush"},{Count:1b,Slot:5b,id:"minecraft:ender_pearl"}],id:"minecraft:shulker_box"}}')],
   [8, Item.of('fruitsdelight:jelly_bread', 2, '{JellyEffectRoot:["PINEAPPLE"]}')],
-  [9, 'celestial_artifacts:heirloom_necklace'],
+  [9, 'sophisticatedbackpacks:backpack'],
   [10, Item.of('l2hostility:hostility_orb')]
 ]
 

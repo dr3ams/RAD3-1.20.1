@@ -454,6 +454,12 @@
 	#Truth Bless: maximum damage from mobs
 	#Range: 0.01 ~ 1.0
 	truthBlessMaxDamage = 0.9
+	#Catastrophe Scroll: Number of etching slots size
+	#Range: 0 ~ 7
+	etchingSlotSize = 7
+	#Catastrophe Scroll: Number of charm slots size
+	#Range: 0 ~ 10
+	charmSlotSize = 3
 
 [head]
 	#Abyss Core: effect cooldown
@@ -684,9 +690,6 @@
 	#Spirit Set: slowness effect level (0 means Lv.I)
 	#Range: 0 ~ 10
 	spiritEffectAmplifier = 1
-	#Spirit Set: chance to dodge projectile
-	#Range: 0.0 ~ 1.0
-	spiritDodgeChance = 0.2
 	#Spirit Set: projectile damage reduction
 	#Range: 0.0 ~ 1.0
 	spiritProtect = 0.2
@@ -791,4 +794,13 @@
 	sakura_hairpin = true
 	yellow_duck = true
 	angel_desire = true
+	forest_cloak = true
+
+[body]
+	#forest cloak: chance to dodge projectile
+	#Range: 0.0 ~ 1.0
+	forestCloakDodgeChance = 0.2
+	#forest cloak: jump power bonus
+	#Range: 0.01 ~ 10.0
+	forestCloakJumpPower = 0.25
 

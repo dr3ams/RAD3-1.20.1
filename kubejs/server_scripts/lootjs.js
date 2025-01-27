@@ -71,7 +71,8 @@ LootJS.modifiers(event => {
 	(
 	LootEntry.of("kubejs:dust_experience").when((c) => c.randomChance(0.2)).limitCount([1, 2]),
 	LootEntry.of("kubejs:dust_alchemical").when((c) => c.randomChance(0.2)).limitCount([1, 2]),
-	LootEntry.of("kubejs:scraps").when((c) => c.randomChance(0.2)).limitCount([1, 2])
+	LootEntry.of("kubejs:scraps").when((c) => c.randomChance(0.2)).limitCount([1, 2]),
+	LootEntry.of("kubejs:junk").when((c) => c.randomChance(0.1)).limitCount([1, 1])
 	)
 	;
 	
@@ -86,7 +87,6 @@ LootJS.modifiers(event => {
 	LootEntry.of("kubejs:essence_earth").when((c) => c.randomChance(0.05)).limitCount([0, 1]),
 	)
 	;
-	
     event.addBlockLootModifier("minecraft:coal_ore").randomChance(0.1).addLoot("kubejs:essence_earth");
 	event.addBlockLootModifier("minecraft:iron_ore").randomChance(0.2).addLoot("kubejs:essence_earth");
 	event.addBlockLootModifier("minecraft:copper_ore").randomChance(0.2).addLoot("kubejs:essence_earth");

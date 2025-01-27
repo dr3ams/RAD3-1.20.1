@@ -18,6 +18,12 @@
 			]
 			icon: "ars_elemental:mark_of_mastery"
 			id: "494B3A437F2FF633"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D2872975121271E"
+				table_id: 5259865702387332019L
+				type: "choice"
+			}]
 			shape: "octagon_important"
 			size: 2.0d
 			tasks: [{
@@ -56,14 +62,9 @@
 			size: 1.5d
 			subtitle: "Allows you to gain more resources"
 			tasks: [{
-				id: "369C93AEAC15DA21"
-				item: {
-					Count: 1
-					id: "kubejs:portable_transmutator"
-					tag: {
-						Damage: 0
-					}
-				}
+				consume_items: true
+				id: "688E92B3E01EF188"
+				item: "kubejs:alchemy"
 				type: "item"
 			}]
 			title: "&dAlchemy"
@@ -98,14 +99,9 @@
 			size: 1.5d
 			subtitle: "Salvage items into more useful items"
 			tasks: [{
-				id: "4E243C841926C0D3"
-				item: {
-					Count: 1
-					id: "kubejs:portable_salvager"
-					tag: {
-						Damage: 0
-					}
-				}
+				consume_items: true
+				id: "6CEA7FF3096F9DEB"
+				item: "kubejs:salvage"
 				type: "item"
 			}]
 			title: "&9Scavenging"
@@ -140,14 +136,9 @@
 			size: 1.5d
 			subtitle: "Exchange levels for desired enchants, get more experience"
 			tasks: [{
-				id: "42059F88E8AD6617"
-				item: {
-					Count: 1
-					id: "kubejs:portable_dissolver"
-					tag: {
-						Damage: 0
-					}
-				}
+				consume_items: true
+				id: "6E803AF0BD7DD31A"
+				item: "kubejs:enchantery"
 				type: "item"
 			}]
 			title: "&2Enchanting"
@@ -180,6 +171,17 @@
 					disable_toast: true
 					id: "558BD822306C33FC"
 					item: "kubejs:dust_alchemical"
+					type: "item"
+				}
+				{
+					id: "318FB136C96D8B57"
+					item: {
+						Count: 1
+						id: "kubejs:portable_transmutator"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
@@ -394,6 +396,17 @@
 					item: "kubejs:scraps"
 					type: "item"
 				}
+				{
+					id: "1E04619939ED9A72"
+					item: {
+						Count: 1
+						id: "kubejs:portable_salvager"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
 			title: "..."
 			x: 5.0d
@@ -553,6 +566,17 @@
 					item: "kubejs:dust_experience"
 					type: "item"
 				}
+				{
+					id: "3FACBE19B47CCAEB"
+					item: {
+						Count: 1
+						id: "kubejs:portable_dissolver"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
 			title: "..."
 			x: -4.0d
@@ -696,6 +720,7 @@
 			}]
 			subtitle: "Earth essence-> iron, gold redstone, lappis"
 			tasks: [{
+				count: 2L
 				id: "010F9B0ADEA9F103"
 				item: "kubejs:essence_earth"
 				type: "item"
@@ -728,17 +753,17 @@
 			id: "6588470CC1FFFFE9"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "4B7183B768713C72"
+				id: "062603B82B318E8A"
 				table_id: 1713371350595859952L
-				type: "choice"
+				type: "random"
 			}]
-			subtitle: "Earth essence-> diamond, emerald"
 			tasks: [{
+				count: 3L
 				id: "3D4DD55DAFCE2B3E"
 				item: "kubejs:essence_earth"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.5d
 			y: 13.5d
 		}
 		{
@@ -770,7 +795,6 @@
 				table_id: 2172023065945170434L
 				type: "choice"
 			}]
-			subtitle: "Earth essence-> something modded?"
 			tasks: [{
 				id: "56884DA00E3DE7E1"
 				item: "kubejs:essence_earth"
@@ -782,22 +806,23 @@
 		{
 			dependencies: ["132E2FA2094CD5E2"]
 			id: "57D453202729984A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3900FFF6B1671CBB"
+				table_id: 5171741704095199131L
+				type: "random"
+			}]
 			subtitle: "junk -> resources"
 			tasks: [{
-				id: "7FA0B5D454538976"
-				type: "checkmark"
+				id: "44F45806504846B0"
+				item: "kubejs:junk"
+				type: "item"
 			}]
 			x: 3.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["132E2FA2094CD5E2"]
-			description: [
-				"new items:"
-				"sifter - durability"
-				"dust+sifter = sifted sand"
-				"exchange stack of sifted dust for rewards"
-			]
 			id: "62297E1BCBCB76B2"
 			rewards: [{
 				id: "4C3489832090349C"
@@ -806,10 +831,10 @@
 				team_reward: false
 				type: "item"
 			}]
-			subtitle: "Sift sand/gravel to get valuables?"
 			tasks: [{
-				id: "3E1D096997097366"
-				type: "checkmark"
+				id: "3C7BF43A643CBB72"
+				item: "kubejs:sifted_dust"
+				type: "item"
 			}]
 			x: 6.5d
 			y: 6.0d
@@ -833,16 +858,21 @@
 				exclude_from_claim_all: true
 				id: "343B0A6F972542AD"
 				table_id: 7863698337905727898L
+				team_reward: false
 				type: "choice"
 			}]
+			subtitle: "Exchange your experience for specific enchant"
 			tasks: [
 				{
+					disable_toast: true
 					id: "046CFF48AE482ACB"
 					points: false
 					type: "xp"
-					value: 1L
+					value: 10L
 				}
 				{
+					count: 8L
+					disable_toast: true
 					id: "2FD4AF1C79779D97"
 					item: "kubejs:dust_experience"
 					type: "item"
@@ -854,10 +884,16 @@
 		{
 			dependencies: ["38244A01FB371C21"]
 			id: "075C9A5043FC9824"
-			subtitle: "gold coins -> resources"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32A1B38B27ED8F06"
+				table_id: 7712988558282718562L
+				type: "random"
+			}]
 			tasks: [{
-				id: "413F494C184ED1F9"
-				type: "checkmark"
+				id: "165BCD50E7C52D4F"
+				item: "kubejs:coin_02"
+				type: "item"
 			}]
 			x: 3.5d
 			y: 9.0d
@@ -923,38 +959,58 @@
 				table_id: 1070082330454135040L
 				type: "choice"
 			}]
-			tasks: [{
-				id: "6D32F515E9E4A495"
-				points: false
-				type: "xp"
-				value: 1L
-			}]
+			subtitle: "Exchange your experience for specific enchant"
+			tasks: [
+				{
+					disable_toast: true
+					id: "6D32F515E9E4A495"
+					points: false
+					type: "xp"
+					value: 20L
+				}
+				{
+					count: 16L
+					id: "473E105AF9746755"
+					item: "kubejs:dust_experience"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: 9.0d
 		}
 		{
 			dependencies: ["1082AFB9D8CEFAD5"]
+			icon: {
+				Count: 1
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:smite"
+						lvl: 10s
+					}]
+				}
+			}
 			id: "2D0B8921B963A021"
 			rewards: [{
-				id: "3207240EAD663590"
-				item: {
-					Count: 1
-					id: "quark:ancient_tome"
-					tag: {
-						StoredEnchantments: [{
-							id: "minecraft:looting"
-							lvl: 3s
-						}]
-					}
+				exclude_from_claim_all: true
+				id: "3BA1B118023DC44A"
+				table_id: 7157044708022954510L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "7A7984D117C7DDDF"
+					points: false
+					type: "xp"
+					value: 20L
 				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "7A7984D117C7DDDF"
-				points: false
-				type: "xp"
-				value: 1L
-			}]
+				{
+					count: 16L
+					id: "51D6C7303E8D0648"
+					item: { Count: 16, id: "kubejs:dust_experience" }
+					type: "item"
+				}
+			]
 			x: -5.5d
 			y: 12.0d
 		}
@@ -977,21 +1033,38 @@
 				table_id: 4340173645548253564L
 				type: "choice"
 			}]
-			tasks: [{
-				id: "0938772C82F41D26"
-				points: false
-				type: "xp"
-				value: 1L
-			}]
+			subtitle: "Exchange your experience for specific enchant"
+			tasks: [
+				{
+					disable_toast: true
+					id: "0938772C82F41D26"
+					points: false
+					type: "xp"
+					value: 30L
+				}
+				{
+					count: 32L
+					id: "5315A815490975EC"
+					item: { Count: 32, id: "kubejs:dust_experience" }
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: 12.0d
 		}
 		{
 			dependencies: ["38244A01FB371C21"]
 			id: "08E879A642E1E795"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6397C491A725CEDB"
+				table_id: 2027476805041152788L
+				type: "random"
+			}]
 			tasks: [{
-				id: "227EA308E09C1484"
-				type: "checkmark"
+				id: "3D3ABF00573FA483"
+				item: "kubejs:sifted_dust"
+				type: "item"
 			}]
 			x: 6.5d
 			y: 9.0d
@@ -999,9 +1072,17 @@
 		{
 			dependencies: ["62BC62A1467C3269"]
 			id: "0C59FC359533AFF0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FD153C18E3AD9B7"
+				table_id: 5141280580207704495L
+				type: "random"
+			}]
 			tasks: [{
-				id: "3DF0FF6CA38D67B8"
-				type: "checkmark"
+				count: 3L
+				id: "4AD2ECE64AC80690"
+				item: "kubejs:junk"
+				type: "item"
 			}]
 			x: 3.5d
 			y: 12.0d
@@ -1024,7 +1105,7 @@
 			rewards: [{
 				id: "753D6E7ABF16CA54"
 				type: "xp"
-				xp: 100
+				xp: 50
 			}]
 			tasks: [
 				{
@@ -1078,19 +1159,33 @@
 			dependencies: ["38244A01FB371C21"]
 			icon: "kubejs:spawnercore"
 			id: "748568380DCC83F9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1D6B4825C1E1A654"
-				table_id: 328571096273373979L
-				type: "choice"
-			}]
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "35E069A49A136201"
-				item: "kubejs:spawnercore"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3F6882D38D5DA561"
+					table_id: 3430891431278179461L
+					team_reward: false
+					type: "random"
+				}
+				{
+					id: "103A16813521BB39"
+					item: "kubejs:junk"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					disable_toast: true
+					id: "35E069A49A136201"
+					item: "kubejs:spawnercore"
+					type: "item"
+				}
+				{
+					id: "6384FD77994810CB"
+					item: "kubejs:scraps"
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: 8.0d
 		}
@@ -1143,6 +1238,18 @@
 		{
 			dependencies: ["38244A01FB371C21"]
 			id: "56F41293FB8092B0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00D8516FDB90FF6C"
+				table_id: 3202571761249053479L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "6DE2B03E96E4BB14"
+				item: "kubejs:junk"
+				type: "item"
+			}]
 			x: 3.5d
 			y: 8.0d
 		}
@@ -1166,7 +1273,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 13.0d
 		}
 		{
