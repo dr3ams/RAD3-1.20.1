@@ -732,6 +732,57 @@ ServerEvents.recipes((event) => {
 	B: 'minecraft:book'
   });
 
+  event.shaped(
+  Item.of('cataclysm:black_steel_fence', 3), [
+    'IRI',
+    'IRI'
+	], {
+	I: 'cataclysm:black_steel_ingot',
+	R: 'buildersaddition:iron_rod'
+  });
+  event.shaped(
+  Item.of('cataclysm:black_steel_wall', 6), [
+    'BBB',
+    'BBB'
+	], {
+	B: 'cataclysm:black_steel_block'
+  });
+  event.shaped(
+  Item.of('cataclysm:frosted_stone_bricks', 8), [
+    'BBB',
+	'BSB',
+    'BBB'
+	], {
+	B: 'minecraft:stone_bricks',
+	S: 'minecraft:snowball'
+  });
+  event.shaped(
+  Item.of('cataclysm:void_infused_end_stone_bricks', 8), [
+    'VBB',
+	'BBB',
+    'BBB'
+	], {
+	B: 'minecraft:end_stone_bricks',
+	V: 'cataclysm:void_stone'
+  });
+  event.shaped(
+  Item.of('cataclysm:polished_obsidian', 4), [
+    'BB',
+    'BB'
+	], {
+	B: 'cataclysm:obsidian_bricks'
+  });
+
+  event.stonecutting('cataclysm:black_steel_wall', 'cataclysm:black_steel_block')
+  event.stonecutting('cataclysm:polished_obsidian', 'cataclysm:obsidian_bricks')
+  event.stonecutting('cataclysm:polished_obsidian', 'minecraft:obsidian')
+  event.stonecutting('cataclysm:blackstone_pillar', 'minecraft:blackstone')
+  event.stonecutting('cataclysm:blackstone_pillar', 'minecraft:polished_blackstone')
+  event.stonecutting('cataclysm:blackstone_pillar', 'minecraft:polished_blackstone_bricks')
+  event.stonecutting('cataclysm:void_lantern_block', 'cataclysm:void_stone')
+  event.stonecutting('cataclysm:void_crystal', 'cataclysm:void_stone')
+  event.stonecutting('cataclysm:pointed_icicle', 'minecraft:ice')
+
   event.shaped('mining_dimension:teleporter', [
     'ABC',
     'DEF',
@@ -934,6 +985,7 @@ ServerEvents.recipes((event) => {
   compressRecipe("kubejs:coin_04", "kubejs:coin_03", true);
   compressRecipe("kubejs:coin_05", "kubejs:coin_04", true);
   compressRecipe("kubejs:coin_06", "kubejs:coin_05", true);
+  compressRecipe("cataclysm:black_steel_block", "cataclysm:black_steel_ingot", true);
 
   event.shapeless("ars_nouveau:ritual_awakening", [
     "ars_nouveau:green_archwood_log",
