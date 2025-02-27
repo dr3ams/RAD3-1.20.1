@@ -51,7 +51,7 @@
 		}
 		{ count: 2, item: "minecraft:coal" }
 		{ count: 4, item: "minecraft:clay_ball" }
-		{ item: "minecraft:leather" }
+		{ count: 2, item: "minecraft:leather", random_bonus: 2 }
 		{ item: "minecraft:paper" }
 		{ item: "minecraft:ink_sac" }
 		{ item: "minecraft:bone" }
@@ -126,17 +126,9 @@
 				}
 			}
 		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:potion"
-				tag: {
-					Potion: "biomemakeover:dolphin_master"
-				}
-			}
-		}
 		{ count: 3, item: "supplementaries:sconce" }
 		{ item: "aquaculture:box" }
+		{ item: "zombie_fabrics:fabric", random_bonus: 2 }
 	]
 	title: "Copper coin reward"
 }

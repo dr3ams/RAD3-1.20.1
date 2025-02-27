@@ -4,7 +4,7 @@
 	default_quest_shape: "hexagon"
 	filename: "highway_to_the_bumblezone"
 	group: "241F1DC7B6D6E9D6"
-	icon: "the_bumblezone:beehemoth_spawn_egg"
+	icon: "the_bumblezone:bee_queen_spawn_egg"
 	id: "76389659C6680826"
 	images: [{
 		height: 4.006144393241168d
@@ -119,6 +119,18 @@
 		{
 			dependencies: ["17777CD49B8B6F41"]
 			id: "3BFBB0CC1C2BE735"
+			rewards: [
+				{
+					id: "79CDE097F3082DAA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2D36A2B5614CB219"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "323F6FE496B9FA0A"
 				item: {
@@ -138,6 +150,11 @@
 		{
 			dependencies: ["5E4C69CC15CADF88"]
 			id: "308701D3BB09B731"
+			rewards: [{
+				id: "6C6519DAFAE858AC"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5218B252205231CE"
 				item: "the_bumblezone:glistering_honey_crystal"
@@ -176,6 +193,18 @@
 		{
 			dependencies: ["3BFBB0CC1C2BE735"]
 			id: "3F669E0A5933A36E"
+			rewards: [
+				{
+					id: "07961EBD73C7393B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4A0AB4613259023C"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0B0333FD3B3E6B05"
 				item: "minecraft:bee_nest"
@@ -187,6 +216,18 @@
 		{
 			dependencies: ["3F669E0A5933A36E"]
 			id: "141EC4ED45517ECB"
+			rewards: [
+				{
+					id: "5167AE02E68BC04C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "61299DD5D47C5F3D"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			subtitle: "Craft 6 beehives or bee nests"
 			tasks: [{
 				advancement: "the_bumblezone:the_queens_desire/flooding_the_housing_market"
@@ -235,6 +276,11 @@
 		{
 			dependencies: ["0E0CFD4D8078AA9C"]
 			id: "42CEB40F9DB55EFD"
+			rewards: [{
+				id: "05355E894ADA74B1"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
 			subtitle: "Take honey from the Hive without the Protection of the Hive"
 			tasks: [{
 				advancement: "the_bumblezone:effects/bee_hit_wrath_of_the_hive"
@@ -248,6 +294,11 @@
 		{
 			dependencies: ["0E0CFD4D8078AA9C"]
 			id: "1C3EF09C335A666D"
+			rewards: [{
+				id: "4FA112AD93602DB5"
+				item: "kubejs:coin_bumblezone"
+				type: "item"
+			}]
 			subtitle: "Feed a bee or brood block until you receive the Protetion of the Hive"
 			tasks: [{
 				advancement: "the_bumblezone:effects/getting_protection"
@@ -261,6 +312,11 @@
 		{
 			dependencies: ["17777CD49B8B6F41"]
 			id: "152B481D2E28F2AD"
+			rewards: [{
+				id: "154F811AC9CEDB57"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "5323958243318716"
 				item: "the_bumblezone:pollen_puff"
@@ -272,6 +328,11 @@
 		{
 			dependencies: ["152B481D2E28F2AD"]
 			id: "7AA52AB4F0F5A0BA"
+			rewards: [{
+				id: "516C36F24BDA863B"
+				item: "kubejs:coin_bumblezone"
+				type: "item"
+			}]
 			subtitle: "Craft a Honey Compass and use it to locate a Cell Maze"
 			tasks: [{
 				id: "7184008314E9B574"
@@ -336,6 +397,15 @@
 		}
 		{
 			dependencies: ["17777CD49B8B6F41"]
+			description: [
+				"Wearing this item will make &6bees&r see you as a giant flower and they will follow you around! &aRootmins&r will also not attack you when you wear this unless you attack a &aRootmin&r first. The &6bee&r attracting works even when put on an armor stand!"
+				""
+				"- While this item is on, &4Wrath of the Hive&r effect timer will decrease faster. The timer will decrease faster if wearing 4 or more bee-themed wearables (including this item)."
+				""
+				"- You can enter &eCell Maze&r structure while wearing this item and not get Wrath of the Hive effect!"
+				""
+				"- Can be worn in a Curios or Trinkets hat/head slot and still get the effects."
+			]
 			id: "50D42DBEECD976D9"
 			rewards: [{
 				id: "7488E69DE1443CCE"
@@ -363,7 +433,12 @@
 		{
 			dependencies: ["17777CD49B8B6F41"]
 			id: "7E8B2328DDFEA530"
-			subtitle: "Find a Honey Comnpass leading to a Throne Pillar"
+			rewards: [{
+				id: "1086BADBD279977E"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			subtitle: "Find a Honey Compass leading to a Throne Pillar"
 			tasks: [{
 				advancement: "the_bumblezone:tools/obtain_throne_honey_compass"
 				criterion: ""
@@ -376,6 +451,11 @@
 		{
 			dependencies: ["308701D3BB09B731"]
 			id: "75AF7A2371C28F63"
+			rewards: [{
+				id: "30C7DF0768CEBD79"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0EE35EA1B2784519"
 				item: {
@@ -393,6 +473,11 @@
 		{
 			dependencies: ["7E8B2328DDFEA530"]
 			id: "28A30A075DA149DC"
+			rewards: [{
+				id: "52EB05128B616036"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "Enter the Throne Pillar"
 			tasks: [{
 				advancement: "the_bumblezone:structures/enter_throne_pillar"
@@ -406,6 +491,11 @@
 		{
 			dependencies: ["28A30A075DA149DC"]
 			id: "32D4C8324C73452F"
+			rewards: [{
+				id: "230025BA1A4025DE"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
 			subtitle: "Complete the advancements in the Queen's Desire questline to obtain Royal Jelly"
 			tasks: [{
 				advancement: "the_bumblezone:the_queens_desire/the_beginning"
@@ -487,6 +577,11 @@
 		{
 			dependencies: ["0E0CFD4D8078AA9C"]
 			id: "3163182C1EB734ED"
+			rewards: [{
+				id: "1990877BB63793CE"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "Drink 8 bottles of honey"
 			tasks: [{
 				advancement: "the_bumblezone:the_queens_desire/honey_drunk"
@@ -505,6 +600,11 @@
 				"Don't try to steal the royal jelly from the Throne Pillar, trust me, it's not worth it."
 			]
 			id: "1E70E5E66DFFF271"
+			rewards: [{
+				id: "779931C69738CB87"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "1204938A370691A6"
 				item: "the_bumblezone:royal_jelly_bottle"
@@ -524,6 +624,18 @@
 				"Most importantly, though, you are now able to enter Sempiternal Sanctums without recieving debuffs from the Luminescent Wax. Even if you did make it to the final chamber without the Essence of the Bees, you can't do the challenges without it."
 			]
 			id: "3F8CDD2757D4F2E5"
+			rewards: [
+				{
+					id: "0CD3A9CACBB229F8"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "080E43FD500C7EE4"
+					type: "xp"
+					xp: 500
+				}
+			]
 			subtitle: "Complete all of the Queen's Desire advancements!"
 			tasks: [{
 				id: "63F8F285714F1610"
@@ -537,6 +649,18 @@
 			dependencies: ["3BFBB0CC1C2BE735"]
 			description: ["Can be found in the Bumblezone, crafted from Honey Comb, or smelted from Beehive Beeswax."]
 			id: "04A144687C154A3A"
+			rewards: [
+				{
+					id: "2364C7D4054FD54C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6379F5634A16AA11"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1840B1A7A60F85AD"
 				item: "the_bumblezone:carvable_wax"
@@ -554,17 +678,12 @@
 			description: ["Almost any potion can be imbued into a potion candle. Once lit, the candle will emit a cloud of potion effect for a minute or so before going out. It can be relit any number of times."]
 			id: "5E6F8E3DDCC2D933"
 			rewards: [{
-				id: "1DFC332CC24B721D"
+				id: "21F47622823EDCE8"
 				item: {
 					Count: 1
-					id: "simplyswords:wickpiercer"
+					id: "minecraft:potion"
 					tag: {
-						Damage: 0
-						affix_data: {
-							sockets: 1
-						}
-						reinforce_level: 0
-						reinforce_max: 10
+						Potion: "minecraft:strength"
 					}
 				}
 				type: "item"
@@ -1272,17 +1391,9 @@
 					type: "item"
 				}
 				{
-					id: "0A69E02BC1688D52"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "apotheosis:overworld/royalty"
-						}
-					}
+					count: 3
+					id: "4437D75271B2CD4D"
+					item: "kubejs:coin_bumblezone"
 					type: "item"
 				}
 			]
@@ -1329,8 +1440,25 @@
 		}
 		{
 			dependencies: ["7D397DFEB09C4579"]
-			description: ["Bring fire resistance."]
+			description: [
+				"&4Bring fire resistance.&r"
+				""
+				"&oHolding this item in offhand will highlight 4 nearby hostile mobs in red. Killing them will grant you Strength status effect and it will highlight more hostile mobs nearby (never more than 4 at a time). Each highlighted kill makes Strength effect stronger and maxes out at Strength 16 after killing 7 highlighted mobs! This makes this a powerful boss destroyer weapon if the boss summons minions around as at the last stage, every hit is a super blow!&r"
+			]
 			id: "0D3635E426953676"
+			rewards: [
+				{
+					id: "1BA0069DBE44AE72"
+					item: "kubejs:coin_bumblezone"
+					type: "item"
+				}
+				{
+					id: "5D33BCADCACC0E96"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "An endgame item only obtainable by defeating the red Sempiternal Sanctum's event!"
 			tasks: [{
 				id: "5B89487D41FCD0E6"
 				item: {
@@ -1347,8 +1475,25 @@
 		}
 		{
 			dependencies: ["7D397DFEB09C4579"]
-			description: ["If you can float in the air for the whole 4 minutes you just win."]
+			description: [
+				"If you can float in the air for the whole 4 minutes you just win."
+				""
+				"&oHolding this item in offhand will highlight mobs and outline certain block entities near you! Allowing you to see what monster is nearby or hidden chests or suspicious blocks!&r"
+			]
 			id: "695BBDE815DF2FAB"
+			rewards: [
+				{
+					id: "2F7F3187AF9D5E30"
+					item: "kubejs:coin_bumblezone"
+					type: "item"
+				}
+				{
+					id: "6CDC0DE3DE62C5CC"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "An endgame item only obtainable by defeating the purple Sempiternal Sanctum's event"
 			tasks: [{
 				id: "7081BCAE223B7391"
 				item: {
@@ -1365,8 +1510,25 @@
 		}
 		{
 			dependencies: ["7D397DFEB09C4579"]
-			description: ["Bring water breathing and water mobility."]
+			description: [
+				"&bBring water breathing and water mobility.&r"
+				""
+				"&oHolding this item in offhand will make mobs nearby no longer get angry at you! The effect is lost early if player gets hurt by any mob or attacks any mob. If the player sprints while it is active, the item loses power crazy quickly! No rushing!&r"
+			]
 			id: "6EF3CDF593D32C2B"
+			rewards: [
+				{
+					id: "6C145481C79ED7AE"
+					item: "kubejs:coin_bumblezone"
+					type: "item"
+				}
+				{
+					id: "7EAB06B46D5A8378"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "An endgame item only obtainable by defeating the blue Sempiternal Sanctum's event"
 			tasks: [{
 				id: "336C59C452039F2C"
 				item: {
@@ -1383,8 +1545,25 @@
 		}
 		{
 			dependencies: ["7D397DFEB09C4579"]
-			description: ["You can only beat this guy by standing on the platform and punching his dirt balls back at him. Took me a minute to figure that out myself."]
+			description: [
+				"You can only beat this guy by standing on the platform and punching his dirt balls back at him. Took me a minute to figure that out myself."
+				""
+				"&oHolding this item in offhand will grow crops and saplings nearby, revives Dead Bush into a random sapling, heal mobs tamed by you, and heal other mobs or players on the same team as you! Also, will cure Poison and Wither effect from the healed mobs. It will also cure Poison and Wither effect from the player themselves too.&r"
+			]
 			id: "00EAD934C0A931F5"
+			rewards: [
+				{
+					id: "753B7841C997928E"
+					item: "kubejs:coin_bumblezone"
+					type: "item"
+				}
+				{
+					id: "1CD26A2CD1DDAAF6"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "An endgame item only obtainable by defeating the green Sempiternal Sanctum's event"
 			tasks: [{
 				id: "1B750EF86B1BB90B"
 				item: {
@@ -1401,8 +1580,26 @@
 		}
 		{
 			dependencies: ["7D397DFEB09C4579"]
-			description: ["I hope your mobility is &oreally&r good. Also, knockback immunity is very helpful here."]
+			description: [
+				"I hope your mobility is &oreally&r good. Also, knockback immunity is very helpful here."
+				""
+				""
+				"&oHolding this item in offhand while being in a spot with sky brightness 13 or above (basically in view of the sky) will grant you Regeneration 1, Saturation 1, Speed 1, Haste 2, and Damage Resistance 2. It will also slowly heal your armor durability as well over time!&r"
+			]
 			id: "519D24DCF148C17C"
+			rewards: [
+				{
+					id: "0F72F91C75C8DB15"
+					item: "kubejs:coin_bumblezone"
+					type: "item"
+				}
+				{
+					id: "258263D258D16351"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "An endgame item only obtainable by defeating the yellow Sempiternal Sanctum's event"
 			tasks: [{
 				id: "25F90470D3737BB7"
 				item: {
@@ -1419,8 +1616,25 @@
 		}
 		{
 			dependencies: ["7D397DFEB09C4579"]
-			description: ["Technically this is a boss? Not what you'd expect the final boss of the Bumblezone to be, but hey, I'll take it."]
+			description: [
+				"Technically this is a boss? Not what you'd expect the final boss of the Bumblezone to be, but hey, I'll take it."
+				""
+				"&oHolding this item in offhand will make dying not kill you and instead teleport you back to your respawn point with all health restored, hunger bar filled, neutral and negative status effects removed, and fire removed. Will work in hardcore worlds too!&r"
+			]
 			id: "50751D78FFE7BD1C"
+			rewards: [
+				{
+					id: "09FFF3DB1639CDAE"
+					item: "kubejs:coin_bumblezone"
+					type: "item"
+				}
+				{
+					id: "15C28EC364EE5543"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "An endgame item only obtainable by defeating the white Sempiternal Sanctum's event"
 			tasks: [{
 				id: "6F78FC327A191D06"
 				item: {
@@ -1469,6 +1683,220 @@
 			title: "Super Candle"
 			x: 2.0d
 			y: -3.0d
+		}
+		{
+			description: [
+				"When crouching, all &6Bees&r and &eBeehemoths&r will be glowing for you. (Other players will not see the mobs glowing)"
+				""
+				"Can right click bees with an empty hand to put them on your head! The bee will leave your head if you take damage, crouch, go underwater, has Wrath of the Hive effect, or 30 seconds passes."
+				""
+				"&bNausea&r effect duration will also decrease twice as fast when this armor is on and &aPoison&r status effect duration will be slightly decreased."
+				""
+				"As you put on more bee armor or bee wearables/curios/trinkets, the bee outlining range and glowing duration will be increased, Nausea and Poison effect duration being decreased much faster, and bees on your head will stay on your head for longer. "
+			]
+			id: "49E2C3E3AF8D1B61"
+			rewards: [{
+				id: "4D86B121DDAC1228"
+				item: "kubejs:coin_bumblezone"
+				type: "item"
+			}]
+			subtitle: "Found in Cell Maze structure and comes in 2 variants."
+			tasks: [{
+				id: "211BD5128DA9A5BF"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "the_bumblezone:stingless_bee_helmet_1"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "the_bumblezone:stingless_bee_helmet_2"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Bee Helmet"
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			description: [
+				"It resists slowness from many Bumblezone blocks that cause slowness and can collect pollen when inside flowers or Pile of Pollens!"
+				""
+				"Crouch to spawn a &ePollen Puff&r when the leggings is full of pollen. Pollen Puff is also dropped when walked on Wet Sponge or going into water. 1 durability is attempted to be lost every time pollen Puff is generated from leggings."
+				""
+				"&ePollen&r collecting and dropping works with Armor Stands too so if done smartly, you can automate Pollen Puff generation with flowers, Wet Sponge, Armor Stand, and some Pistons!"
+				""
+				"&0Slowness&r status effect duration will be slightly decreased."
+				""
+				"Can be repaired by Honeycomb, Leather, Wool, or Rabbit Hide."
+			]
+			id: "11C5BA8DF03EA517"
+			rewards: [{
+				id: "325215437204507A"
+				item: "kubejs:coin_bumblezone"
+				type: "item"
+			}]
+			subtitle: "Found in Cell Maze structure and comes in 2 variants."
+			tasks: [{
+				id: "301BE84EAF4022DB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "the_bumblezone:honey_bee_leggings_1"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 0
+									}
+									pollinated: 1b
+								}
+							}
+							{
+								Count: 1b
+								id: "the_bumblezone:honey_bee_leggings_2"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 0
+									}
+									pollinated: 1b
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Bee Leggings"
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			description: [
+				"This clothing lets you be able to &5&nfly&r&r for a short period of time by holding the jump button anytime after jumping!"
+				""
+				"Getting &6Beenergized&r effect from consuming &eBee Bread&r will improve flight speed and duration!"
+				""
+				"Can be repaired by Honeycomb, Leather, Wool, or Rabbit Hide. "
+			]
+			id: "5F2F81BD34C54487"
+			rewards: [{
+				id: "2ABE5EBC6AFEE46B"
+				item: "kubejs:coin_bumblezone"
+				type: "item"
+			}]
+			subtitle: "Found in Cell Maze structure and comes in 4 variants"
+			tasks: [{
+				id: "1EEF861AA0BF0BE6"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "the_bumblezone:bumble_bee_chestplate_1"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "the_bumblezone:bumble_bee_chestplate_2"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Bee Chestplate"
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			description: [
+				"These boots will automine many kinds of wood, beehive, honeycomb blocks that you are standing on when you look down and hold crouch while standing in center of the block!"
+				""
+				"The boots can be enchanted with the normal boot enchantments but can also be enchanted with Efficiency, Silk Touch, and Fortune. To go with Efficiency, the boots also mines faster when you have the full bee armor set on or have Beenergized status effect. These mining speed boosts do stack."
+				""
+				"The boots will also let you briefly hang on walls made of wood, beehive, or honeycomb blocks allowing you to wall jump or wall run!"
+				""
+				"Can be repaired by Honeycomb, Leather, Wool, or Rabbit Hide."
+			]
+			id: "39940935CF99B3B0"
+			rewards: [{
+				id: "777E7E3EB41FC98B"
+				item: "kubejs:coin_bumblezone"
+				type: "item"
+			}]
+			subtitle: "Found in Cell Maze structure and comes in 2 variants."
+			tasks: [{
+				id: "6C601EE4E95F41B6"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "the_bumblezone:carpenter_bee_boots_2"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "the_bumblezone:carpenter_bee_boots_1"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Bee Boots"
+			x: 4.5d
+			y: 8.5d
 		}
 	]
 	title: "&eTo the Bumblezone&r"

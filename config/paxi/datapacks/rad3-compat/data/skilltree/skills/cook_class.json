@@ -1,0 +1,48 @@
+{
+  "id": "skilltree:cook_class",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "type": "skilltree:food"
+      },
+      "item_bonus": {
+        "multiplier": 0.2,
+        "type": "skilltree:food_saturation"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "65ad17b8-ccef-4a3b-931e-1313c0e8615f",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "min": 15,
+        "type": "skilltree:food_level"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:cook_defensive_1",
+    "skilltree:cook_offensive_1",
+    "skilltree:cook_defensive_crafting_1",
+    "skilltree:cook_offensive_crafting_1",
+    "skilltree:cook_crafting_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/cook_class.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": 1.8614632E-14,
+  "positionY": -152.0,
+  "buttonSize": 24,
+  "isStartingPoint": true
+}

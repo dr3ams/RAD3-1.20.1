@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:miner_healing_2",
+  "bonuses": [
+    {
+      "type": "skilltree:block_break_speed",
+      "player_condition": {
+        "min": 1,
+        "type": "skilltree:effect_amount"
+      },
+      "multiplier": 0.2
+    }
+  ],
+  "directConnections": [
+    "skilltree:alchemist_offensive_crafting_3"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/miner_lesser_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Break Speed",
+  "titleColor": "",
+  "positionX": -75.571,
+  "positionY": 168.417,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

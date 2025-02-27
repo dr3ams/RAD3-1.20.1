@@ -40,6 +40,94 @@ ItemEvents.tooltip(event =>{
     }
   })
 
+	event.addAdvanced(['aether:healing_stone'], (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').blue(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• Applies Regeneration I effect for 30 seconds').white()
+		])
+    }
+  })
+	
+	event.addAdvanced('the_bumblezone:bee_cannon', (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').blue(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('Lets you store bees you right click into the item up to 3 bees! If you hold right button and then release, you fire the bees! Any non-bee mob you are looking at will be attacked by the bees!').white()
+		])
+		text.add(2, [
+        Text.of('• Can be repaired by Honey Crystal Shards, Sugar Infused Stone, or Sugar Infused Cobblestone.').white()
+		])
+    }
+  })
+	
+	event.addAdvanced('the_bumblezone:bee_cannon', (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').blue(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• High-knockback, high-damage cannon lets you store Honey Crystal Shards from your inventory into the item! Right click up to 3 times to store up to 3 Honey Crystals Shards in the cannon. If you hold right button and then release, you fire the crystals!').white()
+		])
+		text.add(2, [
+        Text.of('• The crystals are consumable ammo and cannot be picked up again once fired.').white()
+		])
+		text.add(3, [
+        Text.of('• Can also be enchanted with Quick Charge, Punch, Power, and Piercing enchantments along with Unbreaking, Curse of the Vanishing, and Mending.').white()
+		])
+		text.add(4, [
+        Text.of('• Can be repaired by Honey Crystal Shards, Sugar Infused Stone, or Sugar Infused Cobblestone.').white()
+		])
+    }
+  })
+	
+	event.addAdvanced(['kubejs:voucher_relic'], (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').darkPurple(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+		text.add(1, [
+        Text.of('• Found in chests deep underground').white()
+		])
+        text.add(2, [
+        Text.of('• Exchange in ').white(),
+		Text.of('⭐ The Market ').yellow(),
+		Text.of('quest chapter for random ').white(),
+		Text.of('Relic').darkPurple()
+		])
+    }
+  })
+	
+	event.addAdvanced(['bonfires:estus_flask',], (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').blue(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• Restored when using a bonfire').white()
+		])
+    }
+  })
+  
 	event.addAdvanced(['kubejs:essence_monster', 'kubejs:essence_monster_raw'], (item, advanced, text) => {
     if (!event.isShift()) {
       text.add(1, [
@@ -65,7 +153,36 @@ ItemEvents.tooltip(event =>{
         Text.of('questbook chapter').white()
       ])
     }
-  })
+	})
+	
+	event.addAdvanced('kubejs:artifact_fragment', (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').gold(),
+        Text.of('to see more info.').gray()
+      ])
+	    text.add(2, [
+        Text.of('⭐ Mastery: ').darkRed(),
+        Text.of('Scavenging').white()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• Aquired by disassembling ').white(),
+		Text.of('Artifacts ').gold(),
+		Text.of('or ').white(),
+		Text.of('Relics').darkPurple()
+		])
+		text.add(2, [
+	    Text.of('• Looks like it can be re-assembled again in another place . . .').white()
+      ])
+      text.add(3, [
+	    Text.of('• Find out more details in ').white(),
+        Text.of('⭐ Masteries ').darkRed(),
+        Text.of('questbook chapter').white()
+      ])
+    }
+	})
 	
 	event.addAdvanced('kubejs:spawnercore', (item, advanced, text) => {
     if (!event.isShift()) {
@@ -597,7 +714,42 @@ ItemEvents.tooltip(event =>{
         Text.of('to eject a book from it').white()
         ]) 
   })
-
+  
+    event.addAdvanced('bonfires:undead_bone_shard', (item, advanced, text) => {
+      if (!event.shift) {
+        text.add(1, [
+          Text.of('Hold ').gray(),
+          Text.of('[Shift] ').red(),
+          Text.of('to see more info.').gray()
+        ])
+      } else {
+        text.add(1, [
+          Text.of('• Used to reinforce ').white(),
+		  Text.of('Estus Flask ').green(),
+		  Text.of('at ').white(),
+		  Text.of('Bonfires ').darkRed(),
+		  Text.of('to increase ').white(),
+		  Text.of('heal amount').red()
+        ])
+        text.add(2, [
+        Text.of('• Obtained randomly from ').white(),
+        Text.of('Dimensional ').blue(),		
+        Text.of('or ').white(),
+		Text.of('Dungeon Coin ').darkPurple(),
+		Text.of('rewards in ').white(),
+		Text.of('⭐ The Market ').yellow(),
+		Text.of('quest chapter').white()
+        ])
+      }
+    })
+  
+	event.addAdvanced('cataclysm:amethyst_crab_meat', (item, advanced, text) => {
+    text.add(1, Text.of('Dropped from Amethyst Crab mini-boss in the Sunken City dungeon or rarely in Lush Caves biome')) 
+	})
+	
+	event.addAdvanced('undergarden:blood_globule', (item, advanced, text) => {
+    text.add(1, Text.of('Dropped from Engorged Blood Mushroom Caps in Undergarden Dimension')) 
+	})
 
 // THE END	
 })

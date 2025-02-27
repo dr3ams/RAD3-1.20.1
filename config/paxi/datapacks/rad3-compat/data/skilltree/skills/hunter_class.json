@@ -1,0 +1,59 @@
+{
+  "id": "skilltree:hunter_class",
+  "bonuses": [
+    {
+      "type": "skilltree:loot_duplication",
+      "chance": 0.1,
+      "multiplier": 1.0,
+      "loot_type": "mobs"
+    },
+    {
+      "type": "skilltree:arrow_retrieval",
+      "chance": 0.1
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "bow",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "amount": 100.0,
+        "operation": 0,
+        "type": "skilltree:durability"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:draw_speed",
+      "id": "bf85852e-9ef2-4aa4-a818-a4198b3e4632",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:hunter_defensive_1",
+    "skilltree:hunter_offensive_1",
+    "skilltree:hunter_defensive_crafting_1",
+    "skilltree:hunter_offensive_crafting_1",
+    "skilltree:hunter_crafting_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/hunter_class.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": 131.631,
+  "positionY": 76.008415,
+  "buttonSize": 24,
+  "isStartingPoint": true
+}

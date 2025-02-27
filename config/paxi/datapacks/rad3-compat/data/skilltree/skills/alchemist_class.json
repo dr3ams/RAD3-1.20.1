@@ -1,0 +1,62 @@
+{
+  "id": "skilltree:alchemist_class",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "potion_type": "any",
+        "type": "skilltree:potion"
+      },
+      "item_bonus": {
+        "multiplier": 0.4,
+        "type": "skilltree:potion_duration"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:fire_damage",
+      "id": "b4046528-248a-4c56-83bb-a68b5b9628a4",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:cold_damage",
+      "id": "4d63cda5-b663-4b01-893c-1019e8c3d028",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:alchemist_defensive_1",
+    "skilltree:alchemist_offensive_1",
+    "skilltree:alchemist_defensive_crafting_1",
+    "skilltree:alchemist_offensive_crafting_1",
+    "skilltree:alchemist_crafting_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_class.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": 0.0,
+  "positionY": 152.0,
+  "buttonSize": 24,
+  "isStartingPoint": true
+}

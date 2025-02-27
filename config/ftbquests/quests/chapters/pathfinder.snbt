@@ -196,7 +196,6 @@
 					type: "item"
 				}
 			]
-
 			subtitle: "Find Ruined Portal"
 			tasks: [{
 				advancement: "ars_additions:find_ruined_portal"
@@ -413,13 +412,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "Discover a Shiraz Palace"
-			tasks: [{
-				advancement: "dungeons_arise:find_shiraz_palace"
-				criterion: ""
-				id: "1D53FEB0C8FF1FB6"
-				type: "advancement"
-			}]
 			x: -1.0d
 			y: 1.0d
 		}
@@ -437,13 +429,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "Discover a Ceryneian Hind"
-			tasks: [{
-				advancement: "dungeons_arise:find_ceryneian_hind"
-				criterion: ""
-				id: "2809FA5EE73043B7"
-				type: "advancement"
-			}]
 			x: 8.5d
 			y: -1.0d
 		}
@@ -485,13 +470,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "Discover a Heavenly Rider"
-			tasks: [{
-				advancement: "dungeons_arise:find_heavenly_rider"
-				criterion: ""
-				id: "0897C5068E941795"
-				type: "advancement"
-			}]
 			x: 9.5d
 			y: -3.0d
 		}
@@ -509,13 +487,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "Discover a Heavenly Conqueror"
-			tasks: [{
-				advancement: "dungeons_arise:find_heavenly_conqueror"
-				criterion: ""
-				id: "4EDC0626E98B5E73"
-				type: "advancement"
-			}]
 			x: 1.5d
 			y: 0.5d
 		}
@@ -629,13 +600,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "Discover a Thornborn Towers"
-			tasks: [{
-				advancement: "dungeons_arise:find_thornborn_towers"
-				criterion: ""
-				id: "62C6F6B702B1B5F9"
-				type: "advancement"
-			}]
 			x: 10.5d
 			y: 9.0d
 		}
@@ -654,12 +618,19 @@
 				}
 			]
 			subtitle: "Discover a Fishing House"
-			tasks: [{
-				advancement: "dungeons_arise:find_fishing_hut"
-				criterion: ""
-				id: "3D35BF69A35BB333"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_fishing_hut"
+					criterion: ""
+					id: "3D35BF69A35BB333"
+					type: "advancement"
+				}
+				{
+					id: "4209F42DB5A30DD4"
+					structure: "dungeons_arise:fishing_hut"
+					type: "structure"
+				}
+			]
 			x: 2.5d
 			y: 5.0d
 		}
@@ -845,13 +816,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "Discover a Coliseum"
-			tasks: [{
-				advancement: "dungeons_arise:find_coliseum"
-				criterion: ""
-				id: "0358569F8DCB2703"
-				type: "advancement"
-			}]
 			x: 5.5d
 			y: 8.5d
 		}
@@ -1226,13 +1190,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "Discover a Bathhouse"
-			tasks: [{
-				advancement: "dungeons_arise:find_bathhouse"
-				criterion: ""
-				id: "1003CDDD83A4912C"
-				type: "advancement"
-			}]
 			x: 8.0d
 			y: -4.0d
 		}
@@ -1376,13 +1333,6 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Discover every biome(49)"
-			tasks: [{
-				advancement: "minecraft:adventure/adventuring_time"
-				criterion: ""
-				id: "0D817B9D696B05AA"
-				type: "advancement"
-			}]
 			x: 5.5d
 			y: -6.0d
 		}
@@ -1480,13 +1430,6 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Discover every other biome (61)"
-			tasks: [{
-				advancement: "regions_unexplored:pioneer"
-				criterion: ""
-				id: "1605CAE126F3AE6A"
-				type: "advancement"
-			}]
 			x: 5.5d
 			y: 10.5d
 		}
@@ -1697,12 +1640,19 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				advancement: "graveyard:graveyard/haunted_house"
-				criterion: ""
-				id: "6C63863C421CC2D5"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "graveyard:graveyard/haunted_house"
+					criterion: ""
+					id: "6C63863C421CC2D5"
+					type: "advancement"
+				}
+				{
+					id: "050D3197F08A543F"
+					structure: "graveyard:haunted_house"
+					type: "structure"
+				}
+			]
 			x: 12.0d
 			y: -3.0d
 		}
@@ -1775,6 +1725,26 @@
 			}]
 			x: 3.0d
 			y: -4.0d
+		}
+		{
+			id: "62111745D1A894F5"
+			tasks: [{
+				id: "5514FD1AE95E3420"
+				structure: "nova_structures:witch_villa"
+				type: "structure"
+			}]
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			id: "0D0AE4281ADF6524"
+			tasks: [{
+				id: "33FA50DDA342991F"
+				structure: "nova_structures:village_swamp"
+				type: "structure"
+			}]
+			x: 17.0d
+			y: 2.0d
 		}
 	]
 	title: "Pathfinder"

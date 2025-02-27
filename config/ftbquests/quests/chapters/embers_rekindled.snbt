@@ -6,12 +6,29 @@
 	icon: "embers:ember_crystal_cluster"
 	id: "26FFA683A2A5D5E1"
 	order_index: 0
-	quest_links: [{
-		id: "0A032C00FF75172C"
-		linked_quest: "70FAD65365767FAC"
-		x: 12.5d
-		y: -4.5d
-	}]
+	quest_links: [
+		{
+			id: "0A032C00FF75172C"
+			linked_quest: "70FAD65365767FAC"
+			shape: "gear_important"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			id: "0EDC26EEBAB62815"
+			linked_quest: "3E8D81625369E9E9"
+			shape: "gear_important"
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			id: "44B584F57BFAED53"
+			linked_quest: "7799424461FD01D7"
+			shape: "gear_important"
+			x: 2.5d
+			y: 0.0d
+		}
+	]
 	quests: [
 		{
 			description: [
@@ -92,19 +109,6 @@
 			}]
 			x: 1.0d
 			y: 1.0d
-		}
-		{
-			dependencies: ["7799424461FD01D7"]
-			description: ["Materials not found in the overworld may be needed to form this brick..."]
-			id: "7813722C1EB553C3"
-			shape: "gear_important"
-			tasks: [{
-				id: "3D5403754CF7BCB8"
-				item: "embers:caminite_brick"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 0.0d
 		}
 		{
 			dependencies: ["5AAA3D0D91ECFEF0"]
@@ -251,12 +255,12 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
 				"5AAA3D0D91ECFEF0"
-				"7813722C1EB553C3"
+				"7799424461FD01D7"
 			]
 			id: "4555C4D10DA2481F"
 			tasks: [{
@@ -435,7 +439,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["4BEE1D81466B71C6"]
+			dependencies: [
+				"4BEE1D81466B71C6"
+				"70FAD65365767FAC"
+			]
 			id: "54411042CD9DCF85"
 			shape: "hexagon_important"
 			tasks: [{
@@ -477,10 +484,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"2A6B0183F60EC90B"
-				"70FAD65365767FAC"
-			]
+			dependencies: ["2A6B0183F60EC90B"]
 			id: "1970A98FDBB9923D"
 			shape: "hexagon_important"
 			tasks: [{
@@ -797,6 +801,7 @@
 				"358250CC71299C5A"
 				"72BDBD0E44B17C0F"
 				"3CFEE7D947C11D8C"
+				"3E8D81625369E9E9"
 			]
 			id: "25FF938C6A444EE8"
 			shape: "hexagon_important"
@@ -999,7 +1004,7 @@
 				}
 				type: "item"
 			}]
-			x: 22.0d
+			x: 21.5d
 			y: 2.0d
 		}
 		{

@@ -60,7 +60,7 @@
 		max_columns = 5
 		#Screen side to render status effects on.
 		#Allowed Values: LEFT, RIGHT
-		screen_side = "RIGHT"
+		screen_side = "LEFT"
 		#Offset on x-axis.
 		#Range: > 0
 		offset_x = 3
@@ -139,16 +139,16 @@
 		#Should the effect icon start to blink when the effect is running out.
 		blinking_alpha = true
 		#Should effect widgets have a blue or red border depening on if they are beneficial or not.
-		quality_border = false
+		quality_border = true
 		#Show duration for ambient effects.
 		ambient_duration = false
 		#Top corner to draw effect amplifier in, or none.
 		#Allowed Values: NONE, TOP_LEFT, TOP_RIGHT
-		effect_amplifier = "TOP_RIGHT"
+		effect_amplifier = "TOP_LEFT"
 		#Should ambient effect widgets have a cyan colored border.
 		ambient_border = true
 		#Draw harmful effects on a separate line from beneficial ones. This is turned on in vanilla.
-		separate_effects = false
+		separate_effects = true
 		#Effect duration color. Setting this to "EFFECT" will use potion color.
 		#Effect duration color. Setting this to "EFFECT" will use potion color.
 		#Allowed Values: EFFECT, BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE
@@ -166,16 +166,16 @@
 		#Display effect duration more compact, allows for always showing duration, even when it is very long.
 		compact_duration = false
 		#Should effect widgets have a blue or red border depening on if they are beneficial or not.
-		quality_border = false
+		quality_border = true
 		#Show duration for ambient effects.
 		ambient_duration = false
 		#Top corner to draw effect amplifier in, or none.
 		#Allowed Values: NONE, TOP_LEFT, TOP_RIGHT
-		effect_amplifier = "TOP_RIGHT"
+		effect_amplifier = "TOP_LEFT"
 		#Should ambient effect widgets have a cyan colored border.
 		ambient_border = true
 		#Draw harmful effects on a separate line from beneficial ones. This is turned on in vanilla.
-		separate_effects = false
+		separate_effects = true
 		#Effect duration color. Setting this to "EFFECT" will use potion color.
 		#Effect duration color. Setting this to "EFFECT" will use potion color.
 		#Allowed Values: EFFECT, BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE

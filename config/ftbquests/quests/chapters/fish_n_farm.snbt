@@ -9,37 +9,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"The following are your basic crops that will always be handy when you are hungry."
-				""
-				"The quests following the initial crops give a basic recipe to help keep you fed but look to JEI for more complex and fullfilling recipes."
-			]
-			icon: "minecraft:farmland"
-			id: "0150106BEF0605B7"
-			rewards: [{
-				id: "03BE8A894D1F3F4F"
-				item: "quark:seed_pouch"
-				type: "item"
-			}]
-			shape: "octagon"
-			size: 1.5d
-			tasks: [{
-				id: "42EEA74AFBD23BFB"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:seeds"
-					}
-				}
-				title: "Any #forge:seeds"
-				type: "item"
-			}]
-			title: "Basic Farming"
-			x: 0.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["0000000000000FC0"]
 			description: ["Should be able to nab some of these to get you started from a village."]
 			id: "053C0C086704A424"
@@ -85,7 +54,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["0000000000000FD0"]
+			dependencies: ["2CAD2936FBF8C162"]
 			id: "62A913EB840D6093"
 			rewards: [{
 				id: "531C16991DCA4CFB"
@@ -102,7 +71,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["1FA146104659E072"]
+			dependencies: ["62A913EB840D6093"]
 			id: "07F65CEBEC7D3DC1"
 			rewards: [{
 				id: "5227A19DF1202772"
@@ -152,7 +121,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["0000000000000FD4"]
+			dependencies: ["02D47ED17855D7EF"]
 			id: "734B0DCBA9412A12"
 			rewards: [{
 				id: "3A2C0A6682B9F08C"
@@ -185,7 +154,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["00000000000000C5"]
+			dependencies: ["31BD9D438DE7C517"]
 			description: ["Get to growing!"]
 			id: "664517285527B807"
 			rewards: [{
@@ -257,7 +226,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0000000000000FC6"]
+			dependencies: ["5F18F2B90194BCC3"]
 			id: "192A80A11DED531C"
 			rewards: [{
 				id: "47290453EC38BD02"
@@ -275,7 +244,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["0000000000000FC2"]
+			dependencies: ["7A95813C7465B7C6"]
 			description: ["Give your base some flair."]
 			id: "3BCCF82725DF2A28"
 			rewards: [{
@@ -309,7 +278,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["0000000000000FD2"]
+			dependencies: ["40AA50EB34627A92"]
 			id: "1952835D9E813B00"
 			rewards: [{
 				id: "710FE04F2AF7AD01"
@@ -327,7 +296,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["0000000000000FDA"]
+			dependencies: ["1952835D9E813B00"]
 			id: "07CD3B4239E51614"
 			rewards: [
 				{
@@ -395,7 +364,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["0000000000001154"]
+			dependencies: ["109502AF0E1426E3"]
 			id: "3BE59D712783F620"
 			rewards: [{
 				id: "4F850F57E41BDB0F"
@@ -421,7 +390,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["22E18643E07DD4EA"]
+			dependencies: ["3BE59D712783F620"]
 			id: "46718966B28E3B14"
 			rewards: [{
 				id: "49EA5387C05F8455"
@@ -524,7 +493,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["000000000000072E"]
+			dependencies: ["479326E5BD12BF8A"]
 			description: ["Man I will be able to write so much stuff on this."]
 			id: "42E723A5E554D01D"
 			rewards: [{
@@ -542,7 +511,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["000000000000072E"]
+			dependencies: ["479326E5BD12BF8A"]
 			id: "49961DB59F6635D6"
 			rewards: [{
 				id: "1EE9334A2F87D5B4"
@@ -644,7 +613,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["0000000000000FDC"]
+			dependencies: ["734B0DCBA9412A12"]
 			id: "60466BDEAEB5226B"
 			tasks: [{
 				id: "104AC2CB9B6DF077"
@@ -692,7 +661,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["00000000000000C9"]
+			dependencies: ["664517285527B807"]
 			description: ["You robbed a village for this, didn't you."]
 			id: "448EFB9BF8C8E4DC"
 			tasks: [{
@@ -742,7 +711,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["0000000000000FC8"]
+			dependencies: ["192A80A11DED531C"]
 			id: "378862B8056108A3"
 			tasks: [{
 				count: 10L
@@ -796,7 +765,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["0000000000000FD8"]
+			dependencies: ["31291BCDDFA51962"]
 			id: "110D80709A6E0A74"
 			tasks: [{
 				count: 16L
@@ -830,7 +799,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["00000000000000CD"]
+			dependencies: ["053C0C086704A424"]
 			id: "5581946E99704369"
 			tasks: [{
 				count: 64L
@@ -2072,14 +2041,14 @@
 					type: "item"
 				}
 				{
-					id: "0000000000000361"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
 					id: "2F97F8F9A311A5E9"
 					item: "kubejs:iron_coin"
 					type: "item"
+				}
+				{
+					id: "448D8E46E5330725"
+					type: "xp"
+					xp: 300
 				}
 			]
 			tasks: [
@@ -2151,6 +2120,44 @@
 			}]
 			x: 4.0d
 			y: 3.0d
+		}
+		{
+			description: [
+				"The following are your basic crops that will always be handy when you are hungry."
+				""
+				"The quests following the initial crops give a basic recipe to help keep you fed but look to JEI for more complex and fullfilling recipes."
+			]
+			icon: "minecraft:farmland"
+			id: "0000000000000FC0"
+			rewards: [
+				{
+					id: "6A96DE85B76A3635"
+					item: "aquaculture:box"
+					type: "item"
+				}
+				{
+					id: "0AA31193917843F9"
+					item: "farmersdelight:melon_juice"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "6898A7D9513E670C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:seeds"
+					}
+				}
+				title: "Any #forge:seeds"
+				type: "item"
+			}]
+			title: "Basic Farming"
+			x: 0.0d
+			y: 0.0d
 		}
 	]
 	title: "Fish n Farm"

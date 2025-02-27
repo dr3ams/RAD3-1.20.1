@@ -12,7 +12,7 @@
 			image: "ftbquests:block/barrier_open"
 			rotation: 45.0d
 			width: 1.1d
-			x: -5.0d
+			x: -6.5d
 			y: -3.0d
 		}
 		{
@@ -91,6 +91,7 @@
 			alpha: 100
 			height: 10.0d
 			image: "rad3:textures/misc/rad_compass_new_3.png"
+			order: -1
 			rotation: 0.0d
 			width: 10.0d
 			x: -2.0d
@@ -108,8 +109,8 @@
 		{
 			id: "287B78958ED96F15"
 			linked_quest: "2AF1B6A89DD4F4C2"
-			x: -7.0d
-			y: -8.0d
+			x: -5.5d
+			y: -9.5d
 		}
 		{
 			icon: {
@@ -139,6 +140,11 @@
 	quests: [
 		{
 			id: "35A027D4B827463C"
+			rewards: [{
+				id: "30118E850776CCA4"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "hexagon"
 			size: 3.0d
 			tasks: [{
@@ -251,8 +257,15 @@
 					type: "item"
 				}
 				{
-					id: "137D150BEAF2F9E5"
-					item: "aquaculture:lockbox"
+					exclude_from_claim_all: true
+					id: "2CD2F98C707BB834"
+					table_id: 5555069453760734776L
+					type: "choice"
+				}
+				{
+					count: 2
+					id: "1DA01738BF0B321E"
+					item: "farmersdelight:melon_juice"
 					type: "item"
 				}
 			]
@@ -286,9 +299,9 @@
 			]
 			id: "7343C10D6EEAA88B"
 			rewards: [{
-				id: "728D604B1B3DDA27"
-				type: "xp_levels"
-				xp_levels: 5
+				id: "77CB0D05E423BE88"
+				type: "xp"
+				xp: 500
 			}]
 			subtitle: "Make yourself at home!"
 			tasks: [
@@ -384,11 +397,6 @@
 			id: "3A7C49FC5AA2927F"
 			rewards: [
 				{
-					id: "03D4591291173909"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					count: 4
 					id: "08BA4B6935F6F10F"
 					item: "minecraft:iron_ingot"
@@ -405,6 +413,11 @@
 					id: "272FE66AB2163D13"
 					item: "minecraft:copper_ingot"
 					type: "item"
+				}
+				{
+					id: "5AC5EE0B2E21FDD2"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "hexagon"
@@ -661,37 +674,6 @@
 		}
 		{
 			dependencies: ["366659E50333BC5A"]
-			id: "70EE00F2D166500E"
-			rewards: [
-				{
-					id: "7B767CE1FCBF19F3"
-					item: "ftbquests:book"
-					type: "item"
-				}
-				{
-					id: "5DE10AA0D4257E31"
-					item: {
-						Count: 1
-						id: "minecraft:stone_sword"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "Die at least 1 time"
-			tasks: [{
-				id: "51A7BB84F95A8A07"
-				stat: "minecraft:deaths"
-				type: "stat"
-				value: 1
-			}]
-			x: -6.0d
-			y: -8.5d
-		}
-		{
-			dependencies: ["70EE00F2D166500E"]
 			description: [
 				"Players earns knowledge points each time they use a grave's soul to enchant an item, when they free a soul from a receptacle, by praying near a decorative grave with a special item called Ankh of Pray (with a cooldown of 6 in-game hours), or by accomplishing the tombstone advancements."
 				""
@@ -822,7 +804,7 @@
 		{
 			dependencies: ["35A027D4B827463C"]
 			description: [
-				""
+				"You will face a lot of new enemies and bosses. Can you defeat them all?"
 				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"273BBE58DA6C6B5E\" } }"
 			]
 			id: "366659E50333BC5A"
@@ -841,7 +823,11 @@
 		}
 		{
 			dependencies: ["35A027D4B827463C"]
-			description: [""]
+			description: [
+				"While adventuring, you may encounter items with various bonuses. These are Affix Items, relics of the past with varying degrees of power."
+				""
+				"&4Read more information about the whole Affix and Gems mechanics in Chronicle of Shadows guidebook!&r"
+			]
 			icon: {
 				Count: 1
 				id: "undergarden:forgotten_pickaxe"
@@ -863,27 +849,37 @@
 			}]
 			shape: "gear_important"
 			size: 1.2d
-			subtitle: "TBA"
 			tasks: [{
 				id: "70D416AECE2E29F2"
 				type: "checkmark"
 			}]
 			title: "&9Equipment"
-			x: -5.0d
+			x: -6.6d
 			y: -3.0d
 		}
 		{
 			dependencies: ["35A027D4B827463C"]
-			description: ["&o(following is optional)&r"]
 			id: "149CB61732F787CF"
+			rewards: [{
+				count: 2
+				id: "086D0F2BDA732F31"
+				item: "farmersdelight:melon_juice"
+				type: "item"
+			}]
 			shape: "hexagon_important"
 			size: 2.0d
-			subtitle: "Find a Sign and follow it"
 			tasks: [{
-				advancement: "supplementaries:adventure/way_sign"
-				criterion: ""
-				id: "575337A25E86B56B"
-				type: "advancement"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "l2hostility:item/trait/speedy"
+					}
+				}
+				id: "03BC5A2CC8F62137"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 5000
 			}]
 			title: "&9Adventuring"
 			x: -4.0d
@@ -2843,22 +2839,20 @@
 		}
 		{
 			dependencies: ["366659E50333BC5A"]
-			description: [
-				"&9Step 1:&r"
-				"Find a wild wolf (the Vanilla Minecraft wolf)."
-				""
-				"&9Step 2:&r"
-				"Feed it bones (right click with a bone in your hand) until hearts appear above its head. If a collar appears on its neck and it sits down, you've done it right!"
-				""
-				"&9Step 3:&r"
-				"Feed the dog at least one Training Treat and the dog will disappear for a very brief second and a dog without a collar will take its place. At this point, you now have a Doggy Talents dog."
-			]
+			description: ["Wolfs can now wear armor and have enhanced AI"]
 			id: "000000000000062D"
-			rewards: [{
-				id: "000000000000066F"
-				item: "aquaculture:box"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "000000000000066F"
+					item: "aquaculture:box"
+					type: "item"
+				}
+				{
+					id: "1C0C92F6307E78D7"
+					item: "revampedwolf:leather_wolf_armor"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
@@ -2870,230 +2864,6 @@
 			title: "Good doggy"
 			x: -5.5d
 			y: -6.0d
-		}
-		{
-			dependencies: ["000000000000062D"]
-			description: [
-				"&2Training treat&r"
-				"The first treat you will need to level up your dog. It can only level the dog to 20. After that, you will require the next tier treat, the Super Treat."
-				""
-				"&6Super Treat&r"
-				"The second treat you will need to level up your dog. It can only level the dog to 40. After that, you will require the next tier treat, the Master Treat."
-				""
-				"&bMaster Treat&r"
-				"The third treat you will need to level up your dog. It can only level the dog to 60. After that, you will require the final tier treat, the Dire Treat."
-				""
-				"&5Kami Treat&r"
-				"The forth and final treat you will need to level up your dog. It adds dire levels, which is maxed at 30. After that, you will no longer have the ability to level up the dog, hence the dog has reached the ultimate level. Also, at the maximum dire level, end-like particles will begin to emit from your dog."
-			]
-			id: "000000000000062F"
-			rewards: [{
-				id: "000000000000065C"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			tasks: [{
-				id: "0000000000000630"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "doggytalents:treats"
-					}
-				}
-				title: "Any #doggytalents:treats"
-				type: "item"
-			}]
-			x: -7.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["000000000000062F"]
-			description: [
-				"Once you have a Doggy Talents dog, you will be able to right click on it with a stick in hand (main or secondary) to open the dog information/talents menu."
-				""
-				"This menu allows you to change the name of your dog, toggle its behavior, add talents, and toggle whether to obey other players. In the menu, your dog's basic level, dire level, and level spending points will be displayed just under the name box."
-				""
-				"The more you level up your dog using the Treats in this order: Training Treat, Super Treat, Master Treat, and Dire Treat; the more points you have available to spend on your talents. Eventually, the dog will hit its maximum level, which will not allow you to get anymore points once it hits this level cap."
-				""
-				"&6Energizer Stick&r"
-				"This special stick gives your dog the Glowing Level 1 effect for 100 ticks (5 seconds), the Speed Level 6 effect for 200 ticks (10 seconds), and the regeneration Level 1 effect for 100 ticks (5 seconds)."
-			]
-			id: "0000000000000631"
-			rewards: [{
-				id: "0000000000000664"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			tasks: [
-				{
-					id: "0000000000000632"
-					item: "minecraft:stick"
-					type: "item"
-				}
-				{
-					id: "4F2AAFC281D500E3"
-					item: "doggytalents:energizer_stick"
-					type: "item"
-				}
-			]
-			x: -8.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["0000000000000631"]
-			description: [
-				"&5Whistle&r"
-				"&nWhistle&r is the item that gives your dog commands that it can listen to. Different commands are expressed via several modes."
-				""
-				"&6Tracker&r"
-				"This item is like a map, but for locating your dog when it has the &4Radio Collar&r equipped. To locate your dog, right click with the item in your main hand and it will give your dog's distance away from you and in which direction it is in. However, this item only works if the dog is in the same dimension."
-			]
-			id: "0000000000000639"
-			rewards: [{
-				id: "0F94554843199F33"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "000000000000063A"
-					item: {
-						Count: 1
-						id: "doggytalents:whistle"
-						tag: {
-							mode: 4
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0077CB6F65E5D875"
-					item: "doggytalents:canine_tracker"
-					type: "item"
-				}
-				{
-					id: "3AAED60F746C6B9C"
-					item: "doggytalents:radio_collar"
-					type: "item"
-				}
-			]
-			x: -9.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["0000000000000631"]
-			description: [
-				"This item allows you to carry food items for your dog. You can feed your dog the items inside by right clicking on your dog with the bag in hand."
-				"You can also place the items from inside the bag into a Food Bowl by right clicking on the bowl with the bag in your hand."
-			]
-			id: "000000000000063D"
-			rewards: [
-				{
-					count: 5
-					id: "000000000000067F"
-					item: "minecraft:bone"
-					type: "item"
-				}
-				{
-					id: "27F7407B851D24A3"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "000000000000063E"
-				item: "doggytalents:treat_bag"
-				type: "item"
-			}]
-			x: -9.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["0000000000000631"]
-			description: [
-				"&nDog Bed&r is a placeable block that allows your dog to respawn if it happens to get slain."
-				""
-				"&nDog Food Bowl&r is a utility block that automatically feeds the dog whenever its nourishment point drops to a certain range."
-			]
-			id: "0000000000000651"
-			rewards: [
-				{
-					count: 3
-					id: "0000000000000681"
-					item: "minecraft:egg"
-					type: "item"
-				}
-				{
-					id: "7DDF9CD29627B0D3"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "0000000000000652"
-					item: {
-						Count: 1
-						id: "doggytalents:dog_bed"
-						tag: {
-							doggytalents: {
-								beddingId: "minecraft:white_wool"
-								casingId: "minecraft:oak_planks"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3CD851FEE744594B"
-					item: "doggytalents:food_bowl"
-					type: "item"
-				}
-			]
-			x: -9.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["000000000000062F"]
-			description: [
-				"Modes"
-				""
-				"These control how the dog reacts to other entities and interacts with you. The tips of each mode appear above the dog."
-				""
-				"Docile (D)"
-				"In this mode, your dog will follow you but not attack anything. They will also play fetch with you when you throw the Throw Bone or Throw Stick. This mode will show up as the tip,\"(D)\" just above the dogs name."
-				""
-				"Wandering (W)"
-				"In this mode, your dog will stay near its bowl and wait for your next command. To set your dog's bowl, simply place one and bring your dog within 1 block of it. This mode will show up as the tip,\"(W)\" just above the dog's name."
-				""
-				"Aggressive (A)"
-				"In this mode, your dog will follow you and attack anything that either attacks you or that you attack. This mode will show up as the tip,\"(A)\" just above the dogs name."
-				""
-				"Berserker (B)"
-				"In this mode, your dog will follow you and will attack any mob that draws near. This mode will show up as the tip,\"(B)\" just above the dogs name."
-				""
-				"Tactical (T)"
-				"In this mode, your dog will follow you but will not attack anything unless you use the command beam to attack the entity you right click on (with the item in hand). This mode will show up as the tip,\"(T)\" just above the dogs name."
-				""
-				"Incapacitated (I)"
-				"In this mode, your dog will be covered in blood and it will not attack nor will let you interact with it (except to let you make it sit down). The dog will enter this mode only when its health is 1/2 of a heart (1 HP) and its health will not reach 0, preventing the dog from dying. The dog will eventually exit this mode once its health reaches above 1 HP, however, it will not be at full health after exiting this mode. To force the dog to exit the mode at full health, feed it a cake."
-				"This mode can be turned off in the configuration settings. This mode will show up as the tip,\"(I)\" just above the dogs name."
-			]
-			id: "000000000000065A"
-			rewards: [{
-				id: "7816B7CB959BF985"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				icon: "itemfilters:tag"
-				id: "000000000000065B"
-				title: "Dog Modes"
-				type: "checkmark"
-			}]
-			x: -7.5d
-			y: -7.0d
 		}
 		{
 			dependencies: ["5BD0024E8E16BB8E"]
@@ -3335,6 +3105,11 @@
 				"To begin creating it - craft one of the thematical workstations."
 			]
 			id: "5807B58B6D07D0AD"
+			rewards: [{
+				id: "0C19237682640F77"
+				type: "xp"
+				xp: 80
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "2E2945006EB8F434"
@@ -3853,6 +3628,43 @@
 				{
 					id: "2A95A92EF6610B75"
 					item: "aether:book_of_lore"
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "2314C9662302369E"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "player_companions:guide"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "065F77421146D814"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "l2hostility:hostility_guide"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "420C25CA852D8297"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "parcool:parcool_guide"
+						}
+					}
+					match_nbt: true
 					type: "item"
 				}
 			]
@@ -4117,6 +3929,11 @@
 				"3B713701E442645A"
 			]
 			id: "0D3C9711C0517F9F"
+			rewards: [{
+				id: "0C3388BC1A2A5E29"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [
 				{
 					id: "05B8B4EC99866557"
@@ -4132,6 +3949,270 @@
 			title: "Store experience and disenchant"
 			x: -9.0d
 			y: -11.5d
+		}
+		{
+			dependencies: ["6CC45B856CF1EC09"]
+			description: [
+				"Each affix is very similar to an enchantment, providing a specific bonus to the item it is attached to."
+				""
+				"- Affix Types"
+				"There are a few different types of affixes, each type having a specific set of functionality it can provide. What types of affixes are applied to an item are dependent on the item's Rarity"
+				""
+				"Affix items can be acquired:"
+				"- from chests (across all dimensions)"
+				"- from a naturally spawned mob"
+				"- from bosses"
+			]
+			id: "04BD6EFB0F827A54"
+			subtitle: "Find an item with Apothic affix"
+			tasks: [{
+				advancement: "apotheosis:affix/root"
+				criterion: ""
+				id: "1ED060C10B933721"
+				type: "advancement"
+			}]
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6CC45B856CF1EC09"]
+			description: [
+				"Gems can be acquired:"
+				""
+				"- as loot in other dimensions"
+				"   - &cNether&r - uncommon to epic"
+				"   - &fEnd&r - rare to mythic"
+				"   - &bAether&r - uncommon to mythic"
+				"   - &eLands of Icaria&r - uncommon to mythic"
+				"   - &2Undergarden&r - uncommon to mythic"
+				"   - &6The Bumblezone&r - uncommon to mythic"
+				"   - &8Dimdungeons&r - rare to mythic"
+				"   - &5Bloodmagic Dungeon&r - rare to mythic"
+				"   - &1Mining Dimension&r - rare to mythic"
+				""
+				"- as drop from &4Apotheosis Bosses&r"
+				""
+				"- exchanged in \"&eThe Market&r\" quest chapter"
+			]
+			id: "673DE11282C85AD4"
+			subtitle: "Find an Apothic Gems which can be socketed into Affix item"
+			tasks: [{
+				advancement: "apotheosis:affix/gem"
+				criterion: ""
+				id: "03F8DD3FF045B3A7"
+				type: "advancement"
+			}]
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1966320B37D990A0"]
+			description: ["You will need Fabrics for crafting bed, armor and backpacks. You can get it from Zombies, find it as loot or buy for a copper coin from a 'Coin Shop Quest Chapter'."]
+			id: "624F1D5C9129DFA8"
+			tasks: [
+				{
+					id: "451225439A79BFC7"
+					item: "zombie_fabrics:fabric"
+					type: "item"
+				}
+				{
+					id: "2A47455F6D215672"
+					item: {
+						Count: 1
+						id: "minecraft:leather_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48F8F2AE8F37D58C"
+					item: {
+						Count: 1
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4047BCEEEE78F503"
+					item: {
+						Count: 1
+						id: "minecraft:leather_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "436E97F78817DFFF"
+					item: {
+						Count: 1
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["673DE11282C85AD4"]
+			description: [
+				"To socket a gem into an item, combine the two in a Smithing Table. Each gem states which items it may fit in. Some gems are Unique, meaning that only one copy of that gem may be socketed in an item."
+				""
+				"&lRemoving Gems&r"
+				"Combine a socketed item with a Sigil of Withdrawal in a smithing table to remove the socketed gems from an item. The item and all gems will be returned."
+			]
+			id: "31F1B5BF67E7FC49"
+			subtitle: "Used to socket gems into Items"
+			tasks: [{
+				id: "3A74A37370E87283"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["673DE11282C85AD4"]
+			id: "0C45B6CB9315B119"
+			subtitle: "Can be used to upgrade gems"
+			tasks: [{
+				id: "4812DE725FD6B502"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B37ED777351DF31"]
+			description: [
+				"The Reforging Table has three input slots:"
+				"- the center slot holds the item you wish to reforge. "
+				"- the top-left slot holds Rarity Materials for the rarity you would like to reforge with."
+				"- the bottom-right slot holds Sigils of Rebirth, a unique fuel item used during the Reforging process."
+			]
+			id: "06DB24EC6C29EF79"
+			subtitle: "Allows you to reforge items up to Rare rarity"
+			tasks: [{
+				id: "70512FDE6154E448"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["04BD6EFB0F827A54"]
+			id: "4B37ED777351DF31"
+			subtitle: "Breaks down Affix items into Rare Materials"
+			tasks: [{
+				id: "0E4FF1A330394B0A"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["149CB61732F787CF"]
+			description: [
+				"Spyglass received various functionality and improvements:"
+				""
+				"- can be put in &6Belt&r curio slot"
+				"- quick access by pressing '&2Z&r'"
+				"- &9zoom&r using mouse scroll wheel"
+				"- different &3overlays&r (see in-game configs)"
+				"- view &9information&r on mobs"
+				"- &5Marking enchant&r: Pressing the attack keybind marks mobs viewed through a spyglass. Puts the spyglass on cooldown for 0.8x of the marking duration."
+				"- &5Precision enchant&r: Offhanding a spyglass and crouching while using a ranged weapon grants zoom. Projectiles gain perfect accuracy and deal extra damage. 4 second cooldown by default."
+			]
+			id: "0DB4564772F4526D"
+			tasks: [{
+				id: "73517CF516D3A571"
+				item: "minecraft:spyglass"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["366659E50333BC5A"]
+			description: ["To add arrows place it together in a crafting grid"]
+			id: "1FD8FE1F7FD65D9A"
+			tasks: [{
+				id: "5BAA0D5EA0FE200D"
+				item: {
+					Count: 1
+					id: "skilltree:quiver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7B7944F875F4F424"]
+			description: [
+				"- restored when using &4Bonfire&r"
+				""
+				"- can be reinforced at &4Bonfires&r to increase the amount &chealed&r"
+				""
+				"- &1uses&r can be increased by right click an &eEstus Shard&r with the &2Estus Flask&r in your inventory"
+			]
+			id: "7340DB101BE8D6EB"
+			rewards: [{
+				id: "1B0324F08453DBE8"
+				item: "bonfires:undead_bone_shard"
+				type: "item"
+			}]
+			subtitle: "Multi use healing potion"
+			tasks: [
+				{
+					id: "7D8E7C1E1C1782BF"
+					item: {
+						Count: 1
+						id: "bonfires:estus_flask"
+						tag: {
+							reinforce_level: 0
+							reinforce_max: 10
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C626D2FDDB3B734"
+					item: "bonfires:estus_shard"
+					type: "item"
+				}
+			]
+			title: "Healing flask"
+			x: -6.0d
+			y: 2.0d
 		}
 	]
 	title: "&2World Exploration&r"

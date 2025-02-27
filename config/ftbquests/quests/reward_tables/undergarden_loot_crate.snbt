@@ -3,8 +3,8 @@
 	loot_size: 1
 	order_index: 47
 	rewards: [
-		{ count: 3, item: "undergarden:depthrock_diamond_ore" }
-		{ count: 3, item: "undergarden:shiverstone_diamond_ore" }
+		{ item: "undergarden:depthrock_diamond_ore" }
+		{ item: "undergarden:shiverstone_diamond_ore" }
 		{ count: 64, item: "undergarden:polished_depthrock" }
 		{ count: 64, item: "undergarden:shiverstone" }
 		{ count: 64, item: "undergarden:grongle_log" }
@@ -65,6 +65,49 @@
 				}
 			}
 		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:night_vision"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:long_night_vision"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:invisibility"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:leaping"
+				}
+			}
+		}
+		{ item: "landsoficaria:anti_gravity_flask" }
+		{ item: "minecraft:golden_apple" }
+		{ item: "apotheosis:rare_material" }
+		{ item: "apotheosis:common_material" }
+		{ item: "l2hostility:hostility_orb" }
+		{ item: "apotheosis:gem_dust" }
+		{ item: "apotheosis:uncommon_material" }
 	]
 	title: "Undergarden Loot Crate"
 }

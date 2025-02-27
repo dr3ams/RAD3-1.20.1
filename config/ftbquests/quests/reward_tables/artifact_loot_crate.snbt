@@ -12,8 +12,6 @@
 	loot_size: 1
 	order_index: 65
 	rewards: [
-		{ item: "artifacts:whoopee_cushion" }
-		{ item: "artifacts:rooted_boots" }
 		{ item: "artifacts:flippers" }
 		{ item: "artifacts:steadfast_spikes" }
 		{ item: "artifacts:snowshoes" }
@@ -23,7 +21,6 @@
 		{ item: "artifacts:aqua_dashers" }
 		{ item: "artifacts:pickaxe_heater" }
 		{ item: "artifacts:onion_ring" }
-		{ item: "artifacts:golden_hook" }
 		{ item: "artifacts:vampiric_glove" }
 		{ item: "artifacts:pocket_piston" }
 		{ item: "artifacts:fire_gauntlet" }
@@ -33,7 +30,6 @@
 		{ item: "artifacts:chorus_totem" }
 		{ item: "artifacts:helium_flamingo" }
 		{ item: "artifacts:crystal_heart" }
-		{ item: "artifacts:universal_attractor" }
 		{ item: "artifacts:antidote_vessel" }
 		{ item: "artifacts:obsidian_skull" }
 		{ item: "artifacts:cloud_in_a_bottle" }
@@ -107,17 +103,6 @@
 			item: {
 				Count: 1
 				id: "artifacts:scarf_of_invisibility"
-				tag: {
-					affix_data: {
-						sockets: 1
-					}
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "artifacts:lucky_scarf"
 				tag: {
 					affix_data: {
 						sockets: 1

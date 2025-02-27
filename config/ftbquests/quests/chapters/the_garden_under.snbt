@@ -10,6 +10,11 @@
 	quests: [
 		{
 			id: "4C6F949FFA715364"
+			rewards: [{
+				id: "01E7B1B825C0336C"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Now requires material from the Aether"
 			tasks: [{
 				id: "2DE60313C6484CEE"
@@ -65,6 +70,11 @@
 		{
 			dependencies: ["48E0E1A14FB2B977"]
 			id: "018570DD4BB7DE24"
+			rewards: [{
+				id: "33A200381543A344"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "472ABA5B85358962"
 				item: "undergarden:raw_cloggrum"
@@ -76,6 +86,11 @@
 		{
 			dependencies: ["018570DD4BB7DE24"]
 			id: "2BE179E3CB62EC60"
+			rewards: [{
+				id: "494B2D024D907515"
+				item: "kubejs:coin_undergarden"
+				type: "item"
+			}]
 			tasks: [{
 				id: "38D1D570FA3B2873"
 				item: "undergarden:cloggrum_ingot"
@@ -87,6 +102,11 @@
 		{
 			dependencies: ["2BE179E3CB62EC60"]
 			id: "323B957615CD18E2"
+			rewards: [{
+				id: "079E7B994B53BA04"
+				item: "kubejs:coin_undergarden"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1AA463CF561ADF2F"
@@ -138,18 +158,39 @@
 		}
 		{
 			dependencies: ["48E0E1A14FB2B977"]
+			description: [
+				"&eRegalium Crystals&r are rare minerals that are used primarily for trading with &2Stoneborns&r and as crafting component in &6Embers&r recipes."
+				""
+				"&eRegalium crystals&r can be obtained by:"
+				"- trading various items with the &2Stoneborn&r"
+				""
+				"- mining using an iron equivalent or better pickaxe (fortune effect will apply)"
+				""
+				"- finding in &2Undergarden&r Catacombs chests"
+			]
 			id: "3E8D81625369E9E9"
+			rewards: [{
+				id: "5A660CBA2DFF9D48"
+				item: "kubejs:coin_undergarden"
+				type: "item"
+			}]
 			tasks: [{
 				id: "621F5FEFF40A47C2"
 				item: "undergarden:regalium_crystal"
 				type: "item"
 			}]
+			title: "&eRegalium Crystals&r"
 			x: 1.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["48E0E1A14FB2B977"]
 			id: "4A455CCEEE973422"
+			rewards: [{
+				id: "749C044238E1FC8C"
+				item: "kubejs:coin_undergarden"
+				type: "item"
+			}]
 			tasks: [{
 				id: "21C61D4F8ECF2B57"
 				item: "undergarden:forgotten_ingot"
@@ -172,6 +213,11 @@
 		{
 			dependencies: ["28413C0BD4F59A16"]
 			id: "6021E7E3254ACF31"
+			rewards: [{
+				id: "63CDBC9B56B400BD"
+				item: "kubejs:coin_undergarden"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5D1EA1E30E9F5EF0"
 				item: "undergarden:froststeel_ingot"
@@ -183,6 +229,11 @@
 		{
 			dependencies: ["27654986081EFE73"]
 			id: "658339B2ABB5FB34"
+			rewards: [{
+				id: "2625BADE41940AAE"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "45D22FD41241618E"
 				item: "undergarden:shard_torch"
@@ -242,6 +293,11 @@
 		{
 			dependencies: ["0B5EF31B3DBC9DE2"]
 			id: "0E49B77DE8AF8D29"
+			rewards: [{
+				id: "24CC3724B998E5D3"
+				item: "aquaculture:lockbox"
+				type: "item"
+			}]
 			tasks: [{
 				id: "42CB233D2C470253"
 				item: "undergarden:blisterberry"
@@ -269,18 +325,11 @@
 		{
 			dependencies: ["37083F3C9F54C566"]
 			id: "0B5EF31B3DBC9DE2"
-			rewards: [
-				{
-					id: "5F107353ABE9AB7E"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "5C00A99399E5AAEF"
-					item: "nameless_trinkets:tick"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5C00A99399E5AAEF"
+				item: "nameless_trinkets:tick"
+				type: "item"
+			}]
 			tasks: [{
 				id: "39B1D0468DB957ED"
 				item: "undergarden:mogmoss"
@@ -292,22 +341,27 @@
 		{
 			dependencies: ["37083F3C9F54C566"]
 			id: "703849AAE5F2D4BC"
+			rewards: [{
+				id: "0C6D041E5B7067DC"
+				item: "kubejs:coin_undergarden"
+				type: "item"
+			}]
 			tasks: [{
 				id: "56B813460A38BA2C"
 				item: "undergarden:droopvine_item"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -2.0d
+			x: 1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["07114E47F767CBB4"]
 			dependency_requirement: "all_started"
 			id: "24BD242ECF4E943A"
 			rewards: [{
-				id: "13446F168BDFF251"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "55B7068AFA5C195E"
+				item: "kubejs:coin_undergarden"
+				type: "item"
 			}]
 			tasks: [{
 				id: "5A9A3F4AC43D221C"
@@ -322,9 +376,9 @@
 			dependency_requirement: "all_started"
 			id: "760DC5559AB33E17"
 			rewards: [{
-				id: "5E5C4E7CF1F152AC"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "099D206AA4C4E53C"
+				item: "kubejs:coin_undergarden"
+				type: "item"
 			}]
 			tasks: [{
 				id: "0916E7A253CFE8F7"
@@ -339,9 +393,9 @@
 			dependency_requirement: "all_started"
 			id: "091975CE7D583E34"
 			rewards: [{
-				id: "1E1D04CB7A17FB1B"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "73FE5025D899F256"
+				item: "kubejs:coin_undergarden"
+				type: "item"
 			}]
 			tasks: [{
 				id: "3CA5706B80048326"
@@ -356,9 +410,9 @@
 			dependency_requirement: "all_started"
 			id: "483F411F5D478DBA"
 			rewards: [{
-				id: "5C5C0887C36E6143"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "2158B4710CD3BFF8"
+				item: "kubejs:coin_undergarden"
+				type: "item"
 			}]
 			tasks: [{
 				id: "4F3396878253753A"
@@ -371,18 +425,11 @@
 		{
 			dependencies: ["0B5EF31B3DBC9DE2"]
 			id: "0CF99C9FC38B1ED2"
-			rewards: [
-				{
-					id: "776A1991EFA0B014"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "06007DCFA365BC53"
-					item: "aquaculture:box"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "06007DCFA365BC53"
+				item: "aquaculture:box"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6050DC2E3686068C"
 				item: "undergarden:mogmoss_rug"
@@ -394,18 +441,11 @@
 		{
 			dependencies: ["0B5EF31B3DBC9DE2"]
 			id: "29198808C005A0FA"
-			rewards: [
-				{
-					id: "25E758B0DA7BBDB4"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "64512CFB13713140"
-					item: "aquaculture:box"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "64512CFB13713140"
+				item: "aquaculture:box"
+				type: "item"
+			}]
 			tasks: [{
 				id: "685D2B1C70D2F210"
 				item: "undergarden:depthrock_bed"
@@ -433,6 +473,11 @@
 		{
 			dependencies: ["4A455CCEEE973422"]
 			id: "113ADEE783C3B34A"
+			rewards: [{
+				id: "7ABC13C200C10328"
+				item: "kubejs:coin_undergarden"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2526E202F20807A2"
 				item: {
@@ -450,6 +495,11 @@
 		{
 			dependencies: ["4A455CCEEE973422"]
 			id: "00723ECE71700C83"
+			rewards: [{
+				id: "1295D91DB4EC6070"
+				item: "kubejs:coin_undergarden"
+				type: "item"
+			}]
 			tasks: [{
 				id: "52F2EB9493B1065B"
 				item: {
@@ -471,6 +521,11 @@
 		{
 			dependencies: ["4A455CCEEE973422"]
 			id: "7613B36490A0BCBF"
+			rewards: [{
+				id: "79EC9388BE61714C"
+				item: "kubejs:coin_undergarden"
+				type: "item"
+			}]
 			tasks: [{
 				id: "379D08C4035C9454"
 				item: {
@@ -488,6 +543,11 @@
 		{
 			dependencies: ["27654986081EFE73"]
 			id: "55A4EF2BD2B47F6F"
+			rewards: [{
+				id: "4156CD63CDAF43BA"
+				item: "kubejs:coin_undergarden"
+				type: "item"
+			}]
 			tasks: [{
 				id: "07566FE8FF4A26D5"
 				item: "undergarden:utherium_crystal"
@@ -499,6 +559,11 @@
 		{
 			dependencies: ["6021E7E3254ACF31"]
 			id: "08EB7BF28317474D"
+			rewards: [{
+				id: "45C533A09397430A"
+				item: "kubejs:coin_undergarden"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4C8F69A011F32082"
@@ -551,6 +616,11 @@
 		{
 			dependencies: ["2BE179E3CB62EC60"]
 			id: "247E3AE1E4DE8A8A"
+			rewards: [{
+				id: "1BE69EF440BA05D2"
+				item: "kubejs:coin_undergarden"
+				type: "item"
+			}]
 			tasks: [{
 				id: "15B1C354277FE306"
 				item: {
@@ -568,6 +638,11 @@
 		{
 			dependencies: ["2BE179E3CB62EC60"]
 			id: "70D0D5AD9E8408EF"
+			rewards: [{
+				id: "05937605821A7C90"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "41124350370BC311"
 				item: "undergarden:cloggrum_lantern"
@@ -579,6 +654,11 @@
 		{
 			dependencies: ["2C08D45277284F90"]
 			id: "07114E47F767CBB4"
+			rewards: [{
+				id: "694340D8E6A8F7D4"
+				item: "kubejs:coin_undergarden"
+				type: "item"
+			}]
 			subtitle: "Collect every type of plant"
 			tasks: [
 				{
@@ -644,6 +724,11 @@
 		{
 			dependencies: ["37083F3C9F54C566"]
 			id: "48E0E1A14FB2B977"
+			rewards: [{
+				id: "147DC118550623C2"
+				item: "aquaculture:lockbox"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0F8F83231D606524"
@@ -667,6 +752,11 @@
 		{
 			dependencies: ["37083F3C9F54C566"]
 			id: "2C08D45277284F90"
+			rewards: [{
+				id: "78D844A50CC35344"
+				item: "aquaculture:lockbox"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "171E50DA3A571A3F"
@@ -686,6 +776,17 @@
 		{
 			dependencies: ["4C6F949FFA715364"]
 			id: "37083F3C9F54C566"
+			rewards: [{
+				id: "103560D1D57FC2F3"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:night_vision"
+					}
+				}
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "The forgotten land awaits..."
 			tasks: [{
@@ -701,11 +802,19 @@
 			dependencies: ["4A455CCEEE973422"]
 			description: ["This size of Titanite allows you to upgrade your weapons from +9 to +10."]
 			id: "601C7F98E5B151F5"
-			rewards: [{
-				id: "0C867F0018B91222"
-				item: "undergarden:regalium_block"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "4797D155F98F52BD"
+					item: "undergarden:regalium_crystal"
+					type: "item"
+				}
+				{
+					id: "70FD55C8F1B792B8"
+					item: "kubejs:coin_undergarden"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6232106827E50A43"
 				item: "bonfires:titanite_slab"
@@ -713,6 +822,62 @@
 			}]
 			x: 5.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["37083F3C9F54C566"]
+			description: [
+				"The &2Stoneborn&r is a neutral mob native to The Undergarden"
+				""
+				"The &2Stoneborn&r wanders around slowly and will look at other entities and players. If a player interacts with a Stoneborn, a trade will be initiated. If attacked, it will become hostile and will call for help from other Stoneborn. If a Stoneborn is outside of the Undergarden for more than 15 seconds, it will explode, killing itself and destroying a small amount of land."
+			]
+			id: "629F133245A4661F"
+			rewards: [
+				{
+					id: "760E7FCF25988D15"
+					item: "undergarden:regalium_crystal"
+					type: "item"
+				}
+				{
+					id: "151C1FF2B888FEAB"
+					item: "kubejs:coin_undergarden"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "undergarden:dense_forest"
+					id: "23C6CD07C79B5DEB"
+					optional_task: true
+					type: "biome"
+				}
+				{
+					biome: "undergarden:forgotten_field"
+					id: "21162EF7968A736A"
+					optional_task: true
+					type: "biome"
+				}
+				{
+					biome: "undergarden:smogstem_forest"
+					id: "420DA349DF3416EC"
+					optional_task: true
+					type: "biome"
+				}
+				{
+					biome: "undergarden:wigglewood_forest"
+					id: "65FF9DB3AA207091"
+					optional_task: true
+					type: "biome"
+				}
+				{
+					advancement: "undergarden:undergarden/stoneborn_trade"
+					criterion: ""
+					id: "25EE37BDBDFBF1BC"
+					type: "advancement"
+				}
+			]
+			title: "Find Stoneborn"
+			x: 3.0d
+			y: -2.0d
 		}
 	]
 	title: "&2The Garden Under&r"

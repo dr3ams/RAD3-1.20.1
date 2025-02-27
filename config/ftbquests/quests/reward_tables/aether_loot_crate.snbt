@@ -209,6 +209,36 @@
 		{ count: 8, item: "ancient_aether:ambrosium_lantern" }
 		{ count: 8, item: "ancient_aether:wynd_lantern" }
 		{ count: 8, item: "ancient_aether:sun_lantern" }
+		{ item: "apotheosis:rare_material" }
+		{ item: "apotheosis:common_material" }
+		{ item: "l2hostility:hostility_orb" }
+		{ count: 2, item: "apotheosis:gem_dust", random_bonus: 3 }
+		{ item: "apotheosis:uncommon_material" }
+		{ item: "ars_nouveau:magebloom" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "ars_nouveau:mana_regen_potion_strong"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "ars_nouveau:spell_damage_potion_strong"
+				}
+			}
+		}
+		{ item: "ars_nouveau:abjuration_essence" }
+		{ item: "ars_nouveau:fire_essence" }
+		{ item: "ars_nouveau:earth_essence" }
+		{ item: "ars_nouveau:starbuncle_shards" }
+		{ item: "ars_nouveau:source_gem" }
+		{ count: 8, item: "ars_nouveau:sourceberry_bush" }
 	]
 	title: "Aether Loot Crate"
 }

@@ -731,8 +731,8 @@ ServerEvents.recipes((event) => {
 	P: 'minecraft:purple_dye',
 	B: 'minecraft:book'
   });
-
-  event.shaped(
+	
+	event.shaped(
   Item.of('cataclysm:black_steel_fence', 3), [
     'IRI',
     'IRI'
@@ -782,7 +782,7 @@ ServerEvents.recipes((event) => {
   event.stonecutting('cataclysm:void_lantern_block', 'cataclysm:void_stone')
   event.stonecutting('cataclysm:void_crystal', 'cataclysm:void_stone')
   event.stonecutting('cataclysm:pointed_icicle', 'minecraft:ice')
-
+	
   event.shaped('mining_dimension:teleporter', [
     'ABC',
     'DEF',
@@ -813,6 +813,14 @@ ServerEvents.recipes((event) => {
 	H: 'aether_redux:gravitite_ingot',
 	I: 'hmag:ancient_stone'
   });	
+  
+    event.shaped('kubejs:essence_monster_raw', [
+		'AAA',
+		'AAA',
+		'AAA'
+    ],{
+	A: 'kubejs:essence_monster'
+	});
   
   event.blasting('cataclysm:black_steel_ingot', 'graveyard:dark_iron_ingot');
   event.blasting('aquaculture:neptunium_ingot', 'aquaculture:neptunes_bounty');
@@ -985,7 +993,6 @@ ServerEvents.recipes((event) => {
   compressRecipe("kubejs:coin_04", "kubejs:coin_03", true);
   compressRecipe("kubejs:coin_05", "kubejs:coin_04", true);
   compressRecipe("kubejs:coin_06", "kubejs:coin_05", true);
-  compressRecipe("cataclysm:black_steel_block", "cataclysm:black_steel_ingot", true);
 
   event.shapeless("ars_nouveau:ritual_awakening", [
     "ars_nouveau:green_archwood_log",
@@ -1061,7 +1068,7 @@ ServerEvents.recipes((event) => {
   
 	event.shapeless('2x kubejs:dust_experience', [
     'kubejs:portable_dissolver',
-    'tetra:pristine_lapis'
+    'minecraft:lapis_lazuli'
 	]).damageIngredient(Item.of('kubejs:portable_dissolver'))
   
 	event.shapeless('kubejs:dust_experience', [

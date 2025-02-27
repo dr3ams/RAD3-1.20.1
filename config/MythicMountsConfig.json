@@ -11,9 +11,9 @@
         "disableUiOverlay": false,
         "mobCap": 16,
         "mobCapRange": 192,
-        "speedRange": .9,
+        "speedRange": 0.9,
         "healthRange": 10,
-        "jumpRange": .6
+        "jumpRange": 0.6
     },
     "itemGroups": {
         "flowerItems": ["sugar", "dandelion", "poppy", "blue_orchid", "allium", "azure_bluet", "red_tulip", "orange_tulip", "white_tulip", "pink_tulip", "oxeye_daisy", "cornflower", "lily_of_the_valley", "lilac", "rose_bush", "peony", "flowering_azalea_leaves"],
@@ -42,7 +42,7 @@
     },
     "spawnCategories": {
         "CourierBirdSpawnSettings": {
-            "shouldSpawn": true,
+            "shouldSpawn": false,
             "spawnDebug": false,
             "spawnRandomChance": 100,
             "chunkFreq": 0,
@@ -58,7 +58,7 @@
             "spawnType": "overworld"
         },
         "DragonSpawnSettings": {
-            "shouldSpawn": true,
+            "shouldSpawn": false,
             "spawnDebug": false,
             "spawnRandomChance": 100,
             "chunkFreq": 0,
@@ -67,7 +67,7 @@
             "maxIn256Region": 1
         },
         "GriffonSpawnSettings": {
-            "shouldSpawn": true,
+            "shouldSpawn": false,
             "spawnDebug": false,
             "spawnYCeiling": 50000,
             "spawnYFloor": 100,
@@ -88,7 +88,7 @@
             "maxIn256Region": 2
         },
         "MothSpawnSettings": {
-            "shouldSpawn": true,
+            "shouldSpawn": false,
             "spawnDebug": false,
             "spawnRandomChance": 70,
             "chunkFreq": 0,
@@ -96,7 +96,7 @@
             "spawnType": "overworld"
         },
         "ColelytraSpawnSettings": {
-            "shouldSpawn": true,
+            "shouldSpawn": false,
             "spawnDebug": false,
             "spawnRandomChance": 100,
             "chunkFreq": 0,
@@ -104,7 +104,7 @@
             "spawnType": "overworld"
         },
         "NetherBatSpawnSettings": {
-            "shouldSpawn": true,
+            "shouldSpawn": false,
             "spawnDebug": false,
             "spawnRandomChance": 100,
             "chunkFreq": 1,

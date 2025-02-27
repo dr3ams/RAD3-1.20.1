@@ -110,6 +110,18 @@
 			dependencies: ["04576ACE03218FEC"]
 			description: ["According to ancient tales, the Aether was born from the very essence of the skies, where the purest of energies converged to create a realm untouched by the chaos of the Overworld. It is a place of light and tranquility, where floating islands, ethereal forests, and radiant structures adorn the celestial landscape."]
 			id: "0B6E47092E441BC0"
+			rewards: [
+				{
+					id: "4E998856C14F46BA"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "2EC5B6AF9604F22C"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
 			subtitle: "&9&nThe Origins&r&r"
 			tasks: [
 				{
@@ -213,6 +225,11 @@
 				"4B3F906E389F88B7"
 			]
 			id: "079DFC0E41D92241"
+			rewards: [{
+				id: "74EF99512611753B"
+				item: "kubejs:coin_aether"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4FB1F9EE8D069667"
 				item: "deep_aether:stratus_ingot"
@@ -223,6 +240,11 @@
 		}
 		{
 			id: "4B3F906E389F88B7"
+			rewards: [{
+				id: "13E030246509BB92"
+				item: "kubejs:coin_aether"
+				type: "item"
+			}]
 			tasks: [{
 				id: "48F9D09D905DC3EA"
 				item: "deep_aether:skyjade"
@@ -234,6 +256,11 @@
 		{
 			dependencies: ["3173DC3B54DD3BDB"]
 			id: "5FA2B6E76BD78E36"
+			rewards: [{
+				id: "3C9F5E586BFF44EE"
+				item: "kubejs:coin_aether"
+				type: "item"
+			}]
 			tasks: [{
 				id: "61FECF8098F02B44"
 				item: "aether_redux:gravitite_ingot"
@@ -244,6 +271,11 @@
 		}
 		{
 			id: "63E2678085E3BF1C"
+			rewards: [{
+				id: "79D006303BB593FB"
+				item: "kubejs:coin_aether"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1018D2E636B4F28D"
 				item: "deep_aether:chromatic_aercloud"
@@ -291,6 +323,11 @@
 		{
 			dependencies: ["3BEB71D044190B8F"]
 			id: "674277FB46A8D8D9"
+			rewards: [{
+				id: "38BB16647C26CD4B"
+				item: "kubejs:coin_aether"
+				type: "item"
+			}]
 			subtitle: "Incubate a Moa egg"
 			tasks: [{
 				advancement: "aether:incubate_moa"
@@ -304,6 +341,29 @@
 		{
 			dependencies: ["357D3ED968C0B60C"]
 			id: "6A8893C1A5005724"
+			rewards: [
+				{
+					id: "7094DB55AA948C98"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "02CEBFE18819E1E0"
+					item: "ars_nouveau:greater_experience_gem"
+					type: "item"
+				}
+				{
+					id: "5D7264947CE43405"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_slow_falling"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "295492944144E1BB"
 				item: "aether:ambrosium_shard"
@@ -318,6 +378,11 @@
 				"6A8893C1A5005724"
 			]
 			id: "3173DC3B54DD3BDB"
+			rewards: [{
+				id: "43B454043B139058"
+				item: "ars_nouveau:greater_experience_gem"
+				type: "item"
+			}]
 			tasks: [{
 				id: "25FB49DD0905E793"
 				item: "aether:altar"
@@ -329,6 +394,18 @@
 		{
 			dependencies: ["357D3ED968C0B60C"]
 			id: "3261AA84DF4E4E12"
+			rewards: [
+				{
+					id: "5E903439D1E8E0A5"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "6F08F89F36868DF0"
+					item: "landsoficaria:anti_gravity_flask"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
@@ -353,20 +430,27 @@
 				}
 			}
 			id: "233AEE1DF9117A05"
-			rewards: [{
-				id: "0D9B5ED48964DB31"
-				item: {
-					Count: 1
-					id: "deep_aether:gravitite_ring"
-					tag: {
-						Damage: 0
-						affix_data: {
-							sockets: 1
+			rewards: [
+				{
+					id: "0D9B5ED48964DB31"
+					item: {
+						Count: 1
+						id: "deep_aether:gravitite_ring"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7A1CBC51769C3B37"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "5DDDDE056BBBF104"
@@ -430,11 +514,18 @@
 		}
 		{
 			id: "08067422126C49AF"
-			rewards: [{
-				id: "38319BB3E5653DFB"
-				item: "nameless_trinkets:ice_cube"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "78432321EA9993E3"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "4BC4A1BFAC266639"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
@@ -447,6 +538,18 @@
 		}
 		{
 			id: "39F8D249768715BE"
+			rewards: [
+				{
+					id: "5F48A63E92177966"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "13DCC7E1A6517EAA"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "2E4B99FD53AED4AE"
@@ -464,11 +567,18 @@
 		}
 		{
 			id: "643083A83E5B9B18"
-			rewards: [{
-				id: "0FA10ECA5AD340C3"
-				item: "nameless_trinkets:speed_force"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "647C3A9952FA68A2"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "7E4DDDC888A09742"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 1.5d
 			subtitle: "A reflective key that is given to you by the Valkyrie Queen after defeating her. Use it to claim the treasure she left behind!"
@@ -482,11 +592,18 @@
 		}
 		{
 			id: "4167FEC4F9A0252C"
-			rewards: [{
-				id: "59F2611718B577FE"
-				item: "nameless_trinkets:explosion_proof_jacket"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7D39F223331F40B9"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "5794CCF40E62606B"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 1.5d
 			subtitle: "A key that has a shiny finish. It is dropped by the Sun Spirit after you defeat him. You can use it to claim the legendary treasure in the back room!"
@@ -517,6 +634,18 @@
 		}
 		{
 			id: "0A9462330AE2B8EF"
+			rewards: [
+				{
+					id: "3954C41552CD4A43"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "649E013B036AA548"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.0d
 			tasks: [{
@@ -538,6 +667,18 @@
 		}
 		{
 			id: "3D7E1C891CAEB7E5"
+			rewards: [
+				{
+					id: "481067B3114CE6B6"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "37254410B88A56B4"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "53F772C9C1BD1967"
@@ -555,6 +696,18 @@
 		}
 		{
 			id: "4DEB1956180D3C61"
+			rewards: [
+				{
+					id: "34F4C20693AB7249"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "0DDABDE0FA40588D"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "2FEADB53CE1CCA8F"
@@ -572,6 +725,18 @@
 		}
 		{
 			id: "4FBD00CBE6F39027"
+			rewards: [
+				{
+					id: "1EB32CB51AA1FC9E"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "442665F46559494E"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "0440093E482E3C9A"
@@ -589,6 +754,18 @@
 		}
 		{
 			id: "2B0649FBCDF189B5"
+			rewards: [
+				{
+					id: "6345790EDB4D4FE3"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "597F23D885AF2C5F"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			subtitle: "This shield seems to be ancient sentry technology."
 			tasks: [{
@@ -607,6 +784,18 @@
 		}
 		{
 			id: "0D12DFA2D267AA47"
+			rewards: [
+				{
+					id: "55C998C98A5D9516"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "313A9887816A28C8"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "03E59D4EC42798B6"
@@ -624,6 +813,18 @@
 		}
 		{
 			id: "1E1D119DBF1BE50F"
+			rewards: [
+				{
+					id: "71A7735F076FE98A"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "458130A685E73881"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "3FF0ACBCBD11D7AD"
@@ -641,6 +842,18 @@
 		}
 		{
 			id: "3C737311F7CDC419"
+			rewards: [
+				{
+					id: "3BD774173887ECD9"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "2002E59998029981"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "3844AC494F64965C"
@@ -660,6 +873,11 @@
 			dependencies: ["04576ACE03218FEC"]
 			description: ["Resembling fluffy clouds, Sheepuff are docile creatures that roam the Aether's landscape. They can be sheared for wool just like an ordinary sheep."]
 			id: "2F147D07C676520B"
+			rewards: [{
+				id: "390BF68724D34FD8"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
 			tasks: [{
 				icon: "collectorsalbum:common_sheep_card"
 				id: "3D964C00336B8295"
@@ -673,6 +891,18 @@
 		}
 		{
 			id: "7F6E9A4C601CA13F"
+			rewards: [
+				{
+					id: "781B87E319B8ACF4"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "5947A85FFD3C233F"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.0d
 			tasks: [{
@@ -685,6 +915,18 @@
 		}
 		{
 			id: "29620F40472C9BB4"
+			rewards: [
+				{
+					id: "680C51625F3139A7"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "56F2455C1139383A"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.0d
 			tasks: [{
@@ -701,6 +943,18 @@
 		}
 		{
 			id: "0B0AB8C2C9CBE5B6"
+			rewards: [
+				{
+					id: "67248E63F020DB2A"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "103550134E7728DC"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "1CAF2C336836B1B1"
@@ -712,6 +966,18 @@
 		}
 		{
 			id: "4E11F34EF194B62D"
+			rewards: [
+				{
+					id: "6A984F107C22C38B"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "7826BD3864394D3A"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "60D9980F86BBA770"
@@ -729,6 +995,18 @@
 		}
 		{
 			id: "3FE975DF793F4C79"
+			rewards: [
+				{
+					id: "48D694CA52D80C9D"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "16B77FA4A2345504"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "39958717469D15BF"
@@ -748,9 +1026,9 @@
 					type: "item"
 				}
 				{
-					id: "604B94E13094A7F4"
-					type: "xp_levels"
-					xp_levels: 5
+					id: "70244968FBB0DFC4"
+					type: "xp"
+					xp: 500
 				}
 			]
 			shape: "diamond"
@@ -779,9 +1057,9 @@
 					type: "item"
 				}
 				{
-					id: "66187229083EE585"
-					type: "xp_levels"
-					xp_levels: 5
+					id: "5FB24C3EDE154C17"
+					type: "xp"
+					xp: 500
 				}
 			]
 			shape: "diamond"
@@ -804,9 +1082,9 @@
 					type: "item"
 				}
 				{
-					id: "1D2B82030EB7FA6E"
-					type: "xp_levels"
-					xp_levels: 5
+					id: "65CFB559C7583A2A"
+					type: "xp"
+					xp: 500
 				}
 			]
 			shape: "diamond"
@@ -870,6 +1148,18 @@
 		{
 			description: ["using this as a weapon looks funny because the sprite is sideways"]
 			id: "23E510849CE1FC8D"
+			rewards: [
+				{
+					id: "2EC3D1C9AF74279E"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "10624D34A4A88846"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "3801F3F1FB1EAD3B"
@@ -887,6 +1177,18 @@
 		}
 		{
 			id: "00E725158903352D"
+			rewards: [
+				{
+					id: "3971010070A711A4"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "4F4D2F4617840953"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [
 				{
@@ -963,6 +1265,18 @@
 		{
 			dependencies: ["0B6E47092E441BC0"]
 			id: "6A2394A0646AE1D0"
+			rewards: [
+				{
+					id: "7283F16A0AA1CAE2"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "368A626C9D85C3D3"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
 			subtitle: "Collect every Aether sapling"
 			tasks: [
 				{
@@ -1043,6 +1357,11 @@
 		{
 			dependencies: ["6A8893C1A5005724"]
 			id: "37B6920A888292EA"
+			rewards: [{
+				id: "78A21E33DE277467"
+				item: "kubejs:coin_aether"
+				type: "item"
+			}]
 			subtitle: "Infuse a Veridium tool or weapon by right-clicking it with Ambrosium Shard"
 			tasks: [{
 				advancement: "aether_redux:infuse_veridium"
@@ -1056,6 +1375,18 @@
 		{
 			dependencies: ["0B6E47092E441BC0"]
 			id: "2E3AFFEFE62D990F"
+			rewards: [
+				{
+					id: "5D32E09BC9247ADE"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "3C1032C7C1EDD7CA"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
 			subtitle: "Collect every Aether flower"
 			tasks: [
 				{
@@ -1182,20 +1513,32 @@
 			dependencies: ["079DFC0E41D92241"]
 			description: ["The Stratus armor keeps the high jump of the Gravitite armor, and also gives a dash."]
 			id: "15A40EE1540457A3"
-			rewards: [{
-				id: "7DA25CED9068DFE9"
-				item: {
-					Count: 1
-					id: "deep_aether:stratus_ring"
-					tag: {
-						Damage: 0
-						affix_data: {
-							sockets: 1
+			rewards: [
+				{
+					id: "7DA25CED9068DFE9"
+					item: {
+						Count: 1
+						id: "deep_aether:stratus_ring"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6C7937F6B8A3F524"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "36160FB2F1820CEA"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "7B8A9BCF1BBD5030"
@@ -1258,6 +1601,18 @@
 		}
 		{
 			id: "70E7688FC6916F87"
+			rewards: [
+				{
+					id: "19E8163E7534CB7E"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "2292AAEF10011CEF"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "27A3F5054A36E29F"
@@ -1270,6 +1625,18 @@
 		{
 			dependencies: ["3173DC3B54DD3BDB"]
 			id: "13F03A5D89E4C30F"
+			rewards: [
+				{
+					id: "1EDF6CF4A09BE99C"
+					item: "ars_nouveau:greater_experience_gem"
+					type: "item"
+				}
+				{
+					id: "6293B317A6FAB1B5"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+			]
 			subtitle: "Obtained from enchanting Holystone"
 			tasks: [{
 				id: "7B27E32C1B34BC03"
@@ -1281,6 +1648,18 @@
 		}
 		{
 			id: "1863FA8D3770A396"
+			rewards: [
+				{
+					id: "6769A686F8497041"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "045B704A3824CFC1"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "50925BE5EEC1B490"
@@ -1292,6 +1671,18 @@
 		}
 		{
 			id: "414610BAA4D63201"
+			rewards: [
+				{
+					id: "5BE70181798C790A"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "2D35DE6783B0C857"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "10160CC745CF4C93"
@@ -1303,6 +1694,18 @@
 		}
 		{
 			id: "354EC46A209B3A85"
+			rewards: [
+				{
+					id: "564C2041ACCF8135"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "2B85F1CC84C9B9F6"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "59AEFF6C05A28B3B"
@@ -1314,6 +1717,18 @@
 		}
 		{
 			id: "472B2DD91C80D31C"
+			rewards: [
+				{
+					id: "3DC75EDADF5033CA"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "77A8F769D176900B"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "5DC2E2B8FB7C23E3"
@@ -1325,6 +1740,18 @@
 		}
 		{
 			id: "5832BF00547EA4C6"
+			rewards: [
+				{
+					id: "0E1E26A258D7F0A3"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "5F62580D2836E0DB"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "310D3EC98A4ECE66"
@@ -1336,6 +1763,18 @@
 		}
 		{
 			id: "01486283D240959E"
+			rewards: [
+				{
+					id: "7B238D872275BE8E"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "3C7E4D5761F72BBF"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "1525F83DFA6C8263"
@@ -1348,6 +1787,11 @@
 		{
 			dependencies: ["357D3ED968C0B60C"]
 			id: "047FB6BC7E8AEF3B"
+			rewards: [{
+				id: "28CC2CFF276E507E"
+				item: "kubejs:coin_aether"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2AC93D84308C5FB1"
 				structure: "deep_aether:lake_oasis"
@@ -1359,6 +1803,11 @@
 		{
 			dependencies: ["04576ACE03218FEC"]
 			id: "3D59F7AAF729DA6D"
+			rewards: [{
+				id: "0142825CFBADF8A6"
+				item: "kubejs:coin_aether"
+				type: "item"
+			}]
 			tasks: [{
 				icon: "aether:zephyr_spawn_egg"
 				id: "39A5FFC78A8C9C6B"
@@ -1373,6 +1822,11 @@
 		{
 			dependencies: ["04576ACE03218FEC"]
 			id: "24C570E6CC4E6A09"
+			rewards: [{
+				id: "49DADEBCC2D9216A"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
 			tasks: [{
 				icon: "aether:aerwhale_spawn_egg"
 				id: "7CCD7ECBE2553E6F"
@@ -1397,6 +1851,18 @@
 		}
 		{
 			id: "44A23A923018CEFE"
+			rewards: [
+				{
+					id: "1D021C5410518D3B"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "1E91FB179BCE3F8A"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "48EC8D42DE56AC6A"
@@ -1425,6 +1891,18 @@
 		}
 		{
 			id: "7F4E6F49552DCAE7"
+			rewards: [
+				{
+					id: "5A448380000C5B4F"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "01700ACAC5393238"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "0BA1351784EE3958"
@@ -1458,6 +1936,18 @@
 		}
 		{
 			id: "63813B7783C6B9CF"
+			rewards: [
+				{
+					id: "1583854F5F7DA731"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "3856E5F5F4CFC480"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0C1DCD8B507992CB"
 				item: "aether:ambrosium_block"
@@ -1468,6 +1958,18 @@
 		}
 		{
 			id: "509F3C65485E0729"
+			rewards: [
+				{
+					id: "611A4B317992FDD2"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "56B01C743D31A182"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "750853740DD691E8"
 				item: "aether:zanite_block"
@@ -1478,6 +1980,18 @@
 		}
 		{
 			id: "7071A4417DFFD4B5"
+			rewards: [
+				{
+					id: "2BA5053D81CE2D76"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "6F101E288DAF8558"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6F1CAEC7907C7A1B"
 				item: "aether_redux:veridium_block"
@@ -1488,6 +2002,18 @@
 		}
 		{
 			id: "1A391520AE850E13"
+			rewards: [
+				{
+					id: "179CF6BA40AF7B6E"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "451356A3287C7EA0"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4EFDC9FFDBA3079C"
 				item: "deep_aether:skyjade_block"
@@ -1498,6 +2024,18 @@
 		}
 		{
 			id: "3A120543B6135681"
+			rewards: [
+				{
+					id: "776598609904CAB4"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "4F16957C6E65A313"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0B8DF21E59BCF4C8"
 				item: "aether_redux:gravitite_block"
@@ -1508,6 +2046,18 @@
 		}
 		{
 			id: "40FE770B04AF0EFD"
+			rewards: [
+				{
+					id: "30313D841EDC262D"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "4A76F29E4FE491E2"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1876BDED7473D4F0"
 				item: "ancient_aether:valkyrum_block"
@@ -1518,6 +2068,18 @@
 		}
 		{
 			id: "6C83F0D214D7889B"
+			rewards: [
+				{
+					id: "048F1FFB2630C458"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "371FEF6E1E23D177"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "46F3B991D328E49C"
 				item: "deep_aether:stratus_block"
@@ -1528,6 +2090,18 @@
 		}
 		{
 			id: "3D7CF29EDE81DD87"
+			rewards: [
+				{
+					id: "668ED10A60D5D2FE"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "4542E564B3312BA5"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "1D64FA40CCB365EC"
@@ -1539,6 +2113,18 @@
 		}
 		{
 			id: "066F5F35C2E89347"
+			rewards: [
+				{
+					id: "12FD1ADEC4028699"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "3783A539DD0D842C"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "376FD4FD6C831219"
 				item: "aether_redux:refined_sentrite_block"
@@ -1557,9 +2143,9 @@
 					type: "item"
 				}
 				{
-					id: "6CE2BFD1A39C25C0"
-					type: "xp_levels"
-					xp_levels: 5
+					id: "54155A1893DDBE99"
+					type: "xp"
+					xp: 500
 				}
 			]
 			shape: "diamond"
@@ -1574,6 +2160,18 @@
 		}
 		{
 			id: "42D43DB30E1A1A86"
+			rewards: [
+				{
+					id: "6B7AFC3C5FBB8EBC"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "564BDB98F371CB8B"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "1DE99CDA47E9DA1E"
@@ -1585,6 +2183,18 @@
 		}
 		{
 			id: "0025237D625DAACA"
+			rewards: [
+				{
+					id: "4CCD9BB28FC6CE34"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "01140555658F1EB8"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "3EF368BDF68359FB"
@@ -1604,6 +2214,18 @@
 		}
 		{
 			id: "2FF50A945D63D33A"
+			rewards: [
+				{
+					id: "7D0AA8C5139B9780"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "3CFB2A687951B1FA"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1676,6 +2298,18 @@
 		}
 		{
 			id: "493C2E0419F41220"
+			rewards: [
+				{
+					id: "137D78C93E48B144"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "1F11ED3C3189CD8F"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1710,6 +2344,18 @@
 		}
 		{
 			id: "0A2FF65CC6CA5FE4"
+			rewards: [
+				{
+					id: "4E4F475F45A2920D"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "237E9E392529A4BF"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "6E17249A83E9FFE5"
@@ -1732,6 +2378,18 @@
 		}
 		{
 			id: "19A0DD4B4D201DEC"
+			rewards: [
+				{
+					id: "468899AC8197661B"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "682A424D08EE9E0B"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "73DC50166DFCE984"
@@ -1754,6 +2412,18 @@
 		}
 		{
 			id: "721CD84BBAF8A7DE"
+			rewards: [
+				{
+					id: "39358D2E18E44317"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "2819CB71B96AC3AB"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "0A68F337DE31136A"
@@ -1765,6 +2435,18 @@
 		}
 		{
 			id: "3F1EF66D944F9E45"
+			rewards: [
+				{
+					id: "62BBE71A95FF1746"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "66AB9F050326BDB6"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "22299263FDD0B0C3"
@@ -1782,6 +2464,18 @@
 		}
 		{
 			id: "55CDA050ACC819AD"
+			rewards: [
+				{
+					id: "24F69C556FF28523"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "04E3A0866342FAC9"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "024D495A36C85843"
@@ -1793,6 +2487,18 @@
 		}
 		{
 			id: "5A98C9E6C8F046F2"
+			rewards: [
+				{
+					id: "52B766D917C2A0B2"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "1D655962C251D4EB"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "6B40A87494BBCF1D"
@@ -1810,6 +2516,18 @@
 		}
 		{
 			id: "3817281C7E03BCE8"
+			rewards: [
+				{
+					id: "76C2771867347026"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "1B73DA6C267BEBD6"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "797EB9103132CB67"
@@ -1830,6 +2548,18 @@
 		}
 		{
 			id: "6DEF3929C8C03AA1"
+			rewards: [
+				{
+					id: "63A5750E6F9BBBC8"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "4FA726AEC0F28917"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "5D3EBCDB670FDA5A"
@@ -1852,6 +2582,18 @@
 		}
 		{
 			id: "5EF3F213210E8F2C"
+			rewards: [
+				{
+					id: "27D6D5B0D2EC810B"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "2A7CCC9EBD6A363D"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "6EE03F261F832A93"
@@ -1863,6 +2605,18 @@
 		}
 		{
 			id: "5260D4402920AB0E"
+			rewards: [
+				{
+					id: "4208F8F67A08E30B"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "11B5ED9744CB8803"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "47B1E5A398141411"
@@ -1874,6 +2628,18 @@
 		}
 		{
 			id: "4C6460EF89C9B382"
+			rewards: [
+				{
+					id: "672663ED6729A925"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "41D13091C95C7240"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1949,6 +2715,18 @@
 		}
 		{
 			id: "34AA3708440E4D9F"
+			rewards: [
+				{
+					id: "7D8C9E170067DC9B"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "3EFA4BF9DD0AB82E"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "72D40B0942DDB53B"
@@ -1969,6 +2747,18 @@
 		}
 		{
 			id: "6F77F7CE9E364AB6"
+			rewards: [
+				{
+					id: "1CADCD1A3C68A909"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "1F9140D0E335BE62"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "3B232AE5723B1202"
@@ -1988,11 +2778,18 @@
 		}
 		{
 			id: "7989DE61CADF9467"
-			rewards: [{
-				id: "3B9B76AAD281060A"
-				item: "nameless_trinkets:wooden_stick"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "780A8AB4792C4075"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "527D00A6B3816A64"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
@@ -2006,11 +2803,23 @@
 		{
 			description: ["man i love candy canes"]
 			id: "0C2669EEAAAA6D7E"
-			rewards: [{
-				id: "1B9293C4ABA50BF0"
-				item: "simplehats:candycane"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1B9293C4ABA50BF0"
+					item: "simplehats:candycane"
+					type: "item"
+				}
+				{
+					id: "66BD2BFFC0F81FAD"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "7777D236D5CD638B"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			subtitle: "im eating a candy cane while i make these quests"
 			tasks: [{
@@ -2036,6 +2845,18 @@
 			description: ["A dimension with an unfinished final dungeon? Welcome back Twilight Forest"]
 			id: "7C1E3B2FA781C340"
 			optional: true
+			rewards: [
+				{
+					id: "3B87A8C0C048B365"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "1C52D3B38EBC786C"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 1.5d
 			subtitle: "This part of the mod is not yet finished"
@@ -2050,6 +2871,18 @@
 		{
 			id: "1C0F14A8697069DB"
 			optional: true
+			rewards: [
+				{
+					id: "1797CE970074EDFB"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "2E10D45FF9BEC86C"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [
 				{
@@ -2084,6 +2917,18 @@
 		}
 		{
 			id: "59E2164B6FF8E97F"
+			rewards: [
+				{
+					id: "5925EEEA2C3A9544"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "2516ED8315D84A03"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			subtitle: "This rune is a key used to unlock the Ancient Dungeon"
 			tasks: [{
@@ -2097,6 +2942,18 @@
 		{
 			id: "0D7E47E81BB601CF"
 			optional: true
+			rewards: [
+				{
+					id: "4ABE0D11D672285E"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "7CEF8C06FC971E70"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "02892D2AC9BDB0A4"
@@ -2119,6 +2976,18 @@
 		}
 		{
 			id: "68888F94CAE127E4"
+			rewards: [
+				{
+					id: "311E2A4406E4777D"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "17A2C40CF868F1B2"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [
 				{
@@ -2153,6 +3022,18 @@
 		}
 		{
 			id: "02CC547AA6264B50"
+			rewards: [
+				{
+					id: "0826F0AB0A966629"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "7EB390A672A58BEE"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "60034AFB74207E1F"
@@ -2175,6 +3056,18 @@
 		}
 		{
 			id: "5921D587DFA7F59A"
+			rewards: [
+				{
+					id: "05BE735488DCD39C"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "1DA74B8F601A02B3"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "15F8DF1DF6683A01"
@@ -2197,6 +3090,18 @@
 		}
 		{
 			id: "0DCF6EB06F19AA66"
+			rewards: [
+				{
+					id: "4AF5E6B571B02B9B"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "5B6021742BF17573"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "09E1B0969061A182"
@@ -2217,6 +3122,18 @@
 		}
 		{
 			id: "2FC2F0F08A028896"
+			rewards: [
+				{
+					id: "004599B2AE6FB7BC"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "77B02FB4DA210FE9"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [
 				{
@@ -2305,6 +3222,18 @@
 		}
 		{
 			id: "2AA52630F1D91DC8"
+			rewards: [
+				{
+					id: "4A6CEA37ED5146AE"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "542E024E579F885D"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [
 				{
@@ -2339,6 +3268,18 @@
 		}
 		{
 			id: "780B0FB0F027EC08"
+			rewards: [
+				{
+					id: "3B5F9B8CF83886E8"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "7A6DEFC8C6058A6E"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "03022DC549FA8191"
@@ -2350,6 +3291,18 @@
 		}
 		{
 			id: "6A8D7CFC44A529A7"
+			rewards: [
+				{
+					id: "0348ECAAD62EA154"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "563BCF33281E63B9"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "3A6666F1274E830C"
@@ -2361,6 +3314,18 @@
 		}
 		{
 			id: "48317CB74A4B6904"
+			rewards: [
+				{
+					id: "452AD4C5A36F05B5"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "57656644EEE9E929"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "765097BD015C76A7"
@@ -2374,6 +3339,11 @@
 			dependencies: ["3173DC3B54DD3BDB"]
 			description: ["Vanilla, Aether, and HMaG items can be repaired in the Altar. Why HMaG? Because that mod has over a hundred little pieces of cross-mod compatibility built in. Great mod. Anyway, if you complain to me (Samiel) on the discord, I'll add any mod you want to the repair list."]
 			id: "52EF899298675408"
+			rewards: [{
+				id: "3BBCB10C736EF563"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "20F288E19389014C"
 				title: "Altar Repairing"

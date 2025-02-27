@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "embers:caminite_bricks"
+    },
+    "C": {
+      "tag": "forge:storage_blocks/copper"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "I": {
+      "item": "landsoficaria:orichalcum_ingot"
+    },
+    "P": {
+      "item": "embers:caminite_plate"
+    }
+  },
+  "pattern": [
+    "BPB",
+    "BCB",
+    "IFI"
+  ],
+  "result": {
+    "item": "embers:melter"
+  },
+  "show_notification": true
+}

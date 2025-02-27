@@ -97,7 +97,7 @@
 	sliding_continuable_tick = 10
 	#FastRun speed modifier
 	#Range: 0.001 ~ 4.0
-	fast-run_modifier = 2.0
+	fast-run_modifier = 0.001
 	#Dodge speed modifier
 	#Range: 0.5 ~ 1.5
 	dodge-speed_modifier = 1.0
@@ -166,30 +166,30 @@
 		stamina_consumption_of_ChargeJump = 100
 
 ["Possibility_of_Actions(Some_do_not_have_to_work)"]
-	can_BreakfallReady = true
-	can_CatLeap = true
+	can_BreakfallReady = false
+	can_CatLeap = false
 	can_ChargeJump = true
 	can_ClimbPoles = true
 	can_ClimbUp = true
 	can_ClingToCliff = true
 	can_Crawl = true
 	can_Dive = true
-	can_Dodge = true
-	can_FastRun = true
-	can_FastSwim = true
+	can_Dodge = false
+	can_FastRun = false
+	can_FastSwim = false
 	can_Flipping = true
 	can_HangDown = true
 	can_HorizontalWallRun = true
 	can_JumpFromBar = true
 	can_QuickTurn = true
-	can_Roll = true
+	can_Roll = false
 	can_SkyDive = true
 	can_Slide = true
 	can_Tap = true
-	can_Vault = true
-	can_VerticalWallRun = true
-	can_WallJump = true
-	can_WallSlide = true
+	can_Vault = false
+	can_VerticalWallRun = false
+	can_WallJump = false
+	can_WallSlide = false
 
 [Stamina_HUD_Configuration]
 	#Allowed Values: Normal, Light, Hide

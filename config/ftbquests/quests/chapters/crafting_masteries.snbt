@@ -346,6 +346,7 @@
 			}]
 			tasks: [{
 				consume_items: true
+				count: 16L
 				disable_toast: true
 				id: "0FBDC4D6B838D2BD"
 				item: "kubejs:essence_monster"
@@ -709,6 +710,7 @@
 			y: 11.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["1CCE0BB671E02BC3"]
 			icon: "kubejs:essence_earth"
 			id: "165D6E3253F5BBE4"
@@ -729,6 +731,7 @@
 			y: 6.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["6415470142D7A281"]
 			id: "5C98CBA6A4476B20"
 			rewards: [{
@@ -739,6 +742,7 @@
 			}]
 			tasks: [{
 				consume_items: true
+				count: 16L
 				disable_toast: true
 				id: "1B92C6DFCF756EF9"
 				item: "kubejs:essence_monster"
@@ -749,6 +753,7 @@
 			y: 8.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["76115E4AB84A7AEF"]
 			id: "6588470CC1FFFFE9"
 			rewards: [{
@@ -767,6 +772,7 @@
 			y: 13.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["76115E4AB84A7AEF"]
 			id: "2F3FB3784D533319"
 			rewards: [{
@@ -777,6 +783,7 @@
 			}]
 			tasks: [{
 				consume_items: true
+				count: 16L
 				disable_toast: true
 				id: "4EC4A4976101784D"
 				item: "kubejs:essence_monster"
@@ -787,6 +794,7 @@
 			y: 12.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["76115E4AB84A7AEF"]
 			id: "74A7621C680E9145"
 			rewards: [{
@@ -804,6 +812,7 @@
 			y: 12.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["132E2FA2094CD5E2"]
 			id: "57D453202729984A"
 			rewards: [{
@@ -822,6 +831,7 @@
 			y: 6.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["132E2FA2094CD5E2"]
 			id: "62297E1BCBCB76B2"
 			rewards: [{
@@ -882,6 +892,7 @@
 			y: 6.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["38244A01FB371C21"]
 			id: "075C9A5043FC9824"
 			rewards: [{
@@ -899,6 +910,7 @@
 			y: 9.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["6415470142D7A281"]
 			id: "4AECE7DC3EE35D3E"
 			rewards: [{
@@ -941,6 +953,7 @@
 			y: 8.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["1E9C1429B65E8B67"]
 			icon: {
 				Count: 1
@@ -969,6 +982,7 @@
 					value: 20L
 				}
 				{
+					consume_items: true
 					count: 16L
 					id: "473E105AF9746755"
 					item: "kubejs:dust_experience"
@@ -979,6 +993,7 @@
 			y: 9.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["1082AFB9D8CEFAD5"]
 			icon: {
 				Count: 1
@@ -1005,9 +1020,10 @@
 					value: 20L
 				}
 				{
+					consume_items: true
 					count: 16L
 					id: "51D6C7303E8D0648"
-					item: { Count: 16, id: "kubejs:dust_experience" }
+					item: "kubejs:dust_experience"
 					type: "item"
 				}
 			]
@@ -1015,6 +1031,7 @@
 			y: 12.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["1082AFB9D8CEFAD5"]
 			icon: {
 				Count: 1
@@ -1043,9 +1060,10 @@
 					value: 30L
 				}
 				{
+					consume_items: true
 					count: 32L
 					id: "5315A815490975EC"
-					item: { Count: 32, id: "kubejs:dust_experience" }
+					item: "kubejs:dust_experience"
 					type: "item"
 				}
 			]
@@ -1053,6 +1071,7 @@
 			y: 12.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["38244A01FB371C21"]
 			id: "08E879A642E1E795"
 			rewards: [{
@@ -1070,13 +1089,14 @@
 			y: 9.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["62BC62A1467C3269"]
 			id: "0C59FC359533AFF0"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "4FD153C18E3AD9B7"
-				table_id: 5141280580207704495L
-				type: "random"
+				id: "259587AB7647B2FA"
+				table_id: 3202571761249053479L
+				type: "choice"
 			}]
 			tasks: [{
 				count: 3L
@@ -1127,6 +1147,7 @@
 			y: 8.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["6415470142D7A281"]
 			icon: "kubejs:spawnercore"
 			id: "28D83515989F3082"
@@ -1153,9 +1174,10 @@
 			]
 			title: "Spawner Core -> &aMonster Essence&r"
 			x: 2.0d
-			y: 8.5d
+			y: 9.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["38244A01FB371C21"]
 			icon: "kubejs:spawnercore"
 			id: "748568380DCC83F9"
@@ -1236,13 +1258,14 @@
 			y: 9.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["38244A01FB371C21"]
 			id: "56F41293FB8092B0"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "00D8516FDB90FF6C"
-				table_id: 3202571761249053479L
-				type: "random"
+				id: "094456BAB60B3E47"
+				table_id: 9048277486965917996L
+				type: "choice"
 			}]
 			tasks: [{
 				count: 2L
@@ -1254,12 +1277,12 @@
 			y: 8.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["62BC62A1467C3269"]
 			id: "2BD6145AFDA30FE9"
 			tasks: [{
-				consume_items: true
 				disable_toast: true
-				id: "7EB1365DB0BE0A71"
+				id: "4F45C58483D6AF85"
 				item: {
 					Count: 1
 					id: "minecraft:iron_boots"
@@ -1275,24 +1298,6 @@
 			}]
 			x: 5.0d
 			y: 13.0d
-		}
-		{
-			dependencies: ["6415470142D7A281"]
-			id: "24DBB36C22505E0F"
-			rewards: [{
-				id: "64BD36D35404D9AA"
-				item: "kubejs:scroll_exp"
-				type: "item"
-			}]
-			tasks: [{
-				count: 3L
-				id: "0E0B19376855D549"
-				item: "kubejs:essence_monster"
-				type: "item"
-			}]
-			title: "&aMonster Essence&r - > Experience"
-			x: 2.0d
-			y: 9.5d
 		}
 		{
 			id: "33CD7F90E017C777"
@@ -1317,12 +1322,13 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["1CCE0BB671E02BC3"]
+			dependencies: ["6415470142D7A281"]
 			id: "17F6856DC91BA418"
 			rewards: [{
-				id: "79A809F77EB090F4"
-				type: "xp"
-				xp: 50
+				id: "32028830B2A0EAAE"
+				item: "ars_nouveau:experience_gem"
+				random_bonus: 5
+				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
@@ -1333,7 +1339,30 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 5.5d
+			y: 8.5d
+		}
+		{
+			id: "25F78253793427D2"
+			rewards: [{
+				id: "79E989A28BE7C8BD"
+				item: "kubejs:artifact_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D6E674E9FFEDFB4"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "rad3:artifact"
+					}
+				}
+				title: "Any #rad3:artifact"
+				type: "item"
+			}]
+			title: "Artifact Recycling"
+			x: 8.5d
+			y: 8.5d
 		}
 	]
 	title: "⭐ Masteries"

@@ -58,14 +58,30 @@ LootJS.modifiers(event => {
 	.removeLoot("nameless_trinkets:four_leaf_clover")
 	.removeLoot("nameless_trinkets:nelumbo")
 	.removeLoot("nameless_trinkets:dark_nelumbo")
+	.replaceLoot("minecraft:gold_ingot", LootEntry.of("spelunkery:raw_gold_nugget").limitCount([1, 5]))
+    .replaceLoot("minecraft:iron_ingot", LootEntry.of("spelunkery:raw_iron_nugget").limitCount([1, 5]))
+    .replaceLoot("minecraft:diamond", "spelunkery:rough_diamond_shard")
+	.replaceLoot("minecraft:emerald", "spelunkery:rough_emerald_shard")
 	
 	event.addLootTypeModifier(LootType.ENTITY)
 	.removeLoot("bonfires:ash_pile");
 	
 	event.addLootTypeModifier(LootType.CHEST).anyDimension("minecraft:overworld").addLoot(
-	LootEntry.of("kubejs:coin_dungeon").when((c) => c.randomChance(0.5)).limitCount([1, 1])
+	LootEntry.of("kubejs:coin_dungeon").when((c) => c.randomChance(0.3)).limitCount([1, 1])
 	)
 	;
+	//Brewing stand drops
+	const brewstand = LootEntry.of("minecraft:brewing_stand").when((c) =>
+        c.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
+    );	
+	
+	event
+        .addBlockLootModifier("minecraft:brewing_stand")
+        .removeLoot(Ingredient.all)
+        .addAlternativesLoot(
+			brewstand,
+            LootEntry.of("minecraft:blaze_powder").when((c) => c.randomChance(0.5)).limitCount([1, 3])
+		);	
 	
 	event.addLootTypeModifier(LootType.CHEST).addLoot
 	(
@@ -88,13 +104,13 @@ LootJS.modifiers(event => {
 	)
 	;
     event.addBlockLootModifier("minecraft:coal_ore").randomChance(0.1).addLoot("kubejs:essence_earth");
-	event.addBlockLootModifier("minecraft:iron_ore").randomChance(0.2).addLoot("kubejs:essence_earth");
-	event.addBlockLootModifier("minecraft:copper_ore").randomChance(0.2).addLoot("kubejs:essence_earth");
-	event.addBlockLootModifier("minecraft:redstone_ore").randomChance(0.3).addLoot("kubejs:essence_earth");
-	event.addBlockLootModifier("minecraft:gold_ore").randomChance(0.3).addLoot("kubejs:essence_earth");
-	event.addBlockLootModifier("minecraft:lapis_ore").randomChance(0.3).addLoot("kubejs:essence_earth");
-	event.addBlockLootModifier("minecraft:emerald_ore").randomChance(0.8).addLoot("kubejs:essence_earth");
-	event.addBlockLootModifier("minecraft:diamond_ore").randomChance(0.8).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("minecraft:iron_ore").randomChance(0.1).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("minecraft:copper_ore").randomChance(0.1).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("minecraft:redstone_ore").randomChance(0.2).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("minecraft:gold_ore").randomChance(0.2).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("minecraft:lapis_ore").randomChance(0.2).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("minecraft:emerald_ore").randomChance(0.3).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("minecraft:diamond_ore").randomChance(0.3).addLoot("kubejs:essence_earth");
 	
 	
 	event.addBlockLootModifier('minecraft:spawner')
@@ -125,6 +141,96 @@ LootJS.modifiers(event => {
 	event.addLootTypeModifier(LootType.CHEST).anyDimension("the_bumblezone:the_bumblezone").addLoot(
 	LootEntry.of("kubejs:coin_bumblezone").when((c) => c.randomChance(0.7)).limitCount([1, 1])
 	);	
+
+
+	event
+        .addLootTableModifier("betterfortresses:chests/beacon")
+        .addLoot			
+			(
+				LootEntry.of("supplementaries:sconce").when((c) => c.randomChance(0.1)).limitCount([1, 3]),
+				LootEntry.of("spelunkery:dust_bun").when((c) => c.randomChance(0.2)).limitCount([1, 2]),
+				LootEntry.of("spelunkery:rough_cinnabar_shard").when((c) => c.randomChance(0.2)).limitCount([1, 3]),
+				LootEntry.of("spelunkery:red_glowstick").when((c) => c.randomChance(0.1)).limitCount([1, 3]),
+				LootEntry.of("nethersdelight:hoglin_loin").when((c) => c.randomChance(0.1)).limitCount([1, 1]),
+				LootEntry.of("aquaculture:lockbox").when((c) => c.randomChance(0.1)).limitCount([1, 1]),
+				LootEntry.of("aquaculture:box").when((c) => c.randomChance(0.1)).limitCount([1, 2]),
+				LootEntry.of("aquaculture:treasure_chest").when((c) => c.randomChance(0.05)).limitCount([1, 1]) 
+			);
+			
+	event
+        .addLootTableModifier("betterfortresses:chests/keep")
+        .addLoot			
+			(
+				LootEntry.of("supplementaries:sconce").when((c) => c.randomChance(0.1)).limitCount([1, 3]),
+				LootEntry.of("spelunkery:dust_bun").when((c) => c.randomChance(0.2)).limitCount([1, 2]),
+				LootEntry.of("spelunkery:rough_cinnabar_shard").when((c) => c.randomChance(0.2)).limitCount([1, 3]),
+				LootEntry.of("spelunkery:red_glowstick").when((c) => c.randomChance(0.1)).limitCount([1, 3]),
+				LootEntry.of("nethersdelight:hoglin_loin").when((c) => c.randomChance(0.1)).limitCount([1, 1]),
+				LootEntry.of("aquaculture:lockbox").when((c) => c.randomChance(0.1)).limitCount([1, 1]),
+				LootEntry.of("aquaculture:box").when((c) => c.randomChance(0.1)).limitCount([1, 2]),
+				LootEntry.of("aquaculture:treasure_chest").when((c) => c.randomChance(0.05)).limitCount([1, 1]) 
+			);
+
+	event
+        .addLootTableModifier("betterfortresses:chests/puzzle")
+        .addLoot			
+			(
+				LootEntry.of("supplementaries:sconce").when((c) => c.randomChance(0.1)).limitCount([1, 3]),
+				LootEntry.of("spelunkery:dust_bun").when((c) => c.randomChance(0.2)).limitCount([1, 2]),
+				LootEntry.of("spelunkery:rough_cinnabar_shard").when((c) => c.randomChance(0.2)).limitCount([1, 3]),
+				LootEntry.of("spelunkery:red_glowstick").when((c) => c.randomChance(0.1)).limitCount([1, 3]),
+				LootEntry.of("nethersdelight:hoglin_loin").when((c) => c.randomChance(0.1)).limitCount([1, 1]),
+				LootEntry.of("aquaculture:lockbox").when((c) => c.randomChance(0.1)).limitCount([1, 1]),
+				LootEntry.of("aquaculture:box").when((c) => c.randomChance(0.1)).limitCount([1, 2]),
+				LootEntry.of("aquaculture:treasure_chest").when((c) => c.randomChance(0.05)).limitCount([1, 1]) 
+			);
+
+	event
+        .addLootTableModifier("betterfortresses:chests/quarters")
+        .addLoot			
+			(
+				LootEntry.of("supplementaries:sconce").when((c) => c.randomChance(0.1)).limitCount([1, 3]),
+				LootEntry.of("spelunkery:dust_bun").when((c) => c.randomChance(0.2)).limitCount([1, 2]),
+				LootEntry.of("spelunkery:rough_cinnabar_shard").when((c) => c.randomChance(0.2)).limitCount([1, 3]),
+				LootEntry.of("spelunkery:red_glowstick").when((c) => c.randomChance(0.1)).limitCount([1, 3]),
+				LootEntry.of("nethersdelight:hoglin_loin").when((c) => c.randomChance(0.1)).limitCount([1, 1]),
+				LootEntry.of("aquaculture:lockbox").when((c) => c.randomChance(0.1)).limitCount([1, 1]),
+				LootEntry.of("aquaculture:box").when((c) => c.randomChance(0.1)).limitCount([1, 2]),
+				LootEntry.of("aquaculture:treasure_chest").when((c) => c.randomChance(0.05)).limitCount([1, 1]) 
+			);			
+
+	event
+        .addLootTableModifier("betterfortresses:chests/storage")
+        .addLoot			
+			(
+				LootEntry.of("supplementaries:sconce").when((c) => c.randomChance(0.1)).limitCount([1, 3]),
+				LootEntry.of("spelunkery:dust_bun").when((c) => c.randomChance(0.2)).limitCount([1, 2]),
+				LootEntry.of("spelunkery:rough_cinnabar_shard").when((c) => c.randomChance(0.2)).limitCount([1, 3]),
+				LootEntry.of("spelunkery:red_glowstick").when((c) => c.randomChance(0.1)).limitCount([1, 3]),
+				LootEntry.of("nethersdelight:hoglin_loin").when((c) => c.randomChance(0.1)).limitCount([1, 1]),
+				LootEntry.of("aquaculture:lockbox").when((c) => c.randomChance(0.1)).limitCount([1, 1]),
+				LootEntry.of("aquaculture:box").when((c) => c.randomChance(0.1)).limitCount([1, 2]),
+				LootEntry.of("aquaculture:treasure_chest").when((c) => c.randomChance(0.05)).limitCount([1, 1])  
+			);	
+			
+	event
+        .addLootTableModifier("betterfortresses:chests/hall")
+        .addLoot			
+			(
+				LootEntry.of("supplementaries:sconce").when((c) => c.randomChance(0.1)).limitCount([1, 3]),
+				LootEntry.of("spelunkery:dust_bun").when((c) => c.randomChance(0.2)).limitCount([1, 2]),
+				LootEntry.of("spelunkery:rough_cinnabar_shard").when((c) => c.randomChance(0.2)).limitCount([1, 3]),
+				LootEntry.of("spelunkery:red_glowstick").when((c) => c.randomChance(0.1)).limitCount([1, 3]),
+				LootEntry.of("nethersdelight:hoglin_loin").when((c) => c.randomChance(0.1)).limitCount([1, 1]),
+				LootEntry.of("aquaculture:lockbox").when((c) => c.randomChance(0.1)).limitCount([1, 1]),
+				LootEntry.of("aquaculture:box").when((c) => c.randomChance(0.1)).limitCount([1, 2]),
+				LootEntry.of("aquaculture:treasure_chest").when((c) => c.randomChance(0.05)).limitCount([1, 1]) 
+			);
+
+
+
+
+
 	
 	//LOOT LIMITER
 	let lootlist = new Array();

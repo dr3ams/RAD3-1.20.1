@@ -10,6 +10,31 @@
         },
         "result": "deny"
     },
+	{
+        "mob": "minecraft:zombie",
+        "when": "onjoin",
+        "baby": true,
+        "result": "deny"
+    },
+	{
+        "mob": "hmag:ghost",
+        "when": "onjoin",
+        "baby": true,
+        "result": "deny"
+    },
+	{
+        "mob": ["minecraft:giant"],
+        "seesky": true,
+        "when": "finalize",
+        "result": "allow",
+        "healthmultiply": 2
+    },
+	{
+    "hostile": true,
+    "area": "spawn",
+    "when": "onjoin",
+    "result": "deny"
+	},
     {
         "spawner": false,
         "structure": false,
@@ -35,7 +60,18 @@
         "structure": false,
         "mob": "minecraft:guardian",
         "mincount": {
-            "amount": 20,
+            "amount": 10,
+            "hostile": true,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+	{
+        "spawner": false,
+        "structure": false,
+        "mob": "minecraft:vex",
+        "mincount": {
+            "amount": 1,
             "hostile": true,
             "perplayer": true
         },
@@ -61,5 +97,13 @@
           "perplayer": true
        },
       "result": "deny"
+    },
+	{
+        "mob": [
+            "minecraft:sniffer",
+            "minecraft:phantom"
+        ],
+        "when": "onjoin",
+        "result": "deny"
     }
 ]

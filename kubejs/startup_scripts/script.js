@@ -15,6 +15,9 @@ event.create('sifter').displayName('Sifter').maxDamage(1550)
 
 event.create('rick').displayName('Pet Coal').unstackable().burnTime(60000).rarity('EPIC').tooltip('Named Rick')	
 
+//apoth
+event.create('socketweaver').displayName('Socket Weaver')
+
 //coins
 //quest coins
 event.create('copper_coin').displayName('Copper Coin').rarity('Uncommon')
@@ -47,6 +50,7 @@ event.create('proofofwork').displayName('Proof Of Work').rarity('Rare')
 event.create('voucher_weapon').displayName('Weapon Exchange Voucher').rarity('Rare')
 event.create('voucher_weapon_fragment').displayName('Weapon Exchange Voucher Fragment').rarity('Uncommon')
 event.create('voucher_resource').displayName('Resource Exchange Voucher').rarity('Uncommon')
+event.create('voucher_relic').displayName('Unidentified Relic').rarity('Rare')
 //essences
 event.create('essence_monster').displayName('Monster Essence').rarity('Uncommon')
 event.create('essence_monster_raw').displayName('Raw Monster Essence').rarity('Uncommon')
@@ -67,6 +71,8 @@ event.create('portable_transmutator').displayName('Portable Transmutation Device
 event.create('portable_salvager').displayName('Portable Mini Salvager').maxDamage(480).rarity('Rare')
 event.create('junk').displayName('Junk')
 event.create('sifted_dust').displayName('Sifted Dust')
+
+event.create('artifact_fragment').displayName('Artifact Fragment')
 
 event.create('scroll_exp').displayName('Experience Scroll')
 
@@ -136,9 +142,45 @@ event.create('dodge').displayName('Dodge')
 event.create('scaling').displayName('Scaling')
 })
 
+StartupEvents.registry('fluid', event => {
+
+	event.create('molten_orichalcum')
+    .thickTexture(0xFFBF49)
+    .bucketColor(0xFFBF49)
+    .displayName('Molten Orichalcum')
+	.noBlock() 
+
+  /// END
+})
+
 StartupEvents.registry('block', event => {
 	// Register new blocks here
 	// event.create('example_block').material('wood').hardness(1.0).displayName('Example Block')
+})
+
+ItemEvents.modification(event => {
+	
+	
+  event.modify('kubejs:voucher_relic', item => {
+    item.maxStackSize = 1
+  })
+  event.modify('kubejs:artifact_fragment', item => {
+    item.maxStackSize = 1
+  })
+  event.modify('l2complements:totemic_apple', item => {
+    item.maxStackSize = 1
+  })
+  event.modify('l2complements:enchanted_totemic_apple', item => {
+    item.maxStackSize = 1
+  })
+  event.modify('minecraft:golden_apple', item => {
+    item.maxStackSize = 1
+  })
+  event.modify('minecraft:enchanted_golden_apple', item => {
+    item.maxStackSize = 1
+  })
+  
+ ////////////END 
 })
 
 StartupEvents.postInit(event => { Platform.mods.kubejs.name = 'RAD 3'; });

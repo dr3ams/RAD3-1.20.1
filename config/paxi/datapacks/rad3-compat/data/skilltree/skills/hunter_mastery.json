@@ -1,0 +1,42 @@
+{
+  "id": "skilltree:hunter_mastery",
+  "bonuses": [
+    {
+      "type": "skilltree:loot_duplication",
+      "chance": 0.1,
+      "multiplier": 1.0,
+      "loot_type": "mobs"
+    },
+    {
+      "type": "skilltree:gained_experience",
+      "multiplier": 0.15,
+      "experience_source": "mobs"
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:dodge_chance",
+      "id": "de9eda95-4e82-42ca-8b6d-4cda7963788d",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/hunter_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "titleColor": "",
+  "positionX": 354.65396,
+  "positionY": 204.78629,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

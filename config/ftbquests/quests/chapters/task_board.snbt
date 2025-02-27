@@ -848,8 +848,8 @@
 				type: "xp"
 				value: 100L
 			}]
-			x: -5.5d
-			y: 14.5d
+			x: -3.0d
+			y: 13.0d
 		}
 		{
 			id: "2468AED137810F8C"
@@ -859,8 +859,8 @@
 				type: "stat"
 				value: 5000
 			}]
-			x: -2.0d
-			y: 14.0d
+			x: -1.5d
+			y: 13.0d
 		}
 		{
 			id: "3500F60BFF3A7F6F"
@@ -956,7 +956,7 @@
 				id: "540FDA8152D1C339"
 				stat: "minecraft:play_time"
 				type: "stat"
-				value: 1
+				value: 100000
 			}]
 			x: 10.5d
 			y: 2.0d
@@ -991,6 +991,17 @@
 			}]
 			x: 6.0d
 			y: 8.0d
+		}
+		{
+			id: "08915D852C9C814C"
+			tasks: [{
+				id: "1EE20D709997E6B5"
+				stat: "minecraft:time_since_death"
+				type: "stat"
+				value: 10000
+			}]
+			x: 0.0d
+			y: 13.0d
 		}
 	]
 	title: "&9⭐ Task board&r"

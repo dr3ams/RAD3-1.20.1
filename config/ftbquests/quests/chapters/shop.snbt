@@ -263,15 +263,10 @@
 			}
 			id: "03A1DDD2943E57B1"
 			rewards: [{
-				id: "573FDF082B92138F"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "relics_crate"
-					}
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "32029B085494C4AF"
+				table_id: 7657823403366900616L
+				type: "random"
 			}]
 			tasks: [
 				{
@@ -338,24 +333,13 @@
 			y: -4.5d
 		}
 		{
-			icon: {
-				Count: 1
-				id: "artifacts:whoopee_cushion"
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "artifacts:mimic_spawn_egg"
 			id: "7A6654B7CF68E559"
 			rewards: [{
-				id: "46F4FB9A00DA0882"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "artifact_loot_crate"
-					}
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "41A4450F926B283B"
+				table_id: 2277233259521892613L
+				type: "random"
 			}]
 			tasks: [{
 				consume_items: true
@@ -395,8 +379,8 @@
 				item: "kubejs:coin_dungeon"
 				type: "item"
 			}]
-			title: "Monster Coin -> Experience"
-			x: -3.375d
+			title: "Dungeon Coin -> Experience"
+			x: -4.125d
 			y: -9.375d
 		}
 		{
@@ -621,37 +605,6 @@
 		{
 			can_repeat: true
 			description: [
-				"&lNOTE:&r "
-				"when you exchange &410 coins&r, with this quest, you will receive &41 type of reward multiplied by 10&r, "
-				"while when you exchange &91 coin&r 10 times you will get &910 different random rewards&r. "
-				""
-				"It's for you to decide whether it's good or not."
-			]
-			disable_toast: true
-			id: "11A1A5FA2C02CE60"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3EB56B9E07224F40"
-				table_id: 205688915300873583L
-				type: "random"
-			}]
-			shape: "octagon"
-			size: 0.75d
-			subtitle: "&2&oRandom repeatable reward with a random bonus&r&r"
-			tasks: [{
-				consume_items: true
-				count: 10L
-				disable_toast: true
-				id: "15444D59DE48C6AF"
-				item: "kubejs:coin_dungeon"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -9.375d
-		}
-		{
-			can_repeat: true
-			description: [
 				"Can be acquired as:"
 				""
 				"• &aone-time&r quest reward in &6Minecolonies related&r quests."
@@ -670,7 +623,7 @@
 				{
 					id: "643D1589CC80FF06"
 					type: "xp"
-					xp: 300
+					xp: 100
 				}
 			]
 			shape: "octagon_important"
@@ -789,7 +742,7 @@
 			}]
 			title: "Passive Skill Tree reset"
 			x: -7.0d
-			y: -5.5d
+			y: -4.0d
 		}
 		{
 			can_repeat: true
@@ -857,6 +810,11 @@
 				"&2⭐ Exchange coins&r - trading with gobling traders"
 			]
 			id: "3FC568997D0D4672"
+			rewards: [{
+				id: "378F1B83FF4153ED"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "gear_important"
 			size: 3.0d
 			subtitle: "... and where to find them!"
@@ -1116,12 +1074,6 @@
 					type: "xp"
 					xp: 100
 				}
-				{
-					exclude_from_claim_all: true
-					id: "3E22F805F32E2C5F"
-					table_id: 7712988558282718562L
-					type: "random"
-				}
 			]
 			shape: "octagon"
 			size: 1.5d
@@ -1171,6 +1123,12 @@
 			dependencies: ["7B64754C3A42FAA1"]
 			disable_toast: true
 			id: "28E6468EA732FAB8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DC2FD344D3868C2"
+				table_id: 3850451068388725304L
+				type: "random"
+			}]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
@@ -1357,21 +1315,26 @@
 			icon: "celestial_artifacts:red_ruby_bracelet"
 			id: "65FB2F4D4E68B1C1"
 			rewards: [{
-				id: "70BF18DE9E6BBE49"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "celestial_artifact_ce"
-					}
+				exclude_from_claim_all: true
+				id: "5B87DBABB242F86F"
+				table_id: 3406154625251714545L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					disable_toast: true
+					id: "38D5049B22DFBE3A"
+					item: "kubejs:diamond_coin"
+					type: "item"
 				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "38D5049B22DFBE3A"
-				item: "kubejs:diamond_coin"
-				type: "item"
-			}]
+				{
+					id: "2521B8779C6A5A89"
+					points: false
+					type: "xp"
+					value: 1L
+				}
+			]
 			title: "Diamond Coin -> Celestial Artifact"
 			x: 8.0d
 			y: -3.5d
@@ -1391,6 +1354,108 @@
 			title: "Starter Houses"
 			x: -1.5d
 			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "roughtweaks:bandage"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "24A53EF0FD5ED933"
+			rewards: [{
+				id: "3B2260AF5D4CE9F8"
+				item: {
+					Count: 1
+					id: "roughtweaks:bandage"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "742244D66D10EFA5"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			title: "Bandage"
+			x: -10.0d
+			y: -11.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "roughtweaks:medkit"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "68DD40C558374B1B"
+			rewards: [{
+				id: "0F50E754D6C02906"
+				item: {
+					Count: 1
+					id: "roughtweaks:medkit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1D646E7661E04395"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			title: "Medkit"
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:rare"
+					}
+					gem: "apotheosis:overworld/royalty"
+				}
+			}
+			id: "68010DDDCE91C3B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "394E7396F7A6F09D"
+				table_id: 9122232193753176215L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4EE621FA932B1086"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			title: "Apotheotic Gem"
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			id: "5CF7D46199ACC793"
+			tasks: [{
+				id: "14270DBB6CA3BD98"
+				item: "kubejs:key_magic"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
 		}
 	]
 	title: "&e⭐ The Market&r"
