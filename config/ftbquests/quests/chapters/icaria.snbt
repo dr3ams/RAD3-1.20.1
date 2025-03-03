@@ -5,7 +5,7 @@
 	group: "241F1DC7B6D6E9D6"
 	icon: "landsoficaria:chiseled_relicstone"
 	id: "1DC4DF1994634F20"
-	order_index: 6
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -51,6 +51,18 @@
 		{
 			dependencies: ["552F10398C8E1E8E"]
 			id: "70FAD65365767FAC"
+			rewards: [
+				{
+					id: "7E487038977F2323"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "5242E7F9AD874A94"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "gear_important"
 			subtitle: "Might be useful elsewhere..."
 			tasks: [{
@@ -58,7 +70,7 @@
 				item: "landsoficaria:orichalcum_ingot"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
@@ -96,36 +108,77 @@
 			dependencies: ["5E598ADB0425DE0A"]
 			description: ["The Kiln is used to fire glass and bricks. I miss the Atum kiln..."]
 			id: "0CB0FCE3E7B5F92F"
+			rewards: [
+				{
+					id: "2BF2EB0E7B1A4E32"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "5D8CB7CBC897E37D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0D25EC88D140D153"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1C3AB75DB2779F89"
 				item: "landsoficaria:kiln"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0CB0FCE3E7B5F92F"]
 			description: ["The Forge is a powerful furnace used to smelt and alloy metals."]
 			id: "552F10398C8E1E8E"
-			rewards: [{
-				id: "2AC9674C943591D4"
-				item: "nameless_trinkets:reforger"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3F76B5E4C28F5AD1"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "45FEF8A38A7B7777"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "68AE776DE6BAA933"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "7CA08352BB7AC7F7"
 				item: "landsoficaria:forge"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5E598ADB0425DE0A"]
 			description: ["Pots can be picked up and thrown to break them. They're full of loot!"]
 			id: "64C5EB6BEBE15808"
+			rewards: [
+				{
+					id: "7457DDC25535B00A"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "66485D9D5B3B460E"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				advancement: "landsoficaria:loot_vase"
 				criterion: ""
@@ -133,64 +186,125 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6E063E9EB9CD1948"]
 			description: ["The Grinder uses Sliver (yes I spelled that right) and various Gears to grind items down. Each type of Gear grinds a different set of items so you'll have to collect all of them."]
 			id: "2817AA338DD2F274"
-			rewards: [{
-				id: "2CFB1F3D5EFCD623"
-				item: "landsoficaria:sliver_block"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2CFB1F3D5EFCD623"
+					item: "landsoficaria:sliver_block"
+					type: "item"
+				}
+				{
+					id: "625A0661A509BB37"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "039FEA7991ADCF51"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "54A47607F752A1E3"
 				item: "landsoficaria:grinder"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 10.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["552F10398C8E1E8E"]
 			id: "535D2A4231F1D2FB"
+			rewards: [
+				{
+					id: "067AC93A1DE79652"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "52A26DECBF593FBA"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "64C8453EEE0C7F9F"
 				item: "landsoficaria:molybdenumsteel_ingot"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["552F10398C8E1E8E"]
 			id: "7A151A90BF3B46C4"
+			rewards: [
+				{
+					id: "5246905FE302C5E0"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "69D4AEA1C39D8E87"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "2772784DEF380881"
 				item: "landsoficaria:vanadiumsteel_ingot"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["64C5EB6BEBE15808"]
 			description: ["Barrels can be filled with loot, water, or even explosives!"]
 			id: "38EB037515E45631"
+			rewards: [
+				{
+					id: "5E4F097E4A3A135E"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "1AFFA30A95AB5EA2"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Carry a Barrel"
 			tasks: [{
 				advancement: "landsoficaria:barrel"
 				criterion: ""
 				id: "2ABC4C1E07E0AB8E"
 				type: "advancement"
 			}]
-			x: -1.0d
-			y: -3.0d
+			x: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7A151A90BF3B46C4"]
 			description: ["Vanadiumsteel makes the best weapons and armor in Icaria... almost as good as diamond."]
 			id: "135E5D59199FE4A0"
+			rewards: [
+				{
+					id: "790F1ECEB9E9763E"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "1AFC7373679FEBE8"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [
 				{
 					id: "629880C920FEF78B"
@@ -221,13 +335,25 @@
 				}
 			]
 			title: "Vanadiumsteel"
-			x: 3.5d
+			x: 4.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["535D2A4231F1D2FB"]
 			description: ["Molybdenumsteel makes the best tools in Icaria, capable of mining any block."]
 			id: "06D5B912C3291A58"
+			rewards: [
+				{
+					id: "1C832F612D7F220F"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "183082219C0DA6C3"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "4BEFD91D29DC1A9F"
 				item: {
@@ -245,13 +371,25 @@
 				type: "item"
 			}]
 			title: "Molybdenumsteel"
-			x: 4.5d
+			x: 6.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["64C5EB6BEBE15808"]
 			description: ["These gear fragments can be found rarely in pots in villages."]
 			id: "1239D23C7CAC4F84"
+			rewards: [
+				{
+					id: "17D980D05C4F10F9"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "7295AB2FB661E024"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [
 				{
 					id: "04286945856DAFBD"
@@ -271,19 +409,31 @@
 			]
 			title: "Gearfragments"
 			x: 0.0d
-			y: -3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1239D23C7CAC4F84"]
 			description: ["This gear is unbreakable, but can only be used to grind blurred platoshale."]
 			id: "0E74BBA3D7F1F4A2"
+			rewards: [
+				{
+					id: "353E9815D7B3FE2D"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "04BD42E2C9541D0E"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "3BFD221A3772F3E9"
 				item: "landsoficaria:daedalian_gear"
 				type: "item"
 			}]
 			x: 0.0d
-			y: -5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -292,6 +442,18 @@
 			]
 			description: ["Materials not found in the overworld may be needed to form this brick..."]
 			id: "7799424461FD01D7"
+			rewards: [
+				{
+					id: "0BDC715BFAE0AF7A"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "27DA5D84C750F34E"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "gear_important"
 			subtitle: "Might be useful elsewhere..."
 			tasks: [{
@@ -299,54 +461,102 @@
 				item: "embers:caminite_brick"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.0d
+			x: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5E598ADB0425DE0A"]
 			id: "788B82A79A853630"
+			rewards: [
+				{
+					id: "000C50708108250E"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "3F14952D085C4602"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "751CD1B8F223DD99"
 				item: "embers:caminite_blend"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.0d
+			x: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["552F10398C8E1E8E"]
 			id: "4B1C6BEC8472B5D9"
+			rewards: [
+				{
+					id: "4275F567207C265C"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "5C24745EF3F7EC86"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "31AB34D0C42A8DF3"
 				item: "landsoficaria:sideros_ingot"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.5d
+			x: 6.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["552F10398C8E1E8E"]
 			description: ["The wood and metal found here are very light, but strong. I wonder what I can build with them..."]
 			id: "540E8271E4EFA6A6"
+			rewards: [
+				{
+					id: "135A6A7098B3AA25"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "659113B6B4E5D519"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "0EFCF02DE91FF075"
 				item: "landsoficaria:kassiteros_ingot"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.5d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["540E8271E4EFA6A6"]
 			description: ["The materials for this can only be found in Icaria"]
 			id: "0256881F319F9840"
+			rewards: [
+				{
+					id: "427BA0609134FDAC"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "5EDB161A5FB36F95"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "49B0A153459485FB"
 				item: "immersive_aircraft:hull"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.5d
+			x: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -356,6 +566,18 @@
 			]
 			description: ["An airship to carry you from one island to the next! It takes any fuel that could go in a furnace."]
 			id: "0E28615A7A3DC421"
+			rewards: [
+				{
+					id: "10647A799E6B2891"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "517FFE3D6D801E80"
+					type: "xp"
+					xp: 50
+				}
+			]
 			size: 2.0d
 			subtitle: "Flying through open skies"
 			tasks: [{
@@ -363,12 +585,24 @@
 				item: "immersive_aircraft:airship"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 4.0d
+			x: 5.0d
+			y: 5.5d
 		}
 		{
 			description: ["Materials for these will have to be brought from the Overworld"]
 			id: "0A2529CC69DD9DC9"
+			rewards: [
+				{
+					id: "37BBDCD3BF02A2F7"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "0D78EBB20A054CD8"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [
 				{
 					id: "1B3C8FEB7E2FA94D"
@@ -382,41 +616,77 @@
 				}
 			]
 			title: "Overworld Ingredients"
-			x: 2.5d
-			y: 4.0d
+			x: 3.0d
+			y: 5.5d
 		}
 		{
 			description: ["The materials for this can be found in many places"]
 			id: "3A0CFD6024CCB224"
+			rewards: [
+				{
+					id: "039F4640A387E3AB"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "120717F89E47ABCD"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "73BBDF8AE1014E64"
 				item: "immersive_aircraft:sail"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.0d
+			x: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0E28615A7A3DC421"]
 			id: "6866BBDF421A9837"
+			rewards: [
+				{
+					id: "09AB6CF7E97FA75C"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "7F0A536A40E4DAD0"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "3D8FF5A275A48DC1"
 				item: "immersive_aircraft:cargo_airship"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 5.5d
+			x: 5.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["6866BBDF421A9837"]
 			id: "0D05B550ECF48A7F"
+			rewards: [
+				{
+					id: "3442749AE05B1B4D"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "226F66C06EE70687"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "287A597FCF027D48"
 				item: "immersive_aircraft:warship"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.5d
+			x: 5.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -424,90 +694,186 @@
 				"0861D104C45FFE2F"
 			]
 			id: "2E4AA17A148BB6FD"
+			rewards: [
+				{
+					id: "40923EF3A86990AA"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "10A9B8C22996B2E8"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "55327088FD9F9156"
 				item: "immersive_aircraft:biplane"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.0d
+			x: 6.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["0E28615A7A3DC421"]
 			id: "5D043431BD92213F"
+			rewards: [
+				{
+					id: "17722B5BC0123D8B"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "733B3B451820DBB9"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "5402B61825EF520F"
 				item: "immersive_aircraft:industrial_gears"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.5d
+			x: 3.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0D05B550ECF48A7F"]
 			id: "13066CFB997CAA45"
+			rewards: [
+				{
+					id: "788BB69EE009AF1F"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "25D194357AFEF19F"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "2F715DD664D094FC"
 				item: "immersive_aircraft:rotary_cannon"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 7.0d
+			x: 6.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["0D05B550ECF48A7F"]
 			id: "5DD1B40A284E7144"
+			rewards: [
+				{
+					id: "65435AE62001454F"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "79377547493227F3"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "2CE19897A2F0D517"
 				item: "immersive_aircraft:heavy_crossbow"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 7.5d
+			x: 5.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["0D05B550ECF48A7F"]
 			id: "626ED60534554D63"
+			rewards: [
+				{
+					id: "1FAADF9E8D6CE6EE"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "7CCC5362B2E10EE8"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "4925F29BC8DD3575"
 				item: "immersive_aircraft:bomb_bay"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 7.0d
+			x: 4.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["4B1C6BEC8472B5D9"]
 			id: "0861D104C45FFE2F"
+			rewards: [
+				{
+					id: "5A498CB05CDB9FFF"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "2C6CAE297341A7A4"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "6DDA94DCC3305100"
 				item: "immersive_aircraft:propeller"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 6.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2E4AA17A148BB6FD"]
 			id: "33256D7B1E0492E6"
+			rewards: [
+				{
+					id: "0C9186685A0F02D5"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "17EB373655E710EB"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "4E9D3A24C281E4E1"
 				item: "immersive_aircraft:improved_landing_gear"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 3.5d
+			x: 8.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["0E28615A7A3DC421"]
 			id: "481FEDD45A3D2644"
+			rewards: [
+				{
+					id: "73916EC290DE709E"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "0D43C10A1AB16A43"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "5C7A17FC58B00432"
 				item: "immersive_aircraft:sturdy_pipes"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 5.5d
+			x: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["5E598ADB0425DE0A"]
@@ -526,7 +892,7 @@
 				value: 1L
 			}]
 			x: -1.0d
-			y: 1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5E598ADB0425DE0A"]
@@ -545,7 +911,7 @@
 				value: 1L
 			}]
 			x: 1.0d
-			y: 1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["70FAD65365767FAC"]
@@ -561,22 +927,51 @@
 				"4. When the last ingredient has been placed, wait a few seconds. Your finished spell will pop out of the Kettle."
 			]
 			id: "545FD79030CAC86C"
-			rewards: [{
-				id: "5E7AFB40D2C2A97E"
-				item: "landsoficaria:healing_flask"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5E7AFB40D2C2A97E"
+					item: "landsoficaria:healing_flask"
+					type: "item"
+				}
+				{
+					id: "11A13DDE32594D7D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "192EB691B17A333F"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7762DD01E0AF9B89"
 				item: "landsoficaria:kettle"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["2817AA338DD2F274"]
 			id: "28C0312FA424E135"
+			rewards: [
+				{
+					id: "33D54B2CB3EA9DF3"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "3EE250D1397375D4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "69B373B5D182FC0D"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1CAB09EAD3C529D4"
 				item: {
@@ -588,12 +983,29 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
-			y: -2.5d
+			x: 11.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2817AA338DD2F274"]
 			id: "33F087E15718CCEE"
+			rewards: [
+				{
+					id: "49B3C90B6EDA3FDF"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "310A0DFF9CBF2ECC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "48EC76F263544DEE"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "05903B99261D54F2"
 				item: {
@@ -605,12 +1017,29 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: -3.0d
+			x: 11.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2817AA338DD2F274"]
 			id: "61F0FA4530588A01"
+			rewards: [
+				{
+					id: "554ACBE8751D8373"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "2A74AB0C75A2ABB9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7E56D727918943E6"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7199ABAFB4BEE7F1"
 				item: {
@@ -622,12 +1051,29 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: -2.5d
+			x: 11.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2817AA338DD2F274"]
 			id: "2008CEA177977FC1"
+			rewards: [
+				{
+					id: "3E1736B524080E69"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "0CC10AE8615FC80F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "732F3FC2C97B7896"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "055A02980AD242BC"
 				item: {
@@ -639,16 +1085,16 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: -1.5d
+			x: 11.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5E598ADB0425DE0A"]
 			description: ["These glowing crystals generate on the underside of each layer of floating island."]
 			id: "4224D4779CAD0530"
 			rewards: [{
-				id: "7E5C0BD6E21D2313"
-				item: "nameless_trinkets:moon_stone"
+				id: "67971705E824B87C"
+				item: "kubejs:gold_coin"
 				type: "item"
 			}]
 			tasks: [
@@ -675,18 +1121,30 @@
 			]
 			title: "Crystal Shards"
 			x: 0.0d
-			y: 2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["70FAD65365767FAC"]
 			id: "6E063E9EB9CD1948"
+			rewards: [
+				{
+					id: "1E15E5BD968C3DCF"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "1D0BB20F543334F4"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "048ECE9489290EFE"
 				item: "landsoficaria:sliver"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -0.75d
+			x: 8.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6E063E9EB9CD1948"]
@@ -703,8 +1161,8 @@
 				item: "bonfires:titanite_chunk"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 0.0d
+			x: 8.5d
+			y: -2.5d
 		}
 	]
 	title: "&6Flying Like Icarus&r"

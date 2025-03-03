@@ -103,56 +103,6 @@
 	quests: [
 		{
 			can_repeat: true
-			dependencies: ["14E58B53370EE969"]
-			description: [
-				"&nCan be acquired by:&r"
-				""
-				"- doing quests related to any &5Magic&r, including Enchanting and Alchemy;"
-				""
-				"- completing dedicated &2Task&r quests;"
-				""
-				"- (&orare&r) &3Wandering Trader&r exchange;"
-			]
-			disable_toast: true
-			id: "7F3E3B80BED1D328"
-			shape: "octagon"
-			size: 1.5d
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "35B9F6D08594917C"
-				item: "kubejs:coin_magic"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -4.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["14E58B53370EE969"]
-			description: [
-				"Can be acquired by:"
-				""
-				"- doing Exploration related quests;"
-				""
-				"- completing dedicated &2Task&r quests;"
-			]
-			disable_toast: true
-			id: "036FA5ABC7FBD0DE"
-			shape: "octagon"
-			size: 1.5d
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "33E20F91181BD582"
-				item: "kubejs:coin_exploration"
-				type: "item"
-			}]
-			x: 2.25d
-			y: -4.5d
-		}
-		{
-			can_repeat: true
 			description: ["Acquired by exchanging items, completing quests, and defeating Tier 1 \\& 2 Champions."]
 			disable_toast: true
 			id: "12AA5A2ECF315050"
@@ -561,7 +511,7 @@
 			}]
 			title: "&bDimensional Coins&r"
 			x: -1.0d
-			y: -8.5d
+			y: -5.25d
 		}
 		{
 			description: [""]
@@ -801,7 +751,7 @@
 				""
 				"&5⭐ Dimensional coins&r - doing dimension quests and chest loot in dimensions"
 				""
-				"&9⭐ Task coins&r - completing tasks from Task Board chapter"
+				"&9⭐ Task coin&r - completing tasks from Bounty Board"
 				""
 				"&3⭐ Loot coin&r - found as loot"
 				""
@@ -844,18 +794,6 @@
 					type: "item"
 				}
 				{
-					id: "27B081B70040581D"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "rad3:coin_task"
-						}
-					}
-					title: "Task coins"
-					type: "item"
-				}
-				{
 					id: "3868FCD3D34A0E19"
 					item: "kubejs:coin_dungeon"
 					type: "item"
@@ -870,192 +808,15 @@
 					item: "kubejs:coin_01"
 					type: "item"
 				}
+				{
+					id: "7D322958EED1CC5E"
+					item: "kubejs:coin_task"
+					type: "item"
+				}
 			]
 			title: "All about coins"
 			x: -1.0d
 			y: -14.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["14E58B53370EE969"]
-			description: [
-				"&nCan be acquired by:&r"
-				""
-				"- doing quests related to &6Equipment&r or &5Artifacts&r;"
-				""
-				"- completing dedicated &2Task&r quests;"
-				""
-				"- (&orare&r) at &2Goblin Trader&r;"
-			]
-			disable_toast: true
-			id: "0AB161B0A5E0465C"
-			shape: "octagon"
-			size: 1.5d
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "2171CE705E56D802"
-				item: "kubejs:coin_gear"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -3.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["14E58B53370EE969"]
-			description: [
-				"&nCan be acquired by:&r"
-				""
-				"- doing Cooking related quests;"
-				""
-				"- completing dedicated &2Task&r quests;"
-				""
-				"- bounties and deliveries;"
-			]
-			disable_toast: true
-			id: "6A4224B3CB598C43"
-			shape: "octagon"
-			size: 1.5d
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "033FE89C27AC7FCD"
-				item: "kubejs:coin_food"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -2.25d
-		}
-		{
-			can_repeat: true
-			dependencies: ["14E58B53370EE969"]
-			description: [
-				"Can be acquired by:"
-				""
-				"- doing Gathering(Mining, Farming, Fishing, Woodcutting) related quests;"
-				""
-				"- completing dedicated &2Task&r quests;"
-				""
-				"- bounties;"
-			]
-			disable_toast: true
-			id: "669819F52B1E47B4"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "08C302B963A412E4"
-				table_id: 4649025362890387353L
-				type: "choice"
-			}]
-			shape: "octagon"
-			size: 1.5d
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "08D13CF9FCF9F92D"
-				item: "kubejs:coin_gathering"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -1.75d
-		}
-		{
-			can_repeat: true
-			dependencies: ["14E58B53370EE969"]
-			description: [
-				"Can be acquired by:"
-				""
-				"- doing Monster-slaying related quests;"
-				""
-				"- completing dedicated &2Task&r quests;"
-				""
-				"- killing bosses;"
-			]
-			disable_toast: true
-			id: "305331D1BF7617C9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "455C591B071A310F"
-				table_id: 4649025362890387353L
-				type: "choice"
-			}]
-			shape: "octagon"
-			size: 1.5d
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "1B1836623D724D90"
-				item: "kubejs:coin_monster"
-				type: "item"
-			}]
-			x: 0.75d
-			y: -2.25d
-		}
-		{
-			description: [
-				"Different &9Task Coins&r can be gained through various activities:"
-				""
-				"- completing tasks specific to the &6Coin&r type;"
-				""
-				"- bounties and deliveries;"
-				""
-				"- special types of quests - Tasks."
-				""
-				"- (&orare&r) &2Goblin Trader&r exchange;"
-				""
-				"- (&orare&r) &3Wandering Trader&r exchange;"
-			]
-			disable_toast: true
-			id: "14E58B53370EE969"
-			shape: "octagon_important"
-			size: 2.0d
-			tasks: [{
-				id: "7539DE9FDB1FD2CC"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "rad3:coin_task"
-					}
-				}
-				title: "&9Task Coins&r"
-				type: "item"
-			}]
-			title: "&9Task Coins&r"
-			x: -1.0d
-			y: -4.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["14E58B53370EE969"]
-			description: [
-				"Can be acquired by:"
-				""
-				"- doing Technology related quests;"
-				""
-				"- completing dedicated &2Task&r quests;"
-				""
-				"- bounties and deliveries;"
-			]
-			disable_toast: true
-			id: "1DFB4AA3268C4C47"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5C6EAC8EC52D36F7"
-				table_id: 4649025362890387353L
-				type: "choice"
-			}]
-			shape: "octagon"
-			size: 1.5d
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "01A11CA3EE4C5DB4"
-				item: "kubejs:coin_engineer"
-				type: "item"
-			}]
-			x: 2.25d
-			y: -3.0d
 		}
 		{
 			can_repeat: true
@@ -1085,7 +846,7 @@
 				type: "item"
 			}]
 			x: -2.25d
-			y: -6.0d
+			y: -2.75d
 		}
 		{
 			can_repeat: true
@@ -1116,7 +877,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -6.75d
+			y: -3.5d
 		}
 		{
 			can_repeat: true
@@ -1139,13 +900,19 @@
 				type: "item"
 			}]
 			x: 2.25d
-			y: -8.25d
+			y: -5.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["7B64754C3A42FAA1"]
 			disable_toast: true
 			id: "3655F8388AC4BEEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DBFD5E8EF681857"
+				table_id: 880000568481127843L
+				type: "random"
+			}]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
@@ -1156,7 +923,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -6.0d
+			y: -2.75d
 		}
 		{
 			can_repeat: true
@@ -1179,7 +946,7 @@
 				type: "item"
 			}]
 			x: -3.75d
-			y: -6.75d
+			y: -3.5d
 		}
 		{
 			can_repeat: true
@@ -1209,7 +976,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -8.25d
+			y: -5.0d
 		}
 		{
 			can_repeat: true
@@ -1236,8 +1003,8 @@
 					value: 1L
 				}
 			]
-			x: -0.5d
-			y: 0.5d
+			x: -1.0d
+			y: 2.5d
 		}
 		{
 			can_repeat: true
@@ -1352,8 +1119,8 @@
 				type: "checkmark"
 			}]
 			title: "Starter Houses"
-			x: -1.5d
-			y: 0.5d
+			x: -3.0d
+			y: 2.5d
 		}
 		{
 			icon: {
@@ -1456,6 +1223,41 @@
 			}]
 			x: -7.0d
 			y: 4.0d
+		}
+		{
+			id: "70825CB73BABD32B"
+			tasks: [{
+				id: "786FFC69F233E016"
+				item: "kubejs:voucher_relic"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Different &9Task Coins&r can be gained through various activities:"
+				""
+				"- bounties;"
+			]
+			disable_toast: true
+			id: "14E58B53370EE969"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24F9FB4581AE9F57"
+				table_id: 7663180935530279840L
+				type: "choice"
+			}]
+			shape: "octagon_important"
+			size: 2.0d
+			tasks: [{
+				id: "0D715A18F141196B"
+				item: "kubejs:coin_task"
+				type: "item"
+			}]
+			title: "&9Task Coins&r"
+			x: -1.0d
+			y: -8.0d
 		}
 	]
 	title: "&e⭐ The Market&r"

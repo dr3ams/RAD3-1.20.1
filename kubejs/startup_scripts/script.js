@@ -33,13 +33,13 @@ event.create('coin_icaria').displayName('Icaria Coin').rarity('Rare')
 event.create('coin_end').displayName('End Coin').rarity('Uncommon')
 event.create('coin_nether').displayName('Nether Coin').rarity('Uncommon')
 //task coins
-event.create('coin_engineer').displayName('Engineer`s Coin')
-event.create('coin_food').displayName('Food Coin')
-event.create('coin_gathering').displayName('Gathering Coin')
-event.create('coin_exploration').displayName('Exploration Coin')
-event.create('coin_gear').displayName('Gear Coin')
-event.create('coin_magic').displayName('Magic Coin')
-event.create('coin_monster').displayName('Monster Coin')
+//event.create('coin_engineer').displayName('Engineer`s Coin')
+//event.create('coin_food').displayName('Food Coin')
+//event.create('coin_gathering').displayName('Gathering Coin')
+//event.create('coin_exploration').displayName('Exploration Coin')
+event.create('coin_task').displayName('Task Coin')
+//event.create('coin_magic').displayName('Magic Coin')
+//event.create('coin_monster').displayName('Monster Coin')
 //loot coin
 event.create('coin_dungeon').displayName('Dungeon Coin')
 //??? coin
@@ -145,10 +145,16 @@ event.create('scaling').displayName('Scaling')
 StartupEvents.registry('fluid', event => {
 
 	event.create('molten_orichalcum')
-    .thickTexture(0xFFBF49)
-    .bucketColor(0xFFBF49)
-    .displayName('Molten Orichalcum')
-	.noBlock() 
+		.thickTexture(0xFFBF49)
+		.bucketColor(0xFFBF49)
+		.displayName('Molten Orichalcum')
+		.noBlock()
+
+    event.create('aquaculture:molten_neptunium')
+        .thickTexture(0x17f4b8)
+        .bucketColor(0x17f4b8)
+        .displayName('Molten Neptunium')
+        .tag('aquaculture:molten_neptunium');	
 
   /// END
 })

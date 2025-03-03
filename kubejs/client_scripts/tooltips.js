@@ -32,7 +32,7 @@ ItemEvents.tooltip(event =>{
         Text.of('• Additional resources can be extracted from it using one of the ').white(),
         Text.of('⭐ Masteries').darkRed()
 		])
-      text.add(2, [
+      text.add(3, [
 	    Text.of('• Find out more details in ').white(),
         Text.of('⭐ Masteries ').darkRed(),
         Text.of('questbook chapter').white()
@@ -40,6 +40,30 @@ ItemEvents.tooltip(event =>{
     }
   })
 
+	event.addAdvanced('landsoficaria:totem_of_stuffing', (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').gold(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• Prevents the player from taking damage when ').white(),
+		Text.of('starving').yellow()
+		])
+      text.add(2, [
+        Text.of('• Removes any ').white(),
+		Text.of('Hunger ').gray(),
+		Text.of('effects, adds a ').white(),
+		Text.of('Saturation ').darkRed(),
+		Text.of('effect for 10 seconds and refills food and saturation ').white(),
+		Text.of('fully').green()
+		])
+    }
+  })
+  
+  
 	event.addAdvanced(['aether:healing_stone'], (item, advanced, text) => {
     if (!event.isShift()) {
       text.add(1, [
@@ -202,7 +226,7 @@ ItemEvents.tooltip(event =>{
 		])
       text.add(2, [
 	    Text.of('• Can be exchanged for more rewards in ').white(),
-        Text.of('⭐ Masteries ').red(),
+        Text.of('⭐ Masteries ').darkRed(),
         Text.of('questbook chapter').white()
       ])
     }
@@ -568,7 +592,7 @@ ItemEvents.tooltip(event =>{
     }
   })
   
-  	event.addAdvanced(['kubejs:coin_engineer', 'kubejs:coin_food', 'kubejs:coin_gathering', 'kubejs:coin_exploration', 'kubejs:coin_gear', 'kubejs:coin_magic'], (item, advanced, text) => {
+  	event.addAdvanced('kubejs:coin_task', (item, advanced, text) => {
 	text.add(1, [
         Text.of('Task coin').blue()
     ])	
@@ -580,18 +604,18 @@ ItemEvents.tooltip(event =>{
       ])
     } else {
       text.add(1, [
-        Text.of('• Acquired through doing corresponding ').white(),
-		Text.of('Task-type ').blue(),
-		Text.of('quests from the ').white(),
-		Text.of('⭐ Task board ').gold(),
-        Text.of('quest chapter ').white()
+        Text.of('• Acquired by doing various ').white(),
+		Text.of('Bounties ').blue(),
+		Text.of('from the ').white(),
+		Text.of('Bounty ').gold(),
+        Text.of('board').white()
       ])
 	    text.add(2, [
         Text.of('• Exchange it in ').white(),
         Text.of('⭐ The Market ').gold(),
         Text.of('quest chapter in the ').white(),
 		Text.of('Quest Book ').green(),
-		Text.of('for valuable ').white(),
+		Text.of('for specific ').white(),
 		Text.of('Loot').gold().bold(true)
 
       ])
@@ -746,9 +770,13 @@ ItemEvents.tooltip(event =>{
 	event.addAdvanced('cataclysm:amethyst_crab_meat', (item, advanced, text) => {
     text.add(1, Text.of('Dropped from Amethyst Crab mini-boss in the Sunken City dungeon or rarely in Lush Caves biome')) 
 	})
+
+	event.addAdvanced('cataclysm:amethyst_crab_meat', (item, advanced, text) => {
+    text.add(1, Text.of('Dropped from Amethyst Crab mini-boss in the Sunken City dungeon or rarely in Lush Caves biome')) 
+	})
 	
-	event.addAdvanced('undergarden:blood_globule', (item, advanced, text) => {
-    text.add(1, Text.of('Dropped from Engorged Blood Mushroom Caps in Undergarden Dimension')) 
+	event.addAdvanced('minecraft:phantom_membrane', (item, advanced, text) => {
+    text.add(1, Text.of('Can be found in Dungeon Crawl dungeons or loot crates ')) 
 	})
 
 // THE END	

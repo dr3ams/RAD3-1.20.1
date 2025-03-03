@@ -11,20 +11,7 @@ ItemEvents.rightClicked( event => {
         // Prevent the default right-click action
         event.cancel();
     }
-	
-	if(event.item=='kubejs:socketweaver') {
-        // Run the skill point addition command for the player who clicked the block
-        event.server.runCommandSilent(`/apoth set_sockets 5`);
-        
-        // If the player is holding an item, reduce its count by 1
-        if(event.item) {
-            event.item.count--;
-        }
-    
-        // Prevent the default right-click action
-        event.cancel();
-    }
-	
+
 //END	
 })
 

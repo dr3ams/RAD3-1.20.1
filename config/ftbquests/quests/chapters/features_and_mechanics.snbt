@@ -27,6 +27,30 @@
 			x: 0.0d
 			y: -1.5d
 		}
+		{
+			height: 0.75d
+			image: "rad3:textures/misc/qb-player2.png"
+			rotation: 0.0d
+			width: 4.25d
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			height: 0.75d
+			image: "rad3:textures/misc/quest-difficulty.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			height: 0.75d
+			image: "rad3:textures/misc/quest-health.png"
+			rotation: 0.0d
+			width: 4.5d
+			x: 0.0d
+			y: -4.0d
+		}
 	]
 	order_index: 0
 	quest_links: [
@@ -35,33 +59,20 @@
 			id: "4943E70330B985E2"
 			linked_quest: "085E485E8091D543"
 			size: 1.5d
-			x: 0.5d
-			y: 0.25d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			id: "44D8AD3BBE521524"
 			linked_quest: "544FFD8F98E83BED"
-			x: -1.0d
-			y: 0.0d
-		}
-		{
-			icon: {
-				Count: 1
-				id: "player_companions:samurai_default"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "366C937FAB3AA5B2"
-			linked_quest: "02466D62F5A6CA5F"
-			x: 4.5d
-			y: 0.0d
+			x: 5.5d
+			y: 1.5d
 		}
 		{
 			id: "54D6FDAAE39E1BF1"
 			linked_quest: "0D3C9711C0517F9F"
-			x: 2.5d
-			y: -5.5d
+			x: -6.5d
+			y: 1.5d
 		}
 	]
 	quests: [
@@ -69,23 +80,15 @@
 			description: [
 				"There are couple of new mechanics that this pack employs, descriptions of which you will find following this quest."
 				"You can always come back here to read them again."
-				""
-				"- combat overhaul"
-				"- "
-				"- Gain variable benefits for eating a greater variety of foods."
-				"- Harvest groups of blocks at time to speed up mining, harvesting, and tilling."
-				"- more Piglins behaviors"
-				"- progressive difficulty"
-				"- bleeding"
 			]
 			icon: "kubejs:mark"
 			id: "56127AAF761DC8DA"
 			rewards: [{
-				id: "53256419445952A3"
-				item: "minecraft:apple"
-				type: "item"
+				id: "060C0A56809664D9"
+				type: "xp"
+				xp: 5
 			}]
-			shape: "circle"
+			shape: "rsquare_important"
 			size: 2.0d
 			tasks: [{
 				dimension: "minecraft:overworld"
@@ -93,8 +96,8 @@
 				type: "dimension"
 			}]
 			title: "Check all the new mechanics in Questbook"
-			x: -2.0d
-			y: -2.5d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["085E485E8091D543"]
@@ -131,7 +134,7 @@
 				title: "New Piglins Behavior"
 				type: "checkmark"
 			}]
-			x: 2.0d
+			x: 3.5d
 			y: 0.0d
 		}
 		{
@@ -159,8 +162,8 @@
 				type: "checkmark"
 			}]
 			title: "Trinkets and Curios"
-			x: 5.5d
-			y: -2.5d
+			x: -3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["085E485E8091D543"]
@@ -170,19 +173,11 @@
 				"It also introduces a perk system : the Knowledge of Death, and a magic system based on some enchantable items with the help of the Souls haunting the Decorative Graves and waiting for a way to be freed for their eternal sentence.A screen in game allows to configure player preferences, access a Compendium of infos and the selection of the perks."
 			]
 			id: "00EEAE0FACC02300"
-			rewards: [
-				{
-					count: 3
-					id: "3D72B5E03815639D"
-					item: "tombstone:grave_dust"
-					type: "item"
-				}
-				{
-					id: "2304ED8288AB39AC"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "2304ED8288AB39AC"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "Keeps safe your inventory items on death with many features for better survivability and exploration"
 			tasks: [{
 				advancement: "tombstone:adventure/first_knowledge"
@@ -190,8 +185,8 @@
 				id: "6121BA739D1C7316"
 				type: "advancement"
 			}]
-			x: -1.0d
-			y: 1.5d
+			x: 5.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["219C6641A038984F"]
@@ -239,11 +234,10 @@
 				type: "item"
 			}]
 			title: "Shield Mechanics"
-			x: 3.0d
-			y: -4.0d
+			x: -4.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["56127AAF761DC8DA"]
 			description: [
 				"Quests come in a number of different types in this pack:"
 				""
@@ -271,12 +265,17 @@
 				type: "checkmark"
 			}]
 			title: "Quest types and Rewards"
-			x: -5.0d
-			y: -2.5d
+			x: 0.0d
+			y: 6.5d
 		}
 		{
 			icon: "kubejs:arrow_left"
 			id: "7FF57EE6F8F6FC1C"
+			rewards: [{
+				id: "6794285FE35F1C4C"
+				type: "xp"
+				xp: 5
+			}]
 			size: 2.0d
 			subtitle: "Move your mouse to the left side to open quest menu!"
 			tasks: [{
@@ -284,8 +283,8 @@
 				title: "MORE QUESTS ARE WAITING!"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 6.0d
+			x: -9.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["219C6641A038984F"]
@@ -302,19 +301,14 @@
 			]
 			icon: "ars_nouveau:glyph_leap"
 			id: "21AD84D45795E334"
-			rewards: [{
-				id: "39B68C399D396243"
-				item: "farmersdelight:cabbage_rolls"
-				type: "item"
-			}]
 			tasks: [{
 				id: "78431B9BB94D27BB"
 				title: "Combat Roll"
 				type: "checkmark"
 			}]
 			title: "Combat Roll ability"
-			x: 3.0d
-			y: -1.0d
+			x: -3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["444EE0B011D2925F"]
@@ -380,7 +374,7 @@
 			]
 			title: "Catastrophe Scroll"
 			x: 7.0d
-			y: -6.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1D0517C3BEA06389"]
@@ -501,8 +495,8 @@
 				type: "checkmark"
 			}]
 			title: "&4(No) Natural Healing&r"
-			x: 0.5d
-			y: -2.5d
+			x: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["085E485E8091D543"]
@@ -529,8 +523,8 @@
 				type: "observation"
 			}]
 			title: "Harder Spawners and Ageing Spawners"
-			x: 2.0d
-			y: 1.5d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2620A08E1295B3A3"]
@@ -547,19 +541,19 @@
 				title: "Savage Ender Dragon"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: 4.0d
+			x: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0B3E19BB0E6C5069"]
 			description: [
 				"&eHealing Salve :&r"
 				""
-				"- The Healing Salve is the least aiding item in the mod, it lasts up to 4 uses, retains 0.5 hearts per use and is very annoying to craft!"
+				"- Lasts up to 4 uses, retains 0.5 hearts per use"
 				""
 				"&aPlaster :&r"
 				""
-				"- The Plaster is yet another healing item, it lasts up to 4 uses, retains 0.5 hearts per use but it's more easier to craft than a salve!"
+				"- Lasts up to 4 uses, retains 0.5 hearts per use"
 				""
 				"&9Bandage :&r"
 				""
@@ -580,6 +574,10 @@
 				"- Healing Stone from Aether Dimension"
 				""
 				"- Healing Flask from Icaria Dimension"
+				""
+				"- any item with regeneration effect (search in JEI)"
+				""
+				"- any item with Comfort effect (search in JEI)"
 			]
 			icon: {
 				Count: 1
@@ -741,7 +739,7 @@
 			}]
 			title: "Healing Options"
 			x: 0.5d
-			y: -4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2AF1B6A89DD4F4C2"]
@@ -760,10 +758,10 @@
 				type: "checkmark"
 			}]
 			x: 0.5d
-			y: -6.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["0B3E19BB0E6C5069"]
+			dependencies: ["1A6295743A494017"]
 			description: [
 				"The mobs you face are more agile than you might be used to, but so are you! There are many more ways to get around than just sprinting and jumping."
 				""
@@ -781,14 +779,15 @@
 			]
 			icon: "kubejs:dodge"
 			id: "219C6641A038984F"
+			size: 1.5d
 			tasks: [{
 				id: "63E81347BD43263A"
 				title: "Parcool"
 				type: "checkmark"
 			}]
 			title: "Movement options"
-			x: 3.0d
-			y: -2.5d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -815,22 +814,22 @@
 				type: "checkmark"
 			}]
 			title: "Just Enough Items"
-			x: -4.0d
-			y: -6.5d
+			x: -3.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["18CBF0FC77FABE29"]
 			icon: "kubejs:help"
 			id: "759565BD4CB7872D"
-			size: 1.0d
+			size: 0.5d
 			subtitle: "They contain useful info that may help you during your playthrough."
 			tasks: [{
 				id: "55399A3A9CF095CE"
 				type: "checkmark"
 			}]
 			title: "Info Quests"
-			x: -6.5d
-			y: -2.5d
+			x: 0.25d
+			y: 5.75d
 		}
 		{
 			description: [
@@ -854,7 +853,7 @@
 			}]
 			title: "Recipe issues and incompatibilities"
 			x: 7.0d
-			y: -9.5d
+			y: -4.0d
 		}
 		{
 			description: [
@@ -873,8 +872,8 @@
 				type: "checkmark"
 			}]
 			title: "Chunk Claiming"
-			x: -6.0d
-			y: -4.5d
+			x: -2.0d
+			y: 6.5d
 		}
 		{
 			description: [
@@ -898,8 +897,8 @@
 				type: "checkmark"
 			}]
 			title: "Teams and Parties"
-			x: -6.0d
-			y: -5.5d
+			x: -1.0d
+			y: 6.5d
 		}
 		{
 			description: [
@@ -959,8 +958,8 @@
 				title: "Tweaks to many existing blocks"
 				type: "checkmark"
 			}]
-			x: -5.0d
-			y: -6.0d
+			x: 2.0d
+			y: 6.5d
 		}
 		{
 			description: [
@@ -981,8 +980,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: 1.0d
+			x: 1.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["085E485E8091D543"]
@@ -1013,8 +1012,8 @@
 				type: "dimension"
 			}]
 			title: "End Overhaul"
-			x: 0.5d
-			y: 2.5d
+			x: 4.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["7373F83ECF99AC4D"]
@@ -1071,8 +1070,8 @@
 				type: "item"
 			}]
 			title: "Collector's Album"
-			x: 4.5d
-			y: -4.0d
+			x: -4.5d
+			y: 5.0d
 		}
 		{
 			description: [
@@ -1129,12 +1128,16 @@
 				item: "minecraft:anvil"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 1.5d
+			x: 3.0d
+			y: 6.5d
 		}
 		{
-			dependencies: ["0E5AE2A43020AFC3"]
+			dependencies: ["56127AAF761DC8DA"]
 			description: [
+				"Your character's journey to greatness is paved with countless paths! From the &lpassive skill tree&r that unlocks hidden potential, to the sparkling allure of &6jewelry&r, &5trinkets and relics&r, to the potent power of &dpotions&r, &echarms&r, &2essences&r, and more - the options for enhancement are vast and varied."
+				""
+				"This quest book serves as your guide, unveiling the intricacies and mechanics behind each of these powerful systems. Prepare to unlock your character's true potential!"
+				""
 				"&5&nPassive Skill Tree&r&r"
 				""
 				"To get started, gather some &aexperience&r to acquire your first skill point."
@@ -1144,16 +1147,6 @@
 				"Then select your &5class&r but choose carefully, &nyou cannot change it.&r"
 				""
 				"You can path to other classes later if you think it is worth it."
-				""
-				"&4&nGems&r&r"
-				""
-				"You can find &4gems&r in chests, and sometimes from ore."
-				""
-				"They can be inserted into equipment on a &5smithing table.&r"
-				""
-				"To remove &4gems&r from equipment, you need to use a &2Sigil of Withdrawal&r. This preserves the item and the gems."
-				""
-				"Each &4gem&r provides different attribute bonuses, based on the type of equipment it is in."
 			]
 			icon: "kubejs:levelup"
 			id: "1A6295743A494017"
@@ -1170,17 +1163,21 @@
 					type: "item"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				id: "58E1F9E81EF9C964"
 				title: "Passive Skill Tree"
 				type: "checkmark"
 			}]
-			title: "Passive Skill Tree"
-			x: 7.0d
-			y: -2.5d
+			title: "Hidden Potential"
+			x: -4.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["149CB61732F787CF"]
+			dependencies: [
+				"149CB61732F787CF"
+				"219C6641A038984F"
+			]
 			description: [
 				"&4Bonfires&r can be created and named which then can be used to travel to any other &4Bonfire&r.  Using a Bonfire will also set your spawn location like a bed. "
 				""
@@ -1254,10 +1251,11 @@
 				}
 			]
 			title: "Bonfires"
-			x: 1.5d
-			y: -1.0d
+			x: -5.5d
+			y: -0.5d
 		}
 		{
+			dependencies: ["1A6295743A494017"]
 			description: [
 				"Many quests give &ecoins&r which can be exchanged in &eThe Market&r chapter for useful items."
 				""
@@ -1271,10 +1269,11 @@
 				title: "The Market"
 				type: "checkmark"
 			}]
-			x: -6.0d
-			y: -0.5d
+			x: -2.5d
+			y: 1.0d
 		}
 		{
+			dependencies: ["1A6295743A494017"]
 			icon: "bountiful:bountyboard"
 			id: "7F7B6EFF4B5F2CB4"
 			tasks: [{
@@ -1282,8 +1281,8 @@
 				title: "Tasks"
 				type: "checkmark"
 			}]
-			x: -6.0d
-			y: 0.5d
+			x: -2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["66690CB79DA211EF"]
@@ -1342,11 +1341,11 @@
 				type: "item"
 			}]
 			title: "Mounts"
-			x: 4.5d
-			y: -1.0d
+			x: -5.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["219C6641A038984F"]
+			dependencies: ["1A6295743A494017"]
 			description: [
 				"Chests found in various structures will look rather different compared to the standard wooden chests you are used to seeing."
 				""
@@ -1357,20 +1356,12 @@
 				"They can also come in the form of barrels and shulker boxes in some structures."
 			]
 			id: "7373F83ECF99AC4D"
-			rewards: [
-				{
-					count: 2
-					id: "3A90376FBB845B72"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "590E3E9E9277102A"
-					item: "farmersdelight:melon_juice"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "590E3E9E9277102A"
+				item: "farmersdelight:melon_juice"
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "lootr:1chest"
 				criterion: ""
@@ -1379,8 +1370,8 @@
 				type: "advancement"
 			}]
 			title: "Dungeon Treasures"
-			x: 4.5d
-			y: -2.5d
+			x: -4.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0B3E19BB0E6C5069"]
@@ -1413,7 +1404,7 @@
 			}]
 			title: "Levels for Hearts"
 			x: -0.5d
-			y: -4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4F332C345BD6224E"]
@@ -1436,7 +1427,7 @@
 			}]
 			title: "Shielding Health"
 			x: -0.5d
-			y: -6.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["26FFA683A2A5D5E1"]
@@ -1488,12 +1479,14 @@
 				type: "item"
 			}]
 			title: "Book Wyrms"
-			x: 1.5d
-			y: -6.5d
+			x: -6.5d
+			y: 2.5d
 		}
 		{
-			dependencies: ["0B3E19BB0E6C5069"]
+			dependencies: ["1A6295743A494017"]
 			description: [
+				"&aExperience&r is your most valuable currency in this worls. Dying means losing that hard-earned progress, so tread carefully and make sure you prioritize gaining &aexperience&r over reckless &4risk-taking&r."
+				""
 				"&2Ways to earn experience:&r"
 				"- killing mobs"
 				"- looting dungeons (chests contains exp scrolls)"
@@ -1520,19 +1513,20 @@
 				value: 1L
 			}]
 			title: "Experience"
-			x: 1.5d
-			y: -4.5d
+			x: -5.5d
+			y: 2.0d
 		}
 		{
+			dependencies: ["0F590B3A1FD5D993"]
 			description: [
 				"This quest rewards different &4Apotheosis affix modifiers&r."
 				""
 				"&6To apply it to your current tool:&r"
 				"1) &9Hold the tool&r in main hand"
-				"2) &5Open quest book&r from your inventory sreen"
+				"2) Open &6quest book&r &nfrom your inventory sreen&r"
 				"3) &6Click on reward&r to redeem"
 				""
-				"&4Modifiers&r can be applied to either one or different equipment pieces."
+				"&4Modifiers&r can be applied to either one or different equipment pieces. The choice is up to you."
 			]
 			icon: {
 				Count: 1
@@ -1550,13 +1544,33 @@
 			id: "6E05756A7E0B133E"
 			rewards: [
 				{
+					auto: "disabled"
 					command: "/apoth set_rarity apotheotic_additions:artifact"
+					elevate_perms: true
+					exclude_from_claim_all: true
 					id: "3E2A6B3D4A666442"
+					silent: true
+					team_reward: false
 					type: "command"
 				}
 				{
+					auto: "disabled"
 					command: "/apoth set_sockets 5"
+					elevate_perms: true
+					exclude_from_claim_all: true
 					id: "4067D6165AB534E1"
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "disabled"
+					command: "/apoth lootify apotheotic_additions:esoteric"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "2F7EDDF90520B44B"
+					silent: true
+					team_reward: false
 					type: "command"
 				}
 			]
@@ -1585,6 +1599,17 @@
 			dependencies: ["7928F5D289CB8B3D"]
 			icon: "l2hostility:weakness"
 			id: "322E83FDF3FF59B4"
+			rewards: [{
+				auto: "disabled"
+				command: "/curios add hostility_curse @s 1"
+				elevate_perms: true
+				icon: "l2hostility:cursed"
+				id: "7E5594688508338E"
+				silent: true
+				team_reward: false
+				title: "Seems like you adapted to Hostile World. + 1 L2Hostility Curse Slot"
+				type: "command"
+			}]
 			tasks: [{
 				id: "78EA6F62CE2FF042"
 				title: "Hostile"

@@ -40,77 +40,7 @@
 			y: 2.0d
 		}
 		{
-			id: "4F20540765A93D77"
-			rewards: [
-				{
-					id: "2703423B2CD8A81C"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "575231E04221D5B0"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				advancement: "nova_structures:adventure/find_illager_manor"
-				criterion: ""
-				id: "7B81785A915B6A7F"
-				type: "advancement"
-			}]
-			x: 12.0d
-			y: 3.0d
-		}
-		{
-			id: "24975F8795218934"
-			rewards: [
-				{
-					id: "0E940CF556135F6F"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "65416FDC1E5F2E59"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			subtitle: "Discover a Abandoned Temple"
-			tasks: [{
-				advancement: "dungeons_arise:find_abandoned_temple"
-				criterion: ""
-				id: "2D54AE47A2678D34"
-				type: "advancement"
-			}]
-			x: 11.5d
-			y: -0.5d
-		}
-		{
-			id: "58BFD3C77C4D1AC6"
-			rewards: [
-				{
-					id: "12A7296644B29EF6"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "6DA1CEC30B45386A"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			subtitle: "Discover a Monastery"
-			tasks: [{
-				advancement: "dungeons_arise:find_monasteries"
-				criterion: ""
-				id: "1FD6AFD394AEB398"
-				type: "advancement"
-			}]
-			x: 4.0d
-			y: 6.0d
-		}
-		{
+			icon: "minecraft:string"
 			id: "5954871D011EA31B"
 			rewards: [
 				{
@@ -125,16 +55,24 @@
 				}
 			]
 			subtitle: "Discover a Spider Cave"
-			tasks: [{
-				advancement: "betterdungeons:spider_dungeon"
-				criterion: ""
-				id: "1D501E3BD17DD079"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "betterdungeons:spider_dungeon"
+					criterion: ""
+					id: "1D501E3BD17DD079"
+					type: "advancement"
+				}
+				{
+					id: "670D6A68A5FFE79B"
+					structure: "betterdungeons:spider_dungeon"
+					type: "structure"
+				}
+			]
 			x: 12.0d
 			y: 1.0d
 		}
 		{
+			icon: "minecraft:rotten_flesh"
 			id: "028BAD294AD040AF"
 			rewards: [
 				{
@@ -149,16 +87,24 @@
 				}
 			]
 			subtitle: "Discover a Catacomb"
-			tasks: [{
-				advancement: "betterdungeons:zombie_dungeon"
-				criterion: ""
-				id: "35AD77BC9FF9119A"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "betterdungeons:zombie_dungeon"
+					criterion: ""
+					id: "35AD77BC9FF9119A"
+					type: "advancement"
+				}
+				{
+					id: "7F6F9DF6896A3373"
+					structure: "betterdungeons:zombie_dungeon"
+					type: "structure"
+				}
+			]
 			x: 10.0d
 			y: 1.5d
 		}
 		{
+			icon: "minecraft:skeleton_skull"
 			id: "2FF97DE5D1B0F727"
 			rewards: [
 				{
@@ -173,16 +119,24 @@
 				}
 			]
 			subtitle: "Discover a Fortress of the Undead"
-			tasks: [{
-				advancement: "betterdungeons:skeleton_dungeon"
-				criterion: ""
-				id: "19375711FD111567"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "betterdungeons:skeleton_dungeon"
+					criterion: ""
+					id: "19375711FD111567"
+					type: "advancement"
+				}
+				{
+					id: "5D9F9D4B6BB6FD6D"
+					structure: "betterdungeons:skeleton_dungeon"
+					type: "structure"
+				}
+			]
 			x: 10.0d
 			y: 2.5d
 		}
 		{
+			icon: "ars_nouveau:gilded_sourcestone_large_bricks"
 			id: "3C6CA584F934B8B9"
 			rewards: [
 				{
@@ -197,16 +151,24 @@
 				}
 			]
 			subtitle: "Find Ruined Portal"
-			tasks: [{
-				advancement: "ars_additions:find_ruined_portal"
-				criterion: ""
-				id: "1F0BFB0430425384"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "ars_additions:find_ruined_portal"
+					criterion: ""
+					id: "1F0BFB0430425384"
+					type: "advancement"
+				}
+				{
+					id: "186F6FE0CC864FCF"
+					structure: "ars_additions:ruined_portal"
+					type: "structure"
+				}
+			]
 			x: 8.5d
 			y: 5.0d
 		}
 		{
+			icon: "minecraft:spawner"
 			id: "1C6EB956684D3209"
 			rewards: [
 				{
@@ -220,17 +182,25 @@
 					type: "item"
 				}
 			]
-			subtitle: "Discover a Monster Room"
-			tasks: [{
-				advancement: "betterdungeons:small_dungeon"
-				criterion: ""
-				id: "3533A980E4933C2D"
-				type: "advancement"
-			}]
+			subtitle: "Discover a Monster Room (an upgraded spawner room)"
+			tasks: [
+				{
+					advancement: "betterdungeons:small_dungeon"
+					criterion: ""
+					id: "3533A980E4933C2D"
+					type: "advancement"
+				}
+				{
+					id: "74F82385C1F5B985"
+					structure: "betterdungeons:small_dungeon"
+					type: "structure"
+				}
+			]
 			x: 12.0d
 			y: 2.0d
 		}
 		{
+			icon: "minecraft:dead_bush"
 			id: "40822E5624735C13"
 			rewards: [
 				{
@@ -244,65 +214,25 @@
 					type: "item"
 				}
 			]
-			subtitle: "Discover a Bandit Village"
-			tasks: [{
-				advancement: "dungeons_arise:find_bandit_village"
-				criterion: ""
-				id: "68D52A350D5DB36D"
-				type: "advancement"
-			}]
+			subtitle: "Discover a Bandit Village in Badlands"
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_bandit_village"
+					criterion: ""
+					id: "68D52A350D5DB36D"
+					type: "advancement"
+				}
+				{
+					id: "5B97BF5C0D271CC8"
+					structure: "dungeons_arise:bandit_village"
+					type: "structure"
+				}
+			]
 			x: 4.5d
 			y: 8.5d
 		}
 		{
-			id: "4A3AA5FFA243704A"
-			rewards: [
-				{
-					id: "1A31530C426B6D8C"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "7FE5BB273E404F8B"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			subtitle: "Discover a Bandit Towers"
-			tasks: [{
-				advancement: "dungeons_arise:find_bandit_towers"
-				criterion: ""
-				id: "4C91484F9B7963E7"
-				type: "advancement"
-			}]
-			x: 1.5d
-			y: -3.0d
-		}
-		{
-			id: "344F9833FEABA87E"
-			rewards: [
-				{
-					id: "75DAD32794B49ECE"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "21A702555C59C281"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-			]
-			subtitle: "Discover a Infested Temple"
-			tasks: [{
-				advancement: "dungeons_arise:find_infested_temple"
-				criterion: ""
-				id: "62264F31DA18C312"
-				type: "advancement"
-			}]
-			x: -1.0d
-			y: -3.0d
-		}
-		{
+			icon: "minecraft:emerald"
 			id: "5906FA87FDF566D6"
 			rewards: [
 				{
@@ -317,16 +247,33 @@
 				}
 			]
 			subtitle: "Discover a Merchant Campsite"
-			tasks: [{
-				advancement: "dungeons_arise:find_merchant_campsite"
-				criterion: ""
-				id: "5C2E6CE7098CD784"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_merchant_campsite"
+					criterion: ""
+					id: "5C2E6CE7098CD784"
+					type: "advancement"
+				}
+				{
+					id: "646B7C237895375D"
+					structure: "dungeons_arise:merchant_campsite"
+					type: "structure"
+				}
+			]
 			x: -3.0d
 			y: 1.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "minecraft:crossbow"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
 			id: "134BE651109B1400"
 			rewards: [
 				{
@@ -341,40 +288,24 @@
 				}
 			]
 			subtitle: "Discover a Illager Campsite"
-			tasks: [{
-				advancement: "dungeons_arise:find_illager_campsite"
-				criterion: ""
-				id: "1714231BC1DD7644"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_illager_campsite"
+					criterion: ""
+					id: "1714231BC1DD7644"
+					type: "advancement"
+				}
+				{
+					id: "6A96AA62A75564A3"
+					structure: "dungeons_arise:illager_campsite"
+					type: "structure"
+				}
+			]
 			x: -3.5d
 			y: 2.0d
 		}
 		{
-			id: "2A670AD78403811C"
-			rewards: [
-				{
-					id: "3D92023E19BAD837"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "21FFC28F1EF2E144"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			subtitle: "Discover a Small Blimp"
-			tasks: [{
-				advancement: "dungeons_arise:find_small_blimp"
-				criterion: ""
-				id: "389007D5BE4D3447"
-				type: "advancement"
-			}]
-			x: 7.0d
-			y: 6.0d
-		}
-		{
+			icon: "minecraft:hopper_minecart"
 			id: "5DBEE11FFCE9799C"
 			rewards: [
 				{
@@ -389,50 +320,24 @@
 				}
 			]
 			subtitle: "Discover a Mining System"
-			tasks: [{
-				advancement: "dungeons_arise:find_mining_system"
-				criterion: ""
-				id: "0EA577261C3A8FFA"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_mining_system"
+					criterion: ""
+					id: "0EA577261C3A8FFA"
+					type: "advancement"
+				}
+				{
+					id: "7364FDCC541063EA"
+					structure: "dungeons_arise:mining_system"
+					type: "structure"
+				}
+			]
 			x: 5.0d
 			y: 6.5d
 		}
 		{
-			id: "4426873BBA8DDC45"
-			rewards: [
-				{
-					id: "115CA3B7F65584CB"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "6CCF0D5C8C1FFA4E"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-			]
-			x: -1.0d
-			y: 1.0d
-		}
-		{
-			id: "3D91A92E43A1F29F"
-			rewards: [
-				{
-					id: "41ECA24C16CD0360"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "7C3F9DADBDF82E93"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			x: 8.5d
-			y: -1.0d
-		}
-		{
+			icon: "minecraft:nautilus_shell"
 			id: "290A2645FBD90100"
 			rewards: [
 				{
@@ -446,51 +351,24 @@
 					type: "item"
 				}
 			]
-			subtitle: "Discover a Typhon"
-			tasks: [{
-				advancement: "dungeons_arise:find_typhon"
-				criterion: ""
-				id: "1974F6593F122F0A"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "dungeons_enhanced:sunken_deeps"
+					criterion: ""
+					id: "37AD441442A65F8A"
+					type: "advancement"
+				}
+				{
+					id: "5B564897A5772880"
+					structure: "dungeons_enhanced:elders_temple"
+					type: "structure"
+				}
+			]
 			x: 6.5d
 			y: 8.5d
 		}
 		{
-			id: "33E5692AD32B0E14"
-			rewards: [
-				{
-					id: "5E1C25FB7AD61E99"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "3C2C1692406FC31C"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			x: 9.5d
-			y: -3.0d
-		}
-		{
-			id: "61FCBA9A8F1A7A5C"
-			rewards: [
-				{
-					id: "75B5C2759DB727C3"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "60F893C1D90AAC34"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 0.5d
-		}
-		{
+			icon: "minecraft:blaze_powder"
 			id: "174122AEDDBE021E"
 			rewards: [
 				{
@@ -505,12 +383,19 @@
 				}
 			]
 			subtitle: "Discover a Scorched Mines"
-			tasks: [{
-				advancement: "dungeons_arise:find_scorched_mines"
-				criterion: ""
-				id: "4A068189A168ED81"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_scorched_mines"
+					criterion: ""
+					id: "4A068189A168ED81"
+					type: "advancement"
+				}
+				{
+					id: "74B2117997915D07"
+					structure: "dungeons_arise:scorched_mines"
+					type: "structure"
+				}
+			]
 			x: -0.5d
 			y: 4.5d
 		}
@@ -539,6 +424,7 @@
 			y: -2.0d
 		}
 		{
+			icon: "minecraft:splash_potion"
 			id: "6523AEAB5C36B178"
 			rewards: [
 				{
@@ -553,57 +439,30 @@
 				}
 			]
 			subtitle: "Discover a Plague Asylum"
-			tasks: [{
-				advancement: "dungeons_arise:find_plague_asylum"
-				criterion: ""
-				id: "4A7C02F7232558C4"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_plague_asylum"
+					criterion: ""
+					id: "4A7C02F7232558C4"
+					type: "advancement"
+				}
+				{
+					id: "79232E524521DFA2"
+					structure: "dungeons_arise:plague_asylum"
+					type: "structure"
+				}
+			]
 			x: 14.5d
 			y: 2.0d
 		}
 		{
-			id: "7853F4333CEA424A"
-			rewards: [
-				{
-					id: "741816F7C09948D6"
-					type: "xp_levels"
-					xp_levels: 1
+			icon: {
+				Count: 1
+				id: "minecraft:fishing_rod"
+				tag: {
+					Damage: 0
 				}
-				{
-					id: "386D455653183906"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			subtitle: "Discover a Small Prairie House"
-			tasks: [{
-				advancement: "dungeons_arise:find_small_prairie_house"
-				criterion: ""
-				id: "37F30C1A60C5BC67"
-				type: "advancement"
-			}]
-			x: 11.5d
-			y: 4.5d
-		}
-		{
-			id: "7B1123035B215BED"
-			rewards: [
-				{
-					id: "0A0DFCBB00582643"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "2AD66AD9E90BA15D"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-			]
-			x: 10.5d
-			y: 9.0d
-		}
-		{
+			}
 			id: "78843E770921D42B"
 			rewards: [
 				{
@@ -635,6 +494,7 @@
 			y: 5.0d
 		}
 		{
+			icon: "minecraft:bone"
 			id: "33D0DE47FEC48EF3"
 			rewards: [
 				{
@@ -648,41 +508,22 @@
 					type: "item"
 				}
 			]
-			subtitle: "Discover a Undead Pirate Ship"
 			tasks: [{
-				advancement: "dungeons_arise:find_undead_pirate_ship"
-				criterion: ""
-				id: "13EA20708EE965B9"
-				type: "advancement"
+				id: "2BF5EA3202436871"
+				structure: "dungeons_enhanced:tower_of_the_undead"
+				type: "structure"
 			}]
 			x: -0.5d
 			y: 8.0d
 		}
 		{
-			id: "2CD398B43AEFF428"
-			rewards: [
-				{
-					id: "2247DA40480831F4"
-					type: "xp_levels"
-					xp_levels: 1
+			icon: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
 				}
-				{
-					id: "4A44D9B947518C92"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			subtitle: "Discover a Giant Mushroom"
-			tasks: [{
-				advancement: "dungeons_arise:find_giant_mushroom"
-				criterion: ""
-				id: "1D4C58E79B9D6404"
-				type: "advancement"
-			}]
-			x: 14.0d
-			y: 1.0d
-		}
-		{
+			}
 			id: "689E731ECC22F152"
 			rewards: [
 				{
@@ -697,40 +538,24 @@
 				}
 			]
 			subtitle: "Discover a Mushroom Mine"
-			tasks: [{
-				advancement: "dungeons_arise:find_mushroom_mines"
-				criterion: ""
-				id: "20768D8E6F19533A"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_mushroom_mines"
+					criterion: ""
+					id: "20768D8E6F19533A"
+					type: "advancement"
+				}
+				{
+					id: "608F317CE41852B6"
+					structure: "dungeons_arise:mushroom_mines"
+					type: "structure"
+				}
+			]
 			x: -3.0d
 			y: 3.0d
 		}
 		{
-			id: "5FB1C1B11EE60A30"
-			rewards: [
-				{
-					id: "3010EE1373F6D10D"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "4FD4388866CB8F2D"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			subtitle: "Discover a Mushroom House"
-			tasks: [{
-				advancement: "dungeons_arise:find_mushroom_house"
-				criterion: ""
-				id: "0CD6596213E7E826"
-				type: "advancement"
-			}]
-			x: 1.0d
-			y: 1.5d
-		}
-		{
+			icon: "minecolonies:supplychestdeployer"
 			id: "5DD1A32CAD544DCC"
 			rewards: [
 				{
@@ -744,82 +569,17 @@
 					type: "item"
 				}
 			]
-			subtitle: "Discover an Illager Corsair or an Illager Galley"
+			subtitle: "Discover an Illager Galley"
 			tasks: [{
-				advancement: "dungeons_arise:find_illager_corsair_or_illager_galley"
-				criterion: ""
-				id: "4A1BDAEFF8AC3CF8"
-				type: "advancement"
+				id: "68914A9C83775BB5"
+				structure: "dungeons_arise:illager_galley"
+				type: "structure"
 			}]
 			x: 9.5d
 			y: 0.5d
 		}
 		{
-			id: "571DC9D0A8C23585"
-			rewards: [
-				{
-					id: "619AD41E17AA7E8A"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "3FCF488A6FA39722"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			subtitle: "Discover a Lighthouse"
-			tasks: [{
-				advancement: "dungeons_arise:find_lighthouse"
-				criterion: ""
-				id: "420A0AB17D3D027D"
-				type: "advancement"
-			}]
-			x: 1.0d
-			y: 2.5d
-		}
-		{
-			id: "337BABA052DA1E0E"
-			rewards: [
-				{
-					id: "4E68A02D0D8F8A46"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "39874D6C5B7D0A95"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			subtitle: "Discover a Wishing Well"
-			tasks: [{
-				advancement: "dungeons_arise:find_wishing_well"
-				criterion: ""
-				id: "1EF98D4A90EA9BB5"
-				type: "advancement"
-			}]
-			x: 0.5d
-			y: -2.0d
-		}
-		{
-			id: "145F74705341F30E"
-			rewards: [
-				{
-					id: "6563A8DC2A1D581A"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "2FFF255D4203BF7E"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-			]
-			x: 5.5d
-			y: 8.5d
-		}
-		{
+			icon: "minecraft:prismarine_bricks"
 			id: "674C4F6C629090C7"
 			rewards: [
 				{
@@ -833,16 +593,25 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				advancement: "hopo:minecraft/adventure/locate_underwater_city"
-				criterion: ""
-				id: "5556E908ECF2D79A"
-				type: "advancement"
-			}]
+			subtitle: "Locate Underwater City"
+			tasks: [
+				{
+					advancement: "hopo:minecraft/adventure/locate_underwater_city"
+					criterion: ""
+					id: "5556E908ECF2D79A"
+					type: "advancement"
+				}
+				{
+					id: "49630730F25EAC46"
+					structure: "hopo:underwater/underwater_city"
+					type: "structure"
+				}
+			]
 			x: 8.0d
 			y: 8.0d
 		}
 		{
+			icon: "minecraft:wither_skeleton_skull"
 			id: "0E132FABA501393B"
 			rewards: [
 				{
@@ -857,16 +626,24 @@
 				}
 			]
 			subtitle: "Find a Pirate Ship"
-			tasks: [{
-				advancement: "dungeons_enhanced:ahoy"
-				criterion: ""
-				id: "1EF290347315AADC"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "dungeons_enhanced:ahoy"
+					criterion: ""
+					id: "1EF290347315AADC"
+					type: "advancement"
+				}
+				{
+					id: "49E7D00EA61EB9C3"
+					structure: "dungeons_enhanced:pirate_ship"
+					type: "structure"
+				}
+			]
 			x: 9.5d
 			y: 3.5d
 		}
 		{
+			icon: "dawnoftimebuilder:stone_bricks_water_jet"
 			id: "7DE3544787B49D46"
 			rewards: [
 				{
@@ -881,15 +658,15 @@
 				}
 			]
 			tasks: [{
-				advancement: "dungeons_enhanced:sunken_deeps"
-				criterion: ""
-				id: "0CCE25B115509756"
-				type: "advancement"
+				id: "2D97C1F184969D8E"
+				structure: "dungeons_enhanced:sunken_shrine"
+				type: "structure"
 			}]
 			x: 9.5d
 			y: 7.0d
 		}
 		{
+			icon: "minecraft:bone"
 			id: "11B012F060DFF2F3"
 			rewards: [
 				{
@@ -904,16 +681,24 @@
 				}
 			]
 			subtitle: "Find an Ice Pit"
-			tasks: [{
-				advancement: "dungeons_enhanced:chilled_halls"
-				criterion: ""
-				id: "5BA16AB06E385F21"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "dungeons_enhanced:chilled_halls"
+					criterion: ""
+					id: "5BA16AB06E385F21"
+					type: "advancement"
+				}
+				{
+					id: "1FE80C67785CCDF7"
+					structure: "dungeons_enhanced:ice_pit"
+					type: "structure"
+				}
+			]
 			x: 12.0d
 			y: 7.5d
 		}
 		{
+			icon: "minecraft:stone_bricks"
 			id: "5CBB111DF657D689"
 			rewards: [
 				{
@@ -928,16 +713,24 @@
 				}
 			]
 			subtitle: "Find a Castle"
-			tasks: [{
-				advancement: "dungeons_enhanced:wars_and_kingdoms"
-				criterion: ""
-				id: "39B08C30E8378D82"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "dungeons_enhanced:wars_and_kingdoms"
+					criterion: ""
+					id: "39B08C30E8378D82"
+					type: "advancement"
+				}
+				{
+					id: "435E53245B6BF6C8"
+					structure: "dungeons_enhanced:castle"
+					type: "structure"
+				}
+			]
 			x: -1.0d
 			y: 3.0d
 		}
 		{
+			icon: "minecraft:tnt"
 			id: "059C3889FEEB8688"
 			rewards: [
 				{
@@ -952,16 +745,24 @@
 				}
 			]
 			subtitle: "Find a Desert Temple"
-			tasks: [{
-				advancement: "dungeons_enhanced:traps_and_curses"
-				criterion: ""
-				id: "6DBEACB4B01E6701"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "dungeons_enhanced:traps_and_curses"
+					criterion: ""
+					id: "6DBEACB4B01E6701"
+					type: "advancement"
+				}
+				{
+					id: "52819C69EF99E049"
+					structure: "dungeons_enhanced:desert_temple"
+					type: "structure"
+				}
+			]
 			x: 11.5d
 			y: 8.5d
 		}
 		{
+			icon: "minecraft:jack_o_lantern"
 			id: "7D9B765A3367AA22"
 			rewards: [
 				{
@@ -976,16 +777,24 @@
 				}
 			]
 			subtitle: "Find a Monster Maze"
-			tasks: [{
-				advancement: "dungeons_enhanced:hidden_under_the_roots"
-				criterion: ""
-				id: "0CFDC47AF1C3D9F0"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "dungeons_enhanced:hidden_under_the_roots"
+					criterion: ""
+					id: "0CFDC47AF1C3D9F0"
+					type: "advancement"
+				}
+				{
+					id: "4BE19AFB8D780243"
+					structure: "dungeons_enhanced:monster_maze"
+					type: "structure"
+				}
+			]
 			x: -1.0d
 			y: 2.0d
 		}
 		{
+			icon: "minecraft:red_mushroom"
 			id: "6295F936F893D27B"
 			rewards: [
 				{
@@ -1000,16 +809,24 @@
 				}
 			]
 			subtitle: "Find a Mushroom House"
-			tasks: [{
-				advancement: "dungeons_enhanced:rarest_structure"
-				criterion: ""
-				id: "406C8DCD54A9B285"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "dungeons_enhanced:rarest_structure"
+					criterion: ""
+					id: "406C8DCD54A9B285"
+					type: "advancement"
+				}
+				{
+					id: "5A34918A4AEA6E6D"
+					structure: "dungeons_enhanced:mushroom_house"
+					type: "structure"
+				}
+			]
 			x: 6.0d
 			y: 6.5d
 		}
 		{
+			icon: "minecraft:bamboo"
 			id: "39C49F2F329A1CC3"
 			rewards: [
 				{
@@ -1024,16 +841,24 @@
 				}
 			]
 			subtitle: "Find a Jungle Monument"
-			tasks: [{
-				advancement: "dungeons_enhanced:ancient_civilizations"
-				criterion: ""
-				id: "11A8863BB271D3A5"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "dungeons_enhanced:ancient_civilizations"
+					criterion: ""
+					id: "11A8863BB271D3A5"
+					type: "advancement"
+				}
+				{
+					id: "30B3F9A58AA29E5E"
+					structure: "dungeons_enhanced:jungle_monument"
+					type: "structure"
+				}
+			]
 			x: 3.0d
 			y: 8.0d
 		}
 		{
+			icon: "minecraft:skeleton_skull"
 			id: "58E0DDDAEB7E6186"
 			rewards: [
 				{
@@ -1048,16 +873,30 @@
 				}
 			]
 			subtitle: "Find a Large Dungeon"
-			tasks: [{
-				advancement: "dungeons_enhanced:thats_a_dungeon"
-				criterion: ""
-				id: "2DB5096D969C8F84"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "dungeons_enhanced:thats_a_dungeon"
+					criterion: ""
+					id: "2DB5096D969C8F84"
+					type: "advancement"
+				}
+				{
+					id: "3368E842050949D7"
+					structure: "dungeons_enhanced:large_dungeon"
+					type: "structure"
+				}
+			]
 			x: 1.5d
 			y: 3.5d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "minecraft:gilded_blackstone"
+				tag: {
+					Enchantments: [{ }]
+				}
+			}
 			id: "2E9F04184292A264"
 			rewards: [
 				{
@@ -1071,88 +910,26 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				advancement: "incendium:ash_barrens/enter_castle"
-				criterion: ""
-				id: "4F1B14FAB5721A15"
-				type: "advancement"
-			}]
+			subtitle: "Found the remains in the Nether.."
+			tasks: [
+				{
+					advancement: "incendium:ash_barrens/enter_castle"
+					criterion: ""
+					id: "4F1B14FAB5721A15"
+					type: "advancement"
+				}
+				{
+					id: "64FDBC397416E0DE"
+					structure: "incendium:forbidden_castle"
+					type: "structure"
+				}
+			]
 			x: 4.5d
 			y: -4.5d
 		}
 		{
-			id: "14750E31CE414075"
-			rewards: [
-				{
-					id: "72CC37E960A91B7F"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "1106BCE25CE8F564"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				advancement: "incendium:quartz_flats/rescue_mission"
-				criterion: ""
-				id: "22CC784BC0342053"
-				type: "advancement"
-			}]
-			x: 5.0d
-			y: -2.5d
-		}
-		{
-			id: "3E13C8F0EE2ECCA2"
-			rewards: [
-				{
-					id: "68799541023FD079"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-				{
-					id: "27C72E74292C5F15"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				advancement: "incendium:quartz_flats/torte/root"
-				criterion: ""
-				id: "369F0A82DECEBBE8"
-				type: "advancement"
-			}]
-			x: 6.0d
-			y: -2.5d
-		}
-		{
-			id: "725867AD010248A6"
-			rewards: [
-				{
-					id: "254539A5C822CC61"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-				{
-					id: "2C3C446828BDDF64"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				advancement: "incendium:misc/ruined_lab"
-				criterion: ""
-				id: "1C1E8952D30A0DBB"
-				type: "advancement"
-			}]
-			x: 7.0d
-			y: -2.0d
-		}
-		{
+			icon: "bosses_of_mass_destruction:void_lily"
 			id: "18F22679FA467A3B"
-			invisible: true
-			optional: true
 			rewards: [
 				{
 					id: "217C6419541FDBB9"
@@ -1168,15 +945,15 @@
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				advancement: "idas:ancient_mines"
-				criterion: ""
-				id: "2A105B69E5021648"
-				type: "advancement"
+				id: "1E8E328DFAEC8505"
+				structure: "bosses_of_mass_destruction:void_blossom"
+				type: "structure"
 			}]
 			x: 13.5d
 			y: 5.0d
 		}
 		{
+			icon: "minecraft:mud"
 			id: "60A36721F16C9A19"
 			rewards: [
 				{
@@ -1190,36 +967,26 @@
 					type: "item"
 				}
 			]
+			tasks: [{
+				id: "70EFE1FD260432B5"
+				structure: "nova_structures:village_swamp"
+				type: "structure"
+			}]
 			x: 8.0d
 			y: -4.0d
 		}
 		{
-			id: "392C1055DFA53518"
-			rewards: [
-				{
-					id: "321F528EE1254797"
-					item: "kubejs:copper_coin"
-					type: "item"
+			icon: {
+				Count: 1
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
 				}
-				{
-					id: "1125551AD7A9F45F"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				advancement: "incendium:infernal_dunes/pipeline/root"
-				criterion: ""
-				id: "67AF29C1C7F509F5"
-				type: "advancement"
-			}]
-			x: 4.0d
-			y: -2.0d
-		}
-		{
+			}
 			id: "0292B5904A252DC8"
-			invisible: true
-			optional: true
 			rewards: [
 				{
 					id: "0C0927802BD3DAE5"
@@ -1235,15 +1002,21 @@
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				advancement: "idas:ruins_of_the_deep"
-				criterion: ""
-				id: "64ECB5471837B045"
-				type: "advancement"
+				id: "213351A7D3A0BB10"
+				structure: "nova_structures:stray_fort"
+				type: "structure"
 			}]
 			x: -2.5d
 			y: -1.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "minecraft:quartz_block"
+				tag: {
+					Enchantments: [{ }]
+				}
+			}
 			id: "484761920DE90F52"
 			rewards: [
 				{
@@ -1257,16 +1030,31 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				advancement: "incendium:quartz_flats/sanctum/root"
-				criterion: ""
-				id: "450E88982A9A94E5"
-				type: "advancement"
-			}]
+			subtitle: "In Nether?"
+			tasks: [
+				{
+					advancement: "incendium:quartz_flats/sanctum/root"
+					criterion: ""
+					id: "450E88982A9A94E5"
+					type: "advancement"
+				}
+				{
+					id: "442DA38CB87034A0"
+					structure: "incendium:sanctum"
+					type: "structure"
+				}
+			]
 			x: 6.5d
 			y: -4.5d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "minecraft:slime_block"
+				tag: {
+					Enchantments: [ ]
+				}
+			}
 			id: "0BAF8044877BFF84"
 			rewards: [
 				{
@@ -1280,16 +1068,25 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				advancement: "incendium:toxic_heap/nuclear_fusion"
-				criterion: ""
-				id: "74ABC9AE3F212665"
-				type: "advancement"
-			}]
+			subtitle: "Loot a Nether Reactor"
+			tasks: [
+				{
+					advancement: "incendium:toxic_heap/nuclear_fusion"
+					criterion: ""
+					id: "74ABC9AE3F212665"
+					type: "advancement"
+				}
+				{
+					id: "5366750949BBB35B"
+					structure: "incendium:nether_reactor"
+					type: "structure"
+				}
+			]
 			x: 5.5d
 			y: -4.5d
 		}
 		{
+			icon: "minecraft:amethyst_cluster"
 			id: "6D6187CF453B4B2E"
 			rewards: [
 				{
@@ -1303,36 +1100,37 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				advancement: "graveyard:graveyard/crypt"
-				criterion: ""
-				id: "615F494D5C661882"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "graveyard:graveyard/crypt"
+					criterion: ""
+					id: "615F494D5C661882"
+					type: "advancement"
+				}
+				{
+					id: "292ED6F46831C3AC"
+					structure: "graveyard:crypt"
+					type: "structure"
+				}
+			]
 			x: 11.5d
 			y: -4.0d
 		}
 		{
+			icon: "ars_nouveau:potion_melder"
 			id: "360A14ED6EBA64D4"
-			rewards: [
-				{
-					id: "3D3BC43C1AF0E0D9"
-					item: "kubejs:diamond_coin"
-					type: "item"
-				}
-				{
-					id: "590733C07B00AD6D"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "547D134A5B6E5577"
-					item: "collectibles:epic_loot_bag"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3D3BC43C1AF0E0D9"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
+			tasks: [{
+				id: "0EF2D4FC963B2B28"
+				structure: "nova_structures:witch_villa"
+				type: "structure"
+			}]
 			x: 5.5d
 			y: -6.0d
 		}
@@ -1362,6 +1160,7 @@
 			y: -1.0d
 		}
 		{
+			icon: "minecraft:deepslate_bricks"
 			id: "4BCA960017B0992C"
 			rewards: [
 				{
@@ -1376,16 +1175,24 @@
 				}
 			]
 			subtitle: "Locate a Bastille"
-			tasks: [{
-				advancement: "takesapillage:bastille"
-				criterion: ""
-				id: "2B9E2AC9EDA5E69A"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "takesapillage:bastille"
+					criterion: ""
+					id: "2B9E2AC9EDA5E69A"
+					type: "advancement"
+				}
+				{
+					id: "1994787491618AB8"
+					structure: "takesapillage:bastille"
+					type: "structure"
+				}
+			]
 			x: 1.5d
 			y: 7.0d
 		}
 		{
+			icon: "minecraft:dark_oak_log"
 			id: "6848C93746CC1FC0"
 			rewards: [
 				{
@@ -1400,16 +1207,24 @@
 				}
 			]
 			subtitle: "Locate a Pillager Camp"
-			tasks: [{
-				advancement: "takesapillage:pillager_camp"
-				criterion: ""
-				id: "6543D27A26C0B9EB"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "takesapillage:pillager_camp"
+					criterion: ""
+					id: "6543D27A26C0B9EB"
+					type: "advancement"
+				}
+				{
+					id: "1F0E15212432F11B"
+					structure: "takesapillage:pillager_camp"
+					type: "structure"
+				}
+			]
 			x: 0.5d
 			y: 6.0d
 		}
 		{
+			icon: "ars_nouveau:frostaya_pod"
 			id: "1F384765FE3167DB"
 			rewards: [
 				{
@@ -1430,10 +1245,16 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
+			tasks: [{
+				id: "5161C2A6B13D15EC"
+				structure: "cataclysm:frosted_prison"
+				type: "structure"
+			}]
 			x: 5.5d
 			y: 10.5d
 		}
 		{
+			icon: "minecraft:purpur_block"
 			id: "3B822759AA2551D5"
 			rewards: [
 				{
@@ -1447,89 +1268,25 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				advancement: "minecraft:end/find_end_city"
-				criterion: ""
-				id: "20FC5CBC7066CE6D"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "minecraft:end/find_end_city"
+					criterion: ""
+					id: "20FC5CBC7066CE6D"
+					type: "advancement"
+				}
+				{
+					id: "4943F149F619E19A"
+					structure: "minecraft:end_city"
+					type: "structure"
+				}
+			]
 			x: -1.0d
 			y: 7.0d
 		}
 		{
-			id: "26C4DC505D176884"
-			rewards: [
-				{
-					id: "5B2F71216B31DAE5"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "59BB6257FADC9182"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			subtitle: "Find a Flying Dutchman"
-			tasks: [{
-				advancement: "dungeons_enhanced:in_the_air"
-				criterion: ""
-				id: "12F59EC27FF06187"
-				type: "advancement"
-			}]
-			x: 0.5d
-			y: 8.5d
-		}
-		{
-			id: "2BFF62DE2B1CE10C"
-			rewards: [
-				{
-					id: "29BFFFF1F6FEAD60"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "37392EF5AEF21FD5"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				advancement: "dungeons_arise:find_mechanical_nest"
-				criterion: ""
-				id: "1A78566257294BB7"
-				type: "advancement"
-			}]
-			x: 0.5d
-			y: -4.5d
-		}
-		{
-			id: "761D7D6E84D82F9B"
-			rewards: [
-				{
-					id: "4705F68BF77C6CBA"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
-					id: "472830A1EBC3592D"
-					item: "kubejs:gold_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				advancement: "dungeons_arise:find_keep_kayra"
-				criterion: ""
-				id: "3E9411D058A52071"
-				type: "advancement"
-			}]
-			x: -0.5d
-			y: -4.0d
-		}
-		{
+			icon: "graveyard:corruption"
 			id: "6E0F6DFA958172F8"
-			invisible: true
-			optional: true
 			rewards: [
 				{
 					id: "314012A1F1608FDC"
@@ -1545,15 +1302,15 @@
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				advancement: "idas:nexus"
-				criterion: ""
-				id: "1D2F17ACB664AFC7"
-				type: "advancement"
+				id: "08364C8420445356"
+				structure: "graveyard:lich_prison"
+				type: "structure"
 			}]
 			x: 13.5d
 			y: -1.0d
 		}
 		{
+			icon: "minecraft:heart_of_the_sea"
 			id: "6D7846F53919A4D9"
 			invisible: true
 			optional: true
@@ -1572,15 +1329,15 @@
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				advancement: "idas:tinkers_workshop"
-				criterion: ""
-				id: "40B9D329DA3A4E7C"
-				type: "advancement"
+				id: "2695AD0BE3085440"
+				structure: "cataclysm:sunken_city"
+				type: "structure"
 			}]
 			x: -2.5d
 			y: 5.0d
 		}
 		{
+			icon: "minecraft:barrel"
 			id: "1A19338C58738423"
 			rewards: [
 				{
@@ -1594,16 +1351,24 @@
 					xp_levels: 1
 				}
 			]
-			tasks: [{
-				advancement: "dungeons_arise:find_greenwood_pub"
-				criterion: ""
-				id: "7F580B20F36EF103"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_greenwood_pub"
+					criterion: ""
+					id: "7F580B20F36EF103"
+					type: "advancement"
+				}
+				{
+					id: "201577D69D65A7B2"
+					structure: "dungeons_arise:greenwood_pub"
+					type: "structure"
+				}
+			]
 			x: 14.0d
 			y: 3.0d
 		}
 		{
+			icon: "minecraft:red_mushroom"
 			id: "4855DE6C38E2BB1A"
 			rewards: [
 				{
@@ -1617,16 +1382,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				advancement: "graveyard:graveyard/giant_mushroom"
-				criterion: ""
-				id: "7944AE0474BFC3BA"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "graveyard:graveyard/giant_mushroom"
+					criterion: ""
+					id: "7944AE0474BFC3BA"
+					type: "advancement"
+				}
+				{
+					id: "05EA77D08CB66C83"
+					structure: "graveyard:giant_mushroom"
+					type: "structure"
+				}
+			]
 			x: 10.5d
 			y: -4.5d
 		}
 		{
+			icon: "minecraft:cobweb"
 			id: "26132E58E0F26C12"
 			rewards: [
 				{
@@ -1657,29 +1430,7 @@
 			y: -3.0d
 		}
 		{
-			id: "2AB2AAFC44200DBC"
-			rewards: [
-				{
-					id: "7DA5BFDE925CD8F1"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "5DC642794C3F5F45"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				advancement: "dungeons_arise:find_heavenly_challenger"
-				criterion: ""
-				id: "5E63D2FC523F9086"
-				type: "advancement"
-			}]
-			x: -0.5d
-			y: -0.5d
-		}
-		{
+			icon: "minecraft:phantom_membrane"
 			id: "3BBC3ADD6990D183"
 			rewards: [
 				{
@@ -1693,12 +1444,20 @@
 					xp_levels: 3
 				}
 			]
-			tasks: [{
-				advancement: "dungeons_arise:find_aviary"
-				criterion: ""
-				id: "250954E9C9BEE58D"
-				type: "advancement"
-			}]
+			subtitle: "(Located in End dimension)"
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_aviary"
+					criterion: ""
+					id: "250954E9C9BEE58D"
+					type: "advancement"
+				}
+				{
+					id: "59849DAC372339BA"
+					structure: "dungeons_arise:aviary"
+					type: "structure"
+				}
+			]
 			x: 10.5d
 			y: 6.0d
 		}
@@ -1727,24 +1486,318 @@
 			y: -4.0d
 		}
 		{
-			id: "62111745D1A894F5"
+			icon: {
+				Count: 1
+				id: "graveyard:bone_dagger"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+					reinforce_level: 0
+					reinforce_max: 10
+				}
+			}
+			id: "002D78D68A599A5A"
 			tasks: [{
-				id: "5514FD1AE95E3420"
-				structure: "nova_structures:witch_villa"
+				id: "43CD3385872CBFC2"
+				structure: "graveyard:altar"
 				type: "structure"
 			}]
-			x: 17.0d
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "tombstone:decorative_tombstone"
+				tag: {
+					model_texture: 0
+				}
+			}
+			id: "03A6EA6C4C3BE548"
+			tasks: [{
+				id: "5C33C474705A36E5"
+				structure: "graveyard:large_graveyard"
+				type: "structure"
+			}]
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			icon: "dawnoftimebuilder:candlestick"
+			id: "3A1250C40DD39D2C"
+			tasks: [{
+				id: "1414D1DD36835107"
+				structure: "structory:old_manor"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			icon: "valhelsia_structures:brazier"
+			id: "46C8E8E422AC314B"
+			tasks: [{
+				id: "75FE601BBBF4E13B"
+				structure: "valhelsia_structures:castle"
+				type: "structure"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			icon: "valhelsia_structures:glazed_jar"
+			id: "0BE8761868D52D27"
+			tasks: [{
+				id: "62291874D657544C"
+				structure: "valhelsia_structures:castle_ruin"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			icon: "naturesaura:outpost_finder"
+			id: "2EF0FC7D4F346812"
+			tasks: [{
+				id: "6AA3DD6C9C63F0D2"
+				structure: "towns_and_towers:pillager_outpost_swamp"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ars_nouveau:block/warp_portal"
+				}
+			}
+			id: "0536FA730C35CCA7"
+			tasks: [{
+				id: "3AD248DFA5DDB118"
+				structure: "ars_additions:nexus_tower"
+				type: "structure"
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			icon: "minecraft:campfire"
+			id: "4CAEBC46230FD278"
+			tasks: [{
+				id: "52801D63828D643A"
+				structure: "structory:abandoned_camp"
+				type: "structure"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "tombstone:ankh_of_prayer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1EC0AF8AFE8E0698"
+			tasks: [{
+				id: "2F42E940A2A2D219"
+				structure: "structory:abandoned_chapel"
+				type: "structure"
+			}]
+			x: -1.0d
 			y: 1.0d
 		}
 		{
-			id: "0D0AE4281ADF6524"
+			icon: "betterarcheology:growth_totem"
+			id: "1D08C4299AEA99E7"
 			tasks: [{
-				id: "33FA50DDA342991F"
-				structure: "nova_structures:village_swamp"
+				id: "60E62954821EBF5C"
+				structure: "betterarcheology:light_temple"
 				type: "structure"
 			}]
-			x: 17.0d
-			y: 2.0d
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			icon: "minecraft:skeleton_skull"
+			id: "51EDFDBB75BC0B6F"
+			tasks: [{
+				id: "0B09379E0E21742F"
+				structure: "nova_structures:undead_crypt"
+				type: "structure"
+			}]
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			icon: "ars_nouveau:wilden_wing"
+			id: "02CBACBB423DE321"
+			tasks: [
+				{
+					id: "21F61426E5618A42"
+					structure: "ars_nouveau:guardian_wilden_den"
+					type: "structure"
+				}
+				{
+					id: "66531E5C79DABA99"
+					structure: "ars_nouveau:hunter_wilden_den"
+					type: "structure"
+				}
+				{
+					id: "481DE7EC8CFBD746"
+					structure: "ars_nouveau:stalker_wilden_den"
+					type: "structure"
+				}
+			]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			icon: "minecraft:spruce_sapling"
+			id: "13190FEB61AF4C9D"
+			tasks: [{
+				id: "47443356EF453D46"
+				structure: "towns_and_towers:village_old_growth_taiga"
+				type: "structure"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:cauldron"
+			id: "6A3FEAE6AC5EBAD8"
+			tasks: [{
+				id: "5D8295CA72D061F2"
+				structure: "dungeons_enhanced:tall_witch_hut"
+				type: "structure"
+			}]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			icon: "chipped:poisonous_vine"
+			id: "1BA7188D466B948F"
+			tasks: [{
+				id: "5A13F58B759559A9"
+				structure: "dungeons_enhanced:witch_tower"
+				type: "structure"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			icon: "simplehats:zigzagwitchhat"
+			id: "72F8D2F544992C2E"
+			tasks: [{
+				id: "2A2E24E2C6295B0D"
+				structure: "valhelsia_structures:witch_hut"
+				type: "structure"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			icon: "minecraft:emerald"
+			id: "75F029B974C556D2"
+			tasks: [{
+				id: "76445C8D48F5838D"
+				structure: "joshie:village_ocean"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			icon: "minecraft:ender_eye"
+			id: "466CDFA8CD24FA15"
+			tasks: [{
+				id: "06F222F468C893F0"
+				structure: "minecraft:stronghold"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			icon: "chipped:hazard_gray_concrete"
+			id: "1A7BB82B3F8597A4"
+			tasks: [{
+				id: "688D386A3E81DFF7"
+				structure: "nova_structures:bunker"
+				type: "structure"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			icon: "betterarcheology:creeper_fossil_head"
+			id: "14E7885D8FDDF3AB"
+			tasks: [{
+				id: "3E4CD256DF84933A"
+				structure: "nova_structures:creeping_crypt"
+				type: "structure"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			icon: "minecraft:emerald"
+			id: "382FD79EE64EA346"
+			tasks: [{
+				id: "3DD9F37DC9E89AD1"
+				structure: "stoneholm:underground_village"
+				type: "structure"
+			}]
+			x: 11.5d
+			y: 4.5d
+		}
+		{
+			icon: "minecraft:anvil"
+			id: "4BB88702F6B2C5F9"
+			tasks: [{
+				id: "7DB858B9AF3B40BD"
+				structure: "valhelsia_structures:forge"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			icon: "minecraft:spawner"
+			id: "2D9D7A681A4D6F78"
+			tasks: [{
+				id: "3DEFFA675030272C"
+				structure: "valhelsia_structures:spawner_dungeon"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "2F3F87FC110D03D3"
+			tasks: [{
+				biome: "regions_unexplored:bioshroom_caves"
+				id: "4F15845CD918433A"
+				type: "biome"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			id: "3AB137C13FE59AEA"
+			tasks: [{
+				biome: "regions_unexplored:ancient_delta"
+				id: "62C8B7CD3E19A53B"
+				type: "biome"
+			}]
+			x: 7.0d
+			y: -2.0d
 		}
 	]
 	title: "Pathfinder"

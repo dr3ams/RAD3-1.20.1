@@ -1,5 +1,4 @@
 Ponder.tags((e) => {
-
   const emberMachines = [
     "embers:mechanical_core",
     "embers:ember_bore",
@@ -34,9 +33,8 @@ Ponder.tags((e) => {
     "embers:ember_injector",
     "embers:iron_crystal_seed",
   ];
-
   e.createTag(
-    "rad3:ember_machines",
+    "kubejs:ember_machines",
     "embers:alchemy_tablet",
     "Ember Machines",
     "Ember machines, upgrades, and other constructs",
@@ -62,12 +60,13 @@ Ponder.tags((e) => {
     "embers:combustion_chamber",
   ];
   e.createTag(
-    "rad3:ember_power",
+    "kubejs:ember_power",
     "embers:copper_cell",
     "Ember Power",
     "Components used for generating, transporting, and storing Ember power",
     emberPower
   );
+
   const emberPowerGen = [
     "embers:ember_activator",
     "embers:heat_exchanger",
@@ -77,7 +76,7 @@ Ponder.tags((e) => {
     "embers:combustion_chamber",
   ];
   e.createTag(
-    "rad3:ember_power_gen",
+    "kubejs:ember_power_gen",
     "embers:pressure_refinery",
     "Ember Power Generation",
     "Ember power generation options",
@@ -92,10 +91,9 @@ Ponder.tags((e) => {
     "embers:item_dial",
     "embers:item_dropper",
     "embers:item_vacuum",
-    "translocators:item_translocator",
   ];
   e.createTag(
-    "rad3:ember_item_transport",
+    "kubejs:ember_item_transport",
     "embers:bin",
     "Item Transport",
     "Components for transporting items",
@@ -113,7 +111,6 @@ Ponder.tags((e) => {
     "embers:caminite_gauge",
     "embers:caminite_valve",
     "embers:mechanical_pump",
-    "translocators:fluid_translocator",
     "embers:melter",
     "embers:geologic_separator",
     "embers:stamper",
@@ -126,7 +123,7 @@ Ponder.tags((e) => {
     "embers:wildfire_stirling",
   ];
   e.createTag(
-    "rad3:ember_fluid_management",
+    "kubejs:ember_fluid_management",
     "embers:fluid_vessel",
     "Fluid Management",
     "Components used for transporting, managing, or creating fluids",

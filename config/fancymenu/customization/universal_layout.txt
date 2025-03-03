@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = %fancymenu:universal_layout%
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1740223158795
+  last_edited_time = 1740684023395
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:a765b678-4806-4a03-95ba-c76a9ea85e63-1740223147595] = [groups:][instances:]
+  [loading_requirement_container_meta:a76de6c6-e5d0-4277-ba38-dcc27afee2e8-1740683870213] = [groups:][instances:]
 }
 
 customization {
@@ -27,10 +27,14 @@ scroll_list_customization {
 }
 
 element {
-  audio_instance_0 = [source:local]/config/fancymenu/assets/menumusic.ogg
+  audio_instance_0 = [source:local]/config/fancymenu/assets/mysticmenu.ogg
+  audio_instance_1 = [source:local]/config/fancymenu/assets/forgemastersdominion.ogg
+  audio_instance_2 = [source:local]/config/fancymenu/assets/hellsgate.ogg
+  audio_instance_3 = [source:local]/config/fancymenu/assets/ancientpagesandrain.ogg
+  audio_instance_4 = [source:local]/config/fancymenu/assets/eclipse.ogg
   play_mode = shuffle
   looping = false
-  volume = 0.4
+  volume = 0.3
   sound_source = music
   element_type = audio_v2
   instance_identifier = f8a3b136-f101-43b6-b987-dc1d2ca9559e-1736079309469

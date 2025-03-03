@@ -36,14 +36,11 @@ ServerEvents.tags('item', event => {
 		.add('kubejs:coin_nether')
 		
 	event.get('rad3:coin_task')
-		.add('kubejs:coin_engineer')
-		.add('kubejs:coin_food')	
 		.add('kubejs:coin_gathering')
 		.add('kubejs:coin_exploration')
-		.add('kubejs:coin_gear')
-		.add('kubejs:coin_magic')
 		.add('kubejs:coin_monster')
-		
+		.add('kubejs:coin_magic')	
+
 	event.get('rad3:coin_loot')
 		.add('kubejs:coin_dungeon')
 		.add('kubejs:coin_exploration')

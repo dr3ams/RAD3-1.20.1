@@ -304,35 +304,7 @@ const upgradeMap = new Map([
   [
     "sophisticatedbackpacks:xp_pump_upgrade",
     "sophisticatedstorage:xp_pump_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:chipped/botanist_workbench_upgrade",
-    "sophisticatedstorage:chipped/botanist_workbench_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:chipped/glassblower_upgrade",
-    "sophisticatedstorage:chipped/glassblower_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:chipped/carpenters_table_upgrade",
-    "sophisticatedstorage:chipped/carpenters_table_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:chipped/loom_table_upgrade",
-    "sophisticatedstorage:chipped/loom_table_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:chipped/mason_table_upgrade",
-    "sophisticatedstorage:chipped/mason_table_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:chipped/alchemy_bench_upgrade",
-    "sophisticatedstorage:chipped/alchemy_bench_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:chipped/tinkering_table_upgrade",
-    "sophisticatedstorage:chipped/tinkering_table_upgrade",
-  ],
+  ]
 ]);
 
 ServerEvents.recipes((event) => {

@@ -1,7 +1,81 @@
 {
+	hide_tooltip: true
 	id: "2E741D1320EE1D30"
+	loot_crate: {
+		color: 16714477
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Magic Loot Crate"
+		string_id: "magic_loot_crate"
+	}
 	loot_size: 1
 	order_index: 54
-	rewards: [{ item: "apotheosis:gem_dust" }]
+	rewards: [
+		{ count: 2, item: "apotheosis:gem_dust", random_bonus: 3 }
+		{ item: "hmag:evil_crystal_fragment" }
+		{ item: "hmag:soul_powder" }
+		{ item: "hmag:mysterious_petal" }
+		{ item: "celestial_artifacts:the_end_dust", weight: 0.5f }
+		{ item: "celestial_artifacts:nebula_cube", weight: 0.2f }
+		{ item: "l2complements:soul_flame" }
+		{ item: "embers:ember_crystal" }
+		{ item: "bonfires:estus_shard" }
+		{ item: "bonfires:undead_bone_shard" }
+		{ count: 2, item: "embers:ember_shard", random_bonus: 2 }
+		{ item: "embers:ember_grit" }
+		{ item: "embers:copper_crystal_seed" }
+		{ item: "embers:iron_crystal_seed" }
+		{ item: "embers:gold_crystal_seed" }
+		{ item: "embers:lead_crystal_seed" }
+		{ item: "embers:silver_crystal_seed" }
+		{ item: "embers:copper_aspectus" }
+		{ item: "embers:silver_aspectus" }
+		{ count: 3, item: "embers:alchemical_waste", random_bonus: 4 }
+		{ item: "l2complements:strong_fire_charge" }
+		{ item: "l2complements:black_fire_charge" }
+		{ item: "l2complements:soul_fire_charge" }
+		{ item: "minecraft:echo_shard" }
+		{ item: "l2complements:hard_ice" }
+		{ item: "l2complements:explosion_shard" }
+		{ item: "l2complements:storm_core" }
+		{ item: "hmag:necrofiber" }
+		{ item: "hmag:lightning_particle" }
+		{ item: "hmag:burning_core" }
+		{ item: "l2complements:blackstone_core" }
+		{ item: "tombstone:gemstone_of_familiar" }
+		{ count: 2, item: "bonfires:ash_pile", random_bonus: 3 }
+		{ item: "tombstone:gemstone_of_merchant" }
+		{ item: "tombstone:gemstone_of_prayer" }
+		{ item: "tombstone:grave_dust" }
+		{ item: "celestial_core:treasure_fragment" }
+		{ item: "celestial_core:fire_essence" }
+		{ item: "celestial_core:ocean_essence" }
+		{ item: "celestial_core:warden_sclerite" }
+		{ item: "celestial_core:light_fragment" }
+		{ item: "minecraft:sculk_sensor" }
+		{ item: "celestial_core:sakura_fragment" }
+		{ item: "apotheosis:rare_material" }
+		{ item: "apotheosis:uncommon_material" }
+		{ item: "apotheosis:common_material" }
+		{ item: "apotheosis:warden_tendril" }
+		{ item: "apotheosis:prismatic_web" }
+		{ item: "minecraft:blaze_powder", random_bonus: 2 }
+		{ count: 2, item: "minecraft:fermented_spider_eye", random_bonus: 2 }
+		{ item: "minecraft:magma_cream" }
+		{ item: "minecraft:ghast_tear" }
+		{ count: 3, item: "minecraft:phantom_membrane", random_bonus: 2 }
+		{ item: "minecraft:nautilus_shell" }
+		{ item: "minecraft:heart_of_the_sea" }
+		{ count: 2, item: "minecraft:glow_ink_sac", random_bonus: 3 }
+		{ count: 4, item: "minecraft:amethyst_shard", random_bonus: 6 }
+		{ count: 2, item: "minecraft:quartz", random_bonus: 5 }
+		{ item: "quark:soul_bead", random_bonus: 2 }
+		{ item: "minecraft:ender_pearl" }
+		{ item: "l2complements:storm_core" }
+	]
 	title: "Magic Loot Crate"
+	use_title: true
 }

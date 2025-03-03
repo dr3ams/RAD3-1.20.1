@@ -469,8 +469,8 @@
 				item: "quark:blue_nether_bricks"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -4.0d
+			x: 4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7BF4F7FA6F5489B8"]
@@ -498,7 +498,7 @@
 				item: "minecraft:red_nether_bricks"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.0d
 			y: -6.0d
 		}
 		{
@@ -616,7 +616,7 @@
 				item: "minecraft:nether_bricks"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.5d
 			y: -4.5d
 		}
 		{
@@ -731,8 +731,8 @@
 				id: "48C05B6ABB55D87B"
 				type: "advancement"
 			}]
-			x: 2.5d
-			y: -2.0d
+			x: 3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2180E83A0BF99108"]
@@ -1388,6 +1388,190 @@
 			title: "This Boat Doesn't Have Legs"
 			x: -5.0d
 			y: 4.5d
+		}
+		{
+			id: "2BC74E480B6623C5"
+			tasks: [{
+				biome: "incendium:quartz_flats"
+				id: "561190D22FC46EB7"
+				type: "biome"
+			}]
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			id: "1F5EDF2858AEAC8A"
+			tasks: [{
+				biome: "incendium:ash_barrens"
+				id: "161471889393011A"
+				type: "biome"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			id: "74FDA4B6049F125C"
+			tasks: [{
+				biome: "incendium:withered_forest"
+				id: "7034FFAAAF7522B0"
+				type: "biome"
+			}]
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			id: "1A3AEFC5158FFA12"
+			tasks: [{
+				biome: "incendium:volcanic_deltas"
+				id: "5D542D70A81DA4BA"
+				type: "biome"
+			}]
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			id: "05C918E0B3453DB4"
+			tasks: [{
+				biome: "incendium:weeping_valley"
+				id: "5CA862FC78D3D540"
+				type: "biome"
+			}]
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			icon: "minecraft:hopper"
+			id: "392C1055DFA53518"
+			rewards: [
+				{
+					id: "321F528EE1254797"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "1125551AD7A9F45F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "(located in Nether)"
+			tasks: [
+				{
+					advancement: "incendium:infernal_dunes/pipeline/root"
+					criterion: ""
+					id: "67AF29C1C7F509F5"
+					type: "advancement"
+				}
+				{
+					id: "7C32A52EFA837C37"
+					structure: "incendium:pipeline"
+					type: "structure"
+				}
+			]
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			icon: "minecraft:iron_bars"
+			id: "14750E31CE414075"
+			rewards: [
+				{
+					id: "72CC37E960A91B7F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1106BCE25CE8F564"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "(located in Nether)"
+			tasks: [
+				{
+					advancement: "incendium:quartz_flats/rescue_mission"
+					criterion: ""
+					id: "22CC784BC0342053"
+					type: "advancement"
+				}
+				{
+					id: "009DA624233485F0"
+					structure: "incendium:abandoned_tower"
+					type: "structure"
+				}
+			]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			icon: "minecraft:bone"
+			id: "3E13C8F0EE2ECCA2"
+			rewards: [
+				{
+					id: "68799541023FD079"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "27C72E74292C5F15"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "(located in Nether)"
+			tasks: [
+				{
+					advancement: "incendium:quartz_flats/torte/root"
+					criterion: ""
+					id: "369F0A82DECEBBE8"
+					type: "advancement"
+				}
+				{
+					id: "4C7C55BCE4EDB82A"
+					structure: "incendium:quartz_kitchen"
+					type: "structure"
+				}
+			]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:splash_potion"
+				tag: {
+					Potion: "minecraft:strong_harming"
+				}
+			}
+			id: "725867AD010248A6"
+			rewards: [
+				{
+					id: "254539A5C822CC61"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "2C3C446828BDDF64"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "(located in Nether)"
+			tasks: [
+				{
+					advancement: "incendium:misc/ruined_lab"
+					criterion: ""
+					id: "1C1E8952D30A0DBB"
+					type: "advancement"
+				}
+				{
+					id: "4EEABEEDD09522FB"
+					structure: "incendium:piglin_village"
+					type: "structure"
+				}
+			]
+			x: 6.5d
+			y: 8.5d
 		}
 	]
 	title: "&4Nether Exploration&r"

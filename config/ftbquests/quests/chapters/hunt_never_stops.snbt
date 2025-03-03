@@ -1,0 +1,2487 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hunt_never_stops"
+	group: "241F1DC7B6D6E9D6"
+	icon: "minecraft:skeleton_skull"
+	id: "49A6B8346C5B55D1"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:zombie_head"
+			id: "273BBE58DA6C6B5E"
+			optional: true
+			rewards: [
+				{
+					id: "638E596E369C6CD4"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "25BE7B896A0288DE"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 2
+					id: "310104A60AC4CB10"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "42B5455E3940F98A"
+				type: "kill"
+				value: 15L
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["273BBE58DA6C6B5E"]
+			icon: "minecraft:zombie_head"
+			id: "6D6F752283D9311E"
+			optional: true
+			rewards: [
+				{
+					id: "4644300289A38DED"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "05316DC8421DA9A8"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 3
+					id: "32C9C76A06C01F82"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "2C62246C5F9EDF36"
+				type: "kill"
+				value: 30L
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C2F14176C8B6233"]
+			icon: "minecraft:zombie_head"
+			id: "24D7205FF1E55192"
+			optional: true
+			rewards: [
+				{
+					id: "5BD6D33E8CD27BE1"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "54DF76ED1936680B"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 10
+					id: "1C86342D4AEBB112"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "16E8E02A92168725"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["24D7205FF1E55192"]
+			icon: "minecraft:zombie_head"
+			id: "36CB6AB1F16744C3"
+			optional: true
+			rewards: [
+				{
+					id: "7E0B63435788BD55"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "56B813E2FC8DB8E0"
+					item: "collectorsalbum:epic_card_pack"
+					type: "item"
+				}
+				{
+					id: "34AACB47B3AA66A6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 20
+					id: "7D7BF88107CE1283"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "0A574ECB6510405C"
+				type: "kill"
+				value: 200L
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["36CB6AB1F16744C3"]
+			icon: "minecraft:zombie_head"
+			id: "42B5C52B1EB2CF21"
+			optional: true
+			rewards: [
+				{
+					id: "1EFADE1CF1CE7015"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "64BF04A7028A49F5"
+					item: "collectorsalbum:legendary_card_pack"
+					type: "item"
+				}
+				{
+					id: "19E8B7680CE56854"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 50
+					id: "01BA9765231558F1"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "3420BA4854BEB2AE"
+				type: "kill"
+				value: 500L
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:skeleton_skull"
+			id: "3E1D08F6D98A914F"
+			optional: true
+			rewards: [
+				{
+					id: "0FAD69A5A6163A83"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "06526321374DD69D"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 2
+					id: "73CBD4934A01FAA4"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "748792FF4EB3C697"
+				type: "kill"
+				value: 15L
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E1D08F6D98A914F"]
+			icon: "minecraft:skeleton_skull"
+			id: "708C3073CDD71408"
+			optional: true
+			rewards: [
+				{
+					id: "437EFFE5518FF945"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "0BFF890850175ABF"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 3
+					id: "4B38ABF433C06827"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "5D99AB8D10E4DCC3"
+				type: "kill"
+				value: 30L
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["708C3073CDD71408"]
+			icon: "minecraft:skeleton_skull"
+			id: "4A070C730B96D131"
+			optional: true
+			rewards: [
+				{
+					id: "4F6C796DA541D307"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 6
+					id: "54202B8F391D032B"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "3F7D026CA8DECD17"
+				type: "kill"
+				value: 60L
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A070C730B96D131"]
+			icon: "minecraft:skeleton_skull"
+			id: "7C643C8DA7163F80"
+			optional: true
+			rewards: [
+				{
+					id: "1B97003F30E133E5"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "7D2B6429E577FE78"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 10
+					id: "6F344A3B406C60C4"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "34A2A0F7D815BE58"
+				type: "kill"
+				value: 100L
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C643C8DA7163F80"]
+			icon: "minecraft:skeleton_skull"
+			id: "02CA897446FE0C16"
+			optional: true
+			rewards: [
+				{
+					id: "557A7964BA40DABE"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "07CD6061C671B3E0"
+					item: "collectorsalbum:epic_card_pack"
+					type: "item"
+				}
+				{
+					id: "35FF6DF2EA2797D4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 20
+					id: "0F08DC08BAAD23BF"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "19CB74C05D36A294"
+				type: "kill"
+				value: 200L
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D6F752283D9311E"]
+			icon: "minecraft:zombie_head"
+			id: "0C2F14176C8B6233"
+			optional: true
+			rewards: [
+				{
+					id: "4A53001F223BEEDD"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 6
+					id: "613C4AA21D91B72B"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "5FCB62D2A01560CA"
+				type: "kill"
+				value: 60L
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02CA897446FE0C16"]
+			icon: "minecraft:skeleton_skull"
+			id: "7AA5044D18A2E23E"
+			optional: true
+			rewards: [
+				{
+					id: "772080F36B2F538E"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "22CC0112EB6C81BF"
+					item: "collectorsalbum:legendary_card_pack"
+					type: "item"
+				}
+				{
+					id: "703397BF1DD1C0EC"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 50
+					id: "4DA0AE6FB335A924"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "14321354793AEE6E"
+				type: "kill"
+				value: 500L
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:creeper_head"
+			id: "36C063A88D708055"
+			optional: true
+			rewards: [
+				{
+					id: "6672BFE7D39A8EA9"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "6A00E9899248AD52"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "059A164A48F67547"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "24D9F5F9B0FC65F0"
+				type: "kill"
+				value: 10L
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["36C063A88D708055"]
+			icon: "minecraft:creeper_head"
+			id: "1D6BCC0FB9627EFB"
+			optional: true
+			rewards: [
+				{
+					id: "02E13E388212B9AB"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "21936B13B913F122"
+					type: "xp"
+					xp: 400
+				}
+				{
+					count: 3
+					id: "04565A63B51EFE75"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "1D3C15699121588E"
+				type: "kill"
+				value: 30L
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1D6BCC0FB9627EFB"]
+			icon: "minecraft:creeper_head"
+			id: "7DD33DBEE207DD46"
+			optional: true
+			rewards: [
+				{
+					id: "75FD611C760EA9CB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 6
+					id: "5A5A38C87012510B"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "08E9993926B7767E"
+				type: "kill"
+				value: 60L
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			icon: "minecraft:wither_skeleton_skull"
+			id: "5C2C1E234FEA1C04"
+			optional: true
+			rewards: [
+				{
+					id: "6CC8886557F18196"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "193107C6AD12EB50"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "415DB1EB8A5355E0"
+				type: "kill"
+				value: 10L
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5C2C1E234FEA1C04"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "682B081A32B48DDE"
+			optional: true
+			rewards: [
+				{
+					id: "027233AED185959D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "582CD2344B2E3A55"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "785E98699CCD3F5F"
+				type: "kill"
+				value: 50L
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["682B081A32B48DDE"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "1041E459F94EE676"
+			optional: true
+			rewards: [
+				{
+					id: "05BB6284DC6C454E"
+					item: "collectorsalbum:epic_card_pack"
+					type: "item"
+				}
+				{
+					id: "35365E5CF7472E63"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "0523A24B92E81805"
+				type: "kill"
+				value: 100L
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			icon: "minecraft:spider_spawn_egg"
+			id: "1D31E5ABED3743E7"
+			optional: true
+			rewards: [
+				{
+					id: "7E095BBCFCA97E84"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "3CA0C115F0650194"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "2018B8343D76AC1F"
+				type: "kill"
+				value: 10L
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1D31E5ABED3743E7"]
+			icon: "minecraft:spider_spawn_egg"
+			id: "2A1CD461BF2F4A46"
+			optional: true
+			rewards: [
+				{
+					id: "22DD58C22BCDED0D"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "6BA1F234DCB7F988"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "445087023DEB2AFF"
+				type: "kill"
+				value: 30L
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2A1CD461BF2F4A46"]
+			icon: "minecraft:spider_spawn_egg"
+			id: "16B7281F7910FF1E"
+			optional: true
+			rewards: [
+				{
+					id: "649482A4A4BB56D4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "44102DC6257DB15F"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "2D30E8A8D8C0236A"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "0D9F089E98AADBA5"
+			optional: true
+			rewards: [
+				{
+					id: "4108C5C07D5F22A7"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "737F6FE9AA354924"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				entity: "artifacts:mimic"
+				icon: "artifacts:mimic_spawn_egg"
+				id: "29E9E152501083FA"
+				type: "kill"
+				value: 5L
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0D9F089E98AADBA5"]
+			icon: "artifacts:mimic_spawn_egg"
+			id: "33B1EEED95230156"
+			optional: true
+			rewards: [
+				{
+					id: "0E4DCCA7954F3084"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "584BE7200BDE5D21"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "artifacts:mimic"
+				icon: "artifacts:mimic_spawn_egg"
+				id: "64EDE97C92EA5711"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["33B1EEED95230156"]
+			icon: "artifacts:mimic_spawn_egg"
+			id: "051B70EFF9CDE3D2"
+			optional: true
+			rewards: [
+				{
+					id: "31E9C5CC5A1D4CF6"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "106D9B35F5EE191D"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "artifacts:mimic"
+				icon: "artifacts:mimic_spawn_egg"
+				id: "4EDBC053436B248A"
+				type: "kill"
+				value: 50L
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			icon: "minecraft:slime_ball"
+			id: "43B77AFB99476020"
+			optional: true
+			rewards: [
+				{
+					id: "664B00E53B596C75"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "719C65CACB0B8FD9"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "61C2E428A8B7D6E3"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["43B77AFB99476020"]
+			icon: "minecraft:slime_ball"
+			id: "08F70564BCE33B34"
+			optional: true
+			rewards: [
+				{
+					id: "535BD9C5E74CB4FE"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "11765586E21C5E98"
+					type: "xp"
+					xp: 350
+				}
+			]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "5D4697E898573527"
+				type: "kill"
+				value: 30L
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["08F70564BCE33B34"]
+			icon: "minecraft:slime_ball"
+			id: "0A417DAC88234DED"
+			optional: true
+			rewards: [
+				{
+					id: "7E62DF4D33B89CD6"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "5AA1655B9EE74092"
+					type: "xp"
+					xp: 450
+				}
+			]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "3E511BB5D79CA3BB"
+				type: "kill"
+				value: 100L
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A417DAC88234DED"]
+			id: "5964A60436E9CAC5"
+			optional: true
+			rewards: [
+				{
+					id: "3711EBA23F144E1B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "136259477533251B"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:slime"
+				icon: "minecraft:slime_ball"
+				id: "7F9FF2BF5A48B9B9"
+				type: "kill"
+				value: 200L
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5964A60436E9CAC5"]
+			id: "30CC1CE792CF948C"
+			optional: true
+			rewards: [{
+				id: "485157E51F14D96F"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:slime"
+				icon: "minecraft:slime_ball"
+				id: "18083296F033EEF3"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30CC1CE792CF948C"]
+			icon: "minecraft:slime_ball"
+			id: "3ABE874AEB3190FD"
+			optional: true
+			rewards: [
+				{
+					id: "2924355457CB1FED"
+					item: "collectorsalbum:mythical_card_pack"
+					type: "item"
+				}
+				{
+					id: "085F0ED14F0E40F0"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "114BF9424C53D35D"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "1A1B74AD733D6804"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "2944EA85C53B17E8"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:evoker_spawn_egg"
+			id: "3E4FABF49DF8A4A0"
+			optional: true
+			rewards: [
+				{
+					id: "080EF117FE6F7A42"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7F1C47929CB8BD30"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:evoker"
+				id: "737BDF5CFFF1D71E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E4FABF49DF8A4A0"]
+			description: [""]
+			icon: "minecraft:evoker_spawn_egg"
+			id: "4C0A01CEE6B9573F"
+			optional: true
+			rewards: [
+				{
+					id: "5B70AAF40B7A9A45"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "042BE7CE208279BB"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:evoker"
+				id: "45B1B1448FA90192"
+				type: "kill"
+				value: 5L
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4C0A01CEE6B9573F"]
+			icon: "minecraft:evoker_spawn_egg"
+			id: "657547F95421C44F"
+			optional: true
+			rewards: [
+				{
+					id: "38AEF1F37D191E11"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "23E4B320EC3AFD20"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "2DE52B74FB8357C7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				entity: "minecraft:evoker"
+				id: "2D066D05ED250E60"
+				type: "kill"
+				value: 10L
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "6D160C596B6D789D"
+			optional: true
+			rewards: [
+				{
+					id: "188A66C9F1277412"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "1328E01CC55A0862"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:vindicator"
+				icon: {
+					Count: 1
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "483457EF721D49CC"
+				type: "kill"
+				value: 10L
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D160C596B6D789D"]
+			id: "18023C5D8E985695"
+			optional: true
+			rewards: [
+				{
+					id: "00936A70EF171C0A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "658A885A7ACF4470"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:vindicator"
+				icon: {
+					Count: 1
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "63E4694994947713"
+				type: "kill"
+				value: 30L
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18023C5D8E985695"]
+			id: "7E06D127A3796ACD"
+			optional: true
+			rewards: [{
+				id: "2000432D35742362"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:vindicator"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "75C3E613D773EC19"
+				type: "kill"
+				value: 100L
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			id: "66E4D05FE4EB1B37"
+			optional: true
+			rewards: [
+				{
+					id: "041C5253D19A452F"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "4CEB828E2BF22DAC"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "minecraft:pillager"
+				icon: {
+					Count: 1
+					id: "minecraft:crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "31343EE2D54123F1"
+				type: "kill"
+				value: 10L
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["66E4D05FE4EB1B37"]
+			id: "78BCB063DF450FEA"
+			optional: true
+			rewards: [
+				{
+					id: "4738A238827E6ED3"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "74875E6E88CB1399"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "6C29EE9F8549D219"
+				type: "kill"
+				value: 30L
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["78BCB063DF450FEA"]
+			id: "3E37363F614DB7CF"
+			optional: true
+			rewards: [
+				{
+					id: "02A472AE57332F2E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "29906D7E8ACFDF2A"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "4EFD44C2651919BA"
+				type: "kill"
+				value: 60L
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E37363F614DB7CF"]
+			id: "372F44A7635E5FB8"
+			optional: true
+			rewards: [
+				{
+					id: "335772250528E8F7"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "64FFDE5E2127CB67"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "3464651AD0C97011"
+				type: "kill"
+				value: 100L
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["372F44A7635E5FB8"]
+			id: "3A90C6BB095363CF"
+			optional: true
+			rewards: [
+				{
+					id: "58A1ABAC0ACE8DB2"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "264600DE184C9036"
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "626C8D8D44CF3A0E"
+				type: "kill"
+				value: 200L
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3A90C6BB095363CF"]
+			id: "386E3605520B9CC4"
+			optional: true
+			rewards: [
+				{
+					id: "7825E9B2C83FAE19"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "636E1CF66AE26BB7"
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "14612657FC694FA4"
+				type: "kill"
+				value: 400L
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:ghast_tear"
+			id: "3C7112CE44982D6D"
+			optional: true
+			rewards: [
+				{
+					id: "190FFC8F9AA2DD3A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "339E17C8396F61CD"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "34823DB462CC9EE2"
+				type: "kill"
+				value: 10L
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C7112CE44982D6D"]
+			icon: "minecraft:ghast_tear"
+			id: "43A621B14FB554AC"
+			optional: true
+			rewards: [
+				{
+					id: "49B2EA58A60B061E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "0F9D8AEA6897EEBC"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "4C441BB778244486"
+				type: "kill"
+				value: 30L
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["43A621B14FB554AC"]
+			icon: "minecraft:ghast_tear"
+			id: "3F4E0FB2177E7F52"
+			optional: true
+			rewards: [
+				{
+					id: "109C20387587DDA0"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "35EE07D9220E638B"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "33C3D544D070055F"
+				type: "kill"
+				value: 60L
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:piglin_spawn_egg"
+			id: "04C9E8009D84B7A1"
+			optional: true
+			rewards: [
+				{
+					id: "70FDBFC55C98101D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "764FF0FD8D03F68A"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "2D26F348F7EF4D12"
+				type: "kill"
+				value: 10L
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["04C9E8009D84B7A1"]
+			icon: "minecraft:piglin_spawn_egg"
+			id: "686519D5266C6F27"
+			optional: true
+			rewards: [
+				{
+					id: "698822758EE9CA83"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "1C186202D483C39B"
+					item: "kubejs:coin_01"
+					type: "item"
+				}
+				{
+					id: "3E95C8218F7BC914"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "1C2249144A048D79"
+				type: "kill"
+				value: 100L
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "11944C68F6D95C77"
+			optional: true
+			rewards: [
+				{
+					id: "24D1555281A7FCEE"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "6EB2700D2772AB71"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "3E1BB1EE7BF49EA5"
+				type: "kill"
+				value: 10L
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["11944C68F6D95C77"]
+			id: "307EEF462D4E001C"
+			optional: true
+			rewards: [
+				{
+					id: "536B8F281F2D7360"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "3ECD2DE213C1059B"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "714191E33DE7E476"
+				type: "kill"
+				value: 50L
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["307EEF462D4E001C"]
+			id: "005B0AC8724A04CA"
+			optional: true
+			rewards: [{
+				id: "77A4DEED1E7775BB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "424A82ED75AD396C"
+				type: "kill"
+				value: 100L
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			icon: "minecraft:blaze_powder"
+			id: "4B68EB265B0E1129"
+			optional: true
+			rewards: [
+				{
+					id: "678D1007A35C11F4"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "5016011EB529D397"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "2C6BB4B0132BCE2E"
+				type: "kill"
+				value: 10L
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			icon: "minecraft:husk_spawn_egg"
+			id: "61CCF5EFBAC2D198"
+			optional: true
+			rewards: [
+				{
+					id: "61856542311A3361"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "4E4FDB7C3CE0BB0E"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 10
+					id: "2C9F9294345EA680"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:husk"
+				id: "6D7CFB65833A37C8"
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			icon: "minecraft:stray_spawn_egg"
+			id: "5927A8C2376D0588"
+			optional: true
+			rewards: [
+				{
+					id: "6050214241F27278"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "048E68A1E432FD17"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "67B6A4715F20D030"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:stray"
+				id: "2A52880819C52579"
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:trident"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "32E4964F2AAA4E25"
+			optional: true
+			rewards: [
+				{
+					id: "06EB810863BBC7A5"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "12D5A30B0CA73E5F"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 10
+					id: "1E87278EF811365B"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "2C80F70C40CE718F"
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7AA5044D18A2E23E"]
+			icon: "minecraft:skeleton_skull"
+			id: "72ED70613E3B7E52"
+			optional: true
+			rewards: [
+				{
+					id: "6A91AF5B633BC912"
+					item: "collectorsalbum:mythical_card_pack"
+					type: "item"
+				}
+				{
+					id: "5EEBBF21DEA8A4EA"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "70A7BB210911D649"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "5DD56D522A2DE74F"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					count: 100
+					id: "72DF191A395E3E0F"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "2AE68A2DAD3B3FCC"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["42B5C52B1EB2CF21"]
+			icon: "minecraft:zombie_head"
+			id: "733169FE486DB8DD"
+			optional: true
+			rewards: [
+				{
+					id: "15EDD95B56B1F386"
+					item: "collectorsalbum:mythical_card_pack"
+					type: "item"
+				}
+				{
+					id: "4BA80BB9E8501FBB"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "5110AC491FBBE063"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "1FA7E36AC899A747"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					count: 100
+					id: "50BE0DB28953D438"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "445B449D3FA7F188"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7DD33DBEE207DD46"]
+			icon: "minecraft:creeper_head"
+			id: "0674AD4EEDEEF4E4"
+			optional: true
+			rewards: [
+				{
+					id: "483BBCFB7167EA22"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:iron_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "120DF541D95EBE74"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 10
+					id: "2D9E89CDDDA6AABA"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "3E554616A645C8FC"
+				type: "kill"
+				value: 100L
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0674AD4EEDEEF4E4"]
+			icon: "minecraft:creeper_head"
+			id: "781AA84E08C4367A"
+			optional: true
+			rewards: [
+				{
+					id: "4B2858A89C35A31B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:iron_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3021C5EA7BC3F75F"
+					item: "collectorsalbum:epic_card_pack"
+					type: "item"
+				}
+				{
+					id: "4FF680569C6E4B4A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 20
+					id: "7D3A15733E61C8DE"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "2EC0D26EEE3E5288"
+				type: "kill"
+				value: 200L
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["781AA84E08C4367A"]
+			icon: "minecraft:creeper_head"
+			id: "552084F86F88D15C"
+			optional: true
+			rewards: [
+				{
+					id: "118757F64C40D74F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "57CC738EE6BCF1C4"
+					item: "collectorsalbum:legendary_card_pack"
+					type: "item"
+				}
+				{
+					id: "5B33919A7C586972"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 50
+					id: "38B3462367D74E95"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "08EFF62508DFA82E"
+				type: "kill"
+				value: 500L
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4B68EB265B0E1129"]
+			icon: "minecraft:blaze_powder"
+			id: "67EE916849A729B1"
+			optional: true
+			rewards: [
+				{
+					id: "24BF6E79258BE844"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:iron_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1A1A188DB6CE9C0A"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "7F5C5B4E788DCADE"
+				type: "kill"
+				value: 50L
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["67EE916849A729B1"]
+			icon: "minecraft:blaze_powder"
+			id: "5537F265CE8EBD3E"
+			optional: true
+			rewards: [{
+				id: "0D0E1D3BEBDF95AC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:iron_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "7E1DE21F68BC1487"
+				type: "kill"
+				value: 150L
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5537F265CE8EBD3E"]
+			icon: "minecraft:blaze_powder"
+			id: "75244E4C3649BA77"
+			optional: true
+			rewards: [{
+				id: "6C8B83DAC5286354"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "2225F5E4286A5440"
+				type: "kill"
+				value: 300L
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["32E4964F2AAA4E25"]
+			icon: {
+				Count: 1
+				id: "minecraft:trident"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "124CDF84B0FC4EF8"
+			optional: true
+			rewards: [
+				{
+					id: "5EF4BC22D6DAC3DB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "787E00015670F0D8"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 20
+					id: "7762E3C0D82A5301"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "69C5EECC4586DA06"
+				type: "kill"
+				value: 200L
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["61CCF5EFBAC2D198"]
+			icon: "minecraft:husk_spawn_egg"
+			id: "14C32922D8142F37"
+			optional: true
+			rewards: [
+				{
+					id: "44F4EA37D0837D5F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "54BE9995767DC307"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 20
+					id: "1B8E8EABA8B0B2F8"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:husk"
+				id: "172649389C5185DC"
+				type: "kill"
+				value: 200L
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5927A8C2376D0588"]
+			icon: "minecraft:stray_spawn_egg"
+			id: "2D7D534F253D0806"
+			optional: true
+			rewards: [
+				{
+					id: "7B7BA170F5103A9D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2BF5E0D015D90021"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 20
+					id: "0D16C0B84414DC7B"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:stray"
+				id: "0657FC98101B13D0"
+				type: "kill"
+				value: 200L
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["686519D5266C6F27"]
+			icon: "minecraft:piglin_spawn_egg"
+			id: "37A9A6535E7429F0"
+			optional: true
+			rewards: [{
+				id: "7BC474E47358CB3E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:piglin"
+				icon: "minecraft:piglin_spawn_egg"
+				id: "2010972436B14537"
+				type: "kill"
+				value: 300L
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F4E0FB2177E7F52"]
+			icon: "minecraft:ghast_tear"
+			id: "34E47A2C5335A2A7"
+			optional: true
+			rewards: [
+				{
+					id: "373607B19C58BA22"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "152892C389F94EA6"
+					item: "gag:sacred_salt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "31CDF278D4CCA4FB"
+				type: "kill"
+				value: 100L
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			icon: "minecraft:magma_cream"
+			id: "02BF15564572F2BA"
+			optional: true
+			rewards: [{
+				id: "6F86B26E34FF4548"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:iron_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				id: "4E22A2F800BF4D87"
+				type: "kill"
+				value: 100L
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["02BF15564572F2BA"]
+			icon: "minecraft:magma_cream"
+			id: "3CCA705BCF4124B9"
+			optional: true
+			rewards: [{
+				id: "35B877360B97D6D0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				icon: "minecraft:magma_cream"
+				id: "631BA55EDE88F5B8"
+				type: "kill"
+				value: 300L
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "40F5EEC0C7474750"
+			optional: true
+			rewards: [{
+				id: "56338ED0D36A5078"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wandering_trader"
+				id: "634CFAF0104F83AF"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Bad Reputation I"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["40F5EEC0C7474750"]
+			id: "234394677552B368"
+			optional: true
+			rewards: [
+				{
+					id: "594952BE2D90F466"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:iron_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "42C9A8B89E003198"
+					item: "kubejs:coin_01"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wandering_trader"
+				id: "791007DE26AFE145"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Bad Reputation II"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["234394677552B368"]
+			id: "0F58A03E48624EA5"
+			optional: true
+			rewards: [
+				{
+					id: "49BF4FC6C3611AB8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "11169743CCADF262"
+					item: "kubejs:coin_01"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wandering_trader"
+				id: "3081D7A3C8398AC1"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Bad Reputation III"
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["552084F86F88D15C"]
+			icon: "minecraft:creeper_head"
+			id: "3CF6376C2F15744D"
+			optional: true
+			rewards: [
+				{
+					id: "220E294BD7F668FE"
+					item: "collectorsalbum:mythical_card_pack"
+					type: "item"
+				}
+				{
+					id: "6013222909DFDB1C"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "3BEFB5FCFE8322CA"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "10F3B68C7E25CD00"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					count: 100
+					id: "0382477134303439"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "013A697F588F3CD4"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			icon: "supplementaries:enderman_head"
+			id: "6EE8F9129E0A1D60"
+			optional: true
+			rewards: [
+				{
+					id: "69C7275D1D7A4AC0"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "413561B5FE9123C8"
+					type: "xp"
+					xp: 350
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "2BFE36FBC380F7D3"
+				type: "kill"
+				value: 10L
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			icon: "minecraft:cave_spider_spawn_egg"
+			id: "189B48C7EE98B1EF"
+			optional: true
+			rewards: [
+				{
+					id: "7BFFABC1F04B191E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "5BB867538050ADC9"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cave_spider"
+				id: "7FCC20C2E6061313"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6EE8F9129E0A1D60"]
+			icon: "supplementaries:enderman_head"
+			id: "2B0920822CAF3FEB"
+			optional: true
+			rewards: [
+				{
+					id: "7D7BC37F07600B81"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1227E20C40BDE749"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				icon: "supplementaries:enderman_head"
+				id: "11B9CB4AE304B4F2"
+				type: "kill"
+				value: 25L
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2B0920822CAF3FEB"]
+			icon: "supplementaries:enderman_head"
+			id: "0AB325E800C9C5B9"
+			optional: true
+			rewards: [{
+				id: "471945CB1316382F"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				icon: "supplementaries:enderman_head"
+				id: "700BF6C0744020B5"
+				type: "kill"
+				value: 50L
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AB325E800C9C5B9"]
+			icon: "supplementaries:enderman_head"
+			id: "3109A29AC8E8F676"
+			optional: true
+			rewards: [
+				{
+					id: "4D0AA9EF0DE9AFA8"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "1E552240002200A9"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				icon: "supplementaries:enderman_head"
+				id: "6CCE994B58DE96E7"
+				type: "kill"
+				value: 100L
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			id: "4F18B88B2A7608F8"
+			optional: true
+			rewards: [
+				{
+					id: "0E63E023B97EE872"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "5719AB06E0996AFC"
+					item: "kubejs:coin_01"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:illusioner"
+				id: "46494CE179A84D35"
+				type: "kill"
+				value: 10L
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["16B7281F7910FF1E"]
+			icon: "minecraft:spider_spawn_egg"
+			id: "7500D3E11DFC4CAA"
+			optional: true
+			rewards: [
+				{
+					id: "573369C602352F82"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "12CF56270F00E5E3"
+					item: "collectorsalbum:legendary_card_pack"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: "minecraft:spider_spawn_egg"
+				id: "59BF32BD54F5D46D"
+				type: "kill"
+				value: 500L
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["11E0C6065E28FFD5"]
+			id: "4A8CDA44ED4CFA12"
+			optional: true
+			rewards: [
+				{
+					id: "5229138323F1E375"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "191B7261CA3F3929"
+					item: "collectorsalbum:epic_card_pack"
+					type: "item"
+				}
+				{
+					id: "3C4E41CA62FFF339"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "hmag:ghost"
+				icon: "hmag:soul_powder"
+				id: "1AFB04115D415EAA"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3BA7BABE70235D83"
+			optional: true
+			rewards: [
+				{
+					id: "01FB8BFA694D2893"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "207EAFEB187FF24F"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:ghost"
+				icon: "hmag:soul_powder"
+				id: "78F4748B9BFEE991"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3BA7BABE70235D83"]
+			id: "11E0C6065E28FFD5"
+			optional: true
+			rewards: [
+				{
+					id: "4162430195D58941"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "4F8E00C7454E6C68"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				entity: "hmag:ghost"
+				icon: "hmag:soul_powder"
+				id: "6AE2099BE36C3214"
+				type: "kill"
+				value: 50L
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+	]
+	title: "Hunt Never Stops"
+}
