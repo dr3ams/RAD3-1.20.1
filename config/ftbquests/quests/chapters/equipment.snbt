@@ -1,0 +1,749 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "equipment"
+	group: "67B03B24E53297B4"
+	id: "7C06985ABF908F49"
+	images: [
+		{
+			height: 1.0d
+			hover: ["Iron Mining Level"]
+			image: "minecraft:block/iron_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Stone Mining Level"]
+			image: "minecraft:block/cobblestone"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Diamond Mining Level"]
+			image: "minecraft:block/diamond_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Netherite Mining Level"]
+			image: "minecraft:block/ancient_debris_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 0.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"They can be inserted into equipment on a &5smithing table.&r"
+				""
+				"Each &4gem&r provides different attribute bonuses, based on the type of equipment it is in."
+				""
+				"Gems can be acquired:"
+				""
+				"- as loot in other dimensions"
+				"   - &cNether&r - uncommon to epic"
+				"   - &fEnd&r - rare to mythic"
+				"   - &bAether&r - uncommon to mythic"
+				"   - &eLands of Icaria&r - uncommon to mythic"
+				"   - &2Undergarden&r - uncommon to mythic"
+				"   - &6The Bumblezone&r - uncommon to mythic"
+				"   - &8Dimdungeons&r - rare to mythic"
+				"   - &5Bloodmagic Dungeon&r - rare to mythic"
+				"   - &1Mining Dimension&r - rare to mythic"
+				""
+				"- as drop from &4Apotheosis Bosses&r"
+				""
+				"- exchanged in \"&eThe Market&r\" quest chapter"
+			]
+			id: "673DE11282C85AD4"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Find an Apothic Gems which can be socketed into Affix item"
+			tasks: [{
+				advancement: "apotheosis:affix/gem"
+				criterion: ""
+				id: "03F8DD3FF045B3A7"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"While adventuring, you may encounter items with various bonuses. These are &5Affix&r Items, relics of the past with varying degrees of power."
+				""
+				"&4Read more information about the whole Affix and Gems mechanics in Chronicle of Shadows guidebook!&r"
+				""
+				"Each &5affix&r is very similar to an enchantment, providing a specific bonus to the item it is attached to."
+				""
+				"- &5Affix&r Types"
+				""
+				"There are a few different types of affixes, each type having a specific set of functionality it can provide. What types of affixes are applied to an item are dependent on the item's Rarity"
+				""
+				"&5Affix&r items can be acquired:"
+				"- from chests (across all dimensions)"
+				"- from a naturally spawned mob"
+				"- from &4bosses&r"
+			]
+			id: "04BD6EFB0F827A54"
+			shape: "octagon"
+			subtitle: "Find an item with Apothic affix"
+			tasks: [{
+				advancement: "apotheosis:affix/root"
+				criterion: ""
+				id: "1ED060C10B933721"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"04BD6EFB0F827A54"
+				"61C4D962B8642324"
+			]
+			id: "4B37ED777351DF31"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Breaks down Affix items into Rare Materials"
+			tasks: [{
+				id: "0E4FF1A330394B0A"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["673DE11282C85AD4"]
+			description: [
+				"To socket a gem into an item, combine the two in a Smithing Table. Each gem states which items it may fit in. Some gems are Unique, meaning that only one copy of that gem may be socketed in an item."
+				""
+				"&lRemoving Gems&r"
+				"Combine a socketed item with a Sigil of Withdrawal in a smithing table to remove the socketed gems from an item. The item and all gems will be returned."
+			]
+			id: "31F1B5BF67E7FC49"
+			subtitle: "Used to socket gems into Items"
+			tasks: [{
+				id: "3A74A37370E87283"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6024FAA4C01F2FC6"]
+			description: [
+				"The Reforging Table has three input slots:"
+				"- the center slot holds the item you wish to reforge. "
+				"- the top-left slot holds Rarity Materials for the rarity you would like to reforge with."
+				"- the bottom-right slot holds Sigils of Rebirth, a unique fuel item used during the Reforging process."
+			]
+			id: "06DB24EC6C29EF79"
+			subtitle: "Allows you to reforge items up to Rare rarity"
+			tasks: [{
+				id: "70512FDE6154E448"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["673DE11282C85AD4"]
+			id: "0C45B6CB9315B119"
+			subtitle: "Can be used to upgrade gems"
+			tasks: [{
+				id: "4812DE725FD6B502"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61C4D962B8642324"]
+			id: "2A19D27E41E3A958"
+			tasks: [{
+				id: "7367C9531A02E84D"
+				item: "apotheosis:gem_fused_slate"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["06DB24EC6C29EF79"]
+			id: "7762494295AE87DE"
+			tasks: [{
+				id: "3CC08F155B5DB47B"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["552C3DB827C185F8"]
+			id: "535F5C85EBCF032D"
+			tasks: [{
+				id: "725F518CB91E5A90"
+				item: "apotheosis:augmenting_table"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["673DE11282C85AD4"]
+			description: [
+				"To make your first &9Gem Dust&r:"
+				""
+				"- drop any Apotheosis Gem on the ground (preferrably common or uncommon)"
+				"- drop the anvil on top of it"
+			]
+			id: "61C4D962B8642324"
+			shape: "octagon"
+			tasks: [{
+				id: "04F1D62769B45999"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4B37ED777351DF31"]
+			id: "6024FAA4C01F2FC6"
+			tasks: [{
+				id: "54ABCE8AF5270CF0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "apotheosis:rarity_materials"
+					}
+				}
+				title: "Any #apotheosis:rarity_materials"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2A19D27E41E3A958"]
+			id: "0245A2E564ED2624"
+			tasks: [{
+				id: "361D59121C80D4CC"
+				item: "apotheosis:sigil_of_socketing"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2A19D27E41E3A958"]
+			id: "44F0890CFE9CED23"
+			tasks: [{
+				id: "42F9EA0AFA0B35A0"
+				item: "apotheosis:sigil_of_withdrawal"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2A19D27E41E3A958"]
+			id: "4338BE1B8412C4F1"
+			tasks: [{
+				id: "21E2591C3B37EA51"
+				item: "apotheosis:sigil_of_rebirth"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2A19D27E41E3A958"]
+			id: "552C3DB827C185F8"
+			tasks: [{
+				id: "181BA716CE1EFAC2"
+				item: "apotheosis:sigil_of_enhancement"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2A19D27E41E3A958"]
+			id: "08A26072C27869F6"
+			tasks: [{
+				id: "0E973B1AC6B1B4DA"
+				item: "apotheosis:sigil_of_unnaming"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["673DE11282C85AD4"]
+			id: "7BD9BFF9FFD3701B"
+			subtitle: "Acquire a Flawless Gem"
+			tasks: [{
+				advancement: "apotheosis:affix/mythic_gem"
+				criterion: ""
+				id: "18C36D661071DE21"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7BD9BFF9FFD3701B"]
+			id: "4238000186B6817C"
+			subtitle: "Using the Gem Cuttin Table create a Perfect Gemstone"
+			tasks: [{
+				advancement: "apotheosis:affix/ancient_gem"
+				criterion: ""
+				id: "77E281A4FCBAD435"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["04BD6EFB0F827A54"]
+			id: "33C9F4DAC20A1515"
+			subtitle: "Find a Rare Affix item"
+			tasks: [{
+				advancement: "apotheosis:affix/rare"
+				criterion: ""
+				id: "730028886621FD16"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["33C9F4DAC20A1515"]
+			id: "0BB2CB77ACA43D0B"
+			subtitle: "Find a Mythic Affix item"
+			tasks: [{
+				advancement: "apotheosis:affix/mythic"
+				criterion: ""
+				id: "20D444787877E51B"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0BB2CB77ACA43D0B"]
+			id: "00033C69927E20A5"
+			subtitle: "Find an Ancient Affix item"
+			tasks: [{
+				advancement: "apotheosis:affix/ancient"
+				criterion: ""
+				id: "31DB0EE73422508C"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["00033C69927E20A5"]
+			id: "6A9188C3A08A9197"
+			subtitle: "Find an Artifact Affix item"
+			tasks: [{
+				advancement: "apotheotic_additions:affix/artifact"
+				criterion: ""
+				id: "5476FA24A192656C"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6A9188C3A08A9197"]
+			id: "20B1E84F40762C14"
+			subtitle: "Find an Esoteric Affix item"
+			tasks: [{
+				advancement: "apotheotic_additions:affix/esoteric"
+				criterion: ""
+				id: "66A2B6E7FC0A0F5E"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4238000186B6817C"]
+			id: "568EA0DFCCB13AA5"
+			subtitle: "Acquire an Artifact Quality Gem"
+			tasks: [{
+				advancement: "apotheotic_additions:affix/artifact_gem"
+				criterion: ""
+				id: "52694A83216A21E6"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["568EA0DFCCB13AA5"]
+			id: "6CC9A63F0A727D11"
+			subtitle: "Acquire an Heirloom Quality Gem"
+			tasks: [{
+				advancement: "apotheotic_additions:affix/heirloom_gem"
+				criterion: ""
+				id: "12395737B4530CA6"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6CC9A63F0A727D11"]
+			id: "422E034431D13A57"
+			subtitle: "Acquire an Esoteric Quality Gem"
+			tasks: [{
+				advancement: "apotheotic_additions:affix/esoteric_gem"
+				criterion: ""
+				id: "6B369B239B4E03E0"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			id: "32FAABF17D15864B"
+			tasks: [{
+				id: "7904DA8E7CFCF8B5"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			id: "7B56E73F42986944"
+			tasks: [{
+				id: "7E48518E6B235CA8"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			id: "6311662292AB5957"
+			tasks: [{
+				id: "0BA26D0C7864878E"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			id: "505EF913B9366D29"
+			tasks: [{
+				id: "178AEA37E51638ED"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			id: "71277F44BB80EFDF"
+			tasks: [{
+				id: "018864271467EFD4"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			id: "4189CBA75DDD5FE2"
+			tasks: [{
+				id: "7D40F3DD55995491"
+				item: {
+					Count: 1
+					id: "aether:skyroot_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			id: "525176E84FA935CF"
+			tasks: [{
+				id: "7445ADEBD13B5AE1"
+				item: {
+					Count: 1
+					id: "aether:holystone_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			id: "52941800E5D52535"
+			tasks: [{
+				id: "5756C6963CA37FF2"
+				item: {
+					Count: 1
+					id: "deep_aether:skyjade_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			id: "10D3128402DA839C"
+			tasks: [{
+				id: "26FE88C9978481E5"
+				item: {
+					Count: 1
+					id: "aether:zanite_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			id: "1A752E55A01027D9"
+			tasks: [{
+				id: "3F876DD7D8688843"
+				item: {
+					Count: 1
+					id: "aether_redux:veridium_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			id: "0BF8256AA676910F"
+			tasks: [{
+				id: "2EFAF213AA002237"
+				item: {
+					Count: 1
+					id: "ancient_aether:valkyrum_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			id: "6B9A69681F760AA3"
+			tasks: [{
+				id: "3A70B639322831CF"
+				item: {
+					Count: 1
+					id: "deep_aether:stratus_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			id: "011AA3F89FCAC4B3"
+			tasks: [{
+				id: "4402801996436D12"
+				item: {
+					Count: 1
+					id: "lost_aether_content:phoenix_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			id: "626CB53C5634CC26"
+			tasks: [{
+				id: "5A278280435B249E"
+				item: {
+					Count: 1
+					id: "aether:gravitite_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			id: "686429EE95BAB403"
+			tasks: [{
+				id: "4CC99BAB4A9B77CB"
+				item: {
+					Count: 1
+					id: "ancient_aether:divine_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+	]
+	title: "Equipment"
+}

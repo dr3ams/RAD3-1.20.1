@@ -13,6 +13,56 @@ ItemEvents.tooltip(event =>{
         }
     })
 
+	event.addAdvanced('paraglider:spirit_orb', (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').gold(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+		text.add(1, [
+	    Text.of('• Can be exchanged for ').white(),
+        Text.of('Stamina Vessels ').green(),
+        Text.of('in the villages').white()
+      ])
+      text.add(2, [
+        Text.of('• Can drop from breaking spawners').white()
+		])
+      text.add(3, [
+        Text.of('• Random loot from lootcrates in ').white(),
+        Text.of('⭐ The Market ').yellow(),
+        Text.of('questbook chapter').white()
+		])
+    }
+	})
+
+	event.addAdvanced('paraglider:stamina_vessel', (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').green(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {	
+      text.add(1, [
+        Text.of('• Obtained from ').white(), 
+		Text.of('Goddess Statue ').gold(),
+		Text.of('in exchange for ').white(),
+		Text.of('Spirit Orbs').yellow()
+		])
+      text.add(2, [
+	    Text.of('• Can also drop from ').white(),
+        Text.of('Raids, ').darkRed(),
+        Text.of('killing ').white(),
+		Text.of('Wither, ').gray(),
+		Text.of('Ender Dragond ').darkPurple(),
+		Text.of('or bought from ').white(),
+		Text.of('Goblin Trader').green()
+      ])
+    }
+	})
+
 	event.addAdvanced(['kubejs:essence_earth'], (item, advanced, text) => {
     if (!event.isShift()) {
       text.add(1, [

@@ -103,7 +103,6 @@
 	quests: [
 		{
 			can_repeat: true
-			description: ["Acquired by exchanging items, completing quests, and defeating Tier 1 \\& 2 Champions."]
 			disable_toast: true
 			id: "12AA5A2ECF315050"
 			rewards: [{
@@ -126,7 +125,6 @@
 		}
 		{
 			can_repeat: true
-			description: ["Acquired by exchanging items, completing quests, and defeating Tier 2 \\& 3 Champions."]
 			disable_toast: true
 			id: "4CA69F473539E565"
 			rewards: [{
@@ -150,7 +148,6 @@
 		}
 		{
 			can_repeat: true
-			description: ["Acquired by exchanging items, completing quests, and defeating Tier 4, 5 \\& 6 Champions."]
 			disable_toast: true
 			id: "2146186B43D64F53"
 			rewards: [{
@@ -173,7 +170,6 @@
 		}
 		{
 			can_repeat: true
-			description: ["Acquired by exchanging items and completing quests."]
 			disable_toast: true
 			id: "0802FC6EE2B78153"
 			rewards: [{
@@ -554,43 +550,6 @@
 		}
 		{
 			can_repeat: true
-			description: [
-				"Can be acquired as:"
-				""
-				"• &aone-time&r quest reward in &6Minecolonies related&r quests."
-				""
-				"• &9repeatable&r random reward from some &6Minecolonies professions&r (sifter, netherminer, miner)"
-			]
-			disable_toast: true
-			id: "1664AD644753F84D"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3B0468C19C6EB249"
-					table_id: 7385202459114283126L
-					type: "random"
-				}
-				{
-					id: "643D1589CC80FF06"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "octagon_important"
-			size: 2.0d
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "7E3332F5C3E934C7"
-				item: "kubejs:proofofwork"
-				type: "item"
-			}]
-			title: "&eProof Of Work&r"
-			x: 2.0d
-			y: -11.0d
-		}
-		{
-			can_repeat: true
 			icon: "simplehats:hatbag_common"
 			id: "3B33674AB3EBE3C0"
 			rewards: [{
@@ -728,6 +687,12 @@
 			disable_toast: true
 			icon: "minecraft:stone"
 			id: "7525A4AAA54D2F0F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35F2D21F6BC4A5CC"
+				table_id: 7734998237264059633L
+				type: "choice"
+			}]
 			subtitle: "For Granite/Diorite/Andesite"
 			tasks: [{
 				consume_items: true
@@ -754,8 +719,6 @@
 				"&9⭐ Task coin&r - completing tasks from Bounty Board"
 				""
 				"&3⭐ Loot coin&r - found as loot"
-				""
-				"&e⭐ Minecolony coin&r - Minecolony quest chapter and from workers"
 				""
 				"&2⭐ Exchange coins&r - trading with gobling traders"
 			]
@@ -796,11 +759,6 @@
 				{
 					id: "3868FCD3D34A0E19"
 					item: "kubejs:coin_dungeon"
-					type: "item"
-				}
-				{
-					id: "1C273117D576E619"
-					item: "kubejs:proofofwork"
 					type: "item"
 				}
 				{
@@ -900,7 +858,7 @@
 				type: "item"
 			}]
 			x: 2.25d
-			y: -5.0d
+			y: -5.25d
 		}
 		{
 			can_repeat: true
@@ -976,7 +934,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -5.0d
+			y: -5.25d
 		}
 		{
 			can_repeat: true
@@ -1003,8 +961,8 @@
 					value: 1L
 				}
 			]
-			x: -1.0d
-			y: 2.5d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
 			can_repeat: true
@@ -1107,22 +1065,7 @@
 			y: -3.5d
 		}
 		{
-			id: "29749336F779A446"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5E16F304D06749A1"
-				table_id: 5555069453760734776L
-				type: "choice"
-			}]
-			tasks: [{
-				id: "6507CD5E694AB55F"
-				type: "checkmark"
-			}]
-			title: "Starter Houses"
-			x: -3.0d
-			y: 2.5d
-		}
-		{
+			can_repeat: true
 			icon: {
 				Count: 1
 				id: "roughtweaks:bandage"
@@ -1143,6 +1086,8 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
+				disable_toast: true
 				id: "742244D66D10EFA5"
 				item: "kubejs:copper_coin"
 				type: "item"
@@ -1213,16 +1158,24 @@
 			y: -6.0d
 		}
 		{
+			can_repeat: true
 			hide_details_until_startable: true
-			hide_text_until_complete: true
 			id: "5CF7D46199ACC793"
+			invisible: true
+			rewards: [{
+				id: "0C864BB0D9FDEE7E"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			shape: "hexagon"
 			tasks: [{
+				consume_items: true
 				id: "14270DBB6CA3BD98"
 				item: "kubejs:key_magic"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 4.0d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
 			id: "70825CB73BABD32B"
@@ -1231,15 +1184,12 @@
 				item: "kubejs:voucher_relic"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.0d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
-			description: [
-				"Different &9Task Coins&r can be gained through various activities:"
-				""
-				"- bounties;"
-			]
+			can_repeat: true
+			description: ["&9Task Coins&r can be gained for doing bounties from Bounty board"]
 			disable_toast: true
 			id: "14E58B53370EE969"
 			rewards: [{
@@ -1251,13 +1201,53 @@
 			shape: "octagon_important"
 			size: 2.0d
 			tasks: [{
+				consume_items: true
+				disable_toast: true
 				id: "0D715A18F141196B"
 				item: "kubejs:coin_task"
 				type: "item"
 			}]
 			title: "&9Task Coins&r"
-			x: -1.0d
-			y: -8.0d
+			x: 2.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5CF7D46199ACC793"]
+			id: "2EFC3C8018BF8A7B"
+			invisible: true
+			rewards: [{
+				auto: "enabled"
+				command: "/ftbquests change_progress @s reset 5CF7D46199ACC793"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "010096A12AAEF63B"
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "7BF90FD0004CBAD3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E2160C99471E1BF"
+				table_id: 3347332391037181232L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "4286994F73675374"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "Magic Loot Crate"
+			x: 5.0d
+			y: -4.0d
 		}
 	]
 	title: "&e⭐ The Market&r"

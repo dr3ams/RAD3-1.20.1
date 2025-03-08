@@ -755,6 +755,23 @@ ServerEvents.recipes((event) => {
   event.stonecutting('cataclysm:void_crystal', 'cataclysm:void_stone')
   event.stonecutting('cataclysm:pointed_icicle', 'minecraft:ice')
 	
+	event.shaped(
+    Item.of('undergarden:catalyst'),
+    [
+        'ABA',
+        'CDE',
+        'AFA'
+    ],
+    {
+        D: 'undergarden:regalium_crystal',
+        F: 'undergarden:gloomgourd_pie',
+        A: 'undergarden:utherium_crystal',
+        C: 'undergarden:brute_tusk',
+        E: 'undergarden:glitterkelp',
+        B: 'undergarden:raw_gwibling'
+    }
+)
+
   event.shaped('mining_dimension:teleporter', [
     'ABC',
     'DEF',

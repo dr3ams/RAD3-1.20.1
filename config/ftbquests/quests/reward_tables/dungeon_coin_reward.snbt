@@ -1,13 +1,22 @@
 {
 	hide_tooltip: true
 	id: "02DAC0FA8ABE756F"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "dungeon_coin_reward"
+	}
 	loot_size: 1
 	order_index: 32
 	rewards: [
 		{ item: "collectorsalbum:common_card_pack" }
 		{ item: "collectorsalbum:uncommon_card_pack" }
-		{ item: "collectorsalbum:rare_card_pack" }
-		{ item: "collectorsalbum:epic_card_pack" }
+		{ item: "collectorsalbum:rare_card_pack", weight: 0.2f }
+		{ item: "collectorsalbum:epic_card_pack", weight: 0.2f }
 		{ item: "aquaculture:treasure_chest", random_bonus: 2 }
 		{ count: 2, item: "aquaculture:lockbox", random_bonus: 2 }
 		{ count: 2, item: "aquaculture:box", random_bonus: 3 }

@@ -720,7 +720,6 @@
 				table_id: 8239551914162453554L
 				type: "choice"
 			}]
-			subtitle: "Earth essence-> iron, gold redstone, lappis"
 			tasks: [{
 				count: 2L
 				id: "010F9B0ADEA9F103"
@@ -763,7 +762,8 @@
 				type: "random"
 			}]
 			tasks: [{
-				count: 3L
+				consume_items: true
+				count: 5L
 				id: "3D4DD55DAFCE2B3E"
 				item: "kubejs:essence_earth"
 				type: "item"
@@ -804,6 +804,7 @@
 				type: "choice"
 			}]
 			tasks: [{
+				consume_items: true
 				id: "56884DA00E3DE7E1"
 				item: "kubejs:essence_earth"
 				type: "item"
@@ -821,7 +822,6 @@
 				table_id: 5171741704095199131L
 				type: "random"
 			}]
-			subtitle: "junk -> resources"
 			tasks: [{
 				id: "44F45806504846B0"
 				item: "kubejs:junk"
@@ -837,11 +837,12 @@
 			rewards: [{
 				id: "4C3489832090349C"
 				item: "kubejs:coin_01"
-				random_bonus: 3
+				random_bonus: 1
 				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				id: "3C7BF43A643CBB72"
 				item: "kubejs:sifted_dust"
 				type: "item"
@@ -1081,6 +1082,7 @@
 				type: "random"
 			}]
 			tasks: [{
+				consume_items: true
 				id: "3D3ABF00573FA483"
 				item: "kubejs:sifted_dust"
 				type: "item"
@@ -1105,16 +1107,6 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 12.0d
-		}
-		{
-			dependencies: ["62BC62A1467C3269"]
-			id: "61C33A1615BFFA52"
-			tasks: [{
-				id: "67BDC673D919F98C"
-				type: "checkmark"
-			}]
-			x: 6.5d
 			y: 12.0d
 		}
 		{
@@ -1174,7 +1166,7 @@
 			]
 			title: "Spawner Core -> &aMonster Essence&r"
 			x: 2.0d
-			y: 9.5d
+			y: 8.5d
 		}
 		{
 			can_repeat: true
@@ -1203,6 +1195,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "6384FD77994810CB"
 					item: "kubejs:scraps"
 					type: "item"
@@ -1278,50 +1271,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["62BC62A1467C3269"]
-			id: "2BD6145AFDA30FE9"
-			tasks: [{
-				disable_toast: true
-				id: "4F45C58483D6AF85"
-				item: {
-					Count: 1
-					id: "minecraft:iron_boots"
-					tag: {
-						Damage: 0
-						affix_data: {
-							sockets: 1
-						}
-					}
-				}
-				type: "item"
-				weak_nbt_match: true
-			}]
-			x: 5.0d
-			y: 13.0d
-		}
-		{
-			id: "33CD7F90E017C777"
-			rewards: [{
-				id: "15941D5EC3439D73"
-				item: {
-					Count: 1
-					id: "modifiers:modifier_book"
-					tag: {
-						bookModifier: "modifiers:hard"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "20C66B809936DAB1"
-				type: "checkmark"
-			}]
-			title: "option as a reward"
-			x: 8.0d
-			y: 5.0d
-		}
-		{
-			can_repeat: true
 			dependencies: ["6415470142D7A281"]
 			id: "17F6856DC91BA418"
 			rewards: [{
@@ -1339,9 +1288,10 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 8.5d
+			y: 9.5d
 		}
 		{
+			dependencies: ["62BC62A1467C3269"]
 			id: "25F78253793427D2"
 			rewards: [{
 				id: "79E989A28BE7C8BD"
@@ -1349,6 +1299,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				id: "1D6E674E9FFEDFB4"
 				item: {
 					Count: 1
@@ -1361,8 +1312,36 @@
 				type: "item"
 			}]
 			title: "Artifact Recycling"
-			x: 6.5d
+			x: 5.0d
 			y: 13.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "52A87B5763F261C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "625EA40EA3E99156"
+				table_id: 5209661360683531761L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "6A7C6A50C9B09E83"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "rad3:recycle-t1"
+					}
+				}
+				title: "Any #rad3:recycle-t1"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 8.5d
+			y: 7.5d
 		}
 	]
 	title: "⭐ Masteries"

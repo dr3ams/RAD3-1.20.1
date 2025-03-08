@@ -301,7 +301,7 @@
 			rewards: [{
 				id: "77CB0D05E423BE88"
 				type: "xp"
-				xp: 500
+				xp: 200
 			}]
 			subtitle: "Make yourself at home!"
 			tasks: [
@@ -372,8 +372,8 @@
 			]
 			id: "7F9831246F75C5C6"
 			rewards: [{
-				id: "74ED9B8F5203A5B2"
-				item: "nameless_trinkets:lucky_rock"
+				id: "53D6B109F45205B6"
+				item: "kubejs:gold_coin"
 				type: "item"
 			}]
 			tasks: [
@@ -685,7 +685,7 @@
 			rewards: [{
 				id: "688962A447F65683"
 				type: "xp"
-				xp: 100
+				xp: 50
 			}]
 			subtitle: "Chose your first knowledge of death"
 			tasks: [{
@@ -748,7 +748,7 @@
 			rewards: [{
 				id: "3B73BA00E43033DC"
 				type: "xp"
-				xp: 100
+				xp: 10
 			}]
 			tasks: [{
 				id: "7CF72A116DB6C85C"
@@ -772,7 +772,7 @@
 			rewards: [{
 				id: "2ECF31D51DEB3A77"
 				type: "xp"
-				xp: 100
+				xp: 50
 			}]
 			tasks: [
 				{
@@ -805,9 +805,18 @@
 			dependencies: ["35A027D4B827463C"]
 			description: [
 				"You will face a lot of new enemies and bosses. Can you defeat them all?"
-				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"273BBE58DA6C6B5E\" } }"
+				""
+				"{ \"text\": \"- Click here for monster quests\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"273BBE58DA6C6B5E\" } }"
+				""
+				""
+				"{ \"text\": \"- Click here for bosses quests\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3476C260BC2E3BBA\" } }"
 			]
 			id: "366659E50333BC5A"
+			rewards: [{
+				id: "534BE3581CF3E72C"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "hexagon_important"
 			size: 2.0d
 			subtitle: "Visit 'Seek and Destroy' chapter to find more mob hunting quests!"
@@ -823,11 +832,7 @@
 		}
 		{
 			dependencies: ["35A027D4B827463C"]
-			description: [
-				"While adventuring, you may encounter items with various bonuses. These are Affix Items, relics of the past with varying degrees of power."
-				""
-				"&4Read more information about the whole Affix and Gems mechanics in Chronicle of Shadows guidebook!&r"
-			]
+			description: ["{ \"text\": \"CLICK HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"673DE11282C85AD4\" } }"]
 			icon: {
 				Count: 1
 				id: "undergarden:forgotten_pickaxe"
@@ -849,11 +854,12 @@
 			}]
 			shape: "gear_important"
 			size: 1.2d
+			subtitle: "Check 'Equipment' quest chapter to find more"
 			tasks: [{
 				id: "70D416AECE2E29F2"
 				type: "checkmark"
 			}]
-			title: "&9Equipment"
+			title: "&9Equipment, affixes, tiers"
 			x: -6.6d
 			y: -3.0d
 		}
@@ -947,6 +953,11 @@
 			dependencies: ["3A7C49FC5AA2927F"]
 			description: ["It's a little more expensive now."]
 			id: "1F988A67F250159F"
+			rewards: [{
+				id: "165D25EF7D406B8F"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3590645E6C82B9B4"
@@ -1333,6 +1344,11 @@
 		{
 			dependencies: ["366659E50333BC5A"]
 			id: "0B143DFB7C2FC5FC"
+			rewards: [{
+				id: "6FDA88E711939C8D"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
 			subtitle: "Kill a Forgotten underground and loot its hat"
 			tasks: [{
 				advancement: "quark:get_forgotten_hat"
@@ -1606,6 +1622,11 @@
 				"- The parachute needs to be folded back up once you land in order for it to be ready to catch you if you fall again"
 			]
 			id: "6919B75261523426"
+			rewards: [{
+				id: "748A7C5EF6EDADF3"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "05628460ED131063"
 				item: {
@@ -1659,6 +1680,11 @@
 				"- Can be found in Ancient City chests or crafted with Echo Shards, Sculk Veins and Iron"
 			]
 			id: "1E502C67261C3780"
+			rewards: [{
+				id: "1C444E50FB880A74"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "40DC799B3FFAE7B0"
 				item: "spelunkery:echo_fork"
@@ -1848,18 +1874,11 @@
 			]
 			icon: "sophisticatedbackpacks:backpack"
 			id: "5F8B9C6BD22D03AB"
-			rewards: [
-				{
-					id: "4A31EA2880391F51"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "3EB9971D36C14070"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "4A31EA2880391F51"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [
 				{
@@ -2139,8 +2158,8 @@
 				}
 			]
 			title: "Sophisticated Backpacks"
-			x: 0.5d
-			y: -8.5d
+			x: 1.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["366659E50333BC5A"]
@@ -2170,6 +2189,11 @@
 		{
 			dependencies: ["733A59C038C65E4B"]
 			id: "63F3D645C8C30D01"
+			rewards: [{
+				id: "5F39D0EBC3C5A2E5"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
 			subtitle: "Collect one of each type of ore"
 			tasks: [{
 				advancement: "spelunkery:spelunkery/every_ore"
@@ -2192,9 +2216,9 @@
 			}
 			id: "50DF10155B7366FF"
 			rewards: [{
-				id: "289A3343DB83D85F"
-				type: "xp_levels"
-				xp_levels: 10
+				id: "2DC255A3063A038F"
+				item: "kubejs:gold_coin"
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -2452,7 +2476,7 @@
 				}
 			]
 			title: "Sophisticated Barrels"
-			x: 1.5d
+			x: 0.0d
 			y: -9.5d
 		}
 		{
@@ -2465,6 +2489,11 @@
 				"&cWARNING!&r Sophisticated Storage chests DO NOT WORK inside Capsules. Sophisticated Storage barrels work, but not chests."
 			]
 			id: "529D1D72F3E57C1D"
+			rewards: [{
+				id: "4EB4F1C1067BADC2"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
 			subtitle: "&cCan be crafted with &nany&r &cwood!&r"
 			tasks: [
 				{
@@ -2546,8 +2575,8 @@
 				}
 			]
 			title: "Sophisticated Chests"
-			x: 1.5d
-			y: -8.0d
+			x: 0.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["009F78659E60A2F0"]
@@ -2568,7 +2597,7 @@
 				item: "toms_storage:ts.inventory_connector"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 2.5d
 			y: -10.5d
 		}
 		{
@@ -2589,7 +2618,7 @@
 				item: "toms_storage:ts.storage_terminal"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: -9.5d
 		}
 		{
@@ -2642,7 +2671,7 @@
 				}
 			]
 			title: "Inventory Managment"
-			x: 4.0d
+			x: 3.0d
 			y: -9.5d
 		}
 		{
@@ -2676,6 +2705,11 @@
 				"Can ride ascending wind to gain height! Look out for rising particles while holding the Paraglider."
 			]
 			id: "4EAB0F8461B6B3C4"
+			rewards: [{
+				id: "01824496657F2106"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "3D305FBCC0F8BF0F"
 				item: "paraglider:paraglider"
@@ -2867,7 +2901,11 @@
 		}
 		{
 			dependencies: ["5BD0024E8E16BB8E"]
-			description: ["Enchanting can be done at levels up to 100. Refer to the &oChronicle of Shadows&r for more details on higher level enchanting."]
+			description: [
+				"Enchanting can be done at levels up to 100. Refer to the &oChronicle of Shadows&r for more details on higher level enchanting and visit corresponding quest chapter."
+				""
+				"{ \"text\": \"HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0DA09629733D2F68\" } }"
+			]
 			id: "0000000000000047"
 			rewards: [
 				{
@@ -2875,11 +2913,6 @@
 					id: "0000000000000279"
 					item: "minecraft:book"
 					type: "item"
-				}
-				{
-					id: "00000000000002DC"
-					type: "xp_levels"
-					xp_levels: 5
 				}
 				{
 					id: "3C968275577F927E"
@@ -2892,12 +2925,18 @@
 					}
 					type: "item"
 				}
+				{
+					id: "6732E09DDD882E44"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "0000000000000048"
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
+			title: "Enchanting system"
 			x: 8.5d
 			y: 2.5d
 		}
@@ -2905,6 +2944,11 @@
 			dependencies: ["031D29EEE7B5A5A7"]
 			description: ["Ever felt bored of the Minecraft Villagers? Do you wish they sold more useful items? More Villagers aims to fix that by adding multiple new villager jobs, all with unique trades, workstations, and advancements!"]
 			id: "676CA2E8216F97FD"
+			rewards: [{
+				id: "1BFE0888A16F6498"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "16C4B42BD066F182"
@@ -2954,6 +2998,11 @@
 		{
 			dependencies: ["3A7C49FC5AA2927F"]
 			id: "55C87018D524A77E"
+			rewards: [{
+				id: "5B8454697E1E1446"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "42FEB8220A1D720B"
 				item: "minecraft:bucket"
@@ -2972,6 +3021,11 @@
 				"- When a &4magma block&r is placed below it, it will attempt to boil upward through the ceiling. If there are natural blocks in its way it, will burrow through until it breaks through to the surface above."
 			]
 			id: "5AA5BFD3FCB010B0"
+			rewards: [{
+				id: "1F5C6177A51EAA1E"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "0D1E2459F7BD15DF"
 				item: "spelunkery:spring_water_bucket"
@@ -3029,9 +3083,9 @@
 			dependencies: ["733A59C038C65E4B"]
 			id: "5BD0024E8E16BB8E"
 			rewards: [{
-				id: "3B629F7FA8815BF4"
-				type: "xp_levels"
-				xp_levels: 5
+				id: "5F898D8C8063B989"
+				item: "kubejs:iron_coin"
+				type: "item"
 			}]
 			tasks: [{
 				id: "53B7D2BEB1474AA7"
@@ -3067,7 +3121,7 @@
 			]
 			id: "4058A62B9B24E64F"
 			rewards: [{
-				count: 128
+				count: 64
 				id: "4606B4ACF91B9E7A"
 				item: "minecraft:obsidian"
 				type: "item"
@@ -3098,66 +3152,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["43EFBBF0712C67B9"]
-			description: [
-				"&5Chipped&r adds a variety of blocks with different, unique textures, allowing to add more variety to your builds."
-				""
-				"To begin creating it - craft one of the thematical workstations."
-			]
-			id: "5807B58B6D07D0AD"
-			rewards: [{
-				id: "0C19237682640F77"
-				type: "xp"
-				xp: 80
-			}]
-			size: 1.0d
-			tasks: [{
-				id: "2E2945006EB8F434"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "chipped:botanist_workbench"
-							}
-							{
-								Count: 1b
-								id: "chipped:glassblower"
-							}
-							{
-								Count: 1b
-								id: "chipped:carpenters_table"
-							}
-							{
-								Count: 1b
-								id: "chipped:loom_table"
-							}
-							{
-								Count: 1b
-								id: "chipped:mason_table"
-							}
-							{
-								Count: 1b
-								id: "chipped:alchemy_bench"
-							}
-							{
-								Count: 1b
-								id: "chipped:tinkering_table"
-							}
-						]
-					}
-				}
-				title: "Available Workstations"
-				type: "item"
-			}]
-			title: "Extended block variety"
-			x: -0.5d
-			y: -10.5d
-		}
-		{
-			dependencies: ["5807B58B6D07D0AD"]
+			dependencies: ["68BE52500EBA3198"]
 			description: ["Framed Blocks will allow you to create various shaped blocks that you can use to decorate your base with complex shapes. The texture of the frame blocks can then be changed by right clicking them with a block of your choosing, which is held until the block is broken."]
 			id: "289133175EA692FE"
 			rewards: [{
@@ -3171,8 +3166,8 @@
 				type: "item"
 			}]
 			title: "Framed Blocks"
-			x: -0.5d
-			y: -12.0d
+			x: 0.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["5466EEF8BC1D892F"]
@@ -3323,7 +3318,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["5807B58B6D07D0AD"]
+			dependencies: ["68BE52500EBA3198"]
 			description: ["Also functional as you can store items inside!"]
 			id: "00000000000000BC"
 			rewards: [{
@@ -3511,8 +3506,8 @@
 				}
 			]
 			title: "Cupboards, Cabinets and Counters"
-			x: 0.5d
-			y: -10.0d
+			x: 1.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["00000000000000BC"]
@@ -3594,8 +3589,8 @@
 				type: "item"
 			}]
 			title: "Bookshelves"
-			x: 1.0d
-			y: -11.0d
+			x: 1.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["00000000000000BE"]
@@ -3669,11 +3664,11 @@
 				}
 			]
 			title: "The Librarian"
-			x: 1.5d
-			y: -12.0d
+			x: 2.0d
+			y: -12.5d
 		}
 		{
-			dependencies: ["5807B58B6D07D0AD"]
+			dependencies: ["68BE52500EBA3198"]
 			description: [
 				"A Trowel tool can be crafted with Iron and Sticks. The Trowel, when right clicked, will place a random block from your hotbar, making it useful for ruins or paths."
 				""
@@ -3739,7 +3734,7 @@
 			y: -11.5d
 		}
 		{
-			dependencies: ["5807B58B6D07D0AD"]
+			dependencies: ["68BE52500EBA3198"]
 			id: "5466EEF8BC1D892F"
 			tasks: [{
 				id: "00A7116AB30E5964"
@@ -3819,6 +3814,7 @@
 			y: -9.5d
 		}
 		{
+			dependencies: ["5F8B9C6BD22D03AB"]
 			description: ["The Global Skin Library loads a list of skins that have been uploaded to the skin database. There are lots and lots of pre-built designs to search through, and they can be downloaded to your private instance by clicking on one and hitting the download button."]
 			id: "4DCD0744847F44B8"
 			rewards: [{
@@ -3849,8 +3845,8 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
-			y: -10.5d
+			x: 2.5d
+			y: -8.5d
 		}
 		{
 			description: ["Similar to Wandering Traders, goblins are found randomly underground in caves or in the nether and provide exclusive and beneficial trades that allow you to take your adventure to the next level! Goblin Traders adds two new traders, the Golbin Trader which is found in the overworld and the Vein Goblin Trader which is found in The Nether; both with their own unique set of trades. These little goblins have a little attitude and don't like it when you hit them. If you're feeling generous you can feed them their favourite food for a fun animation."]
@@ -3877,51 +3873,6 @@
 			title: "Personal Dimension"
 			x: 1.0d
 			y: -5.0d
-		}
-		{
-			dependencies: ["0000000000000047"]
-			description: [
-				"There are multiple methods to perform disenchanting."
-				""
-				"Book of Disenchantment can be used with a Grave Soul to strip multiple enchantments from items (not books), into individual books. Knowledge of Death perks can increase the amount extracted."
-				""
-				"Tome of Scrapping costs a few levels, destroys the item, and returns half the enchantments, rounded up, on a book."
-				""
-				"Tome of Superior Scrapping costs a lot of levels, destroys the item, but returns all of the enchantments."
-			]
-			id: "4FFE28F3DB5EC162"
-			rewards: [{
-				id: "54035E2B956F8E82"
-				item: "minecraft:anvil"
-				type: "item"
-			}]
-			tasks: [{
-				id: "25E69B5E45CA5946"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "tombstone:book_of_disenchantment"
-							}
-							{
-								Count: 1b
-								id: "apotheosis:scrap_tome"
-							}
-							{
-								Count: 1b
-								id: "apotheosis:improved_scrap_tome"
-							}
-						]
-					}
-				}
-				type: "item"
-			}]
-			title: "Disenchanting"
-			x: 10.0d
-			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -3951,68 +3902,21 @@
 			y: -11.5d
 		}
 		{
-			dependencies: ["6CC45B856CF1EC09"]
-			description: [
-				"Each affix is very similar to an enchantment, providing a specific bonus to the item it is attached to."
-				""
-				"- Affix Types"
-				"There are a few different types of affixes, each type having a specific set of functionality it can provide. What types of affixes are applied to an item are dependent on the item's Rarity"
-				""
-				"Affix items can be acquired:"
-				"- from chests (across all dimensions)"
-				"- from a naturally spawned mob"
-				"- from bosses"
-			]
-			id: "04BD6EFB0F827A54"
-			subtitle: "Find an item with Apothic affix"
-			tasks: [{
-				advancement: "apotheosis:affix/root"
-				criterion: ""
-				id: "1ED060C10B933721"
-				type: "advancement"
-			}]
-			x: -8.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["6CC45B856CF1EC09"]
-			description: [
-				"They can be inserted into equipment on a &5smithing table.&r"
-				""
-				"Each &4gem&r provides different attribute bonuses, based on the type of equipment it is in."
-				""
-				"Gems can be acquired:"
-				""
-				"- as loot in other dimensions"
-				"   - &cNether&r - uncommon to epic"
-				"   - &fEnd&r - rare to mythic"
-				"   - &bAether&r - uncommon to mythic"
-				"   - &eLands of Icaria&r - uncommon to mythic"
-				"   - &2Undergarden&r - uncommon to mythic"
-				"   - &6The Bumblezone&r - uncommon to mythic"
-				"   - &8Dimdungeons&r - rare to mythic"
-				"   - &5Bloodmagic Dungeon&r - rare to mythic"
-				"   - &1Mining Dimension&r - rare to mythic"
-				""
-				"- as drop from &4Apotheosis Bosses&r"
-				""
-				"- exchanged in \"&eThe Market&r\" quest chapter"
-			]
-			id: "673DE11282C85AD4"
-			subtitle: "Find an Apothic Gems which can be socketed into Affix item"
-			tasks: [{
-				advancement: "apotheosis:affix/gem"
-				criterion: ""
-				id: "03F8DD3FF045B3A7"
-				type: "advancement"
-			}]
-			x: -8.5d
-			y: -2.5d
-		}
-		{
 			dependencies: ["1966320B37D990A0"]
-			description: ["You will need Fabrics for crafting bed, armor and backpacks. You can get it from Zombies, find it as loot or buy for a copper coin from a 'Coin Shop Quest Chapter'."]
+			description: ["You will need &9Fabrics&r for crafting bed, armor and backpacks. You can get it from &aZombies&r, find it as loot or buy for a copper or dungeon coin in '&eThe Market&r' quest chapter."]
 			id: "624F1D5C9129DFA8"
+			rewards: [
+				{
+					id: "5136ECB371B07871"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "002E1AAE2DAD60C3"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [
 				{
 					id: "451225439A79BFC7"
@@ -4080,66 +3984,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["673DE11282C85AD4"]
-			description: [
-				"To socket a gem into an item, combine the two in a Smithing Table. Each gem states which items it may fit in. Some gems are Unique, meaning that only one copy of that gem may be socketed in an item."
-				""
-				"&lRemoving Gems&r"
-				"Combine a socketed item with a Sigil of Withdrawal in a smithing table to remove the socketed gems from an item. The item and all gems will be returned."
-			]
-			id: "31F1B5BF67E7FC49"
-			subtitle: "Used to socket gems into Items"
-			tasks: [{
-				id: "3A74A37370E87283"
-				item: "minecraft:smithing_table"
-				type: "item"
-			}]
-			x: -10.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["673DE11282C85AD4"]
-			id: "0C45B6CB9315B119"
-			subtitle: "Can be used to upgrade gems"
-			tasks: [{
-				id: "4812DE725FD6B502"
-				item: "apotheosis:gem_cutting_table"
-				type: "item"
-			}]
-			x: -10.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["4B37ED777351DF31"]
-			description: [
-				"The Reforging Table has three input slots:"
-				"- the center slot holds the item you wish to reforge. "
-				"- the top-left slot holds Rarity Materials for the rarity you would like to reforge with."
-				"- the bottom-right slot holds Sigils of Rebirth, a unique fuel item used during the Reforging process."
-			]
-			id: "06DB24EC6C29EF79"
-			subtitle: "Allows you to reforge items up to Rare rarity"
-			tasks: [{
-				id: "70512FDE6154E448"
-				item: "apotheosis:simple_reforging_table"
-				type: "item"
-			}]
-			x: -11.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["04BD6EFB0F827A54"]
-			id: "4B37ED777351DF31"
-			subtitle: "Breaks down Affix items into Rare Materials"
-			tasks: [{
-				id: "0E4FF1A330394B0A"
-				item: "apotheosis:salvaging_table"
-				type: "item"
-			}]
-			x: -10.0d
-			y: -4.0d
-		}
-		{
 			dependencies: ["149CB61732F787CF"]
 			description: [
 				"Spyglass received various functionality and improvements:"
@@ -4153,6 +3997,18 @@
 				"- &5Precision enchant&r: Offhanding a spyglass and crouching while using a ranged weapon grants zoom. Projectiles gain perfect accuracy and deal extra damage. 4 second cooldown by default."
 			]
 			id: "0DB4564772F4526D"
+			rewards: [
+				{
+					id: "1BDECE51439990CB"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "46760FB733316622"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "73517CF516D3A571"
 				item: "minecraft:spyglass"
@@ -4165,6 +4021,11 @@
 			dependencies: ["366659E50333BC5A"]
 			description: ["To add arrows place it together in a crafting grid"]
 			id: "1FD8FE1F7FD65D9A"
+			rewards: [{
+				id: "040E14C5A61F1E1A"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "5BAA0D5EA0FE200D"
 				item: {

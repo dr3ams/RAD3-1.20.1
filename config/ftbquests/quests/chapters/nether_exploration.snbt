@@ -109,12 +109,14 @@
 				}
 			]
 			tasks: [{
-				id: "26C4A23F14C93AFC"
-				item: "minecraft:soul_sand"
-				type: "item"
+				biome: "gardens_of_the_dead:soulblight_forest"
+				icon: "gardens_of_the_dead:soulblight_hyphae"
+				id: "6D917E65816CEE1A"
+				type: "biome"
 			}]
-			x: -3.0d
-			y: -0.5d
+			title: "Visit Soulbright Forest Biome"
+			x: -2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["287AA5F2913FF7BA"]
@@ -196,264 +198,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["2180E83A0BF99108"]
-			id: "3A874C0C28B98BF8"
-			rewards: [{
-				id: "1D020E124B4BEF57"
-				item: "aquaculture:box"
-				type: "item"
-			}]
-			tasks: [{
-				id: "010FC3931AFA3B6F"
-				item: "minecraft:crimson_stem"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["3A874C0C28B98BF8"]
-			id: "62E4B0123943B783"
-			rewards: [
-				{
-					id: "1300091DDCAEEC20"
-					item: "minecraft:gold_nugget"
-					random_bonus: 15
-					type: "item"
-				}
-				{
-					id: "2FF01AFF06125EE1"
-					item: "kubejs:coin_nether"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "3CCAEF914E36E30F"
-				item: "floormats:connected/nether/connected_gilded_crimson_stem"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["3A874C0C28B98BF8"]
-			id: "4122C33D384CF98D"
-			rewards: [
-				{
-					id: "0DABB5DB54DEA387"
-					item: "minecraft:redstone"
-					random_bonus: 8
-					type: "item"
-				}
-				{
-					id: "3BD9AA923C8C4229"
-					item: "minecraft:lapis_lazuli"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "4C96051E1D9BCFB4"
-					item: "kubejs:coin_nether"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "4CB3FDE433ECFB90"
-				item: "floormats:connected/nether/connected_crimson_stem"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["399D0F4FA424B5A4"]
-			id: "6B2A287DAD092F9D"
-			rewards: [
-				{
-					id: "69B56B0D8DDECE00"
-					item: "minecraft:gold_nugget"
-					type: "item"
-				}
-				{
-					id: "1696187BFFC02FA0"
-					item: "minecraft:iron_nugget"
-					type: "item"
-				}
-				{
-					id: "6C91D8BCA9AF77ED"
-					item: {
-						Count: 1
-						id: "minecraft:potion"
-						tag: {
-							Potion: "minecraft:healing"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3C8C6781E62DCADA"
-					item: "kubejs:coin_nether"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "6D5571A0D8229608"
-				item: "minecraft:crimson_fungus"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["2180E83A0BF99108"]
-			id: "399D0F4FA424B5A4"
-			rewards: [
-				{
-					id: "7A53463D52B96FB8"
-					item: "minecraft:ink_sac"
-					type: "item"
-				}
-				{
-					id: "06B734CEC247F1E7"
-					item: "aquaculture:box"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "434970DB0E6FFA49"
-				item: "minecraft:crimson_nylium"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["2180E83A0BF99108"]
-			id: "536B521F13679850"
-			rewards: [{
-				id: "60F1882D2030BC3E"
-				item: "aquaculture:box"
-				type: "item"
-			}]
-			tasks: [{
-				id: "10C1474929C0C813"
-				item: "minecraft:warped_stem"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["536B521F13679850"]
-			id: "40A34660A26BB44F"
-			rewards: [
-				{
-					id: "6B87399F1A2F26D8"
-					item: "minecraft:glowstone_dust"
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "4A8B9467CE8CA25E"
-					item: "minecraft:gold_nugget"
-					random_bonus: 8
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "1BC3510879D1728B"
-				item: "floormats:connected/nether/connected_gilded_warped_stem"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["536B521F13679850"]
-			id: "2B32BE7E83266F81"
-			rewards: [
-				{
-					id: "03218D916D12F3CD"
-					item: "minecraft:paper"
-					random_bonus: 3
-					type: "item"
-				}
-				{
-					id: "1D74B21A995479F7"
-					item: "minecraft:iron_nugget"
-					random_bonus: 8
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "3B259D2E0B2DD716"
-				item: "floormats:connected/nether/connected_warped_stem"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["536B521F13679850"]
-			id: "39D411EBF412394A"
-			rewards: [
-				{
-					id: "6BB1871A6D604B80"
-					item: "minecraft:lapis_lazuli"
-					random_bonus: 8
-					type: "item"
-				}
-				{
-					id: "34DE9B231AE35807"
-					item: "minecraft:gold_nugget"
-					random_bonus: 7
-					type: "item"
-				}
-				{
-					id: "4A7A801036687E29"
-					item: "kubejs:coin_nether"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0F1EEF1EA840B4D9"
-				item: {
-					Count: 1
-					id: "minecraft:warped_fungus_on_a_stick"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -5.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["2180E83A0BF99108"]
-			id: "2EA5028B44B954C5"
-			rewards: [
-				{
-					id: "68FB8B88F3EED9F6"
-					item: "minecraft:ender_pearl"
-					type: "item"
-				}
-				{
-					id: "7CA3024ECFFF338A"
-					item: "kubejs:coin_nether"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "776956F9B3950832"
-				item: "minecraft:shroomlight"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7BF4F7FA6F5489B8"]
@@ -469,7 +214,7 @@
 				item: "quark:blue_nether_bricks"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.5d
 			y: -5.0d
 		}
 		{
@@ -498,8 +243,8 @@
 				item: "minecraft:red_nether_bricks"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -6.0d
+			x: 0.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2180E83A0BF99108"]
@@ -515,8 +260,8 @@
 				item: "minecraft:blackstone"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -4.0d
+			x: 4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1579F030A62BD23B"]
@@ -539,8 +284,8 @@
 				item: "minecraft:polished_blackstone"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -5.5d
+			x: 3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1579F030A62BD23B"]
@@ -568,8 +313,8 @@
 				item: "supplementaries:blackstone_tile"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -3.5d
+			x: 6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1579F030A62BD23B"]
@@ -592,8 +337,8 @@
 				item: "minecraft:gilded_blackstone"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -4.5d
+			x: 5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2180E83A0BF99108"]
@@ -616,8 +361,8 @@
 				item: "minecraft:nether_bricks"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -4.5d
+			x: 1.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2180E83A0BF99108"]
@@ -689,23 +434,16 @@
 				type: "advancement"
 			}]
 			x: 5.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["43E414A246A05B0E"]
 			id: "4890308F6A77A05C"
-			rewards: [
-				{
-					id: "25313F141668BDED"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-				{
-					id: "230B5B287F3052A1"
-					item: "nameless_trinkets:dark_nelumbo"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "25313F141668BDED"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
 			subtitle: "Loot a chest in a Bastion Remnant"
 			tasks: [{
 				advancement: "minecraft:nether/loot_bastion"
@@ -713,8 +451,8 @@
 				id: "0F37DAFE4DE9CF39"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: -2.0d
+			x: 6.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2180E83A0BF99108"]
@@ -731,11 +469,11 @@
 				id: "48C05B6ABB55D87B"
 				type: "advancement"
 			}]
-			x: 3.5d
-			y: -3.0d
+			x: 2.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["2180E83A0BF99108"]
+			dependencies: ["1558B0B218B5C480"]
 			id: "21CEC05CBFEA8B0E"
 			rewards: [
 				{
@@ -757,8 +495,8 @@
 				id: "3ED6FA0361D6D6B6"
 				type: "advancement"
 			}]
-			x: 1.0d
-			y: 4.0d
+			x: -1.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["00FACACE1AADA314"]
@@ -880,8 +618,8 @@
 				item: "minecraft:wither_skeleton_skull"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.5d
+			x: 6.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["717E0E4B8EE8DBFE"]
@@ -905,8 +643,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 7.0d
-			y: -0.5d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["00000000000000C4"]
@@ -930,8 +668,8 @@
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -2.0d
+			x: 10.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3738B0DE6CC37452"]
@@ -958,8 +696,8 @@
 				item: "minecraft:beacon"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 0.0d
+			x: 10.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2180E83A0BF99108"]
@@ -980,7 +718,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["39D411EBF412394A"]
+			dependencies: ["2180E83A0BF99108"]
 			id: "47996E93799B3383"
 			rewards: [{
 				id: "16C022CF2C40B93F"
@@ -994,8 +732,8 @@
 				id: "6593AE2B1DB95124"
 				type: "advancement"
 			}]
-			x: -6.0d
-			y: 0.0d
+			x: 0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["00FACACE1AADA314"]
@@ -1248,8 +986,8 @@
 				id: "537BC40AB3F4D1F2"
 				type: "advancement"
 			}]
-			x: 1.5d
-			y: 5.0d
+			x: 0.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["21CEC05CBFEA8B0E"]
@@ -1274,8 +1012,8 @@
 				id: "18D07D06109BE509"
 				type: "advancement"
 			}]
-			x: 0.5d
-			y: 5.0d
+			x: -2.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["00FACACE1AADA314"]
@@ -1318,11 +1056,6 @@
 			id: "5B14AFAD0D41AC65"
 			rewards: [
 				{
-					id: "025C145CD811BF6D"
-					item: "nameless_trinkets:blaze_nucleus"
-					type: "item"
-				}
-				{
 					count: 2
 					id: "1F1CFEEE5122A607"
 					item: "friendsandfoes:wildfire_crown_fragment"
@@ -1355,23 +1088,13 @@
 			y: 5.5d
 		}
 		{
-			dependencies: [
-				"536B521F13679850"
-				"3A874C0C28B98BF8"
-			]
+			dependencies: ["2180E83A0BF99108"]
 			id: "270F7045F52AC58E"
-			rewards: [
-				{
-					id: "54246092F49CD2C5"
-					item: "kubejs:coin_nether"
-					type: "item"
-				}
-				{
-					id: "5503FB121B85B902"
-					item: "nameless_trinkets:electric_paddle"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "54246092F49CD2C5"
+				item: "kubejs:coin_nether"
+				type: "item"
+			}]
 			subtitle: "Fireproof Boats"
 			tasks: [
 				{
@@ -1386,60 +1109,119 @@
 				}
 			]
 			title: "This Boat Doesn't Have Legs"
-			x: -5.0d
-			y: 4.5d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
-			id: "2BC74E480B6623C5"
-			tasks: [{
-				biome: "incendium:quartz_flats"
-				id: "561190D22FC46EB7"
-				type: "biome"
-			}]
-			x: 5.5d
-			y: 7.0d
-		}
-		{
+			dependencies: ["1558B0B218B5C480"]
 			id: "1F5EDF2858AEAC8A"
+			rewards: [
+				{
+					id: "0A48413E3516D954"
+					item: "kubejs:coin_nether"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "5170C69F868D322E"
+					item: "minecraft:gold_nugget"
+					random_bonus: 23
+					type: "item"
+				}
+			]
 			tasks: [{
 				biome: "incendium:ash_barrens"
+				icon: "minecraft:smooth_basalt"
 				id: "161471889393011A"
 				type: "biome"
 			}]
-			x: 6.5d
-			y: 7.0d
+			title: "Enter Ash Barrens"
+			x: 1.0d
+			y: 5.0d
 		}
 		{
+			dependencies: ["1558B0B218B5C480"]
 			id: "74FDA4B6049F125C"
+			rewards: [
+				{
+					id: "421C6338FE0F5FB5"
+					item: "kubejs:coin_nether"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "096C5C5CD5ABDE12"
+					item: "minecraft:gold_nugget"
+					random_bonus: 12
+					type: "item"
+				}
+			]
 			tasks: [{
 				biome: "incendium:withered_forest"
+				icon: "minecraft:blackstone"
 				id: "7034FFAAAF7522B0"
 				type: "biome"
 			}]
-			x: 7.5d
-			y: 7.0d
+			title: "Enter Withered Forest Biome"
+			x: -4.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["1558B0B218B5C480"]
 			id: "1A3AEFC5158FFA12"
+			rewards: [
+				{
+					id: "24593AABE34393CB"
+					item: "kubejs:coin_nether"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "046100609FB6C985"
+					item: "minecraft:gold_nugget"
+					random_bonus: 6
+					type: "item"
+				}
+			]
 			tasks: [{
 				biome: "incendium:volcanic_deltas"
+				icon: "minecraft:polished_basalt"
 				id: "5D542D70A81DA4BA"
 				type: "biome"
 			}]
-			x: 8.5d
-			y: 7.0d
+			title: "Enter Volcanic Deltas"
+			x: -1.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["1558B0B218B5C480"]
+			icon: "minecraft:weeping_vines"
 			id: "05C918E0B3453DB4"
+			rewards: [
+				{
+					id: "5ADF0CD0CB82900D"
+					item: "kubejs:coin_nether"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "09856CA1D835AE96"
+					item: "minecraft:gold_nugget"
+					random_bonus: 22
+					type: "item"
+				}
+			]
 			tasks: [{
 				biome: "incendium:weeping_valley"
+				icon: "minecraft:weeping_vines"
 				id: "5CA862FC78D3D540"
 				type: "biome"
 			}]
-			x: 9.5d
-			y: 7.0d
+			x: 2.0d
+			y: 3.5d
 		}
 		{
+			dependencies: ["29B6C638D8DBA81C"]
 			icon: "minecraft:hopper"
 			id: "392C1055DFA53518"
 			rewards: [
@@ -1449,12 +1231,17 @@
 					type: "item"
 				}
 				{
-					id: "1125551AD7A9F45F"
-					type: "xp_levels"
-					xp_levels: 1
+					id: "42A9A132093213F5"
+					item: "kubejs:coin_nether"
+					type: "item"
+				}
+				{
+					id: "349E85039DF4FE11"
+					type: "xp"
+					xp: 100
 				}
 			]
-			subtitle: "(located in Nether)"
+			subtitle: "Enter a pipeline but beware the sentry blazes"
 			tasks: [
 				{
 					advancement: "incendium:infernal_dunes/pipeline/root"
@@ -1469,9 +1256,10 @@
 				}
 			]
 			x: 3.5d
-			y: 8.5d
+			y: 6.5d
 		}
 		{
+			dependencies: ["3961149BA240E2BE"]
 			icon: "minecraft:iron_bars"
 			id: "14750E31CE414075"
 			rewards: [
@@ -1485,8 +1273,20 @@
 					item: "kubejs:iron_coin"
 					type: "item"
 				}
+				{
+					id: "1A07EF1754AA83CD"
+					item: "kubejs:coin_nether"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "44D8B46721C786F8"
+					item: "minecraft:gold_nugget"
+					random_bonus: 36
+					type: "item"
+				}
 			]
-			subtitle: "(located in Nether)"
+			subtitle: "Enter the Quartz Tower"
 			tasks: [
 				{
 					advancement: "incendium:quartz_flats/rescue_mission"
@@ -1500,10 +1300,11 @@
 					type: "structure"
 				}
 			]
-			x: 4.5d
-			y: 8.0d
+			x: -5.5d
+			y: 3.0d
 		}
 		{
+			dependencies: ["3961149BA240E2BE"]
 			icon: "minecraft:bone"
 			id: "3E13C8F0EE2ECCA2"
 			rewards: [
@@ -1513,12 +1314,24 @@
 					type: "item"
 				}
 				{
-					id: "27C72E74292C5F15"
-					type: "xp_levels"
-					xp_levels: 1
+					id: "606442F39500BD62"
+					item: "kubejs:coin_nether"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "70F170A0C9C53294"
+					item: "minecraft:gold_nugget"
+					random_bonus: 26
+					type: "item"
+				}
+				{
+					id: "1B4EE82B82685C5E"
+					type: "xp"
+					xp: 100
 				}
 			]
-			subtitle: "(located in Nether)"
+			subtitle: "Kill the skeleton chef Torte and loot his kitchen"
 			tasks: [
 				{
 					advancement: "incendium:quartz_flats/torte/root"
@@ -1532,46 +1345,411 @@
 					type: "structure"
 				}
 			]
-			x: 5.5d
-			y: 8.0d
+			x: -4.0d
+			y: 5.0d
 		}
 		{
-			icon: {
-				Count: 1
-				id: "minecraft:splash_potion"
-				tag: {
-					Potion: "minecraft:strong_harming"
-				}
-			}
-			id: "725867AD010248A6"
+			dependencies: ["43E414A246A05B0E"]
+			id: "17C954385E1F7037"
 			rewards: [
 				{
-					id: "254539A5C822CC61"
-					item: "kubejs:copper_coin"
+					id: "3A7936E742365FAC"
+					item: "kubejs:coin_nether"
 					type: "item"
 				}
 				{
-					id: "2C3C446828BDDF64"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			subtitle: "(located in Nether)"
-			tasks: [
-				{
-					advancement: "incendium:misc/ruined_lab"
-					criterion: ""
-					id: "1C1E8952D30A0DBB"
-					type: "advancement"
+					count: 2
+					id: "54A3EBCB7D7F0DB7"
+					item: "minecraft:gold_nugget"
+					random_bonus: 5
+					type: "item"
 				}
 				{
-					id: "4EEABEEDD09522FB"
-					structure: "incendium:piglin_village"
-					type: "structure"
+					id: "764AFDC209A05EFD"
+					type: "xp"
+					xp: 50
 				}
 			]
-			x: 6.5d
+			subtitle: "Break into Piglin Outstation"
+			tasks: [{
+				advancement: "nova_structures:nether/find_piglin_outpost"
+				criterion: ""
+				id: "3EF4230BA4A35D4D"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["43E414A246A05B0E"]
+			id: "202682441EEDB678"
+			rewards: [
+				{
+					id: "5D59D7D78A06F380"
+					item: "kubejs:coin_nether"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1410BD1E612240D4"
+					item: "minecraft:gold_nugget"
+					random_bonus: 6
+					type: "item"
+				}
+				{
+					id: "376AD56BF486280E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Locate a Piglin Donjon"
+			tasks: [{
+				advancement: "nova_structures:nether/find_donjon"
+				criterion: ""
+				id: "251EE278CE0714A0"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["43E414A246A05B0E"]
+			id: "58EC02DBF04F8B9E"
+			rewards: [
+				{
+					id: "7C959505967B8F31"
+					item: "kubejs:coin_nether"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0F5BF654F87C5418"
+					item: "minecraft:gold_nugget"
+					random_bonus: 7
+					type: "item"
+				}
+				{
+					id: "4458C231B70C53F1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Walk into an Hamlet"
+			tasks: [{
+				advancement: "nova_structures:nether/find_hamlet"
+				criterion: ""
+				id: "169A6413E3268327"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2180E83A0BF99108"]
+			id: "32AB9B9DF85B030A"
+			rewards: [
+				{
+					id: "44B225B8F2CDD4E6"
+					item: "kubejs:coin_nether"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0050F5D97A44B27A"
+					item: "minecraft:gold_nugget"
+					random_bonus: 99
+					type: "item"
+				}
+				{
+					id: "48207A88479FE84E"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Defeat Nether Gauntlet Boss"
+			tasks: [{
+				advancement: "bosses_of_mass_destruction:nether/gauntlet_defeat"
+				criterion: ""
+				id: "305F9952B32D70C5"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1558B0B218B5C480"]
+			id: "7F3C962C1B71A066"
+			rewards: [
+				{
+					id: "462D38290FE4CF80"
+					item: "kubejs:coin_nether"
+					type: "item"
+				}
+				{
+					count: 23
+					id: "3A9E3625CF83DFE1"
+					item: "minecraft:gold_nugget"
+					random_bonus: 14
+					type: "item"
+				}
+				{
+					id: "6C68C6D7C12616AC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Steal some loot from Piglin village"
+			tasks: [{
+				advancement: "incendium:misc/loot_piglin_village"
+				criterion: ""
+				id: "5F8251ACE57C87B0"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1558B0B218B5C480"]
+			id: "3961149BA240E2BE"
+			rewards: [
+				{
+					id: "14DD19F1C8B4FFBC"
+					item: "kubejs:coin_nether"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "64141186502C352F"
+					item: "minecraft:gold_nugget"
+					random_bonus: 36
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "incendium:quartz_flats"
+				icon: "minecraft:quartz_block"
+				id: "6DFF6A04FF985B49"
+				type: "biome"
+			}]
+			title: "Enter Quartz Flats Biome"
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["14750E31CE414075"]
+			id: "33C979686AF176D2"
+			rewards: [
+				{
+					id: "7DF643AF29B06DD8"
+					item: "kubejs:coin_nether"
+					type: "item"
+				}
+				{
+					count: 33
+					id: "2853127B7C7FD4BF"
+					item: "minecraft:gold_nugget"
+					random_bonus: 12
+					type: "item"
+				}
+				{
+					id: "586FAABF7044939D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Feed a Ghastling it's favourite foot - fire charge"
+			tasks: [{
+				advancement: "incendium:quartz_flats/feed_ghastling"
+				criterion: ""
+				id: "7361EDF92B425135"
+				type: "advancement"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["74FDA4B6049F125C"]
+			id: "228386D32EFA14CB"
+			rewards: [
+				{
+					id: "2338C3BEF359B8FC"
+					item: "kubejs:coin_nether"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "28DAA99A22B27838"
+					item: "minecraft:gold_nugget"
+					random_bonus: 35
+					type: "item"
+				}
+				{
+					id: "293059D5EB50041B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Kill a Restless Spirit"
+			tasks: [{
+				advancement: "incendium:withered_forest/kill_spirit"
+				criterion: ""
+				id: "102F632847B5C27C"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1558B0B218B5C480"]
+			id: "29B6C638D8DBA81C"
+			rewards: [
+				{
+					id: "4214AAD172BBA42E"
+					item: "kubejs:coin_nether"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "5C665B101F5D8A5A"
+					item: "minecraft:gold_nugget"
+					random_bonus: 22
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "incendium:infernal_dunes"
+				icon: "minecraft:red_sand"
+				id: "622494EFCCBEC6AB"
+				type: "biome"
+			}]
+			title: "Enter Infernal Dunes Biome"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["29B6C638D8DBA81C"]
+			id: "51C4F670C177E4D5"
+			rewards: [
+				{
+					id: "0E0CD3760CA8746C"
+					item: "kubejs:coin_nether"
+					type: "item"
+				}
+				{
+					count: 23
+					id: "7B4EBA8A1232D946"
+					item: "minecraft:gold_nugget"
+					random_bonus: 24
+					type: "item"
+				}
+				{
+					id: "0FCDE363389D67A8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Kill a desert Blaze on the boundary of light and dark to get both of its drops"
+			tasks: [{
+				advancement: "incendium:infernal_dunes/border_of_life"
+				criterion: ""
+				id: "5D71444B25259886"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["29B6C638D8DBA81C"]
+			id: "51899D663855F4FD"
+			rewards: [
+				{
+					id: "7BA01A2615428263"
+					item: "kubejs:coin_nether"
+					type: "item"
+				}
+				{
+					id: "6F6BFC1DF202960E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Sacrifice a nether star at an altar to summon the Hovering Inferno"
+			tasks: [{
+				advancement: "incendium:infernal_dunes/inferno/summon"
+				criterion: ""
+				id: "6C41F7E7B989531F"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["51899D663855F4FD"]
+			id: "7742F63C7F193398"
+			rewards: [{
+				id: "3615702581CB0B1F"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "You can't kill it. Survive to win"
+			tasks: [{
+				advancement: "incendium:infernal_dunes/inferno/run"
+				criterion: ""
+				id: "1B7747CB3A24DF1F"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7742F63C7F193398"]
+			id: "5843A7089AAAF843"
+			rewards: [
+				{
+					id: "43D19C86684307AF"
+					item: "kubejs:coin_nether"
+					type: "item"
+				}
+				{
+					id: "4A8E3B98CBB30321"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Survive the Inferno and claim your reward"
+			tasks: [{
+				advancement: "incendium:infernal_dunes/inferno/kill"
+				criterion: ""
+				id: "34298A6D3FACDD88"
+				type: "advancement"
+			}]
+			x: 4.5d
 			y: 8.5d
+		}
+		{
+			dependencies: ["2180E83A0BF99108"]
+			id: "1558B0B218B5C480"
+			rewards: [
+				{
+					id: "69D2926CCF700822"
+					item: "kubejs:coin_nether"
+					type: "item"
+				}
+				{
+					id: "7D99E5B42CFBE7AA"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Visit any Incendium Biome"
+			tasks: [{
+				advancement: "incendium:misc/root"
+				criterion: ""
+				id: "42E7928F55F342F9"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 3.5d
 		}
 	]
 	title: "&4Nether Exploration&r"

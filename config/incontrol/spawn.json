@@ -23,7 +23,7 @@
         "result": "deny"
     },
 	{
-        "mob": ["minecraft:giant"],
+        "mob": "minecraft:giant",
         "seesky": true,
         "when": "finalize",
         "result": "allow",
@@ -101,7 +101,9 @@
 	{
         "mob": [
             "minecraft:sniffer",
-            "minecraft:phantom"
+            "minecraft:phantom",
+			"mythicmounts:dragon",
+			"hmag:ghost"
         ],
         "when": "onjoin",
         "result": "deny"

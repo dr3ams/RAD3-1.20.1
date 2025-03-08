@@ -72,8 +72,8 @@
 				item: "bloodmagic:blankslate"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -3.0d
+			x: 3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1388DE775715C931"]
@@ -125,26 +125,36 @@
 				item: "bloodmagic:reinforcedslate"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["1388DE775715C931"]
 			description: ["A crafting station powered by Demon Will."]
-			hide_dependency_lines: true
 			id: "641060F7EC1F9CC5"
 			tasks: [{
 				id: "2A7B4678C644C1EA"
 				item: "bloodmagic:soulforge"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -3.0d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1388DE775715C931"]
-			hide_dependency_lines: true
 			id: "78EF536FB848DAE6"
+			rewards: [
+				{
+					id: "648567B66E89CA2B"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "48AF656D1D284727"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "61180D45EFF81F79"
 				item: "bloodmagic:alchemytable"
@@ -208,11 +218,14 @@
 				item: "bloodmagic:infusedslate"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.5d
 			y: 1.0d
 		}
 		{
-			dependencies: ["1146FD3C38D38A26"]
+			dependencies: [
+				"1146FD3C38D38A26"
+				"07D63A7C9C0F5025"
+			]
 			icon: "bloodmagic:altar"
 			id: "66E481CEF908567B"
 			rewards: [{
@@ -251,7 +264,7 @@
 				item: "bloodmagic:demonslate"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.5d
 			y: 3.0d
 		}
 		{
@@ -311,7 +324,6 @@
 		}
 		{
 			dependencies: ["54AAFEDAC41F3E7C"]
-			hide_dependency_lines: true
 			id: "751DCF6332FCF741"
 			tasks: [
 				{
@@ -331,12 +343,17 @@
 				}
 			]
 			title: "Tier 1 Sigils"
-			x: 8.0d
-			y: -3.0d
+			x: 6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["78EF536FB848DAE6"]
 			id: "0D4A28A0277F4E5E"
+			rewards: [{
+				id: "0CB1E3470C4F4CCA"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "0464EE0459B03085"
 				item: {
@@ -371,12 +388,13 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: 1.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["76CBE2BFA6C7444C"]
 			description: ["Ethereal Slates aren't good for much besides end game altar upgrades. "]
+			hide_dependent_lines: true
 			id: "0110C13A62707634"
 			rewards: [{
 				id: "655BEE3F4B49BF75"
@@ -388,12 +406,11 @@
 				item: "bloodmagic:etherealslate"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["3691AD362252DEAF"]
-			hide_dependency_lines: true
 			id: "47B0E014C9551B5A"
 			tasks: [
 				{
@@ -431,12 +448,11 @@
 				}
 			]
 			title: "Tier 2 Sigils"
-			x: 8.0d
+			x: 6.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["372CEAA7DDE2C118"]
-			hide_dependency_lines: true
 			id: "78DE3D4A7FD8D633"
 			tasks: [
 				{
@@ -466,12 +482,11 @@
 				}
 			]
 			title: "Tier 3 Sigils"
-			x: 8.0d
+			x: 6.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["76CBE2BFA6C7444C"]
-			hide_dependency_lines: true
 			id: "04A314AC321C0A44"
 			tasks: [
 				{
@@ -490,7 +505,7 @@
 				}
 			]
 			title: "Tier 4 Sigils"
-			x: 8.0d
+			x: 6.0d
 			y: 3.0d
 		}
 		{
@@ -544,7 +559,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["320E616DD29F2C2C"]
+			dependencies: [
+				"320E616DD29F2C2C"
+				"0110C13A62707634"
+			]
+			hide_dependency_lines: false
 			id: "41990DCD309B5A51"
 			rewards: [{
 				id: "7F62223B8D8571FD"
@@ -576,8 +595,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.0d
+			x: 2.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1CF66E7CD386393B"]
@@ -596,8 +615,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.0d
+			x: 3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["268AB69262E7D497"]
@@ -622,7 +641,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["71D53E72211F813C"]
@@ -691,8 +710,8 @@
 				}
 			]
 			title: "Sentient Tools"
-			x: 5.0d
-			y: -1.0d
+			x: 1.0d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -753,8 +772,8 @@
 				}
 			]
 			title: "Sentient Weapons"
-			x: 5.0d
-			y: -2.0d
+			x: 0.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["0D4A28A0277F4E5E"]
@@ -840,11 +859,14 @@
 				item: "bloodmagic:soulsnare"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -3.0d
+			x: -1.0d
+			y: -5.5d
 		}
 		{
-			dependencies: ["5A9179729D4015FD"]
+			dependencies: [
+				"5A9179729D4015FD"
+				"69179F0927D855A0"
+			]
 			description: ["Use the &oEdge of the Hidden Realm&r ritual to create a gate to the Demon Realm. Gather your best gear and enter in search of Tau Fruit."]
 			icon: "bloodmagic:dungeon_eye"
 			id: "1146FD3C38D38A26"
@@ -887,31 +909,57 @@
 			y: 4.0d
 		}
 		{
-			id: "42497CD142E137FC"
-			subtitle: "whats that?"
-			tasks: [{
-				id: "2B2F6ED2CB27F8C6"
-				title: "Sigils?"
-				type: "checkmark"
-			}]
-			x: 8.0d
-			y: -4.0d
+			dependencies: ["372CEAA7DDE2C118"]
+			id: "69179F0927D855A0"
+			tasks: [
+				{
+					id: "4A22AAE4CC2BD010"
+					item: "bloodmagic:masterritualstone"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5014CA1443B60301"
+					item: { Count: 8, id: "bloodmagic:ritualstone" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
 		}
 		{
-			id: "50FA469E39125AC3"
-			tasks: [{
-				id: "25E6FC330BE6925F"
-				item: {
-					Count: 1
-					id: "bloodmagic:experiencebook"
-					tag: {
-						experience: 1369.0d
-					}
+			dependencies: ["372CEAA7DDE2C118"]
+			id: "07D63A7C9C0F5025"
+			tasks: [
+				{
+					id: "1DD0A8A67081727E"
+					item: "bloodmagic:alchemicalreactionchamber"
+					type: "item"
 				}
+				{
+					id: "0AFA5FE863EC2D94"
+					item: "bloodmagic:weakbloodshard"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["372CEAA7DDE2C118"]
+			id: "715268B8658A14AC"
+			rewards: [{
+				id: "11EAEED730395F57"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1A25BBD7B15EA268"
+				item: "bloodmagic:experiencebook"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -4.5d
+			x: 4.5d
+			y: 2.0d
 		}
 	]
 	title: "&4Blood Magic&r"

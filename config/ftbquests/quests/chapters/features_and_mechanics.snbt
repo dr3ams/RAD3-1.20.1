@@ -84,9 +84,11 @@
 			icon: "kubejs:mark"
 			id: "56127AAF761DC8DA"
 			rewards: [{
-				id: "060C0A56809664D9"
-				type: "xp"
-				xp: 5
+				exclude_from_claim_all: true
+				id: "4C59E4D837D98269"
+				table_id: 5555069453760734776L
+				team_reward: false
+				type: "choice"
 			}]
 			shape: "rsquare_important"
 			size: 2.0d
@@ -125,9 +127,9 @@
 			}
 			id: "0DA780E82198E59C"
 			rewards: [{
-				id: "665866DA9908B914"
-				item: "minecraft:gold_ingot"
-				type: "item"
+				id: "783DCC4C0BCC13BD"
+				type: "xp"
+				xp: 5
 			}]
 			tasks: [{
 				id: "4C371DDFD42B66C2"
@@ -381,6 +383,11 @@
 			description: [""]
 			icon: "minecraft:crimson_nylium"
 			id: "4FE6302AF76BF9EE"
+			rewards: [{
+				id: "06646869BA3DC739"
+				item: "nameless_trinkets:blaze_nucleus"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2CAF77C722D60D4A"
 				type: "checkmark"
@@ -828,7 +835,7 @@
 				type: "checkmark"
 			}]
 			title: "Info Quests"
-			x: 0.25d
+			x: 0.0d
 			y: 5.75d
 		}
 		{
@@ -1154,7 +1161,7 @@
 				{
 					id: "38CA208D214B1E77"
 					type: "xp"
-					xp: 50
+					xp: 5
 				}
 				{
 					count: 2
@@ -1392,7 +1399,7 @@
 				{
 					id: "7892F04A53F658C8"
 					type: "xp"
-					xp: 100
+					xp: 10
 				}
 			]
 			subtitle: "Why do I only have 6 hearts?"

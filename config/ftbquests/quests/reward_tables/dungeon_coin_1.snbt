@@ -1,5 +1,14 @@
 {
 	id: "58FDFE8265412533"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "dungeon_coin_1"
+	}
 	loot_size: 1
 	order_index: 52
 	rewards: [
@@ -22,7 +31,6 @@
 		{ item: "minecraft:saddle" }
 		{ item: "minecraft:iron_horse_armor" }
 		{ count: 8, item: "spelunkery:mineomite" }
-		{ count: 2, item: "minecolonies:scroll_buff" }
 		{ count: 4, item: "spelunkery:glowstick" }
 		{ count: 4, item: "titles:title_fragment" }
 		{ item: "zombie_fabrics:fabric" }
