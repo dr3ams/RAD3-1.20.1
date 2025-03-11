@@ -79,7 +79,7 @@
 				type: "advancement"
 			}]
 			x: -1.5d
-			y: -1.5d
+			y: -0.75d
 		}
 		{
 			description: [
@@ -116,6 +116,17 @@
 				"61C4D962B8642324"
 			]
 			id: "4B37ED777351DF31"
+			rewards: [{
+				id: "2BBEAB3F4067D638"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "apotheosis_gems_loot_crate"
+					}
+				}
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.5d
 			subtitle: "Breaks down Affix items into Rare Materials"
@@ -136,6 +147,11 @@
 				"Combine a socketed item with a Sigil of Withdrawal in a smithing table to remove the socketed gems from an item. The item and all gems will be returned."
 			]
 			id: "31F1B5BF67E7FC49"
+			rewards: [{
+				id: "61C9B0F9B9FFC839"
+				type: "xp"
+				xp: 50
+			}]
 			subtitle: "Used to socket gems into Items"
 			tasks: [{
 				id: "3A74A37370E87283"
@@ -166,6 +182,11 @@
 		{
 			dependencies: ["673DE11282C85AD4"]
 			id: "0C45B6CB9315B119"
+			rewards: [{
+				id: "6D3FA0D23DE31C38"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
 			subtitle: "Can be used to upgrade gems"
 			tasks: [{
 				id: "4812DE725FD6B502"
@@ -178,6 +199,19 @@
 		{
 			dependencies: ["61C4D962B8642324"]
 			id: "2A19D27E41E3A958"
+			rewards: [{
+				id: "67E8E05EAE20243D"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "apotheosis_gems_loot_crate"
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
 			tasks: [{
 				id: "7367C9531A02E84D"
 				item: "apotheosis:gem_fused_slate"
@@ -206,7 +240,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["673DE11282C85AD4"]
@@ -217,7 +251,13 @@
 				"- drop the anvil on top of it"
 			]
 			id: "61C4D962B8642324"
+			rewards: [{
+				id: "03A8353C3B3BC51B"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
 			shape: "octagon"
+			size: 1.5d
 			tasks: [{
 				id: "04F1D62769B45999"
 				item: "apotheosis:gem_dust"
@@ -247,6 +287,17 @@
 		{
 			dependencies: ["2A19D27E41E3A958"]
 			id: "0245A2E564ED2624"
+			rewards: [{
+				id: "270315AF80D125DF"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "apotheosis_gems_loot_crate"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "361D59121C80D4CC"
 				item: "apotheosis:sigil_of_socketing"
@@ -258,6 +309,17 @@
 		{
 			dependencies: ["2A19D27E41E3A958"]
 			id: "44F0890CFE9CED23"
+			rewards: [{
+				id: "0B0B76ADD23DC4DE"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "apotheosis_gems_loot_crate"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "42F9EA0AFA0B35A0"
 				item: "apotheosis:sigil_of_withdrawal"
@@ -269,6 +331,17 @@
 		{
 			dependencies: ["2A19D27E41E3A958"]
 			id: "4338BE1B8412C4F1"
+			rewards: [{
+				id: "0DA7BED0EF1A41D1"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "apotheosis_gems_loot_crate"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "21E2591C3B37EA51"
 				item: "apotheosis:sigil_of_rebirth"
@@ -280,6 +353,17 @@
 		{
 			dependencies: ["2A19D27E41E3A958"]
 			id: "552C3DB827C185F8"
+			rewards: [{
+				id: "6DB268B16690DC4F"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "apotheosis_gems_loot_crate"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "181BA716CE1EFAC2"
 				item: "apotheosis:sigil_of_enhancement"
@@ -291,6 +375,17 @@
 		{
 			dependencies: ["2A19D27E41E3A958"]
 			id: "08A26072C27869F6"
+			rewards: [{
+				id: "48D24683E2C1B6C7"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "apotheosis_gems_loot_crate"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0E973B1AC6B1B4DA"
 				item: "apotheosis:sigil_of_unnaming"
@@ -310,7 +405,7 @@
 				type: "advancement"
 			}]
 			x: -1.5d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7BD9BFF9FFD3701B"]
@@ -323,7 +418,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["04BD6EFB0F827A54"]
@@ -335,7 +430,7 @@
 				id: "730028886621FD16"
 				type: "advancement"
 			}]
-			x: 3.5d
+			x: 4.5d
 			y: 1.0d
 		}
 		{
@@ -348,7 +443,7 @@
 				id: "20D444787877E51B"
 				type: "advancement"
 			}]
-			x: 3.5d
+			x: 4.5d
 			y: 2.5d
 		}
 		{
@@ -361,7 +456,7 @@
 				id: "31DB0EE73422508C"
 				type: "advancement"
 			}]
-			x: 3.5d
+			x: 4.5d
 			y: 4.0d
 		}
 		{
@@ -374,7 +469,7 @@
 				id: "5476FA24A192656C"
 				type: "advancement"
 			}]
-			x: 3.5d
+			x: 4.5d
 			y: 5.5d
 		}
 		{
@@ -387,7 +482,7 @@
 				id: "66A2B6E7FC0A0F5E"
 				type: "advancement"
 			}]
-			x: 3.5d
+			x: 4.5d
 			y: 7.0d
 		}
 		{
@@ -401,7 +496,7 @@
 				type: "advancement"
 			}]
 			x: 1.5d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["568EA0DFCCB13AA5"]
@@ -414,7 +509,7 @@
 				type: "advancement"
 			}]
 			x: 3.0d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6CC9A63F0A727D11"]
@@ -427,7 +522,7 @@
 				type: "advancement"
 			}]
 			x: 4.5d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			id: "32FAABF17D15864B"

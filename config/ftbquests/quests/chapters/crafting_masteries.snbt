@@ -357,19 +357,6 @@
 			y: 6.5d
 		}
 		{
-			description: [
-				"all knowledge point items must be added as loot"
-				"also add knowledge point items as gobling trader trades"
-			]
-			id: "02D0A83DD753A990"
-			tasks: [{
-				id: "7447412A67405B32"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: -1.0d
-		}
-		{
 			dependencies: ["2C5E501FA26E92FF"]
 			description: [
 				"&9Scrap&r is a knowledge points for this &4Mastery.&r It is needed for leveling up the &4Mastery&r for unlocking new trades."
@@ -832,26 +819,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["132E2FA2094CD5E2"]
-			id: "62297E1BCBCB76B2"
-			rewards: [{
-				id: "4C3489832090349C"
-				item: "kubejs:coin_01"
-				random_bonus: 1
-				team_reward: false
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "3C7BF43A643CBB72"
-				item: "kubejs:sifted_dust"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 6.0d
-		}
-		{
-			can_repeat: true
 			dependencies: ["05B1E1D18C37306D"]
 			disable_toast: true
 			icon: {
@@ -1073,7 +1040,7 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["38244A01FB371C21"]
+			dependencies: ["132E2FA2094CD5E2"]
 			id: "08E879A642E1E795"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1088,7 +1055,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 9.0d
+			y: 6.0d
 		}
 		{
 			can_repeat: true
@@ -1291,7 +1258,9 @@
 			y: 9.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["62BC62A1467C3269"]
+			disable_toast: true
 			id: "25F78253793427D2"
 			rewards: [{
 				id: "79E989A28BE7C8BD"
@@ -1300,6 +1269,7 @@
 			}]
 			tasks: [{
 				consume_items: true
+				disable_toast: true
 				id: "1D6E674E9FFEDFB4"
 				item: {
 					Count: 1
@@ -1317,6 +1287,17 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["38244A01FB371C21"]
+			description: [
+				"If you have a lot of items to recycle:"
+				""
+				"- craft a &9Task Screen&r"
+				"- place &0Hopper&r with &6Chest&r on top"
+				"- dump everything you want to recycle into the chest"
+				"- right-click on a &9Task Screen&r block, click 'Task' and start typing 'Recycling...'"
+				"- select this quest"
+				"- you will receive rewards automatically"
+			]
 			disable_toast: true
 			id: "52A87B5763F261C2"
 			rewards: [{
@@ -1340,8 +1321,47 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 8.5d
-			y: 7.5d
+			title: "Equipment Recycling"
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["62BC62A1467C3269"]
+			description: [
+				"If you have a lot of items to recycle:"
+				""
+				"- craft a &9Task Screen&r"
+				"- place &0Hopper&r with &6Chest&r on top"
+				"- dump everything you want to recycle into the chest"
+				"- right-click on a &9Task Screen&r block, click 'Task' and start typing 'Recycling...'"
+				"- select this quest"
+				"- you will receive rewards automatically"
+			]
+			id: "38CA2285DA8C510D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C64180377467128"
+				table_id: 6049077283734439324L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "1AECD04324E3EB27"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "rad3:recycle-t2"
+					}
+				}
+				title: "Any #rad3:recycle-t2"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Advanced Equipment Recycling"
+			x: 6.5d
+			y: 12.0d
 		}
 	]
 	title: "⭐ Masteries"

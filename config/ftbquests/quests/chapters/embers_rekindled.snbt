@@ -32,11 +32,25 @@
 	quests: [
 		{
 			description: [
-				"Refer to &6The Codex&r for al of your &4Embers&r related interests."
+				"Refer to &6The Codex&r for all of your &4Embers&r related interests."
+				""
+				"You can also hold \" &6W&r \" to ponder"
 				""
 				"To search &6The Codex&r, type your search item. Tabs and boxes which glow slightly will contain the search word you are looking for."
 			]
 			id: "0F4FF88787B1DA9B"
+			rewards: [
+				{
+					id: "637A7DE2E6A621FA"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "4D89BC716D444145"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [{
 				id: "6BEA957F87E8E20D"
 				item: "embers:ancient_codex"
@@ -48,6 +62,18 @@
 		{
 			dependencies: ["0F4FF88787B1DA9B"]
 			id: "5AAA3D0D91ECFEF0"
+			rewards: [
+				{
+					id: "7592CE7A0E8A72F4"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "73887559A233C8A8"
+					type: "xp"
+					xp: 30
+				}
+			]
 			shape: "hexagon_important"
 			size: 1.5d
 			tasks: [{
@@ -69,6 +95,18 @@
 		{
 			dependencies: ["5AAA3D0D91ECFEF0"]
 			id: "0E4851340ECDDC30"
+			rewards: [
+				{
+					id: "4EC04B4B9133A3ED"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "7B6D6242043AF5D7"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [{
 				id: "38F518F2417CC067"
 				item: "embers:tinker_lens"
@@ -80,6 +118,18 @@
 		{
 			dependencies: ["5AAA3D0D91ECFEF0"]
 			id: "4065B3D74D993842"
+			rewards: [
+				{
+					id: "60DA66C51648062E"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "2652055EF4639826"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [{
 				id: "7B724D20C776EBC7"
 				item: "embers:ember_dial"
@@ -91,6 +141,18 @@
 		{
 			dependencies: ["5AAA3D0D91ECFEF0"]
 			id: "0F9843DAA7887759"
+			rewards: [
+				{
+					id: "7B6C54945E557D01"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "02A1D2848C42D729"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [{
 				id: "1C5D6EECF7FCADCD"
 				item: "embers:fluid_dial"
@@ -102,6 +164,18 @@
 		{
 			dependencies: ["5AAA3D0D91ECFEF0"]
 			id: "789F4AB9D7A5ACB7"
+			rewards: [
+				{
+					id: "2E7BD50E932BF6E6"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "05FE7EA07874D45A"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [{
 				id: "5B6596D0CE764BFB"
 				item: "embers:atmospheric_gauge"
@@ -113,6 +187,18 @@
 		{
 			dependencies: ["5AAA3D0D91ECFEF0"]
 			id: "2FA5E2531332F31B"
+			rewards: [
+				{
+					id: "1F5C070A4B98B6D2"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "7F69F68CE376BA14"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [
 				{
 					id: "65D9223DF6B95207"
@@ -131,6 +217,24 @@
 		{
 			dependencies: ["2FA5E2531332F31B"]
 			id: "21B6EC07FE83916E"
+			rewards: [
+				{
+					id: "13C6D8F5935E006F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DF8A4A146DFA02D"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [
 				{
 					id: "6D9466E75C404298"
@@ -149,6 +253,24 @@
 		{
 			dependencies: ["2FA5E2531332F31B"]
 			id: "3117473D2A1CBFF1"
+			rewards: [
+				{
+					id: "5E9F20DC78F23214"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18CAA93AD81B63E9"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "1D08E4DF2CE7B080"
 				item: "embers:fluid_vessel"
@@ -160,6 +282,24 @@
 		{
 			dependencies: ["2FA5E2531332F31B"]
 			id: "23EDE5427F510970"
+			rewards: [
+				{
+					id: "15087DFB652991BC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "502D4DAA74A0FF88"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "42E0F49BA1A08402"
 				item: "embers:fluid_transfer"
@@ -171,6 +311,18 @@
 		{
 			dependencies: ["5AAA3D0D91ECFEF0"]
 			id: "4E9CB77F9194985F"
+			rewards: [
+				{
+					id: "4A0BB9AC0F316BB4"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "035E3A895C387EE4"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [
 				{
 					id: "4C2083B76CECB74B"
@@ -189,6 +341,24 @@
 		{
 			dependencies: ["4E9CB77F9194985F"]
 			id: "0037C8BEE1C8F3D6"
+			rewards: [
+				{
+					id: "513DA4C03948F751"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B1006AACCDFE155"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "208C7CA90F0C3096"
 				item: "embers:item_transfer"
@@ -200,6 +370,24 @@
 		{
 			dependencies: ["4E9CB77F9194985F"]
 			id: "68732CBC82A87379"
+			rewards: [
+				{
+					id: "5B8C97DB0A10D528"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79B0B988A3B92E40"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "097946F5EE620930"
 				item: "embers:bin"
@@ -211,6 +399,24 @@
 		{
 			dependencies: ["4E9CB77F9194985F"]
 			id: "0891B7C1A4A59EBF"
+			rewards: [
+				{
+					id: "1D5A3D618775B8B7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "038C10918949B5F8"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "43E91A9B059FE512"
 				item: "embers:item_vacuum"
@@ -222,6 +428,24 @@
 		{
 			dependencies: ["5AAA3D0D91ECFEF0"]
 			id: "49BB34A1A002967F"
+			rewards: [
+				{
+					id: "57E2E3D82F6D9BA3"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D9B56CEA8B1C9B5"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "159203B7C39B7CFC"
 				item: "embers:ember_bore"
@@ -233,22 +457,34 @@
 		{
 			dependencies: ["4555C4D10DA2481F"]
 			id: "08E71728D7683C50"
-			rewards: [{
-				id: "3333EEFF84EBD4E6"
-				item: {
-					Count: 1
-					id: "simplyswords:hearthflame"
-					tag: {
-						Damage: 0
-						affix_data: {
-							sockets: 1
+			rewards: [
+				{
+					id: "3333EEFF84EBD4E6"
+					item: {
+						Count: 1
+						id: "simplyswords:hearthflame"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							reinforce_level: 0
+							reinforce_max: 10
 						}
-						reinforce_level: 0
-						reinforce_max: 10
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4681324508873FCC"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "29ACA2AD6BC68289"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [{
 				id: "302BA0B31D7C6464"
 				item: "embers:hearth_coil"
@@ -263,6 +499,24 @@
 				"7799424461FD01D7"
 			]
 			id: "4555C4D10DA2481F"
+			rewards: [
+				{
+					id: "26CFCA7E555B8F12"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C473D513CE36F44"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "51D0596B2B0E54B4"
 				item: "embers:mechanical_core"
@@ -274,6 +528,18 @@
 		{
 			dependencies: ["49BB34A1A002967F"]
 			id: "572AFDB8C659E612"
+			rewards: [
+				{
+					id: "255EA72AADEA6657"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "1932F318F2FAD05F"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [
 				{
 					id: "778A2BD3DD0084EC"
@@ -304,6 +570,18 @@
 				"You must hold the Mantle Cartridge in your hand to use its Ember power."
 			]
 			id: "057F57FFC61E1DFE"
+			rewards: [
+				{
+					id: "045990FEAD582752"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "126CCA4F3FBABC18"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [
 				{
 					id: "668D3BDDDAC30E24"
@@ -350,6 +628,18 @@
 		{
 			dependencies: ["572AFDB8C659E612"]
 			id: "4BEE1D81466B71C6"
+			rewards: [
+				{
+					id: "59C6A38F4D838772"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "76AED83F32B13B8D"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [{
 				id: "15F71334CF54C2EF"
 				item: "embers:ember_activator"
@@ -361,6 +651,24 @@
 		{
 			dependencies: ["4BEE1D81466B71C6"]
 			id: "382AA2C7519A7DAE"
+			rewards: [
+				{
+					id: "0889DCC0949E8950"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45F4528BB8A43919"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "0BC223872F3EFD19"
 				item: "embers:mechanical_pump"
@@ -372,6 +680,24 @@
 		{
 			dependencies: ["4BEE1D81466B71C6"]
 			id: "6B207E6BEDA864A5"
+			rewards: [
+				{
+					id: "32595373CE9CFCC4"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DC5688E1C164D62"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "1739C1AD0DF335A3"
 				item: "embers:ember_emitter"
@@ -383,6 +709,24 @@
 		{
 			dependencies: ["4BEE1D81466B71C6"]
 			id: "6CBD174B191D5BF0"
+			rewards: [
+				{
+					id: "40088F0F2C07F176"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "618BCDAC03E526E0"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "3B391939BBA8591C"
 				item: "embers:ember_receiver"
@@ -394,6 +738,24 @@
 		{
 			dependencies: ["4BEE1D81466B71C6"]
 			id: "3E7C71A6BD200C8A"
+			rewards: [
+				{
+					id: "3F33E91A21DBD91D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B44BAF52121C468"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "3B0E3080D5B589EF"
 				item: "embers:mini_boiler"
@@ -405,6 +767,24 @@
 		{
 			dependencies: ["4BEE1D81466B71C6"]
 			id: "5DD33D6710CEB99A"
+			rewards: [
+				{
+					id: "12F4BC5F37E94F22"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6354C43A55DBEA07"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "54EEF58FB7512274"
 				item: "embers:pressure_refinery"
@@ -416,6 +796,24 @@
 		{
 			dependencies: ["4BEE1D81466B71C6"]
 			id: "28FA039A3872C134"
+			rewards: [
+				{
+					id: "7BE1A058AD3F1C9D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "445423B2C63687FE"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "1F45E9258BACE0D9"
 				item: {
@@ -444,6 +842,29 @@
 				"70FAD65365767FAC"
 			]
 			id: "54411042CD9DCF85"
+			rewards: [
+				{
+					id: "1DD7120944591AD1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "675B16F62B360F90"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "77F93109DF8905B4"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			shape: "hexagon_important"
 			tasks: [{
 				id: "25079D5D7DBDBC2A"
@@ -456,6 +877,24 @@
 		{
 			dependencies: ["54411042CD9DCF85"]
 			id: "756AB1550B814A0F"
+			rewards: [
+				{
+					id: "4EC72ECDA029DE3D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F88DEEC2B8549C3"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "70185B60C9BA5D5A"
 				item: "embers:geologic_separator"
@@ -467,6 +906,29 @@
 		{
 			dependencies: ["54411042CD9DCF85"]
 			id: "2A6B0183F60EC90B"
+			rewards: [
+				{
+					id: "4F60134A5FE9E193"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C22A5D6C583E8DF"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "54B62C1C96E68E0A"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			shape: "hexagon_important"
 			tasks: [
 				{
@@ -486,6 +948,29 @@
 		{
 			dependencies: ["2A6B0183F60EC90B"]
 			id: "1970A98FDBB9923D"
+			rewards: [
+				{
+					id: "6FE0570C586A790C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7398A0009ECAB065"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "29B7EDD2C7D9243B"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			shape: "hexagon_important"
 			tasks: [{
 				id: "47C74F3425135A23"
@@ -498,6 +983,29 @@
 		{
 			dependencies: ["1970A98FDBB9923D"]
 			id: "358250CC71299C5A"
+			rewards: [
+				{
+					id: "33529E3F44AC6822"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "230AE4B317890172"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "6E992179AF55E984"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
 			shape: "hexagon_important"
 			size: 1.5d
 			tasks: [{
@@ -511,6 +1019,24 @@
 		{
 			dependencies: ["358250CC71299C5A"]
 			id: "3258330DC7A2B3CF"
+			rewards: [
+				{
+					id: "55E5ABA675AE6CE5"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "710A977D6AE8CCDA"
+					type: "xp"
+					xp: 150
+				}
+			]
 			tasks: [{
 				id: "3C76C3E0C2DAEFA2"
 				item: "embers:beam_splitter"
@@ -522,6 +1048,24 @@
 		{
 			dependencies: ["358250CC71299C5A"]
 			id: "58A4BB96F3E827EC"
+			rewards: [
+				{
+					id: "6B81979FED36EFE1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6ACAA1007F2218EF"
+					type: "xp"
+					xp: 150
+				}
+			]
 			tasks: [{
 				id: "6C24F64E9047C3D0"
 				item: "embers:crystal_cell"
@@ -533,6 +1077,24 @@
 		{
 			dependencies: ["358250CC71299C5A"]
 			id: "6AD39CDB914C3C37"
+			rewards: [
+				{
+					id: "694984258F986E17"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30B73DFCDEA70345"
+					type: "xp"
+					xp: 150
+				}
+			]
 			tasks: [
 				{
 					id: "4D51B67AB7C96972"
@@ -551,6 +1113,24 @@
 		{
 			dependencies: ["358250CC71299C5A"]
 			id: "1C12E50BA8B72CAB"
+			rewards: [
+				{
+					id: "0E5FD2698EEF2131"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "595F668BA24FE01F"
+					type: "xp"
+					xp: 150
+				}
+			]
 			tasks: [{
 				id: "41AECEEC8A3FE5BC"
 				item: "embers:copper_charger"
@@ -562,6 +1142,24 @@
 		{
 			dependencies: ["358250CC71299C5A"]
 			id: "7CD5559EC0C3B164"
+			rewards: [
+				{
+					id: "678FDEE5C97ABC63"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0CD41B85ED5C2C70"
+					type: "xp"
+					xp: 150
+				}
+			]
 			tasks: [{
 				id: "66BE9DB84325DB58"
 				item: "embers:ember_siphon"
@@ -573,6 +1171,24 @@
 		{
 			dependencies: ["358250CC71299C5A"]
 			id: "355666A70869B515"
+			rewards: [
+				{
+					id: "13900561E403660D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A9E79C8C0CB3B18"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "634B2620E9BAD27B"
 				item: "embers:cinder_staff"
@@ -584,6 +1200,24 @@
 		{
 			dependencies: ["358250CC71299C5A"]
 			id: "0DEB76A7F5F33B81"
+			rewards: [
+				{
+					id: "2EFCD753B52B4098"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B0ED44F9F00FA2B"
+					type: "xp"
+					xp: 150
+				}
+			]
 			tasks: [{
 				id: "3435D7E44AA1A0CE"
 				item: "embers:blazing_ray"
@@ -595,6 +1229,24 @@
 		{
 			dependencies: ["358250CC71299C5A"]
 			id: "4EEAB3CF14BBE1B9"
+			rewards: [
+				{
+					id: "3B8810B4EE8B3C4C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "357B02C2D017407A"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [
 				{
 					id: "4A05FF82A1901305"
@@ -648,6 +1300,24 @@
 		{
 			dependencies: ["358250CC71299C5A"]
 			id: "02277B05B78E84A9"
+			rewards: [
+				{
+					id: "0B752739CDFDD272"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "219921FBC5BD3712"
+					type: "xp"
+					xp: 300
+				}
+			]
 			tasks: [
 				{
 					id: "7E468234D98BA1C7"
@@ -666,6 +1336,24 @@
 		{
 			dependencies: ["02277B05B78E84A9"]
 			id: "5E78DBD75ADB1B7A"
+			rewards: [
+				{
+					id: "22F7562FD0B19D82"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "689DCCF7EDF20F76"
+					type: "xp"
+					xp: 300
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "7B63302DC1E5234A"
@@ -678,6 +1366,24 @@
 		{
 			dependencies: ["5E78DBD75ADB1B7A"]
 			id: "755023CF2E1DE90A"
+			rewards: [
+				{
+					id: "616A241C7F60DD97"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "702A41650844CA8C"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "2EFCFB570FB66F7B"
 				item: "embers:flame_barrier"
@@ -689,6 +1395,24 @@
 		{
 			dependencies: ["5E78DBD75ADB1B7A"]
 			id: "6728FAF9DCBC66B9"
+			rewards: [
+				{
+					id: "6EFF3F81D06A0FBC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BCF6945890FC698"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "38693A15EF9BAEC2"
 				item: "embers:intelligent_apparatus"
@@ -700,6 +1424,24 @@
 		{
 			dependencies: ["5E78DBD75ADB1B7A"]
 			id: "1482FE71976825CA"
+			rewards: [
+				{
+					id: "45E1FBE7E1E8ED80"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1474272A3156611F"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "379D98426F290D4F"
 				item: "embers:cinder_jet"
@@ -711,6 +1453,18 @@
 		{
 			dependencies: ["5E78DBD75ADB1B7A"]
 			id: "6E5575B758FB00B7"
+			rewards: [
+				{
+					id: "7EB759E7DA380CD0"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "1CB60250D690A358"
+					type: "xp"
+					xp: 80
+				}
+			]
 			tasks: [{
 				id: "3389F9810AA0B2BC"
 				item: "embers:shifting_scales"
@@ -722,6 +1476,18 @@
 		{
 			dependencies: ["5E78DBD75ADB1B7A"]
 			id: "25E1EC2A38792D06"
+			rewards: [
+				{
+					id: "3D2F3EED94FBC980"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "3C405389779FA8BA"
+					type: "xp"
+					xp: 80
+				}
+			]
 			tasks: [{
 				id: "6D030AC2E3E0627A"
 				item: "embers:winding_gears"
@@ -733,6 +1499,18 @@
 		{
 			dependencies: ["5E78DBD75ADB1B7A"]
 			id: "2DB527B91B6EF9CF"
+			rewards: [
+				{
+					id: "3115337E34E578EA"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "50F87289BE0B6851"
+					type: "xp"
+					xp: 80
+				}
+			]
 			tasks: [{
 				id: "39D6E7255DD700DA"
 				item: "embers:blasting_core"
@@ -744,6 +1522,18 @@
 		{
 			dependencies: ["5E78DBD75ADB1B7A"]
 			id: "7AF1464C59949C7A"
+			rewards: [
+				{
+					id: "2FF8FA7CBA5A53E4"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "56C195323334D3CF"
+					type: "xp"
+					xp: 80
+				}
+			]
 			tasks: [{
 				id: "34448726271436FA"
 				item: "embers:caster_orb"
@@ -755,6 +1545,18 @@
 		{
 			dependencies: ["5E78DBD75ADB1B7A"]
 			id: "6D089995D1CCC84F"
+			rewards: [
+				{
+					id: "760D88880E63308F"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "18FFD0164B796004"
+					type: "xp"
+					xp: 80
+				}
+			]
 			tasks: [{
 				id: "7C14E4C0C4525C14"
 				item: "embers:superheater"
@@ -766,6 +1568,24 @@
 		{
 			dependencies: ["5E78DBD75ADB1B7A"]
 			id: "0DB038FAB4CD7580"
+			rewards: [
+				{
+					id: "317894CB440A5303"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D8CF71FE19C6D21"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "03D794DC1C14691C"
 				item: "embers:resonating_bell"
@@ -777,6 +1597,24 @@
 		{
 			dependencies: ["5E78DBD75ADB1B7A"]
 			id: "13173589C7146261"
+			rewards: [
+				{
+					id: "15E45A4095B4CD60"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02AD040FC5714A2B"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "0088D195E1365672"
 				item: "embers:focal_lens"
@@ -788,6 +1626,24 @@
 		{
 			dependencies: ["5E78DBD75ADB1B7A"]
 			id: "644E52C4017A8680"
+			rewards: [
+				{
+					id: "02B4CAED5FC082EB"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FDC7180967BC7D4"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "452078833046BC95"
 				item: "embers:diffraction_barrel"
@@ -805,6 +1661,24 @@
 				"49B998BB14849D66"
 			]
 			id: "25FF938C6A444EE8"
+			rewards: [
+				{
+					id: "24036E3D65589A49"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20B872676E22F5BF"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "hexagon_important"
 			size: 1.5d
 			tasks: [
@@ -840,6 +1714,11 @@
 		{
 			dependencies: ["25FF938C6A444EE8"]
 			id: "6473AD878BD08EB7"
+			rewards: [{
+				id: "1C702CE8B967DBCF"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "135B8CD675A26086"
@@ -858,6 +1737,24 @@
 		{
 			dependencies: ["25FF938C6A444EE8"]
 			id: "62CC0C5E81F6B42B"
+			rewards: [
+				{
+					id: "140DC8FE2580EF9B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7798C83A6444CDFF"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [
 				{
 					id: "7A60F185912FD364"
@@ -888,6 +1785,18 @@
 		{
 			dependencies: ["25FF938C6A444EE8"]
 			id: "10ECE73BFAE034E4"
+			rewards: [
+				{
+					id: "32A19BFF21FB13B6"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "4EA095D4DD1066E1"
+					type: "xp"
+					xp: 200
+				}
+			]
 			tasks: [{
 				id: "1EC8F5AD183AA2E0"
 				item: {
@@ -909,7 +1818,20 @@
 		}
 		{
 			dependencies: ["25FF938C6A444EE8"]
+			description: [""]
 			id: "267B90F6EF9928FF"
+			rewards: [
+				{
+					id: "22AA26418D32031F"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "0C68B6624078F40A"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "57958C81471CFAEC"
 				item: "embers:ashen_fabric"
@@ -921,6 +1843,18 @@
 		{
 			dependencies: ["267B90F6EF9928FF"]
 			id: "15E8E3608A3D9BEC"
+			rewards: [
+				{
+					id: "47B789ED447087BF"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "069A71EA2A150C17"
+					type: "xp"
+					xp: 300
+				}
+			]
 			tasks: [
 				{
 					id: "0A1683035308FF75"
@@ -985,6 +1919,18 @@
 		{
 			dependencies: ["15E8E3608A3D9BEC"]
 			id: "409D4B1EF91681DC"
+			rewards: [
+				{
+					id: "0135D8171920922C"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "1594225EDB44BA85"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "4C4D909013C71972"
 				item: "embers:smoky_tinker_lens"
@@ -996,6 +1942,18 @@
 		{
 			dependencies: ["15E8E3608A3D9BEC"]
 			id: "65A19273057911FE"
+			rewards: [
+				{
+					id: "74C9B3002E959669"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "4E838570C22C1334"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "73B02AB35C6E9BE2"
 				item: {
@@ -1012,6 +1970,18 @@
 			dependencies: ["25FF938C6A444EE8"]
 			icon: "embers:ember_crystal_cluster"
 			id: "5F6C9BEF0A66280B"
+			rewards: [
+				{
+					id: "4F20075C3411286A"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "42A154897D2AD9C1"
+					type: "xp"
+					xp: 300
+				}
+			]
 			shape: "hexagon_important"
 			size: 1.5d
 			tasks: [
@@ -1032,6 +2002,29 @@
 		{
 			dependencies: ["5F6C9BEF0A66280B"]
 			id: "26622EE66DFD99FA"
+			rewards: [
+				{
+					id: "2FDD1A0B18C9F4A6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23B22C33B6082A10"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4D49D3367E77D0E7"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1E50E5E3B6C86C20"
 				item: "embers:wildfire_stirling"
@@ -1043,6 +2036,29 @@
 		{
 			dependencies: ["5F6C9BEF0A66280B"]
 			id: "67E0EFA681E1BF60"
+			rewards: [
+				{
+					id: "4465F28DF0C350F7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "075C98F8985E2DD0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "50F1C26887FE8656"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "68A50738DDB84C16"
 				item: "embers:combustion_chamber"
@@ -1054,6 +2070,29 @@
 		{
 			dependencies: ["5F6C9BEF0A66280B"]
 			id: "30D1B50042F99214"
+			rewards: [
+				{
+					id: "1C06D40F509ACE68"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C7CE434258A80D0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7D4A69716B16F17C"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "09BF9ADAF9A92117"
 				item: "embers:catalysis_chamber"
@@ -1068,6 +2107,29 @@
 				"30D1B50042F99214"
 			]
 			id: "7FE86F5B9BDE052C"
+			rewards: [
+				{
+					id: "2A26D1CDE1F56D0D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "634C170829919C21"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "45BE22D03E1D3E65"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3AD4A9C1A824DD50"
 				item: "embers:ignem_reactor"
@@ -1079,6 +2141,24 @@
 		{
 			dependencies: ["5F6C9BEF0A66280B"]
 			id: "123FC08E7CB24B90"
+			rewards: [
+				{
+					id: "6525389CA7D9B215"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19CDAF7A4F81D572"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "3898E916AF249C22"
 				item: "embers:field_chart"
@@ -1090,6 +2170,29 @@
 		{
 			dependencies: ["5F6C9BEF0A66280B"]
 			id: "7E6921EB41E7CEA0"
+			rewards: [
+				{
+					id: "08E960B13239DE5C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "embers_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F9679AD68EEFE00"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2FE6175FB7D41173"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "2540373FCE8A6A79"

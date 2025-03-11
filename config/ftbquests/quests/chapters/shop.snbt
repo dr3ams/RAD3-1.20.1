@@ -279,6 +279,8 @@
 			y: -4.5d
 		}
 		{
+			can_repeat: true
+			disable_toast: true
 			icon: "artifacts:mimic_spawn_egg"
 			id: "7A6654B7CF68E559"
 			rewards: [{
@@ -1231,6 +1233,13 @@
 		{
 			can_repeat: true
 			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ars_additions:dispel_protection_charm"
+				tag: {
+					charges: 3
+				}
+			}
 			id: "7BF90FD0004CBAD3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1247,7 +1256,7 @@
 			}]
 			title: "Magic Loot Crate"
 			x: 5.0d
-			y: -4.0d
+			y: -4.5d
 		}
 	]
 	title: "&e⭐ The Market&r"

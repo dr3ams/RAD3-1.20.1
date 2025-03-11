@@ -62,11 +62,29 @@
 			dependencies: ["1388DE775715C931"]
 			description: ["Slates are the foundation of Blood Magic. They are used to craft just about everything in the mod."]
 			id: "54AAFEDAC41F3E7C"
-			rewards: [{
-				id: "28FA643B5E414D02"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "28FA643B5E414D02"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "053574E2FA54CD9A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E6567935645A88C"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6B984E05943FB4F4"
 				item: "bloodmagic:blankslate"
@@ -79,11 +97,29 @@
 			dependencies: ["1388DE775715C931"]
 			description: ["Blood orbs serve as a \"storage\" for life essence, as well as a tool for crafting. If you're playing on a server, don't let anyone else get your blood orb. If they do, they'll be able to steal the life force stored in it, as well as your own life!"]
 			id: "0315159DDF58CB27"
-			rewards: [{
-				id: "1AC54CBB6DF0DACF"
-				item: "hmag:evil_crystal_fragment"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1AC54CBB6DF0DACF"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+				{
+					id: "21418C7DE9207FF9"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B1EF97B886F5083"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6E183C3F327F53B9"
 				item: "bloodmagic:weakbloodorb"
@@ -97,11 +133,24 @@
 			description: ["Read the &oSanguine Scientem&r page on the Blood Altar for instructions on how to upgrade it."]
 			icon: "bloodmagic:altar"
 			id: "322BE570358C17A6"
-			rewards: [{
-				id: "13490899ED3FE11E"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "13490899ED3FE11E"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "4A27EDAEFB8906B7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 8L
 				id: "2C68AEB30BF4249D"
@@ -115,11 +164,24 @@
 		{
 			dependencies: ["54AAFEDAC41F3E7C"]
 			id: "3691AD362252DEAF"
-			rewards: [{
-				id: "36DCB1DA5EEA6535"
-				type: "xp"
-				xp: 200
-			}]
+			rewards: [
+				{
+					id: "36DCB1DA5EEA6535"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "27DF2A404A04916C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "776017AD771ABE2C"
 				item: "bloodmagic:reinforcedslate"
@@ -132,6 +194,29 @@
 			dependencies: ["1388DE775715C931"]
 			description: ["A crafting station powered by Demon Will."]
 			id: "641060F7EC1F9CC5"
+			rewards: [
+				{
+					id: "560CC7A48E8B361F"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "0991AD4DC3906E87"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E9C52631C454272"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2A7B4678C644C1EA"
 				item: "bloodmagic:soulforge"
@@ -154,6 +239,17 @@
 					item: "kubejs:iron_coin"
 					type: "item"
 				}
+				{
+					id: "1E001320F0951D87"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "61180D45EFF81F79"
@@ -167,11 +263,24 @@
 			dependencies: ["5906E9BE6CCF0636"]
 			icon: "bloodmagic:altar"
 			id: "5A9179729D4015FD"
-			rewards: [{
-				id: "4771BC062E2D44C1"
-				item: "kubejs:iron_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4771BC062E2D44C1"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "7191BC5028BF7A24"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					count: 20L
@@ -208,11 +317,24 @@
 		{
 			dependencies: ["3691AD362252DEAF"]
 			id: "372CEAA7DDE2C118"
-			rewards: [{
-				id: "61360B9976504F7C"
-				type: "xp"
-				xp: 500
-			}]
+			rewards: [
+				{
+					id: "61360B9976504F7C"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "178D3EA2E5E61E41"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1E76835ADE342402"
 				item: "bloodmagic:infusedslate"
@@ -228,11 +350,24 @@
 			]
 			icon: "bloodmagic:altar"
 			id: "66E481CEF908567B"
-			rewards: [{
-				id: "5AA5FD6CD6B13CC4"
-				item: "kubejs:gold_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5AA5FD6CD6B13CC4"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "4D71A1C927219DF6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					count: 28L
@@ -254,11 +389,24 @@
 		{
 			dependencies: ["372CEAA7DDE2C118"]
 			id: "76CBE2BFA6C7444C"
-			rewards: [{
-				id: "1551AAB0EF375910"
-				type: "xp"
-				xp: 1500
-			}]
+			rewards: [
+				{
+					id: "1551AAB0EF375910"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "2D0B444D587CDB5D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "60A4529EBF6145E4"
 				item: "bloodmagic:demonslate"
@@ -298,11 +446,24 @@
 			dependencies: ["322BE570358C17A6"]
 			description: ["At this point, you can get other things to do the bleeding for you. The Dagger of Sacrifice is disabled in this pack. Mobs damaged near the Blood Altar using the Dagger of Bloodletting will release life essence."]
 			id: "5906E9BE6CCF0636"
-			rewards: [{
-				id: "02A1711D52F65C6E"
-				item: "nameless_trinkets:vampire_blood"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "02A1711D52F65C6E"
+					item: "nameless_trinkets:vampire_blood"
+					type: "item"
+				}
+				{
+					id: "340E2FE1E71F4959"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "20468BC8AC50B323"
 				item: {
@@ -325,6 +486,24 @@
 		{
 			dependencies: ["54AAFEDAC41F3E7C"]
 			id: "751DCF6332FCF741"
+			rewards: [
+				{
+					id: "6919810A4FCD3915"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AEAF35B47C95F96"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "2595C844F4D82F95"
@@ -349,11 +528,24 @@
 		{
 			dependencies: ["78EF536FB848DAE6"]
 			id: "0D4A28A0277F4E5E"
-			rewards: [{
-				id: "0CB1E3470C4F4CCA"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "0CB1E3470C4F4CCA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "39B327B1863F7A01"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0464EE0459B03085"
 				item: {
@@ -373,6 +565,24 @@
 			description: ["Storage for Demon Will. Picking up Demon Will items will automatically fill this gem if it is in your inventory."]
 			hide_dependency_lines: false
 			id: "1E881A7C28BE75FD"
+			rewards: [
+				{
+					id: "5B69E9E574414D7E"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "4893DCDA5F581FA5"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "488DD189F6008A0D"
 				item: {
@@ -396,11 +606,24 @@
 			description: ["Ethereal Slates aren't good for much besides end game altar upgrades. "]
 			hide_dependent_lines: true
 			id: "0110C13A62707634"
-			rewards: [{
-				id: "655BEE3F4B49BF75"
-				type: "xp"
-				xp: 3000
-			}]
+			rewards: [
+				{
+					id: "655BEE3F4B49BF75"
+					type: "xp"
+					xp: 800
+				}
+				{
+					id: "3A23D383484559AF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2C534E29D78227A3"
 				item: "bloodmagic:etherealslate"
@@ -412,6 +635,24 @@
 		{
 			dependencies: ["3691AD362252DEAF"]
 			id: "47B0E014C9551B5A"
+			rewards: [
+				{
+					id: "2981DA2801FFB579"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4881941969032364"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "2D7FFFF5B4AF6219"
@@ -454,6 +695,24 @@
 		{
 			dependencies: ["372CEAA7DDE2C118"]
 			id: "78DE3D4A7FD8D633"
+			rewards: [
+				{
+					id: "6C49A4A4D50B47F5"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D83444E6BD526BA"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "77FA5655F8E174B6"
@@ -488,6 +747,24 @@
 		{
 			dependencies: ["76CBE2BFA6C7444C"]
 			id: "04A314AC321C0A44"
+			rewards: [
+				{
+					id: "0738E7E1DCF80A65"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76C37117D54A9E43"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "1ADD2C654C3E2752"
@@ -511,12 +788,25 @@
 		{
 			dependencies: ["0315159DDF58CB27"]
 			id: "7CCF6081E0BA624D"
-			rewards: [{
-				count: 3
-				id: "2B5027C28E915A7C"
-				item: "hmag:evil_crystal_fragment"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "2B5027C28E915A7C"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+				{
+					id: "410B4C4DAC8BEF45"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "070C6DC70F5BAF84"
 				item: "bloodmagic:apprenticebloodorb"
@@ -528,11 +818,24 @@
 		{
 			dependencies: ["7CCF6081E0BA624D"]
 			id: "60F1E86884B08475"
-			rewards: [{
-				id: "34109427DC86C8CD"
-				item: "hmag:evil_crystal"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "34109427DC86C8CD"
+					item: "hmag:evil_crystal"
+					type: "item"
+				}
+				{
+					id: "57E091CE4EB5D9F6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "259338E47A8A7BC1"
 				item: "bloodmagic:magicianbloodorb"
@@ -544,12 +847,25 @@
 		{
 			dependencies: ["60F1E86884B08475"]
 			id: "320E616DD29F2C2C"
-			rewards: [{
-				count: 3
-				id: "6AFF009CB3378357"
-				item: "hmag:evil_crystal"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "6AFF009CB3378357"
+					item: "hmag:evil_crystal"
+					type: "item"
+				}
+				{
+					id: "6E91AD0CEC8990B5"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1409ADED9DFA69B6"
 				item: "bloodmagic:masterbloodorb"
@@ -565,11 +881,24 @@
 			]
 			hide_dependency_lines: false
 			id: "41990DCD309B5A51"
-			rewards: [{
-				id: "7F62223B8D8571FD"
-				item: "hmag:evil_crystal_block"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7F62223B8D8571FD"
+					item: "hmag:evil_crystal_block"
+					type: "item"
+				}
+				{
+					id: "1FBAE32ADCA78DF6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "13A11CECA0BEA69E"
 				item: "bloodmagic:archmagebloodorb"
@@ -581,6 +910,24 @@
 		{
 			dependencies: ["1E881A7C28BE75FD"]
 			id: "1CF66E7CD386393B"
+			rewards: [
+				{
+					id: "621271067624CD60"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "77D2736599AA7982"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "519C35866E7959A3"
 				item: {
@@ -601,6 +948,24 @@
 		{
 			dependencies: ["1CF66E7CD386393B"]
 			id: "268AB69262E7D497"
+			rewards: [
+				{
+					id: "24DCC6C48FFD8D4C"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "5349F7CB5DC4BFF7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "20D31D60E05B30AA"
 				item: {
@@ -621,11 +986,29 @@
 		{
 			dependencies: ["268AB69262E7D497"]
 			id: "1696403D85C57BEA"
-			rewards: [{
-				id: "036E1036AB331C4C"
-				item: "nameless_trinkets:sigil_of_baphomet"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "036E1036AB331C4C"
+					item: "nameless_trinkets:sigil_of_baphomet"
+					type: "item"
+				}
+				{
+					id: "6C6776969439E1ED"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "15BF8DEEE9F142E1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7A729986CDDB1A4B"
 				item: {
@@ -659,6 +1042,24 @@
 				}
 			}
 			id: "1258ED315E9F699E"
+			rewards: [
+				{
+					id: "0F5605C73074E236"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "3989C5F73872C59C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "79536AE8EB39DB77"
@@ -732,6 +1133,24 @@
 				}
 			}
 			id: "71D53E72211F813C"
+			rewards: [
+				{
+					id: "7CA1C56BEF5708A2"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "4A9ADB40E7F0F434"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "09C185281FFE345B"
@@ -778,11 +1197,24 @@
 		{
 			dependencies: ["0D4A28A0277F4E5E"]
 			id: "09391E60AB457A4C"
-			rewards: [{
-				id: "76E00125F3D413E7"
-				item: "bloodmagic:upgradetrainer"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "76E00125F3D413E7"
+					item: "bloodmagic:upgradetrainer"
+					type: "item"
+				}
+				{
+					id: "1463901B3625BDF0"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "18B5934AD204B1AE"
@@ -854,6 +1286,24 @@
 			description: ["Throw this at a hostile mob and quickly kill it to collect your first Demon Will."]
 			hide_dependency_lines: true
 			id: "149FA0A9A03F0B87"
+			rewards: [
+				{
+					id: "61E7FA75804B4108"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "4546B12371617544"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4BF800A36F04153D"
 				item: "bloodmagic:soulsnare"
@@ -870,6 +1320,17 @@
 			description: ["Use the &oEdge of the Hidden Realm&r ritual to create a gate to the Demon Realm. Gather your best gear and enter in search of Tau Fruit."]
 			icon: "bloodmagic:dungeon_eye"
 			id: "1146FD3C38D38A26"
+			rewards: [{
+				id: "3B5A03492F7F5BA0"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "blood_magic_loot_crate"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					dimension: "bloodmagic:dungeon"
@@ -911,6 +1372,17 @@
 		{
 			dependencies: ["372CEAA7DDE2C118"]
 			id: "69179F0927D855A0"
+			rewards: [{
+				id: "527FD09E01BBA427"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "blood_magic_loot_crate"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4A22AAE4CC2BD010"
@@ -930,6 +1402,17 @@
 		{
 			dependencies: ["372CEAA7DDE2C118"]
 			id: "07D63A7C9C0F5025"
+			rewards: [{
+				id: "095464B397FF83AE"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "blood_magic_loot_crate"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1DD0A8A67081727E"

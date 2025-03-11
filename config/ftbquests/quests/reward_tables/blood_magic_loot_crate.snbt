@@ -1,7 +1,7 @@
 {
 	id: "27F06A5F808A2BA0"
 	loot_crate: {
-		color: 16777215
+		color: 16712970
 		drops: {
 			boss: 0
 			monster: 0
@@ -11,7 +11,135 @@
 		string_id: "blood_magic_loot_crate"
 	}
 	loot_size: 1
-	order_index: 50
-	rewards: [ ]
+	order_index: 8
+	rewards: [
+		{ item: "ars_nouveau:experience_gem" }
+		{ item: "bloodmagic:lavacrystal" }
+		{
+			item: {
+				Count: 1
+				id: "bloodmagic:intermediatecuttingfluid"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "bloodmagic:reagentwater" }
+		{ item: "bloodmagic:reagentlava" }
+		{ item: "bloodmagic:reagentvoid" }
+		{ item: "bloodmagic:reagentgrowth" }
+		{ item: "bloodmagic:reagentfastminer" }
+		{ item: "bloodmagic:reagentmagnetism" }
+		{ item: "bloodmagic:reagentair" }
+		{ item: "bloodmagic:reagentbloodlight" }
+		{ item: "bloodmagic:reagentsight" }
+		{ item: "bloodmagic:reagentbinding" }
+		{ item: "bloodmagic:reagentholding" }
+		{ item: "bloodmagic:reagentsuppression" }
+		{ item: "bloodmagic:reagentteleposition" }
+		{
+			item: {
+				Count: 1
+				id: "bloodmagic:arcaneashes"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "bloodmagic:basemonstersoul" }
+		{ item: "bloodmagic:sulfur" }
+		{ item: "bloodmagic:saltpeter" }
+		{ item: "bloodmagic:ironsand" }
+		{ item: "bloodmagic:goldsand" }
+		{ item: "bloodmagic:coppersand" }
+		{ item: "bloodmagic:coalsand" }
+		{ item: "bloodmagic:corrupted_dust" }
+		{ item: "bloodmagic:irongravel" }
+		{ item: "bloodmagic:goldgravel" }
+		{ item: "bloodmagic:coppergravel" }
+		{ item: "bloodmagic:gravel_netherite_scrap" }
+		{ count: 8, item: "bloodmagic:dungeon_brick1" }
+		{ count: 8, item: "bloodmagic:dungeon_tile" }
+		{ count: 8, item: "bloodmagic:dungeon_tilespecial" }
+		{ count: 8, item: "bloodmagic:dungeon_pillar_center" }
+		{ item: "bloodmagic:plantoil" }
+		{ item: "bloodmagic:holy_water_anointment" }
+		{ item: "bloodmagic:hidden_knowledge_anointment" }
+		{ item: "bloodmagic:quick_draw_anointment" }
+		{ item: "bloodmagic:looting_anointment" }
+		{ item: "bloodmagic:bow_power_anointment" }
+		{ item: "bloodmagic:smelting_anointment" }
+		{ item: "bloodmagic:voiding_anointment" }
+		{ item: "bloodmagic:bow_velocity_anointment" }
+		{ item: "bloodmagic:weapon_repair_anointment" }
+		{ item: "bloodmagic:melee_anointment" }
+		{ item: "bloodmagic:silk_touch_anointment" }
+		{ item: "bloodmagic:fortune_anointment" }
+		{ count: 8, item: "bloodmagic:obsidianbrickpath" }
+		{ count: 8, item: "bloodmagic:woodbrickpath" }
+		{ item: "minecraft:ender_pearl" }
+		{ item: "bloodmagic:slate_vial" }
+		{
+			item: {
+				Count: 1
+				id: "bloodmagic:alchemy_flask"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "bloodmagic:corrosivecrystal" }
+		{ item: "bloodmagic:corrupted_tinydust" }
+		{ item: "bloodmagic:demonitefragment" }
+		{ item: "bloodmagic:simplecatalyst" }
+		{ item: "bloodmagic:strengthenedcatalyst" }
+		{ item: "bloodmagic:blankslate" }
+		{ item: "bloodmagic:reinforcedslate" }
+		{ item: "bloodmagic:infusedslate" }
+		{ item: "bloodmagic:combinationalcatalyst" }
+		{ item: "bloodmagic:weakfillingagent" }
+		{ item: "bloodmagic:cyclingcatalyst" }
+		{
+			item: {
+				Count: 1
+				id: "bloodmagic:basiccuttingfluid"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:regeneration"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "bloodmagic:soulgempetty"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+					souls: 64.0d
+				}
+			}
+		}
+		{ item: "aether:healing_stone" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:long_regeneration"
+				}
+			}
+		}
+	]
 	title: "Blood Magic Loot Crate"
+	use_title: true
 }
