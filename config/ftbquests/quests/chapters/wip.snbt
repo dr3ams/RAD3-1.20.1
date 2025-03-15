@@ -819,6 +819,81 @@
 			x: 14.5d
 			y: 2.0d
 		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "021505E5B897885F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29D9FBA6E0871180"
+				table_id: 2197301107086804354L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					disable_toast: true
+					id: "44ED5A6326AD9DD5"
+					item: "kubejs:voucher_weapon"
+					type: "item"
+				}
+				{
+					id: "2948AE31E7E41B3F"
+					points: false
+					type: "xp"
+					value: 1L
+				}
+			]
+			x: 26.0d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			hide_details_until_startable: true
+			id: "5CF7D46199ACC793"
+			invisible: true
+			rewards: [{
+				id: "0C864BB0D9FDEE7E"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "14270DBB6CA3BD98"
+				item: "kubejs:key_magic"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 7.5d
+		}
+		{
+			id: "70825CB73BABD32B"
+			tasks: [{
+				id: "786FFC69F233E016"
+				item: "kubejs:voucher_relic"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5CF7D46199ACC793"]
+			id: "2EFC3C8018BF8A7B"
+			invisible: true
+			rewards: [{
+				auto: "enabled"
+				command: "/ftbquests change_progress @s reset 5CF7D46199ACC793"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "010096A12AAEF63B"
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			x: 27.0d
+			y: 7.5d
+		}
 	]
 	title: "WIP"
 }

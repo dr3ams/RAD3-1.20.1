@@ -1,0 +1,427 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sidestories"
+	group: "241F1DC7B6D6E9D6"
+	icon: "kubejs:book2"
+	id: "24B56A274D017BC5"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"As you approach the forest, a small, leather-wrapped bundle catches your eye at the foot of an ancient oak. Intrigued, you move closer."
+				""
+				"A weathered note is tied to the package with twine. It reads:"
+				""
+				"&o&9For the Blacksmith of Willow Creek. Deliver with haste.&r&r"
+				""
+				"&o&8You recognize Willow Creek as a small village on the outskirts of the forest, home to a renowned blacksmith named Silas. You've heard tales of his skill, crafting weapons and armor of incredible strength.&r&r"
+			]
+			id: "303C9F12C46AB4A9"
+			progression_mode: "linear"
+			require_sequential_tasks: true
+			rewards: [{
+				id: "4CA5CC8CD9C78DA4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "regions_unexplored:deciduous_forest"
+				id: "21877238E98437AD"
+				title: "Enter Deciduous forest"
+				type: "biome"
+			}]
+			title: "The Blacksmith's Burden"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["303C9F12C46AB4A9"]
+			description: [
+				"You could &9open the package&r and see what lies within. &o(noone will find out about that)&r"
+				""
+				"Perhaps it's a &6valuable item&r, a &5powerful weapon&r, or even a clue to a &ogreater mystery&r. "
+				""
+				"&4But what if it's dangerous? &r"
+				""
+				"&0What if it's cursed?&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:chest"
+			id: "14C739F728584105"
+			incompatible: ["04737BABF8D66665"]
+			rewards: [{
+				id: "70EE2B9CB6DD1CA5"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "dungeon_coin_reward"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&4Incompatible with \"Deliver the package\"&r"
+			tasks: [{
+				id: "42FAE8B88B745503"
+				type: "checkmark"
+			}]
+			title: "Open the package"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["303C9F12C46AB4A9"]
+			description: [
+				"You could choose to follow the note's instructions and &9deliver the package&r to Blacksmith. "
+				""
+				"This would be the honorable thing to do, but it might mean missing out on whatever &5secrets&r the package holds."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "04737BABF8D66665"
+			incompatible: ["14C739F728584105"]
+			rewards: [{
+				id: "438C1D0AF013615A"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&4Incompatible with \"Open the package\"&r"
+			tasks: [{
+				id: "0BF283CC7CB4D765"
+				type: "checkmark"
+			}]
+			title: "Deliver the package"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04737BABF8D66665"]
+			description: [
+				"&9You decide to&r follow the note's instructions and &9deliver the package&r to Blacksmith. "
+				""
+				"&6&oHonesty and a sense of duty guide you. &r&r"
+				""
+				"However, the path to &2Willow Creek&r is not without its challenges. &lGather your supplies first!&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "73B68DABF2FA7F97"
+			rewards: [{
+				id: "2224EEE5F5C0EB7B"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Map to nearest village in plains\"}"
+						}
+						maxSearchRadius: 150
+						skinKnown: 1b
+						targetStructure: "minecraft:village_plains"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "1BE731A363F7DC57"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "2333369A254577D8"
+					item: {
+						Count: 1
+						id: "roughtweaks:bandage"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "0FA517D2C8740D4D"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "605E5DEA7815EF1C"
+					item: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							reinforce_level: 0
+							reinforce_max: 10
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Gather Supplies"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["73B68DABF2FA7F97"]
+			description: [
+				"You approach &8Silas&r and &9hand over the mysterious package&r. His eyes light up with gratitude, but there's a shadow of concern that crosses his face."
+				""
+				"&n&8Blacksmith's Tale&r&r"
+				""
+				"“&o&3Thank you for delivering this&r&r,” - he says, carefully unwrapping the package. "
+				"&o&8Inside, he finds a set of finely crafted tools, a much-needed addition to his workshop. But as he looks up at you, his expression turns serious.&r&r"
+				""
+				"“&3&oMy apprentice, Eli, went missing a few days ago,&r&r” - his voice heavy with worry. "
+				""
+				"“&3&oHe was last seen heading towards the Old Creeping Crypt. It’s a place filled with dark legends and eerie tales. Many say it’s haunted, and those who venture too close often don’t return.&r&r”"
+				""
+				"The fate of Eli and the mysteries of the crypt await your decision! &9What will you choose to do?&r 🌌"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:anvil"
+			id: "13D8979279D22C3A"
+			rewards: [
+				{
+					id: "0232E3B0CF6B6CE5"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 10
+					id: "2079DF77F2A0E295"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3BF7D671A97E1625"
+				structure: "minecraft:village_plains"
+				type: "structure"
+			}]
+			title: "Mysterious Disappearance"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["13D8979279D22C3A"]
+			description: [
+				"As you wander through the charming streets of &2Willow Creek&r, the warm glow of lanterns illuminates the village, creating a cozy atmosphere. "
+				""
+				"&8&oThe scent of freshly baked bread and simmering stew wafts through the air, guiding you to the bustling village kitchen.&r&r"
+				""
+				"Inside, you meet &5Mira&r, the local cook, who is busy chopping vegetables and stirring pots. She looks up and smiles warmly. "
+				""
+				"&3“&oAh, a traveler! Would you be willing to help me prepare dinner for the villagers? I could use an extra pair of hands!”&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "farmersdelight:cooking_pot"
+			id: "1EF128BE99F4309D"
+			incompatible: ["7BA2CF8F9F125C31"]
+			tasks: [{
+				id: "3E4E70A7C5313EFA"
+				item: "farmersdelight:stuffed_pumpkin_block"
+				type: "item"
+			}]
+			title: "Explore the Village"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["13D8979279D22C3A"]
+			description: ["Take some time to gather additional supplies and gear before heading into the unknown."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "7BA2CF8F9F125C31"
+			rewards: [{
+				id: "64D427575232FBD9"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Map to Creeping Crypt\"}"
+						}
+						maxSearchRadius: 150
+						skinKnown: 1b
+						targetStructure: "nova_structures:creeping_crypt"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&4As you will leave the village, \"Explore the Village\" quest will become unavailable&r"
+			tasks: [{
+				id: "707D954E78FE980E"
+				title: "Prepare for the Journey"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7BA2CF8F9F125C31"]
+			description: [
+				"As you delve deeper into the &0Old Creeping Crypt&r, the air grows colder, and the shadows seem to whisper secrets of the past. "
+				""
+				"&4Your heart races&r as you navigate through the damp, stone corridors, finally stumbling upon a hidden chamber. In the flickering light of your torch, you discover a crumpled note lying on a dusty altar."
+				""
+				"Unfolding the note, you read Eli's hurried scrawl:"
+				""
+				"&o&3\"If you find this, know that I have embraced the truth. The artifact we seek lies within the Cultists' Crypt. Follow the path of the moonlight to the ancient oak, and there you will find the entrance hidden beneath the roots.\"&r&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:manuscript"
+			id: "5826E13CAB5C44F2"
+			rewards: [{
+				id: "4F28A5C27B1D4443"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Notes how to get to the Crypt\"}"
+						}
+						maxSearchRadius: 150
+						skinKnown: 1b
+						targetStructure: "graveyard:crypt"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "50A7078639942B19"
+				structure: "nova_structures:creeping_crypt"
+				type: "structure"
+			}]
+			title: "Find Creeping Crypt deep undergroud"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5826E13CAB5C44F2"]
+			description: [
+				"A chilling wind sweeps through the air, carrying with it the faint whispers of the undead. "
+				""
+				"&8This is it.&r &0Crypt is somewhere close.&r"
+				""
+				"You start digging and eventually the entrance looms before you, &0dark and foreboding&r, with the faint glow of eerie green light flickering from within. "
+				""
+				"You steel yourself for the challenges ahead, knowing that the &4crypt&r is teeming with &0undead&r &4corrupted creatures&r that will stop at nothing to protect their secrets."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "5B0D50FA170721B1"
+			rewards: [{
+				count: 3
+				id: "5DEF8DC1D3762C6F"
+				item: "landsoficaria:healing_flask"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71A7946DEC71D4F5"
+				structure: "graveyard:crypt"
+				type: "structure"
+			}]
+			title: "Find Cultist's Crypt"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5B0D50FA170721B1"]
+			description: [
+				"&0The atmosphere is thick with malevolence as you step inside. &r"
+				""
+				"&0Shadows dance along the walls, and the sound of distant moans echoes through the corridors. &r "
+				""
+				"&0Your mission is clear:&r &4confront the acolytes&r &0and extract the vital clues that will lead you to the source of the evil plaguing this place.&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "4011F731FDCAE1BA"
+			rewards: [
+				{
+					count: 4
+					id: "4342FEE955864AAE"
+					item: "graveyard:dark_iron_ingot"
+					type: "item"
+				}
+				{
+					id: "63CDEE2F663C4ABB"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "graveyard:acolyte"
+					id: "77A4D7A5A165D0B6"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "graveyard:corrupted_vindicator"
+					id: "672CD57000A19728"
+					type: "kill"
+					value: 10L
+				}
+			]
+			title: "Inside the Crypt"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4011F731FDCAE1BA"]
+			description: [
+				"As you stand at the end of the &4Cultists' Crypt&r last corridor, a sense of urgency washes over you. "
+				""
+				"The path ahead is blocked, &0and the whispers of the undead echo ominously in the darkness.&r "
+				""
+				"&4&nYou reach the dead end.&r&r &oOr not?&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "41E57804435650E5"
+			rewards: [{
+				id: "701C7FDDE1BDE565"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "blood_magic_loot_crate"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "67BB117F7F48494B"
+				title: "Dead End"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+	]
+	title: "Side stories"
+}

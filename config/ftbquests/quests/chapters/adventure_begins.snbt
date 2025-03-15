@@ -133,8 +133,8 @@
 		{
 			id: "6C5D95349F7EEE94"
 			linked_quest: "35EA73868124C4C6"
-			x: -4.0d
-			y: 2.0d
+			x: -5.0d
+			y: 1.5d
 		}
 	]
 	quests: [
@@ -627,11 +627,23 @@
 				"- Glow sticks also come in all 16 colors + the glow ink hue, making them ideal for marking out pathways to different location"
 			]
 			id: "3C117B063253F59D"
-			rewards: [{
-				id: "3A0D5310D829FFF3"
-				item: "nameless_trinkets:light_gloves"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "012D13A5A8FC5E7F"
+					item: "spelunkery:brown_glowstick"
+					type: "item"
+				}
+				{
+					id: "315D9CD1004F3C84"
+					item: "spelunkery:magenta_glowstick"
+					type: "item"
+				}
+				{
+					id: "3B17CC5EF6AB0327"
+					item: "spelunkery:purple_glowstick"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6A72A66C282AB276"
 				item: "spelunkery:glowstick"
@@ -847,9 +859,8 @@
 			}
 			id: "6CC45B856CF1EC09"
 			rewards: [{
-				count: 3
-				id: "36B2D29BE1DA6025"
-				item: "minecraft:apple"
+				id: "07A3853DBF21FB93"
+				item: "minecraft:torch"
 				type: "item"
 			}]
 			shape: "gear_important"
@@ -1338,7 +1349,7 @@
 				id: "6BC4EDA1490D011F"
 				type: "advancement"
 			}]
-			x: -3.0d
+			x: -2.5d
 			y: 1.0d
 		}
 		{
@@ -1371,6 +1382,11 @@
 				"- &lRight-click&r while sneaking to open a menu there you can choose desired &l&9symbol&r&r to draw"
 			]
 			id: "249AA12A5A125F45"
+			rewards: [{
+				id: "546068A47FB21713"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Chalk allows you to draw marks for easier navigation in caves or structures."
 			tasks: [{
 				id: "7E142BB4D4F903A7"
@@ -1498,6 +1514,12 @@
 				"- Can be crafted into various useful components"
 			]
 			id: "037911ABA28CDC08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76E1D0520AC06058"
+				table_id: 8239551914162453554L
+				type: "random"
+			}]
 			subtitle: "Pink Salt, Sulfur, Saltpeter, Nephrite"
 			tasks: [
 				{
@@ -1553,6 +1575,12 @@
 				"- Shift-right clicking a stack of rough materials on a grindstone will polish the entire stack and create the appropriate amount of byproduct."
 			]
 			id: "6A01EC7A01F35671"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38D4B388A0B3F28F"
+				table_id: 8239551914162453554L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2476A9211E40437D"
 				item: {
@@ -1606,6 +1634,11 @@
 			]
 			icon: "kubejs:help"
 			id: "65CB7B9BFFA05C7D"
+			rewards: [{
+				id: "7D89913C313BF29C"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "6B7460962C1DD065"
 				type: "checkmark"
@@ -1769,6 +1802,11 @@
 				"- Rock Salt can also be used to make a Salt Lamp, a light toggleable by right-click that can be placed on the ground or hung from the ceiling"
 			]
 			id: "0B3168B426A40DD4"
+			rewards: [{
+				id: "6BCF4CF3C8C6DF74"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "024CC23A0E91C5E5"
 				item: "spelunkery:salt"
@@ -2278,6 +2316,11 @@
 				"- &9Limited Barrels&r only have 1 to 4 slots for items with higher stack size limits in each that get even higher when their tier gets upgraded."
 			]
 			id: "68BE52500EBA3198"
+			rewards: [{
+				id: "0F050B94EADF1443"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "&cCan be crafted with &nany&r &cwood!&r"
 			tasks: [
 				{
@@ -3736,6 +3779,12 @@
 		{
 			dependencies: ["68BE52500EBA3198"]
 			id: "5466EEF8BC1D892F"
+			rewards: [{
+				count: 8
+				id: "31FF9EF8BF080A8A"
+				item: "minecraft:oak_planks"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00A7116AB30E5964"
 				item: {
@@ -3849,14 +3898,22 @@
 			y: -8.5d
 		}
 		{
-			description: ["Similar to Wandering Traders, goblins are found randomly underground in caves or in the nether and provide exclusive and beneficial trades that allow you to take your adventure to the next level! Goblin Traders adds two new traders, the Golbin Trader which is found in the overworld and the Vein Goblin Trader which is found in The Nether; both with their own unique set of trades. These little goblins have a little attitude and don't like it when you hit them. If you're feeling generous you can feed them their favourite food for a fun animation."]
+			description: [
+				"Similar to &o(annoying)&r &6Wandering Traders&r, &2goblins&r are found randomly underground in caves or in the nether and provide exclusive and beneficial trades that allow you to take your adventure to the next level! "
+				""
+				"&2Goblin Traders&r adds two new traders, the Golbin Trader which is found in the &9overworld&r and the Vein Goblin Trader which is found in &4The Nether&r; both with their own unique set of trades. "
+				""
+				"These little goblins have a little attitude and don't like it when you hit them. If you're feeling generous you can feed them their favourite food for a fun animation."
+			]
 			icon: "kubejs:coin_05"
 			id: "0603EEDA36C27ED6"
 			subtitle: "Unique and useful trades"
 			tasks: [{
-				id: "388F28C17259CA5D"
-				title: "Goblin traders"
-				type: "checkmark"
+				id: "6976307623DE7D0F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goblintraders:goblin_trader"
+				type: "observation"
 			}]
 			x: -11.0d
 			y: 1.0d
@@ -4015,7 +4072,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["366659E50333BC5A"]
