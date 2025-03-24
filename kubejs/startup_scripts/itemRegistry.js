@@ -86,6 +86,8 @@ event.create('coin_04').displayName('Pile of Coins').tooltip('Acquired by sellin
 event.create('coin_05').displayName('Dozen of Coins').tooltip('Acquired by selling valuable materials')
 event.create('coin_06').displayName('Bunch of Coins').tooltip('Acquired by selling valuable materials')
 
+event.create('quest_bundle').displayName('Leather Bundle').tooltip('Quest Item')
+event.create('quest_note').displayName('Note').tooltip('Quest Item')
 
 event.create('defence').displayName('defence')
 event.create('armorpen').displayName('armorpen')

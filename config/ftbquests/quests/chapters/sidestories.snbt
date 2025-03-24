@@ -18,14 +18,22 @@
 				""
 				"&o&8You recognize Willow Creek as a small village on the outskirts of the forest, home to a renowned blacksmith named Silas. You've heard tales of his skill, crafting weapons and armor of incredible strength.&r&r"
 			]
+			icon: "kubejs:quest_bundle"
 			id: "303C9F12C46AB4A9"
 			progression_mode: "linear"
 			require_sequential_tasks: true
-			rewards: [{
-				id: "4CA5CC8CD9C78DA4"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "4CA5CC8CD9C78DA4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0483C9393316C3FA"
+					item: "kubejs:quest_bundle"
+					type: "item"
+				}
+			]
 			tasks: [{
 				biome: "regions_unexplored:deciduous_forest"
 				id: "21877238E98437AD"
@@ -206,11 +214,19 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "3BF7D671A97E1625"
-				structure: "minecraft:village_plains"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					id: "3BF7D671A97E1625"
+					structure: "minecraft:village_plains"
+					type: "structure"
+				}
+				{
+					consume_items: true
+					id: "0CEFE4A5DFAFAF56"
+					item: "kubejs:quest_bundle"
+					type: "item"
+				}
+			]
 			title: "Mysterious Disappearance"
 			x: -0.5d
 			y: 1.0d
@@ -285,7 +301,7 @@
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
-			icon: "kubejs:manuscript"
+			icon: "kubejs:quest_note"
 			id: "5826E13CAB5C44F2"
 			rewards: [{
 				id: "4F28A5C27B1D4443"
@@ -304,11 +320,19 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "50A7078639942B19"
-				structure: "nova_structures:creeping_crypt"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					id: "50A7078639942B19"
+					structure: "nova_structures:creeping_crypt"
+					type: "structure"
+				}
+				{
+					count: 4L
+					id: "67C95A7B9CFE7ACF"
+					item: { Count: 4, id: "minecraft:bone" }
+					type: "item"
+				}
+			]
 			title: "Find Creeping Crypt deep undergroud"
 			x: 2.5d
 			y: 1.0d
