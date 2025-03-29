@@ -39,6 +39,8 @@ grindstoneUseParticles = true
 commandBlockParticles = "ON"
 slimeBlockBounceSounds = true
 beaconParticlesDisplayType = "ON"
+beaconParticlesDensity = 10
+beaconParticlesSpeed = 1.0
 compostingParticles = true
 respawnAnchorParticles = true
 beehiveShearParticles = true
@@ -53,10 +55,11 @@ sculkVeinSculkDust = true
 sculkShriekerDestroySouls = true
 sculkCatalystDestroySouls = true
 calibratedSculkSensorAmethystSparkle = true
-campfireSizzlingSounds = true
 campfireSizzlingSoundVolume = 0.5
 vegetationFirefliesDensity = 30
 vegetationFirefliesSpawnType = "FLOWERS_ONLY"
+replacePowderSnowFlakes = true
+lavaCauldronEffects = true
 
 [sparks]
 removeVanillaCampfireSparks = true
@@ -66,7 +69,6 @@ fireSparks = true
 campfireSparks = true
 torchSparks = true
 lanternSparksDensity = 5
-lavaCauldronSparks = true
 lavaSparks = "ON"
 
 [updatedSmoke]
@@ -74,7 +76,6 @@ candleSmoke = true
 furnaceSmoke = true
 fireSmoke = true
 torchSmoke = true
-lavaSparkSmoke = true
 campfireDowseSmoke = true
 
 [steam]

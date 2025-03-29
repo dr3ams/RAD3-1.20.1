@@ -254,7 +254,7 @@
 			#Range: 1.0 ~ 64.0
 			Maximum = 32.0
 
-		#The ticks cooldown after shooting. This is reduced by 33% in Hard difficulty
+		#The ticks cooldown after shooting
 		[Skeletons."Skeleton Shoot"."Shooting Cooldown"]
 			#Range: 0.0 ~ 1.7976931348623157E308
 			Minimum = 50.0
@@ -527,6 +527,9 @@
 
 	#Endermen will make the player's item fall from his hands. Add/remove mobs via the enhancedai:can_disrupt_item entity type tag
 	[Mobs."Item Disruption"]
+		#Cooldown (in ticks) before being able to use the ability again.
+		#Range: > -2147483648
+		Cooldown = 200
 
 		#Chance can be changed within entity data's ForgeData."enhancedai:item_disruption_chance"
 		[Mobs."Item Disruption".Chance]
@@ -585,9 +588,9 @@
 		#I recommend Mobs Properties Randomness to have more control over mobs equipment.
 		#Range: 0.0 ~ 1.0
 		"Equip Fishing Rod Chance" = 0.07
-		#Chance for a fisher mob to steal an item from the players' inventory instead of reeling the player.
+		#Chance for a fisher mob to steal an entity item in the hands instead of reeling the player.
 		#Range: 0.0 ~ 1.0
-		"Hook Inventory Chance" = 0.0
+		"Hook Hands Chance" = 0.4
 
 		#How fast will a mob reel in the grappled entity (or if the hook is on the ground).
 		[Mobs."Fisher Mobs"."Reel in ticks"]
@@ -597,6 +600,15 @@
 			Normal = 30.0
 			#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 			Hard = 20.0
+
+		#How much will a mob wait before casting the bobber again. The cooldown is doubled if successfully reels in someone.
+		[Mobs."Fisher Mobs".Cooldown]
+			#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+			"Easy/Peaceful" = 80.0
+			#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+			Normal = 80.0
+			#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+			Hard = 60.0
 
 	#Mobs can bite if are attacked with non-weapons. Only mobs in the enhancedai:can_bite entity type tag can bite.
 	[Mobs."Biting Mobs"]
@@ -832,18 +844,15 @@
 			Maximum = 8.0
 
 [Animals]
-	#Make animals fight back or be scared by players. Use the entity type tag enhancedai:can_fight_back and enhancedai:can_be_scared_by_players to add/remove animals.
+	#Make animals fight back or be scared by players. Use the entity type tag enhancedai:can_be_neutral, enhancedai:can_be_hostile, and enhancedai:can_be_scared_by_players to add/remove animals.
 	"Enable Animals Scared Attack" = false
 	#Makes animals not tempted by food. Use the entity type tag enhancedai:can_ignore_food_temptation to change animals.
 	"Enable Not Tempted Animals" = false
 	#Make animals flee/fight back when one is attacked
 	"Enable Animals Group Flee" = true
 
-	#Make animals fight back or be scared by players. Use the entity type tag enhancedai:can_fight_back and enhancedai:can_be_scared_by_players to add/remove animals.
+	#Make animals fight back or be scared by players. Use the entity type tag enhancedai:can_be_neutral, enhancedai:can_be_hostile, and enhancedai:can_be_scared_by_players to add/remove animals.
 	[Animals."Animals Scared Attack"]
-		#Animals have this percentage chance to be able to fight back instead of fleeing. Animals have a slightly bigger range to attack. Attack damage can't be changed via config due to limitation so use mods like Mobs Properties Randomness to change the damage. Base damage is 3
-		#Range: 0.0 ~ 1.0
-		"Fight back chance" = 1.0
 		#Animals have this percentage chance to be scared by players and run away. Fight back chance has priority over this
 		#Range: 0.0 ~ 1.0
 		"Players Scared chance" = 0.0
@@ -861,6 +870,12 @@
 		#Speed multiplier when the animal avoids the player and it's farther than 16 blocks from him.
 		#Range: 0.0 ~ 4.0
 		"Flee speed Multiplier Far" = 1.0
+		#Animals have this percentage chance to be able to fight back instead of fleeing. Animals have a slightly bigger range to attack. Attack damage can't be changed via config due to limitations so use mods like Mobs Properties Randomness to change the damage. Base damage is 3
+		#Range: 0.0 ~ 1.0
+		"Neutral chance" = 0.35
+		#Animals have this percentage chance to be hostile
+		#Range: 0.0 ~ 1.0
+		"Hostile chance" = 0.1
 
 	#Makes animals not tempted by food. Use the entity type tag enhancedai:can_ignore_food_temptation to change animals.
 	[Animals."Not Tempted Animals"]
@@ -906,4 +921,9 @@
 		#Multiplies the distance at which the darkness effect is applied.
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 		"Darkness range multiplier" = 1.0
+		#Multiplies the distance at which vibrations reach wardens.
+		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		"Listen range multiplier" = 2.0
+		#If enabled, will make warden have higher step height making it not need to jump.
+		"Step up" = true
 

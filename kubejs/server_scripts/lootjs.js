@@ -1,4 +1,4 @@
-LootJS.modifiers(event => {
+LootJS.modifiers((event) => {
 	
 	const lootsize = 9;//amount of unique item stacks that will be allowed to generate from a loot table (item stacks can an item with a count so a stack of 6 bones for instance)
 	
@@ -59,22 +59,18 @@ LootJS.modifiers(event => {
 	.removeLoot("nameless_trinkets:nelumbo")
 	.removeLoot("nameless_trinkets:dark_nelumbo")
 	.replaceLoot("minecraft:gold_ingot", LootEntry.of("spelunkery:raw_gold_nugget").limitCount([1, 5]))
-    .replaceLoot("minecraft:iron_ingot", LootEntry.of("spelunkery:raw_iron_nugget").limitCount([1, 5]))
+	.replaceLoot("minecraft:iron_ingot", LootEntry.of("spelunkery:raw_iron_nugget").limitCount([1, 5]))
     .replaceLoot("minecraft:diamond", "spelunkery:rough_diamond_shard")
-	.replaceLoot("minecraft:emerald", "spelunkery:rough_emerald_shard")
+	.replaceLoot("minecraft:emerald", "spelunkery:rough_emerald_shard");
 	
-	event.addLootTypeModifier(LootType.ENTITY)
-	.removeLoot("bonfires:ash_pile");
-	
-	event.addLootTypeModifier(LootType.CHEST).anyDimension("minecraft:overworld").addLoot(
-	LootEntry.of("kubejs:coin_dungeon").when((c) => c.randomChance(0.3)).limitCount([1, 1])
-	)
-	;
+	event.addLootTypeModifier(LootType.ENTITY).removeLoot("bonfires:ash_pile");
+	event.addLootTypeModifier(LootType.ENTITY).killedByPlayer().addLoot(LootEntry.of("kubejs:essence_monster").when((c) => c.randomChance(0.05)).limitCount([0, 1]));
+
+		
 	//Brewing stand drops
 	const brewstand = LootEntry.of("minecraft:brewing_stand").when((c) =>
         c.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
     );	
-	
 	event
         .addBlockLootModifier("minecraft:brewing_stand")
         .removeLoot(Ingredient.all)
@@ -83,27 +79,12 @@ LootJS.modifiers(event => {
             LootEntry.of("minecraft:blaze_powder").when((c) => c.randomChance(0.5)).limitCount([1, 3])
 		);	
 	
-	event.addLootTypeModifier(LootType.CHEST).addLoot
-	(
-	LootEntry.of("kubejs:dust_experience").when((c) => c.randomChance(0.2)).limitCount([1, 2]),
-	LootEntry.of("kubejs:dust_alchemical").when((c) => c.randomChance(0.2)).limitCount([1, 2]),
-	LootEntry.of("kubejs:scraps").when((c) => c.randomChance(0.2)).limitCount([1, 2]),
-	LootEntry.of("kubejs:junk").when((c) => c.randomChance(0.1)).limitCount([1, 1]),
-	LootEntry.of("kubejs:scroll_exp").when((c) => c.randomChance(0.05)).limitCount([1, 1])
-	)
-	;
+	event
+		.addBlockLootModifier("minecraft:gravel")
+		.addAlternativesLoot(
+			LootEntry.of("kubejs:essence_earth").when((c) => c.randomChance(0.05)).limitCount([0, 1])
+		);
 	
-	event.addLootTypeModifier(LootType.ENTITY).addLoot
-	(
-	LootEntry.of("kubejs:essence_monster").when((c) => c.randomChance(0.05)).limitCount([0, 1]),
-	)
-	;
-	
-	event.addBlockLootModifier("minecraft:gravel").addLoot
-	(
-	LootEntry.of("kubejs:essence_earth").when((c) => c.randomChance(0.05)).limitCount([0, 1]),
-	)
-	;
     event.addBlockLootModifier("minecraft:coal_ore").randomChance(0.1).addLoot("kubejs:essence_earth");
 	event.addBlockLootModifier("minecraft:iron_ore").randomChance(0.1).addLoot("kubejs:essence_earth");
 	event.addBlockLootModifier("minecraft:copper_ore").randomChance(0.1).addLoot("kubejs:essence_earth");
@@ -114,39 +95,9 @@ LootJS.modifiers(event => {
 	event.addBlockLootModifier("minecraft:diamond_ore").randomChance(0.3).addLoot("kubejs:essence_earth");
 	
 	
-	event.addBlockLootModifier('minecraft:spawner')
-    .addLoot('kubejs:coin_dungeon')
-	.addLoot('kubejs:spawnercore')
+	event.addBlockLootModifier('minecraft:spawner').addLoot('kubejs:coin_dungeon');
+	event.addBlockLootModifier('minecraft:spawner').addLoot('kubejs:spawnercore');
 	
-
-	event.addLootTypeModifier(LootType.CHEST).anyDimension("aether:the_aether").addLoot(
-	LootEntry.of("kubejs:coin_aether").when((c) => c.randomChance(0.6)).limitCount([1, 1])
-	);		
-	
-	event.addLootTypeModifier(LootType.CHEST).anyDimension("minecraft:the_nether").addLoot(
-	LootEntry.of("kubejs:coin_nether").when((c) => c.randomChance(0.6)).limitCount([1, 1]),
-	LootEntry.of("aquaculture:lockbox").when((c) => c.randomChance(0.1)).limitCount([1, 1]),
-	LootEntry.of("aquaculture:box").when((c) => c.randomChance(0.1)).limitCount([1, 2]),
-	LootEntry.of("aquaculture:treasure_chest").when((c) => c.randomChance(0.05)).limitCount([1, 1]),
-	LootEntry.of("spelunkery:dust_bun").when((c) => c.randomChance(0.2)).limitCount([1, 2])
-	);	
-	
-	event.addLootTypeModifier(LootType.CHEST).anyDimension("minecraft:the_end").addLoot(
-	LootEntry.of("kubejs:coin_end").when((c) => c.randomChance(0.6)).limitCount([1, 1])
-	);
-	
-	event.addLootTypeModifier(LootType.CHEST).anyDimension("undergarden:undergarden").addLoot(
-	LootEntry.of("kubejs:coin_undergarden").when((c) => c.randomChance(0.7)).limitCount([1, 1])
-	);	
-	
-	event.addLootTypeModifier(LootType.CHEST).anyDimension("landsoficaria:icaria").addLoot(
-	LootEntry.of("kubejs:coin_icaria").when((c) => c.randomChance(0.6)).limitCount([1, 1])
-	);	
-	
-	event.addLootTypeModifier(LootType.CHEST).anyDimension("the_bumblezone:the_bumblezone").addLoot(
-	LootEntry.of("kubejs:coin_bumblezone").when((c) => c.randomChance(0.7)).limitCount([1, 1])
-	);	
-
 	
 	//LOOT LIMITER
 	let lootlist = new Array();
@@ -170,9 +121,78 @@ LootJS.modifiers(event => {
                     context.addLoot(item);
                 })
             }
-        })
+        });
 		
-
-		
+		 event.enableLogging();
 //THE END		
-})
+});
+
+LootJS.modifiers((event) => {
+	
+    	event
+		.addLootTypeModifier([LootType.CHEST])
+		.addLoot(
+			LootEntry.of("kubejs:dust_experience").when((c) => c.randomChance(0.2)).limitCount([1, 2]),
+			LootEntry.of("kubejs:dust_alchemical").when((c) => c.randomChance(0.2)).limitCount([1, 2]),
+			LootEntry.of("kubejs:scraps").when((c) => c.randomChance(0.2)).limitCount([1, 2]),
+			LootEntry.of("kubejs:junk").when((c) => c.randomChance(0.1)).limitCount([1, 1]),
+			LootEntry.of("kubejs:scroll_exp").when((c) => c.randomChance(0.05)).limitCount([1, 1])
+		);
+		
+		event	
+		.addLootTypeModifier([LootType.CHEST])
+		.anyDimension("minecraft:overworld")
+		.addLoot(
+			LootEntry.of("kubejs:coin_dungeon").when((c) => c.randomChance(0.3)).limitCount([1, 1])
+		);
+});
+
+LootJS.modifiers((event) => {
+	
+	event
+		.addLootTypeModifier([LootType.CHEST])
+		.anyDimension("aether:the_aether")
+		.addLoot(
+			LootEntry.of("kubejs:coin_aether").when((c) => c.randomChance(0.6)).limitCount([1, 1])
+		);		
+	
+	
+	event
+		.addLootTypeModifier(LootType.CHEST)
+		.anyDimension("minecraft:the_nether")
+		.addLoot(
+			LootEntry.of("kubejs:coin_nether").when((c) => c.randomChance(0.6)).limitCount([1, 1]),
+			LootEntry.of("aquaculture:lockbox").when((c) => c.randomChance(0.1)).limitCount([1, 1]),
+			LootEntry.of("aquaculture:box").when((c) => c.randomChance(0.1)).limitCount([1, 2]),
+			LootEntry.of("aquaculture:treasure_chest").when((c) => c.randomChance(0.05)).limitCount([1, 1]),
+			LootEntry.of("spelunkery:dust_bun").when((c) => c.randomChance(0.2)).limitCount([1, 2])
+		);	
+	
+	event
+		.addLootTypeModifier(LootType.CHEST)
+		.anyDimension("minecraft:the_end")
+		.addLoot(
+			LootEntry.of("kubejs:coin_end").when((c) => c.randomChance(0.6)).limitCount([1, 1])
+		);
+	
+	event
+		.addLootTypeModifier(LootType.CHEST)
+		.anyDimension("undergarden:undergarden")
+		.addLoot(
+			LootEntry.of("kubejs:coin_undergarden").when((c) => c.randomChance(0.7)).limitCount([1, 1])
+		);	
+	
+	event
+		.addLootTypeModifier(LootType.CHEST)
+		.anyDimension("landsoficaria:icaria")
+		.addLoot(
+			LootEntry.of("kubejs:coin_icaria").when((c) => c.randomChance(0.6)).limitCount([1, 1])
+		);	
+	
+	event
+		.addLootTypeModifier(LootType.CHEST)
+		.anyDimension("the_bumblezone:the_bumblezone")
+		.addLoot(
+			LootEntry.of("kubejs:coin_bumblezone").when((c) => c.randomChance(0.7)).limitCount([1, 1])
+		);
+});

@@ -24,8 +24,17 @@
 	virtualGoldNuggetChance = 0.5
 	#Range: 0.0 ~ 1.0
 	guardianSpikeChance = 0.2
+	#Range: 0.0 ~ 1.0
+	brokenTotemChance = 0.5
+
+[items]
+	#Time required to restore durability each time
 	#Range: 0 ~ 100
 	sakuraToolRecoveryTime = 5
+	#Percentage bonus provided by each enchantment
 	#Range: 0.01 ~ 1.0
 	virtualGoldToolPerAdd = 0.05
+	#The reduction probability of durability per point
+	#Range: 0.01 ~ 1.0
+	copperReinforceChance = 0.5
 
