@@ -6,29 +6,8 @@ LootJS.modifiers((event) => {
     //    .replaceLoot('occultism:silver_ore', 'embers:silver_ore', true)
     //    .replaceLoot('occultism:silver_ore_deepslate', 'embers:deepslate_silver_ore', true);
 	
-	// LOOT LIMITER
+
 	const lootsize = 9; // amount of unique item stacks that will be allowed to generate from a loot table (item stacks can an item with a count so a stack of 6 bones for instance)
-	let lootlist = new Array();
-	event.addLootTypeModifier(LootType.CHEST)
-		.apply((context)=>{
-			if (context.lootSize() > lootsize) {
-	
-				lootlist = [];
-				context.forEachLoot((loot) =>{
-					lootlist.push(loot);
-				})
-	
-				context.removeLoot(ItemFilter.ALWAYS_TRUE);
-					
-				while (lootlist.length > lootsize){
-					let index = Math.floor(Math.random() * lootlist.length);
-					lootlist.splice(index,1);
-				}
-				lootlist.forEach(item =>{
-					context.addLoot(item);
-				})
-			}
-		});
 				
 	// blanket banning chest loot items
 	event.addLootTypeModifier(LootType.CHEST)
@@ -185,5 +164,26 @@ LootJS.modifiers((event) => {
 			LootEntry.of("kubejs:coin_bumblezone").when((c) => c.randomChance(0.7)).limitCount([1, 1])
 		);
 
-
+	// LOOT LIMITER
+	let lootlist = new Array();
+	event.addLootTypeModifier(LootType.CHEST)
+		.apply((context)=>{
+			if (context.lootSize() > lootsize) {
+	
+				lootlist = [];
+				context.forEachLoot((loot) =>{
+					lootlist.push(loot);
+				})
+	
+				context.removeLoot(ItemFilter.ALWAYS_TRUE);
+					
+				while (lootlist.length > lootsize){
+					let index = Math.floor(Math.random() * lootlist.length);
+					lootlist.splice(index,1);
+				}
+				lootlist.forEach(item =>{
+					context.addLoot(item);
+				})
+			}
+		});
 });
