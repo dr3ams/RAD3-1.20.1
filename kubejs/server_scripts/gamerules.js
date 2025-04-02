@@ -6,5 +6,6 @@ ServerEvents.loaded(event => {
     server.runCommandSilent('gamerule globalSoundEvents false');
     server.runCommandSilent('gamerule announceAdvancements false');
     server.runCommandSilent('gamerule naturalRegeneration false');
+	server.runCommandSilent('time set noon');
     server.persistentData.setGameRules = true;
 });

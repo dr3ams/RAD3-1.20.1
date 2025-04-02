@@ -1,0 +1,76 @@
+{
+  "list": [
+    {
+      "blacklist": ["l2hostility:counter_strike", "l2hostility:arena", "l2hostility:blindness", "l2hostility:corrosion", "l2hostility:cursed", "l2hostility:dementor", "l2hostility:dispell", "l2hostility:drain", "l2hostility:erosion", "l2hostility:fiery", "l2hostility:freezing", "l2hostility:gravity", "l2hostility:grenade", "l2hostility:growth", "l2hostility:invisible", "l2hostility:killer_aura", "l2hostility:levitation", "l2hostility:master", "l2hostility:moonwalk", "l2hostility:nausea", "l2hostility:poison", "l2hostility:ragnarok", "l2hostility:reflect", "l2hostility:repelling", "l2hostility:reprint", "l2hostility:shulker", "l2hostility:slowness", "l2hostility:soul_burner", "l2hostility:speedy", "l2hostility:split", "l2hostility:teleport", "l2hostility:undying", "l2hostility:weakness", "l2hostility:wither", "l2hostility:protection"],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 20,
+        "min": 10,
+        "scale": 0.0,
+        "trait_chance": 1.0,
+        "variation": 1.0
+      },
+      "entities": [
+        "guardvillagers:guard"
+      ],
+      "items": [],
+      "maxLevel": 0,
+      "minSpawnLevel": 0,
+      "specialConditions": [],
+      "traits": [
+        {
+          "condition": {
+            "chance": 1.0
+          },
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:tank"
+        },
+		{
+          "condition": {
+            "chance": 0.8
+          },
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:regenerate"
+        }
+      ]
+    },
+    {
+      "blacklist": ["l2hostility:counter_strike", "l2hostility:arena", "l2hostility:blindness", "l2hostility:corrosion", "l2hostility:cursed", "l2hostility:dementor", "l2hostility:dispell", "l2hostility:drain", "l2hostility:erosion", "l2hostility:fiery", "l2hostility:freezing", "l2hostility:gravity", "l2hostility:grenade", "l2hostility:growth", "l2hostility:invisible", "l2hostility:killer_aura", "l2hostility:levitation", "l2hostility:master", "l2hostility:moonwalk", "l2hostility:nausea", "l2hostility:poison", "l2hostility:ragnarok", "l2hostility:reflect", "l2hostility:repelling", "l2hostility:reprint", "l2hostility:shulker", "l2hostility:slowness", "l2hostility:soul_burner", "l2hostility:split", "l2hostility:teleport", "l2hostility:undying", "l2hostility:weakness", "l2hostility:wither", "l2hostility:protection"],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 30,
+        "min": 0,
+        "scale": 0.0,
+        "trait_chance": 1.0,
+        "variation": 1.0
+      },
+      "entities": [
+        "minecraft:iron_golem"
+      ],
+      "items": [],
+      "maxLevel": 0,
+      "minSpawnLevel": 10,
+      "specialConditions": [],
+      "traits": [
+        {
+          "condition": {
+            "chance": 1.0
+          },
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:tank"
+        },
+		{
+          "condition": {
+            "chance": 1.0
+          },
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:regenerate"
+        }
+      ]
+    }
+  ]
+}

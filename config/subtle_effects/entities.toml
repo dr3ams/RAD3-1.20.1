@@ -74,7 +74,7 @@ lessViewBlocking = false
 playerFell = true
 mobFell = true
 landMaceAttack = true
-playerRunning = true
+playerRunning = false
 mobRunning = true
 playerRunningRequiresSpeed = false
 
@@ -86,8 +86,8 @@ sounds = true
 extinguishSteam = true
 
 [itemRarity]
-particlesDisplayType = "ON"
-particleColorType = "NAME_COLOR"
+particlesDisplayType = "NOT_COMMON"
+particleColorType = "RARITY_COLOR"
 mixedColorName = true
 useItemBorder = true
 colorOverrides = [  ]

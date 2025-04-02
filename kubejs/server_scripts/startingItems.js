@@ -8,15 +8,11 @@ const startingItems = [
 
   [0, Item.of('minecraft:stone_sword')],
   [1, Item.of('minecraft:golden_pickaxe').enchant('minecraft:unbreaking', 3)],
-  [2, book],
   [3, qbook],
   [4, tome],
-  [5, 'roughtweaks:plaster'],
-  [6, 'roughtweaks:plaster'],
-  [7, Item.of('supplementaries:sack', '{BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:"spelunkery:item_magnet"},{Count:1b,Slot:1b,id:"nameless_trinkets:mysterious_trinket"},{Count:64b,Slot:2b,id:"minecraft:torch"},{Count:1b,Slot:3b,id:"paraglider:paraglider"},{Count:1b,Slot:4b,id:"minecraft:brush"},{Count:1b,Slot:5b,id:"minecraft:ender_pearl"}],id:"minecraft:shulker_box"}}')],
+  [7, Item.of('supplementaries:sack', '{BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:"roughtweaks:plaster"},{Count:16b,Slot:1b,id:"minecraft:torch"},{Count:1b,Slot:2b,id:"paraglider:paraglider"},{Count:1b,Slot:3b,id:"l2hostility:hostility_orb"},{Count:1b,Slot:4b,id:"roughtweaks:plaster"},],id:"minecraft:shulker_box"}}')],
   [8, Item.of('fruitsdelight:jelly_bread', 2, '{JellyEffectRoot:["PINEAPPLE"]}')],
-  [9, 'sophisticatedbackpacks:backpack'],
-  [10, Item.of('l2hostility:hostility_orb')]
+  [9, 'sophisticatedbackpacks:backpack']
 ]
 
 PlayerEvents.loggedIn(event =>{

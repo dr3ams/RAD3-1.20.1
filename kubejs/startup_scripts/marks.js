@@ -4,7 +4,7 @@ console.info('Hello, World! (You will only see this line once in console, during
 
 StartupEvents.registry('item', event => {
 
-event.create('roguefp').displayName('Rogue Fingerprint').tooltip('Used to choose your Specialization path')
+/* event.create('roguefp').displayName('Rogue Fingerprint').tooltip('Used to choose your Specialization path')
 event.create('wizardfp').displayName('Wizard Fingerprint').tooltip('Used to choose your Specialization path')
 event.create('fighterfp').displayName('Fighter Fingerprint').tooltip('Used to choose your Specialization path')
 event.create('crafterfp').displayName('Crafter Fingerprint').tooltip('Used to choose your Specialization path')
@@ -15,7 +15,7 @@ event.create('mark_paladin').displayName('I. Mark of the Paladin')
 event.create('mark_blackguard').displayName('I. Mark of the Blackguard')
 event.create('mark_warrior').displayName('I. Mark of the Warrior')
 event.create('mark_barbarian').displayName('I. Mark of the Barbarian')
-event.create('mark_warlord').displayName('I. Mark of the Warlord')
+event.create('mark_warlord').displayName('I. Mark of the Warlord') 
 //2nd mark fighter
 event.create('mark_crusader').displayName('II. Mark of the Crusader')
 event.create('mark_hexblade').displayName('II. Mark of the Hexblade')
@@ -87,7 +87,7 @@ event.create('mark_sniper').displayName('III. Mark of the Sniper')
 event.create('mark_nightblade').displayName('III. Mark of the Nightblade')
 event.create('mark_captain').displayName('III. Mark of the Captain')
 event.create('mark_underdog').displayName('III. Mark of the Underdog')
-event.create('mark_brigand').displayName('III. Mark of the Brigand')
+event.create('mark_brigand').displayName('III. Mark of the Brigand')*/
 
 //arrows
 event.create('arrow_down').displayName('Green Arrow Down Icon')

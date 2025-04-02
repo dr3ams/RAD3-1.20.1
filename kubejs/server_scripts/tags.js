@@ -28,8 +28,7 @@ ServerEvents.tags('item', event => {
 		
 	event.get('rad3:coin_dimension')
 		.add('kubejs:coin_aether')
-		.add('kubejs:coin_undergarden')	
-		.add('kubejs:coin_twilight')
+		.add('kubejs:coin_undergarden')
 		.add('kubejs:coin_bumblezone')	
 		.add('kubejs:coin_icaria')
 		.add('kubejs:coin_end')	

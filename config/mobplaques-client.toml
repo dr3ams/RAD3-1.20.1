@@ -17,14 +17,14 @@
 	max_plaque_row_width = 108
 	#Distance to the mob at which plaques will still be visible. The distance is halved when the mob is crouching.
 	#Range: > 0
-	max_render_distance = 16
+	max_render_distance = 22
 	#Show plaques from mobs obstructed by walls the player cannot see through, similar to the nameplates of other players.
 	behind_walls = false
 	#Dynamically increase plaque size the further away the camera is to simplify readability.
-	scale_with_distance = true
+	scale_with_distance = false
 	#Height offset from default position.
 	#Range: > -2147483648
-	height_offset = 0
+	height_offset = 5.0
 	#Show plaques for the entity picked by the crosshair only.
 	picked_entity = false
 	#Entities blacklisted from showing any plaques.
@@ -32,7 +32,7 @@
 	mob_blacklist = ["minecraft:armor_stand", "naturalist:bass", "naturalist:butterfly", "naturalist:canary", "naturalist:cardinal", "naturalist:caterpillar", "naturalist:finch", "naturalist:firefly", "naturalist:robin", "naturalist:snail", "naturalist:sparrow"]
 	#Custom scale for rendering plaques.
 	#Range: 0.05 ~ 2.0
-	plaque_scale = 1.0
+	plaque_scale = 0.8
 	#Hide all plaques when mob has full health.
 	hide_at_full_health = false
 	#Are mob plaques enabled, toggleable in-game using the 'J' key by default.

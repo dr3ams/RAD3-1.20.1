@@ -5,6 +5,15 @@
 	group: "241F1DC7B6D6E9D6"
 	icon: "kubejs:book2"
 	id: "24B56A274D017BC5"
+	images: [{
+		corner: true
+		height: 9.0d
+		image: "rad3:textures/misc/sstories.png"
+		rotation: 0.0d
+		width: 7.0d
+		x: -9.5d
+		y: 4.0d
+	}]
 	order_index: 11
 	quest_links: [ ]
 	quests: [
@@ -42,7 +51,7 @@
 			}]
 			title: "The Blacksmith's Burden"
 			x: -5.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["303C9F12C46AB4A9"]
@@ -78,7 +87,7 @@
 			}]
 			title: "Open the package"
 			x: -3.5d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["303C9F12C46AB4A9"]
@@ -247,6 +256,17 @@
 			icon: "farmersdelight:cooking_pot"
 			id: "1EF128BE99F4309D"
 			incompatible: ["7BA2CF8F9F125C31"]
+			rewards: [{
+				id: "2010673A2B2D02AA"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "hmag:hmag.ogre"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3E4E70A7C5313EFA"
 				item: "farmersdelight:stuffed_pumpkin_block"
@@ -445,6 +465,680 @@
 			}]
 			x: 7.0d
 			y: 1.0d
+		}
+		{
+			description: [
+				"The air hangs heavy with the stench of stale ale and unwashed bodies. You, a lone traveler, stumbled upon an &4Illager camp."
+				""
+				"Overhearing their crude boasts, you learn of a brutal initiation rite: &na raid on the unsuspecting village&r. "
+				""
+				"&9A choice hangs heavy in the air, sharp as a brigand's blade...&r"
+			]
+			id: "424C3DA5FE66B323"
+			rewards: [{
+				id: "652171C906819A66"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "minecraft:textures/mob_effect/bad_omen.png"
+					}
+				}
+				id: "084166061F3F47D1"
+				structure: "nova_structures:illager_camp"
+				type: "structure"
+			}]
+			title: "Bad Reputation"
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["424C3DA5FE66B323"]
+			description: ["Join the bandits. "]
+			icon: "graveyard:skull_on_pike"
+			id: "52B281617D229C20"
+			incompatible: ["7FE6E8837582CDB7"]
+			rewards: [{
+				command: "/locate structure #towns_and_towers:town"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "kubejs:map"
+				id: "0F8D37B6656477FA"
+				title: "This will print coordinates to the chat. Write them down to not lose it."
+				type: "command"
+			}]
+			subtitle: "&4Incompatible with \"The Path of Justice\"&r"
+			tasks: [{
+				id: "3D9E4F8812903A77"
+				type: "checkmark"
+			}]
+			title: "Embrace the Shadows"
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["424C3DA5FE66B323"]
+			description: ["Report the bandits to the guards in the nearby town. "]
+			icon: {
+				Count: 1
+				id: "deep_aether:wind_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7FE6E8837582CDB7"
+			incompatible: ["52B281617D229C20"]
+			rewards: [{
+				auto: "disabled"
+				command: "/locate structure #towns_and_towers:town"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "kubejs:map"
+				id: "212981EF1E0528F4"
+				title: "This will print coordinates to the chat. Write them down to not lose it."
+				type: "command"
+			}]
+			subtitle: "&4Incompatible with \"Embrace the Shadows\"&r"
+			tasks: [{
+				id: "43C9AC749CFAAA54"
+				type: "checkmark"
+			}]
+			title: "The Path of Justice"
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["52B281617D229C20"]
+			description: [
+				"Prove your worth by participating in the raid. "
+				""
+				"The rewards are plentiful – riches, power, and a place among these ruthless outlaws. "
+				""
+				"But the path is fraught with peril. "
+				""
+				"The villagers are not defenseless, and failure could mean a swift and brutal end. "
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "attributeslib:textures/mob_effect/bleeding.png"
+				}
+			}
+			id: "548F6CFC69DF205D"
+			rewards: [
+				{
+					id: "358024E002288A50"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "68F7FDC6FA906B1B"
+					item: "graveyard:vial_of_blood"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:villager"
+					id: "71BEB50C3C9633FD"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "minecraft:iron_golem"
+					id: "528CAC7C894B7A9B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "36F7BD55EBDCE7DE"
+					item: "minecraft:bell"
+					type: "item"
+				}
+			]
+			title: "The bloody trial"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7FE6E8837582CDB7"]
+			description: [
+				"Justice will be served."
+				""
+				"But the bandits are cunning and well-hidden. Bringing them to justice will require careful planning, strategic alliances, and a willingness to risk your life. "
+				""
+				"Will you be able to expose their hideout and secure their capture before they strike? The fate of the village rests on your shoulders."
+			]
+			id: "003ED95E5ACEA59E"
+			rewards: [{
+				id: "03921C3EEB0D2F0C"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "032EBEAE58B40D81"
+				observe_type: 5
+				timer: 0L
+				to_observe: "guardvillagers:guard"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["003ED95E5ACEA59E"]
+			description: ["Village guard explains that the village is in dire need of supplies to prepare for the impending raid illager's gang. Your mission is clear: you must gather essential supplies to help fortify the village and protect its inhabitants."]
+			id: "1575E8A79C805DDB"
+			rewards: [{
+				id: "3D0E89109ACFCE30"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "6D5A9EC3D1214720"
+				type: "checkmark"
+			}]
+			title: "Gather Supplies"
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["548F6CFC69DF205D"]
+			description: [
+				"&o&8Having successfully completed the raid, you stand amidst the spoils, the adrenaline still coursing through your veins. The air is thick with the scent of smoke and fear, a stark testament to the night's events. You carefully gather yourself, the weight of your actions settling upon your shoulders.&r&r"
+				""
+				"Before you lies the next step: contacting &4Krag, the leader of illagers&r to claim your place within their ranks. You carefully craft a message, using charcoal and a scrap of parchment salvaged from the village. "
+				""
+				"\""
+				"&o&3The task is complete. "
+				"&o&3As promised, I have proven my worth. "
+				"&o&3I await your instructions regarding the location of your hideout. "
+				"&o&3I am ready to join your ranks.&r&r"
+				"\""
+				""
+				"&o&8You carefully fold the note, concealing it within a small, hollowed-out stone. This will be your messenger, a silent testament to your newfound allegiance. You choose a discreet location near the outskirts of the bandit camp, placing the stone in a pre-determined spot known only to the bandits. &r&r"
+			]
+			icon: "minecraft:paper"
+			id: "5D52212630DE2EE7"
+			rewards: [{
+				id: "6581C48B9339591D"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					id: "47E11818BC917091"
+					item: "spelunkery:charcoal_lump"
+					type: "item"
+				}
+				{
+					id: "5ED6D51BB88B45FE"
+					item: "minecraft:paper"
+					type: "item"
+				}
+			]
+			title: "Illager's Hideout"
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5D52212630DE2EE7"]
+			description: [
+				"Now, you wait, the anticipation hanging heavy in the air. "
+				""
+				"The path you've chosen is fraught with danger and uncertainty, but the allure of power and belonging is strong."
+			]
+			id: "0B08811AC3483A75"
+			rewards: [{
+				id: "245EA40480D1742E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				elapsedTime: 300L
+				id: "3C2F9A4A0F148A6A"
+				type: "questsadditions:time"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0B08811AC3483A75"]
+			description: [
+				"A few days pass, filled with tense anticipation."
+				""
+				"After you wake up in your camp you notice a small note without any text."
+				""
+				"&e&nThe coordinates!&r&r"
+			]
+			id: "367683643CE78873"
+			rewards: [
+				{
+					command: "/locate structure takesapillage:bastille"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "kubejs:map"
+					id: "3BC5A1FE9AC17738"
+					title: "This will print coordinates to the chat. Write them down to not lose it."
+					type: "command"
+				}
+				{
+					id: "7BC9B882CD5861CF"
+					item: {
+						Count: 1
+						id: "supplementaries:cartographers_quill"
+						tag: {
+							display: {
+								Name: "{\"text\":\"Map to Illager's Bastille\"}"
+							}
+							maxSearchRadius: 150
+							skinKnown: 1b
+							targetStructure: "takesapillage:bastille"
+							zoomLevel: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "05A9A2069337B1A1"
+				type: "checkmark"
+			}]
+			title: "The reply?"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2256D8378C8CA364"]
+			description: [
+				"Finally, through the smoke and dust, you see him: &4Krag&r, his scarred face twisted in a mask of rage. He charges, his blade a blur of steel. The clash is fierce, a whirlwind of blades and blood. You parry his attacks, your own blade finding its mark again and again. You fight with a ferocity born of desperation, fueled by a growing sense of vengeance."
+				""
+				"In a final, desperate lunge, you disarm &4Krag&r, your blade finding its way to his heart. He collapses, his eyes wide with disbelief. "
+				""
+				"The fight is over. Silence descends upon the clearing, broken only by the ragged breaths of the survivors. You stand amidst the carnage, your heart pounding, your hands trembling. You've won, but at a terrible cost. You've slain Krag, the leader of the bandits, and claimed his sword, a symbol of your triumph and a reminder of the darkness you've embraced."
+			]
+			id: "4ADB9500DDDE28EA"
+			rewards: [
+				{
+					id: "6D45F9BA5FA5AB1D"
+					item: {
+						Count: 1
+						id: "simplyswords:iron_claymore"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:durable": 0.3f
+									"apotheosis:heavy_weapon/attribute/decimating": 0.99166036f
+									"apotheosis:heavy_weapon/attribute/forceful": 0.12843049f
+									"apotheosis:heavy_weapon/attribute/giant_slaying": 0.3165658f
+									"apotheosis:heavy_weapon/mob_effect/caustic": 0.86358905f
+									"apotheosis:heavy_weapon/special/cleaving": 0.20121396f
+								}
+								name: "{\"color\":\"#BB00BB\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:heavy_weapon/special/cleaving\"},\"\",{\"translate\":\"affix.apotheosis:heavy_weapon/attribute/decimating.suffix\"}]}"
+								rarity: "apotheosis:epic"
+								sockets: 3
+								uuids: [[I;
+									-851804215
+									-913227618
+									-1461956452
+									82075583
+								]]
+							}
+							display: {
+								Name: "{\"text\":\"Krag's Claymore\"}"
+							}
+							gems_count: 3
+							itemModifier: "modifiers:legendary"
+							reinforce_level: 0
+							reinforce_max: 10
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3847362C1DD905D8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					entity: "takesapillage:skirmisher"
+					id: "74D99A9ADEFE3C80"
+					type: "kill"
+					value: 15L
+				}
+				{
+					entity: "takesapillage:archer"
+					id: "6545E2319F777337"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "takesapillage:legioner"
+					id: "24234DCAF32E8217"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "minecraft:pillager"
+					id: "211124592BF82E10"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["367683643CE78873"]
+			description: [
+				"You arrive at the designated meeting point. "
+				""
+				"But something feels off. The air feels thick, charged with an undercurrent of tension."
+				""
+				"Bandits, their faces twisted in fury, charge from all around. They've been waiting for you, their ambush carefully planned."
+				""
+				"You've been lured into a trap, a carefully orchestrated ambush by the very man you thought was your ally."
+				""
+				"You're outnumbered, but you're not outmatched. You've honed your skills in countless battles, and they serve you well. You weave through the chaos, your senses heightened, your reflexes lightning-fast. You dispatch bandit after bandit, each fallen foe adding to your growing sense of triumph. But the fight is far from over. More bandits emerge from the shadows, their numbers seemingly endless."
+				""
+				"The battle rages on, a brutal dance of death. You're surrounded, but you fight with the ferocity of a cornered beast. Your blade sings a deadly song, each strike a testament to your survival instinct. "
+				""
+				"You're not sure how much longer you can hold out, but you're determined to fight until your last breath."
+			]
+			id: "2256D8378C8CA364"
+			rewards: [{
+				auto: "enabled"
+				id: "2C71AE9796AB2F96"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7F977070645C19AF"
+				structure: "takesapillage:bastille"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"70B131FECAD482C7"
+				"75F8CFA5E1AE007E"
+				"4D1D09DC5BAAD5D0"
+			]
+			description: [
+				"Now that I helped the village to prepare I also gathered enough evidences to locate illager's hideout."
+				""
+				"Some of the townfolks also decided to join me."
+			]
+			id: "63D38B0DBF63AF4D"
+			rewards: [
+				{
+					command: "/locate structure nova_structures:illager_hideout"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "kubejs:map"
+					id: "69091720EB6B70D2"
+					title: "This will print coordinates to the chat. Write them down to not lose it."
+					type: "command"
+				}
+				{
+					count: 6
+					id: "26643786E6528246"
+					item: "guardvillagers:guard_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "35D003345C056C54"
+					item: {
+						Count: 1
+						id: "supplementaries:cartographers_quill"
+						tag: {
+							display: {
+								Name: "{\"text\":\"Map to Illager Hideout\"}"
+							}
+							maxSearchRadius: 150
+							skinKnown: 1b
+							targetStructure: "nova_structures:illager_hideout"
+							zoomLevel: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "141ADD0A8565327E"
+				title: "Gathering Evidence"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["381F497D537D074D"]
+			description: [
+				"As you descend into the darkness, the air grows cooler and mustier. You can hear faint sounds echoing through the tunnels, hinting at the presence of the bandits."
+				""
+				"The fight begins."
+				""
+				"You're outnumbered, but you're not outmatched. You've honed your skills in countless battles, and they serve you well. You weave through the chaos, your senses heightened, your reflexes lightning-fast. You dispatch bandit after bandit, each fallen foe adding to your growing sense of triumph. But the fight is far from over. More bandits emerge from the shadows, their numbers seemingly endless."
+				""
+				"The battle rages on, a brutal dance of death. You're surrounded, but you fight with the ferocity of a cornered beast. Your blade sings a deadly song, each strike a testament to your survival instinct. "
+				""
+				"You're not sure how much longer you can hold out, but you're determined to fight until your last breath."
+			]
+			id: "11AC81CE6384C5F5"
+			rewards: [
+				{
+					id: "7C20B635877054F3"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "dungeon_artifact_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6305513D59C2491E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:evoker"
+					id: "0FC287C97E325C94"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:pillager"
+					id: "76B85EA5620E0FAD"
+					type: "kill"
+					value: 20L
+				}
+				{
+					entity: "minecraft:vindicator"
+					id: "24285CDDE9448795"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "minecraft:ravager"
+					id: "2E0069861A7EA47F"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "minecraft:witch"
+					id: "6ECAFCDDAEFD28F9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "The Final Confrontation"
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1575E8A79C805DDB"]
+			description: ["As you assist the Blacksmith, he shares valuable clues about the bandit hideout that could prove crucial for your mission. "]
+			id: "70B131FECAD482C7"
+			rewards: [{
+				id: "75684207E858A555"
+				item: {
+					Count: 1
+					id: "minecraft:bow"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:power"
+								lvl: 2s
+							}
+							{
+								id: "minecraft:punch"
+								lvl: 2s
+							}
+						]
+						RepairCost: 3
+						affix_data: {
+							affixes: {
+								"apotheosis:durable": 0.09f
+								"apotheosis:ranged/attribute/elven": 0.10268295f
+								"apotheosis:ranged/attribute/windswept": 0.8680264f
+								"apotheosis:ranged/mob_effect/fleeting": 0.43698692f
+								"apotheotic_additions:ranged/mob_effect/inebriation": 0.93198025f
+							}
+							name: "{\"color\":\"#5555FF\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:ranged/attribute/elven\"},\"\",{\"translate\":\"affix.apotheosis:ranged/mob_effect/fleeting.suffix\"}]}"
+							rarity: "apotheosis:rare"
+							sockets: 1
+							uuids: [[I;
+								-2064885824
+								-1010218967
+								-2145675556
+								-1247861512
+							]]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "6FA3D4B5A76F01AC"
+					item: { Count: 64, id: "minecraft:arrow" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0F071BE9240155BC"
+					item: {
+						Count: 1
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Weapons and Defense Gear"
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1575E8A79C805DDB"]
+			description: ["After your work with the blacksmith, you turn your attention to the cook, who shares some intriguing rumors that could provide further insight into the bandits' activities."]
+			id: "75F8CFA5E1AE007E"
+			rewards: [{
+				id: "445EF4DFA3305B7F"
+				item: {
+					Count: 1
+					id: "roughtweaks:medkit_enchanted"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0B5139F167C67F1B"
+					item: "fruitsdelight:lychee_chicken"
+					type: "item"
+				}
+				{
+					id: "74E94446433CCCBE"
+					item: "fruitsdelight:orange_marinated_pork"
+					type: "item"
+				}
+			]
+			title: "Food Supplies"
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["63D38B0DBF63AF4D"]
+			description: [
+				"With determination in your heart, you decide to use the map to locate the bandits' hideout, which is said to be hidden deep underground. The clues you've gathered from the blacksmith, cook, and cleric guide you as you embark on this crucial mission."
+				""
+				"The map indicates that the entrance to the hideout is concealed in a remote area, possibly covered by natural foliage or hidden within a rocky outcrop."
+			]
+			id: "381F497D537D074D"
+			rewards: [{
+				id: "125A144DD993C7D9"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "29DEF943866E9A13"
+				structure: "nova_structures:illager_hideout"
+				type: "structure"
+			}]
+			title: "Find Illager Hideout"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1575E8A79C805DDB"]
+			description: ["As you speak with the cleric, he shares some intriguing rumors that could provide valuable insights into the bandits' activities and their plans."]
+			id: "4D1D09DC5BAAD5D0"
+			rewards: [{
+				count: 3
+				id: "100F6D5F683BD623"
+				item: "fruitsdelight:melon_jello"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5446C9082A7673F4"
+				item: {
+					Count: 1
+					id: "roughtweaks:bandage"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Medical Supplies"
+			x: 1.0d
+			y: 9.0d
 		}
 	]
 	title: "Side stories"
