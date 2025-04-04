@@ -17,6 +17,7 @@ event.create('rick').displayName('Pet Coal').unstackable().burnTime(60000).rarit
 
 //apoth
 event.create('socketweaver').displayName('Socket Weaver')
+event.create('gem_shard').displayName('Gem Shard')
 
 //coins
 //quest coins

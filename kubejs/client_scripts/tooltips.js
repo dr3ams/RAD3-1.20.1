@@ -201,6 +201,61 @@ ItemEvents.tooltip(event =>{
 		])
     }
   })
+
+	event.addAdvanced(['kubejs:gem_shard'], (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').gold(),
+        Text.of('to see more info.').gray()
+      ])
+	    text.add(2, [
+        Text.of('⭐ Mastery: ').darkRed(),
+        Text.of('Scavenging').white()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• Can be found in chests').white()
+		])
+      text.add(2, [
+        Text.of('• 9 shards can be converted into a random Common').white(),
+        Text.of('Apotheosis ').darkRed(),
+		Text.of('gem ').white()
+		])
+      text.add(2, [
+	    Text.of('• Find out more details in ').white(),
+        Text.of('⭐ Masteries ').darkRed(),
+        Text.of('questbook chapter').white()
+      ])
+    }
+	})
+
+	event.addAdvanced(['kubejs:junk'], (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').gold(),
+        Text.of('to see more info.').gray()
+      ])
+	    text.add(2, [
+        Text.of('⭐ Mastery: ').darkRed(),
+        Text.of('Scavenging').white()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• Can be found in chests').white()
+		])
+      text.add(2, [
+        Text.of('• Additional resources can be extracted from it using one of the ').white(),
+        Text.of('⭐ Masteries').darkRed()
+		])
+      text.add(2, [
+	    Text.of('• Find out more details in ').white(),
+        Text.of('⭐ Masteries ').darkRed(),
+        Text.of('questbook chapter').white()
+      ])
+    }
+	})
   
 	event.addAdvanced(['kubejs:essence_monster', 'kubejs:essence_monster_raw'], (item, advanced, text) => {
     if (!event.isShift()) {
@@ -211,7 +266,7 @@ ItemEvents.tooltip(event =>{
       ])
 	    text.add(2, [
         Text.of('⭐ Mastery: ').darkRed(),
-        Text.of('Enchanting, Alchemy ').white()
+        Text.of('Enchanting, Alchemy').white()
       ])
     } else {
       text.add(1, [

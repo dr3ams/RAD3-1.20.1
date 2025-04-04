@@ -1055,7 +1055,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			can_repeat: true
@@ -1362,6 +1362,23 @@
 			title: "Advanced Equipment Recycling"
 			x: 6.5d
 			y: 12.0d
+		}
+		{
+			dependencies: ["132E2FA2094CD5E2"]
+			id: "48E8C1E0D395F743"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "104836A3E6C9150B"
+				table_id: 573245875837539353L
+				type: "random"
+			}]
+			tasks: [{
+				id: "70C3B396BA66907F"
+				item: "kubejs:gem_shard"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
 		}
 	]
 	title: "⭐ Masteries"

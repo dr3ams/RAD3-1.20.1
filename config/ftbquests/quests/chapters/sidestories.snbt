@@ -499,6 +499,8 @@
 		{
 			dependencies: ["424C3DA5FE66B323"]
 			description: ["Join the bandits. "]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			icon: "graveyard:skull_on_pike"
 			id: "52B281617D229C20"
 			incompatible: ["7FE6E8837582CDB7"]
@@ -523,6 +525,8 @@
 		{
 			dependencies: ["424C3DA5FE66B323"]
 			description: ["Report the bandits to the guards in the nearby town. "]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "deep_aether:wind_shield"
@@ -562,6 +566,8 @@
 				""
 				"The villagers are not defenseless, and failure could mean a swift and brutal end. "
 			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -614,6 +620,8 @@
 				""
 				"Will you be able to expose their hideout and secure their capture before they strike? The fate of the village rests on your shoulders."
 			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "003ED95E5ACEA59E"
 			rewards: [{
 				id: "03921C3EEB0D2F0C"
@@ -633,6 +641,8 @@
 		{
 			dependencies: ["003ED95E5ACEA59E"]
 			description: ["Village guard explains that the village is in dire need of supplies to prepare for the impending raid illager's gang. Your mission is clear: you must gather essential supplies to help fortify the village and protect its inhabitants."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "1575E8A79C805DDB"
 			rewards: [{
 				id: "3D0E89109ACFCE30"
@@ -663,6 +673,8 @@
 				""
 				"&o&8You carefully fold the note, concealing it within a small, hollowed-out stone. This will be your messenger, a silent testament to your newfound allegiance. You choose a discreet location near the outskirts of the bandit camp, placing the stone in a pre-determined spot known only to the bandits. &r&r"
 			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			icon: "minecraft:paper"
 			id: "5D52212630DE2EE7"
 			rewards: [{
@@ -693,6 +705,8 @@
 				""
 				"The path you've chosen is fraught with danger and uncertainty, but the allure of power and belonging is strong."
 			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "0B08811AC3483A75"
 			rewards: [{
 				id: "245EA40480D1742E"
@@ -716,6 +730,8 @@
 				""
 				"&e&nThe coordinates!&r&r"
 			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "367683643CE78873"
 			rewards: [
 				{
@@ -762,6 +778,8 @@
 				""
 				"The fight is over. Silence descends upon the clearing, broken only by the ragged breaths of the survivors. You stand amidst the carnage, your heart pounding, your hands trembling. You've won, but at a terrible cost. You've slain Krag, the leader of the bandits, and claimed his sword, a symbol of your triumph and a reminder of the darkness you've embraced."
 			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "4ADB9500DDDE28EA"
 			rewards: [
 				{
@@ -853,6 +871,8 @@
 				""
 				"You're not sure how much longer you can hold out, but you're determined to fight until your last breath."
 			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "2256D8378C8CA364"
 			rewards: [{
 				auto: "enabled"
@@ -879,6 +899,8 @@
 				""
 				"Some of the townfolks also decided to join me."
 			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "63D38B0DBF63AF4D"
 			rewards: [
 				{
@@ -993,6 +1015,8 @@
 		{
 			dependencies: ["1575E8A79C805DDB"]
 			description: ["As you assist the Blacksmith, he shares valuable clues about the bandit hideout that could prove crucial for your mission. "]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "70B131FECAD482C7"
 			rewards: [{
 				id: "75684207E858A555"
@@ -1064,6 +1088,8 @@
 		{
 			dependencies: ["1575E8A79C805DDB"]
 			description: ["After your work with the blacksmith, you turn your attention to the cook, who shares some intriguing rumors that could provide further insight into the bandits' activities."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "75F8CFA5E1AE007E"
 			rewards: [{
 				id: "445EF4DFA3305B7F"
@@ -1099,6 +1125,8 @@
 				""
 				"The map indicates that the entrance to the hideout is concealed in a remote area, possibly covered by natural foliage or hidden within a rocky outcrop."
 			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "381F497D537D074D"
 			rewards: [{
 				id: "125A144DD993C7D9"
@@ -1117,6 +1145,8 @@
 		{
 			dependencies: ["1575E8A79C805DDB"]
 			description: ["As you speak with the cleric, he shares some intriguing rumors that could provide valuable insights into the bandits' activities and their plans."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "4D1D09DC5BAAD5D0"
 			rewards: [{
 				count: 3
@@ -1139,6 +1169,18 @@
 			title: "Medical Supplies"
 			x: 1.0d
 			y: 9.0d
+		}
+		{
+			description: ["In this questline you will "]
+			icon: "kubejs:help"
+			id: "6A5B16720A8BDA7E"
+			size: 0.5d
+			tasks: [{
+				id: "7400E2A9741F6AEF"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 5.75d
 		}
 	]
 	title: "Side stories"
