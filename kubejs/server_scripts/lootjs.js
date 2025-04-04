@@ -43,7 +43,7 @@ LootJS.modifiers((event) => {
 		.removeLoot("nameless_trinkets:tear_of_the_sea")
 		.removeLoot("nameless_trinkets:amphibious_hands")
 		.removeLoot("nameless_trinkets:gills")
-		.removeLoot("nameless_trinkets:true_heart_of_the_sea")
+		.replaceLoot("nameless_trinkets:true_heart_of_the_sea", "minecraft:heart_of_the_sea")
 		.removeLoot("nameless_trinkets:moon_stone")
 		.removeLoot("nameless_trinkets:sleeping_pills")
 		.removeLoot("nameless_trinkets:spider_legs")
