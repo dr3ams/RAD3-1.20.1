@@ -182,7 +182,7 @@ ItemEvents.tooltip(event =>{
         text.add(2, [
         Text.of('• Exchange in ').white(),
 		Text.of('⭐ The Market ').yellow(),
-		Text.of('quest chapter for random ').white(),
+		Text.of('quest chapter for a random ').white(),
 		Text.of('Relic').darkPurple()
 		])
     }
@@ -242,7 +242,7 @@ ItemEvents.tooltip(event =>{
       ])
     } else {
       text.add(1, [
-        Text.of('• Aquired by disassembling ').white(),
+        Text.of('• Acquired by disassembling ').white(),
 		Text.of('Artifacts ').gold(),
 		Text.of('or ').white(),
 		Text.of('Relics').darkPurple()
@@ -319,7 +319,7 @@ ItemEvents.tooltip(event =>{
       ])
     } else {
       text.add(1, [
-        Text.of('• Main ingridient needed for leveling up the ').white(),
+        Text.of('• Main ingredient needed for leveling up the ').white(),
 		Text.of('Scavenging ⭐ Mastery').blue()
 		])
 		text.add(2, [
@@ -345,7 +345,7 @@ ItemEvents.tooltip(event =>{
       ])
     } else {
       text.add(1, [
-        Text.of('• Main ingridient needed for leveling up the ').white(),
+        Text.of('• Main ingredient needed for leveling up the ').white(),
 		Text.of('Alchemy ⭐ Mastery').darkPurple()
 		])
 		text.add(2, [
@@ -371,7 +371,7 @@ ItemEvents.tooltip(event =>{
       ])
     } else {
       text.add(1, [
-        Text.of('• Main ingridient needed for leveling up the ').white(),
+        Text.of('• Main ingredient needed for leveling up the ').white(),
 		Text.of('Enchanting ⭐ Mastery').green()
 		])
 		text.add(2, [
