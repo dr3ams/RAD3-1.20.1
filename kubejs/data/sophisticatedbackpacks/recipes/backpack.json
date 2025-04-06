@@ -1,0 +1,31 @@
+{
+  "type": "sophisticatedbackpacks:basic_backpack",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:backpack"
+    }
+  ],
+  "key": {
+    "C": {
+      "tag": "forge:chests/wooden"
+    },
+    "L": {
+      "tag": "forge:leather"
+    },
+    "S": {
+      "tag": "forge:string"
+    },
+    "F": {
+      "item": "zombie_fabrics:fabric"
+    }
+  },
+  "pattern": [
+    "SFS",
+    "SCS",
+    "FLF"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:backpack"
+  }
+}

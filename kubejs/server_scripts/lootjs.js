@@ -62,7 +62,31 @@ LootJS.modifiers((event) => {
 		.replaceLoot("minecraft:gold_ingot", LootEntry.of("spelunkery:raw_gold_nugget").limitCount([1, 5]))
 		.replaceLoot("minecraft:iron_ingot", LootEntry.of("spelunkery:raw_iron_nugget").limitCount([1, 5]))
 		.replaceLoot("minecraft:diamond", "spelunkery:rough_diamond_shard")
-		.replaceLoot("minecraft:emerald", "spelunkery:rough_emerald_shard");
+		.replaceLoot("minecraft:emerald", "spelunkery:rough_emerald_shard")
+		.replaceLoot("minecraft:diamond_pickaxe", "spelunkery:rough_diamond")
+		.replaceLoot("minecraft:diamond_sword", "spelunkery:rough_diamond")
+		.replaceLoot("minecraft:diamond_chestplate", "spelunkery:rough_diamond")
+		.replaceLoot("minecraft:diamond_leggings", "spelunkery:rough_diamond")
+		.replaceLoot("aether:diamond_gloves", "spelunkery:rough_diamond")
+		.replaceLoot("minecraft:diamond_axe", "spelunkery:rough_diamond")
+		.replaceLoot("simplyswords:diamond_longsword", "spelunkery:rough_diamond")
+		.replaceLoot("simplyswords:diamond_twinblade", "spelunkery:rough_diamond") 
+		.replaceLoot("simplyswords:diamond_rapier", "spelunkery:rough_diamond") 
+		.replaceLoot("simplyswords:diamond_katana", "spelunkery:rough_diamond") 
+		.replaceLoot("simplyswords:diamond_sai", "spelunkery:rough_diamond") 
+		.replaceLoot("simplyswords:diamond_spear", "spelunkery:rough_diamond") 
+		.replaceLoot("simplyswords:diamond_glaive", "spelunkery:rough_diamond") 
+		.replaceLoot("simplyswords:diamond_warglaive", "spelunkery:rough_diamond") 
+		.replaceLoot("simplyswords:diamond_cutlass", "spelunkery:rough_diamond") 
+		.replaceLoot("simplyswords:diamond_cutlass", "spelunkery:rough_diamond") 
+		.replaceLoot("simplyswords:diamond_claymore", "spelunkery:rough_diamond") 
+		.replaceLoot("simplyswords:diamond_greathammer", "spelunkery:rough_diamond") 
+		.replaceLoot("simplyswords:diamond_greataxe", "spelunkery:rough_diamond") 
+		.replaceLoot("simplyswords:diamond_chakram", "spelunkery:rough_diamond") 
+		.replaceLoot("simplyswords:diamond_scythe", "spelunkery:rough_diamond")
+		.replaceLoot("simplyswords:diamond_halberd", "spelunkery:rough_diamond")
+		.replaceLoot("simplyswords:diamond_longsword", "spelunkery:rough_diamond");
+		
 	
 	// Blanket banning specific loot from mobs
 	event.addLootTypeModifier(LootType.ENTITY)
@@ -98,8 +122,8 @@ LootJS.modifiers((event) => {
 	event.addBlockLootModifier("minecraft:diamond_ore").randomChance(0.3).addLoot("kubejs:essence_earth");
 	
 	// Adding drops to spawners
-	event.addBlockLootModifier('minecraft:spawner').addLoot('kubejs:coin_dungeon');
-	event.addBlockLootModifier('minecraft:spawner').addLoot('kubejs:spawnercore');
+	event.addBlockLootModifier("minecraft:spawner").addLoot("kubejs:coin_dungeon");
+	event.addBlockLootModifier("minecraft:spawner").addLoot("kubejs:spawnercore");
 	
 	// GLOBAL custom chest loot
 	event.addLootTypeModifier([LootType.CHEST])
@@ -116,7 +140,8 @@ LootJS.modifiers((event) => {
 		.anyDimension("minecraft:overworld")
 		.addLoot(
 			LootEntry.of("kubejs:coin_dungeon").when((c) => c.randomChance(0.3)).limitCount([1, 1])
-		);
+		)
+		.replaceLoot("apotheosis:gem", "kubejs:gem_shard");
 
 	// NETHER-SPECIFIC custom chest loot
 	event.addLootTypeModifier(LootType.CHEST)
@@ -164,7 +189,7 @@ LootJS.modifiers((event) => {
 			LootEntry.of("kubejs:coin_bumblezone").when((c) => c.randomChance(0.7)).limitCount([1, 1])
 		);
 
-	// LOOT LIMITER
+	// LOOT LIMITER - MUST BE AT THE END
 	let lootlist = new Array();
 	event.addLootTypeModifier(LootType.CHEST)
 		.apply((context)=>{
@@ -186,4 +211,6 @@ LootJS.modifiers((event) => {
 				})
 			}
 		});
+		
+	/// EOF
 });

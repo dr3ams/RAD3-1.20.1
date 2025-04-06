@@ -1,0 +1,73 @@
+{
+  "replace": false,
+  "trades": [
+    {
+      "type": "goblintraders:basic",
+      "enchantments": [
+        {
+          "id": "minecraft:sharpness",
+          "level": 7
+        },
+        {
+          "id": "minecraft:unbreaking",
+          "level": 7
+        }
+      ],
+      "experience": 500,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:diamond_sword",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 5,
+        "item": "minecraft:dragon_head"
+      },
+      "price_multiplier": 0.0,
+      "secondary_payment_item": {
+        "count": 1,
+        "item": "minecraft:diamond_sword",
+        "nbt": "{Damage:0}"
+      }
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 500,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "apotheosis:gem",
+		"nbt": "{affix_data:{rarity:\"apotheosis:mythic\"},gem:\"apotheosis:the_nether/inferno\"}"
+      },
+      "payment_item": {
+        "count": 16,
+        "item": "kubejs:gem_shard"
+      },
+      "price_multiplier": 0.0,
+      "secondary_payment_item": {
+        "count": 32,
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 500,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "apotheosis:gem",
+		"nbt": "{affix_data:{rarity:\"apotheosis:epic\"},gem:\"apotheotic_additions:modded/midas\"}"
+      },
+      "payment_item": {
+        "count": 16,
+        "item": "kubejs:gem_shard"
+      },
+      "price_multiplier": 0.0,
+      "secondary_payment_item": {
+        "count": 10,
+        "item": "minecraft:gold_block"
+      }
+    }
+  ]
+}

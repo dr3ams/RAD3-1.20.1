@@ -783,19 +783,12 @@
 			dependencies: ["7B64754C3A42FAA1"]
 			disable_toast: true
 			id: "4DE3A0953BC4D6BD"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "10ED61A55CD5895F"
-					table_id: 8715244928959460216L
-					type: "random"
-				}
-				{
-					id: "668DEEEB32EA7714"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10ED61A55CD5895F"
+				table_id: 8715244928959460216L
+				type: "random"
+			}]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
