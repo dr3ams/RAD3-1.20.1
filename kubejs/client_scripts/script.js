@@ -150,6 +150,8 @@ JEIEvents.hideItems(event => {
 	event.hide('immersive_aircraft:gyrodyne')
 	event.hide('relics:researching_table')
 	event.hide('aether:life_shard')
+	event.hide('aether_redux:veridium_lantern')
+	event.hide('aether_redux:gilded_vines')
 	event.hide('naturesaura:rf_converter')
 	
 	event.hide('toms_storage:ts.trim')
