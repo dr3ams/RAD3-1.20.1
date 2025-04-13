@@ -204,6 +204,7 @@ const removals = [
   "bonfires:titanite_chunk",
   "bonfires:titanite_slab",
   "naturesaura:rf_converter",
+  "aether_redux:veridium_lantern",
   "supplementaries:altimeter"
 ];
 
