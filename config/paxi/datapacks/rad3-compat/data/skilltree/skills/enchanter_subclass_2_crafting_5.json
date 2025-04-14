@@ -3,9 +3,23 @@
   "bonuses": [
     {
       "type": "skilltree:attribute",
-      "attribute": "skilltree:exp_per_minute",
-      "id": "ca0cd5ee-b83d-4eed-8900-cccaf12d22d4",
+      "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+      "id": "bdf66a5f-0f4d-44ed-b998-5b8299d4de2b",
       "name": "SkillBonus",
+      "amount": 0.2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "id": "ca810f15-900e-42e3-9a08-22fc501e2971",
+      "name": "Skill",
       "amount": 0.2,
       "operation": 0,
       "player_multiplier": {
@@ -25,9 +39,10 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/enchanter_subclass_2_crafting_1.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Mana Regen and Spell Damage",
   "titleColor": "",
-  "positionX": 238.92113,
-  "positionY": -349.78406,
+  "positionX": 238.921,
+  "positionY": -349.784,
   "buttonSize": 16,
   "isStartingPoint": false
 }
