@@ -1171,17 +1171,32 @@
 			y: 9.0d
 		}
 		{
-			description: ["In this questline you will "]
-			icon: "kubejs:help"
-			id: "6A5B16720A8BDA7E"
-			size: 0.5d
+			id: "529B2EAA80671624"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage add @s sidestory_crate"
+				elevate_perms: true
+				id: "6892E4F0D33981F1"
+				silent: true
+				type: "command"
+			}]
 			tasks: [{
-				id: "7400E2A9741F6AEF"
+				id: "50313298F880F704"
 				type: "checkmark"
 			}]
-			title: "Summary"
-			x: -5.0d
-			y: 5.75d
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			id: "6C622CA313282923"
+			tasks: [{
+				id: "1D0C7ECD0585025C"
+				item: "kubejs:quest_crate"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 13.0d
 		}
 	]
 	title: "Side stories"

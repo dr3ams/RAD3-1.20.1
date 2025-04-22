@@ -1644,8 +1644,8 @@
 				type: "checkmark"
 			}]
 			title: "Ore Veins"
-			x: 1.0d
-			y: 0.0d
+			x: 0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["149CB61732F787CF"]
@@ -3898,6 +3898,7 @@
 			y: -8.5d
 		}
 		{
+			dependencies: ["149CB61732F787CF"]
 			description: [
 				"Similar to &o(annoying)&r &6Wandering Traders&r, &2goblins&r are found randomly underground in caves or in the nether and provide exclusive and beneficial trades that allow you to take your adventure to the next level! "
 				""
@@ -3915,8 +3916,8 @@
 				to_observe: "goblintraders:goblin_trader"
 				type: "observation"
 			}]
-			x: -11.0d
-			y: 1.0d
+			x: -4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3C58EBDE41F0F9F2"]

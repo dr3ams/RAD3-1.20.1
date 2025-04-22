@@ -441,16 +441,17 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "52F2EB9493B1065B"
+				id: "7E381B1F6871F175"
 				item: {
 					Count: 1
 					id: "undergarden:forgotten_battleaxe"
 					tag: {
 						Damage: 0
-						Enchantments: [{
-							id: "minecraft:knockback"
-							lvl: 4s
-						}]
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
 					}
 				}
 				type: "item"
