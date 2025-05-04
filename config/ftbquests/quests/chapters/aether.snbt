@@ -525,9 +525,15 @@
 					item: "kubejs:gold_coin"
 					type: "item"
 				}
+				{
+					id: "5E78788B4287624E"
+					item: "nameless_trinkets:ice_cube"
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			size: 1.5d
+			subtitle: "Defeat the Slider within the Bronze Dungeon"
 			tasks: [{
 				id: "70E29EBB56487036"
 				item: "aether:bronze_dungeon_key"
@@ -578,10 +584,15 @@
 					item: "kubejs:gold_coin"
 					type: "item"
 				}
+				{
+					id: "4D4C70763D2D33FB"
+					item: "nameless_trinkets:speed_force"
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "A reflective key that is given to you by the Valkyrie Queen after defeating her. Use it to claim the treasure she left behind!"
+			subtitle: "Defeat the Valkyrie Queen within the Silver Dungeon"
 			tasks: [{
 				id: "6662EF0638A6DCDB"
 				item: "aether:silver_dungeon_key"
@@ -591,6 +602,7 @@
 			y: 7.0d
 		}
 		{
+			description: ["Thanks to the Aether 1.5 update, the Sun Guardian can now be damaged like a normal mob while in his frozen state. I find this much better than the old way."]
 			id: "4167FEC4F9A0252C"
 			rewards: [
 				{
@@ -603,10 +615,15 @@
 					item: "kubejs:gold_coin"
 					type: "item"
 				}
+				{
+					id: "0833B6C56A9F1E1D"
+					item: "nameless_trinkets:blaze_nucleus"
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "A key that has a shiny finish. It is dropped by the Sun Spirit after you defeat him. You can use it to claim the legendary treasure in the back room!"
+			subtitle: "Defeat the Sun Spirit within the Gold Dungeon"
 			tasks: [{
 				id: "2E13C67E02AE973E"
 				item: "aether:gold_dungeon_key"
@@ -617,13 +634,26 @@
 		}
 		{
 			id: "75C310C72E5F9F14"
-			rewards: [{
-				id: "5DEE9AB328D5AB12"
-				item: "nameless_trinkets:callus"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "453CB13B7280CAC4"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "60234F6E1D24F2FB"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "23FAB6E2815A8454"
+					item: "nameless_trinkets:callus"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 1.5d
+			subtitle: "Defeat the Aerwhale King within the Platinum Dungeon"
 			tasks: [{
 				id: "3FEED9685C602C60"
 				item: "lost_aether_content:platinum_key"
@@ -767,7 +797,6 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "This shield seems to be ancient sentry technology."
 			tasks: [{
 				id: "09D84E821D050234"
 				item: {
@@ -1088,7 +1117,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Dropped when defeating a Valkyrian Queen without taking a single hit."
+			subtitle: "Dropped when defeating a Valkyrie Queen without taking a single hit."
 			tasks: [{
 				id: "02D8CCBF7C96ABF7"
 				item: "deep_aether:medal_of_honor"
@@ -1259,6 +1288,7 @@
 					type: "item"
 				}
 			]
+			title: "Phoenix Armor"
 			x: 15.0d
 			y: 9.0d
 		}
@@ -1650,12 +1680,12 @@
 			id: "1863FA8D3770A396"
 			rewards: [
 				{
-					id: "6769A686F8497041"
+					id: "26C74933BDCA94F9"
 					item: "kubejs:coin_aether"
 					type: "item"
 				}
 				{
-					id: "045B704A3824CFC1"
+					id: "3C6250D8BEF777D8"
 					item: "ars_nouveau:experience_gem"
 					type: "item"
 				}
@@ -1673,12 +1703,12 @@
 			id: "414610BAA4D63201"
 			rewards: [
 				{
-					id: "5BE70181798C790A"
+					id: "1D9235179DAAC7FA"
 					item: "kubejs:coin_aether"
 					type: "item"
 				}
 				{
-					id: "2D35DE6783B0C857"
+					id: "743847838212A930"
 					item: "ars_nouveau:experience_gem"
 					type: "item"
 				}
@@ -1696,12 +1726,12 @@
 			id: "354EC46A209B3A85"
 			rewards: [
 				{
-					id: "564C2041ACCF8135"
+					id: "1B6D250564B29FBC"
 					item: "kubejs:coin_aether"
 					type: "item"
 				}
 				{
-					id: "2B85F1CC84C9B9F6"
+					id: "0CEE8543866D4B58"
 					item: "ars_nouveau:experience_gem"
 					type: "item"
 				}
@@ -1712,19 +1742,19 @@
 				item: "aether:music_disc_aether_tune"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 13.0d
+			x: 16.0d
+			y: 12.0d
 		}
 		{
 			id: "472B2DD91C80D31C"
 			rewards: [
 				{
-					id: "3DC75EDADF5033CA"
+					id: "12F148116C8E2BF7"
 					item: "kubejs:coin_aether"
 					type: "item"
 				}
 				{
-					id: "77A8F769D176900B"
+					id: "72E49DC0CEFA18FF"
 					item: "ars_nouveau:experience_gem"
 					type: "item"
 				}
@@ -1742,12 +1772,12 @@
 			id: "5832BF00547EA4C6"
 			rewards: [
 				{
-					id: "0E1E26A258D7F0A3"
+					id: "2B7F7E4BD14A7D5E"
 					item: "kubejs:coin_aether"
 					type: "item"
 				}
 				{
-					id: "5F62580D2836E0DB"
+					id: "194BB9731BE7AE6B"
 					item: "ars_nouveau:experience_gem"
 					type: "item"
 				}
@@ -1765,12 +1795,12 @@
 			id: "01486283D240959E"
 			rewards: [
 				{
-					id: "7B238D872275BE8E"
+					id: "52D2B9EC56A7050C"
 					item: "kubejs:coin_aether"
 					type: "item"
 				}
 				{
-					id: "3C7E4D5761F72BBF"
+					id: "20E92D7E8E96686F"
 					item: "ars_nouveau:experience_gem"
 					type: "item"
 				}
@@ -1802,6 +1832,7 @@
 		}
 		{
 			dependencies: ["04576ACE03218FEC"]
+			description: ["These living clouds can't deal damage, but the snowballs they spit can knock you right off the islands."]
 			id: "3D59F7AAF729DA6D"
 			rewards: [{
 				id: "0142825CFBADF8A6"
@@ -2092,12 +2123,12 @@
 			id: "3D7CF29EDE81DD87"
 			rewards: [
 				{
-					id: "668ED10A60D5D2FE"
+					id: "7D52727CEC4750AC"
 					item: "kubejs:coin_aether"
 					type: "item"
 				}
 				{
-					id: "4542E564B3312BA5"
+					id: "1A0B7E3C7CE7716E"
 					item: "ars_nouveau:experience_gem"
 					type: "item"
 				}
@@ -2107,7 +2138,7 @@
 				id: "1D64FA40CCB365EC"
 				item: {
 					Count: 1
-					id: "aether:music_disc_sliders_wrath"
+					id: "aether_redux:ancient_sentrite_music_disc"
 					tag: { }
 				}
 				type: "item"
@@ -2297,6 +2328,7 @@
 					type: "item"
 				}
 			]
+			title: "Divine Tools"
 			x: 11.5d
 			y: 9.5d
 		}
@@ -2343,6 +2375,7 @@
 					type: "item"
 				}
 			]
+			title: "Jewels of Growth"
 			x: 12.5d
 			y: 9.5d
 		}
@@ -2714,6 +2747,7 @@
 					type: "item"
 				}
 			]
+			title: "Neptune Armor"
 			x: 9.5d
 			y: 10.5d
 		}
@@ -2793,15 +2827,21 @@
 					item: "kubejs:gold_coin"
 					type: "item"
 				}
+				{
+					id: "4D6CDE360E5C97EB"
+					item: "nameless_trinkets:wooden_stick"
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			size: 1.5d
+			subtitle: "Defeat the Mutated Aechor Plant within the Sentry Laboratory"
 			tasks: [{
 				id: "483F8CAF49EB8455"
 				item: "ancient_aether:laboratory_dungeon_key"
 				type: "item"
 			}]
-			x: 21.0d
+			x: 24.0d
 			y: 7.0d
 		}
 		{
@@ -2869,7 +2909,7 @@
 				item: "ancient_aether:ancient_dungeon_key"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 27.0d
 			y: 7.0d
 		}
 		{
@@ -2916,7 +2956,8 @@
 					type: "item"
 				}
 			]
-			x: 23.5d
+			title: "Ancient Jewels"
+			x: 26.5d
 			y: 8.5d
 		}
 		{
@@ -2940,7 +2981,7 @@
 				item: "ancient_aether:ancient_rune"
 				type: "item"
 			}]
-			x: 21.0d
+			x: 24.0d
 			y: 9.0d
 		}
 		{
@@ -2975,7 +3016,7 @@
 				}
 				type: "item"
 			}]
-			x: 24.5d
+			x: 27.5d
 			y: 8.5d
 		}
 		{
@@ -3021,7 +3062,8 @@
 					type: "item"
 				}
 			]
-			x: 20.5d
+			title: "Warrior Jewels"
+			x: 23.5d
 			y: 9.5d
 		}
 		{
@@ -3221,6 +3263,7 @@
 					type: "item"
 				}
 			]
+			title: "Phoenix Tools"
 			x: 18.0d
 			y: 11.0d
 		}
@@ -3267,7 +3310,8 @@
 					type: "item"
 				}
 			]
-			x: 21.5d
+			title: "Hermes Jewels"
+			x: 24.5d
 			y: 9.5d
 		}
 		{
@@ -3290,7 +3334,7 @@
 				item: "ancient_aether:shield_of_inebriation"
 				type: "item"
 			}]
-			x: 21.5d
+			x: 24.5d
 			y: 8.5d
 		}
 		{
@@ -3313,7 +3357,7 @@
 				item: "ancient_aether:shield_of_remediation"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 23.5d
 			y: 8.5d
 		}
 		{
@@ -3341,12 +3385,13 @@
 		}
 		{
 			dependencies: ["3173DC3B54DD3BDB"]
-			description: ["Vanilla, Aether, and HMaG items can be repaired in the Altar. Why HMaG? Because that mod has over a hundred little pieces of cross-mod compatibility built in. Great mod. Anyway, if you complain to me (Samiel) on the discord, I'll add any mod you want to the repair list."]
+			description: ["Only Aether items can be repaired in the Altar. "]
 			id: "52EF899298675408"
 			rewards: [{
-				id: "3BBCB10C736EF563"
-				type: "xp"
-				xp: 5
+				count: 16
+				id: "3EBA29DCBF24BA15"
+				item: "aether:ambrosium_shard"
+				type: "item"
 			}]
 			tasks: [{
 				id: "20F288E19389014C"
@@ -3373,6 +3418,526 @@
 			}]
 			x: 1.0d
 			y: 9.5d
+		}
+		{
+			id: "7D3A7BA331F0259B"
+			rewards: [
+				{
+					id: "2FD67BC4DA36B4A1"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "5E0A9A7280930474"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "379748B70885B0E6"
+					item: "nameless_trinkets:electric_paddle"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Defeat the Eye of the Storm within the Brass Dungeon"
+			tasks: [{
+				id: "60204356DAB0F6F6"
+				item: "deep_aether:brass_dungeon_key"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7D3A7BA331F0259B"]
+			id: "4DD0C6EBDB9F4E69"
+			rewards: [
+				{
+					id: "022327363F1394CB"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "5BFE660C628CA6ED"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			subtitle: "Dropped when defeating an Eye of the Storm without taking a single hit."
+			tasks: [{
+				id: "6B83C3789EE95E8E"
+				item: {
+					Count: 1
+					id: "deep_aether:floaty_scarf"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: 5.5d
+		}
+		{
+			id: "5FAED17FB57AAD5D"
+			rewards: [
+				{
+					id: "5FE01CB24A174DE1"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "4269118B1FED6C15"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "35C53A25DB037234"
+				item: "deep_aether:cloud_cape"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 8.5d
+		}
+		{
+			id: "351EE47F251F09C3"
+			rewards: [
+				{
+					id: "70DDEF315CA371BF"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "2541CCFD87DDA4F7"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2EC79F47A83D5717"
+				item: {
+					Count: 1
+					id: "deep_aether:aercloud_necklace"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: 8.5d
+		}
+		{
+			id: "46A10889FC8BE412"
+			rewards: [
+				{
+					id: "7AA14E50B54A70FC"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "4A29EAA7E0F216B6"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2603363152966E28"
+					item: {
+						Count: 1
+						id: "deep_aether:stormforged_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F9EA47C791C41B0"
+					item: {
+						Count: 1
+						id: "deep_aether:stormforged_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5369CCA7123ECC46"
+					item: {
+						Count: 1
+						id: "deep_aether:stormforged_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E0959F9F2AD44E8"
+					item: {
+						Count: 1
+						id: "deep_aether:stormforged_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15AC3E8994854FAD"
+					item: {
+						Count: 1
+						id: "deep_aether:stormforged_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Stormforged Armor"
+			x: 21.0d
+			y: 9.0d
+		}
+		{
+			id: "1B3CC4C60338C7B6"
+			rewards: [
+				{
+					id: "782C8A7B0E869B6D"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "50EDFB3F44179441"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "62E624B8E6CB5829"
+				item: {
+					Count: 1
+					id: "deep_aether:storm_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 20.5d
+			y: 9.5d
+		}
+		{
+			id: "201ACDDBB006682E"
+			rewards: [
+				{
+					id: "6E50E6F8A044F9E7"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "251683929F43E50C"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "67841857789BB0CD"
+				item: {
+					Count: 1
+					id: "deep_aether:storm_bow"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: 9.5d
+		}
+		{
+			id: "6245ED4B81753B25"
+			rewards: [
+				{
+					id: "7B436236DE2913FA"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "42E1374D799C4AF6"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6128CB3011F4AA1B"
+				item: {
+					Count: 1
+					id: "deep_aether:wind_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: 10.0d
+		}
+		{
+			id: "36BFD22865C18261"
+			rewards: [
+				{
+					id: "52B7F2057BE28F22"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "79EC0C997DA6170C"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5E8D09C6B0DA6B99"
+				item: {
+					Count: 1
+					id: "deep_aether:blade_of_luck"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 20.5d
+			y: 10.5d
+		}
+		{
+			id: "0E23AA65EEB4AE50"
+			optional: true
+			rewards: [
+				{
+					id: "25646583200393C6"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "5A16CAA109165252"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "66FC2F5A344E59A2"
+				item: "ancient_aether:aeronautic_dart_shooter"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 9.0d
+		}
+		{
+			id: "6B6CECABB7022F57"
+			rewards: [
+				{
+					id: "7E2FCFBF0816A7D6"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "718EF1650D0AF55C"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "099BE8776E6D75B2"
+				item: {
+					Count: 1
+					id: "aether:music_disc_sliders_wrath"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 12.0d
+		}
+		{
+			id: "65AF31253BF255F7"
+			rewards: [
+				{
+					id: "1975DB5B9173C873"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "2970A5B0AA8CC80D"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "12CD269BEF29C51B"
+				item: {
+					Count: 1
+					id: "deep_aether:music_disc_cyclone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 12.5d
+		}
+		{
+			id: "59CD48F3B76E8773"
+			rewards: [
+				{
+					id: "0744D9478A476406"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "687FFD70F0F0240D"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2CA20CE4FAD4BE79"
+				item: {
+					Count: 1
+					id: "deep_aether:music_disc_above_the_rain"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 12.5d
+		}
+		{
+			id: "54ED2605103214FD"
+			rewards: [
+				{
+					id: "6FA0D72B9D0723A3"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "0CADA0BE88453C76"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "22E76F220C90ABB6"
+				item: {
+					Count: 1
+					id: "deep_aether:music_disc_atta"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 13.0d
+		}
+		{
+			id: "64FE5FF3E007FE73"
+			rewards: [
+				{
+					id: "47251B0F38DD6D86"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "658B0651B583632B"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "62AA36205D0280C1"
+				item: {
+					Count: 1
+					id: "deep_aether:music_disc_faent"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 13.0d
+		}
+		{
+			id: "5D4B36496A165BEA"
+			rewards: [
+				{
+					id: "312A04D2EF9E3364"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "4D5455102A337A5B"
+					item: "ars_nouveau:experience_gem"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "50494895618FA785"
+				item: {
+					Count: 1
+					id: "deep_aether:music_disc_himininn"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 13.0d
 		}
 	]
 	title: "&fStairway to Aether&r"

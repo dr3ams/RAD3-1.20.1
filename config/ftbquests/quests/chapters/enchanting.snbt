@@ -38,11 +38,21 @@
 			x: 8.5d
 			y: 6.0d
 		}
+		{
+			height: 5.0d
+			image: "bloodmagic:models/alchemyarrays/moonarrayoutside"
+			rotation: 0.0d
+			width: 5.0d
+			x: -5.5d
+			y: 8.0d
+		}
 	]
 	order_index: 3
 	quest_links: [{
 		id: "7FAC71EBF712F101"
 		linked_quest: "0000000000000047"
+		shape: "gear"
+		size: 2.0d
 		x: 0.0d
 		y: -7.5d
 	}]
@@ -365,6 +375,7 @@
 				"4ED73319150DF98D"
 				"08C6B4F41D4AE88F"
 			]
+			dependency_requirement: "one_completed"
 			description: ["Once you've crafted a &1Dormant Deepshelf&r, you need to infuse it. This infusion recipe will require some extra blocks to reach the stat threshold. Completing the infusion will yield a  &0Deepshelf&r, which can get you to Level 70."]
 			id: "0367FE53FC0CC35B"
 			rewards: [
@@ -397,6 +408,7 @@
 		}
 		{
 			dependencies: ["0DA09629733D2F68"]
+			description: ["They can be useful for precisely adjusting stats for infusion recipes, but not much else."]
 			id: "607B8B7D560BA6A8"
 			rewards: [{
 				id: "10210D19A4BEECC7"
@@ -420,6 +432,7 @@
 					type: "item"
 				}
 			]
+			title: "The Weird Shelves"
 			x: 0.0d
 			y: -3.0d
 		}
@@ -445,8 +458,8 @@
 				item: "apotheosis:echoing_deepshelf"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.5d
+			x: -1.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0367FE53FC0CC35B"]
@@ -470,8 +483,8 @@
 				item: "apotheosis:soul_touched_deepshelf"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.5d
+			x: 1.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["74AAE9C994E2993F"]
@@ -498,8 +511,8 @@
 				item: "apotheosis:echoing_sculkshelf"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 5.0d
+			x: -1.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["0A64DCF2FEFE6DBC"]
@@ -523,8 +536,8 @@
 				item: "apotheosis:soul_touched_sculkshelf"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.0d
+			x: 1.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["39FFF3DDA03C40EF"]
@@ -548,7 +561,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["117DC5DDBE26FF9E"]
@@ -571,12 +584,14 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["117DC5DDBE26FF9E"]
 			description: [
 				"The highest level an Enchanting Table can reach is &6Level 100&r, but only one shelf can provide this much power. Creating such a shelf requires venturing into the outer end to retrieve a &5Dragon Head&r."
+				""
+				"&5Dragon Heads&r do not spawn on end ships! You can find one in the library of an &bAviary&r or simply craft it from dragon scales."
 				""
 				"A single &dDraconic Endshelf&r provides enough raw strength to boost a table from Level 90 to Level 100. However, it provides no other stat bonuses."
 			]
@@ -600,13 +615,14 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: [
 				"076FED7E9FF5C848"
 				"2830CB386FEDEF1F"
 			]
+			dependency_requirement: "one_completed"
 			description: ["Accessing the penultimate tier requires a Level 80 table and access to &dDragon's Breath&r. With these, you can create Infused Dragon's Breath, a core component of &eEndshelves&r."]
 			id: "39FFF3DDA03C40EF"
 			rewards: [{
@@ -621,10 +637,10 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
-			dependencies: ["3953AFE08C194E79"]
+			dependencies: ["0367FE53FC0CC35B"]
 			description: [
 				"&6Treasure enchantments&r are special enchantments that are typically unavailable in the Enchanting Table. However, this can be remedied with a &6Deepshelf of Arcane Treasures&r."
 				""
@@ -649,7 +665,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 9.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3953AFE08C194E79"]
@@ -673,7 +689,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -937,6 +953,401 @@
 			title: "Removing enchants"
 			x: -1.5d
 			y: -7.5d
+		}
+		{
+			dependencies: ["11872459EE2E3A0B"]
+			description: ["An upgraded Beeshelf, granting 100% &cQuanta&r at a much lower &aEterna&r cost. A reward for using &2Nature's Aura&r."]
+			id: "67212BA264C3C792"
+			rewards: [{
+				id: "4E0931B1BF3E9670"
+				item: {
+					Count: 1
+					id: "simplyswords:ribboncleaver"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "The Chaos of Nature"
+			tasks: [{
+				id: "5D0AEF66EE82CB42"
+				item: "apotheotic_additions:terra_shelf"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["11872459EE2E3A0B"]
+			description: ["Gives 100% &eRectification&r in exchange for some &aEterna&r and &cQuanta&r. No need for bulky rectifier shelves, just add this one rune."]
+			id: "59D00BCFD888DADF"
+			rewards: [{
+				id: "0B59B86303EC9DDA"
+				item: {
+					Count: 1
+					id: "simplyswords:tempest"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "The Storm, Bound By Artifice"
+			tasks: [{
+				id: "652698D0D8FA0240"
+				item: "apotheotic_additions:wavebinders_shelf"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["11872459EE2E3A0B"]
+			description: ["If you are a practitioner of &4Blood Magic&r, you may pay an ocean of &4life essence&r to bypass the entire bookshelf progression, skipping straight to the end!"]
+			id: "622AEF3DA469F1C9"
+			rewards: [{
+				id: "5B70F4256FD3658D"
+				item: {
+					Count: 1
+					id: "simplyswords:soulstealer"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Through Sacrifice, A Shortcut"
+			tasks: [{
+				id: "7D21332BA5143FAB"
+				item: "apotheotic_additions:sacrificial_shelf"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["11872459EE2E3A0B"]
+			description: ["This rune may be the best shelf in the pack, but it comes at a steep cost. But not to worry, the &5Nebula Cube&r can be obtained by any player, not just those bearing the &5Catastrophe Scroll&r! The &4Chaotic&r and &6Truth&r etchings do not need the player to have the Scroll. Go blow up some Withers!"]
+			id: "2365FE766CBF602F"
+			rewards: [{
+				id: "6FD4874007071FDB"
+				item: {
+					Count: 1
+					id: "simplyswords:caelestis"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "The Treasures of the End"
+			tasks: [{
+				id: "36156B87CADDD8D7"
+				item: "apotheotic_additions:void_shelf"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			description: ["These runes exist outside of the normal bookshelf progression. Each one is very powerful and difficult to craft. They are a reward for players who like to think outside of the box."]
+			id: "11872459EE2E3A0B"
+			rewards: [{
+				count: 3
+				id: "78A13FCFCF0C197C"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Golden Power"
+			tasks: [{
+				id: "68CFCEAC82BAF19B"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			title: "The Runes"
+			x: -5.5d
+			y: 8.0d
+		}
+		{
+			description: [
+				"This enchanting system, added by Hostile Mobs and Girls, uses the smithing table to add enchantments to gear. Each enchantment is added by a different item. Sometimes, multiple enchantments use the same item on different gear. Each craft adds  one level to the enchantment. This system can be very powerful if used intelligently."
+				""
+				"For some reason JEI is no longer showing Evil Enchanting recipes, but they still function. I will detail every single one in these quests."
+			]
+			id: "34D1EAED46BB61BE"
+			rewards: [{
+				count: 12
+				id: "31BCF8D46F43D754"
+				item: "hmag:evil_crystal_upgrade_smithing_template"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Smithing Table Enchanting"
+			tasks: [{
+				id: "10CAC167FB081359"
+				item: "hmag:evil_crystal_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Evil Enchanting"
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["351792A9531ADFF4"]
+			id: "5AFB6E15C24246D2"
+			rewards: [
+				{
+					id: "0416DDCB14369301"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "682F946C1068FD39"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "5E366B32AC6F7205"
+				item: "apotheosis:rectifier_t2"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5AFB6E15C24246D2"]
+			id: "342F9A4A1E8BE362"
+			rewards: [
+				{
+					id: "113132585BA18D76"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "528B523426612F0F"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "008A25AE3AFC1F38"
+				item: "apotheosis:rectifier_t3"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34D1EAED46BB61BE"]
+			description: [
+				"Swords: Fire Aspect, max 5"
+				""
+				"Bows: Flame, max 1"
+				""
+				"Tools: Smelt, max 1"
+			]
+			id: "38037091D6488B24"
+			subtitle: "Burning enchantments"
+			tasks: [{
+				id: "04245C84C319ED1E"
+				item: "hmag:evil_flame"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["34D1EAED46BB61BE"]
+			description: [
+				"Swords: Water Aspect, max 10"
+				""
+				"Tridents: Riptide, max 6"
+				""
+				"Helmets: Respiration, max 7"
+				""
+				"Boots: Depth Strider, max 5"
+			]
+			id: "740AAF52DF9EBE8F"
+			subtitle: "Water enchantments"
+			tasks: [{
+				id: "3AF8A00925D2AF78"
+				item: "hmag:evil_prismarine"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["34D1EAED46BB61BE"]
+			description: [
+				"Any armor: Thorns, max 5"
+				""
+				"Shields: Reflective Defenses, max 7"
+			]
+			id: "4B9155CB4BBCACC8"
+			subtitle: "Thorns"
+			tasks: [{
+				id: "2A95BAB955D7B78D"
+				item: "hmag:evil_thorn"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["34D1EAED46BB61BE"]
+			description: [
+				"Swords: Knockback, max 10"
+				""
+				"Bows: Punch, max 10"
+				""
+				"Shields: Shield Bash, max 10"
+				""
+				"Armor: Rebounding, max 5"
+				""
+				"This is the only way to obtain Knockback 10, Punch 10, or Shield Bash 10."
+			]
+			id: "1738A11EB21B6E74"
+			subtitle: "Repelling enchantments"
+			tasks: [{
+				id: "0F05BDA16E88EF6C"
+				item: "hmag:repulsion_gadget"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["34D1EAED46BB61BE"]
+			description: ["Any item: Unbreaking, max 5"]
+			id: "41677ADA7C09E30E"
+			subtitle: "Unbreaking"
+			tasks: [{
+				id: "08BF2CE37417C1FC"
+				item: "hmag:reinforcing_chain"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["41677ADA7C09E30E"]
+			description: [
+				"Any item: Unbreaking, max 10"
+				""
+				"This is the only way to obtain Unbreaking 10."
+			]
+			id: "3B62486F60D527E7"
+			subtitle: "Unbreaking+"
+			tasks: [{
+				id: "5D823594A6756C80"
+				item: "hmag:multiplex_reinforcing_chain"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["34D1EAED46BB61BE"]
+			description: ["Swords: Looting, max 8"]
+			id: "420570F8D2406F88"
+			subtitle: "Looting"
+			tasks: [{
+				id: "7C1406B95909BCBD"
+				item: "hmag:greedy_crystal"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["420570F8D2406F88"]
+			description: [
+				"Swords: Looting, max 10"
+				""
+				"This is the only way to obtain Looting 10."
+			]
+			id: "0B0D3699E7F39F29"
+			subtitle: "Looting+"
+			tasks: [{
+				id: "39A0DCCFCBCB7A04"
+				item: "hmag:greedy_crystal_plus"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["34D1EAED46BB61BE"]
+			description: ["Pickaxes: Fortune, max 8"]
+			id: "40450AFB706D9456"
+			subtitle: "Fortune"
+			tasks: [{
+				id: "1961E0DDC2689A71"
+				item: "hmag:fortune_crystal"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["40450AFB706D9456"]
+			description: [
+				"Pickaxes: Fortune, max 10"
+				""
+				"This is the only way to obtain Fortune 10."
+			]
+			id: "363119A9CC31EF1A"
+			subtitle: "Fortune+"
+			tasks: [{
+				id: "353AFBAB692AA4C4"
+				item: "hmag:fortune_crystal_plus"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["34D1EAED46BB61BE"]
+			description: ["Removes all curses from an item.  Honestly, I don't think it's worth the price. Just use a Prismarine Cobweb instead."]
+			id: "440D46347B7FE013"
+			subtitle: "Curse removal"
+			tasks: [{
+				id: "3F7007A64A43DBB2"
+				item: "hmag:purification_cloth"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -9.0d
 		}
 	]
 	title: "Enchanting"
