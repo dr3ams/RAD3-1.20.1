@@ -2403,6 +2403,1564 @@
 			x: 0.0d
 			y: -1.0d
 		}
+		{
+			description: ["A plant-like monster that spawns in jungles. Its attacks are highly toxic, and it can spit poisonous seeds. It regenerates when wet but takes double damage from fire."]
+			id: "4DD0B19D3F1EDCCC"
+			rewards: [
+				{
+					count: 3
+					id: "128DD41443B27E67"
+					item: "hmag:mysterious_petal"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1EF7029ED5DD1858"
+					item: "hmag:cureberry"
+					type: "item"
+				}
+				{
+					id: "0BFCCF3FBBC413B0"
+					item: "minecraft:glistering_melon_slice"
+					type: "item"
+				}
+				{
+					id: "00FC1BCFDEE2153E"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:alraune"
+				icon: "hmag:mysterious_petal"
+				id: "27002A1F3963A73E"
+				type: "kill"
+				value: 5L
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			description: ["A stronger enderman that sometimes spawns instead of them. Also like an enderman, it is neutral unless provoked. It has an eye laser attack."]
+			id: "2221E09B513B79B4"
+			rewards: [
+				{
+					count: 4
+					id: "633D79F41631ED72"
+					item: "hmag:ender_plasm"
+					type: "item"
+				}
+				{
+					id: "70A5C95D9FF2A781"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+				{
+					id: "42BA76C23BB828D1"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:ender_executor"
+				icon: "hmag:ender_plasm"
+				id: "7CF737ECE6FDB4D1"
+				type: "kill"
+				value: 10L
+			}]
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			description: ["A humanoid monster that spawns in caves."]
+			id: "297C1765116A61CF"
+			rewards: [
+				{
+					count: 8
+					id: "1ECE5C3C5113F7AF"
+					item: "hmag:kobold_leather"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5DD7F6E176303EFB"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7F2542B0F10BB6BD"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "131A6671A7D22BCB"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:kobold"
+				icon: "hmag:kobold_leather"
+				id: "57BBF06D4979B0F9"
+				type: "kill"
+				value: 10L
+			}]
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			description: ["A strong undead found in deep caves. It can summon Vexes and shoot magic orbs."]
+			id: "20C529E4B30ACD39"
+			rewards: [
+				{
+					count: 2
+					id: "26E7908B2117422F"
+					item: "hmag:lich_cloth"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6AD1D22C76783515"
+					item: "hmag:exp_berry"
+					type: "item"
+				}
+				{
+					id: "0203C4E0FF761F52"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:lich"
+				icon: "hmag:lich_cloth"
+				id: "254902EE12044CC0"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			description: ["A cow-like monster that spawns in plains and savannahs at night. Its attacks deal high knockback and apply Blindness and Slowness."]
+			id: "35D91F4E2BD7D32C"
+			rewards: [
+				{
+					count: 5
+					id: "1A3BB29539FD0851"
+					item: "minecraft:beef"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2E492D4F04C3F5A6"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "684D1358424D0707"
+					item: "hmag:randomberry"
+					type: "item"
+				}
+				{
+					id: "67F1E5FA3C9CBB6F"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:catoblepas"
+				icon: "minecraft:beef"
+				id: "7BBCAD49F949DB20"
+				type: "kill"
+				value: 5L
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			description: ["An arthropod that spawns in deserts and badlands at night. Its attacks afflict poison."]
+			id: "3BB34FFC5A3585E4"
+			rewards: [
+				{
+					count: 12
+					id: "616268DB0D1075A7"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "10F0606BDA69F65E"
+					item: "minecraft:dead_bush"
+					type: "item"
+				}
+				{
+					id: "7CC6DCF60FAAF535"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:scorpion"
+				icon: "minecraft:dead_bush"
+				id: "61699D911736AC72"
+				type: "kill"
+				value: 5L
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			description: ["A strong monster that spawns in deep caves. Their attacks deal high knockback, break blocks, and afflict Slowness IV. "]
+			id: "01B445834A79BAEC"
+			rewards: [
+				{
+					count: 2
+					id: "77C5DFB833583112"
+					item: "hmag:ogre_horn"
+					type: "item"
+				}
+				{
+					id: "0451F27D24544828"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "076AC69E102B52D1"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:ogre"
+				icon: "hmag:ogre_horn"
+				id: "41EBC590AED1DF78"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			description: ["A walking nest of spiders. It spawns in deep caves. Cave spiders will emerge when it is damaged."]
+			id: "546F2AA4935B5357"
+			rewards: [
+				{
+					count: 4
+					id: "72EF9F184BF49A27"
+					item: "minecraft:cobweb"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "418B41A0447333CB"
+					item: "hmag:exp_berry"
+					type: "item"
+				}
+				{
+					id: "27D444BAE9B8F586"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:spider_nest"
+				icon: "minecraft:cobweb"
+				id: "7DB7298CB6647405"
+				type: "kill"
+				value: 5L
+			}]
+			x: -4.5d
+			y: -8.0d
+		}
+		{
+			description: ["These magma creature spawn in magma pools deep underground and in the Nether. They throw fireballs like Blazes and leave a trail of fire behind them. They are afraid of Striders and will leave players alone if they are riding one."]
+			id: "4ECC6D216E912D3F"
+			rewards: [
+				{
+					count: 5
+					id: "1DC15D3E84F81734"
+					item: "minecraft:fire_charge"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1FA67DC537DEE788"
+					item: "minecraft:magma_cream"
+					type: "item"
+				}
+				{
+					id: "5222FB0B3A9235A8"
+					item: "hmag:evil_crystal_fragment"
+					type: "item"
+				}
+				{
+					id: "5C2D17A56871B3F1"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:melty_monster"
+				icon: "minecraft:fire_charge"
+				id: "4199153B38CDBE79"
+				type: "kill"
+				value: 10L
+			}]
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			description: ["A monster that spawns at night in forests. It floats slightly above the ground. It burns in the sun and takes double damage from fire."]
+			id: "68298850C21311F5"
+			rewards: [
+				{
+					count: 3
+					id: "30DE60A818ACB3E4"
+					item: "minecraft:black_wool"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "71E511F4690C4995"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "1E39D2F7BB123717"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:cursed_doll"
+				icon: "minecraft:black_wool"
+				id: "730EE47C02EAA841"
+				type: "kill"
+				value: 5L
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			description: ["A monster that spawns in snowy biomes. It attacks with damaging snowballs. It heals while touching snow. It can freeze water it walks across."]
+			id: "4EB30556810264B2"
+			rewards: [
+				{
+					count: 8
+					id: "7CD8D6EF6D32880A"
+					item: "minecraft:snow_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "53ED09F42D81FE11"
+					item: "minecraft:pumpkin_pie"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "778BC9CB2110E2AF"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "7C4BF77908EE6678"
+					item: "minecraft:blue_ice"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4B0373C3256BEA88"
+					item: "hmag:exp_berry"
+					type: "item"
+				}
+				{
+					id: "3EC8043705ED1E9D"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:jack_frost"
+				icon: "minecraft:snowball"
+				id: "06B433C7BDBC907F"
+				type: "kill"
+				value: 5L
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			description: ["Flying, bee-like monsters that spawn in forests. They wield poisonous spears."]
+			id: "412A2E880F52BCE1"
+			rewards: [
+				{
+					count: 6
+					id: "3BF3B6879BE9DD57"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5459A5ABC6DFC6BD"
+					item: "minecraft:cornflower"
+					type: "item"
+				}
+				{
+					id: "2B2C7051C30F5DC3"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+				{
+					id: "43BFB94E76093654"
+					item: "hmag:mysterious_petal"
+					type: "item"
+				}
+				{
+					id: "14A4E7D5E203F7C7"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:hornet"
+				icon: "minecraft:honeycomb"
+				id: "6D667684C90DF1AD"
+				type: "kill"
+				value: 5L
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			description: ["A sword-wielding monster that spawns in dark forests and mountains at night. Its attacks inflict Weakness. It burns in the sun."]
+			id: "017BB96BB372EE97"
+			rewards: [
+				{
+					count: 3
+					id: "65F0FC203F359292"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "55BD84ACA05673CD"
+					item: "hmag:randomberry"
+					type: "item"
+				}
+				{
+					id: "4CD3106D67939A80"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:dullahan"
+				icon: {
+					Count: 1
+					id: "minecraft:stone_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				id: "3882D48FC2F882EE"
+				type: "kill"
+				value: 5L
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			description: ["A flying, ghostly monster found in taiga and mountain biomes. Its attacks inflict Weakness and Hunger."]
+			id: "7415C25CBE3D2BF6"
+			rewards: [
+				{
+					count: 4
+					id: "38C590267A372032"
+					item: "hmag:soul_powder"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0B73BAB3FA725611"
+					item: "hmag:lemon"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "07383FD6A06D3EBD"
+					item: "minecraft:allium"
+					type: "item"
+				}
+				{
+					id: "3196A645CE5C8517"
+					item: "minecraft:pumpkin_pie"
+					type: "item"
+				}
+				{
+					id: "1E98EED35E12B090"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:banshee"
+				icon: "hmag:soul_powder"
+				id: "4AEC46BED4AB756C"
+				type: "kill"
+				value: 5L
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			description: ["A cat-like monster that spawns in the Nether. Its attacks will set the player on fire."]
+			id: "20C3710FF7F72DAA"
+			rewards: [
+				{
+					count: 12
+					id: "4F0029771220967F"
+					item: "minecraft:nether_brick"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6F24391796446783"
+					item: "hmag:lemon"
+					type: "item"
+				}
+				{
+					id: "77F6C2D3C2E0A422"
+					item: "hmag:fire_bottle"
+					type: "item"
+				}
+				{
+					id: "4CBEEACD022372C8"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:kasha"
+				icon: "minecraft:nether_brick"
+				id: "2E071FF045AA8235"
+				type: "kill"
+				value: 10L
+			}]
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			description: ["A clay golem that spawns underground in jungles and badlands. They take double damage from pickaxes. "]
+			id: "6261053D2CDBF23F"
+			rewards: [
+				{
+					count: 16
+					id: "0CA468DAE6BDBF0E"
+					item: "minecraft:brick"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "623B68C419AE1E97"
+					item: "hmag:ancient_stone"
+					type: "item"
+				}
+				{
+					id: "583C2725F53E0A76"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:dogu"
+				icon: "minecraft:brick"
+				id: "5EC5F5F81E12D5AE"
+				type: "kill"
+				value: 5L
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			description: ["An armored, axe-wielding monster that spawns in dark forests at night."]
+			id: "1200F229C7B43D41"
+			rewards: [
+				{
+					count: 3
+					id: "4CBA1A80B5583976"
+					item: "minecraft:red_dye"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4BAB8BA91BD49B60"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6B5536AF191E3FD2"
+					item: "hmag:cureberry"
+					type: "item"
+				}
+				{
+					id: "5499F2834E85CB62"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:redcap"
+				icon: "minecraft:red_dye"
+				id: "051D5AB86C6A58AE"
+				type: "kill"
+				value: 5L
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			description: ["Slime monsters that spawn at night in swamps and mangrove swamps. They regenerate when wet. Their attacks afflict Slowness II. When they die, they split into 2 tiny Magical Slimes."]
+			id: "533D8472E093176E"
+			rewards: [
+				{
+					count: 3
+					id: "0B9BB58809E8E76D"
+					item: "hmag:cubic_nucleus"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4FC1E71FAA25DE0E"
+					item: "hmag:cureberry"
+					type: "item"
+				}
+				{
+					id: "003904B3FBD0EE0F"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:slime_girl"
+				icon: "hmag:cubic_nucleus"
+				id: "4700A5C10543B8D3"
+				type: "kill"
+				value: 5L
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			description: ["A strange, floating stone that spawns in the End, mostly near End Cities. It has an eye laser attack that inflicts negative effects. It also has a smoke blast attack that inflicts worse negative effects. It takes double damage from pickaxes."]
+			id: "0BA343B82E4FBB3A"
+			rewards: [
+				{
+					count: 8
+					id: "4380D6E0D7898E23"
+					item: "hmag:ancient_stone"
+					type: "item"
+				}
+				{
+					id: "41A373EBCAA7E437"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					id: "676FE9E212706CDD"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:monolith"
+				icon: "hmag:ancient_stone"
+				id: "284E59C243A8898F"
+				type: "kill"
+				value: 10L
+			}]
+			x: 8.5d
+			y: -7.0d
+		}
+		{
+			description: ["A hideous arthropod found in Crimson Forests. It can climb short walls. Its attacks inflict Hunger and Slowness. It is immune to fire and fall damage."]
+			id: "7763475BAF3D7E9C"
+			rewards: [
+				{
+					count: 4
+					id: "30A163734D0FC328"
+					item: "hmag:crimson_cuticula"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1344C2B8DE43EB4C"
+					item: "minecraft:crimson_fungus"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3B9C84F5D9D7C2F6"
+					item: "minecraft:crimson_roots"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "371AE3121983D2BC"
+					item: "minecraft:shroomlight"
+					type: "item"
+				}
+				{
+					id: "37AA1B5C8AA07641"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "2C0C602516F8B033"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:crimson_slaughterer"
+				icon: "hmag:crimson_cuticula"
+				id: "4BF295A3E864294F"
+				type: "kill"
+				value: 5L
+			}]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			description: ["A powerful phantom-like monster that spawns at night, most often during full moons. It attacks with magic orbs that inflict blindness. It also summons phantoms. "]
+			id: "053F019267260F95"
+			rewards: [
+				{
+					count: 2
+					id: "6BF6B89B56CBE009"
+					item: "hmag:dyssomnia_skin"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6FDDFFB847366ED1"
+					item: "hmag:exp_berry"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "129AC27A4BDA7EB1"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+				{
+					id: "5140F2825A490D6A"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:dyssomnia"
+				icon: "hmag:dyssomnia_skin"
+				id: "6B998B84D83C6AB6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			description: ["A wolf-like monster that spawns in snowy biomes. It hunts sheep and rabbits."]
+			id: "0D586AADFA64F252"
+			rewards: [
+				{
+					count: 3
+					id: "469F8A2A22C6AD67"
+					item: "hmag:sharp_fang"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "26C38D98483001CA"
+					item: "hmag:cureberry"
+					type: "item"
+				}
+				{
+					id: "40D96A1E610A7C90"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:snow_canine"
+				icon: "hmag:sharp_fang"
+				id: "0C7319540187DE8F"
+				type: "kill"
+				value: 5L
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			description: ["A bird-like monster that spawns in plains, savannahs, and deserts. "]
+			id: "23B5965DBF678E22"
+			rewards: [
+				{
+					count: 3
+					id: "5F7C0F4B29E761A7"
+					item: "minecraft:feather"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1244CA9F88E19EC3"
+					item: "minecraft:cookie"
+					type: "item"
+				}
+				{
+					id: "41CEE7BF55AEFB73"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:harpy"
+				icon: "minecraft:feather"
+				id: "6B299D8B882493B5"
+				type: "kill"
+				value: 5L
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			description: ["A predatory fish that spawns at night in swamps. It can jump out of the water to attack the player."]
+			id: "2E3777A3E412A4FB"
+			rewards: [
+				{
+					count: 5
+					id: "76F257B7F864E080"
+					item: "hmag:savagefang_meat"
+					type: "item"
+				}
+				{
+					id: "6278CE18AF315811"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:savagefang"
+				icon: "hmag:savagefang_meat"
+				id: "7529DE18271753DC"
+				type: "kill"
+				value: 10L
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			description: ["An undead that spawns deep underground. Its attacks inflict Slowness."]
+			id: "25AC5A0F49956C36"
+			rewards: [
+				{
+					count: 4
+					id: "23E7FE342E28502A"
+					item: "hmag:necrofiber"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "10DC0A64C612A072"
+					item: "minecraft:glow_berries"
+					type: "item"
+				}
+				{
+					id: "16E3983978FD5BBD"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					id: "67E060455B0F655C"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:necrotic_reaper"
+				icon: "hmag:necrofiber"
+				id: "2765A7823FD269BB"
+				type: "kill"
+				value: 5L
+			}]
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			description: ["A monster that spawns in taigas at night. Its attacks inflict Slowness. "]
+			id: "3D25E97A517842CB"
+			rewards: [
+				{
+					count: 3
+					id: "76E979F4F756367B"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "081DE5FEFDEC0A6C"
+					item: "hmag:randomberry"
+					type: "item"
+				}
+				{
+					id: "0547CE496D010498"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:dodomeki"
+				icon: "hmag:dodomeki_spawn_egg"
+				id: "3B6E3DEC0158AAA4"
+				type: "kill"
+				value: 5L
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			description: ["A monster that spawns in the Nether. It wields a Golden Fork."]
+			id: "0238855EEFE3CF53"
+			rewards: [
+				{
+					count: 3
+					id: "33EF701E0173ABF5"
+					item: "minecraft:brown_mushroom"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2C444EC1C177AB82"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+				{
+					id: "6F8D2DEC52E1765C"
+					item: "minecraft:gilded_blackstone"
+					type: "item"
+				}
+				{
+					id: "3312FA2BA87DEFEF"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:imp"
+				icon: {
+					Count: 1
+					id: "hmag:golden_fork"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				id: "2E741D72121BCA1C"
+				type: "kill"
+				value: 10L
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			description: ["An undead that spawns in bamboo forests at night. Its attacks inflict poison. It gets faster when struck."]
+			id: "212AD9C367FD0292"
+			rewards: [
+				{
+					count: 4
+					id: "5DF240BBF5498BCA"
+					item: "minecraft:bamboo"
+					type: "item"
+				}
+				{
+					id: "5BCB5947F8F34D1A"
+					item: "hmag:sharp_fang"
+					type: "item"
+				}
+				{
+					id: "60CE55763A8A2D46"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:jiangshi"
+				icon: "minecraft:bamboo"
+				id: "556A996DEEEE41D1"
+				type: "kill"
+				value: 5L
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			description: ["These undead spawn in deserts at night. Their attacks can destroy weak blocks and inflict Slowness and Hunger."]
+			id: "7D57E502319A8F01"
+			rewards: [
+				{
+					count: 9
+					id: "30AA118735669290"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5087CE88B9E9B31D"
+					item: "hmag:randomberry"
+					type: "item"
+				}
+				{
+					id: "240E8BE563AC476C"
+					item: "hmag:honeyed_lemon"
+					type: "item"
+				}
+				{
+					id: "4222206958210668"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:giant_mummy"
+				icon: "minecraft:paper"
+				id: "672FABF6481744CA"
+				type: "kill"
+				value: 5L
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			description: ["A strange stone monster that spawns in mesas at night. It fires magical orbs that inflict Mining Fatigue."]
+			id: "20836CD80FE0EA6A"
+			rewards: [
+				{
+					count: 4
+					id: "70D429C204CD9BE3"
+					item: "minecraft:blue_terracotta"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "30C53FC285053461"
+					item: "hmag:randomberry"
+					type: "item"
+				}
+				{
+					id: "45F3F8F1A05AE520"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					id: "77EA086BB1C7F425"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:nightwalker"
+				icon: "minecraft:blue_terracotta"
+				id: "75E2B9A88FD631E0"
+				type: "kill"
+				value: 5L
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			description: ["A neutral creature found in Lush Caves. It likes Mysterious Petals. It acts like a Glare, pointing out dark spots for you. Water heals it."]
+			id: "2A310041BF7CC56A"
+			rewards: [
+				{
+					count: 4
+					id: "0A924FC5971442A1"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6258BD6DB6AE3808"
+					item: "minecraft:glow_berries"
+					type: "item"
+				}
+				{
+					id: "7696A07F1D3CEB2E"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				icon: "minecraft:flowering_azalea"
+				id: "71FD4DAAD086396C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "hmag:glaryad"
+				type: "observation"
+			}]
+			x: -5.0d
+			y: -9.0d
+		}
+		{
+			description: ["A squid-like monster that spawns in swamps and magrove swamps. Its tentacles inflict poisonous, and it spits ink that inflicts blindness."]
+			id: "477A27F867D5BE40"
+			rewards: [
+				{
+					count: 5
+					id: "4BDCA8587B89D0E5"
+					item: "hmag:swamper_tentacle"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1DBD7838CD5EBDF6"
+					item: "hmag:exp_berry"
+					type: "item"
+				}
+				{
+					id: "0E627F8B1417277F"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "hmag:swamper"
+				icon: "hmag:swamper_tentacle"
+				id: "396D11ED466A2A41"
+				type: "kill"
+				value: 5L
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"477A27F867D5BE40"
+				"2E3777A3E412A4FB"
+			]
+			id: "3AB0ACB6AA944D51"
+			tasks: [{
+				id: "1F086B628CAE17AD"
+				item: "hmag:swampy_stew"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7763475BAF3D7E9C"]
+			dependency_requirement: "all_started"
+			description: [
+				"This sword becomes more powerful the less experience you carry. It loses 1 damage and 0.25 speed every 5 levels the player has."
+				""
+				"Holding right click charges a magical orb attack. This orb costs 1 level and also becomes stronger the less experience you carry. The orb inflicts Weakness II, Mining Fatigue II, Slowness II, and Wither II for 15 seconds. It can penetrate multiple targets."
+			]
+			id: "5F534F3AC1D5369F"
+			rewards: [{
+				count: 5
+				id: "12ADEF9C8DC5E69D"
+				item: "tombstone:scroll_of_knowledge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74E3AC66C43F9057"
+				item: {
+					Count: 1
+					id: "hmag:nemesis_blade"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						hmag.level: 6b
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7763475BAF3D7E9C"]
+			dependency_requirement: "all_started"
+			description: ["The hungrier you are, the stronger this bow becomes."]
+			id: "0325DAA9CDB74975"
+			rewards: [{
+				id: "4AE58CF81D0E6E9F"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "hmag:hmag.voracity"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EC113F93AABC715"
+				item: {
+					Count: 1
+					id: "hmag:crimson_bow"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2221E09B513B79B4"]
+			dependency_requirement: "all_started"
+			description: ["Infinite use ender pearl"]
+			id: "5DCEB4A1CFCFC98B"
+			rewards: [{
+				id: "64C8CCBD403BA880"
+				item: {
+					Count: 1
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "hmag:hmag.ender_rage"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FF5909B4C84A950"
+				item: "hmag:endless_pearl"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["25AC5A0F49956C36"]
+			dependency_requirement: "all_started"
+			description: ["I don't know if this one has a set bonus. The Chinese wiki I translated to make this chapter didn't have a page for this armor."]
+			id: "307FFA7E44FAAE02"
+			tasks: [
+				{
+					id: "60493F79F3D2DF87"
+					item: {
+						Count: 1
+						id: "hmag:necrotic_chainmail_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7225280EFF11457F"
+					item: {
+						Count: 1
+						id: "hmag:necrotic_chainmail_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "001C7DC1BBF065E0"
+					item: {
+						Count: 1
+						id: "hmag:necrotic_chainmail_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "622BF9227608614F"
+					item: {
+						Count: 1
+						id: "hmag:necrotic_chainmail_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Necrotic Armor"
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			id: "7307805FF28F746C"
+			rewards: [{
+				id: "2E055FFC61EF303C"
+				item: "nameless_trinkets:light_gloves"
+				type: "item"
+			}]
+			subtitle: "Now it's YOU"
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "apotheosis:warden_tendril"
+				id: "53F9333382FD4E54"
+				type: "kill"
+				value: 1L
+			}]
+			title: "King of the Underground"
+			x: -3.5d
+			y: -8.0d
+		}
+		{
+			description: ["Ancient Stones drop from Elder Guardians, Dogu, and Monoliths."]
+			id: "093BB943E44396B7"
+			tasks: [{
+				id: "4D21960754D47FC9"
+				item: "hmag:ancient_stone_block"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["093BB943E44396B7"]
+			description: ["Set bonus: immune to Mining Fatigue, Weakness, and Slowness"]
+			id: "75322CAC407A4298"
+			tasks: [
+				{
+					id: "63FDC4D23E9E7DD1"
+					item: {
+						Count: 1
+						id: "hmag:ancient_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "748F7F9FAE6CE22D"
+					item: {
+						Count: 1
+						id: "hmag:ancient_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6EAA81E2F1108B34"
+					item: {
+						Count: 1
+						id: "hmag:ancient_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FCE6C0BFDFF06AA"
+					item: {
+						Count: 1
+						id: "hmag:ancient_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ancient Armor"
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["093BB943E44396B7"]
+			id: "5F9698FA0FEA05C7"
+			tasks: [{
+				id: "5639CE7575C8456C"
+				item: {
+					Count: 1
+					id: "hmag:ancient_shield"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			description: ["Drops from Charged Creepers"]
+			id: "26BF2B0C25A383F4"
+			tasks: [{
+				id: "45BF41E57918FE61"
+				item: "hmag:lightning_particle"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["26BF2B0C25A383F4"]
+			description: ["Strikes you with lightning and gives you several buffs for 1 minute."]
+			id: "48712D7905F0F5C0"
+			tasks: [{
+				id: "382E2A0ABBBFF3D6"
+				item: "hmag:lightning_soup"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["26BF2B0C25A383F4"]
+			description: ["Throw to strike lightning."]
+			id: "7BDFC70E5848E1E1"
+			tasks: [{
+				id: "74553C1F6C76D578"
+				item: "hmag:lightning_bottle"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			description: ["These blocks are wither-proof."]
+			id: "344C1879370653CE"
+			tasks: [{
+				id: "24BCE548F66DB0E5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "hmag:reinforced_blocks"
+					}
+				}
+				title: "Any #hmag:reinforced_blocks"
+				type: "item"
+			}]
+			title: "Reinforced Blocks"
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			description: ["Makes you immune to Blindness and Darkness for a few seconds. If you don't have anything better, it might be worth it to bring a few of these to the Deep Dark."]
+			id: "27FEA0B5D495FC9B"
+			tasks: [{
+				id: "6CF3233BE8D3CD84"
+				item: "hmag:bat_stew"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			description: ["Golem-like monsters that spawn in Nether Fortresses. They can shoot small explosive fireballs."]
+			id: "521EEC722DA8C00F"
+			rewards: [
+				{
+					count: 20
+					id: "2F7C86BC724ACE63"
+					item: "minecraft:nether_brick"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6FAA03C10E897BFA"
+					item: "hmag:burning_core"
+					type: "item"
+				}
+				{
+					id: "763BAFFA184A94BB"
+					item: "minecraft:magma_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "hmag:fortress_keeper"
+				icon: "hmag:burning_core"
+				id: "7E11968005260C80"
+				type: "kill"
+				value: 10L
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["521EEC722DA8C00F"]
+			description: ["Ignites attackers"]
+			id: "345B131DE88C3F5E"
+			tasks: [{
+				id: "10B9AC4B8C683B10"
+				item: {
+					Count: 1
+					id: "hmag:fortress_shield"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -9.0d
+		}
 	]
 	title: "Hunt Never Stops"
 }

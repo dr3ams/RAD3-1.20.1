@@ -558,6 +558,11 @@ ServerEvents.recipes((event) => {
     "minecraft:netherite_ingot"
   );
   event.replaceInput(
+    { output: "celestial_artifacts:yellow_duck" },
+    "celestial_artifacts:life_etching",
+    "l2complements:life_essence"
+  );
+  event.replaceInput(
     { output: "l2complements:diffusion_wand" },
     "l2complements:storm_core",
     "hmag:fortune_crystal_plus"

@@ -244,43 +244,6 @@
 		{
 			can_repeat: true
 			disable_toast: true
-			icon: "nameless_trinkets:gods_crown"
-			id: "079C8AA41B7C34E1"
-			rewards: [{
-				id: "309EA3BA0C067D57"
-				item: "nameless_trinkets:mysterious_trinket"
-				type: "item"
-			}]
-			tasks: [
-				{
-					consume_items: true
-					disable_toast: true
-					id: "069D5335840F51E0"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "kubejs:diamond_coin"
-					}
-					type: "item"
-				}
-				{
-					id: "3DAB81D7680FB1BB"
-					points: false
-					type: "xp"
-					value: 1L
-				}
-			]
-			title: "Diamond Coin -> Trinket"
-			x: 8.0d
-			y: -4.5d
-		}
-		{
-			can_repeat: true
-			disable_toast: true
 			icon: "artifacts:mimic_spawn_egg"
 			id: "7A6654B7CF68E559"
 			rewards: [{
@@ -561,7 +524,6 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 5L
 				disable_toast: true
 				id: "7A42C627059CC2F8"
 				item: "kubejs:copper_coin"
@@ -783,12 +745,19 @@
 			dependencies: ["7B64754C3A42FAA1"]
 			disable_toast: true
 			id: "4DE3A0953BC4D6BD"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "10ED61A55CD5895F"
-				table_id: 8715244928959460216L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "10ED61A55CD5895F"
+					table_id: 8715244928959460216L
+					type: "random"
+				}
+				{
+					id: "668DEEEB32EA7714"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
@@ -1029,7 +998,7 @@
 			]
 			title: "Diamond Coin -> Celestial Artifact"
 			x: 8.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			can_repeat: true
@@ -1175,6 +1144,24 @@
 			title: "Magic Loot Crate"
 			x: 5.0d
 			y: -4.5d
+		}
+		{
+			icon: "skilltree:wisdom_scroll"
+			id: "052A510D43FD68FC"
+			rewards: [{
+				id: "5AE436EC6666304A"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			subtitle: "One Passive Skill Tree point"
+			tasks: [{
+				id: "37FF23F294C904BC"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "Wisdom Scroll"
+			x: 5.0d
+			y: -3.5d
 		}
 	]
 	title: "&e⭐ The Market&r"

@@ -99,6 +99,11 @@ LootJS.modifiers((event) => {
 		.when((c) => c.randomChance(0.05))
 		.limitCount([0, 1]));
 
+	// Replacing HMaG drops with Spelunkery items
+	event.addLootTypeModifier(LootType.ENTITY).replaceLoot("hmag:diamond_fragment", "spelunkery:diamond_shard", true);
+	event.addLootTypeModifier(LootType.ENTITY).replaceLoot("hmag:emerald_fragment", "spelunkery:emerald_shard", true );
+	event.addLootTypeModifier(LootType.ENTITY).replaceLoot("hmag:copper_nugget", "spelunkery:copper_nugget", true);
+
 	// Requiring silk touch to pick up brewing stand
 	event.addBlockLootModifier("minecraft:brewing_stand")
         .removeLoot(Ingredient.all)

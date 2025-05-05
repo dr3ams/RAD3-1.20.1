@@ -1016,42 +1016,6 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["00FACACE1AADA314"]
-			id: "7B2F0CA001043F31"
-			rewards: [
-				{
-					id: "59619599739302EA"
-					item: {
-						Count: 1
-						id: "simplyswords:brimstone_claymore"
-						tag: {
-							Damage: 0
-							affix_data: {
-								sockets: 1
-							}
-							reinforce_level: 0
-							reinforce_max: 10
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "49866F2989A35310"
-					item: "kubejs:coin_nether"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "hmag:fortress_keeper"
-				icon: "hmag:burning_core"
-				id: "660F5A04CEA9A006"
-				type: "kill"
-				value: 10L
-			}]
-			x: 6.0d
-			y: 4.0d
-		}
-		{
 			dependencies: ["62D0DB8C0B2BAE56"]
 			id: "5B14AFAD0D41AC65"
 			rewards: [
@@ -1065,6 +1029,22 @@
 					count: 2
 					id: "5FF08E498BDD321C"
 					item: "kubejs:coin_nether"
+					type: "item"
+				}
+				{
+					id: "51EB9D2C7AA0CE2D"
+					item: {
+						Count: 1
+						id: "simplyswords:brimstone_claymore"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							reinforce_level: 0
+							reinforce_max: 10
+						}
+					}
 					type: "item"
 				}
 			]
@@ -1090,11 +1070,18 @@
 		{
 			dependencies: ["2180E83A0BF99108"]
 			id: "270F7045F52AC58E"
-			rewards: [{
-				id: "54246092F49CD2C5"
-				item: "kubejs:coin_nether"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "54246092F49CD2C5"
+					item: "kubejs:coin_nether"
+					type: "item"
+				}
+				{
+					id: "0E8433EC1F9ED9BE"
+					item: "nameless_trinkets:dark_nelumbo"
+					type: "item"
+				}
+			]
 			subtitle: "Fireproof Boats"
 			tasks: [
 				{
@@ -1713,6 +1700,22 @@
 				{
 					id: "4A8E3B98CBB30321"
 					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "1184E383D71542C8"
+					item: {
+						Count: 1
+						id: "simplyswords:emberlash"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							reinforce_level: 0
+							reinforce_max: 10
+						}
+					}
 					type: "item"
 				}
 			]

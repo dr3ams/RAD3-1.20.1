@@ -509,6 +509,11 @@
 			dependencies: ["52D9091AE90972E6"]
 			description: ["This anvil can be used to combine together and enhance the drops of several Cataclysm bosses."]
 			id: "06732AFEBD313F03"
+			rewards: [{
+				id: "6E3BD9BFD5A93FEC"
+				item: "nameless_trinkets:reforger"
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "My quest lines are getting tangled!"
 			tasks: [{
@@ -562,8 +567,8 @@
 				value: 1L
 			}]
 			title: "Ferrous Wroughtnaut"
-			x: -4.5d
-			y: -1.5d
+			x: -5.0d
+			y: -2.5d
 		}
 		{
 			id: "76FC1D5B921F7D89"
@@ -597,8 +602,8 @@
 				value: 1L
 			}]
 			title: "Frostmaw"
-			x: -4.5d
-			y: 1.5d
+			x: -5.0d
+			y: 2.5d
 		}
 		{
 			id: "7D6FAAFCE7BFA0E3"
@@ -634,8 +639,8 @@
 				value: 1L
 			}]
 			title: "Umvuthi, the Sunbird"
-			x: -5.0d
-			y: 0.0d
+			x: -6.0d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -983,6 +988,11 @@
 			]
 			icon: "cataclysm:witherite_ingot"
 			id: "52D9091AE90972E6"
+			rewards: [{
+				id: "627F758E5601443E"
+				item: "nameless_trinkets:explosion_proof_jacket"
+				type: "item"
+			}]
 			shape: "hexagon_important"
 			tasks: [{
 				advancement: "cataclysm:kill_harbinger"
@@ -1716,14 +1726,31 @@
 			y: 0.0d
 		}
 		{
-			id: "3476C260BC2E3BBA"
-			tasks: [{
-				id: "6A80D8AE4FC09F13"
-				title: "Bosses"
-				type: "checkmark"
+			id: "61FD92287F4E5AF1"
+			rewards: [{
+				id: "5613B6E8ED910193"
+				item: "nameless_trinkets:lucky_rock"
+				type: "item"
 			}]
-			x: 4.5d
-			y: 1.5d
+			tasks: [{
+				id: "022C425A56EC7BD9"
+				item: {
+					Count: 1
+					id: "mowziesmobs:earthrend_gauntlet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			title: "Tongbi, the Sculptor"
+			x: -6.0d
+			y: -1.0d
 		}
 	]
 	title: "&cSeek and Destroy&r"
