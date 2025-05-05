@@ -1171,6 +1171,10 @@
 			y: 9.0d
 		}
 		{
+			description: [
+				""
+				"&ocommand tooltip: adds an ability to locate trash&r"
+			]
 			id: "529B2EAA80671624"
 			rewards: [{
 				auto: "enabled"
@@ -1184,7 +1188,7 @@
 				id: "50313298F880F704"
 				type: "checkmark"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: 12.0d
 		}
 		{
@@ -1195,8 +1199,48 @@
 				item: "kubejs:quest_crate"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 13.0d
+			x: 2.5d
+			y: 12.0d
+		}
+		{
+			id: "6B57AF47E655E0FA"
+			tasks: [{
+				id: "42F16D12F3998E89"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goblintraders:goblin_trader"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 12.0d
+		}
+		{
+			id: "70C2594B59ABDDBC"
+			tasks: [{
+				id: "07951F48304DAC96"
+				structure: "dungeons_enhanced:ruined_building"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			description: ["&6Treasure map reward&r will locate the nearest structure so be aware of that when standing next to the one that you have already explored"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/help"
+				}
+			}
+			id: "422BEAD5E7E588A4"
+			tasks: [{
+				id: "2029645486E1A709"
+				type: "checkmark"
+			}]
+			title: "Tip: Locate structure rewards"
+			x: -5.0d
+			y: 3.5d
 		}
 	]
 	title: "Side stories"

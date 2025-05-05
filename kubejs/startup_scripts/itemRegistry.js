@@ -89,6 +89,7 @@ event.create('coin_06').displayName('Bunch of Coins').tooltip('Acquired by selli
 
 event.create('quest_bundle').displayName('Leather Bundle').tooltip('Quest Item')
 event.create('quest_note').displayName('Note').tooltip('Quest Item')
+event.create('quest_crate').displayName('Crate')
 
 event.create('defence').displayName('defence')
 event.create('armorpen').displayName('armorpen')

@@ -113,6 +113,81 @@ ItemEvents.tooltip(event =>{
     }
   })
   
+  	event.addAdvanced('landsoficaria:totem_of_unblinding', (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').gold(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• Prevents getting blinded by ').white(),
+		Text.of('Blindness ').gray(),
+		Text.of('or ').white(),
+		Text.of('Darkness ').gray(),
+		Text.of('effects (especially helpful to combat some mobs in Icaria)').white()
+		])
+      text.add(2, [
+        Text.of('• Adds a ').white(),
+		Text.of('Blindness Immunity ').green(),
+		Text.of('effect for 30 seconds').white()
+		])
+    }
+  })
+
+  	event.addAdvanced('landsoficaria:totem_of_undrowning', (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').gold(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• Prevents from taking damage when ').white(),
+		Text.of('drowning ').blue()
+		])
+      text.add(2, [
+        Text.of('• Adds a ').white(),
+		Text.of('Water Breathing ').blue(),
+		Text.of('effect for 30 seconds and refills air fully').white()
+		])
+    }
+  })
+    	
+	event.addAdvanced('landsoficaria:totem_of_unshattering', (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').gold(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• Prevents armor, tools and weapons from breaking when they reach 90+ % damage and restores 90 % of their durability').white()
+		])
+    }
+  })
+  
+  	event.addAdvanced('landsoficaria:totem_of_unsinking', (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').gold(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• Prevents the player from taking damage when falling into the void, by teleporting to max Y at the same X and Z coordinates').white()
+		])
+      text.add(2, [
+        Text.of('• Adds a ').white(),
+		Text.of('Slow Falling ').blue(),
+		Text.of('effect for 30 seconds').white()
+		])
+    }
+  })  
   
 	event.addAdvanced(['aether:healing_stone'], (item, advanced, text) => {
     if (!event.isShift()) {
@@ -200,7 +275,7 @@ ItemEvents.tooltip(event =>{
         Text.of('• Restored when using a bonfire').white()
 		])
     }
-  })
+    })
 
 	event.addAdvanced(['kubejs:gem_shard'], (item, advanced, text) => {
     if (!event.isShift()) {
@@ -218,7 +293,7 @@ ItemEvents.tooltip(event =>{
         Text.of('• Can be found in chests').white()
 		])
       text.add(2, [
-        Text.of('• 9 shards can be converted into a random Common').white(),
+        Text.of('• 9 shards can be converted into a random Common ').white(),
         Text.of('Apotheosis ').darkRed(),
 		Text.of('gem ').white()
 		])
@@ -226,7 +301,7 @@ ItemEvents.tooltip(event =>{
 	    Text.of('• Find out more details in ').white(),
         Text.of('⭐ Masteries ').darkRed(),
         Text.of('questbook chapter').white()
-      ])
+        ])
     }
 	})
 
@@ -871,11 +946,34 @@ ItemEvents.tooltip(event =>{
         ])
       }
     })
-  
-	event.addAdvanced('cataclysm:amethyst_crab_meat', (item, advanced, text) => {
-    text.add(1, Text.of('Dropped from Amethyst Crab mini-boss in the Sunken City dungeon or rarely in Lush Caves biome')) 
-	})
 
+	event.addAdvanced(['kubejs:quest_crate'], (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').gold(),
+        Text.of('to see more info.').gray()
+      ])
+	    text.add(3, [
+        Text.of('Quest Item').darkRed()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• Found in chests after completing ').white(),
+        Text.of('sidestory_name ').darkRed(),
+		Text.of('Sidestory ').gold(),
+		Text.of('quest').white()
+		])
+      text.add(2, [
+	    Text.of('• Can be opened with the help of ').white(),
+        Text.of('⭐ sidestory_npc_name ').darkRed(),
+        Text.of('in ').white(),
+		Text.of('Sidestories ').gold(),
+		Text.of('quest chapter').white()
+        ])
+     }
+	})
+  
 	event.addAdvanced('cataclysm:amethyst_crab_meat', (item, advanced, text) => {
     text.add(1, Text.of('Dropped from Amethyst Crab mini-boss in the Sunken City dungeon or rarely in Lush Caves biome')) 
 	})

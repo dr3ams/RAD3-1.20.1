@@ -103,7 +103,7 @@ LootJS.modifiers((event) => {
 	event.addLootTypeModifier(LootType.ENTITY).replaceLoot("hmag:diamond_fragment", "spelunkery:diamond_shard", true);
 	event.addLootTypeModifier(LootType.ENTITY).replaceLoot("hmag:emerald_fragment", "spelunkery:emerald_shard", true );
 	event.addLootTypeModifier(LootType.ENTITY).replaceLoot("hmag:copper_nugget", "spelunkery:copper_nugget", true);
-
+	
 	// Requiring silk touch to pick up brewing stand
 	event.addBlockLootModifier("minecraft:brewing_stand")
         .removeLoot(Ingredient.all)
@@ -144,9 +144,18 @@ LootJS.modifiers((event) => {
 	event.addLootTypeModifier([LootType.CHEST])
 		.anyDimension("minecraft:overworld")
 		.addLoot(
-			LootEntry.of("kubejs:coin_dungeon").when((c) => c.randomChance(0.3)).limitCount([1, 1])
+			LootEntry.of("kubejs:coin_dungeon").when((c) => c.randomChance(0.1)).limitCount([1, 1])
 		)
 		.replaceLoot("apotheosis:gem", "kubejs:gem_shard");
+
+	// OVERWORLD-QUEST custom chest loot
+	event.addLootTypeModifier([LootType.CHEST])
+		.anyDimension("minecraft:overworld")
+		.hasAnyStage("sidestory_crate")
+		.anyStructure(["nova_structures:undead_crypt", "dungeons_enhanced:monster_maze"], false) 
+		.addLoot(
+			LootEntry.of("kubejs:quest_crate").when((c) => c.randomChance(0.2)).limitCount([1, 1])
+		);
 
 	// NETHER-SPECIFIC custom chest loot
 	event.addLootTypeModifier(LootType.CHEST)

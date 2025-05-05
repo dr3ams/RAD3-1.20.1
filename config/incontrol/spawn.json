@@ -17,11 +17,13 @@
         "result": "deny"
     },
 	{
-        "mob": "hmag:ghost",
-        "when": "onjoin",
-        "baby": true,
-        "result": "deny"
-    },
+		"mob": "hmag:ghost",
+		"mincount": {
+            "amount": 1,
+            "perchunk": true
+        },
+		"result": "deny"
+	},
 	{
         "mob": "minecraft:giant",
         "seesky": true,
@@ -102,8 +104,7 @@
         "mob": [
             "minecraft:sniffer",
             "minecraft:phantom",
-			"mythicmounts:dragon",
-			"hmag:ghost"
+			"mythicmounts:dragon"
         ],
         "when": "onjoin",
         "result": "deny"
