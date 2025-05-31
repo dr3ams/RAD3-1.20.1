@@ -10,10 +10,25 @@
     "minecraft:piglin",
     "minecraft:zombified_piglin",
     "minecraft:piglin_brute",
-    "quark:forgotten",
-    "undergarden:forgotten",
-    "hmag:ghost",
-    "hmag:redcap",
-    "hmag:wither_ghost"
+    {
+      "id": "quark:forgotten",
+      "required": false
+    },
+    {
+      "id": "undergarden:forgotten",
+      "required": false
+    },
+    {
+      "id": "hmag:ghost",
+      "required": false
+    },
+    {
+      "id": "hmag:redcap",
+      "required": false
+    },
+    {
+      "id": "hmag:wither_ghost",
+      "required": false
+    }
   ]
 }
