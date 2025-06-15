@@ -181,7 +181,6 @@ const removals = [
   "celestial_artifacts:gold_ring", 
   "celestial_artifacts:amethyst_ring", 
   "celestial_artifacts:diamond_ring", 
-  "celestial_artifacts:flight_ring", 
   "celestial_artifacts:netherite_ring", 
   "celestial_artifacts:ring_of_life",
   "celestial_artifacts:knight_shelter",
@@ -385,7 +384,7 @@ ServerEvents.recipes((event) => {
     true
   );
 
-//  event.shapeless("sophisticatedbackpacks:upgrade_base", ["#curios:bundle"]);
+  event.shapeless("sophisticatedbackpacks:upgrade_base", ["#curios:bundle"]);
 //  shapedStarRecipe(
 //    Item.of("sophisticatedbackpacks:stack_upgrade_starter_tier", 3),
 //    "#forge:storage_blocks/copper",
@@ -673,6 +672,18 @@ ServerEvents.recipes((event) => {
 	S: 'hmag:ancient_stone',
 	G: 'l2complements:guardian_eye'
   });
+  event.shaped('celestial_artifacts:flight_ring', [
+    'BTA',
+    'MGM',
+    'ARB'
+	], {
+    B: 'l2complements:captured_wind',
+	A: 'the_bumblezone:windy_air',
+	M: 'l2complements:sun_membrane',
+	T: 'bosses_of_mass_destruction:levitation_block',
+	R: 'ars_nouveau:ritual_flight',
+	G: 'deep_aether:gravitite_ring'
+  });
   event.shaped('nameless_trinkets:gods_crown', [
     'EHE',
     'GGG',
@@ -936,6 +947,11 @@ ServerEvents.recipes((event) => {
   [
 	'aether:enchanted_gravitite'
   ]);
+  event.shapeless(
+  Item.of('farmersdelight:straw', 1),
+  [
+	'2x farmersdelight:rope'
+  ]);
   
   event.shaped('apotheotic_additions:sacrificial_shelf', [
     'GBG',
@@ -975,6 +991,11 @@ ServerEvents.recipes((event) => {
 	B: 'apotheosis:beeshelf',
 	I: 'naturesaura:infused_iron'
   });
+  event.replaceInput(
+    { output: "apotheotic_additions:gilded_aerogel_skyshelf" },
+    "aether:enchanted_gravitite",
+    "#aether_redux:golden_swet_ball"
+  );
 
 
   function compressRecipe(item1, item2, reversed) {
@@ -989,6 +1010,7 @@ ServerEvents.recipes((event) => {
   compressRecipe("kubejs:coin_04", "kubejs:coin_03", true);
   compressRecipe("kubejs:coin_05", "kubejs:coin_04", true);
   compressRecipe("kubejs:coin_06", "kubejs:coin_05", true);
+  compressRecipe("cataclysm:black_steel_block", "cataclysm:black_steel_ingot", true);
 
   event.shapeless("ars_nouveau:ritual_awakening", [
     "ars_nouveau:green_archwood_log",
