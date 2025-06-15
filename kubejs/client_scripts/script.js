@@ -140,7 +140,6 @@ JEIEvents.hideItems(event => {
     event.hide('celestial_artifacts:gold_ring')
     event.hide('celestial_artifacts:amethyst_ring')
     event.hide('celestial_artifacts:diamond_ring')
-    event.hide('celestial_artifacts:flight_ring')
     event.hide('celestial_artifacts:netherite_ring')
     event.hide('celestial_artifacts:ring_of_life')
 	event.hide('levelhearts:heart_piece')
