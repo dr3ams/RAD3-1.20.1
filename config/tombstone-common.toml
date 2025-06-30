@@ -87,9 +87,6 @@
 	unhandled_beneficial_effects = ["astralsorcery:potiontimefreeze"]
 	#Harmful effects that can't used by certain features such as tablet of cupidity and the enchantment plague bringer
 	unhandled_harmful_effects = ["minecraft:nausea"]
-	#Rarity for Easter Eggs to spawn during Easter [1000..100000|default:5000]
-	#Range: 1000 ~ 100000
-	easter_egg_spawn_rarity = 100000
 	#Allows to limit the damages done by Decrepitude
 	#Range: > 1
 	decrepitude_max_damage = 2147483647
@@ -158,9 +155,6 @@
 	#Chance on 1000 that a soul appears on a grave [0..1000|default:100]
 	#Range: 0 ~ 1000
 	chance_soul = 100
-	#Chance to receive a random beneficial spell effect when praying near a grave [0..100|default:30]
-	#Range: 0 ~ 100
-	chance_pray_reward = 30
 
 #Options related to the command recovery and auto-save of players
 [recovery]
@@ -184,15 +178,17 @@
 	max_xp_lost_page = 2000
 	#Denied mods for equipment drops
 	denied_modid_for_equipment = ["tombstone"]
+	#Only vanilla drops for equipment [false/true|default:false]
+	only_vanilla_for_equipment = false
 
 #Allows to enable some features related to others mods
 [compatibility]
 	#Allows to auto-equip the slots from Curio mod [false/true|default:true]
 	curio_auto_equip = true
 	#Allows to provide a default support for bundle in Curio mod [false/true|default:true]
-	curio_bundle_support = true
+	curio_bundle_support = false
 	#Allows to provide a magic book slot in Curio mod used to enchant with a soul [false/true|default:true]
-	curio_magic_book_support = true
+	curio_magic_book_support = false
 	#Keeps the cosmetic armor when you die [false/true|default:true]
 	keep_cosmetic_armor = true
 	#Ensure the potion effects to stay on the player after returning from end conquered [false/true|default:true]
@@ -208,4 +204,7 @@
 	allow_easter = true
 	#Allows April Fools [false/true|default:true]
 	allow_april_fools = true
+	#Allows you to set a Special Event as permanent [NONE/APRIL_FOOLS/HALLOWEEN/CHRISTMAS/EASTER|default:NONE]
+	#Allowed Values: NONE, APRIL_FOOLS, HALLOWEEN, CHRISTMAS, EASTER
+	force_special_event = "NONE"
 
