@@ -62,6 +62,7 @@ LootJS.modifiers((event) => {
 		.replaceLoot("minecraft:gold_ingot", LootEntry.of("spelunkery:raw_gold_nugget").limitCount([1, 5]))
 		.replaceLoot("minecraft:iron_ingot", LootEntry.of("spelunkery:raw_iron_nugget").limitCount([1, 5]))
 		.replaceLoot("minecraft:diamond", "spelunkery:rough_diamond_shard")
+		.replaceLoot("hmag:diamond_fragment", "spelunkery:rough_diamond_shard")
 		.replaceLoot("minecraft:emerald", "spelunkery:rough_emerald_shard")
 		.replaceLoot("minecraft:diamond_pickaxe", "spelunkery:rough_diamond")
 		.replaceLoot("minecraft:diamond_sword", "spelunkery:rough_diamond")
