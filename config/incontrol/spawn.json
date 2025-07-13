@@ -60,15 +60,15 @@
     {
         "spawner": false,
         "structure": false,
-        "mob": "minecraft:guardian",
+        "mob": "minecraft:phantom",
         "mincount": {
-            "amount": 10,
+            "amount": 1,
             "hostile": true,
             "perplayer": true
         },
         "result": "deny"
     },
-	{
+    {
         "spawner": false,
         "structure": false,
         "mob": "minecraft:vex",
@@ -90,6 +90,26 @@
         "result": "deny"
     },
     {
+        "spawner": false,
+        "mob": "aether:cockatrice",
+        "mincount": {
+            "amount": 5,
+            "hostile": true,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "spawner": false,
+        "mob": "mowziesmobs:naga",
+        "mincount": {
+            "amount": 1,
+            "hostile": true,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
       "spawner": false,
       "dimension": "landsoficaria:icaria",
       "hostile": true,
@@ -103,8 +123,7 @@
 	{
         "mob": [
             "minecraft:sniffer",
-            "minecraft:phantom",
-			"mythicmounts:dragon"
+            "minecraft:donkey"
         ],
         "when": "onjoin",
         "result": "deny"
