@@ -229,7 +229,7 @@
 		{
 			dependencies: ["1EAB72EC26A866EF"]
 			description: [
-				"To make a Miracle Ingot, you need Hostility Essence. The only way to get that is by burning Bottles of Curse in fire or lava. It's a 1/512 chance per burned bottle. That means, to craft items that need Miracle Ingots or Hostility Essence, you're going to need THOUSANDS of Bottles of Curse."
+				"To make a Miracle Ingot, you need Hostility Essence. The only way to get that is by burning Bottles of Curse in fire or lava. It's a 1/128 chance per burned bottle. That means, to craft items that need Miracle Ingots or Hostility Essence, you're going to need A LOT of Bottles of Curse."
 				""
 				"Bottles of Curse can also be drunk to increase your difficulty. This is the only way to encounter some of the rarest and most powerful mob traits, such as Ragnarok."
 			]
@@ -241,7 +241,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 512L
+				count: 128L
 				id: "7A26D3694D0094F1"
 				item: "l2hostility:bottle_of_curse"
 				type: "item"
@@ -1772,7 +1772,7 @@
 		}
 		{
 			dependencies: ["2C8184EF50649550"]
-			description: ["Adds 2 more head slots. You can only wear one Oddeyes Glasses, so no infinite stacking. Now you can wear your Detector Glasses and your Night Vision Goggles at the same time!"]
+			description: ["Adds 2 more head slots. You can only wear one Oddeyes Glasses. Now you can wear your Detector Glasses and your Night Vision Goggles at the same time!"]
 			id: "0ABFF4AB2E27B025"
 			rewards: [{
 				id: "47E32F9E354E4B95"
@@ -1789,7 +1789,7 @@
 		}
 		{
 			dependencies: ["2C8184EF50649550"]
-			description: ["Adds 3 more back slots. You can only wear one Triple-Strip Cape, so no infinite stacking."]
+			description: ["Adds 3 more back slots. You can only wear one Triple-Strip Cape. "]
 			id: "1359529A03001723"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1963,6 +1963,150 @@
 			}]
 			x: -18.0d
 			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["19E3721B38A7E89F"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "l2hostility:tank"
+			id: "39F87D8D27C27229"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C7E27A90254DA3C"
+				table_id: 5826278714302959226L
+				type: "choice"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "Unlock: Kill a mob with 5 traits"
+			tasks: [
+				{
+					advancement: "l2hostility:hostility/kill_5_traits"
+					criterion: ""
+					id: "2303F9C1E438E97A"
+					type: "advancement"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "19541B663529D737"
+					item: { Count: 4, id: "l2hostility:miracle_powder" }
+					type: "item"
+				}
+			]
+			title: "Trait Shop I"
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["19E3721B38A7E89F"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "l2hostility:reprint"
+			id: "23F74C045B82BE9A"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E7E35765A5024F5"
+				table_id: 6093672532687335595L
+				type: "choice"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "Unlock: Kill a mob with 10 traits"
+			tasks: [
+				{
+					advancement: "l2hostility:hostility/kill_10_traits"
+					criterion: ""
+					id: "0E8D5AE2DD6F7227"
+					type: "advancement"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "3F0107656E4D1457"
+					item: { Count: 8, id: "l2hostility:miracle_powder" }
+					type: "item"
+				}
+			]
+			title: "Trait Shop II"
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["19E3721B38A7E89F"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "l2hostility:dispell"
+			id: "507B1A9A23B831A4"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "536CF3DFE135F46D"
+				table_id: 1794006521994657103L
+				type: "choice"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "Unlock: Kill a mob with both Dispell and Dementor traits"
+			tasks: [
+				{
+					advancement: "l2hostility:hostility/kill_dementor"
+					criterion: ""
+					id: "0460EE83C5062E38"
+					type: "advancement"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "6CB8EA671AE64059"
+					item: { Count: 16, id: "l2hostility:miracle_powder" }
+					type: "item"
+				}
+			]
+			title: "Trait Shop III"
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["19E3721B38A7E89F"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "l2hostility:ragnarok"
+			id: "0CC5C79B55ABD75A"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07F178E986A6F422"
+				table_id: 3760960699412910521L
+				type: "choice"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "Unlock: Kill a mob with both Killer Aura and Ragnarok traits"
+			tasks: [
+				{
+					advancement: "l2hostility:hostility/kill_ragnarok"
+					criterion: ""
+					id: "6065A446C5242F69"
+					type: "advancement"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "36C0DE1ECF568663"
+					item: { Count: 32, id: "l2hostility:miracle_powder" }
+					type: "item"
+				}
+			]
+			title: "Trait Shop IV"
+			x: -0.5d
+			y: 6.5d
 		}
 	]
 	title: "&7Hostile World&r"

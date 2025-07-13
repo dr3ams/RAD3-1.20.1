@@ -1146,6 +1146,7 @@
 			y: -4.5d
 		}
 		{
+			can_repeat: true
 			icon: "skilltree:wisdom_scroll"
 			id: "052A510D43FD68FC"
 			rewards: [{
@@ -1155,6 +1156,7 @@
 			}]
 			subtitle: "One Passive Skill Tree point"
 			tasks: [{
+				consume_items: true
 				count: 3L
 				id: "37FF23F294C904BC"
 				item: "kubejs:gold_coin"

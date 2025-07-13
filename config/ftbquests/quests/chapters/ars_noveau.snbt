@@ -1946,18 +1946,26 @@
 				item: "ars_additions:codex_entry"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "68EFE0B2366E0EBD"
-					item: "minecraft:lapis_lazuli"
-					type: "item"
+			tasks: [{
+				id: "28BD193B1D90554F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:lapis_lazuli"
+							}
+							{
+								Count: 1b
+								id: "minecraft:amethyst_shard"
+							}
+						]
+					}
 				}
-				{
-					id: "5665A5E739959404"
-					item: "minecraft:amethyst_shard"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			title: "Source Gem Ingredients"
 			x: 2.5d
 			y: -2.0d

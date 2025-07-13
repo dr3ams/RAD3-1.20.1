@@ -1752,6 +1752,89 @@
 			x: -6.0d
 			y: -1.0d
 		}
+		{
+			icon: "cataclysm:storm_eye"
+			id: "5B049CDF09A52A6E"
+			shape: "octagon_important"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5589E2D64E243A22"
+					item: "cataclysm:storm_eye"
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:find_acropolis"
+					criterion: ""
+					id: "63D7A441FAD44F2E"
+					type: "advancement"
+				}
+			]
+			x: 7.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["5B049CDF09A52A6E"]
+			description: ["currently unfinished - no traits"]
+			id: "0FDA1325DF9B62D2"
+			shape: "hexagon_important"
+			tasks: [{
+				advancement: "cataclysm:kill_scylla"
+				criterion: ""
+				id: "0AF3F5629FF168CC"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0FDA1325DF9B62D2"]
+			id: "37D2359543D1EC6B"
+			tasks: [{
+				id: "64B3541623BA1853"
+				item: "cataclysm:chitin_claw"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0FDA1325DF9B62D2"]
+			id: "5512DF43F3206B5F"
+			tasks: [{
+				id: "24BCF1E062AE6E1E"
+				item: "cataclysm:astrape"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0FDA1325DF9B62D2"]
+			id: "627ABD71DAE9EB6B"
+			tasks: [{
+				id: "7CD9753CDA73B6E4"
+				item: "cataclysm:ceraunus"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -11.0d
+		}
+		{
+			description: ["By putting the matching Eye into this block, a Cataclysm boss can be fought again."]
+			id: "202B986A025AE395"
+			tasks: [{
+				icon: "cataclysm:boss_respawner"
+				id: "51BC3887DA7FFDB5"
+				observe_type: 0
+				timer: 0L
+				to_observe: "cataclysm:boss_respawner"
+				type: "observation"
+			}]
+			title: "Boss Respawner"
+			x: 1.0d
+			y: -3.0d
+		}
 	]
 	title: "&cSeek and Destroy&r"
 }
