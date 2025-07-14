@@ -5,34 +5,52 @@
       "filling_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:blackstone"
+          "Name": "aether_aerogel"
         }
       },
       "inner_layer_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:netherrack"
+          "Name": "aether:holystone"
         }
       },
       "alternate_inner_layer_provider": {
         "type": "minecraft:weighted_state_provider",
         "entries": [
           {
+            "weight": 12,
+            "data": {
+              "Name": "aether:ambrosium_ore"
+            }
+          },
+          {
+            "weight": 10,
+            "data": {
+              "Name": "aether:zanite_ore"
+            }
+          },
+          {
+            "weight": 8,
+            "data": {
+              "Name": "aether_redux:veridium_ore"
+            }
+          },
+          {
+            "weight": 8,
+            "data": {
+              "Name": "deep_aether:skyjade_ore"
+            }
+          },
+          {
+            "weight": 6,
+            "data": {
+              "Name": "ancient_aether:valkyrum_ore"
+            }
+          },
+          {
             "weight": 4,
             "data": {
-              "Name": "minecraft:ancient_debris"
-            }
-          },
-          {
-            "weight": 12,
-            "data": {
-              "Name": "minecraft:nether_quartz_ore"
-            }
-          },
-          {
-            "weight": 12,
-            "data": {
-              "Name": "minecraft:nether_gold_ore"
+              "Name": "aether:gravitite_ore"
             }
           }
         ]
@@ -40,18 +58,18 @@
       "middle_layer_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:netherrack"
+          "Name": "aether:icestone"
         }
       },
       "outer_layer_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:blackstone"
+          "Name": "aether:aerogel"
         }
       },
       "inner_placements": [
         {
-          "Name": "minecraft:gilded_blackstone",
+          "Name": "aether:holystone",
           "Properties": {
             "facing": "up",
             "waterlogged": "false"

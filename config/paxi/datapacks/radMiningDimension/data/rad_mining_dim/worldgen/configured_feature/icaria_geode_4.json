@@ -5,34 +5,28 @@
       "filling_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:blackstone"
+          "Name": "landsoficaria:voidshale"
         }
       },
       "inner_layer_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:netherrack"
+          "Name": "landsoficaria:voidshale"
         }
       },
       "alternate_inner_layer_provider": {
         "type": "minecraft:weighted_state_provider",
         "entries": [
           {
-            "weight": 4,
+            "weight": 12,
             "data": {
-              "Name": "minecraft:ancient_debris"
+              "Name": "landsoficaria:anthracite_ore"
             }
           },
           {
             "weight": 12,
             "data": {
-              "Name": "minecraft:nether_quartz_ore"
-            }
-          },
-          {
-            "weight": 12,
-            "data": {
-              "Name": "minecraft:nether_gold_ore"
+              "Name": "landsoficaria:sideros_ore"
             }
           }
         ]
@@ -40,18 +34,18 @@
       "middle_layer_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:netherrack"
+          "Name": "landsoficaria:voidshale"
         }
       },
       "outer_layer_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:blackstone"
+          "Name": "landsoficaria:grainel"
         }
       },
       "inner_placements": [
         {
-          "Name": "minecraft:gilded_blackstone",
+          "Name": "landsoficaria:budding_jasper",
           "Properties": {
             "facing": "up",
             "waterlogged": "false"

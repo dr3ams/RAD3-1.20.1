@@ -721,31 +721,6 @@ ServerEvents.recipes((event) => {
 	P: 'minecraft:purple_dye',
 	B: 'minecraft:book'
   });
-	
-	event.shaped(
-  Item.of('cataclysm:black_steel_fence', 3), [
-    'IRI',
-    'IRI'
-	], {
-	I: 'cataclysm:black_steel_ingot',
-	R: 'buildersaddition:iron_rod'
-  });
-  event.shaped(
-  Item.of('cataclysm:black_steel_wall', 6), [
-    'BBB',
-    'BBB'
-	], {
-	B: 'cataclysm:black_steel_block'
-  });
-  event.shaped(
-  Item.of('cataclysm:frosted_stone_bricks', 8), [
-    'BBB',
-	'BSB',
-    'BBB'
-	], {
-	B: 'minecraft:stone_bricks',
-	S: 'minecraft:snowball'
-  });
   event.shaped(
   Item.of('cataclysm:void_infused_end_stone_bricks', 8), [
     'VBB',
@@ -765,7 +740,7 @@ ServerEvents.recipes((event) => {
 
   event.stonecutting('cataclysm:black_steel_wall', 'cataclysm:black_steel_block')
   event.stonecutting('cataclysm:polished_obsidian', 'cataclysm:obsidian_bricks')
-  event.stonecutting('cataclysm:polished_obsidian', 'minecraft:obsidian')
+  event.stonecutting('cataclysm:polished_sandstone', 'minecraft:sandstone')
   event.stonecutting('cataclysm:blackstone_pillar', 'minecraft:blackstone')
   event.stonecutting('cataclysm:blackstone_pillar', 'minecraft:polished_blackstone')
   event.stonecutting('cataclysm:blackstone_pillar', 'minecraft:polished_blackstone_bricks')
@@ -952,6 +927,24 @@ ServerEvents.recipes((event) => {
   [
 	'2x farmersdelight:rope'
   ]);
+  event.shapeless('paraglider:goddess_statue',
+  [
+    'spelunkery:flint_hammer_and_chisel',
+    '#c:cobblestone'
+  ]).damageIngredient(Item.of('spelunkery:flint_hammer_and_chisel'))
+  event.shapeless('paraglider:goddess_statue',
+  [
+    'spelunkery:obsidian_hammer_and_chisel',
+    '#c:cobblestone'
+  ]).damageIngredient(Item.of('spelunkery:obsidian_hammer_and_chisel'))
+  event.shapeless(
+  Item.of('landsoficaria:greek_fire_grenade', 1),
+  [
+    'minecraft:flower_pot',
+	'#forge:string',
+	'hmag:fire_bottle',
+	'supplementaries:lumisene_bottle'
+  ]);
   
   event.shaped('apotheotic_additions:sacrificial_shelf', [
     'GBG',
@@ -1010,7 +1003,6 @@ ServerEvents.recipes((event) => {
   compressRecipe("kubejs:coin_04", "kubejs:coin_03", true);
   compressRecipe("kubejs:coin_05", "kubejs:coin_04", true);
   compressRecipe("kubejs:coin_06", "kubejs:coin_05", true);
-  compressRecipe("cataclysm:black_steel_block", "cataclysm:black_steel_ingot", true);
 
   event.shapeless("ars_nouveau:ritual_awakening", [
     "ars_nouveau:green_archwood_log",

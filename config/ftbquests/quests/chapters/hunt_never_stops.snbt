@@ -2671,8 +2671,8 @@
 				type: "kill"
 				value: 5L
 			}]
-			x: -4.5d
-			y: -8.0d
+			x: -5.0d
+			y: -7.0d
 		}
 		{
 			description: ["These magma creature spawn in magma pools deep underground and in the Nether. They throw fireballs like Blazes and leave a trail of fire behind them. They are afraid of Striders and will leave players alone if they are riding one."]
@@ -3523,7 +3523,7 @@
 			y: -9.0d
 		}
 		{
-			description: ["A squid-like monster that spawns in swamps and magrove swamps. Its tentacles inflict poisonous, and it spits ink that inflicts blindness."]
+			description: ["A squid-like monster that spawns in swamps and magrove swamps. Its tentacles inflict poison, and it spits ink that inflicts blindness."]
 			id: "477A27F867D5BE40"
 			rewards: [
 				{
@@ -3729,11 +3729,18 @@
 		}
 		{
 			id: "7307805FF28F746C"
-			rewards: [{
-				id: "2E055FFC61EF303C"
-				item: "nameless_trinkets:light_gloves"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2E055FFC61EF303C"
+					item: "nameless_trinkets:light_gloves"
+					type: "item"
+				}
+				{
+					id: "036D4E55CA7CE649"
+					type: "xp"
+					xp: 1000
+				}
+			]
 			subtitle: "Now it's YOU"
 			tasks: [{
 				entity: "minecraft:warden"
@@ -3960,6 +3967,68 @@
 			}]
 			x: 4.5d
 			y: -9.0d
+		}
+		{
+			description: ["A crab-like, neutral creature found in lush caves. Its meat is delicious. If provoked, it attacks with its claw and shoots crystals."]
+			id: "737D6C861DAE7805"
+			rewards: [
+				{
+					count: 8
+					id: "7F213CB5690DBEF7"
+					item: "cataclysm:amethyst_crab_meat"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "50E989D794805D74"
+					item: "cataclysm:amethyst_crab_shell"
+					type: "item"
+				}
+				{
+					id: "3765376F749BE4E5"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:amethyst_crab"
+				icon: "minecraft:amethyst_cluster"
+				id: "67E70FB307978E4A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["737D6C861DAE7805"]
+			description: ["Amethyst Crab Meat can be blessed at the altar found in the library of a Sunken City. It is extremely helpful against the Leviathan."]
+			icon: "cataclysm:blessed_amethyst_crab_meat"
+			id: "69D6C6ADEF7CFCC7"
+			rewards: [{
+				count: 3
+				id: "019D9DAC19168B91"
+				item: "cataclysm:blessed_amethyst_crab_meat"
+				type: "item"
+			}]
+			tasks: [
+				{
+					icon: "cataclysm:altar_of_amethyst"
+					id: "312AE004C3E80038"
+					observe_type: 0
+					timer: 0L
+					to_observe: "cataclysm:altar_of_amethyst"
+					type: "observation"
+				}
+				{
+					id: "73FA6E88C0BEB607"
+					item: "cataclysm:blessed_amethyst_crab_meat"
+					type: "item"
+				}
+			]
+			title: "Blessed Amethyst Crab Meat"
+			x: -5.5d
+			y: -8.0d
 		}
 	]
 	title: "Hunt Never Stops"

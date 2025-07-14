@@ -61,6 +61,7 @@
 			dependencies: [
 				"2D875F9BAD35800F"
 				"517F851353600623"
+				"13E31601F723D2DD"
 			]
 			dependency_requirement: "one_completed"
 			description: [
@@ -195,6 +196,22 @@
 				{
 					id: "2B50B384F50CC055"
 					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "7B658D1727C5141C"
+					item: {
+						Count: 1
+						id: "simplyswords:watching_warglaive"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							reinforce_level: 0
+							reinforce_max: 10
+						}
+					}
 					type: "item"
 				}
 			]
@@ -433,8 +450,8 @@
 				}
 			]
 			title: "The Weird Shelves"
-			x: 0.0d
-			y: -3.0d
+			x: 2.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0367FE53FC0CC35B"]
@@ -1348,6 +1365,58 @@
 			}]
 			x: -6.0d
 			y: -9.0d
+		}
+		{
+			dependencies: [
+				"3C4CBE20B2EE36D3"
+				"7878E38C1FFB963D"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"The Skyshelf is another enchanting option for those who have visited the Aether. However, to infuse one, you need at least one Hellshelf or Seashelf."
+				""
+				"It's a little better than a Hellshelf or Seashelf, but not quite as good as a Deepshelf."
+			]
+			hide_until_deps_complete: true
+			id: "13E31601F723D2DD"
+			rewards: [
+				{
+					id: "6AA17CFFB8A16100"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "59DBBA0008CEC8C9"
+					item: "ancient_aether:festive_gummy_swet"
+					type: "item"
+				}
+			]
+			subtitle: "The secret third shelf"
+			tasks: [{
+				id: "02AD11AC79326204"
+				item: "apotheotic_additions:infused_skyshelf"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["13E31601F723D2DD"]
+			description: [
+				"Help, I'm running out of space to add shelves to this quest tree."
+				""
+				"5 Eterna is quite a lot for how easy it is to get this shelf. It can take you all the way to level 75, which is just as high as a Soul-touched or Echoing Deepshelf. "
+			]
+			id: "64A92D70448C1445"
+			size: 0.5d
+			subtitle: "good eye"
+			tasks: [{
+				id: "1F7B7EB2630DEA39"
+				item: "apotheotic_additions:gilded_aerogel_skyshelf"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
 		}
 	]
 	title: "Enchanting"
