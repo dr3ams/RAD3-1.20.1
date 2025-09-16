@@ -17,7 +17,7 @@
   },
   "antiflightAbility": {
     "desc:": "Enables anti-flight ability: default:true",
-    "antiflightAbility": true
+    "antiflightAbility": false
   },
   "dragonHealthModifier": {
     "desc:": "Sets the dragon health modifier: default:1.0",
@@ -47,13 +47,13 @@
   "spawnoncrystaldestroy": {
     "desc:": "List of mobs spawning when a crystal is destroyed at range, intended to be flying or ranged to close the gap: e.g. format :  [\"minecraft:zombie\", \"minecraft:creeper\"]",
     "spawnoncrystaldestroy": [
-      "minecraft:phantom"
+      "hmag:dyssomnia"
     ]
   },
   "spawnoncrystalrespawn": {
     "desc:": "List of mobs spawning on crystal respawn, intended to be ranged to ward of players from a distance: e.g. format :  [\"minecraft:zombie\", \"minecraft:creeper\"]",
     "spawnoncrystalrespawn": [
-      "minecraft:blaze"
+      "hmag:monolith"
     ]
   },
   "spawnwhilelanded": {
