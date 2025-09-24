@@ -1091,6 +1091,10 @@ ServerEvents.recipes((event) => {
     'kubejs:spawnercore'
 	]).damageIngredient(Item.of('kubejs:portable_dissolver'))
 
+	event.shapeless('5x kubejs:dust_experience', [
+    'kubejs:portable_dissolver',
+    'shieldinghealth:power_token'
+	]).damageIngredient(Item.of('kubejs:portable_dissolver'))
 
 	event.shaped('kubejs:portable_transmutator', [
     'EGE',
@@ -1123,7 +1127,11 @@ ServerEvents.recipes((event) => {
     'kubejs:portable_transmutator',
     'kubejs:spawnercore'
 	]).damageIngredient(Item.of('kubejs:portable_transmutator'))
-  
+
+	event.shapeless('5x kubejs:dust_alchemical', [
+    'kubejs:portable_transmutator',
+    'shieldinghealth:power_token'
+	]).damageIngredient(Item.of('kubejs:portable_transmutator'))  
   
   	event.shaped('kubejs:portable_salvager', [
     'EGE',
@@ -1179,6 +1187,11 @@ ServerEvents.recipes((event) => {
 	event.shapeless('2x kubejs:scraps', [
     'kubejs:portable_salvager',
     'kubejs:spawnercore'
+	]).damageIngredient(Item.of('kubejs:portable_salvager'))
+	
+	event.shapeless('5x kubejs:scraps', [
+    'kubejs:portable_salvager',
+    'shieldinghealth:power_token'
 	]).damageIngredient(Item.of('kubejs:portable_salvager'))
 ////////////////	END
 });

@@ -167,7 +167,7 @@
 				}
 				{
 					consume_items: true
-					count: 32L
+					count: 8L
 					disable_toast: true
 					id: "558BD822306C33FC"
 					item: "kubejs:dust_alchemical"
@@ -378,7 +378,7 @@
 				}
 				{
 					consume_items: true
-					count: 32L
+					count: 8L
 					disable_toast: true
 					id: "1D8B8A7EB3B8DFF4"
 					item: "kubejs:scraps"
@@ -548,7 +548,7 @@
 				}
 				{
 					consume_items: true
-					count: 32L
+					count: 8L
 					disable_toast: true
 					id: "38D8D7D136359C6A"
 					item: "kubejs:dust_experience"
@@ -755,8 +755,8 @@
 				item: "kubejs:essence_earth"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 13.5d
+			x: 2.0d
+			y: 12.5d
 		}
 		{
 			can_repeat: true
@@ -778,7 +778,7 @@
 			}]
 			title: "&aMonster Essence&r - > Monster Drops III"
 			x: -1.0d
-			y: 12.5d
+			y: 12.0d
 		}
 		{
 			can_repeat: true
@@ -797,7 +797,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 12.5d
+			y: 11.5d
 		}
 		{
 			can_repeat: true
@@ -810,6 +810,7 @@
 				type: "random"
 			}]
 			tasks: [{
+				consume_items: true
 				id: "44F45806504846B0"
 				item: "kubejs:junk"
 				type: "item"
@@ -870,6 +871,7 @@
 				type: "random"
 			}]
 			tasks: [{
+				consume_items: true
 				id: "165BCD50E7C52D4F"
 				item: "kubejs:coin_02"
 				type: "item"
@@ -1068,13 +1070,14 @@
 				type: "choice"
 			}]
 			tasks: [{
+				consume_items: true
 				count: 3L
 				id: "4AD2ECE64AC80690"
 				item: "kubejs:junk"
 				type: "item"
 			}]
 			x: 3.5d
-			y: 12.0d
+			y: 11.5d
 		}
 		{
 			can_repeat: true
@@ -1228,6 +1231,7 @@
 				type: "choice"
 			}]
 			tasks: [{
+				consume_items: true
 				count: 2L
 				id: "6DE2B03E96E4BB14"
 				item: "kubejs:junk"
@@ -1248,7 +1252,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 20L
+				count: 10L
 				disable_toast: true
 				id: "3315BC5B8A8251AB"
 				item: "kubejs:essence_earth"
@@ -1282,8 +1286,8 @@
 				type: "item"
 			}]
 			title: "Artifact Recycling"
-			x: 5.0d
-			y: 13.0d
+			x: 6.5d
+			y: 11.0d
 		}
 		{
 			can_repeat: true
@@ -1364,6 +1368,7 @@
 			y: 12.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["132E2FA2094CD5E2"]
 			id: "48E8C1E0D395F743"
 			rewards: [{
@@ -1373,12 +1378,27 @@
 				type: "random"
 			}]
 			tasks: [{
+				consume_items: true
+				count: 3L
 				id: "70C3B396BA66907F"
 				item: "kubejs:gem_shard"
 				type: "item"
 			}]
 			x: 6.5d
 			y: 6.0d
+		}
+		{
+			dependencies: ["1082AFB9D8CEFAD5"]
+			id: "44098E1636541142"
+			subtitle: "Prove that you're worthy"
+			tasks: [{
+				id: "65C71D2FE8DFEB3D"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "&bAscendant Enchanter&r"
+			x: -4.0d
+			y: 13.5d
 		}
 	]
 	title: "⭐ Masteries"
