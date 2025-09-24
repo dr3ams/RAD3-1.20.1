@@ -37,8 +37,6 @@ JEIEvents.hideItems(event => {
     
     event.hide('l2hostility:undying')
     event.hide('l2complements:space_shard')
-    event.hide('l2complements:eternal')
-    event.hide('l2complements:invincible')
     
     event.hide('embers:creative_ember_source')
     
@@ -131,6 +129,7 @@ JEIEvents.hideItems(event => {
 	
     event.hide('nameless_trinkets:ethereal_wings')
 	event.hide('nameless_trinkets:fragile_cloud')
+	event.hide('nameless_trinkets:sigil_of_baphomet')
 	event.hide('nameless_trinkets:dubious_dust')
 	event.hide('nameless_trinkets:glowing_dust')
 	event.hide('nameless_trinkets:ultimate_dust')
