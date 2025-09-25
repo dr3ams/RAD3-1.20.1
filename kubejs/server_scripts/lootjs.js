@@ -131,23 +131,42 @@ LootJS.modifiers((event) => {
 	event.addBlockLootModifier("minecraft:spawner").addLoot("kubejs:coin_dungeon");
 	event.addBlockLootModifier("minecraft:spawner").addLoot("kubejs:spawnercore");
 	
-	// GLOBAL custom chest loot
+	// GLOBAL mastery chest loot
 	event.addLootTypeModifier([LootType.CHEST])
 		.addLoot(
-			LootEntry.of("kubejs:dust_experience").when((c) => c.randomChance(0.2)).limitCount([1, 2]),
-			LootEntry.of("kubejs:dust_alchemical").when((c) => c.randomChance(0.2)).limitCount([1, 2]),
-			LootEntry.of("kubejs:scraps").when((c) => c.randomChance(0.2)).limitCount([1, 2]),
 			LootEntry.of("kubejs:junk").when((c) => c.randomChance(0.1)).limitCount([1, 1]),
-			LootEntry.of("kubejs:scroll_exp").when((c) => c.randomChance(0.05)).limitCount([1, 1])
+			LootEntry.of("kubejs:scroll_exp").when((c) => c.randomChance(0.1)).limitCount([1, 1])
 		);
 		
+	event.addLootTypeModifier([LootType.CHEST])
+		.hasAnyStage("enchanter")
+		.addLoot(
+			LootEntry.of("kubejs:dust_experience").when((c) => c.randomChance(0.3)).limitCount([1, 2]),
+				);
+		
+	event.addLootTypeModifier([LootType.CHEST])
+		.hasAnyStage("alchemist")
+		.addLoot(
+			LootEntry.of("kubejs:dust_alchemical").when((c) => c.randomChance(0.3)).limitCount([1, 2]),
+				);	
+				
+	event.addLootTypeModifier([LootType.CHEST])
+		.hasAnyStage("scavenger")
+		.addLoot(
+			LootEntry.of("kubejs:scraps").when((c) => c.randomChance(0.3)).limitCount([1, 2]),
+				);
+
 	// OVERWORLD-SPECIFIC custom chest loot
 	event.addLootTypeModifier([LootType.CHEST])
 		.anyDimension("minecraft:overworld")
 		.addLoot(
-			LootEntry.of("kubejs:coin_dungeon").when((c) => c.randomChance(0.1)).limitCount([1, 1])
-		)
+			LootEntry.of("kubejs:coin_dungeon").when((c) => c.randomChance(0.2)).limitCount([1, 1])
+		);
+
+		event.addLootTypeModifier([LootType.CHEST])
+		.anyDimension("minecraft:overworld")
 		.replaceLoot("apotheosis:gem", "kubejs:gem_shard");
+
 
 	// OVERWORLD-QUEST custom chest loot
 	event.addLootTypeModifier([LootType.CHEST])

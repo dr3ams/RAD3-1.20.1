@@ -20,6 +20,22 @@
           "name": "minecraft:apple",
           "weight": 2
         },
+		{
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:experience_bottle",
+          "weight": 2
+        },
         {
           "type": "minecraft:item",
           "functions": [
@@ -495,11 +511,11 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:ender_pearl"
+          "name": "hmag:kobold_leather"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:golden_apple"
+          "name": "hmag:bat_wing" 
         },
         {
           "type": "minecraft:item",
