@@ -53,11 +53,21 @@
 				}
 			}
 			id: "767A6845346F46F7"
-			rewards: [{
-				id: "19D0A9F03A27669B"
-				item: "kubejs:dust_alchemical"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "19D0A9F03A27669B"
+					item: "kubejs:dust_alchemical"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "2773B861E9F9861F"
+					ignore_reward_blocking: true
+					stage: "alchemist"
+					team_reward: false
+					type: "gamestage"
+				}
+			]
 			shape: "hexagon_important"
 			size: 1.5d
 			subtitle: "Allows you to gain more resources"
@@ -90,11 +100,22 @@
 				}
 			}
 			id: "2C5E501FA26E92FF"
-			rewards: [{
-				id: "415FA4ECF3E7EBA7"
-				item: "kubejs:scraps"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "415FA4ECF3E7EBA7"
+					item: "kubejs:scraps"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					exclude_from_claim_all: true
+					id: "37689B58C689C534"
+					ignore_reward_blocking: true
+					stage: "scavenger"
+					team_reward: false
+					type: "gamestage"
+				}
+			]
 			shape: "hexagon_important"
 			size: 1.5d
 			subtitle: "Salvage items into more useful items"
@@ -127,11 +148,21 @@
 				}
 			}
 			id: "47A62BACCFD304F9"
-			rewards: [{
-				id: "13B9A06735456BC1"
-				item: "kubejs:dust_experience"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "13B9A06735456BC1"
+					item: "kubejs:dust_experience"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "574038F9E42D4842"
+					ignore_reward_blocking: true
+					stage: "enchanter"
+					team_reward: false
+					type: "gamestage"
+				}
+			]
 			shape: "hexagon_important"
 			size: 1.5d
 			subtitle: "Exchange levels for desired enchants, get more experience"
@@ -1389,15 +1420,104 @@
 		}
 		{
 			dependencies: ["1082AFB9D8CEFAD5"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/levelup"
+				}
+			}
 			id: "44098E1636541142"
 			subtitle: "Prove that you're worthy"
-			tasks: [{
-				id: "65C71D2FE8DFEB3D"
-				item: "minecraft:nether_star"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "65C71D2FE8DFEB3D"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "549B649C2BEB1766"
+					points: false
+					type: "xp"
+					value: 30L
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "4030A37C97CBA65F"
+					item: { Count: 256, id: "kubejs:dust_experience" }
+					type: "item"
+				}
+			]
 			title: "&bAscendant Enchanter&r"
 			x: -4.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["76115E4AB84A7AEF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/levelup"
+				}
+			}
+			id: "01C9696012532F94"
+			subtitle: "Prove that you're worthy"
+			tasks: [
+				{
+					consume_items: true
+					id: "2A8CCB69F44231B4"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "1B1C3FD4D3E50E4F"
+					points: false
+					type: "xp"
+					value: 30L
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "4E8D4707B26BCDF3"
+					item: { Count: 256, id: "kubejs:dust_alchemical" }
+					type: "item"
+				}
+			]
+			title: "&bAscendant Alchemist&r"
+			x: 0.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["62BC62A1467C3269"]
+			icon: "kubejs:levelup"
+			id: "71F8515A02EAFD99"
+			subtitle: "Prove that you're worthy"
+			tasks: [
+				{
+					consume_items: true
+					id: "57FB33D3CDE49997"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "1A98C159B94E0BC0"
+					points: false
+					type: "xp"
+					value: 30L
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "43349AB722754163"
+					item: { Count: 256, id: "kubejs:scraps" }
+					type: "item"
+				}
+			]
+			title: "&bAscendant Scavenger&r"
+			x: 5.0d
 			y: 13.5d
 		}
 	]
