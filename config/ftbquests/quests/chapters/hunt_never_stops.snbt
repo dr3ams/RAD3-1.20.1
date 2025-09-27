@@ -2506,7 +2506,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: -7.0d
 		}
 		{
@@ -2538,7 +2538,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: -9.0d
 		}
 		{
@@ -2612,7 +2612,7 @@
 			y: -3.5d
 		}
 		{
-			description: ["A strong monster that spawns in deep caves. Their attacks deal high knockback, break blocks, and afflict Slowness IV. "]
+			description: ["A strong monster that spawns in deep caves. Their attacks deal high knockback, break blocks, and inflict Slowness IV. "]
 			id: "01B445834A79BAEC"
 			rewards: [
 				{
@@ -2639,7 +2639,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: -7.0d
 		}
 		{
@@ -2671,11 +2671,11 @@
 				type: "kill"
 				value: 5L
 			}]
-			x: -5.0d
+			x: -2.5d
 			y: -7.0d
 		}
 		{
-			description: ["These magma creature spawn in magma pools deep underground and in the Nether. They throw fireballs like Blazes and leave a trail of fire behind them. They are afraid of Striders and will leave players alone if they are riding one."]
+			description: ["These magma creatures spawn in magma pools deep underground and in the Nether. They throw fireballs like Blazes and leave a trail of fire behind them. They are afraid of Striders and will leave players alone if they are riding one."]
 			id: "4ECC6D216E912D3F"
 			rewards: [
 				{
@@ -2708,7 +2708,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: -2.5d
+			x: -5.0d
 			y: -8.0d
 		}
 		{
@@ -3174,7 +3174,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: -3.5d
 		}
 		{
@@ -3301,7 +3301,7 @@
 				type: "kill"
 				value: 5L
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: -9.0d
 		}
 		{
@@ -3519,7 +3519,7 @@
 				to_observe: "hmag:glaryad"
 				type: "observation"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: -9.0d
 		}
 		{
@@ -3724,19 +3724,39 @@
 				}
 			]
 			title: "Necrotic Armor"
-			x: -2.0d
+			x: -2.5d
 			y: -9.0d
 		}
 		{
 			id: "7307805FF28F746C"
 			rewards: [
 				{
-					id: "2E055FFC61EF303C"
+					id: "1BC9C602DC4E1307"
+					item: "apotheosis:warden_tendril"
+					type: "item"
+				}
+				{
+					id: "46EA208094C32FCB"
+					item: "celestial_core:warden_sclerite"
+					type: "item"
+				}
+				{
+					id: "46FECEC6290595CD"
+					item: "l2complements:warden_bone_shard"
+					type: "item"
+				}
+				{
+					id: "06A0059F97051772"
+					item: "minecraft:sculk_catalyst"
+					type: "item"
+				}
+				{
+					id: "25D5BA07B7152679"
 					item: "nameless_trinkets:light_gloves"
 					type: "item"
 				}
 				{
-					id: "036D4E55CA7CE649"
+					id: "158B4FEE1205E10C"
 					type: "xp"
 					xp: 1000
 				}
@@ -3750,7 +3770,7 @@
 				value: 1L
 			}]
 			title: "King of the Underground"
-			x: -3.5d
+			x: -4.0d
 			y: -8.0d
 		}
 		{
@@ -3997,7 +4017,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -4.5d
+			x: -3.0d
 			y: -8.0d
 		}
 		{
@@ -4027,8 +4047,109 @@
 				}
 			]
 			title: "Blessed Amethyst Crab Meat"
-			x: -5.5d
+			x: -2.0d
 			y: -8.0d
+		}
+		{
+			description: ["A friendly creature that can be found in mineshafts. It likes to play hide and seek. Find it 3 times and it will give you a gift."]
+			id: "380CDF37C30FB86A"
+			rewards: [
+				{
+					id: "30C440B968405380"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "ores_2"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04084A873CC7102B"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				icon: "minecraft:bundle"
+				id: "3B15F458E057264B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "friendsandfoes:rascal"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			description: ["A crablike creature with diamonds on its back. It runs from you. It can only be killed with a pickaxe."]
+			id: "05D0F0442C0EC8B8"
+			rewards: [
+				{
+					id: "021ECD6C428DDEA3"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "2F7DBEA1E2F9F490"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:grottol"
+				icon: "mowziesmobs:captured_grottol"
+				id: "7609781ABC61C676"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["053F019267260F95"]
+			description: ["The Fruit and Sword of Insomnia become more powerful the longer it has been since you slept. They max out at 6 days without sleep. You won't be able to sleep as long as they are in your inventory."]
+			id: "120E3243A96AA459"
+			rewards: [{
+				id: "7935F43927E83565"
+				item: "nameless_trinkets:sleeping_pills"
+				type: "item"
+			}]
+			subtitle: "All-nighter"
+			tasks: [
+				{
+					id: "07DBF0F138A27783"
+					item: {
+						Count: 1
+						id: "hmag:insomnia_fruit"
+						tag: {
+							hmag.level: 5b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "101DC6DE3B8694C7"
+					item: {
+						Count: 1
+						id: "hmag:insomnia_sword"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							hmag.level: 5b
+							reinforce_level: 0
+							reinforce_max: 10
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Insomnia"
+			x: 1.5d
+			y: -4.5d
 		}
 	]
 	title: "Hunt Never Stops"

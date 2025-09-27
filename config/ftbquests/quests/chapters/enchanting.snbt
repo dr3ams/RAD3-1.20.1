@@ -661,7 +661,7 @@
 			description: [
 				"&6Treasure enchantments&r are special enchantments that are typically unavailable in the Enchanting Table. However, this can be remedied with a &6Deepshelf of Arcane Treasures&r."
 				""
-				"Placing this bookshelf in a valid slot will cause treasure enchantments to appear while enchanting. Bear in mind that most &0Curses&r are treasure enchantments."
+				"Placing this bookshelf in a valid slot will cause treasure enchantments to appear while enchanting. Bear in mind that most &cCurses&r are treasure enchantments."
 			]
 			id: "5F4F7ABD18E5EF9C"
 			rewards: [
@@ -867,6 +867,10 @@
 								Count: 1b
 								id: "apotheosis:improved_scrap_tome"
 							}
+							{
+								Count: 1b
+								id: "apotheosis:extraction_tome"
+							}
 						]
 					}
 				}
@@ -948,6 +952,10 @@
 				"Cobwebs can be combined with an item in an anvil to remove all enchantments."
 				""
 				"&bPrismatic Cobwebs&r can be combined with an item in an anvil to remove all curses."
+				""
+				"A &8Grindstone&r can remove normal enchantments, but not curses."
+				""
+				"A &bDiamond Grindstone&r can remove all enchantments, even curses."
 			]
 			id: "4243DD8F2FA37B9E"
 			rewards: [{
@@ -955,18 +963,34 @@
 				type: "xp"
 				xp: 50
 			}]
-			tasks: [
-				{
-					id: "79ACA08972E924A9"
-					item: "minecraft:cobweb"
-					type: "item"
+			tasks: [{
+				id: "32321ABA22FF2A2C"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:grindstone"
+							}
+							{
+								Count: 1b
+								id: "spelunkery:diamond_grindstone"
+							}
+							{
+								Count: 1b
+								id: "minecraft:cobweb"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:prismatic_web"
+							}
+						]
+					}
 				}
-				{
-					id: "32321ABA22FF2A2C"
-					item: "apotheosis:prismatic_web"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			title: "Removing enchants"
 			x: -1.5d
 			y: -7.5d
@@ -1408,6 +1432,18 @@
 				"5 Eterna is quite a lot for how easy it is to get this shelf. It can take you all the way to level 75, which is just as high as a Soul-touched or Echoing Deepshelf. "
 			]
 			id: "64A92D70448C1445"
+			rewards: [
+				{
+					id: "2D3B84289956A8C4"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "0BB20E30D1C6442F"
+					item: "artifacts:cloud_in_a_bottle"
+					type: "item"
+				}
+			]
 			size: 0.5d
 			subtitle: "good eye"
 			tasks: [{

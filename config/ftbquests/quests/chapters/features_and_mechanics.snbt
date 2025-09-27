@@ -543,9 +543,10 @@
 			size: 1.5d
 			subtitle: "Why am I not regenerating?"
 			tasks: [{
-				id: "2B24EE4073AB55F0"
-				title: "Regen"
-				type: "checkmark"
+				id: "06905F4501293C1E"
+				stat: "minecraft:damage_taken"
+				type: "stat"
+				value: 2
 			}]
 			title: "&4(No) Natural Healing&r"
 			x: 0.0d
@@ -629,8 +630,6 @@
 				"- Healing Flask from Icaria Dimension"
 				""
 				"- any item with regeneration effect (search in JEI)"
-				""
-				"- any item with Comfort effect (search in JEI)"
 			]
 			icon: {
 				Count: 1
@@ -894,7 +893,7 @@
 				""
 				"&2Thank you for your understanding and sorry if something went wrong.&r"
 				""
-				"https://github.com/dr3ams/RAD2-1.20.1"
+				"https://github.com/dr3ams/RAD3-1.20.1"
 			]
 			icon: "kubejs:caution"
 			id: "2A9DC8C72AD9AED0"
@@ -1280,7 +1279,14 @@
 			tasks: [
 				{
 					id: "78309EA551E2B13F"
-					item: "bonfires:ash_pile"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ash"
+						}
+					}
+					title: "Any #forge:ash"
 					type: "item"
 				}
 				{
@@ -1452,10 +1458,10 @@
 			]
 			subtitle: "Why do I only have 6 hearts?"
 			tasks: [{
-				id: "784562C75A46F1D6"
-				points: false
-				type: "xp"
-				value: 5L
+				id: "1196CA52F0E0CD3F"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 5
 			}]
 			title: "Levels for Hearts"
 			x: -0.5d

@@ -171,48 +171,35 @@
 			id: "033105F673C5EF80"
 			shape: "hexagon_important"
 			size: 2.0d
-			tasks: [
-				{
-					id: "61FB2C3CA5841E29"
-					item: {
-						Count: 1
-						id: "minecraft:stone_pickaxe"
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "7D55F06D13B66819"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "spelunkery:raw_zinc_nugget"
+							}
+							{
+								Count: 1b
+								id: "spelunkery:raw_iron_nugget"
+							}
+							{
+								Count: 1b
+								id: "spelunkery:raw_copper_nugget"
+							}
+							{
+								Count: 1b
+								id: "spelunkery:raw_gold_nugget"
+							}
+						]
 					}
-					type: "item"
 				}
-				{
-					id: "7D55F06D13B66819"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "spelunkery:raw_zinc_nugget"
-								}
-								{
-									Count: 1b
-									id: "spelunkery:raw_iron_nugget"
-								}
-								{
-									Count: 1b
-									id: "spelunkery:raw_copper_nugget"
-								}
-								{
-									Count: 1b
-									id: "spelunkery:raw_gold_nugget"
-								}
-							]
-						}
-					}
-					title: "Any Raw Nugget"
-					type: "item"
-				}
-			]
+				title: "Any Raw Nugget"
+				type: "item"
+			}]
 			title: "&9Mining"
 			x: -0.5d
 			y: 1.0d
@@ -1341,16 +1328,35 @@
 		}
 		{
 			dependencies: ["149CB61732F787CF"]
+			description: [
+				"Small Ships are an upgrade to vanilla boats. They're faster, more durable, and have more storage, at the cost of not being able to be picked up once placed. With this world's wide, endless rivers and oceans, that's hardly a problem. Sail the seven seas in your very own ship!"
+				""
+				"Each of the four ship types is either a warm- or cold-water ship. They will go faster in their own climate and be slowed by the opposite climate. Cargo and cannons can also slow the ship. But under ideal conditions, a ship can easily reach 50 or 60 blocks per second."
+				""
+				"There's too much to explain in just one quest. Read the wiki for more info: https://github.com/talhanation/wiki/wiki/Small-Ships-Wiki"
+			]
 			id: "3D4767A8879BE0C1"
-			subtitle: "Find an Artifact"
-			tasks: [{
-				advancement: "artifacts:amateur_archaeologist"
-				criterion: ""
-				id: "6BC4EDA1490D011F"
-				type: "advancement"
+			rewards: [{
+				id: "491FB3059CE82CDF"
+				item: "simplehats:vikinghatbeard"
+				type: "item"
 			}]
+			subtitle: "rule the waves"
+			tasks: [{
+				id: "0F545A687FA2CB44"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:ships"
+					}
+				}
+				title: "Any #smallships:ships"
+				type: "item"
+			}]
+			title: "Small Ships"
 			x: -2.5d
-			y: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["366659E50333BC5A"]
@@ -1402,64 +1408,6 @@
 			title: "It's dangerous to go alone"
 			x: 0.5d
 			y: 2.5d
-		}
-		{
-			dependencies: ["366659E50333BC5A"]
-			description: [
-				"Companions can be found in the wild and tamed with special food."
-				""
-				"There are different types of companions with unique abilities."
-				""
-				"&6- Collector&r"
-				"The collector collects automatic items in a specific radius in his own inventory. You can access the inventory like a normal chest."
-				""
-				"&6- Follower&r"
-				"Is more like a cosmetic mob which will follow you around the world."
-				""
-				"&6- Guard&r"
-				"The guard will protected you from hostile mobs and will attack any target you are attacking. Equip your guard with weapons and armor to deal more damage and to have a better protection."
-				""
-				"&6- Healer&r"
-				"The healer companion heals any player and your own companions in a specific radius. Additional healer will stack up the effect, so if you are traveling with your friends it good to have 1-2 healers in the group."
-				""
-				"&6- Supporter&r"
-				"The supporter companions gives buffs to any player and your own companions in a specific radius. Additional supporter will not stack up, but they will be able to buff the whole group."
-			]
-			icon: {
-				Count: 1
-				id: "player_companions:samurai_default"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "02466D62F5A6CA5F"
-			rewards: [{
-				id: "780EDF87501EC9B9"
-				item: {
-					Count: 1
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "player_companions:guide"
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "This mod adds new companions that can help you on your journey."
-			tasks: [
-				{
-					id: "46BEC7D90A99E618"
-					item: "minecraft:lead"
-					type: "item"
-				}
-				{
-					id: "3A53A48BEC6D25BF"
-					item: "player_companions:tame_carrot"
-					type: "item"
-				}
-			]
-			title: "Player companions"
-			x: -3.0d
-			y: -7.0d
 		}
 		{
 			dependencies: ["7F9831246F75C5C6"]
@@ -2943,7 +2891,6 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["5BD0024E8E16BB8E"]
 			description: [
 				"Enchanting can be done at levels up to 100. Refer to the &oChronicle of Shadows&r for more details on higher level enchanting and visit corresponding quest chapter."
 				""
@@ -2980,7 +2927,7 @@
 				type: "item"
 			}]
 			title: "Enchanting system"
-			x: 8.5d
+			x: 8.0d
 			y: 2.5d
 		}
 		{
@@ -3077,50 +3024,6 @@
 			title: "Spring Water"
 			x: 7.0d
 			y: -0.5d
-		}
-		{
-			dependencies: ["0000000000000017"]
-			description: ["The Fruit and Sword of Insomnia become more powerful the longer it has been since you slept. They max out at 6 days without sleep. You won't be able to sleep as long as they are in your inventory."]
-			id: "120E3243A96AA459"
-			rewards: [{
-				id: "7935F43927E83565"
-				item: "nameless_trinkets:sleeping_pills"
-				type: "item"
-			}]
-			subtitle: "All-nighter"
-			tasks: [
-				{
-					id: "07DBF0F138A27783"
-					item: {
-						Count: 1
-						id: "hmag:insomnia_fruit"
-						tag: {
-							hmag.level: 5b
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "101DC6DE3B8694C7"
-					item: {
-						Count: 1
-						id: "hmag:insomnia_sword"
-						tag: {
-							Damage: 0
-							affix_data: {
-								sockets: 1
-							}
-							hmag.level: 5b
-							reinforce_level: 0
-							reinforce_max: 10
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Insomnia"
-			x: 2.5d
-			y: -5.5d
 		}
 		{
 			dependencies: ["733A59C038C65E4B"]
@@ -3917,7 +3820,7 @@
 				type: "observation"
 			}]
 			x: -4.0d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3C58EBDE41F0F9F2"]
@@ -4073,7 +3976,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["366659E50333BC5A"]
@@ -4095,7 +3998,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
+			x: -3.0d
 			y: -7.0d
 		}
 		{
