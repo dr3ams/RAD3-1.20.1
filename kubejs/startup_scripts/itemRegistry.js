@@ -91,6 +91,9 @@ event.create('quest_bundle').displayName('Leather Bundle').tooltip('Quest Item')
 event.create('quest_note').displayName('Note').tooltip('Quest Item')
 event.create('quest_crate').displayName('Crate')
 
+event.create('great_soul').displayName('Great Soul').rarity('Epic').tooltip('The soul of a powerful monster. Used for crafting the strongest items and enchantments.')
+
+
 event.create('defence').displayName('defence')
 event.create('armorpen').displayName('armorpen')
 event.create('backstab').displayName('backstab')
