@@ -104,6 +104,25 @@ LootJS.modifiers((event) => {
 	event.addLootTypeModifier(LootType.ENTITY).replaceLoot("hmag:diamond_fragment", "spelunkery:diamond_shard", true);
 	event.addLootTypeModifier(LootType.ENTITY).replaceLoot("hmag:emerald_fragment", "spelunkery:emerald_shard", true );
 	event.addLootTypeModifier(LootType.ENTITY).replaceLoot("hmag:copper_nugget", "spelunkery:copper_nugget", true);
+
+	// Adding Great Soul to boss drops
+	event.addEntityLootModifier("minecraft:ender_dragon").killedByPlayer().addLoot("kubejs:great_soul");
+//	event.addEntityLootModifier("minecraft:warden").killedByPlayer().addLoot("kubejs:great_soul");
+	event.addEntityLootModifier("minecraft:wither").killedByPlayer().addLoot("kubejs:great_soul");
+	event.addEntityLootModifier("cataclysm:ancient_remnant").killedByPlayer().addLoot("kubejs:great_soul");
+	event.addEntityLootModifier("cataclysm:ender_guardian").killedByPlayer().addLoot("kubejs:great_soul");
+	event.addEntityLootModifier("cataclysm:ignis").killedByPlayer().addLoot("kubejs:great_soul");
+	event.addEntityLootModifier("cataclysm:maledictus").killedByPlayer().addLoot("kubejs:great_soul");
+	event.addEntityLootModifier("cataclysm:netherite_monstrosity").killedByPlayer().addLoot("kubejs:great_soul");
+	event.addEntityLootModifier("cataclysm:scylla").killedByPlayer().addLoot("kubejs:great_soul");
+	event.addEntityLootModifier("cataclysm:the_harbinger").killedByPlayer().addLoot("kubejs:great_soul");
+	event.addEntityLootModifier("cataclysm:the_leviathan").killedByPlayer().addLoot("kubejs:great_soul");
+	event.addEntityLootModifier("bosses_of_mass_destruction:gauntlet").killedByPlayer().addLoot("kubejs:great_soul");
+	event.addEntityLootModifier("bosses_of_mass_destruction:lich").killedByPlayer().addLoot("kubejs:great_soul");
+	event.addEntityLootModifier("bosses_of_mass_destruction:obsidilith").killedByPlayer().addLoot("kubejs:great_soul");
+	event.addEntityLootModifier("bosses_of_mass_destruction:void_blossom").killedByPlayer().addLoot("kubejs:great_soul");
+	event.addEntityLootModifier("graveyard:lich").killedByPlayer().addLoot("kubejs:great_soul");
+	event.addEntityLootModifier("ars_nouveau:wilden_boss").killedByPlayer().addLoot("kubejs:great_soul");
 	
 	// Requiring silk touch to pick up brewing stand
 	event.addBlockLootModifier("minecraft:brewing_stand")
@@ -247,4 +266,5 @@ LootJS.modifiers((event) => {
 		});
 		
 	/// EOF
+
 });
