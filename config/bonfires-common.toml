@@ -5,9 +5,14 @@
 #Disable specific items from being able to reinforce them
 "Reinforce item blacklist" = []
 #The radius to check for Monsters around the Bonfire, set to 0 to disable, default:8.0
+#Range: 0.0 ~ 1.7976931348623157E308
 "Bonfire Monster Check Radius" = 8.0
 #Repair tools and armour when using a Bonfire, default:false
 "Repair equipment" = false
 #Bonfire menu will only display Bonfires that the player has discovered, default:true
 "Enable Bonfire Discovery Mode" = true
+#Disable Ash drops from mobs killed with fire, default:false
+"Disable Ash Drops" = true
+#Disable Bonfires setting your respawn point when using them or travelling to them, default:false
+"Disable Bonfire Respawn" = false
 
