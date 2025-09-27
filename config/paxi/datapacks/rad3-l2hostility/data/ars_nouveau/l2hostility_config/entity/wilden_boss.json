@@ -1,11 +1,57 @@
 {
   "list": [
     {
+      "asMaster": {
+        "maxTotalCount": 5,
+        "minions": [
+          {
+            "type": "ars_nouveau:wilden_hunter",
+            "cooldown": 200,
+            "copyLevel": true,
+            "copyTrait": false,
+            "discardOnUnlink": true,
+            "linkDistance": 32.0,
+            "maxCount": 2,
+            "maxHealthPercentage": 0.75,
+            "minLevel": 0,
+            "protectMaster": false,
+            "spawnRange": 16
+          },
+          {
+            "type": "ars_nouveau:wilden_guardian",
+            "cooldown": 200,
+            "copyLevel": true,
+            "copyTrait": false,
+            "discardOnUnlink": true,
+            "linkDistance": 32.0,
+            "maxCount": 2,
+            "maxHealthPercentage": 0.50,
+            "minLevel": 200,
+            "protectMaster": false,
+            "spawnRange": 16
+          },
+          {
+            "type": "ars_nouveau:wilden_stalker",
+            "cooldown": 200,
+            "copyLevel": true,
+            "copyTrait": false,
+            "discardOnUnlink": true,
+            "linkDistance": 32.0,
+            "maxCount": 2,
+            "maxHealthPercentage": 0.25,
+            "minLevel": 200,
+            "protectMaster": false,
+            "spawnRange": 16
+          }
+        ],
+        "spawnInterval": 80
+      },
+      "attackScale": 0.8,
       "blacklist": [],
       "difficulty": {
         "apply_chance": 1.0,
         "base": 30,
-        "min": 100,
+        "min": 200,
         "scale": 0.0,
         "trait_chance": 1.0,
         "variation": 0.0
@@ -17,7 +63,33 @@
       "maxLevel": 0,
       "minSpawnLevel": 0,
       "specialConditions": [],
-      "traits": []
+      "traits": [
+        {
+          "cap": false,
+          "free": 2,
+          "min": 3,
+          "trait": "l2hostility:tank"
+        },
+        {
+          "cap": false,
+          "free": 3,
+          "min": 5,
+          "trait": "l2hostility:weakness"
+        },
+        {
+          "cap": false,
+          "free": 2,
+          "min": 2,
+          "trait": "l2hostility:erosion"
+        },
+        {
+          "cap": false,
+          "free": 1,
+          "min": 0,
+          "trait": "l2hostility:master"
+        }
+      ]
+
     }
   ]
 }
