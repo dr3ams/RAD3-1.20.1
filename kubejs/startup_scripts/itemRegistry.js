@@ -18,6 +18,7 @@ event.create('rick').displayName('Pet Coal').unstackable().burnTime(60000).rarit
 //apoth
 event.create('socketweaver').displayName('Socket Weaver')
 event.create('gem_shard').displayName('Gem Shard')
+event.create('gem_shard_great').displayName('Greater Gem Shard').rarity('Uncommon')
 
 //coins
 //quest coins
@@ -76,8 +77,11 @@ event.create('sifted_dust').displayName('Sifted Dust')
 event.create('artifact_fragment').displayName('Artifact Fragment')
 
 event.create('scroll_exp').displayName('Experience Scroll')
+event.create('scroll_exp_great').displayName('Greater Experience Scroll').rarity('Uncommon')
 
 event.create('spawnercore').displayName('Spawner Core').rarity('Uncommon')
+
+event.create('contraband').displayName('Contraband Shipment').rarity('Uncommon')
 
 //exchange coins
 event.create('coin_01').displayName('Coin').tooltip('Acquired by selling valuable materials')

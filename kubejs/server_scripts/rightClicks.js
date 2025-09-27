@@ -29,3 +29,18 @@ ItemEvents.rightClicked( event => {
         event.cancel();
     }
 })
+
+ItemEvents.rightClicked( event => {
+    if(event.item=='kubejs:scroll_exp_great') {
+        // Run the skill point addition command for the player who clicked the block
+        event.server.runCommandSilent(`/experience add ${event.player.username} 200 points`);
+        
+        // If the player is holding an item, reduce its count by 1
+        if(event.item) {
+            event.item.count--;
+        }
+    
+        // Prevent the default right-click action
+        event.cancel();
+    }
+})
