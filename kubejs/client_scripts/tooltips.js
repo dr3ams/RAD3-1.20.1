@@ -56,7 +56,7 @@ ItemEvents.tooltip(event =>{
         Text.of('Raids, ').darkRed(),
         Text.of('killing ').white(),
 		Text.of('Wither, ').gray(),
-		Text.of('Ender Dragond ').darkPurple(),
+		Text.of('Ender Dragon, ').darkPurple(),
 		Text.of('or bought from ').white(),
 		Text.of('Goblin Trader').green()
       ])
@@ -975,12 +975,46 @@ ItemEvents.tooltip(event =>{
 	})
   
 	event.addAdvanced('cataclysm:amethyst_crab_meat', (item, advanced, text) => {
-    text.add(1, Text.of('Dropped from Amethyst Crab mini-boss in the Sunken City dungeon or rarely in Lush Caves biome')) 
+    text.add(1, Text.of('Dropped from Amethyst Crab mini-boss found rarely in the Lush Caves biome')) 
 	})
-	
 	event.addAdvanced('minecraft:phantom_membrane', (item, advanced, text) => {
     text.add(1, Text.of('Can be found in Dungeon Crawl dungeons or loot crates ')) 
 	})
+	event.addAdvanced('sophisticatedstorage:chest', (item, advanced, text) => {
+    text.add(1, Text.of('Cannot be stored in a capsule. ')) 
+	text.add(2, Text.of('Double chests cause issues with Toms Simple Storage. '))
+    text.add(3, Text.of('Barrels work just fine!'))
+	})
+	event.addAdvanced('sophisticatedstorage:copper_chest', (item, advanced, text) => {
+    text.add(1, Text.of('Cannot be stored in a capsule. ')) 
+	text.add(2, Text.of('Double chests cause issues with Toms Simple Storage. '))
+    text.add(3, Text.of('Barrels work just fine!'))
+	})
+	event.addAdvanced('sophisticatedstorage:iron_chest', (item, advanced, text) => {
+    text.add(1, Text.of('Cannot be stored in a capsule. ')) 
+	text.add(2, Text.of('Double chests cause issues with Toms Simple Storage. '))
+    text.add(3, Text.of('Barrels work just fine!'))
+	})
+	event.addAdvanced('sophisticatedstorage:gold_chest', (item, advanced, text) => {
+    text.add(1, Text.of('Cannot be stored in a capsule. ')) 
+	text.add(2, Text.of('Double chests cause issues with Toms Simple Storage. '))
+    text.add(3, Text.of('Barrels work just fine!'))
+	})
+	event.addAdvanced('sophisticatedstorage:diamond_chest', (item, advanced, text) => {
+    text.add(1, Text.of('Cannot be stored in a capsule. ')) 
+	text.add(2, Text.of('Double chests cause issues with Toms Simple Storage. '))
+    text.add(3, Text.of('Barrels work just fine!'))
+	})
+	event.addAdvanced('sophisticatedstorage:netherite_chest', (item, advanced, text) => {
+    text.add(1, Text.of('Cannot be stored in a capsule. ')) 
+	text.add(2, Text.of('Double chests cause issues with Toms Simple Storage. '))
+    text.add(3, Text.of('Barrels work just fine!'))
+	})
 
 // THE END	
+})
+ClientEvents.lang('en_us', event => {
+  event.renameItem('graveyard:upper_bone_staff', 'Skull of the Wizard King')
+  event.renameItem('graveyard:middle_bone_staff', 'Ribs of the Warrior King')
+  event.renameItem('graveyard:lower_bone_staff', 'Tail of the Beast King')
 })
