@@ -1,0 +1,74 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "ars_nouveau"
+        },
+        {
+          "type": "l2library:boolean_config",
+          "expected": true,
+          "line": [
+            "useArsNouveauForEnchantmentRecipe"
+          ],
+          "path": "l2_configs/l2complements-common.toml"
+        }
+      ]
+    }
+  ],
+  "enchantment": "tombstone:soulbound",
+  "level": 1,
+  "pedestalItems": [
+    {
+      "item": {
+        "type": "l2library:enchantment",
+        "enchantment": "minecraft:binding_curse",
+        "min_level": 1
+      }
+    },
+    {
+      "item": {
+        "item": "l2complements:void_eye"
+      }
+    },
+    {
+      "item": {
+        "item": "l2complements:void_eye"
+      }
+    },
+    {
+      "item": {
+        "item": "l2complements:void_eye"
+      }
+    },
+    {
+      "item": {
+        "item": "l2complements:void_eye"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:echo_shard"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:echo_shard"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:echo_shard"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:echo_shard"
+      }
+    }
+  ],
+  "sourceCost": 2000
+}

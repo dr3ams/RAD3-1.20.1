@@ -1,0 +1,59 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "ars_nouveau"
+        },
+        {
+          "type": "l2library:boolean_config",
+          "expected": true,
+          "line": [
+            "useArsNouveauForEnchantmentRecipe"
+          ],
+          "path": "l2_configs/l2complements-common.toml"
+        }
+      ]
+    }
+  ],
+  "enchantment": "l2complements:owner_protection",
+  "level": 1,
+  "pedestalItems": [
+    {
+      "item": {
+        "type": "l2library:enchantment",
+        "enchantment": "minecraft:protection",
+        "min_level": 4
+      }
+    },
+    {
+      "item": {
+        "item": "mowziesmobs:sol_visage"
+      }
+    },
+    {
+      "item": {
+        "item": "cataclysm:remnant_skull"
+      }
+    },
+    {
+      "item": {
+        "item": "cataclysm:abyssal_egg"
+      }
+    },
+    {
+      "item": {
+        "item": "cataclysm:netherite_effigy"
+      }
+    },
+    {
+      "item": {
+        "item": "kubejs:great_soul"
+      }
+    }
+  ],
+  "sourceCost": 2000
+}

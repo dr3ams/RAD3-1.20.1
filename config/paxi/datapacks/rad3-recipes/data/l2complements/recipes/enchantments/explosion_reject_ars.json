@@ -1,0 +1,89 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "ars_nouveau"
+        },
+        {
+          "type": "l2library:boolean_config",
+          "expected": true,
+          "line": [
+            "useArsNouveauForEnchantmentRecipe"
+          ],
+          "path": "l2_configs/l2complements-common.toml"
+        }
+      ]
+    },
+    {
+      "type": "l2library:boolean_config",
+      "expected": true,
+      "line": [
+        "materials",
+        "enableImmunityEnchantments"
+      ],
+      "path": "l2_configs/l2complements-common.toml"
+    }
+  ],
+  "enchantment": "l2complements:explosion_reject",
+  "level": 1,
+  "pedestalItems": [
+    {
+      "item": {
+        "type": "l2library:enchantment",
+        "enchantment": "minecraft:blast_protection",
+        "min_level": 4
+      }
+    },
+    {
+      "item": {
+        "type": "l2library:enchantment",
+        "enchantment": "minecraft:blast_protection",
+        "min_level": 4
+      }
+    },
+    {
+      "item": {
+        "type": "l2library:enchantment",
+        "enchantment": "minecraft:protection",
+        "min_level": 4
+      }
+    },
+    {
+      "item": {
+        "type": "l2library:enchantment",
+        "enchantment": "minecraft:protection",
+        "min_level": 4
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    {
+      "item": {
+        "item": "quark:dragon_scale"
+      }
+    },
+    {
+      "item": {
+        "item": "cataclysm:witherite_ingot"
+      }
+    },
+    {
+      "item": {
+        "item": "l2complements:eternium_ingot"
+      }
+    },
+    {
+      "item": {
+        "item": "kubejs:great_soul"
+      }
+    }
+  ],
+  "sourceCost": 2000
+}
