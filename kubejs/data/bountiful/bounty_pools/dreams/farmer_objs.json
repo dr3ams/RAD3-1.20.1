@@ -1,0 +1,418 @@
+
+{
+	"content": {
+
+		"farmer_obj_bone_meal": {
+			"type": "item",
+			"content": "minecraft:bone_meal",
+			"amount": {
+				"min": 32,
+				"max": 64
+			},
+			"unitWorth": 10
+		},
+
+		"farmer_obj_bone_meal_2": {
+			"type": "item",
+			"content": "minecraft:bone_meal",
+			"amount": {
+				"min": 16,
+				"max": 64
+			},
+			"unitWorth": 25
+		},
+
+		"farmer_obj_oak_sapling": {
+			"type": "item",
+			"content": "minecraft:oak_sapling",
+			"amount": {
+				"min": 16,
+				"max": 64
+			},
+			"unitWorth": 10
+		},
+
+		"farmer_obj_sugar": {
+			"type": "item",
+			"content": "minecraft:sugar",
+			"amount": {
+				"min": 16,
+				"max": 64
+			},
+			"unitWorth": 15
+		},
+
+		"farmer_obj_melon_seeds": {
+			"type": "item",
+			"content": "minecraft:melon_seeds",
+			"amount": {
+				"min": 16,
+				"max": 64
+			},
+			"unitWorth": 15
+		},
+
+		"farmer_obj_wheat": {
+			"type": "item",
+			"content": "minecraft:wheat",
+			"amount": {
+				"min": 32,
+				"max": 64
+			},
+			"unitWorth": 15
+		},
+
+		"farmer_obj_beetroot": {
+			"type": "item",
+			"content": "minecraft:beetroot",
+			"amount": {
+				"min": 32,
+				"max": 64
+			},
+			"unitWorth": 15
+		},
+
+		"farmer_obj_carrot": {
+			"type": "item",
+			"content": "minecraft:carrot",
+			"amount": {
+				"min": 32,
+				"max": 64
+			},
+			"unitWorth": 15
+		},
+
+
+		"farmer_obj_potato": {
+			"type": "item",
+			"content": "minecraft:potato",
+			"amount": {
+				"min": 32,
+				"max": 64
+			},
+			"unitWorth": 15
+		},
+
+		"farmer_obj_poisonous_potato": {
+			"type": "item",
+			"content": "minecraft:poisonous_potato",
+			"amount": {
+				"min": 8,
+				"max": 16
+			},
+			"unitWorth": 25
+		},
+
+		"farmer_obj_nether_wart": {
+			"type": "item",
+			"content": "minecraft:nether_wart",
+			"rarity": "RARE",
+			"amount": {
+				"min": 8,
+				"max": 62
+			},
+			"unitWorth": 35
+		},
+
+		"farmer_obj_pumpkin": {
+			"type": "item",
+			"content": "minecraft:pumpkin",
+			"amount": {
+				"min": 8,
+				"max": 64
+			},
+			"unitWorth": 25
+		},
+
+		"farmer_obj_melon": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "minecraft:melon",
+			"amount": {
+				"min": 8,
+				"max": 62
+			},
+			"unitWorth": 25
+		},
+
+		"farmer_obj_melon_slice": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "minecraft:melon_slice",
+			"amount": {
+				"min": 32,
+				"max": 64
+			},
+			"unitWorth": 5
+		},
+
+		"farmer_obj_baked_potato": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "minecraft:baked_potato",
+			"amount": {
+				"min": 8,
+				"max": 64
+			},
+			"unitWorth": 15
+		},
+
+		"farmer_obj_beetroot_soup": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "minecraft:beetroot_soup",
+			"amount": {
+				"min": 1,
+				"max": 16
+			},
+			"unitWorth": 25
+		},
+
+		"farmer_obj_mushroom_stew": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "minecraft:mushroom_stew",
+			"amount": {
+				"min": 1,
+				"max": 16
+			},
+			"unitWorth": 35
+		},
+		  "farmer-obj-carrot_crate": {
+			"type": "item",
+			"content": "farmersdelight:carrot_crate",
+			"amount": {
+			  "min": 8,
+			  "max": 64
+			},
+			"unitWorth": 100
+		  },
+		  "farmer-obj-potato_crate": {
+			"type": "item",
+			"content": "farmersdelight:potato_crate",
+			"amount": {
+			  "min": 8,
+			  "max": 64
+			},
+			"unitWorth": 100
+		  },
+		  "farmer-obj-beetroot_crate": {
+			"type": "item",
+			"content": "farmersdelight:beetroot_crate",
+			"amount": {
+			  "min": 8,
+			  "max": 64
+			},
+			"unitWorth": 100
+		  },
+		  "farmer-obj-cabbage_crate": {
+			"type": "item",
+			"content": "farmersdelight:cabbage_crate",
+			"amount": {
+			  "min": 8,
+			  "max": 64
+			},
+			"unitWorth": 100
+		  },
+		  "farmer-obj-tomato_crate": {
+			"type": "item",
+			"content": "farmersdelight:tomato_crate",
+			"amount": {
+			  "min": 8,
+			  "max": 64
+			},
+			"unitWorth": 100
+		  },
+		  "farmer-obj-onion_crate": {
+			"type": "item",
+			"content": "farmersdelight:onion_crate",
+			"amount": {
+			  "min": 8,
+			  "max": 64
+			},
+			"unitWorth": 100
+		  },
+		  "farmer-obj-rice_bale": {
+			"type": "item",
+			"content": "farmersdelight:rice_bale",
+			"amount": {
+			  "min": 8,
+			  "max": 64
+			},
+			"unitWorth": 100
+		  },
+		  "farmer-obj-rice_bag": {
+			"type": "item",
+			"content": "farmersdelight:rice_bag",
+			"amount": {
+			  "min": 8,
+			  "max": 64
+			},
+			"unitWorth": 100
+		  },
+		  "farmer-obj-straw_bale": {
+			"type": "item",
+			"content": "farmersdelight:straw_bale",
+			"amount": {
+			  "min": 8,
+			  "max": 64
+			},
+			"unitWorth": 100
+		  },
+		  "farmer-obj-pear_crate": {
+			"type": "item",
+			"content": "fruitsdelight:pear_crate",
+			"amount": {
+			  "min": 8,
+			  "max": 64
+			},
+			"unitWorth": 100
+		  },
+		  "farmer-obj-hawberry_crate": {
+			"type": "item",
+			"content": "fruitsdelight:hawberry_crate",
+			"amount": {
+			  "min": 8,
+			  "max": 64
+			},
+			"unitWorth": 100
+		  },
+		  "farmer-obj-lychee_crate": {
+			"type": "item",
+			"content": "fruitsdelight:lychee_crate",
+			"amount": {
+			  "min": 8,
+			  "max": 64
+			},
+			"unitWorth": 100
+		  },
+		  "farmer-obj-mango_crate": {
+			"type": "item",
+			"content": "fruitsdelight:mango_crate",
+			"amount": {
+			  "min": 8,
+			  "max": 64
+			},
+			"unitWorth": 100
+		  },
+		  "farmer-obj-persimmon_crate": {
+			"type": "item",
+			"content": "fruitsdelight:persimmon_crate",
+			"amount": {
+			  "min": 8,
+			  "max": 64
+			},
+			"unitWorth": 100
+		  },
+		  "farmer-obj-peach_crate": {
+			"type": "item",
+			"content": "fruitsdelight:peach_crate",
+			"amount": {
+			  "min": 8,
+			  "max": 64
+			},
+			"unitWorth": 100
+		  },
+		  "farmer-obj-orange_crate": {
+			"type": "item",
+			"content": "fruitsdelight:orange_crate",
+			"amount": {
+			  "min": 8,
+			  "max": 64
+			},
+			"unitWorth": 100
+		  },
+		  "farmer-obj-mangosteen_crate": {
+			"type": "item",
+			"content": "fruitsdelight:mangosteen_crate",
+			"amount": {
+			  "min": 8,
+			  "max": 64
+			},
+			"unitWorth": 100
+		  },
+		  "farmer-obj-bayberry_crate": {
+			"type": "item",
+			"content": "fruitsdelight:bayberry_crate",
+			"amount": {
+			  "min": 8,
+			  "max": 64
+			},
+			"unitWorth": 100
+		  },
+		  "farmer-obj-tomato": {
+			"type": "item",
+			"content": "farmersdelight:tomato",
+			"amount": {
+			  "min": 32,
+			  "max": 64
+			},
+			"unitWorth": 15
+		  },
+		  "farmer-obj-cabbage": {
+			"type": "item",
+			"content": "farmersdelight:cabbage",
+			"amount": {
+			  "min": 32,
+			  "max": 64
+			},
+			"unitWorth": 15
+		  },
+		  "farmer-obj-onion": {
+			"type": "item",
+			"content": "farmersdelight:onion",
+			"amount": {
+			  "min": 32,
+			  "max": 64
+			},
+			"unitWorth": 15
+		  },
+		  "farmer-obj-rice": {
+			"type": "item",
+			"content": "farmersdelight:rice",
+			"amount": {
+			  "min": 32,
+			  "max": 64
+			},
+			"unitWorth": 15
+		  },
+		  "farmer-obj-wild_cave_carrots": {
+			"type": "item",
+			"content": "miners_delight:wild_cave_carrots",
+			"amount": {
+			  "min": 16,
+			  "max": 64
+			},
+			"unitWorth": 25
+		  },
+		  "farmer-obj-pineapple": {
+			"type": "item",
+			"content": "fruitsdelight:pineapple",
+			"amount": {
+			  "min": 16,
+			  "max": 64
+			},
+			"unitWorth": 15
+		  },
+		  "farmer-obj-kiwi": {
+			"type": "item",
+			"content": "fruitsdelight:kiwi",
+			"amount": {
+			  "min": 16,
+			  "max": 64
+			},
+			"unitWorth": 15
+		  },
+		  "farmer-obj-lemon": {
+			"type": "item",
+			"content": "fruitsdelight:lemon",
+			"amount": {
+			  "min": 16,
+			  "max": 64
+			},
+			"unitWorth": 15
+		  }
+
+	}
+
+}

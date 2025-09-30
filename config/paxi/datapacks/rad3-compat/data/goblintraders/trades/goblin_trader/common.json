@@ -15,6 +15,34 @@
       },
       "price_multiplier": 0.0
     },
+	{
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 5,
+      "offer_item": {
+        "count": 1,
+        "item": "kubejs:contraband"
+      },
+      "payment_item": {
+        "count": 2,
+        "item": "kubejs:coin_dungeon"
+      },
+      "price_multiplier": 0.1
+    },
+	{
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 3,
+      "offer_item": {
+        "count": 1,
+        "item": "kubejs:contraband"
+      },
+      "payment_item": {
+        "count": 10,
+        "item": "minecraft:gold_ingot"
+      },
+      "price_multiplier": 0.1
+    },
     {
       "type": "goblintraders:basic",
       "experience": 6,
@@ -350,6 +378,32 @@
       "price_multiplier": 0.0,
       "max_trades": 5,
       "experience": 4
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "kubejs:scroll_exp_great",
+        "count": 8
+      },
+      "payment_item": {
+        "item": "kubejs:coin_dungeon",
+        "count": 8
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 10
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "kubejs:scroll_exp_great",
+        "count": 16
+      },
+      "payment_item": {
+        "item": "kubejs:coin_dungeon",
+        "count": 16
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 10
     }
   ]
 }

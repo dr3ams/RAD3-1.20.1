@@ -1,0 +1,147 @@
+
+{
+	"content": {
+		"sus_obj_vial_of_blood": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "graveyard:vial_of_blood",
+            "amount": {
+                "min": 1,
+                "max": 5
+            },
+            "unitWorth": 500
+        },
+        "shady_wizard_obj_villager": {
+            "type": "entity",
+            "rarity": "UNCOMMON",
+            "icon": "minecraft:painting",
+            "name": "Murder villagers",
+            "timeMult": 6.0,
+            "content": "minecraft:villager",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 590,
+            "weightMult": 0.5
+        },
+        "shady_wizard_obj_kill_witch": {
+            "type": "entity",
+            "rarity": "RARE",
+            "timeMult": 3.0,
+            "content": "minecraft:witch",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 550,
+            "weightMult": 0.25
+        },
+        "shady_wizard_obj_evoker": {
+            "type": "entity",
+            "rarity": "RARE",
+            "timeMult": 8.0,
+            "content": "minecraft:evoker",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1500,
+            "weightMult": 0.3
+        },
+        "shady_wizard_obj_brew_mana_regen": {
+            "type": "criteria",
+            "rarity": "RARE",
+            "content": "minecraft:brewed_potion",
+            "name": "Brew a potion of mana regen",
+            "conditions": {
+                "potion": "ars_nouveau:mana_regen_potion"
+            },
+            "amount": {
+                "min": 1,
+                "max": 9
+            },
+            "unitWorth": 350,
+            "weightMult": 0.25
+        },
+        "shady_wizard_obj_exile": {
+            "type": "criteria",
+            "timeMult": 6.0,
+            "rarity": "RARE",
+            "name": "Cause a village raid",
+            "content": "minecraft:voluntary_exile",
+            "conditions": {},
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4900,
+            "weightMult": 0.4
+        },
+        "shady_wizard_obj_cure_zombie_villager": {
+            "type": "criteria",
+            "rarity": "RARE",
+            "name": "Cure a zombie villager",
+            "content": "minecraft:cured_zombie_villager",
+            "conditions": {},
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1200,
+            "timeMult": 4,
+            "weightMult": 0.4
+        },
+        "shady_wizard_obj_cure_use_totem": {
+            "type": "criteria",
+            "rarity": "EPIC",
+            "name": "Use a totem of undying",
+            "content": "minecraft:used_totem",
+            "conditions": {},
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000,
+            "weightMult": 0.5
+        },
+        "shady_wizard_obj_wither": {
+            "type": "entity",
+            "timeMult": 12.0,
+            "rarity": "EPIC",
+            "content": "minecraft:wither",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 7500,
+            "weightMult": 0.4
+        },
+        "shady_wizard_obj_warden": {
+            "type": "entity",
+            "timeMult": 12.0,
+            "content": "minecraft:warden",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 9000,
+            "weightMult": 0.4
+        },
+        "shady_wizard_obj_player": {
+            "type": "entity",
+            "timeMult": 12.0,
+            "icon": "minecraft:painting",
+            "content": "minecraft:player",
+            "rarity": "LEGENDARY",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000,
+            "weightMult": 0.3
+        }
+	}
+
+}

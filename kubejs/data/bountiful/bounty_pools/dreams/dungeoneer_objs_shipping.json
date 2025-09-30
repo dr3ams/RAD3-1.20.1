@@ -1,0 +1,436 @@
+
+{
+	"content": {
+        "dungeoneer_obj_disc": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "#minecraft:music_discs",
+            "weightMult": 0.5,
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 700
+        },
+        "dungeoneer_obj_arrow": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:arrow",
+            "amount": {
+                "min": 16,
+                "max": 32
+            },
+            "unitWorth": 5
+        },
+        "dungeoneer_obj_spirit_orb": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "paraglider:spirit_orb",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 700
+        },
+		
+		"dungeoneer_obj_cobweb": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:cobweb",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 250
+        },
+        "dungeoneer_obj_block_gilded_portal": {
+            "type": "item",
+            "content": "dimdungeons:block_gilded_portal",
+            "rarity": "COMMON",
+            "amount": {
+                "min": 1,
+                "max": 9
+            },
+            "unitWorth": 150
+        },
+        "dungeoneer_obj_heart_sea": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:heart_of_the_sea",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2000.0
+        },
+		  "dungeoneer_obj_blue_corundum_cluster": {
+			"type": "item",
+			"content": "quark:blue_corundum_cluster",
+			"amount": {
+			  "min": 2,
+			  "max": 12
+			},
+			"unitWorth": 75
+		  },
+		  "dungeoneer_obj_white_corundum_cluster": {
+			"type": "item",
+			"content": "quark:white_corundum_cluster",
+			"amount": {
+			  "min": 5,
+			  "max": 14
+			},
+			"unitWorth": 55
+		  },
+		  "dungeoneer_obj_indigo_corundum_cluster": {
+			"type": "item",
+			"content": "quark:indigo_corundum_cluster",
+			"amount": {
+			  "min": 8,
+			  "max": 64
+			},
+			"unitWorth": 200
+		  },
+		  "dungeoneer_obj_green_bioshroom": {
+			"type": "item",
+			"content": "regions_unexplored:green_bioshroom",
+			"amount": {
+			  "min": 2,
+			  "max": 3
+			},
+			"unitWorth": 200
+		  },
+		  "dungeoneer_obj_blue_bioshroom": {
+			"type": "item",
+			"content": "regions_unexplored:blue_bioshroom",
+			"amount": {
+			  "min": 2,
+			  "max": 3
+			},
+			"unitWorth": 200
+		  },
+		  "dungeoneer_obj_pink_bioshroom": {
+			"type": "item",
+			"content": "regions_unexplored:pink_bioshroom",
+			"amount": {
+			  "min": 2,
+			  "max": 3
+			},
+			"unitWorth": 200
+		  },
+		  "dungeoneer_obj_nautilus_shell": {
+			"type": "item",
+			"content": "minecraft:nautilus_shell",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 300
+		  },
+		  "dungeoneer_obj_coin_dungeon": {
+			"type": "item",
+			"content": "kubejs:coin_dungeon",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 500
+		  },
+		  "dungeoneer_obj_gem_shard": {
+			"type": "item",
+			"content": "kubejs:gem_shard",
+			"amount": {
+			  "min": 1,
+			  "max": 4
+			},
+			"unitWorth": 400
+		  },
+		  "dungeoneer_obj_soul_powder": {
+			"type": "item",
+			"content": "hmag:soul_powder",
+			"amount": {
+			  "min": 1,
+			  "max": 16
+			},
+			"unitWorth": 250
+		  },
+		  "dungeoneer_obj_bone": {
+			"type": "item",
+			"content": "minecraft:bone",
+			"amount": {
+			  "min": 8,
+			  "max": 64
+			},
+			"unitWorth": 20
+		  },
+		  "dungeoneer_obj_cracked_stone_bricks": {
+			"type": "item",
+			"content": "minecraft:cracked_stone_bricks",
+			"amount": {
+			  "min": 32,
+			  "max": 64
+			},
+			"unitWorth": 10
+		  },
+		  "dungeoneer_obj_desert_pyramid_loot_box": {
+			"type": "item",
+			"content": "celestial_core:desert_pyramid_loot_box",
+			"amount": {
+			  "min": 1,
+			  "max": 1
+			},
+			"unitWorth": 800
+		  },
+		  "dungeoneer_obj_manson_loot_box": {
+			"type": "item",
+			"content": "celestial_core:manson_loot_box",
+			"amount": {
+			  "min": 1,
+			  "max": 1
+			},
+			"unitWorth": 800
+		  },
+		  "dungeoneer_obj_pillager_outpost_loot_box": {
+			"type": "item",
+			"content": "celestial_core:pillager_outpost_loot_box",
+			"amount": {
+			  "min": 1,
+			  "max": 1
+			},
+			"unitWorth": 800
+		  },
+		  "dungeoneer_obj_jungle_pyramid_loot_box": {
+			"type": "item",
+			"content": "celestial_core:jungle_pyramid_loot_box",
+			"amount": {
+			  "min": 1,
+			  "max": 1
+			},
+			"unitWorth": 800
+		  },
+		  "dungeoneer_obj_name_tag": {
+			"type": "item",
+			"content": "minecraft:name_tag",
+			"amount": {
+			  "min": 1,
+			  "max": 8
+			},
+			"unitWorth": 225
+		  },
+		  "dungeoneer_obj_mossy_cobblestone": {
+			"type": "item",
+			"content": "minecraft:mossy_cobblestone",
+			"amount": {
+			  "min": 32,
+			  "max": 64
+			},
+			"unitWorth": 10
+		  },
+		  "dungeoneer_obj_power_token": {
+			"type": "item",
+			"content": "shieldinghealth:power_token",
+			"amount": {
+			  "min": 1,
+			  "max": 16
+			},
+			"unitWorth": 200
+		  },
+		  "dungeoneer_obj_junk": {
+			"type": "item",
+			"content": "kubejs:junk",
+			"amount": {
+			  "min": 10,
+			  "max": 16
+			},
+			"unitWorth": 50
+		  },
+		  "dungeoneer_obj_urn": {
+			"type": "item",
+			"content": "supplementaries:urn",
+			"amount": {
+			  "min": 1,
+			  "max": 32
+			},
+			"unitWorth": 100
+		  },
+		  "dungeoneer_obj_magnetic_compass": {
+			"type": "item",
+			"content": "spelunkery:magnetic_compass",
+			"amount": {
+			  "min": 1,
+			  "max": 1
+			},
+			"unitWorth": 800
+		  },
+		  "dungeoneer_obj_carved_stone": {
+			"type": "item",
+			"content": "aether:carved_stone",
+			"amount": {
+			  "min": 8,
+			  "max": 16
+			},
+			"unitWorth": 30
+		  },
+		  "dungeoneer_obj_spawnercore": {
+			"type": "item",
+			"content": "kubejs:spawnercore",
+			"amount": {
+			  "min": 1,
+			  "max": 10
+			},
+			"unitWorth": 350
+		  },
+		  "dungeoneer_obj_item_blank_build_key": {
+			"type": "item",
+			"content": "dimdungeons:item_blank_build_key",
+			"amount": {
+			  "min": 1,
+			  "max": 1
+			},
+			"unitWorth": 1000
+		  },
+		  "dungeoneer_obj_mineomite": {
+			"type": "item",
+			"content": "spelunkery:mineomite",
+			"amount": {
+			  "min": 3,
+			  "max": 32
+			},
+			"unitWorth": 125
+		  },
+		  "dungeoneer_obj_phosphor_fungus": {
+			"type": "item",
+			"content": "spelunkery:phosphor_fungus",
+			"amount": {
+			  "min": 1,
+			  "max": 2
+			},
+			"unitWorth": 200
+		  },
+		  "dungeoneer_obj_orange_corundum_cluster": {
+			"type": "item",
+			"content": "quark:orange_corundum_cluster",
+			"amount": {
+			  "min": 1,
+			  "max": 16
+			},
+			"unitWorth": 75
+		  },
+		  "dungeoneer_obj_raw_magnetite": {
+			"type": "item",
+			"content": "spelunkery:raw_magnetite",
+			"amount": {
+			  "min": 1,
+			  "max": 16
+			},
+			"unitWorth": 100
+		  },
+		  "dungeoneer_obj_dust_bun": {
+			"type": "item",
+			"content": "spelunkery:dust_bun",
+			"amount": {
+			  "min": 1,
+			  "max": 64
+			},
+			"unitWorth": 20
+		  },
+		  "dungeoneer_obj_bomb": {
+			"type": "item",
+			"content": "supplementaries:bomb",
+			"amount": {
+			  "min": 1,
+			  "max": 12
+			},
+			"unitWorth": 100
+		  },
+		  "dungeoneer_obj_red_corundum_cluster": {
+			"type": "item",
+			"content": "quark:red_corundum_cluster",
+			"amount": {
+			  "min": 2,
+			  "max": 16
+			},
+			"unitWorth": 75
+		  },
+		  "dungeoneer_obj_artifact_fragment": {
+			"type": "item",
+			"content": "kubejs:artifact_fragment",
+			"amount": {
+			  "min": 1,
+			  "max": 1
+			},
+			"unitWorth": 2000
+		  },
+		  "dungeoneer_obj_budding_amethyst": {
+			"type": "item",
+			"content": "minecraft:budding_amethyst",
+			"amount": {
+			  "min": 1,
+			  "max": 1
+			},
+			"unitWorth": 200
+		  },
+		  "dungeoneer_obj_saddle": {
+			"type": "item",
+			"content": "minecraft:saddle",
+			"amount": {
+			  "min": 1,
+			  "max": 1
+			},
+			"unitWorth": 200
+		  },
+		  "dungeoneer_obj_mossy_stone_bricks": {
+			"type": "item",
+			"content": "minecraft:mossy_stone_bricks",
+			"amount": {
+			  "min": 16,
+			  "max": 64
+			},
+			"unitWorth": 15
+		  },
+		  "dungeoneer_obj_antique_ink": {
+			"type": "item",
+			"content": "supplementaries:antique_ink",
+			"amount": {
+			  "min": 1,
+			  "max": 1
+			},
+			"unitWorth": 1000
+		  },
+		  "dungeoneer_obj_mushgloom": {
+			"type": "item",
+			"content": "spelunkery:mushgloom",
+			"amount": {
+			  "min": 1,
+			  "max": 2
+			},
+			"unitWorth": 200
+		  },
+		  "dungeoneer_obj_rotten_flesh": {
+			"type": "item",
+			"content": "minecraft:rotten_flesh",
+			"amount": {
+			  "min": 1,
+			  "max": 64
+			},
+			"unitWorth": 15
+		  },
+		  "dungeoneer_obj_portabella": {
+			"type": "item",
+			"content": "spelunkery:portabella",
+			"amount": {
+			  "min": 1,
+			  "max": 2
+			},
+			"unitWorth": 200
+		  },
+		  "dungeoneer_obj_globe": {
+			"type": "item",
+			"content": "supplementaries:globe",
+			"amount": {
+			  "min": 1,
+			  "max": 1
+			},
+			"unitWorth": 800
+		  }
+    }
+}

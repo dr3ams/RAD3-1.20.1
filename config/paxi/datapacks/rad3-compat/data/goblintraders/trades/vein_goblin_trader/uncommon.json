@@ -14,6 +14,20 @@
         "item": "kubejs:coin_nether"
       },
       "price_multiplier": 0.0
+    },	
+	{
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "ftbquests:lootcrate",
+        "nbt": "{type:\"apotheosis_gems_loot_crate\"}"
+      },
+      "payment_item": {
+        "item": "kubejs:gem_shard",
+        "count": 8
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "experience": 4
     },
     {
       "type": "goblintraders:basic",

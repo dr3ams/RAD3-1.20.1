@@ -1,0 +1,262 @@
+
+{
+	"content": {
+        "explorer_obj_breed_bees": {
+            "type": "criteria",
+            "content": "minecraft:bred_animals",
+            "name": "Breed bees",
+            "rarity": "RARE",
+            "conditions": {
+                "child": {
+                    "type": "minecraft:bee"
+                }
+            },
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 300,
+            "weightMult": 0.5
+        },
+        "explorer_obj_camfire": {
+            "type": "criteria",
+            "name": "Cook on a campfire",
+            "content": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "block": {
+                          "tag": "minecraft:campfires"
+                        }
+                      }
+                    }
+                  ]
+            },
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 65,
+            "weightMult": 0.5
+        },
+		"explorer_obj_bullseye": {
+            "type": "criteria",
+            "rarity": "RARE",
+            "content": "minecraft:target_hit",
+            "name": "Get a bullseye with an arrow",
+            "conditions": {
+                "signal_strength": 13,
+                "projectile": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "predicate": {
+                            "type": "minecraft:arrow"
+                        },
+                        "entity": "this"
+                    }
+                ]
+            },
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 300,
+            "timeMult": 2,
+            "weightMult": 0.5
+        },
+        "explorer_obj_tomato_throw": {
+            "type": "criteria",
+            "rarity": "UNCOMMON",
+            "name": "Hit mobs with rotten tomatoes",
+            "content": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "direct_entity": {
+                            "type": "farmersdelight:rotten_tomato"
+                        },
+                        "tags": [
+                            {
+                                "expected": true,
+                                "id": "minecraft:is_projectile"
+                            }
+                        ]
+                    }
+                }
+            },
+            "amount": {
+                "min": 1,
+                "max": 10
+            },
+            "unitWorth": 275,
+            "timeMult": 2,
+            "weightMult": 0.3
+        },		
+		"explorer_fishing": {
+            "type": "criteria",
+            "rarity": "COMMON",
+            "name": "Fish up anything",
+            "content": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "type_specific": {
+                    "fishing_hook": {
+                        "in_open_water": true
+                    }
+                }
+            },
+            "amount": {
+                "min": 3,
+                "max": 20
+            },
+            "unitWorth": 85,
+            "timeMult": 3,
+            "weightMult": 0.6
+        },
+        "explorer_obj_enchant_low": {
+            "type": "criteria",
+            "rarity": "UNCOMMON",
+            "name": "Enchant an item using at least 2 levels",
+            "content": "minecraft:enchanted_item",
+            "conditions": {
+                "levels": {
+                    "min": 2
+                }
+            },
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 235,
+            "timeMult": 2,
+            "weightMult": 0.4
+        },
+		"explorer_obj_enchant_high": {
+            "type": "criteria",
+            "rarity": "RARE",            
+            "name": "Enchant an item using at least 3 levels",
+            "content": "minecraft:enchanted_item",
+            "conditions": {
+                "levels": {
+                    "min": 3
+                }
+            },
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 300,
+            "timeMult": 2,
+            "weightMult": 0.3
+        },
+		"explorer_obj_summon_golem": {
+            "type": "criteria",
+            "rarity": "EPIC",
+            "name": "Summon an Iron Golem",
+            "content": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:iron_golem"
+                  }
+            },
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 950,
+            "timeMult": 2,
+            "weightMult": 0.5
+        },
+        "explorer_obj_kill_witch": {
+            "type": "entity",
+            "rarity": "RARE",
+            "timeMult": 3.0,
+            "content": "minecraft:witch",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 550,
+            "weightMult": 0.25
+        },
+        "explorer_obj_evoker": {
+            "type": "entity",
+            "rarity": "RARE",
+            "timeMult": 8.0,
+            "content": "minecraft:evoker",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1500,
+            "weightMult": 0.3
+        },
+
+        "explorer_obj_raid": {
+            "type": "criteria",
+            "timeMult": 6.0,
+            "rarity": "RARE",
+            "name": "Cause a village raid",
+            "content": "minecraft:voluntary_exile",
+            "conditions": {},
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4900,
+            "weightMult": 0.4
+        },
+        "explorer_obj_totem": {
+            "type": "criteria",
+            "rarity": "EPIC",
+            "name": "Use a totem of undying",
+            "content": "minecraft:used_totem",
+            "conditions": {},
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000,
+            "weightMult": 0.5
+        },
+        "explorer_obj_wither": {
+            "type": "entity",
+            "timeMult": 12.0,
+            "rarity": "EPIC",
+            "content": "minecraft:wither",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 7500,
+            "weightMult": 0.4
+        },
+        "explorer_obj_warden": {
+            "type": "entity",
+            "timeMult": 12.0,
+            "content": "minecraft:warden",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 9000,
+            "weightMult": 0.4
+        },
+        "explorer_obj_player": {
+            "type": "entity",
+            "timeMult": 12.0,
+            "icon": "minecraft:painting",
+            "content": "minecraft:player",
+            "rarity": "LEGENDARY",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000,
+            "weightMult": 0.3
+        }
+	}
+
+}

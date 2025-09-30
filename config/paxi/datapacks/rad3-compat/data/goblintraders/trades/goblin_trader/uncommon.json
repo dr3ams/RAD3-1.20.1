@@ -14,6 +14,34 @@
         "item": "minecraft:emerald"
       },
       "price_multiplier": 0.0
+    },	
+	{
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "ftbquests:lootcrate",
+        "nbt": "{type:\"apotheosis\"}"
+      },
+      "payment_item": {
+        "item": "kubejs:gem_shard",
+        "count": 8
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "experience": 4
+    },
+	{
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 5,
+      "offer_item": {
+        "count": 1,
+        "item": "kubejs:contraband"
+      },
+      "payment_item": {
+        "count": 8,
+        "item": "minecraft:gold_ingot"
+      },
+      "price_multiplier": 0.1
     },
     {
       "type": "goblintraders:basic",
@@ -378,6 +406,32 @@
       "price_multiplier": 0.0,
       "max_trades": 3,
       "experience": 4
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "kubejs:scroll_exp_great",
+        "count": 16
+      },
+      "payment_item": {
+        "item": "kubejs:coin_dungeon",
+        "count": 16
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 10
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "kubejs:scroll_exp_great",
+        "count": 32
+      },
+      "payment_item": {
+        "item": "kubejs:coin_dungeon",
+        "count": 32
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 10
     }
   ]
 }
