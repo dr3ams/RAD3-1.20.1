@@ -1,7 +1,6 @@
 {
 	"content": {
 
-{
     "magic-rew-magebloom": {
       "type": "item",
       "content": "ars_nouveau:magebloom",
@@ -25,7 +24,7 @@
       "content": "ars_nouveau:experience_gem",
       "amount": {
         "min": 1,
-        "max": 16
+        "max": 10
       },
       "unitWorth": 400
     },
@@ -36,7 +35,7 @@
         "min": 1,
         "max": 5
       },
-      "unitWorth": 900
+      "unitWorth": 700
     },
     "magic-rew-purple_archwood_log": {
       "type": "item",
@@ -134,7 +133,23 @@
 		"magic-rew-simplecatalyst": {      "type": "item",      "content": "bloodmagic:simplecatalyst",      "amount": {        "min": 1,        "max": 8      },      "unitWorth": 200    },
 		"magic-rew-blankslate": {      "type": "item",      "content": "bloodmagic:blankslate",      "amount": {        "min": 1,        "max": 8      },      "unitWorth": 200    },
 		"magic-rew-reinforcedslate": {      "type": "item",      "content": "bloodmagic:reinforcedslate",      "amount": {        "min": 1,        "max": 4      },      "unitWorth": 250    },
-		"magic-rew-slate_vial": {      "type": "item",      "content": "bloodmagic:slate_vial",      "amount": {        "min": 1,        "max": 4      },      "unitWorth": 300    }
+		"magic-rew-slate_vial": {      "type": "item",      "content": "bloodmagic:slate_vial",      "amount": {        "min": 1,        "max": 4      },      "unitWorth": 300    },
+		"magic-rew-abjuration_essence": {"type": "item","content": "ars_nouveau:abjuration_essence","amount": {"min": 1,"max": 4},"unitWorth": 1000    },
+		"magic-rew-conjuration_essence": {"type": "item","content": "ars_nouveau:conjuration_essence","amount": {"min": 1,"max": 4},"unitWorth": 1000    },
+		"magic-rew-air_essence": {"type": "item","content": "ars_nouveau:air_essence","amount": {"min": 1,"max": 4},"unitWorth": 1000    },
+		"magic-rew-earth_essence": {"type": "item","content": "ars_nouveau:earth_essence","amount": {"min": 1,"max": 4},"unitWorth": 1000    },
+		"magic-rew-fire_essence": {"type": "item","content": "ars_nouveau:fire_essence","amount": {"min": 1,"max": 4},"unitWorth": 1000    },
+		"magic-rew-manipulation_essence": {"type": "item","content": "ars_nouveau:manipulation_essence","amount": {"min": 1,"max": 4},"unitWorth": 1000    },
+		"magic-rew-water_essence": {"type": "item","content": "ars_nouveau:water_essence","amount": {"min": 1,"max": 4},"unitWorth": 1000    },
+		"magic-rew-anima_essence": {"type": "item","content": "ars_elemental:anima_essence","amount": {"min": 1,"max": 4},"unitWorth": 1500    },
+		"magic-rew-gem_dust": {"type": "item","content": "apotheosis:gem_dust","amount": {"min": 1,"max": 10},"unitWorth": 500    },
+		"magic-rew-prismatic_web": {"type": "item","content": "apotheosis:prismatic_web","amount": {"min": 1,"max": 4},"unitWorth": 300    },
+		"magic-rew-boss_summoner": {"type": "item","content": "apotheosis:boss_summoner","amount": {"min": 1,"max": 1},"unitWorth": 2000    },
+		"magic-rew-common_material": {"type": "item","content": "apotheosis:common_material","amount": {"min": 1,"max": 10},"unitWorth": 1000    },
+		"magic-rew-uncommon_material": {"type": "item","content": "apotheosis:uncommon_material","amount": {"min": 1,"max": 10},"unitWorth": 1600    },
+		"magic-rew-rare_material": {"type": "item","content": "apotheosis:rare_material","amount": {"min": 1,"max": 2},"unitWorth": 2000    },
+		"magic-rew-gem_shard": {"type": "item","content": "kubejs:gem_shard","amount": {"min": 1,"max": 9},"unitWorth": 400    },
+		"magic-rew-grave_dust": {"type": "item","content": "tombstone:grave_dust","amount": {"min": 3,"max": 16},"unitWorth": 300    }
 	
   }
 

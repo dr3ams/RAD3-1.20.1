@@ -1,0 +1,114 @@
+{
+    "content": {
+        "miner_obj_coals": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "#forge:coal_ores",
+            "amount": {
+                "min": 8,
+                "max": 64
+            },
+            "unitWorth": 50
+        },
+        "miner_obj_raw_iron": {
+            "type": "item",
+            "content": "minecraft:raw_iron",
+            "rarity": "COMMON",
+            "amount": {
+                "min": 4,
+                "max": 64
+            },
+            "unitWorth": 40,
+            "forbids": [
+                {
+                    "type": "item",
+                    "content": "minecraft:iron_ingot"
+                }
+            ]
+        },
+        "miner_obj_raw_copper": {
+            "type": "item",
+            "content": "minecraft:raw_copper",
+            "rarity": "COMMON",
+            "amount": {
+                "min": 8,
+                "max": 64
+            },
+            "unitWorth": 30,
+            "forbids": [
+                {
+                    "type": "item",
+                    "content": "minecraft:copper_ingot"
+                }
+            ]
+        },
+        "miner_obj_raw_gold": {
+            "type": "item",
+            "content": "minecraft:raw_gold",
+            "rarity": "COMMON",
+            "amount": {
+                "min": 4,
+                "max": 64
+            },
+            "unitWorth": 50,
+            "forbids": [
+                {
+                    "type": "item",
+                    "content": "minecraft:gold_ingot"
+                }
+            ]
+        },
+        "miner_obj_sturdy_stone": {
+            "type": "item",
+            "weightMult": 1.75,
+            "content": "quark:sturdy_stone",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 1,
+                "max": 64
+            },
+            "unitWorth": 25
+        },
+        "miner_obj_deesplate": {
+            "type": "item",
+            "weightMult": 1.75,
+            "content": "minecraft:cobbled_deepslate",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 64,
+                "max": 64
+            },
+            "unitWorth": 10
+        },
+        "miner_obj_lava_bucket": {
+            "type": "item",
+            "content": "minecraft:lava_bucket",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 200,
+            "timeMult": 2
+        },
+		"mining-obj-essence_earth": {"type": "item","content": "kubejs:essence_earth","amount": {"min": 16,"max": 32},"unitWorth": 100    },
+		"mining-obj-stone": {"type": "item","content": "minecraft:stone","amount": {"min": 64,"max": 64},"unitWorth": 10    },
+		"mining-obj-rock_salt_block": {"type": "item","content": "spelunkery:rock_salt_block","amount": {"min": 16,"max": 64},"unitWorth": 20    },
+		"mining-obj-diorite": {"type": "item","content": "minecraft:diorite","amount": {"min": 64,"max": 64},"unitWorth": 10    },
+		"mining-obj-andesite": {"type": "item","content": "minecraft:andesite","amount": {"min": 64,"max": 64},"unitWorth": 10    },
+		"mining-obj-granite": {"type": "item","content": "minecraft:granite","amount": {"min": 64,"max": 64},"unitWorth": 10    },
+		"mining-obj-calcite": {"type": "item","content": "minecraft:calcite","amount": {"min": 64,"max": 64},"unitWorth": 10    },
+		"mining-obj-gravel": {"type": "item","content": "minecraft:gravel","amount": {"min": 64,"max": 64},"unitWorth": 10    },
+		"mining-obj-cobbled_deepslate": {"type": "item","content": "minecraft:cobbled_deepslate","amount": {"min": 64,"max": 64},"unitWorth": 10    },
+		"mining-obj-terracotta": {"type": "item","content": "minecraft:terracotta","amount": {"min": 64,"max": 64},"unitWorth": 10    },
+		"mining-obj-holystone": {"type": "item","content": "aether:holystone","amount": {"min": 64,"max": 64},"unitWorth": 20    },
+		"mining-obj-shiverstone": {"type": "item","content": "undergarden:shiverstone","amount": {"min": 64,"max": 64},"unitWorth": 20    },
+		"mining-obj-depthrock": {"type": "item","content": "undergarden:depthrock","amount": {"min": 64,"max": 64},"unitWorth": 20    },
+		"mining-obj-amethyst_block": {"type": "item","content": "minecraft:amethyst_block","amount": {"min": 16,"max": 64},"unitWorth": 40    },
+		"mining-obj-sulfur": {"type": "item","content": "spelunkery:sulfur","amount": {"min": 16,"max": 64},"unitWorth": 50    },
+		"mining-obj-saltpeter": {"type": "item","content": "spelunkery:saltpeter","amount": {"min": 16,"max": 64},"unitWorth": 50    },
+		"mining-obj-raw_magnetite": {"type": "item","content": "spelunkery:raw_magnetite","amount": {"min": 16,"max": 32},"unitWorth": 100    },
+		"mining-obj-cinnabar": {"type": "item","content": "spelunkery:cinnabar","amount": {"min": 16,"max": 64},"unitWorth": 100    },
+		"mining-obj-corundum_cluster": {"type": "item","content": "#quark:corundum","amount": {"min": 8,"max": 64},"unitWorth": 50    }
+    }
+}
