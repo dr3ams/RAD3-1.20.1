@@ -226,7 +226,7 @@ enableStructureSpecificDatapack = true
 	#Damage factor for Adaptive. Higher means less reduction
 	#Range: 0.0 ~ 1000.0
 	adaptFactor = 0.8
-	#Reflect factor per level for Reflect. 0.5 means +50% extra damage
+	#Reflect factor per level for Reflect. 0.5 means reflect 50% damage (then scaled by level bonus)
 	#Range: 0.0 ~ 1000.0
 	reflectFactor = 0.1
 	#Duration in ticks for enchantments to be disabled per level for Dispell
@@ -347,6 +347,18 @@ enableStructureSpecificDatapack = true
 	#Effect range for trait arena
 	#Range: 0 ~ 100
 	arenaRange = 24
+	#Damage Bonus Factor for dispell-affected damage
+	#Example: 0.5 means +2% per level damage bonus becoming +1% per level
+	#Range: 0.0 ~ 1.0
+	dispellDamageFactor = 0.5
+	#Damage Bonus Factor for dementor-affected damage
+	#Example: 0.5 means +2% per level damage bonus becoming +1% per level
+	#Range: 0.0 ~ 1.0
+	dementorDamageFactor = 0.5
+	#Damage Bonus Factor for grenade damage
+	#Example: 0.5 means +2% per level damage bonus becoming +1% per level
+	#Range: 0.0 ~ 1.0
+	grenadeDamageFactor = 0.25
 
 ["Trait toggle"]
 	allow_tank = true

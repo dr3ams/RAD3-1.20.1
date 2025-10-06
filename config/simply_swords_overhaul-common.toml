@@ -1,0 +1,143 @@
+#Emberlash: Toggle changes made by the mod (true = changes enabled, false = disabled)
+enableEmberlashChanges = true
+#Molten Edge: Toggle changes made by the mod (true = changes enabled, false = disabled)
+enableMoltenEdgeChanges = true
+#Shadowsting: Toggle changes made by the mod (true = changes enabled, false = disabled)
+enableShadowstingChanges = true
+#Soul Pyre: Toggle changes made by the mod (true = changes enabled, false = disabled)
+enableSoulPyreChanges = true
+#Soulrender: Toggle changes made by the mod (true = changes enabled, false = disabled)
+enableSoulrenderChanges = true
+#Star's Edge: Toggle changes made by the mod (true = changes enabled, false = disabled)
+enableStarsEdgeChanges = true
+#Storm's Edge: Toggle changes made by the mod (true = changes enabled, false = disabled)
+enableStormsEdgeChanges = true
+#Watcher: Toggle changes made by the mod (true = changes enabled, false = disabled)
+enableWatcherChanges = true
+#Whisperwind: Toggle changes made by the mod (true = changes enabled, false = disabled)
+enableWhisperwindChanges = true
+#Emberlash: Bonus damage dealt per stack of Smouldering (default: 0.75)
+#Range: 0.0 ~ 10.0
+emberlashSmoulderDamageMultiplier = 0.75
+#Emberlash: Distance in blocks for the dash ability (default: 12)
+#Range: 1 ~ 12
+emberlashDashDistance = 12
+#Emberlash: Percentage of Max HP restored after dashing (default: 10%)
+#Range: 0 ~ 100
+emberlashHealPercentage = 10
+#Emberlash: Maximum level of Smouldering that can be applied to a target (default: 254)
+#Range: 1 ~ 254
+emberlashMaxSmoulderLevel = 254
+#Emberlash: Cooldown of the dash ability in ticks (default: 80 ticks = 4 seconds)
+#Range: 1 ~ 50000
+emberlashCooldownTicks = 80
+#If true, dashing on the ground will ignore the downward angle and retain full dash length.
+#If false, dashing on the ground with a downward viewing angle will reduce the dash distance, 
+#as part of the dash impulse will be directed downward.
+emberlashIgnoreDownwardAngleOnGround = true
+#Soulrender: Maximum level of Slowness that can be applied (default: 3)
+#Range: 1 ~ 254
+soulrenderMaxSlownessLevel = 3
+#Soulrender: Maximum level of Weakness that can be applied (default: 2)
+#Range: 1 ~ 254
+soulrenderMaxWeaknessLevel = 2
+#Soulrender: Maximum level of Unluck that can be applied (default: 254)
+#Range: 1 ~ 254
+soulrenderMaxUnluckLevel = 254
+#Soulrender: Horizontal radius of the active ability area (default: 10 blocks)
+#Range: 1 ~ 30
+soulrenderEffectRadius = 10
+#Soulrender: Healing per stack (default: 0.5)
+#Range: 0.0 ~ 10.0
+soulrenderHealMultiplier = 0.5
+#Soulrender: Base damage multiplier for the initial stacks (default: 2)
+#Range: 0 ~ 100
+soulrenderBaseDamage = 2
+#Soulrender: Number of stacks required to increase damage to the next stage (default: 5)
+#Range: 1 ~ 1000
+soulrenderStacksPerStage = 5
+#Soulrender: Maximum healing percentage of the player's max health (default: 0.5)
+#Range: 0.0 ~ 1.0
+soulrenderMaxHealPercent = 0.5
+#Shadowsting: Bonus damage multiplier per unit of target's armor (default: 0.025)
+#Range: 0.0 ~ 1.0
+shadowstingArmorDamageMultiplier = 0.025
+#Shadowsting: Distance in blocks for teleportation (default: 5.0)
+#Range: 0.0 ~ 20.0
+shadowstingTeleportDistance = 5.0
+#Shadowsting: Duration of blindness effect on target in seconds (default: 3)
+#Range: 0 ~ 10000
+shadowstingBlindnessDuration = 3
+#Shadowsting: Cooldown of Shadowsting ability in ticks (default: 200 ticks = 10 seconds)
+#Range: 1 ~ 10000
+shadowstingCooldownTicks = 200
+#Soul Pyre: Maximum range of the ability in blocks (default: 32)
+#Range: 1.0 ~ 100.0
+soulPyreMaxAbilityDistance = 32.0
+#Soul Pyre: Distance in blocks at which the target teleports relative to the player (default: 1.5)
+#Range: 0.5 ~ 10.0
+soulPyreTeleportDistance = 1.5
+#Soul Pyre: Cooldown of the ability in ticks (default: 400 ticks = 20 seconds)
+#Range: 1 ~ 10000
+soulPyreCooldownTicks = 400
+#Soul Pyre: Duration of the Wither effect in seconds (default: 10 seconds)
+#Range: 0 ~ 10000
+soulPyreWitherDuration = 10
+#Soul Pyre: Level of the Wither effect applied to the target (default: 2)
+#Range: 1 ~ 100
+soulPyreWitherLevel = 2
+#Star's Edge: Bonus magic damage dealt on hit (default: 3.0)
+#Range: 0.0 ~ 100.0
+starsEdgeMagicDamage = 3.0
+#Star's Edge: Delay before teleporting player back in seconds (default: 15)
+#Range: 1 ~ 1000
+starsEdgeTeleportDelay = 15
+#Star's Edge: Cooldown of the ability in ticks (default: 300 ticks = 15 seconds)
+#Range: 1 ~ 10000
+starsEdgeCooldownTicks = 300
+#Star's Edge: Duration of Speed effect in seconds (default: 15)
+#Range: 0 ~ 1000
+starsEdgeSpeedDuration = 15
+#Star's Edge: Level of Speed effect (default: 2)
+#Range: 1 ~ 10
+starsEdgeSpeedLevel = 2
+#Star's Edge: Duration of Haste effect in seconds (default: 15)
+#Range: 0 ~ 1000
+starsEdgeHasteDuration = 15
+#Star's Edge: Level of Haste effect (default: 2)
+#Range: 1 ~ 10
+starsEdgeHasteLevel = 2
+#Star's Edge: Dash force that determines dash distance (default: 3.5)
+#Range: 0.0 ~ 10.0
+starsEdgeDashForce = 3.5
+#Star's Edge: Duration of Damage Resistance effect in seconds (default: 2)
+#Range: 0 ~ 1000
+starsEdgeResistanceDuration = 2
+#Storm's Edge: Cooldown reduction per hit in ticks (default: 20 ticks = 1 second)
+#Range: 1 ~ 1000
+stormsEdgeHitCooldownReduction = 20
+#Storm's Edge: Cooldown of the ability in ticks (default: 200 ticks = 10 seconds)
+#Range: 1 ~ 10000
+stormsEdgeCooldownTicks = 200
+#Storm's Edge: Dash distance in blocks (default: 12)
+#Range: 0.0 ~ 50.0
+stormsEdgeDashDistance = 12.0
+#Storm's Edge: Duration of Speed and Haste effects in seconds (default: 15)
+#Range: 0 ~ 10000
+stormsEdgeEffectDuration = 15
+#Storm's Edge: Maximum level of Haste effect (default: 5)
+#Range: 1 ~ 100
+stormsEdgeMaxHasteLevel = 5
+#Watcher: Amount of healing per hit (default: 0.5)
+#Range: 0.0 ~ 100.0
+watcherHitHealAmount = 0.5
+#Watcher: Percentage of target's max HP healed when the target is killed (default: 0.1, i.e., 10%)
+#Range: 0.0 ~ 1.0
+watcherKillHealPercent = 0.1
+#Whisper Wind: Cooldown of the dash ability in ticks (default: 400 ticks = 20 seconds)
+#Range: 1 ~ 50000
+whisperwindCooldownTicks = 400
+#Whisper Wind: Dash distance in blocks (default: 22)
+#Range: 0 ~ 100
+whisperwindDashDistance = 22
+

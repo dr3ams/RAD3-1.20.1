@@ -192,9 +192,9 @@
 				{
 					disable_toast: true
 					id: "7115D99B464E9B0B"
-					points: false
+					points: true
 					type: "xp"
-					value: 5L
+					value: 160L
 				}
 				{
 					consume_items: true
@@ -313,9 +313,9 @@
 				{
 					disable_toast: true
 					id: "2A91C77270EFA433"
-					points: false
+					points: true
 					type: "xp"
-					value: 15L
+					value: 550L
 				}
 				{
 					consume_items: true
@@ -346,9 +346,9 @@
 				{
 					disable_toast: true
 					id: "4EA458D96849662C"
-					points: false
+					points: true
 					type: "xp"
-					value: 30L
+					value: 1758L
 				}
 				{
 					consume_items: true
@@ -403,9 +403,9 @@
 				{
 					disable_toast: true
 					id: "00CE8D93E97A4BBE"
-					points: false
+					points: true
 					type: "xp"
-					value: 5L
+					value: 160L
 				}
 				{
 					consume_items: true
@@ -467,9 +467,9 @@
 				{
 					disable_toast: true
 					id: "64F443E28492727F"
-					points: false
+					points: true
 					type: "xp"
-					value: 15L
+					value: 550L
 				}
 				{
 					consume_items: true
@@ -520,9 +520,9 @@
 				{
 					disable_toast: true
 					id: "35D94A5997DBE65C"
-					points: false
+					points: true
 					type: "xp"
-					value: 30L
+					value: 1758L
 				}
 				{
 					consume_items: true
@@ -573,9 +573,9 @@
 				{
 					disable_toast: true
 					id: "3BA2749E7F21B0BC"
-					points: false
+					points: true
 					type: "xp"
-					value: 5L
+					value: 160L
 				}
 				{
 					consume_items: true
@@ -617,9 +617,9 @@
 				{
 					disable_toast: true
 					id: "22575A56065AC717"
-					points: false
+					points: true
 					type: "xp"
-					value: 15L
+					value: 550L
 				}
 				{
 					consume_items: true
@@ -650,9 +650,9 @@
 				{
 					disable_toast: true
 					id: "5B2CC888A966477C"
-					points: false
+					points: true
 					type: "xp"
-					value: 30L
+					value: 1758L
 				}
 				{
 					consume_items: true
@@ -1213,7 +1213,7 @@
 			rewards: [{
 				id: "1710B8E987BE191F"
 				type: "xp"
-				xp: 50
+				xp: 60
 			}]
 			subtitle: "With enough knowledge you're able to extract more experience from Experience Scroll"
 			tasks: [{
@@ -1233,7 +1233,7 @@
 				{
 					id: "1B2D87ADF57A0CBB"
 					type: "xp"
-					xp: 40
+					xp: 50
 				}
 				{
 					id: "58DA5A06A8A2E639"
@@ -1428,6 +1428,12 @@
 				}
 			}
 			id: "44098E1636541142"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "543BC26206BFE99E"
+				table_id: 5465814461704493943L
+				type: "choice"
+			}]
 			subtitle: "Prove that you're worthy"
 			tasks: [
 				{
@@ -1438,9 +1444,9 @@
 				}
 				{
 					id: "549B649C2BEB1766"
-					points: false
+					points: true
 					type: "xp"
-					value: 30L
+					value: 2045L
 				}
 				{
 					consume_items: true
@@ -1464,6 +1470,12 @@
 				}
 			}
 			id: "01C9696012532F94"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "485A923F51969046"
+				table_id: 4548451012863666260L
+				type: "choice"
+			}]
 			subtitle: "Prove that you're worthy"
 			tasks: [
 				{
@@ -1474,9 +1486,9 @@
 				}
 				{
 					id: "1B1C3FD4D3E50E4F"
-					points: false
+					points: true
 					type: "xp"
-					value: 30L
+					value: 2045L
 				}
 				{
 					consume_items: true
@@ -1494,6 +1506,12 @@
 			dependencies: ["62BC62A1467C3269"]
 			icon: "kubejs:levelup"
 			id: "71F8515A02EAFD99"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "781E86314EA5B271"
+				table_id: 8760106257332779228L
+				type: "choice"
+			}]
 			subtitle: "Prove that you're worthy"
 			tasks: [
 				{
@@ -1504,9 +1522,9 @@
 				}
 				{
 					id: "1A98C159B94E0BC0"
-					points: false
+					points: true
 					type: "xp"
-					value: 30L
+					value: 2045L
 				}
 				{
 					consume_items: true

@@ -1,0 +1,24 @@
+
+[Proficiency]
+	#Proficiency per Kill
+	#Range: 0.0 ~ 100.0
+	proficiencyKill = 0.01
+	#Proficiency per Damage Dealt
+	#Range: 0.0 ~ 1.0
+	proficiencyDealt = 0.01
+	#Proficiency per % Damage as Health Received
+	#Range: 0.0 ~ 1.0
+	proficiencyReceived = 0.025
+	#Proficiency per Experience (Orb)
+	#Range: 0.0 ~ 100.0
+	proficiencyExp = 0.02
+	#Maximum Proficiency
+	#Range: 1 ~ 10000
+	proficiencyMax = 100
+
+[Misc]
+	#Upgrade Removal Item
+	removalItem = "minecraft:crying_obsidian"
+	#Limit Breaking Enabled - +1 Upgrade Capacity by combining with max upgraade base item
+	limitBreak = true
+

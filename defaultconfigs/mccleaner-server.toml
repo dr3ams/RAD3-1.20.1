@@ -1,0 +1,23 @@
+
+[Cleanup]
+	#How often (in ticks) to clean
+	#Range: 600 ~ 72000
+	cleanFrequency = 6000
+	#A list of times to warn at (in ticks)
+	warningTimesInTicks = [2400, 600, 200, 100, 80, 60, 40, 20]
+
+[Blacklist]
+	#A list of items to never clean
+	blacklistItemsCleaning = ["minecraft:nether_star", "minecraft:dragon_egg", "minecraft:elytra", "minecraft:diamond"]
+	#A list of items to never log
+	blacklistItemsLogging = ["minecraft:dirt", "minecraft:sand", "minecraft:wheat_seeds", "minecraft:cobblestone", "minecraft:granity", "minecraft:andesite"]
+
+[Personalizing]
+	#How many XP levels in Anvil to personalize item
+	#Range: 1 ~ 100
+	personalizeCost = 5
+	#Should personalized items never naturally despawn on the ground
+	personalizeExpire = true
+	#What item is used to personalize in Anvil
+	personalizeMaterial = "minecraft:emerald_block"
+

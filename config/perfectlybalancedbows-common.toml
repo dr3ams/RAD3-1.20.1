@@ -1,0 +1,19 @@
+
+["Perfectly Balanced Bows Config"]
+
+	["Perfectly Balanced Bows Config".critChance]
+		#defalt bow crit chance
+		#Range: 0.0 ~ 1.0
+		normal = 0.1
+		#bow crit chance while sneaking
+		#Range: 0.0 ~ 1.0
+		crouching = 0.3
+
+	["Perfectly Balanced Bows Config".falloff]
+		#min distance before range based damage falloff
+		#Range: 0.0 ~ 1000.0
+		start = 20.0
+		#max distance for range based damage falloff
+		#Range: 1.0 ~ 1000.0
+		end = 100.0
+

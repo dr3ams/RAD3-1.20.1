@@ -23,7 +23,7 @@
 		#Nerfs Gummy Swets, but also makes them craftable. Note: Requires the Aether's Gummy Swet Healing config to be false to properly nerf the hunger effect. Requires datapack reload.
 		"Nerf Gummy Swets" = true
 		#Makes some Aether blocks take a bit longer to break, as they are extremely quick currently
-		"Consistent Mining Speeds" = false
+		"Consistent Mining Speeds" = true
 		#Changes quicksoil between various behaviors. Genesis is the most chaotic, highlands is the most fine-tuned, classic is the original
 		#Allowed Values: classic, genesis, highlands
 		"Quicksoil Movement System" = "highlands"
@@ -39,8 +39,8 @@
 	["Gameplay Changes".Misc]
 		#Changes the hitboxes of vanilla double plants. Disable if it causes odd behavior.
 		"Change Double Plant Hitboxes" = true
-		#Makes blockstate conversion sounds (ambrosium, swet ball) better
-		"Better Conversion Sounds" = true
+		#Gives blockstate conversion recipes (ambrosium, swet ball) alternate sounds
+		"Alternate Conversion Sounds" = true
 
 	["Gameplay Changes".Loot]
 		#Enables the Valkyrie Ring as a drop from Valkyries
@@ -56,8 +56,6 @@
 		"Mossy Holystone Ores" = true
 		#Enables Enchanted/Gilded vines on trees
 		"Enable Enchanted and Gilded Vines" = true
-		#Enables roots made of logs and log walls on the sides of Large Cloudcap mushrooms and Blightwillow trees.
-		"Wall Roots on Blightwillows and Large Cloudcaps" = true
 		#Uses the legacy design for the gilded groves, instead of the new one added in 2.0.17 that is an inbetween of 2.0 and 2.1's designs
 		"Legacy Gilded Groves Design" = false
 

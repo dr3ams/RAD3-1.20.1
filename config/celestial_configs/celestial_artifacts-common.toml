@@ -398,6 +398,30 @@
 	#Solar Magnet: damage bonus at day
 	#Range: 0.0 ~ 10.0
 	solarMagnetDamageBonus = 0.25
+	#Deers Mercy Amulet: attack damage bonus
+	#Range: 1 ~ 100
+	deersMercyAmuletDamage = 2
+	#Deers Mercy Amulet: max health bonus
+	#Range: 1 ~ 100
+	deersMercyAmuletMaxHealth = 10
+	#Deer Inscribed Amulet: max health bonus
+	#Range: 0.01 ~ 10.0
+	deerInscribedAmuletMaxHealth = 0.15
+	#Deer Inscribed Amulet: armor bonus
+	#Range: 1.0 ~ 100.0
+	deerInscribedAmuletArmor = 5.0
+	#Deer Inscribed Amulet: armor toughness bonus
+	#Range: 1.0 ~ 100.0
+	deerInscribedAmuletToughness = 2.0
+	#Deer Inscribed Amulet: attack damage bonus
+	#Range: 1.0 ~ 100.0
+	deerInscribedAmuletDamage = 5.0
+	#Deer Inscribed Amulet: The bonus provided by reversing the curse
+	#Range: 0.01 ~ 10.0
+	deerInscribedAmuletBlessBonus = 0.05
+	#Deer Inscribed Amulet: Strengthen attack interval
+	#Range: 1 ~ 100
+	deerInscribedAmuletStrengthInterval = 10
 
 [curse]
 	#Chaotic Curse: Damage increment percentage for explosion
@@ -806,6 +830,8 @@
 	angel_desire = true
 	forest_cloak = true
 	treasure_hunter_necklace = true
+	deers_mercy_amulet = true
+	deer_inscribed_amulet = true
 
 [body]
 	#forest cloak: chance to dodge projectile

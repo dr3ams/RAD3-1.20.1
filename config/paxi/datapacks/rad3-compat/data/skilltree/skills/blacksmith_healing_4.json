@@ -2,17 +2,27 @@
   "id": "skilltree:blacksmith_healing_4",
   "bonuses": [
     {
-      "type": "skilltree:attribute",
-      "attribute": "shieldinghealth:shield_value",
-      "id": "d1277ec4-4a12-4904-ad69-0e84a82e5f49",
-      "name": "SkillBonus",
-      "amount": 1.0,
-      "operation": 0,
-      "player_multiplier": {
-        "type": "skilltree:none"
-      },
-      "player_condition": {
-        "type": "skilltree:none"
+      "type": "skilltree:healing",
+      "chance": 1.0,
+      "amount": 0.1,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:attack"
       }
     }
   ],

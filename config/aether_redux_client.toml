@@ -23,6 +23,8 @@
 		#Determines which model variation to use for the Cockatrice. Refreshed is sort of a preview for a future design that will be used, the legacy one uses Redux's previous iteration.
 		#Allowed Values: refreshed, legacy
 		"Cockatrice Model Type" = "refreshed"
+		#Gives Whirlwinds a new design, based on Minecraft 1.21's new Breeze mob
+		"Improved Whirlwinds" = true
 
 	[Rendering.GUI]
 
@@ -52,7 +54,7 @@
 
 [Internal]
 	#Value used to track the version of the Aether: Redux most recently used.
-	"Version ID" = "2.0.18"
+	"Version ID" = "2.0.19"
 	#Internal value to do menu changes. Set this to false in modpacks if you want to use your own menu.
 	"First Startup - Menu Setup" = false
 	#Internal value to change an Aether config, giving a nicer lightmap in the dimension.
