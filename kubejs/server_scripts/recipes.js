@@ -1181,20 +1181,7 @@ ServerEvents.recipes((event) => {
     "ars_nouveau:enchanters_sword"
   );
 
-	event.shaped('kubejs:portable_dissolver', [
-    'EGE',
-    'GRG',
-    'ALA'
-	], {
-    E: 'kubejs:dust_experience',
-	G: 'minecraft:glass',
-	R: 'minecraft:repeater',
-	A: 'minecraft:amethyst_shard',
-	L: 'minecraft:lapis_lazuli'
-	})
-
-
-//class stuff
+//masteries stuff
 	event.shaped('kubejs:portable_dissolver', [
     'EGE',
     'GRG',
