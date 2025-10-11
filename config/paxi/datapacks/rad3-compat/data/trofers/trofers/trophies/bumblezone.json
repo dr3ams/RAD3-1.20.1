@@ -1,0 +1,33 @@
+{
+  "colors": {
+    "accent": "#BCA720",
+    "base": "#606060"
+  },
+  "display": {
+    "offset": { "x": 0, "y": 1, "z": 0 },
+    "scale": 0.3
+  },
+  "entity": {
+    "type": "the_bumblezone:bee_queen"
+  },
+  "animation": {
+    "type": "spinning",
+    "speed": 0.1
+  },
+  "name": {
+    "color": "#f6ba47",
+    "text": "Bumblezone Quests Completion Trophy"
+  },
+  "tooltip": {
+	"text": "Grants Protection of the Hive effect"
+  },
+  "effects": {
+		"rewards": {
+				"statusEffect": {
+					"effect": "the_bumblezone:protection_of_the_hive",
+					"duration": 2000
+				},
+				"cooldown": 10000
+		}
+  }
+}

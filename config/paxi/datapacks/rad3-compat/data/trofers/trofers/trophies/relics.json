@@ -1,0 +1,33 @@
+{
+  "colors": {
+    "accent": "#BCA720",
+    "base": "#606060"
+  },
+  "display": {
+    "offset": { "x": 0, "y": 1, "z": 0 },
+    "scale": 2.0
+  },
+  "item": {
+    "item": "nameless_trinkets:mysterious_trinket"
+  },
+  "animation": {
+    "type": "spinning",
+    "speed": 0.1
+  },
+  "name": {
+    "color": "#f6ba47",
+    "text": "Trinkets Quests Completion Trophy"
+  },
+  "tooltip": {
+	"text": "Grants Partystarter effect"
+  },
+  "effects": {
+		"rewards": {
+				"statusEffect": {
+					"effect": "vinery:party_effect",
+					"duration": 12000
+				},
+				"cooldown": 10000
+		}
+  }
+}

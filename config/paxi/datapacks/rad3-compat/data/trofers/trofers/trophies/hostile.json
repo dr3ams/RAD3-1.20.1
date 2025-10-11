@@ -1,0 +1,33 @@
+{
+  "colors": {
+    "accent": "#BCA720",
+    "base": "#606060"
+  },
+  "display": {
+    "offset": { "x": 0, "y": 1, "z": 0 },
+    "scale": 1.0
+  },
+  "item": {
+    "item": "l2complements:eternal_anvil"
+  },
+  "animation": {
+    "type": "spinning",
+    "speed": 0.1
+  },
+  "name": {
+    "color": "#f6ba47",
+    "text": "Hostile World Quests Completion Trophy"
+  },
+  "tooltip": {
+	"text": "Grants Emerald Splash effect"
+  },
+  "effects": {
+		"rewards": {
+				"statusEffect": {
+					"effect": "l2complements:emerald_splash",
+					"duration": 1000
+				},
+				"cooldown": 15000
+		}
+  }
+}

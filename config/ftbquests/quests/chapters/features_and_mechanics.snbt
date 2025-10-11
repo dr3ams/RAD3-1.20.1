@@ -1,5 +1,5 @@
 {
-	autofocus_id: "0B3E19BB0E6C5069"
+	autofocus_id: "56127AAF761DC8DA"
 	default_hide_dependency_lines: false
 	default_quest_shape: "square"
 	filename: "features_and_mechanics"
@@ -363,6 +363,19 @@
 			description: [""]
 			icon: "minecraft:grass_block"
 			id: "2D971B6D39514E9B"
+			rewards: [{
+				id: "2F223D4A4A87F2AD"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:trophies/world"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "13D715AFAB489779"
 				type: "checkmark"
@@ -429,11 +442,26 @@
 			description: [""]
 			icon: "minecraft:crimson_nylium"
 			id: "4FE6302AF76BF9EE"
-			rewards: [{
-				id: "06646869BA3DC739"
-				item: "nameless_trinkets:blaze_nucleus"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "06646869BA3DC739"
+					item: "nameless_trinkets:blaze_nucleus"
+					type: "item"
+				}
+				{
+					id: "6717767962F2BEA8"
+					item: {
+						Count: 1
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:trophies/nether"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2CAF77C722D60D4A"
 				type: "checkmark"
@@ -447,6 +475,19 @@
 			description: [""]
 			icon: "undergarden:deepturf_block"
 			id: "6DB365442C2C823F"
+			rewards: [{
+				id: "4505C04AD9806E31"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:trophies/undergarden"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "49251F92DA7B03C9"
 				title: "Complete 'The garden Under' chapter"
@@ -461,17 +502,32 @@
 			description: [""]
 			icon: "the_bumblezone:bee_queen_spawn_egg"
 			id: "373214B57FF3A1D8"
-			rewards: [{
-				command: "/curios add charm @p 1"
-				console: true
-				elevate_perms: true
-				exclude_from_claim_all: true
-				icon: "the_bumblezone:bee_queen_spawn_egg"
-				id: "097BB4162DA04B4C"
-				team_reward: false
-				title: "Queen Bee has taught you how to be charming. Gain +1 Charm Curio Slot"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/curios add charm @p 1"
+					console: true
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "the_bumblezone:bee_queen_spawn_egg"
+					id: "097BB4162DA04B4C"
+					team_reward: false
+					title: "Queen Bee has taught you how to be charming. Gain +1 Charm Curio Slot"
+					type: "command"
+				}
+				{
+					id: "6115E1F29B4B672E"
+					item: {
+						Count: 1
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:trophies/bumblezone"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "08C142A115970BB1"
 				type: "checkmark"
@@ -1350,6 +1406,19 @@
 			description: [""]
 			icon: "supplementaries:globe"
 			id: "7E24A5916D94D4D2"
+			rewards: [{
+				id: "4CB2BA8F07732464"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:trophies/pathfinder"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7348AE24A435B71B"
 				type: "checkmark"
@@ -1363,6 +1432,19 @@
 			description: [""]
 			icon: "nameless_trinkets:mysterious_trinket"
 			id: "1F2E73B5039DA243"
+			rewards: [{
+				id: "6BA48C1CB4B8FB77"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:trophies/relics"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "70CC0A27B542201C"
 				type: "checkmark"
@@ -1376,6 +1458,19 @@
 			description: [""]
 			icon: "ars_nouveau:archmage_spell_book"
 			id: "2BB14A88868C1345"
+			rewards: [{
+				id: "05D1A392309C74C8"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:trophies/ars"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6412E3E4981014C8"
 				type: "checkmark"
@@ -1494,6 +1589,19 @@
 			dependencies: ["26FFA683A2A5D5E1"]
 			icon: "embers:ember_crystal_cluster"
 			id: "496E580CD8CDA7DF"
+			rewards: [{
+				id: "580AC1CAF3E739D6"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:trophies/embers"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5B9BC8F112CE0DDC"
 				title: "Modifiers"
@@ -1634,6 +1742,19 @@
 					team_reward: false
 					type: "command"
 				}
+				{
+					id: "4E46457F07E5C29F"
+					item: {
+						Count: 1
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:trophies/hostile"
+							}
+						}
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "3C597DFAA2D235C7"
@@ -1648,6 +1769,19 @@
 			dependencies: ["1DC4DF1994634F20"]
 			icon: "landsoficaria:chiseled_relicstone"
 			id: "29EA7C127C053823"
+			rewards: [{
+				id: "02EAD63D39228B77"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:trophies/icaria"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7502E79A3E0C14C8"
 				type: "checkmark"
@@ -1660,17 +1794,32 @@
 			dependencies: ["7928F5D289CB8B3D"]
 			icon: "l2hostility:weakness"
 			id: "322E83FDF3FF59B4"
-			rewards: [{
-				auto: "disabled"
-				command: "/curios add hostility_curse @s 1"
-				elevate_perms: true
-				icon: "l2hostility:cursed"
-				id: "7E5594688508338E"
-				silent: true
-				team_reward: false
-				title: "Seems like you adapted to Hostile World. + 1 L2Hostility Curse Slot"
-				type: "command"
-			}]
+			rewards: [
+				{
+					auto: "disabled"
+					command: "/curios add hostility_curse @s 1"
+					elevate_perms: true
+					icon: "l2hostility:cursed"
+					id: "7E5594688508338E"
+					silent: true
+					team_reward: false
+					title: "Seems like you adapted to Hostile World. + 1 L2Hostility Curse Slot"
+					type: "command"
+				}
+				{
+					id: "1E44026CEC6EFA59"
+					item: {
+						Count: 1
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:trophies/hostile"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "78EA6F62CE2FF042"
 				title: "Hostile"
