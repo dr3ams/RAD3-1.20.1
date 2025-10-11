@@ -18,7 +18,7 @@ ItemEvents.modification(event => {
     item.maxStackSize = 1
   })
   event.modify('minecraft:golden_apple', item => {
-    item.maxStackSize = 1
+    item.maxStackSize = 4
   })
   event.modify('minecraft:enchanted_golden_apple', item => {
     item.maxStackSize = 1
