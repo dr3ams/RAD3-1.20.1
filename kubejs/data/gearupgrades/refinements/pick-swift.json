@@ -1,0 +1,20 @@
+
+{
+  "id": "swift",
+  "key": "refinement.pick.swift",
+  "type": ["digger_only"],
+  "proficiency_cost": 100,
+  "material": "minecraft:iron_ingot",
+  "material_count": 8,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "attributeslib:mining_speed",
+      "amount": 0.2,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "color": "light_purple"
+}
