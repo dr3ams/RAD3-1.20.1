@@ -1,0 +1,30 @@
+
+{
+  "id": "barricaded",
+  "key": "refinement.armor.barricaded",
+  "incompat": [],
+  "type": ["armor"],
+  "proficiency_cost": 10,
+  "material": "landsoficaria:healing_spell",
+  "material_count": 8,
+  "anvil_levels": 5,
+  "bonuses": [
+	{
+      "property": "minecraft:generic.movement_speed",
+      "amount": -0.15,
+      "operation": "multiply_total"
+    },
+	{
+      "property": "minecraft:generic.armor",
+      "amount": 0.5,
+      "operation": "multiply_total"
+    },
+	{
+      "property": "minecraft:generic.armor_toughness",
+      "amount": 0.5,
+      "operation": "multiply_total"
+    }
+  ],
+  "allowed_steps": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "color": "gray"
+}

@@ -1,0 +1,30 @@
+
+{
+  "id": "ghostly",
+  "key": "refinement.armor.ghostly",
+  "incompat": [],
+  "type": ["armor"],
+  "proficiency_cost": 10,
+  "material": "landsoficaria:healing_spell",
+  "material_count": 8,
+  "anvil_levels": 5,
+  "bonuses": [
+	{
+      "property": "attributeslib:dodge_chance",
+      "amount": 0.05,
+      "operation": "multiply_total"
+    },
+	{
+      "property": "skilltree:stealth",
+      "amount": 0.1,
+      "operation": "multiply_total"
+    },
+	{
+      "property": "minecraft:generic.attack_speed",
+      "amount": -0.15,
+      "operation": "multiply_total"
+    }
+  ],
+  "allowed_steps": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "color": "gray"
+}
