@@ -1,23 +1,23 @@
 
 {
-  "id": "tremor",
-  "key": "refinement.pick.tremor",
+  "id": "buckled",
+  "key": "refinement.shield.buckled",
   "incompat": [],
-  "type": ["digger_only", "melee_weapon"],
+  "type": ["shield"],
   "proficiency_cost": 100,
-  "material": "kubejs:upgrade_tremor",
+  "material": "minecraft:iron_ingot",
   "material_count": 1,
   "anvil_levels": 10,
   "bonuses": [
     {
-      "property": "minecraft:generic.attack_damage",
-      "amount": 0.1,
+      "property": "minecraft:generic.movement_speed",
+      "amount": 0.15,
       "operation": "multiply_total",
       "slots": ["minecraft:mainhand"]
     },
-	{
-      "property": "minecraft:generic.attack_knockback",
-      "amount": 1,
+    {
+      "property": "minecraft:generic.armor",
+      "amount": -1.0,
       "operation": "addition",
       "slots": ["minecraft:mainhand"]
     }

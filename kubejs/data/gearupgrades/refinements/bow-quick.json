@@ -1,0 +1,39 @@
+
+{
+  "id": "quick",
+  "key": "refinement.bow.quick",
+  "incompat": [],
+  "type": ["bxbow"],
+  "proficiency_cost": 100,
+  "material": "minecraft:bone",
+  "material_count": 1,
+  "anvil_levels": 5,
+  "bonuses": [
+	{
+      "property": "attributeslib:draw_speed",
+      "amount": 0.3,
+      "operation": "multiply_total",
+      "slots": ["minecraft:mainhand"]
+    },
+	{
+      "property": "minecraft:generic.movement_speed",
+      "amount": -0.10,
+      "operation": "multiply_total",
+      "slots": ["minecraft:mainhand"]
+    },
+	{
+      "property": "attributeslib:arrow_damage",
+      "amount": -0.25,
+      "operation": "multiply_total",
+      "slots": ["minecraft:mainhand"]
+    },
+	{
+      "property": "attributeslib:arrow_velocity",
+      "amount": 0.2,
+      "operation": "multiply_total",
+      "slots": ["minecraft:mainhand"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "color": "red"
+}

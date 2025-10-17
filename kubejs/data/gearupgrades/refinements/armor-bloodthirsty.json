@@ -1,21 +1,28 @@
 
 {
-  "id": "lifesteal",
-  "key": "refinement.chest.lifesteal",
-  "type": ["armor"],
+  "id": "bloodthirsty",
+  "key": "refinement.armor.bloodthirsty",
+  "incompat": ["lifesteal"],
+  "type": ["chest"],
   "proficiency_cost": 10,
-  "material": "landsoficaria:healing_spell",
-  "material_count": 8,
+  "material": "minecraft:melon",
+  "material_count": 1,
   "anvil_levels": 5,
   "bonuses": [
     {
       "property": "attributeslib:life_steal",
-      "amount": 1,
-      "operation": "addition",
+      "amount": 0.5,
+      "operation": "multiply_total",
       "slots": ["minecraft:chest"]
     },
 	{
       "property": "minecraft:generic.max_health",
+      "amount": -2.0,
+      "operation": "addition",
+      "slots": ["minecraft:chest"]
+    },
+	{
+      "property": "minecraft:generic.armor",
       "amount": -2.0,
       "operation": "addition",
       "slots": ["minecraft:chest"]

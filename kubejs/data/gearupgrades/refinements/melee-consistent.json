@@ -1,24 +1,24 @@
 
 {
-  "id": "tremor",
-  "key": "refinement.pick.tremor",
+  "id": "consistent",
+  "key": "refinement.melee.consistent",
   "incompat": [],
-  "type": ["digger_only", "melee_weapon"],
+  "type": ["melee_weapon"],
   "proficiency_cost": 100,
-  "material": "kubejs:upgrade_tremor",
+  "material": "kubejs:upgrade_sharp",
   "material_count": 1,
   "anvil_levels": 10,
   "bonuses": [
     {
-      "property": "minecraft:generic.attack_damage",
-      "amount": 0.1,
+      "property": "attributeslib:crit_chance",
+      "amount": 0.3,
       "operation": "multiply_total",
       "slots": ["minecraft:mainhand"]
     },
-	{
-      "property": "minecraft:generic.attack_knockback",
-      "amount": 1,
-      "operation": "addition",
+    {
+      "property": "attributeslib:crit_damage",
+      "amount": -0.25,
+      "operation": "multiply_total",
       "slots": ["minecraft:mainhand"]
     }
   ],

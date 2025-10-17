@@ -1,17 +1,17 @@
 
 {
-  "id": "sharp2",
-  "key": "refinement.tool.sharp2",
+  "id": "meleeswift",
+  "key": "refinement.melee.meleeswift",
   "incompat": [],
-  "type": ["melee_weapon", "digger_only"],
+  "type": ["melee_weapon"],
   "proficiency_cost": 100,
-  "material": "kubejs:upgrade_sharp2",
+  "material": "kubejs:upgrade_swift",
   "material_count": 1,
   "anvil_levels": 10,
   "bonuses": [
     {
-      "property": "minecraft:generic.attack_damage",
-      "amount": 0.15,
+      "property": "minecraft:generic.attack_speed",
+      "amount": 0.20,
       "operation": "multiply_total",
       "slots": ["minecraft:mainhand"]
     }

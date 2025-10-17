@@ -1,16 +1,22 @@
 
 {
-  "id": "sharp2",
-  "key": "refinement.tool.sharp2",
-  "incompat": [],
-  "type": ["melee_weapon", "digger_only"],
+  "id": "light",
+  "key": "refinement.melee.light",
+  "incompat": ["heavy"],
+  "type": ["melee_weapon"],
   "proficiency_cost": 100,
-  "material": "kubejs:upgrade_sharp2",
+  "material": "kubejs:upgrade_swift",
   "material_count": 1,
   "anvil_levels": 10,
   "bonuses": [
     {
       "property": "minecraft:generic.attack_damage",
+      "amount": -0.10,
+      "operation": "multiply_total",
+      "slots": ["minecraft:mainhand"]
+    },
+    {
+      "property": "minecraft:generic.attack_speed",
       "amount": 0.15,
       "operation": "multiply_total",
       "slots": ["minecraft:mainhand"]

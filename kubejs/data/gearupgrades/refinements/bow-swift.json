@@ -1,0 +1,21 @@
+
+{
+  "id": "swift",
+  "key": "refinement.bow.swift",
+  "incompat": [],
+  "type": ["bxbow"],
+  "proficiency_cost": 50,
+  "material": "minecraft:string",
+  "material_count": 1,
+  "anvil_levels": 5,
+  "bonuses": [
+	{
+      "property": "attributeslib:draw_speed",
+      "amount": 0.2,
+      "operation": "multiply_total",
+      "slots": ["minecraft:mainhand"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "color": "red"
+}

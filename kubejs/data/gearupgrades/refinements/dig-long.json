@@ -1,9 +1,9 @@
 
 {
-  "id": "reach",
-  "key": "refinement.dig.reach",
+  "id": "long",
+  "key": "refinement.dig.long",
   "type": ["digger_only"],
-  "proficiency_cost": 100,
+  "proficiency_cost": 50,
   "material": "kubejs:upgrade_reach",
   "material_count": 1,
   "anvil_levels": 10,
@@ -12,6 +12,12 @@
       "property": "forge:block_reach",
       "amount": 1,
       "operation": "addition",
+      "slots": ["minecraft:mainhand"]
+    },
+	{
+      "property": "attributeslib:mining_speed",
+      "amount": -0.1,
+      "operation": "multiply_total",
       "slots": ["minecraft:mainhand"]
     }
   ],

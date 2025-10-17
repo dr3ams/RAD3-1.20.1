@@ -4,20 +4,20 @@
   "key": "refinement.armor.ghostly",
   "incompat": [],
   "type": ["armor"],
-  "proficiency_cost": 10,
-  "material": "landsoficaria:healing_spell",
-  "material_count": 8,
+  "proficiency_cost": 100,
+  "material": "hmag:soul_powder",
+  "material_count": 5,
   "anvil_levels": 5,
   "bonuses": [
 	{
       "property": "attributeslib:dodge_chance",
-      "amount": 0.05,
-      "operation": "multiply_total"
+      "amount": 0.02,
+      "operation": "addition"
     },
 	{
       "property": "skilltree:stealth",
-      "amount": 0.1,
-      "operation": "multiply_total"
+      "amount": 5.0,
+      "operation": "addition"
     },
 	{
       "property": "minecraft:generic.attack_speed",

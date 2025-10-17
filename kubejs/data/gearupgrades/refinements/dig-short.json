@@ -1,0 +1,27 @@
+
+{
+  "id": "short",
+  "key": "refinement.dig.short",
+  "incompat": ["swift", "long"],
+  "type": ["digger_only"],
+  "proficiency_cost": 50,
+  "material": "spelunkery:raw_magnetite",
+  "material_count": 1,
+  "anvil_levels": 10,
+  "bonuses": [
+    {
+      "property": "forge:block_reach",
+      "amount": -0.5,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand"]
+    },
+	{
+      "property": "attributeslib:mining_speed",
+      "amount": 0.3,
+      "operation": "multiply_total",
+      "slots": ["minecraft:mainhand"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "color": "light_purple"
+}

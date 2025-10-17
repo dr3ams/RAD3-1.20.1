@@ -2,21 +2,21 @@
 {
   "id": "goldheart",
   "key": "refinement.armor.goldheart",
-  "incompat": [],
+  "incompat": ["goldheart"],
   "type": ["armor"],
-  "proficiency_cost": 10,
+  "proficiency_cost": 100,
   "material": "shieldinghealth:shield_power",
-  "material_count": 1,
+  "material_count": 3,
   "anvil_levels": 5,
   "bonuses": [
 	{
       "property": "minecraft:generic.max_health",
-      "amount": -4.0,
+      "amount": -2.0,
       "operation": "addition"
     },
 	{
       "property": "shieldinghealth:attribute.shieldinghealth.shield_value",
-      "amount": 4.0,
+      "amount": 2.0,
       "operation": "addition"
     }
   ],

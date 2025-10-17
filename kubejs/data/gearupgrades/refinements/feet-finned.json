@@ -1,0 +1,20 @@
+
+{
+  "id": "finned",
+  "key": "refinement.feet.finned",
+  "type": ["feet"],
+  "proficiency_cost": 100,
+  "material": "minecraft:slime_ball",
+  "material_count": 1,
+  "anvil_levels": 10,
+  "bonuses": [
+    {
+      "property": "forge:swim_speed",
+      "amount": 0.5,
+      "operation": "multiply_total",
+      "slots": ["minecraft:feet"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "color": "dark_blue"
+}

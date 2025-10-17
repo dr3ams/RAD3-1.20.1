@@ -1,9 +1,9 @@
 
 {
-  "id": "attack",
-  "key": "refinement.pick.attack",
-  "incompat": [],
-  "type": ["digger_only"],
+  "id": "sharp",
+  "key": "refinement.tool.sharp",
+  "incompat": ["sharp2", "sharp3"],
+  "type": ["digger_only", "melee_weapon"],
   "proficiency_cost": 100,
   "material": "kubejs:upgrade_sharp",
   "material_count": 1,
@@ -11,8 +11,8 @@
   "bonuses": [
     {
       "property": "minecraft:generic.attack_damage",
-      "amount": 1,
-      "operation": "addition",
+      "amount": 0.1,
+      "operation": "multiply_total",
       "slots": ["minecraft:mainhand"]
     }
   ],

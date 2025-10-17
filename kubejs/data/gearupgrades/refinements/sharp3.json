@@ -1,9 +1,9 @@
 
 {
   "id": "sharp3",
-  "key": "refinement.sword.sharp",
+  "key": "refinement.tool.sharp3",
   "incompat": [],
-  "type": ["melee_weapon"],
+  "type": ["melee_weapon", "digger_only"],
   "proficiency_cost": 100,
   "material": "kubejs:upgrade_sharp3",
   "material_count": 1,
@@ -11,8 +11,8 @@
   "bonuses": [
     {
       "property": "minecraft:generic.attack_damage",
-      "amount": 1,
-      "operation": "addition",
+      "amount": 0.25,
+      "operation": "multiply_total",
       "slots": ["minecraft:mainhand"]
     }
   ],

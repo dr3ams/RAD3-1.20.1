@@ -1,0 +1,27 @@
+
+{
+  "id": "bowknock",
+  "key": "refinement.bow.bowknock",
+  "incompat": [],
+  "type": ["bxbow"],
+  "proficiency_cost": 100,
+  "material": "minecraft:piston",
+  "material_count": 1,
+  "anvil_levels": 5,
+  "bonuses": [
+	{
+      "property": "celestial_core:arrow_knock",
+      "amount": 4.0,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand"]
+    },
+	{
+      "property": "attributeslib:arrow_velocity",
+      "amount": 0.1,
+      "operation": "multiply_total",
+      "slots": ["minecraft:mainhand"]
+    }
+  ],
+  "allowed_steps": [1],
+  "color": "red"
+}
