@@ -1,0 +1,27 @@
+
+{
+  "id": "vampire",
+  "key": "refinement.melee.vampire",
+  "incompat": ["vampire"],
+  "type": ["melee_weapon"],
+  "proficiency_cost": 100,
+  "material": "undergarden:blood_globule",
+  "material_count": 1,
+  "anvil_levels": 10,
+  "bonuses": [
+    {
+      "property": "attributeslib:life_steal",
+      "amount": 0.01,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand"]
+    },
+    {
+      "property": "minecraft:generic.attack_speed",
+      "amount": -0.15,
+      "operation": "multiply_total",
+      "slots": ["minecraft:mainhand"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "color": "light_purple"
+}

@@ -1,0 +1,22 @@
+
+{
+  "id": "shieldrepulsive",
+  "key": "refinement.shield.shieldrepulsive",
+  "incompat": [],
+  "type": ["shield"],
+  "proficiency_cost": 100,
+  "material": "minecraft:slime_ball",
+  "material_count": 1,
+  "anvil_levels": 10,
+  "bonuses": [
+
+	{
+      "property": "minecraft:generic.attack_knockback",
+      "amount": 0.25,
+      "operation": "multiply_total",
+      "slots": ["minecraft:offhand"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "color": "dark_blue"
+}

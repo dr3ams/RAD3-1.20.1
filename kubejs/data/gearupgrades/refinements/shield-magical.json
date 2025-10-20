@@ -1,0 +1,39 @@
+
+{
+  "id": "shieldmagical",
+  "key": "refinement.shield.shieldmagical",
+  "incompat": [],
+  "type": ["shield"],
+  "proficiency_cost": 100,
+  "material": "minecraft:slime_ball",
+  "material_count": 1,
+  "anvil_levels": 10,
+  "bonuses": [
+  	{
+      "property": "ars_nouveau:ars_nouveau.perk.spell_damage",
+      "amount": 0.5,
+      "operation": "multiply_total",
+      "slots": ["minecraft:offhand"]
+    },
+	{
+      "property": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "amount": 0.5,
+      "operation": "multiply_total",
+      "slots": ["minecraft:offhand"]
+    },
+    {
+      "property": "minecraft:generic.armor_toughness",
+      "amount": -1,
+      "operation": "addition",
+      "slots": ["minecraft:offhand"]
+    },
+	{
+      "property": "minecraft:generic.armor",
+      "amount": -1.0,
+      "operation": "addition",
+      "slots": ["minecraft:offhand"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "color": "dark_blue"
+}

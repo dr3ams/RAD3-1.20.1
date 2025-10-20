@@ -1,8 +1,8 @@
 
 {
   "id": "proficiency",
-  "key": "refinement.all.proficiency",
-  "type": ["armor", "shield", "melee_weapon", "ranged_weapon", "digger", "curios"],
+  "key": "refinement.curios.proficiency",
+  "type": ["curios:ring", "curios:necklace", "curios:belt", "curios:charm", "curios:bracelet"],
   "proficiency_cost": 100,
   "material": "kubejs:upgrade_prof",
   "material_count": 1,
@@ -10,9 +10,8 @@
   "bonuses": [
     {
       "property": "gearupgrades:mastery",
-      "amount": 20,
-      "operation": "addition",
-      "slots": ["minecraft:mainhand"]
+      "amount": 10,
+      "operation": "addition"
     }
   ],
   "allowed_steps": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],

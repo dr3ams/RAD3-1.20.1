@@ -1,0 +1,39 @@
+
+{
+  "id": "fortress",
+  "key": "refinement.shield.fortress",
+  "incompat": [],
+  "type": ["shield"],
+  "proficiency_cost": 100,
+  "material": "minecraft:anvil",
+  "material_count": 1,
+  "anvil_levels": 10,
+  "bonuses": [
+    {
+      "property": "minecraft:generic.attack_damage",
+      "amount": 5.0,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand"]
+    },
+    {
+      "property": "minecraft:generic.attack_speed",
+      "amount": 0.20,
+      "operation": "multiply_total",
+      "slots": ["minecraft:mainhand"]
+    },
+	{
+      "property": "minecraft:generic.attack_knockback",
+      "amount": 3.0,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand"]
+    },
+    {
+      "property": "minecraft:generic.movement_speed",
+      "amount": 0.15,
+      "operation": "multiply_total",
+      "slots": ["minecraft:mainhand"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "color": "light_purple"
+}

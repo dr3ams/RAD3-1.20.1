@@ -1,0 +1,27 @@
+
+{
+  "id": "shieldbulky",
+  "key": "refinement.shield.shieldbulky",
+  "incompat": [],
+  "type": ["shield"],
+  "proficiency_cost": 100,
+  "material": "minecraft:slime_ball",
+  "material_count": 1,
+  "anvil_levels": 10,
+  "bonuses": [
+    {
+      "property": "minecraft:generic.armor_toughness",
+      "amount": 1,
+      "operation": "addition",
+      "slots": ["minecraft:offhand"]
+    },
+	{
+      "property": "minecraft:generic.movement_speed",
+      "amount": -0.05,
+      "operation": "multiply_total",
+      "slots": ["minecraft:offhand"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "color": "dark_blue"
+}

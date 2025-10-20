@@ -1,0 +1,20 @@
+
+{
+  "id": "curiopotion_length",
+  "key": "refinement.curio.curiopotion_length",
+  "incompat": [],
+  "type": ["curios:ring"],
+  "proficiency_cost": 100,
+  "material": "minecraft:piston",
+  "material_count": 1,
+  "anvil_levels": 5,
+  "bonuses": [
+	{
+      "property": "ars_trinkets:ars_trinkets.perk.potion_length",
+      "amount": 0.3,
+      "operation": "multiply_total"
+    }
+  ],
+  "allowed_steps": [1],
+  "color": "red"
+}

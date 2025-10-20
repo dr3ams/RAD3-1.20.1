@@ -1,0 +1,21 @@
+
+{
+  "id": "feetquick2",
+  "key": "refinement.feet.feetquick2",
+  "incompat": ["feetquick", "feetquick2"],
+  "type": ["feet"],
+  "proficiency_cost": 100,
+  "material": "kubejs:upgrade_reach",
+  "material_count": 1,
+  "anvil_levels": 10,
+  "bonuses": [
+    {
+      "property": "minecraft:generic.movement_speed",
+      "amount": 0.30,
+      "operation": "multiply_total",
+      "slots": ["minecraft:feet"]
+    }
+  ],
+  "allowed_steps": [1],
+  "color": "dark_blue"
+}

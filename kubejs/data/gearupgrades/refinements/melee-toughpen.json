@@ -1,0 +1,21 @@
+
+{
+  "id": "toughpenetration",
+  "key": "refinement.melee.toughpenetration",
+  "incompat": [],
+  "type": ["melee_weapon"],
+  "proficiency_cost": 100,
+  "material": "kubejs:upgrade_swift",
+  "material_count": 1,
+  "anvil_levels": 10,
+  "bonuses": [
+    {
+      "property": "celestial_core:toughness_penetration",
+      "amount": 0.10,
+      "operation": "multiply_total",
+      "slots": ["minecraft:mainhand"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "color": "light_purple"
+}

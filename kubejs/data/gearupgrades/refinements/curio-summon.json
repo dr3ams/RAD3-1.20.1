@@ -1,0 +1,21 @@
+
+{
+  "id": "curiosummon",
+  "key": "refinement.curio.curiosummon",
+  "incompat": [],
+  "type": ["curios"],
+  "proficiency_cost": 100,
+  "material": "minecraft:piston",
+  "material_count": 1,
+  "anvil_levels": 5,
+  "bonuses": [
+	{
+      "property": "ars_nouveau:ars_elemental.perk.summon_power",
+      "amount": 0.5,
+      "operation": "multiply_total",
+      "slots": ["curios:necklace"]
+    }
+  ],
+  "allowed_steps": [1],
+  "color": "red"
+}
