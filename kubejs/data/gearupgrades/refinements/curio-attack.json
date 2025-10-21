@@ -1,0 +1,20 @@
+
+{
+  "id": "curioattack",
+  "key": "refinement.curio.curioattack",
+  "incompat": [],
+  "type": ["curios:hands"],
+  "proficiency_cost": 10,
+  "material": "minecraft:iron_ingot",
+  "material_count": 1,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "minecraft:generic.attack_damage",
+      "amount": 0.10,
+      "operation": "multiply_total"
+    }
+  ],
+  "allowed_steps": [1],
+  "color": "dark_aqua"
+}

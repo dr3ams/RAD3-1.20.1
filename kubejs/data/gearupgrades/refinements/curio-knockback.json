@@ -1,0 +1,20 @@
+
+{
+  "id": "curioknock",
+  "key": "refinement.curio.curioknock",
+  "incompat": [],
+  "type": ["curios:hands"],
+  "proficiency_cost": 10,
+  "material": "minecraft:piston",
+  "material_count": 1,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "minecraft:generic.attack_knockback",
+      "amount": 0.10,
+      "operation": "multiply_total"
+    }
+  ],
+  "allowed_steps": [1],
+  "color": "dark_aqua"
+}

@@ -1,0 +1,20 @@
+
+{
+  "id": "armored",
+  "key": "refinement.armor.armored",
+  "incompat": [],
+  "type": ["armor"],
+  "proficiency_cost": 10,
+  "material": "minecraft:iron_ingot",
+  "material_count": 2,
+  "anvil_levels": 5,
+  "bonuses": [
+	{
+      "property": "minecraft:generic.armor",
+      "amount": 0.15,
+      "operation": "multiply_total"
+    }
+  ],
+  "allowed_steps": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "color": "gray"
+}

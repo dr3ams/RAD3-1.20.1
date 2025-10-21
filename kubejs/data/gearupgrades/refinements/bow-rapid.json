@@ -1,0 +1,21 @@
+
+{
+  "id": "rapid",
+  "key": "refinement.bow.rapid",
+  "incompat": ["sniping"],
+  "type": ["bxbow"],
+  "proficiency_cost": 10,
+  "material": "minecraft:feather",
+  "material_count": 8,
+  "anvil_levels": 5,
+  "bonuses": [
+	{
+      "property": "attributeslib:arrow_velocity",
+      "amount": 0.3,
+      "operation": "multiply_total",
+      "slots": ["minecraft:mainhand"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "color": "dark_green"
+}

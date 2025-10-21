@@ -97,6 +97,28 @@ event.create('quest_crate').displayName('Crate')
 
 event.create('great_soul').displayName('Great Soul').rarity('Epic').tooltip('The soul of a powerful monster. Used for crafting the strongest items and enchantments.')
 
+//gear upgrades
+event.create('scroll_proficiency').displayName('Proficiency Scroll').rarity('Epic').texture('kubejs:item/manuscript')
+
+event.create('upgrade_blank').displayName('Blank Gear Upgrade').texture('kubejs:item/upgrades/gear_upgrade_blank')
+event.create('upgrade_swift').displayName('Gear Upgrade: Swift I').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/upgrade')
+event.create('upgrade_swift2').displayName('Gear Upgrade: Swift II').rarity('Rare').maxStackSize(1).texture('kubejs:item/upgrades/upgrade2')
+event.create('upgrade_swift3').displayName('Gear Upgrade: Swift III').rarity('Epic').maxStackSize(1).texture('kubejs:item/upgrades/upgrade3')
+event.create('upgrade_sharp').displayName('Gear Upgrade: Sharp I').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/sharp')
+event.create('upgrade_sharp2').displayName('Gear Upgrade: Sharp II').rarity('Rare').maxStackSize(1).texture('kubejs:item/upgrades/sharp2')
+event.create('upgrade_sharp3').displayName('Gear Upgrade: Sharp III').rarity('Epic').maxStackSize(1).texture('kubejs:item/upgrades/sharp3')
+event.create('upgrade_force').displayName('Gear Upgrade: Forceful').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/force')
+event.create('upgrade_prof').displayName('Gear Upgrade: Proficiency Gain').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/profgain')
+
+event.create('upgrade_heart').displayName('Gear Upgrade: Bulky').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/hp')
+event.create('upgrade_gilded').displayName('Gear Upgrade: Gilded').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/shieldheart2')
+event.create('upgrade_guarding').displayName('Gear Upgrade: Guarding').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/shield2')
+event.create('upgrade_sniping').displayName('Gear Upgrade: Sniping').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/eye')
+event.create('upgrade_quick').displayName('Gear Upgrade: Quick').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/arrow')
+event.create('upgrade_reach').displayName('Gear Upgrade: Block Reach').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/reach')
+event.create('upgrade_quickfeet').displayName('Gear Upgrade: Quickfeet').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/speed')
+event.create('upgrade_lifesteal').displayName('Gear Upgrade: Lifesteal').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/lifesteal')
+event.create('upgrade_fortress').displayName('Gear Upgrade: Fortress').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/pillar')
 
 event.create('defence').displayName('defence')
 event.create('armorpen').displayName('armorpen')

@@ -1321,6 +1321,94 @@ ServerEvents.recipes((event) => {
     'kubejs:portable_salvager',
     'shieldinghealth:power_token'
 	]).damageIngredient(Item.of('kubejs:portable_salvager'))
+	
+	event.shaped('kubejs:upgrade_blank', [
+    'CGC',
+    'CPC',
+    'CGC'
+	], {
+    C: 'minecraft:copper_ingot',
+	G: 'minecraft:gold_ingot',
+	P: 'minecraft:paper'
+	})
+	
+	event.shapeless('kubejs:upgrade_heart', [
+    'kubejs:upgrade_blank',
+	'minecraft:slime_ball',
+    'minecraft:heart_of_the_sea'
+	])
+	
+	event.shapeless('kubejs:upgrade_gilded', [
+    'kubejs:upgrade_blank',
+	'minecraft:slime_ball',
+    'shieldinghealth:shield_power'
+	])
+	
+	event.shapeless('kubejs:upgrade_guarding', [
+    'kubejs:upgrade_blank',
+	'minecraft:slime_ball',
+    'minecraft:iron_ingot',
+	'minecraft:iron_ingot'
+	])
+	
+	event.shapeless('kubejs:upgrade_quick', [
+    'kubejs:upgrade_blank',
+	'minecraft:sugar',
+    'hmag:evil_arrow',
+	'spelunkery:portabella'
+	])
+	
+	event.shapeless('kubejs:upgrade_sniping', [
+    'kubejs:upgrade_blank',
+	'undergarden:blood_mushroom',
+    'minecraft:spyglass',
+	'minecraft:spectral_arrow'
+	])
+	
+	event.shapeless('kubejs:upgrade_reach', [
+    'kubejs:upgrade_blank',
+	'minecraft:slime_ball',
+    'minecraft:sticky_piston'
+	])
+	
+	event.shapeless('kubejs:upgrade_swift', [
+    'kubejs:upgrade_blank',
+	'minecraft:slime_ball',
+    'minecraft:redstone'
+	])
+	
+	event.shapeless('kubejs:upgrade_quickfeet', [
+    'kubejs:upgrade_blank',
+	'minecraft:slime_ball',
+    'the_bumblezone:sugar_water_bottle',
+	'ars_nouveau:wilden_horn'
+	])
+	
+	event.shapeless('kubejs:upgrade_lifesteal', [
+    'kubejs:upgrade_blank',
+	'minecraft:slime_ball',
+    'undergarden:blood_globule',
+	'landsoficaria:healing_spell'
+	])
+	
+	event.shapeless('kubejs:upgrade_sharp', [
+    'kubejs:upgrade_blank',
+	'minecraft:slime_ball',
+	'minecraft:flint'
+	])
+	
+	event.shapeless('kubejs:upgrade_fortress', [
+    'kubejs:upgrade_blank',
+	'minecraft:iron_sword',
+	'minecraft:piston',
+	'the_bumblezone:sugar_water_bottle'
+	])
+	
+	event.shapeless('kubejs:upgrade_force', [
+    'kubejs:upgrade_blank',
+	'minecraft:gunpowder',
+	'hmag:bat_wing'
+	])
 ////////////////	END
 });
     
