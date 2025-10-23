@@ -4,14 +4,14 @@
   "key": "refinement.melee.meleeswift",
   "incompat": [],
   "type": ["melee_weapon"],
-  "proficiency_cost": 100,
+  "proficiency_cost": 50,
   "material": "kubejs:upgrade_swift",
   "material_count": 1,
   "anvil_levels": 10,
   "bonuses": [
     {
       "property": "minecraft:generic.attack_speed",
-      "amount": 0.20,
+      "amount": 0.15,
       "operation": "multiply_total",
       "slots": ["minecraft:mainhand"]
     }

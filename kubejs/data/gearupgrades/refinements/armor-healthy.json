@@ -2,9 +2,9 @@
 {
   "id": "healthy",
   "key": "refinement.armor.healthy",
-  "incompat": [],
+  "incompat": ["healthy"],
   "type": ["armor"],
-  "proficiency_cost": 10,
+  "proficiency_cost": 0,
   "material": "minecraft:red_mushroom",
   "material_count": 1,
   "anvil_levels": 5,
@@ -12,8 +12,7 @@
 	{
       "property": "minecraft:generic.max_health",
       "amount": 1.0,
-      "operation": "addition",
-      "slots": ["minecraft:chest"]
+      "operation": "addition"
     }
   ],
   "allowed_steps": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],

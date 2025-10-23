@@ -4,7 +4,7 @@
   "key": "refinement.shield.fortress",
   "incompat": [],
   "type": ["shield"],
-  "proficiency_cost": 100,
+  "proficiency_cost": 50,
   "material": "kubejs:upgrade_fortress",
   "material_count": 1,
   "anvil_levels": 10,
@@ -23,13 +23,13 @@
     },
 	{
       "property": "minecraft:generic.attack_knockback",
-      "amount": 3.0,
+      "amount": 2.0,
       "operation": "addition",
       "slots": ["minecraft:mainhand"]
     },
     {
       "property": "minecraft:generic.movement_speed",
-      "amount": 0.15,
+      "amount": 0.10,
       "operation": "multiply_total",
       "slots": ["minecraft:mainhand"]
     }

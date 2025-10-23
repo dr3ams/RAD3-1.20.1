@@ -242,6 +242,26 @@ ItemEvents.tooltip(event =>{
 		])
     }
   })
+
+	event.addAdvanced(['kubejs:gem_shard_great'], (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').darkPurple(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+		text.add(1, [
+        Text.of('• Earned mainly by completing bounties').white()
+		])
+        text.add(2, [
+        Text.of('• Exchange in ').white(),
+		Text.of('⭐ The Market ').yellow(),
+		Text.of('quest chapter for a random ').white(),
+		Text.of('Apotheosis Gem').darkPurple()
+		])
+    }
+  })
 	
 	event.addAdvanced(['kubejs:voucher_relic'], (item, advanced, text) => {
     if (!event.isShift()) {
@@ -954,7 +974,7 @@ ItemEvents.tooltip(event =>{
         Text.of('[Shift] ').gold(),
         Text.of('to see more info.').gray()
       ])
-	    text.add(3, [
+	    text.add(2, [
         Text.of('Quest Item').darkRed()
       ])
     } else {
@@ -1011,6 +1031,160 @@ ItemEvents.tooltip(event =>{
     text.add(3, Text.of('Barrels work just fine!'))
 	})
 
+
+	//Gear Upgrades
+	event.addAdvanced('kubejs:upgrade_swift', (item, advanced, text) => {
+	if (!event.isShift()) {	
+      text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
+	  text.add(2, [Text.of('Type: ').white(),Text.of('Tools, Melee').darkGreen()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('Increase Mining Speed or Attack Speed by 15%').darkRed()])
+	} else {text.add(1, [
+        Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
+	})
+	
+	event.addAdvanced('kubejs:upgrade_swift2', (item, advanced, text) => {
+	if (!event.isShift()) {	
+      text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
+	  text.add(2, [Text.of('Type: ').white(),Text.of('Tools, Melee').darkGreen()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('Increase Mining Speed or Attack Speed by 25%').darkRed()])
+	} else {text.add(1, [
+        Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
+	})
+
+	event.addAdvanced('kubejs:upgrade_swift3', (item, advanced, text) => {
+	if (!event.isShift()) {	
+      text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
+	  text.add(2, [Text.of('Type: ').white(),Text.of('Tools, Melee').darkGreen()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('Increase Mining Speed or Attack Speed by 35%').darkRed()])
+	} else {text.add(1, [
+        Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
+	})
+
+	event.addAdvanced('kubejs:upgrade_sharp', (item, advanced, text) => {
+	if (!event.isShift()) {	
+      text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
+	  text.add(2, [Text.of('Type: ').white(),Text.of('Tools, Melee').darkGreen()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('Increases Attack Damage by 10%').darkRed()])
+	} else {text.add(1, [
+        Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
+	})
+
+	event.addAdvanced('kubejs:upgrade_sharp2', (item, advanced, text) => {
+	if (!event.isShift()) {	
+      text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
+	  text.add(2, [Text.of('Type: ').white(),Text.of('Tools, Melee').darkGreen()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('Increases Attack Damage by 15%').darkRed()])
+	} else {text.add(1, [
+        Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
+	})
+
+	event.addAdvanced('kubejs:upgrade_sharp3', (item, advanced, text) => {
+	if (!event.isShift()) {	
+      text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
+	  text.add(2, [Text.of('Type: ').white(),Text.of('Tools, Melee').darkGreen()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('Increases Attack Damage by 25%').darkRed()])
+	} else {text.add(1, [
+        Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
+	})
+
+	event.addAdvanced('kubejs:upgrade_force', (item, advanced, text) => {
+	if (!event.isShift()) {	
+      text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
+	  text.add(2, [Text.of('Type: ').white(),Text.of('Tools, Melee').darkGreen()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('Increases Attack Damage and Movement Speed by 10%').darkRed()])
+	} else {text.add(1, [
+        Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
+	})
+
+	event.addAdvanced('kubejs:upgrade_prof', (item, advanced, text) => {
+	if (!event.isShift()) {	
+      text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
+	  text.add(2, [Text.of('Type: ').white(),Text.of('Rings, Necklace, Belt, Charm, Bracelet').darkGreen()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('Increases Proficiency gain by 100%').darkRed()])
+	} else {text.add(1, [
+        Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
+	})
+
+	event.addAdvanced('kubejs:upgrade_heart', (item, advanced, text) => {
+	if (!event.isShift()) {	
+      text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
+	  text.add(2, [Text.of('Type: ').white(),Text.of('Chestplate').darkGreen()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('+400% Max Health, -100% Armor, -100% Armor Toughness').darkRed()])
+	} else {text.add(1, [
+        Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
+	})
+
+	event.addAdvanced('kubejs:upgrade_gilded', (item, advanced, text) => {
+	if (!event.isShift()) {	
+      text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
+	  text.add(2, [Text.of('Type: ').white(),Text.of('Chestplate').darkGreen()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('+40% Overheal, -2 Max Hearts, -2 Armor').darkRed()])
+	} else {text.add(1, [
+        Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
+	})
+
+	event.addAdvanced('kubejs:upgrade_guarding', (item, advanced, text) => {
+	if (!event.isShift()) {	
+      text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
+	  text.add(2, [Text.of('Type: ').white(),Text.of('Chestplate').darkGreen()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('-3 Max Hearts, +100% Armor, +100% Armor Toughness').darkRed()])
+	} else {text.add(1, [
+        Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
+	})
+
+	event.addAdvanced('kubejs:upgrade_sniping', (item, advanced, text) => {
+	if (!event.isShift()) {	
+      text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
+	  text.add(2, [Text.of('Type: ').white(),Text.of('Bow').darkGreen()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('+30% Arrow DMG, +30% Arrow Speed, -25% Draw Speed, -20% Movement Speed').darkRed()])
+	} else {text.add(1, [
+        Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
+	})
+
+	event.addAdvanced('kubejs:upgrade_quick', (item, advanced, text) => {
+	if (!event.isShift()) {	
+      text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
+	  text.add(2, [Text.of('Type: ').white(),Text.of('Bow').darkGreen()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('+30% Draw Speed, -10% Movement Speed, -25% Arrow DMG, +20% Arrow Speed').darkRed()])
+	} else {text.add(1, [
+        Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
+	})	
+	
+	event.addAdvanced('kubejs:upgrade_reach', (item, advanced, text) => {
+	if (!event.isShift()) {	
+      text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
+	  text.add(2, [Text.of('Type: ').white(),Text.of('Pickaxe').darkGreen()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('+ 1 Block Reach, -10% Mining Speed').darkRed()])
+	} else {text.add(1, [
+        Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
+	})
+
+	event.addAdvanced('kubejs:upgrade_quickfeet', (item, advanced, text) => {
+	if (!event.isShift()) {	
+      text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
+	  text.add(2, [Text.of('Type: ').white(),Text.of('Feet').darkGreen()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('+30% Movement Speed').darkRed()])
+	} else {text.add(1, [
+        Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
+	})	
+
+	event.addAdvanced('kubejs:upgrade_lifesteal', (item, advanced, text) => {
+	if (!event.isShift()) {	
+      text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
+	  text.add(2, [Text.of('Type: ').white(),Text.of('Armor').darkGreen()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('+20% Lifesteal, -1 Max HP').darkRed()])
+	} else {text.add(1, [
+        Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
+	})	
+
+	event.addAdvanced('kubejs:upgrade_fortress', (item, advanced, text) => {
+	if (!event.isShift()) {	
+      text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
+	  text.add(2, [Text.of('Type: ').white(),Text.of('Shield').darkGreen()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('+5 Attack Damage, +20% Attack Speed, +2 Attack Knockback, +10% Movement Speed').darkRed()])
+	} else {text.add(1, [
+        Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
+	})		
 // THE END	
 })
 ClientEvents.lang('en_us', event => {
