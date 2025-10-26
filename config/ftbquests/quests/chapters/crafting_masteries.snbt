@@ -739,6 +739,7 @@
 				type: "choice"
 			}]
 			tasks: [{
+				consume_items: true
 				count: 2L
 				id: "010F9B0ADEA9F103"
 				item: "kubejs:essence_earth"
@@ -881,6 +882,7 @@
 					value: 10L
 				}
 				{
+					consume_items: true
 					count: 8L
 					disable_toast: true
 					id: "2FD4AF1C79779D97"
@@ -1361,6 +1363,7 @@
 			y: 9.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["62BC62A1467C3269"]
 			description: [
 				"If you have a lot of items to recycle:"
