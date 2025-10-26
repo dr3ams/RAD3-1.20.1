@@ -3,7 +3,7 @@
 [General]
 	#Decides whether the spawner is on blacklist, whitelist-only or player_placed mode [Default: WHITELIST]
 	#Allowed Values: BLACKLIST, WHITELIST
-	spawnerMode = "WHITELIST"
+	spawnerMode = "BLACKLIST"
 	#Decides whether only player placed spawners age [Default: false]
 	playerPlacedOnly = false
 
@@ -21,7 +21,7 @@
 [Blacklist]
 	#Decides the spawnCount of spawns a spawner can have in BLACKLIST mode [Default: 20]
 	#Range: > 1
-	blacklistMaxSpawnCount = 20
+	blacklistMaxSpawnCount = 25
 	#Decides which mobs don't age a spawner (requires spawnerMode to be set to BLACKLIST) 
 	#[syntax: 'modid:entity']
 	blacklist = [""]
