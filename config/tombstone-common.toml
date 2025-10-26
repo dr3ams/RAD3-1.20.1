@@ -84,9 +84,9 @@
 	#Range: -1 ~ 1440
 	cooldown_teleport_death = -1
 	#Beneficial effects that can't used by certain features such as ankh of prayer, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment
-	unhandled_beneficial_effects = ["astralsorcery:potiontimefreeze"]
+	unhandled_beneficial_effects = ["astralsorcery:potiontimefreeze", "tomeofblood:vulnerable", "ars_nouveau:scrying", "deep_aether:moa_bonus_jumps", "mowziesmobs:sunblock", "simplyswords:fatal_flicker"]
 	#Harmful effects that can't used by certain features such as tablet of cupidity and the enchantment plague bringer
-	unhandled_harmful_effects = ["minecraft:nausea"]
+	unhandled_harmful_effects = ["minecraft:nausea", "bloodmagic:firefuse", "bloodmagic:soulfray", "bloodmagic:sacrificiallamb", "cataclysm:stun", "fruitsdelight:disgusted", "l2complements:stone_cage", "relics:stun", "shield_overhaul:stun", "xaerominimap:no_minimap_harmful", "xaerominimap:no_entity_radar_harmful", "xaerominimap:no_waypoints_harmful", "xaerominimap:no_cave_maps_harmful", "xaeroworldmap:no_world_map_harmful", "xaeroworldmap:no_cave_maps_harmful"]
 	#Allows to limit the damages done by Decrepitude
 	#Range: > 1
 	decrepitude_max_damage = 2147483647
