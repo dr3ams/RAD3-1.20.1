@@ -18,7 +18,14 @@ ServerEvents.tags('item', event => {
 		.add('minecraft:diamond_pickaxe')
 		.add('minecraft:netherite_pickaxe')
 	
-	event.get('forge:ash').add('bonfires:ash_pile')
+	event.get('forge:ash')
+		.add('bonfires:ash_pile')
+		.add('embers:ash')
+		.add('darkerdepths:ash')
+
+	event.get('forge:dusts/ash')
+		.add('bonfires:ash_pile')
+		.add('darkerdepths:ash')
 	
 	event.get('rad3:coin_quest')
 		.add('kubejs:copper_coin')
@@ -272,4 +279,5 @@ event.get('rad3:decapitating')
 		.add('knavesneeds:undergarden/utherium/scythe')
 		.add('knavesneeds:undergarden/froststeel/scythe')
 ////END	
+
 })
