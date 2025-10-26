@@ -594,6 +594,11 @@ ServerEvents.recipes((event) => {
     "spelunkery:carved_nephrite"
   );
   event.replaceInput(
+    { output: "xpbook:xp_book" },
+    "minecraft:ender_pearl",
+    "spelunkery:nephrite_chunk"
+  );
+  event.replaceInput(
     { output: "bonfires:estus_shard" },
     "minecraft:diamond",
     "minecraft:emerald"
@@ -1411,4 +1416,5 @@ ServerEvents.recipes((event) => {
 	])
 ////////////////	END
 });
+
     
