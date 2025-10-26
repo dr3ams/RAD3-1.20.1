@@ -1,10 +1,10 @@
-const dropProb = 0.3;
+const dropProb = 0.25;
 
 LootJS.modifiers(event => {
     //event.enableLogging();
 
     event.addLootTableModifier("minecraft:entities/wither_skeleton")
-        .matchMainHand("#rad:decapitating")
+        .matchMainHand("#rad3:decapitating")
         .apply(c =>{
             let skull = false
             c.forEachLoot(item =>{
@@ -20,7 +20,7 @@ LootJS.modifiers(event => {
         })
 
     event.addLootTableModifier("minecraft:entities/zombie")
-        .matchMainHand("#rad:decapitating")
+        .matchMainHand("#rad3:decapitating")
         .apply(c =>{
             let skull = false
             c.forEachLoot(item =>{
@@ -34,8 +34,8 @@ LootJS.modifiers(event => {
                 c.addLoot('minecraft:zombie_head')
             }
         })
-    event.addLootTableModifier("creeperoverhaul:entities/snowy_creeper", "creeperoverhaul:entities/jungle_creeper", "creeperoverhaul:entities/mushroom_creeper", "creeperoverhaul:entities/ocean_creeper", "creeperoverhaul:entities/beach_creeper", "creeperoverhaul:entities/desert_creeper", "creeperoverhaul:entities/cave_creeper", "creeperoverhaul:entities/hills_creeper", "creeperoverhaul:entities/swamp_creeper", "creeperoverhaul:entities/dark_oak_creeper", "creeperoverhaul:entities/dripstone_creeper", "creeperoverhaul:entities/spruce_creeper", "creeperoverhaul:entities/badlands_creeper", "creeperoverhaul:entities/savannah_creeper", "creeperoverhaul:entities/bamboo_creeper", "minecraft:entities/creeper")
-        .matchMainHand("#rad:decapitating")
+    event.addLootTableModifier("minecraft:entities/creeper", "graveyard:entities/skeleton_creeper")
+        .matchMainHand("#rad3:decapitating")
         .apply(c =>{
             let skull = false
             c.forEachLoot(item =>{
@@ -51,7 +51,7 @@ LootJS.modifiers(event => {
         })
 
     event.addLootTableModifier("minecraft:entities/piglin", "minecraft:entities/piglin_brute")
-        .matchMainHand("#rad:decapitating")
+        .matchMainHand("#rad3:decapitating")
         .apply(c =>{
             let skull = false
             c.forEachLoot(item =>{
@@ -67,7 +67,7 @@ LootJS.modifiers(event => {
         })
 
     event.addLootTableModifier("minecraft:entities/enderman")
-        .matchMainHand("#rad:decapitating")
+        .matchMainHand("#rad3:decapitating")
         .apply(c =>{
             let skull = false
             c.forEachLoot(item =>{
@@ -83,7 +83,7 @@ LootJS.modifiers(event => {
         })
     
     event.addLootTableModifier("minecraft:entities/ender_dragon")
-        .matchMainHand("#rad:decapitating")
+        .matchMainHand("#rad3:decapitating")
         .apply(c =>{
             let skull = false
             c.forEachLoot(item =>{
@@ -99,7 +99,7 @@ LootJS.modifiers(event => {
         })
 
     event.addLootTableModifier("minecraft:entities/skeleton")
-        .matchMainHand("#rad:decapitating")
+        .matchMainHand("#rad3:decapitating")
         .apply(c =>{
             let skull = false
             c.forEachLoot(item =>{
