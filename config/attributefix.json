@@ -818,7 +818,7 @@
       "enabled": true,
       "min": {
         "default": 0,
-        "value": 0
+        "value": -1
       },
       "max": {
         "default": 1,
@@ -1258,7 +1258,7 @@
       "enabled": false,
       "min": {
         "default": 0,
-        "value": 0
+        "value": -1
       },
       "max": {
         "default": 5,
@@ -1298,6 +1298,17 @@
         "value": 100
       }
     },
+    "gearupgrades:mastery": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "tetra:draw_speed": {
       "enabled": false,
       "min": {
@@ -1307,6 +1318,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "reach-entity-attributes:attack_range": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "irons_spellbooks:fire_magic_resist": {
@@ -1329,17 +1351,6 @@
       "max": {
         "default": 100,
         "value": 100
-      }
-    },
-    "reach-entity-attributes:attack_range": {
-      "enabled": false,
-      "min": {
-        "default": -1024,
-        "value": -1024
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
       }
     },
     "l2damagetracker:bow_strength": {
@@ -1628,17 +1639,6 @@
         "value": 1000
       }
     },
-    "gearupgrades:dig_speed": {
-      "enabled": false,
-      "min": {
-        "default": -1024,
-        "value": -1024
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "skilltree:blocking": {
       "enabled": false,
       "min": {
@@ -1648,6 +1648,17 @@
       "max": {
         "default": 90,
         "value": 90
+      }
+    },
+    "gearupgrades:dig_speed": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "combatroll:count": {

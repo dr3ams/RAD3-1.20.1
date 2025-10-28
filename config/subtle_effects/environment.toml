@@ -21,14 +21,31 @@ sculkDustDensity = 3
 [geysers]
 useUpdatedSmoke = false
 flameGeyserSpawnChance = 0
+flameGeyserSpawnableBlocks = [
+    "minecraft:netherrack",
+    "minecraft:blackstone",
+    "minecraft:soul_soil"
+]
 flameGeyserSoundVolume = 0.1004902
 flameGeyserActiveTime = 157
 flameGeyserInactiveTime = 500
 smokeGeyserSpawnChance = 0
+smokeGeyserSpawnableBlocks = [
+    "minecraft:netherrack",
+    "minecraft:blackstone",
+    "minecraft:soul_soil"
+]
 smokeGeyserSoundVolume = 0.2
 smokeGeyserActiveTime = 300
 smokeGeyserInactiveTime = 500
 bubbleGeyserSpawnChance = 0
+bubbleGeyserSpawnableBlocks = [
+    "minecraft:sand",
+    "minecraft:red_sand",
+    "minecraft:gravel",
+    "minecraft:dirt",
+    "minecraft:clay"
+]
 bubbleGeyserSoundVolume = 0.5
 bubbleGeyserActiveTime = 300
 bubbleGeyserInactiveTime = 500

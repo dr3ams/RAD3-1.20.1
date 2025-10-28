@@ -28,6 +28,17 @@ ItemEvents.modification(event => {
 			.effect('darkness', 200, 0, 1)			
 		}
 	})	
+
+  event.modify('shieldinghealth:power_token', item => 
+	{
+    item.foodProperties = food => 
+		{
+			food
+			.effect('regeneration', 60, 0, 1)		
+			.effect('instant_health', 20, 0, 1)		
+		}
+	})
+	
   event.modify('endrem:witch_pupil', item => 
 	{
     item.foodProperties = food => 

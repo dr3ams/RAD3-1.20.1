@@ -193,4 +193,6 @@ guiMaxEntityScale = 100
 lowEndMarqueeIntervalMultiplier = 1.5
 #If true, completing a spyglass observation may assign an initial rank via weighted roll; if false, observation only awards E→S points (no chance roll). Default: false
 allowObservationChanceRolls = false
+#Which sprite to use for progress bars: 'vanilla' uses minecraft:textures/gui/container/villager2.png at fixed UVs; 'mod' uses araxers_bestiary:textures/gui/bestiary.png fixed UVs. Default: mod
+progressBarSpriteSource = "mod"
 

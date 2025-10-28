@@ -11,7 +11,7 @@
 			image: "minecraft:block/iron_ore"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.0d
+			x: 8.5d
 			y: 2.0d
 		}
 		{
@@ -20,7 +20,7 @@
 			image: "minecraft:block/cobblestone"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.0d
+			x: 8.5d
 			y: 3.0d
 		}
 		{
@@ -29,7 +29,7 @@
 			image: "minecraft:block/diamond_ore"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.0d
+			x: 8.5d
 			y: 1.0d
 		}
 		{
@@ -38,7 +38,7 @@
 			image: "minecraft:block/ancient_debris_side"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.0d
+			x: 8.5d
 			y: 0.0d
 		}
 	]
@@ -432,7 +432,7 @@
 				type: "advancement"
 			}]
 			x: 4.5d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["33C9F4DAC20A1515"]
@@ -445,7 +445,7 @@
 				type: "advancement"
 			}]
 			x: 4.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0BB2CB77ACA43D0B"]
@@ -458,7 +458,7 @@
 				type: "advancement"
 			}]
 			x: 4.5d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["00033C69927E20A5"]
@@ -471,7 +471,7 @@
 				type: "advancement"
 			}]
 			x: 4.5d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6A9188C3A08A9197"]
@@ -484,7 +484,7 @@
 				type: "advancement"
 			}]
 			x: 4.5d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["4238000186B6817C"]
@@ -1324,6 +1324,425 @@
 			}]
 			x: 10.5d
 			y: 1.0d
+		}
+		{
+			description: [
+				"Earn &2Proficiency&r for valid upgradeable items by doing things such as:"
+				""
+				"- Dealing damage"
+				"- Killing a mob"
+				"- Receiving damage"
+				"- Picking up XP orbs"
+				""
+				"With enough &2Proficiency&r on your item you can upgrade it in an &1anvil&r with the required &2proficiency&r and levels, as well as the necessary material."
+				""
+				"Upgrades can be reset by combining with &5Crying Obsidian&r"
+				""
+				"Some upgrades require simple materials and some require special &9Gear Upgrades&r (search in JEI) "
+			]
+			icon: "kubejs:upgrade_sharp2"
+			id: "17709A4C6A4B01BF"
+			rewards: [{
+				id: "50A4169E6CEF5659"
+				item: "kubejs:upgrade_prof"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68DE36D5A84E2DD7"
+				points: false
+				type: "xp"
+				value: 1L
+			}]
+			title: "Gear Upgrades"
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["17709A4C6A4B01BF"]
+			id: "232D4E2F056435C8"
+			rewards: [{
+				auto: "disabled"
+				command: "/effect give @s gearupgrades:mastery 400"
+				console: true
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "kubejs:upgrade_prof"
+				id: "50BBF77B89EDF15A"
+				team_reward: false
+				title: "Apply effect \"Increase Proficiency gain\" for 6 minutes"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "4EF5CA9C6D791124"
+					item: "kubejs:upgrade_blank"
+					type: "item"
+				}
+				{
+					id: "6354CA4BA611DD9E"
+					item: "kubejs:upgrade_swift"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "radweaponry:hydra_scythe"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+					reinforce_level: 0
+					reinforce_max: 10
+				}
+			}
+			id: "0287E28F9B82AD95"
+			rewards: [{
+				id: "5AEA7DA7A0685EF6"
+				item: {
+					Count: 1
+					id: "radweaponry:hydra_scythe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CB34834F988121F"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "radweaponry:halbird"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+					reinforce_level: 0
+					reinforce_max: 10
+				}
+			}
+			id: "08C0505EBB3936F0"
+			rewards: [{
+				id: "4053166069C8FDF1"
+				item: {
+					Count: 1
+					id: "radweaponry:halbird"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "760C95078789E2F1"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "radweaponry:holy_spear"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "642ECD2DED62D006"
+			rewards: [{
+				id: "6890B00E8DC8146F"
+				item: {
+					Count: 1
+					id: "radweaponry:holy_spear"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EC2300F8D535DCE"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 6.0d
+		}
+		{
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "radweaponry:scorpion_blade"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+					reinforce_level: 0
+					reinforce_max: 10
+				}
+			}
+			id: "28BC3D62CD40416E"
+			rewards: [{
+				id: "7B829A487EF63358"
+				item: {
+					Count: 1
+					id: "radweaponry:scorpion_blade"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D207CA981B7D7E2"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			icon: "radweaponry:hemovial"
+			id: "723257970DCD1F25"
+			rewards: [{
+				id: "5B09506123128447"
+				item: "radweaponry:hemovial"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54BAF18AB9FDE2F5"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "radweaponry:starhawk"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+					reinforce_level: 0
+					reinforce_max: 10
+				}
+			}
+			id: "0053B4242ABABDE7"
+			rewards: [{
+				id: "44FE1E44BC957FEE"
+				item: {
+					Count: 1
+					id: "radweaponry:starhawk"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B7CA9407B208141"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "radweaponry:cinderstorm"
+				tag: {
+					Charged: 1b
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "5FF0165499473C33"
+			rewards: [{
+				id: "4917F21066D23A51"
+				item: {
+					Count: 1
+					id: "radweaponry:cinderstorm"
+					tag: {
+						Charged: 1b
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B0607DA78304D95"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "radweaponry:power_pole"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+					reinforce_level: 0
+					reinforce_max: 10
+				}
+			}
+			id: "5F5BF735E7D25657"
+			rewards: [{
+				id: "07DE955510B21D2D"
+				item: {
+					Count: 1
+					id: "radweaponry:power_pole"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "63FC59508E0B67C6"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "radweaponry:pitcher_canteen"
+				tag: {
+					PitcherPotion: { }
+				}
+			}
+			id: "602AC1824D83B996"
+			rewards: [{
+				id: "791ED90EAA2A5727"
+				item: {
+					Count: 1
+					id: "radweaponry:pitcher_canteen"
+					tag: {
+						PitcherPotion: { }
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EA7C3B554A7CDB6"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "radweaponry:bestiary_charm"
+				tag: { }
+			}
+			id: "5CD570EDDFBD3EA6"
+			rewards: [{
+				id: "64BDCE93B9AD9CE1"
+				item: {
+					Count: 1
+					id: "radweaponry:bestiary_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F5E655229F3A2C0"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "radweaponry:hummingbirdfan_blue"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+					reinforce_level: 0
+					reinforce_max: 10
+				}
+			}
+			id: "55AB9C80D230A172"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "510B7B20D3D0A128"
+				table_id: 548616500471252628L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "40C7322BDBF0B513"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 6.0d
 		}
 	]
 	title: "Equipment"

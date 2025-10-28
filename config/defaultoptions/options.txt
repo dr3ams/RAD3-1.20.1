@@ -22,7 +22,7 @@ toggleSprint:false
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
 mouseSensitivity:0.5
-fov:0.525
+fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
@@ -31,7 +31,7 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:0.0
-renderDistance:22
+renderDistance:15
 simulationDistance:12
 entityDistanceScaling:1.0
 guiScale:4
@@ -41,9 +41,9 @@ graphicsMode:1
 ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
-renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","builtin/towntalk","Forgery","Forgery grayscale","Moonlight Mods Dynamic Assets","VanillaTweaks_r976389.zip","builtin/ancient_aether_texture_tweaks","builtin/compatibility/deep_aether_assets","builtin/resource/overrides_pack","builtin/resource/redux_tips","fabric","builtin/aether_tips","file/Aether Regenerated v1.2.1.zip","file/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip","file/CreateSophisticatedBackpacks.zip","file/Moonsu Better Create GUI Tom\u0027s Simple Storage 1.3.zip","file/v2_REFRESH_Building_Gadgets_Create_Like.zip","file/Tom\u0027s Metal Storage v1.0.zip","file/Unique Dark Gui Modded Compat 1.19.2.zip","builtin/aether_tooltips","file/Ashen_16x.zip","file/Ashen_Regions_Unexplored_Support_1.0.zip","file/Connected Texture+ V4.1.zip","file/UniqueDark 1.20.1 (free).zip","builtin/client/golden_swet_ball/DAGoldenSwetBallFixClient","RAD3-Resources","file/§bEnchanting§8-§bReimagined§0_§8[v1.2]§0.zip","file/Bibliophilia 1.14 (1.20.1).zip","file/golems-refreshed-v2.zip","file/boss-refreshed-v1.4.zip","file/DSWG Glowing Eyes 1.20 v1.1.zip","file/elysiapresents_lootr.zip","file/FreshAnimations_v1.9.2.zip","file/FA+Details-v1.1.zip","file/FreshCompats_v1.6.zip","file/§1Drodi\u0027s Illagers FA [V4.9.1].zip","file/§2Drodi\u0027s Villagers FA [V2.8].zip"]
-incompatibleResourcePacks:["builtin/towntalk","file/CreateSophisticatedBackpacks.zip","file/Unique Dark Gui Modded Compat 1.19.2.zip","file/Ashen_Regions_Unexplored_Support_1.0.zip","file/Connected Texture+ V4.1.zip","file/golems-refreshed-v2.zip","file/elysiapresents_lootr.zip","file/§1Drodi\u0027s Illagers FA [V4.9.1].zip","file/§2Drodi\u0027s Villagers FA [V2.8].zip"]
+renderClouds:"false"
+resourcePacks:["vanilla","mod_resources","Forgery","Forgery grayscale","Moonlight Mods Dynamic Assets","builtin/ancient_aether_texture_tweaks","builtin/compatibility/deep_aether_assets","builtin/resource/overrides_pack","builtin/resource/redux_tips","fabric","builtin/aether_tips","file/Aether Regenerated v1.2.1.zip","file/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip","file/v2_REFRESH_Building_Gadgets_Create_Like.zip","file/Tom\u0027s Metal Storage v1.0.zip","builtin/aether_tooltips","builtin/client/golden_swet_ball/DAGoldenSwetBallFixClient","file/§bEnchanting§8-§bReimagined§0_§8[v1.2]§0.zip","file/elysiapresents_lootr.zip","file/Connected Texture+ V5.2.zip","file/golems-refreshed-v2.1.zip","file/boss-refreshed-v2-1.19-1.21.zip","file/DSWG Glowing Eyes 1.20 v1.1.zip","file/Bibliophilia 1.15 (1.20.1).zip","file/Default-Dark-Mode-1.20-2023.7.0.zip","builtin/client/deep_aether_tooltips","file/FreshAnimations_v1.10.1.zip","file/§2Drodi\u0027s Villagers FA [V2.8.2] - 1.20.1.zip","file/Ars-Subtlety.zip","RAD3-Resources","VanillaTweaks_r976389.zip"]
+incompatibleResourcePacks:["file/elysiapresents_lootr.zip","file/Connected Texture+ V5.2.zip","file/golems-refreshed-v2.1.zip","file/§2Drodi\u0027s Villagers FA [V2.8.2] - 1.20.1.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -84,8 +84,8 @@ onlyShowSecureChat:false
 panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
-soundCategory_master:0.1759688017384106
-soundCategory_music:0.0
+soundCategory_master:0.6978476821192053
+soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

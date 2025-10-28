@@ -44,3 +44,18 @@ ItemEvents.rightClicked( event => {
         event.cancel();
     }
 })
+
+ItemEvents.rightClicked( event => {
+    if(event.item=='kubejs:scroll_proficiency') {
+        // Run the skill point addition command for the player who clicked the block
+        event.server.runCommandSilent(`/gearupgrades ${event.player.username} add 100`);
+        
+        // If the player is holding an item, reduce its count by 1
+        if(event.item) {
+            event.item.count--;
+        }
+    
+        // Prevent the default right-click action
+        event.cancel();
+    }
+})
