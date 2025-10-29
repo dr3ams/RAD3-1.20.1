@@ -323,23 +323,42 @@
 			hide_until_deps_visible: true
 			icon: "kubejs:quest_note"
 			id: "5826E13CAB5C44F2"
-			rewards: [{
-				id: "4F28A5C27B1D4443"
-				item: {
-					Count: 1
-					id: "supplementaries:cartographers_quill"
-					tag: {
-						display: {
-							Name: "{\"text\":\"Notes how to get to the Crypt\"}"
+			rewards: [
+				{
+					auto: "disabled"
+					exclude_from_claim_all: true
+					id: "4F28A5C27B1D4443"
+					item: {
+						Count: 1
+						id: "supplementaries:cartographers_quill"
+						tag: {
+							display: {
+								Name: "{\"text\":\"Notes how to get to the Crypt\"}"
+							}
+							maxSearchRadius: 150
+							skinKnown: 1b
+							targetStructure: "graveyard:crypt"
+							zoomLevel: 2
 						}
-						maxSearchRadius: 150
-						skinKnown: 1b
-						targetStructure: "graveyard:crypt"
-						zoomLevel: 2
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					command: "/locate structure graveyard:crypt"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "kubejs:item/map"
+						}
+					}
+					id: "44A91C09CD71E415"
+					title: "This will print coordinates to the chat. Write them down to not lose it."
+					type: "command"
+				}
+			]
 			tasks: [
 				{
 					id: "50A7078639942B19"
@@ -1225,7 +1244,7 @@
 			y: 12.0d
 		}
 		{
-			description: ["&6Treasure map reward&r will locate the nearest structure so be aware of that when standing next to the one that you have already explored"]
+			description: ["&6Treasure map reward&r will locate the nearest structure so be aware of that when standing next to the one that you have already visited"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -1243,5 +1262,5 @@
 			y: 3.5d
 		}
 	]
-	title: "Side stories"
+	title: "Side Stories"
 }
