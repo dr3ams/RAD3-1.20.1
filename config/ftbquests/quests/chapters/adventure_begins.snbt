@@ -12,7 +12,7 @@
 			image: "ftbquests:block/barrier_open"
 			rotation: 45.0d
 			width: 1.1d
-			x: -6.5d
+			x: -7.0d
 			y: -3.0d
 		}
 		{
@@ -20,24 +20,24 @@
 			image: "ftbquests:block/barrier_open"
 			rotation: 45.0d
 			width: 1.1d
-			x: -5.75d
-			y: -3.75d
+			x: -6.0d
+			y: -4.0d
 		}
 		{
 			height: 1.1d
 			image: "ftbquests:block/barrier_open"
 			rotation: 45.0d
 			width: 1.1d
-			x: -5.75d
-			y: -2.25d
+			x: -6.0d
+			y: -2.0d
 		}
 		{
 			height: 2.0d
 			image: "ftbquests:block/barrier"
 			rotation: 0.0d
 			width: 2.0d
-			x: -4.0d
-			y: -6.0d
+			x: -4.5d
+			y: -6.5d
 		}
 		{
 			height: 2.0d
@@ -52,7 +52,7 @@
 			image: "ftbquests:block/barrier"
 			rotation: 0.0d
 			width: 2.0d
-			x: 2.0d
+			x: 2.5d
 			y: -3.0d
 		}
 		{
@@ -68,8 +68,8 @@
 			image: "ftbquests:block/barrier"
 			rotation: 0.0d
 			width: 2.0d
-			x: -4.0d
-			y: 0.0d
+			x: -4.5d
+			y: 0.5d
 		}
 		{
 			height: 1.5d
@@ -97,20 +97,30 @@
 			x: -2.0d
 			y: -3.0d
 		}
+		{
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			rotation: 45.0d
+			width: 1.1d
+			x: 6.0d
+			y: 3.5d
+		}
 	]
 	order_index: 0
 	quest_links: [
 		{
 			id: "28D458E6F5625B9F"
 			linked_quest: "085E485E8091D543"
-			x: -4.0d
-			y: -7.5d
+			shape: "gear_important"
+			size: 1.5d
+			x: -3.5d
+			y: -8.75d
 		}
 		{
 			id: "287B78958ED96F15"
 			linked_quest: "2AF1B6A89DD4F4C2"
-			x: -5.5d
-			y: -9.5d
+			x: -6.0d
+			y: -7.5d
 		}
 		{
 			icon: {
@@ -127,14 +137,14 @@
 			}
 			id: "2ECB5EA439F3A83B"
 			linked_quest: "7B7944F875F4F424"
-			x: -6.0d
-			y: 1.0d
+			x: -6.5d
+			y: 1.5d
 		}
 		{
 			id: "6C5D95349F7EEE94"
 			linked_quest: "35EA73868124C4C6"
-			x: -5.0d
-			y: 1.5d
+			x: -5.5d
+			y: 2.0d
 		}
 	]
 	quests: [
@@ -234,7 +244,7 @@
 				type: "item"
 			}]
 			title: "&9Processing"
-			x: 2.0d
+			x: 2.5d
 			y: -3.0d
 		}
 		{
@@ -426,7 +436,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 6.5d
 			y: -3.0d
 		}
 		{
@@ -457,8 +467,8 @@
 				id: "114773E0AF9E547B"
 				type: "advancement"
 			}]
-			x: -7.5d
-			y: 0.0d
+			x: -8.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["031D29EEE7B5A5A7"]
@@ -488,8 +498,8 @@
 				id: "6C6D7A81184FDD7D"
 				type: "advancement"
 			}]
-			x: -8.5d
-			y: 1.0d
+			x: -9.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["031D29EEE7B5A5A7"]
@@ -520,8 +530,8 @@
 				id: "0BC58EE1695D4729"
 				type: "advancement"
 			}]
-			x: -7.5d
-			y: 1.5d
+			x: -8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["031D29EEE7B5A5A7"]
@@ -538,8 +548,8 @@
 				id: "752864CAF8E2E6AC"
 				type: "advancement"
 			}]
-			x: -8.5d
-			y: -1.0d
+			x: -9.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5972F6732B417E5B"]
@@ -563,8 +573,8 @@
 				id: "471FC757C0A5ADBB"
 				type: "advancement"
 			}]
-			x: -9.5d
-			y: 2.0d
+			x: -10.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["031D29EEE7B5A5A7"]
@@ -588,8 +598,8 @@
 				id: "6EDEDE0D451B0079"
 				type: "advancement"
 			}]
-			x: -6.5d
-			y: -1.0d
+			x: -7.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["031D29EEE7B5A5A7"]
@@ -606,8 +616,8 @@
 				id: "04724854D2AB6D77"
 				type: "advancement"
 			}]
-			x: -9.0d
-			y: 0.0d
+			x: -9.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["249AA12A5A125F45"]
@@ -698,8 +708,8 @@
 				id: "518B97A059D9C268"
 				type: "advancement"
 			}]
-			x: -7.0d
-			y: -9.5d
+			x: -6.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2C5C6BA3B3AFEFD7"]
@@ -738,8 +748,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: -9.0d
+			x: -7.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2C5C6BA3B3AFEFD7"]
@@ -759,8 +769,8 @@
 				item: "tombstone:strange_tablet"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -10.5d
+			x: -7.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["2C5C6BA3B3AFEFD7"]
@@ -803,7 +813,7 @@
 				}
 			]
 			x: -8.0d
-			y: -10.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["35A027D4B827463C"]
@@ -811,9 +821,6 @@
 				"You will face a lot of new enemies and bosses. Can you defeat them all?"
 				""
 				"{ \"text\": \"- Click here for monster quests\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"273BBE58DA6C6B5E\" } }"
-				""
-				""
-				"{ \"text\": \"- Click here for bosses quests\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3476C260BC2E3BBA\" } }"
 			]
 			id: "366659E50333BC5A"
 			rewards: [{
@@ -831,8 +838,8 @@
 				type: "advancement"
 			}]
 			title: "&9Fighting"
-			x: -4.0d
-			y: -6.0d
+			x: -4.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["35A027D4B827463C"]
@@ -856,14 +863,14 @@
 				type: "item"
 			}]
 			shape: "gear_important"
-			size: 1.2d
+			size: 1.0d
 			subtitle: "Check 'Equipment' quest chapter to find more"
 			tasks: [{
 				id: "70D416AECE2E29F2"
 				type: "checkmark"
 			}]
 			title: "&9Equipment, affixes, tiers"
-			x: -6.6d
+			x: -7.0d
 			y: -3.0d
 		}
 		{
@@ -891,8 +898,8 @@
 				value: 10000
 			}]
 			title: "&9Adventuring"
-			x: -4.0d
-			y: 0.0d
+			x: -4.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["35A027D4B827463C"]
@@ -902,15 +909,15 @@
 			]
 			id: "52AB2CD360AC4DDE"
 			shape: "gear_important"
-			size: 1.2d
+			size: 1.0d
 			subtitle: "Visit 'Useful Gadgets' chapter to find more about different gadgets"
 			tasks: [{
 				id: "70FC8985C5CDA82E"
 				type: "checkmark"
 			}]
 			title: "&9Useful Gadgets"
-			x: -5.75d
-			y: -2.25d
+			x: -6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["35A027D4B827463C"]
@@ -929,7 +936,7 @@
 				}
 			]
 			shape: "gear_important"
-			size: 1.2d
+			size: 1.0d
 			subtitle: "Visit 'Fish n Farm' chapter to find more about farming possibilities"
 			tasks: [
 				{
@@ -949,8 +956,8 @@
 				}
 			]
 			title: "&9Farming"
-			x: -5.75d
-			y: -3.75d
+			x: -6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3A7C49FC5AA2927F"]
@@ -974,7 +981,7 @@
 				}
 			]
 			title: "Blast Furnace"
-			x: 6.5d
+			x: 7.0d
 			y: -4.5d
 		}
 		{
@@ -1153,7 +1160,7 @@
 				}
 			]
 			title: "Iron Armor"
-			x: 5.5d
+			x: 6.0d
 			y: -4.5d
 		}
 		{
@@ -1180,8 +1187,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: -1.0d
+			x: -5.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["0000000000000017"]
@@ -1360,8 +1367,8 @@
 				type: "item"
 			}]
 			title: "Small Ships"
-			x: -2.5d
-			y: -1.0d
+			x: -3.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["366659E50333BC5A"]
@@ -1378,8 +1385,8 @@
 				id: "747B9E78636AABC1"
 				type: "advancement"
 			}]
-			x: -4.0d
-			y: -4.5d
+			x: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["033105F673C5EF80"]
@@ -1429,7 +1436,7 @@
 				id: "0F095B7B41816327"
 				type: "advancement"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 2.5d
 		}
 		{
@@ -1564,7 +1571,7 @@
 				title: "Any Rough Gem Shards"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 2.0d
 		}
 		{
@@ -1625,8 +1632,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
-			y: -1.5d
+			x: -4.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6A01EC7A01F35671"]
@@ -1652,7 +1659,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 3.0d
 		}
 		{
@@ -1677,8 +1684,8 @@
 				item: "spelunkery:echo_fork"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -5.0d
+			x: -4.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["037911ABA28CDC08"]
@@ -2175,8 +2182,8 @@
 				id: "00897EB3BEEE3685"
 				type: "advancement"
 			}]
-			x: -2.5d
-			y: -6.0d
+			x: -3.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["733A59C038C65E4B"]
@@ -2259,7 +2266,7 @@
 				}
 			]
 			title: "Diamond Armor"
-			x: 7.5d
+			x: 8.0d
 			y: 1.0d
 		}
 		{
@@ -2712,8 +2719,8 @@
 				item: "paraglider:paraglider"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.0d
+			x: -3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1966320B37D990A0"]
@@ -2753,7 +2760,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 3.5d
 			y: -1.5d
 		}
 		{
@@ -2782,7 +2789,7 @@
 				item: "farmersdelight:rich_soil"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -0.5d
 		}
 		{
@@ -2811,7 +2818,7 @@
 				item: "farmersdelight:organic_compost"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: -0.5d
 		}
 		{
@@ -2841,7 +2848,7 @@
 				title: "Any #forge:rope"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: -1.5d
 		}
 		{
@@ -2865,7 +2872,7 @@
 				item: "farmersdelight:safety_net"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: -1.5d
 		}
 		{
@@ -2893,10 +2900,11 @@
 				type: "item"
 			}]
 			title: "Good doggy"
-			x: -5.5d
-			y: -6.0d
+			x: -3.0d
+			y: -7.5d
 		}
 		{
+			dependencies: ["733A59C038C65E4B"]
 			description: [
 				"Enchanting can be done at levels up to 100. Refer to the &oChronicle of Shadows&r for more details on higher level enchanting and visit corresponding quest chapter."
 				""
@@ -2927,14 +2935,15 @@
 					type: "item"
 				}
 			]
+			shape: "gear_important"
 			tasks: [{
 				id: "0000000000000048"
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
 			title: "Enchanting system"
-			x: 8.0d
-			y: 2.5d
+			x: 6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["031D29EEE7B5A5A7"]
@@ -2988,8 +2997,8 @@
 				}
 			]
 			title: "Even more villagers"
-			x: -7.5d
-			y: -1.5d
+			x: -8.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3A7C49FC5AA2927F"]
@@ -3004,7 +3013,7 @@
 				item: "minecraft:bucket"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.0d
 			y: -1.5d
 		}
 		{
@@ -3028,7 +3037,7 @@
 				type: "item"
 			}]
 			title: "Spring Water"
-			x: 7.0d
+			x: 7.5d
 			y: -0.5d
 		}
 		{
@@ -3825,8 +3834,8 @@
 				to_observe: "goblintraders:goblin_trader"
 				type: "observation"
 			}]
-			x: -4.0d
-			y: 1.5d
+			x: -4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3C58EBDE41F0F9F2"]
@@ -3866,7 +3875,7 @@
 			]
 			title: "Store experience and disenchant"
 			x: -9.0d
-			y: -11.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1966320B37D990A0"]
@@ -3947,7 +3956,7 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: 4.0d
 			y: -4.5d
 		}
 		{
@@ -3981,8 +3990,8 @@
 				item: "minecraft:spyglass"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.0d
+			x: -3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["366659E50333BC5A"]
@@ -4004,8 +4013,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: -7.0d
+			x: -6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["7B7944F875F4F424"]
@@ -4043,8 +4052,8 @@
 				}
 			]
 			title: "Healing flask"
-			x: -6.0d
-			y: 2.0d
+			x: -6.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["033105F673C5EF80"]
@@ -4123,6 +4132,46 @@
 			]
 			x: -1.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["366659E50333BC5A"]
+			description: [
+				"Pack contains popular mods that adds new bosses with unique mechanics like &4Cataclysm&r, &3Bosses of Mass Destruction&r, &2Mowzie's mobs&r and &0Graveyard&r."
+				""
+				"For additional rewards you can find &6Bounty board&r in the villages with Boss Contracts"
+				""
+				"{ \"text\": \"- Click here for bosses quests\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3476C260BC2E3BBA\" } }"
+			]
+			icon: {
+				Count: 1
+				id: "hmag:nemesis_blade"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+					hmag.level: 6b
+					reinforce_level: 0
+					reinforce_max: 10
+				}
+			}
+			id: "24616EE283F64498"
+			rewards: [{
+				id: "35C6F8F6F53F3B01"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "gear_important"
+			size: 1.5d
+			subtitle: "All about bosses"
+			tasks: [{
+				id: "1EF154911CF9999D"
+				title: "Bosses"
+				type: "checkmark"
+			}]
+			title: "&cSeek and Destroy&r"
+			x: -5.5d
+			y: -8.75d
 		}
 	]
 	title: "&2World Exploration&r"
