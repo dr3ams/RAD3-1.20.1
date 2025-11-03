@@ -6,7 +6,7 @@
         "minions": [
           {
             "type": "ars_nouveau:wilden_hunter",
-            "cooldown": 200,
+            "cooldown": 500,
             "copyLevel": true,
             "copyTrait": false,
             "discardOnUnlink": true,
@@ -19,7 +19,7 @@
           },
           {
             "type": "ars_nouveau:wilden_guardian",
-            "cooldown": 200,
+            "cooldown": 500,
             "copyLevel": true,
             "copyTrait": false,
             "discardOnUnlink": true,
@@ -32,7 +32,7 @@
           },
           {
             "type": "ars_nouveau:wilden_stalker",
-            "cooldown": 200,
+            "cooldown": 500,
             "copyLevel": true,
             "copyTrait": false,
             "discardOnUnlink": true,
@@ -44,7 +44,7 @@
             "spawnRange": 16
           }
         ],
-        "spawnInterval": 80
+        "spawnInterval": 200
       },
       "attackScale": 0.8,
       "blacklist": [],
@@ -92,4 +92,5 @@
 
     }
   ]
+
 }
