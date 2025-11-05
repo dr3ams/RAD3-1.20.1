@@ -2,7 +2,7 @@
 {
   "id": "guarding",
   "key": "refinement.armor.guarding",
-  "incompat": [],
+  "incompat": ["guarding"],
   "type": ["chest"],
   "proficiency_cost": 10,
   "material": "kubejs:upgrade_guarding",
@@ -17,13 +17,13 @@
     },
 	{
       "property": "minecraft:generic.armor",
-      "amount": 1.0,
+      "amount": 0.5,
       "operation": "multiply_total",
       "slots": ["minecraft:chest"]
     },
 	{
       "property": "minecraft:generic.armor_toughness",
-      "amount": 1.0,
+      "amount": 0.5,
       "operation": "multiply_total",
       "slots": ["minecraft:chest"]
     }

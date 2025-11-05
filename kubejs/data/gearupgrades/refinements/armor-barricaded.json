@@ -2,12 +2,12 @@
 {
   "id": "barricaded",
   "key": "refinement.armor.barricaded",
-  "incompat": [],
-  "type": ["armor"],
+  "incompat": ["barricaded"],
+  "type": ["chest"],
   "proficiency_cost": 30,
   "material": "embers:iron_plate",
   "material_count": 8,
-  "anvil_levels": 5,
+  "anvil_levels": 25,
   "bonuses": [
 	{
       "property": "minecraft:generic.movement_speed",
@@ -16,12 +16,12 @@
     },
 	{
       "property": "minecraft:generic.armor",
-      "amount": 0.5,
+      "amount": 0.2,
       "operation": "multiply_total"
     },
 	{
       "property": "minecraft:generic.armor_toughness",
-      "amount": 0.5,
+      "amount": 0.2,
       "operation": "multiply_total"
     }
   ],
