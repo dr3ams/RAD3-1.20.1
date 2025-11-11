@@ -5,7 +5,18 @@ LootJS.modifiers((event) => {
     //    .replaceLoot('occultism:raw_silver', 'embers:raw_silver', true)
     //    .replaceLoot('occultism:silver_ore', 'embers:silver_ore', true)
     //    .replaceLoot('occultism:silver_ore_deepslate', 'embers:deepslate_silver_ore', true);
-	
+
+	// quark limestone drops cobbled limestone
+    const silkTouch = LootEntry.of("quark:limestone").when((c) =>
+        c.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
+	);
+
+	const cobbledDrop = "dawnoftimebuilder:cobbled_limestone";
+
+    event
+        .addBlockLootModifier("quark:limestone")
+        .removeLoot(Ingredient.all)
+        .addAlternativesLoot(silkTouch, cobbledDrop)
 
 	const lootsize = 9; // amount of unique item stacks that will be allowed to generate from a loot table (item stacks can an item with a count so a stack of 6 bones for instance)
 				
@@ -86,12 +97,14 @@ LootJS.modifiers((event) => {
 		.replaceLoot("simplyswords:diamond_chakram", "spelunkery:rough_diamond") 
 		.replaceLoot("simplyswords:diamond_scythe", "spelunkery:rough_diamond")
 		.replaceLoot("simplyswords:diamond_halberd", "spelunkery:rough_diamond")
-		.replaceLoot("simplyswords:diamond_longsword", "spelunkery:rough_diamond");
+		.replaceLoot("simplyswords:diamond_longsword", "spelunkery:rough_diamond")
+		.replaceLoot("supplementaries:rope", "farmersdelight:rope")
+		.replaceLoot("darkerdepths:rope", "farmersdelight:rope");
 		
 	
 	// Blanket banning specific loot from mobs
 	event.addLootTypeModifier(LootType.ENTITY)
-		.removeLoot("bonfires:ash_pile");
+		.removeLoot("bonfires:ash_pile"); //this doesn't actually do anything, it's just an example
 
 	// Adding monster essence drops to entities killed by players
 	event.addLootTypeModifier(LootType.ENTITY)
@@ -123,6 +136,12 @@ LootJS.modifiers((event) => {
 	event.addEntityLootModifier("bosses_of_mass_destruction:void_blossom").killedByPlayer().addLoot("kubejs:great_soul");
 	event.addEntityLootModifier("graveyard:lich").killedByPlayer().addLoot("kubejs:great_soul");
 	event.addEntityLootModifier("ars_nouveau:wilden_boss").killedByPlayer().addLoot("kubejs:great_soul");
+	
+	// Adding other drops to bosses
+	event.addEntityLootModifier("minecraft:ender_dragon").killedByPlayer().addLoot("quark:dragon_scale", [1, 3]); //this is in addition to the scale it drops after the first kill
+	event.addEntityLootModifier("cataclysm:ancient_remnant").killedByPlayer().addLoot("graveyard:lower_bone_staff");
+	event.addEntityLootModifier("cataclysm:maledictus").killedByPlayer().addLoot("graveyard:middle_bone_staff");
+	event.addEntityLootModifier("bosses_of_mass_destruction:lich").killedByPlayer().addLoot("graveyard:upper_bone_staff");
 	
 	// Requiring silk touch to pick up brewing stand
 	event.addBlockLootModifier("minecraft:brewing_stand")

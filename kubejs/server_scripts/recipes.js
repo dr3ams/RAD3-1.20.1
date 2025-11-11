@@ -116,7 +116,6 @@ const removals = [
   "ars_trinkets:white_essence",
   "ars_trinkets:yellow_essence",
   "ars_trinkets:purple_essence",
-  "celestial_artifacts:flight_ring",
   "nameless_trinkets:ethereal_wings",
   "nameless_trinkets:fragile_cloud",
   "nameless_trinkets:missing_page",
@@ -178,6 +177,7 @@ const removals = [
   "skilltree:copper_ring",
   "skilltree:iron_ring",
   "skilltree:golden_ring",
+  "celestial_artifacts:flight_ring",
   "celestial_artifacts:gold_ring", 
   "celestial_artifacts:amethyst_ring", 
   "celestial_artifacts:diamond_ring", 
@@ -197,6 +197,7 @@ const removals = [
   "apotheotic_additions:void_shelf",
   "apotheotic_additions:terra_shelf",
   "regions_unexplored:raw_redstone_block",
+  "regions_unexplored:ash",
   "levelhearts:heart_piece",
   "levelhearts:heart_container",
   "dimdungeons:item_portal_key",
@@ -207,7 +208,9 @@ const removals = [
   "naturesaura:rf_converter",
   "aether_redux:veridium_lantern",
   "supplementaries:altimeter",
-  "regions_unexplored:ash"
+  "trials:crafter",
+  "dawnoftimebuilder:cobbled_limestone",
+  "betterarcheology:bomb"
 ];
 
 
@@ -679,12 +682,6 @@ ServerEvents.recipes((event) => {
     "kubejs:great_soul"
   );
   event.replaceInput(
-    { output: "ars_nouveau:archmage_spell_book" },
-    "minecraft:nether_star",
-    "kubejs:great_soul"
-  );
-//this one doesn't work for some reason ^^^
-  event.replaceInput(
     { output: "hmag:greedy_crystal_plus" },
     "minecraft:nether_star",
     "kubejs:great_soul"
@@ -862,6 +859,16 @@ ServerEvents.recipes((event) => {
 	], {
 	B: 'cataclysm:obsidian_bricks'
   });
+  event.shaped(
+  Item.of('betterarcheology:bomb', 4), [
+    ' CS',
+	'CTC',
+    ' C '
+	], {
+	S: 'minecraft:string',
+	C: 'dungeonsdelight:stained_scrap',
+	T: 'minecraft:tnt'
+  });
 
   event.stonecutting('cataclysm:black_steel_wall', 'cataclysm:black_steel_block')
   event.stonecutting('cataclysm:polished_obsidian', 'cataclysm:obsidian_bricks')
@@ -928,9 +935,14 @@ ServerEvents.recipes((event) => {
     ],{
 	A: 'kubejs:essence_monster'
 	});
-  
-  event.blasting('cataclysm:black_steel_ingot', 'graveyard:dark_iron_ingot');
-  event.blasting('aquaculture:neptunium_ingot', 'aquaculture:neptunes_bounty');
+
+  event.smelting('3x minecraft:iron_nugget', 'dungeonsdelight:stained_scrap', 0.1, 100);
+  event.smelting('minecraft:iron_ingot', 'dungeonsdelight:stained_scrap_block', 0.5, 400);
+  event.smelting('quark:limestone', 'dawnoftimebuilder:cobbled_limestone', 0.1);
+  event.blasting('cataclysm:black_steel_ingot', 'graveyard:dark_iron_ingot', 0.5);
+  event.blasting('aquaculture:neptunium_ingot', 'aquaculture:neptunes_bounty', 1.0);
+  event.blasting('3x minecraft:iron_nugget', 'dungeonsdelight:stained_scrap', 0.1, 50);
+  event.blasting('minecraft:iron_ingot', 'dungeonsdelight:stained_scrap_block', 0.5, 200);
   
   event.shapeless(
   Item.of('tombstone:essence_of_undeath', 1),
