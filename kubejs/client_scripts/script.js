@@ -151,6 +151,7 @@ JEIEvents.hideItems(event => {
 	event.hide('aether_redux:veridium_lantern')
 	event.hide('aether_redux:gilded_vines')
 	event.hide('naturesaura:rf_converter')
+	event.hide('trials:crafter')
 	
 	event.hide('toms_storage:ts.trim')
 	event.hide('toms_storage:ts.open_crate')
