@@ -613,7 +613,7 @@
 			description: [
 				"Monster spawners are much harder to break. It takes 20 seconds with an iron pick to break one. Use torches to light up the area before you try to break spawners."
 				""
-				"Monster spawners also burn out after spawning 50 mobs. This can be used to your advantage in a dungeon, but it also means that spawner farms won't last long."
+				"Monster spawners also burn out after spawning 20 mobs. This can be used to your advantage in a dungeon, but it also means that spawner farms won't last long."
 			]
 			icon: "minecraft:spawner"
 			id: "69BBE7810BD594BA"
@@ -1481,16 +1481,33 @@
 		}
 		{
 			dependencies: ["219C6641A038984F"]
-			description: ["While exploring the world, you may come across large, passive creatures. These include moths, ladybugs, turtles, birds, cats, wolves, bats, dragons, and more. These creatures can be tamed and ridden, and some can even fly! Craft a &9Summoning Staff&r and use it to summon your mounts whenever you need!"]
+			description: [
+				"There are many improvements to horse behavior and mechanics thanks to Horseman mod."
+				"- Inventory slot for a lead"
+				"- Horses only wander 16 blocks from where you dismounted"
+				"- Horses can swim"
+				"- Horses fit in boats"
+				"- and many more!"
+				"A horse is a great traveling companion in the early game. They're perfect for climbing all these hills and mountains."
+				""
+				"...and later, you can ride a DRAGON!"
+			]
 			icon: "minecraft:saddle"
 			id: "20B31C51C3CEFBF8"
-			rewards: [{
-				count: 2
-				id: "6C500101691B9AD5"
-				item: "farmersdelight:melon_juice"
-				type: "item"
-			}]
-			subtitle: "Why is this dragon just chilling in a cave?"
+			rewards: [
+				{
+					count: 2
+					id: "6C500101691B9AD5"
+					item: "farmersdelight:melon_juice"
+					type: "item"
+				}
+				{
+					id: "477A39251FA8108D"
+					item: "farmersdelight:horse_feed"
+					type: "item"
+				}
+			]
+			subtitle: "Horsin'"
 			tasks: [{
 				id: "2DF9BC37C97DF64E"
 				item: "minecraft:saddle"
