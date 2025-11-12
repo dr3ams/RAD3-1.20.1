@@ -2,24 +2,43 @@
   "id": "skilltree:enchanter_defensive_crafting_keystone_1",
   "bonuses": [
     {
-      "type": "skilltree:enchantment_amplification",
-      "enchantment_condition": {
-        "type": "skilltree:armor"
-      },
-      "chance": 0.4
-    },
-    {
       "type": "skilltree:attribute",
-      "attribute": "ars_nouveau:ars_nouveau.perk.warding",
-      "id": "b0848200-0d4e-4c3d-8b47-f63ab1907001",
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "id": "be3362d7-a457-4ce0-b1b9-e2595079d385",
       "name": "Skill",
-      "amount": 0.1,
-      "operation": 0,
+      "amount": 0.3,
+      "operation": 2,
       "player_multiplier": {
         "type": "skilltree:none"
       },
       "player_condition": {
         "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.1,
+      "effect": "tombstone:frostbite",
+      "duration": 60,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:damage_taken"
       }
     }
   ],
@@ -28,7 +47,7 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
-  "iconTexture": "skilltree:textures/icons/enchanter_defensive_crafting_keystone_1.png",
+  "iconTexture": "ftblibrary:textures/icons/blank_blue.png",
   "borderTexture": "skilltree:textures/tooltip/keystone.png",
   "titleColor": "",
   "positionX": 247.14545,

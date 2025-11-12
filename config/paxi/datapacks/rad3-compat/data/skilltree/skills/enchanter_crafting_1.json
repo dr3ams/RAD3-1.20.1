@@ -2,8 +2,9 @@
   "id": "skilltree:enchanter_crafting_1",
   "bonuses": [
     {
-      "type": "skilltree:free_enchantment",
-      "chance": 0.05
+      "type": "skilltree:gained_experience",
+      "multiplier": 0.05,
+      "experience_source": "mobs"
     }
   ],
   "directConnections": [

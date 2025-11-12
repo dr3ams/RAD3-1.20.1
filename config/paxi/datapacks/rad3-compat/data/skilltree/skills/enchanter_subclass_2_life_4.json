@@ -3,8 +3,8 @@
   "bonuses": [
     {
       "type": "skilltree:attribute",
-      "attribute": "minecraft:generic.max_health",
-      "id": "4e84d836-263d-4758-b077-b2c8728f4012",
+      "attribute": "shieldinghealth:attribute.shieldinghealth.shield_value",
+      "id": "b00592c7-a78a-447d-a80b-b4a990c45612",
       "name": "SkillBonus",
       "amount": 1.0,
       "operation": 0,
@@ -17,11 +17,11 @@
     },
     {
       "type": "skilltree:attribute",
-      "attribute": "skilltree:exp_per_minute",
-      "id": "77dbd450-f41f-4bc7-a995-e6e84bde90db",
+      "attribute": "attributeslib:cold_damage",
+      "id": "29c00faa-3de4-402b-83fb-7f74fa8d385b",
       "name": "SkillBonus",
       "amount": 0.1,
-      "operation": 0,
+      "operation": 2,
       "player_multiplier": {
         "type": "skilltree:none"
       },
@@ -37,7 +37,7 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "skilltree:textures/icons/enchanter_subclass_2_life_1.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_subclass_2_mastery.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "titleColor": "",
   "positionX": 299.9535,

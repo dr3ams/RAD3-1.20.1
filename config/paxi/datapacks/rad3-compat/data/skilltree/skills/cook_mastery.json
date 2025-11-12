@@ -10,6 +10,21 @@
         "multiplier": 0.5,
         "type": "skilltree:food_saturation"
       }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "11177f0b-d4b7-426c-9b11-9728c7f4a27e",
+      "name": "Skill",
+      "amount": 4.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "min": 15,
+        "type": "skilltree:food_level"
+      }
     }
   ],
   "directConnections": [],

@@ -3,32 +3,11 @@
   "bonuses": [
     {
       "type": "skilltree:attribute",
-      "attribute": "skilltree:exp_per_minute",
-      "id": "e819b432-5961-4845-aef3-0cb901e6a013",
-      "name": "SkillBonus",
-      "amount": 0.5,
-      "operation": 0,
-      "player_multiplier": {
-        "type": "skilltree:none"
-      },
-      "player_condition": {
-        "item_condition": {
-          "item_condition": {
-            "equipment_type": "armor",
-            "type": "skilltree:equipment_type"
-          },
-          "type": "skilltree:enchanted"
-        },
-        "type": "skilltree:has_item_equipped"
-      }
-    },
-    {
-      "type": "skilltree:attribute",
       "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
-      "id": "c5d9cfeb-9b24-4ed2-9464-13692c32c82a",
+      "id": "ccd89fe0-9ac6-48fd-9406-4ce50457b507",
       "name": "Skill",
-      "amount": 10.0,
-      "operation": 0,
+      "amount": 0.2,
+      "operation": 2,
       "player_multiplier": {
         "type": "skilltree:none"
       },
@@ -48,6 +27,18 @@
       },
       "player_condition": {
         "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "shield",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "amount": 300.0,
+        "operation": 0,
+        "type": "skilltree:durability"
       }
     }
   ],

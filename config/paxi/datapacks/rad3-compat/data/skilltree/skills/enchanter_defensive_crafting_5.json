@@ -2,24 +2,29 @@
   "id": "skilltree:enchanter_defensive_crafting_5",
   "bonuses": [
     {
-      "type": "skilltree:enchantment_amplification",
-      "enchantment_condition": {
-        "type": "skilltree:armor"
-      },
-      "chance": 0.1
-    },
-    {
-      "type": "skilltree:attribute",
-      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
-      "id": "ed91088e-ee01-4d20-b238-57363e7c769c",
-      "name": "Skill",
-      "amount": 5.0,
-      "operation": 0,
-      "player_multiplier": {
-        "type": "skilltree:none"
-      },
-      "player_condition": {
-        "type": "skilltree:none"
+      "type": "skilltree:mob_effect",
+      "chance": 0.05,
+      "effect": "l2complements:frozen",
+      "duration": 60,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
       }
     }
   ],
@@ -30,7 +35,7 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "skilltree:textures/icons/enchanter_defensive_crafting_1.png",
+  "iconTexture": "ftblibrary:textures/icons/blue_grid.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "titleColor": "",
   "positionX": 172.6659,

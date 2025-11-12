@@ -3,30 +3,17 @@
   "bonuses": [
     {
       "type": "skilltree:attribute",
-      "attribute": "skilltree:exp_per_minute",
-      "id": "4f4d14b1-3b89-4a7c-b56f-bd00dd413f24",
-      "name": "SkillBonus",
-      "amount": 0.1,
-      "operation": 0,
-      "player_multiplier": {
-        "type": "skilltree:none"
-      },
-      "player_condition": {
-        "type": "skilltree:none"
-      }
-    },
-    {
-      "type": "skilltree:attribute",
-      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
-      "id": "349ba9d6-499f-427a-979d-43267f996d43",
+      "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+      "id": "afbe67b7-e340-42a4-bf11-caf8d31fc043",
       "name": "Skill",
-      "amount": 10.0,
-      "operation": 0,
+      "amount": 0.2,
+      "operation": 1,
       "player_multiplier": {
         "type": "skilltree:none"
       },
       "player_condition": {
-        "type": "skilltree:none"
+        "max": 0.5,
+        "type": "skilltree:health_percentage"
       }
     }
   ],

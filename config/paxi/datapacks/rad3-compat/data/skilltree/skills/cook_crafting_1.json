@@ -2,15 +2,30 @@
   "id": "skilltree:cook_crafting_1",
   "bonuses": [
     {
-      "type": "skilltree:crafted_item_bonus",
-      "item_condition": {
-        "type": "skilltree:food"
-      },
-      "item_bonus": {
-        "effect": "skilltree:life_regeneration_bonus",
-        "duration": 1200,
-        "amplifier": 9,
-        "type": "skilltree:food_effect"
+      "type": "skilltree:mob_effect",
+      "chance": 0.05,
+      "effect": "minecraft:poison",
+      "duration": 100,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "min": 15,
+          "type": "skilltree:food_level"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
       }
     }
   ],

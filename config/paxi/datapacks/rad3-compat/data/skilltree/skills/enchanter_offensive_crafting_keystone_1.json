@@ -2,18 +2,63 @@
   "id": "skilltree:enchanter_offensive_crafting_keystone_1",
   "bonuses": [
     {
-      "type": "skilltree:enchantment_amplification",
-      "enchantment_condition": {
-        "type": "skilltree:weapon"
-      },
-      "chance": 0.4
+      "type": "skilltree:mob_effect",
+      "chance": 0.05,
+      "effect": "ars_elemental:mana_shield",
+      "duration": 100,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:damage_taken"
+      }
+    },
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.1,
+      "effect": "ars_nouveau:mana_regen",
+      "duration": 100,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:damage_taken"
+      }
     },
     {
       "type": "skilltree:attribute",
-      "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
-      "id": "a9ca568b-9eac-4ad0-9b0a-d453f1f24bfb",
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "id": "1c93bfe0-84c2-4bc3-8e97-004a499d76e6",
       "name": "Skill",
-      "amount": 0.1,
+      "amount": 10.0,
       "operation": 0,
       "player_multiplier": {
         "type": "skilltree:none"
@@ -28,7 +73,7 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
-  "iconTexture": "skilltree:textures/icons/enchanter_offensive_crafting_keystone_1.png",
+  "iconTexture": "skilltree:textures/icons/miner_speed_1.png",
   "borderTexture": "skilltree:textures/tooltip/keystone.png",
   "titleColor": "",
   "positionX": 340.1179,

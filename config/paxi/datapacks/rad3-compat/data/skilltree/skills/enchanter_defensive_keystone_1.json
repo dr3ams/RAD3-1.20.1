@@ -22,15 +22,19 @@
     {
       "type": "skilltree:attribute",
       "attribute": "ars_nouveau:ars_nouveau.perk.warding",
-      "id": "eeb06989-7e6a-455c-be0f-fa3f78a96226",
+      "id": "461d0b72-68dd-4931-8ffd-d33dd7a7d2dd",
       "name": "Skill",
-      "amount": 0.5,
+      "amount": 0.3,
       "operation": 0,
       "player_multiplier": {
         "type": "skilltree:none"
       },
       "player_condition": {
-        "type": "skilltree:none"
+        "item_condition": {
+          "equipment_type": "shield",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_equipped"
       }
     }
   ],

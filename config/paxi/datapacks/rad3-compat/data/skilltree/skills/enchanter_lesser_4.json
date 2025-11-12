@@ -2,8 +2,18 @@
   "id": "skilltree:enchanter_lesser_4",
   "bonuses": [
     {
-      "type": "skilltree:enchantment_requirement",
-      "multiplier": -0.05
+      "type": "skilltree:attribute",
+      "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+      "id": "99c7260f-87b6-48b1-b13f-be4ac10e1d25",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
     }
   ],
   "directConnections": [

@@ -2,21 +2,60 @@
   "id": "skilltree:enchanter_mastery",
   "bonuses": [
     {
-      "type": "skilltree:enchantment_amplification",
-      "enchantment_condition": {
-        "type": "skilltree:none"
-      },
-      "chance": 1.0
-    },
-    {
       "type": "skilltree:attribute",
       "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
-      "id": "f7f4e2da-8470-4541-b197-acdba0f8c862",
+      "id": "0db146c9-a1e2-4609-a204-f70560775946",
       "name": "Skill",
-      "amount": 10.0,
+      "amount": 50.0,
       "operation": 0,
       "player_multiplier": {
         "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "ars_nouveau:ars_nouveau.perk.warding",
+      "id": "5049b8fc-4e1c-4e87-afdb-2bc3c8687da9",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+        "divisor": 50.0,
+        "type": "skilltree:attribute_value"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+      "id": "65d3704d-82f2-40f8-9b77-b323ecbde41d",
+      "name": "Skill",
+      "amount": 0.3,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "ars_nouveau:ars_elemental.perk.summon_power",
+      "id": "19971d3c-19f6-4dc1-8b0f-5c526523e01d",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+        "divisor": 1.0,
+        "type": "skilltree:attribute_value"
       },
       "player_condition": {
         "type": "skilltree:none"

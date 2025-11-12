@@ -3,10 +3,10 @@
   "bonuses": [
     {
       "type": "skilltree:attribute",
-      "attribute": "minecraft:generic.max_health",
-      "id": "a8445f68-84ef-4cdb-9c6e-21b803c8bbc8",
+      "attribute": "shieldinghealth:attribute.shieldinghealth.shield_value",
+      "id": "ab68bf92-9dab-4378-a545-bf7f949ccbd7",
       "name": "SkillBonus",
-      "amount": 3.0,
+      "amount": 4.0,
       "operation": 0,
       "player_multiplier": {
         "type": "skilltree:none"
@@ -16,17 +16,14 @@
       }
     },
     {
-      "type": "skilltree:attribute",
-      "attribute": "skilltree:exp_per_minute",
-      "id": "a7d3b134-f249-4a91-839a-312d492620e7",
-      "name": "SkillBonus",
-      "amount": 0.1,
-      "operation": 0,
-      "player_multiplier": {
-        "type": "skilltree:none"
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "potion_type": "any",
+        "type": "skilltree:potion"
       },
-      "player_condition": {
-        "type": "skilltree:none"
+      "item_bonus": {
+        "multiplier": 0.2,
+        "type": "skilltree:potion_duration"
       }
     }
   ],
@@ -35,7 +32,7 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/notable.png",
-  "iconTexture": "skilltree:textures/icons/enchanter_subclass_2_life_notable_1.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_subclass_2_mastery.png",
   "borderTexture": "skilltree:textures/tooltip/notable.png",
   "titleColor": "",
   "positionX": 325.9333,
