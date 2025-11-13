@@ -16,6 +16,32 @@
       "player_condition": {
         "type": "skilltree:none"
       }
+    },
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.2,
+      "effect": "cataclysm:bone_fracture",
+      "duration": 100,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
     }
   ],
   "directConnections": [],

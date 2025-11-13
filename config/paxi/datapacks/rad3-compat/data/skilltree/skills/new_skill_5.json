@@ -1,10 +1,12 @@
 {
-  "id": "skilltree:blacksmith_healing_4",
+  "id": "skilltree:new_skill_5",
   "bonuses": [
     {
-      "type": "skilltree:healing",
-      "chance": 1.0,
-      "amount": 0.1,
+      "type": "skilltree:mob_effect",
+      "chance": 0.2,
+      "effect": "relics:paralysis",
+      "duration": 200,
+      "amplifier": 0,
       "event_listener": {
         "damage_condition": {
           "type": "skilltree:none"
@@ -21,14 +23,14 @@
         "player_multiplier": {
           "type": "skilltree:none"
         },
-        "target": "player",
-        "type": "skilltree:attack"
+        "target": "enemy",
+        "type": "skilltree:damage_taken"
       }
     },
     {
       "type": "skilltree:attribute",
       "attribute": "shieldinghealth:attribute.shieldinghealth.shield_value",
-      "id": "df270d3f-4a75-4b98-8423-7eaf666c04d0",
+      "id": "fe5c77f5-3a5d-48ae-a280-384733de1edd",
       "name": "Skill",
       "amount": 2.0,
       "operation": 0,
@@ -41,17 +43,16 @@
     }
   ],
   "directConnections": [
-    "skilltree:blacksmith_healing_notable_1"
+    "skilltree:enchanter_mastery"
   ],
   "longConnections": [],
   "oneWayConnections": [],
   "tags": [],
-  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "skilltree:textures/icons/cook_subclass_2_life_1.png",
-  "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "titleColor": "",
-  "positionX": -139.24622,
-  "positionY": 0.37635994,
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/miner_subclass_1_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "positionX": 384.0,
+  "positionY": -222.0,
   "buttonSize": 16,
   "isStartingPoint": false
 }

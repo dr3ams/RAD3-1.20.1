@@ -2,27 +2,17 @@
   "id": "skilltree:blacksmith_healing_3",
   "bonuses": [
     {
-      "type": "skilltree:healing",
-      "chance": 1.0,
-      "amount": 0.1,
-      "event_listener": {
-        "damage_condition": {
-          "type": "skilltree:none"
-        },
-        "enemy_condition": {
-          "type": "skilltree:none"
-        },
-        "player_condition": {
-          "type": "skilltree:none"
-        },
-        "enemy_multiplier": {
-          "type": "skilltree:none"
-        },
-        "player_multiplier": {
-          "type": "skilltree:none"
-        },
-        "target": "player",
-        "type": "skilltree:attack"
+      "type": "skilltree:attribute",
+      "attribute": "shieldinghealth:attribute.shieldinghealth.shield_regen",
+      "id": "9974c9a8-9998-4455-bdf8-b42ed29594da",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
       }
     }
   ],
@@ -40,18 +30,5 @@
   "positionX": -165.24622,
   "positionY": 0.37635994,
   "buttonSize": 16,
-  "isStartingPoint": false,
-  "description": [
-    {
-      "f_131101_": {
-        "f_131257_": 8092645
-      },
-      "f_131102_": false,
-      "f_131103_": false,
-      "f_131104_": false,
-      "f_131105_": false,
-      "f_131106_": false,
-      "text": "+0.1 Absorbtion Heart Regen"
-    }
-  ]
+  "isStartingPoint": false
 }

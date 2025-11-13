@@ -2,30 +2,6 @@
   "id": "skilltree:enchanter_offensive_keystone_1",
   "bonuses": [
     {
-      "type": "skilltree:damage",
-      "amount": 0.05,
-      "operation": 1,
-      "player_multiplier": {
-        "item_condition": {
-          "equipment_type": "weapon",
-          "type": "skilltree:equipment_type"
-        },
-        "type": "skilltree:enchants_levels"
-      },
-      "enemy_multiplier": {
-        "type": "skilltree:none"
-      },
-      "player_condition": {
-        "type": "skilltree:none"
-      },
-      "damage_condition": {
-        "type": "skilltree:none"
-      },
-      "target_condition": {
-        "type": "skilltree:none"
-      }
-    },
-    {
       "type": "skilltree:attribute",
       "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
       "id": "dfb21bce-a37c-48a0-8a30-ac48bf5378c1",
@@ -37,6 +13,32 @@
       },
       "player_condition": {
         "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.5,
+      "effect": "ars_elemental:enderference",
+      "duration": 400,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
       }
     }
   ],

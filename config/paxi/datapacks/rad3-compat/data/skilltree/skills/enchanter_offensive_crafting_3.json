@@ -2,11 +2,18 @@
   "id": "skilltree:enchanter_offensive_crafting_3",
   "bonuses": [
     {
-      "type": "skilltree:enchantment_amplification",
-      "enchantment_condition": {
-        "type": "skilltree:weapon"
+      "type": "skilltree:attribute",
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "id": "0062b973-534d-496f-b797-b5711432ce18",
+      "name": "Skill",
+      "amount": 10.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
       },
-      "chance": 0.1
+      "player_condition": {
+        "type": "skilltree:none"
+      }
     }
   ],
   "directConnections": [
@@ -18,9 +25,10 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/enchanter_offensive_crafting_1.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Max Mana",
   "titleColor": "",
-  "positionX": 183.63829,
-  "positionY": -45.99579,
+  "positionX": 183.638,
+  "positionY": -45.996,
   "buttonSize": 16,
   "isStartingPoint": false
 }

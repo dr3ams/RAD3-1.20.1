@@ -4,9 +4,9 @@
     {
       "type": "skilltree:attribute",
       "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
-      "id": "afbe67b7-e340-42a4-bf11-caf8d31fc043",
+      "id": "e0db5583-7b24-4b98-ad3a-bf5958e1181a",
       "name": "Skill",
-      "amount": 0.2,
+      "amount": 0.3,
       "operation": 1,
       "player_multiplier": {
         "type": "skilltree:none"
@@ -14,6 +14,34 @@
       "player_condition": {
         "max": 0.5,
         "type": "skilltree:health_percentage"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "id": "b4da0143-5d7f-40b2-8911-150444494bcf",
+      "name": "Skill",
+      "amount": 20.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "ars_nouveau:ars_elemental.perk.summon_power",
+      "id": "90b1cda0-ccee-42f1-a8ea-b25cb07b85a7",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
       }
     }
   ],
@@ -28,7 +56,7 @@
   "iconTexture": "skilltree:textures/icons/enchanter_subclass_2.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "titleColor": "",
-  "positionX": 200.40228,
+  "positionX": 200.402,
   "positionY": -283.073,
   "buttonSize": 24,
   "isStartingPoint": false

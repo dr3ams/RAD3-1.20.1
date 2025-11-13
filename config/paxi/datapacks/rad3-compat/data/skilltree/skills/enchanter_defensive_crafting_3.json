@@ -2,11 +2,18 @@
   "id": "skilltree:enchanter_defensive_crafting_3",
   "bonuses": [
     {
-      "type": "skilltree:enchantment_amplification",
-      "enchantment_condition": {
-        "type": "skilltree:armor"
+      "type": "skilltree:attribute",
+      "attribute": "ars_nouveau:ars_elemental.perk.summon_power",
+      "id": "f449426e-832e-42e2-8b1c-d919c85388c3",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
       },
-      "chance": 0.1
+      "player_condition": {
+        "type": "skilltree:none"
+      }
     }
   ],
   "directConnections": [
@@ -19,9 +26,10 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/enchanter_defensive_crafting_1.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Summon Power",
   "titleColor": "",
-  "positionX": 131.66136,
-  "positionY": -136.02911,
+  "positionX": 131.661,
+  "positionY": -136.029,
   "buttonSize": 16,
   "isStartingPoint": false
 }

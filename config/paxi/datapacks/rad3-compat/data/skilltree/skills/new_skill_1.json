@@ -1,0 +1,51 @@
+{
+  "id": "skilltree:new_skill_1",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "ars_nouveau:ars_elemental.perk.summon_power",
+      "id": "5ca93285-3102-4e7a-a14f-11176972abe3",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "ars_elemental:summon_bangle",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "id": "2b8219e4-b7fc-4f8f-b2ec-4afc1798c4f9",
+      "name": "Skill",
+      "amount": 50.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:enchanter_subclass_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/miner_defensive_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Summon Power",
+  "positionX": 201.0,
+  "positionY": -260.0,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

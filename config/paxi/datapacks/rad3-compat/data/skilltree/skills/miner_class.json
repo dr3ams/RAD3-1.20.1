@@ -54,34 +54,47 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "f_131102_": false,
-      "f_131103_": false,
-      "f_131104_": false,
-      "f_131105_": false,
-      "f_131106_": false,
-      "text": "+15% Block Break Speed if You have Pickaxe in hand"
+      "translate": "living_condition.skilltree.has_item_in_hand",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.1",
+          "with": [
+            "15",
+            {
+              "translate": "skill_bonus.skilltree.block_break_speed"
+            }
+          ]
+        },
+        {
+          "translate": "living_condition.skilltree.has_item_in_hand.target.you"
+        },
+        {
+          "translate": "item_condition.skilltree.equipment_type.pickaxe"
+        }
+      ]
     },
     {
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "f_131102_": false,
-      "f_131103_": false,
-      "f_131104_": false,
-      "f_131105_": false,
-      "f_131106_": false,
-      "text": "+1 Block Reach if You have Pickaxe in hand"
-    },
-    {
-      "f_131101_": {
-        "f_131257_": 8092645
-      },
-      "f_131102_": false,
-      "f_131103_": false,
-      "f_131104_": false,
-      "f_131105_": false,
-      "f_131106_": false,
-      "text": "+2 Shield Heart if You have Pickaxe in hand"
+      "translate": "living_condition.skilltree.has_item_in_hand",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.0",
+          "with": [
+            "1",
+            {
+              "translate": "forge.block_reach"
+            }
+          ]
+        },
+        {
+          "translate": "living_condition.skilltree.has_item_in_hand.target.you"
+        },
+        {
+          "translate": "item_condition.skilltree.equipment_type.pickaxe"
+        }
+      ]
     }
   ]
 }

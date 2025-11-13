@@ -1,9 +1,9 @@
 {
-  "id": "skilltree:enchanter_offensive_notable_1",
+  "id": "skilltree:new_skill_4",
   "bonuses": [
     {
       "type": "skilltree:damage",
-      "amount": 0.2,
+      "amount": -0.5,
       "operation": 1,
       "player_multiplier": {
         "type": "skilltree:none"
@@ -29,34 +29,42 @@
       }
     },
     {
-      "type": "skilltree:attribute",
-      "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
-      "id": "b1c7d3d7-c63e-4b54-9628-d229d73d4473",
-      "name": "Skill",
-      "amount": 0.2,
-      "operation": 0,
+      "type": "skilltree:damage",
+      "amount": 0.5,
+      "operation": 1,
       "player_multiplier": {
         "type": "skilltree:none"
       },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
       "player_condition": {
+        "item_condition": {
+          "equipment_type": "weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_equipped"
+      },
+      "damage_condition": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
         "type": "skilltree:none"
       }
     }
   ],
   "directConnections": [
-    "skilltree:enchanter_offensive_4",
-    "skilltree:enchanter_offensive_crafting_5",
-    "skilltree:enchanter_subclass_1_defensive_1"
+    "skilltree:cook_mastery"
   ],
   "longConnections": [],
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/notable.png",
-  "iconTexture": "skilltree:textures/icons/enchanter_offensive_notable_1.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_offensive_1.png",
   "borderTexture": "skilltree:textures/tooltip/notable.png",
-  "titleColor": "",
-  "positionX": 239.63829,
-  "positionY": -45.99579,
-  "buttonSize": 20,
+  "title": "Enchant me not",
+  "positionX": 0.0,
+  "positionY": -440.027,
+  "buttonSize": 16,
   "isStartingPoint": false
 }

@@ -11,6 +11,34 @@
         "max": 0.5,
         "type": "skilltree:health_percentage"
       }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "shieldinghealth:attribute.shieldinghealth.shield_value",
+      "id": "cfd6103f-7b16-419e-b7ba-9643611a49ef",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "shieldinghealth:attribute.shieldinghealth.shield_regen",
+      "id": "c4ecefc2-e291-44a5-8550-8960618e3e59",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
     }
   ],
   "directConnections": [

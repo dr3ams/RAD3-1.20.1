@@ -1,0 +1,47 @@
+{
+  "id": "skilltree:new_skill_2",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "combatroll:recharge",
+      "id": "b706ea6b-b6c2-4bf7-b54f-a5862be1de6d",
+      "name": "Skill",
+      "amount": 0.3,
+      "operation": 2,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "combatroll:distance",
+      "id": "1b06435d-4a67-4a55-a2c0-aaafe801a48e",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 2,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:blacksmith_subclass_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/miner_subclass_1_crafting_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Combat Roll",
+  "positionX": -201.0,
+  "positionY": -260.0,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}
