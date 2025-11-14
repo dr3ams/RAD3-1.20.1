@@ -1,0 +1,53 @@
+{
+	"type": "minecraft:empty",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"weight": 2,
+					"type": "minecraft:item",
+					"name": "quark:pickarang",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 30.0,
+								"max": 40.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"weight": 4,
+					"type": "minecraft:item",
+					"name": "kubejs:coin_dungeon",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 8.0
+							}
+						}
+					]
+				},
+				{
+					"weight": 2,
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"enchantments": [
+								"apotheosis:earths_boon"
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
