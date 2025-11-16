@@ -411,70 +411,6 @@
 			y: -9.5d
 		}
 		{
-			can_repeat: true
-			disable_toast: true
-			icon: "toomanyglyphs:glyph_filter_item"
-			id: "3E3C4329E3AB7948"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "044486237AAFB144"
-				table_id: 7285108820771666054L
-				type: "choice"
-			}]
-			shape: "circle"
-			tasks: [{
-				consume_items: true
-				id: "5B3FAF105567A368"
-				item: "kubejs:iron_coin"
-				type: "item"
-			}]
-			title: "Iron Coin -> Ars Nouveau Glyph Tier 1"
-			x: -7.0d
-			y: -7.0d
-		}
-		{
-			can_repeat: true
-			disable_toast: true
-			icon: "ars_nouveau:glyph_aoe"
-			id: "3DACA98861093BAD"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4A175A493C21B012"
-				table_id: 7991991896392932668L
-				type: "choice"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "11B5BB27F40255F2"
-				item: "kubejs:gold_coin"
-				type: "item"
-			}]
-			title: "Gold Coin -> Ars Nouveau Glyph Tier 2"
-			x: 5.0d
-			y: -7.0d
-		}
-		{
-			can_repeat: true
-			disable_toast: true
-			icon: "ars_nouveau:glyph_orbit"
-			id: "48E88DFE31D08CE6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "118A4BE73C5196B4"
-				table_id: 6403311704261230763L
-				type: "choice"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "11730AFDD242A3FD"
-				item: "kubejs:diamond_coin"
-				type: "item"
-			}]
-			title: "Diamond Coin -> Ars Nouveau Glyph Tier 3"
-			x: 8.0d
-			y: -7.0d
-		}
-		{
 			description: [
 				"&6Coins:&r"
 				"You can gain specific &bDimensional Coins&r by doing quests in associated dimension."
@@ -1216,6 +1152,44 @@
 			}]
 			x: -9.0d
 			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: "l2hostility:bottle_of_curse"
+			id: "6AB095682738D1F8"
+			rewards: [{
+				id: "1EA3E02314E13F84"
+				item: "l2hostility:bottle_of_curse"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0B216CEFE6B0C2C7"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			title: "Bottle of Curse"
+			x: -10.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			icon: "l2hostility:bottle_of_sanity"
+			id: "63944A9A0199E5E9"
+			rewards: [{
+				id: "7F73482CCFF2A85E"
+				item: "l2hostility:bottle_of_sanity"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7C5A2E3D43314197"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			title: "Bottle of Sanity"
+			x: -10.0d
+			y: -6.0d
 		}
 	]
 	title: "&e⭐ The Market&r"

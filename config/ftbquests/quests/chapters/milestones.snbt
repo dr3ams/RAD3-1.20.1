@@ -1,0 +1,554 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "milestones"
+	group: ""
+	icon: "kubejs:mark"
+	id: "00AFDC0A12039D58"
+	images: [
+		{
+			height: 1.8362068965517242d
+			image: "rad3:textures/misc/quest-info.png"
+			rotation: 0.0d
+			width: 18.0d
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			rotation: 45.0d
+			width: 1.1d
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			rotation: 45.0d
+			width: 1.1d
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			rotation: 45.0d
+			width: 1.1d
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			rotation: 45.0d
+			width: 1.1d
+			x: -10.5d
+			y: -0.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["444EE0B011D2925F"]
+			description: [""]
+			icon: "minecraft:grass_block"
+			id: "241A986345B2839C"
+			rewards: [{
+				id: "2427F30312B2047F"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:trophies/world"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "68066F56BE4931F6"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r &2'World Exploration'&r &6chapter&r"
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1D0517C3BEA06389"
+				"2D971B6D39514E9B"
+			]
+			description: [""]
+			icon: "minecraft:crimson_nylium"
+			id: "07932E3B8E950700"
+			rewards: [
+				{
+					id: "03D2B93502014D94"
+					item: "nameless_trinkets:blaze_nucleus"
+					type: "item"
+				}
+				{
+					id: "45C22A1F30810A43"
+					item: {
+						Count: 1
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:trophies/nether"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "63C2E46B600C0E32"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r &4'Nether Exploration'&r &6chapter&r"
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4D9749A9C944ECE8"
+				"3FE60105340A9769"
+			]
+			description: [""]
+			icon: "undergarden:deepturf_block"
+			id: "72E9615856C466DD"
+			rewards: [{
+				id: "4FE9274A84EF2BEF"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:trophies/undergarden"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "69449EFF51FE0843"
+				title: "Complete 'The garden Under' chapter"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r &2'The Garden Under'&r &6chapter&r"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"76389659C6680826"
+				"2D971B6D39514E9B"
+			]
+			description: [""]
+			icon: "the_bumblezone:bee_queen_spawn_egg"
+			id: "1FDF4CE79FDE8067"
+			rewards: [
+				{
+					command: "/curios add charm @p 1"
+					console: true
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "the_bumblezone:bee_queen_spawn_egg"
+					id: "159AE26DCFE2A38C"
+					team_reward: false
+					title: "Queen Bee has taught you how to be charming. Gain +1 Charm Curio Slot"
+					type: "command"
+				}
+				{
+					id: "57A864D7B9CA7A16"
+					item: {
+						Count: 1
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:trophies/bumblezone"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6AD3E045F83CDDF6"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r &e'To the Bumblezone'&r &6chapter&r"
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"5848895427BAE9FD"
+				"4FE6302AF76BF9EE"
+			]
+			description: ["&6Complete&r &f'Stairway to Aether'&r &6chapter&r"]
+			icon: "aether:aether_grass_block"
+			id: "43EF6CF45615F67E"
+			rewards: [
+				{
+					command: "/curios add ring @p 1"
+					console: true
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "kubejs:ring"
+					id: "7D8281F0DE2A133E"
+					team_reward: false
+					title: "You realized that you have 10 fingers. Gain +1 Curio Ring Slot."
+					type: "command"
+				}
+				{
+					id: "0E08C6C5EFA5C59D"
+					item: {
+						Count: 1
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:trophies/aether"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "652E459A3FB713F6"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r &f'Stairway to Aether'&r &6chapter&r"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"66690CB79DA211EF"
+				"2D971B6D39514E9B"
+			]
+			description: [""]
+			icon: "supplementaries:globe"
+			id: "248D67DE2DF87073"
+			rewards: [{
+				id: "2FC53891C30B403A"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:trophies/pathfinder"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "00E4D2C5029D8AF2"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r &2'Pathfinder'&r &6chapter&r"
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33E10527DCD06E5D"]
+			description: [""]
+			icon: "nameless_trinkets:mysterious_trinket"
+			id: "686825B8A0FF9B8A"
+			rewards: [{
+				id: "7FF083233D8915EC"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:trophies/relics"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1235C34B0820E52C"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r &2'Trinkets 'n Curios'&r &6chapter&r"
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["690C3D15379D602D"]
+			description: [""]
+			icon: "ars_nouveau:archmage_spell_book"
+			id: "56BDBC26B68EF5D1"
+			rewards: [{
+				id: "0FD06E7D3B975782"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:trophies/ars"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C4A1E4AD843D2C5"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r &5Ars Nouveau&r &6chapter&r"
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"26FFA683A2A5D5E1"
+				"29EA7C127C053823"
+			]
+			icon: "embers:ember_crystal_cluster"
+			id: "5C191730329D83B4"
+			rewards: [{
+				id: "243B8A9C3156AE7E"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:trophies/embers"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5395B7497D3DD514"
+				title: "Modifiers"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r &6Embers Rekindled&r &6chapter&r"
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0F590B3A1FD5D993"]
+			description: [
+				"This quest rewards different &4Apotheosis affix modifiers&r."
+				""
+				"&6To apply it to your current tool:&r"
+				"1) &9Hold the tool&r in main hand"
+				"2) Open &6quest book&r &nfrom your inventory screen&r"
+				"3) &6Click on reward&r to redeem"
+				""
+				"&4Modifiers&r can be applied to either one or different equipment pieces. The choice is up to you."
+			]
+			icon: {
+				Count: 1
+				id: "hmag:nemesis_blade"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+					hmag.level: 6b
+					reinforce_level: 0
+					reinforce_max: 10
+				}
+			}
+			id: "34995F9C0E7D87B3"
+			rewards: [
+				{
+					auto: "disabled"
+					command: "/apoth set_rarity apotheotic_additions:artifact"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "28F94021279CB94F"
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "disabled"
+					command: "/apoth set_sockets 5"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "0C0089B923E9D309"
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "disabled"
+					command: "/apoth lootify apotheotic_additions:esoteric"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "4BCE3FA2097C4385"
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					id: "516C530AE2B4C78E"
+					item: {
+						Count: 1
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:trophies/seekanddestroy"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3D63547FEDB3891E"
+				title: "Seek and Destroy"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r &cSeek and Destroy&r &6chapter&r"
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"1DC4DF1994634F20"
+				"4FE6302AF76BF9EE"
+			]
+			icon: "landsoficaria:chiseled_relicstone"
+			id: "185528674ADBCBEB"
+			rewards: [{
+				id: "58BDE45E5382F4BD"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:trophies/icaria"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "722BB3B0BF35ACBA"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r &6Flying Like Icarus&r &6chapter&r"
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7928F5D289CB8B3D"]
+			icon: "l2hostility:weakness"
+			id: "61EC1A536FF2B482"
+			rewards: [
+				{
+					auto: "disabled"
+					command: "/curios add hostility_curse @s 1"
+					elevate_perms: true
+					icon: "l2hostility:cursed"
+					id: "0D1527FA08DB3AE1"
+					silent: true
+					team_reward: false
+					title: "Seems like you adapted to Hostile World. + 1 L2Hostility Curse Slot"
+					type: "command"
+				}
+				{
+					id: "56817CD5694781AD"
+					item: {
+						Count: 1
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:trophies/hostile"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A941715316940E1"
+				title: "Hostile"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r &7Hostile World&r &6chapter&r"
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["29EA7C127C053823"]
+			id: "021A174F7729843C"
+			tasks: [{
+				id: "3D6C11A95AC37665"
+				item: "immersive_aircraft:airship"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6DB365442C2C823F"]
+			id: "78D8E0F80BBCD583"
+			tasks: [{
+				id: "11E95E320C873207"
+				item: "mining_dimension:teleporter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["68581FC88BECFEBB"]
+			icon: "bloodmagic:altar"
+			id: "7936970066A1028D"
+			tasks: [{
+				id: "4DB61443675C0595"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7C06985ABF908F49"
+				"6DB365442C2C823F"
+			]
+			icon: {
+				Count: 1
+				id: "l2complements:eternium_pickaxe"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+					reinforce_level: 0
+					reinforce_max: 10
+				}
+			}
+			id: "1E5A19272AD22CD7"
+			tasks: [{
+				id: "4CF1F8334DBFADBF"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+	]
+	title: "&6⭐ Milestones&r"
+}

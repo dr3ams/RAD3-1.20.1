@@ -2187,12 +2187,31 @@
 		}
 		{
 			dependencies: ["733A59C038C65E4B"]
+			description: ["&o&5sully did it first!&r&r"]
 			id: "63F3D645C8C30D01"
-			rewards: [{
-				id: "5F39D0EBC3C5A2E5"
-				item: "kubejs:gold_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 10
+					id: "5F39D0EBC3C5A2E5"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "1ADB92A6B55E5AFC"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					command: "/titles add @s titles:rock_collector"
+					console: true
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "titles:title_scroll_uncommon"
+					id: "1A607FC76AF743B5"
+					title: "Rock Collector title"
+					type: "command"
+				}
+			]
 			subtitle: "Collect one of each type of ore"
 			tasks: [{
 				advancement: "spelunkery:spelunkery/every_ore"

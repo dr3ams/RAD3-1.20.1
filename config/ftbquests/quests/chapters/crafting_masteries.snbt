@@ -1229,32 +1229,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["1E9C1429B65E8B67"]
-			id: "7115105F30F56C9B"
-			rewards: [
-				{
-					id: "1B2D87ADF57A0CBB"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "58DA5A06A8A2E639"
-					item: "kubejs:dust_experience"
-					random_bonus: 1
-					type: "item"
-				}
-			]
-			tasks: [{
-				consume_items: true
-				id: "0C53A077C52CD86D"
-				item: "kubejs:scroll_exp"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 9.0d
-		}
-		{
-			can_repeat: true
 			dependencies: ["38244A01FB371C21"]
 			id: "56F41293FB8092B0"
 			rewards: [{
@@ -1540,6 +1514,167 @@
 			title: "&bAscendant Scavenger&r"
 			x: 5.0d
 			y: 13.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1082AFB9D8CEFAD5"]
+			disable_toast: true
+			id: "6EE38986014AB1F9"
+			rewards: [{
+				id: "183725BDB9639764"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "7039201816E5CF31"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "rad3:apotheosis_gem"
+					}
+				}
+				title: "Any #rad3:apotheosis_gem"
+				type: "item"
+			}]
+			title: "Studying Gems"
+			x: -2.5d
+			y: 11.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1E9C1429B65E8B67"]
+			disable_toast: true
+			id: "6D75294B482DCA0F"
+			rewards: [{
+				id: "405BBA7FEA5A3286"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "5E684B43BC2A5EEA"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:spider_eye"
+							}
+							{
+								Count: 1b
+								id: "zombie_fabrics:fabric"
+							}
+							{
+								Count: 1b
+								id: "minecraft:gunpowder"
+							}
+							{
+								Count: 1b
+								id: "minecraft:egg"
+							}
+							{
+								Count: 1b
+								id: "minecraft:rotten_flesh"
+							}
+							{
+								Count: 1b
+								id: "minecraft:slime_ball"
+							}
+							{
+								Count: 1b
+								id: "minecraft:glow_ink_sac"
+							}
+							{
+								Count: 1b
+								id: "minecraft:bone"
+							}
+							{
+								Count: 1b
+								id: "minecraft:string"
+							}
+							{
+								Count: 1b
+								id: "minecraft:feather"
+							}
+							{
+								Count: 1b
+								id: "minecraft:leather"
+							}
+							{
+								Count: 1b
+								id: "minecraft:rabbit_hide"
+							}
+							{
+								Count: 1b
+								id: "minecraft:ink_sac"
+							}
+							{
+								Count: 1b
+								id: "minecraft:honeycomb"
+							}
+							{
+								Count: 1b
+								id: "tombstone:bag_of_seeds"
+							}
+							{
+								Count: 1b
+								id: "hmag:lich_cloth"
+							}
+							{
+								Count: 1b
+								id: "hmag:kobold_leather"
+							}
+							{
+								Count: 1b
+								id: "hmag:ogre_horn"
+							}
+							{
+								Count: 1b
+								id: "hmag:mysterious_petal"
+							}
+							{
+								Count: 1b
+								id: "hmag:dyssomnia_skin"
+							}
+							{
+								Count: 1b
+								id: "hmag:crimson_cuticula"
+							}
+							{
+								Count: 1b
+								id: "hmag:sharp_fang"
+							}
+							{
+								Count: 1b
+								id: "hmag:necrofiber"
+							}
+							{
+								Count: 1b
+								id: "hmag:burning_core"
+							}
+							{
+								Count: 1b
+								id: "hmag:bat_wing"
+							}
+							{
+								Count: 1b
+								id: "hmag:soul_powder"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Monster loot extraction"
+			x: -5.5d
+			y: 9.0d
 		}
 	]
 	title: "⭐ Masteries"
