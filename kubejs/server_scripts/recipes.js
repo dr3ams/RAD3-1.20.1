@@ -210,6 +210,7 @@ const removals = [
   "supplementaries:altimeter",
   "trials:crafter",
   "dawnoftimebuilder:cobbled_limestone",
+  "pandorasbox:pandoras_box",
   "betterarcheology:bomb"
 ];
 
@@ -1430,3 +1431,4 @@ ServerEvents.recipes((event) => {
 });
 
     
+
