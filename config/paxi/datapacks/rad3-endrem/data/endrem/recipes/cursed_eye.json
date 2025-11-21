@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "1": {
+      "type": "l2library:enchantment",
+      "enchantment": "minecraft:binding_curse",
+      "min_level": 1
+    },
+    "2": {
+      "type": "l2library:enchantment",
+      "enchantment": "minecraft:vanishing_curse",
+      "min_level": 1
+    },
+    "3": {
+      "type": "l2library:enchantment",
+      "enchantment": "radenchants:dreams",
+      "min_level": 1
+    },
+    "4": {
+      "type": "l2library:enchantment",
+      "enchantment": "radenchants:appetite",
+      "min_level": 1
+    },
+    "5": {
+      "type": "l2library:enchantment",
+      "enchantment": "radenchants:noodle_arms",
+      "min_level": 1
+    },
+    "6": {
+      "type": "l2library:enchantment",
+      "enchantment": "radenchants:landmines",
+      "min_level": 1
+    },
+    "I": {
+      "item": "l2hostility:chaos_ingot"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "pattern": [
+    "3I6",
+    "2E5",
+    "1I4"
+  ],
+  "result": {
+    "item": "endrem:cursed_eye"
+  },
+  "show_notification": true
+}
