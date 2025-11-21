@@ -2,15 +2,39 @@
   "id": "skilltree:hunter_subclass_2_crafting_5",
   "bonuses": [
     {
-      "type": "skilltree:crafted_item_bonus",
-      "item_condition": {
-        "tag_id": "curios:quiver",
-        "type": "skilltree:tag"
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_chance",
+      "id": "80a45c30-1e54-4586-92c6-06fc5e64de65",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
       },
-      "item_bonus": {
-        "chance": 10.0,
-        "operation": 0,
-        "type": "skilltree:quiver_capacity"
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "crossbow",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_damage",
+      "id": "c0823967-0b41-49d9-985e-e452a62e50ee",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 2,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "crossbow",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
       }
     }
   ],
@@ -21,11 +45,12 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "skilltree:textures/icons/hunter_subclass_2_crafting_1.png",
+  "iconTexture": "skilltree:textures/icons/hunter_offensive_1.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Crossbow Crit",
   "titleColor": "",
-  "positionX": 422.37567,
-  "positionY": 32.01235,
+  "positionX": 422.376,
+  "positionY": 32.012,
   "buttonSize": 16,
   "isStartingPoint": false
 }

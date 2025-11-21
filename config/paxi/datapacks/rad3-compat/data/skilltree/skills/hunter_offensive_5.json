@@ -2,22 +2,16 @@
   "id": "skilltree:hunter_offensive_5",
   "bonuses": [
     {
-      "type": "skilltree:damage",
-      "amount": 0.1,
-      "operation": 1,
+      "type": "skilltree:attribute",
+      "attribute": "forge:swim_speed",
+      "id": "e706f945-837b-44c4-b40e-ed83a7e794d0",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 2,
       "player_multiplier": {
         "type": "skilltree:none"
       },
-      "enemy_multiplier": {
-        "type": "skilltree:none"
-      },
       "player_condition": {
-        "type": "skilltree:none"
-      },
-      "damage_condition": {
-        "type": "skilltree:projectile"
-      },
-      "target_condition": {
         "type": "skilltree:none"
       }
     }
@@ -30,7 +24,7 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "skilltree:textures/icons/hunter_offensive_1.png",
+  "iconTexture": "skilltree:textures/icons/miner_subclass_1_crafting_1.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "titleColor": "",
   "positionX": 208.14384,

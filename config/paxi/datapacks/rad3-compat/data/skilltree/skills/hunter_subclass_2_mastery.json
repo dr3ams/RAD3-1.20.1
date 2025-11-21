@@ -8,9 +8,23 @@
         "type": "skilltree:tag"
       },
       "item_bonus": {
-        "chance": 25.0,
+        "chance": 100.0,
         "operation": 0,
         "type": "skilltree:quiver_capacity"
+      }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "tag_id": "curios:quiver",
+        "type": "skilltree:tag"
+      },
+      "item_bonus": {
+        "skill_bonus": {
+          "chance": 0.25,
+          "type": "skilltree:arrow_retrieval"
+        },
+        "type": "skilltree:skill_bonus"
       }
     }
   ],

@@ -5,10 +5,15 @@
       "type": "skilltree:gained_experience",
       "multiplier": 0.05,
       "experience_source": "mobs"
+    },
+    {
+      "type": "skilltree:enchantment_requirement",
+      "multiplier": -0.05
     }
   ],
   "directConnections": [
-    "skilltree:enchanter_crafting_2"
+    "skilltree:enchanter_crafting_2",
+    "skilltree:enchanter_class"
   ],
   "longConnections": [],
   "oneWayConnections": [],

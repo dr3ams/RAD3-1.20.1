@@ -2,38 +2,26 @@
   "id": "skilltree:new_skill_5",
   "bonuses": [
     {
-      "type": "skilltree:mob_effect",
-      "chance": 0.2,
-      "effect": "relics:paralysis",
-      "duration": 200,
-      "amplifier": 0,
-      "event_listener": {
-        "damage_condition": {
-          "type": "skilltree:none"
-        },
-        "enemy_condition": {
-          "type": "skilltree:none"
-        },
-        "player_condition": {
-          "type": "skilltree:none"
-        },
-        "enemy_multiplier": {
-          "type": "skilltree:none"
-        },
-        "player_multiplier": {
-          "type": "skilltree:none"
-        },
-        "target": "enemy",
-        "type": "skilltree:damage_taken"
-      }
-    },
-    {
       "type": "skilltree:attribute",
       "attribute": "shieldinghealth:attribute.shieldinghealth.shield_value",
       "id": "fe5c77f5-3a5d-48ae-a280-384733de1edd",
       "name": "Skill",
       "amount": 2.0,
       "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "shieldinghealth:attribute.shieldinghealth.shield_regen",
+      "id": "0c3e331d-07b8-41ee-925c-452f58dfe4a2",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 1,
       "player_multiplier": {
         "type": "skilltree:none"
       },

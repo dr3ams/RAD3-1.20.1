@@ -2,8 +2,46 @@
   "id": "skilltree:hunter_crafting_3",
   "bonuses": [
     {
-      "type": "skilltree:arrow_retrieval",
-      "chance": 0.05
+      "type": "skilltree:attribute",
+      "attribute": "parcool:max_stamina",
+      "id": "fb469b8f-83cc-4463-9ac8-e2773e5fafc1",
+      "name": "Skill",
+      "amount": 100.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "parcool:stamina_recovery",
+      "id": "c23b1f68-f0bb-4e2d-be9b-41810e2a9956",
+      "name": "Skill",
+      "amount": 5.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "combatroll:recharge",
+      "id": "10df2618-043f-4450-926d-5cdf890506ea",
+      "name": "Skill",
+      "amount": 5.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
     }
   ],
   "directConnections": [

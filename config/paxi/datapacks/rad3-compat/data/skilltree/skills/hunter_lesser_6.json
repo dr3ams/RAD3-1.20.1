@@ -3,9 +3,23 @@
   "bonuses": [
     {
       "type": "skilltree:loot_duplication",
-      "chance": 0.05,
-      "multiplier": 1.0,
+      "chance": 0.1,
+      "multiplier": 0.5,
       "loot_type": "mobs"
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "forge:swim_speed",
+      "id": "04e300f7-328e-42a7-82b4-7861605c50bb",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 2,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
     }
   ],
   "directConnections": [

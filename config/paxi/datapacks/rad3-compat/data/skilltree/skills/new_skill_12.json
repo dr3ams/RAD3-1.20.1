@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:new_skill_12",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "id": "319b76db-744e-4385-ab65-d01ba5fd39c4",
+      "name": "Skill",
+      "amount": 10.0,
+      "operation": 0,
+      "player_multiplier": {
+        "attribute": "minecraft:generic.armor",
+        "divisor": 1.0,
+        "type": "skilltree:attribute_value"
+      },
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "rad3:magicarmor",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_5"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/miner_speed_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 396.99927,
+  "positionY": -244.51707,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

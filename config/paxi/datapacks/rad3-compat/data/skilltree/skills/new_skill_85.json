@@ -1,0 +1,49 @@
+{
+  "id": "skilltree:new_skill_85",
+  "bonuses": [
+    {
+      "type": "skilltree:gained_experience",
+      "multiplier": 0.1,
+      "experience_source": "ore"
+    },
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.25,
+      "effect": "vinery:experience_effect",
+      "duration": 1200,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:damage_taken"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_80"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/miner_life_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "positionX": -374.32,
+  "positionY": 300.322,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

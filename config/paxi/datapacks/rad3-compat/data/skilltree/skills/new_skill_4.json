@@ -4,7 +4,7 @@
     {
       "type": "skilltree:damage",
       "amount": -0.5,
-      "operation": 1,
+      "operation": 2,
       "player_multiplier": {
         "type": "skilltree:none"
       },
@@ -31,7 +31,7 @@
     {
       "type": "skilltree:damage",
       "amount": 0.5,
-      "operation": 1,
+      "operation": 2,
       "player_multiplier": {
         "type": "skilltree:none"
       },
@@ -43,7 +43,7 @@
           "equipment_type": "weapon",
           "type": "skilltree:equipment_type"
         },
-        "type": "skilltree:has_item_equipped"
+        "type": "skilltree:has_item_in_hand"
       },
       "damage_condition": {
         "type": "skilltree:none"
@@ -63,7 +63,7 @@
   "iconTexture": "skilltree:textures/icons/enchanter_offensive_1.png",
   "borderTexture": "skilltree:textures/tooltip/notable.png",
   "title": "Enchant me not",
-  "positionX": 0.0,
+  "positionX": 0.38461518,
   "positionY": -440.027,
   "buttonSize": 16,
   "isStartingPoint": false

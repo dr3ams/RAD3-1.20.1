@@ -2,15 +2,39 @@
   "id": "skilltree:hunter_subclass_2_crafting_2",
   "bonuses": [
     {
-      "type": "skilltree:crafted_item_bonus",
-      "item_condition": {
-        "tag_id": "curios:quiver",
-        "type": "skilltree:tag"
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_damage",
+      "id": "32dc2adf-e045-4adb-90a3-e9541dc3a8d6",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 2,
+      "player_multiplier": {
+        "type": "skilltree:none"
       },
-      "item_bonus": {
-        "chance": 10.0,
-        "operation": 0,
-        "type": "skilltree:quiver_capacity"
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "crossbow",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_velocity",
+      "id": "f811ee19-7ef8-4ebb-a00d-d3cb4722e275",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 2,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "crossbow",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
       }
     }
   ],
@@ -22,11 +46,12 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "skilltree:textures/icons/hunter_subclass_2_crafting_1.png",
+  "iconTexture": "skilltree:textures/icons/hunter_offensive_1.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Crossbow Damage",
   "titleColor": "",
-  "positionX": 399.8586,
-  "positionY": 45.011627,
+  "positionX": 399.859,
+  "positionY": 45.012,
   "buttonSize": 16,
   "isStartingPoint": false
 }

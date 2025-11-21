@@ -1,0 +1,54 @@
+{
+  "id": "skilltree:new_skill_103",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "tag_id": "rad3:twohanded",
+        "type": "skilltree:tag"
+      },
+      "item_bonus": {
+        "skill_bonus": {
+          "attribute": "attributeslib:life_steal",
+          "id": "ca0e01c7-81a9-4f07-b8bf-53b96830772e",
+          "name": "Skill",
+          "amount": 0.2,
+          "operation": 2,
+          "player_multiplier": {
+            "type": "skilltree:none"
+          },
+          "player_condition": {
+            "type": "skilltree:none"
+          },
+          "type": "skilltree:attribute"
+        },
+        "type": "skilltree:skill_bonus"
+      }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "tag_id": "rad3:twohanded",
+        "type": "skilltree:tag"
+      },
+      "item_bonus": {
+        "amount": 200.0,
+        "operation": 0,
+        "type": "skilltree:durability"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_97"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_1_offensive_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -434.82507,
+  "positionY": -312.10153,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

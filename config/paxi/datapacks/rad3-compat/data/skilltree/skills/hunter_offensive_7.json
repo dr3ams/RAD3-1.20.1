@@ -2,23 +2,17 @@
   "id": "skilltree:hunter_offensive_7",
   "bonuses": [
     {
-      "type": "skilltree:damage",
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "5b4c0951-2ce7-47c3-82b3-c1ffe9ba0211",
+      "name": "Skill",
       "amount": 0.1,
-      "operation": 1,
+      "operation": 2,
       "player_multiplier": {
         "type": "skilltree:none"
       },
-      "enemy_multiplier": {
-        "type": "skilltree:none"
-      },
       "player_condition": {
-        "type": "skilltree:none"
-      },
-      "damage_condition": {
-        "type": "skilltree:projectile"
-      },
-      "target_condition": {
-        "type": "skilltree:none"
+        "type": "skilltree:crouching"
       }
     }
   ],
@@ -30,7 +24,7 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "skilltree:textures/icons/hunter_offensive_1.png",
+  "iconTexture": "skilltree:textures/icons/miner_subclass_1_crafting_notable_1.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "titleColor": "",
   "positionX": 253.17549,

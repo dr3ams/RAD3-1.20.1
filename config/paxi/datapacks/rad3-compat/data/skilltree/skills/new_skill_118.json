@@ -1,0 +1,132 @@
+{
+  "id": "skilltree:new_skill_118",
+  "bonuses": [
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.15,
+      "effect": "runiclib:adrenaline",
+      "duration": 100,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "item_condition": {
+            "tag_id": "rad3:spear",
+            "type": "skilltree:tag"
+          },
+          "type": "skilltree:has_item_in_hand"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:damage_taken"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:life_steal",
+      "id": "844f4829-b4ed-4fde-b886-daf12b1b3ffd",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "divisor": 10.0,
+        "type": "skilltree:missing_health_percentage"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_112"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_crit_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 378.067,
+  "positionY": 299.622,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "living_condition.skilltree.has_item_in_hand",
+      "with": [
+        {
+          "translate": "event_listener.skilltree.damage_taken",
+          "with": [
+            {
+              "translate": "attribute.modifier.plus.1",
+              "with": [
+                "15",
+                {
+                  "translate": "skill_bonus.skilltree.mob_effect.player.chance",
+                  "with": [
+                    {
+                      "translate": "effect.runiclib.adrenaline"
+                    },
+                    {
+                      "translate": "skill_bonus.skilltree.mob_effect.duration",
+                      "with": [
+                        "00:05"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "translate": "damage_condition.skilltree.none"
+            }
+          ]
+        },
+        {
+          "translate": "living_condition.skilltree.has_item_in_hand.target.you"
+        },
+        {
+          "translate": "item_tag.rad3:spear"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "skill_bonus_multiplier.skilltree.missing_health_percentage.player",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.0",
+          "with": [
+            "0.5",
+            {
+              "translate": "attributeslib:life_steal"
+            }
+          ]
+        },
+        "10%"
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8553090
+      },
+      "f_131103_": true,
+      "text": "(Adrenaline increases the user\u0027s movement speed the lower health out of max health they have)"
+    }
+  ]
+}

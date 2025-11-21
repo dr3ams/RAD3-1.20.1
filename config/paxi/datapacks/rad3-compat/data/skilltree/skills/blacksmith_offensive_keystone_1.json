@@ -4,7 +4,7 @@
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.attack_damage",
-      "id": "32d8f8ea-b1b9-4d80-8705-20f7e4cd473d",
+      "id": "482887bf-0b8f-435d-91c3-d11e685cebfe",
       "name": "SkillBonus",
       "amount": 0.1,
       "operation": 0,
@@ -14,33 +14,11 @@
         "type": "skilltree:attribute_value"
       },
       "player_condition": {
-        "type": "skilltree:none"
-      }
-    },
-    {
-      "type": "skilltree:mob_effect",
-      "chance": 0.2,
-      "effect": "cataclysm:bone_fracture",
-      "duration": 100,
-      "amplifier": 0,
-      "event_listener": {
-        "damage_condition": {
-          "type": "skilltree:none"
+        "item_condition": {
+          "equipment_type": "shield",
+          "type": "skilltree:equipment_type"
         },
-        "enemy_condition": {
-          "type": "skilltree:none"
-        },
-        "player_condition": {
-          "type": "skilltree:none"
-        },
-        "enemy_multiplier": {
-          "type": "skilltree:none"
-        },
-        "player_multiplier": {
-          "type": "skilltree:none"
-        },
-        "target": "enemy",
-        "type": "skilltree:attack"
+        "type": "skilltree:has_item_in_hand"
       }
     }
   ],

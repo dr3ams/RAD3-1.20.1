@@ -4,15 +4,15 @@
     {
       "type": "skilltree:crafted_item_bonus",
       "item_condition": {
-        "equipment_type": "shield",
+        "equipment_type": "armor",
         "type": "skilltree:equipment_type"
       },
       "item_bonus": {
         "skill_bonus": {
           "attribute": "minecraft:generic.armor",
-          "id": "1dac389e-b6d2-4d83-8b16-eee3785462bb",
+          "id": "2311b0b9-7dd7-4558-bd6a-4d960a2e63b8",
           "name": "SkillBonus",
-          "amount": 4.0,
+          "amount": 3.0,
           "operation": 0,
           "player_multiplier": {
             "type": "skilltree:none"
@@ -23,6 +23,18 @@
           "type": "skilltree:attribute"
         },
         "type": "skilltree:skill_bonus"
+      }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "armor",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "amount": 100.0,
+        "operation": 0,
+        "type": "skilltree:durability"
       }
     }
   ],

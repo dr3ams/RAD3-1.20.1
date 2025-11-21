@@ -1,0 +1,54 @@
+{
+  "id": "skilltree:new_skill_93",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "dagger_of_bloodletting:bloodletting",
+      "id": "d3565070-9bfd-447a-959f-95d45df2e207",
+      "name": "Skill",
+      "amount": 2500.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "rad3:bloodmagicarmor",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "dagger_of_bloodletting:soulfilling",
+      "id": "6cb5dc37-a805-4311-b4b9-40cc1d3e6ffd",
+      "name": "Skill",
+      "amount": 2500.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "rad3:bloodmagicarmor",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_61"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_offensive_crafting_keystone_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 511.04822,
+  "positionY": -266.01627,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

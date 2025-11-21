@@ -12,7 +12,7 @@
         "type": "skilltree:none"
       },
       "player_condition": {
-        "type": "skilltree:none"
+        "type": "skilltree:crouching"
       },
       "damage_condition": {
         "type": "skilltree:none"
@@ -22,33 +22,17 @@
       }
     },
     {
-      "type": "skilltree:mob_effect",
-      "chance": 0.15,
-      "effect": "relics:bleeding",
-      "duration": 100,
-      "amplifier": 0,
-      "event_listener": {
-        "damage_condition": {
-          "type": "skilltree:none"
-        },
-        "enemy_condition": {
-          "type": "skilltree:none"
-        },
-        "player_condition": {
-          "item_condition": {
-            "equipment_type": "bow",
-            "type": "skilltree:equipment_type"
-          },
-          "type": "skilltree:has_item_equipped"
-        },
-        "enemy_multiplier": {
-          "type": "skilltree:none"
-        },
-        "player_multiplier": {
-          "type": "skilltree:none"
-        },
-        "target": "enemy",
-        "type": "skilltree:attack"
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_velocity",
+      "id": "bf85852e-9ef2-4aa4-a818-a4198b3e4637",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 2,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:crouching"
       }
     }
   ],

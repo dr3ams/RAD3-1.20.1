@@ -2,17 +2,33 @@
   "id": "skilltree:hunter_subclass_2",
   "bonuses": [
     {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:draw_speed",
+      "id": "15873808-9980-4931-b0ee-c8412ee09dc2",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 2,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "ranged_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
       "type": "skilltree:crafted_item_bonus",
       "item_condition": {
-        "tag_id": "curios:quiver",
-        "type": "skilltree:tag"
+        "equipment_type": "ranged_weapon",
+        "type": "skilltree:equipment_type"
       },
       "item_bonus": {
-        "skill_bonus": {
-          "chance": 0.05,
-          "type": "skilltree:arrow_retrieval"
-        },
-        "type": "skilltree:skill_bonus"
+        "amount": 100.0,
+        "operation": 0,
+        "type": "skilltree:durability"
       }
     }
   ],

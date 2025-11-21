@@ -9,12 +9,13 @@
     },
     {
       "type": "skilltree:gained_experience",
-      "multiplier": 0.05,
+      "multiplier": 0.1,
       "experience_source": "ore"
     }
   ],
   "directConnections": [
-    "skilltree:miner_crafting_2"
+    "skilltree:miner_crafting_2",
+    "skilltree:miner_class"
   ],
   "longConnections": [],
   "oneWayConnections": [],

@@ -1,0 +1,97 @@
+{
+  "id": "skilltree:new_skill_59",
+  "bonuses": [
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.2,
+      "effect": "cataclysm:bone_fracture",
+      "duration": 100,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "item_condition": {
+            "tag_id": "rad3:twohanded",
+            "type": "skilltree:tag"
+          },
+          "type": "skilltree:has_item_in_hand"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_47",
+    "skilltree:new_skill_53"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/hunter_lesser_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "positionX": -499.62643,
+  "positionY": -294.11557,
+  "buttonSize": 32,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "living_condition.skilltree.has_item_equipped",
+      "with": [
+        {
+          "translate": "event_listener.skilltree.attack",
+          "with": [
+            {
+              "translate": "attribute.modifier.plus.1",
+              "with": [
+                "20",
+                {
+                  "translate": "skill_bonus.skilltree.mob_effect.enemy.chance",
+                  "with": [
+                    {
+                      "translate": "effect.cataclysm.bone_fracture"
+                    },
+                    {
+                      "translate": "skill_bonus.skilltree.mob_effect.duration",
+                      "with": [
+                        "00:05"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "translate": "living_condition.skilltree.has_item_equipped.target.you"
+        },
+        {
+          "translate": "item_tag.rad3:twohanded"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8553090
+      },
+      "f_131103_": true,
+      "text": "(Bone Fracture decreases speed and attack speed)"
+    }
+  ]
+}

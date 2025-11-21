@@ -13,7 +13,8 @@
           "type": "skilltree:none"
         },
         "player_condition": {
-          "type": "skilltree:none"
+          "min": 15,
+          "type": "skilltree:food_level"
         },
         "enemy_multiplier": {
           "type": "skilltree:none"
@@ -27,8 +28,8 @@
     }
   ],
   "directConnections": [
-    "skilltree:cook_healing_2",
-    "skilltree:cook_healing_4"
+    "skilltree:cook_healing_4",
+    "skilltree:cook_healing_2"
   ],
   "longConnections": [],
   "oneWayConnections": [],

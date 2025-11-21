@@ -18,6 +18,24 @@
         },
         "type": "skilltree:has_item_in_hand"
       }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:prot_pierce",
+      "id": "1d4e330a-7139-49ed-b1cf-836b358447f4",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "ranged_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
     }
   ],
   "directConnections": [

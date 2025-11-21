@@ -2,8 +2,18 @@
   "id": "skilltree:hunter_crafting_notable_1",
   "bonuses": [
     {
-      "type": "skilltree:arrow_retrieval",
-      "chance": 0.1
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:dodge_chance",
+      "id": "ead6ad4d-5c10-47d0-b303-8c673d52447a",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
     }
   ],
   "directConnections": [],

@@ -4,32 +4,30 @@
     {
       "type": "skilltree:loot_duplication",
       "chance": 0.1,
-      "multiplier": 1.0,
+      "multiplier": 0.5,
       "loot_type": "mobs"
-    },
-    {
-      "type": "skilltree:arrow_retrieval",
-      "chance": 0.1
-    },
-    {
-      "type": "skilltree:crafted_item_bonus",
-      "item_condition": {
-        "equipment_type": "bow",
-        "type": "skilltree:equipment_type"
-      },
-      "item_bonus": {
-        "amount": 100.0,
-        "operation": 0,
-        "type": "skilltree:durability"
-      }
     },
     {
       "type": "skilltree:attribute",
       "attribute": "attributeslib:draw_speed",
-      "id": "bf85852e-9ef2-4aa4-a818-a4198b3e4632",
+      "id": "26fb7ba6-2cb2-4430-8808-2604af8d4497",
       "name": "Skill",
-      "amount": 1.0,
+      "amount": 0.15,
       "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "db68227d-e421-4d65-b114-7a490c514448",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 2,
       "player_multiplier": {
         "type": "skilltree:none"
       },
@@ -42,8 +40,7 @@
     "skilltree:hunter_defensive_1",
     "skilltree:hunter_offensive_1",
     "skilltree:hunter_defensive_crafting_1",
-    "skilltree:hunter_offensive_crafting_1",
-    "skilltree:hunter_crafting_1"
+    "skilltree:hunter_offensive_crafting_1"
   ],
   "longConnections": [],
   "oneWayConnections": [],

@@ -24,6 +24,42 @@
         },
         "type": "skilltree:skill_bonus"
       }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:prot_pierce",
+      "id": "47245abb-26eb-4c0c-897f-4ff0ccfdf7b8",
+      "name": "Skill",
+      "amount": 0.3,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "curios:quiver",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_damage",
+      "id": "b4763178-7735-457e-96b4-c16ce7905c85",
+      "name": "Skill",
+      "amount": 0.15,
+      "operation": 2,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "curios:quiver",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
     }
   ],
   "directConnections": [],

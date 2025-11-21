@@ -2,27 +2,39 @@
   "id": "skilltree:blacksmith_offensive_2",
   "bonuses": [
     {
-      "type": "skilltree:damage",
-      "amount": 0.05,
-      "operation": 1,
-      "player_multiplier": {
-        "type": "skilltree:none"
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "shield",
+        "type": "skilltree:equipment_type"
       },
-      "enemy_multiplier": {
-        "type": "skilltree:none"
-      },
-      "player_condition": {
-        "item_condition": {
-          "equipment_type": "shield",
-          "type": "skilltree:equipment_type"
+      "item_bonus": {
+        "skill_bonus": {
+          "attribute": "minecraft:generic.armor",
+          "id": "b4602117-9a72-4b92-9691-8f3b0e8a90b2",
+          "name": "Skill",
+          "amount": 2.0,
+          "operation": 0,
+          "player_multiplier": {
+            "type": "skilltree:none"
+          },
+          "player_condition": {
+            "type": "skilltree:none"
+          },
+          "type": "skilltree:attribute"
         },
-        "type": "skilltree:has_item_in_hand"
+        "type": "skilltree:skill_bonus"
+      }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "shield",
+        "type": "skilltree:equipment_type"
       },
-      "damage_condition": {
-        "type": "skilltree:none"
-      },
-      "target_condition": {
-        "type": "skilltree:none"
+      "item_bonus": {
+        "amount": 25.0,
+        "operation": 0,
+        "type": "skilltree:durability"
       }
     }
   ],

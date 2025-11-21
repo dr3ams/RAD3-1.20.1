@@ -8,8 +8,18 @@
       "loot_type": "mobs"
     },
     {
-      "type": "skilltree:arrow_retrieval",
-      "chance": 0.1
+      "type": "skilltree:attribute",
+      "attribute": "forge:swim_speed",
+      "id": "d57772be-42c2-4fd9-8c80-1dd2cc11a386",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 2,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
     }
   ],
   "directConnections": [],
@@ -21,7 +31,7 @@
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "titleColor": "",
   "positionX": 316.69507,
-  "positionY": 150.53,
+  "positionY": 150.88715,
   "buttonSize": 16,
   "isStartingPoint": false
 }

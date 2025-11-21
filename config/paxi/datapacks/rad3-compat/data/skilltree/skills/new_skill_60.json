@@ -1,0 +1,31 @@
+{
+  "id": "skilltree:new_skill_60",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "type": "skilltree:food"
+      },
+      "item_bonus": {
+        "effect": "minecraft:regeneration",
+        "duration": 600,
+        "amplifier": 0,
+        "type": "skilltree:food_effect"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_48",
+    "skilltree:new_skill_66"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/cook_lesser_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "positionX": 0.06949997,
+  "positionY": -573.39465,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

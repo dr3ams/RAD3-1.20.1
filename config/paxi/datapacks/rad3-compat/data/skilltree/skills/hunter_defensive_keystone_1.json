@@ -3,18 +3,18 @@
   "bonuses": [
     {
       "type": "skilltree:attribute",
-      "attribute": "minecraft:generic.armor",
-      "id": "9909e6b4-18b7-4b9e-980f-5c5cfe56b2cf",
-      "name": "SkillBonus",
-      "amount": 0.25,
+      "attribute": "attributeslib:dodge_chance",
+      "id": "9e684d32-2196-429c-babd-a6a6166083d0",
+      "name": "Skill",
+      "amount": 0.1,
       "operation": 0,
       "player_multiplier": {
-        "attribute": "skilltree:evasion",
-        "divisor": 1.0,
-        "type": "skilltree:attribute_value"
+        "type": "skilltree:none"
       },
       "player_condition": {
-        "type": "skilltree:none"
+        "effect": "minecraft:invisibility",
+        "amplifier": 0,
+        "type": "skilltree:has_effect"
       }
     }
   ],
