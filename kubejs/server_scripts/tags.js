@@ -278,6 +278,8 @@ event.get('rad3:decapitating')
 		.add('knavesneeds:undergarden/forgotten/scythe')
 		.add('knavesneeds:undergarden/utherium/scythe')
 		.add('knavesneeds:undergarden/froststeel/scythe')
+		.add('radweaponry:hydra_scythe')
+		.add('bloodmagic:soulscythe')
 
 event.get('rad3:apotheosis_gem')
 		.add('apotheosis:gem')
@@ -463,3 +465,4 @@ event.get('rad3:bloodmagicarmor')
 ////END	
 
 })
+
