@@ -638,11 +638,6 @@ ServerEvents.recipes((event) => {
     "kubejs:great_soul"
   );
   event.replaceInput(
-    { output: "ars_additions:stabilized_warp_index" },
-    "minecraft:nether_star",
-    "kubejs:great_soul"
-  );
-  event.replaceInput(
     { output: "apotheosis:augmenting_table" },
     "minecraft:nether_star",
     "kubejs:great_soul"
