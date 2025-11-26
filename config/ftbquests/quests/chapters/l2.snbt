@@ -61,6 +61,7 @@
 				" - Riptide trident in the rain"
 				" - Getting knocked back by the Ender Dragon"
 				" - Holding a shield and getting rammed by a Ravager"
+				" - Casting Launch with a lot of Amplify on it"
 			]
 			id: "2C8184EF50649550"
 			rewards: [{
@@ -225,7 +226,7 @@
 		{
 			dependencies: ["1EAB72EC26A866EF"]
 			description: [
-				"To make a Miracle Ingot, you need Hostility Essence. The only way to get that is by burning Bottles of Curse in fire or lava. It's a 1/128 chance per burned bottle. That means, to craft items that need Miracle Ingots or Hostility Essence, you're going to need A LOT of Bottles of Curse."
+				"To make a Miracle Ingot, you need Hostility Essence. The only way to get that is by burning Bottles of Curse in fire or lava. It's a 1/256 chance per burned bottle. That means, to craft items that need Miracle Ingots or Hostility Essence, you're going to need A LOT of Bottles of Curse."
 				""
 				"Bottles of Curse can also be drunk to increase your difficulty. This is the only way to encounter some of the rarest and most powerful mob traits, such as Ragnarok."
 			]
@@ -237,7 +238,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 128L
+				count: 256L
 				id: "7A26D3694D0094F1"
 				item: "l2hostility:bottle_of_curse"
 				type: "item"
@@ -2107,3 +2108,4 @@
 	]
 	title: "&7Hostile World&r"
 }
+
