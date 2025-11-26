@@ -54,7 +54,12 @@ const removals = [
   "ars_instrumentum:fake_wilden_tribute",
   "l2complements:eternal",
   "l2complements:invincible",
+  "l2complements:sculkium_helmet",
+  "l2complements:sculkium_chestplate",
+  "l2complements:sculkium_leggings",
+  "l2complements:sculkium_boots",
   "l2hostility:flaming_thorn",
+  "l2hostility:book_of_omniscience",
   "ars_trinkets:essence_lotus_3",
   "ars_trinkets:essence_lotus_4",
   "ars_trinkets:essence_lotus_5",
@@ -202,9 +207,6 @@ const removals = [
   "levelhearts:heart_container",
   "dimdungeons:item_portal_key",
   "dimdungeons:item_blank_build_key",
-  "bonfires:large_titanite_shard",
-  "bonfires:titanite_chunk",
-  "bonfires:titanite_slab",
   "naturesaura:rf_converter",
   "aether_redux:veridium_lantern",
   "supplementaries:altimeter",
@@ -578,9 +580,19 @@ ServerEvents.recipes((event) => {
     "l2complements:totemic_gold_ingot"
   );
   event.replaceInput(
+    { output: "celestial_artifacts:amethyst_reinforce_plate" },
+    "celestial_artifacts:nebula_cube",
+    "hmag:reinforcing_chain"
+  );
+  event.replaceInput(
     { output: "l2complements:diffusion_wand" },
     "l2complements:storm_core",
     "hmag:fortune_crystal_plus"
+  );
+  event.replaceInput(
+    { output: "l2complements:sculkium_ingot" },
+    "minecraft:copper_ingot",
+    "embers:silver_ingot"
   );
   event.replaceInput(
     { output: "nameless_trinkets:true_heart_of_the_sea" },
@@ -653,11 +665,6 @@ ServerEvents.recipes((event) => {
     "kubejs:great_soul"
   );
   event.replaceInput(
-    { output: "l2hostility:book_of_omniscience" },
-    "minecraft:nether_star",
-    "kubejs:great_soul"
-  );
-  event.replaceInput(
     { output: "l2hostility:curse_of_pride" },
     "l2hostility:protection",
     "kubejs:great_soul"
@@ -687,8 +694,40 @@ ServerEvents.recipes((event) => {
     "minecraft:nether_star",
     "kubejs:great_soul"
   );
+  event.replaceInput(
+    { output: "spelunkery:rope_ladder" },
+    "spelunkery:tangle_roots",
+    "#supplementaries:ropes"
+  );
 
- 
+ event.shaped('minecraft:saddle', [
+    ' L ',
+    'LIL'
+	], {
+    L: '#forge:leather',
+	I: 'minecraft:iron_ingot'
+  });
+ event.shaped('minecraft:saddle', [
+    ' L ',
+    'LIL'
+	], {
+    L: '#forge:leather',
+	I: 'undergarden:cloggrum_ingot'
+  });
+ event.shaped('minecraft:saddle', [
+    ' L ',
+    'LIL'
+	], {
+    L: '#forge:leather',
+	I: 'aether:zanite_gemstone'
+  });
+ event.shaped('minecraft:bundle', [
+    'S',
+    'L'
+	], {
+    L: '#forge:leather',
+	S: '#forge:string'
+  });
   event.shaped('celestial_artifacts:bearing_stamen', [
     'EBE',
     'PFP',
@@ -745,7 +784,7 @@ ServerEvents.recipes((event) => {
 	P: 'l2hostility:protection',
 	C: 'l2hostility:tank',
 	W: 'l2hostility:weakness',
-	S: 'minecraft:nether_star',
+	S: 'celestial_core:pure_nether_star',
 	N: 'aether:iron_pendant'
   });
   event.shaped('celestial_artifacts:holy_sword', [
@@ -865,34 +904,19 @@ ServerEvents.recipes((event) => {
 	C: 'dungeonsdelight:stained_scrap',
 	T: 'minecraft:tnt'
   });
-
-  event.stonecutting('cataclysm:black_steel_wall', 'cataclysm:black_steel_block')
-  event.stonecutting('cataclysm:polished_obsidian', 'cataclysm:obsidian_bricks')
-  event.stonecutting('cataclysm:polished_sandstone', 'minecraft:sandstone')
-  event.stonecutting('cataclysm:blackstone_pillar', 'minecraft:blackstone')
-  event.stonecutting('cataclysm:blackstone_pillar', 'minecraft:polished_blackstone')
-  event.stonecutting('cataclysm:blackstone_pillar', 'minecraft:polished_blackstone_bricks')
-  event.stonecutting('cataclysm:void_lantern_block', 'cataclysm:void_stone')
-  event.stonecutting('cataclysm:void_crystal', 'cataclysm:void_stone')
-  event.stonecutting('cataclysm:pointed_icicle', 'minecraft:ice')
-	
-	event.shaped(
-    Item.of('undergarden:catalyst'),
-    [
-        'ABA',
-        'CDE',
-        'AFA'
-    ],
-    {
-        D: 'undergarden:regalium_crystal',
-        F: 'undergarden:gloomgourd_pie',
-        A: 'undergarden:utherium_crystal',
-        C: 'undergarden:brute_tusk',
-        E: 'undergarden:glitterkelp',
-        B: 'undergarden:raw_gwibling'
-    }
-)
-
+  event.shaped(
+    Item.of('undergarden:catalyst'),[
+    'ABA',
+    'CDE',
+    'AFA'
+    ], {
+	D: 'undergarden:regalium_crystal',
+	F: 'undergarden:gloomgourd_pie',
+	A: 'undergarden:utherium_crystal',
+	C: 'undergarden:brute_tusk',
+	E: 'undergarden:glitterkelp',
+	B: 'undergarden:raw_gwibling'
+  });
   event.shaped('mining_dimension:teleporter', [
     'ABC',
     'DEF',
@@ -923,18 +947,65 @@ ServerEvents.recipes((event) => {
 	H: 'aether_redux:gravitite_ingot',
 	I: 'hmag:ancient_stone'
   });	
-  
-    event.shaped('kubejs:essence_monster_raw', [
-		'AAA',
-		'AAA',
-		'AAA'
-    ],{
-	A: 'kubejs:essence_monster'
-	});
+  event.shaped('l2complements:sculkium_helmet', [
+    'T T',
+    'IDI',
+    'I I'
+	], {
+    I: 'l2complements:sculkium_ingot',
+	T: 'apotheosis:warden_tendril',
+	D: 'minecraft:reinforced_deepslate'
+  });
+  event.shaped('l2complements:sculkium_chestplate', [
+    'I I',
+    'DID',
+    'III'
+	], {
+    I: 'l2complements:sculkium_ingot',
+	D: 'minecraft:reinforced_deepslate'
+  });
+  event.shaped('l2complements:sculkium_leggings', [
+    'IDI',
+    'I I',
+    'I I'
+	], {
+    I: 'l2complements:sculkium_ingot',
+	D: 'minecraft:reinforced_deepslate'
+  });
+  event.shaped('l2complements:sculkium_boots', [
+    'I I',
+    'I I',
+    'D D'
+	], {
+    I: 'l2complements:sculkium_ingot',
+	D: 'minecraft:reinforced_deepslate'
+  });
+  event.shaped('l2hostility:book_of_omniscience', [
+    'CRC',
+    'EBE',
+    'CPC'
+	], {
+    B: 'l2hostility:book_of_reprint',
+	E: 'l2complements:eternium_ingot',
+	C: 'apotheotic_additions:ascended_coin',
+	R: 'l2hostility:ragnarok',
+	P: 'l2hostility:reprint'
+  });
+
+  event.stonecutting('cataclysm:black_steel_wall', 'cataclysm:black_steel_block')
+  event.stonecutting('cataclysm:polished_obsidian', 'cataclysm:obsidian_bricks')
+  event.stonecutting('cataclysm:polished_sandstone', 'minecraft:sandstone')
+  event.stonecutting('cataclysm:blackstone_pillar', 'minecraft:blackstone')
+  event.stonecutting('cataclysm:blackstone_pillar', 'minecraft:polished_blackstone')
+  event.stonecutting('cataclysm:blackstone_pillar', 'minecraft:polished_blackstone_bricks')
+  event.stonecutting('cataclysm:void_lantern_block', 'cataclysm:void_stone')
+  event.stonecutting('cataclysm:void_crystal', 'cataclysm:void_stone')
+  event.stonecutting('cataclysm:pointed_icicle', 'minecraft:ice')
 
   event.smelting('3x minecraft:iron_nugget', 'dungeonsdelight:stained_scrap', 0.1, 100);
   event.smelting('minecraft:iron_ingot', 'dungeonsdelight:stained_scrap_block', 0.5, 400);
   event.smelting('quark:limestone', 'dawnoftimebuilder:cobbled_limestone', 0.1);
+  
   event.blasting('cataclysm:black_steel_ingot', 'graveyard:dark_iron_ingot', 0.5);
   event.blasting('aquaculture:neptunium_ingot', 'aquaculture:neptunes_bounty', 1.0);
   event.blasting('3x minecraft:iron_nugget', 'dungeonsdelight:stained_scrap', 0.1, 50);
@@ -1040,24 +1111,6 @@ ServerEvents.recipes((event) => {
 	'spelunkery:portal_fluid_bottle'
   ]);
   event.shapeless(
-  Item.of('bonfires:large_titanite_shard', 1),
-  [
-    '2x bonfires:titanite_shard',
-	'aether:ambrosium_shard'
-  ]);
-  event.shapeless(
-  Item.of('bonfires:titanite_chunk', 1),
-  [
-    '2x bonfires:large_titanite_shard',
-	'landsoficaria:sliver'
-  ]);
-  event.shapeless(
-  Item.of('bonfires:titanite_slab', 1),
-  [
-    '2x bonfires:titanite_chunk',
-	'undergarden:forgotten_ingot'
-  ]);
-  event.shapeless(
   Item.of('aether_redux:gravitite_ingot', 1),
   [
 	'aether:enchanted_gravitite'
@@ -1084,6 +1137,11 @@ ServerEvents.recipes((event) => {
 	'#forge:string',
 	'hmag:fire_bottle',
 	'supplementaries:lumisene_bottle'
+  ]);
+  event.shapeless(
+  Item.of('kubejs:essence_monster_raw', 1),
+  [
+    '9x kubejs:essence_monster'
   ]);
   
   event.shaped('apotheotic_additions:sacrificial_shelf', [
@@ -1426,4 +1484,3 @@ ServerEvents.recipes((event) => {
 });
 
     
-

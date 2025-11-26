@@ -6,17 +6,6 @@ LootJS.modifiers((event) => {
     //    .replaceLoot('occultism:silver_ore', 'embers:silver_ore', true)
     //    .replaceLoot('occultism:silver_ore_deepslate', 'embers:deepslate_silver_ore', true);
 
-	// quark limestone drops cobbled limestone
-    const silkTouch = LootEntry.of("quark:limestone").when((c) =>
-        c.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
-	);
-
-	const cobbledDrop = "dawnoftimebuilder:cobbled_limestone";
-
-    event
-        .addBlockLootModifier("quark:limestone")
-        .removeLoot(Ingredient.all)
-        .addAlternativesLoot(silkTouch, cobbledDrop)
 
 	const lootsize = 9; // amount of unique item stacks that will be allowed to generate from a loot table (item stacks can an item with a count so a stack of 6 bones for instance)
 				
@@ -151,19 +140,34 @@ LootJS.modifiers((event) => {
             LootEntry.of("minecraft:blaze_powder").when((c) => c.randomChance(0.5)).limitCount([1, 3])
 		);
 	
+	// quark limestone drops cobbled limestone
+    const silkTouch = LootEntry.of("quark:limestone").when((c) =>
+        c.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
+	);
+
+	const cobbledDrop = "dawnoftimebuilder:cobbled_limestone";
+
+    event
+        .addBlockLootModifier("quark:limestone")
+        .removeLoot(Ingredient.all)
+        .addAlternativesLoot(silkTouch, cobbledDrop)
+
 	// Adding earth essence from mining various blocks
 	event.addBlockLootModifier("minecraft:gravel")
 		.addAlternativesLoot(
 			LootEntry.of("kubejs:essence_earth").when((c) => c.randomChance(0.05)).limitCount([0, 1])
 		);
-    event.addBlockLootModifier("minecraft:coal_ore").randomChance(0.1).addLoot("kubejs:essence_earth");
-	event.addBlockLootModifier("minecraft:iron_ore").randomChance(0.1).addLoot("kubejs:essence_earth");
-	event.addBlockLootModifier("minecraft:copper_ore").randomChance(0.1).addLoot("kubejs:essence_earth");
-	event.addBlockLootModifier("minecraft:redstone_ore").randomChance(0.2).addLoot("kubejs:essence_earth");
-	event.addBlockLootModifier("minecraft:gold_ore").randomChance(0.2).addLoot("kubejs:essence_earth");
-	event.addBlockLootModifier("minecraft:lapis_ore").randomChance(0.2).addLoot("kubejs:essence_earth");
-	event.addBlockLootModifier("minecraft:emerald_ore").randomChance(0.3).addLoot("kubejs:essence_earth");
-	event.addBlockLootModifier("minecraft:diamond_ore").randomChance(0.3).addLoot("kubejs:essence_earth");
+    event.addBlockLootModifier("#forge:ores/coal").randomChance(0.1).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("#forge:ores/iron").randomChance(0.1).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("#forge:ores/copper").randomChance(0.1).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("#forge:ores/quartz").randomChance(0.1).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("#forge:ores/redstone").randomChance(0.2).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("#forge:ores/gold").randomChance(0.2).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("#forge:ores/lapis").randomChance(0.2).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("#forge:ores/lead").randomChance(0.2).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("#forge:ores/silver").randomChance(0.2).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("#forge:ores/emerald").randomChance(0.3).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("#forge:ores/diamond").randomChance(0.3).addLoot("kubejs:essence_earth");
 	
 	// Adding drops to spawners
 	event.addBlockLootModifier("minecraft:spawner").addLoot("kubejs:coin_dungeon");

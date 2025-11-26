@@ -67,6 +67,8 @@ LootJS.modifiers((event) => {
 	event.addLootTableModifier("dungeons_arise:chests/illager_fort/illager_fort_treasure").randomChance(0.1).addLoot("endrem:magical_eye");
 	event.addLootTableModifier("dungeons_arise:chests/illager_corsair/illager_corsair_treasure").randomChance(0.1).addLoot("endrem:magical_eye");
 	event.addLootTableModifier("dungeons_arise:chests/illager_galley/illager_galley_treasure").randomChance(0.1).addLoot("endrem:magical_eye");
+	//killing the nether gauntlet spawns a chest
+	event.addLootTableModifier("bosses_of_mass_destruction:chests/gauntlet").addLoot("endrem:lost_eye");
 	
 	// adding eyes back to mobs
 	event.addEntityLootModifier("minecraft:evoker").randomChance(0.1).killedByPlayer().addLoot("endrem:magical_eye");
@@ -81,7 +83,6 @@ LootJS.modifiers((event) => {
 	event.addEntityLootModifier("cataclysm:scylla").killedByPlayer().addLoot("endrem:exotic_eye");
 	event.addEntityLootModifier("cataclysm:netherite_monstrosity").killedByPlayer().addLoot("endrem:lost_eye");
 	event.addEntityLootModifier("cataclysm:the_harbinger").killedByPlayer().addLoot("endrem:lost_eye");
-	event.addEntityLootModifier("bosses_of_mass_destruction:gauntlet").killedByPlayer().addLoot("endrem:lost_eye");
 	event.addEntityLootModifier("bosses_of_mass_destruction:lich").killedByPlayer().addLoot("endrem:cold_eye");
 	event.addEntityLootModifier("graveyard:lich").killedByPlayer().addLoot("endrem:corrupted_eye");
 	// witch pupil from women
