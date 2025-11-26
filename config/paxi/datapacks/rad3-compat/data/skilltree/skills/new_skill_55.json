@@ -20,6 +20,42 @@
         },
         "type": "skilltree:has_item_equipped"
       }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "tag_id": "rad3:magicarmor",
+        "type": "skilltree:tag"
+      },
+      "item_bonus": {
+        "amount": 100.0,
+        "operation": 0,
+        "type": "skilltree:durability"
+      }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "tag_id": "rad3:magicarmor",
+        "type": "skilltree:tag"
+      },
+      "item_bonus": {
+        "skill_bonus": {
+          "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+          "id": "b1a20482-f9a9-4092-9136-c84bf7242234",
+          "name": "Skill",
+          "amount": 50.0,
+          "operation": 0,
+          "player_multiplier": {
+            "type": "skilltree:none"
+          },
+          "player_condition": {
+            "type": "skilltree:none"
+          },
+          "type": "skilltree:attribute"
+        },
+        "type": "skilltree:skill_bonus"
+      }
     }
   ],
   "directConnections": [

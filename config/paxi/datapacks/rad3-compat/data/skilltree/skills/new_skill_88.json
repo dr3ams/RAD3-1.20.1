@@ -33,7 +33,7 @@
     },
     {
       "type": "skilltree:damage",
-      "amount": 0.1,
+      "amount": 0.05,
       "operation": 1,
       "player_multiplier": {
         "divisor": 10.0,
@@ -113,19 +113,7 @@
       "f_131101_": {
         "f_131257_": 8092645
       },
-      "translate": "skill_bonus_multiplier.skilltree.missing_health_percentage.player",
-      "with": [
-        {
-          "translate": "attribute.modifier.plus.1",
-          "with": [
-            "10",
-            {
-              "translate": "damage_condition.skilltree.melee"
-            }
-          ]
-        },
-        "10%"
-      ]
+      "text": "+5% Melee Damage per 10% missing health"
     },
     {
       "f_131101_": {

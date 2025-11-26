@@ -24,6 +24,24 @@
         },
         "type": "skilltree:skill_bonus"
       }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:evasion",
+      "id": "0536fe5e-36b1-41c8-887a-647ae8e3f96f",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "rad3:twohanded",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
     }
   ],
   "directConnections": [

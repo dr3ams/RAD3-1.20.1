@@ -9,8 +9,20 @@
     },
     {
       "type": "skilltree:gained_experience",
-      "multiplier": 0.15,
+      "multiplier": 0.25,
       "experience_source": "ore"
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "type": "skilltree:food"
+      },
+      "item_bonus": {
+        "effect": "better_beacons:long_reach",
+        "duration": 600,
+        "amplifier": 0,
+        "type": "skilltree:food_effect"
+      }
     }
   ],
   "directConnections": [],

@@ -4,9 +4,9 @@
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.max_health",
-      "id": "3ac00ddd-eac7-407e-9dab-8eb9af0720f8",
+      "id": "3c807a8e-fb20-4f71-a36e-9d8367d94d3a",
       "name": "Skill",
-      "amount": 0.5,
+      "amount": 1.0,
       "operation": 0,
       "player_multiplier": {
         "type": "skilltree:none"
@@ -14,6 +14,20 @@
       "player_condition": {
         "min": 15,
         "type": "skilltree:food_level"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "shieldinghealth:attribute.shieldinghealth.shield_regen",
+      "id": "2f485b22-d6e8-411b-b995-02cfb1d57e61",
+      "name": "Skill",
+      "amount": -5.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
       }
     }
   ],

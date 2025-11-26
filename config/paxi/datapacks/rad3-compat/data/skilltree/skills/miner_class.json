@@ -29,16 +29,28 @@
         },
         "type": "skilltree:has_item_in_hand"
       }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "pickaxe",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "amount": 200.0,
+        "operation": 0,
+        "type": "skilltree:durability"
+      }
     }
   ],
   "directConnections": [],
   "longConnections": [],
   "oneWayConnections": [
-	"skilltree:miner_offensive_1",
-	"skilltree:miner_defensive_1",
-	"skilltree:miner_defensive_crafting_1",
-	"skilltree:miner_offensive_crafting_1"
-    ],
+    "skilltree:miner_offensive_1",
+    "skilltree:miner_defensive_1",
+    "skilltree:miner_defensive_crafting_1",
+    "skilltree:miner_offensive_crafting_1"
+  ],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/class.png",
   "iconTexture": "skilltree:textures/icons/miner_class.png",
@@ -47,53 +59,5 @@
   "positionX": -131.63829,
   "positionY": 75.99579,
   "buttonSize": 24,
-  "isStartingPoint": true,
-  "description": [
-    {
-      "f_131101_": {
-        "f_131257_": 8092645
-      },
-      "translate": "living_condition.skilltree.has_item_in_hand",
-      "with": [
-        {
-          "translate": "attribute.modifier.plus.1",
-          "with": [
-            "15",
-            {
-              "translate": "skill_bonus.skilltree.block_break_speed"
-            }
-          ]
-        },
-        {
-          "translate": "living_condition.skilltree.has_item_in_hand.target.you"
-        },
-        {
-          "translate": "item_condition.skilltree.equipment_type.pickaxe"
-        }
-      ]
-    },
-    {
-      "f_131101_": {
-        "f_131257_": 8092645
-      },
-      "translate": "living_condition.skilltree.has_item_in_hand",
-      "with": [
-        {
-          "translate": "attribute.modifier.plus.0",
-          "with": [
-            "1",
-            {
-              "translate": "forge.block_reach"
-            }
-          ]
-        },
-        {
-          "translate": "living_condition.skilltree.has_item_in_hand.target.you"
-        },
-        {
-          "translate": "item_condition.skilltree.equipment_type.pickaxe"
-        }
-      ]
-    }
-  ]
+  "isStartingPoint": true
 }

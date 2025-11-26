@@ -4,15 +4,16 @@
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.max_health",
-      "id": "84bec9b1-6311-4c38-a00e-5a7161eacc6c",
+      "id": "44b5c0f3-0b79-4af3-80aa-e3fa2efb2676",
       "name": "SkillBonus",
-      "amount": 0.5,
+      "amount": 4.0,
       "operation": 0,
       "player_multiplier": {
-        "type": "skilltree:food_level"
+        "type": "skilltree:none"
       },
       "player_condition": {
-        "type": "skilltree:none"
+        "min": 15,
+        "type": "skilltree:food_level"
       }
     }
   ],

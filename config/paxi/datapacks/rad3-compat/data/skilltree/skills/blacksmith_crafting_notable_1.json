@@ -32,6 +32,30 @@
         "type": "skilltree:equipment_type"
       },
       "item_bonus": {
+        "skill_bonus": {
+          "attribute": "skilltree:evasion",
+          "id": "569971fd-85b2-4e9e-ab9d-fceecd43fda8",
+          "name": "Skill",
+          "amount": 3.0,
+          "operation": 0,
+          "player_multiplier": {
+            "type": "skilltree:none"
+          },
+          "player_condition": {
+            "type": "skilltree:none"
+          },
+          "type": "skilltree:attribute"
+        },
+        "type": "skilltree:skill_bonus"
+      }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "armor",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
         "amount": 100.0,
         "operation": 0,
         "type": "skilltree:durability"

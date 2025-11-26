@@ -2,11 +2,16 @@
   "id": "skilltree:blacksmith_healing_2",
   "bonuses": [
     {
-      "type": "skilltree:block_break_speed",
-      "player_condition": {
-        "type": "skilltree:none"
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "pickaxe",
+        "type": "skilltree:equipment_type"
       },
-      "multiplier": 0.1
+      "item_bonus": {
+        "amount": 100.0,
+        "operation": 0,
+        "type": "skilltree:durability"
+      }
     }
   ],
   "directConnections": [

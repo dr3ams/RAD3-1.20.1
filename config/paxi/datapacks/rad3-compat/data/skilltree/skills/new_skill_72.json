@@ -1,6 +1,37 @@
 {
   "id": "skilltree:new_skill_72",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+      "id": "8a1c69db-3205-4f73-a18b-79b823f06823",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "max": 0.25,
+        "type": "skilltree:health_percentage"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "id": "23b33996-43d7-49e3-8d1d-33dd9c6daa59",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "divisor": 10.0,
+        "type": "skilltree:missing_health_percentage"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
   "directConnections": [
     "skilltree:new_skill_67"
   ],

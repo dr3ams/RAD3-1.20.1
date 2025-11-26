@@ -26,6 +26,18 @@
         "target": "enemy",
         "type": "skilltree:damage_taken"
       }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "tag_id": "rad3:magicarmor",
+        "type": "skilltree:tag"
+      },
+      "item_bonus": {
+        "amount": 100.0,
+        "operation": 0,
+        "type": "skilltree:durability"
+      }
     }
   ],
   "directConnections": [

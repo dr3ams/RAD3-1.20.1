@@ -3,33 +3,29 @@
   "bonuses": [
     {
       "type": "skilltree:attribute",
-      "attribute": "ars_nouveau:ars_elemental.perk.summon_power",
-      "id": "66c3e1fe-e7b4-4b7e-9671-5fe7b4f01a5c",
+      "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+      "id": "15bc01e4-4a36-4a4c-8563-911d9d49e140",
       "name": "Skill",
-      "amount": 0.2,
+      "amount": 1.0,
       "operation": 0,
       "player_multiplier": {
         "type": "skilltree:none"
       },
       "player_condition": {
-        "item_condition": {
-          "id": "ars_elemental:summon_bangle",
-          "type": "skilltree:item_id"
-        },
-        "type": "skilltree:has_item_equipped"
+        "max": 0.5,
+        "type": "skilltree:health_percentage"
       }
     },
     {
       "type": "skilltree:attribute",
-      "attribute": "ars_nouveau:ars_elemental.perk.summon_power",
-      "id": "86ec5bcb-0b8a-4a4e-811a-035f63acee5e",
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "id": "15000358-edeb-4937-9c59-1ed202aa2b47",
       "name": "Skill",
-      "amount": 0.05,
-      "operation": 2,
+      "amount": 1.0,
+      "operation": 0,
       "player_multiplier": {
-        "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
-        "divisor": 1.0,
-        "type": "skilltree:attribute_value"
+        "divisor": 10.0,
+        "type": "skilltree:missing_health_percentage"
       },
       "player_condition": {
         "type": "skilltree:none"

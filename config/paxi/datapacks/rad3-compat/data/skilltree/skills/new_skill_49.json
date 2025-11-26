@@ -1,6 +1,41 @@
 {
   "id": "skilltree:new_skill_49",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "ars_nouveau:ars_elemental.perk.summon_power",
+      "id": "b2e6eb66-3b5b-4dcb-8184-a8ef76e02389",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "ars_elemental:summon_bangle",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "ars_nouveau:ars_elemental.perk.summon_power",
+      "id": "deb79ad1-3831-4766-a44f-97f118923934",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 2,
+      "player_multiplier": {
+        "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+        "divisor": 1.0,
+        "type": "skilltree:attribute_value"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
   "directConnections": [
     "skilltree:new_skill_37"
   ],

@@ -8,8 +8,29 @@
         "type": "skilltree:tag"
       },
       "item_bonus": {
-        "amount": 2,
+        "amount": 1,
         "type": "skilltree:sockets"
+      }
+    },
+    {
+      "type": "skilltree:inflict_damage",
+      "chance": 0.05,
+      "damage": 10.0,
+      "event_listener": {
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:evasion"
       }
     }
   ],

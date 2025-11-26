@@ -1,6 +1,43 @@
 {
   "id": "skilltree:new_skill_110",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "axe",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "amount": 100.0,
+        "operation": 0,
+        "type": "skilltree:durability"
+      }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "axe",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "skill_bonus": {
+          "attribute": "minecraft:generic.attack_damage",
+          "id": "433d4be7-85d3-4662-ac1d-b69f3fbe4515",
+          "name": "Skill",
+          "amount": 0.5,
+          "operation": 0,
+          "player_multiplier": {
+            "type": "skilltree:none"
+          },
+          "player_condition": {
+            "type": "skilltree:none"
+          },
+          "type": "skilltree:attribute"
+        },
+        "type": "skilltree:skill_bonus"
+      }
+    }
+  ],
   "directConnections": [
     "skilltree:new_skill_104"
   ],
@@ -8,7 +45,7 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "skilltree:textures/icons/void.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_1_crafting_1.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "positionX": 59.0402,
   "positionY": -502.7054,

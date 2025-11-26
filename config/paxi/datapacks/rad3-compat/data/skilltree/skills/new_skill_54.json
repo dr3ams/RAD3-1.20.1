@@ -4,9 +4,9 @@
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.max_health",
-      "id": "f13351d2-c90b-425b-ab1c-502cf476e9e4",
+      "id": "3198a93a-ce3b-4443-b127-35e63bfe0437",
       "name": "Skill",
-      "amount": 0.5,
+      "amount": 1.0,
       "operation": 0,
       "player_multiplier": {
         "type": "skilltree:none"
@@ -14,6 +14,20 @@
       "player_condition": {
         "min": 15,
         "type": "skilltree:food_level"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "shieldinghealth:attribute.shieldinghealth.shield_regen",
+      "id": "6bd125fd-c758-4d7f-97a7-364ae7c636eb",
+      "name": "Skill",
+      "amount": -5.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
       }
     }
   ],
@@ -28,7 +42,7 @@
   "iconTexture": "skilltree:textures/icons/cook_subclass_2_life_1.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "positionX": -11.366825,
-  "positionY": -539.29016,
+  "positionY": -538.78906,
   "buttonSize": 16,
   "isStartingPoint": false
 }

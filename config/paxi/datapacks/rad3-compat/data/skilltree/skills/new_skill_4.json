@@ -2,54 +2,18 @@
   "id": "skilltree:new_skill_4",
   "bonuses": [
     {
-      "type": "skilltree:damage",
-      "amount": -0.5,
-      "operation": 2,
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "67c5e304-3070-4c58-b58c-31da8965f3e3",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0,
       "player_multiplier": {
         "type": "skilltree:none"
       },
-      "enemy_multiplier": {
-        "type": "skilltree:none"
-      },
       "player_condition": {
-        "item_condition": {
-          "item_condition": {
-            "equipment_type": "weapon",
-            "type": "skilltree:equipment_type"
-          },
-          "type": "skilltree:enchanted"
-        },
-        "type": "skilltree:has_item_in_hand"
-      },
-      "damage_condition": {
-        "type": "skilltree:none"
-      },
-      "target_condition": {
-        "type": "skilltree:none"
-      }
-    },
-    {
-      "type": "skilltree:damage",
-      "amount": 0.5,
-      "operation": 2,
-      "player_multiplier": {
-        "type": "skilltree:none"
-      },
-      "enemy_multiplier": {
-        "type": "skilltree:none"
-      },
-      "player_condition": {
-        "item_condition": {
-          "equipment_type": "weapon",
-          "type": "skilltree:equipment_type"
-        },
-        "type": "skilltree:has_item_in_hand"
-      },
-      "damage_condition": {
-        "type": "skilltree:none"
-      },
-      "target_condition": {
-        "type": "skilltree:none"
+        "min": 15,
+        "type": "skilltree:food_level"
       }
     }
   ],
@@ -60,10 +24,10 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/notable.png",
-  "iconTexture": "skilltree:textures/icons/enchanter_offensive_1.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_lesser_1.png",
   "borderTexture": "skilltree:textures/tooltip/notable.png",
-  "title": "Enchant me not",
-  "positionX": 0.38461518,
+  "title": "Armor Toughness",
+  "positionX": 0.385,
   "positionY": -440.027,
   "buttonSize": 16,
   "isStartingPoint": false

@@ -1,6 +1,23 @@
 {
   "id": "skilltree:new_skill_25",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "ars_nouveau:ars_elemental.perk.summon_power",
+      "id": "de1b61ca-b66b-43e6-841f-621058e71abc",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 2,
+      "player_multiplier": {
+        "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+        "divisor": 1.0,
+        "type": "skilltree:attribute_value"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
   "directConnections": [
     "skilltree:new_skill_18"
   ],
