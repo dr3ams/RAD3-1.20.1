@@ -20,6 +20,22 @@
           "name": "minecraft:coal",
           "weight": 4
         },
+		{
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "kubejs:coin_dungeon",
+          "weight": 2
+        },
         {
           "type": "minecraft:item",
           "functions": [
