@@ -610,7 +610,7 @@ ServerEvents.recipes((event) => {
     "spelunkery:carved_nephrite"
   );
   event.replaceInput(
-    { output: "xpbook:xp_book" },
+    { output: "xpbook:xp_tome" },
     "minecraft:ender_pearl",
     "spelunkery:nephrite_chunk"
   );
@@ -1484,3 +1484,4 @@ ServerEvents.recipes((event) => {
 });
 
     
+
