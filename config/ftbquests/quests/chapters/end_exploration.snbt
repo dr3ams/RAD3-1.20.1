@@ -1,0 +1,632 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end_exploration"
+	group: "241F1DC7B6D6E9D6"
+	icon: "minecraft:end_portal_frame"
+	id: "770750D0370ECA36"
+	images: [{
+		height: 11.653846153846153d
+		image: "rad3:textures/misc/nebula.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 5.5d
+		y: 0.0d
+	}]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4DA5FD5537A3454C"]
+			id: "77F17C15B698F3CC"
+			rewards: [
+				{
+					count: 3
+					id: "0000000000000278"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "5F9788776D205820"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "1512838837E9F0A2"
+					item: "nameless_trinkets:blindfold"
+					type: "item"
+				}
+			]
+			shape: "octagon_important"
+			size: 2.0d
+			subtitle: "Enter the End portal"
+			tasks: [{
+				advancement: "minecraft:story/enter_the_end"
+				criterion: ""
+				id: "128FAC40150681E1"
+				type: "advancement"
+			}]
+			title: "This is the End....."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77F17C15B698F3CC"]
+			icon: "minecraft:dragon_head"
+			id: "6CDC6733BD84ACA1"
+			rewards: [
+				{
+					id: "1A77CF7500E23858"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3F88B68318835DD1"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					id: "772487868E6C3B04"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 3.5d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "178EE111694A84FC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CDC6733BD84ACA1"]
+			id: "01D2A7528EF5B6A6"
+			rewards: [{
+				id: "71FB50142E3B5EC9"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Respawn the Ender Dragon"
+			tasks: [{
+				advancement: "minecraft:end/respawn_dragon"
+				criterion: ""
+				id: "33FC909BAC6F4424"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6CDC6733BD84ACA1"]
+			id: "0A5F8CB7AF0AF2BA"
+			rewards: [{
+				id: "659680B7AB9C9200"
+				type: "xp"
+				xp: 200
+			}]
+			size: 2.0d
+			subtitle: "Escape the Island"
+			tasks: [{
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+				id: "56F1731DC44B96AD"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A5F8CB7AF0AF2BA"]
+			id: "241AD7C07B239921"
+			rewards: [
+				{
+					id: "24F991AB17494B8B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "4EE88268F2524F21"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "316A7969B84AD847"
+				item: "quark:myalite"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"427446946F3D879E"
+				"7634083BD68D50E6"
+				"2D06110B5FFBF593"
+				"53A1D28E602AE4A3"
+				"73A3563B25AE33B0"
+				"0C8E1D9B933DCF8E"
+				"5FD4F2A6A56ACF90"
+				"292195EFC543C544"
+				"46A764FD3B5A200B"
+				"312E91FEDE6AD514"
+				"1DF48B8BB3C3280F"
+				"187957920712EC2E"
+				"19E9F7E51FF0B487"
+				"019072942CD08248"
+				"41E7E3999273AAB3"
+				"4F55F3DFC40B035E"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Some hidden in dungeons, some scattered across the land, some belonging to powerful creatures. You will need 12 of these eyes in order to reach the End and fight the Ender Dragon."]
+			id: "4DA5FD5537A3454C"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				advancement: "minecraft:story/follow_ender_eye"
+				criterion: ""
+				id: "23AF130B6AE6344C"
+				type: "advancement"
+			}]
+			title: "The Mysterious Eyes"
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			id: "187957920712EC2E"
+			rewards: [{
+				id: "039964EE8E475183"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Take it from those who claim to rule the waves"
+			tasks: [{
+				id: "3DFD5820E0DB3403"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.5d
+		}
+		{
+			id: "019072942CD08248"
+			rewards: [{
+				id: "3725B06CE0051062"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Slay the Night Lich... or enhance another source of ice magic"
+			tasks: [{
+				id: "5D77D7C7C471B5A3"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.0d
+		}
+		{
+			id: "312E91FEDE6AD514"
+			rewards: [{
+				id: "30B23BDE602185FB"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Hidden in a grave somewhere"
+			tasks: [{
+				id: "5088E2EB0CEBFED3"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			id: "41E7E3999273AAB3"
+			rewards: [{
+				id: "2F64CCE7AD616FBF"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Slay a great contruct"
+			tasks: [{
+				id: "48E8D0C68B4F788A"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			id: "5FD4F2A6A56ACF90"
+			rewards: [{
+				id: "439269ABAF562B87"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			subtitle: "Held by one of the strongest beings of the Aether"
+			tasks: [{
+				id: "5B23BA44DD7A1D38"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -3.0d
+		}
+		{
+			id: "2D06110B5FFBF593"
+			rewards: [{
+				id: "57B3B7090305034B"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Slay the King of the Desert... or sieve the desert sands"
+			tasks: [{
+				id: "712DF0E715FEE24A"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -1.0d
+		}
+		{
+			id: "0C8E1D9B933DCF8E"
+			rewards: [{
+				id: "41449DB2FD3FE720"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			subtitle: "Delve deep into a Roguelike Dungeon"
+			tasks: [{
+				id: "69801F623A429712"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 1.0d
+		}
+		{
+			id: "19E9F7E51FF0B487"
+			rewards: [{
+				id: "625C36F180EEF80F"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Slay the Cursed King... or collect the curses he bears"
+			tasks: [{
+				id: "035F818FA1F67DB6"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 3.0d
+		}
+		{
+			id: "46A764FD3B5A200B"
+			rewards: [{
+				id: "23E87083F1452E80"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Bought from a Master Cleric"
+			tasks: [{
+				id: "0A563F3938012D23"
+				item: {
+					Count: 1
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.5d
+		}
+		{
+			id: "7634083BD68D50E6"
+			rewards: [{
+				id: "6C9319401A5600D6"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Slay Elder Guardians"
+			tasks: [{
+				id: "004C1C95AC376154"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			id: "427446946F3D879E"
+			rewards: [{
+				id: "3CDA9BFA1154DDAD"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Evokers and other magicians may possess one"
+			tasks: [{
+				id: "2E8DA2995D846365"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			id: "73A3563B25AE33B0"
+			rewards: [{
+				id: "60F1FD249FE22947"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			subtitle: "Summon and slay a Wither"
+			tasks: [{
+				id: "1C05A0F39012A54E"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			id: "53A1D28E602AE4A3"
+			rewards: [{
+				id: "754FD8ECB2BA668E"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Pluck the eye of an evil woman"
+			tasks: [{
+				id: "521FF08588E641E6"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			id: "4F55F3DFC40B035E"
+			rewards: [{
+				id: "74CADBA309F2493C"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Seek souls trapped between life and death"
+			tasks: [{
+				id: "6021940D861269A0"
+				item: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			id: "1DF48B8BB3C3280F"
+			rewards: [{
+				id: "7CC84B83585685F6"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Lost beneath the waves, or maybe floating above them"
+			tasks: [{
+				id: "4FC2FB055E8B122C"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "292195EFC543C544"
+			rewards: [{
+				id: "5057FA1C19555492"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			subtitle: "Use sculkshelves to infuse an eye"
+			tasks: [{
+				id: "0B7ED7041F01AC1A"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6CDC6733BD84ACA1"]
+			description: [
+				"Once the ender dragon is defeated, you can take her egg and hatch it yourself! Depending on the blocks around the egg when it is hatching, it may change into several different breed types. "
+				""
+				"The young dragon can be tamed with raw fish. Once it's fully grown, you can saddle it and ride on its back. Two dragons can be bred with raw fish to produce more dragon eggs."
+			]
+			id: "49FAA77F347564A9"
+			subtitle: "A worthy pet"
+			tasks: [{
+				id: "067078945FD3C2BC"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			id: "27AA755446014D36"
+			subtitle: "Surely you will be fine without at least one of these"
+			tasks: [{
+				id: "5EA6CDE8883162E7"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "l2complements:totemic_gold_helmet"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "l2complements:totemic_gold_chestplate"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "l2complements:totemic_gold_leggings"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 0
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "l2complements:totemic_gold_boots"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "l2hostility:ring_of_reflection"
+								tag: {
+									affix_data: {
+										sockets: 1
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "l2hostility:ring_of_divinity"
+								tag: {
+									affix_data: {
+										sockets: 1
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "l2hostility:curse_of_wrath"
+							}
+						]
+					}
+				}
+				title: "Purely optional equipment"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+	]
+	title: "End Exploration"
+}

@@ -5,14 +5,6 @@
 	group: "241F1DC7B6D6E9D6"
 	icon: "minecraft:netherrack"
 	id: "1D0517C3BEA06389"
-	images: [{
-		height: 11.653846153846153d
-		image: "rad3:textures/misc/nebula.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: 17.5d
-		y: 2.5d
-	}]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -524,8 +516,8 @@
 				item: "minecraft:blaze_rod"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 2.5d
+			x: 7.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["155E4E7BC087647A"]
@@ -547,11 +539,12 @@
 				item: "minecraft:brewing_stand"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 1.0d
+			x: 7.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["155E4E7BC087647A"]
+			description: ["See \"End Exploration\" chapter"]
 			id: "00000000000000BB"
 			rewards: [{
 				count: 3
@@ -559,14 +552,14 @@
 				item: "bonfires:titanite_chunk"
 				type: "item"
 			}]
-			subtitle: "Locate the End portal."
+			subtitle: "Used to craft other eyes"
 			tasks: [{
 				id: "5D82777831D07A11"
 				item: "minecraft:ender_eye"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 2.5d
+			x: 10.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2180E83A0BF99108"]
@@ -714,8 +707,8 @@
 				id: "65E9058E644A8CA4"
 				type: "advancement"
 			}]
-			x: 6.5d
-			y: 2.5d
+			x: 6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2180E83A0BF99108"]
@@ -750,8 +743,8 @@
 				id: "222A5F9405FD8918"
 				type: "advancement"
 			}]
-			x: 7.0d
-			y: 4.0d
+			x: 6.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["155E4E7BC087647A"]
@@ -774,194 +767,25 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["00000000000000BB"]
-			id: "77F17C15B698F3CC"
-			rewards: [
-				{
-					count: 3
-					id: "0000000000000278"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-				{
-					id: "5F9788776D205820"
-					item: "minecraft:enchanted_golden_apple"
-					type: "item"
-				}
-				{
-					id: "1512838837E9F0A2"
-					item: "nameless_trinkets:blindfold"
-					type: "item"
-				}
-			]
-			shape: "octagon_important"
-			size: 2.0d
-			subtitle: "Enter the End portal"
-			tasks: [{
-				advancement: "minecraft:story/enter_the_end"
-				criterion: ""
-				id: "128FAC40150681E1"
-				type: "advancement"
-			}]
-			title: "This is the End....."
-			x: 12.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["77F17C15B698F3CC"]
-			icon: "minecraft:dragon_head"
-			id: "6CDC6733BD84ACA1"
-			rewards: [
-				{
-					id: "1A77CF7500E23858"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "3F88B68318835DD1"
-					item: "minecraft:netherite_block"
-					type: "item"
-				}
-				{
-					id: "772487868E6C3B04"
-					item: "kubejs:diamond_coin"
-					type: "item"
-				}
-			]
-			shape: "none"
-			size: 4.0d
-			tasks: [{
-				entity: "minecraft:ender_dragon"
-				id: "178EE111694A84FC"
-				type: "kill"
-				value: 1L
-			}]
-			x: 17.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["6CDC6733BD84ACA1"]
-			id: "01D2A7528EF5B6A6"
-			rewards: [{
-				id: "71FB50142E3B5EC9"
-				item: "kubejs:gold_coin"
-				type: "item"
-			}]
-			subtitle: "Respawn the Ender Dragon"
-			tasks: [{
-				advancement: "minecraft:end/respawn_dragon"
-				criterion: ""
-				id: "33FC909BAC6F4424"
-				type: "advancement"
-			}]
-			x: 18.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["6CDC6733BD84ACA1"]
-			id: "0A5F8CB7AF0AF2BA"
-			rewards: [{
-				id: "659680B7AB9C9200"
-				type: "xp"
-				xp: 200
-			}]
-			size: 2.0d
-			subtitle: "Escape the Island"
-			tasks: [{
-				advancement: "minecraft:end/enter_end_gateway"
-				criterion: ""
-				id: "56F1731DC44B96AD"
-				type: "advancement"
-			}]
-			x: 21.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["241AD7C07B239921"]
-			id: "30EB863CBF1958F8"
-			rewards: [
-				{
-					id: "524BCBA00B0AA3B0"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "08C7D94F1A2391BF"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "6DDF71DF91984D36"
-				item: "quark:dusky_myalite"
-				type: "item"
-			}]
-			x: 22.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["0A5F8CB7AF0AF2BA"]
-			id: "241AD7C07B239921"
-			rewards: [
-				{
-					id: "24F991AB17494B8B"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "4EE88268F2524F21"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "316A7969B84AD847"
-				item: "quark:myalite"
-				type: "item"
-			}]
-			x: 23.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["241AD7C07B239921"]
-			id: "583DEE4BEBD427A8"
-			rewards: [
-				{
-					id: "70E2CC5DCC237831"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "5B70E093B4500769"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "060E9AA8C980C0FC"
-				item: "quark:myalite_crystal"
-				type: "item"
-			}]
-			x: 22.5d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["155E4E7BC087647A"]
 			description: ["Right click with the Estus Flask in your inventory to reinforce Estus Flask."]
 			id: "20C579D8989534F4"
+			rewards: [{
+				count: 2
+				id: "615AE55D988B1A9E"
+				item: "bonfires:estus_shard"
+				type: "item"
+			}]
 			tasks: [{
 				id: "061D75521E0BC031"
 				item: "bonfires:estus_shard"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 4.0d
+			x: 8.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["21CEC05CBFEA8B0E"]
@@ -1064,8 +888,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 7.5d
-			y: 5.5d
+			x: 7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["2180E83A0BF99108"]
@@ -1096,8 +920,8 @@
 				}
 			]
 			title: "This Boat Doesn't Have Legs"
-			x: 0.0d
-			y: 2.0d
+			x: 3.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1558B0B218B5C480"]
@@ -1432,38 +1256,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["2180E83A0BF99108"]
-			id: "32AB9B9DF85B030A"
-			rewards: [
-				{
-					id: "44B225B8F2CDD4E6"
-					item: "kubejs:coin_nether"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "0050F5D97A44B27A"
-					item: "minecraft:gold_nugget"
-					random_bonus: 99
-					type: "item"
-				}
-				{
-					id: "48207A88479FE84E"
-					item: "kubejs:gold_coin"
-					type: "item"
-				}
-			]
-			subtitle: "Defeat Nether Gauntlet Boss"
-			tasks: [{
-				advancement: "bosses_of_mass_destruction:nether/gauntlet_defeat"
-				criterion: ""
-				id: "305F9952B32D70C5"
-				type: "advancement"
-			}]
-			x: 3.5d
-			y: 3.0d
-		}
-		{
 			dependencies: ["1558B0B218B5C480"]
 			id: "7F3C962C1B71A066"
 			rewards: [
@@ -1576,12 +1368,13 @@
 					xp: 100
 				}
 			]
-			subtitle: "Kill a Restless Spirit"
+			subtitle: "hey wait... these guys don't drop skulls do they..."
 			tasks: [{
-				advancement: "incendium:withered_forest/kill_spirit"
-				criterion: ""
-				id: "102F632847B5C27C"
-				type: "advancement"
+				entity: "minecraft:wither_skeleton"
+				id: "1E32629F3AB83913"
+				title: "Kill: 10x Headless Warriors"
+				type: "kill"
+				value: 10L
 			}]
 			x: -5.0d
 			y: 0.5d
@@ -1753,6 +1546,140 @@
 			}]
 			x: 0.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["15BA69671841A79B"]
+			description: [
+				"These ender chests not only have more space than a normal one, they also don't need silk touch to be picked up. They still need a diamond-tier pick to be picked up, though."
+				""
+				"Items in the extra rows are inaccessable from smaller ender chests. But they are still there,"
+			]
+			id: "01568D4C30BBC9DB"
+			rewards: [{
+				id: "130580B7351C74C7"
+				item: "minecraft:shulker_box"
+				type: "item"
+			}]
+			subtitle: "Add more space to your ender chest!"
+			tasks: [{
+				id: "11630F974493C012"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "iron_ender_chests:netherite_ender_chest"
+							}
+							{
+								Count: 1b
+								id: "iron_ender_chests:diamond_ender_chest"
+							}
+							{
+								Count: 1b
+								id: "iron_ender_chests:iron_ender_chest"
+							}
+							{
+								Count: 1b
+								id: "iron_ender_chests:copper_ender_chest"
+							}
+							{
+								Count: 1b
+								id: "iron_ender_chests:gold_ender_chest"
+							}
+							{
+								Count: 1b
+								id: "iron_ender_chests:lapis_ender_chest"
+							}
+							{
+								Count: 1b
+								id: "iron_ender_chests:redstone_ender_chest"
+							}
+							{
+								Count: 1b
+								id: "iron_ender_chests:emerald_ender_chest"
+							}
+						]
+					}
+				}
+				title: "Upgraded Ender Chest"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2180E83A0BF99108"]
+			description: [
+				"Filling this block with Glowstone lets you extract Dimensional Tears using an empty bottle. Dimensional Tears can be drunk to teleport you back to the Respawn Anchor they came from. This works in any dimension."
+				""
+				"Just... be careful with this thing outside of the Nether."
+				""
+				"Oh? You wanted to use this to set your spawn? Why bother? Bonfires work in any dimension."
+			]
+			id: "5E8977CB9DC9D8F7"
+			rewards: [
+				{
+					count: 4
+					id: "634569844C9975BF"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4906E547C3E85B0E"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+				{
+					id: "2EA13D595E7DB401"
+					item: "kubejs:coin_nether"
+					type: "item"
+				}
+			]
+			subtitle: "expensive explosive"
+			tasks: [{
+				id: "232BBCF6E1560D94"
+				item: "minecraft:respawn_anchor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6668401BF4304212"]
+			description: ["you ate the eyeball, didn't you"]
+			id: "392C1149DCB09A4D"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "58B3DF1D90234E38"
+					item: "endrem:witch_pupil"
+					type: "item"
+				}
+				{
+					id: "5A4EC3D17ECEE8AD"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "monster_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/all_potions"
+				criterion: ""
+				id: "2004BE7DDDA06D1F"
+				secret: true
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 1.5d
 		}
 	]
 	title: "&4Nether Exploration&r"

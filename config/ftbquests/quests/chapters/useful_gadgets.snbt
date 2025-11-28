@@ -883,6 +883,7 @@
 			y: -2.5d
 		}
 		{
+			description: ["Only falls when it has a redstone signal. Nearby gravisand will all fall together when one is triggered. If triggered and it can't fall down, it'll fall up instead."]
 			id: "0621EAC9A5EA4922"
 			rewards: [{
 				id: "2E035BABE7BC9183"
@@ -1074,30 +1075,6 @@
 			y: 0.0d
 		}
 		{
-			description: ["Place an animal's food in it and it will automatically breed animals for you"]
-			id: "0F2C34DE6C2B56B8"
-			rewards: [{
-				id: "1A1860E36FFB2361"
-				type: "xp"
-				xp: 250
-			}]
-			tasks: [{
-				id: "279B65C002745788"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "quark:feeding_trough"
-				}
-				type: "item"
-			}]
-			x: 9.5d
-			y: 2.5d
-		}
-		{
 			description: ["Can only be activated by players."]
 			id: "74F87F4236CA401E"
 			rewards: [{
@@ -1122,6 +1099,7 @@
 			y: -0.5d
 		}
 		{
+			description: ["Lets you extract items and fluids from the side of a block, like some sort of sideways hopper."]
 			id: "7BCFB03C015392A9"
 			rewards: [{
 				count: 2
@@ -1176,6 +1154,11 @@
 			description: ["Allows crafting of skeleton decorations from bone blocks."]
 			icon: "graveyard:ossuary"
 			id: "4E3787464BABD948"
+			rewards: [{
+				id: "599713D2CCE39727"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				icon: "graveyard:ossuary"
 				id: "5504E32B91DD2C5D"
@@ -1184,8 +1167,8 @@
 				to_observe: "graveyard:ossuary"
 				type: "observation"
 			}]
-			x: 2.5d
-			y: -1.5d
+			x: 9.5d
+			y: 2.5d
 		}
 	]
 	title: "&2Useful Gadgets&r"
