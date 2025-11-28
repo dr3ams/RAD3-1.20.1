@@ -993,12 +993,14 @@ ItemEvents.tooltip(event =>{
         ])
      }
 	})
-  
-	event.addAdvanced('cataclysm:amethyst_crab_meat', (item, advanced, text) => {
-    text.add(1, Text.of('Dropped from Amethyst Crab mini-boss found rarely in the Lush Caves biome')) 
-	})
-	event.addAdvanced('minecraft:phantom_membrane', (item, advanced, text) => {
-    text.add(1, Text.of('Can be found in Dungeon Crawl dungeons or loot crates ')) 
+  	event.addAdvanced('#rad3:decapitating', (item, advanced, text) => {
+      text.add(1, [
+		Text.of('Has a ').white(),
+        Text.of('25% ').yellow(),
+        Text.of('chance to ').white(),
+        Text.of('behead ').red(),
+		Text.of('a slain mob').white()
+      ])
 	})
 	event.addAdvanced('sophisticatedstorage:chest', (item, advanced, text) => {
     text.add(1, Text.of('Cannot be stored in a capsule. ')) 
@@ -1031,6 +1033,100 @@ ItemEvents.tooltip(event =>{
     text.add(3, Text.of('Barrels work just fine!'))
 	})
 
+
+    // drop info
+	event.addAdvanced('cataclysm:amethyst_crab_meat', (item, advanced, text) => {
+    text.add(1, Text.of('Dropped from Amethyst Crab mini-boss found rarely in the Lush Caves biome').gray()) 
+	})
+	event.addAdvanced('cataclysm:amethyst_crab_shell', (item, advanced, text) => {
+    text.add(1, Text.of('Dropped from Amethyst Crab mini-boss found rarely in the Lush Caves biome').gray()) 
+	})
+	event.addAdvanced('hmag:ancient_stone', (item, advanced, text) => {
+    text.add(1, Text.of('Dropped from Elder Guardians and Monoliths').gray()) 
+	})
+	event.addAdvanced('hmag:kobold_leather', (item, advanced, text) => {
+    text.add(1, Text.of('Dropped from Kobold found rarely underground').gray()) 
+	})
+	event.addAdvanced('hmag:ogre_horn', (item, advanced, text) => {
+    text.add(1, Text.of('Dropped from Ogre found rarely underground').gray()) 
+	})
+	event.addAdvanced('hmag:lich_cloth', (item, advanced, text) => {
+    text.add(1, Text.of('Dropped from Lich found rarely underground').gray()) 
+	})
+	event.addAdvanced('hmag:necrofiber', (item, advanced, text) => {
+    text.add(1, Text.of('Dropped from Necrostalker found rarely underground').gray()) 
+	})
+	event.addAdvanced('hmag:ender_plasm', (item, advanced, text) => {
+    text.add(1, Text.of('Dropped from Ender Executor found rarely with Endermen').gray()) 
+	})
+	event.addAdvanced('hmag:crimson_cuticula', (item, advanced, text) => {
+    text.add(1, Text.of('Dropped from Crimson Slaughterer found rarely in Crimson Forests').gray()) 
+	})
+	event.addAdvanced('hmag:dyssomnia_skin', (item, advanced, text) => {
+    text.add(1, Text.of('Dropped from Dyssomnia, which attacks sleepless players').gray()) 
+	})
+	event.addAdvanced('hmag:mysterious_petal', (item, advanced, text) => {
+    text.add(1, Text.of('Dropped from Alraune found rarely in Jungles').gray()) 
+	})
+	event.addAdvanced('hmag:sharp_fang', (item, advanced, text) => {
+    text.add(1, Text.of('Dropped from Snow Canine found rarely in snowy biomes').gray()) 
+	})
+	event.addAdvanced('hmag:burning_core', (item, advanced, text) => {
+    text.add(1, Text.of('Dropped from Fortress Keeper found rarely in Nether Fortresses').gray()) 
+	})
+	event.addAdvanced('hmag:cubic_nucleus', (item, advanced, text) => {
+    text.add(1, Text.of('Dropped from Slime Girl found rarely in Swamps').gray()) 
+	})
+	event.addAdvanced('hmag:evil_crystal_fragment', (item, advanced, text) => {
+    text.add(1, Text.of('Dropped from evil women').gray()) 
+	})
+	event.addAdvanced('hmag:lightning_particle', (item, advanced, text) => {
+    text.add(1, Text.of('Dropped from charged creepers').gray()) 
+	})
+	event.addAdvanced('bosses_of_mass_destruction:ancient_anima', (item, advanced, text) => {
+    text.add(1, Text.of('Dropped from the Night Lich boss').gray()) 
+	})
+	event.addAdvanced('bosses_of_mass_destruction:blazing_eye', (item, advanced, text) => {
+    text.add(1, Text.of('Dropped from the Nether Gauntlet boss').gray()) 
+	})
+	event.addAdvanced('bosses_of_mass_destruction:obsidian_heart', (item, advanced, text) => {
+    text.add(1, Text.of('Dropped from the Obsidilith boss').gray()) 
+	})
+	event.addAdvanced('bosses_of_mass_destruction:void_thorn', (item, advanced, text) => {
+    text.add(1, Text.of('Dropped from the Void Blossom boss').gray()) 
+	})
+	// item info
+	event.addAdvanced('hmag:insomnia_fruit', (item, advanced, text) => {
+    text.add(1, Text.of('Becomes stronger the longer you go without sleep').gray()) 
+	})
+	event.addAdvanced('hmag:insomnia_sword', (item, advanced, text) => {
+    text.add(1, Text.of('Becomes stronger the longer you go without sleep').gray()) 
+	})
+	event.addAdvanced('hmag:nemesis_blade', (item, advanced, text) => {
+    text.add(1, Text.of('Becomes stronger the less experience you have').gray()) 
+	})
+	event.addAdvanced('hmag:crimson_bow', (item, advanced, text) => {
+    text.add(1, Text.of('Becomes stronger the hungrier you are').gray()) 
+	})
+	event.addAdvanced('hmag:fortress_shield', (item, advanced, text) => {
+    text.add(1, Text.of('Ignites attackers').gray()) 
+	})
+	event.addAdvanced('hmag:bat_stew', (item, advanced, text) => {
+    text.add(1, Text.of('Gives darkness immunity').gray()) 
+	})
+	event.addAdvanced('#hmag:reinforced_blocks', (item, advanced, text) => {
+    text.add(1, Text.of('Immune to Withers').gray()) 
+	})
+	event.addAdvanced('darkerdepths:void_soul_jar', (item, advanced, text) => {
+    text.add(1, Text.of('Capture a void soul in a glass bottle').gray()) 
+	})
+	event.addAdvanced('minecraft:reinforced_deepslate', (item, advanced, text) => {
+    text.add(1, Text.of('Can only be harvested by a Sculkium Pickaxe').gray()) 
+	})
+	
+	
+	
+	
 
 	//Gear Upgrades
 	event.addAdvanced('kubejs:upgrade_swift', (item, advanced, text) => {
