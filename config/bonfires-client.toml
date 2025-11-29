@@ -1,7 +1,15 @@
 #Whether to Render the name of the Bonfire above the Bonfire, default:true
 "Render Text Above Bonfire" = true
 #Set the icons to display for the dimension tabs in the Bonfire GUI, mod:dimensionname=mod:itemname
-"Bonfire Dimension Tab Icons" = ["minecraft:overworld=minecraft:grass_block", "minecraft:the_nether=minecraft:netherrack", "the_bumblezone:the_bumblezone=minecraft:bee_nest", "aether:the_aether=aether:aether_grass_block", "landsoficaria:icaria=landsoficaria:grassy_marl", "undergarden:undergarden=undergarden:deepturf_block", "minecraft:the_end=minecraft:end_stone", "dimdungeons:build_dimension=minecraft:stone_bricks", "dimdungeons:dungeon_dimension=dimdungeons:block_portal_keyhole", "bloodmagic:dungeon=bloodmagic:dungeon_eye", "lrdynamicdungeon:dungeon_dimension=lrdynamicdungeon:portal_block", "mining_dimension:mining=mining_dimension:teleporter"]
+"Bonfire Dimension Tab Icons" = ["minecraft:overworld=minecraft:grass_block",
+ "minecraft:the_nether=minecraft:netherrack",
+ "the_bumblezone:the_bumblezone=minecraft:bee_nest",
+ "aether:the_aether=aether:aether_grass_block",
+ "landsoficaria:icaria=landsoficaria:grassy_marl",
+ "undergarden:undergarden=undergarden:deepturf_block",
+ "minecraft:the_end=minecraft:end_stone",
+ "dimdungeons:build_dimension=minecraft:stone_bricks",
+ "mining_dimension:mining=mining_dimension:teleporter"]
 #Whether to render screenshots of the Bonfires in the Bonfire GUI, default:true
 "Render Screenshots in GUI" = true
 #Enables creating a screenshot of a Bonfire when it is created, default:true
@@ -9,7 +17,7 @@
 #Whether to delete Bonfire screenshots when the Bonfire is destroyed, default:true
 "Delete Screenshots on Destroyed" = true
 #List of dimensions to hide from the Bonfire GUI useful if you can't place a bonfire in the dimension, mod:dimensionname
-"Hidden Dimensions in GUI" = ["graveyard:past"]
+"Hidden Dimensions in GUI" = ["dimdungeons:dungeon_dimension", "bloodmagic:dungeon", "lrdynamicdungeon:dungeon_dimension", "graveyard:past"]
 #Disable particles from lit Bonfires, default:false
 "Disable Bonfire Particles" = false
 #Sound to use when a Bonfire is lit, set to empty string to disable, default:"minecraft:block.campfire.crackle"
