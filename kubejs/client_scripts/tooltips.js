@@ -1123,6 +1123,54 @@ ItemEvents.tooltip(event =>{
 	event.addAdvanced('minecraft:reinforced_deepslate', (item, advanced, text) => {
     text.add(1, Text.of('Can only be harvested by a Sculkium Pickaxe').gray()) 
 	})
+	event.addAdvanced('ancient_aether:valkyrum_ore', (item, advanced, text) => {
+    text.add(1, Text.of('Can only be harvested by a Divine Pickaxe... or explosives').gray()) 
+	})
+	event.addAdvanced('landsoficaria:yellowstone', (item, advanced, text) => {
+    text.add(1, Text.of('Can only be harvested by a Chert Pickaxe or better... or explosives').gray()) 
+	})
+	event.addAdvanced('landsoficaria:lignite_ore', (item, advanced, text) => {
+    text.add(1, Text.of('Can only be harvested by a Chert Pickaxe or better... or explosives').gray()) 
+	})
+	event.addAdvanced('landsoficaria:chalkos_ore', (item, advanced, text) => {
+    text.add(1, Text.of('Can only be harvested by a Chert Pickaxe or better... or explosives').gray()) 
+	})
+	event.addAdvanced('landsoficaria:silkstone', (item, advanced, text) => {
+    text.add(1, Text.of('Can only be harvested by a Chalkos Pickaxe or better... or explosives').gray()) 
+	})
+	event.addAdvanced('landsoficaria:kassiteros_ore', (item, advanced, text) => {
+    text.add(1, Text.of('Can only be harvested by a Chalkos Pickaxe or better... or explosives').gray()) 
+	})
+	event.addAdvanced('landsoficaria:dolomite_ore', (item, advanced, text) => {
+    text.add(1, Text.of('Can only be harvested by a Chalkos Pickaxe or better... or explosives').gray()) 
+	})
+	event.addAdvanced('landsoficaria:sunstone', (item, advanced, text) => {
+    text.add(1, Text.of('Can only be harvested by an Orichalcum Pickaxe or better... or explosives').gray()) 
+	})
+	event.addAdvanced('landsoficaria:vanadium_ore', (item, advanced, text) => {
+    text.add(1, Text.of('Can only be harvested by an Orichalcum Pickaxe or better... or explosives').gray()) 
+	})
+	event.addAdvanced('landsoficaria:sliver_ore', (item, advanced, text) => {
+    text.add(1, Text.of('Can only be harvested by an Orichalcum Pickaxe or better... or explosives').gray()) 
+	})
+	event.addAdvanced('landsoficaria:voidshale', (item, advanced, text) => {
+    text.add(1, Text.of('Can only be harvested by a Vanadiumsteel Pickaxe or better... or explosives').gray()) 
+	})
+	event.addAdvanced('landsoficaria:sideros_ore', (item, advanced, text) => {
+    text.add(1, Text.of('Can only be harvested by a Vanadiumsteel Pickaxe or better... or explosives').gray()) 
+	})
+	event.addAdvanced('landsoficaria:anthracite_ore', (item, advanced, text) => {
+    text.add(1, Text.of('Can only be harvested by a Vanadiumsteel Pickaxe or better... or explosives').gray()) 
+	})
+	event.addAdvanced('landsoficaria:baetyl', (item, advanced, text) => {
+    text.add(1, Text.of('Can only be harvested by a Sideros Pickaxe or better... or explosives').gray()) 
+	})
+	event.addAdvanced('landsoficaria:molybdenum_ore', (item, advanced, text) => {
+    text.add(1, Text.of('Can only be harvested by a Sideros Pickaxe or better... or explosives').gray()) 
+	})
+	event.addAdvanced('landsoficaria:hyliastrum_ore', (item, advanced, text) => {
+    text.add(1, Text.of('Can only be harvested by a Sideros Pickaxe or better... or explosives').gray()) 
+	})
 	
 	
 	
