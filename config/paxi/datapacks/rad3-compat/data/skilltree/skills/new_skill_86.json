@@ -3,7 +3,7 @@
   "bonuses": [
     {
       "type": "skilltree:mob_effect",
-      "chance": 0.15,
+      "chance": 0.1,
       "effect": "celestial_core:violent",
       "duration": 200,
       "amplifier": 0,
@@ -29,6 +29,26 @@
         },
         "target": "player",
         "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "455a3d76-d18d-40b0-830a-3ac825b7fd17",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 0,
+      "player_multiplier": {
+        "attribute": "skilltree:blocking",
+        "divisor": 1.0,
+        "type": "skilltree:attribute_value"
+      },
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "rad3:twohanded",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_equipped"
       }
     }
   ],

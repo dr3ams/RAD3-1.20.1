@@ -7,20 +7,8 @@
         "type": "skilltree:food"
       },
       "item_bonus": {
-        "effect": "minecraft:resistance",
-        "duration": 600,
-        "amplifier": 0,
-        "type": "skilltree:food_effect"
-      }
-    },
-    {
-      "type": "skilltree:crafted_item_bonus",
-      "item_condition": {
-        "type": "skilltree:food"
-      },
-      "item_bonus": {
-        "effect": "minecraft:haste",
-        "duration": 600,
+        "effect": "tombstone:restoration",
+        "duration": 300,
         "amplifier": 0,
         "type": "skilltree:food_effect"
       }
@@ -39,5 +27,32 @@
   "positionX": 0.06949997,
   "positionY": -573.39465,
   "buttonSize": 32,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "skill_bonus.skilltree.crafted_item_bonus",
+      "with": [
+        {
+          "translate": "item_condition.skilltree.food"
+        },
+        {
+          "f_131101_": {
+            "f_131257_": 8041442
+          },
+          "translate": "item_bonus.skilltree.food_effect",
+          "with": [
+            {
+              "translate": "effect.tombstone.restoration"
+            },
+            {
+              "text": "00:15"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

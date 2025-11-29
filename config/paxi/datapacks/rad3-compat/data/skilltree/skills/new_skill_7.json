@@ -1,6 +1,22 @@
 {
   "id": "skilltree:new_skill_7",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "potion_type": "any",
+        "type": "skilltree:potion"
+      },
+      "item_bonus": {
+        "multiplier": 0.1,
+        "type": "skilltree:potion_duration"
+      }
+    },
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:extra_bombs"
+    }
+  ],
   "directConnections": [
     "skilltree:alchemist_mastery"
   ],
@@ -8,7 +24,7 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/notable.png",
-  "iconTexture": "skilltree:textures/icons/void.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_offensive_crafting_keystone_1.png",
   "borderTexture": "skilltree:textures/tooltip/notable.png",
   "positionX": 0.0029907227,
   "positionY": 443.52728,

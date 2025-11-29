@@ -1,6 +1,21 @@
 {
   "id": "skilltree:new_skill_63",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "l2damagetracker:explosion_damage",
+      "id": "606b7bb1-f890-481e-b945-a0f44180440e",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
   "directConnections": [
     "skilltree:new_skill_57"
   ],
@@ -8,10 +23,10 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "skilltree:textures/icons/void.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_1_mastery.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "positionX": 34.0,
-  "positionY": 576.874,
+  "positionX": 33.642857,
+  "positionY": 577.23193,
   "buttonSize": 16,
   "isStartingPoint": false
 }

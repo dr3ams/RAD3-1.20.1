@@ -7,10 +7,36 @@
         "type": "skilltree:food"
       },
       "item_bonus": {
-        "effect": "minecraft:regeneration",
+        "effect": "ars_nouveau:shielding",
         "duration": 600,
         "amplifier": 0,
         "type": "skilltree:food_effect"
+      }
+    },
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.1,
+      "effect": "ars_nouveau:blasting",
+      "duration": 60,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
       }
     }
   ],
@@ -26,5 +52,67 @@
   "positionX": 70.03,
   "positionY": -479.142,
   "buttonSize": 20,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "skill_bonus.skilltree.crafted_item_bonus",
+      "with": [
+        {
+          "translate": "item_condition.skilltree.food"
+        },
+        {
+          "f_131101_": {
+            "f_131257_": 8041442
+          },
+          "translate": "item_bonus.skilltree.food_effect",
+          "with": [
+            {
+              "translate": "effect.ars_nouveau.shielding"
+            },
+            {
+              "text": "00:30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "event_listener.skilltree.attack",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.1",
+          "with": [
+            "10",
+            {
+              "translate": "skill_bonus.skilltree.mob_effect.enemy.chance",
+              "with": [
+                {
+                  "translate": "effect.ars_nouveau.blasting"
+                },
+                {
+                  "translate": "skill_bonus.skilltree.mob_effect.duration",
+                  "with": [
+                    "00:03"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8553090
+      },
+      "f_131103_": true,
+      "text": "(Blasting causes the target to explode, dealing AOE explosion damage.)"
+    }
+  ]
 }

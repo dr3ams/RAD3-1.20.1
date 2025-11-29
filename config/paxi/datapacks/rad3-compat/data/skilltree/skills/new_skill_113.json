@@ -1,6 +1,63 @@
 {
   "id": "skilltree:new_skill_113",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.05,
+      "effect": "fruitsdelight:recovering",
+      "duration": 200,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "effect": "minecraft:poison",
+          "amplifier": 0,
+          "type": "skilltree:has_effect"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:damage_taken"
+      }
+    },
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.05,
+      "effect": "fruitsdelight:recovering",
+      "duration": 200,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "effect": "minecraft:wither",
+          "amplifier": 0,
+          "type": "skilltree:has_effect"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:damage_taken"
+      }
+    }
+  ],
   "directConnections": [
     "skilltree:new_skill_107"
   ],
@@ -8,7 +65,7 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/notable.png",
-  "iconTexture": "skilltree:textures/icons/void.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_defensive_notable_1.png",
   "borderTexture": "skilltree:textures/tooltip/notable.png",
   "positionX": -77.96,
   "positionY": 482.622,

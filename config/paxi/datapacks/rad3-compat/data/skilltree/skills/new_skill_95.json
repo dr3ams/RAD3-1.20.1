@@ -1,6 +1,25 @@
 {
   "id": "skilltree:new_skill_95",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "l2damagetracker:magic_damage",
+      "id": "3c2f9585-565f-4f67-98b0-8a031de26ccd",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "potion_type": "any",
+          "type": "skilltree:potion"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
   "directConnections": [
     "skilltree:new_skill_89"
   ],
@@ -8,7 +27,7 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "skilltree:textures/icons/void.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_class.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "positionX": -44.99008,
   "positionY": 553.311,

@@ -2,27 +2,36 @@
   "id": "skilltree:hunter_subclass_1_crafting_5",
   "bonuses": [
     {
-      "type": "skilltree:crafted_item_bonus",
-      "item_condition": {
-        "equipment_type": "armor",
-        "type": "skilltree:equipment_type"
+      "type": "skilltree:damage",
+      "amount": 0.3,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
       },
-      "item_bonus": {
-        "skill_bonus": {
-          "attribute": "skilltree:stealth",
-          "id": "b74dda9b-553d-416a-a649-7b446f77c6d4",
-          "name": "SkillBonus",
-          "amount": 1.0,
-          "operation": 0,
-          "player_multiplier": {
-            "type": "skilltree:none"
-          },
-          "player_condition": {
-            "type": "skilltree:none"
-          },
-          "type": "skilltree:attribute"
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "effect": "minecraft:bad_omen",
+        "amplifier": 0,
+        "type": "skilltree:has_effect"
+      },
+      "damage_condition": {
+        "type": "skilltree:projectile"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:command",
+      "command": "summon area_effect_cloud ~ ~ ~ {Passengers:[{id:\"minecraft:vindicator\"},{id:\"minecraft:vindicator\"},{id:\"minecraft:pillager\"}]}",
+      "description": "Learning this skill may lead to unpleasant consequences",
+      "event_listener": {
+        "player_multiplier": {
+          "type": "skilltree:none"
         },
-        "type": "skilltree:skill_bonus"
+        "type": "skilltree:skill_learned"
       }
     }
   ],
@@ -33,11 +42,12 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "skilltree:textures/icons/hunter_subclass_1_crafting_1.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_special_1.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Tiger Outlaw",
   "titleColor": "",
-  "positionX": 238.89299,
-  "positionY": 349.80698,
+  "positionX": 238.893,
+  "positionY": 349.807,
   "buttonSize": 16,
   "isStartingPoint": false
 }

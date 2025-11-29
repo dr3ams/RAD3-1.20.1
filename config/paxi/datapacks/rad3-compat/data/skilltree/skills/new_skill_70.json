@@ -5,6 +5,18 @@
       "type": "skilltree:gained_experience",
       "multiplier": 0.05,
       "experience_source": "ore"
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "shovel",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "amount": 100.0,
+        "operation": 0,
+        "type": "skilltree:durability"
+      }
     }
   ],
   "directConnections": [

@@ -1,0 +1,26 @@
+{
+  "type": "skilltree:crafting_shaped",
+  "category": "misc",
+  "group": "bombs",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "T": {
+      "item": "minecraft:tnt"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    " IS",
+    "ITI",
+    " I "
+  ],
+  "result": {
+    "item": "supplementaries:bomb",
+	"count": 8
+  },
+  "show_notification": true
+}

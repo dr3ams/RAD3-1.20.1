@@ -1,6 +1,25 @@
 {
   "id": "skilltree:new_skill_51",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "l2damagetracker:explosion_damage",
+      "id": "c4835abc-0885-494e-b5f0-66687a535901",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "supplementaries:bomb",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
   "directConnections": [
     "skilltree:new_skill_39",
     "skilltree:new_skill_57"
@@ -9,10 +28,10 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "skilltree:textures/icons/void.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_1_mastery.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "positionX": 13.004431,
-  "positionY": 544.0431,
+  "positionY": 544.7589,
   "buttonSize": 16,
   "isStartingPoint": false
 }

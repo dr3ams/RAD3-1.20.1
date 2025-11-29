@@ -1,6 +1,22 @@
 {
   "id": "skilltree:new_skill_21",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:fire_damage",
+      "id": "d89de5c2-7320-4cd3-9418-cfd54a10dca0",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "min": 3,
+        "type": "skilltree:effect_amount"
+      }
+    }
+  ],
   "directConnections": [
     "skilltree:new_skill_20"
   ],
@@ -8,10 +24,10 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "skilltree:textures/icons/void.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_1.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "positionX": -12.996289,
-  "positionY": 492.04437,
+  "positionY": 491.68646,
   "buttonSize": 16,
   "isStartingPoint": false
 }

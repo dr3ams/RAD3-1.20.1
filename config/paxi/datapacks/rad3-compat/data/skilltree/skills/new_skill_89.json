@@ -1,6 +1,25 @@
 {
   "id": "skilltree:new_skill_89",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "l2damagetracker:magic_damage",
+      "id": "5dcb5adb-8111-405b-996e-00e0f8dfd2b9",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "potion_type": "any",
+          "type": "skilltree:potion"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
   "directConnections": [
     "skilltree:new_skill_57"
   ],
@@ -8,10 +27,42 @@
   "oneWayConnections": [],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "skilltree:textures/icons/void.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_class.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "positionX": -34.0,
   "positionY": 576.874,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "living_condition.skilltree.has_item_in_hand",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.0",
+          "with": [
+            "1",
+            {
+              "translate": "attribute.l2damagetracker.magic_damage"
+            }
+          ]
+        },
+        {
+          "translate": "living_condition.skilltree.has_item_in_hand.target.you"
+        },
+        {
+          "translate": "item_condition.skilltree.potion.any"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8553090
+      },
+      "f_131103_": true,
+      "text": "(Magic Damage multiplies Potion Damage)"
+    }
+  ]
 }

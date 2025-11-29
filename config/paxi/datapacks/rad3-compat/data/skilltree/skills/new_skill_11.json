@@ -43,5 +43,34 @@
   "positionX": -12.616825,
   "positionY": -462.54285,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "living_condition.skilltree.food_level.min",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.0",
+          "with": [
+            "1",
+            {
+              "translate": "attribute.name.generic.max_health"
+            }
+          ]
+        },
+        {
+          "translate": "living_condition.skilltree.food_level.target.you"
+        },
+        "15"
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "text": "-5 Shield Regen Delay Speed"
+    }
+  ]
 }
