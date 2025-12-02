@@ -50,13 +50,12 @@
     },
     {
         "mob": "landsoficaria:nether_pyromancer_revenant",
-        "mincount": {
-            "amount": 2,
-            "hostile": true,
-            "perplayer": true
+		"mincount": {
+            "amount": 1,
+            "perchunk": true
         },
-        "result": "deny"
-    },
+		"result": "deny"
+	},
     {
         "spawner": false,
         "structure": false,
@@ -92,13 +91,12 @@
     {
         "spawner": false,
         "mob": "aether:cockatrice",
-        "mincount": {
-            "amount": 5,
-            "hostile": true,
-            "perplayer": true
+		"mincount": {
+            "amount": 2,
+            "perchunk": true
         },
-        "result": "deny"
-    },
+		"result": "deny"
+	},
     {
         "spawner": false,
         "mob": "mowziesmobs:naga",
@@ -122,10 +120,10 @@
     },
 	{
         "mob": [
-            "minecraft:sniffer",
-            "minecraft:donkey"
+            "minecraft:sniffer"
         ],
         "when": "onjoin",
         "result": "deny"
     }
+
 ]
