@@ -952,7 +952,7 @@ ServerEvents.recipes((event) => {
     'DEF',
     'GHI'
 	], {
-    A: 'minecraft:coal_ore',
+    A: 'minecraft:emerald_ore',
 	B: 'darkerdepths:porous_petrified_log',
 	C: 'spelunkery:sandstone_lapis_ore',
 	D: 'minecraft:deepslate_diamond_ore',
@@ -1499,5 +1499,6 @@ ServerEvents.recipes((event) => {
 });
 
     
+
 
 
