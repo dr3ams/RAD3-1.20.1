@@ -917,35 +917,50 @@ ServerEvents.recipes((event) => {
 	E: 'undergarden:glitterkelp',
 	B: 'undergarden:raw_gwibling'
   });
+//  event.shaped('mining_dimension:teleporter', [
+//    'ABC',
+//    'DEF',
+//    'GHI'
+//	], {
+//	A: 'bloodmagic:infusedslate',
+//	B: 'celestial_core:earth_core',
+//	C: 'undergarden:regalium_crystal',
+//	D: 'bloodmagic:lavacrystal',
+//	E: 'minecraft:netherite_pickaxe',
+//	F: 'embers:dawnstone_ingot',
+//	G: 'spelunkery:compression_blast_miner',
+//	H: 'ars_nouveau:earth_essence',
+//	I: 'embers:ember_bore'
+//  });	
+//  event.shaped('mining_dimension:teleporter', [
+//    'ABC',
+//    'DEF',
+//    'GHI'
+//	], {
+//	A: 'l2complements:sculkium_ingot',
+//	B: 'celestial_core:earth_core',
+//	C: 'undergarden:utherium_crystal',
+//	D: 'l2complements:explosion_shard',
+//	E: 'minecraft:netherite_pickaxe',
+//	F: 'cataclysm:black_steel_ingot',
+//	G: 'cataclysm:amethyst_crab_shell',
+//	H: 'aether_redux:gravitite_ingot',
+//	I: 'hmag:ancient_stone'
+//  });	
   event.shaped('mining_dimension:teleporter', [
     'ABC',
     'DEF',
     'GHI'
 	], {
-    A: 'bloodmagic:infusedslate',
-	B: 'celestial_core:earth_core',
-	C: 'undergarden:regalium_crystal',
-	D: 'bloodmagic:lavacrystal',
+    A: 'minecraft:coal_ore',
+	B: 'darkerdepths:porous_petrified_log',
+	C: 'spelunkery:sandstone_lapis_ore',
+	D: 'minecraft:deepslate_diamond_ore',
 	E: 'minecraft:netherite_pickaxe',
-	F: 'embers:dawnstone_ingot',
-	G: 'spelunkery:compression_blast_miner',
-	H: 'ars_nouveau:earth_essence',
-	I: 'embers:ember_bore'
-  });	
-  event.shaped('mining_dimension:teleporter', [
-    'ABC',
-    'DEF',
-    'GHI'
-	], {
-    A: 'l2complements:sculkium_ingot',
-	B: 'celestial_core:earth_core',
-	C: 'undergarden:utherium_crystal',
-	D: 'l2complements:explosion_shard',
-	E: 'minecraft:netherite_pickaxe',
-	F: 'cataclysm:black_steel_ingot',
-	G: 'cataclysm:amethyst_crab_shell',
-	H: 'aether_redux:gravitite_ingot',
-	I: 'hmag:ancient_stone'
+	F: 'minecraft:nether_quartz_ore',
+	G: 'undergarden:depthrock_cloggrum_ore',
+	H: 'aether:zanite_ore',
+	I: 'landsoficaria:chalkos_ore'
   });	
   event.shaped('l2complements:sculkium_helmet', [
     'T T',
@@ -1484,4 +1499,5 @@ ServerEvents.recipes((event) => {
 });
 
     
+
 
