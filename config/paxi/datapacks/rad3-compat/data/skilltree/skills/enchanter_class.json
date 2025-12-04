@@ -30,14 +30,14 @@
       }
     }
   ],
-  "directConnections": [
-    "skilltree:enchanter_defensive_1",
-    "skilltree:enchanter_offensive_1",
-    "skilltree:enchanter_defensive_crafting_1",
-    "skilltree:enchanter_offensive_crafting_1"
-  ],
+  "directConnections": [],
   "longConnections": [],
-  "oneWayConnections": [],
+  "oneWayConnections": [
+	"skilltree:enchanter_offensive_crafting_1",
+	"skilltree:enchanter_offensive_1",
+	"skilltree:enchanter_defensive_1",
+	"skilltree:enchanter_defensive_crafting_1"
+	],
   "tags": [],
   "backgroundTexture": "skilltree:textures/icons/background/class.png",
   "iconTexture": "skilltree:textures/icons/enchanter_class.png",

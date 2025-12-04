@@ -3,17 +3,17 @@
   "bonuses": [
     {
       "type": "skilltree:attribute",
-      "attribute": "minecraft:generic.movement_speed",
-      "id": "b1709078-fe2c-4931-8605-77e42210fd9b",
-      "name": "Skill",
-      "amount": 0.1,
-      "operation": 1,
+      "attribute": "minecraft:generic.max_health",
+      "id": "df8d3439-3c9f-458a-935f-54f69f7b74c2",
+      "name": "SkillBonus",
+      "amount": 2.0,
+      "operation": 0,
       "player_multiplier": {
         "type": "skilltree:none"
       },
       "player_condition": {
-        "min": 1,
-        "type": "skilltree:effect_amount"
+        "min": 15,
+        "type": "skilltree:food_level"
       }
     }
   ],
