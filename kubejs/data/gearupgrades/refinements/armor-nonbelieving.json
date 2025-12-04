@@ -11,7 +11,7 @@
   "bonuses": [
 	{
       "property": "ars_nouveau:ars_nouveau.perk.mana_regen",
-      "amount": -0.8,
+      "amount": -0.5,
       "operation": "multiply_total",
       "slots": ["minecraft:chest"]
     },
@@ -23,14 +23,14 @@
     },
 	{
       "property": "minecraft:generic.armor",
-      "amount": 0.5,
-      "operation": "multiply_total",
+      "amount": 1.0,
+      "operation": "addition",
       "slots": ["minecraft:chest"]
     },
 	{
       "property": "minecraft:generic.attack_damage",
-      "amount": 0.5,
-      "operation": "multiply_total",
+      "amount": 1.0,
+      "operation": "addition",
       "slots": ["minecraft:chest"]
     }
   ],

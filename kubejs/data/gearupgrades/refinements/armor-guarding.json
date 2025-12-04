@@ -6,13 +6,13 @@
   "type": ["chest"],
   "proficiency_cost": 10,
   "material": "kubejs:upgrade_guarding",
-  "material_count": 8,
+  "material_count": 1,
   "anvil_levels": 5,
   "bonuses": [
 	{
       "property": "minecraft:generic.max_health",
-      "amount": -6.0,
-      "operation": "addition",
+      "amount": -0.5,
+      "operation": "multiply_total",
       "slots": ["minecraft:chest"]
     },
 	{

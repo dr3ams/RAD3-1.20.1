@@ -1,0 +1,20 @@
+
+{
+  "id": "curiopotion_dmg",
+  "key": "refinement.curio.curiopotion_dmg",
+  "incompat": [],
+  "type": ["curios:necklace"],
+  "proficiency_cost": 50,
+  "material": "celestial_artifacts:life_etching",
+  "material_count": 1,
+  "anvil_levels": 15,
+  "bonuses": [
+	{
+      "property": "l2damagetracker:magic_damage",
+      "amount": 0.5,
+      "operation": "addition"
+    }
+  ],
+  "allowed_steps": [1],
+  "color": "dark_purple"
+}
