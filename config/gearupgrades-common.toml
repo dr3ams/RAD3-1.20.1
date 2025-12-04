@@ -1,20 +1,26 @@
 
 [Proficiency]
-	#Proficiency per Kill
+	#Proficiency per Kill (Also mob Max Health / 100)
 	#Range: 0.0 ~ 100.0
 	proficiencyKill = 0.01
 	#Proficiency per Damage Dealt
 	#Range: 0.0 ~ 1.0
 	proficiencyDealt = 0.01
-	#Proficiency per % Damage as Health Received
-	#Range: 0.0 ~ 1.0
-	proficiencyReceived = 0.025
 	#Proficiency per Experience (Orb)
 	#Range: 0.0 ~ 100.0
 	proficiencyExp = 0.02
 	#Maximum Proficiency
-	#Range: 1 ~ 10000
+	#Range: 1 ~ 1000000
 	proficiencyMax = 100
+	#Proficiency per Destroy Time of Block Mined
+	#Range: 0.0 ~ 1.0
+	proficiencyMined = 0.025
+	#Proficiency per % Damage as Health Taken
+	#Range: 0.0 ~ 1.0
+	proficiencyDamaged = 0.025
+	#Global gain multiplier
+	#Range: 0.0 ~ 1000000.0
+	proficiencyGlobal = 1.0
 
 [Misc]
 	#Upgrade Removal Item

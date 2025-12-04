@@ -465,4 +465,3 @@ event.get('rad3:bloodmagicarmor')
 ////END	
 
 })
-

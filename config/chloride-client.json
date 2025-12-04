@@ -19,7 +19,8 @@
   "playerNametagRendering": true,
   "itemNametagRendering": true,
   "chunkFadeSpeed": "SLOW",
-  "darknessMode": "DARKNESS",
+  "darknessMode": "BLACK",
+  "darknessOnFullBrightBiomes": false,
   "darknessOnOverworld": true,
   "darknessOnNether": false,
   "darknessNetherFogBright": 0.15,
@@ -32,7 +33,8 @@
   "darknessAffectedByMoonPhase": true,
   "darknessNewMoonBright": 0.1,
   "darknessFullMoonBright": 0.25,
-  "hideJREMI": false,
+  "hideJREMI": true,
+  "hideJREMIHint": false,
   "fontShadows": true,
   "leavesCulling": "OFF",
   "fastChests": false,
@@ -68,6 +70,6 @@
   ],
   "borderlessAttachModeF11": "ATTACH",
   "fastLanguageReload": true,
-  "enableZoom": true,
+  "enableZoom": false,
   "maxZoom": 50.0
 }

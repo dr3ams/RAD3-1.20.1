@@ -100,6 +100,9 @@
 	#Magic Arrow Bag: arrow knock
 	#Range: 0 ~ 100
 	magicArrowBagArrowKnock = 1
+	#Twisted Scabbard: Maximum number of stacks
+	#Range: > 1
+	twistedScabbardMaxAttackBonus = 100
 
 [bracelet]
 	#Hidden Bracelet: Hidden effect interval
@@ -674,6 +677,9 @@
 	#Ring Of Life: effect interval
 	#Range: 1 ~ 100
 	ringOfLifeEffectInterval = 5
+	#Nostalgic Butterfly Ring: crit damage reduce
+	#Range: 0.0 ~ 100.0
+	nostalgicButterflyRingCritRate = 0.2
 
 [scroll]
 	#Sky Walker Scroll: teleport cooldown in seconds
@@ -723,6 +729,9 @@
 	#Spirit Set: projectile damage reduction
 	#Range: 0.0 ~ 1.0
 	spiritProtect = 0.2
+	#Deer Butter Fly Set: extra damage multiplier
+	#Range: 0.0 ~ 100.0
+	deerButterFlyDmgMul = 0.15
 
 [misc]
 	#Range: 0 ~ 10000
@@ -832,6 +841,7 @@
 	treasure_hunter_necklace = true
 	deers_mercy_amulet = true
 	deer_inscribed_amulet = true
+	nostalgic_butterfly_ring = true
 
 [body]
 	#forest cloak: chance to dodge projectile

@@ -12,7 +12,7 @@ pollenBiomes = [
     "minecraft:flower_forest",
     "minecraft:sunflower_plains"
 ]
-pollenDensity = 2
+pollenDensity = 1
 sculkDustBiomes = [
     "minecraft:deep_dark"
 ]
@@ -46,7 +46,7 @@ bubbleGeyserSpawnableBlocks = [
     "minecraft:dirt",
     "minecraft:clay"
 ]
-bubbleGeyserSoundVolume = 0.5
+bubbleGeyserSoundVolume = 0.2
 bubbleGeyserActiveTime = 300
 bubbleGeyserInactiveTime = 500
 
@@ -81,26 +81,26 @@ spawnableBlocks = [
     "minecraft:pink_petals",
     "minecraft:flowering_azalea"
 ]
-defaultDensity = 3
+defaultDensity = 1
 ignoredSeasons = "DEFAULT"
 fireflyType = "ORIGINAL"
-fireflySoundVolume = 0.33333334
+fireflySoundVolume = 0.15
 onlyAllowInHabitatBiomes = false
 habitatBiomes = [
     "minecraft:swamp",
     "minecraft:mangrove_swamp"
 ]
-habitatBiomeDensity = 3
+habitatBiomeDensity = 1
 
 [waterfalls]
 waterfallsEnabled = false
 smallWaterfallsEnabled = true
 waterfallUpdateFrequency = 6
 randomizeWaterfallParticleRotation = false
-mediumWaterfallParticleDensity = 1.0
+mediumWaterfallParticleDensity = 0.3
 mediumWaterfallHeightThreshold = 6
 forceSpawnMediumWaterfallParticles = true
 largeWaterfallsEnabled = true
-largeWaterfallParticleDensity = 1.0
+largeWaterfallParticleDensity = 0.3
 largeWaterfallHeightThreshold = 10
 forceSpawnLargeWaterfallParticles = true

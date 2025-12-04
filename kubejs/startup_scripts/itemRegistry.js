@@ -173,6 +173,9 @@ event.create('rucksack').displayName('Rucksack')
 event.create('bomb').displayName('Bomb')
 event.create('dodge').displayName('Dodge')
 event.create('scaling').displayName('Scaling')
+
+
+///END
 })
 
 StartupEvents.registry('fluid', event => {

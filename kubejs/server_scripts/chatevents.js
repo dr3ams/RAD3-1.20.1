@@ -58,38 +58,20 @@ PlayerEvents.loggedIn(event => {
   {
     event.player.tell([
       Component.of('Welcome back!\n').bold().green(),
-
-		Component.of('In case you didn\'t see previously, '),
-		Component.of('The '),
-        Component.of('Quest Book ').green(),
-        Component.of('should answer most of your questions, '),
-        Component.of('guide you ').yellow(),
-		Component.of('or tell you what to do if you get lost.'),
-        Component.of('You can access it from the item or in the upper-left corner of your inventory screen.\n'),
-		
-        Component.of('By completing '),
-        Component.of('quests ').green(),
-        Component.of('you will be awarded useful resources and '),
-        Component.of('Quest Coins ').gold(),
-        Component.of('which then can be exchanged in '),
-		Component.of('The Market ').gold(),
-		Component.of('quest chapter for '),
-        Component.of('useful resources.\n').yellow(),
 		
         Component.of('For issues or suggestions - '),
-		Component.of('[github] ')
+		Component.of('[github]\n')
 		  .clickOpenUrl('https://github.com/dr3ams/RAD3-1.20.1')
           .hover('Opens Roguelike Adventures and Dungeons 3 Github')
           .aqua(),
 		
         Component.of('Communicate, ask questions or search for answers - '),
-		Component.of('[discord] ')
+		Component.of('[discord]\n')
 		  .clickOpenUrl('https://discord.com/invite/dreams-modpacks-512339624627011586')
           .hover('Click to visit our Discord server.')
           .aqua(),
 		  
-        Component.of('Thank you for playing!').green(),
-        Component.of('\nNote: You may need to open chat to see the full message.').underlined().yellow()
+        Component.of('Thank you for playing!').green()
     ])
 
   }

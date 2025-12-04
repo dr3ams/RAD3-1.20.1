@@ -4,7 +4,10 @@
 	#Range: 600 ~ 72000
 	cleanFrequency = 6000
 	#A list of times to warn at (in ticks)
-	warningTimesInTicks = [2400, 600, 200, 100, 80, 60, 40, 20]
+	warningTimesInTicks = [2400, 600, 200]
+	#How much time (in ticks) an item entity must have existed to be cleaned
+	#Range: 0 ~ 72000
+	minimumLife = 1200
 
 [Blacklist]
 	#A list of items to never clean
