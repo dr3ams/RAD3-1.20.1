@@ -183,33 +183,6 @@
 		{
 			item: {
 				Count: 1
-				id: "relics:midnight_robe"
-				tag: {
-					abilities: {
-						backstab: {
-							points: 0
-							stats: {
-								damage: 1.2576d
-								distance: 18.46341d
-							}
-						}
-						vanish: {
-							points: 0
-							stats: {
-								light: 1.5818d
-								speed: 0.27903d
-							}
-							temp: {
-								ticking: 1b
-							}
-						}
-					}
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
 				id: "relics:leather_belt"
 				tag: {
 					abilities: {
@@ -263,6 +236,18 @@
 		{ item: "artifacts:obsidian_skull" }
 		{ item: "artifacts:aqua_dashers" }
 		{ item: "artifacts:night_vision_goggles" }
+		{ item: "artifacts:plastic_drinking_hat" }
+		{
+			item: {
+				Count: 1
+				id: "artifacts:panic_necklace"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
 	]
 	title: "Dungeon Artifact Crate"
 }
