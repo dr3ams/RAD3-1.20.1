@@ -7,62 +7,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "min": 15.0,
-                "max": 35.0
-              },
-              "treasure": true
-            },
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "type": "minecraft:uniform",
-                "min": 0.25,
-                "max": 0.75
-              },
-              "add": false
-            },
-            {
-              "function": "supplementaries:curse_loot"
-            }
-          ],
-          "name": "minecraft:iron_helmet"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "min": 15.0,
-                "max": 35.0
-              },
-              "treasure": true
-            },
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "type": "minecraft:uniform",
-                "min": 0.25,
-                "max": 0.75
-              },
-              "add": false
-            },
-            {
-              "function": "supplementaries:curse_loot"
-            }
-          ],
-          "name": "minecraft:iron_boots"
-        },
-        {
-          "type": "minecraft:item",
           "weight": 5,
           "functions": [
             {
@@ -75,7 +19,7 @@
               "add": false
             }
           ],
-          "name": "minecraft:diamond"
+          "name": "spelunkery:rough_diamond"
         },
         {
           "type": "minecraft:item",
@@ -85,13 +29,13 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 8.0
+                "min": 4.0,
+                "max": 12.0
               },
               "add": false
             }
           ],
-          "name": "minecraft:emerald"
+          "name": "spelunkery:rough_diamond_shard"
         },
         {
           "type": "minecraft:item",
@@ -171,11 +115,11 @@
               "add": false
             }
           ],
-          "name": "minecraft:lapis_lazuli"
+          "name": "spelunkery:rough_lazurite"
         },
         {
           "type": "minecraft:item",
-          "weight": 7,
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -192,16 +136,37 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "minecraft:skeleton_skull"
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+              "add": false
+            }
+          ],
+          "name": "hmag:lich_cloth"
         },
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "minecraft:zombie_head"
+          "name": "tombstone:essence_of_undeath"
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 2,
+          "name": "kubejs:artifact_fragment"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "bonfires:coiled_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
           "name": "minecraft:bundle"
         }
       ]

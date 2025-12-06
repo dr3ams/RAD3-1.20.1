@@ -19,7 +19,7 @@
               "add": false
             }
           ],
-          "name": "supplementaries:ash"
+          "name": "spelunkery:salt"
         },
         {
           "type": "minecraft:item",
@@ -35,7 +35,7 @@
               "add": false
             }
           ],
-          "name": "minecraft:iron_nugget"
+          "name": "spelunkery:raw_iron_nugget"
         },
         {
           "type": "minecraft:item",
@@ -51,43 +51,27 @@
               "add": false
             }
           ],
-          "name": "minecraft:gold_nugget"
+          "name": "spelunkery:raw_gold_nugget"
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 4.0
+                "min": 8.0,
+                "max": 32.0
               },
               "add": false
             }
           ],
-          "name": "supplementaries:flax_seeds"
+          "name": "spelunkery:raw_copper_nugget"
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 4.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:bone"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -103,29 +87,83 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:skeleton_skull"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:zombie_head"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 15,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 6.0
+                "min": 1.0,
+                "max": 3.0
               },
               "add": false
             }
           ],
-          "name": "minecraft:emerald"
+          "name": "hmag:evil_crystal_fragment"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+              "add": false
+            }
+          ],
+          "name": "kubejs:gem_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+              "add": false
+            }
+          ],
+          "name": "bonfires:titanite_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+              "add": false
+            }
+          ],
+          "name": "hmag:dyssomnia_skin"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+              "add": false
+            }
+          ],
+          "name": "hmag:necrofiber"
         }
       ]
     }

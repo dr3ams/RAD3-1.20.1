@@ -75,7 +75,7 @@
               "add": false
             }
           ],
-          "name": "minecraft:emerald"
+          "name": "spelunkery:rough_diamond_shard"
         },
         {
           "type": "minecraft:item",
@@ -91,7 +91,7 @@
               "add": false
             }
           ],
-          "name": "minecraft:diamond"
+          "name": "spelunkery:rough_diamond"
         },
         {
           "type": "minecraft:item",
@@ -122,13 +122,28 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 4.0,
-                "max": 12.0
+                "min": 1.0,
+                "max": 3.0
               },
               "add": false
             }
           ],
-          "name": "minecraft:slime_ball"
+          "name": "betterarcheology:artifact_shards"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "celestial_core:treasure_fragment"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "celestial_core:heart_fragment"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "celestial_core:broken_totem"
         }
       ]
     }
