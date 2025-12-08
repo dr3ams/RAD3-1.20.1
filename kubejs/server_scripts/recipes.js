@@ -179,6 +179,12 @@ const removals = [
   "toms_storage:ts.trim",
   "toms_storage:ts.level_emitter",
   "toms_storage:ts.adv_wireless_terminal",
+  "toms_storage:ts.inventory_connector",
+  "toms_storage:ts.inventory_cable",
+  "toms_storage:ts.inventory_cable_connector",
+  "toms_storage:ts.inventory_hopper_basic",
+  "toms_storage:ts.storage_terminal",
+  "toms_storage:ts.crafting_terminal",
   "skilltree:copper_ring",
   "skilltree:iron_ring",
   "skilltree:golden_ring",
@@ -699,6 +705,11 @@ ServerEvents.recipes((event) => {
     "spelunkery:tangle_roots",
     "#supplementaries:ropes"
   );
+  event.replaceInput(
+    { output: "ftbquests:screen_1" },
+    "minecraft:stone",
+    "aether_redux:refined_sentrite"
+  );
 
  event.shaped('minecraft:saddle', [
     ' L ',
@@ -719,7 +730,7 @@ ServerEvents.recipes((event) => {
     'LIL'
 	], {
     L: '#forge:leather',
-	I: 'aether:zanite_gemstone'
+	I: 'aether_redux:refined_sentrite'
   });
  event.shaped('minecraft:bundle', [
     'S',
@@ -727,6 +738,85 @@ ServerEvents.recipes((event) => {
 	], {
     L: '#forge:leather',
 	S: '#forge:string'
+  });
+  event.shaped('minecraft:cauldron', [
+    'I I',
+    'I I',
+    'III'
+	], {
+    I: 'aether_redux:refined_sentrite'
+  });
+  event.shaped('minecraft:hopper', [
+    'I I',
+    'ICI',
+    ' I '
+	], {
+    I: 'aether_redux:refined_sentrite',
+	C: '#forge:chests/wooden'
+  });
+  event.shaped('minecraft:hopper', [
+    'ICI',
+    'ICI',
+    ' I '
+	], {
+    I: 'aether_redux:refined_sentrite',
+	C: '#minecraft:logs'
+  });
+  event.shaped('toms_storage:ts.inventory_connector', [
+    'ISI',
+    'CGC',
+    'ISI'
+	], {
+    I: 'aether_redux:refined_sentrite',
+	S: 'aether_redux:sentry_chip',
+	C: '#forge:chests/wooden',
+	G: 'aether_redux:gravitite_ingot'
+  });
+  event.shaped(
+  Item.of('toms_storage:ts.inventory_cable', 4), [
+    'ICI'
+	], {
+    I: 'aether_redux:refined_sentrite',
+	C: '#forge:chests/wooden'
+  });
+  event.shaped('toms_storage:ts.inventory_cable_connector', [
+    ' QI',
+    'ACS',
+    ' QI'
+	], {
+    I: 'aether_redux:refined_sentrite',
+	S: 'aether_redux:sentry_chip',
+	C: '#forge:chests/wooden',
+	A: 'toms_storage:ts.inventory_cable',
+	Q: 'minecraft:quartz'
+  });
+  event.shaped('toms_storage:ts.inventory_hopper_basic', [
+    'IAI',
+    ' H '
+	], {
+    I: 'aether_redux:refined_sentrite',
+	A: 'toms_storage:ts.inventory_cable',
+	H: 'minecraft:hopper'
+  });
+  event.shaped('toms_storage:ts.storage_terminal', [
+    'ISI',
+    'CGA',
+    'ISI'
+	], {
+    I: 'aether_redux:refined_sentrite',
+	S: 'aether_redux:sentry_chip',
+	C: '#forge:chests/wooden',
+	G: 'minecraft:glowstone',
+	A: '#forge:glass'
+  });
+  event.shaped('toms_storage:ts.crafting_terminal', [
+    'CAC',
+    'ATA',
+    'CAC'
+	], {
+    C: 'minecraft:crafting_table',
+	A: 'aether:golden_amber',
+	T: 'toms_storage:ts.storage_terminal'
   });
   event.shaped('celestial_artifacts:bearing_stamen', [
     'EBE',
@@ -875,7 +965,7 @@ ServerEvents.recipes((event) => {
     'GGG'
 	], {
 	G: 'minecraft:gold_nugget',
-	P: 'minecraft:purple_dye',
+	P: 'ars_nouveau:magebloom_fiber',
 	B: 'minecraft:book'
   });
   event.shaped(
@@ -904,8 +994,7 @@ ServerEvents.recipes((event) => {
 	C: 'dungeonsdelight:stained_scrap',
 	T: 'minecraft:tnt'
   });
-  event.shaped(
-    Item.of('undergarden:catalyst'),[
+  event.shaped('undergarden:catalyst', [
     'ABA',
     'CDE',
     'AFA'
