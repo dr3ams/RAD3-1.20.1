@@ -1,5 +1,25 @@
 ServerEvents.recipes((event) => {
 
+  event.shaped(
+  Item.of('simplyswords:runic_tablet'), [
+    ' D ',
+	'LSL',
+    ' D '
+	], {
+	S: 'apotheosis:gem_fused_slate',
+	D: 'minecraft:diamond',
+	L: 'minecraft:lapis_lazuli'
+  })
+  event.shaped(
+  Item.of('simplyswords:empowered_remnant'), [
+    ' D ',
+	'RSR',
+    ' D '
+	], {
+	S: 'kubejs:great_soul',
+	D: 'l2hostility:miracle_powder',
+	R: 'simplyswords:runic_tablet'
+  })
   event.smithing(
     'simplyswords:slumbering_lichblade',
     'simplyswords:empowered_remnant',
