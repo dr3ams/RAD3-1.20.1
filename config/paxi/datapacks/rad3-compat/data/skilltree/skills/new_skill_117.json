@@ -1,6 +1,33 @@
 {
   "id": "skilltree:new_skill_117",
-  "bonuses": [],
+  "bonuses": [
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.05,
+      "effect": "minecraft:darkness",
+      "duration": 100,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:damage_taken"
+      }
+    }
+  ],
   "directConnections": [
     "skilltree:new_skill_111"
   ],

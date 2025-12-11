@@ -3,23 +3,20 @@
   "bonuses": [
     {
       "type": "skilltree:damage",
-      "amount": 0.1,
+      "amount": 0.01,
       "operation": 1,
       "player_multiplier": {
-        "type": "skilltree:none"
+        "item_condition": {
+          "equipment_type": "boots",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:enchants_amount"
       },
       "enemy_multiplier": {
         "type": "skilltree:none"
       },
       "player_condition": {
-        "item_condition": {
-          "item_condition": {
-            "equipment_type": "weapon",
-            "type": "skilltree:equipment_type"
-          },
-          "type": "skilltree:enchanted"
-        },
-        "type": "skilltree:has_item_in_hand"
+        "type": "skilltree:none"
       },
       "damage_condition": {
         "type": "skilltree:none"
