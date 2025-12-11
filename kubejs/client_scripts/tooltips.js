@@ -220,7 +220,7 @@ ItemEvents.tooltip(event =>{
     }
   })
 	
-	event.addAdvanced('the_bumblezone:bee_cannon', (item, advanced, text) => {
+	event.addAdvanced('the_bumblezone:crystal_cannon', (item, advanced, text) => {
     if (!event.isShift()) {
       text.add(1, [
         Text.of('Hold ').gray(),
@@ -1335,4 +1335,5 @@ ClientEvents.lang('en_us', event => {
   event.renameItem('graveyard:upper_bone_staff', 'Skull of the Wizard King')
   event.renameItem('graveyard:middle_bone_staff', 'Ribs of the Warrior King')
   event.renameItem('graveyard:lower_bone_staff', 'Tail of the Beast King')
+
 })
