@@ -53,6 +53,8 @@ event.create('voucher_weapon').displayName('Weapon Exchange Voucher').rarity('Ra
 event.create('voucher_weapon_fragment').displayName('Weapon Exchange Voucher Fragment').rarity('Uncommon')
 event.create('voucher_resource').displayName('Resource Exchange Voucher').rarity('Uncommon')
 event.create('voucher_relic').displayName('Unidentified Relic').rarity('Rare')
+event.create('map_fragment').displayName('Unidentified Map Fragment').rarity('Uncommon')
+event.create('map_scroll').displayName('Unidentified Map Scroll').rarity('Rare')
 //essences
 event.create('essence_monster').displayName('Monster Essence').rarity('Uncommon')
 event.create('essence_monster_raw').displayName('Raw Monster Essence').rarity('Uncommon')
@@ -93,7 +95,7 @@ event.create('coin_06').displayName('Bunch of Coins').tooltip('Acquired by selli
 
 event.create('quest_bundle').displayName('Leather Bundle').tooltip('Quest Item')
 event.create('quest_note').displayName('Note').tooltip('Quest Item')
-event.create('quest_crate').displayName('Crate')
+event.create('quest_crate').displayName('Crate').tooltip('Quest Item')
 
 event.create('great_soul').displayName('Great Soul').rarity('Epic').tooltip('The soul of a powerful monster. Used for crafting the strongest items and enchantments.')
 
