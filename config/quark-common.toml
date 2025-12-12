@@ -427,18 +427,18 @@
 		# - <color> being a hex color (without the #) for the map to display. You can generate one here - https://htmlcolorcodes.com/
 		#Here's an example of a map to locate Ice Mountains:
 		#minecraft:ice_mountains,2,8,14,7FE4FF
-		Customs = ["minecraft:lush_caves,2,8,14,6fea09", "minecraft:dripstone_caves,2,8,14,8e6118", "minecraft:deep_dark,2,8,14,000000", "regions_unexplored:maple_forest,2,8,14,dc5d0b", "regions_unexplored:boreal_taiga,2,8,14,603920", "regions_unexplored:deciduous_forest,2,8,14,327b02", "regions_unexplored:fen,2,8,14,97f459", "regions_unexplored:flower_fields,2,8,14,ee611b", "regions_unexplored:redwoods,2,8,14,921600", "regions_unexplored:orchard,2,8,14,479200", "regions_unexplored:grassland,2,8,14,87e330", "regions_unexplored:prairie,2,8,14,e3c230"]
+		Customs = ["minecraft:lush_caves,1,8,14,6fea09", "minecraft:dripstone_caves,2,8,14,8e6118", "minecraft:deep_dark,2,8,14,000000", "regions_unexplored:maple_forest,2,8,14,dc5d0b", "regions_unexplored:boreal_taiga,2,8,14,603920", "regions_unexplored:deciduous_forest,2,8,14,327b02", "regions_unexplored:fen,2,8,14,97f459", "regions_unexplored:flower_fields,2,8,14,ee611b", "regions_unexplored:redwoods,2,8,14,921600", "regions_unexplored:orchard,2,8,14,479200", "regions_unexplored:grassland,2,8,14,87e330", "regions_unexplored:prairie,2,8,14,e3c230", "regions_unexplored:arid_mountains,3,8,14,F74A25", "regions_unexplored:autumnal_maple_forest,1,8,14,FF8A27", "regions_unexplored:barley_fields,2,8,14,f5e619", "regions_unexplored:bioshroom_caves,3,16,32,169c24", "regions_unexplored:blackwood_taiga,2,8,14,140b05", "regions_unexplored:clover_plains,2,8,14,e2acd0", "regions_unexplored:cold_deciduous_forest,2,8,14,be464c", "regions_unexplored:dry_bushland,2,8,14,ffba57", "regions_unexplored:golden_boreal_taiga,2,8,14,d6a400", "regions_unexplored:magnolia_woodland,2,8,14,e97cae", "regions_unexplored:mountains,2,8,14,685141", "regions_unexplored:rocky_reef,2,8,14,4ee5ef", "regions_unexplored:saguaro_desert,2,8,14,efca4e", "regions_unexplored:scorching_caves,3,12,24,a32400", "regions_unexplored:shrubland,2,8,14,0f6407", "regions_unexplored:silver_birch_forest,2,8,14,b2a80a", "regions_unexplored:spires,2,8,14,2be3d1", "regions_unexplored:temperate_grove,2,8,14,028a00", "regions_unexplored:tropics,2,8,14,f1eb37"]
 		#Set to false to make it so the default quark Pathfinder Map Built-In don't get added, and only the custom ones do
-		"Apply Default Trades" = true
+		"Apply Default Trades" = false
 		#How many steps in the search should the Pathfinder's Quill do per tick? The higher this value, the faster it'll find a result, but the higher chance it'll lag the game while doing so
 		"Pathfinders Quill Speed" = 32
 		#Experimental. Determines if quills should be multithreaded instead. Will ignore quill speed. This could drastically improve performance as it execute the logic off the main thread ideally causing no lag at all
 		"Multi Threaded" = true
 		#Allows retrying after a pathfinder quill fails to find a biome nearby. Turn off if you think its op
 		"Allow Retrying" = true
-		"Search Radius" = 6400
+		"Search Radius" = 10000
 		"Xp From Trade" = 5
-		"Add To Cartographer" = true
+		"Add To Cartographer" = false
 		"Add To Wandering Trader Forced" = true
 		"Add To Wandering Trader Generic" = false
 		"Add To Wandering Trader Rare" = false

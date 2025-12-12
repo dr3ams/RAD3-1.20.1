@@ -13,6 +13,66 @@ ItemEvents.tooltip(event =>{
         }
     })
 
+	event.addAdvanced('kubejs:map_fragment', (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').gold(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+		text.add(1, [
+	    Text.of('• Used to buy Map Scrolls from Goblin traders, Wandering merchants and Librarians').white()
+      ])
+      text.add(2, [
+        Text.of('• Can be acquired from different traders or loot').white()
+		])
+      text.add(3, [
+        Text.of('• Check Pathfinder quest chapter for more info').white()
+		])
+    }
+	})
+
+	event.addAdvanced('kubejs:map_scroll_biome', (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').gold(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+		text.add(1, [
+	    Text.of('• Can be exchanged for Pathfinders Quills used to locate specific biome. ').white()
+      ])
+      text.add(2, [
+        Text.of('• Can be acquired from different traders or rarely as loot').white()
+		])
+      text.add(3, [
+        Text.of('• Check Pathfinder quest chapter for more info').white()
+		])
+    }
+	})
+	
+	event.addAdvanced('kubejs:map_scroll_structure', (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').gold(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+		text.add(1, [
+	    Text.of('• Can be exchanged for Cartographers Quills used to locate specific structures').white()
+      ])
+      text.add(2, [
+        Text.of('• Can be acquired from different traders or rarely as loot').white()
+		])
+      text.add(3, [
+        Text.of('• Check Pathfinder quest chapter for more info').white()
+		])
+    }
+	})
+
 	event.addAdvanced('paraglider:spirit_orb', (item, advanced, text) => {
     if (!event.isShift()) {
       text.add(1, [

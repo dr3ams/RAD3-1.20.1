@@ -54,7 +54,8 @@ event.create('voucher_weapon_fragment').displayName('Weapon Exchange Voucher Fra
 event.create('voucher_resource').displayName('Resource Exchange Voucher').rarity('Uncommon')
 event.create('voucher_relic').displayName('Unidentified Relic').rarity('Rare')
 event.create('map_fragment').displayName('Unidentified Map Fragment').rarity('Uncommon')
-event.create('map_scroll').displayName('Unidentified Map Scroll').rarity('Rare')
+event.create('map_scroll_biome').displayName('Unidentified Map Scroll - Biome').rarity('Uncommon')
+event.create('map_scroll_structure').displayName('Unidentified Map Scroll - Structure').rarity('Rare')
 //essences
 event.create('essence_monster').displayName('Monster Essence').rarity('Uncommon')
 event.create('essence_monster_raw').displayName('Raw Monster Essence').rarity('Uncommon')

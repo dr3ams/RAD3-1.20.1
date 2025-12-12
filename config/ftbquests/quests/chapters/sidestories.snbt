@@ -517,7 +517,7 @@
 		}
 		{
 			dependencies: ["424C3DA5FE66B323"]
-			description: ["Join the bandits. "]
+			description: ["Join the bandits and raid a village."]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "graveyard:skull_on_pike"
@@ -555,16 +555,33 @@
 			}
 			id: "7FE6E8837582CDB7"
 			incompatible: ["52B281617D229C20"]
-			rewards: [{
-				auto: "disabled"
-				command: "/locate structure #towns_and_towers:town"
-				elevate_perms: true
-				exclude_from_claim_all: true
-				icon: "kubejs:map"
-				id: "212981EF1E0528F4"
-				title: "This will print coordinates to the chat. Write them down to not lose it."
-				type: "command"
-			}]
+			rewards: [
+				{
+					auto: "disabled"
+					command: "/locate structure #towns_and_towers:town"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "kubejs:map"
+					id: "212981EF1E0528F4"
+					title: "This will print coordinates to the chat. Write them down to not lose it."
+					type: "command"
+				}
+				{
+					command: "/supp map structure_map #towns_and_towers:town"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "supplementaries:item/cartographers_quill"
+						}
+					}
+					id: "4EEB28759758FEB2"
+					silent: true
+					type: "command"
+				}
+			]
 			subtitle: "&4Incompatible with \"Embrace the Shadows\"&r"
 			tasks: [{
 				id: "43C9AC749CFAAA54"

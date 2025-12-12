@@ -2094,6 +2094,152 @@
 			x: 7.0d
 			y: -2.0d
 		}
+		{
+			description: [
+				"Cartographer villager now sells a lot of new maps to different structures."
+				"He may also know how to locate some of the biomes."
+			]
+			id: "71A84449B747D6B8"
+			tasks: [{
+				icon: "minecraft:cartography_table"
+				id: "5769E8EDF0D0CDB9"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:cartography_table"
+				type: "observation"
+			}]
+			x: 17.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F244D3C4801808B"]
+			description: ["Pathfinders Quills will take you to certain biomes"]
+			id: "39CE66AC4B1DC621"
+			tasks: [{
+				id: "5D770B513EA884FC"
+				item: {
+					Count: 1
+					id: "quark:pathfinders_quill"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 18.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["39CE66AC4B1DC621"]
+			icon: "minecraft:oak_sapling"
+			id: "7124F1DC42561945"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D1A7344A21D9DAF"
+				table_id: 2461765201830935065L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "39B0C5ECCA4B100E"
+				item: "kubejs:map_scroll_biome"
+				type: "item"
+			}]
+			title: "Overworld Biomes"
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["39CE66AC4B1DC621"]
+			icon: "minecraft:netherrack"
+			id: "09CEE2920FE148CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26B94E6638A6305C"
+				table_id: 4527114439252564400L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "679D4A7550D1BD28"
+				item: "kubejs:map_scroll_biome"
+				type: "item"
+			}]
+			title: "Nether Biomes"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39CE66AC4B1DC621"]
+			icon: "minecraft:brain_coral"
+			id: "3389D3F839C03ADC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "414BD41517247D42"
+				table_id: 9054315427710993315L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "71CFA26B39648260"
+				item: "kubejs:map_scroll_biome"
+				type: "item"
+			}]
+			title: "Ocean Biomes"
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39CE66AC4B1DC621"]
+			icon: "minecraft:sculk"
+			id: "33676E1728D67B40"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50EAD5484E66490D"
+				table_id: 878922977011301854L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "32D076E5CEFCC14F"
+				item: "kubejs:map_scroll_biome"
+				type: "item"
+			}]
+			title: "Cave Biomes"
+			x: 20.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["336C9D4D96439135"]
+			id: "2BFC57CBDF3A7C5D"
+			tasks: [{
+				id: "676A5A2293AB9862"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: 4.5d
+		}
+		{
+			id: "336C9D4D96439135"
+			tasks: [{
+				id: "3549A929DC7FFB5D"
+				item: "kubejs:map_scroll_structure"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 3.5d
+		}
+		{
+			id: "5F244D3C4801808B"
+			tasks: [{
+				id: "337AFC04DDC49C68"
+				item: "kubejs:map_scroll_biome"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 2.5d
+		}
 	]
 	title: "Pathfinder"
 }

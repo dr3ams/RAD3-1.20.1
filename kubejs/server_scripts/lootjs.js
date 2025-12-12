@@ -205,7 +205,13 @@ LootJS.modifiers((event) => {
 			LootEntry.of("kubejs:coin_dungeon").when((c) => c.randomChance(0.2)).limitCount([1, 1])
 		);
 
-		event.addLootTypeModifier([LootType.CHEST])
+	event.addLootTypeModifier([LootType.CHEST])
+		.addLoot(
+			LootEntry.of("kubejs:map_fragment").when((c) => c.randomChance(0.1)).limitCount([1, 1])
+		);
+
+
+	event.addLootTypeModifier([LootType.CHEST])
 		.anyDimension("minecraft:overworld")
 		.replaceLoot("apotheosis:gem", "kubejs:gem_shard");
 
