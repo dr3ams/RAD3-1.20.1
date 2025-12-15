@@ -1,0 +1,211 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 3,
+        "max": 6
+      },
+      "bonus_rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 10,
+                "max": 25
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sugar_cane",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:phantom_membrane",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lead",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_tear",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:map_fragment",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 10,
+                "max": 30
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pages:['[[\"⌇☍⟟⏚⟟⎅⟟ ⌇⟟☌⋔⏃ ⌿⍜⋔⋏⟟ ⎅⟟☌⟟⏁⏃⌰ ⎎⍜⍀⏁⋏⟟⏁⟒ ☊⊑⏃⋔⏚⏃\\\\n⎎⍀⟒⟒ ☌⟟☌⏃☊⊑⏃⎅ ⍀⟟⋉⋉ ⍜⊑⋔⊬☌⍜⎅⎎⌰⍜⍜ ⌖⌖⌖⏁⟒⋏⏁⏃☊⟟⍜⋏\\\\n⊑⍜⏁⋔⏃⟟⌰ ⌰⟟⍜⋏⟒⌰ ⍀⍜⋏⏃⌰⎅⍜ ⟊⎍⋏⟟⍜⍀ ⋔⟒⍙⟟⋏☌ ⏁⟒⍀☊⟒⍀⍜\\\\n☊⊑⟟☍⟟ ⟟⏚⏃⟟ ⌖⍜☊⏃⌇ ⟒⏁⟒ ⌇⟒☊⊑ ☌⍜⌰⎅⟒⋏ ⏁⍜⊬ ⌿⎍⌿⌿⟒⏁\\\\n⍜⊑⟟⍜ ⍀⎍⏚é⋏ ⏁⎍⟒⌇⏁⏃ ⊬⍜⎍⏁⎍⏚⟒⌿⍀⍜⟟⋏⌇⏃⋏⍜\\\\n☌⌰⍜⏚⍜⎅⟒⏁⟒⌖⏁⍜51 ⎅⟒☊⏃⎅⟒⋏☊⟟⏃777\\\\n⎅⟟☌⟟⏁⏃⌰, ⎅⟟☌⟟⏁⏃⌰ ⎎⍜⍀⏁⋏⟟⏁⟒, ⎅⟟☌⟟⏁⏃⌰, ⎅⟟☌⟟⏁⏃⌰ ⎎⌰⍜⍙\\\\n⎅⟟☌⟟⏁⏃⌰, ⎅⟟☌⟟⏁⏃⌰ ⎎⍜⍀⏁⋏⟟⏁⟒, ⎅⟟☌⟟⏁⏃⌰, ⎅⟟☌⟟⏁⏃⌰ ⎎⌰⍜⍙\\\\n⎅⟟☌⟟⏁⏃⌰, ⎅⟟☌⟟⏁⏃⌰ ⎎⍜⍀⏁⋏⟟⏁⟒, ⎅⟟☌⟟⏁⏃⌰, ⎅⟟☌⟟⏁⏃⌰ ⎎⌰⍜⍙\\\\n⎅⟟☌⟟⏁⏃⌰, ⎅⟟☌⟟⏁⏃⌰ ⎎⍜⍀⏁⋏⟟⏁⟒, ⎅⟟☌⟟⏁⏃⌰, ⎅⟟☌⟟⏁⏃⌰ ⎎⌰⍜⍙\\\\n⌇☍⟟⏚⟟⎅⟟, ⌇☍⟟⏚⟟⎅⟟, ⌇☍⟟⏚⟟⎅⟟, ⌇☍⟟⏚⟟⎅⟟\\\\n⌇☍⟟⏚⟟⎅⟟, ⌇☍⟟⏚⟟⎅⟟, ⌇☍⟟⏚⟟⎅⟟, ⌇☍⟟⏚⟟⎅⟟\\\\n⎅⟟☌⟟⏁⏃⌰, ⎅⟟☌⟟⏁⏃⌰ ⎎⍜⍀⏁⋏⟟⏁⟒, ⎅⟟☌⟟⏁⏃⌰, ⎅⟟☌⟟⏁⏃⌰ ⎎⌰⍜⍙\\\\n⎅⟟☌⟟⏁⏃⌰, ⎅⟟☌⟟⏁⏃⌰ ⎎⍜⍀⏁⋏⟟⏁⟒, ⎅⟟☌⟟⏁⏃⌰, ⎅⟟☌⟟⏁⏃⌰ ⎎⌰⍜⍙\"]]'],title:\"Ancient Babylonian Script\",author:\"Book Author\",generation:3,display:{Name:'[\"\",{\"text\":\"Ancient Babylonian Script\",\"italic\":false,\"color\":\"yellow\"}]',Lore:['[\"\",{\"text\":\"Very old\",\"italic\":false,\"color\":\"#ffffcc\"}]']}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[\"\",{\"text\":\"A Mongolian Bow\",\"italic\":false,\"color\":\"#cc99ff\"}]',Lore:['[\"\",{\"text\":\"Utilized by Hunnic warriors\",\"italic\":false,\"color\":\"#993399\"}]']},Enchantments:[{lvl:1,id:infinity},{lvl:2,id:power},{lvl:2,id:unbreaking}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[\"\",{\"text\":\"BattleAxe\",\"italic\":false,\"color\":\"green\"}]',Lore:['[\"\",{\"text\":\"Multipurpose\",\"italic\":false,\"color\":\"#ccffff\"}]']},Enchantments:[{lvl:3,id:sharpness},{lvl:2,id:unbreaking}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 10,
+                "max": 30
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
