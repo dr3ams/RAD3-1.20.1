@@ -337,27 +337,6 @@
           "chance": 0.2
         }
       ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:mooshroom_spawn_egg",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:fireball,ExplosionPower:100,CustomName:'[{\"text\":\"Nuklearna Bomba\",\"color\":\"red\"}]',CustomNameVisible:1b},display:{Name:'[{\"text\":\"Oppenheimers \",\"italic\":false,\"color\":\"red\"},{\"text\":\"Nuke\",\"color\":\"yellow\"}]',Lore:['[{\"text\":\"Use Respoinsibly\",\"italic\":false,\"color\":\"dark_red\"}]']}}"
-            }
-          ],
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.1
-            }
-          ]
-        }
-      ]
     }
   ]
 }
