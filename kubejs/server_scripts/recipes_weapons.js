@@ -53,7 +53,7 @@ ServerEvents.recipes((event) => {
   event.smithing(
     'simplyswords:dormant_relic',
     'simplyswords:empowered_remnant',
-    'simplyswords:runic_claymore',
+    'simplyswords:runic_longsword',
     'cataclysm:ancient_metal_ingot'
   )
   event.smithing(
@@ -236,5 +236,6 @@ ServerEvents.recipes((event) => {
     'simplyswords:runic_cutlass',
     'celestial_core:fire_essence'
   )
+
 
 });
