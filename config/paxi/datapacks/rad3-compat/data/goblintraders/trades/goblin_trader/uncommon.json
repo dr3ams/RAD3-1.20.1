@@ -17,6 +17,48 @@
     },	
 	{
       "type": "goblintraders:basic",
+      "experience": 5,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "kubejs:map_scroll_biome"
+      },
+      "payment_item": {
+        "count": 5,
+        "item": "kubejs:map_fragment"
+      },
+      "price_multiplier": 0.1
+    },
+	{
+      "type": "goblintraders:basic",
+      "experience": 5,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "kubejs:map_scroll_structure"
+      },
+      "payment_item": {
+        "count": 8,
+        "item": "kubejs:map_fragment"
+      },
+      "price_multiplier": 0.1
+    },
+	{
+      "type": "goblintraders:basic",
+      "experience": 5,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 4,
+        "item": "kubejs:map_fragment"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "kubejs:coin_dungeon"
+      },
+      "price_multiplier": 0.1
+    },
+	{
+      "type": "goblintraders:basic",
       "offer_item": {
         "item": "ftbquests:lootcrate",
         "nbt": "{type:\"apotheosis\"}"
@@ -168,48 +210,6 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "minecraft:blaze_rod",
-        "count": 2
-      },
-      "payment_item": {
-        "item": "kubejs:coin_01",
-        "count": 1
-      },
-      "price_multiplier": 0.0,
-      "max_trades": 4,
-      "experience": 4
-    },
-    {
-      "type": "goblintraders:basic",
-      "offer_item": {
-        "item": "minecraft:ghast_tear",
-        "count": 2
-      },
-      "payment_item": {
-        "item": "kubejs:coin_01",
-        "count": 1
-      },
-      "price_multiplier": 0.0,
-      "max_trades": 5,
-      "experience": 4
-    },
-    {
-      "type": "goblintraders:basic",
-      "offer_item": {
-        "item": "minecraft:diamond",
-        "count": 1
-      },
-      "payment_item": {
-        "item": "kubejs:coin_01",
-        "count": 1
-      },
-      "price_multiplier": 0.0,
-      "max_trades": 6,
-      "experience": 4
-    },
-    {
-      "type": "goblintraders:basic",
-      "offer_item": {
         "item": "minecraft:golden_apple",
         "count": 1
       },
@@ -219,20 +219,6 @@
       },
       "price_multiplier": 0.0,
       "max_trades": 9,
-      "experience": 4
-    },
-    {
-      "type": "goblintraders:basic",
-      "offer_item": {
-        "item": "minecraft:netherite_scrap",
-        "count": 1
-      },
-      "payment_item": {
-        "item": "kubejs:coin_01",
-        "count": 3
-      },
-      "price_multiplier": 0.0,
-      "max_trades": 4,
       "experience": 4
     },
     {
@@ -280,20 +266,6 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "minecraft:blaze_powder",
-        "count": 6
-      },
-      "payment_item": {
-        "item": "kubejs:coin_01",
-        "count": 1
-      },
-      "price_multiplier": 0.0,
-      "max_trades": 6,
-      "experience": 4
-    },
-    {
-      "type": "goblintraders:basic",
-      "offer_item": {
         "item": "ars_nouveau:starbuncle_shards",
         "count": 2
       },
@@ -317,34 +289,6 @@
       },
       "price_multiplier": 0.0,
       "max_trades": 4,
-      "experience": 4
-    },
-    {
-      "type": "goblintraders:basic",
-      "offer_item": {
-        "item": "minecraft:ender_pearl",
-        "count": 2
-      },
-      "payment_item": {
-        "item": "kubejs:coin_01",
-        "count": 1
-      },
-      "price_multiplier": 0.0,
-      "max_trades": 4,
-      "experience": 4
-    },
-    {
-      "type": "goblintraders:basic",
-      "offer_item": {
-        "item": "farmersdelight:mixed_salad",
-        "count": 16
-      },
-      "payment_item": {
-        "item": "kubejs:coin_01",
-        "count": 1
-      },
-      "price_multiplier": 0.0,
-      "max_trades": 10,
       "experience": 4
     },
     {

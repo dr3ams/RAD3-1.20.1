@@ -17,6 +17,62 @@
     },
 	{
       "type": "goblintraders:basic",
+      "experience": 5,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "kubejs:map_scroll_biome"
+      },
+      "payment_item": {
+        "count": 6,
+        "item": "kubejs:map_fragment"
+      },
+      "price_multiplier": 0.1
+    },
+	{
+      "type": "goblintraders:basic",
+      "experience": 5,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "kubejs:map_scroll_structure"
+      },
+      "payment_item": {
+        "count": 9,
+        "item": "kubejs:map_fragment"
+      },
+      "price_multiplier": 0.1
+    },
+	{
+      "type": "goblintraders:basic",
+      "experience": 5,
+      "max_trades": 2,
+      "offer_item": {
+        "count": 3,
+        "item": "kubejs:map_fragment"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "kubejs:coin_dungeon"
+      },
+      "price_multiplier": 0.1
+    },
+	{
+      "type": "goblintraders:basic",
+      "experience": 5,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "kubejs:map_scroll_biome"
+      },
+      "payment_item": {
+        "count": 3,
+        "item": "kubejs:coin_dungeon"
+      },
+      "price_multiplier": 0.1
+    },
+	{
+      "type": "goblintraders:basic",
       "experience": 10,
       "max_trades": 3,
       "offer_item": {
@@ -130,34 +186,6 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "aquaculture:box",
-        "count": 10
-      },
-      "payment_item": {
-        "item": "kubejs:coin_01",
-        "count": 1
-      },
-      "price_multiplier": 0.0,
-      "max_trades": 5,
-      "experience": 4
-    },
-    {
-      "type": "goblintraders:basic",
-      "offer_item": {
-        "item": "aquaculture:lockbox",
-        "count": 3
-      },
-      "payment_item": {
-        "item": "kubejs:coin_01",
-        "count": 1
-      },
-      "price_multiplier": 0.0,
-      "max_trades": 5,
-      "experience": 4
-    },
-    {
-      "type": "goblintraders:basic",
-      "offer_item": {
         "item": "minecraft:cake",
         "count": 3
       },
@@ -172,34 +200,6 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "minecraft:raw_copper",
-        "count": 64
-      },
-      "payment_item": {
-        "item": "kubejs:coin_01",
-        "count": 1
-      },
-      "price_multiplier": 0.0,
-      "max_trades": 5,
-      "experience": 4
-    },
-    {
-      "type": "goblintraders:basic",
-      "offer_item": {
-        "item": "minecraft:raw_iron",
-        "count": 16
-      },
-      "payment_item": {
-        "item": "kubejs:coin_01",
-        "count": 1
-      },
-      "price_multiplier": 0.0,
-      "max_trades": 3,
-      "experience": 4
-    },
-    {
-      "type": "goblintraders:basic",
-      "offer_item": {
         "item": "minecraft:string",
         "count": 16
       },
@@ -209,20 +209,6 @@
       },
       "price_multiplier": 0.0,
       "max_trades": 2,
-      "experience": 4
-    },
-    {
-      "type": "goblintraders:basic",
-      "offer_item": {
-        "item": "ars_nouveau:wilden_horn",
-        "count": 3
-      },
-      "payment_item": {
-        "item": "kubejs:coin_01",
-        "count": 1
-      },
-      "price_multiplier": 0.0,
-      "max_trades": 1,
       "experience": 4
     },
     {
@@ -251,20 +237,6 @@
       },
       "price_multiplier": 0.0,
       "max_trades": 1,
-      "experience": 4
-    },
-    {
-      "type": "goblintraders:basic",
-      "offer_item": {
-        "item": "minecraft:lapis_lazuli",
-        "count": 32
-      },
-      "payment_item": {
-        "item": "kubejs:coin_01",
-        "count": 1
-      },
-      "price_multiplier": 0.0,
-      "max_trades": 2,
       "experience": 4
     },
     {
@@ -321,20 +293,6 @@
       },
       "price_multiplier": 0.0,
       "max_trades": 1,
-      "experience": 4
-    },
-    {
-      "type": "goblintraders:basic",
-      "offer_item": {
-        "item": "minecraft:fermented_spider_eye",
-        "count": 8
-      },
-      "payment_item": {
-        "item": "kubejs:coin_01",
-        "count": 1
-      },
-      "price_multiplier": 0.0,
-      "max_trades": 2,
       "experience": 4
     },
     {
