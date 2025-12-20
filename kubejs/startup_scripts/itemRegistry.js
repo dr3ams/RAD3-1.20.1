@@ -53,7 +53,7 @@ event.create('voucher_weapon').displayName('Weapon Exchange Voucher').rarity('Ra
 event.create('voucher_weapon_fragment').displayName('Weapon Exchange Voucher Fragment').rarity('Uncommon')
 event.create('voucher_resource').displayName('Resource Exchange Voucher').rarity('Uncommon')
 event.create('voucher_relic').displayName('Unidentified Relic').rarity('Rare')
-event.create('map_fragment').displayName('Unidentified Map Fragment').rarity('Uncommon')
+event.create('map_fragment').displayName('Map Fragment').rarity('Uncommon')
 event.create('map_scroll_biome').displayName('Unidentified Map Scroll - Biome').rarity('Uncommon')
 event.create('map_scroll_structure').displayName('Unidentified Map Scroll - Structure').rarity('Rare')
 //essences
@@ -86,6 +86,42 @@ event.create('spawnercore').displayName('Spawner Core').rarity('Uncommon')
 
 event.create('contraband').displayName('Contraband Shipment').rarity('Uncommon')
 
+//interactables
+event.create('book_old').displayName('Battered Old Book')
+event.create('book_ancient').displayName('Ancient Book')
+event.create('canned_food').displayName('Canned Food')
+event.create('lost_bag').displayName('Lost Bag')
+event.create('detonator').displayName('Detonator').unstackable()
+    event.create('ancient_crate')
+         .displayName('§6Ancient Loot Crate')
+         .glow(true)
+         .tooltip('§7Right-click to open. §4Watch out for Mimics!')
+
+    // The Skeleton Key
+    event.create('skeleton_key')
+         .displayName('§bSkeleton Key')
+         .glow(true)
+         .tooltip('§7Bypasses crate cooldown and doubles Luck.')
+
+    // The Mimic Heart (Drop)
+    event.create('mimic_heart')
+         .displayName('§4Mimic Heart')
+         .tooltip('§7Still pulsing... used to craft Skeleton Keys.')
+	// The Ritual Crate (Element-themed)
+    event.create('ritual_crate')
+        .displayName('§6Ritualist\'s Offering')
+        .glow(true)
+        .tooltip('§7Must be opened in extreme environments.');
+
+    // The Chaos Crate (Challenge-themed)
+    event.create('chaos_crate')
+        .displayName('§5Crate of Discord')
+        .tooltip('§cWarning: Surivival not guaranteed.');
+
+    // The Wishing Well (Enchant-themed)
+    event.create('wishing_crate')
+        .displayName('§bWishing Well Crate')
+        .tooltip('§7May grant powerful, pre-enchanted Gear');		 
 //exchange coins
 event.create('coin_01').displayName('Coin').tooltip('Acquired by selling valuable materials')
 event.create('coin_02').displayName('Couple of Coins').tooltip('Acquired by selling valuable materials')
