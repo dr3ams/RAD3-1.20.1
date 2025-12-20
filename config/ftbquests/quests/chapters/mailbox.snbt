@@ -1,0 +1,78 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mailbox"
+	group: ""
+	icon: "kubejs:letter"
+	id: "4018570B70F81B89"
+	images: [{
+		height: 28.0d
+		image: "rad3:textures/misc/mailbox.png"
+		rotation: 0.0d
+		width: 20.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&o&7\"I felt the tether snap, traveler. For a moment, your soul drifted toward the Great Void, but the world is not finished with you yet.&r&r"
+				""
+				"&o&7Dying is a messy business—you likely feel cold, disoriented, and perhaps a bit lighter in the pockets. Do not let the sting of defeat linger. Your items remain where you fell, but time and the elements are rarely kind.&r&r"
+				""
+				"&o&7Consider this a one-time courtesy from the beyond. Next time, I might not be so quick to point the way back.\"&r&r"
+			]
+			icon: "kubejs:letter"
+			icon_scale: 1.5d
+			id: "50636F87241A3723"
+			invisible: true
+			shape: "none"
+			size: 1.5d
+			subtitle: "&3From:&r &o&4The Caretaker of Souls&r&r"
+			tasks: [{
+				icon: "kubejs:skull3"
+				id: "120BA5A62EE2A172"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 1
+			}]
+			title: "A Toll Not Yet Paid"
+			x: -6.75d
+			y: -1.5d
+		}
+		{
+			description: [
+				"&7&o\"Greetings, Valued Warrior!&r&r"
+				""
+				"&7&oAre you tired of your blade looking more like a butter knife? Does your hilt feel underwhelming in the heat of battle? Don't let 'Sword Envy' hold you back from your true potential!&r&r"
+				""
+				"&7&oFor a limited time only, Balthazar’s Forge is offering our patented TITAN-STRETCH™ treatment! We guarantee to add significant length and girth to any iron or diamond blade. Amaze your party members! Terrify your foes!&r&r"
+				""
+				"&oDisclaimer: Balthazar’s Forge is not responsible for snapped hilts, accidental self-impalement, or swords becoming too heavy to lift. No refunds.\"&r"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/letter"
+				}
+			}
+			icon_scale: 1.5d
+			id: "232B0386B038DAC0"
+			shape: "none"
+			size: 1.5d
+			subtitle: "&3From:&r Balthazar the Bold (Blacksmith)"
+			tasks: [{
+				elapsedTime: 600L
+				id: "078FE64CBC6FE7AE"
+				type: "questsadditions:time"
+			}]
+			title: "⚔ SIZE MATTERS! (URGENT)"
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	title: "&9⭐ Mailbox&r"
+}

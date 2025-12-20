@@ -1,39 +1,33 @@
 {
+	autofocus_id: "450E6B39B4DD42C7"
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
 	filename: "pathfinder"
 	group: "241F1DC7B6D6E9D6"
 	icon: "supplementaries:globe"
 	id: "66690CB79DA211EF"
-	images: [{
-		height: 8.0d
-		image: "rad3:textures/misc/earth.png"
-		rotation: 0.0d
-		width: 8.0d
-		x: 5.5d
-		y: 2.0d
-	}]
-	order_index: 2
-	quest_links: [ ]
-	quests: [
+	images: [
 		{
-			description: [
-				"There are dozens of new dungeons, some of them are guarded with Bosses."
-				"What are you waiting for? Go conquer them all!"
-			]
-			icon: "supplementaries:key"
-			id: "2DADDB2315AB67D6"
-			shape: "octagon"
-			size: 2.0d
-			subtitle: "New dungeons and challenges"
-			tasks: [{
-				id: "3F1DED87066891FA"
-				title: "Dungeon Diving"
-				type: "checkmark"
-			}]
+			alpha: 100
+			height: 8.0d
+			image: "rad3:textures/misc/earth.png"
+			rotation: 0.0d
+			width: 8.0d
 			x: 5.5d
 			y: 2.0d
 		}
+		{
+			height: 10.0d
+			image: "rad3:textures/misc/rad_map3.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 3.5d
+			y: 8.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
 		{
 			icon: "minecraft:string"
 			id: "5954871D011EA31B"
@@ -63,8 +57,8 @@
 					type: "structure"
 				}
 			]
-			x: 12.0d
-			y: 1.0d
+			x: 14.5d
+			y: 2.0d
 		}
 		{
 			icon: "minecraft:rotten_flesh"
@@ -178,21 +172,14 @@
 				}
 			]
 			subtitle: "Discover a Monster Room (an upgraded spawner room)"
-			tasks: [
-				{
-					advancement: "betterdungeons:small_dungeon"
-					criterion: ""
-					id: "3533A980E4933C2D"
-					type: "advancement"
-				}
-				{
-					id: "74F82385C1F5B985"
-					structure: "betterdungeons:small_dungeon"
-					type: "structure"
-				}
-			]
-			x: 12.0d
-			y: 2.0d
+			tasks: [{
+				advancement: "betterdungeons:small_dungeon"
+				criterion: ""
+				id: "3533A980E4933C2D"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 3.0d
 		}
 		{
 			icon: "minecraft:dead_bush"
@@ -447,8 +434,8 @@
 					type: "structure"
 				}
 			]
-			x: 14.5d
-			y: 2.0d
+			x: 11.5d
+			y: -0.5d
 		}
 		{
 			icon: {
@@ -944,7 +931,7 @@
 				structure: "bosses_of_mass_destruction:void_blossom"
 				type: "structure"
 			}]
-			x: 13.5d
+			x: -2.75d
 			y: 5.0d
 		}
 		{
@@ -1127,7 +1114,7 @@
 				type: "structure"
 			}]
 			x: 5.5d
-			y: -6.0d
+			y: -6.5d
 		}
 		{
 			id: "0E6B88147B9F1896"
@@ -1302,7 +1289,7 @@
 				type: "structure"
 			}]
 			x: 13.5d
-			y: -1.0d
+			y: -0.75d
 		}
 		{
 			icon: "minecraft:heart_of_the_sea"
@@ -1328,8 +1315,8 @@
 				structure: "cataclysm:sunken_city"
 				type: "structure"
 			}]
-			x: -2.5d
-			y: 5.0d
+			x: 13.5d
+			y: 5.25d
 		}
 		{
 			icon: "minecraft:barrel"
@@ -1359,7 +1346,7 @@
 					type: "structure"
 				}
 			]
-			x: 14.0d
+			x: 12.0d
 			y: 3.0d
 		}
 		{
@@ -1794,7 +1781,7 @@
 					type: "structure"
 				}
 			]
-			x: 14.0d
+			x: 12.0d
 			y: 1.0d
 		}
 		{
@@ -1818,7 +1805,7 @@
 				type: "structure"
 			}]
 			x: 12.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			icon: "minecraft:cauldron"
@@ -1841,7 +1828,7 @@
 				type: "structure"
 			}]
 			x: 11.5d
-			y: -0.5d
+			y: 4.5d
 		}
 		{
 			icon: "l2hostility:poison"
@@ -2001,8 +1988,8 @@
 				structure: "stoneholm:underground_village"
 				type: "structure"
 			}]
-			x: 11.5d
-			y: 4.5d
+			x: 14.0d
+			y: 1.0d
 		}
 		{
 			icon: "minecraft:anvil"
@@ -2108,12 +2095,18 @@
 				to_observe: "minecraft:cartography_table"
 				type: "observation"
 			}]
-			x: 17.0d
-			y: 3.0d
+			x: 8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5F244D3C4801808B"]
-			description: ["Pathfinders Quills will take you to certain biomes"]
+			description: [
+				"A legendary tool coveted by explorers and treasure hunters alike, the &2Adventurer's Quill&r is imbued with ancient magic that reveals the hidden wonders of the world. "
+				""
+				"When wielded, it grants its bearer the power to locate specific biomes—those rare and extraordinary landscapes that hold unique resources, secrets, and challenges. "
+				""
+				"Whether you seek the dense, mysterious jungles, the arid, sun-baked deserts, or the frosty, snow-covered tundras, the Adventurer's Quill will guide your path with unerring precision."
+			]
 			id: "39CE66AC4B1DC621"
 			tasks: [{
 				id: "5D770B513EA884FC"
@@ -2126,10 +2119,11 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 18.5d
-			y: 1.5d
+			x: 5.5d
+			y: 0.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["39CE66AC4B1DC621"]
 			icon: "minecraft:oak_sapling"
 			id: "7124F1DC42561945"
@@ -2140,15 +2134,17 @@
 				type: "choice"
 			}]
 			tasks: [{
+				consume_items: true
 				id: "39B0C5ECCA4B100E"
 				item: "kubejs:map_scroll_biome"
 				type: "item"
 			}]
 			title: "Overworld Biomes"
-			x: 17.0d
-			y: 1.0d
+			x: 4.5d
+			y: 0.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["39CE66AC4B1DC621"]
 			icon: "minecraft:netherrack"
 			id: "09CEE2920FE148CE"
@@ -2159,15 +2155,17 @@
 				type: "choice"
 			}]
 			tasks: [{
+				consume_items: true
 				id: "679D4A7550D1BD28"
 				item: "kubejs:map_scroll_biome"
 				type: "item"
 			}]
 			title: "Nether Biomes"
-			x: 18.0d
-			y: 0.0d
+			x: 5.0d
+			y: -0.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["39CE66AC4B1DC621"]
 			icon: "minecraft:brain_coral"
 			id: "3389D3F839C03ADC"
@@ -2178,15 +2176,17 @@
 				type: "choice"
 			}]
 			tasks: [{
+				consume_items: true
 				id: "71CFA26B39648260"
 				item: "kubejs:map_scroll_biome"
 				type: "item"
 			}]
 			title: "Ocean Biomes"
-			x: 19.0d
-			y: 0.0d
+			x: 6.0d
+			y: -0.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["39CE66AC4B1DC621"]
 			icon: "minecraft:sculk"
 			id: "33676E1728D67B40"
@@ -2197,16 +2197,24 @@
 				type: "choice"
 			}]
 			tasks: [{
+				consume_items: true
 				id: "32D076E5CEFCC14F"
 				item: "kubejs:map_scroll_biome"
 				type: "item"
 			}]
 			title: "Cave Biomes"
-			x: 20.0d
-			y: 1.0d
+			x: 6.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["336C9D4D96439135"]
+			description: [
+				"&6Pathfinder's Quill&r is a mystical instrument forged from the essence of ancient cartographers and enchanted with powerful magic. "
+				""
+				"Unlike the Adventurer’s Quill, which reveals the secrets of biomes, the Pathfinder’s Quill is your key to uncovering hidden and legendary &6structures&r scattered across the world."
+				""
+				"With this quill in hand, you can trace the faintest echoes of lost temples, forgotten fortresses, and secret strongholds—each holding treasures, dangers, and stories long buried by time. "
+			]
 			id: "2BFC57CBDF3A7C5D"
 			tasks: [{
 				id: "676A5A2293AB9862"
@@ -2217,28 +2225,242 @@
 				}
 				type: "item"
 			}]
-			x: 18.5d
-			y: 4.5d
+			x: 5.5d
+			y: 3.5d
 		}
 		{
+			dependencies: ["450E6B39B4DD42C7"]
+			description: [
+				"Wrapped in arcane symbols and cloaked in secrecy, the &6Unidentified Map Scroll - Structure&r is a key to forgotten realms. "
+				""
+				"This scroll’s true purpose remains concealed until deciphered by a knowledgeable explorer. "
+				""
+				"Upon identification, it reveals the location of a rare and ancient &5structure&r - be it a lost temple, a hidden fortress, or a secret &ostronghold&r - waiting to be discovered and conquered"
+			]
 			id: "336C9D4D96439135"
+			shape: "octagon_important"
 			tasks: [{
 				id: "3549A929DC7FFB5D"
 				item: "kubejs:map_scroll_structure"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 3.5d
+			x: 6.5d
+			y: 2.5d
 		}
 		{
+			dependencies: ["450E6B39B4DD42C7"]
+			description: [
+				"A mysterious scroll shrouded in enigma, the &2Unidentified Map Scroll&r holds the promise of discovery yet to be revealed. "
+				""
+				"Its parchment is etched with arcane symbols that shimmer faintly, concealing the location of &2biome&r yet to be revealed. Embrace the unknown and let this scroll guide you to new horizons filled with wonder and danger."
+			]
 			id: "5F244D3C4801808B"
+			shape: "octagon_important"
 			tasks: [{
 				id: "337AFC04DDC49C68"
 				item: "kubejs:map_scroll_biome"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 2.5d
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Scattered across the land, within the depths of forgotten &2chests&r, are remnants of a lost age: &6Map Fragments&r. "
+				""
+				"These precious pieces of lore can be discovered during your explorations, occasionally bartered from the mischievous &aGoblin Traders&r, the nomadic &9Wandering Traders&r, the wise &3Librarians&r, and even the &6Queen Bee&r herself. Can also be hidden in lootboxes awarded by some quests."
+				""
+				"Collect a sufficient number of these fragments, and you may exchange them for the coveted &5Map Scrolls&r. "
+				""
+				"They can then be traded for:"
+				""
+				"&2- The Adventurer's Quill&r: A mystical scroll to guide you towards specific Biome."
+				"&b- The Pathfinder's Quill&r: an old map that reveals the path to the ancient and mysterious Structures."
+			]
+			id: "450E6B39B4DD42C7"
+			rewards: [
+				{
+					id: "6708C5D2E25A2565"
+					item: {
+						Count: 1
+						id: "supplementaries:cartographers_quill"
+						tag: {
+							display: {
+								Name: "{\"text\":\"Crawling Dungeon\"}"
+							}
+							maxSearchRadius: 150
+							skipKnown: 1b
+							targetStructure: "dungeoncrawl:dungeon"
+							zoomLevel: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18FBF2F7B6AD46AC"
+					item: "kubejs:map_scroll_biome"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "35A9FBACEF019C75"
+				item: "kubejs:map_fragment"
+				type: "item"
+			}]
+			title: "Unearthing the Secrets of the World"
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFC57CBDF3A7C5D"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "moonlight:textures/map_marker/generic_structure.png"
+				}
+			}
+			icon_scale: 0.7d
+			id: "31B0591CB944AAB2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CE15FFA711B1067"
+				table_id: 1716031763339378298L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "65F2666E0856B70C"
+				item: "kubejs:map_scroll_structure"
+				type: "item"
+			}]
+			title: "Aboveground Structures"
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFC57CBDF3A7C5D"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_marker/ancient_city.png"
+				}
+			}
+			icon_scale: 0.7d
+			id: "7B3AA0D769FA985C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5015CBBF03183F09"
+				table_id: 3218374958604820422L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "482FFE5128F5F83E"
+				item: "kubejs:map_scroll_structure"
+				type: "item"
+			}]
+			title: "Underground Structures"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFC57CBDF3A7C5D"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_marker/village.png"
+				}
+			}
+			icon_scale: 0.7d
+			id: "1E2E1B974FCB2C7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5626F690B523A8D1"
+				table_id: 9077288890138682511L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "155351B1FE1287E4"
+				item: "kubejs:map_scroll_structure"
+				type: "item"
+			}]
+			title: "Village Structures"
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFC57CBDF3A7C5D"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_marker/nether_fortress.png"
+				}
+			}
+			icon_scale: 0.7d
+			id: "7616F6E8F4EEFA3A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E4A82E80C61CBC6"
+				table_id: 6572306802807200494L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "06515A4193B5C354"
+				item: "kubejs:map_scroll_structure"
+				type: "item"
+			}]
+			title: "Nether Structures"
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2BFC57CBDF3A7C5D"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_marker/desert_pyramid.png"
+				}
+			}
+			icon_scale: 0.7d
+			id: "1807F809B6391C32"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B93D27DE3B83304"
+				table_id: 460086200050199042L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "78C19CECC2D7F5E0"
+					item: "kubejs:map_scroll_structure"
+					type: "item"
+				}
+				{
+					id: "42025084C73BA058"
+					points: false
+					type: "xp"
+					value: 20L
+				}
+			]
+			title: "Notable Structures"
+			x: 6.5d
+			y: 4.5d
 		}
 	]
 	title: "Pathfinder"
