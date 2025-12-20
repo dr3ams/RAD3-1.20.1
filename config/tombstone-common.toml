@@ -84,7 +84,7 @@
 	#Range: -1 ~ 1440
 	cooldown_teleport_death = -1
 	#Beneficial effects that can't used by certain features such as ankh of prayer, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment
-	unhandled_beneficial_effects = ["astralsorcery:potiontimefreeze", "tomeofblood:vulnerable", "bloodmagic:flight", "ars_nouveau:scrying", "ars_nouveau:magic_find", "ars_nouveau:flight", "deep_aether:moa_bonus_jumps", "mowziesmobs:sunblock", "simplyswords:fatal_flicker", "cataclysm:ghost_form", "attributeslib:flying"]
+	unhandled_beneficial_effects = ["astralsorcery:potiontimefreeze", "tomeofblood:vulnerable", "bloodmagic:flight", "ars_nouveau:scrying", "ars_nouveau:magic_find", "ars_nouveau:flight", "deep_aether:moa_bonus_jumps", "mowziesmobs:sunblock", "simplyswords:fatal_flicker", "cataclysm:ghost_form", "attributeslib:flying", "celestial_core:unyielding"]
 	#Harmful effects that can't used by certain features such as tablet of cupidity and the enchantment plague bringer
 	unhandled_harmful_effects = ["minecraft:nausea", "ars_elemental:hymn_of_order", "bloodmagic:firefuse", "bloodmagic:soulfray", "bloodmagic:sacrificiallamb", "cataclysm:stun", "cataclysm:ghost_sickness", "fruitsdelight:disgusted", "l2complements:stone_cage", "relics:stun", "shield_overhaul:stun", "xaerominimap:no_minimap_harmful", "xaerominimap:no_entity_radar_harmful", "xaerominimap:no_waypoints_harmful", "xaerominimap:no_cave_maps_harmful", "xaeroworldmap:no_world_map_harmful", "xaeroworldmap:no_cave_maps_harmful"]
 	#Allows to limit the damages done by Decrepitude
@@ -202,4 +202,5 @@
 	force_special_event = "NONE"
 	#Allows Spring Bloom [false/true|default:true]
 	allow_spring_bloom = true
+
 
