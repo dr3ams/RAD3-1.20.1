@@ -210,7 +210,12 @@ LootJS.modifiers((event) => {
 
 	event.addLootTypeModifier([LootType.CHEST])
 		.addLoot(
-			LootEntry.of("kubejs:map_fragment").when((c) => c.randomChance(0.1)).limitCount([1, 1])
+			LootEntry.of("kubejs:map_fragment").when((c) => c.randomChance(0.05)).limitCount([1, 1]),
+			LootEntry.of("kubejs:book_old").when((c) => c.randomChance(0.2)).limitCount([1, 2]),
+			LootEntry.of("kubejs:canned_food").when((c) => c.randomChance(0.2)).limitCount([1, 2]),
+			LootEntry.of("kubejs:book_ancient").when((c) => c.randomChance(0.15)).limitCount([1, 1]),
+			LootEntry.of("kubejs:lost_bag").when((c) => c.randomChance(0.1)).limitCount([1, 1]),
+			LootEntry.of("kubejs:detonator").when((c) => c.randomChance(0.1)).limitCount([1, 1])
 		);
 
 
@@ -232,7 +237,7 @@ LootJS.modifiers((event) => {
 	event.addLootTypeModifier(LootType.CHEST)
 		.anyDimension("minecraft:the_nether")
 		.addLoot(
-			LootEntry.of("kubejs:coin_nether").when((c) => c.randomChance(0.6)).limitCount([1, 1]),
+			LootEntry.of("kubejs:coin_nether").when((c) => c.randomChance(0.4)).limitCount([1, 1]),
 			LootEntry.of("aquaculture:lockbox").when((c) => c.randomChance(0.1)).limitCount([1, 1]),
 			LootEntry.of("aquaculture:box").when((c) => c.randomChance(0.1)).limitCount([1, 2]),
 			LootEntry.of("aquaculture:treasure_chest").when((c) => c.randomChance(0.05)).limitCount([1, 1]),
@@ -300,3 +305,4 @@ LootJS.modifiers((event) => {
 	/// EOF
 
 });
+
