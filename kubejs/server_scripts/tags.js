@@ -275,6 +275,7 @@ event.get('rad3:decapitating')
 		.add('simplyswords:netherite_scythe')
 		.add('simplyswords:runic_scythe')
 		.add('simplyswords:magiscythe')
+		.add('simplyswords:soulrender')
 		.add('knavesneeds:undergarden/cloggrum/scythe')
 		.add('knavesneeds:undergarden/forgotten/scythe')
 		.add('knavesneeds:undergarden/utherium/scythe')
@@ -473,3 +474,4 @@ event.get('rad3:bloodmagicarmor')
 ////END	
 
 })
+
