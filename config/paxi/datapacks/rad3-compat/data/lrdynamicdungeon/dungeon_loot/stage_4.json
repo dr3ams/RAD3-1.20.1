@@ -1,0 +1,142 @@
+{
+  "consumable": {
+    "weight": 4,
+    "loot": [
+      [
+        ["minecraft:cooked_beef", 16]
+      ],
+	  [
+        ["minecraft:cooked_porkchop", 16]
+      ],
+	  [
+        ["minecraft:cooked_salmon", 16]
+      ],
+	  [
+        ["minecraft:tropical_fish", 16]
+      ],
+	  [
+        ["minecraft:pufferfish", 16]
+      ],
+	  [
+        ["minecraft:pumpkin_pie", 16]
+      ],
+	  [
+        ["minecraft:golden_carrot", 16]
+      ]
+    ]
+  },
+  "combat": {
+    "weight": 2,
+    "loot": [
+      [
+        ["minecraft:diamond_sword", 1, { "Enchantments": [{"id":"minecraft:sharpness","lvl":3}] }],
+        ["minecraft:shield", 1, { "Enchantments": [{"id":"minecraft:unbreaking","lvl":3}] }]
+      ],
+      [
+        ["minecraft:diamond_axe", 1, { "Enchantments": [ {"id":"minecraft:sharpness","lvl":3},{"id":"minecraft:unbreaking","lvl":1} ] }]
+      ],
+	  [
+        ["minecraft:bow", 1, { "Enchantments": [{"id":"minecraft:punch","lvl":3}] }],
+        ["minecraft:arrow", 64]
+      ],
+      [
+        ["minecraft:crossbow", 1, { "Enchantments": [{"id":"minecraft:quick_charge","lvl":2},{"id":"minecraft:piercing","lvl":4},{"id":"minecraft:unbreaking","lvl":2}] }],
+        ["minecraft:arrow", 48]
+      ]
+    ]
+  },
+  "equipment": {
+    "weight": 2,
+    "loot": [
+      [ [ "minecraft:diamond_helmet", 1 ] ],
+      [ [ "minecraft:diamond_chestplate", 1 ] ],
+      [ [ "minecraft:diamond_leggings", 1 ] ],
+      [ [ "minecraft:diamond_boots", 1 ] ]
+    ]
+  },
+  "enchantment": {
+    "weight": 3,
+    "loot": [
+      [
+        ["minecraft:experience_bottle", 64]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:sharpness","lvl":4}] }]
+      ],
+      [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:protection","lvl":4}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:feather_falling","lvl":8}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:respiration","lvl":4}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:thorns","lvl":4}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:depth_strider","lvl":4}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:smite","lvl":5}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:efficiency","lvl":5}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:unbreaking","lvl":5}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:power","lvl":5}] }]
+      ]
+    ]
+  },
+  "botany": {
+    "weight": 1,
+    "loot": [
+      [ [ "minecraft:sculk_vein", 16] ],
+      [ [ "minecraft:torchflower", 16] ],
+      [ [ "minecraft:weeping_vines", 16] ],
+      [ [ "minecraft:twisting_vines", 16] ],
+      [ [ "kubejs:coin_dungeon", 1] ]
+    ]
+  },
+  "nature": {
+    "weight": 5,
+    "loot": [
+      [
+        ["minecraft:emerald", 16]
+      ],
+	  [
+        ["minecraft:diamond", 4]
+      ],
+	  [
+        ["minecraft:obsidian", 32]
+      ],
+      [
+        ["minecraft:quartz_block", 16]
+      ],
+	  [
+        ["minecraft:redstone_block", 64],
+		["minecraft:redstone_block", 64]
+      ],
+	  [
+        ["minecraft:glowstone_dust", 32]
+      ]
+    ]
+  },
+  "mobs": {
+    "weight": 3,
+    "loot": [
+      [["minecraft:glow_ink_sac", 32]],
+      [["minecraft:scute", 16]],
+      [["minecraft:leather", 32]],
+      [["minecraft:honeycomb", 32]],
+      [["minecraft:slime_ball", 32]],
+      [["minecraft:nautilus_shell", 8]],
+      [["minecraft:ender_pearl", 16],["minecraft:ender_pearl", 16]],
+      [["minecraft:blaze_powder", 16]]
+    ]
+  }
+}

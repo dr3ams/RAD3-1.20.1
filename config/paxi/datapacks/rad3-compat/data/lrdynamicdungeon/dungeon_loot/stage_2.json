@@ -1,0 +1,221 @@
+{
+  "consumable": {
+    "weight": 4,
+    "loot": [
+      [
+        ["minecraft:beef", 16]
+      ],
+	  [
+        ["minecraft:porkchop", 16]
+      ],
+	  [
+        ["minecraft:mutton", 16]
+      ],
+	  [
+        ["minecraft:chicken", 8],
+		["minecraft:egg", 8]
+      ],
+	  [
+        ["minecraft:rabbit", 16]
+      ],
+	  [
+        ["minecraft:apple", 16]
+      ],
+	  [
+        ["minecraft:glow_berries", 16]
+      ],
+	  [
+        ["minecraft:beetroot", 16]
+      ],
+	  [
+        ["minecraft:dried_kelp", 16]
+      ],
+	  [
+        ["minecraft:cookie", 16]
+      ],
+	  [
+        ["minecraft:sugar_cane", 16]
+      ]
+    ]
+  },
+  "combat": {
+    "weight": 2,
+    "loot": [
+      [
+        ["minecraft:iron_sword", 1, { "Enchantments": [{"id":"minecraft:sharpness","lvl":2}] }],
+        ["minecraft:shield", 1, { "Enchantments": [{"id":"minecraft:unbreaking","lvl":2}] }]
+      ],
+      [
+        ["minecraft:iron_axe", 1, { "Enchantments": [ {"id":"minecraft:sharpness","lvl":3},{"id":"minecraft:unbreaking","lvl":1} ] }]
+      ],
+	  [
+        ["minecraft:bow", 1, { "Enchantments": [{"id":"minecraft:punch","lvl":1}] }],
+        ["minecraft:arrow", 32]
+      ],
+	  [
+        ["minecraft:crossbow", 1, { "Enchantments": [{"id":"minecraft:quick_charge","lvl":1}] }],
+        ["minecraft:arrow", 32]
+      ]
+    ]
+  },
+  "equipment": {
+    "weight": 2,
+    "loot": [
+      [ [ "minecraft:chainmail_helmet", 1 ] ],
+      [ [ "minecraft:chainmail_chestplate", 1 ] ],
+      [ [ "minecraft:chainmail_leggings", 1 ] ],
+      [ [ "minecraft:chainmail_boots", 1 ] ]
+    ]
+  },
+  "enchantment": {
+    "weight": 3,
+    "loot": [
+      [
+        ["minecraft:experience_bottle", 8]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:sharpness","lvl":4}] }]
+      ],
+      [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:protection","lvl":4}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:feather_falling","lvl":4}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:respiration","lvl":2}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:thorns","lvl":2}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:depth_strider","lvl":2}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:smite","lvl":4}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:fire_aspect","lvl":3}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:looting","lvl":5}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:sweeping_edge","lvl":5}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:knockback","lvl":5}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:efficiency","lvl":5}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:unbreaking","lvl":5}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:fortune","lvl":4}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:power","lvl":5}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:luck_of_the_sea","lvl":6}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:loyalty","lvl":4}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:impaling","lvl":3}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:riptide","lvl":6}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:quick_charge","lvl":3}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:piercing","lvl":3}] }]
+      ]
+    ]
+  },
+  "botany": {
+    "weight": 1,
+    "loot": [
+      [
+        [ "minecraft:oak_sapling", 16]
+      ],
+      [
+        [ "minecraft:spruce_sapling", 16]
+      ],
+      [
+        [ "minecraft:birch_sapling", 16]
+      ],
+      [
+        [ "minecraft:jungle_sapling", 16]
+      ],
+      [ [ "minecraft:blue_orchid", 16] ],
+      [ [ "minecraft:allium", 16] ],
+      [ [ "minecraft:azure_bluet", 16] ],
+      [ [ "minecraft:red_tulip", 16] ],
+      [ [ "minecraft:orange_tulip", 16] ],
+      [ [ "minecraft:white_tulip", 16] ],
+      [ [ "minecraft:pink_tulip", 16] ],
+      [ [ "minecraft:oxeye_daisy", 16] ],
+      [ [ "minecraft:lily_of_the_valley", 16] ],
+      [ [ "minecraft:bamboo", 16] ],
+      [ [ "minecraft:cactus", 16] ]
+    ]
+  },
+  "power": {
+    "weight": 1,
+    "loot": [
+      [
+        ["minecraft:coal_block", 16]
+      ],
+      [
+        ["minecraft:fire_charge", 32]
+      ]
+    ]
+  },
+  "nature": {
+    "weight": 5,
+    "loot": [
+	  [
+        ["minecraft:oak_log", 16]
+      ],
+      [
+        ["minecraft:raw_gold", 16]
+      ],
+	  [
+        ["minecraft:redstone_block", 16]
+      ],
+      [
+        ["minecraft:quartz", 8]
+      ],
+	  [
+        ["minecraft:iron_ingot", 16]
+      ],
+	  [
+        ["minecraft:copper_ingot", 16]
+      ],
+      [
+        ["minecraft:amethyst_shard", 32]
+      ]
+    ]
+  },
+  "mobs": {
+    "weight": 3,
+    "loot": [
+      [["minecraft:feather", 16]],
+      [["minecraft:ink_sac", 16]],
+      [["minecraft:glow_ink_sac", 8]],
+      [["minecraft:leather", 8]],
+      [["minecraft:rabbit_hide", 4]],
+      [["minecraft:honeycomb", 8]],
+      [["minecraft:bone", 16]],
+      [["minecraft:slime_ball", 8]],
+      [["minecraft:ender_pearl", 8]],
+      [["minecraft:blaze_powder", 8]]
+    ]
+  }
+}
