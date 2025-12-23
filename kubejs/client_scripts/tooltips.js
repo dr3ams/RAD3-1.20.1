@@ -12,26 +12,19 @@ ItemEvents.tooltip(event =>{
             }
         }
     })
-
-	event.addAdvanced('kubejs:map_fragment', (item, advanced, text) => {
-    if (!event.isShift()) {
-      text.add(1, [
-        Text.of('Hold ').gray(),
-        Text.of('[Shift] ').gold(),
-        Text.of('to see more info.').gray()
+	
+	event.addAdvanced('#skilltree:gems', (item, advanced, text) => {
+      text.add(1, [Text.of('• Use ').yellow(),Text.of('Smithing Table ').green().bold(true),Text.of('to insert it').yellow()
       ])
-    } else {
-		text.add(1, [
-	    Text.of('• Used to buy Map Scrolls from Goblin traders, Wandering merchants and Librarians').white()
-      ])
-      text.add(2, [
-        Text.of('• Can be acquired from different traders or loot').white()
-		])
-      text.add(3, [
-        Text.of('• Check Pathfinder quest chapter for more info').white()
-		])
-    }
 	})
+	
+	event.addAdvanced('kubejs:spam_voucher', (item, advanced, text) => {
+				text.add(1, Text.of('Smells faintly of cheap ale and desperation.').gray().italic())
+				text.add(2, Text.of(' • §6Mechanics:§f Offers a 0% discount at blacksmiths.').white())
+				text.add(3, Text.of(' • §2Cost:§f One stack of Diamonds (non-refundable).').white())
+				text.add(5, Text.of(' • §bSpecial Ability:§f Makes the player feel insecure.').white())
+				text.add(5, Text.of(' • §dLifespan:§f Expires yesterday.').white())
+		})
 
 	event.addAdvanced('kubejs:map_scroll_biome', (item, advanced, text) => {
     if (!event.isShift()) {
@@ -710,14 +703,6 @@ ItemEvents.tooltip(event =>{
     }
   })	
 	
-	event.addAdvanced('#skilltree:gems', (item, advanced, text) => {
-      text.add(1, [
-        Text.of('• Use ').yellow(),
-        Text.of('Smithing Table ').green().bold(true),
-        Text.of('to insert it').yellow()
-      ])
-	})
-  
   	event.addAdvanced(['skilltree:quiver', 'skilltree:fiery_quiver', 'skilltree:armored_quiver', 'skilltree:gilded_quiver', 'skilltree:toxic_quiver', 'skilltree:diamond_quiver', 'skilltree:healing_quiver', 'skilltree:silent_quiver', 'skilltree:bone_quiver'], (item, advanced, text) => {
       text.add(1, [
         Text.of('• Place together with ').white(),
@@ -1026,6 +1011,48 @@ ItemEvents.tooltip(event =>{
         ])
       }
     })
+
+	event.addAdvanced('kubejs:book_old', (item, advanced, text) => {
+      text.add(1, [
+        Text.of('Some old notes, no actual value').gold().italic(true)
+      ])
+	  text.add(2, [
+        Text.of('Right-click while holding to tear it to pieces').gray()
+      ])
+	})
+
+	event.addAdvanced('kubejs:lost_bag', (item, advanced, text) => {
+      text.add(1, [
+        Text.of('Someone forgot it here or left on purpose...').gold().italic(true)
+      ])
+	  text.add(2, [
+        Text.of('Right-click while holding to check whats inside').gray()
+      ])
+	})
+
+	event.addAdvanced('kubejs:book_ancient', (item, advanced, text) => {
+		text.add(1, [
+        Text.of('Written in long-forgotten language impossible to decipher').gold().italic(true)
+      ])
+		text.add(2, [
+        Text.of('Right-click while holding to tear it to pieces').gray()
+      ]) 
+	})
+	
+	event.addAdvanced('kubejs:canned_food', (item, advanced, text) => {
+      text.add(1, [
+        Text.of('Expired. Open at your own risk').gold().italic(true)
+      ])
+	})
+	
+	event.addAdvanced('kubejs:detonator', (item, advanced, text) => {
+		text.add(1, [
+        Text.of('Not sure if you should press that red button...').gold().italic(true)
+      ])
+		text.add(2, [
+        Text.of('But you want it, right?').gray().italic(true)
+      ]) 
+	})
 
 	event.addAdvanced(['kubejs:quest_crate'], (item, advanced, text) => {
     if (!event.isShift()) {

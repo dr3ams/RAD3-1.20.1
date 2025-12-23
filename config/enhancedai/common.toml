@@ -291,7 +291,7 @@
 	"Enable Spawning" = true
 	#Makes mobs be able to jump in place when their target is a few blocks above them. Only entity types in the `enhancedai:mobs/can_jump_in_place` tag can jump
 	"Enable Jump" = true
-	#Changes mobs attack range to use the 1.20.2 mechanic
+	#Changes mobs attack range to use the 1.20.2 mechanic. Only entities in the `enhancedai:mobs/melee_attacking` entity type tag will be affected.
 	"Enable Melee attacking" = true
 	#Mobs will run away from exploding creepers / TNT. Only entity types in `enhancedai:mobs/can_run_from_explosions` tag will be affected by this feature
 	"Enable Avoid explosions" = true
@@ -435,7 +435,7 @@
 		#Spawn types in this list will not get AI changes. Valid values: NATURAL, CHUNK_GENERATION, SPAWNER, STRUCTURE, BREEDING, MOB_SUMMONED, JOCKEY, EVENT, CONVERSION, REINFORCEMENT, TRIGGERED, BUCKET, SPAWN_EGG, COMMAND, DISPENSER, PATROL.
 		"Blacklisted spawn types" = []
 
-	#Changes mobs attack range to use the 1.20.2 mechanic
+	#Changes mobs attack range to use the 1.20.2 mechanic. Only entities in the `enhancedai:mobs/melee_attacking` entity type tag will be affected.
 	[Mobs."Melee attacking"]
 		#If true melee monsters (zombies, etc) will attack like 1.20.2+ and the attack range is based off the forge:entity_reach attribute (default 0.82 blocks).
 		"Attack reach attribute based" = true

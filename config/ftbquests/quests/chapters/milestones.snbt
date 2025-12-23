@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "none"
 	filename: "milestones"
 	group: ""
 	icon: "kubejs:mark"
@@ -11,48 +11,369 @@
 			image: "rad3:textures/misc/quest-info.png"
 			rotation: 0.0d
 			width: 18.0d
-			x: -4.5d
-			y: -5.5d
+			x: -5.0d
+			y: -4.5d
 		}
 		{
-			height: 1.1d
+			color: 8751494
+			height: 10.0d
+			image: "relics:textures/gui/description/relic/abilities_background.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheotic_additions:block/metal_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "sophisticatedstorage:block/netherite_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "sophisticatedstorage:block/diamond_barrel_bottom"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
 			image: "ftbquests:block/barrier_open"
-			rotation: 45.0d
-			width: 1.1d
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
 			x: -11.0d
 			y: -1.5d
 		}
 		{
 			height: 1.0d
-			image: "ftbquests:block/barrier"
+			image: "apotheotic_additions:block/metal_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheotic_additions:block/metal_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheotic_additions:block/metal_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "sophisticatedstorage:block/diamond_barrel_bottom"
+			order: 1
 			rotation: 0.0d
 			width: 1.0d
 			x: -9.5d
-			y: -2.0d
+			y: 1.0d
 		}
 		{
-			height: 1.1d
-			image: "ftbquests:block/barrier_open"
-			rotation: 45.0d
-			width: 1.1d
+			height: 1.0d
+			image: "sophisticatedstorage:block/diamond_barrel_bottom"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheotic_additions:block/metal_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheotic_additions:block/metal_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheotic_additions:block/metal_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
 			x: -11.0d
-			y: -2.5d
+			y: -4.0d
 		}
 		{
-			height: 1.1d
-			image: "ftbquests:block/barrier_open"
-			rotation: 45.0d
-			width: 1.1d
-			x: -10.5d
-			y: -3.5d
+			height: 1.0d
+			image: "apotheotic_additions:block/metal_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 1.0d
 		}
 		{
-			height: 1.1d
+			height: 1.0d
+			image: "apotheotic_additions:block/metal_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheotic_additions:block/metal_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheotic_additions:block/metal_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheotic_additions:block/metal_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheotic_additions:block/metal_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheotic_additions:block/metal_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheotic_additions:block/metal_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheotic_additions:block/metal_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
 			image: "ftbquests:block/barrier_open"
-			rotation: 45.0d
-			width: 1.1d
-			x: -10.5d
-			y: -0.5d
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "sophisticatedstorage:block/diamond_barrel_bottom"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "sophisticatedstorage:block/diamond_barrel_bottom"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "sophisticatedstorage:block/diamond_barrel_bottom"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "sophisticatedstorage:block/gold_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "sophisticatedstorage:block/gold_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "sophisticatedstorage:block/diamond_barrel_bottom"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "sophisticatedstorage:block/diamond_barrel_bottom"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "sophisticatedstorage:block/gold_barrel_bottom"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheotic_additions:block/metal_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "relics:textures/hud/abilities/arrow_right.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "relics:textures/hud/abilities/arrow_right.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "relics:textures/hud/abilities/arrow_right.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheotic_additions:block/metal_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheotic_additions:block/metal_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "sophisticatedstorage:block/gold_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "sophisticatedstorage:block/gold_barrel_bottom"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "sophisticatedstorage:block/gold_barrel_bottom"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -4.0d
 		}
 	]
 	order_index: 4
@@ -81,8 +402,8 @@
 				type: "checkmark"
 			}]
 			title: "&6Complete&r &2'World Exploration'&r &6chapter&r"
-			x: -9.5d
-			y: -2.0d
+			x: -11.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1D0517C3BEA06389"]
@@ -115,13 +436,10 @@
 			}]
 			title: "&6Complete&r &4'Nether Exploration'&r &6chapter&r"
 			x: -8.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
-			dependencies: [
-				"4D9749A9C944ECE8"
-				"3FE60105340A9769"
-			]
+			dependencies: ["4D9749A9C944ECE8"]
 			description: [""]
 			icon: "undergarden:deepturf_block"
 			id: "72E9615856C466DD"
@@ -144,14 +462,11 @@
 				type: "checkmark"
 			}]
 			title: "&6Complete&r &2'The Garden Under'&r &6chapter&r"
-			x: -2.0d
-			y: -2.0d
+			x: 1.0d
+			y: -1.5d
 		}
 		{
-			dependencies: [
-				"76389659C6680826"
-				"2D971B6D39514E9B"
-			]
+			dependencies: ["76389659C6680826"]
 			description: [""]
 			icon: "the_bumblezone:bee_queen_spawn_egg"
 			id: "1FDF4CE79FDE8067"
@@ -186,14 +501,11 @@
 				type: "checkmark"
 			}]
 			title: "&6Complete&r &e'To the Bumblezone'&r &6chapter&r"
-			x: -9.5d
+			x: -11.0d
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"5848895427BAE9FD"
-				"4FE6302AF76BF9EE"
-			]
+			dependencies: ["5848895427BAE9FD"]
 			description: ["&6Complete&r &f'Stairway to Aether'&r &6chapter&r"]
 			icon: "aether:aether_grass_block"
 			id: "43EF6CF45615F67E"
@@ -228,14 +540,11 @@
 				type: "checkmark"
 			}]
 			title: "&6Complete&r &f'Stairway to Aether'&r &6chapter&r"
-			x: -3.5d
-			y: -2.0d
+			x: -2.0d
+			y: -1.5d
 		}
 		{
-			dependencies: [
-				"66690CB79DA211EF"
-				"2D971B6D39514E9B"
-			]
+			dependencies: ["66690CB79DA211EF"]
 			description: [""]
 			icon: "supplementaries:globe"
 			id: "248D67DE2DF87073"
@@ -257,8 +566,8 @@
 				type: "checkmark"
 			}]
 			title: "&6Complete&r &2'Pathfinder'&r &6chapter&r"
-			x: -9.5d
-			y: 0.0d
+			x: -11.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["33E10527DCD06E5D"]
@@ -283,8 +592,8 @@
 				type: "checkmark"
 			}]
 			title: "&6Complete&r &2'Trinkets 'n Curios'&r &6chapter&r"
-			x: -10.5d
-			y: -0.5d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["690C3D15379D602D"]
@@ -304,19 +613,17 @@
 				}
 				type: "item"
 			}]
+			shape: "none"
 			tasks: [{
 				id: "1C4A1E4AD843D2C5"
 				type: "checkmark"
 			}]
 			title: "&6Complete&r &5Ars Nouveau&r &6chapter&r"
-			x: -11.0d
-			y: -1.5d
+			x: -9.5d
+			y: 1.0d
 		}
 		{
-			dependencies: [
-				"26FFA683A2A5D5E1"
-				"29EA7C127C053823"
-			]
+			dependencies: ["26FFA683A2A5D5E1"]
 			icon: "embers:ember_crystal_cluster"
 			id: "5C191730329D83B4"
 			rewards: [{
@@ -338,8 +645,8 @@
 				type: "checkmark"
 			}]
 			title: "&6Complete&r &6Embers Rekindled&r &6chapter&r"
-			x: -4.0d
-			y: -3.5d
+			x: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["0F590B3A1FD5D993"]
@@ -418,14 +725,11 @@
 				type: "checkmark"
 			}]
 			title: "&6Complete&r &cSeek and Destroy&r &6chapter&r"
-			x: -10.5d
-			y: -3.5d
+			x: -6.5d
+			y: 1.0d
 		}
 		{
-			dependencies: [
-				"1DC4DF1994634F20"
-				"4FE6302AF76BF9EE"
-			]
+			dependencies: ["1DC4DF1994634F20"]
 			icon: "landsoficaria:chiseled_relicstone"
 			id: "185528674ADBCBEB"
 			rewards: [{
@@ -447,7 +751,7 @@
 			}]
 			title: "&6Complete&r &6Flying Like Icarus&r &6chapter&r"
 			x: -5.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7928F5D289CB8B3D"]
@@ -485,11 +789,10 @@
 				type: "checkmark"
 			}]
 			title: "&6Complete&r &7Hostile World&r &6chapter&r"
-			x: -11.0d
-			y: -2.5d
+			x: -8.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["29EA7C127C053823"]
 			id: "021A174F7729843C"
 			tasks: [{
 				id: "3D6C11A95AC37665"
@@ -500,15 +803,14 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["6DB365442C2C823F"]
 			id: "78D8E0F80BBCD583"
 			tasks: [{
 				id: "11E95E320C873207"
 				item: "mining_dimension:teleporter"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.5d
+			x: 1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["68581FC88BECFEBB"]
@@ -518,14 +820,12 @@
 				id: "4DB61443675C0595"
 				type: "checkmark"
 			}]
-			x: -8.5d
-			y: 0.0d
+			title: "Complete Blood Magic chapter"
+			x: -5.0d
+			y: 1.0d
 		}
 		{
-			dependencies: [
-				"7C06985ABF908F49"
-				"6DB365442C2C823F"
-			]
+			dependencies: ["7C06985ABF908F49"]
 			icon: {
 				Count: 1
 				id: "l2complements:eternium_pickaxe"
@@ -543,8 +843,44 @@
 				id: "4CF1F8334DBFADBF"
 				type: "checkmark"
 			}]
+			title: "Complete Equipment chapter"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2B8506307F0DA912"]
+			icon: "dimdungeons:block_portal_keyhole"
+			id: "0BBF49D42BEB239B"
+			tasks: [{
+				id: "1CE98B8D50161A52"
+				type: "checkmark"
+			}]
+			title: "Complete 'Dimensional Travels' chapter"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["770750D0370ECA36"]
+			icon: "minecraft:dragon_head"
+			id: "7C93029406E8A48E"
+			tasks: [{
+				id: "7B4E6CC2283C894E"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["49A6B8346C5B55D1"]
+			icon: "minecraft:skeleton_skull"
+			id: "76D0BF42C18F13AD"
+			tasks: [{
+				id: "62071BB5BB77A00F"
+				type: "checkmark"
+			}]
+			title: "Complete 'Hunt Never Stops' chapter and fill the Bestiary"
 			x: -0.5d
-			y: -2.0d
+			y: 1.0d
 		}
 	]
 	title: "&6⭐ Milestones&r"

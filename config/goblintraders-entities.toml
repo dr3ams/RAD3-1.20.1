@@ -1,6 +1,6 @@
 # If true, prevents the trader from despawning if named
 # Valid values: true, false
-preventDespawnIfNamed = true
+preventDespawnIfNamed = false
 
 [goblinTrader]
 	# The chance out of one hundred that the trader will spawn in the over world
@@ -50,10 +50,10 @@ preventDespawnIfNamed = true
 			minAmount = 0
 			# The maximum amount of trades that a golbin can have.
 			# Valid range: 0 to 2147483647 (inclusive)
-			manAmount = 2
+			manAmount = 1
 			# The chance this trade rarity will be included in the goblin's trades
 			# Valid range: 0 to 1 (inclusive)
-			includeChance = 1.0
+			includeChance = 0.4
 
 		[goblinTrader.trades.legendary]
 			# The minimum amount of trades that a golbin will have.
@@ -69,13 +69,13 @@ preventDespawnIfNamed = true
 		[goblinTrader.trades.rare]
 			# The chance this trade rarity will be included in the goblin's trades
 			# Valid range: 0 to 1 (inclusive)
-			includeChance = 1.0
+			includeChance = 0.7
 			# The maximum amount of trades that a golbin can have.
 			# Valid range: 0 to 2147483647 (inclusive)
-			manAmount = 4
+			manAmount = 3
 			# The minimum amount of trades that a golbin will have.
 			# Valid range: 0 to 2147483647 (inclusive)
-			minAmount = 3
+			minAmount = 1
 
 		[goblinTrader.trades.common]
 			# The chance this trade rarity will be included in the goblin's trades
@@ -150,15 +150,15 @@ preventDespawnIfNamed = true
 			includeChance = 0.7
 			# The minimum amount of trades that a golbin will have.
 			# Valid range: 0 to 2147483647 (inclusive)
-			minAmount = 2
+			minAmount = 1
 
 		[veinGoblinTrader.trades.epic]
 			# The minimum amount of trades that a golbin will have.
 			# Valid range: 0 to 2147483647 (inclusive)
-			minAmount = 0
+			minAmount = 1
 			# The chance this trade rarity will be included in the goblin's trades
 			# Valid range: 0 to 1 (inclusive)
-			includeChance = 1.0
+			includeChance = 0.4
 			# The maximum amount of trades that a golbin can have.
 			# Valid range: 0 to 2147483647 (inclusive)
 			manAmount = 2

@@ -5,6 +5,14 @@
 	filename: "collections"
 	group: ""
 	id: "7F5EF3CC187F7DAE"
+	images: [{
+		height: 23.0d
+		image: "the_bumblezone:textures/gui/buzzing_briefcase/background.png"
+		rotation: 0.0d
+		width: 30.0d
+		x: 1.0d
+		y: 5.0d
+	}]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -749,6 +757,16 @@
 		{
 			disable_toast: true
 			id: "0F5C601327BB6BAE"
+			rewards: [{
+				command: "/titles remove @s titles:collectionist"
+				console: true
+				elevate_perms: true
+				icon: "titles:title_scroll_uncommon"
+				id: "50C1E1DA370BF0B9"
+				silent: true
+				title: "'Collectionist' Title"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "0A997B9C44C50A39"
@@ -1268,6 +1286,17 @@
 		{
 			disable_toast: true
 			id: "52A27C8132D4A3DE"
+			rewards: [{
+				command: "/titles add @p titles:backpacker"
+				console: true
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "titles:title_scroll_common"
+				id: "1CCB957C973C4EA7"
+				silent: true
+				title: "Backpacker Title"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "368DB6820F56F317"
@@ -1763,6 +1792,17 @@
 		{
 			disable_toast: true
 			id: "2B7EB58ABCC0AEEA"
+			rewards: [{
+				command: "/titles remove @s titles:gem_collector"
+				console: true
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "titles:title_scroll_uncommon"
+				id: "3EFA9FA078EC0A95"
+				silent: true
+				title: "'Gem Collector' Title"
+				type: "command"
+			}]
 			subtitle: "(any tier count)"
 			tasks: [
 				{
@@ -2161,6 +2201,16 @@
 		}
 		{
 			id: "11D7C9DD9D58BE28"
+			rewards: [{
+				command: "/titles add @p titles:lotr"
+				console: true
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "titles:title_scroll_uncommon"
+				id: "3768400E80D66BBA"
+				title: "Lord Of The Rings Title"
+				type: "command"
+			}]
 			subtitle: "... but you only need one to rule them all . . ."
 			tasks: [
 				{

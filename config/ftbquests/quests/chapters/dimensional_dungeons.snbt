@@ -239,6 +239,106 @@
 			x: 9.0d
 			y: 3.5d
 		}
+		{
+			id: "77844F4A14D9BF5B"
+			rewards: [
+				{
+					id: "2F1F37EBC0E27430"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "5879F9BC7343A7A9"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "none"
+			subtitle: "Find a key to the teleporters hub"
+			tasks: [{
+				advancement: "dimdungeons:dungeons/find_teleporter_key"
+				criterion: ""
+				id: "581F488B9178BFE1"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			id: "5437301A9745C786"
+			rewards: [
+				{
+					id: "3FFFE9F26C7408A9"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "17BF027D8CBD20EA"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "none"
+			subtitle: "Find all 8 unique trophies"
+			tasks: [{
+				advancement: "dimdungeons:dungeons/all_trophies"
+				criterion: ""
+				id: "184D337C8FFFD553"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			id: "45F1098037C92E08"
+			rewards: [
+				{
+					id: "5543F5868D1E8FDB"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "71FD0BBC03A9BF11"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "none"
+			subtitle: "Find Advanced Portal Key in a dungeon"
+			tasks: [{
+				advancement: "dimdungeons:dungeons/find_advanced_key"
+				criterion: ""
+				id: "0CF422B73BCE2A7E"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			id: "2A1BA337150218F8"
+			rewards: [
+				{
+					id: "7C7F4E4869E222AC"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "7FAF489C6000F17D"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "none"
+			subtitle: "Find a Key Inscribing Station"
+			tasks: [{
+				advancement: "dimdungeons:dungeons/find_key_charger"
+				criterion: ""
+				id: "169C8B1A432FF321"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
 	]
 	subtitle: ["Limitless adventure from a single portal that you can build anywhere!"]
 	title: "Dimensional Travels"

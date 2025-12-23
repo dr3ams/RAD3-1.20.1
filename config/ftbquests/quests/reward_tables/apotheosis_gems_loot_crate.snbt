@@ -170,8 +170,8 @@
 			}
 		}
 		{ item: "apotheosis:common_material", random_bonus: 3 }
-		{ item: "apotheosis:uncommon_material", random_bonus: 3 }
-		{ item: "apotheosis:rare_material" }
+		{ item: "apotheosis:uncommon_material", random_bonus: 3, weight: 1.3f }
+		{ item: "apotheosis:rare_material", weight: 1.3f }
 		{
 			item: {
 				Count: 1
@@ -243,6 +243,7 @@
 					gem: "apotheotic_additions:modded/ars_mana"
 				}
 			}
+			weight: 0.7f
 		}
 		{
 			item: {
@@ -267,6 +268,7 @@
 					gem: "apotheotic_additions:curios/vitalic"
 				}
 			}
+			weight: 0.7f
 		}
 		{
 			item: {
@@ -279,6 +281,7 @@
 					gem: "apotheotic_additions:modded/ars_mana"
 				}
 			}
+			weight: 0.7f
 		}
 	]
 	title: "Apotheosis Gems Loot Crate"

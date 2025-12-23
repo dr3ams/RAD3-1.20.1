@@ -271,7 +271,7 @@
 			]
 			title: "Diamond Coin -> Relics Crate"
 			x: 8.0d
-			y: -5.5d
+			y: -6.0d
 		}
 		{
 			can_repeat: true
@@ -300,7 +300,7 @@
 			}]
 			title: "Gold Coin -> Artifacts Crate"
 			x: 5.0d
-			y: -5.5d
+			y: -6.0d
 		}
 		{
 			can_repeat: true
@@ -352,7 +352,7 @@
 			}]
 			title: "Iron Coin -> Experience"
 			x: -7.0d
-			y: -9.5d
+			y: -10.0d
 		}
 		{
 			can_repeat: true
@@ -380,7 +380,7 @@
 			}]
 			title: "Gold Coin -> Experience"
 			x: 5.0d
-			y: -9.5d
+			y: -10.0d
 		}
 		{
 			can_repeat: true
@@ -408,7 +408,7 @@
 			}]
 			title: "Diamond Coin -> Experience"
 			x: 8.0d
-			y: -9.5d
+			y: -11.0d
 		}
 		{
 			description: [
@@ -966,7 +966,7 @@
 			]
 			title: "Diamond Coin -> Celestial Artifact"
 			x: 8.0d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			can_repeat: true
@@ -1109,28 +1109,7 @@
 			}]
 			title: "Magic Loot Crate"
 			x: 5.0d
-			y: -4.5d
-		}
-		{
-			can_repeat: true
-			icon: "skilltree:wisdom_scroll"
-			id: "052A510D43FD68FC"
-			rewards: [{
-				id: "5AE436EC6666304A"
-				item: "skilltree:wisdom_scroll"
-				type: "item"
-			}]
-			subtitle: "One Passive Skill Tree point"
-			tasks: [{
-				consume_items: true
-				count: 3L
-				id: "37FF23F294C904BC"
-				item: "kubejs:gold_coin"
-				type: "item"
-			}]
-			title: "Wisdom Scroll"
-			x: 5.0d
-			y: -3.5d
+			y: -5.0d
 		}
 		{
 			can_repeat: true
@@ -1231,7 +1210,74 @@
 			}]
 			title: "The Questing Sword"
 			x: 5.0d
-			y: -6.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:totem_of_undying"
+			id: "1DE245AC4B2B229C"
+			rewards: [{
+				id: "5E376E076E593983"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "53E6876A5FBAAE14"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			title: "Totem of Undying"
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "apotheosis:the_end/endersurge"
+				}
+			}
+			id: "157FAAB7412AA262"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C5ED32C4B140DD5"
+				table_id: 9122232193753176215L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "76BAB4B04B8A4719"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			title: "Random Apotheotic Gem"
+			x: 8.0d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			icon: "celestial_artifacts:traveler_scroll"
+			id: "246132A33AE1E5B2"
+			rewards: [{
+				id: "1CB4EFF784671DAE"
+				item: "celestial_artifacts:traveler_scroll"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "49E65DC1A6D5B7F3"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			title: "Traveler Scroll"
+			x: 8.0d
+			y: -4.0d
 		}
 	]
 	title: "&e⭐ The Market&r"

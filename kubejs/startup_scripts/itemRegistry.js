@@ -92,36 +92,69 @@ event.create('book_ancient').displayName('Ancient Book')
 event.create('canned_food').displayName('Canned Food')
 event.create('lost_bag').displayName('Lost Bag')
 event.create('detonator').displayName('Detonator').unstackable()
-    event.create('ancient_crate')
-         .displayName('§6Ancient Loot Crate')
-         .glow(true)
-         .tooltip('§7Right-click to open. §4Watch out for Mimics!')
-
+    event.create('ancient_crate').displayName('§6Ancient Loot Crate').glow(true).tooltip('§7Right-click to open. §4Watch out for Mimics!')
     // The Skeleton Key
-    event.create('skeleton_key')
-         .displayName('§bSkeleton Key')
-         .glow(true)
-         .tooltip('§7Bypasses crate cooldown and doubles Luck.')
-
+    event.create('skeleton_key').displayName('§bSkeleton Key').glow(true).tooltip('§7Bypasses crate cooldown and doubles Luck.')
     // The Mimic Heart (Drop)
-    event.create('mimic_heart')
-         .displayName('§4Mimic Heart')
-         .tooltip('§7Still pulsing... used to craft Skeleton Keys.')
+    event.create('mimic_heart').displayName('§4Mimic Heart').tooltip('§7Still pulsing... used to craft Skeleton Keys.')
 	// The Ritual Crate (Element-themed)
-    event.create('ritual_crate')
-        .displayName('§6Ritualist\'s Offering')
-        .glow(true)
-        .tooltip('§7Must be opened in extreme environments.');
-
+    event.create('ritual_crate').displayName('§6Ritualist\'s Offering').glow(true).tooltip('§7Must be opened in extreme environments.');
     // The Chaos Crate (Challenge-themed)
-    event.create('chaos_crate')
-        .displayName('§5Crate of Discord')
-        .tooltip('§cWarning: Surivival not guaranteed.');
-
+    event.create('chaos_crate').displayName('§5Crate of Discord').tooltip('§cWarning: Surivival not guaranteed.');
     // The Wishing Well (Enchant-themed)
-    event.create('wishing_crate')
-        .displayName('§bWishing Well Crate')
-        .tooltip('§7May grant powerful, pre-enchanted Gear');		 
+    event.create('wishing_crate').displayName('§bWishing Well Crate').tooltip('§7May grant powerful, pre-enchanted Gear');
+	event.create('echo_crate').displayName('§6Echo Loot Crate')	
+	event.create('botanical_crate').displayName('§6Botanical Loot Crate').maxStackSize(1)
+	//Astrolabe
+    event.create('seers_astrolabe')
+         .displayName('Seer\'s Astrolabe')
+         .unstackable()
+         .glow(true)
+         .tooltip('§7A device used to pull artifacts from structural echoes');
+
+    // The Consumable "Fuel"
+    event.create('blessed_incense')
+         .displayName('Blessed Incense')
+         .tooltip('§8Fuel for the Astrolabe. Smells of ancient ozone');
+	event.create('spam_voucher')
+        .displayName('§bBarnaby\'s Discount Voucher§r')
+        .texture('minecraft:item/paper') // Standard paper texture
+        .unstackable()
+    // The Reward Item (Generic until decrypted)
+    event.create('sealed_tome')
+         .displayName('Ancient Sealed Tome')
+         .glow(true)
+		 .unstackable()
+         .tooltip('§6A book filled with whispers of a forgotten era.');
+	event.create('seers_journal')
+         .displayName('Seer\'s Journal')
+         .unstackable()
+         .texture('minecraft:item/writable_book')
+         .glow(true)
+         .tooltip('§7A record of your attunement to the spirit world.');
+	event.create('living_branch')
+         .displayName('Living Branch')
+		 .maxDamage(64)
+         .unstackable()
+         .rarity('rare')
+         .glow(true)
+    event.create('gamblers_coin')
+         .displayName("Gambler's Coin")
+		 .maxDamage(25)
+         .unstackable()
+         .rarity('epic')	
+	event.create('living_branch_bridging')
+         .displayName('Living Branch of Bridging')
+         .maxStackSize(1)
+         .unstackable()
+         .maxDamage(128);
+
+    event.create('buzzing_living_branch')
+         .displayName('Buzzing Living Branch')
+         .maxStackSize(1)
+         .unstackable()
+         .maxDamage(32);	 
+
 //exchange coins
 event.create('coin_01').displayName('Coin').tooltip('Acquired by selling valuable materials')
 event.create('coin_02').displayName('Couple of Coins').tooltip('Acquired by selling valuable materials')

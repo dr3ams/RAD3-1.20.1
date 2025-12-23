@@ -90,20 +90,7 @@ event.create('mark_underdog').displayName('III. Mark of the Underdog')
 event.create('mark_brigand').displayName('III. Mark of the Brigand')*/
 
 //arrows
-event.create('arrow_down').displayName('Green Arrow Down Icon')
-event.create('arrow_down_yellow').displayName('Yellow Arrow Down Icon')
 
-event.create('arrow_up').displayName('Arrow Up Icon')
-event.create('arrow_up_yellow').displayName('Yellow Arrow Up Icon')
-
-event.create('arrow_left').displayName('Arrow Left Icon')
-event.create('arrow_left_yellow').displayName('Yellow Arrow Left Icon')
-
-event.create('arrow_45').displayName('Green Arrow 45 Icon')
-event.create('arrow_45_yellow').displayName('Yellow Arrow 45 Icon')
-
-event.create('arrow_right').displayName('Arrow Right Icon')
-event.create('arrow_right_yellow').displayName('Yellow Arrow Right Icon')
 
 
 //////////////////////end

@@ -523,15 +523,34 @@
 			icon: "graveyard:skull_on_pike"
 			id: "52B281617D229C20"
 			incompatible: ["7FE6E8837582CDB7"]
-			rewards: [{
-				command: "/locate structure #towns_and_towers:town"
-				elevate_perms: true
-				exclude_from_claim_all: true
-				icon: "kubejs:map"
-				id: "0F8D37B6656477FA"
-				title: "This will print coordinates to the chat. Write them down to not lose it."
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/locate structure #towns_and_towers:town"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "kubejs:map"
+					id: "0F8D37B6656477FA"
+					title: "This will print coordinates to the chat. Write them down to not lose it."
+					type: "command"
+				}
+				{
+					command: "/supp map structure_map #towns_and_towers:town"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "supplementaries:item/cartographers_quill"
+						}
+					}
+					id: "7A70604AE6BEA566"
+					silent: true
+					team_reward: false
+					title: "Find a town nearby"
+					type: "command"
+				}
+			]
 			subtitle: "&4Incompatible with \"The Path of Justice\"&r"
 			tasks: [{
 				id: "3D9E4F8812903A77"
@@ -579,6 +598,7 @@
 					}
 					id: "4EEB28759758FEB2"
 					silent: true
+					title: "Find a town nearby"
 					type: "command"
 				}
 			]
@@ -1207,60 +1227,6 @@
 			y: 9.0d
 		}
 		{
-			description: [
-				""
-				"&ocommand tooltip: adds an ability to locate trash&r"
-			]
-			id: "529B2EAA80671624"
-			rewards: [{
-				auto: "enabled"
-				command: "/gamestage add @s sidestory_crate"
-				elevate_perms: true
-				id: "6892E4F0D33981F1"
-				silent: true
-				type: "command"
-			}]
-			tasks: [{
-				id: "50313298F880F704"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 12.0d
-		}
-		{
-			can_repeat: true
-			id: "6C622CA313282923"
-			tasks: [{
-				id: "1D0C7ECD0585025C"
-				item: "kubejs:quest_crate"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 12.0d
-		}
-		{
-			id: "6B57AF47E655E0FA"
-			tasks: [{
-				id: "42F16D12F3998E89"
-				observe_type: 5
-				timer: 0L
-				to_observe: "goblintraders:goblin_trader"
-				type: "observation"
-			}]
-			x: -4.5d
-			y: 12.0d
-		}
-		{
-			id: "70C2594B59ABDDBC"
-			tasks: [{
-				id: "07951F48304DAC96"
-				structure: "dungeons_enhanced:ruined_building"
-				type: "structure"
-			}]
-			x: -2.0d
-			y: 12.0d
-		}
-		{
 			description: ["&6Treasure map reward&r will locate the nearest structure so be aware of that when standing next to the one that you have already visited"]
 			icon: {
 				Count: 1
@@ -1279,14 +1245,325 @@
 			y: 3.5d
 		}
 		{
-			id: "59B9A7EC65BC603A"
+			dependencies: ["39939BF03332602B"]
+			description: ["&o&8\"These fragments... they look like parts of an old map. If we can piece them together, who knows what secrets they might reveal? You should speak with Eldrin, the Cartographer—he’s the best at deciphering such mysteries.\"&r&r"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "038AF7B7C3DAC3CA"
+			rewards: [{
+				id: "420814052C0CB61F"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [
+				{
+					id: "2B292FB125EDE0B9"
+					structure: "#minecraft:village"
+					title: "Find nearest Village"
+					type: "structure"
+				}
+				{
+					id: "25BB7426A025DCBE"
+					observe_type: 0
+					timer: 0L
+					title: "Search for Cartography Table"
+					to_observe: "minecraft:cartography_table"
+					type: "observation"
+				}
+			]
+			title: "Meet the Cartographer NPC in nearest village"
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			description: [
+				"While exploring and looting chests, you come across some &3worn and tattered paper fragments&r - remnants of what once was a map, lost to time. Intrigued by their potential, you decide to seek out someone knowledgeable who might help you piece together their meaning. "
+				""
+				"Perhaps the &6Cartographer&r or the &6Librarian&r in town can shed light on these ancient scraps."
+			]
+			id: "39939BF03332602B"
+			rewards: [{
+				command: "/supplementaries map structure_map #minecraft:village"
+				console: true
+				elevate_perms: true
+				icon: "kubejs:map"
+				id: "75E711B26AD65E18"
+				silent: true
+				title: "I saw the village somewhere near..."
+				type: "command"
+			}]
 			tasks: [{
-				id: "0E99FE18105FC96C"
-				item: "kubejs:contraband"
+				id: "515EF6B78FC62A98"
+				item: "kubejs:map_fragment"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 14.5d
+			title: "Investigate the mysterious map fragments"
+			x: -5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["038AF7B7C3DAC3CA"]
+			description: [
+				"&o&7\"Ah, a keen eye and a brave heart! I am &6Eldrin, the Cartographer&r. &o&7I have long sought someone worthy to assist me in mapping the forgotten corners of this world. Will you accept the challenge?\"&r&r"
+				""
+				"Eldrin provides you with a Pathfinder's Quill to reveal the location of the first structure. This site is a ruined watchtower rumored to hold clues to the cartographer’s greater mystery."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:cartography_table"
+			id: "48BC42A1AD81B480"
+			rewards: [{
+				id: "797D5F512B9831AD"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Estimated location of some old Tower\"}"
+						}
+						maxSearchRadius: 150
+						skipKnown: 1b
+						targetStructure: "dungeons_enhanced:tower_of_the_undead"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A1A551EC9712C80"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["48BC42A1AD81B480"]
+			description: [
+				"After clearing all the undead in the Tower I returned with nothing."
+				""
+				"&6Eldrin &rtasks me to gather some stuff for his further researches..."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_marker/waystone.png"
+				}
+			}
+			icon_scale: 0.7d
+			id: "7A72CBC73FE616AD"
+			rewards: [{
+				id: "1290FF9B88023D30"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "0B77BEFA3E678450"
+					structure: "dungeons_enhanced:tower_of_the_undead"
+					type: "structure"
+				}
+				{
+					entity: "minecraft:zombie"
+					id: "679170707E3D326C"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "Find Tower of the Undead"
+			x: -2.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7A72CBC73FE616AD"]
+			description: [
+				"While Eldrin pores over the ancient fragments, he recalls a peculiar figure who might hold vital knowledge—the elusive Old Goblin Trader. "
+				""
+				"Eldrin sends you to seek him out, hoping the trader’s secrets will shed light on the mysterious map fragments."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "11B76339E844FE72"
+			rewards: [{
+				id: "71B4C7B9DA5F31FA"
+				item: "kubejs:map_fragment"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "34C47B87CCB67435"
+					item: { Count: 10, id: "minecraft:ink_sac" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "2EAA7886EE7A87A5"
+					item: { Count: 3, id: "minecraft:paper" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "12A079D4781BD061"
+					item: "minecraft:writable_book"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7E2B9A7EF530A1C7"
+					item: { Count: 2, id: "minecraft:slime_ball" }
+					type: "item"
+				}
+			]
+			title: "Supplies"
+			x: -0.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["11B76339E844FE72"]
+			description: [
+				"The &2Old Goblin Trader&r is a cunning and secretive figure who rarely stays in one place for long. "
+				""
+				"His lair lies deep beneath the surface, hidden in the twisting tunnels of the underground. His location shifts frequently, making him pretty difficult to find. "
+				""
+				""
+				"&o&8\"The Goblin Trader is a slippery one, always moving his den to avoid unwanted visitors. It took all your wit and patience to track him down, but now that you’ve found him, the real challenge begins.\"&r&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "7C9B25FFE3D57F83"
+			rewards: [{
+				id: "1423A32A07ADA238"
+				item: "kubejs:map_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EB34A6A26D73614"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goblintraders:goblin_trader"
+				type: "observation"
+			}]
+			title: "Find Goblin Trader"
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7C9B25FFE3D57F83"]
+			description: [
+				"After some searching and perseverance, you finally uncover his hideout."
+				""
+				"The &2Goblin Trader&r hints that his knowledge comes at a price. To earn his trust, you must venture into the perilous &4Nether Dimension&r and retrieve a rare &6Nether Lily&r. "
+				""
+				"Bring it back to him, and perhaps he will reveal what he knows."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "sorcerousnether:lava_lily"
+			id: "13379B923D5E59DB"
+			rewards: [{
+				id: "5C48F73F703AF614"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Should be used in Nether...\"}"
+						}
+						maxSearchRadius: 150
+						skipKnown: 1b
+						targetStructure: "incendium:pipeline"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FF62EF6A4061FBB"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["13379B923D5E59DB"]
+			description: [
+				"With the &6Nether Lily&r in hand, your quest to find the elusive &2Goblin Trader&r continues. "
+				""
+				"His movements remain unpredictable, and you must delve deep underground again to track him down."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "4DAF35E5B8291B90"
+			rewards: [{
+				id: "5A5309B071D787BE"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "770544C215DE76B7"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goblintraders:goblin_trader"
+				type: "observation"
+			}]
+			title: "Find Goblin Trader... again"
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4DAF35E5B8291B90"]
+			description: [
+				"At last, you find the &2Goblin Trader&r and press him for answers about the &emap fragments&r. However, he denies any promises, suggesting that it was likely one of his relatives who spoke of such things. "
+				""
+				"He reveals that many Goblin Traders roam both the Overworld and the Nether, each with their own secrets and wares."
+				""
+				"&o&2\"Promises? I don’t make promises lightly. Perhaps it was kin who spoke of such things. Know this - there are many like me, wandering both above and below. Seek them out if you wish to learn more.\"&r&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:map_fragment"
+			id: "32996B8992B1FF07"
+			rewards: [{
+				id: "6A2A39AEAF95CDB1"
+				item: "kubejs:map_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78577CB7EBAAD584"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["32996B8992B1FF07"]
+			description: [
+				"Left with no clear answers and the fragments still in your possession, you feel overwhelmed. The path forward is uncertain, but one thing becomes clear: the &6fragments&r hold value when traded with knowledgeable Cartographers, elusive Goblin Traders and maybe someone else? "
+				""
+				"Perhaps this is the key to unlocking their true power."
+				""
+				"&o&8\"Though the road has been winding and fraught with dead ends, the fragments are not without worth. Your next step lies in forging alliances and trading wisely.\"&r&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "vinery:wandering_winemaker_spawn_egg"
+			id: "734E10F295C10D21"
+			rewards: [{
+				id: "1F1391D3EB0459BD"
+				item: "kubejs:map_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F03260F2197B524"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 11.0d
 		}
 	]
 	title: "Side Stories"

@@ -7,20 +7,13 @@
 	id: "49A6B8346C5B55D1"
 	images: [
 		{
+			color: 5649956
 			height: 20.0d
 			image: "araxers_bestiary:textures/gui/bestiary_background.png"
 			rotation: 0.0d
 			width: 20.0d
 			x: 1.0d
 			y: -3.5d
-		}
-		{
-			height: 1.5d
-			image: "collectorsalbum:textures/ui/bookmark_hovered_left.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: -8.0d
-			y: -8.0d
 		}
 		{
 			height: 1.5d
@@ -76,14 +69,6 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: -8.0d
-			y: -0.5d
-		}
-		{
-			height: 1.5d
-			image: "collectorsalbum:textures/ui/bookmark_hovered_left.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: -8.0d
 			y: 1.0d
 		}
 		{
@@ -93,14 +78,6 @@
 			width: 2.0d
 			x: -8.0d
 			y: 2.5d
-		}
-		{
-			height: 1.5d
-			image: "collectorsalbum:textures/ui/bookmark_hovered_right.png"
-			rotation: -90.0d
-			width: 2.0d
-			x: 8.0d
-			y: -12.12d
 		}
 		{
 			height: 1.5d
@@ -187,7 +164,7 @@
 			image: "collectorsalbum:textures/ui/bookmark_hovered_right.png"
 			rotation: -90.0d
 			width: 2.0d
-			x: -3.0d
+			x: -1.5d
 			y: -12.12d
 		}
 		{
@@ -195,16 +172,8 @@
 			image: "collectorsalbum:textures/ui/bookmark_hovered_right.png"
 			rotation: -90.0d
 			width: 2.0d
-			x: -1.5d
-			y: -12.1d
-		}
-		{
-			height: 1.5d
-			image: "collectorsalbum:textures/ui/bookmark_hovered_right.png"
-			rotation: -90.0d
-			width: 2.0d
 			x: 0.0d
-			y: -12.1d
+			y: -12.12d
 		}
 		{
 			height: 1.5d
@@ -212,7 +181,7 @@
 			rotation: -90.0d
 			width: 2.0d
 			x: 2.0d
-			y: -12.1d
+			y: -12.12d
 		}
 		{
 			height: 1.5d
@@ -261,6 +230,38 @@
 			width: 2.0d
 			x: -5.0d
 			y: 5.0d
+		}
+		{
+			height: 1.5d
+			image: "collectorsalbum:textures/ui/bookmark_disabled_left.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -8.0d
+			y: -8.0d
+		}
+		{
+			height: 1.5d
+			image: "collectorsalbum:textures/ui/bookmark_disabled_left.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			height: 1.5d
+			image: "collectorsalbum:textures/ui/bookmark_disabled_left.png"
+			rotation: 90.0d
+			width: 2.0d
+			x: -3.0d
+			y: -12.12d
+		}
+		{
+			height: 1.5d
+			image: "collectorsalbum:textures/ui/bookmark_disabled_left.png"
+			rotation: 90.0d
+			width: 2.0d
+			x: 8.0d
+			y: -12.12d
 		}
 	]
 	order_index: 11
@@ -4419,6 +4420,11 @@
 			]
 			hide_dependency_lines: false
 			id: "1D75D97C2FE79008"
+			rewards: [{
+				id: "1043082A583AFC43"
+				type: "xp"
+				xp: 5
+			}]
 			shape: "octagon_important"
 			size: 2.0d
 			subtitle: "Explore the unknown, farm with precision, and master your enemies with Araxer’s Bestiary!"

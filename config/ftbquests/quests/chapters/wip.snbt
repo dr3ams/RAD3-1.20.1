@@ -33,8 +33,8 @@
 				type: "item"
 			}]
 			title: "Go full nomad!"
-			x: 14.0d
-			y: 0.0d
+			x: 14.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["221A3D2E31B74520"]
@@ -200,8 +200,8 @@
 				}
 			]
 			title: "Nomadic dreams"
-			x: 13.5d
-			y: -1.5d
+			x: 14.5d
+			y: -2.5d
 		}
 		{
 			description: [
@@ -351,44 +351,6 @@
 			}]
 			x: 16.0d
 			y: -1.0d
-		}
-		{
-			description: [
-				"The blue/gray feather icons above your hunger indicate your Dodge Meter."
-				""
-				"Every armor has a weight that affects your maximum dodges. Gray feathers indicate armor weight."
-				""
-				"The Lightweight enchantment can decrease armor weight, granting you feathers back."
-				""
-				"You can dash by holding any direction and pressing the Dodge keybind (Default: Left Alt)."
-			]
-			icon: "ars_nouveau:glyph_leap"
-			id: "55DE8B3522A4F8A6"
-			rewards: [
-				{
-					id: "012430C1D7AE5D6B"
-					item: {
-						Count: 1
-						id: "minecraft:potion"
-						tag: {
-							Potion: "elenaidodge2:long_replenishment"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "54785A567EA1C042"
-					type: "custom"
-				}
-			]
-			subtitle: "In-Depth, Well Balanced and Seamlessly Integrated Dodging"
-			tasks: [{
-				id: "36478D84CB178449"
-				title: "Dodge"
-				type: "checkmark"
-			}]
-			x: 17.0d
-			y: 1.5d
 		}
 		{
 			description: [
@@ -712,8 +674,8 @@
 				type: "checkmark"
 			}]
 			title: "Specializations (Quest book)"
-			x: 25.0d
-			y: 2.5d
+			x: 25.5d
+			y: -2.0d
 		}
 		{
 			description: [
@@ -742,8 +704,8 @@
 				title: "Potioneering"
 				type: "checkmark"
 			}]
-			x: 24.0d
-			y: 3.5d
+			x: 24.5d
+			y: -2.0d
 		}
 		{
 			icon: "kubejs:armour"
@@ -754,8 +716,8 @@
 				title: "Equipment properties"
 				type: "checkmark"
 			}]
-			x: 24.0d
-			y: 5.5d
+			x: 25.0d
+			y: 0.5d
 		}
 		{
 			description: [
@@ -774,7 +736,7 @@
 				type: "checkmark"
 			}]
 			x: 20.0d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -796,28 +758,7 @@
 				type: "checkmark"
 			}]
 			x: 19.0d
-			y: 2.5d
-		}
-		{
-			description: [
-				"Waystones allows players to return to them once they've been activated, either through a Warp Scroll, a Warp Stone, or another waystone."
-				""
-				"You can find some in the wild, in towers, and in villages."
-			]
-			icon: "waystones:waystone"
-			id: "6AA5B436C67A93FF"
-			rewards: [{
-				id: "0BE7676AB6C019ED"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "18F530F6AD45F35F"
-				type: "checkmark"
-			}]
-			title: "Waystones"
-			x: 14.5d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			can_repeat: true
@@ -845,7 +786,7 @@
 				}
 			]
 			x: 26.0d
-			y: 6.5d
+			y: 3.5d
 		}
 		{
 			can_repeat: true
@@ -865,7 +806,7 @@
 				type: "item"
 			}]
 			x: 26.0d
-			y: 7.5d
+			y: 4.5d
 		}
 		{
 			id: "70825CB73BABD32B"
@@ -875,7 +816,7 @@
 				type: "item"
 			}]
 			x: 27.0d
-			y: 6.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5CF7D46199ACC793"]
@@ -892,24 +833,162 @@
 				type: "command"
 			}]
 			x: 27.0d
-			y: 7.5d
+			y: 4.5d
 		}
 		{
-			id: "42B4FECAFD404A1A"
+			description: [
+				""
+				"&ocommand tooltip: adds an ability to locate trash&r"
+			]
+			id: "529B2EAA80671624"
 			rewards: [{
 				auto: "enabled"
-				command: "/say You should check the questbook, especially ⭐ Features chapter!"
-				exclude_from_claim_all: true
-				id: "782A6D3B41DB985D"
+				command: "/gamestage add @s sidestory_crate"
+				elevate_perms: true
+				id: "6892E4F0D33981F1"
+				silent: true
 				type: "command"
 			}]
 			tasks: [{
-				elapsedTime: 120L
-				id: "303F15CC4A7BCDA5"
-				type: "questsadditions:time"
+				id: "50313298F880F704"
+				type: "checkmark"
 			}]
-			x: 22.0d
+			x: 15.5d
 			y: 7.0d
+		}
+		{
+			can_repeat: true
+			id: "6C622CA313282923"
+			tasks: [{
+				id: "1D0C7ECD0585025C"
+				item: "kubejs:quest_crate"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 7.0d
+		}
+		{
+			id: "6B57AF47E655E0FA"
+			tasks: [{
+				id: "42F16D12F3998E89"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goblintraders:goblin_trader"
+				type: "observation"
+			}]
+			x: 12.5d
+			y: 7.0d
+		}
+		{
+			id: "70C2594B59ABDDBC"
+			tasks: [{
+				id: "07951F48304DAC96"
+				structure: "dungeons_enhanced:ruined_building"
+				type: "structure"
+			}]
+			x: 14.0d
+			y: 7.0d
+		}
+		{
+			id: "59B9A7EC65BC603A"
+			tasks: [{
+				id: "0E99FE18105FC96C"
+				item: "kubejs:contraband"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 8.5d
+		}
+		{
+			id: "4093C88297295866"
+			subtitle: "Echoes of the Past"
+			tasks: [{
+				id: "0938FA89F7E5E36D"
+				item: "kubejs:seers_astrolabe"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"Mechanics:"
+				""
+				"• &6Transmutation:&r Right-click &eLogs&r or &eStone&r to transform them into their living variants."
+				""
+				"• &2Fuel:&r Requires &fBone Meal&r in your inventory to function."
+			]
+			id: "1BF114226270FC7F"
+			subtitle: "The simplest of the branches, yet the most versatile. It vibrates with the potential of the forest"
+			tasks: [{
+				id: "5097F1DE04F3AEF2"
+				item: {
+					Count: 1
+					id: "kubejs:living_branch"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Mechanics:"
+				""
+				"• &6The 5-Block Burst:&r Right-click a block face to instantly extend a &e5-block horizontal bridge&r of leaves."
+				""
+				"• &bHorizontal Lock:&r This branch is magically weighted; it will only build &ehorizontally&r based on your direction."
+				""
+				"• &2Efficiency:&r Costs &f1 Bone Meal&r per 5-block burst."
+				""
+				"• &dSafety:&r The leaves are &ePersistent&r—they will never decay naturally!"
+			]
+			id: "58570E4541520907"
+			subtitle: "Walking on air is no longer a dream. With this branch, the sky becomes your path"
+			tasks: [{
+				id: "7996D231A238D2A8"
+				item: {
+					Count: 1
+					id: "kubejs:living_branch_bridging"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Mechanics:"
+				""
+				"• &6Guardian Bees:&r Summons &e3 Battle-Bees&r to defend you."
+				""
+				"• &bLoyalty:&r These bees are tethered to you. They will &eteleport&r to stay nearby."
+				""
+				"• &dLifespan:&r Their power is temporary. The &bGlowing&r effect acts as their life-timer; when the glow fades, they return to the hive."
+				""
+				"• &2Combat Buffs:&r They spawn with &eStrength II&r and &eRegeneration&r."
+			]
+			id: "23BD746212518148"
+			subtitle: "The wood doesn't just grow; it breathes. And sometimes, it bites back"
+			tasks: [{
+				id: "05191E63557D8435"
+				item: {
+					Count: 1
+					id: "kubejs:buzzing_living_branch"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 20.5d
+			y: 4.0d
 		}
 	]
 	title: "WIP"
