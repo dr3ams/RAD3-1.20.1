@@ -1,7 +1,7 @@
 {
-	autofocus_id: "2A968EAB509DFDF6"
+	autofocus_id: "74C98BC3055E1993"
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "none"
 	filename: "meet_your_fight"
 	group: "241F1DC7B6D6E9D6"
 	icon: {
@@ -18,6 +18,15 @@
 		}
 	}
 	id: "0F590B3A1FD5D993"
+	images: [{
+		alpha: 120
+		height: 18.0d
+		image: "bloodmagic:models/alchemyarrays/mobsacrifice"
+		rotation: 0.0d
+		width: 18.0d
+		x: 0.0d
+		y: 0.0d
+	}]
 	order_index: 10
 	quest_links: [ ]
 	quests: [
@@ -43,87 +52,8 @@
 				}
 			]
 			title: "Night Lich Tower"
-			x: -3.0d
-			y: -3.0d
-		}
-		{
-			dependencies: [
-				"6E081F780A318525"
-				"29DDB0066E43F4D5"
-			]
-			id: "2A968EAB509DFDF6"
-			subtitle: "Just a crumb of Peaceful difficulty"
-			tasks: [{
-				id: "119815001B8053D5"
-				item: "bosses_of_mass_destruction:mob_ward"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"6E081F780A318525"
-				"607639870223C868"
-			]
-			id: "6956834B137A7E64"
-			subtitle: "Just a crumb of Creative Mode"
-			tasks: [{
-				id: "2829007C68DCD1DF"
-				item: "bosses_of_mass_destruction:levitation_block"
-				type: "item"
-			}]
 			x: 0.0d
-			y: -1.5d
-		}
-		{
-			dependencies: [
-				"6E081F780A318525"
-				"095748A2E5B64CE5"
-			]
-			id: "5F436AF0604E4FDB"
-			tasks: [{
-				id: "47FED1E2C3827118"
-				item: "bosses_of_mass_destruction:charged_ender_pearl"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"607639870223C868"
-				"29DDB0066E43F4D5"
-			]
-			id: "692F3FDFB3081101"
-			tasks: [{
-				id: "4AC9DA5DC1365833"
-				item: "bosses_of_mass_destruction:monolith_block"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"095748A2E5B64CE5"
-				"29DDB0066E43F4D5"
-			]
-			id: "205A8F1A5EAB6D3F"
-			subtitle: "Just a crumb of Spectator Mode"
-			tasks: [{
-				id: "454E813F931F258F"
-				item: {
-					Count: 1
-					id: "bosses_of_mass_destruction:earthdive_spear"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 0.0d
-			y: 1.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["1103CD03130A6D14"]
@@ -150,6 +80,7 @@
 				}
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					advancement: "bosses_of_mass_destruction:adventure/void_blossom_defeat"
@@ -168,8 +99,9 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 2.0d
+			title: "Void Blossom"
+			x: -7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0953BB27B5ADF021"]
@@ -196,6 +128,7 @@
 				}
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					advancement: "bosses_of_mass_destruction:end/obsidilith_defeat"
@@ -209,8 +142,9 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 2.0d
+			title: "Obsidilith"
+			x: 0.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["0006C640879633AD"]
@@ -237,6 +171,7 @@
 				}
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					advancement: "bosses_of_mass_destruction:adventure/night_lich_defeat"
@@ -250,8 +185,9 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -2.0d
+			title: "Night Lich"
+			x: 0.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["4240B3713672628A"]
@@ -278,6 +214,7 @@
 				}
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					advancement: "bosses_of_mass_destruction:nether/gauntlet_defeat"
@@ -291,25 +228,27 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -2.0d
+			title: "Nether Gauntlet"
+			x: 7.5d
+			y: 0.0d
 		}
 		{
-			description: ["Resets a Bosses of Mass Destruction boss arena, allowing you to fight the boss again."]
+			description: ["Resets a Bosses of Mass Destruction boss arena, allowing you to fight the boss again. Can also fix a structure with broken generation."]
 			id: "6BCCFE5F9186FE11"
+			size: 1.5d
 			tasks: [{
 				id: "3D2776E12E69A6F1"
 				item: "bosses_of_mass_destruction:brimstone_nectar"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.0d
+			x: -3.9d
+			y: 2.2d
 		}
 		{
 			description: [
 				"It's a massive pit of blackstone brick in the lava ocean, you can't miss it."
 				""
-				"Then mine the blackstone prison of the Nether Gauntlet to summon it."
+				"Mine the blackstone prison of the Nether Gauntlet to summon it."
 			]
 			icon: "minecraft:polished_blackstone_bricks"
 			id: "4240B3713672628A"
@@ -326,8 +265,8 @@
 				}
 			]
 			title: "Nether Gauntlet Arena"
-			x: 3.0d
-			y: -3.0d
+			x: 8.5d
+			y: 0.0d
 		}
 		{
 			description: ["Follow the pollen and then dig deep underground. The Void Blossom can be found just above bedrock."]
@@ -346,14 +285,14 @@
 				}
 			]
 			title: "Void Blossom"
-			x: -3.0d
-			y: 3.0d
+			x: -8.5d
+			y: 0.0d
 		}
 		{
 			description: [
 				"It's a massive pillar of obsidian and purpur floating in the air, you can't miss it."
 				""
-				"Then place an eye of ender in the frame atop the pillar to summon the Obsidilith."
+				"Place an eye of ender in the frame atop the pillar to summon the Obsidilith."
 			]
 			icon: "minecraft:obsidian"
 			id: "0953BB27B5ADF021"
@@ -375,14 +314,14 @@
 				}
 			]
 			title: "Obsidilith Arena"
-			x: 3.0d
-			y: 3.0d
+			x: 0.0d
+			y: 8.5d
 		}
 		{
 			icon: "cataclysm:mech_eye"
 			id: "5C293C81D2251DF7"
-			shape: "octagon_important"
-			size: 1.5d
+			size: 1.0d
+			subtitle: "Locates the Ancient Factory"
 			tasks: [
 				{
 					id: "54138CE645A0C215"
@@ -396,14 +335,14 @@
 					type: "advancement"
 				}
 			]
-			x: 0.0d
-			y: -13.5d
+			x: -8.0d
+			y: -3.0d
 		}
 		{
 			icon: "cataclysm:flame_eye"
 			id: "5096E2DD5A0A07DE"
-			shape: "octagon_important"
-			size: 1.5d
+			size: 1.0d
+			subtitle: "Locates the Burning Arena"
 			tasks: [
 				{
 					id: "4E3F9E2F01F7D89F"
@@ -417,14 +356,14 @@
 					type: "advancement"
 				}
 			]
-			x: 4.0d
-			y: -4.0d
+			x: 8.0d
+			y: 3.0d
 		}
 		{
 			icon: "cataclysm:abyss_eye"
 			id: "368FAA48F926B53F"
-			shape: "octagon_important"
-			size: 1.5d
+			size: 1.0d
+			subtitle: "Locates the Sunken City"
 			tasks: [
 				{
 					id: "196DD44BE61F651C"
@@ -438,14 +377,14 @@
 					type: "advancement"
 				}
 			]
-			x: 0.0d
-			y: 5.0d
+			x: 3.0d
+			y: 8.0d
 		}
 		{
 			icon: "cataclysm:desert_eye"
 			id: "59350804DD446DEC"
-			shape: "octagon_important"
-			size: 1.5d
+			size: 1.0d
+			subtitle: "Locates the Cursed Pyramid"
 			tasks: [
 				{
 					id: "5058B7185F3E5A5D"
@@ -459,14 +398,14 @@
 					type: "advancement"
 				}
 			]
-			x: 4.0d
-			y: 4.5d
+			x: -8.0d
+			y: 3.0d
 		}
 		{
 			icon: "cataclysm:monstrous_eye"
 			id: "6007DD0F0E6A6940"
-			shape: "octagon_important"
-			size: 1.5d
+			size: 1.0d
+			subtitle: "Locates the Soul Blacksmith"
 			tasks: [
 				{
 					id: "67B468C1D1EE6C0D"
@@ -481,14 +420,14 @@
 					type: "advancement"
 				}
 			]
-			x: -4.0d
-			y: -4.0d
+			x: 8.0d
+			y: -3.5d
 		}
 		{
 			icon: "cataclysm:void_eye"
 			id: "643A034439489514"
-			shape: "octagon_important"
-			size: 1.5d
+			size: 1.0d
+			subtitle: "Locates the Ruined Citadel"
 			tasks: [
 				{
 					id: "73CDF85CE6023431"
@@ -502,8 +441,8 @@
 					type: "advancement"
 				}
 			]
-			x: 0.0d
-			y: -4.5d
+			x: -3.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["52D9091AE90972E6"]
@@ -515,14 +454,13 @@
 				type: "item"
 			}]
 			shape: "gear"
-			subtitle: "My quest lines are getting tangled!"
 			tasks: [{
 				id: "054978B167D911D7"
 				item: "cataclysm:mechanical_fusion_anvil"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -9.5d
+			x: -6.0d
+			y: -2.5d
 		}
 		{
 			icon: {
@@ -551,6 +489,7 @@
 				}
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [{
 				entity: "mowziesmobs:ferrous_wroughtnaut"
 				icon: {
@@ -567,8 +506,8 @@
 				value: 1L
 			}]
 			title: "Ferrous Wroughtnaut"
-			x: -5.0d
-			y: -2.5d
+			x: -5.3d
+			y: -5.3d
 		}
 		{
 			id: "76FC1D5B921F7D89"
@@ -588,6 +527,7 @@
 				}
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [{
 				entity: "mowziesmobs:frostmaw"
 				icon: {
@@ -602,8 +542,8 @@
 				value: 1L
 			}]
 			title: "Frostmaw"
-			x: -5.0d
-			y: 2.5d
+			x: 5.3d
+			y: -5.3d
 		}
 		{
 			id: "7D6FAAFCE7BFA0E3"
@@ -623,6 +563,7 @@
 				}
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [{
 				entity: "mowziesmobs:umvuthi"
 				icon: {
@@ -639,120 +580,10 @@
 				value: 1L
 			}]
 			title: "Umvuthi, the Sunbird"
-			x: -6.0d
-			y: 1.0d
+			x: -5.3d
+			y: 5.3d
 		}
 		{
-			description: [
-				"The normal way you get these staff fragments is by finding them in graveyard ruins, but those are incredibly rare and we don't have time for that. So we're doing quests instead."
-				""
-				"Crypts are huge underground structures full of corrupted enemies and loot. The books here detail the spread of the corruption that destroyed the world."
-			]
-			id: "5D44590854712FF8"
-			rewards: [
-				{
-					id: "586F3F69EAE8CF62"
-					item: "graveyard:upper_bone_staff"
-					type: "item"
-				}
-				{
-					id: "716EFFE9757F125A"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "4A53E095CC33404D"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				icon: "graveyard:sarcophagus"
-				id: "420DBE21ED78C526"
-				structure: "graveyard:crypt"
-				type: "structure"
-			}]
-			title: "The First Fragment"
-			x: 5.5d
-			y: -1.5d
-		}
-		{
-			description: ["At night, the unnamed hanged will trade corruption for various things. He might even offer diamond armor, ancient debris, or staff fragments!"]
-			id: "109D0319DC07E1D6"
-			rewards: [
-				{
-					id: "0259D5EA4A84C411"
-					item: "graveyard:middle_bone_staff"
-					type: "item"
-				}
-				{
-					id: "057499C95970DCAE"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "478C1B7753F51D65"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				icon: "graveyard:hanged_skeleton"
-				id: "46D8E537DA26F5E3"
-				structure: "graveyard:dead_tree"
-				type: "structure"
-			}]
-			title: "The Second Fragment"
-			x: 7.0d
-			y: -1.5d
-		}
-		{
-			description: ["The haunted house is full of zombies and acolytes that would love to use you in their dark experiments."]
-			id: "2149492707D34338"
-			rewards: [
-				{
-					id: "276B8CB6546A9A2F"
-					item: "graveyard:lower_bone_staff"
-					type: "item"
-				}
-				{
-					id: "05D8DBE6CE520D32"
-					item: "kubejs:iron_coin"
-					type: "item"
-				}
-				{
-					id: "2ACABC72F08330D2"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "graveyard:bone_dagger"
-					tag: {
-						Damage: 0
-						affix_data: {
-							sockets: 1
-						}
-						reinforce_level: 0
-						reinforce_max: 10
-					}
-				}
-				id: "379B5C27B64484AD"
-				structure: "graveyard:haunted_house"
-				type: "structure"
-			}]
-			title: "The Third Fragment"
-			x: 8.5d
-			y: -1.5d
-		}
-		{
-			dependencies: [
-				"5D44590854712FF8"
-				"109D0319DC07E1D6"
-				"2149492707D34338"
-			]
 			dependency_requirement: "one_completed"
 			description: ["Kill 8 villagers with a bone dagger and a glass bottle in your off hand to collect a full vial of blood."]
 			icon: {
@@ -781,6 +612,8 @@
 					type: "item"
 				}
 			]
+			shape: "none"
+			size: 0.9d
 			subtitle: "You murderer!"
 			tasks: [
 				{
@@ -812,18 +645,25 @@
 				}
 			]
 			title: "Vial of Blood"
-			x: 7.0d
-			y: 0.0d
+			x: 1.85d
+			y: 0.25d
 		}
 		{
-			dependencies: ["119E09DD3DB42957"]
-			description: [
-				"Find the Lich's prison, a floating island high above the ocean. Here, a once great man turned to darkness is imprisoned."
-				""
-				"To summon him, first wait for night. Lay out the three pieces of the staff on the corrupted nodes. Then empty your vial of blood on the altar."
-				""
-				"For this fight, you'll need your most powerful armor, your Smite X sword, and plenty of healing. The final phase can only be damaged by splash healing potions, so make sure to bring a lot."
+			dependencies: [
+				"119E09DD3DB42957"
+				"0AFE3C43104F7A12"
+				"596472E2A0C73260"
+				"013AA46FE381DE6E"
 			]
+			description: [
+				"Find the prison of the Corrupted Champion, a floating island high above the ocean. Here, a once great man turned to darkness is sealed."
+				""
+				"To free him, first wait for night. Lay out the three pieces of his staff on the corrupted nodes. Then empty your vial of blood on the altar."
+				""
+				"The Corrupted Champion is stronger than anything you have faced so far. For this fight, you'll need your most powerful armor, your Smite X sword, and plenty of healing. In fact, bring everything you've got! This is the final battle! Defeat the Champion and nothing will ever stand in your way again!"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			icon: "graveyard:white_bone_staff"
 			id: "74C98BC3055E1993"
 			rewards: [
@@ -857,6 +697,8 @@
 					xp_levels: 10
 				}
 			]
+			shape: "none"
+			size: 2.0d
 			tasks: [
 				{
 					icon: "graveyard:corruption"
@@ -872,11 +714,14 @@
 				}
 			]
 			title: "The Corrupted Champion"
-			x: 7.0d
-			y: 1.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["29639F3BD6826468"]
+			dependencies: [
+				"29639F3BD6826468"
+				"59350804DD446DEC"
+			]
 			description: [
 				"Fixed Traits: tanky 3 adaptive 3 master 1 reprint 1"
 				""
@@ -897,33 +742,55 @@
 				}
 				type: "item"
 			}]
-			shape: "hexagon_important"
+			size: 1.5d
 			tasks: [{
 				advancement: "cataclysm:kill_remnant"
 				criterion: ""
+				icon: "cataclysm:ancient_metal_ingot"
 				id: "64B712F05D4EDE0B"
 				type: "advancement"
 			}]
-			x: 4.0d
-			y: 7.0d
+			title: "Ancient Remnant"
+			x: -7.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["226C7BC218122A4F"]
+			dependencies: [
+				"226C7BC218122A4F"
+				"368FAA48F926B53F"
+			]
 			description: [
 				"Fixed traits: tanky 3, freezing 3, reflect 2"
 				""
 				"Guide to come"
 			]
 			id: "7B1E2798AD487473"
-			shape: "hexagon_important"
+			rewards: [{
+				id: "39699AD0B7935DE4"
+				item: {
+					Count: 1
+					id: "simplyswords:livyatan"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "cataclysm:kill_leviathan"
 				criterion: ""
 				id: "453AF8CC96CF26E1"
 				type: "advancement"
 			}]
-			x: 0.0d
-			y: 7.5d
+			title: "The Leviathan"
+			x: 3.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["6007DD0F0E6A6940"]
@@ -933,33 +800,70 @@
 				"Guide to come"
 			]
 			id: "5C6FB01D7ADF31BA"
-			shape: "hexagon_important"
+			rewards: [{
+				id: "64E1154A87A38152"
+				item: {
+					Count: 1
+					id: "simplyswords:hearthflame"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "cataclysm:kill_monstrosity"
 				criterion: ""
 				id: "180AAF253677DD05"
 				type: "advancement"
 			}]
-			x: -4.0d
-			y: -6.0d
+			title: "Netherite Monstrosity"
+			x: 7.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["230A8E6A4E46C783"]
+			dependencies: [
+				"230A8E6A4E46C783"
+				"5096E2DD5A0A07DE"
+			]
 			description: [
 				"Fixed traits: tanky 3 soul burner 3 cursed 1 master 1"
 				""
 				"Guide to come"
 			]
 			id: "7BF2A7E121BBB84B"
-			shape: "hexagon_important"
+			rewards: [{
+				id: "758E5A8B6191DC90"
+				item: {
+					Count: 1
+					id: "simplyswords:molten_edge"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "cataclysm:kill_ignis"
 				criterion: ""
 				id: "2D95F0F5290C0305"
 				type: "advancement"
 			}]
-			x: 4.0d
-			y: -6.0d
+			title: "Ignis"
+			x: 7.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["643A034439489514"]
@@ -969,18 +873,38 @@
 				"Guide to come"
 			]
 			id: "721F3CF4D3B9461F"
-			shape: "hexagon_important"
+			rewards: [{
+				id: "127B5903AA46701B"
+				item: {
+					Count: 1
+					id: "simplyswords:caelestis"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "cataclysm:kill_ender_guardian"
 				criterion: ""
 				id: "5B49C158AD2A9C05"
 				type: "advancement"
 			}]
-			x: 0.0d
-			y: -6.0d
+			title: "Ender Guardian"
+			x: -3.0d
+			y: 7.0d
 		}
 		{
-			dependencies: ["24E9CE1582D7D687"]
+			dependencies: [
+				"24E9CE1582D7D687"
+				"5C293C81D2251DF7"
+			]
 			description: [
 				"Fixed traits: tanky 3, withering 3, cursed 1"
 				""
@@ -993,18 +917,18 @@
 				item: "nameless_trinkets:explosion_proof_jacket"
 				type: "item"
 			}]
-			shape: "hexagon_important"
+			size: 1.5d
 			tasks: [{
 				advancement: "cataclysm:kill_harbinger"
 				criterion: ""
 				id: "21B7B4030FB56BE1"
 				type: "advancement"
 			}]
-			x: 0.0d
-			y: -11.0d
+			title: "The Harbinger"
+			x: -7.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["368FAA48F926B53F"]
 			description: [
 				"Enter the Sunken City."
 				""
@@ -1042,8 +966,8 @@
 				}
 			]
 			title: "Abyssal Sacrifice"
-			x: 0.0d
-			y: 6.5d
+			x: 4.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["7B1E2798AD487473"]
@@ -1055,27 +979,16 @@
 				item: "minecraft:tropical_fish"
 				type: "item"
 			}]
+			shape: "circle"
 			tasks: [{
 				id: "4AE7759823A3509F"
 				item: "cataclysm:abyssal_egg"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 8.5d
+			x: 2.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["7B1E2798AD487473"]
-			id: "3785C1EB8134908B"
-			tasks: [{
-				id: "566E9D493824B428"
-				item: "cataclysm:tidal_claws"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["5C293C81D2251DF7"]
 			description: ["Once you've cleared out the other enemies, use a Nether Star to activate the Harbinger."]
 			icon: "minecraft:nether_star"
 			id: "24E9CE1582D7D687"
@@ -1089,51 +1002,10 @@
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -12.0d
+			x: -7.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["52D9091AE90972E6"]
-			id: "5BCD6697FD819A93"
-			tasks: [{
-				id: "5FAA5E3C3CB49266"
-				item: "cataclysm:meat_shredder"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -11.0d
-		}
-		{
-			dependencies: ["52D9091AE90972E6"]
-			description: [""]
-			id: "4E6D373D8AF80262"
-			tasks: [{
-				id: "0D092A0CC9D77E90"
-				item: "cataclysm:wither_assault_shoulder_weapon"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -9.5d
-		}
-		{
-			dependencies: ["52D9091AE90972E6"]
-			id: "39583139D3A9B6E4"
-			tasks: [{
-				id: "1FD01ACCF8E8D9B6"
-				item: {
-					Count: 1
-					id: "cataclysm:laser_gatling"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 1.5d
-			y: -11.0d
-		}
-		{
-			dependencies: ["5096E2DD5A0A07DE"]
 			description: [
 				"Enter the Burning Arena."
 				""
@@ -1177,163 +1049,10 @@
 				}
 			]
 			title: "Burning Ashes"
-			x: 5.0d
-			y: -5.0d
+			x: 7.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["5C6FB01D7ADF31BA"]
-			id: "69D9F77E0C2385CA"
-			tasks: [{
-				id: "553E064283DCBF0A"
-				item: {
-					Count: 1
-					id: "cataclysm:monstrous_helm"
-					tag: {
-						Damage: 0
-						affix_data: {
-							sockets: 1
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: -2.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["5C6FB01D7ADF31BA"]
-			id: "29D9323E73D21692"
-			tasks: [{
-				id: "512D6A99583EA0AC"
-				item: {
-					Count: 1
-					id: "cataclysm:infernal_forge"
-					tag: {
-						Damage: 0
-						affix_data: {
-							sockets: 0
-						}
-						reinforce_level: 0
-						reinforce_max: 10
-					}
-				}
-				type: "item"
-			}]
-			x: -3.0d
-			y: -6.5d
-		}
-		{
-			dependencies: ["7BF2A7E121BBB84B"]
-			icon: {
-				Count: 1
-				id: "cataclysm:ignitium_chestplate"
-				tag: {
-					Damage: 0
-					affix_data: {
-						sockets: 1
-					}
-				}
-			}
-			id: "1C17CECDBAB58E30"
-			tasks: [
-				{
-					id: "2BE3938D32D46E47"
-					item: {
-						Count: 1
-						id: "cataclysm:ignitium_helmet"
-						tag: {
-							Damage: 0
-							affix_data: {
-								sockets: 1
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3F0BC21D3D6FB16E"
-					item: {
-						Count: 1
-						id: "cataclysm:ignitium_chestplate"
-						tag: {
-							Damage: 0
-							affix_data: {
-								sockets: 1
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "72006FFE5CD87E00"
-					item: {
-						Count: 1
-						id: "cataclysm:ignitium_leggings"
-						tag: {
-							Damage: 0
-							affix_data: {
-								sockets: 0
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4FAF75F64DEBD552"
-					item: {
-						Count: 1
-						id: "cataclysm:ignitium_boots"
-						tag: {
-							Damage: 0
-							affix_data: {
-								sockets: 1
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "116F49DEB89F85E0"
-					item: "cataclysm:ignitium_upgrade_smithing_template"
-					type: "item"
-				}
-			]
-			title: "Ignitium Armor"
-			x: 5.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["7BF2A7E121BBB84B"]
-			id: "2F35CB7069A59F12"
-			tasks: [{
-				id: "3D5F4AFBEE0D7106"
-				item: {
-					Count: 1
-					id: "cataclysm:bulwark_of_the_flame"
-					tag: {
-						affix_data: {
-							sockets: 1
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 3.0d
-			y: -6.5d
-		}
-		{
-			dependencies: ["7BF2A7E121BBB84B"]
-			id: "6AE4728389C466D9"
-			tasks: [{
-				id: "6DA2810636BCC3C0"
-				item: "cataclysm:the_incinerator"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["59350804DD446DEC"]
 			description: [
 				"When you make it to the central shaft of the pyramid, don't drop down it yet. On the same level as you, on the sides of the shaft, there are two chambers with suspicious sand. Use a brush to uncover a Necklace of the Desert. &oNow&r you can drop down."
 				""
@@ -1351,11 +1070,12 @@
 					id: "0F1BB7569B8F9B48"
 					item: {
 						Count: 1
-						id: "minecraft:brush"
+						id: "itemfilters:tag"
 						tag: {
-							Damage: 0
+							value: "c:brushes"
 						}
 					}
+					title: "Any #c:brushes"
 					type: "item"
 				}
 				{
@@ -1365,150 +1085,26 @@
 				}
 			]
 			title: "Necklace of the Desert"
-			x: 4.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["721F3CF4D3B9461F"]
-			id: "3DD5C0E56C52CBB1"
-			tasks: [{
-				id: "54529EF096BD7C79"
-				item: "cataclysm:void_core"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["721F3CF4D3B9461F"]
-			id: "122BDAC42675CAB4"
-			tasks: [{
-				id: "00677D183930C025"
-				item: "cataclysm:gauntlet_of_guard"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -7.0d
-		}
-		{
-			dependencies: [
-				"3DD5C0E56C52CBB1"
-				"06732AFEBD313F03"
-				"4E6D373D8AF80262"
-			]
-			id: "47BD74F68759461F"
-			tasks: [{
-				id: "106FC9B08BCE0AEB"
-				item: "cataclysm:void_assault_shoulder_weapon"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -8.0d
-		}
-		{
-			dependencies: [
-				"06732AFEBD313F03"
-				"29D9323E73D21692"
-				"3DD5C0E56C52CBB1"
-			]
-			id: "25082011B26AA5AA"
-			tasks: [{
-				id: "34B9F260060D4CD4"
-				item: {
-					Count: 1
-					id: "cataclysm:void_forge"
-					tag: {
-						Damage: 0
-						affix_data: {
-							sockets: 0
-						}
-						reinforce_level: 0
-						reinforce_max: 10
-					}
-				}
-				type: "item"
-			}]
-			x: -1.5d
-			y: -8.0d
-		}
-		{
-			dependencies: [
-				"122BDAC42675CAB4"
-				"2F35CB7069A59F12"
-				"06732AFEBD313F03"
-			]
-			id: "45D584BC67C42F7A"
-			tasks: [{
-				id: "1263F56DAD08F6FA"
-				item: "cataclysm:gauntlet_of_bulwark"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -8.0d
+			x: -7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4C16519E8061C611"]
 			id: "27484B84F54E291E"
+			shape: "circle"
 			tasks: [{
 				id: "404111989DFAFE09"
 				item: "cataclysm:remnant_skull"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["4C16519E8061C611"]
-			icon: {
-				Count: 1
-				id: "cataclysm:bone_reptile_helmet"
-				tag: {
-					Damage: 0
-					affix_data: {
-						sockets: 1
-					}
-				}
-			}
-			id: "433C2ED0904EDB69"
-			tasks: [
-				{
-					id: "5916AF8B7CA790F1"
-					item: {
-						Count: 1
-						id: "cataclysm:bone_reptile_helmet"
-						tag: {
-							Damage: 0
-							affix_data: {
-								sockets: 1
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0A339A2FF85E8E60"
-					item: {
-						Count: 1
-						id: "cataclysm:bone_reptile_chestplate"
-						tag: {
-							Damage: 0
-							affix_data: {
-								sockets: 1
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Bone Reptile Armor"
-			x: 3.0d
-			y: 7.5d
+			x: -6.0d
+			y: 2.5d
 		}
 		{
 			icon: "cataclysm:cursed_eye"
 			id: "6835645D4005C6A4"
-			shape: "octagon_important"
-			size: 1.5d
+			size: 1.0d
+			subtitle: "Locates the Frosted Prison"
 			tasks: [
 				{
 					id: "6CD3AAA3BE2F4F73"
@@ -1522,208 +1118,46 @@
 					type: "advancement"
 				}
 			]
-			x: -3.5d
-			y: 4.5d
+			x: 3.0d
+			y: -8.0d
 		}
 		{
-			dependencies: ["6835645D4005C6A4"]
+			dependencies: [
+				"6835645D4005C6A4"
+				"54B9A2B58A5AD98E"
+			]
 			description: [
 				"fixed traits: tanky 3 master 1 drain 1 dispell 1"
 				""
 				"guide to come"
 			]
 			id: "6E5618EE2994DD2B"
-			shape: "hexagon_important"
+			rewards: [{
+				id: "5398703E17652B28"
+				item: {
+					Count: 1
+					id: "simplyswords:soulrender"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "cataclysm:kill_maledictus"
 				criterion: ""
 				id: "6E620E85AA9E82C5"
 				type: "advancement"
 			}]
-			x: -3.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["6E5618EE2994DD2B"]
-			id: "7BBB2574FA138DBE"
-			tasks: [{
-				id: "5B86E075B8F986DD"
-				item: {
-					Count: 1
-					id: "cataclysm:cursed_bow"
-					tag: {
-						affix_data: {
-							sockets: 1
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: -4.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["6E5618EE2994DD2B"]
-			id: "3A3DD77E19A7D098"
-			tasks: [{
-				id: "4C0469181F711EF5"
-				item: "cataclysm:the_annihilator"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["6E5618EE2994DD2B"]
-			id: "155B53C79BAA1446"
-			tasks: [{
-				id: "77B5D44B34DAD844"
-				item: "cataclysm:soul_render"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["6E5618EE2994DD2B"]
-			icon: {
-				Count: 1
-				id: "cataclysm:cursium_helmet"
-				tag: {
-					Damage: 0
-					affix_data: {
-						sockets: 1
-					}
-				}
-			}
-			id: "1BDAC9758E5DFA2F"
-			tasks: [
-				{
-					id: "293BA3894B7EDEE5"
-					item: {
-						Count: 1
-						id: "cataclysm:cursium_helmet"
-						tag: {
-							Damage: 0
-							affix_data: {
-								sockets: 1
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "10133989600CE88F"
-					item: {
-						Count: 1
-						id: "cataclysm:cursium_chestplate"
-						tag: {
-							Damage: 0
-							affix_data: {
-								sockets: 1
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "181656F79C78A42E"
-					item: {
-						Count: 1
-						id: "cataclysm:cursium_leggings"
-						tag: {
-							Damage: 0
-							affix_data: {
-								sockets: 0
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "33F9774738991526"
-					item: {
-						Count: 1
-						id: "cataclysm:cursium_boots"
-						tag: {
-							Damage: 0
-							affix_data: {
-								sockets: 1
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1FE6DDE348A8C035"
-					item: "cataclysm:cursium_upgrade_smithing_template"
-					type: "item"
-				}
-			]
-			title: "Cursium Armor"
-			x: -2.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["4C16519E8061C611"]
-			id: "12735132863A6B98"
-			tasks: [{
-				id: "0F027329A64EC1F4"
-				item: {
-					Count: 1
-					id: "cataclysm:ancient_spear"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 5.0d
-			y: 7.5d
-		}
-		{
-			dependencies: [
-				"095748A2E5B64CE5"
-				"607639870223C868"
-			]
-			description: [
-				"this one isn't from bosses of mass destruction but i thought it would fit"
-				""
-				"i was having fun with custom recipes"
-			]
-			id: "0CA7C27D230738E9"
-			tasks: [{
-				id: "693E23EA03A59121"
-				item: "l2hostility:flaming_thorn"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 0.0d
-		}
-		{
-			description: [
-				"Samiel here."
-				""
-				"Yeah I know this chapter is kind of a mess. It started okay and grew out of control. Really, I blame L_Ender for adding a new boss and a whole bunch of new items in the middle of development. I love L_Ender's Cataclysm and I want to do it justice. But I have like 500 people begging me to release RAD 3 so some sacrifices must be made."
-				""
-				"This chapter will probably get split in two in the future. There might even be some sort of storyline! Your progress may or may not be saved. This pack is still in beta, after all. And those guides WILL come! In the mean time, I hope this chapter will do. Have a candy cane."
-			]
-			id: "47AC39EF775ACA53"
-			rewards: [{
-				id: "2BDFA37A5D0E4A6B"
-				item: "aether:candy_cane"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 2.0d
-			tasks: [{
-				id: "489DBA0C267D922D"
-				title: "WIP"
-				type: "checkmark"
-			}]
-			title: "under construction"
-			x: 4.5d
-			y: 0.0d
+			title: "Maledictus"
+			x: 3.0d
+			y: -7.0d
 		}
 		{
 			id: "61FD92287F4E5AF1"
@@ -1732,6 +1166,7 @@
 				item: "nameless_trinkets:lucky_rock"
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "022C425A56EC7BD9"
 				item: {
@@ -1749,14 +1184,14 @@
 				type: "item"
 			}]
 			title: "Tongbi, the Sculptor"
-			x: -6.0d
-			y: -1.0d
+			x: 5.3d
+			y: 5.3d
 		}
 		{
 			icon: "cataclysm:storm_eye"
 			id: "5B049CDF09A52A6E"
-			shape: "octagon_important"
-			size: 1.5d
+			size: 1.0d
+			subtitle: "Locates the Acropolis"
 			tasks: [
 				{
 					id: "5589E2D64E243A22"
@@ -1770,59 +1205,48 @@
 					type: "advancement"
 				}
 			]
-			x: 7.5d
-			y: -13.5d
+			x: -3.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["5B049CDF09A52A6E"]
-			description: ["currently unfinished - no traits"]
+			description: [
+				"fixed traits: tanky 3 gravity 3 erosion 2"
+				""
+				"guide to come"
+			]
 			id: "0FDA1325DF9B62D2"
-			shape: "hexagon_important"
+			rewards: [{
+				id: "5484AA7CB75FBD6B"
+				item: {
+					Count: 1
+					id: "simplyswords:mjolnir"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "cataclysm:kill_scylla"
 				criterion: ""
 				id: "0AF3F5629FF168CC"
 				type: "advancement"
 			}]
-			x: 7.5d
-			y: -12.0d
-		}
-		{
-			dependencies: ["0FDA1325DF9B62D2"]
-			id: "37D2359543D1EC6B"
-			tasks: [{
-				id: "64B3541623BA1853"
-				item: "cataclysm:chitin_claw"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -12.0d
-		}
-		{
-			dependencies: ["0FDA1325DF9B62D2"]
-			id: "5512DF43F3206B5F"
-			tasks: [{
-				id: "24BCF1E062AE6E1E"
-				item: "cataclysm:astrape"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -11.0d
-		}
-		{
-			dependencies: ["0FDA1325DF9B62D2"]
-			id: "627ABD71DAE9EB6B"
-			tasks: [{
-				id: "7CD9753CDA73B6E4"
-				item: "cataclysm:ceraunus"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -11.0d
+			title: "Scylla"
+			x: -3.0d
+			y: -7.0d
 		}
 		{
 			description: ["By putting the matching Eye into this block, a Cataclysm boss can be fought again."]
 			id: "202B986A025AE395"
+			size: 1.5d
 			tasks: [{
 				icon: "cataclysm:boss_respawner"
 				id: "51BC3887DA7FFDB5"
@@ -1832,8 +1256,155 @@
 				type: "observation"
 			}]
 			title: "Boss Respawner"
-			x: 1.0d
-			y: -3.0d
+			x: 3.9d
+			y: 2.2d
+		}
+		{
+			hide_dependency_lines: true
+			id: "596472E2A0C73260"
+			rewards: [{
+				id: "1C823D0F34963DA4"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:smite"
+							lvl: 10s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.5d
+			subtitle: "Face the magic of the strongest undead wizard"
+			tasks: [{
+				id: "5FA85F695CB76717"
+				item: "graveyard:upper_bone_staff"
+				type: "item"
+			}]
+			x: -1.9d
+			y: -1.1d
+		}
+		{
+			hide_dependency_lines: true
+			id: "013AA46FE381DE6E"
+			rewards: [{
+				id: "249516A01430C086"
+				item: {
+					Count: 1
+					id: "aether:holy_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						reinforce_level: 0
+						reinforce_max: 10
+					}
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.5d
+			subtitle: "Face the blades of the strongest undead warrior"
+			tasks: [{
+				id: "0C96F331B043718E"
+				item: "graveyard:middle_bone_staff"
+				type: "item"
+			}]
+			x: 1.9d
+			y: -1.1d
+		}
+		{
+			hide_dependency_lines: true
+			id: "0AFE3C43104F7A12"
+			rewards: [
+				{
+					count: 12
+					id: "783B7482E365D956"
+					item: "bonfires:titanite_shard"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "6E12D280EE323EA7"
+					item: "bonfires:large_titanite_shard"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "442E682283E80A06"
+					item: "bonfires:titanite_chunk"
+					type: "item"
+				}
+				{
+					id: "1B64E2593D3144AE"
+					item: "bonfires:titanite_slab"
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 1.5d
+			subtitle: "Face the might of the strongest undead monster"
+			tasks: [{
+				id: "167F6B023D11E5B9"
+				item: "graveyard:lower_bone_staff"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			description: ["Slay one of the Aptrgangr guarding the Frosted Prison to obtain the key to Maledictus' chamber."]
+			id: "54B9A2B58A5AD98E"
+			rewards: [{
+				count: 8
+				id: "7600FEEF8DFF2A36"
+				item: "dungeonsdelight:candied_vex_sucker"
+				type: "item"
+			}]
+			tasks: [{
+				id: "568E734A0470B6DF"
+				item: "cataclysm:strange_key"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5C6FB01D7ADF31BA"]
+			icon: "cataclysm:netherite_effigy"
+			id: "5FCB168209F78630"
+			min_required_tasks: 2
+			shape: "circle"
+			tasks: [
+				{
+					icon: "cataclysm:netherite_ministrosity_bucket"
+					id: "04E86975B9F3BDEC"
+					observe_type: 5
+					timer: 0L
+					title: "Find the Netherite Ministrosity in the hidden vault..."
+					to_observe: "cataclysm:netherite_ministrosity"
+					type: "observation"
+				}
+				{
+					id: "1FD1BFD9D19A78A8"
+					item: "cataclysm:netherite_effigy"
+					title: "...or craft a Netherite Effigy..."
+					type: "item"
+				}
+				{
+					id: "3224FC0A1FC67F6D"
+					item: "cataclysm:lava_power_cell"
+					title: "...and tame it using Lava Pwer Cells."
+					type: "item"
+				}
+			]
+			title: "Netherite Ministrosity"
+			x: 6.0d
+			y: -2.5d
 		}
 	]
 	title: "&cSeek and Destroy&r"
