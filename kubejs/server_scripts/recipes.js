@@ -22,10 +22,10 @@ const removals = [
 //  "sophisticatedbackpacks:stack_upgrade_tier_3",
 //  "sophisticatedbackpacks:stack_upgrade_tier_4",
 //  "sophisticatedbackpacks:backpack",
-  "sophisticatedbackpacks:copper_backpack",
-  "sophisticatedbackpacks:iron_backpack",
-  "sophisticatedbackpacks:gold_backpack",
-  "sophisticatedbackpacks:diamond_backpack",
+//  "sophisticatedbackpacks:copper_backpack",
+//  "sophisticatedbackpacks:iron_backpack",
+//  "sophisticatedbackpacks:gold_backpack",
+//  "sophisticatedbackpacks:diamond_backpack",
   "sophisticatedbackpacks:crafting_upgrade",
   "sophisticatedstorage:crafting_upgrade",
   "sophisticatedbackpacks:battery_upgrade",
@@ -223,212 +223,7 @@ const removals = [
 ];
 
 
-const upgradeMap = new Map([
-  [
-    "sophisticatedbackpacks:pickup_upgrade",
-    "sophisticatedstorage:pickup_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:advanced_pickup_upgrade",
-    "sophisticatedstorage:advanced_pickup_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:filter_upgrade",
-    "sophisticatedstorage:filter_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:advanced_filter_upgrade",
-    "sophisticatedstorage:advanced_filter_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:magnet_upgrade",
-    "sophisticatedstorage:magnet_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:advanced_magnet_upgrade",
-    "sophisticatedstorage:advanced_magnet_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:feeding_upgrade",
-    "sophisticatedstorage:feeding_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:advanced_feeding_upgrade",
-    "sophisticatedstorage:advanced_feeding_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:compacting_upgrade",
-    "sophisticatedstorage:compacting_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:advanced_compacting_upgrade",
-    "sophisticatedstorage:advanced_compacting_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:void_upgrade", 
-    "sophisticatedstorage:void_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:advanced_void_upgrade",
-    "sophisticatedstorage:advanced_void_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:smelting_upgrade",
-    "sophisticatedstorage:smelting_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:auto_smelting_upgrade",
-    "sophisticatedstorage:auto_smelting_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:smoking_upgrade",
-    "sophisticatedstorage:smoking_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:auto_smoking_upgrade",
-    "sophisticatedstorage:auto_smoking_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:blasting_upgrade",
-    "sophisticatedstorage:blasting_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:auto_blasting_upgrade",
-    "sophisticatedstorage:auto_blasting_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:crafting_upgrade",
-    "sophisticatedstorage:crafting_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:stonecutter_upgrade",
-    "sophisticatedstorage:stonecutter_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:jukebox_upgrade",
-    "sophisticatedstorage:jukebox_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:pump_upgrade",
-    "sophisticatedstorage:pump_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:advanced_pump_upgrade",
-    "sophisticatedstorage:advanced_pump_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:xp_pump_upgrade",
-    "sophisticatedstorage:xp_pump_upgrade",
-  ]
-]);
-
 ServerEvents.recipes((event) => {
-  // Change recipes here
-  removals.forEach((element) => {
-    event.remove({ output: element });
-  });
-  event.remove({ input: "ars_instrumentum:fake_wilden_tribute" });
-
-  upgradeMap.forEach((key, value) => {
-    event.shapeless(Item.of(key), [Item.of(value)]);
-    event.shapeless(Item.of(value), [Item.of(key)]);
-  });
-
-//  function shapedStarRecipe(OutputItem, item1, item2, item3) {
-//    event.shaped(OutputItem, ["BPB", "PCP", "BPB"], {
-//      B: item1,
-//      P: item2,
-//      C: item3,
-//    });
-//  }
-
-  function backpackUpgrade(backpackBig, backpackSmall, ingredient, corners) {
-    var setup = corners ? "MMM" : " M ";
-    event.custom({
-      type: "sophisticatedbackpacks:backpack_upgrade",
-      conditions: [
-        {
-          type: "sophisticatedcore:item_enabled",
-          itemRegistryName: backpackBig,
-        },
-      ],
-      key: {
-        B: {
-          item: backpackSmall,
-        },
-        M: {
-          tag: ingredient,
-        },
-      },
-      pattern: [setup, "MBM", setup],
-      result: {
-        item: backpackBig,
-      },
-    });
-  }
-
-  backpackUpgrade(
-    "sophisticatedbackpacks:copper_backpack",
-    "sophisticatedbackpacks:backpack",
-    "forge:storage_blocks/copper",
-    true
-  );
-  backpackUpgrade(
-    "sophisticatedbackpacks:iron_backpack",
-    "sophisticatedbackpacks:copper_backpack",
-    "forge:storage_blocks/iron",
-    false
-  );
-  backpackUpgrade(
-    "sophisticatedbackpacks:iron_backpack",
-    "sophisticatedbackpacks:backpack",
-    "forge:storage_blocks/iron",
-    true
-  );
-  backpackUpgrade(
-    "sophisticatedbackpacks:gold_backpack",
-    "sophisticatedbackpacks:iron_backpack",
-    "forge:storage_blocks/gold",
-    true
-  );
-  backpackUpgrade(
-    "sophisticatedbackpacks:diamond_backpack",
-    "sophisticatedbackpacks:gold_backpack",
-    "forge:storage_blocks/diamond",
-    true
-  );
-
-  event.shapeless("sophisticatedbackpacks:upgrade_base", ["#curios:bundle"]);
-//  shapedStarRecipe(
-//    Item.of("sophisticatedbackpacks:stack_upgrade_starter_tier", 3),
-//    "#forge:storage_blocks/copper",
-//    "sophisticatedbackpacks:backpack",
-//    "sophisticatedbackpacks:upgrade_base"
-//  );
-//  shapedStarRecipe(
-//    Item.of("sophisticatedbackpacks:stack_upgrade_tier_1", 3),
-//    "#forge:storage_blocks/iron",
-//    "sophisticatedbackpacks:stack_upgrade_starter_tier",
-//    "sophisticatedbackpacks:copper_backpack"
-//  );
-//  shapedStarRecipe(
-//    Item.of("sophisticatedbackpacks:stack_upgrade_tier_2", 3),
-//    "#forge:storage_blocks/gold",
-//    "sophisticatedbackpacks:stack_upgrade_tier_1",
-//    "sophisticatedbackpacks:iron_backpack"
-//  );
-//  shapedStarRecipe(
-//    Item.of("sophisticatedbackpacks:stack_upgrade_tier_3", 3),
-//    "#forge:storage_blocks/diamond",
-//    "sophisticatedbackpacks:stack_upgrade_tier_2",
-//    "sophisticatedbackpacks:gold_backpack"
-//  );
-//  shapedStarRecipe(
-//   Item.of("sophisticatedbackpacks:stack_upgrade_tier_4", 3),
-//    "#forge:storage_blocks/netherite",
-//    "sophisticatedbackpacks:stack_upgrade_tier_3",
-//    "sophisticatedbackpacks:diamond_backpack"
-//  );
 
   event.shapeless("sophisticatedbackpacks:crafting_upgrade", [
     "minecraft:crafting_table",
@@ -438,27 +233,6 @@ ServerEvents.recipes((event) => {
     "minecraft:crafting_table",
     "sophisticatedstorage:upgrade_base",
   ]);
-
-  event.replaceInput(
-    { output: "sophisticatedbackpacks:copper_backpack" },
-    "minecraft:copper_ingot",
-    "#forge:storage_blocks/copper"
-  );
-  event.replaceInput(
-    { output: "sophisticatedbackpacks:iron_backpack" },
-    "minecraft:iron_ingot",
-    "#forge:storage_blocks/iron"
-  );
-  event.replaceInput(
-    { output: "sophisticatedbackpacks:gold_backpack" },
-    "minecraft:gold_ingot",
-    "#forge:storage_blocks/gold"
-  );
-  event.replaceInput(
-    { output: "sophisticatedbackpacks:diamond_backpack" },
-    "minecraft:diamond",
-    "#forge:storage_blocks/diamond"
-  );
   
   event.replaceInput(
     { output: "sophisticatedbackpacks:stack_upgrade_tier_1" },
