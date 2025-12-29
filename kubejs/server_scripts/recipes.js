@@ -224,6 +224,10 @@ const removals = [
 
 
 ServerEvents.recipes((event) => {
+  // Change recipes here
+  removals.forEach((element) => {
+    event.remove({ output: element });
+  });
 
   event.shapeless("sophisticatedbackpacks:crafting_upgrade", [
     "minecraft:crafting_table",
@@ -458,11 +462,6 @@ ServerEvents.recipes((event) => {
     { output: "l2hostility:curse_of_wrath" },
 	"l2hostility:reflect",
     "l2hostility:reprint"
-  );
-  event.replaceInput(
-    { output: "celestial_artifacts:greedy_heart"},
-    "minecraft:nether_star",
-    "kubejs:great_soul"
   );
   event.replaceInput(
     { output: "hmag:greedy_crystal_plus" },
