@@ -220,9 +220,9 @@
 		{
 			dependencies: ["085E485E8091D543"]
 			description: [
-				"Corail Tombstone handles your death in Minecraft by providing tons of configuration options, many features to encourage to discover the world and several compatibilities between mods."
+				"When you &4perish&r, a &8Tombstone&r will form at your location, &9preserving your items&r and &9preventing them from despawning&r. You will receive a &8&lGrave's Key&r&r upon respawning; this key acts as a compass, leading you directly back to your remains."
 				""
-				"It also introduces a perk system : the Knowledge of Death, and a magic system based on some enchantable items with the help of the Souls haunting the Decorative Graves and waiting for a way to be freed for their eternal sentence.A screen in game allows to configure player preferences, access a Compendium of infos and the selection of the perks."
+				"As you interact with the world of the dead, you will accumulate &1Knowledge of Death&r. This allows you to perform powerful &4rituals&r using &eSoul Receptacles&r and the &3Decorative Graves&r you can craft. From enchanting scrolls to teleporting back to your place of death, the grave is just the beginning of your power."
 			]
 			id: "00EEAE0FACC02300"
 			rewards: [{
@@ -230,7 +230,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Keeps safe your inventory items on death with many features for better survivability and exploration"
+			subtitle: "&oDeath is not the end, but it is a major inconvenience.&r"
 			tasks: [{
 				advancement: "tombstone:adventure/first_knowledge"
 				criterion: ""
@@ -308,15 +308,15 @@
 		{
 			dependencies: ["219C6641A038984F"]
 			description: [
-				"Press R to roll (by default). You can roll into any direction you are heading (forwards, backwards, sideways, etc...)"
+				"Press &6R&r to roll (&oby default&r). You can &9roll into any direction&r you are heading (&oforwards, backwards, sideways, etc...&r)"
 				""
-				"The combat roll ability has 4 seconds cooldown by default."
+				"The combat roll ability has &24 seconds cooldown&r by default. Which can be improved in different ways, including &5Passive Skill Tree&r."
 				""
-				"Cooldown of your combat roll ability can be seen on the main UI, right next to your hotbar."
+				"&2Cooldown&r of your combat roll ability can be seen on the main UI, right next to your hotbar."
 				""
-				"Exhaust (aka hunger) is added to the player upon rolling."
+				"&cExhaust&r (&oaka hunger&r) is added to the player upon rolling."
 				""
-				"There are enchantments for your armor to improve the distance, speed, and cooldown of your rolls."
+				"There are &eenchantments&r for your armor to improve the distance, speed, and cooldown of your rolls."
 			]
 			icon: "ars_nouveau:glyph_leap"
 			id: "21AD84D45795E334"
@@ -385,9 +385,9 @@
 		{
 			dependencies: ["56127AAF761DC8DA"]
 			description: [
-				"Natural regeneration from food has been turned off in this pack."
+				"&dNatural regeneration&r from food has been &cturned off&r in this pack."
 				""
-				"For healing options see quest"
+				"&n&6For healing options see quest&r&r"
 				"{ \"text\": \"Healing Sources\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2AF1B6A89DD4F4C2\" } } "
 			]
 			icon: "kubejs:heart"
@@ -418,7 +418,7 @@
 		{
 			dependencies: ["085E485E8091D543"]
 			description: [
-				"Monster spawners are much harder to break. It takes 20 seconds with an iron pick to break one. Use torches to light up the area before you try to break spawners."
+				"&4Monster spawners&r are much harder to break. It takes &n20 seconds&r with an iron pick to break one. Use torches to light up the area before you try to break spawners."
 				""
 				"Monster spawners also burn out after spawning 20 mobs. This can be used to your advantage in a dungeon, but it also means that spawner farms won't last long."
 			]
@@ -446,13 +446,16 @@
 		{
 			dependencies: ["2620A08E1295B3A3"]
 			description: [
-				"There are a several new mechanics and difficulty scaling to the Ender Dragon fight, making it a challenge and fun experience for any player amount."
+				"There are a several new mechanics and difficulty scaling to the &5Ender Dragon&r fight, making it a challenge and fun experience for any player amount."
 				""
-				"- The fight scales with the player amount"
-				"- The fight scales with world and config difficulty "
+				"- &9The fight scales with the player amount&r"
+				"- &2The fight scales with world and config difficulty&r"
+				""
+				"Don't expect a quick win with beds; the &5Dragon&r is now immune to explosion-based \"cheese\" tactics. You must fight it fairly while dealing with lightning bolts, respawning crystals, and aggressive Endermen. If you try to stay out of reach using flight, be prepared for the Dragon's anti-flying counter-attacks."
 			]
 			icon: "minecraft:dragon_egg"
 			id: "552109E874C66707"
+			subtitle: "&oThe beast you once knew has evolved. The End is no longer a simple execution; it is a war zone.&r"
 			tasks: [{
 				id: "0DDBA1BEB38B706E"
 				title: "Savage Ender Dragon"
@@ -658,7 +661,7 @@
 		}
 		{
 			dependencies: ["2AF1B6A89DD4F4C2"]
-			description: ["If you have 7 or more hearts of health, damage that would have originally killed you in one hit will now leave you with half a heart! This allows you a chance to react to what would have been a lethal blow!"]
+			description: ["If you have &n7 or more&r &chearts&r, damage that would have originally killed you in one hit will now leave you with half a &cheart&r! This allows you a chance to react to what would have been a lethal blow!"]
 			icon: "kubejs:heart-half"
 			id: "142333754FEA48BB"
 			rewards: [{
@@ -708,11 +711,15 @@
 			description: [
 				"How to use JEI (The mod that shows you all the game items on the right of the screen when in an inventory)"
 				""
-				"• Hovering over an item and pressing the \"R\" key (for Recipe) will display that items recipe."
-				"• Pressing the \"U\" key (for Use) shows what that item can be used to create through crafting grids and machines. "
-				"• To search by mod name use the \"@\" key before search in search box. (e.g. @aether)"
-				"• To select the search box without clicking on it, the player can press Ctrl + F."
-				"• To bookmark a recipe (for easier crafting later, will also save in a menu on the left side of the inventory screen): Hover over the item + A."
+				"• &9Hovering&r over an item and pressing the \"&6R&r\" key (&ofor Recipe&r) will display that &9items recipe&r."
+				""
+				"• Pressing the \"&6U&r\" key (&ofor Use&r) shows what that item &9can be used to create&r through crafting grids and machines. "
+				""
+				"• &9To search by mod&r name use the \"&6@&r\" key before search in search box. (&oe.g. @aether&r)"
+				""
+				"• &9To select the search box&r without clicking on it, the player can press &6Ctrl + F&r."
+				""
+				"• &9To bookmark a recipe &r(&ofor easier crafting later, will also save in a menu on the left side of the inventory screen&r): &6Hover over the item + A&r."
 			]
 			id: "000000000000009B"
 			rewards: [{
@@ -1050,7 +1057,7 @@
 		{
 			dependencies: ["56127AAF761DC8DA"]
 			description: [
-				"Your character's journey to greatness is paved with countless paths! From the &lpassive skill tree&r that unlocks hidden potential, to the sparkling allure of &6jewelry&r, &5trinkets and relics&r, to the potent power of &dpotions&r, &echarms&r, &2essences&r, and more - the options for enhancement are vast and varied."
+				"From the &lpassive skill tree&r that unlocks hidden potential, to the sparkling allure of &6jewelry&r, &5trinkets and relics&r, to the potent power of &dpotions&r, &echarms&r, &2essences&r, and more - the options for enhancement are vast and varied."
 				""
 				"This quest book serves as your guide, unveiling the intricacies and mechanics behind each of these powerful systems. Prepare to unlock your character's true potential!"
 				""
@@ -1080,6 +1087,7 @@
 				}
 			]
 			size: 1.5d
+			subtitle: "&o&7Your character's journey to greatness is paved with countless paths!&r &r"
 			tasks: [{
 				id: "58E1F9E81EF9C964"
 				title: "Passive Skill Tree"
@@ -1182,7 +1190,9 @@
 			description: [
 				"Many quests give &ecoins&r which can be exchanged in &eThe Market&r chapter for useful items."
 				""
+				"You can also find &9special loot-only coins&r in different &5dimensions&r."
 				""
+				"For detailed information"
 				"{ \"text\": \"Go to The Market chapter\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3FC568997D0D4672\" } }"
 			]
 			icon: "kubejs:gold_coin"
@@ -1197,28 +1207,37 @@
 		}
 		{
 			dependencies: ["1A6295743A494017"]
+			description: [
+				"The &6Bounty Board&r is your ticket to consistent rewards. These boards generate Bounties - &9tasks&r that ask you to collect items, hunt specific mobs, or craft goods in exchange for &evaluable loot&r."
+				""
+				"To get started, find a &6Bounty Board&r in a village. Simply right-click the board to see available contracts. Take a bounty into your inventory, fulfill the requirements, and return it to the board (or a Bounty Decree) to claim your prize!"
+			]
 			icon: "bountiful:bountyboard"
 			id: "7F7B6EFF4B5F2CB4"
+			subtitle: "&oLooking for work? The local villagers have more tasks than they can handle.&r"
 			tasks: [{
 				id: "435FE5AFBC11629C"
 				title: "Tasks"
 				type: "checkmark"
 			}]
+			title: "&bThe Bounty Board&r"
 			x: -2.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["219C6641A038984F"]
 			description: [
-				"There are many improvements to horse behavior and mechanics thanks to Horseman mod."
-				"- Inventory slot for a lead"
+				"There are many improvements to &6horse&r behavior and mechanics thanks to Horseman mod."
+				""
+				"- &9Inventory&r slot for a lead"
 				"- Horses only wander 16 blocks from where you dismounted"
-				"- Horses can swim"
+				"- Horses can &1swim&r"
 				"- Horses fit in boats"
-				"- and many more!"
+				"... and many more!"
+				""
 				"A horse is a great traveling companion in the early game. They're perfect for climbing all these hills and mountains."
 				""
-				"...and later, you can ride a DRAGON!"
+				"...and later, you can ride a &dDRAGON&r!"
 			]
 			icon: "minecraft:saddle"
 			id: "20B31C51C3CEFBF8"
@@ -1248,9 +1267,9 @@
 		{
 			dependencies: ["1A6295743A494017"]
 			description: [
-				"Chests found in various structures will look rather different compared to the standard wooden chests you are used to seeing."
+				"&9Chests&r found in various structures will look rather different compared to the standard &8wooden chests&r you are used to seeing."
 				""
-				"These bejeweled chests are Lootr chests, which provide individual loot for every player that comes across it."
+				"These &6bejeweled chests&r are Lootr chests, which provide individual loot for every player that comes across it."
 				""
 				"If you have already opened a lootr chest it will appear a bluish-grey color instead."
 				""
@@ -1277,9 +1296,9 @@
 		{
 			dependencies: ["0B3E19BB0E6C5069"]
 			description: [
-				"You can increase the amount of your health by gaining experience levels. Your bonus hearts return to 0 when you die."
+				"You can increase the amount of your &chealth&r by gaining &2experience levels&r. Your bonus &chearts&r return to 0 when you &0die&r."
 				""
-				"The number of extra hearts you get is ONLY affected by the MAXIMUM LEVEL that you have been since you last died. If you store or use your experience, you won't lose hearts. But you won't gain any additional hearts until you go over your previous maximum again."
+				"The number of &cextra hearts&r you get is ONLY affected by the MAXIMUM LEVEL that you have been since you last died. If you store or use your &2experience&r, you won't lose hearts. But you &nwon't gain&r any additional &chearts&r until you go over your previous maximum again."
 			]
 			icon: "levelhearts:heart_container"
 			id: "4F332C345BD6224E"
@@ -1310,9 +1329,9 @@
 		{
 			dependencies: ["4F332C345BD6224E"]
 			description: [
-				"After your normal health bar, you have a few hearts of absorbtion. That is your shield. After taking damage, spend some time out of combat, and it will regenerate for free. When you run out of shield, retreat! Heal up, then get back in the fight."
+				"After your normal &4health bar&r, you have a few &6hearts of absorbtion&r. That is your shield. After taking &cdamage,&r spend some time out of combat, and it will &5regenerate&r for free. When you run out of shield, retreat! Heal up, then get back in the fight."
 				""
-				"These power tokens you can find as mob drops and loot can be used to craft Shield Power. It gives a temporary boost to your shield, and increases your max shield by one. But it goes away if you die. So save your copper and diamonds by not dying!"
+				"These &6power tokens&r you can find as mob drops and loot can be used to craft &6Shield Power&r. It gives a temporary boost to your shield, and &nincreases your max shield by one&r. But it goes away if you die. So save your copper and &bdiamonds&r by not dying!"
 			]
 			id: "6862B0C62956C1DA"
 			rewards: [{
@@ -1411,7 +1430,7 @@
 				""
 				"There's &6Stamina Vessels&r which you can use to expand your stamina wheel. Obtaining it will involve talking to a peculiar statue of some foreign goddess. Keep an eye on when you visit a village."
 				""
-				"There's also a rumor about the other type of statue with a pair of horns, and his suspicious bargains in exchange for money. They say he can be found rarely in the village, or underground, or even nether."
+				"&o&8There's also a rumor about the other type of statue with a pair of horns, and his suspicious bargains in exchange for money. They say he can be found rarely in the village, or underground, or even nether.&r&r"
 			]
 			icon: {
 				Count: 1
