@@ -124,12 +124,6 @@
 			x: 5.5d
 			y: 1.5d
 		}
-		{
-			id: "54D6FDAAE39E1BF1"
-			linked_quest: "0D3C9711C0517F9F"
-			x: -6.5d
-			y: 1.5d
-		}
 	]
 	quests: [
 		{
@@ -255,22 +249,7 @@
 				""
 				"&9⚔ Parrying ⚔&r"
 				""
-				"Blocking will now open a small configurable time window where the attack will also stun the target."
-				""
-				"Shields have now two stats:"
-				""
-				"- &9Damage reduction on block&r: Blocking reduces damage by the given percent."
-				"- &9Damage reduction on holding&r: Holding the shield in the offhand now grants percentage damage reduction, even when not using it to block. "
-				""
-				"Different shields will have varying amounts of block and passive protection."
-				""
-				"Also there are 5 new enchantments for shields:"
-				""
-				"&9Blocking&r: Increase Block damage reduction by 10%"
-				"&9Blindness&r: Chance to blind attackers on block"
-				"&9Knockback&r: Chance to knock attackers back on block"
-				"&9Slowness&r: Chance to slow attackers on block"
-				"&9Last Resort&r: Chance to gain absorbtion hearts upon blocking on low life (This one is a treasure enchantment)"
+				"Blocking will now open a small time window where the attack will also stun the target."
 			]
 			icon: "kubejs:shield"
 			id: "3E19A4FC23E03CEA"
@@ -509,11 +488,11 @@
 				""
 				"- The Estus Flask when crafted has 3 uses which can be increased using &6Estus Shards&r."
 				""
-				"- Healing Stone from Aether Dimension"
+				"&eHealing Stone&r from Aether Dimension"
 				""
-				"- Healing Flask from Icaria Dimension"
+				"&cHealing Flask&r from Icaria Dimension"
 				""
-				"- any item with regeneration effect (search in JEI)"
+				"Any item with regeneration effect (search in JEI)"
 			]
 			icon: {
 				Count: 1
@@ -731,10 +710,9 @@
 				""
 				"• Hovering over an item and pressing the \"R\" key (for Recipe) will display that items recipe."
 				"• Pressing the \"U\" key (for Use) shows what that item can be used to create through crafting grids and machines. "
-				"• To search by mod name use the \"@\" key before search in search box. (e.g. @notreepunch)"
+				"• To search by mod name use the \"@\" key before search in search box. (e.g. @aether)"
 				"• To select the search box without clicking on it, the player can press Ctrl + F."
 				"• To bookmark a recipe (for easier crafting later, will also save in a menu on the left side of the inventory screen): Hover over the item + A."
-				""
 			]
 			id: "000000000000009B"
 			rewards: [{
@@ -1406,9 +1384,9 @@
 				""
 				"&6Ways to spend experience:&r"
 				"- passive skill tree"
-				"- enchantmens"
+				"- enchanting"
+				"- disenchanting or copying enchantments"
 				"- quests exchanges"
-				"- increase number of hearts"
 			]
 			id: "3B713701E442645A"
 			rewards: [{
@@ -1443,6 +1421,7 @@
 				}
 			}
 			id: "7BC6A2F919B13E31"
+			min_required_tasks: 1
 			rewards: [{
 				id: "308A70148B00EB79"
 				item: "paraglider:spirit_orb"
@@ -1464,6 +1443,65 @@
 			title: "Stamina"
 			x: -5.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["3B713701E442645A"]
+			description: [
+				"It's very important to store your experience so you don't lose it when you die. There are many ways to do so in this pack."
+				""
+				"- &2Carved Nephrite&r can be used with Nephrite Siphons, Fountains, and Diodes to store experience in a physical structure in the world. Nephrite is also required for every other experience storage method. It can be found in geodes deep below the earth."
+				"- &2XP Tomes&r can be used as a limited but cheap method of experience storage."
+				"- The &2Tome of Peritia&r is an upgraded XP Tome which can store an unlimited amount of experience. However, it requires &4blood&r to create."
+				"- &2Scrolls of Knowledge&r can store all your experience at once. However, not only do they require a grave soul, but they're also single-use. You can't store anything less than the full amount either. I don't recommend this one."
+				"- The &2Experience Pump Upgrade&r works with a Tank Upgrade inside a backpack. It's easy to control, but the storage is limited by the storage space in the backpack. Using a higher tier backpack and stack upgrades can increase the storage size. Ultimately, I like this one the best."
+			]
+			icon: {
+				Count: 1
+				id: "xpbook:xp_tome"
+				tag: { }
+			}
+			id: "449D184873EBA2C5"
+			rewards: [{
+				id: "47D01EE291B2555E"
+				item: "kubejs:scroll_exp_great"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67EEF414A902A371"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "spelunkery:carved_nephrite"
+							}
+							{
+								Count: 1b
+								id: "xpbook:xp_tome"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:experiencebook"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:xp_pump_upgrade"
+							}
+							{
+								Count: 1b
+								id: "tombstone:scroll_of_knowledge"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Storing Experience"
+			x: -6.5d
+			y: 1.5d
 		}
 	]
 	title: "⭐ Features "
