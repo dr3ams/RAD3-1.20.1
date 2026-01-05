@@ -396,7 +396,7 @@ ServerEvents.recipes((event) => {
   event.replaceInput(
     { output: "xpbook:xp_tome" },
     "minecraft:ender_pearl",
-    "spelunkery:nephrite_chunk"
+    "spelunkery:carved_nephrite"
   );
   event.replaceInput(
     { output: "bonfires:estus_shard" },
@@ -696,11 +696,12 @@ ServerEvents.recipes((event) => {
 	B: 'minecraft:bell'
   });
   event.shaped('celestial_artifacts:deers_mercy_amulet', [
-    'H H',
+    'O O',
     'HTH',
     ' A '
 	], {
 	H: 'ars_nouveau:wilden_horn',
+	O: 'hmag:ogre_horn',
 	T: 'celestial_core:treasure_fragment',
 	A: 'minecraft:enchanted_golden_apple'
   });
