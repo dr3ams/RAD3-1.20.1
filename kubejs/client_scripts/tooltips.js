@@ -26,6 +26,26 @@ ItemEvents.tooltip(event =>{
 				text.add(5, Text.of(' • §dLifespan:§f Expires yesterday.').white())
 		})
 
+	event.addAdvanced('kubejs:map_fragment', (item, advanced, text) => {
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').gold(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+		text.add(1, [
+	    Text.of('• Used to buy Map Scrolls from Goblin traders, Wandering merchants and Librarians').white()
+      ])
+      text.add(2, [
+        Text.of('• Can be acquired from different traders or loot').white()
+		])
+      text.add(3, [
+        Text.of('• Check Pathfinder quest chapter for more info').white()
+		])
+    }
+	})
+	
 	event.addAdvanced('kubejs:map_scroll_biome', (item, advanced, text) => {
     if (!event.isShift()) {
       text.add(1, [
@@ -982,7 +1002,7 @@ ItemEvents.tooltip(event =>{
         Text.of('• Shift + Q ').gold(),
         Text.of('to eject a book from it').white()
         ]) 
-  })
+	})
   
     event.addAdvanced('bonfires:undead_bone_shard', (item, advanced, text) => {
       if (!event.shift) {
@@ -1008,6 +1028,106 @@ ItemEvents.tooltip(event =>{
 		Text.of('rewards in ').white(),
 		Text.of('⭐ The Market ').yellow(),
 		Text.of('quest chapter').white()
+        ])
+      }
+    })
+	
+    event.addAdvanced('bonfires:titanite_shard', (item, advanced, text) => {
+      if (!event.shift) {
+        text.add(1, [
+          Text.of('Hold ').gray(),
+          Text.of('[Shift] ').red(),
+          Text.of('to see more info.').gray()
+        ])
+      } else {
+        text.add(1, [
+          Text.of('• Used to reinforce ').white(),
+		  Text.of('weapons ').green(),
+		  Text.of('at ').white(),
+		  Text.of('Bonfires ').darkRed(),
+		  Text.of('to increase ').white(),
+		  Text.of('damage').red()
+        ])
+        text.add(2, [
+        Text.of('• Obtained from burning ').white(),
+        Text.of('obsidian or flint ').darkPurple(),
+        Text.of('in ').white(),
+		Text.of('fire or lava').darkRed()
+        ])
+      }
+    })
+	
+    event.addAdvanced('bonfires:large_titanite_shard', (item, advanced, text) => {
+      if (!event.shift) {
+        text.add(1, [
+          Text.of('Hold ').gray(),
+          Text.of('[Shift] ').red(),
+          Text.of('to see more info.').gray()
+        ])
+      } else {
+        text.add(1, [
+          Text.of('• Used to reinforce ').white(),
+		  Text.of('weapons ').green(),
+		  Text.of('at ').white(),
+		  Text.of('Bonfires ').darkRed(),
+		  Text.of('to increase ').white(),
+		  Text.of('damage').red()
+        ])
+        text.add(2, [
+        Text.of('• Obtained from burning ').white(),
+        Text.of('aerogel ').aqua(),
+        Text.of('in ').white(),
+		Text.of('fire or lava').darkRed()
+        ])
+      }
+    })
+	
+    event.addAdvanced('bonfires:titanite_chunk', (item, advanced, text) => {
+      if (!event.shift) {
+        text.add(1, [
+          Text.of('Hold ').gray(),
+          Text.of('[Shift] ').red(),
+          Text.of('to see more info.').gray()
+        ])
+      } else {
+        text.add(1, [
+          Text.of('• Used to reinforce ').white(),
+		  Text.of('weapons ').green(),
+		  Text.of('at ').white(),
+		  Text.of('Bonfires ').darkRed(),
+		  Text.of('to increase ').white(),
+		  Text.of('damage').red()
+        ])
+        text.add(2, [
+        Text.of('• Obtained from burning ').white(),
+        Text.of('baetyl ').darkGreen(),
+        Text.of('in ').white(),
+		Text.of('fire or lava').darkRed()
+        ])
+      }
+    })
+	
+    event.addAdvanced('bonfires:titanite_slab', (item, advanced, text) => {
+      if (!event.shift) {
+        text.add(1, [
+          Text.of('Hold ').gray(),
+          Text.of('[Shift] ').red(),
+          Text.of('to see more info.').gray()
+        ])
+      } else {
+        text.add(1, [
+          Text.of('• Used to reinforce ').white(),
+		  Text.of('weapons ').green(),
+		  Text.of('at ').white(),
+		  Text.of('Bonfires ').darkRed(),
+		  Text.of('to increase ').white(),
+		  Text.of('damage').red()
+        ])
+        text.add(2, [
+        Text.of('• Obtained from burning ').white(),
+        Text.of('reinforced deepslate ').darkGray(),
+        Text.of('in ').white(),
+		Text.of('fire or lava').darkRed()
         ])
       }
     })
@@ -1182,6 +1302,9 @@ ItemEvents.tooltip(event =>{
 	event.addAdvanced('bosses_of_mass_destruction:void_thorn', (item, advanced, text) => {
     text.add(1, Text.of('Dropped from the Void Blossom boss').gray()) 
 	})
+	event.addAdvanced('aether_redux:sentry_chip', (item, advanced, text) => {
+    text.add(1, Text.of('Dropped from Sentry found in Bronze Dungeons in the Aether').gray())
+	})
 	// item info
 	event.addAdvanced('hmag:insomnia_fruit', (item, advanced, text) => {
     text.add(1, Text.of('Becomes stronger the longer you go without sleep').gray()) 
@@ -1209,6 +1332,9 @@ ItemEvents.tooltip(event =>{
 	})
 	event.addAdvanced('minecraft:reinforced_deepslate', (item, advanced, text) => {
     text.add(1, Text.of('Can only be harvested by a Sculkium Pickaxe').gray()) 
+	})
+	event.addAdvanced('minecraft:brewing_stand', (item, advanced, text) => {
+    text.add(1, Text.of('Can only be harvested by a pickaxe with Silk Touch').gray()) 
 	})
 	event.addAdvanced('ancient_aether:valkyrum_ore', (item, advanced, text) => {
     text.add(1, Text.of('Can only be harvested by a Divine Pickaxe... or explosives').gray()) 
@@ -1257,6 +1383,9 @@ ItemEvents.tooltip(event =>{
 	})
 	event.addAdvanced('landsoficaria:hyliastrum_ore', (item, advanced, text) => {
     text.add(1, Text.of('Can only be harvested by a Sideros Pickaxe or better... or explosives').gray()) 
+	})
+	event.addAdvanced('pandorasbox:pandoras_box', (item, advanced, text) => {
+    text.add(1, Text.of('WARNING: EXTREME DANGER').red()) 
 	})
 	
 	
