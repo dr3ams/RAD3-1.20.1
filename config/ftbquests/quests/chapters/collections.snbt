@@ -19,6 +19,33 @@
 		{
 			disable_toast: true
 			id: "0AADD30F4387FAA5"
+			rewards: [
+				{
+					command: "/titles add @p titles:discs"
+					console: true
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "titles:title_scroll_common"
+					id: "6774DCC691916AB2"
+					silent: true
+					team_reward: false
+					title: "the Audiophile Title"
+					type: "command"
+				}
+				{
+					id: "199EFF993E88BAF0"
+					item: "kubejs:gold_coin"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "63DD721BE0AC861B"
+					item: "kubejs:diamond_coin"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			subtitle: "\"Collecting the soundtrack of your journey.\""
 			tasks: [
 				{
 					id: "39AF966BEDF1317F"
@@ -757,16 +784,29 @@
 		{
 			disable_toast: true
 			id: "0F5C601327BB6BAE"
-			rewards: [{
-				command: "/titles remove @s titles:collectionist"
-				console: true
-				elevate_perms: true
-				icon: "titles:title_scroll_uncommon"
-				id: "50C1E1DA370BF0B9"
-				silent: true
-				title: "'Collectionist' Title"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/titles add @p titles:collectionist"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_uncommon"
+					id: "50C1E1DA370BF0B9"
+					silent: true
+					title: "'Collectionist' Title"
+					type: "command"
+				}
+				{
+					id: "7E5212D9C18BA93B"
+					item: "kubejs:gold_coin"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "36C5335AB071C09C"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "0A997B9C44C50A39"
@@ -1001,6 +1041,31 @@
 		{
 			disable_toast: true
 			id: "50F972738ED2B659"
+			rewards: [
+				{
+					command: "/titles add @p titles:neptun"
+					console: true
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "titles:title_scroll_common"
+					id: "22EFEEC07CD45310"
+					silent: true
+					team_reward: false
+					title: "Ocean Master Title"
+					type: "command"
+				}
+				{
+					id: "7BE8DB5FDECA8F99"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "2852AA350EE80077"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Armor and tools forged from the heart of the sea"
 			tasks: [
 				{
 					id: "7BE3BA961688908C"
@@ -1122,6 +1187,31 @@
 		{
 			disable_toast: true
 			id: "089FBD77ACBC4FE8"
+			rewards: [
+				{
+					command: "/titles add @p titles:artifacts"
+					console: true
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "titles:title_scroll_common"
+					id: "61295D1EDA1DD85B"
+					silent: true
+					team_reward: false
+					title: "the Antiquarian Title"
+					type: "command"
+				}
+				{
+					id: "66D92BF0A3E72E3F"
+					item: "kubejs:gold_coin"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "069139F60BEB4EEC"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "056A0A6B63C6F200"
@@ -1286,17 +1376,30 @@
 		{
 			disable_toast: true
 			id: "52A27C8132D4A3DE"
-			rewards: [{
-				command: "/titles add @p titles:backpacker"
-				console: true
-				elevate_perms: true
-				exclude_from_claim_all: true
-				icon: "titles:title_scroll_common"
-				id: "1CCB957C973C4EA7"
-				silent: true
-				title: "Backpacker Title"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/titles add @p titles:backpacker"
+					console: true
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "titles:title_scroll_common"
+					id: "1CCB957C973C4EA7"
+					silent: true
+					title: "Backpacker Title"
+					type: "command"
+				}
+				{
+					id: "1AD70676BA9B1CF8"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "3ABBBA4A2E512F9F"
+					item: "kubejs:gold_coin"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "368DB6820F56F317"
@@ -1558,6 +1661,31 @@
 		{
 			disable_toast: true
 			id: "58EB8AA7304A53D6"
+			rewards: [
+				{
+					command: "/titles add @p titles:hoarder"
+					console: true
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "titles:title_scroll_common"
+					id: "3C55263D5E4639CC"
+					silent: true
+					team_reward: false
+					title: "Hoarder Title"
+					type: "command"
+				}
+				{
+					id: "5CD74DC5BD404D66"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "32AE94DAB394BBDE"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Turning the smallest finds into a grand collection"
 			tasks: [
 				{
 					id: "417C8C03142C49A2"
@@ -1792,17 +1920,32 @@
 		{
 			disable_toast: true
 			id: "2B7EB58ABCC0AEEA"
-			rewards: [{
-				command: "/titles remove @s titles:gem_collector"
-				console: true
-				elevate_perms: true
-				exclude_from_claim_all: true
-				icon: "titles:title_scroll_uncommon"
-				id: "3EFA9FA078EC0A95"
-				silent: true
-				title: "'Gem Collector' Title"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/titles add @p titles:gem_collector"
+					console: true
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "titles:title_scroll_uncommon"
+					id: "3EFA9FA078EC0A95"
+					silent: true
+					team_reward: false
+					title: "'Gem Collector' Title"
+					type: "command"
+				}
+				{
+					id: "61CA28B949FE22CB"
+					item: "kubejs:gold_coin"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "20B088BA38F95BC9"
+					item: "kubejs:diamond_coin"
+					random_bonus: 3
+					type: "item"
+				}
+			]
 			subtitle: "(any tier count)"
 			tasks: [
 				{
@@ -2128,6 +2271,32 @@
 		{
 			disable_toast: true
 			id: "2C32C93C3BFDA5AE"
+			rewards: [
+				{
+					command: "/titles add @p titles:apples"
+					console: true
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "titles:title_scroll_common"
+					id: "707A0174CAAF05FC"
+					silent: true
+					team_reward: false
+					title: "Orchard Master Title"
+					type: "command"
+				}
+				{
+					id: "53865774CF1C528C"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "037C48827551B6A4"
+					item: "kubejs:coin_task"
+					type: "item"
+				}
+			]
+			subtitle: "&o\"An apple a day keeps the Wither away.\"&r"
 			tasks: [
 				{
 					disable_toast: true
@@ -2201,16 +2370,36 @@
 		}
 		{
 			id: "11D7C9DD9D58BE28"
-			rewards: [{
-				command: "/titles add @p titles:lotr"
-				console: true
-				elevate_perms: true
-				exclude_from_claim_all: true
-				icon: "titles:title_scroll_uncommon"
-				id: "3768400E80D66BBA"
-				title: "Lord Of The Rings Title"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/titles add @p titles:lotr"
+					console: true
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "titles:title_scroll_uncommon"
+					id: "3768400E80D66BBA"
+					title: "Lord Of The Rings Title"
+					type: "command"
+				}
+				{
+					id: "03151DFC7C47CECF"
+					item: "kubejs:gold_coin"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "4F1A0F67AF3FF912"
+					item: "kubejs:diamond_coin"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "47CF4CC89B938D41"
+					item: "kubejs:coin_task"
+					random_bonus: 5
+					type: "item"
+				}
+			]
 			subtitle: "... but you only need one to rule them all . . ."
 			tasks: [
 				{

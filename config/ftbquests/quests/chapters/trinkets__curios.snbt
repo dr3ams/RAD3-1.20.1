@@ -4,6 +4,106 @@
 	filename: "trinkets__curios"
 	group: "2C344CA71B9F0CFD"
 	id: "33E10527DCD06E5D"
+	images: [
+		{
+			alpha: 100
+			height: 10.0d
+			image: "bosses_of_mass_destruction:textures/particle/magic_circle_19.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.0d
+			x: 10.5d
+			y: 17.5d
+		}
+		{
+			height: 1.0d
+			image: "celestial_artifacts:slot/empty_etching_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "celestial_artifacts:slot/empty_etching_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 14.5d
+		}
+		{
+			height: 3.0d
+			image: "simplyswords:item/stars_edge_anim_02"
+			rotation: 0.0d
+			width: 3.0d
+			x: 10.5d
+			y: 17.5d
+		}
+		{
+			height: 1.0d
+			image: "celestial_artifacts:slot/empty_etching_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 19.5d
+		}
+		{
+			height: 1.0d
+			image: "celestial_artifacts:slot/empty_etching_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 20.5d
+		}
+		{
+			height: 1.0d
+			image: "celestial_artifacts:slot/empty_etching_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 19.5d
+		}
+		{
+			height: 1.0d
+			image: "celestial_artifacts:slot/empty_etching_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 17.5d
+		}
+		{
+			height: 1.0d
+			image: "celestial_artifacts:slot/empty_etching_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 15.5d
+		}
+		{
+			height: 3.0d
+			image: "simplyswords:item/stars_edge_anim_02"
+			rotation: 90.0d
+			width: 3.0d
+			x: 10.5d
+			y: 17.5d
+		}
+		{
+			height: 10.0d
+			image: "bosses_of_mass_destruction:textures/particle/magic_circle_16.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			height: 10.0d
+			image: "bosses_of_mass_destruction:textures/particle/magic_circle_17.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 18.5d
+			y: 8.0d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -1960,6 +2060,480 @@
 			}]
 			x: 21.0d
 			y: 11.0d
+		}
+		{
+			description: [
+				"The &5Catastrophe Scroll&r is a double-edged artifact granted to those seeking ultimate power. "
+				""
+				"Once equipped in Celestial Curio slot, &4&nit cannot be unequipped&r&r by normal means."
+				""
+				"Equipping this &5scroll&r provides you with &6additional Curio slots&r, allowing you to wear more artifacts and unlocking access to powerful late-game loot and trinkets that otherwise cannot be used. However, the cost is immense: the scroll binds &07 unique curses&r to your soul that activate based on your actions."
+				""
+				"To survive this burden and reclaim your humanity, you must hunt for &e7 special Etchings&r hidden throughout the world. Finding and equipping these etchings will negate the corresponding curses and eventually transform them into powerful blessings."
+			]
+			id: "46B060019E2F87CD"
+			shape: "none"
+			size: 3.0d
+			subtitle: "&oFortune favors the bold, but it demands a heavy price from the cursed.&r"
+			tasks: [{
+				id: "314D886F3B78BB1F"
+				item: "celestial_artifacts:catastrophe_scroll"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5B19A6F3C745FA28"
+			shape: "none"
+			tasks: [{
+				id: "41F682B75A25F4FC"
+				item: "celestial_artifacts:chaotic_etching"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "1A62EE62B6158ED9"
+			shape: "none"
+			tasks: [{
+				id: "322152DDE7D84214"
+				item: "celestial_artifacts:origin_etching"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5C6A3F8CF94E2F3F"
+			shape: "none"
+			tasks: [{
+				id: "47EE74AFF0F3D81C"
+				item: "celestial_artifacts:life_etching"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "671B4E78C576152F"
+			shape: "none"
+			tasks: [{
+				id: "7B650FC81C07783C"
+				item: "celestial_artifacts:desire_etching"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "40678B57EE659CA6"
+			shape: "none"
+			tasks: [{
+				id: "23347C5383581077"
+				item: "celestial_artifacts:truth_etching"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0287F3CA2FED41EF"
+			shape: "none"
+			tasks: [{
+				id: "2508010986D48629"
+				item: "celestial_artifacts:nihility_etching"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "1C03CC3AC0910C36"
+			shape: "none"
+			tasks: [{
+				id: "21BA3CABFFC0F58F"
+				item: "celestial_artifacts:end_etching"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6DF6C1ACEBFF8821"
+			tasks: [{
+				id: "159CBE24F7863086"
+				item: "celestial_artifacts:war_dead_badge"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "19BA34DB3AD91E24"
+			tasks: [{
+				id: "0E12F60C8F55FCB0"
+				item: "celestial_artifacts:undead_charm"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5DCA6C5F0D9A05ED"
+			tasks: [{
+				id: "4DE8C96EF0BBCA18"
+				item: "celestial_artifacts:twisted_brain"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "336F9B6655F5A808"
+			tasks: [{
+				id: "235EE7583D76B564"
+				item: "celestial_artifacts:corrupt_badge"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "257916F5DF0DB5DA"
+			tasks: [{
+				id: "3C4C6E728A847BB8"
+				item: "celestial_artifacts:cursed_talisman"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5EB387027B94B372"
+			tasks: [{
+				id: "62F43DF24716643A"
+				item: "celestial_artifacts:cursed_protector"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5F0B024E480CC6B0"
+			tasks: [{
+				id: "7086256DAE9ED8A4"
+				item: "celestial_artifacts:cursed_totem"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3C112E3180697295"
+			tasks: [{
+				id: "0F11D8AD6BAF8117"
+				item: "celestial_artifacts:demon_curse"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4BD2707DA565B4F0"
+			tasks: [{
+				id: "045C0CCEF913094D"
+				item: "celestial_artifacts:twisted_scabbard"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "615A7B323240F75C"
+			tasks: [{
+				id: "6479ED43E4B2F3D1"
+				item: "celestial_artifacts:abyss_core"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4B0237E3234AD7D9"
+			tasks: [{
+				id: "6CE3610460186217"
+				item: {
+					Count: 1
+					id: "celestial_artifacts:treasure_hunter_necklace"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			id: "190ED9471E92F61D"
+			tasks: [{
+				id: "79F9FF78189748A3"
+				item: {
+					Count: 1
+					id: "celestial_artifacts:lock_of_abyss"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "351E2267F9176219"
+			tasks: [{
+				id: "23E7AE9E6691429A"
+				item: {
+					Count: 1
+					id: "celestial_artifacts:ender_protector"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "27AB2DF9EDD455B5"
+			tasks: [{
+				id: "7B87900D79441474"
+				item: {
+					Count: 1
+					id: "celestial_artifacts:shadow_pendant"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0EF50ACD8B4590D2"
+			tasks: [{
+				id: "1E823A3604F125EF"
+				item: {
+					Count: 1
+					id: "celestial_artifacts:chaotic_pendant"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5BAE78468C719888"
+			tasks: [{
+				id: "7A1DC1EADBAE2746"
+				item: "celestial_artifacts:scarlet_bracelet"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5F2EA20F642530AB"
+			tasks: [{
+				id: "6D465825117E55A2"
+				item: "celestial_artifacts:hidden_bracelet"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "1A7F0B555BAB963E"
+			tasks: [{
+				id: "775C8001725712D1"
+				item: "celestial_artifacts:twisted_scroll"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "581C45AB0156FC34"
+			tasks: [{
+				id: "7EA2210BCBA9C435"
+				item: "celestial_artifacts:demon_heart"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2C1697B5295C9AFA"
+			tasks: [{
+				id: "36EFF9BEB6382CFE"
+				item: "celestial_artifacts:greedy_heart"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7492009E3FCB95B1"
+			tasks: [{
+				id: "53F1364C7797B79B"
+				item: "celestial_artifacts:twisted_heart"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "76018DB24A9D9439"
+			tasks: [{
+				id: "01BB2F9B401B626D"
+				item: "celestial_artifacts:sacrificial_object"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5067F418314EC455"
+			tasks: [{
+				id: "188C69708EDCBC43"
+				item: "celestial_artifacts:abyss_will_badge"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["46B060019E2F87CD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "24967E418BC41CD0"
+			tasks: [{
+				id: "0A178F8BE44BD8F0"
+				item: "celestial_artifacts:soul_box"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 21.5d
 		}
 	]
 	title: "Trinkets 'n Curios"

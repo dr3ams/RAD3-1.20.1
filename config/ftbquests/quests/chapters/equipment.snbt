@@ -41,6 +41,38 @@
 			x: 8.5d
 			y: 0.0d
 		}
+		{
+			height: 2.0d
+			image: "simplyswords:item/runefused_gem_bg"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.0d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "simplyswords:item/runefused_gem_fg"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "simplyswords:item/runic_chakram_layer"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.0d
+			y: 14.5d
+		}
+		{
+			height: 2.0d
+			image: "simplyswords:item/molten_edge_layer"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.0d
+			y: 15.0d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]
@@ -78,43 +110,11 @@
 				id: "03F8DD3FF045B3A7"
 				type: "advancement"
 			}]
-			x: -1.5d
-			y: -0.75d
+			x: -4.0d
+			y: 1.0d
 		}
 		{
-			description: [
-				"While adventuring, you may encounter items with various bonuses. These are &5Affix&r Items, relics of the past with varying degrees of power."
-				""
-				"&4Read more information about the whole Affix and Gems mechanics in Chronicle of Shadows guidebook!&r"
-				""
-				"Each &5affix&r is very similar to an enchantment, providing a specific bonus to the item it is attached to."
-				""
-				"- &5Affix&r Types"
-				""
-				"There are a few different types of affixes, each type having a specific set of functionality it can provide. What types of affixes are applied to an item are dependent on the item's Rarity"
-				""
-				"&5Affix&r items can be acquired:"
-				"- from chests (across all dimensions)"
-				"- from a naturally spawned mob"
-				"- from &4bosses&r"
-			]
-			id: "04BD6EFB0F827A54"
-			shape: "octagon"
-			subtitle: "Find an item with Apothic affix"
-			tasks: [{
-				advancement: "apotheosis:affix/root"
-				criterion: ""
-				id: "1ED060C10B933721"
-				type: "advancement"
-			}]
-			x: 1.5d
-			y: 0.5d
-		}
-		{
-			dependencies: [
-				"04BD6EFB0F827A54"
-				"61C4D962B8642324"
-			]
+			dependencies: ["61C4D962B8642324"]
 			id: "4B37ED777351DF31"
 			rewards: [{
 				id: "2BBEAB3F4067D638"
@@ -135,8 +135,8 @@
 				item: "apotheosis:salvaging_table"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.5d
+			x: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["673DE11282C85AD4"]
@@ -158,8 +158,8 @@
 				item: "minecraft:smithing_table"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6024FAA4C01F2FC6"]
@@ -176,8 +176,8 @@
 				item: "apotheosis:simple_reforging_table"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 6.0d
+			x: 0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["673DE11282C85AD4"]
@@ -193,8 +193,8 @@
 				item: "apotheosis:gem_cutting_table"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.0d
+			x: -5.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["61C4D962B8642324"]
@@ -217,8 +217,8 @@
 				item: "apotheosis:gem_fused_slate"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 2.5d
+			x: -7.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["06DB24EC6C29EF79"]
@@ -228,8 +228,8 @@
 				item: "apotheosis:reforging_table"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 7.5d
+			x: 0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["552C3DB827C185F8"]
@@ -239,8 +239,8 @@
 				item: "apotheosis:augmenting_table"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 7.5d
+			x: -7.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["673DE11282C85AD4"]
@@ -263,8 +263,8 @@
 				item: "apotheosis:gem_dust"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.5d
+			x: -4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4B37ED777351DF31"]
@@ -281,8 +281,8 @@
 				title: "Any #apotheosis:rarity_materials"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.5d
+			x: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2A19D27E41E3A958"]
@@ -303,8 +303,8 @@
 				item: "apotheosis:sigil_of_socketing"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 1.0d
+			x: -8.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2A19D27E41E3A958"]
@@ -325,8 +325,8 @@
 				item: "apotheosis:sigil_of_withdrawal"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 2.5d
+			x: -8.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2A19D27E41E3A958"]
@@ -347,8 +347,8 @@
 				item: "apotheosis:sigil_of_rebirth"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 0.5d
+			x: -7.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2A19D27E41E3A958"]
@@ -369,8 +369,8 @@
 				item: "apotheosis:sigil_of_enhancement"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 4.5d
+			x: -7.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2A19D27E41E3A958"]
@@ -391,8 +391,8 @@
 				item: "apotheosis:sigil_of_unnaming"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 4.0d
+			x: -8.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["673DE11282C85AD4"]
@@ -404,8 +404,8 @@
 				id: "18C36D661071DE21"
 				type: "advancement"
 			}]
-			x: -1.5d
-			y: -2.5d
+			x: -4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7BD9BFF9FFD3701B"]
@@ -417,11 +417,11 @@
 				id: "77E281A4FCBAD435"
 				type: "advancement"
 			}]
-			x: 0.0d
-			y: -2.5d
+			x: -4.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["04BD6EFB0F827A54"]
+			dependencies: ["4B37ED777351DF31"]
 			id: "33C9F4DAC20A1515"
 			subtitle: "Find a Rare Affix item"
 			tasks: [{
@@ -430,8 +430,8 @@
 				id: "730028886621FD16"
 				type: "advancement"
 			}]
-			x: 4.5d
-			y: 1.5d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["33C9F4DAC20A1515"]
@@ -443,8 +443,8 @@
 				id: "20D444787877E51B"
 				type: "advancement"
 			}]
-			x: 4.5d
-			y: 3.0d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0BB2CB77ACA43D0B"]
@@ -456,8 +456,8 @@
 				id: "31DB0EE73422508C"
 				type: "advancement"
 			}]
-			x: 4.5d
-			y: 4.5d
+			x: -1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["00033C69927E20A5"]
@@ -469,8 +469,8 @@
 				id: "5476FA24A192656C"
 				type: "advancement"
 			}]
-			x: 4.5d
-			y: 6.0d
+			x: -1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6A9188C3A08A9197"]
@@ -482,8 +482,8 @@
 				id: "66A2B6E7FC0A0F5E"
 				type: "advancement"
 			}]
-			x: 4.5d
-			y: 7.5d
+			x: -1.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4238000186B6817C"]
@@ -495,8 +495,8 @@
 				id: "52694A83216A21E6"
 				type: "advancement"
 			}]
-			x: 1.5d
-			y: -2.5d
+			x: -4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["568EA0DFCCB13AA5"]
@@ -508,8 +508,8 @@
 				id: "12395737B4530CA6"
 				type: "advancement"
 			}]
-			x: 3.0d
-			y: -2.5d
+			x: -4.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["6CC9A63F0A727D11"]
@@ -521,8 +521,8 @@
 				id: "6B369B239B4E03E0"
 				type: "advancement"
 			}]
-			x: 4.5d
-			y: -2.5d
+			x: -4.0d
+			y: 6.5d
 		}
 		{
 			id: "32FAABF17D15864B"
@@ -1417,6 +1417,2140 @@
 			title: "RAD Weapons"
 			x: 13.5d
 			y: 6.0d
+		}
+		{
+			description: [
+				"&6Empowered Remnants&r can be obtained my melting down &5unique weapons&r in a furnace. The weapon is destroyed and a small portion of its power will remain in the form of an Empowered Remnant."
+				""
+				"Cam also be crafted with &dGreat Soul&r, which drops from defeated bosses."
+				""
+				"When this item is combined in a smithing table with a catalyst, such as a &bRunic Tablet&r or a &8Netherite Ingot&r, a gem can be formed. These gems can be then be socketed into matching sockets on unique weapons, allowing you to empower them in various ways."
+			]
+			id: "7599AF7DA70DC05D"
+			shape: "none"
+			tasks: [{
+				id: "6D87AD081F6B1E6D"
+				item: "simplyswords:empowered_remnant"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 14.5d
+		}
+		{
+			description: ["Upon your adventures you may stumble across chests that contain &3Runic Tablets&r. These tablets can be used to etch runes onto &8Netherite&r weapons within a smithing table, granting them powerful magic abilities."]
+			id: "516531F34CC1AF18"
+			rewards: [{
+				id: "76687174F08EDBF2"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "simplyswords:runic_grimoire"
+					}
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "78DC7D5DAB9CD37A"
+				item: "simplyswords:runic_tablet"
+				type: "item"
+			}]
+			title: "Rune Etching"
+			x: -1.0d
+			y: 14.5d
+		}
+		{
+			description: [
+				"&bRunefused Gems&r can be obtained by combining an &6Empowered Remnant&r and a &3Runic Tablet&r within a smithing table. Once identified, these gems will reveal a random runic power housed within the gem."
+				""
+				"&bRunefused Gems&r can be socketed onto Unique weapons that contain an empty [ runefused socket ]. These gems are only capable of housing Runic Powers of the 'On hit' variety."
+				""
+				"&oTo socket a &bgem&r - &owith your inventory open, left click on the gem so that it anchors to your cursor. Then, simply left click on the weapon you would like to socket. The &bgem&r &owill disappear from your cursor and your unique weapon will be socketed.&r"
+			]
+			id: "1307B0D9168E3E44"
+			shape: "none"
+			tasks: [{
+				id: "4DC14C370EAFFBBB"
+				item: {
+					Count: 1
+					id: "simplyswords:runefused_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.5d
+		}
+		{
+			description: [
+				"&cNetherfused Gems&r can be obtained by combining an &6Empowered Remnant&r and a &8Netherite Ingot&r within a smithing table. Once identified, these gems will reveal a random power housed within the gem."
+				""
+				"&cNetherfused Gems&r can be socketed onto Unique weapons that contain an empty [ netherfused socket ]."
+				""
+				"&oTo socket a &cgem&r - &owith your inventory open, left click on the gem so that it anchors to your cursor. Then, simply left click on the weapon you would like to socket. The &cgem&r &owill disappear from your cursor and your unique weapon will be socketed.&r"
+			]
+			id: "6570EE1DC7216EC5"
+			shape: "none"
+			tasks: [{
+				id: "1E947776749728D8"
+				item: {
+					Count: 1
+					id: "simplyswords:netherfused_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			description: ["There are many different types of weapons that can be crafted, with each offering different fighting styles, and each with a variant for Iron, Gold, Diamond, and Netherite."]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "simplyswords:item/brimstone_claymore"
+				}
+			}
+			id: "03FC2E0708AD458B"
+			title: "Weapon variety"
+			x: -4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["03FC2E0708AD458B"]
+			id: "25DCC8396309FFD8"
+			tasks: [{
+				id: "0F8B56C3394A1402"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "simplyswords:iron_longsword"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:gold_longsword"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:diamond_longsword"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:netherite_longsword"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:runic_longsword"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/cloggrum/longsword"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/forgotten/longsword"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/froststeel/longsword"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/utherium/longsword"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Longswords"
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["03FC2E0708AD458B"]
+			id: "7F3A2139179039E2"
+			tasks: [{
+				id: "745407BC75802879"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "simplyswords:iron_twinblade"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:gold_twinblade"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:diamond_twinblade"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:netherite_twinblade"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:runic_twinblade"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/cloggrum/twinblade"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/forgotten/twinblade"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/froststeel/twinblade"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/utherium/twinblade"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Twinblades"
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["03FC2E0708AD458B"]
+			id: "6F38ABA9B2C3B5AE"
+			tasks: [{
+				id: "6EC59EC091FBFD0D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "simplyswords:iron_katana"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:gold_katana"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:diamond_katana"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:netherite_katana"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:runic_katana"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/cloggrum/katana"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/forgotten/katana"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/froststeel/katana"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/utherium/katana"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Katanas"
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["03FC2E0708AD458B"]
+			id: "50FD50334DD8254D"
+			tasks: [{
+				id: "1C18E78077646F60"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "simplyswords:iron_sai"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:gold_sai"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:diamond_sai"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:netherite_sai"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:runic_sai"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/cloggrum/sai"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/forgotten/sai"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/froststeel/sai"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/utherium/sai"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Sais"
+			x: -4.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["03FC2E0708AD458B"]
+			id: "7905A204DE45B1CE"
+			tasks: [{
+				id: "72C9BD2FF8C7F045"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "simplyswords:iron_spear"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:gold_spear"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:diamond_spear"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:netherite_spear"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:runic_spear"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/cloggrum/spear"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/forgotten/spear"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/froststeel/spear"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/utherium/spear"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Spears"
+			x: -2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["03FC2E0708AD458B"]
+			id: "4CB32A13520CB437"
+			tasks: [{
+				id: "3D23A535FF8FC088"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "simplyswords:iron_glaive"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:gold_glaive"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:diamond_glaive"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:netherite_glaive"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:runic_glaive"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/cloggrum/glaive"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/forgotten/glaive"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/froststeel/glaive"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/utherium/glaive"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Glaives"
+			x: -6.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["03FC2E0708AD458B"]
+			id: "2116181AB861ABBB"
+			tasks: [{
+				id: "65DF6982877F300B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "simplyswords:iron_warglaive"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:gold_warglaive"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:diamond_warglaive"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:netherite_warglaive"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:runic_warglaive"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/cloggrum/warglaive"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/forgotten/warglaive"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/froststeel/warglaive"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/utherium/warglaive"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Warglaives"
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["03FC2E0708AD458B"]
+			id: "1EA23292E1C1B6BB"
+			tasks: [{
+				id: "67B409C6C99400AF"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "simplyswords:iron_cutlass"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:gold_cutlass"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:diamond_cutlass"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:netherite_cutlass"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:runic_cutlass"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/cloggrum/cutlass"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/forgotten/cutlass"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/froststeel/cutlass"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/utherium/cutlass"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Cutlasses"
+			x: -7.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["03FC2E0708AD458B"]
+			id: "6969B4EC5499CB28"
+			tasks: [{
+				id: "31A46393D359B1D9"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "simplyswords:iron_claymore"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:gold_claymore"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:diamond_claymore"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:netherite_claymore"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:runic_claymore"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/cloggrum/claymore"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/forgotten/claymore"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/froststeel/claymore"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/utherium/claymore"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Claymores"
+			x: -3.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["03FC2E0708AD458B"]
+			id: "70917EC36BA0731C"
+			tasks: [{
+				id: "503E06F88BB8C392"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "simplyswords:iron_greathammer"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:gold_greathammer"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:diamond_greathammer"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:netherite_greathammer"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:runic_greathammer"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/cloggrum/greathammer"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/forgotten/greathammer"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/froststeel/greathammer"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/utherium/greathammer"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Greathammers"
+			x: -1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["03FC2E0708AD458B"]
+			id: "63328A6A1C016724"
+			tasks: [{
+				id: "6048BEA4DEF8C4BD"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "simplyswords:iron_greataxe"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:gold_greataxe"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:diamond_greataxe"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:netherite_greataxe"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:runic_greataxe"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/cloggrum/greataxe"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/forgotten/greataxe"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/froststeel/greataxe"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/utherium/greataxe"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Greataxes"
+			x: -7.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["03FC2E0708AD458B"]
+			id: "0814B92B4FAD18AF"
+			tasks: [{
+				id: "3A1869DA14992FD9"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "simplyswords:iron_chakram"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:gold_chakram"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:diamond_chakram"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:netherite_chakram"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:runic_chakram"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/cloggrum/chakram"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/forgotten/chakram"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/froststeel/chakram"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/utherium/chakram"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Chakrams"
+			x: -7.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["03FC2E0708AD458B"]
+			id: "4ADB2F8059763DE9"
+			tasks: [{
+				id: "25D7694F25A3AFE8"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "simplyswords:iron_scythe"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:gold_scythe"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:diamond_scythe"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:netherite_scythe"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:runic_scythe"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/cloggrum/scythe"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/forgotten/scythe"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/froststeel/scythe"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/utherium/scythe"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Scythes"
+			x: -1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["03FC2E0708AD458B"]
+			id: "2962CAD19176753F"
+			tasks: [{
+				id: "3A7D48B98FFAA0E1"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "simplyswords:iron_halberd"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:gold_halberd"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:diamond_halberd"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:netherite_halberd"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:runic_halberd"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/cloggrum/halberd"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/forgotten/halberd"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/froststeel/halberd"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/utherium/halberd"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Halberds"
+			x: -5.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["03FC2E0708AD458B"]
+			id: "55CF70E4C298F78B"
+			tasks: [{
+				id: "6CB51ABC7B74C9B1"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "simplyswords:iron_rapier"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:gold_rapier"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:diamond_rapier"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:netherite_rapier"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:runic_rapier"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+									runic_power: "shielding"
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/cloggrum/rapier"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/forgotten/rapier"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/froststeel/rapier"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/utherium/rapier"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Rapiers"
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["03FC2E0708AD458B"]
+			id: "1D6591BE4C916280"
+			tasks: [{
+				id: "7CFBDBB1DB566AA0"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "simplyswords:iron_rapier"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:gold_rapier"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:diamond_rapier"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:netherite_rapier"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:runic_rapier"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/cloggrum/rapier"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/forgotten/rapier"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/froststeel/rapier"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+							{
+								Count: 1b
+								id: "knavesneeds:undergarden/utherium/rapier"
+								tag: {
+									Damage: 0
+									affix_data: {
+										sockets: 1
+									}
+									reinforce_level: 0
+									reinforce_max: 10
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Rapiers"
+			x: -5.0d
+			y: 8.5d
 		}
 	]
 	title: "Equipment"

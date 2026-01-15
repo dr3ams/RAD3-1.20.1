@@ -17,7 +17,7 @@
 		{
 			color: 8751494
 			height: 10.0d
-			image: "relics:textures/gui/description/relic/abilities_background.png"
+			image: "relics:textures/gui/description/ability/stats_background.png"
 			rotation: 0.0d
 			width: 20.0d
 			x: -5.0d
@@ -384,19 +384,33 @@
 			description: [""]
 			icon: "minecraft:grass_block"
 			id: "241A986345B2839C"
-			rewards: [{
-				id: "2427F30312B2047F"
-				item: {
-					Count: 1
-					id: "trofers:large_pillar"
-					tag: {
-						BlockEntityTag: {
-							Trophy: "trofers:trophies/world"
+			rewards: [
+				{
+					id: "2427F30312B2047F"
+					item: {
+						Count: 1
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:trophies/world"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "49A41D43435B33DD"
+					item: "kubejs:gold_coin"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2F8AAC6F2F64CB75"
+					item: "kubejs:coin_task"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "68066F56BE4931F6"
 				type: "checkmark"
@@ -429,7 +443,32 @@
 					}
 					type: "item"
 				}
+				{
+					command: "/titles add @p titles:nether"
+					console: true
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "titles:title_scroll_uncommon"
+					id: "5292FDFF4C3E6091"
+					silent: true
+					team_reward: false
+					title: "Hellwalker Title"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "5E8EB576C67C90E5"
+					item: "kubejs:coin_nether"
+					type: "item"
+				}
+				{
+					id: "2ECDEEB56B807655"
+					item: "kubejs:gold_coin"
+					random_bonus: 2
+					type: "item"
+				}
 			]
+			subtitle: "Forged in the fires of the deepest pits"
 			tasks: [{
 				id: "63C2E46B600C0E32"
 				type: "checkmark"
@@ -443,19 +482,51 @@
 			description: [""]
 			icon: "undergarden:deepturf_block"
 			id: "72E9615856C466DD"
-			rewards: [{
-				id: "4FE9274A84EF2BEF"
-				item: {
-					Count: 1
-					id: "trofers:large_pillar"
-					tag: {
-						BlockEntityTag: {
-							Trophy: "trofers:trophies/undergarden"
+			rewards: [
+				{
+					id: "4FE9274A84EF2BEF"
+					item: {
+						Count: 1
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:trophies/undergarden"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					command: "/titles add @p titles:undergarden"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_uncommon"
+					id: "1E0F013336C68E78"
+					silent: true
+					team_reward: false
+					title: "Deepsage Title"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "622FE3589E3F6E48"
+					item: "kubejs:coin_undergarden"
+					type: "item"
+				}
+				{
+					id: "4DD5B779E6CCD071"
+					item: "kubejs:gold_coin"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "2BDFE4C098B9039A"
+					item: "kubejs:diamond_coin"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Mastery over the rot and the forgotten flora"
 			tasks: [{
 				id: "69449EFF51FE0843"
 				title: "Complete 'The garden Under' chapter"
@@ -495,7 +566,33 @@
 					}
 					type: "item"
 				}
+				{
+					command: "/titles add @p titles:bumblezone"
+					console: true
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "titles:title_scroll_uncommon"
+					id: "002E8114CF969B74"
+					silent: true
+					team_reward: false
+					title: "Apian Lord Title"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "699B4BFD0C71B55C"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "39DAA3EA1477C2C4"
+					item: "kubejs:coin_bumblezone"
+					random_bonus: 2
+					type: "item"
+				}
 			]
+			subtitle: "The apex predator of the honey-soaked depths"
 			tasks: [{
 				id: "6AD3E045F83CDDF6"
 				type: "checkmark"
@@ -515,7 +612,15 @@
 					console: true
 					elevate_perms: true
 					exclude_from_claim_all: true
-					icon: "kubejs:ring"
+					icon: {
+						Count: 1
+						id: "aether:iron_ring"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
 					id: "7D8281F0DE2A133E"
 					team_reward: false
 					title: "You realized that you have 10 fingers. Gain +1 Curio Ring Slot."
@@ -534,7 +639,32 @@
 					}
 					type: "item"
 				}
+				{
+					command: "/titles add @p titles:aether"
+					console: true
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "titles:title_scroll_uncommon"
+					id: "70FCA96DF0C131F5"
+					silent: true
+					team_reward: false
+					title: "Hero of the Skies title"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "1C2EE2811DD6F631"
+					item: "kubejs:coin_aether"
+					type: "item"
+				}
+				{
+					id: "04ADE9737AF8BC0B"
+					item: "kubejs:diamond_coin"
+					random_bonus: 2
+					type: "item"
+				}
 			]
+			subtitle: "Walking among the clouds as a peer to the sun"
 			tasks: [{
 				id: "652E459A3FB713F6"
 				type: "checkmark"
@@ -548,19 +678,51 @@
 			description: [""]
 			icon: "supplementaries:globe"
 			id: "248D67DE2DF87073"
-			rewards: [{
-				id: "2FC53891C30B403A"
-				item: {
-					Count: 1
-					id: "trofers:large_pillar"
-					tag: {
-						BlockEntityTag: {
-							Trophy: "trofers:trophies/pathfinder"
+			rewards: [
+				{
+					id: "2FC53891C30B403A"
+					item: {
+						Count: 1
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:trophies/pathfinder"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					command: "/titles add @p titles:cartographer"
+					console: true
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "titles:title_scroll_uncommon"
+					id: "30D9B66510F55A88"
+					silent: true
+					team_reward: false
+					title: "Cartographer Title"
+					type: "command"
+				}
+				{
+					id: "1F0A6073C7D25FE7"
+					item: "kubejs:gold_coin"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "145B0C6703FABFE8"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "5D9ABEF38E657185"
+					item: "kubejs:coin_dungeon"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			subtitle: "There is no corner of this world left unmarked"
 			tasks: [{
 				id: "00E4D2C5029D8AF2"
 				type: "checkmark"
@@ -574,19 +736,32 @@
 			description: [""]
 			icon: "nameless_trinkets:mysterious_trinket"
 			id: "686825B8A0FF9B8A"
-			rewards: [{
-				id: "7FF083233D8915EC"
-				item: {
-					Count: 1
-					id: "trofers:large_pillar"
-					tag: {
-						BlockEntityTag: {
-							Trophy: "trofers:trophies/relics"
+			rewards: [
+				{
+					id: "7FF083233D8915EC"
+					item: {
+						Count: 1
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:trophies/relics"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3526D84DEBEE9AF9"
+					item: "kubejs:gold_coin"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4A5C29DF2C2AA364"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1235C34B0820E52C"
 				type: "checkmark"
@@ -600,20 +775,58 @@
 			description: [""]
 			icon: "ars_nouveau:archmage_spell_book"
 			id: "56BDBC26B68EF5D1"
-			rewards: [{
-				id: "0FD06E7D3B975782"
-				item: {
-					Count: 1
-					id: "trofers:large_pillar"
-					tag: {
-						BlockEntityTag: {
-							Trophy: "trofers:trophies/ars"
+			rewards: [
+				{
+					id: "0FD06E7D3B975782"
+					item: {
+						Count: 1
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:trophies/ars"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					command: "/titles add @p titles:archmage"
+					console: true
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "titles:title_scroll_uncommon"
+					id: "1C37B60C5D797BF5"
+					silent: true
+					team_reward: false
+					title: "Archmage Title"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "4C1A1A6254F0E029"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57FC35B3E76E3847"
+					item: "kubejs:gold_coin"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "04904336FDBB756D"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
 			shape: "none"
+			subtitle: "Bending the very fabric of mana to your will"
 			tasks: [{
 				id: "1C4A1E4AD843D2C5"
 				type: "checkmark"
@@ -626,19 +839,38 @@
 			dependencies: ["26FFA683A2A5D5E1"]
 			icon: "embers:ember_crystal_cluster"
 			id: "5C191730329D83B4"
-			rewards: [{
-				id: "243B8A9C3156AE7E"
-				item: {
-					Count: 1
-					id: "trofers:large_pillar"
-					tag: {
-						BlockEntityTag: {
-							Trophy: "trofers:trophies/embers"
+			rewards: [
+				{
+					id: "243B8A9C3156AE7E"
+					item: {
+						Count: 1
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:trophies/embers"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "48DC9FE0313B63C0"
+					item: "kubejs:gold_coin"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "3B667A6F33FC073A"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "706B8074C660C8D2"
+					item: "kubejs:coin_task"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5395B7497D3DD514"
 				title: "Modifiers"
@@ -680,9 +912,11 @@
 					command: "/apoth set_rarity apotheotic_additions:artifact"
 					elevate_perms: true
 					exclude_from_claim_all: true
+					icon: "apotheotic_additions:artifact_material"
 					id: "28F94021279CB94F"
 					silent: true
 					team_reward: false
+					title: "Set rarity: Artifact"
 					type: "command"
 				}
 				{
@@ -690,9 +924,11 @@
 					command: "/apoth set_sockets 5"
 					elevate_perms: true
 					exclude_from_claim_all: true
+					icon: "apotheosis:sigil_of_socketing"
 					id: "0C0089B923E9D309"
 					silent: true
 					team_reward: false
+					title: "Add 5 sockets to the item"
 					type: "command"
 				}
 				{
@@ -700,9 +936,11 @@
 					command: "/apoth lootify apotheotic_additions:esoteric"
 					elevate_perms: true
 					exclude_from_claim_all: true
+					icon: "apotheosis:sigil_of_enhancement"
 					id: "4BCE3FA2097C4385"
 					silent: true
 					team_reward: false
+					title: "Rerol stats as Esoteric rarity"
 					type: "command"
 				}
 				{
@@ -716,6 +954,12 @@
 							}
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "00DFA82160CF67B9"
+					item: "kubejs:gold_coin"
+					random_bonus: 2
 					type: "item"
 				}
 			]
@@ -732,19 +976,51 @@
 			dependencies: ["1DC4DF1994634F20"]
 			icon: "landsoficaria:chiseled_relicstone"
 			id: "185528674ADBCBEB"
-			rewards: [{
-				id: "58BDE45E5382F4BD"
-				item: {
-					Count: 1
-					id: "trofers:large_pillar"
-					tag: {
-						BlockEntityTag: {
-							Trophy: "trofers:trophies/icaria"
+			rewards: [
+				{
+					id: "58BDE45E5382F4BD"
+					item: {
+						Count: 1
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:trophies/icaria"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					command: "/titles add @p titles:icaria"
+					console: true
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "titles:title_scroll_uncommon"
+					id: "53CCC23D0C01BB7E"
+					silent: true
+					team_reward: false
+					title: "Labyrinthian Title"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "12E76FFAC78B7AEB"
+					item: "kubejs:coin_icaria"
+					type: "item"
+				}
+				{
+					id: "124688F2BF476CCF"
+					item: "kubejs:gold_coin"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "511B7E4ECC8AFFBB"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Conquering the Greek myths of the golden sands"
 			tasks: [{
 				id: "722BB3B0BF35ACBA"
 				type: "checkmark"
@@ -782,6 +1058,18 @@
 					}
 					type: "item"
 				}
+				{
+					id: "188E6AA47E761B29"
+					item: "kubejs:gold_coin"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "67F8E9EEC33E543B"
+					item: "kubejs:diamond_coin"
+					random_bonus: 2
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "7A941715316940E1"
@@ -794,21 +1082,88 @@
 		}
 		{
 			id: "021A174F7729843C"
+			rewards: [
+				{
+					command: "/titles add @p titles:airship"
+					console: true
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "titles:title_scroll_uncommon"
+					id: "278F74FA10E39B4D"
+					silent: true
+					team_reward: false
+					title: "the Sky Captain Title"
+					type: "command"
+				}
+				{
+					id: "1BC78B4479BE3559"
+					item: "kubejs:iron_coin"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Gazing down upon the world you once walked"
 			tasks: [{
 				id: "3D6C11A95AC37665"
 				item: "immersive_aircraft:airship"
 				type: "item"
 			}]
+			title: "Build your first Airship"
 			x: -5.0d
 			y: -4.0d
 		}
 		{
 			id: "78D8E0F80BBCD583"
+			rewards: [
+				{
+					command: "/titles add @p titles:mining"
+					console: true
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "titles:title_scroll_uncommon"
+					id: "74ACB09E5E8844F2"
+					silent: true
+					team_reward: false
+					title: "Depths Dweller Title"
+					type: "command"
+				}
+				{
+					id: "2D774B04E25FD12B"
+					item: {
+						Count: 1
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:trophies/miningdim"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "661CEBF37EA010D2"
+					item: "kubejs:gold_coin"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "1FE21E16C8AED672"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "782A8E5100F64C41"
+					item: "kubejs:coin_task"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "11E95E320C873207"
 				item: "mining_dimension:teleporter"
 				type: "item"
 			}]
+			title: "Enter Mining Dimension"
 			x: 1.0d
 			y: -4.0d
 		}
@@ -816,6 +1171,57 @@
 			dependencies: ["68581FC88BECFEBB"]
 			icon: "bloodmagic:altar"
 			id: "7936970066A1028D"
+			rewards: [
+				{
+					id: "654EA93C689C68B0"
+					item: {
+						Count: 1
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:trophies/bloodmagic"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add @p titles:hemomancer"
+					console: true
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "titles:title_scroll_uncommon"
+					id: "207BF7FD11897164"
+					silent: true
+					team_reward: false
+					title: "Hemomancer Title"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "61F6CD2A72BDFAB6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "543A60FDC65C1289"
+					item: "kubejs:gold_coin"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "72307CA85B0B309F"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
+			subtitle: "True power requires a sacrifice of the soul"
 			tasks: [{
 				id: "4DB61443675C0595"
 				type: "checkmark"
@@ -839,6 +1245,38 @@
 				}
 			}
 			id: "1E5A19272AD22CD7"
+			rewards: [
+				{
+					id: "2B15391A2D3A4849"
+					item: {
+						Count: 1
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:trophies/equipment"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F1EF96F601C5644"
+					item: "kubejs:gold_coin"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "0CE1B42E88A5C7D2"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "752433EBB9762513"
+					item: "kubejs:coin_task"
+					random_bonus: 10
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4CF1F8334DBFADBF"
 				type: "checkmark"
@@ -851,6 +1289,52 @@
 			dependencies: ["2B8506307F0DA912"]
 			icon: "dimdungeons:block_portal_keyhole"
 			id: "0BBF49D42BEB239B"
+			rewards: [
+				{
+					id: "3CF5E854F88D25DA"
+					item: {
+						Count: 1
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:trophies/ddungeons"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add @p titles:ddungeons"
+					console: true
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "titles:title_scroll_uncommon"
+					id: "1B57DB4AC19262EC"
+					silent: true
+					team_reward: false
+					title: "Riftwalkert Title"
+					type: "command"
+				}
+				{
+					id: "2049811A86A27A1F"
+					item: "kubejs:gold_coin"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5C017D6AA7119420"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0F381423DA61E7BF"
+					item: "kubejs:coin_dungeon"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			subtitle: "Navigating the unstable echoes between worlds"
 			tasks: [{
 				id: "1CE98B8D50161A52"
 				type: "checkmark"
@@ -863,10 +1347,42 @@
 			dependencies: ["770750D0370ECA36"]
 			icon: "minecraft:dragon_head"
 			id: "7C93029406E8A48E"
+			rewards: [
+				{
+					command: "/titles add @p titles:dragon"
+					console: true
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "titles:title_scroll_rare"
+					id: "4713990B2C4ADE2A"
+					silent: true
+					team_reward: false
+					title: "Dragonbane Title"
+					type: "command"
+				}
+				{
+					id: "2380ABA4F53037DB"
+					item: "kubejs:gold_coin"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7F81C9B2B1B66028"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "64B00A041BF086B9"
+					item: "kubejs:coin_end"
+					type: "item"
+				}
+			]
+			subtitle: "For you, the end was only the beginning"
 			tasks: [{
 				id: "7B4E6CC2283C894E"
 				type: "checkmark"
 			}]
+			title: "Complete 'End Exploration' chapter"
 			x: -8.0d
 			y: -4.0d
 		}
@@ -874,6 +1390,32 @@
 			dependencies: ["49A6B8346C5B55D1"]
 			icon: "minecraft:skeleton_skull"
 			id: "76D0BF42C18F13AD"
+			rewards: [
+				{
+					id: "1FDCD66C8BA124F3"
+					item: {
+						Count: 1
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:trophies/hunter"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "419146AAE9CD6CE0"
+					item: "kubejs:gold_coin"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "2866CEE211844536"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "62071BB5BB77A00F"
 				type: "checkmark"

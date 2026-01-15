@@ -129,6 +129,54 @@
 			x: 8.0d
 			y: -14.5d
 		}
+		{
+			height: 2.0d
+			image: "simplyswords:item/soulrender_layer"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "simplyswords:item/flamewind_anim_02_e"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			height: 2.0d
+			image: "simplyswords:item/hiveheart_anim_01"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			height: 2.0d
+			image: "simplyswords:item/dreadtide_anim_04"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			height: 2.0d
+			image: "simplyswords:item/waxweaver_anim_01"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			height: 2.0d
+			image: "simplyswords:item/watching_warglaive_eyes_e"
+			rotation: 180.0d
+			width: 2.0d
+			x: 0.5d
+			y: -2.5d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -1233,35 +1281,6 @@
 		}
 		{
 			can_repeat: true
-			icon: {
-				Count: 1
-				id: "apotheosis:gem"
-				tag: {
-					affix_data: {
-						rarity: "apotheosis:epic"
-					}
-					gem: "apotheosis:the_end/endersurge"
-				}
-			}
-			id: "157FAAB7412AA262"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0C5ED32C4B140DD5"
-				table_id: 9122232193753176215L
-				type: "random"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "76BAB4B04B8A4719"
-				item: "kubejs:diamond_coin"
-				type: "item"
-			}]
-			title: "Random Apotheotic Gem"
-			x: 8.0d
-			y: -9.0d
-		}
-		{
-			can_repeat: true
 			icon: "celestial_artifacts:traveler_scroll"
 			id: "246132A33AE1E5B2"
 			rewards: [{
@@ -1278,6 +1297,43 @@
 			title: "Traveler Scroll"
 			x: 8.0d
 			y: -4.0d
+		}
+		{
+			description: [
+				"&bHow to use:&r"
+				""
+				"• Use &6/vault balance&r to see your current balance"
+				""
+				"• Hold a coin and type &2/vault deposit&r to secure it"
+				""
+				"• Use &a/vault deposit all&r to sweep your entire inventory"
+				""
+				"• Need cash? Use &9/vault withdraw <name> <amount>&r"
+				""
+				"Deposits and withdrawals are &2FREE&r of charge!"
+				""
+				"&8&oDisclaimer: While the vault is highly stable, security of digital assets is not guaranteed against server-wide data corruption or hardware failure. Regular backups are recommended. Store at your own risk.&r"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/chest"
+				}
+			}
+			icon_scale: 0.7d
+			id: "03881C5139D55E19"
+			shape: "gear"
+			size: 1.2d
+			subtitle: "The &bCloud Vault&r is a secure, cross-dimensional storage solution for all your currency."
+			tasks: [{
+				id: "27E9BB6C2D59FB25"
+				title: "&bThe Cloud Vault System&r"
+				type: "checkmark"
+			}]
+			title: "&bThe Cloud Vault System&r"
+			x: 0.6d
+			y: -15.0d
 		}
 	]
 	title: "&e⭐ The Market&r"
