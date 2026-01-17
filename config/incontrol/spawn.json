@@ -1,129 +1,167 @@
 [
-    {
-        "spawner": false,
-        "structure": false,
-        "hostile": true,
-        "mincount": {
-            "amount": 3,
-            "hostile": true,
-            "perchunk": true
-        },
-        "result": "deny"
-    },
-	{
-        "mob": "minecraft:zombie",
-        "when": "onjoin",
-        "baby": true,
-        "result": "deny"
-    },
-	{
-		"mob": "hmag:ghost",
-		"mincount": {
-            "amount": 1,
-            "perchunk": true
-        },
-		"result": "deny"
-	},
-	{
-        "mob": "minecraft:giant",
-        "seesky": true,
-        "when": "finalize",
-        "result": "allow",
-        "healthmultiply": 2
-    },
-	{
+  {
+    "mob": "minecraft:sniffer",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "baby": true,
+	"when": "onjoin",
+    "result": "deny"
+  },
+  {
     "hostile": true,
     "area": "spawn",
-    "when": "onjoin",
     "result": "deny"
-	},
-    {
-        "spawner": false,
-        "structure": false,
-        "passive": true,
-        "mincount": {
-            "amount": 1,
-            "passive": true,
-            "perchunk": true
-        },
-        "result": "deny"
+  },
+  {
+    "mob": "hmag:ghost",
+    "gamestage": "milestone_nether",
+    "mincount": {
+      "amount": 1,
+      "mob": "hmag:ghost",
+      "perchunk": true
     },
-    {
-        "mob": "landsoficaria:nether_pyromancer_revenant",
-		"mincount": {
-            "amount": 1,
-            "perchunk": true
-        },
-		"result": "deny"
-	},
-    {
-        "spawner": false,
-        "structure": false,
-        "mob": "minecraft:phantom",
-        "mincount": {
-            "amount": 1,
-            "hostile": true,
-            "perplayer": true
-        },
-        "result": "deny"
+    "result": "deny"
+  },
+  {
+    "mob": "hmag:ghost",
+    "gamestage": "milestone_nether",
+    "result": "allow"
+  },
+  {
+    "mob": "hmag:ghost",
+    "result": "deny"
+  },
+ {
+    "mob": "mowziesmobs:naga",
+    "gamestage": "milestone_nether",
+    "mincount": {
+      "amount": 1,
+      "mob": "mowziesmobs:naga",
+      "perchunk": true
     },
-    {
-        "spawner": false,
-        "structure": false,
-        "mob": "minecraft:vex",
-        "mincount": {
-            "amount": 1,
-            "hostile": true,
-            "perplayer": true
-        },
-        "result": "deny"
+    "result": "deny"
+  },
+  {
+    "mob": "mowziesmobs:naga",
+    "gamestage": "milestone_nether",
+    "result": "allow"
+  },
+  {
+    "mob": "mowziesmobs:naga",
+    "result": "deny"
+  },
+{
+    "mob": "minecraft:phantom",
+    "gamestage": "milestone_nether",
+    "mincount": {
+      "amount": 1,
+      "mob": "minecraft:phantom",
+      "perchunk": true
     },
-    {
-        "spawner": false,
-        "mob": "cataclysm:endermaptera",
-        "mincount": {
-            "amount": 10,
-            "hostile": true,
-            "perplayer": true
-        },
-        "result": "deny"
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:phantom",
+    "gamestage": "milestone_nether",
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:phantom",
+    "result": "deny"
+  },
+   {
+    "mob": "minecraft:trader_llama",
+	"when": "onjoin",
+    "mincount": { "amount": 1, "mob": "minecraft:trader_llama", "perchunk": true },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:skeleton",
+	"gamestage": "milestone_nether",
+    "mincount": {
+	  "amount": 5,
+      "mob": "minecraft:skeleton",
+      "perchunk": true
     },
-    {
-        "spawner": false,
-        "mob": "aether:cockatrice",
-		"mincount": {
-            "amount": 2,
-            "perchunk": true
-        },
-		"result": "deny"
-	},
-    {
-        "spawner": false,
-        "mob": "mowziesmobs:naga",
-        "mincount": {
-            "amount": 1,
-            "hostile": true,
-            "perplayer": true
-        },
-        "result": "deny"
-    },
-    {
-      "spawner": false,
-      "dimension": "landsoficaria:icaria",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:skeleton",
+    "mincount": {
+      "amount": 5,
       "hostile": true,
-      "mincount": {
-          "amount": 20,
-          "hostile": true,
-          "perplayer": true
-       },
-      "result": "deny"
+      "perchunk": true
     },
-	{
-        "mob": [
-            "minecraft:sniffer"
-        ],
-        "when": "onjoin",
-        "result": "deny"
-    }
-
+    "result": "deny"
+  },
+   {
+    "mob": "minecraft:creeper",
+    "mincount": {
+      "amount": 5,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:creeper",
+	"gamestage": "milestone_nether",
+    "mincount": {
+      "amount": 2,
+      "mob": "minecraft:creeper",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "landsoficaria:nether_pyromancer_revenant",
+    "mincount": { "amount": 1, "mob": "landsoficaria:nether_pyromancer_revenant", "perchunk": true },
+    "result": "deny"
+  },
+  {
+    "mob": "aether:cockatrice",
+    "mincount": { "amount": 2, "mob": "aether:cockatrice", "perchunk": true },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:vex",
+    "mincount": { "amount": 1, "mob": "minecraft:vex", "perplayer": true },
+    "result": "deny"
+  },
+  {
+    "mob": "cataclysm:endermaptera",
+    "mincount": { "amount": 10, "mob": "cataclysm:endermaptera", "perplayer": true },
+    "result": "deny"
+  },
+  {
+    "dimension": "landsoficaria:icaria",
+    "hostile": true,
+    "mincount": { "amount": 20, "hostile": true, "perplayer": true },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:bat",
+    "mincount": {
+      "amount": 1,
+      "mob": "minecraft:bat",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "spawner": false,
+    "structure": false,
+    "hostile": true,
+    "mincount": { "amount": 3, "hostile": true, "perchunk": true },
+    "result": "deny"
+  },
+  {
+    "spawner": false,
+    "structure": false,
+    "passive": true,
+    "mincount": { "amount": 1, "passive": true, "perchunk": true },
+    "result": "deny"
+  }
 ]
