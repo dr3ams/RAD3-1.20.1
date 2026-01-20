@@ -64,6 +64,7 @@ LootJS.modifiers((event) => {
 		.replaceLoot("minecraft:diamond", "spelunkery:rough_diamond_shard")
 		.replaceLoot("hmag:diamond_fragment", "spelunkery:rough_diamond_shard")
 		.replaceLoot("minecraft:emerald", "spelunkery:emerald_shard")
+		.replaceLoot("hmag:emerald_fragment", "spelunkery:emerald_shard")
 		.replaceLoot("minecraft:diamond_pickaxe", "spelunkery:rough_diamond")
 		.replaceLoot("minecraft:diamond_sword", "spelunkery:rough_diamond")
 		.replaceLoot("minecraft:diamond_chestplate", "spelunkery:rough_diamond")
@@ -102,10 +103,12 @@ LootJS.modifiers((event) => {
 		.when((c) => c.randomChance(0.05))
 		.limitCount([0, 1]));
 
-	// Replacing HMaG drops with Spelunkery items
-	event.addLootTypeModifier(LootType.ENTITY).replaceLoot("hmag:diamond_fragment", "spelunkery:diamond_shard", true);
-	event.addLootTypeModifier(LootType.ENTITY).replaceLoot("hmag:emerald_fragment", "spelunkery:emerald_shard", true );
-	event.addLootTypeModifier(LootType.ENTITY).replaceLoot("hmag:copper_nugget", "spelunkery:copper_nugget", true);
+	// Replacing mob drops
+	event.addLootTypeModifier(LootType.ENTITY)
+		.replaceLoot("hmag:diamond_fragment", "spelunkery:rough_diamond_shard")
+		.replaceLoot("hmag:emerald_fragment", "spelunkery:emerald_shard")
+		.replaceLoot("hmag:copper_nugget", "spelunkery:copper_nugget")
+		.replaceLoot("paraglider:stamina_vessel", LootEntry.of("paraglider:spirit_orb").limitCount([1, 4]));
 
 	// Adding Great Soul to boss drops
 	event.addEntityLootModifier("minecraft:ender_dragon").killedByPlayer().addLoot("kubejs:great_soul");
