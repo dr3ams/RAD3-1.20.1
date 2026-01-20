@@ -8,16 +8,6 @@
       "weight": 100,
       "functions": [
         {
-          "function": "tombstone:delayed_nbt_loot"
-        }
-      ],
-      "name": "tombstone:magic_scroll"
-    },
-    {
-      "type": "minecraft:item",
-      "weight": 20,
-      "functions": [
-        {
           "function": "tombstone:check_enabled"
         }
       ],
@@ -25,7 +15,7 @@
     },
     {
       "type": "minecraft:item",
-      "weight": 20,
+      "weight": 50,
       "functions": [
         {
           "function": "tombstone:check_enabled"
@@ -56,30 +46,6 @@
     },
     {
       "type": "minecraft:item",
-      "weight": 50,
-      "functions": [
-        {
-          "function": "tombstone:delayed_nbt_loot"
-        },
-        {
-          "function": "minecraft:set_nbt",
-          "tag": "{ancient:1b}"
-        }
-      ],
-      "name": "tombstone:magic_scroll"
-    },
-    {
-      "type": "minecraft:item",
-      "weight": 100,
-      "functions": [
-        {
-          "function": "tombstone:delayed_nbt_loot"
-        }
-      ],
-      "name": "tombstone:voodoo_poppet"
-    },
-    {
-      "type": "minecraft:item",
       "weight": 100,
       "functions": [
         {
@@ -90,7 +56,7 @@
     },
     {
       "type": "minecraft:empty",
-      "weight": 460
+      "weight": 400
     }
   ]
 }
