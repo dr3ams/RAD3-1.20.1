@@ -422,7 +422,15 @@ event.get('rad3:twohanded')
 		.add('knavesneeds:undergarden/utherium/greathammer')
 		.add('knavesneeds:undergarden/utherium/greataxe')
 		.add('knavesneeds:undergarden/utherium/scythe')
-		.add('knavesneeds:undergarden/utherium/halberd')	
+		.add('knavesneeds:undergarden/utherium/halberd')
+
+event.get('rad3:fan')
+		.add('radweaponry:hummingbirdfan_blue')
+		.add('radweaponry:hummingbirdfan_orange')
+		.add('radweaponry:hummingbirdfan_pink')
+		.add('radweaponry:hummingbirdfan_purple')
+		.add('radweaponry:hummingbirdfan_red')
+		.add('radweaponry:hummingbirdfan_snow')
 
 event.get('rad3:magicarmor')
 		.add('ars_elemental:aqua_hat')
@@ -474,4 +482,5 @@ event.get('rad3:bloodmagicarmor')
 ////END	
 
 })
+
 
