@@ -29,6 +29,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["A damp, web-choked cavern where the skittering never stops."]
 			icon: "minecraft:string"
 			id: "5954871D011EA31B"
 			rewards: [
@@ -57,10 +58,12 @@
 					type: "structure"
 				}
 			]
+			title: "Spider Dungeon"
 			x: 14.5d
 			y: 2.0d
 		}
 		{
+			description: ["The stench of decay lingers in these forgotten catacombs."]
 			icon: "minecraft:rotten_flesh"
 			id: "028BAD294AD040AF"
 			rewards: [
@@ -89,10 +92,12 @@
 					type: "structure"
 				}
 			]
+			title: "Zombie Dungeon"
 			x: 10.0d
 			y: 1.5d
 		}
 		{
+			description: ["A fortress of the undead where bones click against cold stone."]
 			icon: "minecraft:skeleton_skull"
 			id: "2FF97DE5D1B0F727"
 			rewards: [
@@ -121,10 +126,12 @@
 					type: "structure"
 				}
 			]
+			title: "Skeleton Dungeon"
 			x: 10.0d
 			y: 2.5d
 		}
 		{
+			description: ["An ancient gateway to another realm, now lost to time."]
 			icon: "ars_nouveau:gilded_sourcestone_large_bricks"
 			id: "3C6CA584F934B8B9"
 			rewards: [
@@ -153,10 +160,12 @@
 					type: "structure"
 				}
 			]
+			title: "Ruined Portal"
 			x: 8.5d
 			y: 5.0d
 		}
 		{
+			description: ["A compact room packed with danger and potential treasure."]
 			icon: "minecraft:spawner"
 			id: "1C6EB956684D3209"
 			rewards: [
@@ -178,10 +187,12 @@
 				id: "3533A980E4933C2D"
 				type: "advancement"
 			}]
+			title: "Small Dungeon"
 			x: 14.0d
 			y: 3.0d
 		}
 		{
+			description: ["Outlaws have made their home in the harsh heat of the Badlands."]
 			icon: "minecraft:dead_bush"
 			id: "40822E5624735C13"
 			rewards: [
@@ -210,10 +221,12 @@
 					type: "structure"
 				}
 			]
+			title: "Bandit Village"
 			x: 4.5d
 			y: 8.5d
 		}
 		{
+			description: ["Nomadic traders often rest here before continuing their long journey."]
 			icon: "minecraft:emerald"
 			id: "5906FA87FDF566D6"
 			rewards: [
@@ -242,10 +255,12 @@
 					type: "structure"
 				}
 			]
+			title: "Merchant Campsite"
 			x: -3.0d
 			y: 1.0d
 		}
 		{
+			description: ["A temporary camp for raiding parties plotting their next attack."]
 			icon: {
 				Count: 1
 				id: "minecraft:crossbow"
@@ -283,10 +298,12 @@
 					type: "structure"
 				}
 			]
+			title: "Illager Campsite"
 			x: -3.5d
 			y: 2.0d
 		}
 		{
+			description: ["An intricate network of rails and machinery designed for heavy excavation."]
 			icon: "minecraft:hopper_minecart"
 			id: "5DBEE11FFCE9799C"
 			rewards: [
@@ -315,10 +332,12 @@
 					type: "structure"
 				}
 			]
+			title: "Mining System"
 			x: 5.0d
 			y: 6.5d
 		}
 		{
+			description: ["A submerged monument guarded by powerful ancient entities."]
 			icon: "minecraft:nautilus_shell"
 			id: "290A2645FBD90100"
 			rewards: [
@@ -333,6 +352,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Explore the depths for ancient relics."
 			tasks: [
 				{
 					advancement: "dungeons_enhanced:sunken_deeps"
@@ -346,10 +366,12 @@
 					type: "structure"
 				}
 			]
+			title: "Elder's Temple"
 			x: 6.5d
 			y: 8.5d
 		}
 		{
+			description: ["Deep within the earth, these mines burn with an eternal heat."]
 			icon: "minecraft:blaze_powder"
 			id: "174122AEDDBE021E"
 			rewards: [
@@ -378,10 +400,12 @@
 					type: "structure"
 				}
 			]
+			title: "Scorched Mines"
 			x: -0.5d
 			y: 4.5d
 		}
 		{
+			description: ["The roar of industrial furnaces echoes through these halls."]
 			id: "6ED59A6312146A9C"
 			rewards: [
 				{
@@ -402,10 +426,12 @@
 				id: "5512C4023307F9A0"
 				type: "advancement"
 			}]
+			title: "Foundry"
 			x: 10.5d
 			y: -2.0d
 		}
 		{
+			description: ["A somber facility once meant for healing, now home to darkness."]
 			icon: "minecraft:splash_potion"
 			id: "6523AEAB5C36B178"
 			rewards: [
@@ -434,10 +460,12 @@
 					type: "structure"
 				}
 			]
+			title: "Plague Asylum"
 			x: 11.5d
 			y: -0.5d
 		}
 		{
+			description: ["A quiet retreat by the water, perfect for a weary angler."]
 			icon: {
 				Count: 1
 				id: "minecraft:fishing_rod"
@@ -472,10 +500,12 @@
 					type: "structure"
 				}
 			]
+			title: "Fishing House"
 			x: 2.5d
 			y: 5.0d
 		}
 		{
+			description: ["A skeletal spire that pierces the sky, teeming with restless spirits."]
 			icon: "minecraft:bone"
 			id: "33D0DE47FEC48EF3"
 			rewards: [
@@ -490,15 +520,18 @@
 					type: "item"
 				}
 			]
+			subtitle: "Discover the Tower of the Undead"
 			tasks: [{
 				id: "2BF5EA3202436871"
 				structure: "dungeons_enhanced:tower_of_the_undead"
 				type: "structure"
 			}]
+			title: "Tower of the Undead"
 			x: -0.5d
 			y: 8.0d
 		}
 		{
+			description: ["Bioluminescent fungi light the way through these subterranean tunnels."]
 			icon: {
 				Count: 1
 				id: "minecraft:iron_pickaxe"
@@ -533,10 +566,12 @@
 					type: "structure"
 				}
 			]
+			title: "Mushroom Mine"
 			x: -3.0d
 			y: 3.0d
 		}
 		{
+			description: ["A fearsome vessel of war, patrolling the open seas."]
 			icon: "betterarcheology:villager_fossil_head"
 			id: "5DD1A32CAD544DCC"
 			rewards: [
@@ -557,10 +592,12 @@
 				structure: "dungeons_arise:illager_galley"
 				type: "structure"
 			}]
+			title: "Illager Galley"
 			x: 9.5d
 			y: 0.5d
 		}
 		{
+			description: ["An sprawling aquatic metropolis, hidden beneath the waves."]
 			icon: "minecraft:prismarine_bricks"
 			id: "674C4F6C629090C7"
 			rewards: [
@@ -589,10 +626,12 @@
 					type: "structure"
 				}
 			]
+			title: "Underwater City"
 			x: 8.0d
 			y: 8.0d
 		}
 		{
+			description: ["A ghost ship that sails the fog, guarding its plundered loot."]
 			icon: "minecraft:wither_skeleton_skull"
 			id: "0E132FABA501393B"
 			rewards: [
@@ -621,10 +660,12 @@
 					type: "structure"
 				}
 			]
+			title: "Pirate Ship"
 			x: 9.5d
 			y: 3.5d
 		}
 		{
+			description: ["A holy place claimed by the tides, now a sanctuary for the deep."]
 			icon: "dawnoftimebuilder:stone_bricks_water_jet"
 			id: "7DE3544787B49D46"
 			rewards: [
@@ -639,15 +680,18 @@
 					type: "item"
 				}
 			]
+			subtitle: "Discover the Sunken Shrine"
 			tasks: [{
 				id: "2D97C1F184969D8E"
 				structure: "dungeons_enhanced:sunken_shrine"
 				type: "structure"
 			}]
+			title: "Sunken Shrine"
 			x: 9.5d
 			y: 7.0d
 		}
 		{
+			description: ["A frozen abyss where the cold bite is as deadly as the inhabitants."]
 			icon: "minecraft:bone"
 			id: "11B012F060DFF2F3"
 			rewards: [
@@ -676,10 +720,12 @@
 					type: "structure"
 				}
 			]
+			title: "Ice Pit"
 			x: 12.0d
 			y: 7.5d
 		}
 		{
+			description: ["A grand fortification standing as a testament to a bygone kingdom."]
 			icon: "minecraft:stone_bricks"
 			id: "5CBB111DF657D689"
 			rewards: [
@@ -708,10 +754,12 @@
 					type: "structure"
 				}
 			]
+			title: "Castle"
 			x: -1.0d
 			y: 3.0d
 		}
 		{
+			description: ["Sand-swept ruins filled with ancient traps and hidden wealth."]
 			icon: "minecraft:tnt"
 			id: "059C3889FEEB8688"
 			rewards: [
@@ -740,10 +788,12 @@
 					type: "structure"
 				}
 			]
+			title: "Desert Temple"
 			x: 11.5d
 			y: 8.5d
 		}
 		{
+			description: ["A labyrinth of terror where every turn could be your last."]
 			icon: "minecraft:jack_o_lantern"
 			id: "7D9B765A3367AA22"
 			rewards: [
@@ -772,10 +822,12 @@
 					type: "structure"
 				}
 			]
+			title: "Monster Maze"
 			x: -1.0d
 			y: 2.0d
 		}
 		{
+			description: ["A whimsical dwelling sprouted from the forest floor."]
 			icon: "minecraft:red_mushroom"
 			id: "6295F936F893D27B"
 			rewards: [
@@ -804,10 +856,12 @@
 					type: "structure"
 				}
 			]
+			title: "Mushroom House"
 			x: 6.0d
 			y: 6.5d
 		}
 		{
+			description: ["A vine-wrapped structure built by a long-lost civilization."]
 			icon: "minecraft:bamboo"
 			id: "39C49F2F329A1CC3"
 			rewards: [
@@ -836,10 +890,12 @@
 					type: "structure"
 				}
 			]
+			title: "Jungle Monument"
 			x: 3.0d
 			y: 8.0d
 		}
 		{
+			description: ["A massive complex filled with danger, but also great rewards."]
 			icon: "minecraft:skeleton_skull"
 			id: "58E0DDDAEB7E6186"
 			rewards: [
@@ -868,10 +924,12 @@
 					type: "structure"
 				}
 			]
+			title: "Large Dungeon"
 			x: 1.5d
 			y: 3.5d
 		}
 		{
+			description: ["A dark fortress in the Nether, where secrets are meant to stay buried."]
 			icon: {
 				Count: 1
 				id: "minecraft:gilded_blackstone"
@@ -906,10 +964,12 @@
 					type: "structure"
 				}
 			]
+			title: "Forbidden Castle"
 			x: 4.5d
 			y: -4.5d
 		}
 		{
+			description: ["A rare and dangerous bloom that thrives where nothing else can survive."]
 			icon: "bosses_of_mass_destruction:void_lily"
 			id: "18F22679FA467A3B"
 			rewards: [
@@ -926,15 +986,18 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "Confront the floral terror of the void."
 			tasks: [{
 				id: "1E8E328DFAEC8505"
 				structure: "bosses_of_mass_destruction:void_blossom"
 				type: "structure"
 			}]
+			title: "Void Blossom"
 			x: -2.75d
 			y: 5.0d
 		}
 		{
+			description: ["Life finds a way even in the most humid and treacherous wetlands."]
 			icon: "minecraft:mud"
 			id: "60A36721F16C9A19"
 			rewards: [
@@ -949,15 +1012,18 @@
 					type: "item"
 				}
 			]
+			subtitle: "Find a community hidden in the murky depths."
 			tasks: [{
 				id: "70EFE1FD260432B5"
 				structure: "nova_structures:village_swamp"
 				type: "structure"
 			}]
+			title: "Village Swamp"
 			x: 8.0d
 			y: -4.0d
 		}
 		{
+			description: ["A cold, calculating defense built by those who have long since lost their warmth."]
 			icon: {
 				Count: 1
 				id: "minecraft:bow"
@@ -983,15 +1049,18 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "Infiltrate the frozen bastion of the Strays."
 			tasks: [{
 				id: "213351A7D3A0BB10"
 				structure: "nova_structures:stray_fort"
 				type: "structure"
 			}]
+			title: "Stray Fort"
 			x: -2.5d
 			y: -1.0d
 		}
 		{
+			description: ["A place of unholy worship hidden amidst the quartz flats."]
 			icon: {
 				Count: 1
 				id: "minecraft:quartz_block"
@@ -1026,10 +1095,12 @@
 					type: "structure"
 				}
 			]
+			title: "Illager Sanctum"
 			x: 6.5d
 			y: -4.5d
 		}
 		{
+			description: ["Volatile energy contained within a toxic environment."]
 			icon: {
 				Count: 1
 				id: "minecraft:slime_block"
@@ -1064,10 +1135,12 @@
 					type: "structure"
 				}
 			]
+			title: "Nether Reactor"
 			x: 5.5d
 			y: -4.5d
 		}
 		{
+			description: ["The air is thick with the scent of old stone and lingering spirits."]
 			icon: "minecraft:amethyst_cluster"
 			id: "6D6187CF453B4B2E"
 			rewards: [
@@ -1082,6 +1155,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Delve into the silent halls of the dead."
 			tasks: [
 				{
 					advancement: "graveyard:graveyard/crypt"
@@ -1095,10 +1169,12 @@
 					type: "structure"
 				}
 			]
+			title: "Crypt"
 			x: 11.5d
 			y: -4.0d
 		}
 		{
+			description: ["Luxury and dark magic go hand in hand in this secluded estate."]
 			icon: "ars_nouveau:potion_melder"
 			id: "360A14ED6EBA64D4"
 			rewards: [{
@@ -1108,15 +1184,18 @@
 			}]
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "Discover the opulent home of a powerful witch."
 			tasks: [{
 				id: "0EF2D4FC963B2B28"
 				structure: "nova_structures:witch_villa"
 				type: "structure"
 			}]
+			title: "Witch Villa"
 			x: 5.5d
 			y: -6.5d
 		}
 		{
+			description: ["A place of rest for some, and a place of plotting for others."]
 			id: "0E6B88147B9F1896"
 			rewards: [
 				{
@@ -1138,10 +1217,12 @@
 				id: "0C503EE052BEDA8B"
 				type: "advancement"
 			}]
+			title: "Tavern"
 			x: 2.5d
 			y: -1.0d
 		}
 		{
+			description: ["A fortified prison holding secrets that were meant to be forgotten."]
 			icon: "minecraft:deepslate_bricks"
 			id: "4BCA960017B0992C"
 			rewards: [
@@ -1170,10 +1251,12 @@
 					type: "structure"
 				}
 			]
+			title: "Bastille"
 			x: 1.5d
 			y: 7.0d
 		}
 		{
+			description: ["Tents and watchtowers mark the territory of these relentless raiders."]
 			icon: "minecraft:dark_oak_log"
 			id: "6848C93746CC1FC0"
 			rewards: [
@@ -1202,10 +1285,12 @@
 					type: "structure"
 				}
 			]
+			title: "Pillager Camp"
 			x: 0.5d
 			y: 6.0d
 		}
 		{
+			description: ["Many have entered looking for treasure; none have left the embrace of the ice."]
 			icon: "ars_nouveau:frostaya_pod"
 			id: "1F384765FE3167DB"
 			rewards: [
@@ -1227,15 +1312,18 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "Thaw the secrets of the frozen dungeon."
 			tasks: [{
 				id: "5161C2A6B13D15EC"
 				structure: "cataclysm:frosted_prison"
 				type: "structure"
 			}]
+			title: "Frosted Prison"
 			x: 5.5d
 			y: 10.5d
 		}
 		{
+			description: ["Gravity is merely a suggestion in the home of the Shulkers."]
 			icon: "minecraft:purpur_block"
 			id: "3B822759AA2551D5"
 			rewards: [
@@ -1250,6 +1338,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Scale the towers of the outer islands."
 			tasks: [
 				{
 					advancement: "minecraft:end/find_end_city"
@@ -1263,10 +1352,12 @@
 					type: "structure"
 				}
 			]
+			title: "End City"
 			x: -1.0d
 			y: 7.0d
 		}
 		{
+			description: ["A place where death is not the end, but a beginning of servitude."]
 			icon: "graveyard:corruption"
 			id: "6E0F6DFA958172F8"
 			rewards: [
@@ -1283,15 +1374,18 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "Face the eternal warden."
 			tasks: [{
 				id: "08364C8420445356"
 				structure: "graveyard:lich_prison"
 				type: "structure"
 			}]
+			title: "Lich Prison"
 			x: 13.5d
 			y: -0.75d
 		}
 		{
+			description: ["The ocean hides many things, including entire cities swallowed by the tide."]
 			icon: "minecraft:heart_of_the_sea"
 			id: "6D7846F53919A4D9"
 			invisible: true
@@ -1310,15 +1404,18 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "Discover the ruins of a lost civilization."
 			tasks: [{
 				id: "2695AD0BE3085440"
 				structure: "cataclysm:sunken_city"
 				type: "structure"
 			}]
+			title: "Sunken City"
 			x: 13.5d
 			y: 5.25d
 		}
 		{
+			description: ["The barrels are full, but you might not like what's on tap."]
 			icon: "minecraft:barrel"
 			id: "1A19338C58738423"
 			rewards: [
@@ -1333,6 +1430,7 @@
 					xp_levels: 1
 				}
 			]
+			subtitle: "A cozy spot in the woods... maybe too cozy."
 			tasks: [
 				{
 					advancement: "dungeons_arise:find_greenwood_pub"
@@ -1346,10 +1444,12 @@
 					type: "structure"
 				}
 			]
+			title: "Greenwood Pub"
 			x: 12.0d
 			y: 3.0d
 		}
 		{
+			description: ["A sprout of unnatural proportions in an equally unnatural land."]
 			icon: "minecraft:red_mushroom"
 			id: "4855DE6C38E2BB1A"
 			rewards: [
@@ -1364,6 +1464,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Find the fungal monolith."
 			tasks: [
 				{
 					advancement: "graveyard:graveyard/giant_mushroom"
@@ -1377,10 +1478,12 @@
 					type: "structure"
 				}
 			]
+			title: "Giant Mushroom"
 			x: 10.5d
 			y: -4.5d
 		}
 		{
+			description: ["The floorboards creak even when you're standing still."]
 			icon: "minecraft:cobweb"
 			id: "26132E58E0F26C12"
 			rewards: [
@@ -1395,6 +1498,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Enter at your own risk."
 			tasks: [
 				{
 					advancement: "graveyard:graveyard/haunted_house"
@@ -1408,10 +1512,12 @@
 					type: "structure"
 				}
 			]
+			title: "Haunted House"
 			x: 12.0d
 			y: -3.0d
 		}
 		{
+			description: ["Home to creatures that never touch the ground."]
 			icon: "minecraft:phantom_membrane"
 			id: "3BBC3ADD6990D183"
 			rewards: [
@@ -1440,10 +1546,12 @@
 					type: "structure"
 				}
 			]
+			title: "Aviary"
 			x: 10.5d
 			y: 6.0d
 		}
 		{
+			description: ["A military staging ground for the next big raid."]
 			id: "176367F84C9DC00A"
 			rewards: [
 				{
@@ -1464,10 +1572,12 @@
 				id: "0EB063DCDF538475"
 				type: "advancement"
 			}]
+			title: "Illager Fort"
 			x: 3.0d
 			y: -4.0d
 		}
 		{
+			description: ["Stained with the history of many lost souls."]
 			icon: {
 				Count: 1
 				id: "graveyard:bone_dagger"
@@ -1493,15 +1603,18 @@
 					xp: 200
 				}
 			]
+			subtitle: "A place of dark sacrifice."
 			tasks: [{
 				id: "43CD3385872CBFC2"
 				structure: "graveyard:altar"
 				type: "structure"
 			}]
+			title: "Altar"
 			x: 9.5d
 			y: -3.0d
 		}
 		{
+			description: ["The sheer number of graves here suggests a tragedy of epic proportions."]
 			icon: {
 				Count: 1
 				id: "tombstone:decorative_tombstone"
@@ -1522,15 +1635,18 @@
 					xp: 200
 				}
 			]
+			subtitle: "Vast fields of the fallen."
 			tasks: [{
 				id: "5C33C474705A36E5"
 				structure: "graveyard:large_graveyard"
 				type: "structure"
 			}]
+			title: "Large Graveyard"
 			x: 5.5d
 			y: 8.5d
 		}
 		{
+			description: ["Once a home of prestige, now a hollow shell of memories."]
 			icon: "dawnoftimebuilder:candlestick"
 			id: "3A1250C40DD39D2C"
 			rewards: [
@@ -1545,15 +1661,18 @@
 					xp: 200
 				}
 			]
+			subtitle: "Explore the decaying elegance of the past."
 			tasks: [{
 				id: "1414D1DD36835107"
 				structure: "structory:old_manor"
 				type: "structure"
 			}]
+			title: "Old Manor"
 			x: 1.5d
 			y: -3.0d
 		}
 		{
+			description: ["A massive stone fortress that has weathered countless sieges."]
 			icon: "valhelsia_structures:brazier"
 			id: "46C8E8E422AC314B"
 			rewards: [
@@ -1568,15 +1687,18 @@
 					xp: 200
 				}
 			]
+			subtitle: "Claim your right to the throne."
 			tasks: [{
 				id: "75FE601BBBF4E13B"
 				structure: "valhelsia_structures:castle"
 				type: "structure"
 			}]
+			title: "Castle"
 			x: 7.0d
 			y: 6.0d
 		}
 		{
+			description: ["What was once a seat of power is now reclaimed by the earth."]
 			icon: "valhelsia_structures:glazed_jar"
 			id: "0BE8761868D52D27"
 			rewards: [
@@ -1591,15 +1713,18 @@
 					xp: 200
 				}
 			]
+			subtitle: "Scavenge the remains of a fallen kingdom."
 			tasks: [{
 				id: "62291874D657544C"
 				structure: "valhelsia_structures:castle_ruin"
 				type: "structure"
 			}]
+			title: "Castle Ruin"
 			x: 4.0d
 			y: 6.0d
 		}
 		{
+			description: ["The Pillagers have set up a vantage point in the swamp to monitor travel."]
 			icon: "naturesaura:outpost_finder"
 			id: "2EF0FC7D4F346812"
 			rewards: [
@@ -1614,15 +1739,18 @@
 					xp: 200
 				}
 			]
+			subtitle: "Watch your step in the marsh."
 			tasks: [{
 				id: "6AA3DD6C9C63F0D2"
 				structure: "towns_and_towers:pillager_outpost_swamp"
 				type: "structure"
 			}]
+			title: "Pillager Outpost Swamp"
 			x: 1.5d
 			y: 0.5d
 		}
 		{
+			description: ["Towers like these once served as nodes for a worldwide magical network."]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -1643,15 +1771,18 @@
 					xp: 200
 				}
 			]
+			subtitle: "A beacon of arcane energy."
 			tasks: [{
 				id: "3AD248DFA5DDB118"
 				structure: "ars_additions:nexus_tower"
 				type: "structure"
 			}]
+			title: "Nexus Tower"
 			x: 0.5d
 			y: 8.5d
 		}
 		{
+			description: ["Whatever stayed here left in a hurry."]
 			icon: "minecraft:campfire"
 			id: "4CAEBC46230FD278"
 			rewards: [
@@ -1666,15 +1797,18 @@
 					xp: 200
 				}
 			]
+			subtitle: "The fire has long since gone out."
 			tasks: [{
 				id: "52801D63828D643A"
 				structure: "structory:abandoned_camp"
 				type: "structure"
 			}]
+			title: "Abandoned Camp"
 			x: 8.5d
 			y: -1.0d
 		}
 		{
+			description: ["A small sanctuary left to the elements."]
 			icon: {
 				Count: 1
 				id: "tombstone:ankh_of_prayer"
@@ -1695,15 +1829,18 @@
 					xp: 200
 				}
 			]
+			subtitle: "Prayers echo in an empty room."
 			tasks: [{
 				id: "2F42E940A2A2D219"
 				structure: "structory:abandoned_chapel"
 				type: "structure"
 			}]
+			title: "Abandoned Chapel"
 			x: -1.0d
 			y: 1.0d
 		}
 		{
+			description: ["A structure built to harness the sun's power."]
 			icon: "betterarcheology:growth_totem"
 			id: "1D08C4299AEA99E7"
 			rewards: [
@@ -1718,15 +1855,18 @@
 					xp: 200
 				}
 			]
+			subtitle: "Seek the radiance within."
 			tasks: [{
 				id: "60E62954821EBF5C"
 				structure: "betterarcheology:light_temple"
 				type: "structure"
 			}]
+			title: "Light Temple"
 			x: 1.0d
 			y: 1.5d
 		}
 		{
+			description: ["A compact but dangerous tomb where the deceased don't stay down."]
 			icon: "minecraft:skeleton_skull"
 			id: "51EDFDBB75BC0B6F"
 			rewards: [
@@ -1741,15 +1881,18 @@
 					xp: 200
 				}
 			]
+			subtitle: "The restless dead reside here."
 			tasks: [{
 				id: "0B09379E0E21742F"
 				structure: "nova_structures:undead_crypt"
 				type: "structure"
 			}]
+			title: "Undead Crypt"
 			x: 10.5d
 			y: 9.0d
 		}
 		{
+			description: ["The scent of musk and old bones fills the air."]
 			icon: "ars_nouveau:wilden_wing"
 			id: "02CBACBB423DE321"
 			rewards: [
@@ -1764,6 +1907,7 @@
 					xp: 200
 				}
 			]
+			subtitle: "Enter the lair of the Wilden."
 			tasks: [
 				{
 					id: "21F61426E5618A42"
@@ -1781,10 +1925,12 @@
 					type: "structure"
 				}
 			]
+			title: "Wilden Den"
 			x: 12.0d
 			y: 1.0d
 		}
 		{
+			description: ["Huge spruce trees tower over these hardy villagers' homes."]
 			icon: "minecraft:spruce_sapling"
 			id: "13190FEB61AF4C9D"
 			rewards: [
@@ -1799,15 +1945,18 @@
 					xp: 200
 				}
 			]
+			subtitle: "A village beneath the giants."
 			tasks: [{
 				id: "47443356EF453D46"
 				structure: "towns_and_towers:village_old_growth_taiga"
 				type: "structure"
 			}]
+			title: "Village Old Growth Taiga"
 			x: 12.0d
 			y: 2.0d
 		}
 		{
+			description: ["This witch preferred a view from above."]
 			icon: "minecraft:cauldron"
 			id: "6A3FEAE6AC5EBAD8"
 			rewards: [
@@ -1822,15 +1971,18 @@
 					xp: 200
 				}
 			]
+			subtitle: "Keep your eyes on the skies."
 			tasks: [{
 				id: "5D8295CA72D061F2"
 				structure: "dungeons_enhanced:tall_witch_hut"
 				type: "structure"
 			}]
+			title: "Tall Witch Hut"
 			x: 11.5d
 			y: 4.5d
 		}
 		{
+			description: ["A spire dedicated to the darker side of alchemy."]
 			icon: "l2hostility:poison"
 			id: "1BA7188D466B948F"
 			rewards: [
@@ -1845,15 +1997,18 @@
 					xp: 200
 				}
 			]
+			subtitle: "Arcane brewings from on high."
 			tasks: [{
 				id: "5A13F58B759559A9"
 				structure: "dungeons_enhanced:witch_tower"
 				type: "structure"
 			}]
+			title: "Witch Tower"
 			x: 0.5d
 			y: -2.0d
 		}
 		{
+			description: ["A small, humble hut for a not-so-humble magic user."]
 			icon: "simplehats:zigzagwitchhat"
 			id: "72F8D2F544992C2E"
 			rewards: [
@@ -1868,15 +2023,18 @@
 					xp: 200
 				}
 			]
+			subtitle: "Classic charms and hexes."
 			tasks: [{
 				id: "2A2E24E2C6295B0D"
 				structure: "valhelsia_structures:witch_hut"
 				type: "structure"
 			}]
+			title: "Witch Hut"
 			x: -0.5d
 			y: -0.5d
 		}
 		{
+			description: ["A village that lives and dies by the waves."]
 			icon: "minecraft:emerald"
 			id: "75F029B974C556D2"
 			rewards: [
@@ -1891,15 +2049,18 @@
 					xp: 200
 				}
 			]
+			subtitle: "Sea-salt and trade."
 			tasks: [{
 				id: "76445C8D48F5838D"
 				structure: "joshie:village_ocean"
 				type: "structure"
 			}]
+			title: "Village Ocean"
 			x: -1.0d
 			y: -3.0d
 		}
 		{
+			description: ["Deep underground, the portal awaits its eyes."]
 			icon: "minecraft:ender_eye"
 			id: "466CDFA8CD24FA15"
 			rewards: [
@@ -1914,15 +2075,18 @@
 					xp: 200
 				}
 			]
+			subtitle: "The gateway to the end."
 			tasks: [{
 				id: "06F222F468C893F0"
 				structure: "minecraft:stronghold"
 				type: "structure"
 			}]
+			title: "Stronghold"
 			x: 6.0d
 			y: -2.5d
 		}
 		{
+			description: ["A fortified shelter designed to withstand any disaster."]
 			icon: "minecraft:light_gray_concrete"
 			id: "1A7BB82B3F8597A4"
 			rewards: [
@@ -1937,15 +2101,18 @@
 					xp: 200
 				}
 			]
+			subtitle: "Prepare for the worst."
 			tasks: [{
 				id: "688D386A3E81DFF7"
 				structure: "nova_structures:bunker"
 				type: "structure"
 			}]
+			title: "Bunker"
 			x: -0.5d
 			y: -4.0d
 		}
 		{
+			description: ["A burial site for those who worship the green blast."]
 			icon: "betterarcheology:creeper_fossil_head"
 			id: "14E7885D8FDDF3AB"
 			rewards: [
@@ -1960,15 +2127,18 @@
 					xp: 200
 				}
 			]
+			subtitle: "Watch for explosions."
 			tasks: [{
 				id: "3E4CD256DF84933A"
 				structure: "nova_structures:creeping_crypt"
 				type: "structure"
 			}]
+			title: "Creeping Crypt"
 			x: 0.5d
 			y: -4.5d
 		}
 		{
+			description: ["An entire community thriving in the caves away from the sun."]
 			icon: "minecraft:emerald"
 			id: "382FD79EE64EA346"
 			rewards: [
@@ -1983,15 +2153,18 @@
 					xp: 200
 				}
 			]
+			subtitle: "Life below the surface."
 			tasks: [{
 				id: "3DD9F37DC9E89AD1"
 				structure: "stoneholm:underground_village"
 				type: "structure"
 			}]
+			title: "Underground Village"
 			x: 14.0d
 			y: 1.0d
 		}
 		{
+			description: ["Where legendary tools and weapons are hammered into existence."]
 			icon: "minecraft:anvil"
 			id: "4BB88702F6B2C5F9"
 			rewards: [
@@ -2006,15 +2179,18 @@
 					xp: 200
 				}
 			]
+			subtitle: "The heat of industry."
 			tasks: [{
 				id: "7DB858B9AF3B40BD"
 				structure: "valhelsia_structures:forge"
 				type: "structure"
 			}]
+			title: "Forge"
 			x: 1.0d
 			y: 2.5d
 		}
 		{
+			description: ["Break the cage or face the consequences."]
 			icon: "minecraft:spawner"
 			id: "2D9D7A681A4D6F78"
 			rewards: [
@@ -2029,11 +2205,13 @@
 					xp: 200
 				}
 			]
+			subtitle: "The source of the swarm."
 			tasks: [{
 				id: "3DEFFA675030272C"
 				structure: "valhelsia_structures:spawner_dungeon"
 				type: "structure"
 			}]
+			title: "Spawner Dungeon"
 			x: 4.0d
 			y: -2.0d
 		}
