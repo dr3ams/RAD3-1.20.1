@@ -1,0 +1,22 @@
+{
+  "target": "guardvillagers:guard",
+  "properties": [
+    {
+      "property": "presets",
+      "presets": [
+        {
+          "preset": "rad3-mobs:guard_melee",
+          "weight": 4
+        },
+		{
+          "preset": "rad3-mobs:guard_ranged",
+          "weight": 2
+        },
+        {
+          "preset": "rad3-mobs:guard_mage",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

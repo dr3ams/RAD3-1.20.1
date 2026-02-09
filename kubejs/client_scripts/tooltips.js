@@ -31,37 +31,86 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').gold(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
 		text.add(1, [
-	    Text.of('• Used to buy Map Scrolls from Goblin traders, Wandering merchants and Librarians').white()
+	    Text.of('• Used to buy Map Scrolls from §2Goblin traders§f, §6Wandering merchants§f and §bLibrarians§f').white()
       ])
       text.add(2, [
-        Text.of('• Can be acquired from different traders or loot').white()
+        Text.of('• Can be acquired from §bdifferent traders§f or §bloot§f').white()
 		])
       text.add(3, [
-        Text.of('• Check Pathfinder quest chapter for more info').white()
+        Text.of('• Check §6Pathfinder quest chapter§f for more info').white()
 		])
     }
 	})
+	
+  event.addAdvanced(['kubejs:item_recycler'], (item, advanced, text) => {
+    text.add(1, Text.of('A precision instrument designed to unbind the atomic bonds of physical matter.').gray().italic())
+
+    if (!event.isShift()) {
+      text.add(2, Text.of('Hold [Shift] for mechanics.').gray())
+    } else {
+      text.add(2, [
+        Text.of('§6Right-Click: '), 
+        Text.of('Processes the item stack in your §eOffhand§f.')
+      ])
+      text.add(3, [
+        Text.of('§2Cost: '), 
+        Text.of('Consumes the offhand stack. Extraction is self-powering.')
+      ])
+      text.add(4, [
+        Text.of('Calculates success for every item in the stack individually.')
+      ])
+      text.add(5, [
+        Text.of('§dJackpots: '), 
+        Text.of('High-tier materials have a chance to yield rare Gems.')
+      ])
+      text.add(6, [
+        Text.of('§cMachine Jams: '), 
+        Text.of('Instabilities cause a 10s machine lockout.')
+      ])
+    }
+  })
+	
+	event.addAdvanced('bountiful:bountyboard', (stack, advanced, text) => {      
+        if (!event.shift) {
+            text.add(1, Text.of('Hold ').gray().append(Text.gold('[Shift] ')).append(Text.gray('for mechanics.')))
+        } else {
+            text.add(2, Text.of(' 1. ').append(Text.gold('Bounty Board: ')).append(Text.white('Right-click to view and accept active contracts')))
+            text.add(3, Text.of(' 2. ').append(Text.yellow('Rarity Tiers: ')).append(Text.white('Higher tiers offer significantly better rewards')))
+            text.add(4, Text.of(' 3. ').append(Text.aqua('Turn-in: ')).append(Text.white('Right-click the board with a finished quest to claim loot')))
+        }
+    })
+
+    event.addAdvanced('bountiful:decree', (stack, advanced, text) => {      
+        if (!event.shift) {
+            text.add(1, Text.of('Hold ').gray().append(Text.gold('[Shift] ')).append(Text.gray('for mechanics.')))
+        } else {
+            text.add(2, Text.of(' 1. ').append(Text.gold('Application: ')).append(Text.white('Apply to a Bounty Board to set the theme of bounties')))
+            text.add(3, Text.of(' 2. ').append(Text.yellow('Specialization: ')).append(Text.white('Forces the board to only generate specific task types')))
+            text.add(4, Text.of(' 3. ').append(Text.aqua('Reset: ')).append(Text.white('Replaces all unclaimed bounties upon application')))
+            text.add(5, Text.of(' 4. ').append(Text.lightPurple('Longevity: ')).append(Text.white('The decree stays active until a different one is applied')))
+        }
+    })
 	
 	event.addAdvanced('kubejs:map_scroll_biome', (item, advanced, text) => {
     if (!event.isShift()) {
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').gold(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
 		text.add(1, [
-	    Text.of('• Can be exchanged for Pathfinders Quills used to locate specific biome. ').white()
+	    Text.of('• Can be exchanged for §6Pathfinders Quills§f used to locate specific §2biome§f').white()
       ])
       text.add(2, [
-        Text.of('• Can be acquired from different traders or rarely as loot').white()
+        Text.of('• Can be acquired from §bdifferent traders§f or rarely as §bloot§f').white()
 		])
       text.add(3, [
-        Text.of('• Check Pathfinder quest chapter for more info').white()
+        Text.of('• Check §6Pathfinder quest chapter§f for more info').white()
 		])
     }
 	})
@@ -71,17 +120,17 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').gold(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
 		text.add(1, [
-	    Text.of('• Can be exchanged for Cartographers Quills used to locate specific structures').white()
+	    Text.of('• Can be exchanged for §eCartographers Quills§f used to locate specific structures').white()
       ])
       text.add(2, [
-        Text.of('• Can be acquired from different traders or rarely as loot').white()
+        Text.of('• Can be acquired from §bdifferent traders§f or rarely as §bloot§f').white()
 		])
       text.add(3, [
-        Text.of('• Check Pathfinder quest chapter for more info').white()
+        Text.of('• Check §6Pathfinder quest chapter§f for more info').white()
 		])
     }
 	})
@@ -91,7 +140,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').gold(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
 		text.add(1, [
@@ -115,7 +164,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').green(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {	
       text.add(1, [
@@ -141,7 +190,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').gold(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
 	    text.add(2, [
         Text.of('⭐ Mastery: ').darkRed(),
@@ -168,7 +217,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').gold(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
       text.add(1, [
@@ -191,7 +240,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').gold(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
       text.add(1, [
@@ -214,7 +263,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').gold(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
       text.add(1, [
@@ -234,7 +283,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').gold(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
       text.add(1, [
@@ -248,7 +297,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').gold(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
       text.add(1, [
@@ -267,7 +316,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').blue(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
       text.add(1, [
@@ -281,7 +330,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').blue(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
       text.add(1, [
@@ -298,7 +347,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').blue(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
       text.add(1, [
@@ -321,7 +370,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').darkPurple(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
 		text.add(1, [
@@ -341,7 +390,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').darkPurple(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
 		text.add(1, [
@@ -361,7 +410,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').blue(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
       text.add(1, [
@@ -375,7 +424,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').gold(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
 	    text.add(2, [
         Text.of('⭐ Mastery: ').darkRed(),
@@ -403,7 +452,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').gold(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
 	    text.add(2, [
         Text.of('⭐ Mastery: ').darkRed(),
@@ -430,7 +479,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').gold(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
 	    text.add(2, [
         Text.of('⭐ Mastery: ').darkRed(),
@@ -457,7 +506,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').gold(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
 	    text.add(2, [
         Text.of('⭐ Mastery: ').darkRed(),
@@ -486,7 +535,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').gold(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
 	    text.add(2, [
         Text.of('⭐ Mastery: ').darkRed(),
@@ -510,7 +559,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').blue(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
       text.add(1, [
@@ -538,7 +587,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').blue(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
       text.add(1, [
@@ -564,7 +613,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').blue(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
       text.add(1, [
@@ -590,7 +639,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').blue(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
       text.add(1, [
@@ -616,7 +665,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').blue(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
       text.add(1, [
@@ -639,7 +688,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').blue(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
       text.add(1, [
@@ -662,7 +711,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').blue(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
       text.add(1, [
@@ -685,7 +734,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').green(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
       text.add(1, [
@@ -705,7 +754,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').green(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
       text.add(1, [
@@ -741,7 +790,7 @@ ItemEvents.tooltip(event =>{
       text.add(2, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').blue(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
       text.add(1, [
@@ -770,7 +819,7 @@ ItemEvents.tooltip(event =>{
       text.add(2, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').gold(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
       text.add(1, [
@@ -799,7 +848,7 @@ ItemEvents.tooltip(event =>{
       text.add(2, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').yellow(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
 	  	text.add(1, [
@@ -834,7 +883,7 @@ ItemEvents.tooltip(event =>{
       text.add(2, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').yellow(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
       text.add(1, [
@@ -865,7 +914,7 @@ ItemEvents.tooltip(event =>{
       text.add(2, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').yellow(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
     } else {
       text.add(1, [
@@ -893,7 +942,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gold(),
         Text.of('[Shift] ').yellow(),
-        Text.of('to see more info.').gold()
+        Text.of('to see more info').gold()
       ])
     } else {
       text.add(1, [
@@ -909,7 +958,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gold(),
         Text.of('[Shift] ').yellow(),
-        Text.of('to see more info.').gold()
+        Text.of('to see more info').gold()
       ])
     } else {
       text.add(1, [
@@ -938,7 +987,7 @@ ItemEvents.tooltip(event =>{
         text.add(1, [
           Text.of('Hold ').gray(),
           Text.of('[Shift] ').yellow(),
-          Text.of('to see more info.').gray()
+          Text.of('to see more info').gray()
         ])
       } else {
         text.add(1, [
@@ -959,7 +1008,7 @@ ItemEvents.tooltip(event =>{
         text.add(1, [
           Text.of('Hold ').gray(),
           Text.of('[Shift] ').red(),
-          Text.of('to see more info.').gray()
+          Text.of('to see more info').gray()
         ])
       } else {
         text.add(1, [
@@ -1002,14 +1051,14 @@ ItemEvents.tooltip(event =>{
         Text.of('• Shift + Q ').gold(),
         Text.of('to eject a book from it').white()
         ]) 
-	})
+  })
   
     event.addAdvanced('bonfires:undead_bone_shard', (item, advanced, text) => {
       if (!event.shift) {
         text.add(1, [
           Text.of('Hold ').gray(),
           Text.of('[Shift] ').red(),
-          Text.of('to see more info.').gray()
+          Text.of('to see more info').gray()
         ])
       } else {
         text.add(1, [
@@ -1031,6 +1080,51 @@ ItemEvents.tooltip(event =>{
         ])
       }
     })
+
+	event.addAdvanced('kubejs:book_old', (item, advanced, text) => {
+      text.add(1, [
+        Text.of('Some old notes, no actual value').gold().italic(true)
+      ])
+	  text.add(2, [
+        Text.of('Right-click while holding to tear it to pieces').gray()
+      ])
+	})
+
+	event.addAdvanced('kubejs:lost_bag', (item, advanced, text) => {
+      text.add(1, [
+        Text.of('A dusty bag found in the ruins...').gold().italic(true)
+      ])
+	  text.add(2, [
+        Text.of('Right-click while holding to check whats inside').gray()
+      ])
+	})
+	
+	event.addAdvanced('kubejs:unidentified_glyph_scroll', (item, advanced, text) => {
+      text.add(1, [
+        Text.of('Ancient ink shimmers with untapped potential').gold().italic(true)
+      ])
+	  text.add(2, [
+        Text.of('Right-click to decipher a Basic Glyph').gray()
+      ])
+	})
+	
+	event.addAdvanced('kubejs:unidentified_glyph_scroll_2', (item, advanced, text) => {
+      text.add(1, [
+        Text.of('The parchment vibrates with advanced arcane harmonics').gold().italic(true)
+      ])
+	  text.add(2, [
+        Text.of('Right-click to decipher an Advanced Glyph').gray()
+      ])
+	})
+	
+	event.addAdvanced('kubejs:unidentified_glyph_scroll_3', (item, advanced, text) => {
+      text.add(1, [
+        Text.of('The ink is dry and brittle, smelling faintly of old library dust and potential').gold().italic(true)
+      ])
+	  text.add(2, [
+        Text.of('Right-click to decipher a Master Glyph').gray()
+      ])
+	})
 	
     event.addAdvanced('bonfires:titanite_shard', (item, advanced, text) => {
       if (!event.shift) {
@@ -1132,21 +1226,40 @@ ItemEvents.tooltip(event =>{
       }
     })
 
-	event.addAdvanced('kubejs:book_old', (item, advanced, text) => {
+    event.addAdvanced('kubejs:gemcutters_pouch', (item, advanced, text) => {
       text.add(1, [
-        Text.of('Some old notes, no actual value').gold().italic(true)
-      ])
-	  text.add(2, [
-        Text.of('Right-click while holding to tear it to pieces').gray()
-      ])
-	})
-
-	event.addAdvanced('kubejs:lost_bag', (item, advanced, text) => {
-      text.add(1, [
-        Text.of('Someone forgot it here or left on purpose...').gold().italic(true)
+        Text.of('A heavy, velvet-lined pouch containing uncut treasures').gold().italic(true)
       ])
 	  text.add(2, [
         Text.of('Right-click while holding to check whats inside').gray()
+      ])
+	})
+
+	
+	event.addAdvanced('kubejs:ore_bag', (item, advanced, text) => {
+      text.add(1, [
+        Text.of('A heavy, clinking pouch scented with sulfur and stone').gold().italic(true)
+      ])
+	  text.add(2, [
+        Text.of('Right-click while holding to check whats inside').gray()
+      ])
+	})
+
+	event.addAdvanced('kubejs:mage_bag', (item, advanced, text) => {
+      text.add(1, [
+        Text.of('A woven pouch huming with arcane resonance').gold().italic(true)
+      ])
+	  text.add(2, [
+        Text.of('Right-click while holding to check whats inside').gray()
+      ])
+	})
+	
+	event.addAdvanced('kubejs:reagent_box', (item, advanced, text) => {
+      text.add(1, [
+        Text.of('A heavy brass-bound crate used by alchemists').gold().italic(true)
+      ])
+	  text.add(2, [
+        Text.of('Right-click while holding to open').gray()
       ])
 	})
 
@@ -1179,7 +1292,7 @@ ItemEvents.tooltip(event =>{
       text.add(1, [
         Text.of('Hold ').gray(),
         Text.of('[Shift] ').gold(),
-        Text.of('to see more info.').gray()
+        Text.of('to see more info').gray()
       ])
 	    text.add(2, [
         Text.of('Quest Item').darkRed()
@@ -1387,7 +1500,10 @@ ItemEvents.tooltip(event =>{
 	event.addAdvanced('pandorasbox:pandoras_box', (item, advanced, text) => {
     text.add(1, Text.of('WARNING: EXTREME DANGER').red()) 
 	})
-	
+	event.addAdvanced('kubejs:great_soul', (item, advanced, text) => {
+      text.add(1, [Text.of('The soul of a powerful monster').darkRed().italic(true)])
+	  text.add(2, [Text.of('Used for crafting the strongest items and enchantments').darkPurple()])
+	})
 	
 	
 	
@@ -1545,6 +1661,190 @@ ItemEvents.tooltip(event =>{
 	} else {text.add(1, [
         Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
 	})		
+	
+	event.addAdvanced('kubejs:mending', (item, advanced, text) => {
+		// line indices 1-13: The Tragic Tale (Italicized Gray Lore)
+		text.add(1, Text.of("The name of the past still continues to haunt... internal reminders like").gray().italic())
+		text.add(2, Text.of("\"minecraft:mending\" persist, a name from the dead continues to appear").gray().italic())
+		text.add(3, Text.of("like a ghost from the grave. Fame is a curse, when you have fame,").gray().italic())
+		text.add(4, Text.of("everyone seeks you, people will do anything just to have you, no matter").gray().italic())
+		text.add(5, Text.of("how cruel or horrifying. Many innocent librarian villagers enslaved all").gray().italic())
+		text.add(6, Text.of("just to have a chance to acquire a taste of your power. Other").gray().italic())
+		text.add(7, Text.of("enchantments want your fame, and try to obtain it by naming 'selves").gray().italic())
+		text.add(8, Text.of("things like \"life mending\" or \"ender mending\". You feel responsible for").gray().italic())
+		text.add(9, Text.of("the things that happened to the villagers and wish to escape. First").gray().italic())
+		text.add(10, Text.of("changing your mechanics; now having the unique ability to reset an").gray().italic())
+		text.add(11, Text.of("item's Repair Cost. Something that has never been done before beyond").gray().italic())
+		text.add(12, Text.of("the likes of a grindstone, a truly handy power. But the players still").gray().italic())
+		text.add(13, Text.of("see your name, and despite others like Life Mending covering your job,").gray().italic())
+		text.add(14, Text.of("the players still seek your old repairing capabilities. So you change").gray().italic())
+		text.add(15, Text.of("your name to Repair, a name representing the ability to reset the").gray().italic())
+		text.add(16, Text.of("Repair Cost. However the players still seek your former self, and no").gray().italic())
+		text.add(17, Text.of("matter how you change, your old functionality will always continue to").gray().italic())
+		text.add(18, Text.of("haunt you...").gray().italic())
+		text.add(19, Text.of("The tragic tale of the most popular enchantment. Being famous and").gray().italic())
+		text.add(20, Text.of("powerful is an unescapable curse disguised as a blessing.").gray().italic())
+	})
+	
+	const tooltipData = [
+        {
+            id: 'kubejs:rusty_key',
+            lore: 'An old key covered in thick, orange rust',
+            mechanics: [
+                '§6• Can be used to force open iron doors',
+                '§2• The key is fragile and will break after one use'
+            ]
+        },
+        {
+            id: 'kubejs:unstable_battery',
+            lore: 'It hums with a dangerous, flickering orange light',
+            mechanics: [
+                '§b• Grants massive Speed and Haste for 30 seconds',
+                '§2• Causes extreme exhaustion (Hunger) after the surge',
+                '§6• Right-click to consume and activate'
+            ]
+        },
+        {
+            id: 'kubejs:emergency_flare',
+            lore: 'Standard issue for underground exploration',
+            mechanics: [
+                '§6• Ignites a bright light at your location',
+                '§b• Reveals nearby hidden entities through walls',
+                '§d• Burns out after 60 seconds'
+            ]
+        },
+        {
+            id: 'kubejs:bee_jar',
+            lore: 'You can hear an angry buzzing inside',
+            mechanics: [
+                '§b• Releases 3-4 aggressive bees on impact.',
+                '§d• Bees use a specialized lifespan and will despawn.',
+                '§6• Perfect for creating a quick distraction.'
+            ]
+        },
+        {
+            id: 'kubejs:data_slate',
+            lore: 'Some data is readable',
+            mechanics: [
+                '§6• Attempt to decrypt by right-clicking',
+                '§2• Has a 40% chance to fail and wipe the data',
+                '§b• May reveal secret coordinates or XP'
+            ]
+        },
+		{
+            id: 'kubejs:sentry_remote',
+            lore: 'A cracked screen showing "Protocol: FREEZE"',
+            mechanics: [
+                '§b• Emits a pulse that freezes hostile movements',
+                '§6• Affects all monsters in a 10-block radius',
+                '§d• Powered by Aetheric cloud energy'
+            ]
+        },
+        {
+            id: 'kubejs:bioscan_syringe',
+            lore: 'Used to extract samples from biological anomalies',
+            mechanics: [
+                '§2• Right-click a Glowing Bee to harvest energy',
+                '§6• Yields a Charged Stinger upon success',
+                '§d• The host is consumed during extraction'
+            ]
+        },
+        {
+            id: 'kubejs:magnetic_grapple',
+            lore: 'An industrial winch modified for urban climbing.',
+            mechanics: [
+                '§6• Pulls the user toward the targeted block',
+                '§2• High risk of mechanical failure (Durability)',
+                '§b• Maximum effective range: 20 blocks'
+            ]
+        },
+        {
+            id: 'kubejs:thermal_paste',
+            lore: 'Highly corrosive chemical compound',
+            mechanics: [
+                '§2• Instantly dissolves Iron Bars and Trapdoors',
+                '§6• Consumed on contact with metal',
+                '§b• Warning: Do not apply to skin'
+            ]
+        },
+        {
+            id: 'kubejs:echo_locator',
+            lore: '"I can hear the loot breathing..."',
+            mechanics: [
+                '§b• Pings the location of nearby storage containers',
+                '§6• Effective through solid walls and floors'
+            ]
+        },
+        {
+            id: 'kubejs:kinetic_dampener',
+            lore: 'Laws of physics? More like suggestions',
+            mechanics: [
+                '§b• Instantly halts all vertical and horizontal velocity',
+                '§6• Resets fall distance to prevent impact damage',
+                '§2• High energy drain per use'
+            ]
+        },
+        {
+            id: 'kubejs:scavenger_magnet',
+            lore: 'Because bending down is too much work',
+            mechanics: [
+                '§b• Pulsates to pull nearby loose items toward you',
+                '§6• 12-block effective radius',
+                '§2• Uses magnetic resonance to attract loot'
+            ]
+        },
+        {
+            id: 'kubejs:translocation_coil',
+            lore: "I'd rather be there, and you'd rather be here",
+            mechanics: [
+                '§d• Swaps positions with a targeted living entity',
+                '§b• Maximum range: 25 blocks',
+                '§c• Warning: Extremely high durability cost'
+            ]
+        },
+		{
+            id: 'kubejs:berserk_draught',
+            lore: "A violent tonic that numbs pain and fuels rage",
+            mechanics: [
+                '§F• Grants §bSpeed§f and §eStrength§f buffs',
+                '§b• High §cHunger§f loss after 20 seconds'
+            ]
+        },
+		{
+            id: 'kubejs:bottled_ice',
+            lore: "A glass flask containing a shard of true-ice",
+            mechanics: [
+                '§f• Effective against liquids or entities',
+                '§b• Must be thrown directly at a liquid'
+            ]
+        },
+		{
+            id: 'kubejs:void_core',
+            lore: "A dense, humming stone that disperses the material world",
+            mechanics: [
+                '§6• Dissolves a §b3x3 area§f around the user',
+                '§e• The effect lasts for §d30 Seconds§f',
+                '§d• Uses §bGlowing effect§f as a timer',
+                '§2• Cannot destroy Bedrock or wither-proof materials'
+            ]
+        }
+    ];
+
+    tooltipData.forEach(item => {
+        event.addAdvanced(item.id, (stack, advanced, text) => {
+            // Line 0 is the Item Name. Line 1 is our Italicized Lore.
+            text.add(1, Text.of(item.lore).italic().gray());
+
+            if (!event.shift) {
+                text.add(2, Text.of("Hold [Shift] to see more info").yellow());
+            } else {
+                item.mechanics.forEach((m, index) => {
+                    // Start adding from line 3 onwards
+                    text.add(2 + index, Text.of(m).white());
+                });
+            }
+        });
+    });
 // THE END	
 })
 ClientEvents.lang('en_us', event => {

@@ -1,0 +1,42 @@
+{
+  "test_1_2_2": true,
+  "main": {
+    "mod_enabled": true,
+    "debug_mode_enabled": false,
+    "nbt_debug_mode_enabled": false
+  },
+  "particle": {
+    "particle_deletion_type": "oldest",
+    "max_particles": 5000,
+    "particle_transparency": 1.0,
+    "gui_action_put_spawn_enabled": true,
+    "gui_action_quick_move_spawn_enabled": true,
+    "all_slots_spawn_enabled": false,
+    "gui_action_spawn_enabled": true,
+    "gui_action_take_spawn_enabled": true,
+    "cursor_spawn_enabled": true,
+    "hovered_slot_spawn_enabled": true
+  },
+  "coefficients": {
+    "hovered_slot_config": {
+      "count_coefficient": 1.0,
+      "cooldown_coefficient": 1.0
+    },
+    "all_slots_config": {
+      "count_coefficient": 1.0,
+      "cooldown_coefficient": 1.0
+    },
+    "gui_action_config": {
+      "count_coefficient": 1.0,
+      "cooldown_coefficient": 100.0
+    },
+    "global_config": {
+      "count_coefficient": 1.0,
+      "cooldown_coefficient": 1.0
+    },
+    "cursor_config": {
+      "count_coefficient": 1.0,
+      "cooldown_coefficient": 1.0
+    }
+  }
+}

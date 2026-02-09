@@ -107,6 +107,14 @@
 			x: 11.5d
 			y: 1.09d
 		}
+		{
+			height: 2.0d
+			image: "supplementaries:block/cannon_target"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 4.5d
+		}
 	]
 	order_index: 0
 	quest_links: [
@@ -1210,7 +1218,7 @@
 			description: [
 				"The &6Bounty Board&r is your ticket to consistent rewards. These boards generate Bounties - &9tasks&r that ask you to collect items, hunt specific mobs, or craft goods in exchange for &evaluable loot&r."
 				""
-				"To get started, find a &6Bounty Board&r in a village. Simply right-click the board to see available contracts. Take a bounty into your inventory, fulfill the requirements, and return it to the board (or a Bounty Decree) to claim your prize!"
+				"To get started, find a &6Bounty Board&r in a village. Simply right-click the board to see available contracts. Take a bounty into your inventory, fulfill the requirements, and return it to the board to claim your prize!"
 			]
 			icon: "bountiful:bountyboard"
 			id: "7F7B6EFF4B5F2CB4"
@@ -1521,6 +1529,229 @@
 			title: "Storing Experience"
 			x: -6.5d
 			y: 1.5d
+		}
+		{
+			description: [
+				"Over 30 &6Progression Milestones&r are automatically tracked as you conquer dimensions, slay bosses or acquire specific items."
+				""
+				"&5Dynamic Rewards:&r Achieving &ospecific&r ranks permanently alters the world's loot tables. High-tier artifacts and rare materials will only appear in chests once you've proven your worth."
+				""
+				"&4Scaling Difficulty:&r The monsters are watching. As your Game Stage increases, local mobs will gain increased attributes and equipment to match your growing power."
+				""
+				"&o&8Check the task rewards above to see examples of loot that can be unlocked&r&r"
+				""
+				"&o&8Old, previously generated chunks won't have updated loot! Seek out fresh lands to find the new treasures your rank provides.&r&r"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/scaling"
+				}
+			}
+			id: "78F3FF9BB6AA240B"
+			subtitle: "The world grows with you."
+			tasks: [
+				{
+					id: "0484C0E6D0E877D5"
+					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					id: "155BD0314BC83E77"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "apotheosis:common_material"
+								}
+								{
+									Count: 1b
+									id: "skilltree:amnesia_scroll"
+								}
+								{
+									Count: 1b
+									id: "minecraft:raw_gold"
+								}
+								{
+									Count: 1b
+									id: "apotheosis:uncommon_material"
+								}
+								{
+									Count: 1b
+									id: "kubejs:ore_bag"
+								}
+								{
+									Count: 1b
+									id: "minecraft:sculk_vein"
+								}
+								{
+									Count: 1b
+									id: "minecraft:enchanted_golden_apple"
+								}
+								{
+									Count: 1b
+									id: "kubejs:gem_shard"
+								}
+								{
+									Count: 1b
+									id: "embers:gold_crystal_seed"
+								}
+								{
+									Count: 1b
+									id: "embers:copper_crystal_seed"
+								}
+								{
+									Count: 1b
+									id: "apotheosis:sigil_of_rebirth"
+								}
+								{
+									Count: 1b
+									id: "kubejs:gemcutters_pouch"
+								}
+								{
+									Count: 1b
+									id: "embers:iron_crystal_seed"
+								}
+								{
+									Count: 1b
+									id: "minecraft:ender_pearl"
+								}
+								{
+									Count: 1b
+									id: "kubejs:mage_bag"
+								}
+								{
+									Count: 1b
+									id: "hmag:soul_powder"
+								}
+								{
+									Count: 1b
+									id: "apotheosis:gem_dust"
+								}
+								{
+									Count: 1b
+									id: "kubejs:scroll_exp"
+								}
+								{
+									Count: 1b
+									id: "minecraft:prismarine_shard"
+								}
+								{
+									Count: 1b
+									id: "hmag:evil_crystal_fragment"
+								}
+								{
+									Count: 1b
+									id: "fantasy_armor:moon_crystal"
+								}
+								{
+									Count: 1b
+									id: "apotheotic_additions:apotheotic_coin"
+								}
+							]
+						}
+					}
+					title: "After killing Wither"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "47F308D226A388F1"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "kubejs:scroll_exp_great"
+								}
+								{
+									Count: 1b
+									id: "apotheotic_additions:infused_coin"
+								}
+								{
+									Count: 1b
+									id: "apotheosis:sigil_of_enhancement"
+								}
+								{
+									Count: 1b
+									id: "embers:lead_crystal_seed"
+								}
+								{
+									Count: 1b
+									id: "kubejs:gemcutters_pouch_greater"
+								}
+								{
+									Count: 1b
+									id: "apotheosis:prismatic_web"
+								}
+								{
+									Count: 1b
+									id: "relics:relic_experience_bottle"
+								}
+								{
+									Count: 1b
+									id: "kubejs:gem_shard_great"
+								}
+								{
+									Count: 1b
+									id: "minecraft:golden_apple"
+								}
+								{
+									Count: 1b
+									id: "hmag:tiny_netherite_scrap"
+								}
+								{
+									Count: 1b
+									id: "apotheosis:boss_summoner"
+								}
+								{
+									Count: 1b
+									id: "embers:silver_crystal_seed"
+								}
+								{
+									Count: 1b
+									id: "apotheosis:rare_material"
+								}
+								{
+									Count: 1b
+									id: "apotheosis:epic_material"
+								}
+								{
+									Count: 1b
+									id: "kubejs:reagent_box"
+								}
+								{
+									Count: 1b
+									id: "apotheosis:warden_tendril"
+								}
+								{
+									Count: 1b
+									id: "minecraft:echo_shard"
+								}
+								{
+									Count: 1b
+									id: "hmag:netherite_nugget"
+								}
+								{
+									Count: 1b
+									id: "uniqueaccessories:accessory_box"
+								}
+							]
+						}
+					}
+					title: "After reaching Undergarden dimension"
+					type: "item"
+				}
+			]
+			title: "Progression Milestones"
+			x: 0.0d
+			y: 4.5d
 		}
 	]
 	title: "⭐ Features "

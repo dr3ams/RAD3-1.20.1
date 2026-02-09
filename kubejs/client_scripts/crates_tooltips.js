@@ -98,18 +98,4 @@ ItemEvents.tooltip(event => {
         }
     })
 	
-	// --- ECTOPLASM (GHAST TEARS) ---
-    event.addAdvanced('minecraft:ghast_tear', (item, advanced, text) => {
-        text.add(1, Text.of('Restless residue from a Ritual Wraith.').gray().italic())
-
-        if (!event.isShift()) {
-            text.add(2, [Text.of('Hold ').gray(), Text.of('[Shift] ').gold(), Text.of('for lore.').gray()])
-        } else {
-            text.add(2, Text.of('§dOccult Properties:'))
-            text.add(3, Text.of(' • Harvested from spirits summoned by failed rituals.').white())
-            text.add(4, Text.of(' • Can be used as a high-tier catalyst in occult crafting.').white())
-            text.add(5, Text.of(' • Radiates a cold, ethereal energy.').aqua())
-        }
-	//END	
-    })
 })	

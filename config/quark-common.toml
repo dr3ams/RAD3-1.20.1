@@ -622,7 +622,7 @@
 		"Display Baked Enchantments In Tooltip" = true
 		"Italic Tooltip" = true
 		#Enchantments other than Gold's Fortune/Looting to bake into items. Format is "item+enchant@level", such as "minecraft:stick+sharpness@10".
-		"Baked Enchantments" = []
+		"Baked Enchantments" = ["aether_redux:veridium_sword+radenchants:ruthless@1", "aether_redux:veridium_sword+radenchants:iron_will@1", "aether_redux:infused_veridium_sword+radenchants:ruthless@1", "aether_redux:infused_veridium_sword+radenchants:iron_will@1", "aether_redux:infused_veridium_sword+radenchants:one_man_army@1", "aether_redux:veridium_pickaxe+unbreaking@1", "aether_redux:infused_veridium_pickaxe+unbreaking@1", "aether_redux:infused_veridium_pickaxe+l2complements:vien_mining@1", "aether_redux:veridium_axe+l2complements:ice_blade@1", "aether_redux:veridium_axe+l2complements:tree_chopping@1", "aether_redux:infused_veridium_axe+l2complements:ice_blade@1", "aether_redux:infused_veridium_axe+l2complements:tree_chopping@1", "aether_redux:infused_veridium_axe+radenchants:tiger_claws@1", "aether_redux:infused_veridium_axe+radenchants:ruthless@2", "aether_redux:veridium_shovel+unbreaking@1", "aether_redux:veridium_shovel+l2complements:plane_digging@1", "aether_redux:infused_veridium_shovel+unbreaking@2", "aether_redux:infused_veridium_shovel+l2complements:plane_digging@1"]
 
 	[tweaks.grab_chickens]
 		"Needs No Helmet" = true
@@ -1607,7 +1607,7 @@
 			B = [0.0, 0.0, 1.22]
 
 	[client.improved_tooltips]
-		"Attribute Tooltips" = true
+		"Attribute Tooltips" = false
 		"Food Tooltips" = false
 		"Shulker Tooltips" = true
 		"Map Tooltips" = true
@@ -1649,19 +1649,19 @@
 		"Bind Armor Stands With Player Heads" = true
 
 	[client.variant_animal_textures]
-		"Enable Cow" = true
-		"Enable Pig" = true
-		"Enable Chicken" = true
-		"Enable Shiny Rabbit" = true
-		"Enable Shiny Llama" = true
-		"Enable Shiny Dolphin" = true
-		"Enable Shiny Slime" = true
-		"Enable L G B T Bees" = true
+		"Enable Cow" = false
+		"Enable Pig" = false
+		"Enable Chicken" = false
+		"Enable Shiny Rabbit" = false
+		"Enable Shiny Llama" = false
+		"Enable Shiny Dolphin" = false
+		"Enable Shiny Slime" = false
+		"Enable L G B T Bees" = false
 		"Every Bee Is L G B T" = false
 		#The chance for an animal to have a special "Shiny" skin, like a shiny pokemon. This is 1 in X. Set to 0 to disable.
 		"Shiny Animal Chance" = 2048
 		#If a shiny animal should emit occasional sparkles.
-		"Shiny Sparkles" = true
+		"Shiny Sparkles" = false
 
 [experimental]
 	"Adjustable Chat" = false
@@ -1951,5 +1951,4 @@
 		"Destroy Lost Items" = false
 		#Set this to false to only allow the owner of a totem to collect its items rather than any player
 		"Allow Anyone To Collect" = true
-
 

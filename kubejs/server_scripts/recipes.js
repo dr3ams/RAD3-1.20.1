@@ -219,15 +219,123 @@ const removals = [
   "trials:crafter",
   "dawnoftimebuilder:cobbled_limestone",
   "pandorasbox:pandoras_box",
-  "betterarcheology:bomb"
+  "betterarcheology:bomb",
+  
+  "fantasy_armor:moon_crystal"
 ];
 
 
+const upgradeMap = new Map([
+  [
+    "sophisticatedbackpacks:pickup_upgrade",
+    "sophisticatedstorage:pickup_upgrade",
+  ],
+  [
+    "sophisticatedbackpacks:advanced_pickup_upgrade",
+    "sophisticatedstorage:advanced_pickup_upgrade",
+  ],
+  [
+    "sophisticatedbackpacks:filter_upgrade",
+    "sophisticatedstorage:filter_upgrade",
+  ],
+  [
+    "sophisticatedbackpacks:advanced_filter_upgrade",
+    "sophisticatedstorage:advanced_filter_upgrade",
+  ],
+  [
+    "sophisticatedbackpacks:magnet_upgrade",
+    "sophisticatedstorage:magnet_upgrade",
+  ],
+  [
+    "sophisticatedbackpacks:advanced_magnet_upgrade",
+    "sophisticatedstorage:advanced_magnet_upgrade",
+  ],
+  [
+    "sophisticatedbackpacks:feeding_upgrade",
+    "sophisticatedstorage:feeding_upgrade",
+  ],
+  [
+    "sophisticatedbackpacks:advanced_feeding_upgrade",
+    "sophisticatedstorage:advanced_feeding_upgrade",
+  ],
+  [
+    "sophisticatedbackpacks:compacting_upgrade",
+    "sophisticatedstorage:compacting_upgrade",
+  ],
+  [
+    "sophisticatedbackpacks:advanced_compacting_upgrade",
+    "sophisticatedstorage:advanced_compacting_upgrade",
+  ],
+  [
+    "sophisticatedbackpacks:void_upgrade", 
+    "sophisticatedstorage:void_upgrade",
+  ],
+  [
+    "sophisticatedbackpacks:advanced_void_upgrade",
+    "sophisticatedstorage:advanced_void_upgrade",
+  ],
+  [
+    "sophisticatedbackpacks:smelting_upgrade",
+    "sophisticatedstorage:smelting_upgrade",
+  ],
+  [
+    "sophisticatedbackpacks:auto_smelting_upgrade",
+    "sophisticatedstorage:auto_smelting_upgrade",
+  ],
+  [
+    "sophisticatedbackpacks:smoking_upgrade",
+    "sophisticatedstorage:smoking_upgrade",
+  ],
+  [
+    "sophisticatedbackpacks:auto_smoking_upgrade",
+    "sophisticatedstorage:auto_smoking_upgrade",
+  ],
+  [
+    "sophisticatedbackpacks:blasting_upgrade",
+    "sophisticatedstorage:blasting_upgrade",
+  ],
+  [
+    "sophisticatedbackpacks:auto_blasting_upgrade",
+    "sophisticatedstorage:auto_blasting_upgrade",
+  ],
+  [
+    "sophisticatedbackpacks:crafting_upgrade",
+    "sophisticatedstorage:crafting_upgrade",
+  ],
+  [
+    "sophisticatedbackpacks:stonecutter_upgrade",
+    "sophisticatedstorage:stonecutter_upgrade",
+  ],
+  [
+    "sophisticatedbackpacks:jukebox_upgrade",
+    "sophisticatedstorage:jukebox_upgrade",
+  ],
+  [
+    "sophisticatedbackpacks:pump_upgrade",
+    "sophisticatedstorage:pump_upgrade",
+  ],
+  [
+    "sophisticatedbackpacks:advanced_pump_upgrade",
+    "sophisticatedstorage:advanced_pump_upgrade",
+  ],
+  [
+    "sophisticatedbackpacks:xp_pump_upgrade",
+    "sophisticatedstorage:xp_pump_upgrade",
+  ]
+]);					
+		
+					
+  
 ServerEvents.recipes((event) => {
   // Change recipes here
   removals.forEach((element) => {
     event.remove({ output: element });
   });
+
+  upgradeMap.forEach((key, value) => {
+    event.shapeless(Item.of(key), [Item.of(value)]);
+    event.shapeless(Item.of(value), [Item.of(key)]);
+  });	
 
   event.shapeless("sophisticatedbackpacks:crafting_upgrade", [
     "minecraft:crafting_table",
@@ -1358,6 +1466,35 @@ ServerEvents.recipes((event) => {
 	'minecraft:gunpowder',
 	'hmag:bat_wing'
 	])
+	
+	event.shaped(Item.of('kubejs:echo_extractor'),
+		[
+			'ABA',
+			'CDC',
+			'ACA'
+		],
+		{
+			B: 'minecraft:comparator',
+			A: 'minecraft:redstone',
+			D: 'kubejs:spawnercore',
+			C: 'minecraft:copper_ingot'
+		})
+	event.shapeless(Item.of('kubejs:chronicle_of_echoes'),['minecraft:book','kubejs:spawnercore'])
+	
+	
+	event.shaped(Item.of('kubejs:item_recycler'),
+    [
+        'ABA',
+        'CDC',
+        'ACA'
+    ],
+    {
+        D: 'minecraft:grindstone',
+        B: 'quark:redstone_randomizer',
+        C: 'minecraft:copper_ingot',
+        A: 'spelunkery:cinnabar'
+    })
+	event.shapeless(Item.of('kubejs:recycling_journal'),['minecraft:book','minecraft:grindstone'])
 ////////////////	END
 });
 

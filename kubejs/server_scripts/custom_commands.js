@@ -1,3 +1,0 @@
-ServerEvents.commandRegistry(event => {
-
-});

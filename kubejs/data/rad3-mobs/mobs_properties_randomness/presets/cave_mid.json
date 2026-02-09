@@ -1,0 +1,136 @@
+{
+  "properties": [
+    {
+      "property": "equipment",
+      "slot": "head",
+      "items": [
+	    {
+          "item": "minecraft:air"
+        },
+        {
+          "item": "minecraft:leather_helmet",
+		  "weight": 10,
+          "functions": [
+            {
+              "function": "set_drop_chance",
+              "drop_chance": 0.2
+            }
+          ]
+        },
+        {
+          "item": "minecraft:creeper_head",
+		  "weight": 5,
+          "functions": [
+            {
+              "function": "enchant",
+              "type": "single",
+              "enchantment": "l2hostility:vanish"
+            }
+          ]
+        },
+        {
+          "item": "simplehats:dragonhead",
+		  "weight": 2,
+          "functions": [
+            {
+              "function": "enchant",
+              "type": "single",
+              "enchantment": "l2hostility:vanish"
+            }
+          ]
+        },
+        {
+          "item": "simplehats:jesterhat",
+		  "weight": 5,
+          "functions": [
+            {
+              "function": "enchant",
+              "type": "single",
+              "enchantment": "l2hostility:vanish"
+            }
+          ]
+        },
+        {
+          "item": "simplehats:chickenhead",
+		  "weight": 6,
+          "functions": [
+            {
+              "function": "enchant",
+              "type": "single",
+              "enchantment": "l2hostility:vanish"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "property": "equipment",
+      "slot": "chest",
+      "items": [
+        {
+          "item": "minecraft:air"
+        },
+        {
+          "item": "minecraft:leather_chestplate"
+        }
+      ]
+    },
+    {
+      "property": "equipment",
+      "slot": "legs",
+      "items": [
+        {
+          "item": "minecraft:air"
+        },
+        {
+          "item": "minecraft:leather_leggings"
+        }
+      ]
+    },
+    {
+      "property": "equipment",
+      "slot": "feet",
+      "items": [
+        {
+          "item": "minecraft:leather_boots"
+        }
+      ]
+    },
+    {
+      "property": "equipment",
+      "slot": "mainhand",
+      "items": [
+        {
+          "item": "minecraft:air"
+        },
+        {
+          "item": "minecraft:wooden_pickaxe",
+          "functions": [
+            {
+              "function": "set_drop_chance",
+              "drop_chance": 0.2
+            }
+          ]
+        },
+        {
+          "item": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "set_drop_chance",
+              "drop_chance": 0.2
+            }
+          ]
+        },
+        {
+          "item": "minecraft:stone_sword",
+          "functions": [
+            {
+              "function": "set_drop_chance",
+              "drop_chance": 0.2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

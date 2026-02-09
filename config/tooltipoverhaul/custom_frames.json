@@ -4,7 +4,8 @@
       "texture": "tooltipoverhaul:textures/overlay/amethyst_frame.png",
       "items": [
         "minecraft:dragon_egg",
-        "minecraft:enchanted_golden_apple"
+        "minecraft:enchanted_golden_apple",
+		"kubejs:great_soul"
       ],
       "gradientType": "custom",
       "borderType": "static",
@@ -33,7 +34,8 @@
         "minecraft:music_disc_otherside",
         "minecraft:music_disc_5",
         "minecraft:music_disc_relic",
-        "minecraft:music_disc_pigstep"
+        "minecraft:music_disc_pigstep",
+		"kubejs:diamond_coin"
       ],
       "gradientType": "custom",
       "borderType": "auto_gradient"
@@ -56,7 +58,11 @@
         "minecraft:totem_of_undying",
         "minecraft:heart_of_the_sea",
         "minecraft:creeper_banner_pattern",
-        "minecraft:skull_banner_pattern"
+        "minecraft:skull_banner_pattern",
+		"kubejs:gold_coin", 
+		"kubejs:coin_task",
+		"kubejs:coin_icaria",
+		"kubejs:coin_bumblezone"
       ],
       "gradientType": "custom",
       "borderType": "auto_gradient"
@@ -101,7 +107,11 @@
         "minecraft:eye_of_ender",
         "minecraft:blaze_rod",
 
-        "minecraft:netherite_scrap"
+        "minecraft:netherite_scrap",
+		
+		"kubejs:copper_coin", 
+		"kubejs:iron_coin", 
+		"kubejs:coin_aether"
       ],
       "gradientType": "custom",
       "borderType": "gradient",
@@ -128,6 +138,167 @@
       ],
       "gradientType": "custom",
       "borderType": "static",
+      "gradientColors": ["#3D3A5E", "#3D3A5E", "#3D3A5E"],
+      "specialEffect": "metal_shining"
+    },
+	{
+      "texture": "tooltipoverhaul:textures/overlay/battle_frame.png",
+      "items": [
+	  
+      ],
+      "gradientType": "custom",
+      "borderType": "gradient",
+      "gradientColors": ["#A9A9A9", "#999999", "#8F8F8F"]
+    },
+	{
+      "texture": "tooltipoverhaul:textures/overlay/draconic_fire_frame.png",
+      "items": [
+		 "radweaponry:orb_fire"
+      ],
+      "gradientType": "custom",
+      "borderType": "auto_gradient",
+      "gradientColors": ["#3D3A5E", "#3D3A5E", "#3D3A5E"],
+      "specialEffect": "metal_shining"
+    },
+	{
+      "texture": "tooltipoverhaul:textures/overlay/fire_frame.png",
+      "items": [
+		"kubejs:coin_nether",
+		"radweaponry:cinderstorm"
+      ],
+      "gradientType": "custom",
+      "borderType": "auto_gradient",
+      "gradientColors": ["#3D3A5E", "#3D3A5E", "#3D3A5E"],
+      "specialEffect": "metal_shining"
+    },
+	{
+      "texture": "tooltipoverhaul:textures/overlay/emerald_frame.png",
+      "items": [
+		"kubejs:coin_undergarden"
+      ],
+      "gradientType": "custom",
+      "borderType": "auto_gradient",
+      "gradientColors": ["#3D3A5E", "#3D3A5E", "#3D3A5E"],
+      "specialEffect": "metal_shining"
+    },
+	{
+      "texture": "tooltipoverhaul:textures/overlay/flower_frame.png",
+      "items": [
+		 
+      ],
+      "gradientType": "custom",
+      "borderType": "auto_gradient",
+      "gradientColors": ["#3D3A5E", "#3D3A5E", "#3D3A5E"],
+      "specialEffect": "metal_shining"
+    },
+	{
+      "texture": "tooltipoverhaul:textures/overlay/frost_frame.png",
+      "items": [
+		 
+      ],
+      "gradientType": "custom",
+      "borderType": "auto_gradient",
+      "gradientColors": ["#3D3A5E", "#3D3A5E", "#3D3A5E"],
+      "specialEffect": "metal_shining"
+    },
+	{
+      "texture": "tooltipoverhaul:textures/overlay/garden_frame.png",
+      "items": [
+		 
+      ],
+      "gradientType": "custom",
+      "borderType": "auto_gradient",
+      "gradientColors": ["#3D3A5E", "#3D3A5E", "#3D3A5E"],
+      "specialEffect": "metal_shining"
+    },
+	{
+      "texture": "tooltipoverhaul:textures/overlay/gear_frame.png",
+      "items": [
+		 
+      ],
+      "gradientType": "custom",
+      "borderType": "auto_gradient",
+      "gradientColors": ["#3D3A5E", "#3D3A5E", "#3D3A5E"],
+      "specialEffect": "metal_shining"
+    },
+	{
+      "texture": "tooltipoverhaul:textures/overlay/greek_temple_frame.png",
+      "items": [
+		"radweaponry:holy_spear"
+      ],
+      "gradientType": "custom",
+      "borderType": "auto_gradient",
+      "gradientColors": ["#3D3A5E", "#3D3A5E", "#3D3A5E"],
+      "specialEffect": "metal_shining"
+    },
+	{
+      "texture": "tooltipoverhaul:textures/overlay/king_frame.png",
+      "items": [
+		"kubejs:roguelite_ring" 
+      ],
+      "gradientType": "custom",
+      "borderType": "auto_gradient",
+      "gradientColors": ["#3D3A5E", "#3D3A5E", "#3D3A5E"],
+      "specialEffect": "metal_shining"
+    },
+	{
+      "texture": "tooltipoverhaul:textures/overlay/medieval_crossroads_frame.png",
+      "items": [
+		 
+      ],
+      "gradientType": "custom",
+      "borderType": "auto_gradient",
+      "gradientColors": ["#3D3A5E", "#3D3A5E", "#3D3A5E"],
+      "specialEffect": "metal_shining"
+    },
+	{
+      "texture": "tooltipoverhaul:textures/overlay/neon_fire_frame.png",
+      "items": [
+		"radweaponry:lightning_hammer",
+		"radweaponry:revenants_edge"
+      ],
+      "gradientType": "custom",
+      "borderType": "auto_gradient",
+      "gradientColors": ["#3D3A5E", "#3D3A5E", "#3D3A5E"],
+      "specialEffect": "metal_shining"
+    },
+	{
+      "texture": "tooltipoverhaul:textures/overlay/pure_alchemy_frame.png",
+      "items": [
+		 "apotheosis:mythic_material"
+      ],
+      "gradientType": "custom",
+      "borderType": "auto_gradient",
+      "gradientColors": ["#3D3A5E", "#3D3A5E", "#3D3A5E"],
+      "specialEffect": "metal_shining"
+    },
+	{
+      "texture": "tooltipoverhaul:textures/overlay/skyland_frame.png",
+      "items": [
+		 
+      ],
+      "gradientType": "custom",
+      "borderType": "auto_gradient",
+      "gradientColors": ["#3D3A5E", "#3D3A5E", "#3D3A5E"],
+      "specialEffect": "metal_shining"
+    },
+	{
+      "texture": "tooltipoverhaul:textures/overlay/steampunk_frame.png",
+      "items": [
+		 
+      ],
+      "gradientType": "custom",
+      "borderType": "auto_gradient",
+      "gradientColors": ["#3D3A5E", "#3D3A5E", "#3D3A5E"],
+      "specialEffect": "metal_shining"
+    },
+	{
+      "texture": "tooltipoverhaul:textures/overlay/zombie_brain_frame.png",
+      "items": [
+		 
+      ],
+      "gradientType": "custom",
+      "borderType": "auto_gradient",
       "gradientColors": ["#3D3A5E", "#3D3A5E", "#3D3A5E"],
       "specialEffect": "metal_shining"
     }

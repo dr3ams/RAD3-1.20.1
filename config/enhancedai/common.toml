@@ -667,9 +667,6 @@
 		#Damage per block of fall distance.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Damage per block" = 1.0
-		#Fall distance multiplied by this
-		#Range: 0.0 ~ 1.7976931348623157E308
-		"Knockup strength ratio" = 0.08
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Horizontal base range" = 2.0
 		#Range: 0.0 ~ 1.7976931348623157E308
@@ -678,6 +675,12 @@
 		"Horizontal range per block" = 0.2
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Vertical range per block" = 0.1
+		#If the mob falls for less than these blocks, the shockwave will not happen
+		#Range: > 0
+		"Min fall distance" = 3
+		#Fall distance multiplied by this
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Knock up strength ratio" = 0.08
 
 	#Makes mobs be able to move in more ways, like climbing or swim. Only entity types in `enhancedai:mobs/can_sprint` tag are affected by this feature.
 	[Mobs.Sprint]

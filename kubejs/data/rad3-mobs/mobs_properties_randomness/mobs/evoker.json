@@ -1,0 +1,20 @@
+{
+  "target": "minecraft:evoker",
+  "properties": [
+    {
+      "property": "presets",
+      "presets": [
+        {
+          "preset": "rad3-mobs:evoker",
+		  "weight": 1,
+          "conditions": [
+            {
+              "condition": "game_stage",
+			  "game_stages": ["milestone_wither"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

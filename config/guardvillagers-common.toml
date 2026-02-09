@@ -5,7 +5,7 @@
 	#Witches Attack Villagers?
 	"Witches attack villagers?" = true
 	#This will make Illusioners get involved in raids
-	"Have Illusioners in raids?" = false
+	"Have Illusioners in raids?" = true
 	#This makes Illagers run from polar bears, as anyone with common sense would.
 	"Have Illagers have some common sense?" = true
 
@@ -41,10 +41,10 @@
 	"Allow Iron Golems to float on water?" = true
 
 ["guard stuff"]
-	"Allow the player to right click on bells to mass order guards to follow them?" = true
+	"Allow the player to right click on bells to mass order guards to follow them?" = false
 	"Have guards patrol the village regularly?" = false
 	#Range: -999.9000244140625 ~ 999.0
-	"Chance to drop equipment" = 100.0
+	"Chance to drop equipment" = 0.0
 	#This makes Guards run from polar bears, as anyone with common sense would.
 	"Have Guards have some common sense?" = false
 	#This lets Guards open doors.
@@ -67,7 +67,7 @@
 	"Allow players to give guards stuff only if they have the hero of the village effect?" = false
 	"Allow players to set guard patrol points only if they have hero of the village" = false
 	#Range: > -2147483648
-	"Minimum reputation requirement for guards to give you access to their inventories" = 15
+	"Minimum reputation requirement for guards to give you access to their inventories" = 30
 	#Range: -500.0 ~ 900.0
 	"Guard health" = 20.0
 	#Range: -500.0 ~ 900.0

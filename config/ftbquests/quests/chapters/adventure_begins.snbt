@@ -105,6 +105,14 @@
 			x: 6.0d
 			y: 3.5d
 		}
+		{
+			height: 1.0d
+			image: "cataclysm:item/dying_ember"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 1.0d
+		}
 	]
 	order_index: 0
 	quest_links: [
@@ -119,8 +127,8 @@
 		{
 			id: "287B78958ED96F15"
 			linked_quest: "2AF1B6A89DD4F4C2"
-			x: -6.0d
-			y: -7.5d
+			x: -2.5d
+			y: -6.5d
 		}
 		{
 			icon: {
@@ -138,7 +146,7 @@
 			id: "2ECB5EA439F3A83B"
 			linked_quest: "7B7944F875F4F424"
 			x: -6.5d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			id: "6C5D95349F7EEE94"
@@ -4025,7 +4033,7 @@
 			]
 			title: "Healing flask"
 			x: -6.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["033105F673C5EF80"]
@@ -4145,7 +4153,167 @@
 			x: -5.5d
 			y: -8.75d
 		}
+		{
+			dependencies: ["366659E50333BC5A"]
+			description: [
+				"The &5Echo Extractor&r is a tool used to harvest Mob Spawners. Instead of breaking a spawner for a bit of XP, you are taking it's energy to create powerful &6Sealed Tomes&r which contain various loot."
+				""
+				"&4The Ritual&r"
+				"- To use it, walk up to any Mob Spawner with &2Blessed Incense&r in your inventory and &bRight-Click&r."
+				""
+				"- Success turns the spawner into Obsidian (draining it) and gives you a &6Sealed Tome&r. You gain &e+1 Expertise level&r."
+				""
+				"- There is permanent 5% chance to &4fail&r:"
+				""
+				"    • &cSoft Failure&r (70% of fails of those 5%): The ritual fizzles out. You lose your incense, but the spawner is safe."
+				""
+				"    • &4Critical Failure&r (30% of fails of those 5%): The spawner turns into Obsidian."
+				""
+				"- Low Extraction Expertise players also face a high &4Backfire Chance&r - 30%, which summons Temporal Remnant. As &eExpertise Level&r increases, this risk fades down to 5%."
+			]
+			icon: "kubejs:echo_extractor"
+			id: "6FC9E6FFB041C6D9"
+			rewards: [
+				{
+					id: "7B20C90CD4BF716F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 10
+					id: "21E665D8F62D04B9"
+					item: "kubejs:blessed_incense"
+					type: "item"
+				}
+			]
+			shape: "octagon_important"
+			subtitle: "Magical vacuum for \"Spawner Energy.\""
+			tasks: [
+				{
+					id: "5EFD1C8176E1B6A1"
+					item: "kubejs:echo_extractor"
+					type: "item"
+				}
+				{
+					id: "5A785B7FB9D62516"
+					item: "kubejs:blessed_incense"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6FC9E6FFB041C6D9"]
+			description: [
+				"&eExtraction Expertise&r is your \"Experience Level\" specifically for the Echo Extraction ritual."
+				""
+				"It can be grouped into &bTiers&r to make the numbers easier to handle."
+				""
+				"&e10 Expertise Levels&r = &b1 Tier&r."
+				""
+				"&eExpertise&r makes your life easier and your rewards better in three ways:"
+				""
+				" • &2Safety:&r At &eExpertise Level&r 0, the Echo Extractor is dangerous and might backfire with 30% chance, spawning &4Temporal Remnant&r. At higher &eExpertise&r, the ritual becomes safer with down to 5% chance."
+				""
+				" • &9Luck:&r The higher your &bTier&r, the more likely the Sealed Tome is to give you a \"Rare\" item instead of a \"Common\" item."
+				""
+				" • &dQuantity&r: As you become a master, you learn how to pull more items out of the book."
+			]
+			id: "54B8F4541F6B0151"
+			rewards: [{
+				id: "25AB6DA37114A5E4"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "The Path to Grandmastery"
+			tasks: [{
+				id: "1F04ECADEACBFF10"
+				item: "kubejs:chronicle_of_echoes"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["54B8F4541F6B0151"]
+			description: [
+				"&bMechanics:&r"
+				""
+				"&bExpertise Tiers:&r Your rewards scale every &e10 Expertise Levels&r. Every tier lowers the requirement for Rare loot."
+				""
+				"&bTier 1+:&r Uncommon loot unlocked. You become eligible for the gold bonus (30% chance). Further amount is scaled by your &eExpertise Level&r."
+				""
+				"&bTier 3+:&r Rare loot unlocked."
+				""
+				"&bThe \"Grandmaster\" Perk (Tier 50):&r If you ever reach Tier 50 (&eExpertise Level&r 500), the gold nuggets you receive as a bonus will transform into Gold Ingots."
+				""
+				"&bThe Jackpot Slot (Tier 50+):&r You unlock a 5% chance to trigger a &5legendary&r loot roll."
+				""
+				"{@pagebreak}"
+				"&9Themes&r"
+				""
+				"In simple terms, &9Themes&r are the categories that define what kind of loot you get from your &6Sealed Tome&r."
+				""
+				"Instead of just getting \"Zombie Loot\" or \"Skeleton Loot,\" the &5Echo Extractor&r analyzes the vibe of the block or spawner you are harvesting and classifies it into one of 31 distinct &9Themes&r (random process)."
+				""
+				"&9Themes&r that you have discovered are listed in &eChronicle Of Echoes&r. At the moment, they are purely cosmetic and serve more to create an immersive effect."
+			]
+			id: "25D2E4EECF49EA64"
+			rewards: [{
+				id: "668E6B5C03135C31"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "You have trapped the essence. Now you must break the seal to claim the rewards"
+			tasks: [{
+				id: "7DE534076B707419"
+				item: "kubejs:sealed_tome"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -9.5d
+		}
+		{
+			description: [
+				"The &bMatter Recycler&r is a powerful tool used to deconstruct bulk materials into raw essence."
+				""
+				"&6How to Use:&r"
+				""
+				"• Place the item(s) you wish to recycle in your &bOffhand&r."
+				""
+				"• Hold the Recycler in your &bMain Hand&r and &bRight-Click&r."
+				""
+				"• Currently, this process is &bfree&r of XP costs, as the machine extracts energy from the items themselves."
+				""
+				"&6Mechanics and Risks:&r"
+				""
+				"• &bGranular&r &bProcessing:&r The machine processes the entire stack at once, but calculates success for &bevery&r &bitem&r individually. One bad roll won't ruin the whole stack!"
+				""
+				"• &bJam&r &bChance:&r There is a base &b10%&r &bchance&r per item to jam. If a jam occurs, the machine enters a &b10&r &bsecond&r &bcooldown&r to clear its internal gears."
+				""
+				"• &dJackpot&r &dYields:&r Recycling &bDiamonds&r, &bNetherite&r, or &bGems&r can trigger a &dJackpot&r, awarding rare &bApotheosis&r &bGems&r or massive &bXP&r bursts."
+				""
+				"Use a &bRecycling Journal&r to track your progress. As your &bMastery Tier&r increases, you will nearly eliminate jams and significantly boost your &dJackpot&r rates."
+			]
+			icon: "kubejs:item_recycler"
+			id: "3AC71E8812CDFD93"
+			tasks: [
+				{
+					id: "1D72B8CDCCA40C26"
+					item: "kubejs:item_recycler"
+					type: "item"
+				}
+				{
+					id: "456F10F64E0A42FE"
+					item: "kubejs:recycling_journal"
+					type: "item"
+				}
+			]
+			title: "&bThe Matter Recycler&r"
+			x: 2.5d
+			y: -1.0d
+		}
 	]
 	title: "&2World Exploration&r"
 }
-

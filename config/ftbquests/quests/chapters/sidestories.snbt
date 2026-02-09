@@ -135,8 +135,8 @@
 						display: {
 							Name: "{\"text\":\"Map to nearest village in plains\"}"
 						}
-						maxSearchRadius: 150
-						skinKnown: 1b
+						maxSearchRadius: 200
+						skipKnown: 1b
 						targetStructure: "minecraft:village_plains"
 						zoomLevel: 2
 					}
@@ -291,8 +291,8 @@
 						display: {
 							Name: "{\"text\":\"Map to Creeping Crypt\"}"
 						}
-						maxSearchRadius: 150
-						skinKnown: 1b
+						maxSearchRadius: 200
+						skipKnown: 1b
 						targetStructure: "nova_structures:creeping_crypt"
 						zoomLevel: 2
 					}
@@ -335,8 +335,8 @@
 							display: {
 								Name: "{\"text\":\"Notes how to get to the Crypt\"}"
 							}
-							maxSearchRadius: 150
-							skinKnown: 1b
+							maxSearchRadius: 200
+							skipKnown: 1b
 							targetStructure: "graveyard:crypt"
 							zoomLevel: 2
 						}
@@ -808,8 +808,8 @@
 							display: {
 								Name: "{\"text\":\"Map to Illager's Bastille\"}"
 							}
-							maxSearchRadius: 150
-							skinKnown: 1b
+							maxSearchRadius: 200
+							skipKnown: 1b
 							targetStructure: "takesapillage:bastille"
 							zoomLevel: 2
 						}
@@ -983,8 +983,8 @@
 							display: {
 								Name: "{\"text\":\"Map to Illager Hideout\"}"
 							}
-							maxSearchRadius: 150
-							skinKnown: 1b
+							maxSearchRadius: 200
+							skipKnown: 1b
 							targetStructure: "nova_structures:illager_hideout"
 							zoomLevel: 2
 						}
@@ -1321,7 +1321,7 @@
 						display: {
 							Name: "{\"text\":\"Estimated location of some old Tower\"}"
 						}
-						maxSearchRadius: 150
+						maxSearchRadius: 200
 						skipKnown: 1b
 						targetStructure: "dungeons_enhanced:tower_of_the_undead"
 						zoomLevel: 2
@@ -1474,7 +1474,7 @@
 						display: {
 							Name: "{\"text\":\"Should be used in Nether...\"}"
 						}
-						maxSearchRadius: 150
+						maxSearchRadius: 200
 						skipKnown: 1b
 						targetStructure: "incendium:pipeline"
 						zoomLevel: 2

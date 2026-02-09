@@ -5,14 +5,24 @@
 	group: "241F1DC7B6D6E9D6"
 	icon: "minecraft:end_portal_frame"
 	id: "770750D0370ECA36"
-	images: [{
-		height: 11.653846153846153d
-		image: "rad3:textures/misc/nebula.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: 5.5d
-		y: 0.0d
-	}]
+	images: [
+		{
+			height: 11.653846153846153d
+			image: "rad3:textures/misc/nebula.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "the_bumblezone:textures/particle/curious/1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -1.5d
+		}
+	]
 	order_index: 9
 	quest_links: [ ]
 	quests: [

@@ -98,7 +98,22 @@ StartupEvents.registry('item', event => {
                 )
         )
 
-
+    event.create('roguelite_ring')
+	    .maxStackSize(1)
+		.tag('curios:ring')
+		.tag('rad3:artifacts')
+		.displayName('Ring of Rebirth')
+		.rarity('Rare')
+        .texture('kubejs:item/roguelite_ring')
+        .attachCuriosCapability(
+            CuriosJSCapabilityBuilder.create()
+                .addAttribute(
+                    "minecraft:generic.max_health",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    4,
+                    'addition'
+                )
+        )
 
 ///END
 })

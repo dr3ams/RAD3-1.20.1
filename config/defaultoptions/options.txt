@@ -1,6 +1,6 @@
 version:3465
 autoJump:false
-operatorItemsTab:false
+operatorItemsTab:true
 autoSuggestions:true
 chatColors:true
 chatLinks:true
@@ -22,7 +22,7 @@ toggleSprint:false
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
 mouseSensitivity:0.5
-fov:0.0
+fov:0.325
 screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
@@ -31,8 +31,8 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:0.0
-renderDistance:15
-simulationDistance:12
+renderDistance:18
+simulationDistance:10
 entityDistanceScaling:1.0
 guiScale:4
 particles:0
@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["vanilla","mod_resources","Forgery","Forgery grayscale","Moonlight Mods Dynamic Assets","builtin/ancient_aether_texture_tweaks","builtin/compatibility/deep_aether_assets","builtin/resource/overrides_pack","builtin/resource/redux_tips","fabric","builtin/aether_tips","file/Aether Regenerated v1.2.1.zip","file/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip","file/v2_REFRESH_Building_Gadgets_Create_Like.zip","file/Tom\u0027s Metal Storage v1.0.zip","builtin/aether_tooltips","builtin/client/golden_swet_ball/DAGoldenSwetBallFixClient","file/§bEnchanting§8-§bReimagined§0_§8[v1.2]§0.zip","file/elysiapresents_lootr.zip","file/Connected Texture+ V5.2.zip","file/golems-refreshed-v2.1.zip","file/boss-refreshed-v2-1.19-1.21.zip","file/DSWG Glowing Eyes 1.20 v1.1.zip","file/Bibliophilia 1.15 (1.20.1).zip","file/Default-Dark-Mode-1.20-2023.7.0.zip","builtin/client/deep_aether_tooltips","file/FreshAnimations_v1.10.1.zip","file/§2Drodi\u0027s Villagers FA [V2.8.2] - 1.20.1.zip","file/Ars-Subtlety.zip","RAD3-Resources","VanillaTweaks_r976389.zip"]
-incompatibleResourcePacks:["file/elysiapresents_lootr.zip","file/Connected Texture+ V5.2.zip","file/golems-refreshed-v2.1.zip","file/§2Drodi\u0027s Villagers FA [V2.8.2] - 1.20.1.zip"]
+resourcePacks:["mod_resources","vanilla","generated/fragmentum_layer","Forgery grayscale","Forgery","VanillaTweaks_r976389.zip","fabric","builtin/client/golden_swet_ball/DAGoldenSwetBallFixClient","builtin/ancient_aether_texture_tweaks","builtin/compatibility/deep_aether_assets","builtin/resource/overrides_pack","builtin/resource/redux_tips","Moonlight Mods Dynamic Assets","builtin/aether_tips","file/Aether Regenerated v1.2.1.zip","file/Armored Legacy v1.4.1.zip","file/Bibliophilia 1.15 (1.20.1).zip","RAD3-Resources","file/boss-refreshed-v2-1.19-1.21.zip","file/Connected Texture+ V5.2.zip","file/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip","file/DSWG Glowing Eyes 1.20 v1.1.zip","file/elysiapresents_lootr.zip","file/golems-refreshed-v2.1.zip","file/Tom\u0027s Metal Storage v1.0.zip","file/v2_REFRESH_Building_Gadgets_Create_Like.zip","file/xali\u0027s Potions v1.0.zip","file/§bEnchanting§8-§bReimagined§0_§8[v1.2]§0.zip","file/FreshAnimations_v1.10.3.zip"]
+incompatibleResourcePacks:["file/Connected Texture+ V5.2.zip","file/elysiapresents_lootr.zip","file/golems-refreshed-v2.1.zip","file/xali\u0027s Potions v1.0.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -84,7 +84,7 @@ onlyShowSecureChat:false
 panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
-soundCategory_master:0.6978476821192053
+soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

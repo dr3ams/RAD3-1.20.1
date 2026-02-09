@@ -2,6 +2,8 @@
 enableEntitySpecificDatapack = true
 #Allow structure specific difficulty configs to load
 enableStructureSpecificDatapack = true
+#Allow datapack configs to add extra items and enchantments to entities
+enableEquipmentDatapack = true
 
 [scaling]
 	#Health factor per level
@@ -347,7 +349,7 @@ enableStructureSpecificDatapack = true
 	#Effect range for trait arena
 	#Range: 0 ~ 100
 	arenaRange = 24
-	#Damage Bonus Factor for dispell-affected damage
+	#Damage Bonus Factor for enchantment bypassing damage
 	#Example: 0.5 means +2% per level damage bonus becoming +1% per level
 	#Range: 0.0 ~ 1.0
 	dispellDamageFactor = 0.5
@@ -359,6 +361,24 @@ enableStructureSpecificDatapack = true
 	#Example: 0.5 means +2% per level damage bonus becoming +1% per level
 	#Range: 0.0 ~ 1.0
 	grenadeDamageFactor = 0.25
+	#Damage Bonus Factor for killer aura damage
+	#Example: 0.5 means +2% per level damage bonus becoming +1% per level
+	#Range: 0.0 ~ 1.0
+	killerAuraDamageFactor = 0.5
+	#Damage Reduction Base for Dispell
+	#Non-Magic damage will take a log with base of this config number
+	#Example: 1.1 means 100 -> 48, 1000 -> 72
+	#Example: 2 means 16 -> 4, 1024 -> 10
+	#Example: 10 means 100 -> 2, 1000000 -> 6
+	#Range: 1.01 ~ 100.0
+	dispellDamageReductionBase = 2.0
+	#Damage Reduction Base for Dementor
+	#Magic damage will take a log with base of this config number
+	#Example: 1.1 means 100 -> 48, 1000 -> 72
+	#Example: 2 means 16 -> 4, 1024 -> 10
+	#Example: 10 means 100 -> 2, 1000000 -> 6
+	#Range: 1.01 ~ 100.0
+	dementorDamageReductionBase = 2.0
 
 ["Trait toggle"]
 	allow_tank = true

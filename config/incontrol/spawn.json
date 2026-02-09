@@ -14,67 +14,9 @@
     "area": "spawn",
     "result": "deny"
   },
-  {
-    "mob": "hmag:ghost",
-    "gamestage": "milestone_nether",
-    "mincount": {
-      "amount": 1,
-      "mob": "hmag:ghost",
-      "perchunk": true
-    },
-    "result": "deny"
-  },
-  {
-    "mob": "hmag:ghost",
-    "gamestage": "milestone_nether",
-    "result": "allow"
-  },
-  {
-    "mob": "hmag:ghost",
-    "result": "deny"
-  },
- {
-    "mob": "mowziesmobs:naga",
-    "gamestage": "milestone_nether",
-    "mincount": {
-      "amount": 1,
-      "mob": "mowziesmobs:naga",
-      "perchunk": true
-    },
-    "result": "deny"
-  },
-  {
-    "mob": "mowziesmobs:naga",
-    "gamestage": "milestone_nether",
-    "result": "allow"
-  },
-  {
-    "mob": "mowziesmobs:naga",
-    "result": "deny"
-  },
-{
-    "mob": "minecraft:phantom",
-    "gamestage": "milestone_nether",
-    "mincount": {
-      "amount": 1,
-      "mob": "minecraft:phantom",
-      "perchunk": true
-    },
-    "result": "deny"
-  },
-  {
-    "mob": "minecraft:phantom",
-    "gamestage": "milestone_nether",
-    "result": "allow"
-  },
-  {
-    "mob": "minecraft:phantom",
-    "result": "deny"
-  },
    {
     "mob": "minecraft:trader_llama",
 	"when": "onjoin",
-    "mincount": { "amount": 1, "mob": "minecraft:trader_llama", "perchunk": true },
     "result": "deny"
   },
   {
@@ -148,6 +90,62 @@
       "mob": "minecraft:bat",
       "perchunk": true
     },
+    "result": "deny"
+  },
+  {
+    "mob": "creatures_of_petrichor:meadow_slime",
+    "mincount": {
+      "amount": 1,
+      "mob": "creatures_of_petrichor:meadow_slime",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:giant",
+	"gamestage": "milestone",
+	"seesky": true,
+	"healthadd": 20,
+	"structure": "graveyard:small_grave",
+    "ai": {
+      "targets": [
+        {
+          "priority": 1,
+          "goal": "nearest_attackable_target",
+          "mustsee": true
+        },
+        {
+          "priority": 2,
+          "goal": "hurt_by_target"
+        }
+      ],
+      "goals": [
+        {
+          "priority": 1,
+          "goal": "melee_attack",
+          "speed": 1.2,
+          "followingtarget": true
+        },
+        {
+          "priority": 2,
+          "goal": "look_at_player",
+          "lookdistance": 32.0
+        },
+        {
+          "priority": 3,
+          "goal": "random_look_around"
+        }
+      ]
+    },
+	"result": "allow"
+  },
+  {
+    "mob": "minecraft:giant",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:pig",
+    "mincount": 3,
     "result": "deny"
   },
   {

@@ -1,0 +1,27 @@
+{
+  "target": "minecraft:skeleton",
+  "properties": [
+    {
+      "property": "presets",
+      "presets": [
+        {
+          "preset": "rad3-mobs:cave_mid_ranged",
+		  "weight": 1,
+          "conditions": [
+            {
+              "condition": "deepness",
+              "y": {
+                "min": 0,
+                "max": 35
+              }
+            },
+			{
+              "condition": "chance",
+              "chance": 0.7
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

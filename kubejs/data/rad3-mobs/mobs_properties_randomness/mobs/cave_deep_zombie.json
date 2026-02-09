@@ -1,0 +1,27 @@
+{
+  "target": "minecraft:zombie",
+  "properties": [
+    {
+      "property": "presets",
+      "presets": [
+        {
+          "preset": "rad3-mobs:cave_deep",
+		  "weight": 1,
+          "conditions": [
+            {
+              "condition": "deepness",
+              "y": {
+                "min": -60,
+                "max": 0
+              }
+            },
+			{
+              "condition": "chance",
+              "chance": 0.7
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

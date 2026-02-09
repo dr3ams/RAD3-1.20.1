@@ -1,0 +1,69 @@
+{
+  "target": "minecraft:pillager",
+  "properties": [
+    {
+      "property": "presets",
+      "presets": [
+        {
+          "preset": "rad3-mobs:pillager",
+		  "weight": 1,
+          "conditions": [
+            {
+              "condition": "game_stage",
+			  "game_stages": ["milestone_wither"]
+            },
+            {
+              "condition": "structure",
+              "structures": [
+				"minecraft:pillager_outpost",
+				"dungeons_enhanced:pillager_camp",
+				"takesapillage:pillager_camp",
+				"takesapillage:bastille",
+				"forgottenruins:savaged_library",
+				"takesapillage:pillager_camp",
+				"dungeons_arise:illager_campsite",
+				"dungeons_arise:illager_windmill",
+				"dungeons_arise:illager_fort",
+				"ati_structures:illager_tower",
+				"illager_outpost:illager_outpost",
+				"illager_arena:illager_arena",
+				"ati_structures:illager_homestead",
+				"ati_structures:illager_tower",
+				"towns_and_towers:pillager_outpost_badlands",
+				"towns_and_towers:pillager_outpost_beach",
+				"towns_and_towers:pillager_outpost_birch_forest",
+				"towns_and_towers:pillager_outpost_desert",
+				"towns_and_towers:pillager_outpost_flower_forest",
+				"towns_and_towers:pillager_outpost_forest",
+				"towns_and_towers:pillager_outpost_grove",
+				"towns_and_towers:pillager_outpost_jungle",
+				"towns_and_towers:pillager_outpost_meadow",
+				"towns_and_towers:pillager_outpost_mushroom_fields",
+				"towns_and_towers:pillager_outpost_ocean",
+				"towns_and_towers:pillager_outpost_old_growth_taiga",
+				"towns_and_towers:pillager_outpost_savanna",
+				"towns_and_towers:pillager_outpost_savanna_plateau",
+				"towns_and_towers:pillager_outpost_snowy_beach",
+				"towns_and_towers:pillager_outpost_snowy_plains",
+				"towns_and_towers:pillager_outpost_snowy_slopes",
+				"towns_and_towers:pillager_outpost_sparse_jungle",
+				"towns_and_towers:pillager_outpost_sunflower_plains",
+				"towns_and_towers:pillager_outpost_swamp",
+				"towns_and_towers:pillager_outpost_taiga",
+				"towns_and_towers:pillager_outpost_snowy_taiga",
+				"towns_and_towers:pillager_outpost_wooded_badlands",
+				"towns_and_towers:exclusives/pillager_outpost_mediterranean",
+				"towns_and_towers:exclusives/pillager_outpost_tudor",
+				"towns_and_towers:exclusives/pillager_outpost_classic",
+				"towns_and_towers:exclusives/pillager_outpost_oriental",
+				"towns_and_towers:exclusives/pillager_outpost_swedish",
+				"towns_and_towers:exclusives/pillager_outpost_iberian",
+				"towns_and_towers:exclusives/pillager_outpost_rustic"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

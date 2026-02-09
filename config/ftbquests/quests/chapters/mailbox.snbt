@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "mailbox"
 	group: ""
 	icon: "kubejs:letter"
@@ -28,17 +29,31 @@
 			icon_scale: 1.5d
 			id: "50636F87241A3723"
 			invisible: true
-			rewards: [{
-				id: "5CC7280EEEDBF1A7"
-				item: {
-					Count: 1
-					id: "minecraft:splash_potion"
-					tag: {
-						Potion: "minecraft:strong_swiftness"
-					}
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/execute at @p run summon bee ~ ~2 ~ {Tags:[\"messenger_bee\"],CustomName:'{\"text\":\"Post-Courier Bee\"}',ActiveEffects:[{Id:24,Amplifier:0,Duration:1200,ShowParticles:0b}]}"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "kubejs:letter"
+					id: "264B1D0E59E898A9"
+					silent: true
+					team_reward: false
+					title: "New Mail!"
+					type: "command"
 				}
-				type: "item"
-			}]
+				{
+					id: "69B4641A2EBAAFB4"
+					item: {
+						Count: 1
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:strong_swiftness"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "none"
 			size: 1.5d
 			subtitle: "&3From:&r &o&4The Caretaker of Souls&r&r"
@@ -70,13 +85,22 @@
 			}
 			icon_scale: 1.5d
 			id: "232B0386B038DAC0"
+			invisible: true
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/execute at @p run summon bee ~ ~2 ~ {Tags:[\"messenger_bee\"],CustomName:'{\"text\":\"Post-Courier Bee\"}',ActiveEffects:[{Id:24,Amplifier:0,Duration:1200,ShowParticles:0b}]}"
 					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "kubejs:item/letter"
+						}
+					}
 					id: "4D6029D62BB3C097"
 					silent: true
+					title: "New Mail!"
 					type: "command"
 				}
 				{
@@ -96,6 +120,51 @@
 			title: "⚔ &b&lSIZE MATTERS!&r (URGENT)"
 			x: 0.0d
 			y: 3.0d
+		}
+		{
+			description: [
+				"&o&7Our associate recently visited your location. Did you find his trades useful? &r"
+				""
+				"&o&7Or did you just lead a zombie to him for his leads? &r"
+				""
+				"&o&7Please respond with a stack of&r &bDiamonds&r &o&7if you wish to opt-out of our 'Frequent Visitor' program.&r"
+			]
+			icon: "kubejs:letter"
+			icon_scale: 1.5d
+			id: "0C818E3CF87E5539"
+			invisible: true
+			require_sequential_tasks: true
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/execute at @p run summon bee ~ ~2 ~ {Tags:[\"messenger_bee\"],CustomName:'{\"text\":\"Post-Courier Bee\"}',ActiveEffects:[{Id:24,Amplifier:0,Duration:1200,ShowParticles:0b}]}"
+					elevate_perms: true
+					icon: "kubejs:letter"
+					id: "247015E06AAEB643"
+					silent: true
+					title: "New Mail!"
+					type: "command"
+				}
+				{
+					id: "616B85CD052B23FB"
+					item: "minecraft:lead"
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 1.5d
+			subtitle: "&3From:&r &6The Traveling Salesman League&r"
+			tasks: [{
+				disable_toast: true
+				id: "1391CA35DAB0505B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:wandering_trader"
+				type: "observation"
+			}]
+			title: "Customer Feedback Survey"
+			x: -1.5d
+			y: 7.5d
 		}
 	]
 	title: "&9⭐ Mailbox&r"

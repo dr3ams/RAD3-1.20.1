@@ -6,6 +6,8 @@ StartupEvents.registry('item', event => {
 	// Register new items here
 	// event.create('example_item').displayName('Example Item')
 	
+//event.create('roguelite_ring').displayName('Ring of Rebirth').unstackable().glow(true).tag('curios:ring')
+	
 //processing
 //event.create('hammer_iron', 'pickaxe').tier('iron').maxDamage(250)
 event.create('wooden_form').displayName('Wooden Form').maxDamage(64)
@@ -19,6 +21,7 @@ event.create('rick').displayName('Pet Coal').unstackable().burnTime(60000).rarit
 event.create('socketweaver').displayName('Socket Weaver')
 event.create('gem_shard').displayName('Gem Shard')
 event.create('gem_shard_great').displayName('Greater Gem Shard').rarity('Uncommon')
+event.create('gem_shard_geode').displayName('Gem Shard Geode').rarity('Rare')
 
 //coins
 //quest coins
@@ -86,12 +89,44 @@ event.create('spawnercore').displayName('Spawner Core').rarity('Uncommon')
 
 event.create('contraband').displayName('Contraband Shipment').rarity('Uncommon')
 
+event.create('mending').displayName('Mending').texture('minecraft:item/enchanted_book').glow(true)
+
 //interactables
-event.create('book_old').displayName('Battered Old Book')
-event.create('book_ancient').displayName('Ancient Book')
-event.create('canned_food').displayName('Canned Food')
-event.create('lost_bag').displayName('Lost Bag')
-event.create('detonator').displayName('Detonator').unstackable()
+	event.create('mage_bag').displayName('Magic Satchel')
+	event.create('gemcutters_pouch').displayName('Gemcutters Pouch')
+	event.create('gemcutters_pouch_greater').displayName('Gemcutters Pouch').texture('kubejs:item/gemcutters_pouch')
+
+	event.create('unidentified_glyph_scroll').displayName('Unidentified Glyph Scroll')
+	event.create('unidentified_glyph_scroll_2').displayName('Unidentified Glyph Scroll').texture('kubejs:item/unidentified_glyph_scroll')
+	event.create('unidentified_glyph_scroll_3').displayName('Unidentified Glyph Scroll').texture('kubejs:item/unidentified_glyph_scroll')
+
+	event.create('fortune_cookie').displayName('Fortune Cookie').food(f => { f.hunger(2).saturation(0.1) })
+	event.create('book_old').displayName('Battered Old Book')
+	event.create('book_ancient').displayName('Ancient Book')
+	event.create('canned_food').displayName('Canned Food')
+	event.create('lost_bag').displayName('Lost Bag')
+	event.create('ore_bag').displayName('Ore Bag')
+	event.create('reagent_box').displayName('Reagent Box')
+	event.create('detonator').displayName('Detonator').unstackable()
+	event.create('rusty_key').displayName('Rusty Key')
+	event.create('unstable_battery').displayName('Unstable Battery').unstackable()
+	event.create('emergency_flare').displayName('Emergency Flare')
+	event.create('bee_jar').displayName('Jar of Distraction').unstackable()
+	event.create('data_slate').displayName('Encoded Data Slate')
+	event.create('sentry_remote').displayName('Sentry Remote')
+	event.create('bioscan_syringe').displayName('Bio Extractor')
+	event.create('charged_stinger').displayName('Charged Stinger').food(food => {food.hunger(6).saturation(1.2)})
+	event.create('magnetic_grapple').displayName('Magnetic Grapple').maxDamage(32)
+	event.create('thermal_paste').displayName('Liquid Acid')
+	event.create('echo_locator').displayName('Echo-Locator').maxDamage(4)
+	event.create('kinetic_dampener').displayName('Kinetic Dampener').maxDamage(32).unstackable();
+    event.create('scavenger_magnet').displayName('Scavenger Magnet').maxDamage(100).unstackable();
+    event.create('translocation_coil').displayName('Translocation Coil').maxDamage(25).unstackable();
+	event.create('void_core').displayName('Void Core').unstackable();
+	
+	event.create('berserk_draught').displayName('Berserk Draught')
+	event.create('bottled_ice').displayName('Bottled Ice')
+
     event.create('ancient_crate').displayName('§6Ancient Loot Crate').glow(true).tooltip('§7Right-click to open. §4Watch out for Mimics!')
     // The Skeleton Key
     event.create('skeleton_key').displayName('§bSkeleton Key').glow(true).tooltip('§7Bypasses crate cooldown and doubles Luck.')
@@ -106,16 +141,15 @@ event.create('detonator').displayName('Detonator').unstackable()
 	event.create('echo_crate').displayName('§6Echo Loot Crate')	
 	event.create('botanical_crate').displayName('§6Botanical Loot Crate').maxStackSize(1)
 	//Astrolabe
-    event.create('seers_astrolabe')
-         .displayName('Seer\'s Astrolabe')
+    event.create('echo_extractor')
+         .displayName('Echo Extractor')
          .unstackable()
          .glow(true)
-         .tooltip('§7A device used to pull artifacts from structural echoes');
 
     // The Consumable "Fuel"
     event.create('blessed_incense')
          .displayName('Blessed Incense')
-         .tooltip('§8Fuel for the Astrolabe. Smells of ancient ozone');
+         .tooltip('§8Fuel for Echo Extractor. Smells of ancient ozone');
 	event.create('spam_voucher')
         .displayName('§bBarnaby\'s Discount Voucher§r')
         .texture('minecraft:item/paper') // Standard paper texture
@@ -125,9 +159,8 @@ event.create('detonator').displayName('Detonator').unstackable()
          .displayName('Ancient Sealed Tome')
          .glow(true)
 		 .unstackable()
-         .tooltip('§6A book filled with whispers of a forgotten era.');
-	event.create('seers_journal')
-         .displayName('Seer\'s Journal')
+	event.create('chronicle_of_echoes')
+         .displayName('Chronicle of Echoes')
          .unstackable()
          .texture('minecraft:item/writable_book')
          .glow(true)
@@ -154,6 +187,47 @@ event.create('detonator').displayName('Detonator').unstackable()
          .maxStackSize(1)
          .unstackable()
          .maxDamage(32);	 
+		 
+	event.create('d6')
+         .displayName('D6 Dice')
+         .maxStackSize(1)
+         .unstackable()
+         .maxDamage(32)
+		 .texture('kubejs:item/dice')
+	event.create('d10')
+         .displayName('D10 Dice')
+         .maxStackSize(1)
+         .unstackable()
+         .maxDamage(32)
+		 .texture('kubejs:item/dice')
+	event.create('d12')
+         .displayName('D12 Dice')
+         .maxStackSize(1)
+         .unstackable()
+         .maxDamage(32)
+		 .texture('kubejs:item/dice')
+	event.create('d20')
+         .displayName('D20 Dice')
+         .maxStackSize(1)
+         .unstackable()
+         .maxDamage(32)
+		 .texture('kubejs:item/dice')
+	event.create('unfinished_dice')
+         .displayName('Unfinished Dice')
+         .maxStackSize(1)
+         .unstackable()
+         .maxDamage(32)
+		 .texture('kubejs:item/dice')	
+
+	event.create('item_recycler')
+        .displayName('Portable Matter Recycler')
+        .unstackable()
+		
+	event.create('recycling_journal')
+        .displayName('§bJournal of Recycling§r')
+        .unstackable()
+		.texture('minecraft:item/writable_book')
+        .glow(true)
 
 //exchange coins
 event.create('coin_01').displayName('Coin').tooltip('Acquired by selling valuable materials')
@@ -167,7 +241,7 @@ event.create('quest_bundle').displayName('Leather Bundle').tooltip('Quest Item')
 event.create('quest_note').displayName('Note').tooltip('Quest Item')
 event.create('quest_crate').displayName('Crate').tooltip('Quest Item')
 
-event.create('great_soul').displayName('Great Soul').rarity('Epic').tooltip('The soul of a powerful monster. Used for crafting the strongest items and enchantments.')
+event.create('great_soul').displayName('Great Soul').rarity('Epic')
 
 //gear upgrades
 event.create('scroll_proficiency').displayName('Proficiency Scroll').rarity('Epic').texture('kubejs:item/manuscript')
@@ -239,7 +313,6 @@ event.create('spellbook_01d').displayName('Spellbook')
 event.create('spyglass').displayName('Spyglass')
 event.create('levelup').displayName('Level Up')
 event.create('shield').displayName('Shield')
-event.create('ring').displayName('Ring')
 event.create('amulet').displayName('Amulet')
 event.create('rucksack').displayName('Rucksack')
 event.create('bomb').displayName('Bomb')

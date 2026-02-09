@@ -1,0 +1,34 @@
+{
+  "target": "minecraft:creeper",
+  "properties": [
+    {
+      "property": "equipment",
+      "slot": "head",
+      "items": [
+        {
+          "item": "simplehats:fakefire",
+          "functions": [
+            {
+              "function": "enchant",
+              "type": "single",
+              "enchantment": "l2hostility:vanish"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "deepness",
+              "y": {
+                "min": -60,
+                "max": 0
+              }
+            },
+            {
+              "condition": "chance",
+              "chance": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

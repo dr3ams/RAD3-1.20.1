@@ -1,13 +1,17 @@
 {
+	// Particle Settings
 	"triggerOwnParticle": true,
 	"showOtherPlayerParticle": true,
+	// Particle Plane Settings
+	"tripleLayerParticlePlane": true,
+	"particleLayerOffsetFromMiddle": 0.014999999664723873,
 	"particle_alpha": 0.5,
 	"light_particle_alpha": 0.800000011920929,
-	// Camera swing & shake effect
-	"cameraShakeFPP": true,
+	// Camera Swing and Shake Effect (Max ShakeFloat is 4.0f
+	"cameraShakeFPP": false,
 	"cameraFPPSwingStrength": 8.0,
-	"cameraFPPShakeTicks": 8,
-	"cameraShakeTPP": true,
+	"cameraFPPShakeFloat": 1.600000023841858,
+	"cameraShakeTPP": false,
 	"cameraTPPSwingStrength": 1.0,
-	"cameraTPPShakeTicks": 2
+	"cameraTPPShakeFloat": 1.0
 }

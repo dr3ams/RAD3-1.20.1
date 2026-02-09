@@ -103,7 +103,7 @@ LootJS.modifiers((event) => {
 		.when((c) => c.randomChance(0.05))
 		.limitCount([0, 1]));
 
-	// Replacing mob drops
+	// Replacing HMaG drops with Spelunkery items
 	event.addLootTypeModifier(LootType.ENTITY)
 		.replaceLoot("hmag:diamond_fragment", "spelunkery:rough_diamond_shard")
 		.replaceLoot("hmag:emerald_fragment", "spelunkery:emerald_shard")
@@ -211,21 +211,181 @@ LootJS.modifiers((event) => {
 			LootEntry.of("kubejs:coin_dungeon").when((c) => c.randomChance(0.2)).limitCount([1, 1])
 		);
 
+/*     event.addLootTypeModifier([LootType.CHEST])
+        .pool((pool) => {
+            pool.rolls(1); // Ensures only 1 item from this pool is chosen
+
+            // Syntax: LootEntry.of(item, weight)
+            // Common
+            pool.addLoot(LootEntry.of("kubejs:canned_food", 25).limitCount([1, 2]));
+            pool.addLoot(LootEntry.of("kubejs:book_old", 20).limitCount([1, 2]));
+            
+            // Uncommon
+            pool.addLoot(LootEntry.of("kubejs:lost_bag", 15));
+            pool.addLoot(LootEntry.of("kubejs:data_slate", 12));
+            pool.addLoot(LootEntry.of("kubejs:map_fragment", 10));
+
+            // Rare
+            pool.addLoot(LootEntry.of("kubejs:emergency_flare", 8));
+            pool.addLoot(LootEntry.of("kubejs:bee_jar", 6));
+            pool.addLoot(LootEntry.of("kubejs:rusty_key", 5));
+
+            // Very Rare
+            pool.addLoot(LootEntry.of("kubejs:detonator", 4));
+            pool.addLoot(LootEntry.of("kubejs:unstable_battery", 3));
+
+            // Empty chance (using a helper or an item that won't drop)
+            // If the wiki doesn't specify LootEntry.empty weight, 
+            // you can use an invalid item or a dummy entry.
+            pool.addLoot(LootEntry.of("minecraft:air", 60));
+        });*/
+
 	event.addLootTypeModifier([LootType.CHEST])
-		.addLoot(
-			LootEntry.of("kubejs:map_fragment").when((c) => c.randomChance(0.05)).limitCount([1, 1]),
-			LootEntry.of("kubejs:book_old").when((c) => c.randomChance(0.2)).limitCount([1, 2]),
-			LootEntry.of("kubejs:canned_food").when((c) => c.randomChance(0.2)).limitCount([1, 2]),
-			LootEntry.of("kubejs:book_ancient").when((c) => c.randomChance(0.15)).limitCount([1, 1]),
-			LootEntry.of("kubejs:lost_bag").when((c) => c.randomChance(0.1)).limitCount([1, 1]),
-			LootEntry.of("kubejs:detonator").when((c) => c.randomChance(0.1)).limitCount([1, 1])
-		);
+	.addAlternativesLoot(
+            // --- (1% - 5%) ---
+            LootEntry.of("kubejs:translocation_coil").when(c => c.randomChance(0.05)),
+			LootEntry.of("kubejs:sentry_remote").when(c => c.randomChance(0.05)),
+            LootEntry.of("kubejs:gamblers_coin").when(c => c.randomChance(0.05)),
+            LootEntry.of("kubejs:unstable_battery").when(c => c.randomChance(0.05)),
+            LootEntry.of("kubejs:echo_locator").when(c => c.randomChance(0.05)),
+            LootEntry.of("kubejs:magnetic_grapple").when(c => c.randomChance(0.05)),
+            LootEntry.of("kubejs:detonator").when(c => c.randomChance(0.05)),
 
+            // --- (6% - 10%) ---
+            LootEntry.of("kubejs:buzzing_living_branch").when(c => c.randomChance(0.06)),
+			LootEntry.of("kubejs:bioscan_syringe").when(c => c.randomChance(0.06)),
+            LootEntry.of("kubejs:living_branch_bridging").when(c => c.randomChance(0.07)),
+            LootEntry.of("kubejs:rusty_key").when(c => c.randomChance(0.07)),
+            LootEntry.of("kubejs:d6").when(c => c.randomChance(0.08)),
+            LootEntry.of("kubejs:living_branch").when(c => c.randomChance(0.09)),
+            LootEntry.of("kubejs:kinetic_dampener").when(c => c.randomChance(0.10)),
+            LootEntry.of("kubejs:scavenger_magnet").when(c => c.randomChance(0.10)),
 
-	event.addLootTypeModifier([LootType.CHEST])
-		.anyDimension("minecraft:overworld")
-		.replaceLoot("apotheosis:gem", "kubejs:gem_shard");
+            // --- (12% - 15%) ---
+            LootEntry.of("kubejs:emergency_flare").when(c => c.randomChance(0.12)),
+            LootEntry.of("kubejs:bee_jar").when(c => c.randomChance(0.12)),
+			LootEntry.of('kubejs:unidentified_glyph_scroll').when((c) => c.randomChance(0.15)),
+            LootEntry.of("kubejs:unfinished_dice").when(c => c.randomChance(0.15)),
+            LootEntry.of("kubejs:data_slate").when(c => c.randomChance(0.15)),
+            LootEntry.of("kubejs:map_fragment").when(c => c.randomChance(0.15)),
+			LootEntry.of("kubejs:thermal_paste").when(c => c.randomChance(0.15)),
+			LootEntry.of("kubejs:berserk_draught").when(c => c.randomChance(0.15)),
+			LootEntry.of("kubejs:bottled_ice").when(c => c.randomChance(0.15)),
 
+            // --- (25%) ---
+			LootEntry.of("kubejs:blessed_incense").when(c => c.randomChance(0.20)),
+			LootEntry.of("kubejs:coin_dungeon").limitCount([1, 1]).when((c) => c.randomChance(0.2)),
+            LootEntry.of("kubejs:lost_bag").when(c => c.randomChance(0.25)),
+            LootEntry.of("kubejs:ore_bag").when(c => c.randomChance(0.25)),
+			LootEntry.of('kubejs:gem_shard').when((c) => c.randomChance(0.25)),
+
+            // --- FALLBACKS ---
+            LootEntry.of("kubejs:book_old").limitCount([1, 2]).when(c => c.randomChance(0.5)),
+			LootEntry.of("kubejs:book_ancient").limitCount([1, 1]).when(c => c.randomChance(0.5)),
+			LootEntry.of("kubejs:blessed_incense").limitCount([1, 5]).when(c => c.randomChance(0.5)),
+            LootEntry.of("kubejs:canned_food").limitCount([1, 2])
+        );
+
+	//event.addLootTypeModifier([LootType.CHEST])
+	//	.anyDimension("minecraft:overworld")
+	//	.replaceLoot("apotheosis:gem", "kubejs:gem_shard");
+
+    event.addLootTypeModifier([LootType.CHEST])
+        .hasAnyStage("milestone_undergarden")
+        .anyStructure([
+            "graveyard:crypt", "graveyard:lich_prison", "dungeons_arise:mining_system", "dungeons_arise:scorched_mines", "dungeons_enhanced:monster_maze", 
+            "nova_structures:creeping_crypt", "dungeons_arise:plague_asylum", "dungeons_arise:foundry", "masiks_puzzle_dungeon:start", "takesapillage:bastille", 
+            "betterarcheology:catacombs", "dungeoncrawl:dungeon", "betterarcheology:light_temple", "betterdungeons:small_dungeon", "betterdungeons:skeleton_dungeon", 
+            "betterdungeons:spider_dungeon", "betterdungeons:zombie_dungeon", "dungeons_enhanced:large_dungeon", "dungeons_arise:mushroom_mines", 
+            "nova_structures:undead_crypt", "nova_structures:bunker", "darkerdepths:catacombs", "valhelsia_structures:spawner_dungeon", "ati_structures:underground_monument", 
+            "ati_structures:spider_nest", "ati_structures:wither_cavern", "mowziesmobs:wrought_chamber", "dungeonsdelight:rotten_dungeon", 
+            "embers:small_ruin", "feur_dungeon_spawner:dungeon_mineshaft", "minecraft:mineshafts", "ntrials:trials", "takesapillage:pillager_camp", 
+            "nova_structures:stray_fort", "dungeons_arise:bandit_village", "dungeons_arise:illager_windmill", "dungeons_arise:greenwood_pub", 
+            "dungeons_arise:illager_campsite", "forgottenruins:savaged_library", "forgottenruins:desert_library", "forgottenruins:desert_temple", 
+            "dungeons_arise:illager_fort", "dungeons_arise:merchant_campsite", "ars_elemental:starbuncle_shrine", "ati_structures:deepslate_keep", 
+            "ati_structures:haunted_ruin", "ati_structures:nomadic_camp", "ati_structures:rotting_temple", "ati_structures:storage_house", 
+            "ati_structures:storage_shack", "ati_structures:dark_tower", "ati_structures:small_keep", "ati_structures:illager_tower", 
+            "ati_structures:lighthouse", "ati_structures:overgrown_outpost", "ati_structures:wither_keep", "ati_structures:dark_keep", 
+            "ati_structures:ancient_temple", "ati_structures:fortified_temple", "ati_structures:granite_fort", "ati_structures:herobrine_stronghold", 
+            "ati_structures:jungle_settlement", "ati_structures:manor", "ati_structures:old_fort", "ati_structures:quarry", "ati_structures:tavern", 
+            "ati_structures:villager_inn", "ati_structures:woodland_keep", "ati_structures:steam_house", "ati_structures:jungle_grotto", 
+            "ati_structures:castillo", "ati_structures:ati_stoneworks", "ati_structures:old_residence", "ati_structures:catalonian_castle", 
+            "ars_nouveau:guardian_wilden_den", "ars_nouveau:stalker_wilden_den", "ars_nouveau:hunter_wilden_den", "betterarcheology:archeologist_camp_grassy"
+        ], true)
+        .addAlternativesLoot(
+            LootEntry.of('hmag:netherite_nugget').when((c) => c.randomChance(0.1)),
+            LootEntry.of('uniqueaccessories:accessory_box').when((c) => c.randomChance(0.05)),
+            LootEntry.of('kubejs:scroll_exp_great').when((c) => c.randomChance(0.15)),
+			LootEntry.of('kubejs:unidentified_glyph_scroll_2').when((c) => c.randomChance(0.1)),
+			LootEntry.of('kubejs:unidentified_glyph_scroll_3').when((c) => c.randomChance(0.05)),
+            LootEntry.of('apotheotic_additions:infused_coin').when((c) => c.randomChance(0.2)),
+            LootEntry.of('embers:silver_crystal_seed').when((c) => c.randomChance(0.1)),
+            LootEntry.of('embers:lead_crystal_seed').when((c) => c.randomChance(0.1)),
+            LootEntry.of('kubejs:gemcutters_pouch_greater').when((c) => c.randomChance(0.02)),
+            LootEntry.of('apotheosis:prismatic_web').when((c) => c.randomChance(0.08)),
+            LootEntry.of('relics:relic_experience_bottle').when((c) => c.randomChance(0.12)),
+            LootEntry.of('minecraft:golden_apple').when((c) => c.randomChance(0.2)),
+            LootEntry.of('minecraft:echo_shard').when((c) => c.randomChance(0.05)),
+            LootEntry.of('apotheosis:warden_tendril').when((c) => c.randomChance(0.03)),
+            LootEntry.of('kubejs:reagent_box').when((c) => c.randomChance(0.1)),
+            LootEntry.of('apotheosis:epic_material').when((c) => c.randomChance(0.15)),
+			LootEntry.of("kubejs:map_fragment").when(c => c.randomChance(0.15)),
+            LootEntry.of('apotheosis:rare_material').when((c) => c.randomChance(0.25)),
+            LootEntry.of('apotheosis:boss_summoner').when((c) => c.randomChance(0.05)),
+            LootEntry.of('hmag:tiny_netherite_scrap').when((c) => c.randomChance(0.07)),
+            LootEntry.of('apotheosis:sigil_of_enhancement').when((c) => c.randomChance(0.04)),
+            LootEntry.of('kubejs:gem_shard_great').when((c) => c.randomChance(0.1))
+        );
+
+    event.addLootTypeModifier([LootType.CHEST])
+        .hasAnyStage("milestone_wither")
+        .anyStructure([
+            "graveyard:crypt", "graveyard:lich_prison", "dungeons_arise:mining_system", "dungeons_arise:scorched_mines", "dungeons_enhanced:monster_maze", 
+            "nova_structures:creeping_crypt", "dungeons_arise:plague_asylum", "dungeons_arise:foundry", "masiks_puzzle_dungeon:start", "takesapillage:bastille", 
+            "betterarcheology:catacombs", "dungeoncrawl:dungeon", "betterarcheology:light_temple", "betterdungeons:small_dungeon", "betterdungeons:skeleton_dungeon", 
+            "betterdungeons:spider_dungeon", "betterdungeons:zombie_dungeon", "dungeons_enhanced:large_dungeon", "dungeons_arise:mushroom_mines", 
+            "nova_structures:undead_crypt", "nova_structures:bunker", "darkerdepths:catacombs", "valhelsia_structures:spawner_dungeon", "ati_structures:underground_monument", 
+            "ati_structures:spider_nest", "ati_structures:wither_cavern", "mowziesmobs:wrought_chamber", "dungeonsdelight:rotten_dungeon", 
+            "embers:small_ruin", "feur_dungeon_spawner:dungeon_mineshaft", "minecraft:mineshafts", "ntrials:trials", "takesapillage:pillager_camp", 
+            "nova_structures:stray_fort", "dungeons_arise:bandit_village", "dungeons_arise:illager_windmill", "dungeons_arise:greenwood_pub", 
+            "dungeons_arise:illager_campsite", "forgottenruins:savaged_library", "forgottenruins:desert_library", "forgottenruins:desert_temple", 
+            "dungeons_arise:illager_fort", "dungeons_arise:merchant_campsite", "ars_elemental:starbuncle_shrine", "ati_structures:deepslate_keep", 
+            "ati_structures:haunted_ruin", "ati_structures:nomadic_camp", "ati_structures:rotting_temple", "ati_structures:storage_house", 
+            "ati_structures:storage_shack", "ati_structures:dark_tower", "ati_structures:small_keep", "ati_structures:illager_tower", 
+            "ati_structures:lighthouse", "ati_structures:overgrown_outpost", "ati_structures:wither_keep", "ati_structures:dark_keep", 
+            "ati_structures:ancient_temple", "ati_structures:fortified_temple", "ati_structures:granite_fort", "ati_structures:herobrine_stronghold", 
+            "ati_structures:jungle_settlement", "ati_structures:manor", "ati_structures:old_fort", "ati_structures:quarry", "ati_structures:tavern", 
+            "ati_structures:villager_inn", "ati_structures:woodland_keep", "ati_structures:steam_house", "ati_structures:jungle_grotto", 
+            "ati_structures:castillo", "ati_structures:ati_stoneworks", "ati_structures:old_residence", "ati_structures:catalonian_castle", 
+            "ars_nouveau:guardian_wilden_den", "ars_nouveau:stalker_wilden_den", "ars_nouveau:hunter_wilden_den", "betterarcheology:archeologist_camp_grassy"
+        ], true)
+        .addAlternativesLoot(
+            LootEntry.of('minecraft:prismarine_shard').when((c) => c.randomChance(0.2)),
+            LootEntry.of('kubejs:scroll_exp').when((c) => c.randomChance(0.15)),
+			LootEntry.of('kubejs:unidentified_glyph_scroll').when((c) => c.randomChance(0.1)),
+			LootEntry.of('kubejs:unidentified_glyph_scroll_2').when((c) => c.randomChance(0.05)),
+            LootEntry.of('apotheosis:gem_dust').when((c) => c.randomChance(0.25)),
+            LootEntry.of('hmag:soul_powder').when((c) => c.randomChance(0.1)),
+            LootEntry.of('minecraft:sculk_vein').when((c) => c.randomChance(0.2)),
+            LootEntry.of('kubejs:gemcutters_pouch').when((c) => c.randomChance(0.05)),
+            LootEntry.of('embers:copper_crystal_seed').when((c) => c.randomChance(0.08)),
+            LootEntry.of('embers:iron_crystal_seed').when((c) => c.randomChance(0.08)),
+			LootEntry.of("kubejs:map_fragment").when(c => c.randomChance(0.15)),
+            LootEntry.of('embers:gold_crystal_seed').when((c) => c.randomChance(0.08)),
+            LootEntry.of('kubejs:ore_bag').when((c) => c.randomChance(0.12)),
+            LootEntry.of('apotheosis:uncommon_material').when((c) => c.randomChance(0.2)),
+            LootEntry.of('minecraft:ender_pearl').when((c) => c.randomChance(0.15)),
+            LootEntry.of('minecraft:enchanted_golden_apple').when((c) => c.randomChance(0.01)),
+            LootEntry.of('hmag:evil_crystal_fragment').when((c) => c.randomChance(0.07)),
+            LootEntry.of('fantasy_armor:moon_crystal').when((c) => c.randomChance(0.05)),
+            LootEntry.of('apotheotic_additions:apotheotic_coin').when((c) => c.randomChance(0.18)),
+            LootEntry.of('skilltree:amnesia_scroll').when((c) => c.randomChance(0.03)),
+            LootEntry.of('minecraft:raw_gold').when((c) => c.randomChance(0.25)),
+            LootEntry.of('apotheosis:sigil_of_rebirth').when((c) => c.randomChance(0.04)),
+            LootEntry.of('apotheosis:common_material').when((c) => c.randomChance(0.3)),
+            LootEntry.of('kubejs:mage_bag').when((c) => c.randomChance(0.1)),
+            LootEntry.of('kubejs:gem_shard').when((c) => c.randomChance(0.15))
+        );
 
 	// OVERWORLD-QUEST custom chest loot
 	event.addLootTypeModifier([LootType.CHEST])
