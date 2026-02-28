@@ -36,8 +36,8 @@ ServerEvents.recipes(event => {
         // Aether
         ['aether:zanite', 'aether:zanite_gemstone', 'minecraft:leather'],
         ['deep_aether:skyjade', 'deep_aether:skyjade', 'minecraft:leather'],
-        ['aether:gravitite', 'aether:enchanted_gravitite', 'aether:zanite'],
-        ['aether:gravitite', 'aether:enchanted_gravitite', 'deep_aether:skyjade'],
+        ['aether:gravitite', 'aether_redux:gravitite_ingot', 'aether:zanite'],
+        ['aether:gravitite', 'aether_redux:gravitite_ingot', 'deep_aether:skyjade'],
         ['ancient_aether:valkyrum', 'ancient_aether:valkyrum', 'aether:zanite'],
 		['ancient_aether:valkyrum', 'ancient_aether:valkyrum', 'deep_aether:skyjade'],
         ['deep_aether:stratus', 'deep_aether:stratus_ingot', 'aether:gravitite'],
