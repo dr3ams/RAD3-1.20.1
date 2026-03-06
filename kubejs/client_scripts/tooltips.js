@@ -1504,7 +1504,9 @@ ItemEvents.tooltip(event =>{
       text.add(1, [Text.of('The soul of a powerful monster').darkRed().italic(true)])
 	  text.add(2, [Text.of('Used for crafting the strongest items and enchantments').darkPurple()])
 	})
-	
+	event.addAdvanced('ars_nouveau:mob_jar', (item, advanced, text) => {
+    text.add(1, Text.of('Not strong enough to contain powerful monsters').red()) 
+	})
 	
 	
 
@@ -1853,3 +1855,4 @@ ClientEvents.lang('en_us', event => {
   event.renameItem('graveyard:lower_bone_staff', 'Tail of the Beast King')
 
 })
+
