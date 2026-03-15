@@ -319,7 +319,7 @@
 			]
 			title: "Diamond Coin -> Relics Crate"
 			x: 8.0d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
 			can_repeat: true
@@ -348,7 +348,7 @@
 			}]
 			title: "Gold Coin -> Artifacts Crate"
 			x: 5.0d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
 			can_repeat: true
@@ -547,7 +547,7 @@
 			}]
 			title: "Common Hat Bag"
 			x: -10.0d
-			y: -8.0d
+			y: -9.0d
 		}
 		{
 			can_repeat: true
@@ -610,7 +610,7 @@
 			}]
 			title: "Epic Hat Bag"
 			x: 8.0d
-			y: -8.0d
+			y: -9.0d
 		}
 		{
 			can_repeat: true
@@ -644,18 +644,16 @@
 				type: "choice"
 			}]
 			tasks: [{
-				consume_items: true
 				count: 64L
-				disable_toast: true
-				id: "211372CDA8610E27"
+				id: "1E74005C7115CDB0"
 				item: {
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "regions_unexplored:logs"
+						value: "minecraft:logs_that_burn"
 					}
 				}
-				title: "Any #regions_unexplored:logs"
+				title: "Any #minecraft:logs_that_burn"
 				type: "item"
 			}]
 			title: "Exchange modded logs -> Regular logs"
@@ -1014,7 +1012,7 @@
 			]
 			title: "Diamond Coin -> Celestial Artifact"
 			x: 8.0d
-			y: -5.0d
+			y: -6.0d
 		}
 		{
 			can_repeat: true
@@ -1157,7 +1155,7 @@
 			}]
 			title: "Magic Loot Crate"
 			x: 5.0d
-			y: -5.0d
+			y: -4.0d
 		}
 		{
 			can_repeat: true
@@ -1195,7 +1193,7 @@
 			}]
 			title: "Bottle of Curse"
 			x: -10.0d
-			y: -5.0d
+			y: -6.0d
 		}
 		{
 			can_repeat: true
@@ -1214,7 +1212,7 @@
 			}]
 			title: "Bottle of Sanity"
 			x: -10.0d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
 			icon: {
@@ -1253,11 +1251,11 @@
 			tasks: [{
 				consume_items: true
 				id: "20F6CC8FE0C069D7"
-				item: "kubejs:gold_coin"
+				item: "kubejs:diamond_coin"
 				type: "item"
 			}]
 			title: "The Questing Sword"
-			x: 5.0d
+			x: 8.0d
 			y: -4.0d
 		}
 		{
@@ -1272,12 +1270,12 @@
 			tasks: [{
 				consume_items: true
 				id: "53E6876A5FBAAE14"
-				item: "kubejs:diamond_coin"
+				item: "kubejs:gold_coin"
 				type: "item"
 			}]
 			title: "Totem of Undying"
-			x: 8.0d
-			y: -7.0d
+			x: 5.0d
+			y: -6.0d
 		}
 		{
 			can_repeat: true
@@ -1296,7 +1294,7 @@
 			}]
 			title: "Traveler Scroll"
 			x: 8.0d
-			y: -4.0d
+			y: -5.0d
 		}
 		{
 			description: [
