@@ -89,7 +89,8 @@ LootJS.modifiers((event) => {
 		.replaceLoot("simplyswords:diamond_halberd", "spelunkery:rough_diamond")
 		.replaceLoot("simplyswords:diamond_longsword", "spelunkery:rough_diamond")
 		.replaceLoot("supplementaries:rope", "farmersdelight:rope")
-		.replaceLoot("darkerdepths:rope", "farmersdelight:rope");
+		.replaceLoot("darkerdepths:rope", "farmersdelight:rope")
+		.replaceLoot("aether:enchanted_gravitite", "aether_redux:gravitite_ingot");
 		
 	
 	// Blanket banning specific loot from mobs
