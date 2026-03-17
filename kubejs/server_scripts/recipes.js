@@ -54,12 +54,9 @@ const removals = [
   "ars_instrumentum:fake_wilden_tribute",
   "l2complements:eternal",
   "l2complements:invincible",
-  "l2complements:sculkium_helmet",
-  "l2complements:sculkium_chestplate",
-  "l2complements:sculkium_leggings",
-  "l2complements:sculkium_boots",
   "l2hostility:flaming_thorn",
   "l2hostility:book_of_omniscience",
+  "l2hostility:ring_of_divinity",
   "ars_trinkets:essence_lotus_3",
   "ars_trinkets:essence_lotus_4",
   "ars_trinkets:essence_lotus_5",
@@ -172,6 +169,7 @@ const removals = [
   "nameless_trinkets:ultimate_dust",
   "nameless_trinkets:glowing_dust",
   "tombstone:book_of_recycling",
+  "tombstone:book_of_magic_impregnation",
   "toms_storage:ts.open_crate",
   "toms_storage:ts.inventory_proxy",
   "toms_storage:ts.wireless_terminal",
@@ -202,6 +200,7 @@ const removals = [
   "celestial_artifacts:bearing_stamen",
   "celestial_artifacts:greedy_heart",
   "celestial_artifacts:deers_mercy_amulet",
+  "celestial_artifacts:deer_inscribed_amulet",
   "mining_dimension:teleporter",
   "apotheotic_additions:sacrificial_shelf",
   "apotheotic_additions:wavebinders_shelf",
@@ -220,7 +219,7 @@ const removals = [
   "dawnoftimebuilder:cobbled_limestone",
   "pandorasbox:pandoras_box",
   "betterarcheology:bomb",
-  
+  "cookingforblockheads:heating_unit",
   "fantasy_armor:moon_crystal"
 ];
 
@@ -460,16 +459,6 @@ ServerEvents.recipes((event) => {
     { output: "celestial_artifacts:yellow_duck" },
     "celestial_artifacts:life_etching",
     "l2complements:life_essence"
-  );
-  event.replaceInput(
-    { output: "celestial_artifacts:deer_inscribed_amulet" },
-    "celestial_core:light_fragment",
-    "celestial_core:midnight_fragment"
-  );
-  event.replaceInput(
-    { output: "celestial_artifacts:deer_inscribed_amulet" },
-    "minecraft:diamond",
-    "l2complements:totemic_gold_ingot"
   );
   event.replaceInput(
     { output: "celestial_artifacts:amethyst_reinforce_plate" },
@@ -813,6 +802,17 @@ ServerEvents.recipes((event) => {
 	T: 'celestial_core:treasure_fragment',
 	A: 'minecraft:enchanted_golden_apple'
   });
+  event.shaped('celestial_artifacts:deer_inscribed_amulet', [
+    'F F',
+    'IAI',
+    'MEM'
+	], {
+	F: 'minecraft:feather',
+	A: 'celestial_artifacts:deers_mercy_amulet',
+	I: 'l2complements:totemic_gold_ingot',
+	E: 'l2complements:life_essence',
+	M: 'celestial_core:midnight_fragment'
+  });
   event.shaped('nameless_trinkets:gods_crown', [
     'EHE',
     'GGG',
@@ -831,6 +831,28 @@ ServerEvents.recipes((event) => {
     F: 'l2complements:soul_flame',
 	T: 'bosses_of_mass_destruction:void_thorn',
 	E: 'bosses_of_mass_destruction:blazing_eye'
+  });
+  event.shaped('l2hostility:book_of_omniscience', [
+    'CRC',
+    'EBE',
+    'CPC'
+	], {
+    B: 'l2hostility:book_of_reprint',
+	E: 'l2complements:eternium_ingot',
+	C: 'apotheotic_additions:ascended_coin',
+	R: 'l2hostility:ragnarok',
+	P: 'l2hostility:reprint'
+  });
+  event.shaped('l2hostility:ring_of_divinity', [
+    'IHI',
+    'DCD',
+    'IEI'
+	], {
+    I: 'l2complements:totemic_gold_ingot',
+	E: 'l2complements:life_essence',
+	C: 'l2hostility:chaos_ingot',
+	D: 'l2hostility:dispell',
+	H: 'l2complements:heirophant_green'
   });
   event.shaped('minecraft:dragon_head', [
     'ESS',
@@ -932,50 +954,6 @@ ServerEvents.recipes((event) => {
 	G: 'undergarden:depthrock_cloggrum_ore',
 	H: 'aether:zanite_ore',
 	I: 'landsoficaria:chalkos_ore'
-  });	
-  event.shaped('l2complements:sculkium_helmet', [
-    'T T',
-    'IDI',
-    'I I'
-	], {
-    I: 'l2complements:sculkium_ingot',
-	T: 'apotheosis:warden_tendril',
-	D: 'minecraft:reinforced_deepslate'
-  });
-  event.shaped('l2complements:sculkium_chestplate', [
-    'I I',
-    'DID',
-    'III'
-	], {
-    I: 'l2complements:sculkium_ingot',
-	D: 'minecraft:reinforced_deepslate'
-  });
-  event.shaped('l2complements:sculkium_leggings', [
-    'IDI',
-    'I I',
-    'I I'
-	], {
-    I: 'l2complements:sculkium_ingot',
-	D: 'minecraft:reinforced_deepslate'
-  });
-  event.shaped('l2complements:sculkium_boots', [
-    'I I',
-    'I I',
-    'D D'
-	], {
-    I: 'l2complements:sculkium_ingot',
-	D: 'minecraft:reinforced_deepslate'
-  });
-  event.shaped('l2hostility:book_of_omniscience', [
-    'CRC',
-    'EBE',
-    'CPC'
-	], {
-    B: 'l2hostility:book_of_reprint',
-	E: 'l2complements:eternium_ingot',
-	C: 'apotheotic_additions:ascended_coin',
-	R: 'l2hostility:ragnarok',
-	P: 'l2hostility:reprint'
   });
 
   event.stonecutting('cataclysm:black_steel_wall', 'cataclysm:black_steel_block')
