@@ -394,7 +394,7 @@ ServerEvents.recipes((event) => {
   event.replaceInput(
     { output: "sophisticatedbackpacks:everlasting_upgrade" },
     "minecraft:nether_star",
-    "l2complements:eternium_nugget"
+    "l2complements:eternium_ingot"
   );
   event.replaceInput(
     { output: "sophisticatedbackpacks:inception_upgrade" },
@@ -404,7 +404,7 @@ ServerEvents.recipes((event) => {
   event.replaceInput(
     { output: "sophisticatedbackpacks:anvil_upgrade" },
     "minecraft:diamond",
-    "l2complements:eternium_nugget"
+    "l2complements:eternium_ingot"
   );
   event.replaceInput(
     { output: "sophisticatedbackpacks:xp_pump_upgrade" },
