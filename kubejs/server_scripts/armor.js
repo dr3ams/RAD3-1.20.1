@@ -8,9 +8,9 @@ ServerEvents.recipes(event => {
         ['minecraft:netherite', 'minecraft:netherite_ingot', 'minecraft:diamond'],
         
         // Netherite
-        ['l2complements:eternium', 'l2complements:eternium_ingot', 'minecraft:netherite'],
-        ['cataclysm:cursium', 'cataclysm:cursium_ingot', 'minecraft:netherite'], 
-        ['cataclysm:ignitium', 'cataclysm:ignitium_ingot', 'minecraft:netherite'],
+        //['l2complements:eternium', 'l2complements:eternium_ingot', 'minecraft:netherite'],
+        //['cataclysm:cursium', 'cataclysm:cursium_ingot', 'minecraft:netherite'], 
+        //['cataclysm:ignitium', 'cataclysm:ignitium_ingot', 'minecraft:netherite'],
 
         // Sculkium/Shulker
         ['l2complements:sculkium', 'l2complements:sculkium_ingot', 'minecraft:diamond'],
