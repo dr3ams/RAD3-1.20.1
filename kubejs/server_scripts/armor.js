@@ -40,7 +40,7 @@ ServerEvents.recipes(event => {
         ['aether:gravitite', 'aether_redux:gravitite_ingot', 'deep_aether:skyjade'],
         ['ancient_aether:valkyrum', 'ancient_aether:valkyrum', 'aether:zanite'],
 		['ancient_aether:valkyrum', 'ancient_aether:valkyrum', 'deep_aether:skyjade'],
-        ['deep_aether:stratus', 'deep_aether:stratus_ingot', 'aether:gravitite'],
+        //['deep_aether:stratus', 'deep_aether:stratus_ingot', 'aether:gravitite'],
 
         // Icaria Path (Aeternae Hide branch)
         ['landsoficaria:chalkos', 'landsoficaria:chalkos_ingot', 'landsoficaria:aeternae_hide'],
