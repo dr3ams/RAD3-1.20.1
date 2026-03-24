@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
         // Main
         ['minecraft:iron', 'minecraft:iron_ingot', 'minecraft:leather'],
         ['minecraft:diamond', 'minecraft:diamond', 'minecraft:iron'],
-        ['minecraft:netherite', 'minecraft:netherite_ingot', 'minecraft:diamond'],
+        //['minecraft:netherite', 'minecraft:netherite_ingot', 'minecraft:diamond'],
         
         // Netherite
         //['l2complements:eternium', 'l2complements:eternium_ingot', 'minecraft:netherite'],
@@ -17,9 +17,9 @@ ServerEvents.recipes(event => {
         ['l2complements:shulkerate', 'l2complements:shulkerate_ingot', 'minecraft:iron'],
 
         // Ocean
-        ['celestial_core:ocean', 'celestial_core:ocean_ingot', 'minecraft:iron'],
-        ['aquaculture:neptunium', 'aquaculture:neptunium_ingot', 'celestial_core:ocean'],
-        ['l2complements:poseidite', 'l2complements:poseidite_ingot', 'celestial_core:ocean'],
+        ['celestial_core:guardian_ocean', 'celestial_core:guardian_ocean_ingot', 'minecraft:iron'],
+        ['aquaculture:neptunium', 'aquaculture:neptunium_ingot', 'celestial_core:guardian_ocean'],
+        ['l2complements:poseidite', 'l2complements:poseidite_ingot', 'celestial_core:guardian_ocean'],
 		['l2complements:poseidite', 'l2complements:poseidite_ingot', 'aquaculture:neptunium'],
 
         // Gold
