@@ -26,6 +26,20 @@ ServerEvents.tags('item', event => {
 	event.get('forge:dusts/ash')
 		.add('bonfires:ash_pile')
 		.add('darkerdepths:ash')
+		
+	event.get('rad3:rare_ingot')
+		.add('bloodmagic:ingot_hellforged')
+		.add('darkerdepths:forsaken_bronze_ingot')
+		.add('deep_aether:stratus_ingot')
+		.add('embers:dawnstone_ingot')
+		.add('l2hostility:chaos_ingot')
+		.add('naturesaura:depth_ingot')
+		.add('undergarden:forgotten_ingot')
+		
+	event.get('rad3:lightning_item')
+		.add('hmag:lightning_particle')
+		.add('l2complements:storm_core')
+		.add('aether:lightning_knife')
 	
 	event.get('rad3:coin_quest')
 		.add('kubejs:copper_coin')
