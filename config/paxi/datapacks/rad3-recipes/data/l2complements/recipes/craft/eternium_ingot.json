@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "1": {
+      "type": "l2library:enchantment",
+      "enchantment": "apotheosis:splitting",
+      "min_level": 1
+    },
+    "2": {
+      "type": "l2library:enchantment",
+      "enchantment": "apotheosis:obliteration",
+      "min_level": 1
+    },
+    "A": {
+      "tag": "rad3:lightning_item"
+    },
+    "B": {
+      "tag": "rad3:rare_ingot"
+    },
+    "C": {
+      "item": "kubejs:great_soul"
+    }
+  },
+  "pattern": [
+    "A1A",
+    "BCB",
+    "A2A"
+  ],
+  "result": {
+    "item": "l2complements:eternium_ingot"
+  },
+  "show_notification": true
+}
