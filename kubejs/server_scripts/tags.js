@@ -496,5 +496,21 @@ event.get('rad3:bloodmagicarmor')
 ////END	
 
 })
+ServerEvents.tags('block', event => {
 
+	event.get('better_beacons:beacon_redirect')
+		.add('regions_unexplored:prismarite_cluster')
+		.add('regions_unexplored:large_prismarite_cluster')
+		.add('regions_unexplored:hanging_prismarite')
+		.add('the_bumblezone:honey_crystal')
 
+	event.get('apotheosis:basic_skulls')
+		.add('minecraft:piglin_head')
+		.add('supplementaries:enderman_head')
+		.add('cataclysm:draugr_head')
+
+	event.get('rad3:super_cool_head')
+		.add('minecraft:dragon_head')
+		.add('cataclysm:aptrgangr_head')
+		.add('cataclysm:kobolediator_skull')
+})
