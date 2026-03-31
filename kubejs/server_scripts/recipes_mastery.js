@@ -47,7 +47,7 @@ ServerEvents.recipes((event) => {
     ['minecraft:raw_copper_block',         1, 'kubejs:scraps'],
     ['minecraft:blaze_powder',             2, 'kubejs:scraps'],
     ['apotheosis:gem_dust',                2, 'kubejs:scraps'],
-    ['minecraft:gold_block',               1, 'kubejs:scraps'],
+    ['minecraft:gold_block',               3, 'kubejs:scraps'],
     ['kubejs:spawnercore',                 2, 'kubejs:scraps'],
     ['shieldinghealth:power_token',        5, 'kubejs:scraps'],
     ['4x farmersdelight:rope',             1, 'kubejs:scraps'],
@@ -73,17 +73,17 @@ ServerEvents.recipes((event) => {
     {
       output: 'kubejs:portable_dissolver',
       pattern: ['EGE', 'GRG', 'ALA'],
-      key: { E: 'kubejs:dust_experience', G: 'minecraft:glass', R: 'minecraft:repeater', A: 'minecraft:amethyst_shard', L: 'minecraft:lapis_lazuli' }
+      key: { E: 'ars_nouveau:experience_gem', G: 'minecraft:glass', R: 'minecraft:repeater', A: 'minecraft:amethyst_shard', L: 'minecraft:lapis_lazuli' }
     },
     {
       output: 'kubejs:portable_transmutator',
       pattern: ['EGE', 'GRG', 'ALA'],
-      key: { E: 'kubejs:dust_alchemical', G: 'minecraft:glass', R: 'minecraft:comparator', A: 'minecraft:amethyst_shard', L: 'minecraft:lapis_lazuli' }
+      key: { E: 'minecraft:redstone', G: 'minecraft:glass', R: 'minecraft:comparator', A: 'minecraft:amethyst_shard', L: 'minecraft:lapis_lazuli' }
     },
     {
       output: 'kubejs:portable_salvager',
       pattern: ['EGE', 'GRG', 'ALA'],
-      key: { E: 'kubejs:scraps', G: 'minecraft:glass', R: 'minecraft:comparator', A: 'minecraft:amethyst_shard', L: 'minecraft:lapis_lazuli' }
+      key: { E: 'minecraft:gunpowder', G: 'minecraft:glass', R: 'minecraft:comparator', A: 'minecraft:amethyst_shard', L: 'minecraft:lapis_lazuli' }
     },
     {
       output: 'kubejs:sifter',

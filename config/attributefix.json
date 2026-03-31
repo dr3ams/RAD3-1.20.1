@@ -1903,6 +1903,17 @@
         "value": 100
       }
     },
+    "cataclysm:charge_time": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 512,
+        "value": 512
+      }
+    },
     "additional_attributes:spell_type_wither_skull": {
       "enabled": false,
       "min": {
@@ -2882,6 +2893,17 @@
         "value": 1
       }
     },
+    "cataclysm:nature_heal": {
+      "enabled": false,
+      "min": {
+        "default": -256,
+        "value": -256
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/blaze_storm": {
       "enabled": false,
       "min": {
@@ -3465,6 +3487,17 @@
         "value": 100
       }
     },
+    "cataclysm:additional_critical_damage": {
+      "enabled": false,
+      "min": {
+        "default": -512,
+        "value": -512
+      },
+      "max": {
+        "default": 512,
+        "value": 512
+      }
+    },
     "l2damagetracker:crit_rate": {
       "enabled": false,
       "min": {
@@ -3540,6 +3573,17 @@
       "max": {
         "default": 200,
         "value": 1000000
+      }
+    },
+    "cataclysm:eat_speed": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "irons_spellbooks:blood_spell_power": {

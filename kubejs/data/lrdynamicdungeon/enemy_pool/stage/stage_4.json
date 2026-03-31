@@ -1,0 +1,133 @@
+{
+  "ground": [
+    [
+      ["minecraft:stray", 0, 0, 0, {"HandItems":[{"id":"minecraft:iron_sword","Count":1}]}],
+      ["minecraft:stray", 1, 0, 1, {"HandItems":[{"id":"minecraft:iron_sword","Count":1}]}],
+      ["quark:forgotten", 0, 0, 1],
+	  ["minecraft:cave_spider", 0, 1, 0]
+    ],
+    [
+      ["minecraft:skeleton", 0, 0, 0, {"HandItems":[{"id":"minecraft:bow","Count":1}]}],
+      ["minecraft:skeleton", 1, 0, 0, {"HandItems":[{"id":"minecraft:bow","Count":1}]}],
+      ["minecraft:skeleton", 0, 0, 1, {"HandItems":[{"id":"minecraft:bow","Count":1}]}],
+      ["minecraft:skeleton", 1, 0, 1, {"HandItems":[{"id":"minecraft:bow","Count":1}]}],
+	  ["minecraft:creeper", 1, 0, 0],
+	  ["minecraft:creeper", 1, 0, 1]
+    ],
+	[
+	  ["ntrials:bogged", 1, 0, 0],
+	  ["ntrials:bogged", 0, 0, 1],
+	  ["ntrials:bogged", 0, 0, 1],
+	  ["hmag:swamper", 0, 0, 0],
+	  ["minecraft:cave_spider", 0, 1, 0]
+    ],
+    [
+      ["minecraft:vindicator", 1, 0, 0, {"HandItems":[{"id":"minecraft:iron_sword","Count":1}]}],
+      ["minecraft:vindicator", 0, 0, 0, {"HandItems":[{"id":"minecraft:iron_sword","Count":1}]}],
+      ["minecraft:vindicator", 1, 0, 1, {"HandItems":[{"id":"minecraft:iron_sword","Count":1}]}],
+	  ["graveyard:corrupted_pillager", 1, 0, 0],
+	  ["graveyard:corrupted_pillager", 0, 0, 1],
+	  ["minecraft:cave_spider", 0, 1, 0]
+    ],
+    [
+      ["minecraft:creeper", 1, 0, 0],
+	  ["hmag:creeper_girl", 1, 0, 1],
+	  ["minecraft:creeper", 0, 0, 1],
+	  ["minecraft:creeper", 0, 1, 0],
+	  ["minecraft:creeper", 0, 0, 0],
+	  ["minecraft:creeper", 1, 0, 0]
+    ],
+    [
+      ["friendsandfoes:illusioner", 0, 0, 0],
+      ["graveyard:corrupted_pillager", 1, 0, 0],
+      ["graveyard:wraith", 0, 0, 1],
+      ["graveyard:revenant", 1, 0, 1],
+	  ["minecraft:cave_spider", 0, 1, 0]
+    ],
+    [
+      ["minecraft:evoker", 0, 0, 0],
+	  ["graveyard:wraith", 0, 1, 0],
+	  ["graveyard:wraith", 1, 1, 1],
+	  ["graveyard:corrupted_pillager", 1, 0, 0],
+	  ["graveyard:corrupted_pillager", 0, 0, 1]
+    ]
+  ],
+  "flying": [
+    [
+	  ["graveyard:wraith", 1, 0, 0],
+	  ["graveyard:wraith", 1, 1, 0]
+    ],
+	[
+	  ["graveyard:wraith", 1, 0, 0],
+	  ["graveyard:wraith", 1, 0, 0],
+      ["graveyard:reaper", 0, 1, 0],
+      ["graveyard:reaper", 0, 0, 1],
+	  ["creatures_of_petrichor:wandering_lantern", 0, 0, 1]
+    ],
+	[
+      ["hmag:wither_ghost", 1, 0, 0],
+      ["hmag:wither_ghost", 0, 1, 0],
+      ["hmag:wither_ghost", 0, 1, 1],
+	  ["creatures_of_petrichor:specter", 0, 0, 1]
+    ]
+  ],
+  "submerged": [
+    [
+      ["minecraft:guardian", 0, 0, 0],
+	  ["cataclysm:deepling_angler", 1, 0, 0]
+    ],
+	[
+      ["cataclysm:deepling_angler", 1, 0, 0],
+	  ["cataclysm:deepling_angler", 0, 0, 0],
+	  ["cataclysm:deepling_angler", 0, 0, 1]
+    ],
+    [
+	  ["cataclysm:deepling_angler", 1, 0, 0],
+	  ["cataclysm:deepling_angler", 0, 0, 0],
+      ["hmag:savagefang", 1, 0, 1]
+    ],
+	[
+      ["hmag:drowned_girl", 1, 0, 0],
+	  ["hmag:drowned_girl", 0, 0, 1],
+	  ["hmag:drowned_girl", 1, 1, 0],
+	  ["cataclysm:deepling_angler", 0, 0, 0]
+    ]
+  ],
+  "miniboss": [
+    [
+	  ["cataclysm:draugr", 0, 0, 0],
+	  ["quark:forgotten", 1, 0, 0],
+	  ["quark:forgotten", 0, 0, 1]
+    ],
+	[
+	  ["hmag:dogu", 0, 0, 0],
+	  ["minecraft:vex", 0, 1, 0],
+	  ["minecraft:vex", 0, 1, 1]
+    ]
+  ],
+  "boss": [
+    [
+      ["cataclysm:deepling_brute", 0, 0, 0],
+	  ["cataclysm:deepling_priest", 1, 0, 1]
+    ],
+	[
+      ["hmag:crimson_slaughterer", 0, 0, 0]
+    ],
+	[
+      ["hmag:ogre", 0, 0, 0],
+	  ["hmag:imp", 1, 0, 0],
+	  ["hmag:imp", 0, 0, 1]
+    ],
+	[
+      ["hmag:giant_mummy", 0, 0, 0],
+	  ["minecraft:stray", 1, 0, 0],
+	  ["minecraft:stray", 0, 0, 1]
+    ],
+	[
+      ["hmag:lich", 0, 0, 0],
+	  ["hmag:wither_ghost", 1, 0, 0],
+	  ["hmag:wither_ghost", 1, 0, 1],
+	  ["quark:forgotten", 0, 0, 1]
+    ]
+  ]
+}

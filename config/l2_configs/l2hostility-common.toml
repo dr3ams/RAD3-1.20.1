@@ -85,10 +85,12 @@ enableEquipmentDatapack = true
 	#Max number of traits on mobs
 	#Range: 1 ~ 100
 	maxTraitCount = 9
+	#Allow player to increase difficulty by killing mobs
+	enableAdaptiveLeveling = true
 
 [difficulty]
 	#Max player adaptive level
-	#Range: 100 ~ 100000
+	#Range: 1 ~ 100000
 	maxPlayerLevel = 999
 	#Difficulty increment takes this many kills of same level mob
 	#Range: 1 ~ 100000
@@ -106,7 +108,7 @@ enableEquipmentDatapack = true
 	#Range: 0 ~ 128
 	newPlayerProtectRange = 48
 	#Max mob level
-	#Range: 100 ~ 100000
+	#Range: 1 ~ 100000
 	maxMobLevel = 3000
 
 [orb_and_spawner]
@@ -224,7 +226,7 @@ enableEquipmentDatapack = true
 	speedy = 0.1
 	#Regen rate for Regeneration trait per second per level
 	#Range: 0.0 ~ 1000.0
-	regen = 0.01
+	regen = 0.005
 	#Damage factor for Adaptive. Higher means less reduction
 	#Range: 0.0 ~ 1000.0
 	adaptFactor = 0.8

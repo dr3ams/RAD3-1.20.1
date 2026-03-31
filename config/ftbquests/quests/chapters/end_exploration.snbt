@@ -11,7 +11,7 @@
 			image: "rad3:textures/misc/nebula.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: 5.5d
+			x: -8.5d
 			y: 0.0d
 		}
 		{
@@ -23,7 +23,7 @@
 			y: -1.5d
 		}
 	]
-	order_index: 9
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
@@ -67,8 +67,8 @@
 			rewards: [
 				{
 					id: "1A77CF7500E23858"
-					type: "xp_levels"
-					xp_levels: 5
+					type: "xp"
+					xp: 250
 				}
 				{
 					id: "3F88B68318835DD1"
@@ -136,8 +136,8 @@
 			rewards: [
 				{
 					id: "24F991AB17494B8B"
-					type: "xp_levels"
-					xp_levels: 2
+					type: "xp"
+					xp: 2
 				}
 				{
 					id: "4EE88268F2524F21"

@@ -15,8 +15,8 @@
 			rewards: [
 				{
 					id: "5B63DBE4AC17C816"
-					type: "xp_levels"
-					xp_levels: 1
+					type: "xp"
+					xp: 10
 				}
 				{
 					id: "62E3757CE5FD003A"
@@ -40,8 +40,8 @@
 			id: "2CAD2936FBF8C162"
 			rewards: [{
 				id: "377B1761A5324C69"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				count: 64L
@@ -93,7 +93,7 @@
 			rewards: [{
 				id: "51698D9CD86570BF"
 				type: "xp"
-				xp: 100
+				xp: 25
 			}]
 			tasks: [{
 				id: "1AAF951DA04777D4"
@@ -109,8 +109,8 @@
 			id: "02D47ED17855D7EF"
 			rewards: [{
 				id: "5F0A15CE458D448D"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				id: "593DC42110353A1C"
@@ -125,8 +125,8 @@
 			id: "734B0DCBA9412A12"
 			rewards: [{
 				id: "3A2C0A6682B9F08C"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				id: "0A60C2772A762313"
@@ -142,8 +142,8 @@
 			id: "31BD9D438DE7C517"
 			rewards: [{
 				id: "0B1CA8F97E75105C"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				id: "48F99AB951712C54"
@@ -179,8 +179,8 @@
 			id: "5F18F2B90194BCC3"
 			rewards: [{
 				id: "4AD57E87135DEE1D"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				id: "7851E931B45888AB"
@@ -212,8 +212,8 @@
 			id: "7A95813C7465B7C6"
 			rewards: [{
 				id: "5BADEA7DB8C22471"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				count: 12L
@@ -230,8 +230,8 @@
 			id: "192A80A11DED531C"
 			rewards: [{
 				id: "47290453EC38BD02"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 5
 			}]
 			tasks: [{
 				consume_items: true
@@ -266,8 +266,8 @@
 			id: "40AA50EB34627A92"
 			rewards: [{
 				id: "457EAB66AFAE2E5C"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				id: "49C844695E49CAB5"
@@ -282,8 +282,8 @@
 			id: "1952835D9E813B00"
 			rewards: [{
 				id: "710FE04F2AF7AD01"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				consume_items: true
@@ -301,8 +301,8 @@
 			rewards: [
 				{
 					id: "2A874F3B237C774A"
-					type: "xp_levels"
-					xp_levels: 5
+					type: "xp"
+					xp: 50
 				}
 				{
 					id: "5BB2D9B4BF9D7075"
@@ -334,8 +334,8 @@
 			id: "712C15991B37B7B1"
 			rewards: [{
 				id: "66DD275B44BB7A45"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				count: 64L
@@ -352,8 +352,8 @@
 			id: "109502AF0E1426E3"
 			rewards: [{
 				id: "1F1921657E5FF31E"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				id: "0B7A1B5E2FEE7675"
@@ -366,11 +366,18 @@
 		{
 			dependencies: ["109502AF0E1426E3"]
 			id: "3BE59D712783F620"
-			rewards: [{
-				id: "4F850F57E41BDB0F"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4F850F57E41BDB0F"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "3CC880559878A4A7"
+					type: "xp"
+					xp: 25
+				}
+			]
 			tasks: [{
 				consume_items: true
 				count: 32L
@@ -392,17 +399,24 @@
 		{
 			dependencies: ["3BE59D712783F620"]
 			id: "46718966B28E3B14"
-			rewards: [{
-				id: "49EA5387C05F8455"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "resource_loot_crate_1"
+			rewards: [
+				{
+					id: "49EA5387C05F8455"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "resource_loot_crate_1"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "66341775CCD16959"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				consume_items: true
 				count: 64L
@@ -427,8 +441,8 @@
 			id: "31291BCDDFA51962"
 			rewards: [{
 				id: "6DCAD01BEF21D5E1"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				count: 64L
@@ -478,8 +492,8 @@
 				}
 				{
 					id: "21C841562B60E0EF"
-					type: "xp_levels"
-					xp_levels: 1
+					type: "xp"
+					xp: 5
 				}
 			]
 			tasks: [{
@@ -498,8 +512,8 @@
 			id: "42E723A5E554D01D"
 			rewards: [{
 				id: "7E88053127D4450E"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				count: 3L
@@ -515,8 +529,8 @@
 			id: "49961DB59F6635D6"
 			rewards: [{
 				id: "1EE9334A2F87D5B4"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				count: 16L
@@ -531,6 +545,11 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			id: "27A17EA6EA3056BE"
+			rewards: [{
+				id: "51A0BD09FC9261AC"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				count: 64L
 				id: "62F3FACE3901E223"
@@ -544,6 +563,11 @@
 			dependencies: ["0000000000000FC0"]
 			description: ["Found on beaches."]
 			id: "525F03AF99A1D135"
+			rewards: [{
+				id: "106A24F5BA2FECA3"
+				type: "xp"
+				xp: 1
+			}]
 			tasks: [{
 				id: "6222761DD1A93D5F"
 				item: "farmersdelight:cabbage_seeds"
@@ -567,6 +591,11 @@
 			dependencies: ["0000000000000FC0"]
 			description: ["Found in savannahs, deserts, and other dry areas."]
 			id: "560AD0F9298122F9"
+			rewards: [{
+				id: "71623572F0212709"
+				type: "xp"
+				xp: 1
+			}]
 			tasks: [{
 				id: "25A6BF170C220383"
 				item: "farmersdelight:tomato_seeds"
@@ -579,6 +608,11 @@
 			dependencies: ["525F03AF99A1D135"]
 			description: ["[insert overdone Avatar joke]"]
 			id: "3636E4985AE5DA4A"
+			rewards: [{
+				id: "6C50723C575BED05"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				count: 64L
 				id: "59D1B3C1813E156D"
@@ -592,6 +626,11 @@
 			dependencies: ["0000000000000FC0"]
 			description: ["They really added a whole mob for this plant, huh."]
 			id: "53F9A4108D37742B"
+			rewards: [{
+				id: "1350D211B3899A3E"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "09676DA84A069270"
 				item: "minecraft:torchflower_seeds"
@@ -604,6 +643,11 @@
 			dependencies: ["53F9A4108D37742B"]
 			description: ["At least it looks nice."]
 			id: "27AF065C882335E1"
+			rewards: [{
+				id: "14EF2743B920C2E5"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				id: "07ADAED9C9B62707"
 				item: "minecraft:torchflower"
@@ -615,6 +659,11 @@
 		{
 			dependencies: ["734B0DCBA9412A12"]
 			id: "60466BDEAEB5226B"
+			rewards: [{
+				id: "435290EEFA0CBFC6"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				id: "104AC2CB9B6DF077"
 				item: "minecraft:pumpkin_pie"
@@ -626,6 +675,11 @@
 		{
 			dependencies: ["560AD0F9298122F9"]
 			id: "1F315FE8A7B0B86A"
+			rewards: [{
+				id: "5E2E0DDC8C98FA66"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				count: 64L
 				id: "3C5ED9C1AC4DEB98"
@@ -639,6 +693,11 @@
 			dependencies: ["1F315FE8A7B0B86A"]
 			description: ["throw them at your friends"]
 			id: "773B6AA481F91A30"
+			rewards: [{
+				id: "1B5F7D49B12EECC8"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "1BC1A01C640E82DF"
 				item: "farmersdelight:rotten_tomato"
@@ -651,6 +710,11 @@
 			dependencies: ["5DD66D89CFFBC6CB"]
 			description: ["Wait a minute, I can't eat string!"]
 			id: "3C3D0DC9A0B47CF7"
+			rewards: [{
+				id: "69C1BB2A5A8A3967"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				count: 64L
 				id: "3E76D80A140A8DF7"
@@ -664,6 +728,11 @@
 			dependencies: ["664517285527B807"]
 			description: ["You robbed a village for this, didn't you."]
 			id: "448EFB9BF8C8E4DC"
+			rewards: [{
+				id: "2088A017E57AEB79"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				count: 64L
 				id: "001853966E149396"
@@ -677,6 +746,11 @@
 			dependencies: ["0000000000000FC0"]
 			description: ["There's food to be found, deep underground"]
 			id: "14660686F1A64AE5"
+			rewards: [{
+				id: "58E116A718D6CC10"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				count: 64L
 				id: "136EAB8CCC9923FF"
@@ -690,6 +764,11 @@
 			dependencies: ["0000000000000FC0"]
 			description: ["Found in swamps. Must be grown in water 1 block deep. This is both the seed and the product."]
 			id: "21B44E8D2E48896B"
+			rewards: [{
+				id: "670B3FA8FF023898"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "6BF9E6A507AC0571"
 				item: "farmersdelight:rice"
@@ -701,6 +780,11 @@
 		{
 			dependencies: ["21B44E8D2E48896B"]
 			id: "2D3315618404C6FB"
+			rewards: [{
+				id: "17384718695E1B8C"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				count: 64L
 				id: "1430851ADFD2FE17"
@@ -713,6 +797,11 @@
 		{
 			dependencies: ["192A80A11DED531C"]
 			id: "378862B8056108A3"
+			rewards: [{
+				id: "4DB73C2396D718D2"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				count: 10L
 				id: "69F2AAA1F9C8BCC7"
@@ -726,6 +815,11 @@
 			dependencies: ["3636E4985AE5DA4A"]
 			description: ["Cabbage is mostly an ingredient in more complex foods. You can't really eat it by itself."]
 			id: "08BA0EFA7BA00A04"
+			rewards: [{
+				id: "617DD1AE2266E4A3"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				count: 64L
 				id: "63AEA07DA2331981"
@@ -738,6 +832,11 @@
 		{
 			dependencies: ["14660686F1A64AE5"]
 			id: "25009AD8713D833D"
+			rewards: [{
+				id: "59F010CBEA244589"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				count: 32L
 				id: "2454777715FC624C"
@@ -767,6 +866,11 @@
 		{
 			dependencies: ["31291BCDDFA51962"]
 			id: "110D80709A6E0A74"
+			rewards: [{
+				id: "1E49EA0D9C1E219D"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				count: 16L
 				id: "0DD4DCC9641BDA9C"
@@ -806,6 +910,11 @@
 		{
 			dependencies: ["053C0C086704A424"]
 			id: "5581946E99704369"
+			rewards: [{
+				id: "2319E3FF95D401D9"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				count: 64L
 				id: "41D2A8F9495D5F00"
@@ -1061,8 +1170,8 @@
 			id: "00447E9A207DA93A"
 			rewards: [{
 				id: "4CC07B38085FE3E9"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				id: "3DF608F30B23FC19"
@@ -1077,8 +1186,8 @@
 			id: "317DD5BA7A2FE9B1"
 			rewards: [{
 				id: "71820BF23EAC4E7F"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				id: "4EA156AC187A2F46"
@@ -1093,8 +1202,8 @@
 			id: "64CE361A732ACC01"
 			rewards: [{
 				id: "68A66D5CE801DB72"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "5F7ADD9248CE6D12"
@@ -1109,8 +1218,8 @@
 			id: "636C5C576A5D121E"
 			rewards: [{
 				id: "5CC1BEC54EF1EAF4"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "3168CCF5126217FC"
@@ -1185,6 +1294,11 @@
 		{
 			dependencies: ["5D30E304E65A1FB4"]
 			id: "456A4247C5C245B7"
+			rewards: [{
+				id: "236F6378A0653890"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				count: 64L
 				id: "3EB8C3D9E0A021CE"
@@ -1197,6 +1311,11 @@
 		{
 			dependencies: ["456A4247C5C245B7"]
 			id: "108B521C77B11D4D"
+			rewards: [{
+				id: "31EB884A305431A8"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				count: 64L
 				id: "2BF82344C816BDC1"
@@ -1211,8 +1330,8 @@
 			id: "080F66D990B84386"
 			rewards: [{
 				id: "68D760CA7A8DAF22"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "2464801E329E58CB"
@@ -1227,8 +1346,8 @@
 			id: "440B4795DE135FCD"
 			rewards: [{
 				id: "45DB366E912E658F"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "736D1EC651FE93B1"
@@ -1243,8 +1362,8 @@
 			id: "29BF1ED47B7EBB00"
 			rewards: [{
 				id: "24800CF98B89ADC0"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "0377D78A1D30856B"
@@ -1259,8 +1378,8 @@
 			id: "1D13E71AFB48A9C8"
 			rewards: [{
 				id: "263FA05572550DBF"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "62C61BD1FC8017F4"
@@ -1275,8 +1394,8 @@
 			id: "0B7FCCD033E325DC"
 			rewards: [{
 				id: "3075FAD0A198F875"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "0E661024FF258FE7"
@@ -1291,8 +1410,8 @@
 			id: "23E01B043A246845"
 			rewards: [{
 				id: "53047CB3B3D361CF"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "50A5FA7B29C6E1C0"
@@ -1307,8 +1426,8 @@
 			id: "6D381F47FD0CC6FD"
 			rewards: [{
 				id: "4C410FCB04019205"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "4D0BDBE80CA9BB45"
@@ -1323,8 +1442,8 @@
 			id: "65C2B2E7C71C82CB"
 			rewards: [{
 				id: "0D5E0ACD1D1FF2AB"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "77393769EDDE8039"
@@ -1339,8 +1458,8 @@
 			id: "45CC47FDADF46C43"
 			rewards: [{
 				id: "5569C6374D6BA6D6"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "1CBB4A844E1ED97E"
@@ -1355,8 +1474,8 @@
 			id: "085DED0C6EBE6C08"
 			rewards: [{
 				id: "7A3DA50122052D62"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "0FB8CBEBD432062A"
@@ -1371,8 +1490,8 @@
 			id: "46B0F5E291012E64"
 			rewards: [{
 				id: "109CD0F11A795039"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "62B190E8CF2DDFC6"
@@ -1387,8 +1506,8 @@
 			id: "5D96F0AC32EDB7BF"
 			rewards: [{
 				id: "4AA8578F9CCFFC91"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "08DBE24AA0AED07B"
@@ -1403,8 +1522,8 @@
 			id: "154703951626E85D"
 			rewards: [{
 				id: "602B83C2CFB29929"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "54406913ED8096AA"
@@ -1419,8 +1538,8 @@
 			id: "4D500D64D058A367"
 			rewards: [{
 				id: "17FC6A34F4E163CD"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "43D2DE345A19C8DA"
@@ -1435,8 +1554,8 @@
 			id: "45DED4CACDBA6FE7"
 			rewards: [{
 				id: "5DA13AA665969DBA"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "0533855675904D73"
@@ -1451,8 +1570,8 @@
 			id: "24E60B4F885740DA"
 			rewards: [{
 				id: "16B91D35E944EFF7"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "1D194D6336C479F3"
@@ -1467,8 +1586,8 @@
 			id: "6B74057A60E729CF"
 			rewards: [{
 				id: "3C16D6A0D0368CB3"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "50D91AFC159749DF"
@@ -1483,8 +1602,8 @@
 			id: "4C6C669AD3DDE8B4"
 			rewards: [{
 				id: "0697652167B7F8E6"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "0911245257B7147C"
@@ -1499,8 +1618,8 @@
 			id: "393F898C884509BD"
 			rewards: [{
 				id: "2E7F986E5663A64C"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "68F9F0F8534607E6"
@@ -1521,8 +1640,8 @@
 			id: "40E980CBAF91F22B"
 			rewards: [{
 				id: "327D909BD38BAF39"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "47CA59B60462A4BA"
@@ -1537,8 +1656,8 @@
 			id: "44F907A2A70426BB"
 			rewards: [{
 				id: "21D81869B3470FE2"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "162657F08F1B0E58"
@@ -1553,8 +1672,8 @@
 			id: "0CCD7A2AB957E3E9"
 			rewards: [{
 				id: "08FE2EF24366A553"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "04D271FF475477FA"
@@ -1569,8 +1688,8 @@
 			id: "5CD60CF8794967B5"
 			rewards: [{
 				id: "6C4BB8FDFFD69767"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "124C24572F11A37D"
@@ -1585,8 +1704,8 @@
 			id: "6F13DE349100F35E"
 			rewards: [{
 				id: "73CB3C5649A4862B"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "0219FAD9B8E0B21A"
@@ -1601,8 +1720,8 @@
 			id: "41CC5BFAA1250438"
 			rewards: [{
 				id: "2347B4376555E7AC"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "06DA83D426D701BB"
@@ -1617,8 +1736,8 @@
 			id: "1FBB1E97DFD29832"
 			rewards: [{
 				id: "7682C76CA4E4D143"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "7F42094F5285ED00"
@@ -1633,8 +1752,8 @@
 			id: "5AF1D346CE845523"
 			rewards: [{
 				id: "4AEC88E15E0A3B96"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "2B35F580AF5ABBF1"
@@ -1649,8 +1768,8 @@
 			id: "476B228C4CCC35ED"
 			rewards: [{
 				id: "7DD58BDDDE9426D0"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "66433826BE2CEC1F"
@@ -1665,8 +1784,8 @@
 			id: "7219711EB4455DDA"
 			rewards: [{
 				id: "4BD0A66589623C62"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "7C8E646A29FC23C3"
@@ -1985,8 +2104,8 @@
 			id: "7CD7CBEA0089E52C"
 			rewards: [{
 				id: "53EC1B694C3DB903"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "7D69DC5D1C0209E0"
@@ -2001,8 +2120,8 @@
 			id: "4C31F1FDD9E9D3AD"
 			rewards: [{
 				id: "2F1F80B9FB6D5E08"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "3035FF0CEF37430D"
@@ -2017,8 +2136,8 @@
 			id: "4EC2765B95D5EC63"
 			rewards: [{
 				id: "647DFA0B274443A8"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "5ED9DECD5D786083"
@@ -2051,7 +2170,7 @@
 				{
 					id: "448D8E46E5330725"
 					type: "xp"
-					xp: 300
+					xp: 100
 				}
 			]
 			tasks: [
@@ -2096,8 +2215,8 @@
 			id: "6D564EC3B4625C67"
 			rewards: [{
 				id: "0F3F878D79C433E5"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 15
 			}]
 			tasks: [{
 				id: "643734262CEA37A3"

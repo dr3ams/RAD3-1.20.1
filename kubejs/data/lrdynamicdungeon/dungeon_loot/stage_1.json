@@ -1,0 +1,470 @@
+{
+  "consumable": {
+    "weight": 4,
+    "loot": [
+      [
+        [ "minecraft:potato", 16 ]
+      ],
+      [
+        [ "minecraft:carrot", 16 ]
+      ],
+      [
+        [ "minecraft:wheat", 16 ]
+      ],
+      [
+        [ "minecraft:melon_slice", 16 ]
+      ],
+		[["kubejs:emergency_flare", 8]],
+		[["kubejs:lootbox_common", 1]], 
+		[["kubejs:coin_dungeon", 1]],
+		[["ntrials:wind_charge", 1]], 
+		[["aquaculture:box", 1]], 
+		[["aquaculture:lockbox", 1]],
+		[["hmag:cureberry", 3]],
+      [
+        [ "minecraft:sweet_berries", 16 ]
+      ]
+    ]
+  },
+  "combat": {
+    "weight": 2,
+    "loot": [
+      [
+        [ "minecraft:iron_sword", 1],
+        [ "minecraft:shield", 1]
+      ],
+      [
+        [ "minecraft:iron_axe", 1]
+      ],
+	  [["kubejs:lootbox_common", 1]],
+      [
+        [ "minecraft:golden_sword", 1, { "Enchantments": [ {"id": "minecraft:unbreaking", "lvl": 3}]}],
+        [ "minecraft:shield", 1 ]
+      ],
+      [
+        [ "minecraft:bow", 1 ],
+        [ "minecraft:arrow", 16 ]
+      ]
+    ]
+  },
+  "equipment": {
+    "weight": 2,
+    "loot": [
+	[["kubejs:coin_raid", 1]],
+	[["collectorsalbum:common_card_pack", 1]], 
+	[["kubejs:lootbox_common", 1]],
+	[["collectorsalbum:uncommon_card_pack", 1]], 
+	[["lrdynamicdungeon:dungeon_pass", 1]],	
+      [ [ "minecraft:leather_helmet", 1 ] ],
+      [ [ "minecraft:leather_chestplate", 1 ] ],
+      [ [ "minecraft:leather_leggings", 1 ] ],
+      [ [ "minecraft:leather_boots", 1 ] ]
+    ]
+  },
+  "botany": {
+    "weight": 1,
+    "loot": [
+	[["hmag:randomberry", 1]], 
+	[["hmag:cureberry", 3]], 
+      [
+        [ "minecraft:brown_mushroom", 16]
+      ],
+      [
+        [ "minecraft:red_mushroom", 16]
+      ],
+      [
+        [ "minecraft:dandelion", 16]
+      ],
+      [
+        [ "minecraft:poppy", 16]
+      ],
+      [
+        [ "minecraft:cornflower", 16]
+      ],
+      [
+        [ "minecraft:kelp", 16]
+      ]
+    ]
+  },
+  "enchantment": {
+    "weight": 3,
+    "loot": [
+      [
+        [ "minecraft:experience_bottle",  4 ]
+      ],
+	[["kubejs:scroll_exp", 2]], 
+	[["kubejs:lootbox_common", 1]],
+	[["hmag:exp_berry", 3]], 
+	[["ars_nouveau:experience_gem", 4]], 	  
+      [
+        [ "minecraft:enchanted_book",  1, {"StoredEnchantments": [{"id": "minecraft:sharpness", "lvl": 2}]}]
+      ],
+      [
+        ["minecraft:enchanted_book", 1, {"StoredEnchantments": [{"id": "minecraft:protection", "lvl": 2}]}]
+      ],
+      [
+        ["minecraft:enchanted_book", 1, {"StoredEnchantments": [{"id": "minecraft:feather_falling", "lvl": 2}]}]
+      ],
+      [
+        ["minecraft:enchanted_book", 1, {"StoredEnchantments": [{"id": "minecraft:respiration", "lvl": 1}]}]
+      ],
+      [
+        ["minecraft:enchanted_book", 1, {"StoredEnchantments": [{"id": "minecraft:thorns", "lvl": 1}]}]
+      ],
+      [
+        ["minecraft:enchanted_book", 1, {"StoredEnchantments": [{"id": "minecraft:depth_strider", "lvl": 1}]}]
+      ],
+      [
+        ["minecraft:enchanted_book", 1, {"StoredEnchantments": [{"id": "minecraft:smite", "lvl": 2}]}]
+      ],
+      [
+        ["minecraft:enchanted_book", 1, {"StoredEnchantments": [{"id": "minecraft:looting", "lvl": 1}]}]
+      ],
+      [
+        ["minecraft:enchanted_book", 1, {"StoredEnchantments": [{"id": "minecraft:sweeping_edge", "lvl": 3}]}]
+      ],
+      [
+        ["minecraft:enchanted_book", 1, {"StoredEnchantments": [{"id": "minecraft:knockback", "lvl": 3}]}]
+      ],
+      [
+        ["minecraft:enchanted_book", 1, {"StoredEnchantments": [{"id": "minecraft:efficiency", "lvl": 1}]}]
+      ],
+      [
+        ["minecraft:enchanted_book", 1, {"StoredEnchantments": [{"id": "minecraft:unbreaking", "lvl": 1}]}]
+      ],
+      [
+        ["minecraft:enchanted_book", 1, {"StoredEnchantments": [{"id": "minecraft:power", "lvl": 2}]}]
+      ],
+      [
+        ["minecraft:enchanted_book", 1, {"StoredEnchantments": [{"id": "minecraft:luck_of_the_sea", "lvl": 2}]}]
+      ],
+      [
+        ["minecraft:enchanted_book", 1, {"StoredEnchantments": [{"id": "minecraft:riptide", "lvl": 2}]}]
+      ]
+    ]
+  },
+  "power": {
+    "weight": 1,
+    "loot": [
+      [
+        ["minecraft:coal", 8]
+      ],
+	  [["hmag:cureberry", 3]],
+	  [["kubejs:lootbox_common", 1]],
+      [
+        ["minecraft:charcoal", 8]
+      ]
+    ]
+  },
+  "nature": {
+    "weight": 5,
+    "loot": [
+      [
+        ["minecraft:oak_planks", 8]
+      ],
+	  [["kubejs:lootbox_common", 1]],
+	  [["hmag:cureberry", 3]],
+      [
+        ["minecraft:string", 4]
+      ],
+      [
+        ["minecraft:lapis_lazuli", 4]
+      ],
+      [
+        ["minecraft:redstone", 4]
+      ],
+      [
+        ["minecraft:raw_iron", 4]
+      ],
+      [
+        ["minecraft:raw_copper", 4]
+      ],
+      [
+        ["minecraft:amethyst_shard", 4]
+      ],
+      [
+        ["minecraft:flint", 4]
+      ]
+    ]
+  },
+  "mobs": {
+    "weight": 3,
+    "loot": [
+      [["minecraft:feather", 4]],
+	  [["hmag:cureberry", 3]],
+      [["minecraft:ink_sac", 4]],
+      [["minecraft:leather", 2]],
+      [["minecraft:rabbit_hide", 2]],
+      [["minecraft:honeycomb", 4]],
+      [["minecraft:bone", 4]],
+	  [["kubejs:lootbox_common", 1]],
+      [["minecraft:slime_ball", 4]],
+	  [["kubejs:coin_dungeon", 1]],
+	  [["dungeonsdelight:salt_soaked_stew", 1]], 
+	  [["dungeonsdelight:ghast_roll", 1]],
+		[["dungeonsdelight:spider_bubble_tea", 1]], 
+		[["dungeonsdelight:monster_cake_slice", 1]], 	  
+      [["minecraft:ender_pearl", 1]]
+    ]
+  },
+  "rare_weapon": {
+    "weight": 1,
+    "loot": [
+      [
+        [
+          "minecraft:iron_shovel",
+          1,
+          {
+            "display": {
+              "Name": "[{\"text\":\"Shovel of Mann\",\"italic\":false,\"color\":\"yellow\",\"bold\":true}]",
+              "Lore": [
+                "[{\"text\":\"To dig or to fight.\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                "[{\"text\":\"Both are valid.\",\"italic\":true,\"color\":\"dark_gray\"}]"
+              ]
+            },
+            "Enchantments": [
+              {
+                "id": "minecraft:efficiency",
+                "lvl": 2
+              },
+              {
+                "id": "minecraft:unbreaking",
+                "lvl": 2
+              }
+            ],
+            "AttributeModifiers": [
+              {
+                "AttributeName": "generic.attack_damage",
+                "Amount": 4,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -111111,
+                  11111,
+                  111111,
+                  -11111
+                ],
+                "Name": "shovel_dmg"
+              },
+              {
+                "AttributeName": "generic.attack_speed",
+                "Amount": -2.8,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -111112,
+                  11112,
+                  111112,
+                  -11112
+                ],
+                "Name": "shovel_spd"
+              }
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          "landsoficaria:chalkos_sword",
+          1,
+          {
+            "display": {
+              "Name": "[{\"text\":\"Rusty Sword\",\"italic\":false,\"color\":\"gray\",\"bold\":true}]",
+              "Lore": [
+                "[{\"text\":\"Tristram was burning\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                "[{\"text\":\"when you found this.\",\"italic\":true,\"color\":\"dark_gray\"}]"
+              ]
+            },
+            "Enchantments": [
+              {
+                "id": "minecraft:unbreaking",
+                "lvl": 1
+              }
+            ],
+            "AttributeModifiers": [
+              {
+                "AttributeName": "generic.attack_damage",
+                "Amount": 4,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -111113,
+                  11113,
+                  111113,
+                  -11113
+                ],
+                "Name": "rusty_dmg"
+              }
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          "minecraft:stick", 1,
+          {
+            "display": {
+              "Name": "[{\"text\":\"Sawn-Off Pipe\",\"italic\":false,\"color\":\"dark_gray\",\"bold\":true}]",
+              "Lore": [
+                "[{\"text\":\"Ain't much, but it'll do\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                "[{\"text\":\"in the Wasteland.\",\"italic\":true,\"color\":\"dark_gray\"}]"
+              ]
+            },
+            "AttributeModifiers": [
+              {
+                "AttributeName": "generic.attack_damage",
+                "Amount": 3,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -111114,
+                  11114,
+                  111114,
+                  -11114
+                ],
+                "Name": "pipe_dmg"
+              }
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          "farmersdelight:iron_knife", 1,
+          {
+            "display": {
+              "Name": "[{\"text\":\"Butter Knife\",\"italic\":false,\"color\":\"white\",\"bold\":true}]",
+              "Lore": [
+                "[{\"text\":\"Disguise not included.\",\"italic\":true,\"color\":\"dark_gray\"}]"
+              ]
+            },
+            "Enchantments": [
+              {
+                "id": "minecraft:sharpness",
+                "lvl": 1
+              }
+            ],
+            "AttributeModifiers": [
+              {
+                "AttributeName": "generic.attack_damage",
+                "Amount": 3,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -111115,
+                  11115,
+                  111115,
+                  -11115
+                ],
+                "Name": "knife_dmg"
+              },
+              {
+                "AttributeName": "generic.attack_speed",
+                "Amount": 1.2,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -111116,
+                  11116,
+                  111116,
+                  -11116
+                ],
+                "Name": "knife_spd"
+              }
+            ]
+          }
+        ]
+      ]
+    ]
+  },
+  "rare_trinket": {
+    "weight": 1,
+    "loot": [
+      [
+        [
+          "roughtweaks:medkit", 1,
+          {
+            "display": {
+              "Name": "[{\"text\":\"Stimpack\",\"italic\":false,\"color\":\"lime\",\"bold\":true}]",
+              "Lore": [
+                "[{\"text\":\"Vault-Tec approved.\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                "[{\"text\":\"Mostly.\",\"italic\":true,\"color\":\"dark_gray\"}]"
+              ]
+            },
+            "AttributeModifiers": [
+              {
+                "AttributeName": "generic.max_health",
+                "Amount": 2,
+                "Operation": 0,
+                "Slot": "offhand",
+                "UUID": [
+                  -222221,
+                  22221,
+                  222221,
+                  -22221
+                ],
+                "Name": "stim_hp"
+              }
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          "farmersdelight:chicken_sandwich", 1,
+          {
+            "display": {
+              "Name": "[{\"text\":\"Sandvich\",\"italic\":false,\"color\":\"gold\",\"bold\":true}]",
+              "Lore": [
+                "[{\"text\":\"Eating. Is. Delicious.\",\"italic\":true,\"color\":\"dark_gray\"}]"
+              ]
+            },
+            "AttributeModifiers": [
+              {
+                "AttributeName": "generic.max_health",
+                "Amount": 4,
+                "Operation": 0,
+                "Slot": "offhand",
+                "UUID": [
+                  -222222,
+                  22222,
+                  222222,
+                  -22222
+                ],
+                "Name": "sandvich_hp"
+              }
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          "minecraft:feather", 1,
+          {
+            "display": {
+              "Name": "[{\"text\":\"Raven Familiar\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true}]",
+              "Lore": [
+                "[{\"text\":\"It watches.\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                "[{\"text\":\"It remembers.\",\"italic\":true,\"color\":\"dark_gray\"}]"
+              ]
+            }
+          }
+        ]
+      ],
+      [
+        [
+          "minecraft:gold_nugget", 1,
+          {
+            "display": {
+              "Name": "[{\"text\":\"Bottlecap\",\"italic\":false,\"color\":\"yellow\",\"bold\":true}]",
+              "Lore": [
+                "[{\"text\":\"Currency of the apocalypse.\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                "[{\"text\":\"Collect wisely.\",\"italic\":true,\"color\":\"dark_gray\"}]"
+              ]
+            }
+          }
+        ]
+      ]
+    ]
+  }
+}

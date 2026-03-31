@@ -2,46 +2,46 @@ ItemEvents.rightClicked(event => {
     const { player, level, item, target, hand, server } = event;
 
     // --- ARTIFACT 2: GAMBLER'S COIN ---
-    if (item.id == 'kubejs:gamblers_coin') {
+    if (item.id == 'kubejs:entropic_cent') {
         if (player.cooldowns.isOnCooldown(item)) return;
 
         // Find and Consume Fuel
         let consumed = false;
         player.inventory.allItems.forEach(stack => {
-            if (!consumed && stack.id == 'minecraft:gold_ingot') {
+            if (!consumed && stack.id == 'minecraft:gold_block') {
                 stack.count--;
                 consumed = true;
             }
         });
 
         if (!consumed) {
-            player.setStatusMessage("§6Needs a Gold Ingot!");
+            player.setStatusMessage("§6Needs a Gold Block!");
             return;
         }
 
-        player.cooldowns.addCooldown(item, 100);
+        player.cooldowns.addCooldown(item, 600);
         player.playSound('minecraft:block.iron_door.close', 0.5, 2.0);
         level.spawnParticles('minecraft:totem_of_undying', true, player.x, player.y + 1.5, player.z, 0.1, 0.5, 0.1, 10, 0.1);
 
         server.scheduleInTicks(10, callback => {
             if (Math.random() < 0.01) {
                 player.setStatusMessage("§b§l!!! JACKPOT !!!");
-                player.give(Item.of('minecraft:diamond'));
+                player.potionEffects.add('minecraft:luck', 600, 2);
                 player.playSound('minecraft:ui.toast.challenge_complete', 1.0, 1.0);
             } else if (Math.random() < 0.5) {
                 player.setStatusMessage("§6§lHEADS!");
-                player.potionEffects.add('minecraft:luck', 600, 2);
+                player.potionEffects.add('minecraft:luck', 300, 1);
                 level.spawnParticles('minecraft:wax_off', true, player.x, player.y + 1.2, player.z, 0.4, 0.4, 0.4, 15, 0.1);
             } else {
                 player.setStatusMessage("§0§lTAILS...");
-                player.potionEffects.add('minecraft:unluck', 400, 1);
+                player.potionEffects.add('minecraft:unluck', 600, 1);
                 level.spawnParticles('minecraft:smoke', true, player.x, player.y + 1.2, player.z, 0.4, 0.4, 0.4, 15, 0.05);
             }
 
             let nbt = item.nbt || {};
             nbt.Damage = (nbt.Damage || 0) + 1;
             item.nbt = nbt;
-            if (item.nbt.Damage >= 25) { item.count--; player.playSound('minecraft:entity.iron_golem.damage', 1.0, 2.0); }
+            if (item.nbt.Damage >= 4) { item.count--; player.playSound('minecraft:entity.iron_golem.damage', 1.0, 2.0); }
         });
     }
 })
@@ -147,7 +147,7 @@ ItemEvents.rightClicked(event => {
         }
     }
 
-// --- 3. BUZZING BRANCH (Fixed Durability) ---
+// --- 3. BUZZING BRANCH  ---
     if (item.id == 'kubejs:buzzing_living_branch') {
         if (player.cooldowns.isOnCooldown(item)) return;
         if (!consumeFuel()) { player.setStatusMessage("§6Needs Bone Meal!"); return; }
@@ -173,13 +173,10 @@ ItemEvents.rightClicked(event => {
 		player.setStatusMessage("§6The Swarm protects you for 1 minute!");
         player.playSound('minecraft:block.beehive.exit', 1.0, 1.0);
         
-        // --- UPDATED DURABILITY LOGIC ---
-        // item.damageValue works for Registered maxDamage. 
-        // We must manually check if it exceeds the limit.
         item.setDamageValue(item.getDamageValue() + 1);
         
         if (item.getDamageValue() >= item.getMaxDamage()) {
-            item.setCount(0); // Break the item
+            item.setCount(0);
             player.playSound('minecraft:entity.item.break', 1.0, 1.0);
             player.setStatusMessage("§cThe Buzzing Branch has shattered!");
         }
@@ -191,7 +188,6 @@ ItemEvents.rightClicked(event => {
 EntityEvents.hurt(event => {
     const { entity, source, level } = event;
 
-    // If player is hit, send bees to attack
     if (entity.isPlayer()) {
         let attacker = source.actual;
         if (!attacker || attacker.isPlayer()) return;
@@ -203,7 +199,6 @@ EntityEvents.hurt(event => {
         });
     }
 
-    // If a Guardian Bee hits something, don't let it lose its stinger
     if (source.actual && source.actual.type == 'minecraft:bee' && source.actual.tags.contains('guardian_bee')) {
         source.actual.mergeNbt({HasStung: 0});
     }

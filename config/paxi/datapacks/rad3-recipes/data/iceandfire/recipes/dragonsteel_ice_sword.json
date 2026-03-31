@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "D",
+    "D",
+    "T"
+  ],
+  "key": {
+    "D": {
+      "item": "iceandfire:dragonsteel_ice_ingot"
+
+    },
+    "T": {
+      "tag": "forge:bones/wither"
+
+    }
+  },
+  "result": {
+    "item": "iceandfire:dragonsteel_ice_sword",
+    "type": "forge:nbt",
+    "nbt": "{AttributeModifiers: [{Amount: -1.0d, Slot: \"mainhand\", AttributeName: \"minecraft:generic.attack_damage\", Operation: 1, UUID: [I;1124552218,-854635969,-1472773688,-1924672977], Name: \"Ice and fire bad\"}],display:{Lore:['{\"text\":\"Modpack could not process this item correctly. Please report to the rad3 modpack not ice and fire with code: Dragonsteel Error 404\",\"color\":\"red\",\"italic\":false}']}}"
+  },
+  "conditions": [
+    {
+      "modid": "iceandfire",
+      "type": "forge:mod_loaded"
+    }
+  ]
+}

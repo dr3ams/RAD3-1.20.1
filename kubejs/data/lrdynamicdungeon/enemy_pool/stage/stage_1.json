@@ -1,0 +1,95 @@
+{
+  "ground": [
+    [
+      ["minecraft:slime", 0, 0, 0, { "Size": 0 }],
+	  ["minecraft:skeleton", 0, 0, 0, {"HandItems":[{"id":"minecraft:iron_axe","Count":1}]}],
+      ["minecraft:slime", -1, 0, 0, { "Size": 0 }],
+      ["minecraft:slime", 1, 0, 0, { "Size": 0 }]
+    ],
+    [
+	  ["minecraft:silverfish", 1, 0, 0],
+      ["minecraft:zombie", 1, 0, 0],
+	  ["minecraft:zombie", 0, 1, 0],
+	  ["minecraft:zombie", 0, 0, 1],
+	  ["minecraft:skeleton", 1, 0, 1, {"HandItems":[{"id":"minecraft:bow","Count":1}]}]
+    ],
+    [
+      ["minecraft:silverfish", 1, 0, 0],
+	  ["minecraft:cave_spider", 0, 1, 0],
+      ["minecraft:silverfish", 1, 0, 1],
+      ["minecraft:silverfish", 1, 0, 1]
+    ],
+    [
+      ["minecraft:cave_spider", 1, 0, 0],
+	  ["minecraft:zombie", 1, 0, 0],
+	  ["minecraft:zombie", 1, 0, 0],
+    ],
+    [
+      ["minecraft:spider", 1, 0, 0],
+	  ["minecraft:skeleton", 0, 1, 0, {"HandItems":[{"id":"minecraft:bow","Count":1}]}],
+	  ["minecraft:cave_spider", 0, 1, 0],
+	  ["minecraft:spider", 1, 0, 1],
+	  ["minecraft:spider", 0, 1, 1]
+    ]
+  ],
+  "flying": [
+    [
+      ["landsoficaria:ender_jellyfish", 1, 0, 0],
+	  ["landsoficaria:ender_jellyfish", 0, 0, 1],
+	  ["creatures_of_petrichor:wandering_lantern", 0, 1, 0],
+	  ["creatures_of_petrichor:wandering_lantern", 1, 0, 1]
+    ],
+	[
+      ["minecraft:bat", 1, 0, 0],
+	  ["minecraft:bat", 0, 1, 0],
+	  ["minecraft:bat", 0, 0, 1],
+	  ["hmag:ghost", 0, 0, 1],
+	  ["hmag:ghost", 1, 0, 1]
+    ],
+	[
+      ["hmag:harpy", 1, 0, 0],
+	  ["hmag:harpy", 0, 1, 0],
+	  ["creatures_of_petrichor:specter", 0, 0, 1],
+	  ["creatures_of_petrichor:specter", 1, 0, 1]
+    ],
+	[
+      ["graveyard:wraith", 1, 0, 0],
+	  ["creatures_of_petrichor:cursed_doll", 0, 0, 1]
+    ]
+  ],
+  "submerged": [
+    [
+      ["minecraft:guardian", 0, 0, 0]
+    ],
+	[
+      ["minecraft:drowned", 1, 0, 0],
+	  ["minecraft:drowned", 0, 1, 0],
+	  ["minecraft:drowned", 0, 0, 1]
+    ]
+  ],
+  "miniboss": [
+    [
+      ["minecraft:pillager", 0, 0, 0, {"HandItems":[{"id":"minecraft:crossbow","Count":1}]}],
+      ["graveyard:corrupted_vindicator", 0, 0, 1, {"HandItems":[{"id":"minecraft:iron_axe","Count":1}]}],
+      ["graveyard:corrupted_vindicator", 1, 0, 1, {"HandItems":[{"id":"minecraft:iron_axe","Count":1}]}]	  
+    ]
+  ],
+  "boss": [
+    [
+      ["minecraft:evoker", 0, 0, 0],
+	  ["minecraft:vindicator", 0, 0, 0, {"HandItems":[{"id":"minecraft:iron_axe","Count":1}]}]
+    ],
+    [
+	  ["minecraft:pillager", 0, 0, 0, {"HandItems":[{"id":"minecraft:crossbow","Count":1}]}],
+      ["minecraft:vindicator", 0, 0, 0, {"HandItems":[{"id":"minecraft:iron_axe","Count":1}]}]
+    ],
+    [
+      ["minecraft:witch", 0, 0, 0],
+	  ["minecraft:witch", 0, 0, 0]
+    ],
+	[
+      ["cataclysm:koboleton", 1, 0, 0],
+	  ["cataclysm:koboleton", 0, 0, 1]
+    ]
+  ]
+}

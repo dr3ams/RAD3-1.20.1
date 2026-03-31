@@ -10,8 +10,8 @@
   "name": "gui.xaero_entity_category_root",
   "protection": true,
   "settingOverrides": {
-    "displayHeight": 0.0,
     "displayed": true,
+    "displayHeight": 0.0,
     "heightBasedFade": true,
     "renderOrder": 0.0,
     "color": 13.0,
@@ -21,9 +21,9 @@
     "dotSize": 2.0,
     "startFadingAt": 0.0,
     "renderOverMinimapFrame": 1.0,
-    "icons": 2.0,
-    "names": 0.0,
+    "icons": 1.0,
     "heightLimit": 20.0,
+    "names": 0.0,
     "iconScale": 1.0
   },
   "subCategories": [
@@ -33,34 +33,13 @@
       "includeListInSuperCategory": true,
       "excludeMode": "ONLY",
       "excludeList": [
-        "friendsandfoes:copper_golem",
-        "guardvillagers:guard",
-        "minecraft:armor_stand",
-        "minecraft:villager",
-        "naturalist:bass",
-        "naturalist:butterfly",
-        "naturalist:canary",
-        "naturalist:cardinal",
-        "naturalist:caterpillar",
-        "naturalist:finch",
-        "naturalist:firefly",
-        "naturalist:robin",
-        "naturalist:snail",
-        "naturalist:sparrow",
-        "vampirism:advanced_hunter",
-        "vampirism:hunter",
-        "vampirism:hunter_trainer",
-        "vampirism:vampire"
+        "minecraft:armor_stand"
       ],
       "name": "gui.xaero_entity_category_living",
       "protection": true,
       "settingOverrides": {
-        "displayed": true,
         "renderOrder": 2.0,
-        "names": 0.0,
-        "color": 14.0,
-        "displayNameWhenIconFails": false,
-        "icons": 2.0
+        "color": 14.0
       },
       "subCategories": [
         {
@@ -136,10 +115,7 @@
           "name": "gui.xaero_entity_category_hostile",
           "protection": true,
           "settingOverrides": {
-            "displayed": false,
-            "renderOrder": 3.0,
-            "names": 0.0,
-            "icons": 0.0
+            "renderOrder": 3.0
           },
           "subCategories": [
             {
@@ -207,7 +183,6 @@
       "name": "gui.xaero_entity_category_other_entities",
       "protection": true,
       "settingOverrides": {
-        "displayed": false,
         "color": 5.0
       },
       "subCategories": []

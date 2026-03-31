@@ -8,6 +8,15 @@ LootJS.modifiers((event) => {
 
 
 	const lootsize = 9; // amount of unique item stacks that will be allowed to generate from a loot table (item stacks can an item with a count so a stack of 6 bones for instance)
+	
+	const CARD_PACKS = [
+    Item.of("collectorsalbum:common_card_pack").withChance(20),
+    Item.of("collectorsalbum:uncommon_card_pack").withChance(15),
+    Item.of("collectorsalbum:rare_card_pack").withChance(8),
+    Item.of("collectorsalbum:epic_card_pack").withChance(3),
+    Item.of("collectorsalbum:legendary_card_pack").withChance(2),
+    Item.of("collectorsalbum:mythical_card_pack").withChance(1),
+];
 				
 	// blanket banning chest loot items
 	event.addLootTypeModifier(LootType.CHEST)
@@ -164,17 +173,17 @@ LootJS.modifiers((event) => {
 		.addAlternativesLoot(
 			LootEntry.of("kubejs:essence_earth").when((c) => c.randomChance(0.05)).limitCount([0, 1])
 		);
-    event.addBlockLootModifier("#forge:ores/coal").randomChance(0.1).addLoot("kubejs:essence_earth");
-	event.addBlockLootModifier("#forge:ores/iron").randomChance(0.1).addLoot("kubejs:essence_earth");
-	event.addBlockLootModifier("#forge:ores/copper").randomChance(0.1).addLoot("kubejs:essence_earth");
-	event.addBlockLootModifier("#forge:ores/quartz").randomChance(0.1).addLoot("kubejs:essence_earth");
-	event.addBlockLootModifier("#forge:ores/redstone").randomChance(0.2).addLoot("kubejs:essence_earth");
-	event.addBlockLootModifier("#forge:ores/gold").randomChance(0.2).addLoot("kubejs:essence_earth");
-	event.addBlockLootModifier("#forge:ores/lapis").randomChance(0.2).addLoot("kubejs:essence_earth");
-	event.addBlockLootModifier("#forge:ores/lead").randomChance(0.2).addLoot("kubejs:essence_earth");
-	event.addBlockLootModifier("#forge:ores/silver").randomChance(0.2).addLoot("kubejs:essence_earth");
-	event.addBlockLootModifier("#forge:ores/emerald").randomChance(0.3).addLoot("kubejs:essence_earth");
-	event.addBlockLootModifier("#forge:ores/diamond").randomChance(0.3).addLoot("kubejs:essence_earth");
+    event.addBlockLootModifier("#forge:ores/coal").randomChance(0.05).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("#forge:ores/iron").randomChance(0.05).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("#forge:ores/copper").randomChance(0.05).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("#forge:ores/quartz").randomChance(0.05).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("#forge:ores/redstone").randomChance(0.1).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("#forge:ores/gold").randomChance(0.1).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("#forge:ores/lapis").randomChance(0.1).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("#forge:ores/lead").randomChance(0.1).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("#forge:ores/silver").randomChance(0.1).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("#forge:ores/emerald").randomChance(0.2).addLoot("kubejs:essence_earth");
+	event.addBlockLootModifier("#forge:ores/diamond").randomChance(0.2).addLoot("kubejs:essence_earth");
 	
 	// Adding drops to spawners
 	event.addBlockLootModifier("minecraft:spawner").addLoot("kubejs:coin_dungeon");
@@ -187,30 +196,7 @@ LootJS.modifiers((event) => {
 			LootEntry.of("kubejs:scroll_exp").when((c) => c.randomChance(0.1)).limitCount([1, 1])
 		);
 		
-	event.addLootTypeModifier([LootType.CHEST])
-		.hasAnyStage("enchanter")
-		.addLoot(
-			LootEntry.of("kubejs:dust_experience").when((c) => c.randomChance(0.3)).limitCount([1, 2]),
-				);
-		
-	event.addLootTypeModifier([LootType.CHEST])
-		.hasAnyStage("alchemist")
-		.addLoot(
-			LootEntry.of("kubejs:dust_alchemical").when((c) => c.randomChance(0.3)).limitCount([1, 2]),
-				);	
-				
-	event.addLootTypeModifier([LootType.CHEST])
-		.hasAnyStage("scavenger")
-		.addLoot(
-			LootEntry.of("kubejs:scraps").when((c) => c.randomChance(0.3)).limitCount([1, 2]),
-				);
 
-	// OVERWORLD-SPECIFIC custom chest loot
-	event.addLootTypeModifier([LootType.CHEST])
-		.anyDimension("minecraft:overworld")
-		.addLoot(
-			LootEntry.of("kubejs:coin_dungeon").when((c) => c.randomChance(0.2)).limitCount([1, 1])
-		);
 
 /*     event.addLootTypeModifier([LootType.CHEST])
         .pool((pool) => {
@@ -241,17 +227,27 @@ LootJS.modifiers((event) => {
             pool.addLoot(LootEntry.of("minecraft:air", 60));
         });*/
 
+	// OVERWORLD-SPECIFIC custom chest loot
 	event.addLootTypeModifier([LootType.CHEST])
+		.anyDimension("minecraft:overworld")
+		.addLoot(LootEntry.of("kubejs:coin_dungeon").when((c) => c.randomChance(0.2)).limitCount([1, 1]));
+		
+	event.addLootTypeModifier([LootType.CHEST])
+		.anyDimension("minecraft:overworld")
+		.addLoot(LootEntry.of("lrdynamicdungeon:dungeon_pass").when((c) => c.randomChance(0.2)).limitCount([1, 1]));	
+
+	event.addLootTypeModifier([LootType.CHEST])
+	.randomChance(0.5)
 	.addAlternativesLoot(
             // --- (1% - 5%) ---
             LootEntry.of("kubejs:translocation_coil").when(c => c.randomChance(0.05)),
 			LootEntry.of("kubejs:sentry_remote").when(c => c.randomChance(0.05)),
-            LootEntry.of("kubejs:gamblers_coin").when(c => c.randomChance(0.05)),
+            LootEntry.of("kubejs:entropic_cent").when(c => c.randomChance(0.05)),
             LootEntry.of("kubejs:unstable_battery").when(c => c.randomChance(0.05)),
             LootEntry.of("kubejs:echo_locator").when(c => c.randomChance(0.05)),
             LootEntry.of("kubejs:magnetic_grapple").when(c => c.randomChance(0.05)),
-            LootEntry.of("kubejs:detonator").when(c => c.randomChance(0.05)),
-
+			LootEntry.of("kubejs:void_core").when(c => c.randomChance(0.05)),
+			LootEntry.of("kubejs:gamble_coin").when(c => c.randomChance(0.05)),
             // --- (6% - 10%) ---
             LootEntry.of("kubejs:buzzing_living_branch").when(c => c.randomChance(0.06)),
 			LootEntry.of("kubejs:bioscan_syringe").when(c => c.randomChance(0.06)),
@@ -279,11 +275,11 @@ LootJS.modifiers((event) => {
             LootEntry.of("kubejs:lost_bag").when(c => c.randomChance(0.25)),
             LootEntry.of("kubejs:ore_bag").when(c => c.randomChance(0.25)),
 			LootEntry.of('kubejs:gem_shard').when((c) => c.randomChance(0.25)),
-
+			LootEntry.of("kubejs:detonator").when(c => c.randomChance(0.20)),
             // --- FALLBACKS ---
-            LootEntry.of("kubejs:book_old").limitCount([1, 2]).when(c => c.randomChance(0.5)),
-			LootEntry.of("kubejs:book_ancient").limitCount([1, 1]).when(c => c.randomChance(0.5)),
-			LootEntry.of("kubejs:blessed_incense").limitCount([1, 5]).when(c => c.randomChance(0.5)),
+			LootEntry.of("kubejs:blessed_incense").limitCount([1, 5]).when(c => c.randomChance(0.25)),
+            LootEntry.of("kubejs:book_old").limitCount([1, 2]).when(c => c.randomChance(0.20)),
+			LootEntry.of("kubejs:book_ancient").limitCount([1, 1]).when(c => c.randomChance(0.15)),
             LootEntry.of("kubejs:canned_food").limitCount([1, 2])
         );
 
@@ -300,7 +296,7 @@ LootJS.modifiers((event) => {
             "betterdungeons:spider_dungeon", "betterdungeons:zombie_dungeon", "dungeons_enhanced:large_dungeon", "dungeons_arise:mushroom_mines", 
             "nova_structures:undead_crypt", "nova_structures:bunker", "darkerdepths:catacombs", "valhelsia_structures:spawner_dungeon", "ati_structures:underground_monument", 
             "ati_structures:spider_nest", "ati_structures:wither_cavern", "mowziesmobs:wrought_chamber", "dungeonsdelight:rotten_dungeon", 
-            "embers:small_ruin", "feur_dungeon_spawner:dungeon_mineshaft", "minecraft:mineshafts", "ntrials:trials", "takesapillage:pillager_camp", 
+            "embers:small_ruin", "minecraft:mineshafts", "ntrials:trials", "takesapillage:pillager_camp", 
             "nova_structures:stray_fort", "dungeons_arise:bandit_village", "dungeons_arise:illager_windmill", "dungeons_arise:greenwood_pub", 
             "dungeons_arise:illager_campsite", "forgottenruins:savaged_library", "forgottenruins:desert_library", "forgottenruins:desert_temple", 
             "dungeons_arise:illager_fort", "dungeons_arise:merchant_campsite", "ars_elemental:starbuncle_shrine", "ati_structures:deepslate_keep", 
@@ -442,6 +438,35 @@ LootJS.modifiers((event) => {
 		.addLoot(
 			LootEntry.of("kubejs:coin_bumblezone").when((c) => c.randomChance(0.7)).limitCount([1, 1])
 		);
+
+
+	//Card packs
+    event
+        .addLootTypeModifier(LootType.CHEST)
+        .anyDimension(
+            "aether:the_aether",
+            "undergarden:undergarden",
+            "landsoficaria:icaria",
+            "the_bumblezone:the_bumblezone",
+            "lrdynamicdungeon:dungeon_dimension"
+        )
+        .randomChance(0.15)
+        .addWeightedLoot(CARD_PACKS);
+
+    event
+        .addLootTypeModifier(LootType.CHEST)
+        .anyDimension(
+            "minecraft:the_nether",
+            "minecraft:the_end"
+        )
+        .randomChance(0.05)
+        .addWeightedLoot(CARD_PACKS);
+
+    event
+        .addLootTypeModifier(LootType.CHEST)
+        .anyDimension("minecraft:overworld")
+        .randomChance(0.02)
+        .addWeightedLoot(CARD_PACKS);
 
 	// LOOT LIMITER - MUST BE AT THE END
 	let lootlist = new Array();

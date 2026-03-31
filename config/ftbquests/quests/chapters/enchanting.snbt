@@ -1149,6 +1149,7 @@
 		}
 		{
 			description: ["These runes exist outside of the normal bookshelf progression. Each one is very powerful and difficult to craft. They are a reward for players who like to think outside of the box."]
+			disable_toast: true
 			id: "11872459EE2E3A0B"
 			rewards: [{
 				count: 3
@@ -1160,6 +1161,7 @@
 			size: 1.5d
 			subtitle: "Golden Power"
 			tasks: [{
+				disable_toast: true
 				id: "68CFCEAC82BAF19B"
 				item: "minecraft:gold_block"
 				type: "item"

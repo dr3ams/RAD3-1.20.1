@@ -1,4 +1,74 @@
-// --- 1. GLOBAL CONFIGURATIONS (Defined once at the top) ---
+// =============================================================================
+// ECHO EXTRACTOR — EVENT CHANCE REFERENCE
+// =============================================================================
+//
+// [ EXTRACTION RITUAL — MASTERY-SCALED TIMINGS ]
+//   Both timings scale linearly from mastery 0 → 150, then hold at minimum.
+//
+//   Cooldown after use:
+//     Mastery   0  ............ 20s (400 ticks)
+//     Mastery  75  ............ 12.5s (250 ticks)
+//     Mastery 150+ ............ 5s  (100 ticks, minimum)
+//
+//   Cast time (slowness + schedule delay):
+//     Mastery   0  ............ 6s  (120 ticks)
+//     Mastery  75  ............ 4s  (80 ticks)
+//     Mastery 150+ ............ 2s  (40 ticks, minimum)
+//
+// [ FAILURE CHECKS — applied in order after cast completes ]
+//
+//   1. Stability Check (ALWAYS, cannot be reduced by mastery)
+//      Total chance ................. 5%
+//      └─ Critical Failure (block destroyed + recoil) ... 30% of 5% = 1.5%
+//      └─ Soft Failure (block saved, ritual fizzles)  ... 70% of 5% = 3.5%
+//
+//   2. Temporal Remnant (Vex spawns, blindness, no tome)
+//      Base chance .................. 30%  (at mastery 0)
+//      Scales down .................. -0.1% per mastery point
+//      Minimum floor ................ 5%   (reached at mastery 250)
+//
+// [ SUCCESS — if both failure checks pass ]
+//   Theme rolled .................... uniform random from 30 THEMES
+//   Mastery gained .................. +1.0 per success
+//   Bonus Tier ...................... Math.floor(mastery / 10)
+//
+// [ SEALED TOME — opened on right-click ]
+//   Rarity thresholds (base → floor as tier grows):
+//     Rare    (pool[3], Tier 3+) .... roll > max(0.50, 0.90 - tier*0.01)
+//     Uncommon(pool[2], Tier 1+) .... roll > max(0.30, 0.70 - tier*0.01)
+//     Common  (pool[0-1]) ........... fallback
+//   Gold bonus (Tier 1+) ............ 70% chance per tome open
+//     └─ Gold Ingot vs Nugget ........ ingot if bonusTier >= 50, else nugget
+//   Jackpot: Nether Star (Tier 50+) . 1% chance
+//
+// =============================================================================	
+function syncExtractorStats(player) {
+    let masteryVal = player.persistentData.ritual_mastery || 0.0;
+    let cooldownVal = player.persistentData.extractor_cooldown || 0;
+    let discoveriesVal = player.persistentData.echo_discoveries || "";
+
+    player.sendData('sync_extractor_stats', {
+        mastery: masteryVal,
+        cooldown: Number(cooldownVal),
+        discoveries: String(discoveriesVal),
+        castTicks: getExtractorCastTicks(masteryVal),
+        cooldownTicks: getExtractorCooldown(masteryVal)													   
+    });
+}
+
+PlayerEvents.loggedIn(event => {
+    syncExtractorStats(event.player);
+});
+
+// Returns cooldown ticks scaled by mastery (20s → 5s over 150 levels, linear)
+function getExtractorCooldown(mastery) {
+    return Math.max(100, 400 - Math.floor(Math.min(mastery, 150) / 150 * 300));
+}
+
+// Returns cast ticks scaled by mastery (6s → 2s over 150 levels, linear)
+function getExtractorCastTicks(mastery) {
+    return Math.max(40, 120 - Math.floor(Math.min(mastery, 150) / 150 * 80));
+}
 const THEMES = [
     { id: "eldritch", name: "Eldritch", color: "dark_purple" },
     { id: "warbound", name: "Warbound", color: "red" },
@@ -29,7 +99,7 @@ const THEMES = [
     { id: 'crystalline', name: 'Crystalline', color: 'aqua' },
     { id: 'radiant', name: 'Radiant', color: 'yellow' },
     { id: 'forbidden', name: 'Forbidden', color: 'dark_red' },
-    { id: 'echoing', name: 'Echoing', color: 'dark_cyan' }
+    { id: 'echoing', name: 'Echoing', color: 'dark_aqua' }
 ];
 
 const TOME_LOOT_POOLS = {
@@ -100,10 +170,7 @@ const TOME_MESSAGES = {
 };
 
 const RESONANCE_MAP = {
-    'minecraft:spawner': 'minecraft:obsidian',
-    'minecraft:ancient_debris': 'minecraft:basalt',
-    'minecraft:budding_amethyst': 'minecraft:amethyst_block',
-    'minecraft:reinforced_deepslate': 'minecraft:cobbled_deepslate'
+    'minecraft:spawner': 'minecraft:obsidian'
 };
 
 ItemEvents.rightClicked(event => {
@@ -114,12 +181,14 @@ ItemEvents.rightClicked(event => {
     if (item.id == 'kubejs:echo_extractor') {
         let currentTime = level.time;
         let targetBlock = target.block;
-        
+        let mastery = player.persistentData.getDouble('ritual_mastery') || 0.0;
+        let cooldownTicks = getExtractorCooldown(mastery);
+        let castTicks     = getExtractorCastTicks(mastery);       												   
         // Cooldown Check
         if (player.persistentData.contains('extractor_cooldown')) {
             let elapsed = currentTime - player.persistentData.getLong('extractor_cooldown');
-            if (elapsed < 400) {
-                let remaining = Math.ceil((400 - elapsed) / 20);
+            if (elapsed < cooldownTicks) {
+                let remaining = Math.ceil((cooldownTicks - elapsed) / 20);
                 player.setStatusMessage(Text.of(`Extractor is cooling down: ${remaining}s`).red());
                 return;
             }
@@ -155,10 +224,10 @@ ItemEvents.rightClicked(event => {
         player.persistentData.putBoolean('extractor_busy', true);
         player.tell(Text.of("The Echo Extractor begins to drain the block's essence...").darkPurple());
         
-        server.runCommandSilent(`effect give ${pName} minecraft:slowness 6 10 true`);
+        server.runCommandSilent(`effect give ${pName} minecraft:slowness ${castTicks / 20} 10 true`);
         server.runCommandSilent(`playsound minecraft:block.respawn_anchor.charge player ${pName} ${player.x} ${player.y} ${player.z} 1 0.8`);
 
-        server.scheduleInTicks(120, () => {
+        server.scheduleInTicks(castTicks, () => {
             let p = server.getPlayer(pName);
 			let replacement = RESONANCE_MAP[targetBlock.id] || 'minecraft:obsidian';
             if (!p) return;
@@ -180,7 +249,6 @@ ItemEvents.rightClicked(event => {
 					server.runCommandSilent(`setblock ${echoX} ${echoY} ${echoZ} ${replacement}`);
 					player.tell(Text.of("CRITICAL FAILURE: The Echo collapsed!").red().bold());
 					server.runCommandSilent(`execute at ${pName} run playsound minecraft:entity.generic.explode player @s ~ ~ ~ 1 0.5`);
-					
 				} else {
 					// SOFT FAILURE: Spawner remains, but ritual fails
 					player.tell(Text.of("STABILITY FAILURE: The Echo slipped away...").yellow());
@@ -192,6 +260,7 @@ ItemEvents.rightClicked(event => {
 
 				// Consumables and cooldowns
 				player.attack(2.0); // 1 heart of recoil damage
+				syncExtractorStats(p);																 
 				return; // EXIT the script so no Sealed Tome is given
 			}
 
@@ -203,6 +272,7 @@ ItemEvents.rightClicked(event => {
                 server.runCommandSilent(`playsound minecraft:entity.generic.explode player ${pName} ~ ~ ~ 1 0.5`);
                 server.runCommandSilent(`particle minecraft:explosion_emitter ${p.x} ${p.y + 1} ${p.z} 0.5 0.5 0.5 0.1 1`);
                 p.tell(Text.of("The extraction failed! A temporal remnant has escaped!").red().italic());
+				syncExtractorStats(p);																			 
                 return; 
             }
 
@@ -214,11 +284,12 @@ ItemEvents.rightClicked(event => {
             server.runCommandSilent(`particle minecraft:sculk_soul ${echoX} ${echoY + 1} ${echoZ} 0.5 0.5 0.5 0.05 50`);
             server.runCommandSilent(`playsound minecraft:block.respawn_anchor.set_spawn block @a ${echoX} ${echoY} ${echoZ} 1 1.2`);
             
+			p.persistentData.putDouble('ritual_mastery', mastery + 1.0);
+			
             // Rewards
             let giveCmd = `give ${pName} kubejs:sealed_tome{theme:"${roll.id}",display:{Name:'{"text":"Sealed ${roll.name} Tome","color":"${roll.color}","italic":false}'}} 1`;
             server.runCommandSilent(giveCmd);
-            
-            p.persistentData.putDouble('ritual_mastery', mastery + 1.0);            
+					                       
 			p.tell(Text.of(`Extraction successfull!`).aqua().bold()
 							.append(Text.of(" - ").gray())
 							.append(Text.of(`Sealed ${roll.name} Tome (+1 Extraction Level)`).color(roll.color))
@@ -234,6 +305,7 @@ ItemEvents.rightClicked(event => {
                 p.tell(Text.of(`New Theme Discovered: ${roll.name}`).gold().italic());
                 server.runCommandSilent(`execute at ${pName} run playsound minecraft:ui.toast.challenge_complete player @s 1 1`);
             }
+			syncExtractorStats(player)
         });
     }
 
@@ -245,7 +317,9 @@ ItemEvents.rightClicked(event => {
 
         let currentRisk = Math.max(5.0, 30.0 - (mastery * 0.1));
         let bonusTier = Math.floor(mastery / 10);
-        let remainingSeconds = Math.ceil(Math.max(0, 400 - (level.time - lastCooldown)) / 20);
+        let effectiveCooldown = getExtractorCooldown(mastery);
+        let effectiveCast     = getExtractorCastTicks(mastery);        
+		let remainingSeconds = Math.ceil(Math.max(0, effectiveCooldown - (level.time - lastCooldown)) / 20);
 
         player.tell(Text.of("-- Chronicle of Echoes --").darkPurple().bold());
         player.tell(Text.of("Extraction Expertise: ").gray().append(Text.of(mastery.toFixed(1)).yellow()));
@@ -253,6 +327,10 @@ ItemEvents.rightClicked(event => {
         let riskColor = currentRisk > 20 ? "red" : (currentRisk > 10 ? "yellow" : "green");
         player.tell(Text.of("Backfire Risk: ").gray().append(Text.of(`${currentRisk.toFixed(1)}%`).color(riskColor)));
         player.tell(Text.of("Extraction Tier: ").gray().append(Text.of(`Tier ${bonusTier}`).aqua()));
+        player.tell(Text.of("Cast Time: ").gray()
+			.append(Text.of(`${(effectiveCast / 20).toFixed(1)}s`).yellow())
+            .append(Text.of("  |  Cooldown: ").gray())
+            .append(Text.of(`${(effectiveCooldown / 20).toFixed(1)}s`).yellow()));																			  
 
         // --- DISCOVERY DISPLAY ---
         let themeList = Text.of("");
@@ -300,7 +378,7 @@ ItemEvents.rightClicked(event => {
         if (roll > rareThreshold && bonusTier >= 3) {
             // RARE (Tier 3+)
             itemToGive = pool[3] || pool[2];
-            qty = (itemToGive.includes("end") || itemToGive.includes("dragon") || itemToGive.includes("void") || itemToGive.includes("shulker") || itemToGive.includes("epic") || itemToGive.includes("mythic") || itemToGive.includes("neptunium") || itemToGive.includes("totem") || itemToGive.includes("netherite")) ? 1 : (10, 1 + Math.floor(bonusTier / 25));
+            qty = (itemToGive.includes("end") || itemToGive.includes("dragon") || itemToGive.includes("void") || itemToGive.includes("shulker") || itemToGive.includes("epic") || itemToGive.includes("mythic") || itemToGive.includes("neptunium") || itemToGive.includes("totem") || itemToGive.includes("netherite")) ? 1 : 1 + Math.floor(bonusTier / 25);
         } 
         else if (roll > uncommonThreshold && bonusTier >= 1) {
             // UNCOMMON (Tier 1+)

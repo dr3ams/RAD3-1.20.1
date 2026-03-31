@@ -16,6 +16,7 @@ PlayerEvents.chat((event) => {
 });
 
 PlayerEvents.loggedIn(event => {
+
   if (!event.player.persistentData.contains('firstjoin')) 
   {
     event.player.persistentData.putBoolean('firstjoin', true)

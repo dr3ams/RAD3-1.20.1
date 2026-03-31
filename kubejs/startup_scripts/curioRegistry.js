@@ -115,9 +115,9 @@ StartupEvents.registry('item', event => {
                 )
         )
 
+
+	
 ///END
 })
-
-
 
 StartupEvents.postInit(event => { Platform.mods.kubejs.name = 'RAD 3'; });

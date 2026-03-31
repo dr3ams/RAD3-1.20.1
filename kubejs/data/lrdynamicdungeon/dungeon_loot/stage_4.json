@@ -1,0 +1,468 @@
+{
+  "consumable": {
+    "weight": 4,
+    "loot": [
+      [
+        ["minecraft:cooked_beef", 16]
+      ],
+	  [
+        ["minecraft:cooked_porkchop", 16]
+      ],
+	  [
+        ["minecraft:cooked_salmon", 16]
+      ],
+	  [
+        ["minecraft:tropical_fish", 16]
+      ],
+	  [
+        ["minecraft:pufferfish", 16]
+      ],
+	  [
+        ["minecraft:pumpkin_pie", 16]
+      ],
+	  [["kubejs:sentry_remote", 1]], 
+	  [["kubejs:d6", 1]],  
+	  [["kubejs:gamblers_coin", 1]],
+	  [["kubejs:coin_dungeon", 1]],
+		[["collectorsalbum:common_card_pack", 1]],
+		[["lrdynamicdungeon:dungeon_pass", 1]], 		
+		[["collectorsalbum:uncommon_card_pack", 1]], 	
+		[["hmag:exp_berry", 3]], 
+		[["hmag:randomberry", 1]], 
+		[["hmag:cureberry", 6]],
+		[["kubejs:coin_raid", 3]],
+		[["aquaculture:box", 1]], 
+		[["aquaculture:lockbox", 1]], 
+		[["simplyswords:runic_tablet", 1]], 		
+	    [["kubejs:map_fragment", 1]], 
+	  [
+        ["minecraft:golden_carrot", 16]
+      ]
+    ]
+  },
+  "combat": {
+    "weight": 2,
+    "loot": [
+	  [["kubejs:emergency_flare", 16]], 
+	  [["kubejs:berserk_draught", 1]], 
+	  [["kubejs:unstable_battery", 1]], 
+      [
+        ["minecraft:diamond_sword", 1, { "Enchantments": [{"id":"minecraft:sharpness","lvl":3}] }],
+        ["minecraft:shield", 1, { "Enchantments": [{"id":"minecraft:unbreaking","lvl":3}] }]
+      ],
+	  [
+		["supplementaries:bomb", 16]	
+	  ],
+      [
+        ["minecraft:diamond_axe", 1, { "Enchantments": [ {"id":"minecraft:sharpness","lvl":3},{"id":"minecraft:unbreaking","lvl":1} ] }]
+      ],
+	  [
+        ["minecraft:bow", 1, { "Enchantments": [{"id":"minecraft:punch","lvl":3}] }],
+        ["minecraft:arrow", 64]
+      ],
+      [
+        ["minecraft:crossbow", 1, { "Enchantments": [{"id":"minecraft:quick_charge","lvl":2},{"id":"minecraft:piercing","lvl":4},{"id":"minecraft:unbreaking","lvl":2}] }],
+        ["minecraft:arrow", 48]
+      ]
+    ]
+  },
+  "equipment": {
+    "weight": 2,
+    "loot": [
+	[["kubejs:lootbox_common", 1]], 
+	[["kubejs:coin_dungeon", 1]],
+	[["kubejs:coin_raid", 1]],
+	[["kubejs:lootbox_rare", 1]],
+	[["fantasy_armor:moon_crystal", 1]],
+	[["skilltree:amnesia_scroll", 1]], 
+	[["ntrials:wind_charge", 1]], 
+	[["paraglider:spirit_orb", 1]],
+	[["collectorsalbum:rare_card_pack", 1]], 
+	[["collectorsalbum:epic_card_pack", 1]], 	
+	[["kubejs:gamblers_coin", 1]], 
+      [ [ "minecraft:diamond_helmet", 1 ] ],
+      [ [ "minecraft:diamond_boots", 1 ] ]
+    ]
+  },
+  "enchantment": {
+    "weight": 3,
+    "loot": [
+      [
+        ["minecraft:experience_bottle", 32]
+      ],
+	  [["kubejs:scroll_exp", 5]], 
+		[["kubejs:scroll_exp_great", 1]],
+		[["ars_nouveau:experience_gem", 10]], 
+		[["ars_nouveau:greater_experience_gem", 3]], 
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:sharpness","lvl":3}] }]
+      ],
+      [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:protection","lvl":4}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:feather_falling","lvl":5}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:respiration","lvl":4}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:thorns","lvl":4}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:depth_strider","lvl":4}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:smite","lvl":5}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:efficiency","lvl":4}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:unbreaking","lvl":4}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:power","lvl":4}] }]
+      ]
+    ]
+  },
+  "botany": {
+    "weight": 1,
+    "loot": [
+      [ [ "minecraft:sculk_vein", 8] ],
+      [ [ "minecraft:torchflower", 8] ],
+      [ [ "minecraft:weeping_vines", 8] ],
+      [ [ "minecraft:twisting_vines", 8] ],
+      [ [ "kubejs:coin_dungeon", 1] ]
+    ]
+  },
+  "nature": {
+    "weight": 5,
+    "loot": [
+      [
+        ["minecraft:emerald", 4]
+      ],
+	  [
+        ["minecraft:diamond", 1]
+      ],
+	  [
+        ["minecraft:obsidian", 16]
+      ],
+	  [
+        ["minecraft:redstone_block", 16]
+      ],
+	  [
+        ["minecraft:glowstone_dust", 16]
+      ]
+    ]
+  },
+  "mobs": {
+    "weight": 3,
+    "loot": [
+      [["minecraft:glow_ink_sac", 32]],
+      [["minecraft:scute", 16]],
+	  [["kubejs:coin_dungeon", 1]],
+      [["minecraft:leather", 32]],
+      [["minecraft:honeycomb", 32]],
+      [["minecraft:slime_ball", 32]],
+      [["minecraft:nautilus_shell", 8]],
+      [["minecraft:ender_pearl", 8],["minecraft:ender_pearl", 8]],
+	  [["dungeonsdelight:soft_serve_sniffer_egg", 1]], 
+		[["dungeonsdelight:bloated_baked_potato", 1]], 
+		[["dungeonsdelight:snuffledog", 1]], 
+      [["minecraft:blaze_powder", 2]]
+    ]
+  },
+  "rare_weapon": {
+    "weight": 1,
+    "loot": [
+      [
+        [
+          "minecraft:netherite_sword",
+          1,
+          {
+            "display": {
+              "Name": "[{\"text\":\"Eternal Blade\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}]",
+              "Lore": [
+                "[{\"text\":\"Forged before the Foefire.\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                "[{\"text\":\"Still sharp.\",\"italic\":true,\"color\":\"dark_gray\"}]"
+              ]
+            },
+            "Enchantments": [
+              {
+                "id": "minecraft:sharpness",
+                "lvl": 4
+              },
+              {
+                "id": "minecraft:unbreaking",
+                "lvl": 3
+              },
+              {
+                "id": "minecraft:mending",
+                "lvl": 1
+              }
+            ],
+            "AttributeModifiers": [
+              {
+                "AttributeName": "generic.attack_damage",
+                "Amount": 12,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -777771,
+                  77771,
+                  777771,
+                  -77771
+                ],
+                "Name": "eternal_dmg"
+              },
+              {
+                "AttributeName": "generic.attack_speed",
+                "Amount": 0.2,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -777772,
+                  77772,
+                  777772,
+                  -77772
+                ],
+                "Name": "eternal_spd"
+              }
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          "minecraft:netherite_sword",
+          1,
+          {
+            "display": {
+              "Name": "[{\"text\":\"Miraak's Sword\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true}]",
+              "Lore": [
+                "[{\"text\":\"For in that moment,\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                "[{\"text\":\"he was the master.\",\"italic\":true,\"color\":\"dark_gray\"}]"
+              ]
+            },
+            "Enchantments": [
+              {
+                "id": "minecraft:sharpness",
+                "lvl": 4
+              },
+              {
+                "id": "minecraft:fire_aspect",
+                "lvl": 2
+              },
+              {
+                "id": "minecraft:unbreaking",
+                "lvl": 3
+              }
+            ],
+            "AttributeModifiers": [
+              {
+                "AttributeName": "generic.attack_damage",
+                "Amount": 13,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -777773,
+                  77773,
+                  777773,
+                  -77773
+                ],
+                "Name": "miraak_dmg"
+              },
+              {
+                "AttributeName": "generic.max_health",
+                "Amount": 2,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -777774,
+                  77774,
+                  777774,
+                  -77774
+                ],
+                "Name": "miraak_hp"
+              }
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          "minecraft:netherite_sword",
+          1,
+          {
+            "display": {
+              "Name": "[{\"text\":\"Black Flame Blade\",\"italic\":false,\"color\":\"dark_gray\",\"bold\":true}]",
+              "Lore": [
+                "[{\"text\":\"The flame remembers\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                "[{\"text\":\"what the wielder forgets.\",\"italic\":true,\"color\":\"dark_gray\"}]"
+              ]
+            },
+            "Enchantments": [
+              {
+                "id": "minecraft:fire_aspect",
+                "lvl": 2
+              },
+              {
+                "id": "minecraft:sharpness",
+                "lvl": 3
+              },
+              {
+                "id": "minecraft:sweeping_edge",
+                "lvl": 3
+              },
+              {
+                "id": "minecraft:unbreaking",
+                "lvl": 3
+              }
+            ],
+            "AttributeModifiers": [
+              {
+                "AttributeName": "generic.attack_damage",
+                "Amount": 12,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -777775,
+                  77775,
+                  777775,
+                  -77775
+                ],
+                "Name": "blackflame_dmg"
+              }
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          "minecraft:netherite_sword",
+          1,
+          {
+            "display": {
+              "Name": "[{\"text\":\"Mantis Blade Mk.V\",\"italic\":false,\"color\":\"yellow\",\"bold\":true}]",
+              "Lore": [
+                "[{\"text\":\"Sandevistan not included.\",\"italic\":true,\"color\":\"dark_gray\"}]"
+              ]
+            },
+            "Enchantments": [
+              {
+                "id": "minecraft:sharpness",
+                "lvl": 4
+              },
+              {
+                "id": "minecraft:sweeping_edge",
+                "lvl": 3
+              },
+              {
+                "id": "minecraft:unbreaking",
+                "lvl": 3
+              },
+              {
+                "id": "minecraft:mending",
+                "lvl": 1
+              }
+            ],
+            "AttributeModifiers": [
+              {
+                "AttributeName": "generic.attack_damage",
+                "Amount": 12,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -777776,
+                  77776,
+                  777776,
+                  -77776
+                ],
+                "Name": "mantis5_dmg"
+              },
+              {
+                "AttributeName": "generic.attack_speed",
+                "Amount": 0.8,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -777777,
+                  77777,
+                  777777,
+                  -77777
+                ],
+                "Name": "mantis5_spd"
+              }
+            ]
+          }
+        ]
+      ]
+    ]
+  },
+  "rare_trinket": {
+    "weight": 1,
+    "loot": [
+      [
+        [
+          "minecraft:ender_pearl",
+          1,
+          {
+            "display": {
+              "Name": "[{\"text\":\"Chaos Orb\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true}]",
+              "Lore": [
+                "[{\"text\":\"Everything can be rerolled.\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                "[{\"text\":\"Everything.\",\"italic\":true,\"color\":\"dark_gray\"}]"
+              ]
+            },
+            "AttributeModifiers": [
+              {
+                "AttributeName": "generic.luck",
+                "Amount": 2,
+                "Operation": 0,
+                "Slot": "offhand",
+                "UUID": [
+                  -888881,
+                  88881,
+                  888881,
+                  -88881
+                ],
+                "Name": "chaos_luck"
+              }
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          "minecraft:compass",
+          1,
+          {
+            "display": {
+              "Name": "[{\"text\":\"Neural Interface\",\"italic\":false,\"color\":\"yellow\",\"bold\":true}]",
+              "Lore": [
+                "[{\"text\":\"Relic installed.\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                "[{\"text\":\"Johnny not included.\",\"italic\":true,\"color\":\"dark_gray\"}]"
+              ]
+            },
+            "AttributeModifiers": [
+              {
+                "AttributeName": "generic.attack_speed",
+                "Amount": 0.3,
+                "Operation": 0,
+                "Slot": "offhand",
+                "UUID": [
+                  -888882,
+                  88882,
+                  888882,
+                  -88882
+                ],
+                "Name": "neural_spd"
+              }
+            ]
+          }
+        ]
+      ]
+    ]
+  }
+}

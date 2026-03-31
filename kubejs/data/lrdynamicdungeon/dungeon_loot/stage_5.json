@@ -1,0 +1,518 @@
+{
+  "consumable": {
+    "weight": 4,
+    "loot": [
+		[["minecraft:rabbit_stew", 16]],
+	    [["minecraft:enchanted_golden_apple", 3]],
+	    [["kubejs:coin_dungeon", 10]],
+	  	[["kubejs:lootbox_rare", 1]],			
+		[["kubejs:gemcutters_pouch_greater", 1]],
+		[["kubejs:unidentified_glyph_scroll_3", 1]],
+		[["kubejs:map_scroll_structure", 1]],
+		[["kubejs:reagent_box", 1]],
+		[["minecraft:golden_apple", 1]],
+		[["minecraft:golden_carrot", 1]],
+		[["aquaculture:treasure_chest", 1]],
+		[["kubejs:sentry_remote", 1]], 
+		[["dungeonsdelight:ghastly_spirits", 1]], 
+		[["dungeonsdelight:soft_serve_sniffer_egg", 1]], 
+		[["dungeonsdelight:bloated_baked_potato", 1]], 
+		[["dungeonsdelight:snuffledog", 1]],
+		[["collectorsalbum:rare_card_pack", 1]], 
+		[["collectorsalbum:epic_card_pack", 1]], 
+		[["kubejs:coin_raid", 5]],
+		[["the_bumblezone:royal_jelly_bottle", 1]]
+    ]
+  },
+  "combat": {
+    "weight": 2,
+    "loot": [
+      [
+        ["minecraft:diamond_sword", 1, { "Enchantments": [{"id":"minecraft:sharpness","lvl":4}] }],
+        ["minecraft:shield", 1, { "Enchantments": [{"id":"minecraft:unbreaking","lvl":3}] }]
+      ],
+      [
+        ["minecraft:diamond_axe", 1, { "Enchantments": [ {"id":"minecraft:sharpness","lvl":4},{"id":"minecraft:unbreaking","lvl":2} ] }]
+      ],
+	  [
+        ["minecraft:bow", 1, { "Enchantments": [{"id":"minecraft:punch","lvl":3}] }],
+        ["minecraft:arrow", 64]
+      ],
+      [
+        ["minecraft:crossbow", 1, { "Enchantments": [{"id":"minecraft:quick_charge","lvl":3},{"id":"minecraft:piercing","lvl":5},{"id":"minecraft:unbreaking","lvl":3},{"id":"minecraft:multishot","lvl":1}] }],
+        ["minecraft:arrow", 64]
+      ],
+	  	[["kubejs:coin_dungeon", 4]],
+		[["supplementaries:bomb", 16]],
+		[["supplementaries:bomb_blue", 16]],
+		[["kubejs:berserk_draught", 1]],
+		[["fantasy_armor:moon_crystal", 1]],
+		[["kubejs:bee_jar", 1]],
+		[["kubejs:upgrade_swift2", 1]],
+		[["kubejs:upgrade_sharp2", 1]],
+		[["collectorsalbum:legendary_card_pack", 1]], 
+		[["collectorsalbum:mythical_card_pack", 1]],
+		[["kubejs:lootbox_legendary", 1]]
+    ]
+  },
+  "equipment": {
+    "weight": 2,
+    "loot": [
+	[["kubejs:artifact_fragment", 1]], 
+	  [	["kubejs:lootbox_epic", 1]],
+      [ [ "minecraft:diamond_helmet", 1 ] ],
+      [ [ "minecraft:diamond_chestplate", 1 ] ],
+      [ [ "minecraft:diamond_leggings", 1 ] ],
+      [ [ "minecraft:diamond_boots", 1 ] ]
+    ]
+  },
+  "enchantment": {
+    "weight": 3,
+    "loot": [
+      [
+        ["minecraft:experience_bottle", 32],
+        ["minecraft:experience_bottle", 32]
+      ],
+	  [["kubejs:scroll_exp_great", 5]],
+	  [["kubejs:scroll_exp", 16]],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:sharpness","lvl":5}] }]
+      ],
+      [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:protection","lvl":5}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:feather_falling","lvl":10}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:respiration","lvl":5}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:thorns","lvl":5}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:depth_strider","lvl":5}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:smite","lvl":5}] }]
+      ]
+    ]
+  },
+  "nature": {
+    "weight": 5,
+    "loot": [
+      [
+        ["minecraft:emerald", 8]
+      ],
+	  [
+        ["minecraft:diamond", 4]
+      ],
+	  [
+        ["minecraft:obsidian", 16],
+		["minecraft:obsidian", 16]
+      ],
+	  [
+        ["minecraft:ancient_debris", 1]
+      ],
+	  [
+        ["minecraft:heart_of_the_sea", 1]
+      ],
+	  [
+        ["minecraft:glowstone", 16]
+      ],
+      [
+        ["minecraft:quartz_block", 4]
+      ]
+    ]
+  },
+  "mobs": {
+    "weight": 3,
+    "loot": [
+      [["minecraft:scute", 32]],
+      [["minecraft:honeycomb", 64]],
+      [["minecraft:nautilus_shell", 16]],
+      [["minecraft:shulker_shell", 8]],
+      [["minecraft:blaze_rod", 32]],
+      [["kubejs:coin_dungeon", 4]],
+	  [["dungeonsdelight:spider_bubble_tea", 1]], 
+	  [["dungeonsdelight:monster_cake_slice", 1]], 
+	  [["dungeonsdelight:devilish_eggs", 1]],
+      [["minecraft:echo_shard", 1]]
+    ]
+  },
+  "rare_weapon": {
+    "weight": 1,
+    "loot": [
+      [
+        [
+          "minecraft:netherite_sword",
+          1,
+          {
+            "display": {
+              "Name": "[{\"text\":\"Sharpwire\",\"italic\":false,\"color\":\"gold\",\"bold\":true}]",
+              "Lore": [
+                "[{\"text\":\"A gentleman's weapon.\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                "[{\"text\":\"Mostly.\",\"italic\":true,\"color\":\"dark_gray\"}]"
+              ]
+            },
+            "Enchantments": [
+              {
+                "id": "minecraft:sharpness",
+                "lvl": 5
+              },
+              {
+                "id": "minecraft:looting",
+                "lvl": 3
+              },
+              {
+                "id": "minecraft:unbreaking",
+                "lvl": 3
+              },
+              {
+                "id": "minecraft:mending",
+                "lvl": 1
+              }
+            ],
+            "AttributeModifiers": [
+              {
+                "AttributeName": "generic.attack_damage",
+                "Amount": 14,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -999991,
+                  99991,
+                  999991,
+                  -99991
+                ],
+                "Name": "sharp_dmg"
+              },
+              {
+                "AttributeName": "generic.attack_speed",
+                "Amount": 1,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -999992,
+                  99992,
+                  999992,
+                  -99992
+                ],
+                "Name": "sharp_spd"
+              }
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          "minecraft:netherite_sword",
+          1,
+          {
+            "display": {
+              "Name": "[{\"text\":\"Steel of Winterhold\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}]",
+              "Lore": [
+                "[{\"text\":\"FUS RO DAH carved\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                "[{\"text\":\"into the pommel.\",\"italic\":true,\"color\":\"dark_gray\"}]"
+              ]
+            },
+            "Enchantments": [
+              {
+                "id": "minecraft:sharpness",
+                "lvl": 5
+              },
+              {
+                "id": "minecraft:knockback",
+                "lvl": 2
+              },
+              {
+                "id": "minecraft:frost_walker",
+                "lvl": 2
+              },
+              {
+                "id": "minecraft:unbreaking",
+                "lvl": 3
+              },
+              {
+                "id": "minecraft:mending",
+                "lvl": 1
+              }
+            ],
+            "AttributeModifiers": [
+              {
+                "AttributeName": "generic.attack_damage",
+                "Amount": 15,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -999993,
+                  99993,
+                  999993,
+                  -99993
+                ],
+                "Name": "winter_dmg"
+              },
+              {
+                "AttributeName": "generic.attack_knockback",
+                "Amount": 2,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -999994,
+                  99994,
+                  999994,
+                  -99994
+                ],
+                "Name": "winter_kb"
+              }
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          "minecraft:netherite_sword",
+          1,
+          {
+            "display": {
+              "Name": "[{\"text\":\"Grandfather\",\"italic\":false,\"color\":\"yellow\",\"bold\":true}]",
+              "Lore": [
+                "[{\"text\":\"There is no greater sword.\",\"italic\":true,\"color\":\"dark_gray\"}]"
+              ]
+            },
+            "Enchantments": [
+              {
+                "id": "minecraft:sharpness",
+                "lvl": 5
+              },
+              {
+                "id": "minecraft:fire_aspect",
+                "lvl": 2
+              },
+              {
+                "id": "minecraft:looting",
+                "lvl": 3
+              },
+              {
+                "id": "minecraft:unbreaking",
+                "lvl": 3
+              },
+              {
+                "id": "minecraft:mending",
+                "lvl": 1
+              }
+            ],
+            "AttributeModifiers": [
+              {
+                "AttributeName": "generic.attack_damage",
+                "Amount": 18,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -999995,
+                  99995,
+                  999995,
+                  -99995
+                ],
+                "Name": "grandpa_dmg"
+              },
+              {
+                "AttributeName": "generic.max_health",
+                "Amount": 6,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -999996,
+                  99996,
+                  999996,
+                  -99996
+                ],
+                "Name": "grandpa_hp"
+              },
+              {
+                "AttributeName": "generic.attack_speed",
+                "Amount": -0.2,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -999997,
+                  99997,
+                  999997,
+                  -99997
+                ],
+                "Name": "grandpa_spd"
+              }
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          "minecraft:netherite_axe",
+          1,
+          {
+            "display": {
+              "Name": "[{\"text\":\"Void Axe\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true}]",
+              "Lore": [
+                "[{\"text\":\"The Atlas bled to make this.\",\"italic\":true,\"color\":\"dark_gray\"}]"
+              ]
+            },
+            "Enchantments": [
+              {
+                "id": "minecraft:sharpness",
+                "lvl": 5
+              },
+              {
+                "id": "minecraft:sweeping_edge",
+                "lvl": 3
+              },
+              {
+                "id": "minecraft:unbreaking",
+                "lvl": 3
+              },
+              {
+                "id": "minecraft:mending",
+                "lvl": 1
+              }
+            ],
+            "AttributeModifiers": [
+              {
+                "AttributeName": "generic.attack_damage",
+                "Amount": 16,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -999998,
+                  99998,
+                  999998,
+                  -99998
+                ],
+                "Name": "void_dmg"
+              },
+              {
+                "AttributeName": "generic.attack_speed",
+                "Amount": -0.1,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -999999,
+                  99999,
+                  999999,
+                  -99999
+                ],
+                "Name": "void_spd"
+              }
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          "minecraft:netherite_sword",
+          1,
+          {
+            "display": {
+              "Name": "[{\"text\":\"Witcher's Silver\",\"italic\":false,\"color\":\"white\",\"bold\":true}]",
+              "Lore": [
+                "[{\"text\":\"Monsters fear this.\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                "[{\"text\":\"You should too.\",\"italic\":true,\"color\":\"dark_gray\"}]"
+              ]
+            },
+            "Enchantments": [
+              {
+                "id": "minecraft:smite",
+                "lvl": 5
+              },
+              {
+                "id": "minecraft:sharpness",
+                "lvl": 4
+              },
+              {
+                "id": "minecraft:fire_aspect",
+                "lvl": 2
+              },
+              {
+                "id": "minecraft:unbreaking",
+                "lvl": 3
+              },
+              {
+                "id": "minecraft:mending",
+                "lvl": 1
+              }
+            ],
+            "AttributeModifiers": [
+              {
+                "AttributeName": "generic.attack_damage",
+                "Amount": 15,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -919191,
+                  91919,
+                  919191,
+                  -91919
+                ],
+                "Name": "witcher_dmg"
+              }
+            ]
+          }
+        ]
+      ]
+    ]
+  },
+  "rare_trinket": {
+    "weight": 1,
+    "loot": [
+      [
+        [
+          "minecraft:written_book",
+          1,
+          {
+            "display": {
+              "Name": "[{\"text\":\"Elder Scroll\",\"italic\":false,\"color\":\"white\",\"bold\":true}]",
+              "Lore": [
+                "[{\"text\":\"Reading it costs you.\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                "[{\"text\":\"Not reading it costs more.\",\"italic\":true,\"color\":\"dark_gray\"}]"
+              ]
+            },
+            "title": "Elder Scroll",
+            "author": "Hermaeus Mora",
+            "pages": [
+              "[{\"text\":\"...\\n\\nThe words twist and blur. Your vision fades. You understand everything and nothing.\",\"color\":\"white\"}]"
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          "minecraft:gold_nugget",
+          1,
+          {
+            "display": {
+              "Name": "[{\"text\":\"Septim Coin\",\"italic\":false,\"color\":\"gold\",\"bold\":true}]",
+              "Lore": [
+                "[{\"text\":\"Do you get to the Cloud District\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                "[{\"text\":\"very often?\",\"italic\":true,\"color\":\"dark_gray\"}]"
+              ]
+            },
+            "AttributeModifiers": [
+              {
+                "AttributeName": "generic.luck",
+                "Amount": 3,
+                "Operation": 0,
+                "Slot": "offhand",
+                "UUID": [
+                  -929292,
+                  92929,
+                  929292,
+                  -92929
+                ],
+                "Name": "septim_luck"
+              }
+            ]
+          }
+        ]
+      ]
+    ]
+  }
+}

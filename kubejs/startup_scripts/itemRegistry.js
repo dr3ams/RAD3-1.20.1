@@ -1,6 +1,11 @@
 // priority: 0
 
 console.info('Hello, World! (You will only see this line once in console, during startup)')
+// ============================================================
+const TOOLTIP_XP_COST      = 25;           
+const TOOLTIP_OFFHAND_ITEM = "Gold Ingot"; 
+const TOOLTIP_COOLDOWN_SEC = 5;            
+// ============================================================
 
 StartupEvents.registry('item', event => {
 	// Register new items here
@@ -15,7 +20,7 @@ event.create('stone_mortar').displayName('Stone Mortar').maxDamage(64)
 event.create('iron_mortar').displayName('Iron Mortar').maxDamage(220)
 event.create('sifter').displayName('Sifter').maxDamage(1550)
 
-event.create('rick').displayName('Pet Coal').unstackable().burnTime(60000).rarity('EPIC').tooltip('Named Rick')	
+event.create('rick').displayName('Pet Coal').unstackable().burnTime(60000).rarity('epic').tooltip('Named Rick')	
 
 //apoth
 event.create('socketweaver').displayName('Socket Weaver')
@@ -37,8 +42,83 @@ event.create('coin_bumblezone').displayName('Bumblezone Coin').rarity('Rare')
 event.create('coin_icaria').displayName('Icaria Coin').rarity('Rare')
 event.create('coin_end').displayName('End Coin').rarity('Uncommon')
 event.create('coin_nether').displayName('Nether Coin').rarity('Uncommon')
+
+//dungeon raid related
+	event.create('coin_raid').displayName('Raid Token')
+	event.create('boss_killer').displayName('Boss Smasher').tooltip('Deals significant damage to §4Bosses. §fCan be used only in Dungeon Raid')
+	event.create('miniboss_killer').displayName('mini-Boss Smasher').tooltip('Deals significant damage to §4mini Bosses. §fCan be used only in Dungeon Raid')
+	event.create('dungeon_recall').displayName('Dungeon Raid Teleporter')
+	event.create('ice_shard').displayName('Ice Shard')
+	event.create('kill_multiplier').displayName('Void Hourglass')
+	event.create('kubejs:turret_item')
+		.displayName('Portable Turret')
+		.maxStackSize(1)
+		.maxDamage(10) // 5 uses
+    event.create('lootbox_common')
+        .displayName('§fCommon Lootbox')
+        .tooltip('§7A battered crate scavenged from dungeon floors.')
+        .tooltip('§7Contains basic supplies for the unprepared.')
+        .tooltip('')
+        .tooltip('§8Requires a §fCommon Key §8in off-hand to open.')
+        .maxStackSize(16);
+ 
+    event.create('lootbox_rare')
+        .displayName('§9Rare Lootbox')
+        .tooltip('§7A reinforced chest bearing faint magical runes.')
+        .tooltip('§7Better odds. Better loot. Still a gamble.')
+        .tooltip('')
+        .tooltip('§8Requires a §9Rare Key §8in off-hand to open.')
+        .maxStackSize(16);
+ 
+    event.create('lootbox_epic')
+        .displayName('§5Epic Lootbox')
+        .tooltip('§7Humming with unstable energy, this box')
+        .tooltip('§7demands respect — and the right key.')
+        .tooltip('')
+        .tooltip('§8Requires an §5Epic Key §8in off-hand to open.')
+        .maxStackSize(16);
+ 
+    event.create('lootbox_legendary')
+        .displayName('§6Legendary Lootbox')
+        .tooltip('§7Few have held one. Fewer have opened one.')
+        .tooltip('§7The dungeon gives up its greatest secrets reluctantly.')
+        .tooltip('')
+        .tooltip('§8Requires a §6Legendary Key §8in off-hand to open.')
+        .maxStackSize(16);
+ 
+    // ── KEYS ──────────────────────────────────────────────────
+    event.create('key_common')
+        .displayName('§fCommon Key')
+        .tooltip('§7A simple iron key. Fits common lootboxes.')
+        .tooltip('§8Hold in off-hand and right-click a §fCommon Lootbox§8.')
+        .maxStackSize(16);
+ 
+    event.create('key_rare')
+        .displayName('§9Rare Key')
+        .tooltip('§7A finely cut key with a faint blue sheen.')
+        .tooltip('§8Hold in off-hand and right-click a §9Rare Lootbox§8.')
+        .maxStackSize(16);
+ 
+    event.create('key_epic')
+        .displayName('§5Epic Key')
+        .tooltip('§7Carved from something that should not exist.')
+        .tooltip('§8Hold in off-hand and right-click an §5Epic Lootbox§8.')
+        .maxStackSize(16);
+ 
+    event.create('key_legendary')
+        .displayName('§6Legendary Key')
+        .tooltip('§7It hums when you hold it. You feel watched.')
+        .tooltip('§8Hold in off-hand and right-click a §6Legendary Lootbox§8.')
+        .maxStackSize(16);
+
+    event.create('guard_summon')
+        .displayName('§aGuard Summon Scroll')
+        .tooltip('§7A magical conctract that calls a guard to your side')
+        .tooltip('§7The guard will fight for you for §f1 minute §7before vanishing')
+        .tooltip('§8Only one guard may be active at a time')
+        .maxStackSize(3);
+
 //task coins
-//event.create('coin_engineer').displayName('Engineer`s Coin')
 //event.create('coin_food').displayName('Food Coin')
 //event.create('coin_gathering').displayName('Gathering Coin')
 //event.create('coin_exploration').displayName('Exploration Coin')
@@ -171,9 +251,9 @@ event.create('mending').displayName('Mending').texture('minecraft:item/enchanted
          .unstackable()
          .rarity('rare')
          .glow(true)
-    event.create('gamblers_coin')
-         .displayName("Gambler's Coin")
-		 .maxDamage(25)
+    event.create('entropic_cent')
+         .displayName("§6The Entropic Cent")
+		 .maxDamage(8)
          .unstackable()
          .rarity('epic')	
 	event.create('living_branch_bridging')
@@ -228,6 +308,12 @@ event.create('mending').displayName('Mending').texture('minecraft:item/enchanted
         .unstackable()
 		.texture('minecraft:item/writable_book')
         .glow(true)
+
+    event.create("gamble_coin")
+        .displayName('§6Gamble Coin')
+		.maxDamage(32)
+        .maxStackSize(1)
+        .rarity("EPIC")
 
 //exchange coins
 event.create('coin_01').displayName('Coin').tooltip('Acquired by selling valuable materials')
@@ -319,7 +405,13 @@ event.create('bomb').displayName('Bomb')
 event.create('dodge').displayName('Dodge')
 event.create('scaling').displayName('Scaling')
 
-
+event.create('obliterator', 'sword')
+        .displayName('§4The Obliterator')
+        .unstackable()
+        .glow(true)
+        .tooltip('§7One hit to rule them all...')
+        .tier('netherite') 
+        .attackDamageBaseline(10000);
 ///END
 })
 

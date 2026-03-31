@@ -97,13 +97,17 @@
 
 	#How much do stat wyrmutagen changes stats
 	[genes.mutagen]
-		#How much does Level Up/Down Wyrmutagen changes enchanting level for the next offspring
+		#How much does Level Up/Down Wyrmutagen changes enchanting level
 		#Range: 0 ~ 32767
 		enchLvlMutagen = 8
-		#How much does Speed Up/Down Wyrmutagen changes digesting speed for the next offspring
-		#Range: 0 ~ 32767
-		digestMutagen = 60
-		#How much does Digestion Up/Down Wyrmutagen changes indigestion chance for the next offspring
+		#Speed Up Wyrmutagen multiplies digesting time by this value (eg. 0.6 = x0.6 = -40%)
+		#Will always remove at least 1 tick
+		#Range: 0.0 ~ 1.0
+		digestMutagen = 0.6
+		#How much indigestion chance does Speed Up Wyrmutagen adds (0 to disable)
+		#Range: 0.0 ~ 1.0
+		digestMutagenPenalty = 0.05
+		#How much does Digestion Up/Down Wyrmutagen changes indigestion chance
 		#Range: 0.0 ~ 1.0
 		indigestMutagen = 0.1
 

@@ -12,7 +12,7 @@
 			image: "ftbquests:block/barrier_open"
 			rotation: 45.0d
 			width: 1.1d
-			x: -7.0d
+			x: -4.5d
 			y: -3.0d
 		}
 		{
@@ -20,23 +20,23 @@
 			image: "ftbquests:block/barrier_open"
 			rotation: 45.0d
 			width: 1.1d
-			x: -6.0d
-			y: -4.0d
+			x: -2.0d
+			y: -5.5d
 		}
 		{
 			height: 1.1d
 			image: "ftbquests:block/barrier_open"
 			rotation: 45.0d
 			width: 1.1d
-			x: -6.0d
-			y: -2.0d
+			x: -2.0d
+			y: -0.5d
 		}
 		{
 			height: 2.0d
 			image: "ftbquests:block/barrier"
 			rotation: 0.0d
 			width: 2.0d
-			x: -4.5d
+			x: -5.5d
 			y: -6.5d
 		}
 		{
@@ -68,7 +68,7 @@
 			image: "ftbquests:block/barrier"
 			rotation: 0.0d
 			width: 2.0d
-			x: -4.5d
+			x: -5.5d
 			y: 0.5d
 		}
 		{
@@ -110,8 +110,8 @@
 			image: "cataclysm:item/dying_ember"
 			rotation: 0.0d
 			width: 1.0d
-			x: -6.5d
-			y: 1.0d
+			x: -7.0d
+			y: 1.5d
 		}
 	]
 	order_index: 0
@@ -121,14 +121,14 @@
 			linked_quest: "085E485E8091D543"
 			shape: "gear_important"
 			size: 1.5d
-			x: -3.5d
-			y: -8.75d
+			x: -8.0d
+			y: -6.5d
 		}
 		{
 			id: "287B78958ED96F15"
 			linked_quest: "2AF1B6A89DD4F4C2"
-			x: -2.5d
-			y: -6.5d
+			x: -7.0d
+			y: -5.5d
 		}
 		{
 			icon: {
@@ -145,14 +145,8 @@
 			}
 			id: "2ECB5EA439F3A83B"
 			linked_quest: "7B7944F875F4F424"
-			x: -6.5d
-			y: 2.0d
-		}
-		{
-			id: "6C5D95349F7EEE94"
-			linked_quest: "35EA73868124C4C6"
-			x: -5.5d
-			y: 2.0d
+			x: -7.0d
+			y: 2.5d
 		}
 	]
 	quests: [
@@ -475,139 +469,8 @@
 				id: "114773E0AF9E547B"
 				type: "advancement"
 			}]
-			x: -8.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["031D29EEE7B5A5A7"]
-			id: "5972F6732B417E5B"
-			rewards: [
-				{
-					id: "0512D2FACA5F7D45"
-					item: "kubejs:gold_coin"
-					type: "item"
-				}
-				{
-					id: "20BEF9A50B8C93F1"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "5CBF45690CB0CB01"
-					item: "minecraft:emerald"
-					random_bonus: 3
-					type: "item"
-				}
-			]
-			subtitle: "Trade with the Enderologist in the End dimension"
-			tasks: [{
-				advancement: "morevillagers:end_trade"
-				criterion: ""
-				id: "6C6D7A81184FDD7D"
-				type: "advancement"
-			}]
-			x: -9.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["031D29EEE7B5A5A7"]
-			id: "6DA54AD3576429BD"
-			rewards: [
-				{
-					id: "79D3A169D5B0A777"
-					item: "kubejs:gold_coin"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "6B862E9C731FB62B"
-					item: "minecraft:slime_ball"
-					type: "item"
-				}
-				{
-					id: "2A28E51842126858"
-					item: "minecraft:emerald"
-					random_bonus: 3
-					type: "item"
-				}
-			]
-			subtitle: "Trade with the Netherologist in the Nether dimension"
-			tasks: [{
-				advancement: "morevillagers:nether_trade"
-				criterion: ""
-				id: "0BC58EE1695D4729"
-				type: "advancement"
-			}]
-			x: -8.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["031D29EEE7B5A5A7"]
-			id: "6B22DE7F764EE649"
-			rewards: [{
-				id: "28122D72C203F76B"
-				item: "kubejs:iron_coin"
-				type: "item"
-			}]
-			subtitle: "Visit all 5 village types"
-			tasks: [{
-				advancement: "morevillagers:all_villages"
-				criterion: ""
-				id: "752864CAF8E2E6AC"
-				type: "advancement"
-			}]
-			x: -9.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["5972F6732B417E5B"]
-			id: "0BF1E5F4FD13B804"
-			rewards: [
-				{
-					id: "4123C901B238E055"
-					item: "kubejs:diamond_coin"
-					type: "item"
-				}
-				{
-					id: "4E1BC620F85C50EA"
-					item: "simplehats:hatbag_epic"
-					type: "item"
-				}
-			]
-			subtitle: "Trade with every (21) villager profession"
-			tasks: [{
-				advancement: "morevillagers:all_professions_traded"
-				criterion: ""
-				id: "471FC757C0A5ADBB"
-				type: "advancement"
-			}]
-			x: -10.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["031D29EEE7B5A5A7"]
-			id: "6D4829B88CC59A96"
-			rewards: [
-				{
-					id: "6A3EBA00A83EC80D"
-					item: "kubejs:diamond_coin"
-					type: "item"
-				}
-				{
-					id: "131BAF251EDD28D4"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			subtitle: "Obtain every villager workstation (21)"
-			tasks: [{
-				advancement: "morevillagers:all_workstations_get"
-				criterion: ""
-				id: "6EDEDE0D451B0079"
-				type: "advancement"
-			}]
-			x: -7.0d
-			y: -0.5d
+			x: -5.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["031D29EEE7B5A5A7"]
@@ -624,8 +487,8 @@
 				id: "04724854D2AB6D77"
 				type: "advancement"
 			}]
-			x: -9.5d
-			y: 0.5d
+			x: -6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["249AA12A5A125F45"]
@@ -716,8 +579,8 @@
 				id: "518B97A059D9C268"
 				type: "advancement"
 			}]
-			x: -6.5d
-			y: -6.5d
+			x: -5.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["2C5C6BA3B3AFEFD7"]
@@ -756,8 +619,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
-			y: -5.5d
+			x: -6.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["2C5C6BA3B3AFEFD7"]
@@ -777,8 +640,8 @@
 				item: "tombstone:strange_tablet"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -7.5d
+			x: -4.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["2C5C6BA3B3AFEFD7"]
@@ -820,8 +683,8 @@
 					type: "item"
 				}
 			]
-			x: -8.0d
-			y: -6.5d
+			x: -5.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["35A027D4B827463C"]
@@ -846,7 +709,7 @@
 				type: "advancement"
 			}]
 			title: "&9Fighting"
-			x: -4.5d
+			x: -5.5d
 			y: -6.5d
 		}
 		{
@@ -878,7 +741,7 @@
 				type: "checkmark"
 			}]
 			title: "&9Equipment, affixes, tiers"
-			x: -7.0d
+			x: -4.5d
 			y: -3.0d
 		}
 		{
@@ -906,7 +769,7 @@
 				value: 10000
 			}]
 			title: "&9Adventuring"
-			x: -4.5d
+			x: -5.5d
 			y: 0.5d
 		}
 		{
@@ -924,8 +787,8 @@
 				type: "checkmark"
 			}]
 			title: "&9Useful Gadgets"
-			x: -6.0d
-			y: -2.0d
+			x: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["35A027D4B827463C"]
@@ -964,8 +827,8 @@
 				}
 			]
 			title: "&9Farming"
-			x: -6.0d
-			y: -4.0d
+			x: -2.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["3A7C49FC5AA2927F"]
@@ -997,11 +860,6 @@
 			id: "09DCF997E89A3D37"
 			rewards: [
 				{
-					id: "5F87F2CCDEC39638"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					count: 5
 					id: "08D7A159DAB3AADB"
 					item: "minecraft:lapis_lazuli"
@@ -1011,6 +869,11 @@
 					id: "64366B477DF5155F"
 					item: "aquaculture:lockbox"
 					type: "item"
+				}
+				{
+					id: "2672D2A3F95D81B5"
+					type: "xp"
+					xp: 5
 				}
 			]
 			shape: "gear_important"
@@ -1170,33 +1033,6 @@
 			title: "Iron Armor"
 			x: 6.0d
 			y: -4.5d
-		}
-		{
-			dependencies: ["149CB61732F787CF"]
-			description: ["Choose a biome, and this compass will point to the nearest one as long as it's within 5000 blocks."]
-			id: "0000000000000576"
-			rewards: [{
-				id: "0000000000000578"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "resource_loot_crate_1"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "0000000000000577"
-				item: {
-					Count: 1
-					id: "naturescompass:naturescompass"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -5.5d
-			y: -0.5d
 		}
 		{
 			dependencies: ["0000000000000017"]
@@ -1375,8 +1211,8 @@
 				type: "item"
 			}]
 			title: "Small Ships"
-			x: -3.0d
-			y: -0.5d
+			x: -4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["366659E50333BC5A"]
@@ -1393,7 +1229,7 @@
 				id: "747B9E78636AABC1"
 				type: "advancement"
 			}]
-			x: -4.5d
+			x: -5.0d
 			y: -5.0d
 		}
 		{
@@ -1617,33 +1453,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["149CB61732F787CF"]
-			description: [
-				"- The parachute is an item crafted from string and wool that, when held in your inventory will automatically deploy and slow your fall if it detects you've fallen far enough that you will take significant damage when you land"
-				""
-				"- The parachute needs to be folded back up once you land in order for it to be ready to catch you if you fall again"
-			]
-			id: "6919B75261523426"
-			rewards: [{
-				id: "748A7C5EF6EDADF3"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "05628460ED131063"
-				item: {
-					Count: 1
-					id: "spelunkery:parachute"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -4.5d
-			y: -1.0d
-		}
-		{
 			dependencies: ["6A01EC7A01F35671"]
 			description: [
 				"- Raw magnetite blocks can be found mixed into Large Iron Veins"
@@ -1692,8 +1501,8 @@
 				item: "spelunkery:echo_fork"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -10.5d
+			x: -4.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["037911ABA28CDC08"]
@@ -2179,8 +1988,8 @@
 				}
 				{
 					id: "1D696396D27A8784"
-					type: "xp_levels"
-					xp_levels: 5
+					type: "xp"
+					xp: 5
 				}
 			]
 			subtitle: "Weaken and then cure the zombie villager"
@@ -2190,8 +1999,8 @@
 				id: "00897EB3BEEE3685"
 				type: "advancement"
 			}]
-			x: -3.0d
-			y: -5.5d
+			x: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["733A59C038C65E4B"]
@@ -2746,8 +2555,8 @@
 				item: "paraglider:paraglider"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.5d
+			x: -5.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1966320B37D990A0"]
@@ -2927,8 +2736,8 @@
 				type: "item"
 			}]
 			title: "Good doggy"
-			x: -3.0d
-			y: -7.5d
+			x: -6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["733A59C038C65E4B"]
@@ -3024,8 +2833,8 @@
 				}
 			]
 			title: "Even more villagers"
-			x: -8.0d
-			y: -1.0d
+			x: -5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3A7C49FC5AA2927F"]
@@ -3145,8 +2954,8 @@
 			id: "289133175EA692FE"
 			rewards: [{
 				id: "290BDC3817CC2ABA"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 5
 			}]
 			tasks: [{
 				id: "30B831BE27F8291F"
@@ -3163,8 +2972,8 @@
 			rewards: [
 				{
 					id: "4A888414B760B06D"
-					type: "xp_levels"
-					xp_levels: 1
+					type: "xp"
+					xp: 5
 				}
 				{
 					count: 3
@@ -3806,6 +3615,17 @@
 			]
 			icon: "kubejs:coin_05"
 			id: "0603EEDA36C27ED6"
+			rewards: [{
+				id: "5AB3677D79E59A9E"
+				item: {
+					Count: 1
+					id: "kubejs:gamble_coin"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "Unique and useful trades"
 			tasks: [{
 				id: "6976307623DE7D0F"
@@ -3814,8 +3634,8 @@
 				to_observe: "goblintraders:goblin_trader"
 				type: "observation"
 			}]
-			x: -4.5d
-			y: 2.0d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3C58EBDE41F0F9F2"]
@@ -3854,8 +3674,8 @@
 				}
 			]
 			title: "Store experience and disenchant"
-			x: -9.0d
-			y: -6.5d
+			x: -5.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["1966320B37D990A0"]
@@ -3940,40 +3760,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["149CB61732F787CF"]
-			description: [
-				"Spyglass received various functionality and improvements:"
-				""
-				"- can be put in &6Belt&r curio slot"
-				"- quick access by pressing '&2Z&r'"
-				"- &9zoom&r using mouse scroll wheel"
-				"- different &3overlays&r (see in-game configs)"
-				"- view &9information&r on mobs"
-				"- &5Marking enchant&r: Pressing the attack keybind marks mobs viewed through a spyglass. Puts the spyglass on cooldown for 0.8x of the marking duration."
-				"- &5Precision enchant&r: Offhanding a spyglass and crouching while using a ranged weapon grants zoom. Projectiles gain perfect accuracy and deal extra damage. 4 second cooldown by default."
-			]
-			id: "0DB4564772F4526D"
-			rewards: [
-				{
-					id: "1BDECE51439990CB"
-					type: "xp"
-					xp: 5
-				}
-				{
-					id: "46760FB733316622"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "73517CF516D3A571"
-				item: "minecraft:spyglass"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 1.5d
-		}
-		{
 			dependencies: ["366659E50333BC5A"]
 			description: ["To add arrows place it together in a crafting grid"]
 			id: "1FD8FE1F7FD65D9A"
@@ -3993,8 +3779,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: -5.5d
+			x: -4.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["7B7944F875F4F424"]
@@ -4032,8 +3818,8 @@
 				}
 			]
 			title: "Healing flask"
-			x: -6.5d
-			y: 3.0d
+			x: -7.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["033105F673C5EF80"]
@@ -4124,6 +3910,11 @@
 			]
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"ebwizardry:imbuement_enchant": {
+						imbuements: { }
+					}
+				}
 				id: "hmag:nemesis_blade"
 				tag: {
 					Damage: 0
@@ -4150,11 +3941,11 @@
 				type: "checkmark"
 			}]
 			title: "&cSeek and Destroy&r"
-			x: -5.5d
-			y: -8.75d
+			x: -7.0d
+			y: -7.5d
 		}
 		{
-			dependencies: ["366659E50333BC5A"]
+			dependencies: ["149CB61732F787CF"]
 			description: [
 				"The &5Echo Extractor&r is a tool used to harvest Mob Spawners. Instead of breaking a spawner for a bit of XP, you are taking it's energy to create powerful &6Sealed Tomes&r which contain various loot."
 				""
@@ -4200,8 +3991,8 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
-			y: -7.5d
+			x: -4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6FC9E6FFB041C6D9"]
@@ -4232,8 +4023,8 @@
 				item: "kubejs:chronicle_of_echoes"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -8.5d
+			x: -4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["54B8F4541F6B0151"]
@@ -4271,10 +4062,11 @@
 				item: "kubejs:sealed_tome"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -9.5d
+			x: -4.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["1966320B37D990A0"]
 			description: [
 				"The &bMatter Recycler&r is a powerful tool used to deconstruct bulk materials into raw essence."
 				""

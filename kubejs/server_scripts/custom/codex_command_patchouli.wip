@@ -1,0 +1,50 @@
+// ============================================================
+//  /codex COMMAND  —  add inside ServerEvents.commandRegistry
+//  Gives the player their Patchouli Adventurer's Codex book.
+//  The book's content unlocks dynamically as advancements are granted.
+// ============================================================
+
+ServerEvents.commandRegistry(event => {
+    const { commands: Commands } = event;
+
+event.register(
+    Commands.literal('codex').executes(ctx => {
+        const player = ctx.source.player;
+        if (!player) return 0;
+
+        // The Patchouli guide_book item uses NBT to identify which book to open.
+        // The tag key is "patchouli:book" and the value is the book's resource ID.
+        // Your book lives at patchouli_books/adventurers_codex/book.json,
+        // so if using the external folder (modpack path), the namespace is "patchouli"
+        // and the book ID is "adventurers_codex" → full ID: "patchouli:adventurers_codex"
+        let codexItem = Item.of('patchouli:guide_book', {
+            'patchouli:book': 'patchouli:adventurers_codex'
+        });
+
+        // Only give if the player doesn't already have one in their inventory
+        let alreadyHas = false;
+        player.inventory.allItems.forEach(stack => {
+            if (stack.id === 'patchouli:guide_book') {
+                let nbt = stack.nbt;
+                if (nbt && nbt.getString('patchouli:book') === 'patchouli:adventurers_codex') {
+                    alreadyHas = true;
+                }
+            }
+        });
+
+        if (alreadyHas) {
+            player.tell(Text.of("You already carry your Adventurer's Codex.").gold());
+        } else {
+            player.give(codexItem);
+            player.tell([
+                Text.of('✦ ').gold(),
+                Text.of("Adventurer's Codex").gold(),
+                Text.of(" added to your inventory. Open it to see your progress.").white()
+            ]);
+        }
+
+        return 1;
+    })
+);
+
+});

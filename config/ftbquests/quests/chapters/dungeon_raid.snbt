@@ -1,0 +1,394 @@
+{
+	autofocus_id: "1B03F4233450669A"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dungeon_raid"
+	group: "241F1DC7B6D6E9D6"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "dungeonsdelight:block/dungeon_stove_front_on"
+		}
+	}
+	id: "66D1B3AFB2EBD6B9"
+	images: [
+		{
+			height: 8.0d
+			image: "rad3:textures/misc/quest_raid.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 2.6499999999999986d
+			y: 3.5d
+		}
+		{
+			height: 1.1d
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 0.0d
+			width: 1.1d
+			x: 0.0d
+			y: 1.75d
+		}
+		{
+			height: 1.1d
+			image: "valhelsia_structures:block/brazier_fire"
+			rotation: 0.0d
+			width: 1.1d
+			x: 5.449999999999989d
+			y: 1.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:textures/particle/ignis_abyss_explode_5.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The &lDungeon Raid System&r is a custom roguelite layer built on top of the dungeon. Every run you enter, your performance is tracked — &lkills&r, &lchests opened&r, &lbosses slain&r, and &ltime survived&r all count toward your rewards."
+				""
+				"At the end of each run you earn &6Raid Tokens&r, deposited automatically into your &6Raid Vault&r. Spend them here in this chapter to buy keys, items, and passes."
+				""
+				"&lRank &r— the more you raid, the higher your rank. Higher rank means stronger mobs, but also a better token multiplier and access to greater rewards."
+				""
+				"&lDeath&r — dying in the dungeon costs a portion of your current rank progress. You can never lose a rank from dying, but it slows you down."
+				""
+				"&lRoom Events&r — once per run, a random modifier fires mid-run. It might buff you, curse the mobs, or make things considerably harder. Adapt."
+				""
+				"&lCursed Chests&r — some chests are cursed. Opening them still gives loot, but also applies a debuff for a couple of minutes. Risk it."
+				""
+				"&9&lAvailable Commands&r"
+				"&7/raidstats &r— view your rank, XP, and lifetime statistics"
+				"&7/raidvault &r— check your token balance"
+				"&7/raidvault withdraw <amount> &r— move tokens to your inventory"
+				"&7/raidvault deposit &r— deposit held tokens back into the vault"
+				"&7/raidhelp &r— quick in-game system overview"
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "the_bumblezone:textures/particle/curious/1.png"
+				}
+			}
+			id: "1B03F4233450669A"
+			rewards: [{
+				id: "1449DD53E53F2C36"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "none"
+			size: 1.5d
+			subtitle: "Read before you raid"
+			tasks: [{
+				id: "660AA73B4EF700BD"
+				item: "lrdynamicdungeon:dungeon_pass"
+				type: "item"
+			}]
+			title: "About the Dungeon Raid"
+			x: 3.75d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"A plain iron key. It won't open anything impressive, but &lCommon Lootboxes&r hold the basics — materials, food, and supplies that keep you going between runs."
+				""
+				"Hold this key in your &loff-hand&r and &lright-click a Common Lootbox&r to open it. Both the key and the box are consumed."
+			]
+			icon: "kubejs:key_common"
+			id: "30E1B35F787CA721"
+			rewards: [{
+				id: "5F4A8BC44E80C9E2"
+				item: "kubejs:key_common"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "A key for a crate"
+			tasks: [{
+				id: "14B4D4CAB98E6A22"
+				item: {
+					Count: 1
+					id: "kubejs:coin_raid"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Common Key"
+			x: 1.1499999999999986d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"A finely cut key with a blue sheen. &lRare Lootboxes&r contain noticeably better loot — experience scolls, card packs, ender perals and a chance at some Raid Tokens."
+				""
+				"Hold this key in your &loff-hand&r and &lright-click a Rare Lootbox&r to open it. Both the key and the box are consumed."
+			]
+			hide_until_deps_complete: false
+			icon: "kubejs:key_rare"
+			id: "29C10DBC7194F395"
+			rewards: [{
+				id: "2D2C8D2B87692C35"
+				item: "kubejs:key_rare"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Something worth finding"
+			tasks: [{
+				count: 5L
+				id: "5A9679E7D44E94D1"
+				item: "kubejs:coin_raid"
+				type: "item"
+			}]
+			title: "Rare Key"
+			x: 2.1499999999999986d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"A key that hums faintly when held. &lEpic Lootboxes&r roll two times from a pool of high-value gear — diamonds, rare apotheosis materials, and dungeon-specific consumables."
+				""
+				"Hold this key in your &loff-hand&r and &lright-click an Epic Lootbox&r to open it. Both the key and the box are consumed."
+			]
+			icon: "kubejs:key_epic"
+			id: "1E6884FEB5EB2087"
+			rewards: [{
+				id: "5AE7E8E140EB1E47"
+				item: "kubejs:key_epic"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Carved from something unnatural"
+			tasks: [{
+				count: 15L
+				id: "173B1C7CFAA8313D"
+				item: "kubejs:coin_raid"
+				type: "item"
+			}]
+			title: "Epic Key"
+			x: 3.1499999999999986d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"The rarest key. &lLegendary Lootboxes&r pull two times from the best loot pool in the system — greater experience scrolls, relic vouchers, powerful dungeon items, and a decent stack of Raid Tokens."
+				""
+				"Hold this key in your &loff-hand&r and &lright-click a Legendary Lootbox&r to open it. Both the key and the box are consumed."
+				""
+				"&cSpend wisely."
+			]
+			icon: "kubejs:key_legendary"
+			id: "2283818CFD6E5CEF"
+			rewards: [{
+				id: "6ECBB992CFD86F6F"
+				item: "kubejs:key_legendary"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "It hums. You feel watched."
+			tasks: [{
+				count: 20L
+				id: "193E026398F638A4"
+				item: "kubejs:coin_raid"
+				type: "item"
+			}]
+			title: "Legendary Key"
+			x: 4.149999999999999d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"A concentrated strike capable of felling any dungeon &lBoss&r in a single use."
+				""
+				"&lRight-click a Boss&r while inside the dungeon to instantly defeat it. The kill counts toward your run score and boss kill tracker."
+				""
+				"&cSingle use. Only works inside the dungeon dimension."
+			]
+			icon: "kubejs:boss_killer"
+			id: "64596D6CE563B0A3"
+			rewards: [{
+				id: "5C5C70A45ADFF048"
+				item: "kubejs:boss_killer"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "One hit. No questions asked."
+			tasks: [{
+				count: 10L
+				id: "253279115356FD76"
+				item: {
+					Count: 1
+					id: "kubejs:coin_raid"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Boss Smasher"
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Channels enough force to dispatch any &lMiniboss&r in one hit. Comes with &l3 charges&r — each right-click on a valid target consumes one."
+				""
+				"&lRight-click a Miniboss&r while inside the dungeon to use a charge. The kill counts toward your score and miniboss tracker."
+				""
+				"&cOnly works inside the dungeon dimension."
+			]
+			icon: "kubejs:miniboss_killer"
+			id: "7C1A3AD8F82EBB26"
+			rewards: [{
+				id: "0A3561A462A69E39"
+				item: "kubejs:miniboss_killer"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "For the ones that won't go quietly"
+			tasks: [{
+				count: 3L
+				id: "7D25A28924167C15"
+				item: {
+					Count: 1
+					id: "kubejs:coin_raid"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Mini Boss Smasher"
+			x: 5.25d
+			y: 3.75d
+		}
+		{
+			can_repeat: true
+			description: [
+				"A selection of useful items for your next run. &lChoose one&r from the reward options — gear, consumables, or utility items to give you an edge in the dungeon."
+				""
+				"Repeat this quest as many times as you can afford."
+			]
+			icon: "kubejs:armour"
+			id: "2F41D6EABA04A063"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "117D690E98EC86AA"
+				table_id: 5314857856943591757L
+				type: "choice"
+			}]
+			shape: "diamond"
+			subtitle: "Pick what you need"
+			tasks: [{
+				count: 10L
+				id: "2B3A9E5D6DC11FF6"
+				item: {
+					Count: 1
+					id: "kubejs:coin_raid"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Useful Items"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"A scroll dense with compressed experience. &lRight-click&r to absorb a large amount of XP instantly — useful for leveling enchantments or topping up before a tough run."
+				""
+				"A reliable token sink if you have more raids behind you than ahead."
+			]
+			icon: "kubejs:scroll_exp_great"
+			id: "455265BC3FCA5C02"
+			rewards: [{
+				id: "1F085BF6154D417C"
+				item: "kubejs:scroll_exp_great"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Knowledge has a price"
+			tasks: [{
+				count: 3L
+				id: "10E2D856D39A6646"
+				item: {
+					Count: 1
+					id: "kubejs:coin_raid"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Experience Scroll"
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"A standard &lDungeon Pass&r. Use it on the dungeon portal to enter and start a new run."
+				""
+				"The dungeon tracks your &lkills&r, &lchests&r, and &ltime&r from the moment you enter. Exit through the portal to collect your &6Raid Tokens&r and XP."
+				""
+				"&7Tip: dying doesn't end your run — you can re-enter and keep going. Exiting the portal finalizes run."
+			]
+			icon: "lrdynamicdungeon:dungeon_pass"
+			id: "2AF35E407C5E1153"
+			rewards: [{
+				id: "6F9E409C3EA177BD"
+				item: "lrdynamicdungeon:dungeon_pass"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Your ticket back in"
+			tasks: [{
+				count: 2L
+				id: "66F2A02C1AE2234E"
+				item: "kubejs:coin_raid"
+				type: "item"
+			}]
+			title: "Dungeon Pass"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"A &lChallenger Pass&r unlocks a harder variant of the dungeon — tougher mobs, better loot potential, and greater rewards for those who survive."
+				""
+				"Only recommended once you have a few ranks under your belt and solid gear. The dungeon does not scale down for the unprepared."
+				""
+				"&cHigher risk. Higher reward."
+			]
+			icon: "lrdynamicdungeon:challenger_pass"
+			id: "0B76E602CF7C279F"
+			rewards: [{
+				id: "3D9C4C5C357C34D7"
+				item: "lrdynamicdungeon:challenger_pass"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "For those who want more"
+			tasks: [{
+				count: 10L
+				id: "4F0BD472709D3634"
+				item: "kubejs:coin_raid"
+				type: "item"
+			}]
+			title: "Challenger Pass"
+			x: 4.5d
+			y: 5.0d
+		}
+	]
+	title: "Dungeon Raid"
+}

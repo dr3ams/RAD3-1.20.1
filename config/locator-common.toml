@@ -1,0 +1,6 @@
+
+#General settings for Locator
+[common]
+	#When true, the locate biome command only returns positions if they are within 8 blocks vertically of terrain. This prevents it returning positions where the biome is technically there, but theres no terrain and its just above an ocean. Reduces speed of command massively. Default: false
+	scanForTerrain = false
+

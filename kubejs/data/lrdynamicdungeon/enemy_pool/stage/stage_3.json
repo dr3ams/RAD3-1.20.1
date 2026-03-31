@@ -1,0 +1,107 @@
+{
+  "ground": [
+    [
+      ["minecraft:stray", 1, 0, 1, {"HandItems":[{"id":"minecraft:iron_sword","Count":1}]}],
+	  ["minecraft:stray", 1, 0, 1, {"HandItems":[{"id":"minecraft:iron_sword","Count":1}]}],
+	  ["minecraft:stray", 1, 0, 1, {"HandItems":[{"id":"minecraft:bow","Count":1}]}],
+      ["minecraft:stray", 0, 0, 0, {"HandItems":[{"id":"minecraft:bow","Count":1}]}]
+    ],
+    [
+	  ["ntrials:bogged", 1, 0, 0],
+	  ["ntrials:bogged", 0, 0, 0],
+	  ["ntrials:bogged", 0, 0, 1]
+    ],
+    [
+      ["minecraft:skeleton", 1, 0, 0, {"HandItems":[{"id":"minecraft:bow","Count":1}]}],
+      ["minecraft:skeleton", 0, 0, 1, {"HandItems":[{"id":"minecraft:bow","Count":1}]}],
+	  ["hmag:skeleton_girl", 0, 0, 0]
+    ],
+	[
+      ["quark:forgotten", 1, 0, 0],
+      ["quark:forgotten", 0, 0, 1]
+    ],
+    [
+      ["graveyard:acolyte", 1, 0, 1],
+      ["graveyard:revenant", 0, 0, 1],
+      ["graveyard:revenant", 1, 0, 1]
+    ],
+    [
+      ["cataclysm:deepling", 1, 0, 0],
+      ["landsoficaria:ender_jellyfish", 0, 1, 0],
+	  ["landsoficaria:ender_jellyfish", 0, 1, 1]
+    ]
+  ],
+  "flying": [
+    [
+      ["graveyard:reaper", 1, 0, 0],
+      ["graveyard:reaper", 0, 1, 0],
+      ["graveyard:reaper", 0, 0, 1],
+	  ["creatures_of_petrichor:wandering_lantern", 0, 0, 1]
+    ],
+	[
+      ["hmag:wither_ghost", 1, 0, 0],
+      ["hmag:wither_ghost", 0, 1, 0],
+      ["hmag:wither_ghost", 0, 1, 1],
+	  ["creatures_of_petrichor:specter", 0, 0, 1]
+    ],
+	[
+      ["hmag:banshee", 1, 0, 0],
+      ["hmag:banshee", 0, 1, 0],
+      ["hmag:banshee", 0, 0, 1],
+	  ["creatures_of_petrichor:specter", 0, 0, 1]
+    ]
+  ],
+  "submerged": [
+    [
+      ["minecraft:guardian", 1, 0, 0],
+      ["minecraft:guardian", 0, 0, 1]
+    ],
+	[
+      ["cataclysm:deepling_angler", 0, 0, 0]
+    ],
+    [
+      ["minecraft:drowned", 1, 0, 1],
+      ["minecraft:drowned", 1, 0, 1],
+      ["minecraft:drowned", 1, 0, 1]
+    ],
+	[
+      ["hmag:drowned_girl", 1, 0, 0],
+	  ["hmag:drowned_girl", 0, 0, 1],
+	  ["hmag:drowned_girl", 1, 1, 0]
+    ]
+  ],
+  "miniboss": [
+    [
+      ["landsoficaria:soldier_revenant", 0, 0, 0],
+      ["landsoficaria:soldier_revenant", 1, 0, 1]
+    ],
+    [
+      ["landsoficaria:scorpion", 0, 0, 0]
+    ],
+    [
+      ["friendsandfoes:illusioner", 0, 0, 0],
+	  ["graveyard:corrupted_pillager", 1, 0, 1],
+	  ["graveyard:corrupted_pillager", 1, 0, 1]
+    ]
+  ],
+  "boss": [
+    [
+      ["landsoficaria:soldier_revenant", 0, 0, 1],
+      ["landsoficaria:soldier_revenant", 1, 0, 0],
+	  ["landsoficaria:soldier_revenant", 0, 0, 0],
+      ["landsoficaria:captain_revenant", 1, 0, 1]
+    ],
+    [
+      ["ntrials:breeze_boss", 0, 0, 0],
+	  ["ntrials:breeze", 1, 0, 0],
+	  ["ntrials:breeze", 0, 0, 1]
+    ],
+	[
+      ["hmag:spider_nest", 0, 0, 0],
+	  ["minecraft:cave_spider", 1, 0, 0],
+	  ["minecraft:cave_spider", 0, 0, 1],
+	  ["minecraft:spider", 0, 0, 1],
+	  ["minecraft:spider", 1, 0, 1]
+    ]
+  ]
+}

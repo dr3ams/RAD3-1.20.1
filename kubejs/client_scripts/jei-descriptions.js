@@ -19,6 +19,9 @@ event.addItem('supplementaries:cog_block', ["Transmits redstone power, just like
 event.addItem('supplementaries:safe', ["Extremely hard block that functions as a chest. Retains inventory when broken."])
 event.addItem('supplementaries:hourglass', ["Place sand in it and it will provide a redstone signal until the sand runs out. Flip and repeat."])
 
+event.addItem('kubejs:upgrade_swift2', ["Can be found in Raid Dungeon as Stage 5 loot"])
+event.addItem('kubejs:upgrade_sharp2', ["Can be found in Raid Dungeon as Stage 5 loot"])
+
 //event.addItem('waystones:waystone', ["This item can be bought in the shop", "", "Players can activate waystones, which will allow them to teleport back to those waystones using items such as the Warp Stone or Warp Scrolls.", "", "Waystones can also be used to travel between each other."])
 //event.addItem('waystones:mossy_waystone', ["This item can be bought in the shop"])
 //event.addItem('waystones:sandy_waystone', ["This item can be bought in the shop"])

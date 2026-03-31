@@ -782,7 +782,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 5L
+				count: 15L
 				id: "3D4DD55DAFCE2B3E"
 				item: "kubejs:essence_earth"
 				type: "item"
@@ -1000,38 +1000,6 @@
 			dependencies: ["1082AFB9D8CEFAD5"]
 			icon: {
 				Count: 1
-				id: "quark:ancient_tome"
-				tag: {
-					StoredEnchantments: [{
-						id: "minecraft:smite"
-						lvl: 10s
-					}]
-				}
-			}
-			id: "2D0B8921B963A021"
-			tasks: [
-				{
-					id: "7A7984D117C7DDDF"
-					points: false
-					type: "xp"
-					value: 20L
-				}
-				{
-					consume_items: true
-					count: 16L
-					id: "51D6C7303E8D0648"
-					item: "kubejs:dust_experience"
-					type: "item"
-				}
-			]
-			x: -5.5d
-			y: 11.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["1082AFB9D8CEFAD5"]
-			icon: {
-				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -1065,7 +1033,7 @@
 				}
 			]
 			x: -2.5d
-			y: 12.0d
+			y: 11.5d
 		}
 		{
 			can_repeat: true
@@ -1533,7 +1501,7 @@
 				type: "item"
 			}]
 			title: "Studying Gems"
-			x: -2.5d
+			x: -5.5d
 			y: 11.0d
 		}
 		{
@@ -1668,6 +1636,33 @@
 			title: "Monster loot extraction"
 			x: -5.5d
 			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1082AFB9D8CEFAD5"]
+			id: "3DB588DD1EA5A782"
+			rewards: [{
+				id: "5863FC6B24BEFF7F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "3EF92B7508A8A6D3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "rad3:artifact"
+					}
+				}
+				title: "Any #rad3:artifact"
+				type: "item"
+			}]
+			title: "Studying Artifacts"
+			x: -5.5d
+			y: 12.0d
 		}
 	]
 	title: "⭐ Masteries"

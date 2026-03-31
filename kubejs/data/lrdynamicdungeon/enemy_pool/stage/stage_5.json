@@ -1,0 +1,149 @@
+{
+  "ground": [
+    [
+      ["minecraft:piglin", 0, 0, 0, {"HandItems":[{"id":"minecraft:iron_sword","Count":1}]}],
+      ["minecraft:piglin", 1, 0, 1, {"HandItems":[{"id":"minecraft:golden_sword","Count":1}]}],
+	  ["minecraft:piglin_brute", 1, 0, 0],
+	  ["minecraft:piglin_brute", 1, 0, 0],
+	  ["minecraft:piglin_brute", 1, 0, 0],
+	  ["minecraft:piglin_brute", 1, 0, 0]
+    ],
+    [
+      ["minecraft:wither_skeleton", 0, 0, 0, {"HandItems":[{"id":"minecraft:bow","Count":1}]}],
+      ["minecraft:wither_skeleton", 1, 0, 1, {"HandItems":[{"id":"minecraft:iron_sword","Count":1}]}],
+      ["minecraft:wither_skeleton", -1, 0, 1, {"HandItems":[{"id":"minecraft:iron_sword","Count":1}]}],
+      ["minecraft:wither_skeleton", 1, 0, -1, {"HandItems":[{"id":"minecraft:iron_sword","Count":1}]}],
+      ["minecraft:wither_skeleton", -1, 0, -1, {"HandItems":[{"id":"minecraft:iron_sword","Count":1}]}],
+	  ["hmag:wither_ghost", 1, 0, 0],
+	  ["hmag:wither_ghost", 1, 0, 0]
+    ],
+    [
+      ["minecraft:evoker", 0, 0, 0],
+      ["minecraft:evoker", 0, 0, 0],
+	  ["graveyard:corrupted_pillager", 1, 0, 0],
+	  ["graveyard:corrupted_pillager", 1, 0, 0],
+	  ["graveyard:corrupted_pillager", 1, 0, 0]
+    ],
+	[
+      ["hmag:necrotic_reaper", 0, 0, 0],
+      ["hmag:necrotic_reaper", 0, 0, 0],
+	  ["minecraft:wither_skeleton", 0, 0, 0, {"HandItems":[{"id":"minecraft:bow","Count":1}]}],
+	  ["hmag:wither_skeleton_girl", 0, 0, 0],
+	  ["hmag:wither_ghost", 1, 0, 0]
+    ],
+    [
+      ["graveyard:corrupted_vindicator", 0, 0, 0, {"HandItems":[{"id":"minecraft:crossbow","Count":1}]}],
+	  ["graveyard:corrupted_pillager", 1, 0, 0],
+	  ["graveyard:corrupted_pillager", 1, 0, 0],
+	  ["graveyard:corrupted_pillager", 1, 0, 0],
+      ["graveyard:corrupted_vindicator", 0, 0, 0, {"HandItems":[{"id":"minecraft:crossbow","Count":1}]}],
+      ["graveyard:corrupted_vindicator", 0, 0, 0, {"HandItems":[{"id":"minecraft:crossbow","Count":1}]}]
+    ],
+    [
+      ["minecraft:hoglin", 0, 0, 0]
+    ],
+	[
+      ["friendsandfoes:illusioner", 0, 0, 0],
+      ["graveyard:corrupted_pillager", 1, 0, 0],
+      ["graveyard:wraith", 0, 0, 1],
+      ["graveyard:revenant", 1, 0, 1],
+	  ["minecraft:cave_spider", 0, 1, 0]
+    ]
+  ],
+  "flying": [
+	[
+      ["minecraft:ghast", 0, 0, 0],
+	  ["graveyard:reaper", 0, 1, 0],
+      ["graveyard:reaper", 0, 0, 1],
+	  ["creatures_of_petrichor:wandering_lantern", 0, 0, 1]
+    ],
+    [
+      ["minecraft:blaze", 0, 0, 0],
+      ["minecraft:blaze", 1, 0, 0],
+	  ["graveyard:wraith", 1, 0, 0],
+	  ["graveyard:wraith", 1, 1, 0],
+      ["minecraft:blaze", 0, 0, 1]
+    ],
+    [
+      ["minecraft:blaze", 0, 0, 0],
+      ["minecraft:blaze", 1, 0, 0],
+      ["minecraft:blaze", 0, 0, 1],
+      ["minecraft:blaze", -1, 0, 0],
+	  ["graveyard:reaper", 1, 0, 0]
+    ],     
+	[
+      ["hmag:wither_ghost", 1, 0, 0],
+      ["hmag:wither_ghost", 0, 1, 0],
+      ["hmag:wither_ghost", 0, 1, 1],
+	  ["graveyard:reaper", 1, 0, 0],
+	  ["graveyard:reaper", 1, 0, 0],
+	  ["creatures_of_petrichor:specter", 0, 0, 1]
+    ]
+  ],
+  "submerged": [
+    [
+      ["minecraft:guardian", 0, 0, 0],
+	  ["hmag:savagefang", 1, 0, 1],
+      ["hmag:savagefang", 0, 0, 1],
+      ["hmag:savagefang", 1, 0, 0]
+    ],
+    [
+      ["cataclysm:deepling_warlock", 1, 0, 1],
+      ["cataclysm:deepling_priest", 1, 0, 1],
+      ["minecraft:deepling_angler", 1, 0, 1]
+    ],
+    [
+	  ["minecraft:deepling_angler", 1, 0, 1],
+      ["hmag:savagefang", 1, 0, 1],
+      ["hmag:savagefang", 0, 0, 1],
+      ["hmag:savagefang", 1, 0, 0]
+    ],
+	[
+      ["cataclysm:deepling_angler", 0, 0, 0],
+	  ["cataclysm:deepling_angler", 0, 0, 0],
+	  ["cataclysm:deepling_priest", 0, 0, 0]
+    ]
+  ],
+  "miniboss": [
+    [
+	  ["cataclysm:draugr", 1, 0, 0],
+	  ["cataclysm:draugr", 0, 0, 1]
+    ],
+	[
+	  ["hmag:melty_monster", 1, 0, 0],
+	  ["hmag:kasha", 0, 0, 1],
+	  ["hmag:kasha", 0, 0, 1]
+    ]
+  ],
+  "boss": [
+    [
+      ["hmag:fortress_keeper", 0, 0, 0],
+	  ["quark:foxhound", 0, 0, 0],
+	  ["quark:foxhound", 0, 0, 0],
+	  ["quark:foxhound", 0, 0, 0],
+	  ["landsoficaria:fire_jellyfish", 0, 0, 0],
+	  ["landsoficaria:fire_jellyfish", 0, 0, 0],
+	  ["landsoficaria:fire_jellyfish", 0, 0, 0],
+	  ["landsoficaria:fire_jellyfish", 0, 0, 0]
+    ],
+	[
+      ["cataclysm:royal_draugr", 0, 0, 0],
+	  ["cataclysm:draugr", 1, 0, 0]
+    ],
+	[
+      ["cataclysm:elite_draugr", 0, 0, 0],
+	  ["cataclysm:draugr", 1, 0, 0]
+    ],
+	[
+      ["hmag:dyssomnia", 0, 0, 0],
+	  ["graveyard:reaper", 1, 0, 0],
+      ["graveyard:reaper", 0, 1, 0],
+      ["graveyard:reaper", 0, 0, 1]
+    ],
+	[
+      ["cataclysm:kobolediator", 0, 0, 0],
+	  ["cataclysm:koboleton", 1, 0, 0],
+      ["cataclysm:koboleton", 0, 0, 1]
+    ]
+  ]
+}

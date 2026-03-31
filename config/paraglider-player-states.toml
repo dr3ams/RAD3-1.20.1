@@ -8,7 +8,7 @@
 
 	[paraglider.ascending]
 		#Range: > -2147483648
-		staminaDelta = -6
+		staminaDelta = -5
 		#Range: > 0
 		recoveryDelay = 10
 
@@ -26,9 +26,9 @@
 
 	[paraglider.idle]
 		#Range: > -2147483648
-		staminaDelta = 75
+		staminaDelta = 10
 		#Range: > 0
-		recoveryDelay = 0
+		recoveryDelay = 30
 
 	[paraglider.midair]
 		#Range: > -2147483648
@@ -50,13 +50,13 @@
 
 	[paraglider.paragliding]
 		#Range: > -2147483648
-		staminaDelta = -10
+		staminaDelta = -5
 		#Range: > 0
 		recoveryDelay = 20
 
 	[paraglider.running]
 		#Range: > -2147483648
-		staminaDelta = -3
+		staminaDelta = -5
 		#Range: > 0
 		recoveryDelay = 20
 

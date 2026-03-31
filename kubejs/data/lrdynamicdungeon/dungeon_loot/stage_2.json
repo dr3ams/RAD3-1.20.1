@@ -1,0 +1,476 @@
+{
+  "consumable": {
+    "weight": 4,
+    "loot": [
+	  [
+        ["minecraft:apple", 16]
+      ],
+	  [
+        ["minecraft:glow_berries", 16]
+      ],
+	  [
+        ["minecraft:dried_kelp", 16]
+      ],
+	  [
+        ["minecraft:cookie", 16]
+      ],
+	[["kubejs:map_fragment", 1]], 
+	[["skilltree:amnesia_scroll", 1]],
+	[["kubejs:unstable_battery", 1]], 
+	[["kubejs:sentry_remote", 1]], 
+	[["kubejs:lootbox_common", 1]],
+	[["kubejs:coin_dungeon", 1]],
+	[["ntrials:wind_charge", 1]],
+	[["hmag:randomberry", 1]], 
+	[["hmag:cureberry", 1]], 
+	[["aquaculture:box", 1]], 
+	[["aquaculture:lockbox", 1]], 
+	[["collectorsalbum:common_card_pack", 1]], 
+	[["collectorsalbum:uncommon_card_pack", 1]], 
+	  [
+        ["minecraft:sugar_cane", 16]
+      ]
+    ]
+  },
+  "combat": {
+    "weight": 2,
+    "loot": [
+	[["lrdynamicdungeon:dungeon_pass", 1]], 
+      [
+        ["minecraft:iron_sword", 1, { "Enchantments": [{"id":"minecraft:sharpness","lvl":2}] }],
+        ["minecraft:shield", 1, { "Enchantments": [{"id":"minecraft:unbreaking","lvl":2}] }]
+      ],
+      [
+        ["minecraft:iron_axe", 1, { "Enchantments": [ {"id":"minecraft:sharpness","lvl":3},{"id":"minecraft:unbreaking","lvl":1} ] }]
+      ],
+	  [
+        ["minecraft:bow", 1, { "Enchantments": [{"id":"minecraft:punch","lvl":1}] }],
+        ["minecraft:arrow", 8]
+      ],
+	  [
+        ["minecraft:crossbow", 1, { "Enchantments": [{"id":"minecraft:quick_charge","lvl":1}] }],
+        ["minecraft:arrow", 8]
+      ]
+    ]
+  },
+  "equipment": {
+    "weight": 2,
+    "loot": [
+	[["aquaculture:lockbox", 1]], 
+	[["kubejs:coin_raid", 1]],
+	[["kubejs:lootbox_common", 1]],
+	[["collectorsalbum:common_card_pack", 1]], 
+	[["collectorsalbum:uncommon_card_pack", 1]], 
+      [ [ "minecraft:chainmail_helmet", 1 ] ],
+      [ [ "minecraft:chainmail_chestplate", 1 ] ],
+      [ [ "minecraft:chainmail_leggings", 1 ] ],
+      [ [ "minecraft:chainmail_boots", 1 ] ]
+    ]
+  },
+  "enchantment": {
+    "weight": 3,
+    "loot": [
+      [
+        ["minecraft:experience_bottle", 8]
+      ],
+[["kubejs:scroll_exp", 5]], 
+[["hmag:exp_berry", 3]], 
+[["kubejs:lootbox_common", 1]],
+[["ars_nouveau:experience_gem", 6]], 
+[["ars_nouveau:greater_experience_gem", 1]],	  
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:sharpness","lvl":2}] }]
+      ],
+      [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:protection","lvl":2}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:feather_falling","lvl":3}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:respiration","lvl":2}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:thorns","lvl":2}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:depth_strider","lvl":2}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:smite","lvl":3}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:fire_aspect","lvl":1}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:looting","lvl":2}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:sweeping_edge","lvl":3}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:knockback","lvl":1}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:efficiency","lvl":2}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:unbreaking","lvl":2}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:fortune","lvl":2}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:power","lvl":3}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:luck_of_the_sea","lvl":3}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:loyalty","lvl":3}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:impaling","lvl":3}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:riptide","lvl":3}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:quick_charge","lvl":2}] }]
+      ],
+	  [
+        ["minecraft:enchanted_book", 1, { "StoredEnchantments": [{"id":"minecraft:piercing","lvl":2}] }]
+      ]
+    ]
+  },
+  "botany": {
+    "weight": 1,
+    "loot": [
+      [
+        [ "minecraft:oak_sapling", 16]
+      ],
+      [
+        [ "minecraft:spruce_sapling", 16]
+      ],
+      [
+        [ "minecraft:birch_sapling", 16]
+      ],
+      [
+        [ "minecraft:jungle_sapling", 16]
+      ],
+      [ [ "minecraft:blue_orchid", 16] ],
+      [ [ "minecraft:allium", 16] ],
+      [ [ "minecraft:azure_bluet", 16] ],
+	  [["kubejs:lootbox_common", 1]],
+      [ [ "minecraft:red_tulip", 16] ],
+      [ [ "minecraft:orange_tulip", 16] ],
+      [ [ "minecraft:white_tulip", 16] ],
+	  [["hmag:cureberry", 5]],
+      [ [ "minecraft:pink_tulip", 16] ],
+      [ [ "minecraft:oxeye_daisy", 16] ],
+      [ [ "minecraft:lily_of_the_valley", 16] ],
+      [ [ "minecraft:bamboo", 16] ],
+      [ [ "minecraft:cactus", 16] ]
+    ]
+  },
+  "power": {
+    "weight": 1,
+    "loot": [
+      [
+        ["minecraft:coal_block", 16]
+      ],
+      [
+        ["minecraft:fire_charge", 32]
+      ]
+    ]
+  },
+  "nature": {
+    "weight": 5,
+    "loot": [
+	  [
+        ["minecraft:oak_log", 16]
+      ],
+	  [["hmag:cureberry", 5]],
+	  [["kubejs:lootbox_common", 1]],
+      [
+        ["minecraft:raw_gold", 16]
+      ],
+	  [
+        ["minecraft:redstone_block", 8]
+      ],
+	  [
+        ["minecraft:iron_ingot", 8]
+      ],
+	  [
+        ["minecraft:copper_ingot", 8]
+      ],
+      [
+        ["minecraft:amethyst_shard", 8]
+      ]
+    ]
+  },
+  "mobs": {
+    "weight": 3,
+    "loot": [
+      [["minecraft:feather", 16]],
+      [["minecraft:ink_sac", 16]],
+      [["minecraft:glow_ink_sac", 8]],
+      [["minecraft:leather", 8]],
+      [["minecraft:rabbit_hide", 4]],
+      [["minecraft:honeycomb", 8]],
+      [["minecraft:bone", 16]],
+      [["minecraft:slime_ball", 8]],
+      [["minecraft:ender_pearl", 2]],
+	[["dungeonsdelight:sculk_mayo", 1]],
+	[["kubejs:lootbox_common", 1]],	
+	[["dungeonsdelight:bloody_mary", 1]], 
+	[["dungeonsdelight:spider_bubble_tea", 1]], 
+	[["dungeonsdelight:monster_cake_slice", 1]], 
+	[["dungeonsdelight:devilish_eggs", 1]], 
+	[["dungeonsdelight:sculk_apple", 1]] 	  
+    ]
+  },
+  "rare_weapon": {
+    "weight": 1,
+    "loot": [
+      [
+        [
+          "simplyswords:iron_rapier",
+          1,
+          {
+            "display": {
+              "Name": "[{\"text\":\"Asuran Blade\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}]",
+              "Lore": [
+                "[{\"text\":\"Engineered by the finest minds.\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                "[{\"text\":\"Probably.\",\"italic\":true,\"color\":\"dark_gray\"}]"
+              ]
+            },
+            "Enchantments": [
+              {
+                "id": "minecraft:sharpness",
+                "lvl": 2
+              },
+              {
+                "id": "minecraft:unbreaking",
+                "lvl": 2
+              }
+            ],
+            "AttributeModifiers": [
+              {
+                "AttributeName": "generic.attack_damage",
+                "Amount": 6,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -333331,
+                  33331,
+                  333331,
+                  -33331
+                ],
+                "Name": "asura_dmg"
+              },
+              {
+                "AttributeName": "generic.attack_speed",
+                "Amount": 0.2,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -333332,
+                  33332,
+                  333332,
+                  -33332
+                ],
+                "Name": "asura_spd"
+              }
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          "simplyswords:iron_claymore",
+          1,
+          {
+            "display": {
+              "Name": "[{\"text\":\"Silver Sword\",\"italic\":false,\"color\":\"white\",\"bold\":true}]",
+              "Lore": [
+                "[{\"text\":\"Silver for monsters.\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                "[{\"text\":\"Steel for humans.\",\"italic\":true,\"color\":\"dark_gray\"}]"
+              ]
+            },
+            "Enchantments": [
+              {
+                "id": "minecraft:smite",
+                "lvl": 3
+              },
+              {
+                "id": "minecraft:unbreaking",
+                "lvl": 3
+              }
+            ],
+            "AttributeModifiers": [
+              {
+                "AttributeName": "generic.attack_damage",
+                "Amount": 7,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -333333,
+                  33333,
+                  333333,
+                  -33333
+                ],
+                "Name": "huntaxe_dmg"
+              }
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          "simplyswords:iron_scythe",
+          1,
+          {
+            "display": {
+              "Name": "[{\"text\":\"Mantis Blade Mk.I\",\"italic\":false,\"color\":\"yellow\",\"bold\":true}]",
+              "Lore": [
+                "[{\"text\":\"Corpo-grade.\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                "[{\"text\":\"Still cuts.\",\"italic\":true,\"color\":\"dark_gray\"}]"
+              ]
+            },
+            "Enchantments": [
+              {
+                "id": "minecraft:sharpness",
+                "lvl": 2
+              },
+              {
+                "id": "minecraft:sweeping_edge",
+                "lvl": 2
+              }
+            ],
+            "AttributeModifiers": [
+              {
+                "AttributeName": "generic.attack_damage",
+                "Amount": 6,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -333334,
+                  33334,
+                  333334,
+                  -33334
+                ],
+                "Name": "mantis1_dmg"
+              },
+              {
+                "AttributeName": "generic.attack_speed",
+                "Amount": 0.4,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -333335,
+                  33335,
+                  333335,
+                  -33335
+                ],
+                "Name": "mantis1_spd"
+              }
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          "minecraft:stick",
+          1,
+          {
+            "display": {
+              "Name": "[{\"text\":\"Wirt's Leg\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true}]",
+              "Lore": [
+                "[{\"text\":\"Pulled from a one-legged boy.\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                "[{\"text\":\"Feel bad.\",\"italic\":true,\"color\":\"dark_gray\"}]"
+              ]
+            },
+            "AttributeModifiers": [
+              {
+                "AttributeName": "generic.attack_damage",
+                "Amount": 5,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -333336,
+                  33336,
+                  333336,
+                  -33336
+                ],
+                "Name": "wirt_dmg"
+              },
+              {
+                "AttributeName": "generic.luck",
+                "Amount": 1,
+                "Operation": 0,
+                "Slot": "mainhand",
+                "UUID": [
+                  -333337,
+                  33337,
+                  333337,
+                  -33337
+                ],
+                "Name": "wirt_luck"
+              }
+            ]
+          }
+        ]
+      ]
+    ]
+  },
+  "rare_trinket": {
+    "weight": 1,
+    "loot": [
+      [
+        [
+          "minecraft:music_disc_cat",
+          1,
+          {
+            "display": {
+              "Name": "[{\"text\":\"Charr War Horn\",\"italic\":false,\"color\":\"red\",\"bold\":true}]",
+              "Lore": [
+                "[{\"text\":\"The sound alone breaks formations.\",\"italic\":true,\"color\":\"dark_gray\"}]"
+              ]
+            },
+            "AttributeModifiers": [
+              {
+                "AttributeName": "generic.attack_speed",
+                "Amount": 0.2,
+                "Operation": 0,
+                "Slot": "offhand",
+                "UUID": [
+                  -444441,
+                  44441,
+                  444441,
+                  -44441
+                ],
+                "Name": "horn_spd"
+              }
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          "minecraft:paper",
+          1,
+          {
+            "display": {
+              "Name": "[{\"text\":\"Gwent Card: Geralt\",\"italic\":false,\"color\":\"gold\",\"bold\":true}]",
+              "Lore": [
+                "[{\"text\":\"You've been challenged.\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                "[{\"text\":\"Decline wisely.\",\"italic\":true,\"color\":\"dark_gray\"}]"
+              ]
+            }
+          }
+        ]
+      ]
+    ]
+  }
+}

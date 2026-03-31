@@ -24,7 +24,15 @@ ItemEvents.tooltip(event =>{
 				text.add(3, Text.of(' • §2Cost:§f One stack of Diamonds (non-refundable).').white())
 				text.add(5, Text.of(' • §bSpecial Ability:§f Makes the player feel insecure.').white())
 				text.add(5, Text.of(' • §dLifespan:§f Expires yesterday.').white())
-		})
+	})
+
+	event.addAdvanced('fantasy_armor:moon_crystal', (item, advanced, text) => {
+				text.add(1, Text.of('A shard of solidified moonlight, cold to the touch').gray().italic())
+				text.add(2, Text.of(' • §6Starts to appear in chests after defeating the Wither').white())
+				text.add(3, Text.of(' • §2Can be found in various bags and lootboxes').white())
+				text.add(4, Text.of(' • §bSometimes given as quest reward').white())
+				text.add(5, Text.of(' • §dUsed to modify the appearance of Netherite Armor').white())
+	})
 
 	event.addAdvanced('kubejs:map_fragment', (item, advanced, text) => {
     if (!event.isShift()) {
@@ -45,35 +53,11 @@ ItemEvents.tooltip(event =>{
 		])
     }
 	})
-	
-  event.addAdvanced(['kubejs:item_recycler'], (item, advanced, text) => {
-    text.add(1, Text.of('A precision instrument designed to unbind the atomic bonds of physical matter.').gray().italic())
-
-    if (!event.isShift()) {
-      text.add(2, Text.of('Hold [Shift] for mechanics.').gray())
-    } else {
-      text.add(2, [
-        Text.of('§6Right-Click: '), 
-        Text.of('Processes the item stack in your §eOffhand§f.')
-      ])
-      text.add(3, [
-        Text.of('§2Cost: '), 
-        Text.of('Consumes the offhand stack. Extraction is self-powering.')
-      ])
-      text.add(4, [
-        Text.of('Calculates success for every item in the stack individually.')
-      ])
-      text.add(5, [
-        Text.of('§dJackpots: '), 
-        Text.of('High-tier materials have a chance to yield rare Gems.')
-      ])
-      text.add(6, [
-        Text.of('§cMachine Jams: '), 
-        Text.of('Instabilities cause a 10s machine lockout.')
-      ])
-    }
-  })
-	
+		
+	event.addAdvanced('minecraft:gold_ingot', (item, advanced, text) => {
+				text.add(1, Text.of('Can be crafted with any weapon or armor to update its properties').gray());			
+	})
+		
 	event.addAdvanced('bountiful:bountyboard', (stack, advanced, text) => {      
         if (!event.shift) {
             text.add(1, Text.of('Hold ').gray().append(Text.gold('[Shift] ')).append(Text.gray('for mechanics.')))
@@ -114,6 +98,32 @@ ItemEvents.tooltip(event =>{
 		])
     }
 	})
+
+    event.addAdvanced('ars_nouveau:spell_crossbow', (item, advanced, text) => {
+        let failChance = 15
+        
+        if (item.enchantments.hasOwnProperty('minecraft:multishot')) {
+            failChance += 15
+        }
+        
+        if (item.enchantments.hasOwnProperty('apotheosis:crescendo')) {
+            let enchLevel = item.enchantments['apotheosis:crescendo']
+            failChance += (10 * enchLevel)
+        }
+
+		text.add(1, Text.darkRed('Arcane Instability').bold())
+        text.add(2, Text.gray('Has a slight chance to fail to cast any spell'))
+		text.add(3, Text.gray('Risk increases significantly with ')
+            .append(Text.aqua('Multishot'))
+            .append(Text.gray(' or '))
+            .append(Text.aqua('Crescendo'))
+            .append(Text.gray(' enchantments'))
+        )
+        
+        let color = failChance >= 70 ? Text.red : Text.yellow
+        text.add(4, Text.gold('Current misfire Chance: ').append(color(`${failChance}%`)))
+
+    })
 	
 	event.addAdvanced('kubejs:map_scroll_structure', (item, advanced, text) => {
     if (!event.isShift()) {
@@ -875,6 +885,35 @@ ItemEvents.tooltip(event =>{
     }
   })
 
+	event.addAdvanced(['kubejs:coin_raid'], (item, advanced, text) => {
+	text.add(1, [
+        Text.of('Loot coin').aqua()
+    ])	
+    if (!event.isShift()) {
+      text.add(2, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').yellow(),
+        Text.of('to see more info').gray()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('• Acquired from ').white(), 
+		Text.of('Dungeon Raids').darkRed()
+      ])
+	    text.add(2, [
+        Text.of('• Exchange it in ').white(),
+        Text.of('⭐ The Market ').gold(),
+        Text.of('quest chapter in the ').white(),
+		Text.of('Quest Book ').green()
+      ])
+	  	text.add(3, [
+        Text.of('• Use ').white(),
+        Text.of('/raidvault ').gold(),
+        Text.of('in chat to deposit or withdraw').white()
+      ])
+    }
+  })
+
 	event.addAdvanced(['kubejs:coin_aether', 'kubejs:coin_undergarden', 'kubejs:coin_twilight', 'kubejs:coin_bumblezone', 'kubejs:coin_icaria', 'kubejs:coin_end', 'kubejs:coin_nether'], (item, advanced, text) => {
 	text.add(1, [
         Text.of('Dimensional coin').aqua()
@@ -1504,10 +1543,10 @@ ItemEvents.tooltip(event =>{
       text.add(1, [Text.of('The soul of a powerful monster').darkRed().italic(true)])
 	  text.add(2, [Text.of('Used for crafting the strongest items and enchantments').darkPurple()])
 	})
+	
 	event.addAdvanced('ars_nouveau:mob_jar', (item, advanced, text) => {
     text.add(1, Text.of('Not strong enough to contain powerful monsters').red()) 
 	})
-	
 	
 
 	//Gear Upgrades
@@ -1688,165 +1727,7 @@ ItemEvents.tooltip(event =>{
 		text.add(20, Text.of("powerful is an unescapable curse disguised as a blessing.").gray().italic())
 	})
 	
-	const tooltipData = [
-        {
-            id: 'kubejs:rusty_key',
-            lore: 'An old key covered in thick, orange rust',
-            mechanics: [
-                '§6• Can be used to force open iron doors',
-                '§2• The key is fragile and will break after one use'
-            ]
-        },
-        {
-            id: 'kubejs:unstable_battery',
-            lore: 'It hums with a dangerous, flickering orange light',
-            mechanics: [
-                '§b• Grants massive Speed and Haste for 30 seconds',
-                '§2• Causes extreme exhaustion (Hunger) after the surge',
-                '§6• Right-click to consume and activate'
-            ]
-        },
-        {
-            id: 'kubejs:emergency_flare',
-            lore: 'Standard issue for underground exploration',
-            mechanics: [
-                '§6• Ignites a bright light at your location',
-                '§b• Reveals nearby hidden entities through walls',
-                '§d• Burns out after 60 seconds'
-            ]
-        },
-        {
-            id: 'kubejs:bee_jar',
-            lore: 'You can hear an angry buzzing inside',
-            mechanics: [
-                '§b• Releases 3-4 aggressive bees on impact.',
-                '§d• Bees use a specialized lifespan and will despawn.',
-                '§6• Perfect for creating a quick distraction.'
-            ]
-        },
-        {
-            id: 'kubejs:data_slate',
-            lore: 'Some data is readable',
-            mechanics: [
-                '§6• Attempt to decrypt by right-clicking',
-                '§2• Has a 40% chance to fail and wipe the data',
-                '§b• May reveal secret coordinates or XP'
-            ]
-        },
-		{
-            id: 'kubejs:sentry_remote',
-            lore: 'A cracked screen showing "Protocol: FREEZE"',
-            mechanics: [
-                '§b• Emits a pulse that freezes hostile movements',
-                '§6• Affects all monsters in a 10-block radius',
-                '§d• Powered by Aetheric cloud energy'
-            ]
-        },
-        {
-            id: 'kubejs:bioscan_syringe',
-            lore: 'Used to extract samples from biological anomalies',
-            mechanics: [
-                '§2• Right-click a Glowing Bee to harvest energy',
-                '§6• Yields a Charged Stinger upon success',
-                '§d• The host is consumed during extraction'
-            ]
-        },
-        {
-            id: 'kubejs:magnetic_grapple',
-            lore: 'An industrial winch modified for urban climbing.',
-            mechanics: [
-                '§6• Pulls the user toward the targeted block',
-                '§2• High risk of mechanical failure (Durability)',
-                '§b• Maximum effective range: 20 blocks'
-            ]
-        },
-        {
-            id: 'kubejs:thermal_paste',
-            lore: 'Highly corrosive chemical compound',
-            mechanics: [
-                '§2• Instantly dissolves Iron Bars and Trapdoors',
-                '§6• Consumed on contact with metal',
-                '§b• Warning: Do not apply to skin'
-            ]
-        },
-        {
-            id: 'kubejs:echo_locator',
-            lore: '"I can hear the loot breathing..."',
-            mechanics: [
-                '§b• Pings the location of nearby storage containers',
-                '§6• Effective through solid walls and floors'
-            ]
-        },
-        {
-            id: 'kubejs:kinetic_dampener',
-            lore: 'Laws of physics? More like suggestions',
-            mechanics: [
-                '§b• Instantly halts all vertical and horizontal velocity',
-                '§6• Resets fall distance to prevent impact damage',
-                '§2• High energy drain per use'
-            ]
-        },
-        {
-            id: 'kubejs:scavenger_magnet',
-            lore: 'Because bending down is too much work',
-            mechanics: [
-                '§b• Pulsates to pull nearby loose items toward you',
-                '§6• 12-block effective radius',
-                '§2• Uses magnetic resonance to attract loot'
-            ]
-        },
-        {
-            id: 'kubejs:translocation_coil',
-            lore: "I'd rather be there, and you'd rather be here",
-            mechanics: [
-                '§d• Swaps positions with a targeted living entity',
-                '§b• Maximum range: 25 blocks',
-                '§c• Warning: Extremely high durability cost'
-            ]
-        },
-		{
-            id: 'kubejs:berserk_draught',
-            lore: "A violent tonic that numbs pain and fuels rage",
-            mechanics: [
-                '§F• Grants §bSpeed§f and §eStrength§f buffs',
-                '§b• High §cHunger§f loss after 20 seconds'
-            ]
-        },
-		{
-            id: 'kubejs:bottled_ice',
-            lore: "A glass flask containing a shard of true-ice",
-            mechanics: [
-                '§f• Effective against liquids or entities',
-                '§b• Must be thrown directly at a liquid'
-            ]
-        },
-		{
-            id: 'kubejs:void_core',
-            lore: "A dense, humming stone that disperses the material world",
-            mechanics: [
-                '§6• Dissolves a §b3x3 area§f around the user',
-                '§e• The effect lasts for §d30 Seconds§f',
-                '§d• Uses §bGlowing effect§f as a timer',
-                '§2• Cannot destroy Bedrock or wither-proof materials'
-            ]
-        }
-    ];
 
-    tooltipData.forEach(item => {
-        event.addAdvanced(item.id, (stack, advanced, text) => {
-            // Line 0 is the Item Name. Line 1 is our Italicized Lore.
-            text.add(1, Text.of(item.lore).italic().gray());
-
-            if (!event.shift) {
-                text.add(2, Text.of("Hold [Shift] to see more info").yellow());
-            } else {
-                item.mechanics.forEach((m, index) => {
-                    // Start adding from line 3 onwards
-                    text.add(2 + index, Text.of(m).white());
-                });
-            }
-        });
-    });
 // THE END	
 })
 ClientEvents.lang('en_us', event => {
@@ -1855,4 +1736,3 @@ ClientEvents.lang('en_us', event => {
   event.renameItem('graveyard:lower_bone_staff', 'Tail of the Beast King')
 
 })
-

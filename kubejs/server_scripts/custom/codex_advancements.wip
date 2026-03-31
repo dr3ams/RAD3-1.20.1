@@ -1,0 +1,230 @@
+// ============================================================
+//  ADVENTURER'S CODEX — Advancement Bridge
+//  File: kubejs/server_scripts/codex_advancements.js
+//
+//  HOW THIS WORKS:
+//  Patchouli locks book entries behind Minecraft advancements.
+//  Your existing roguelite_ring.js grants *game stages* per milestone.
+//  This file listens to the same stage events and also grants a
+//  matching advancement so the Patchouli Codex entry unlocks in sync.
+//
+//  SETUP: Drop this file in kubejs/server_scripts/
+//  It is fully standalone — no edits to roguelite_ring.js required.
+// ============================================================
+
+// Maps every game stage ID to its paired Patchouli advancement ID.
+// The advancement IDs must match what you put in each entry's JSON:
+//   "advancement": "rad3:milestone/nether"  →  key below is 'milestone_nether'
+const STAGE_TO_ADVANCEMENT = {
+    // Dimensions
+    'milestone_nether':     		'rad3:milestone/nether',
+    'milestone_end':         		'rad3:milestone/end',
+    'milestone_aether':      		'rad3:milestone/aether',
+    'milestone_bumblezone':  		'rad3:milestone/bumblezone',
+    'milestone_icaria':     		'rad3:milestone/icaria',
+    'milestone_undergarden': 		'rad3:milestone/undergarden',
+    'milestone_dimdungeons': 		'rad3:milestone/dimdungeons',
+	'milestone_dungeon': 			'rad3:milestone/dungeon',
+    // Bosses
+    'milestone_wither':          'rad3:milestone/wither',
+    'milestone_ignis':           'rad3:milestone/ignis',
+    'milestone_monstrosity':     'rad3:milestone/monstrosity',
+    'milestone_ender_guardian':  'rad3:milestone/ender_guardian',
+    'milestone_the_harbinger':   'rad3:milestone/the_harbinger',
+    'milestone_the_leviathan':   'rad3:milestone/the_leviathan',
+    'milestone_ancient_remnant': 'rad3:milestone/ancient_remnant',
+    'milestone_maledictus':      'rad3:milestone/maledictus',
+    'milestone_scylla':          'rad3:milestone/scylla',
+    'milestone_lich':            'rad3:milestone/lich',
+    'milestone_obsidilith':      'rad3:milestone/obsidilith',
+    'milestone_gauntlet':        'rad3:milestone/gauntlet',
+    'milestone_void_blossom':    'rad3:milestone/void_blossom',
+    'milestone_frostmaw':        'rad3:milestone/frostmaw',
+    'milestone_grave_lich':      'rad3:milestone/grave_lich',
+    'milestone_wilden':          'rad3:milestone/wilden',
+	'milestone_wroughtnaut':     'rad3:milestone/wroughtnaut',
+	'milestone_umvuthi':         'rad3:milestone/umvuthi',
+	'milestone_forgotten':       'rad3:milestone/forgotten',
+    // Items
+    'milestone_elytra':         'rad3:milestone/elytra',
+    'milestone_chaos_ingot':    'rad3:milestone/chaos_ingot',
+    'milestone_miracle_ingot':  'rad3:milestone/miracle_ingot',
+    'milestone_eternium_ingot': 'rad3:milestone/eternium_ingot',
+    // Misc & Feats
+    'milestone_deep':        'rad3:milestone/deep',
+    'milestone_pathfinder':  'rad3:milestone/pathfinder',
+    'milestone_arsnouveau':  'rad3:milestone/arsnouveau',
+    'milestone_bestiary':    'rad3:milestone/bestiary',
+    'milestone_hostility':   'rad3:milestone/hostility',
+    'milestone_embers':      'rad3:milestone/embers',
+	'milestone_bloodmagic':  'rad3:milestone/bloodmagic',
+	'milestone_equipment':   'rad3:milestone/equipment',
+	'milestone_trinkets':    'rad3:milestone/trinkets',
+	'milestone_collections': 'rad3:milestone/collections',
+	'milestone_enchanting':  'rad3:milestone/enchanting',
+};
+
+// Helper: grant an advancement by command if the player doesn't have it yet.
+// We use the /advancement grant command because it's the most reliable
+// cross-version approach in KubeJS without needing direct API calls.
+function grantCodexAdvancement(player, stageId) {
+    let advId = STAGE_TO_ADVANCEMENT[stageId];
+    if (!advId) return; // Stage has no Codex entry — skip silently
+
+    // Only grant if not already granted (avoids spam on reconnect, etc.)
+    try {
+        player.server.runCommandSilent(
+            `advancement grant ${player.username} only ${advId}`
+        );
+    } catch (err) {
+        console.warn(`[Codex] Failed to grant advancement ${advId}: ${err}`);
+    }
+}
+
+// ============================================================
+//  STAGE GRANT LISTENERS
+//  These mirror the trigger points in roguelite_ring.js so the
+//  Patchouli entry unlocks at the exact same moment the ring updates.
+// ============================================================
+
+// Dimension enter — fires when player spawns in a new dimension
+PlayerEvents.respawned(event => {
+    const { player } = event;
+    const dim = player.level.dimension.toString();
+ 
+    const dimMap = {
+        'minecraft:the_nether':               'milestone_nether',
+        'minecraft:the_end':                  'milestone_end',
+        'aether:the_aether':                  'milestone_aether',
+        'the_bumblezone:the_bumblezone':      'milestone_bumblezone',
+        'landsoficaria:icaria':               'milestone_icaria',
+        'undergarden:undergarden':            'milestone_undergarden',
+        'dimdungeons:dungeon_dimension':      'milestone_dimdungeons',
+        'lrdynamicdungeon:dungeon_dimension': 'milestone_dungeon'
+    };
+ 
+    let stageId = dimMap[dim];
+ 
+    // Grant the Patchouli advancement the first time this dimension is visited
+    if (stageId && !player.stages.has(stageId)) {
+        player.stages.add(stageId);
+        player.tell(Text.of('§b+ Progression Milestone Unlocked! Type /rank to check your status'));
+        grantCodexAdvancement(player, stageId);
+    } else if (stageId) {
+        // Already unlocked — still sync the advancement in case it was missed
+        grantCodexAdvancement(player, stageId);
+    }
+ 
+    // ── DUNGEON RUN COUNTER ──────────────────────────────────────────────────
+    // Reads totalRuns from raid.js's persistentData (statTotalRuns).
+    // We do NOT increment here — raid.js owns that counter.
+    // We just read it to check thresholds for the server announcement.
+    if (dim === 'lrdynamicdungeon:dungeon_dimension') {
+        let totalRuns = player.persistentData.getInt('statTotalRuns') || 0;
+ 
+        const THRESHOLDS = [10, 25, 50, 100];
+        if (THRESHOLDS.includes(totalRuns)) {
+            player.server.tell([
+                Text.of('⚔ ').gold(),
+                Text.of(player.username).white(),
+                Text.of(' has entered the dungeon ').yellow(),
+                Text.of(`${totalRuns}`).aqua().bold(),
+                Text.of(' times!').yellow()
+            ]);
+        }
+
+    }
+});
+
+// Boss kills — fires when any entity dies with a player as the source
+EntityEvents.death(event => {
+    const { entity, source } = event;
+    if (!source.player) return;
+    const bossMap = {
+        'minecraft:wither':                      'milestone_wither',
+        'cataclysm:ignis':                       'milestone_ignis',
+        'cataclysm:netherite_monstrosity':       'milestone_monstrosity',
+        'cataclysm:ender_guardian':              'milestone_ender_guardian',
+        'cataclysm:the_harbinger':               'milestone_the_harbinger',
+        'cataclysm:the_leviathan':               'milestone_the_leviathan',
+        'cataclysm:ancient_remnant':             'milestone_ancient_remnant',
+        'cataclysm:maledictus':                  'milestone_maledictus',
+        'cataclysm:scylla':                      'milestone_scylla',
+        'bosses_of_mass_destruction:lich':       'milestone_lich',
+        'bosses_of_mass_destruction:obsidilith': 'milestone_obsidilith',
+        'bosses_of_mass_destruction:gauntlet':   'milestone_gauntlet',
+        'bosses_of_mass_destruction:void_blossom': 'milestone_void_blossom',
+        'mowziesmobs:frostmaw':                  'milestone_frostmaw',
+		'mowziesmobs:ferrous_wroughtnaut': 		 'milestone_wroughtnaut',
+		'mowziesmobs:umvuthi': 					 'milestone_umvuthi',
+        'graveyard:lich':                        'milestone_grave_lich',
+        'ars_nouveau:wilden_boss':            	 'milestone_wilden',
+		'undergarden:forgotten_guardian': 		 'milestone_forgotten'
+    };
+    let stageId = bossMap[entity.type];
+    if (stageId) grantCodexAdvancement(source.player, stageId);
+});
+
+// Item pickup — fires when inventory changes
+PlayerEvents.inventoryChanged(event => {
+    const { player, item } = event;
+    const itemMap = {
+        'minecraft:elytra':             'milestone_elytra',
+        'l2hostility:chaos_ingot':      'milestone_chaos_ingot',
+        'l2hostility:miracle_ingot':    'milestone_miracle_ingot',
+        'l2complements:eternium_ingot': 'milestone_eternium_ingot',
+    };
+    let stageId = itemMap[item.id];
+    if (stageId) grantCodexAdvancement(player, stageId);
+});
+
+// Deep Dark — fires when a block is broken below y=-60
+BlockEvents.broken(event => {
+    const { player } = event;
+    if (player && player.y <= -60) {
+        grantCodexAdvancement(player, 'milestone_deep');
+    }
+});
+
+// Quest chapter milestones — call this from your quest reward scripts
+// or wherever you call player.stages.add('milestone_pathfinder') etc.
+// Example: after calling player.stages.add('milestone_pathfinder'),
+// also call:  grantCodexAdvancement(player, 'milestone_pathfinder')
+// OR: if you trigger stages from FTB Quests reward scripts, add a
+// /advancement grant command directly in the quest reward.
+
+// ============================================================
+//  RECONNECT SYNC
+//  When a player logs back in, catch up any stages that were
+//  already granted but whose advancement wasn't (e.g. if they
+//  installed the Codex after already playing).
+// ============================================================
+PlayerEvents.loggedIn(event => {
+    const { player } = event;
+    // Schedule 20t delay so the player is fully loaded before running commands
+    event.server.scheduleInTicks(20, () => {
+        for (let [stageId, advId] of Object.entries(STAGE_TO_ADVANCEMENT)) {
+            if (player.stages.has(stageId)) {
+                try {
+                    player.server.runCommandSilent(
+                        `advancement grant ${player.username} only ${advId}`
+                    );
+                } catch (err) {
+                    // Silent — don't spam console on reconnect
+                }
+            }
+        }
+        // Notify player the Codex is available
+        if (!player.stages.has('codex_introduced')) {
+            player.tell([
+                Text.of('✦ ').gold(),
+                Text.of("Your ").gray(),
+                Text.of("Adventurer's Codex").gold(),
+                Text.of(" tracks your progress. Use ").gray(),
+                Text.of("/codex").aqua(),
+                Text.of(" to receive your copy.").gray()
+            ]);
+            player.stages.add('codex_introduced');
+        }
+    });
+});

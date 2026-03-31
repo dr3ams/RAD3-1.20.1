@@ -16,6 +16,8 @@ const removals = [
   "minecraft:chainmail_leggings",
   "minecraft:chainmail_chestplate",
   
+  "lrdynamicdungeon:dungeon_pass",
+  
 //  "sophisticatedbackpacks:stack_upgrade_starter_tier",
 //  "sophisticatedbackpacks:stack_upgrade_tier_1",
 //  "sophisticatedbackpacks:stack_upgrade_tier_2",

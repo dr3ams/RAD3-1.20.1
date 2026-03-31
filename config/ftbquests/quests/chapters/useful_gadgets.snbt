@@ -1170,6 +1170,91 @@
 			x: 9.5d
 			y: 2.5d
 		}
+		{
+			description: ["Choose a biome, and this compass will point to the nearest one as long as it's within 5000 blocks."]
+			id: "0000000000000576"
+			rewards: [{
+				id: "0000000000000578"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "resource_loot_crate_1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000000577"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"- The parachute is an item crafted from string and wool that, when held in your inventory will automatically deploy and slow your fall if it detects you've fallen far enough that you will take significant damage when you land"
+				""
+				"- The parachute needs to be folded back up once you land in order for it to be ready to catch you if you fall again"
+			]
+			id: "6919B75261523426"
+			rewards: [{
+				id: "748A7C5EF6EDADF3"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05628460ED131063"
+				item: {
+					Count: 1
+					id: "spelunkery:parachute"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Spyglass received various functionality and improvements:"
+				""
+				"- can be put in &6Belt&r curio slot"
+				"- quick access by pressing '&2Z&r'"
+				"- &9zoom&r using mouse scroll wheel"
+				"- different &3overlays&r (see in-game configs)"
+				"- view &9information&r on mobs"
+				"- &5Marking enchant&r: Pressing the attack keybind marks mobs viewed through a spyglass. Puts the spyglass on cooldown for 0.8x of the marking duration."
+				"- &5Precision enchant&r: Offhanding a spyglass and crouching while using a ranged weapon grants zoom. Projectiles gain perfect accuracy and deal extra damage. 4 second cooldown by default."
+			]
+			id: "0DB4564772F4526D"
+			rewards: [
+				{
+					id: "1BDECE51439990CB"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "46760FB733316622"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "73517CF516D3A571"
+				item: "minecraft:spyglass"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.5d
+		}
 	]
 	title: "&2Useful Gadgets&r"
 }

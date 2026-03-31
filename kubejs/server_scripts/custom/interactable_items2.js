@@ -149,48 +149,70 @@ ItemEvents.rightClicked(event => {
 ///
 });
 
+// startup_scripts/raid_items.js or similar
+
 ItemEvents.rightClicked(event => {
     const { item, player, level } = event;
 
-    // --- VOID CORE (30 Second Tunneling) ---
     if (item.id == 'kubejs:void_core') {
-        // Apply Glowing for 30 seconds (600 ticks) as our timer
+        // Set our OWN flag on the player — this is the real trigger
+        player.persistentData.putBoolean('void_core_active', true);
+        // Store expiry time so we can clean it up
+        player.persistentData.putLong('void_core_expires', level.time + 600);
+
+        // Glowing is now purely cosmetic — you can keep it or remove it
         player.potionEffects.add('minecraft:glowing', 600, 0, false, false);
-        
+		player.potionEffects.add('minecraft:night_vision', 600, 0, false, false);
+
         player.setStatusMessage(Text.aqua("Void Core: Reality begins to crumble around you..."));
         player.swing();
-        level.playSound(null, player.blockX, player.blockY, player.blockZ, 'minecraft:entity.warden.heartbeat', 'players', 1.0, 0.5);
-        
+        level.playSound(null, player.blockX, player.blockY, player.blockZ,
+            'minecraft:entity.warden.heartbeat', 'players', 1.0, 0.5);
+
         item.count--;
         event.cancel();
     }
 });
 
-// The "Tick" event that actually destroys the blocks
 PlayerEvents.tick(event => {
     const { player, level } = event;
+    const data = player.persistentData;
 
-    // Only run this if the player has the Glowing effect (our timer)
-    // AND we only check every 2 ticks to save performance
-    if (player.potionEffects.isActive('minecraft:glowing') && level.time % 2 == 0) {
-        let radius = 1; // 1 block in each direction = 3x3 area
-        
-        for (let x = -radius; x <= radius; x++) {
-            for (let y = 0; y <= 2; y++) { // Destroys 3 blocks high so player can walk
-                for (let z = -radius; z <= radius; z++) {
-                    let block = player.block.offset(x, y, z);
-                    
-                    // Safety check: Don't destroy Bedrock or Air
-                    if (block.id != 'minecraft:air' && block.id != 'minecraft:bedrock' && !block.hasTag('minecraft:wither_immune')) {
-                        block.set('minecraft:air');
-                        
-                        // Optional: Spawn particles to show the "void" eating blocks
-                        if (Math.random() < 0.1) {
-                            level.spawnParticles('minecraft:ash', true, block.x + 0.5, block.y + 0.5, block.z + 0.5, 0.2, 0.2, 0.2, 1, 0.01);
-                        }
+    // Guard: only run if OUR flag is set
+    if (!data.getBoolean('void_core_active')) return;
+	
+	if (player.isCrouching()) return;
+
+    // Check if our timer has expired and clean up
+    if (level.time >= data.getLong('void_core_expires')) {
+        data.remove('void_core_active');
+        data.remove('void_core_expires');
+        player.setStatusMessage(Text.gray("Void Core: Effect has faded."));
+        return;
+    }
+
+    // Performance: only run every 2 ticks
+    if (level.time % 2 != 0) return;
+
+    let radius = 1;
+
+    for (let x = -radius; x <= radius; x++) {
+        for (let y = 0; y <= 2; y++) {
+            for (let z = -radius; z <= radius; z++) {
+                let block = player.block.offset(x, y, z);
+
+                if (block.id.match(/stone|deepslate|gravel|sand|dirt/)) {
+					
+                    block.set('minecraft:air');
+
+                    if (Math.random() < 0.1) {
+                        level.spawnParticles('minecraft:ash', true,
+                            block.x + 0.5, block.y + 0.5, block.z + 0.5,
+                            0.2, 0.2, 0.2, 1, 0.01);
                     }
                 }
             }
         }
     }
 });
+
