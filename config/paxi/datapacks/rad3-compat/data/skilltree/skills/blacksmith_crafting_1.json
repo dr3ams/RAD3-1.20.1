@@ -4,13 +4,13 @@
     {
       "type": "skilltree:crafted_item_bonus",
       "item_condition": {
-        "equipment_type": "armor",
+        "equipment_type": "helmet",
         "type": "skilltree:equipment_type"
       },
       "item_bonus": {
         "skill_bonus": {
           "attribute": "minecraft:generic.armor",
-          "id": "3cce39b6-a49b-4030-b947-b34c10c40905",
+          "id": "2ad6d673-1a54-4697-be9a-4c208874c361",
           "name": "SkillBonus",
           "amount": 1.0,
           "operation": 0,
@@ -26,27 +26,17 @@
       }
     },
     {
-      "type": "skilltree:crafted_item_bonus",
-      "item_condition": {
-        "equipment_type": "armor",
-        "type": "skilltree:equipment_type"
+      "type": "skilltree:attribute",
+      "attribute": "additional_attributes:apothic_crafting",
+      "id": "81e70d13-c941-4054-b8d4-36a64d20c8af",
+      "name": "Skill",
+      "amount": 0.25,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
       },
-      "item_bonus": {
-        "skill_bonus": {
-          "attribute": "skilltree:evasion",
-          "id": "dea61b2d-2db7-4106-80ff-8dbe69137844",
-          "name": "Skill",
-          "amount": 1.0,
-          "operation": 0,
-          "player_multiplier": {
-            "type": "skilltree:none"
-          },
-          "player_condition": {
-            "type": "skilltree:none"
-          },
-          "type": "skilltree:attribute"
-        },
-        "type": "skilltree:skill_bonus"
+      "player_condition": {
+        "type": "skilltree:none"
       }
     }
   ],
@@ -63,5 +53,36 @@
   "positionX": -104.7852,
   "positionY": -60.5067,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "skill_bonus.skilltree.crafted_item_bonus",
+      "with": [
+        {
+          "translate": "item_condition.skilltree.equipment_type.helmet.plural.type"
+        },
+        {
+          "f_131101_": {
+            "f_131257_": 8041442
+          },
+          "translate": "attribute.modifier.plus.0",
+          "with": [
+            "1",
+            {
+              "translate": "attribute.name.generic.armor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+0.25 Chance to affix crafted items"
+    }
+  ]
 }

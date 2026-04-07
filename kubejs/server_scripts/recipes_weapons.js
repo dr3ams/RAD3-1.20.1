@@ -469,7 +469,7 @@ ServerEvents.recipes((event) => {
 	'TLT',
     'PDP'
 	], {
-	L: 'xercamusic:lyre',
+	L: 'immersive_melodies:lute',
 	T: 'apotheosis:warden_tendril',
 	P: 'minecraft:prismarine_shard',
 	D: 'minecraft:diamond'

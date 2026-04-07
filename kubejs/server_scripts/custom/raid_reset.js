@@ -1,4 +1,4 @@
-BlockEvents.rightClicked(event => {
+/* BlockEvents.rightClicked(event => {
     const { player, item, server, hand, block } = event;
 
     // 1. Only run if the player is holding the pass and clicking a block
@@ -22,4 +22,4 @@ BlockEvents.rightClicked(event => {
             player.level.playSound(null, player.blockX, player.blockY, player.blockZ, 'minecraft:entity.experience_orb.pickup', 'players', 0.5, 1.0);
         }
     });
-});
+}); */

@@ -11,6 +11,28 @@
         "value": 512
       }
     },
+    "betterparagliders:fast_swimming_stamina_reduction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "betterparagliders:cat_leap_stamina_reduction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:spell_type_burning_dash": {
       "enabled": false,
       "min": {
@@ -49,6 +71,17 @@
       "min": {
         "default": -100,
         "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "betterparagliders:horizontal_wall_run_stamina_reduction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
       },
       "max": {
         "default": 100,
@@ -132,7 +165,29 @@
         "value": 100
       }
     },
+    "betterparagliders:roll_stamina_reduction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:spell_type_lightning_bolt": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "betterparagliders:submerged_stamina_regen": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -561,6 +616,17 @@
         "value": 100
       }
     },
+    "betterparagliders:swimming_stamina_reduction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:innate_school/irons_spellbooks/holy": {
       "enabled": false,
       "min": {
@@ -957,6 +1023,17 @@
         "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
       }
     },
+    "betterparagliders:water_breathing_stamina_regen": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/snowball": {
       "enabled": false,
       "min": {
@@ -1133,6 +1210,17 @@
         "value": 256
       }
     },
+    "betterparagliders:breakfall_stamina_reduction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:spell_type_wisp": {
       "enabled": false,
       "min": {
@@ -1240,7 +1328,7 @@
       },
       "max": {
         "default": 1200,
-        "value": 1200
+        "value": 3000
       }
     },
     "additional_attributes:innate_spell/irons_spellbooks/gluttony": {
@@ -1296,6 +1384,17 @@
       "max": {
         "default": 10000,
         "value": 10000
+      }
+    },
+    "betterparagliders:one_handed_stamina_reduction": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "irons_spellbooks:summon_damage": {
@@ -1463,6 +1562,28 @@
         "value": 100
       }
     },
+    "betterparagliders:block_stamina_reduction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "betterparagliders:range_stamina_reduction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:spell_type_teleport": {
       "enabled": false,
       "min": {
@@ -1538,6 +1659,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "betterparagliders:cling_to_cliff_stamina_reduction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "reach-entity-attributes:attack_range": {
@@ -1716,6 +1848,17 @@
         "value": 2000
       }
     },
+    "betterparagliders:vault_stamina_reduction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "minecraft:generic.attack_damage": {
       "enabled": true,
       "min": {
@@ -1769,6 +1912,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "betterparagliders:idle_stamina_regen": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": -10
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "additional_attributes:innate_spell/irons_spellbooks/summon_ender_chest": {
@@ -2464,6 +2618,17 @@
         "value": 100
       }
     },
+    "betterparagliders:sprinting_stamina_reduction": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": -10
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "l2damagetracker:explosion_damage": {
       "enabled": false,
       "min": {
@@ -2816,8 +2981,30 @@
         "value": 10
       }
     },
+    "betterparagliders:fast_running_stamina_reduction": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:spell_type_acupuncture": {
       "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "betterparagliders:two_handed_stamina_reduction": {
+      "enabled": true,
       "min": {
         "default": 0,
         "value": 0
@@ -3201,6 +3388,17 @@
         "value": 100
       }
     },
+    "betterparagliders:climb_up_stamina_reduction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/summon_polar_bear": {
       "enabled": false,
       "min": {
@@ -3454,6 +3652,17 @@
         "value": 100
       }
     },
+    "betterparagliders:charge_jump_stamina_reduction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:spell_type_shield": {
       "enabled": false,
       "min": {
@@ -3496,6 +3705,17 @@
       "max": {
         "default": 512,
         "value": 512
+      }
+    },
+    "betterparagliders:vertical_wall_run_stamina_reduction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "l2damagetracker:crit_rate": {
@@ -3817,6 +4037,17 @@
         "value": 100
       }
     },
+    "betterparagliders:base_melee_stamina_reduction": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": -10
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/burning_dash": {
       "enabled": false,
       "min": {
@@ -3895,6 +4126,17 @@
       }
     },
     "additional_attributes:spell_type_cone_of_cold": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "betterparagliders:dodge_stamina_reduction": {
       "enabled": false,
       "min": {
         "default": 0,

@@ -5,15 +5,50 @@
 	group: "241F1DC7B6D6E9D6"
 	icon: "kubejs:book2"
 	id: "24B56A274D017BC5"
-	images: [{
-		corner: true
-		height: 9.0d
-		image: "rad3:textures/misc/sstories.png"
-		rotation: 0.0d
-		width: 7.0d
-		x: -9.5d
-		y: 4.0d
-	}]
+	images: [
+		{
+			corner: true
+			height: 9.0d
+			image: "rad3:textures/misc/sstories.png"
+			rotation: 0.0d
+			width: 6.5d
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			height: 3.0d
+			hover: ["In pursuit of the Questing Sword"]
+			image: "radweaponry:item/questing_sword"
+			rotation: -45.0d
+			width: 3.0d
+			x: -11.5d
+			y: -4.0d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:item/map_fragment"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			height: 2.0d
+			image: "simplyswords:item/iron_claymore"
+			rotation: 45.0d
+			width: 2.0d
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/quest_bundle"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 0.0d
+		}
+	]
 	order_index: 13
 	quest_links: [ ]
 	quests: [
@@ -513,7 +548,7 @@
 			}]
 			title: "Bad Reputation"
 			x: -5.0d
-			y: 6.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["424C3DA5FE66B323"]
@@ -558,7 +593,7 @@
 			}]
 			title: "Embrace the Shadows"
 			x: -3.5d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["424C3DA5FE66B323"]
@@ -609,7 +644,7 @@
 			}]
 			title: "The Path of Justice"
 			x: -3.5d
-			y: 8.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["52B281617D229C20"]
@@ -665,7 +700,7 @@
 			]
 			title: "The bloody trial"
 			x: -2.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7FE6E8837582CDB7"]
@@ -692,7 +727,7 @@
 				type: "observation"
 			}]
 			x: -2.0d
-			y: 8.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["003ED95E5ACEA59E"]
@@ -711,7 +746,7 @@
 			}]
 			title: "Gather Supplies"
 			x: -0.5d
-			y: 8.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["548F6CFC69DF205D"]
@@ -752,7 +787,7 @@
 			]
 			title: "Illager's Hideout"
 			x: -0.5d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5D52212630DE2EE7"]
@@ -775,7 +810,7 @@
 				type: "questsadditions:time"
 			}]
 			x: 1.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0B08811AC3483A75"]
@@ -823,7 +858,7 @@
 			}]
 			title: "The reply?"
 			x: 2.5d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2256D8378C8CA364"]
@@ -908,7 +943,7 @@
 				}
 			]
 			x: 5.5d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["367683643CE78873"]
@@ -942,7 +977,7 @@
 				type: "structure"
 			}]
 			x: 4.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -998,7 +1033,7 @@
 				type: "checkmark"
 			}]
 			x: 2.5d
-			y: 8.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["381F497D537D074D"]
@@ -1066,7 +1101,7 @@
 			]
 			title: "The Final Confrontation"
 			x: 5.5d
-			y: 8.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1575E8A79C805DDB"]
@@ -1139,7 +1174,7 @@
 			]
 			title: "Weapons and Defense Gear"
 			x: 1.0d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1575E8A79C805DDB"]
@@ -1172,7 +1207,7 @@
 			]
 			title: "Food Supplies"
 			x: 1.0d
-			y: 8.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["63D38B0DBF63AF4D"]
@@ -1196,7 +1231,7 @@
 			}]
 			title: "Find Illager Hideout"
 			x: 4.0d
-			y: 8.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1575E8A79C805DDB"]
@@ -1224,7 +1259,7 @@
 			}]
 			title: "Medical Supplies"
 			x: 1.0d
-			y: 9.0d
+			y: 8.0d
 		}
 		{
 			description: ["&6Treasure map reward&r will locate the nearest structure so be aware of that when standing next to the one that you have already visited"]
@@ -1241,8 +1276,8 @@
 				type: "checkmark"
 			}]
 			title: "Tip: Locate structure rewards"
-			x: -5.0d
-			y: 3.5d
+			x: -9.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["39939BF03332602B"]
@@ -1273,7 +1308,7 @@
 			]
 			title: "Meet the Cartographer NPC in nearest village"
 			x: -4.0d
-			y: 12.0d
+			y: 11.0d
 		}
 		{
 			description: [
@@ -1299,7 +1334,7 @@
 			}]
 			title: "Investigate the mysterious map fragments"
 			x: -5.0d
-			y: 11.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["038AF7B7C3DAC3CA"]
@@ -1334,7 +1369,7 @@
 				type: "checkmark"
 			}]
 			x: -3.0d
-			y: 10.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["48BC42A1AD81B480"]
@@ -1374,7 +1409,7 @@
 			]
 			title: "Find Tower of the Undead"
 			x: -2.5d
-			y: 12.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["7A72CBC73FE616AD"]
@@ -1421,7 +1456,7 @@
 			]
 			title: "Supplies"
 			x: -0.5d
-			y: 11.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["11B76339E844FE72"]
@@ -1450,7 +1485,7 @@
 			}]
 			title: "Find Goblin Trader"
 			x: 1.0d
-			y: 11.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["7C9B25FFE3D57F83"]
@@ -1487,7 +1522,7 @@
 				type: "checkmark"
 			}]
 			x: 2.5d
-			y: 10.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["13379B923D5E59DB"]
@@ -1513,7 +1548,7 @@
 			}]
 			title: "Find Goblin Trader... again"
 			x: 4.0d
-			y: 11.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["4DAF35E5B8291B90"]
@@ -1538,7 +1573,7 @@
 				type: "checkmark"
 			}]
 			x: 5.0d
-			y: 12.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["32996B8992B1FF07"]
@@ -1563,7 +1598,1155 @@
 				type: "checkmark"
 			}]
 			x: 5.5d
-			y: 11.0d
+			y: 10.0d
+		}
+		{
+			description: [
+				"Pinned to the notice board, half-covered by a missing goat poster, is a notice written in faded red ink."
+				""
+				"&6&lWANTED — INFORMATION&r"
+				""
+				"&o&3\"Any soul with knowledge of the final resting place of &n&4Desram the Unbroken&r&r&3&o, once &6King of the Shattered Coves&r, &3is sought by the order of the Quill and Anchor.&r"
+				"&3Reward: knowledge of the Blade's whereabouts.&r"
+				""
+				"&o&8You've heard the name before. Every sailor has. Desram was a pirate king who vanished without dying — no shipwreck, no battle, no grave. Just gone. His sword, they say, went with him. And his sword, they say, chooses its bearer.&r&r"
+				""
+				"The notice gives no address. Only a name: &6The Wandering Hold.&r"
+			]
+			icon: "minecraft:paper"
+			id: "00ED99B6105C9DE1"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/gamestage add @p sidestory_crate"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "dungeonsdelight:block/dungeon_stove_front_on"
+						}
+					}
+					id: "022A93BC29B1DF10"
+					silent: true
+					title: "The dungeons stir. Something now waits inside."
+					type: "command"
+				}
+				{
+					id: "0432450B26B8DC1D"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "08326936A1F188F8"
+				structure: "#minecraft:village"
+				title: "Find a village notice board"
+				type: "structure"
+			}]
+			title: "The Wanted Posting"
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["00ED99B6105C9DE1"]
+			description: [
+				"You ask around. Sailors, merchants, a half-deaf cartographer. Slowly, a picture forms."
+				""
+				"&6Desram the Unbroken.&r"
+				""
+				"&o&8Born in a fishing village with no name, he took his first ship at seventeen, his first fleet at twenty-three. He never claimed a crown — he said crowns were for people who needed others to know they won. But the Shattered Coves obeyed him. Every captain, every smuggler, every dock master who moved contraband through the southern routes did so under his shadow.&r&r"
+				""
+				"What made him legendary was not the conquests. It was the &6Questing Blade.&r"
+				""
+				"&o&8He forged it himself, they say. Not with a blacksmith's craft, but with &4three trials&r &o&8— dungeons he ran alone to prove he was worth the steel. And when it was done, he made a rule: &r&r"
+				""
+				"&6the sword was never to be kept. Only carried. When its bearer proved themselves, they would pass it on. The blade would find the next hand that deserved it.&r"
+				""
+				"He disappeared before he could pass it on himself."
+				""
+				"&o&8The fragments of his story are scattered across the same dungeons he once cleared. Find them, and you may find him.&r&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:map_fragment"
+			id: "0859A97708084F0D"
+			rewards: [
+				{
+					id: "098D2F129A31E399"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0B633D084DB59A54"
+					item: {
+						Count: 1
+						id: "supplementaries:cartographers_quill"
+						tag: {
+							display: {
+								Name: "{\"text\":\"Rumoured location of an old crypt\"}"
+							}
+							maxSearchRadius: 250
+							skipKnown: 1b
+							targetStructure: "nova_structures:undead_crypt"
+							zoomLevel: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "0C45289C21D93E27"
+				item: "kubejs:map_fragment"
+				title: "Gather rumours — collect 3 map fragments"
+				type: "item"
+			}]
+			title: "The King's Legend"
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0859A97708084F0D"]
+			description: [
+				"The crypt opens beneath a hill that locals refuse to name."
+				""
+				"&o&8Inside, the air smells of brine and iron — not the usual rot of old graves, but something that remembers the sea."
+				""
+				"His crew is still here."
+				""
+				"&4Not as men. As whatever men become when they swore an oath to a king who never died and never came back.&r"
+				""
+				"&o&8They don't attack out of hatred. They attack because that is what the oath demands. Guard the trial. Turn back the unworthy. Let through only those the Blade might choose.&r&r"
+				""
+				"Among the fallen, you find something unexpected: a small iron-banded crate. Whatever is inside, it was meant to be found."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/block/deepslate_bricks.png"
+				}
+			}
+			id: "0E8BBA51A55DB446"
+			require_sequential_tasks: true
+			rewards: [
+				{
+					id: "11A4BAED5925FB69"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 16
+					id: "11D2574D8A9995D9"
+					item: "minecraft:bone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "132C085C8914FB8C"
+					structure: "nova_structures:undead_crypt"
+					title: "Enter the Undead Crypt"
+					type: "structure"
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "134EEE52DB9FA0D4"
+					title: "Defeat Desram's undying crew"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "minecraft:zombie"
+					id: "13B49786B5B44131"
+					type: "kill"
+					value: 10L
+				}
+				{
+					id: "14D8B814406C71E9"
+					item: "kubejs:quest_crate"
+					title: "Retrieve the iron-banded crate"
+					type: "item"
+				}
+			]
+			title: "Trial I — The Undying Crew"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0E8BBA51A55DB446"]
+			description: [
+				"You pry open the crate."
+				""
+				"&o&8Inside: a sealed glass vial containing a rolled slip of parchment. A few old coins, green with salt. A folded cloth that might once have been a flag. And a smell — oak and sea air, somehow preserved across however many years this thing has been sitting in the dark.&r&r"
+				""
+				"The parchment is a page torn from a logbook. The handwriting is cramped and precise:"
+				""
+				"&6&o\"— Trial the First is passed. If you are reading this, you walked through my crew and came out the other side. Good. They were the best I had. Don't feel too proud — they've been down there a long time and they're not what they were. But you showed up. Most people don't show up.&r&r"
+				""
+				"&6&o\"The Blade is earned three times over. Find the maze. Find the sea. Find what's left of me. Then we'll talk.\"&r&r"
+				""
+				"&o&8No signature. Just the compass rose, drawn in the corner with a single stroke.&r&r"
+				""
+				"You pocket the fragment. The crate, now empty, feels lighter than it should. &8Like it's waiting to be filled again.&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:quest_crate"
+			id: "1667BAF165D33764"
+			rewards: [
+				{
+					id: "1803DE701EE90E5F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "1A0294F1C9C3877D"
+					item: {
+						Count: 1
+						id: "minecraft:paper"
+						tag: {
+							display: {
+								Lore: [
+									"{\"text\":\"\\\"Trial the First is passed...\\\"\"}"
+									"{\"text\":\"Torn from an old captain's logbook.\"}"
+								]
+								Name: "{\"text\":\"Desram's Log — Fragment I\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D8B3031DAA7A678"
+					item: {
+						Count: 1
+						id: "supplementaries:cartographers_quill"
+						tag: {
+							display: {
+								Name: "{\"text\":\"Rumoured location of a Monster Maze\"}"
+							}
+							maxSearchRadius: 150
+							skipKnown: 1b
+							targetStructure: "dungeons_enhanced:monster_maze"
+							zoomLevel: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "1A3ED13A32E97CC3"
+				item: "kubejs:quest_crate"
+				title: "Open the iron-banded crate"
+				type: "item"
+			}]
+			title: "What's Inside the Crate"
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1667BAF165D33764"]
+			description: [
+				"The log fragment mentions a maze. You've heard whispers of it — a dungeon that rearranges itself, or seems to. A place where &4monsters nest in impossible numbers&r and the walls are covered in the same kinds of glyphs you keep finding in Desram's wake."
+				""
+				"&o&8The entrance, when you find it, is deliberately hidden. Someone went to trouble to conceal it. Or to preserve it.&r&r"
+				""
+				"Inside, the maze is exactly as described. Dark, loud, and alive."
+				""
+				"&4Desram ran this alone. You try not to think about that too hard.&r"
+				""
+				"&o&8Somewhere in the deepest chamber, another crate. Same iron bands, same compass rose. Waiting, as if it expected you.&r&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/block/stone_bricks.png"
+				}
+			}
+			id: "1DD4C4E26F375008"
+			require_sequential_tasks: true
+			rewards: [{
+				id: "1F932881FE71D7B8"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [
+				{
+					id: "224ECDE331CE692E"
+					structure: "dungeons_enhanced:monster_maze"
+					title: "Enter the Monster Maze"
+					type: "structure"
+				}
+				{
+					entity: "minecraft:zombie"
+					id: "225B5FED4A824882"
+					title: "Clear the maze of its inhabitants"
+					type: "kill"
+					value: 15L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "24B941BBF8710654"
+					type: "kill"
+					value: 10L
+				}
+				{
+					id: "2595C78740F8F350"
+					item: "kubejs:quest_crate"
+					title: "Find the second iron-banded crate"
+					type: "item"
+				}
+			]
+			title: "Trial II — The Maze Below"
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1DD4C4E26F375008"]
+			description: [
+				"You crack the second crate open in the half-dark of the maze's deepest chamber."
+				""
+				"&o&8Same ritual. Glass vial. Parchment. More of that impossible sea smell.&r&r"
+				""
+				"&6&o\"— Trial the Second. You made it through the dark without a map and without much sense, I'd wager. Good. The maze doesn't respect preparation. It respects stubbornness.&r&r"
+				""
+				"&6&o\"You want to know about the Blade. Everyone does. Here is what I can tell you:&r&r"
+				""
+				"&6&o\"I forged it to pass on. Not because I was generous — I'm not — but because I understood something most people don't: a weapon that stays in one hand goes dead. It needs new blood. New fights. New proof that it's worth carrying.&r&r"
+				""
+				"&6&o\"When it finds the right hand, it will know. When that hand proves itself, they'll know too. Then they pass it on, and the cycle holds.&r&r"
+				""
+				"&6&o\"Lose it? Come back for another. The trials don't close. That's the whole point.\"&r&r"
+				""
+				"&o&8The second fragment slots against the first in your pack. You can feel the third out there — somewhere cold and wet.&r&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:quest_crate"
+			id: "2A340FEEA67FFAC5"
+			rewards: [
+				{
+					id: "2B7E8A00DFAC6D3B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "2C7BAC1C74030E8F"
+					item: {
+						Count: 1
+						id: "minecraft:paper"
+						tag: {
+							display: {
+								Lore: [
+									"{\"text\":\"\\\"The maze doesn't respect preparation...\\\"\"}"
+									"{\"text\":\"Torn from an old captain's logbook.\"}"
+								]
+								Name: "{\"text\":\"Desram's Log — Fragment II\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "592B93FDD3F47110"
+					item: {
+						Count: 1
+						id: "supplementaries:cartographers_quill"
+						tag: {
+							display: {
+								Name: "{\"text\":\"Rumoured location of a sunken ship\"}"
+							}
+							maxSearchRadius: 150
+							skipKnown: 1b
+							targetStructure: "minecraft:shipwreck"
+							zoomLevel: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "2E0D2242A00C3520"
+				item: "kubejs:quest_crate"
+				title: "Open the second iron-banded crate"
+				type: "item"
+			}]
+			title: "Fragment II"
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2A340FEEA67FFAC5"]
+			description: [
+				"The third fragment is at sea. Or beneath it."
+				""
+				"&o&8The map leads you to a coastline you don't recognise. The ship is a wreck, half-buried in sand and kelp, its mast snapped, its hull collapsed inward like a ribcage. The figurehead is gone but the prow still bears the serpent's coil around a compass rose.&r&r"
+				""
+				"&6This is Desram's ship.&r One of them, anyway."
+				""
+				"&o&8The drowned that guard it are not like the ones in the crypt. Those were soldiers. These are sailors — the crew who went down with the ship and never came up. &r&r"
+				""
+				"&4The third crate is in the captain's quarters. Underwater. Sealed with something that isn't wax.&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:nautilus_shell"
+			id: "2F471E27ABF6B261"
+			require_sequential_tasks: true
+			rewards: [
+				{
+					id: "2F803D7CAF9FE9B8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 5
+					id: "31B768447F4E71D7"
+					item: "minecraft:nautilus_shell"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "354EB1C6CE03109B"
+					structure: "minecraft:shipwreck"
+					title: "Find Desram's sunken vessel"
+					type: "structure"
+				}
+				{
+					entity: "minecraft:drowned"
+					id: "35FF4B7936D61998"
+					title: "Defeat the drowned crew"
+					type: "kill"
+					value: 5L
+				}
+				{
+					count: 3L
+					id: "37D16A3B73A0CC16"
+					item: "minecraft:nautilus_shell"
+					title: "Collect nautilus shells from the wreck"
+					type: "item"
+				}
+				{
+					id: "39C0CB52F511D9CB"
+					item: "kubejs:quest_crate"
+					secret: true
+					title: "Retrieve the sealed crate from the captain's quarters"
+					type: "item"
+				}
+			]
+			title: "Trial III — The Drowned Hold"
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2F471E27ABF6B261"]
+			description: [
+				"You crack the third crate on the ship's deck as the tide comes in."
+				""
+				"&o&8Same ritual. Vial. Parchment. But this one smells different — saltwater and something older underneath it, like air that hasn't moved in centuries.&r&r"
+				""
+				"&6&o\"— Trial the Third. Good. You're wet, you're cold, and you're still here. That's the whole test, honestly. The maze and the crypt are just to thin the crowd.&r&r"
+				""
+				"&6&o\"I'm not dead. I want to be clear about that. I'm somewhere further down than dead — past the roots of things, past where light gives up. But I can still hear it when someone passes my trials. I've been hearing it less and less. Good to hear it again.&r&r"
+				""
+				"&6&o\"Bring the three pages together. Say my name at a place where the boundary is thin. I'll find you.\"&r&r"
+				""
+				"&o&8You look at the three fragments in your hand. Separated, they're scraps. Held together, they form half a map — the other half is in your memory now, assembled from the ruins and the water and the dark.&r&r"
+				""
+				"&4A place where the boundary is thin.&r You know what that means. Find somewhere the dead walk."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:paper"
+			id: "3BB7AECAAE68AED1"
+			rewards: [
+				{
+					id: "3C5EB40F1B7CBA7C"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "1AFA6EA1F337BB6F"
+					item: {
+						Count: 1
+						id: "minecraft:paper"
+						tag: {
+							display: {
+								Lore: [
+									"{\"text\":\"\\\"...bring the three pages together.\\\"\"}"
+									"{\"text\":\"Torn from an old captain's logbook.\"}"
+								]
+								Name: "{\"text\":\"Desram's Log — Fragment III\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F8877B074A1300F"
+					item: {
+						Count: 1
+						id: "supplementaries:cartographers_quill"
+						tag: {
+							display: {
+								Name: "{\"text\":\"Rumoured location of an old Crypt\"}"
+							}
+							maxSearchRadius: 150
+							skipKnown: 1b
+							targetStructure: "graveyard:crypt"
+							zoomLevel: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "3D74C3035DF4A6F8"
+					item: "kubejs:quest_crate"
+					title: "Open the third iron-banded crate"
+					type: "item"
+				}
+				{
+					id: "46F99F9D519FDB29"
+					item: {
+						Count: 1
+						id: "minecraft:paper"
+						tag: {
+							display: {
+								Lore: [
+									"{\"text\":\"\\\"Trial the First is passed...\\\"\"}"
+									"{\"text\":\"Torn from an old captain's logbook.\"}"
+								]
+								Name: "{\"text\":\"Desram's Log — Fragment I\"}"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "749575A2FB4ED7C8"
+					item: {
+						Count: 1
+						id: "minecraft:paper"
+						tag: {
+							display: {
+								Lore: [
+									"{\"text\":\"\\\"The maze doesn't respect preparation...\\\"\"}"
+									"{\"text\":\"Torn from an old captain's logbook.\"}"
+								]
+								Name: "{\"text\":\"Desram's Log — Fragment II\"}"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7B2C27E08AB7B798"
+					item: {
+						Count: 1
+						id: "minecraft:paper"
+						tag: {
+							display: {
+								Lore: [
+									"{\"text\":\"\\\"...bring the three pages together.\\\"\"}"
+									"{\"text\":\"Torn from an old captain's logbook.\"}"
+								]
+								Name: "{\"text\":\"Desram's Log — Fragment III\"}"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "The King Remembers"
+			x: -9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3BB7AECAAE68AED1"]
+			description: [
+				"He is not what you expected."
+				""
+				"&o&8Not a skeleton. Not a spectre. Something harder to categorise — a shape made of sea-dark and old intention, wearing the outline of a man who was very good at being in charge of dangerous situations.&r&r"
+				""
+				"&6&o\"You found the three pieces. You went where I sent you. Decent work.\"&r&r"
+				""
+				"He looks you over with eyes that don't quite exist."
+				""
+				"&6&o\"Now prove you can hold a blade. Not against my crew — they were a long time ago and they're not a fair test anymore. Against &4whatever's gathered here&r &6&osince the boundary thinned. If something is still standing after you're done, that's on you.\"&r&r"
+				""
+				"&4He's watching. He always watches the third part. It's his favourite.&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "attributeslib:textures/mob_effect/bleeding.png"
+				}
+			}
+			id: "440CEA2759A64D36"
+			rewards: [
+				{
+					id: "449F728588753B93"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 3
+					id: "4AF6B1BA1CD91FC5"
+					item: "landsoficaria:healing_flask"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5B218569206D700A"
+					structure: "graveyard:crypt"
+					title: "Find a place where the boundary is thin"
+					type: "structure"
+				}
+				{
+					entity: "graveyard:acolyte"
+					id: "4B0AB01468EB41E4"
+					title: "Cut through the acolytes"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "graveyard:corrupted_vindicator"
+					id: "4C95A9ABADAEA479"
+					title: "Put down the corrupted vindicators"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "graveyard:corrupted_pillager"
+					id: "4D5AF9CBB07FCC9B"
+					title: "Drive back the corrupted Pillagers"
+					type: "kill"
+					value: 8L
+				}
+			]
+			title: "Prove Yourself"
+			x: -11.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["440CEA2759A64D36"]
+			description: [
+				"The last one falls."
+				""
+				"&o&8Silence. The kind that follows violence — thick and particular.&r&r"
+				""
+				"Desram's shape recongeals from the shadows. He considers you for a long moment."
+				""
+				"&6&o\"Three trials. Three crates. Three fragments of something that most people would have given up on by now. And here you are, covered in whatever that last thing was, &nstill standing.&r&r\""
+				""
+				"&o&8He moves to stand in front of you.&r&r"
+				""
+				"&6&o\"I name you bearer of the Questing Blade. Not owner — there are no owners. Bearer. It passes through hands, not into them. You hold it, you use it, you prove it was worth forging. Then you come back for another. That's the deal.\"&r&r"
+				""
+				"&o&8He extends one hand. The gesture is formal. Practiced. He's done this before — or tried to — and never got this far.&r&r"
+				""
+				"&6&o\"The Wandering Hold will know your name. Bring it proof of a dungeon run — any run, one of the crates — and it'll give you a fresh blade. Lose it, break it, throw it into a volcano. Come back. The Hold endures.\"&r&r"
+				""
+				"&o&8Then, quieter:&r&r"
+				""
+				"&6&o\"My spirit drifts further down these days. Toward the roots of things. Deeper than this world goes, almost. If you ever find your way to such depths — look for a compass rose carved into the dark.\"&r&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:compass"
+			id: "4DF386E8ED4C6E8D"
+			rewards: [{
+				id: "4F87FD7312742BC9"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "50D5F4FF1A5CAF29"
+					title: "Accept the Oath"
+					type: "checkmark"
+				}
+				{
+					id: "1ED1F0465B17FBC2"
+					stage: "quest_desram"
+					title: "Say Desram's name — let him find you"
+					type: "gamestage"
+				}
+			]
+			title: "The Oath"
+			x: -11.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4DF386E8ED4C6E8D"]
+			description: [
+				"From somewhere that doesn't quite exist, a sword arrives."
+				""
+				"&6The Questing Blade.&r"
+				""
+				"&o&8It looks like a sword. Feels like one too — solid, balanced, made to be used rather than admired. But there's something in the grip that isn't quite weight. A sense of accumulation. Every hand that's held this, every trial it's witnessed. It remembers.&r&r"
+				""
+				"&6&o\"When you lose it — and you will — you know where to find me.\"&r&r"
+				""
+				"&o&8The voice comes from nowhere and everywhere at once. You look up. Desram is gone. &r&r"
+				""
+				"In your pack: the Blade. In the world: more dungeons, more crates, more proof to gather."
+				""
+				"&8The cycle holds.&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "radweaponry:questing_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "51F2FDBFFC5C087A"
+			rewards: [
+				{
+					id: "52E1D11BC898515A"
+					item: {
+						Count: 1
+						id: "radweaponry:questing_sword"
+						tag: {
+							Damage: 0
+							HideFlags: 2
+							display: {
+								Lore: [
+									"{\"color\":\"#888888\",\"italic\":true,\"text\":\"\\\"When you lose it — and you will —\"}"
+									"{\"color\":\"#888888\",\"italic\":true,\"text\":\"you know where to find me.\\\"\"}"
+									"{\"color\":\"#555555\",\"italic\":true,\"text\":\"— Desram the Unbroken\"}"
+								]
+								Name: "{\"color\":\"#C8A020\",\"text\":\"Desram's Questing Blade\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54871F7DE569324E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "5B823778254659CA"
+				title: "Take the Blade"
+				type: "checkmark"
+			}]
+			title: "The First Blade"
+			x: -9.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["51F2FDBFFC5C087A"]
+			description: [
+				"The notice from the tavern board mentioned it: &6The Wandering Hold.&r"
+				""
+				"&o&8Now you know what it is. Not a place — or not exactly. A system Desram built before he vanished, to keep the cycle moving. A set of standing arrangements with brokers, traders, and old contacts who owe him more than they'd like to admit.&r&r"
+				""
+				"Bring them an &6iron-banded crate&r — proof of a dungeon run, proof you've kept working — and they'll give you a new blade. Or resources. Or other things, depending on what you bring and who's buying."
+				""
+				"&o&8The brokers ask no questions. They check the compass rose stamp on the crate, check it again, and deal. That's all Desram ever asked of anyone: do the work, deal straight, move on.&r&r"
+				""
+				"&8The Hold is open.&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "vinery:wandering_winemaker_spawn_egg"
+			id: "5F0EF1F7393E8C68"
+			rewards: [{
+				id: "605CDF6B8933605A"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "626C7D4BCE8F8233"
+				title: "The Hold is open"
+				type: "checkmark"
+			}]
+			title: "The Wandering Hold — Unlocked"
+			x: -7.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5F0EF1F7393E8C68"]
+			description: [
+				"The brokers of the &6Wandering Hold&r deal in dungeon-proof."
+				""
+				"&o&8The iron-banded crates — stamped with Desram's compass rose, found in crypts and mazes and drowned holds — are the currency. The brokers don't care what was inside. The stamp means someone went somewhere dangerous and came back. That's what they're buying.&r&r"
+				""
+				"What they sell in return depends on what you bring and which arrangement you invoke."
+				""
+				"&8The standing deals are listed above. Some are visible from the start. Others open up as your history with the Hold deepens.&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:quest_crate"
+			id: "627290690A270635"
+			tasks: [{
+				id: "62A0B3655BC91029"
+				title: "Open the Hold's ledger"
+				type: "checkmark"
+			}]
+			title: "The Wandering Hold"
+			x: -9.5d
+			y: -10.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["627290690A270635"]
+			description: [
+				"&6&o\"Lost it? Good. That means you used it.\"&r&r"
+				""
+				"&o&8The broker behind the counter doesn't look up when you slide the crate across. He checks the stamp, runs his thumb across the compass rose, nods once.&r&r"
+				""
+				"&6&o\"Desram's standing order. A crate for a blade. The arrangement endures.\"&r&r"
+				""
+				"&o&8He reaches below the counter and produces a sword that looks exactly like the one you lost. Same weight. Same feel in the grip. Same sense of accumulated history.&r&r"
+				""
+				"&4It's not the same sword. It never is. That's the whole point.&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "radweaponry:questing_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "638B34FA78135933"
+			rewards: [{
+				id: "640CA4B8601EE8D9"
+				item: {
+					Count: 1
+					id: "radweaponry:questing_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				consume_items: true
+				id: "6426FAE9480469A7"
+				item: "kubejs:quest_crate"
+				title: "Present a stamped dungeon crate"
+				type: "item"
+			}]
+			title: "Blade Exchange"
+			x: -9.5d
+			y: -12.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["627290690A270635"]
+			description: [
+				"Not everyone comes to the Hold for a blade."
+				""
+				"&o&8Some come for the other side of the arrangement — the spoils. Dungeon runs yield proof; proof yields coin; coin yields whatever the Hold has on the shelf. The brokers are pragmatic. They don't ask what you need it for.&r&r"
+				""
+				"Slide the crate across. Take what's offered. Leave."
+				""
+				"&8The arrangement is simple. The Hold prefers simple.&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:chest"
+			id: "6585DD1FADB6BF4C"
+			rewards: [
+				{
+					id: "67AF40C5BACB508D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "698E3B36A45C17FF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "dungeon_coin_reward"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "6F4C76FF8B24F98B"
+				item: "kubejs:quest_crate"
+				title: "Trade in a dungeon crate"
+				type: "item"
+			}]
+			title: "Dungeon Spoils"
+			x: -10.5d
+			y: -12.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["627290690A270635"]
+			description: [
+				"The Hold's brokers deal in proof. But they also deal in &4other things.&r"
+				""
+				"&o&8Contraband — goods moved without manifests, through routes that don't appear on any harbour-master's ledger. The Hold has always had a side arrangement for this. Desram built it in from the start.&r&r"
+				""
+				"&6&o\"We ask no questions about where it came from. You ask no questions about where it's going.\"&r&r"
+				""
+				"&o&8The broker slides a blank receipt across the counter. No names. No cargo description. Just the Hold's watermark and a space for a thumb-press.&r&r"
+				""
+				"&4Perfectly legal. Technically.&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:contraband"
+			id: "7155AD5B4FD8755F"
+			invisible: true
+			rewards: [{
+				id: "737EC218A5DCA330"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7399F4FA49AB097E"
+				item: "kubejs:contraband"
+				title: "Move the contraband through the Hold"
+				type: "item"
+			}]
+			title: "Hot Goods"
+			x: -7.5d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["627290690A270635"]
+			description: [
+				"A new entry appears in the Hold's ledger, written in ink that smells faintly of something &5deep and mineral.&r"
+				""
+				"&o&8The broker looks at it, then at you, with an expression that approaches surprise.&r&r"
+				""
+				"&6&o\"This arrangement was placed by the King himself. A long time ago. It was marked 'dormant until someone brings proof they've been below.' Below meaning &nwell below&r&6&o.\"&r&r"
+				""
+				"&o&8He taps the coin on the counter. Turns it over.&r&r"
+				""
+				"&6&o\"Undergarden coin. Can't be counterfeited — the metal doesn't exist anywhere else. Desram left instructions for what to give in exchange.\"&r&r"
+				""
+				"&o&8He reaches below the counter.&r&r"
+				""
+				"&6&o\"He said you'd know what to do with it.\"&r&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:coin_undergarden"
+			id: "76A7E11914A85F87"
+			rewards: [
+				{
+					id: "76C985016F1F2473"
+					type: "xp"
+					xp: 700
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5EBDEC4AEBAE0DC0"
+					table_id: 9122232193753176215L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "76F057FD1A8F5631"
+				item: "kubejs:coin_undergarden"
+				title: "Exchange the Undergarden coin"
+				type: "item"
+			}]
+			title: "The Undergarden Rate"
+			x: -11.5d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6585DD1FADB6BF4C"]
+			description: [
+				"The broker slides a second ledger page across the counter."
+				""
+				"&6&o\"You've been busy. The Hold notices when someone runs the same dungeons more than once. Most people do it once and consider themselves done. You apparently consider yourself &nnot done.&r&r\""
+				""
+				"&o&8He stamps a new entry in the ledger.&r&r"
+				""
+				"&6&o\"Three crates at once. Better rate. Desram's arrangement — he called it the 'bulk discount', which is a peculiar term for a pirate king to use but he had a sense of humour about commerce.\"&r&r"
+				""
+				"&o&8The broker allows himself a very small smile.&r&r"
+				""
+				"&6&o\"He left notes on a lot of people. You're in them now.\"&r&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/item/bundle.png"
+				}
+			}
+			id: "777B54C1DAA2F322"
+			rewards: [
+				{
+					id: "7A4F7CA41077395B"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "477E96CDE3F559CD"
+					table_id: 1950373705698130098L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "7E8CB19D851A496B"
+				item: "kubejs:quest_crate"
+				title: "Submit three dungeon crates at once"
+				type: "item"
+			}]
+			title: "Bulk Run"
+			x: -11.5d
+			y: -11.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["627290690A270635"]
+			description: [
+				"A message appears at the Hold's counter, sealed with wax and no name:"
+				""
+				"&4&o\"If someone matching your description has been making trouble for the Pillager captains, we have an arrangement to discuss.\"&r&r"
+				""
+				"&o&8The broker explains, somewhat reluctantly: there was a debt. An old one, between Desram and a line of Pillager captains who used the same contraband routes back when the King was still operational. They owed him passage and never paid. The Hold's been waiting on it for years.&r&r"
+				""
+				"&6&o\"We can't collect ourselves. We're brokers, not soldiers. But if you're already putting Pillager captains in the ground, there's an arrangement in that.\"&r&r"
+				""
+				"&o&8He pushes a small ledger across. An entry for &4'recovered debt — banners received as proof.'&r&r"
+				""
+				"&6&o\"The King was patient about the debt. He said eventually the right person would come along. Apparently that's you.\"&r&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/skull3"
+				}
+			}
+			id: "7EA78D6EBC569381"
+			rewards: [
+				{
+					id: "482FCE1249E30E7C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7ED9C9DAF12FDB44"
+					table_id: 7814385668974450015L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:pillager"
+					id: "241B405C71119D7A"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "minecraft:vindicator"
+					id: "7421E9AF54D80E55"
+					type: "kill"
+					value: 10L
+				}
+			]
+			title: "The Old Debt"
+			x: -8.5d
+			y: -12.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["627290690A270635"]
+			description: [
+				"The broker holds up a dark iron ingot."
+				""
+				"&6&o\"You've been in the graveyards. I can tell. This metal comes out of the same places Desram's crew guard.\"&r&r"
+				""
+				"&o&8He sets it on the scales. It weighs more than it should.&r&r"
+				""
+				"&6&o\"Desram called it the &nspectral tithe.&r&6&o The undead don't spend coin, but they carry things from the world they came from. Things the living can use. He said it was the only honest tax he ever collected — the dead don't haggle.\"&r&r"
+				""
+				"&o&8The broker adds a second entry to the ledger. A standing arrangement, below the others — smaller print, like it was added as an afterthought.&r&r"
+				""
+				"&6&o\"Bring me what the dead leave behind. I'll give you what the living need.\"&r&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "graveyard:dark_iron_ingot"
+			id: "4F79C7F70109F97A"
+			rewards: [
+				{
+					id: "52197EC18B41D1B2"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "67C2AEA3EC60A1EC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blood_magic_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "46695D04DCC837AE"
+				item: "graveyard:dark_iron_ingot"
+				title: "Deliver the dark iron tithe"
+				type: "item"
+			}]
+			title: "Spectral Tithe"
+			x: -7.5d
+			y: -11.5d
 		}
 	]
 	title: "Side Stories"

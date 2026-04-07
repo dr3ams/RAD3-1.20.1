@@ -1,17 +1,16 @@
 const RAID_CONFIG = {
     // Experience Settings
     xpPerKill: 10,
-    xpPerChest: 25,
+    // xpPerChest: 25, // [DISABLED FOR TESTING]
     xpRequiredPerRank: 1500,     // XP to reach Rank 1; each rank costs this × (rank+1)
                                 // Total XP for Rank N = xpRequiredPerRank × N×(N+1)/2
 
     // Reward Settings
     // Kills and chests contribute to a shared score pool before token conversion.
-    // This means a mix of kills+chests combines naturally instead of separate buckets.
     killScoreWeight: 1,         // Each kill is worth X score points
-	minibossScoreWeight: 2,     // Miniboss kill = X × killScoreWeight score points
+	minibossScoreWeight: 5,     // Miniboss kill = X × killScoreWeight score points
 	bossScoreWeight: 10,        // Boss kill     = X × killScoreWeight score points
-    chestScoreWeight: 4,        // Each chest is worth X score points (chests are rarer)
+    // chestScoreWeight: 4,     // [DISABLED FOR TESTING]
     scorePerToken: 10,          // Total score needed for 1 token
                                 // e.g. 30 kills + 5 chests = 30 + 5 = 35 score → 3 tokens
                                 // e.g. 10 kills + 0 chests = 10 score             → 1 token
@@ -63,7 +62,7 @@ const RAID_CONFIG = {
     rivalChancePerRank: 0.05,     // +5% per rank (Rank 3 = 20%, Rank 5 = 30%, cap at 50%)				 																					  
     
 	// Room events
-    roomEventMinDelay: 1200,      // Earliest a room event can fire (ticks, 1 min)
+    roomEventMinDelay: 2400,      // Earliest a room event can fire (ticks, 1 min)
     roomEventMaxDelay: 6000,      // Latest a room event can fire (ticks, 5 min)
     roomEventDuration: 1200,      // How long a room event lasts (ticks, 1 min)
 
@@ -479,7 +478,7 @@ CommonAddedEvents.playerChangeDimension(event => {
         let durStr      = `${durMin}:${durSec.toString().padStart(2, '0')}`;
         
         // ── XP & RANK ──────────────────────────────────────────
-        let xpEarned   = (kills * RAID_CONFIG.xpPerKill) + (chests * RAID_CONFIG.xpPerChest);
+        let xpEarned   = (kills * RAID_CONFIG.xpPerKill); // + (chests * RAID_CONFIG.xpPerChest); [DISABLED FOR TESTING]
         let newTotalXP = (player.persistentData.raidTotalXP || 0) + xpEarned;
         player.persistentData.raidTotalXP = newTotalXP;
 
@@ -496,14 +495,14 @@ CommonAddedEvents.playerChangeDimension(event => {
 
 		let killMult      = player.persistentData.killMultiplierBonus 														   
         let killScore  = kills  * RAID_CONFIG.killScoreWeight;
-        let chestScore = chests * RAID_CONFIG.chestScoreWeight;
+        let chestScore = 0; // chests * RAID_CONFIG.chestScoreWeight; [DISABLED FOR TESTING]
 		let bossScore     = p_bossKills     * RAID_CONFIG.bossScoreWeight;
 		let minibossScore = p_minibossKills * RAID_CONFIG.minibossScoreWeight;
-        let totalScore    = killScore + chestScore + bossScore + minibossScore;
+        let totalScore    = killScore + bossScore + minibossScore; // chestScore excluded [DISABLED FOR TESTING]
 		
         let rawTokens  = Math.floor(totalScore / RAID_CONFIG.scorePerToken);
 
-        if (rawTokens < RAID_CONFIG.minPityTokens && (kills > 5 || chests > 0)) {
+        if (rawTokens < RAID_CONFIG.minPityTokens && kills > 5) { // chests > 0 excluded [DISABLED FOR TESTING]
             rawTokens = RAID_CONFIG.minPityTokens;
         }
 
@@ -541,7 +540,7 @@ CommonAddedEvents.playerChangeDimension(event => {
 			player.tell(Text.of(`§6⚔ Bosses Slain:     §f${p_bossKills}`));
         if (p_minibossKills > 0) 
 			player.tell(Text.of(`§b★ Minibosses Slain: §f${p_minibossKills}`));
-        player.tell(Text.of(`§7Chests Looted: §f${chests}`));
+        //player.tell(Text.of(`§7Chests Looted: §f${chests}`));
 		
         // Show death count in summary if player died
         //if (deaths > 0) {
@@ -695,7 +694,7 @@ EntityEvents.death(event => {
     const { source, entity, level } = event;
 
     if (!source.player || !source.player.persistentData.inRaid) return;
-	//if (String(level.dimension) !== 'lrdynamicdungeon:dungeon_dimension') return;
+	if (String(level.dimension) !== 'lrdynamicdungeon:dungeon_dimension') return;
 
     let p = source.player;
     let entityId = String(entity.type);

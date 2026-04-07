@@ -2,6 +2,7 @@
 	autofocus_id: "1B03F4233450669A"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "dungeon_raid"
 	group: "241F1DC7B6D6E9D6"
 	icon: {
@@ -113,6 +114,7 @@
 			shape: "octagon"
 			subtitle: "A key for a crate"
 			tasks: [{
+				consume_items: true
 				id: "14B4D4CAB98E6A22"
 				item: {
 					Count: 1
@@ -143,6 +145,7 @@
 			shape: "octagon"
 			subtitle: "Something worth finding"
 			tasks: [{
+				consume_items: true
 				count: 5L
 				id: "5A9679E7D44E94D1"
 				item: "kubejs:coin_raid"
@@ -169,6 +172,7 @@
 			shape: "octagon"
 			subtitle: "Carved from something unnatural"
 			tasks: [{
+				consume_items: true
 				count: 15L
 				id: "173B1C7CFAA8313D"
 				item: "kubejs:coin_raid"
@@ -197,6 +201,7 @@
 			shape: "octagon"
 			subtitle: "It hums. You feel watched."
 			tasks: [{
+				consume_items: true
 				count: 20L
 				id: "193E026398F638A4"
 				item: "kubejs:coin_raid"
@@ -226,6 +231,7 @@
 			size: 1.5d
 			subtitle: "One hit. No questions asked."
 			tasks: [{
+				consume_items: true
 				count: 10L
 				id: "253279115356FD76"
 				item: {
@@ -259,6 +265,7 @@
 			size: 1.5d
 			subtitle: "For the ones that won't go quietly"
 			tasks: [{
+				consume_items: true
 				count: 3L
 				id: "7D25A28924167C15"
 				item: {
@@ -290,6 +297,7 @@
 			shape: "diamond"
 			subtitle: "Pick what you need"
 			tasks: [{
+				consume_items: true
 				count: 10L
 				id: "2B3A9E5D6DC11FF6"
 				item: {
@@ -320,6 +328,7 @@
 			shape: "diamond"
 			subtitle: "Knowledge has a price"
 			tasks: [{
+				consume_items: true
 				count: 3L
 				id: "10E2D856D39A6646"
 				item: {
@@ -352,6 +361,7 @@
 			shape: "diamond"
 			subtitle: "Your ticket back in"
 			tasks: [{
+				consume_items: true
 				count: 2L
 				id: "66F2A02C1AE2234E"
 				item: "kubejs:coin_raid"
@@ -380,6 +390,7 @@
 			shape: "diamond"
 			subtitle: "For those who want more"
 			tasks: [{
+				consume_items: true
 				count: 10L
 				id: "4F0BD472709D3634"
 				item: "kubejs:coin_raid"

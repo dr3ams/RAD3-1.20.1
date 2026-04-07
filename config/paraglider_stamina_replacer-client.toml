@@ -1,0 +1,18 @@
+
+[hud]
+	#How the stamina bar is anchored to the HUD
+	#Allowed Values: FREE, HEALTH, HUNGER
+	anchor = "HUNGER"
+	#Horizontal offset of the stamina bar
+	#Range: -10000 ~ 10000
+	offsetX = -12
+	#Vertical offset of the stamina bar
+	#Range: -10000 ~ 10000
+	offsetY = 51
+	#Stamina bar fill direction
+	#Allowed Values: LEFT, RIGHT
+	fillDirection = "LEFT"
+	#Stamina bar fill type
+	#Allowed Values: DYNAMIC, VANILLA
+	fillType = "DYNAMIC"
+

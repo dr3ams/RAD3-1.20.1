@@ -181,6 +181,8 @@
 		enabled = true
 		#Dyed Bock types that cannot be cleaned with soap
 		clean_blacklist = ["minecraft:glazed_terracotta", "botania:mystical_flower", "mna:chimerite_crystal", "botania:floating_flower", ",minecraft:mushroom", "botania:mushroom", "botania:tall_mystical_flower", "botania:petal_block", "morered:network_cable", "xycraft_world:glowing_shiny_aurey_block", "xycraft_world:shiny_aurey_block", "xycraft_world:rgb_lamp", "xycraft_world:glowing_rgb_viewer", "xycraft_world:glowing_matte_rgb_block", "xycraft_world:rgb_lamp_pole"]
+		#Allows soap to clean blocks in-world. Disable to prevent in-world block cleaning while keeping soap item and recipes functional
+		block_cleaning_enabled = true
 
 		#This is a map of special blocks that can be cleaned with soap
 		[functional.soap.special_blocks]
@@ -618,7 +620,7 @@
 		quill_vanilla_maps = true
 		#Miminum search radius for quill. Used to incrase the radius of vanilla searches. For reference buried treasures are at 50 and locate is at 100 chunks
 		#Range: 10 ~ 600
-		min_search_radius = 75
+		min_search_radius = 200
 		#Makes blocks tagged as 'tinted_on_map' use their tint color. This allows for accurate biome colors for water and grass as well as other custom block that use any tint
 		tinted_blocks_on_maps = true
 

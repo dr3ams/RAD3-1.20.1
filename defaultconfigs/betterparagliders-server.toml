@@ -1,0 +1,21 @@
+
+[stamina]
+	#How much more/less stamina is consumed from melee attacks (multiplied onto the base amount).
+	#Range: 0.0 ~ 10.0
+	melee_stamina_consumption = 0.5
+	#How much more/less stamina is consumed from two handed attacks  (multiplied onto the base amount) (stacks with MELEE_STAMINA_CONSUMPTION).
+	#Range: 0.0 ~ 10.0
+	two_handed_stamina_consumption = 0.7
+	#How much more/less stamina is consumed from one handed (multiplied onto the base amount) (and dual wielding) attacks (stacks with MELEE_STAMINA_CONSUMPTION).
+	#Range: 0.0 ~ 10.0
+	one_handed_stamina_consumption = 0.5
+	#The base amount of stamina a range attack will cost (bows added to a datapack will be added to this value. Think base (10) + datapack value (5) = 15).
+	#Range: 0.0 ~ 10.0
+	ranged_stamina_consumption = 0.2
+	#The base amount of stamina blocking with a shield will cost (shields added to a datapack will be added to this value. Think base (10) + datapack value (5) = 15).
+	#Range: 0.0 ~ 100.0
+	block_stamina_consumption = 0.2
+	#The base amount of stamina blocking a projectile will cost (in addition to blocking cost).
+	#Range: 0.0 ~ 100.0
+	block_projectile_stamina_consumption = 0.1
+

@@ -9,6 +9,123 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["19A4385584636C45"]
+			description: [
+				"&6&lHow Hunger Actually Works"
+				""
+				"Minecraft tracks two separate values:"
+				""
+				"&fHunger &7(the visible bar, 0-20)"
+				"Filled by any food. Only drops &lafter&r&7 saturation is fully drained."
+				""
+				"&fSaturation &7(invisible buffer, 0-20)"
+				"Drains &lfirst&r&7, before hunger bars move at all."
+				"Cheap food like bread gives ~1-2 sat."
+				"Quality cooked meals give 8-16+ sat."
+				""
+				"&eResult: &7You can have a full hunger bar but zero saturation - meaning no buffs - if you only eat cheap food."
+			]
+			icon: "minecraft:cooked_beef"
+			id: "333182F428B20482"
+			rewards: [{
+				id: "0515F5AB80520C9E"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "515C6E82529DE703"
+				title: "I understand the system"
+				type: "checkmark"
+			}]
+			title: "The Nourishment System"
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["333182F428B20482"]
+			description: [
+				"&6&lFour Tiers of Nourishment"
+				""
+				"Your stats change based on your hunger and saturation. A message appears in chat whenever you cross a threshold."
+				""
+				"&c&lZERO &8- Hunger bar nearly empty (≤4 bar)"
+				"&7✖ Stamina regen halted"
+				"&7✖ Sprinting drains stamina faster"
+				"&7✖ Melee attacks cost more stamina"
+				"&7✖ Shield heart regen slowed"
+				""
+				"&e&lLOW &8- Fed but on cheap food (saturation ~6)"
+				"&7● No stamina bonuses"
+				"&7+ Minor combat roll recharge bonus"
+				""
+				"&a&lMID &8- Saturation ≥ 12 (one good cooked meal)"
+				"&7+ Stamina idle regen bonus"
+				"&7+ Melee stamina cost reduced"
+				"&7+ +1 bonus heart"
+				"&7+ Combat roll recharge improved"
+				""
+				"&6&lHIGH &8- Saturation ≥ 18 (quality Delight dish)"
+				"&7★ Stamina idle regen bonus+"
+				"&7★ Sprint &l and&r&7 melee stamina cost reduced"
+				"&7★ Fastest roll recharge"
+				"&7★ Bonus shield heart"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "5D5B9BEB70B3B922"
+			rewards: [{
+				id: "72CD1BFFE7A8B035"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6DBD4BEFAB1F7735"
+				title: "I understand the tiers"
+				type: "checkmark"
+			}]
+			title: "The Four Tiers"
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["333182F428B20482"]
+			description: [
+				"&6&lOn-Eat Bonuses"
+				""
+				"Every quality food in the registry grants instant bonuses when eaten:"
+				""
+				"&b+ Potion effect &7- each dish has a thematic fixed effect."
+				"  Strength from meat dishes, Water Breathing from seafood,"
+				"  Night Vision from cave foods, and more."
+				""
+				"&a+ Random XP &7- 3 to 15 XP per meal, awarded instantly."
+				""
+				"&d+ ✦ Chance: Random Bonus Effect &7- marked dishes have a chance"
+				"  to roll an extra effect from a weighted pool. Could be Speed,"
+				"  Haste, Absorption, Luck, or rarer effects like Strength II."
+				"  Watch for the &d&l✦ Inspired! &r&7message in your action bar."
+				""
+				"&eCheck item tooltips &7to see what each dish provides before eating."
+			]
+			icon: "farmersdelight:roast_chicken"
+			id: "2E240B5992556704"
+			rewards: [{
+				id: "00F6773C786CD01B"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "131BA41549F7A929"
+				title: "I know about on-eat bonuses"
+				type: "checkmark"
+			}]
+			title: "On-Eat Bonuses"
+			x: 9.5d
+			y: -3.5d
+		}
+		{
 			dependencies: ["18F8DADD01FEC9C2"]
 			hide_dependency_lines: true
 			id: "0ABFF67C8B76BE22"
@@ -26,7 +143,7 @@
 				{
 					id: "496CB4B56D9D1A70"
 					type: "xp"
-					xp: 250
+					xp: 30
 				}
 			]
 			tasks: [{
@@ -61,7 +178,7 @@
 				{
 					id: "2E5C6BB9DEE36778"
 					type: "xp"
-					xp: 250
+					xp: 30
 				}
 			]
 			tasks: [{
@@ -96,7 +213,7 @@
 				{
 					id: "05AB6F24901B6A81"
 					type: "xp"
-					xp: 250
+					xp: 30
 				}
 			]
 			tasks: [{
@@ -125,7 +242,7 @@
 				{
 					id: "1F91A0C59B4B0124"
 					type: "xp"
-					xp: 250
+					xp: 30
 				}
 			]
 			tasks: [{
@@ -133,8 +250,8 @@
 				item: "farmersdelight:cake_slice"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -2.5d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2FEC85DD348C7C1C"]
@@ -154,7 +271,7 @@
 				{
 					id: "20A34E28986CDBA9"
 					type: "xp"
-					xp: 250
+					xp: 30
 				}
 			]
 			tasks: [{
@@ -162,74 +279,10 @@
 				item: "farmersdelight:chocolate_pie_slice"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -2.5d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["2FEC85DD348C7C1C"]
-			id: "2EE16C98E49A9947"
-			rewards: [
-				{
-					id: "4B1258A107995AE1"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "resource_loot_crate_2"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "716B005C30357893"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [
-				{
-					id: "13EC24A172393C72"
-					item: "farmersdelight:brown_mushroom_colony"
-					type: "item"
-				}
-				{
-					id: "35FA93C50AF89367"
-					item: "farmersdelight:red_mushroom_colony"
-					type: "item"
-				}
-			]
-			x: 13.5d
-			y: -2.5d
-		}
-		{
-			id: "32D6083223BDCD90"
-			rewards: [
-				{
-					id: "39474A18862183A9"
-					item: "aquaculture:box"
-					type: "item"
-				}
-				{
-					id: "549EF9529551BCFD"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-				{
-					id: "5036299CEDA9E672"
-					type: "xp"
-					xp: 15
-				}
-			]
-			tasks: [{
-				id: "2F29C6C3020F6B0A"
-				item: "minecraft:campfire"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["32D6083223BDCD90"]
 			description: [
 				"The Stove is a direct upgrade to the Campfire's cooking features, and a suitable heat source for the Cooking Pot."
 				""
@@ -265,7 +318,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["18F8DADD01FEC9C2"]
@@ -317,8 +370,8 @@
 				item: "farmersdelight:cutting_board"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -0.5d
+			x: 7.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["18F8DADD01FEC9C2"]
@@ -326,7 +379,7 @@
 			rewards: [{
 				id: "09498BF35D65A18A"
 				type: "xp"
-				xp: 100
+				xp: 300
 			}]
 			tasks: [{
 				id: "567B754D8FE1DD06"
@@ -381,7 +434,7 @@
 			rewards: [{
 				id: "4D3E45D3809A8E8A"
 				type: "xp"
-				xp: 100
+				xp: 300
 			}]
 			subtitle: "Feasts are very large meals, which can be placed as a block to provide multiple servings to players."
 			tasks: [{
@@ -513,8 +566,8 @@
 				item: "cookingforblockheads:oven"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.0d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1551E4FD839807A2"]
@@ -537,8 +590,8 @@
 				item: "cookingforblockheads:cooking_table"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.5d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1223B74DE8108C67"]
@@ -562,8 +615,8 @@
 				item: "cookingforblockheads:fridge"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.0d
+			x: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6B649400E699D31F"]
@@ -586,8 +639,8 @@
 				item: "cookingforblockheads:sink"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.5d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6232E0EC41F931BA"]
@@ -610,8 +663,8 @@
 				item: "cookingforblockheads:counter"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["71F7425B228485C4"]
@@ -634,8 +687,8 @@
 				item: "cookingforblockheads:cabinet"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.5d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["12F512B24CF56B09"]
@@ -680,8 +733,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 5.0d
+			x: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["619A52669514E850"]
@@ -712,7 +765,7 @@
 				{
 					id: "6A1341A09163EFC9"
 					type: "xp"
-					xp: 250
+					xp: 30
 				}
 			]
 			tasks: [{
@@ -736,7 +789,7 @@
 				{
 					id: "1317577DF96299DA"
 					type: "xp"
-					xp: 250
+					xp: 30
 				}
 			]
 			tasks: [{
@@ -759,7 +812,7 @@
 				{
 					id: "6C426C6DD6A3BA53"
 					type: "xp"
-					xp: 250
+					xp: 30
 				}
 			]
 			tasks: [{
@@ -767,8 +820,8 @@
 				item: "nethersdelight:nether_skewer"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -2.5d
+			x: 9.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2FEC85DD348C7C1C"]
@@ -776,15 +829,15 @@
 			rewards: [{
 				id: "639781BFA9FB27B6"
 				type: "xp"
-				xp: 250
+				xp: 30
 			}]
 			tasks: [{
 				id: "40A96A255CF3974B"
 				item: "farmersdelight:salmon_roll"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -0.5d
+			x: 7.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["18F8DADD01FEC9C2"]
@@ -792,7 +845,7 @@
 			rewards: [{
 				id: "77F67130A5E9031C"
 				type: "xp"
-				xp: 250
+				xp: 30
 			}]
 			tasks: [{
 				id: "63166586FF2EB727"
@@ -808,15 +861,15 @@
 			rewards: [{
 				id: "20EF1019FD977D70"
 				type: "xp"
-				xp: 250
+				xp: 30
 			}]
 			tasks: [{
 				id: "4CD83405D6CCD04F"
 				item: "farmersdelight:cod_roll"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -1.5d
+			x: 8.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2FEC85DD348C7C1C"]
@@ -824,15 +877,15 @@
 			rewards: [{
 				id: "2CC99774A219DB9A"
 				type: "xp"
-				xp: 250
+				xp: 30
 			}]
 			tasks: [{
 				id: "136A1BD0C9B1D263"
 				item: "farmersdelight:kelp_roll"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 0.5d
+			x: 6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -858,8 +911,8 @@
 				item: "farmersdelight:rice_roll_medley_block"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -0.5d
+			x: 7.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["18F8DADD01FEC9C2"]
@@ -867,7 +920,7 @@
 			rewards: [{
 				id: "0AE999E429FEF9B6"
 				type: "xp"
-				xp: 250
+				xp: 30
 			}]
 			tasks: [{
 				id: "277C9D02358EAF00"
@@ -878,13 +931,13 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["2EE16C98E49A9947"]
+			dependencies: ["2FEC85DD348C7C1C"]
 			id: "2CBC743A01A4D249"
 			rewards: [
 				{
 					id: "6BF5BBD06C10B568"
 					type: "xp"
-					xp: 250
+					xp: 30
 				}
 				{
 					id: "181762967958B7D4"
@@ -903,8 +956,8 @@
 				item: "farmersdelight:mushroom_rice"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -2.5d
+			x: 9.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["18F8DADD01FEC9C2"]
@@ -913,7 +966,7 @@
 				{
 					id: "431DB11842A45F7C"
 					type: "xp"
-					xp: 250
+					xp: 30
 				}
 				{
 					id: "514A2BFE5E6D09AD"
@@ -943,7 +996,7 @@
 				{
 					id: "6635B039515B8E21"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "48637A267B631AA0"
@@ -967,7 +1020,7 @@
 				{
 					id: "465E8BCB1F7DA90C"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "5BE65719B3E9FD87"
@@ -991,7 +1044,7 @@
 				{
 					id: "74B58ABD6E89338B"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "7F8054591E812431"
@@ -1014,7 +1067,7 @@
 				{
 					id: "48210E7F41808432"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "4ECF45BFA1DB7A16"
@@ -1038,7 +1091,7 @@
 				{
 					id: "0D2055E799AB2456"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "23535567DB7BD206"
@@ -1062,7 +1115,7 @@
 				{
 					id: "4B5A83EC6B4E8AD6"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "3844B3609C096B2A"
@@ -1086,7 +1139,7 @@
 				{
 					id: "79AC1A0FF39FA565"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "7D48085DB1D81AAB"
@@ -1110,7 +1163,7 @@
 				{
 					id: "3C7709FBB5C9D752"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "658007099CB67D5F"
@@ -1134,7 +1187,7 @@
 				{
 					id: "6195A019E1CAE07F"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "68056A108C969B1D"
@@ -1158,7 +1211,7 @@
 				{
 					id: "7D3AF508E199C1C7"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "2AAF2B0D28B550F4"
@@ -1182,7 +1235,7 @@
 				{
 					id: "23E5055C7733DD35"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "06D7347C45FB0A91"
@@ -1206,7 +1259,7 @@
 				{
 					id: "06EFC28B4D7AB962"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "3AAAE10000BE832F"
@@ -1230,7 +1283,7 @@
 				{
 					id: "113815F86DCF0998"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "1811F27DC6499533"
@@ -1254,7 +1307,7 @@
 				{
 					id: "3543FED57664E5DE"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "2657142388141FA0"
@@ -1278,7 +1331,7 @@
 				{
 					id: "3FF54E4413E4DBA8"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "66F9E07F4C8E3E7F"
@@ -1302,7 +1355,7 @@
 				{
 					id: "38E3A92FACC38A7F"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "2598AC0FBDA3D5B1"
@@ -1326,7 +1379,7 @@
 				{
 					id: "2E8930B3DE3F298A"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "0E866972C811FA69"
@@ -1349,7 +1402,7 @@
 				{
 					id: "58903AC5878E9745"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "6A87C6261848ABA3"
@@ -1373,7 +1426,7 @@
 				{
 					id: "2DB97CCE80A89AD6"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "51EBAAD0DF65BC85"
@@ -1397,7 +1450,7 @@
 				{
 					id: "783FE1375B12594B"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "7A8494B58E54C939"
@@ -1421,7 +1474,7 @@
 				{
 					id: "1DAF85E73E0C88ED"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "695D7A5033F3C1A4"
@@ -1445,7 +1498,7 @@
 				{
 					id: "2DB28B89B65FB17D"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "3830DE9423B298D5"
@@ -1469,7 +1522,7 @@
 				{
 					id: "49B7AF85F186552C"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "35DE0E424CB74665"
@@ -1493,7 +1546,7 @@
 				{
 					id: "426AFCF9C3DF85FA"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "43C6AF5C5EC2BC65"
@@ -1517,7 +1570,7 @@
 				{
 					id: "7813A498821B7C16"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "35F3738ACA3C94FC"
@@ -1541,7 +1594,7 @@
 				{
 					id: "3B26A0B64ABB868D"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "47F7B49FBE702B7D"
@@ -1565,7 +1618,7 @@
 				{
 					id: "2F165763D641B62F"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "1071945ED430FDC7"
@@ -1589,7 +1642,7 @@
 				{
 					id: "19D6AF8580D78BCD"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "5EB901D262AA4C88"
@@ -1613,7 +1666,7 @@
 				{
 					id: "45DFEA4A7F8234C1"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "3011827659F3070A"
@@ -1637,7 +1690,7 @@
 				{
 					id: "596A8528CD5E3DA8"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "4F80DF3DDD92E889"
@@ -1661,7 +1714,7 @@
 				{
 					id: "4CC08B5AF5049F03"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 				{
 					id: "2629EE301F3AAF22"
@@ -1690,7 +1743,7 @@
 				{
 					id: "343C880094143FCD"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 			]
 			tasks: [{
@@ -1700,6 +1753,28 @@
 			}]
 			x: 5.0d
 			y: -12.5d
+		}
+		{
+			dependencies: ["2FEC85DD348C7C1C"]
+			id: "3248574C7BD2F1F2"
+			tasks: [{
+				id: "6951615846E528D0"
+				item: "farmersdelight:sweet_berry_cheesecake_slice"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2FEC85DD348C7C1C"]
+			id: "50C75BA7DE4AC244"
+			tasks: [{
+				id: "6A1B385910080333"
+				item: "farmersdelight:apple_pie_slice"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
 		}
 	]
 	title: "Not Enough Food"

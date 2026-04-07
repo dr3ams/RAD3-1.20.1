@@ -249,6 +249,22 @@
 			x: 23.0d
 			y: 11.5d
 		}
+		{
+			height: 2.0d
+			image: "simplyswords:item/enigma_base"
+			rotation: -45.0d
+			width: 2.0d
+			x: -8.5d
+			y: 12.5d
+		}
+		{
+			height: 2.0d
+			image: "simplyswords:item/lichblade"
+			rotation: -45.0d
+			width: 2.0d
+			x: 0.5d
+			y: 12.5d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]
@@ -1168,7 +1184,7 @@
 				id: "10041EAB17C9BC1D"
 				item: {
 					Count: 1
-					id: "celestial_core:ocean_pickaxe"
+					id: "celestial_core:guardian_ocean_pickaxe"
 					tag: {
 						Damage: 0
 						affix_data: {
@@ -1588,6 +1604,7 @@
 		}
 		{
 			description: ["There are many different types of weapons that can be crafted, with each offering different fighting styles, and each with a variant for Iron, Gold, Diamond, and Netherite."]
+			disable_toast: true
 			hide_dependent_lines: true
 			icon: {
 				Count: 1
@@ -4514,7 +4531,7 @@
 					id: "75B88CE67BF9E5D5"
 					item: {
 						Count: 1
-						id: "celestial_core:ocean_chestplate"
+						id: "celestial_core:guardian_ocean_chestplate"
 						tag: {
 							Damage: 0
 							affix_data: {
@@ -4528,7 +4545,7 @@
 					id: "66E39E6384E75394"
 					item: {
 						Count: 1
-						id: "celestial_core:ocean_helmet"
+						id: "celestial_core:guardian_ocean_helmet"
 						tag: {
 							Damage: 0
 							affix_data: {
@@ -4542,11 +4559,11 @@
 					id: "0E540E949432B2FC"
 					item: {
 						Count: 1
-						id: "celestial_core:ocean_leggings"
+						id: "celestial_core:guardian_ocean_leggings"
 						tag: {
 							Damage: 0
 							affix_data: {
-								sockets: 1
+								sockets: 0
 							}
 						}
 					}
@@ -4556,7 +4573,7 @@
 					id: "08EBBEF97BF9E5D5"
 					item: {
 						Count: 1
-						id: "celestial_core:ocean_boots"
+						id: "celestial_core:guardian_ocean_boots"
 						tag: {
 							Damage: 0
 							affix_data: {

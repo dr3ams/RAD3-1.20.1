@@ -1753,6 +1753,33 @@
 			x: 0.0d
 			y: 4.5d
 		}
+		{
+			dependencies: ["219C6641A038984F"]
+			description: [
+				"What and how well you eat directly affects some of your &4attributes&r."
+				""
+				"&eFour tiers, four different states:"
+				"&c✖ Starving &8— stamina crippled, shield regen slowed"
+				"&e● Fed &8— baseline, no bonuses"
+				"&a✦ Well-Fed &8— +1 heart, faster stamina and rolls"
+				"&6★ Peak &8— full bonuses + bonus shield heart"
+				""
+				"Some of the complex meals also grants a &bpotion effect&7,"
+				"&arandom XP&7, and a &dchance of bonus effect&7 on eat."
+				""
+				"&7➜ Visit the &6Not Enough Food&7 chapter to learn more and discover which dishes push you into each tier."
+			]
+			icon: "minecraft:cake"
+			id: "09338EFFEC3C6175"
+			subtitle: "&6&lRAD3 has a custom Hunger Overhaul"
+			tasks: [{
+				id: "64212546FA630DC6"
+				title: "Hunger Overhaul"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
 	]
 	title: "⭐ Features "
 }

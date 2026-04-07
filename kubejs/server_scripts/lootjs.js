@@ -196,37 +196,6 @@ LootJS.modifiers((event) => {
 			LootEntry.of("kubejs:scroll_exp").when((c) => c.randomChance(0.1)).limitCount([1, 1])
 		);
 		
-
-
-/*     event.addLootTypeModifier([LootType.CHEST])
-        .pool((pool) => {
-            pool.rolls(1); // Ensures only 1 item from this pool is chosen
-
-            // Syntax: LootEntry.of(item, weight)
-            // Common
-            pool.addLoot(LootEntry.of("kubejs:canned_food", 25).limitCount([1, 2]));
-            pool.addLoot(LootEntry.of("kubejs:book_old", 20).limitCount([1, 2]));
-            
-            // Uncommon
-            pool.addLoot(LootEntry.of("kubejs:lost_bag", 15));
-            pool.addLoot(LootEntry.of("kubejs:data_slate", 12));
-            pool.addLoot(LootEntry.of("kubejs:map_fragment", 10));
-
-            // Rare
-            pool.addLoot(LootEntry.of("kubejs:emergency_flare", 8));
-            pool.addLoot(LootEntry.of("kubejs:bee_jar", 6));
-            pool.addLoot(LootEntry.of("kubejs:rusty_key", 5));
-
-            // Very Rare
-            pool.addLoot(LootEntry.of("kubejs:detonator", 4));
-            pool.addLoot(LootEntry.of("kubejs:unstable_battery", 3));
-
-            // Empty chance (using a helper or an item that won't drop)
-            // If the wiki doesn't specify LootEntry.empty weight, 
-            // you can use an invalid item or a dummy entry.
-            pool.addLoot(LootEntry.of("minecraft:air", 60));
-        });*/
-
 	// OVERWORLD-SPECIFIC custom chest loot
 	event.addLootTypeModifier([LootType.CHEST])
 		.anyDimension("minecraft:overworld")
@@ -237,7 +206,7 @@ LootJS.modifiers((event) => {
 		.addLoot(LootEntry.of("lrdynamicdungeon:dungeon_pass").when((c) => c.randomChance(0.2)).limitCount([1, 1]));	
 
 	event.addLootTypeModifier([LootType.CHEST])
-	.randomChance(0.5)
+	.randomChance(0.4)
 	.addAlternativesLoot(
             // --- (1% - 5%) ---
             LootEntry.of("kubejs:translocation_coil").when(c => c.randomChance(0.05)),
@@ -289,6 +258,7 @@ LootJS.modifiers((event) => {
 
     event.addLootTypeModifier([LootType.CHEST])
         .hasAnyStage("milestone_undergarden")
+		.randomChance(0.3)
         .anyStructure([
             "graveyard:crypt", "graveyard:lich_prison", "dungeons_arise:mining_system", "dungeons_arise:scorched_mines", "dungeons_enhanced:monster_maze", 
             "nova_structures:creeping_crypt", "dungeons_arise:plague_asylum", "dungeons_arise:foundry", "masiks_puzzle_dungeon:start", "takesapillage:bastille", 
@@ -336,6 +306,7 @@ LootJS.modifiers((event) => {
 
     event.addLootTypeModifier([LootType.CHEST])
         .hasAnyStage("milestone_wither")
+		.randomChance(0.3)
         .anyStructure([
             "graveyard:crypt", "graveyard:lich_prison", "dungeons_arise:mining_system", "dungeons_arise:scorched_mines", "dungeons_enhanced:monster_maze", 
             "nova_structures:creeping_crypt", "dungeons_arise:plague_asylum", "dungeons_arise:foundry", "masiks_puzzle_dungeon:start", "takesapillage:bastille", 
@@ -388,7 +359,8 @@ LootJS.modifiers((event) => {
 	event.addLootTypeModifier([LootType.CHEST])
 		.anyDimension("minecraft:overworld")
 		.hasAnyStage("sidestory_crate")
-		.anyStructure(["nova_structures:undead_crypt", "dungeons_enhanced:monster_maze"], false) 
+		.anyStructure(
+			["nova_structures:undead_crypt", "dungeons_enhanced:monster_maze", "minecraft:shipwreck"], false) 
 		.addLoot(
 			LootEntry.of("kubejs:quest_crate").when((c) => c.randomChance(0.2)).limitCount([1, 1])
 		);

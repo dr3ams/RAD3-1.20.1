@@ -4,39 +4,15 @@
     {
       "type": "skilltree:crafted_item_bonus",
       "item_condition": {
-        "equipment_type": "armor",
+        "equipment_type": "chestplate",
         "type": "skilltree:equipment_type"
       },
       "item_bonus": {
         "skill_bonus": {
           "attribute": "minecraft:generic.armor",
-          "id": "2311b0b9-7dd7-4558-bd6a-4d960a2e63b8",
+          "id": "bbc9e6eb-e543-4d2a-947c-265772e080da",
           "name": "SkillBonus",
-          "amount": 3.0,
-          "operation": 0,
-          "player_multiplier": {
-            "type": "skilltree:none"
-          },
-          "player_condition": {
-            "type": "skilltree:none"
-          },
-          "type": "skilltree:attribute"
-        },
-        "type": "skilltree:skill_bonus"
-      }
-    },
-    {
-      "type": "skilltree:crafted_item_bonus",
-      "item_condition": {
-        "equipment_type": "armor",
-        "type": "skilltree:equipment_type"
-      },
-      "item_bonus": {
-        "skill_bonus": {
-          "attribute": "skilltree:evasion",
-          "id": "569971fd-85b2-4e9e-ab9d-fceecd43fda8",
-          "name": "Skill",
-          "amount": 3.0,
+          "amount": 1.0,
           "operation": 0,
           "player_multiplier": {
             "type": "skilltree:none"
@@ -60,6 +36,20 @@
         "operation": 0,
         "type": "skilltree:durability"
       }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "additional_attributes:apothic_crafting",
+      "id": "7f66200f-8909-46b6-ab12-89e6026d4d23",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
     }
   ],
   "directConnections": [],
@@ -73,5 +63,59 @@
   "positionX": -32.041756,
   "positionY": -18.502047,
   "buttonSize": 20,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "skill_bonus.skilltree.crafted_item_bonus",
+      "with": [
+        {
+          "translate": "item_condition.skilltree.equipment_type.chestplate.plural.type"
+        },
+        {
+          "f_131101_": {
+            "f_131257_": 8041442
+          },
+          "translate": "attribute.modifier.plus.0",
+          "with": [
+            "1",
+            {
+              "translate": "attribute.name.generic.armor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "skill_bonus.skilltree.crafted_item_bonus",
+      "with": [
+        {
+          "translate": "item_condition.skilltree.equipment_type.armor"
+        },
+        {
+          "f_131101_": {
+            "f_131257_": 8041442
+          },
+          "translate": "attribute.modifier.plus.0",
+          "with": [
+            "100",
+            {
+              "translate": "item_bonus.skilltree.durability"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+0.5 Chance to affix crafted items"
+    }
+  ]
 }

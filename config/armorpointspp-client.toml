@@ -14,7 +14,7 @@
 	showToughnessWhenZero = false
 	# Show absorption as hearts within the health bar
 	# Available: true, false [default: false]
-	useAbsorptionOverlay = true
+	useAbsorptionOverlay = false
 	# Frostbite heart display style (full = vanilla)
 	# Available: FULL, ICON, OVERLAY [default: ICON]
 	#Allowed Values: FULL, ICON, OVERLAY
@@ -80,7 +80,7 @@
 	suffix = "SI"
 	# Always render 10 heart backgrounds, even if max health is lower
 	# Available: true, false [default: false]
-	alwaysShow10HeartBGs = false
+	alwaysShow10HeartBGs = true
 	# Show armor value text next to armor bar
 	# Available: true, false [default: true]
 	showArmorValue = false
@@ -109,7 +109,7 @@
 	# Number of pixels to show an absorption of 1
 	# Available: 0 ~ 200 [default: 0.25]
 	#Range: 0.0 ~ 200.0
-	absorption = 1.0
+	absorption = 10.0
 	# Number of icons to show a armor toughness of 1
 	# Available: 0 ~ 10 [default: 1]
 	# Note: This ONLY affects toughness overlays and NOT the standalone toughness bar

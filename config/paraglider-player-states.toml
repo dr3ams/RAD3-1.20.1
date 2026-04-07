@@ -1,5 +1,4 @@
 
-
 #Configuration file for player states.
 #You can adjust stamina delta (negative value means consumption / positive value means gain) and
 #recovery delay (in ticks) of all player states registered in the game.
@@ -9,7 +8,7 @@
 
 	[paraglider.ascending]
 		#Range: > -2147483648
-		staminaDelta = -6
+		staminaDelta = -5
 		#Range: > 0
 		recoveryDelay = 10
 
@@ -27,9 +26,9 @@
 
 	[paraglider.idle]
 		#Range: > -2147483648
-		staminaDelta = 75
+		staminaDelta = 15
 		#Range: > 0
-		recoveryDelay = 0
+		recoveryDelay = 30
 
 	[paraglider.midair]
 		#Range: > -2147483648
@@ -51,13 +50,13 @@
 
 	[paraglider.paragliding]
 		#Range: > -2147483648
-		staminaDelta = -10
+		staminaDelta = -5
 		#Range: > 0
-		recoveryDelay = 20
+		recoveryDelay = 10
 
 	[paraglider.running]
 		#Range: > -2147483648
-		staminaDelta = -3
+		staminaDelta = -5
 		#Range: > 0
 		recoveryDelay = 20
 
@@ -77,7 +76,7 @@
 
 	[parcool.catleap]
 		#Range: > -2147483648
-		staminaDelta = -15
+		staminaDelta = -20
 		#Range: > 0
 		recoveryDelay = 10
 
@@ -89,13 +88,13 @@
 
 	[parcool.climbup]
 		#Range: > -2147483648
-		staminaDelta = -15
+		staminaDelta = -20
 		#Range: > 0
 		recoveryDelay = 10
 
 	[parcool.clingtocliff]
 		#Range: > -2147483648
-		staminaDelta = -2
+		staminaDelta = -5
 		#Range: > 0
 		recoveryDelay = 10
 
@@ -155,6 +154,7 @@
 
 	[parcool.walljump]
 		#Range: > -2147483648
-		staminaDelta = -20
+		staminaDelta = -30
 		#Range: > 0
 		recoveryDelay = 10
+

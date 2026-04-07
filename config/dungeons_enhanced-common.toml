@@ -102,7 +102,7 @@
 	# The biomes this structure should generate in. Use # to define a tag. Use ! to define a blacklist. If no values are set, the structure's default biomes will be used.
 	# Example: ["minecraft:plains, #minecraft:is_forest, !minecraft:birch_forest, !#minecraft:has_structure/woodland_mansion"]
 	# Default: ["minecraft:dark_forest"]
-	"dungeons_enhanced:monster_maze" = ["minecraft:dark_forest"]
+	"dungeons_enhanced:monster_maze" = ["minecraft:dark_forest", "#forge:is_cold/overworld", "#forge:is_spooky", "#forge:is_dense/overworld"]
 
 [mushroom_house]
 	#

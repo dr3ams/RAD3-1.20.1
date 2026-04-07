@@ -857,6 +857,20 @@
 		}
 		{
 			dependencies: ["55C87018D524A77E"]
+			description: [
+				"What and how well you eat directly affects some of your &4attributes&r."
+				""
+				"&eFour tiers, four different states:"
+				"&c✖ Starving &8— stamina crippled, shield regen slowed"
+				"&e● Fed &8— baseline, no bonuses"
+				"&a✦ Well-Fed &8— +1 heart, faster stamina and rolls"
+				"&6★ Peak &8— full bonuses + bonus shield heart"
+				""
+				"Some of the complex meals also grants a &bpotion effect&7,"
+				"&arandom XP&7, and a &dchance of bonus effect&7 on eat."
+				""
+				"&7➜ Visit the &6Not Enough Food&7 chapter to learn more and discover which dishes push you into each tier."
+			]
 			id: "09DCF997E89A3D37"
 			rewards: [
 				{
@@ -4105,6 +4119,48 @@
 			title: "&bThe Matter Recycler&r"
 			x: 2.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["09DCF997E89A3D37"]
+			description: [
+				"&6&lSurvival Tips"
+				""
+				"&c✖ Don't enter dungeons starving."
+				"Zero tier halts stamina recovery. ParCool moves and"
+				"combat rolls cost stamina - without regen, you'll be"
+				"locked out of movement after a few fights."
+				""
+				"&a✦ Eat before a dungeon, not during."
+				"Saturation drains from activity, not from time passing."
+				"A HIGH-tier meal eaten just before entering will last"
+				"through most of a dungeon run."
+				""
+				"&e● Cup foods are emergency rations."
+				"Miner's Delight cup soups give short effects and are"
+				"fast to eat mid-combat, but won't push you into MID tier."
+				"Keep a few in your hotbar as a backup."
+				""
+				"&b◆ Cook before you explore."
+				"Raw and basic vanilla foods give almost no saturation."
+				"Even a basic Farmer's Delight recipe makes a significant"
+				"difference in how long your buffs last."
+			]
+			icon: "kubejs:help"
+			id: "0542B0D812A87B7D"
+			rewards: [{
+				id: "3FD744FFA634A677"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "1E02899E579FD5D3"
+				title: "Tips noted"
+				type: "checkmark"
+			}]
+			title: "Survival Tips"
+			x: 11.5d
+			y: -0.5d
 		}
 	]
 	title: "&2World Exploration&r"

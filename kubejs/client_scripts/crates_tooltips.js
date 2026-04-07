@@ -97,5 +97,17 @@ ItemEvents.tooltip(event => {
             text.add(2, Text.of('• Essential for reforging Broken Keys.').white())
         }
     })
+
+	event.addAdvanced('kubejs:quest_crate', (item, advanced, text) => {
+			text.add(Text.of('An iron-banded crate').white());
+			text.add(Text.of(''));
+			text.add(Text.of('§7Found in chests inside:').white());
+			text.add(Text.of('§7 • Undead Crypts').white());
+			text.add(Text.of('§7 • Monster Mazes').white());
+			text.add(Text.of(''));
+			text.add(Text.of('Bring it to ').white());
+			text.add(Text.of('The Wandering Hold').darkRed());
+    });
+
 	
 })	
