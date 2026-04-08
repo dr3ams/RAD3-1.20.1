@@ -415,19 +415,16 @@ ItemEvents.tooltip(event =>{
     }
   })
 	
-	event.addAdvanced(['bonfires:estus_flask',], (item, advanced, text) => {
-    if (!event.isShift()) {
-      text.add(1, [
-        Text.of('Hold ').gray(),
-        Text.of('[Shift] ').blue(),
-        Text.of('to see more info').gray()
-      ])
-    } else {
-      text.add(1, [
-        Text.of('• Restored when using a bonfire').white()
-		])
-    }
-    })
+	event.addAdvanced('bonfires:estus_flask', (item, advanced, text) => {
+			text.add(Text.of(''));
+			text.add(Text.of('• §2Uses§7 are restored when using §6Bonfire§7').gray());
+			text.add(Text.of('• Reinforced at §6Bonfire§7 to increase the').gray());
+			text.add(Text.of('amount of §4healed hearts§7').gray());
+			text.add(Text.of('• §2Uses§7 can be increased by §1right-clicking§7').gray());
+			text.add(Text.of('an §eEstus Shard§7 with the §3Estus Flask§7 in').gray());
+			text.add(Text.of('your inventory').gray());
+			text.add(Text.of(''));
+    });	
 
 	event.addAdvanced(['kubejs:gem_shard'], (item, advanced, text) => {
     if (!event.isShift()) {
