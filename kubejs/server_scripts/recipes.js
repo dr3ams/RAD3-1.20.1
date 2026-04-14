@@ -976,21 +976,8 @@ ServerEvents.recipes((event) => {
   event.blasting('aquaculture:neptunium_ingot', 'aquaculture:neptunes_bounty', 1.0);
   event.blasting('3x minecraft:iron_nugget', 'dungeonsdelight:stained_scrap', 0.1, 50);
   event.blasting('minecraft:iron_ingot', 'dungeonsdelight:stained_scrap_block', 0.5, 200);
-  
-  event.shapeless(
-  Item.of('tombstone:essence_of_undeath', 1),
-  [
-    '2x #forge:ash',
-    'celestial_core:death_essence',
-    'minecraft:glass_bottle'
-  ]);
-  event.shapeless(
-  Item.of('tombstone:essence_of_undeath', 1),
-  [
-    '2x #forge:ash',
-    'endrem:undead_soul',
-    'minecraft:glass_bottle'
-  ]);
+
+
   event.shapeless(
   Item.of('minecraft:heart_of_the_sea', 1),
   [
