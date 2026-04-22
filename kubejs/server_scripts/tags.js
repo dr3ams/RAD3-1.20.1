@@ -537,7 +537,19 @@ ServerEvents.tags('item', event => {
 		.add('tomeofblood:living_mage_leggings')
 		.add('tomeofblood:living_mage_boots')
 		.add('tomeofblood:living_mage_hood')
-		.add('tomeofblood:living_mage_robes')			
+		.add('tomeofblood:living_mage_robes')
+
+	//i cannot get this to work as a datapack so this is the nuclear option
+	event.get('curios:quiver')
+		.remove('skilltree:quiver')
+		.remove('skilltree:fiery_quiver')
+		.remove('skilltree:armored_quiver')
+		.remove('skilltree:gilded_quiver')
+		.remove('skilltree:toxic_quiver')
+		.remove('skilltree:diamond_quiver')
+		.remove('skilltree:healing_quiver')
+		.remove('skilltree:silent_quiver')
+		.remove('skilltree:bone_quiver')
 ////END	
 
 })
