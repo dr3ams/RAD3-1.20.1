@@ -69,7 +69,7 @@ ServerEvents.recipes(event => {
             if (Item.exists(outputItem) && Item.exists(baseItem)) {
                 
                 // Remove existing recipe
-                event.remove({ output: outputItem });
+                event.remove({ not: { type: 'aether:repairing' }, output: outputItem });
 
                 // Add new progressive recipe
                 event.shaped(Item.of(outputItem), piece.pattern, {
