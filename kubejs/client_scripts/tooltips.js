@@ -1482,6 +1482,9 @@ ItemEvents.tooltip(event =>{
 	event.addAdvanced('minecraft:reinforced_deepslate', (item, advanced, text) => {
     text.add(1, Text.of('Can only be harvested by a Sculkium Pickaxe').gray()) 
 	})
+	event.addAdvanced('minecraft:sculk', (item, advanced, text) => {
+    text.add(1, Text.of('Can be partially harvested with shears').gray()) 
+	})
 	event.addAdvanced('minecraft:brewing_stand', (item, advanced, text) => {
     text.add(1, Text.of('Can only be harvested by a pickaxe with Silk Touch').gray()) 
 	})
