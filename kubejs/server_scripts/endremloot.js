@@ -49,10 +49,11 @@ LootJS.modifiers((event) => {
 	event.addLootTableModifier("betterarcheology:archeology/chest_underwater").randomChance(0.1).addLoot("endrem:exotic_eye");
 	event.addLootTableModifier("hopo:chests/coral").randomChance(0.2).addLoot("endrem:exotic_eye");
 	event.addLootTableModifier("dungeons_arise:chests/typhon/typhon_treasure").randomChance(0.2).addLoot("endrem:exotic_eye");
-	event.addLootTableModifier("dungeons_enhanced:chests/elders_temple/main").randomChance(0.2).addLoot("endrem:exotic_eye");
+	event.addLootTableModifier("dungeons_enhanced:chests/elders_temple/elder_room").randomChance(0.2).addLoot("endrem:exotic_eye");
+	event.addLootTableModifier("dungeons_enhanced:chests/elders_temple/main").randomChance(0.1).addLoot("endrem:exotic_eye");
 	event.addLootTableModifier("dungeons_enhanced:chests/sunken_shrine").randomChance(0.1).addLoot("endrem:exotic_eye");
 	event.addLootTableModifier("betteroceanmonuments:chests/upper_side_chamber").randomChance(0.3).addLoot("endrem:exotic_eye");
-	event.addLootTableModifier("cataclysm:chests/acropolis_treasure").randomChance(0.3).addLoot("endrem:exotic_eye");
+	event.addLootTableModifier("cataclysm:chests/acropolis_treasure").randomChance(0.1).addLoot("endrem:exotic_eye");
 	// nether eye aether dungeons
 	event.addLootTableModifier("aether:chests/dungeon/bronze/bronze_dungeon_reward").randomChance(0.3).addLoot("endrem:nether_eye"); //not sure if this one or the ancient aether one is used
 	event.addLootTableModifier("aether:chests/dungeon/silver/silver_dungeon_reward").randomChance(0.3).addLoot("endrem:nether_eye");
@@ -67,8 +68,13 @@ LootJS.modifiers((event) => {
 	event.addLootTableModifier("dungeons_arise:chests/illager_fort/illager_fort_treasure").randomChance(0.1).addLoot("endrem:magical_eye");
 	event.addLootTableModifier("dungeons_arise:chests/illager_corsair/illager_corsair_treasure").randomChance(0.1).addLoot("endrem:magical_eye");
 	event.addLootTableModifier("dungeons_arise:chests/illager_galley/illager_galley_treasure").randomChance(0.1).addLoot("endrem:magical_eye");
-	//killing the nether gauntlet spawns a chest
+	// killing the nether gauntlet spawns a chest
 	event.addLootTableModifier("bosses_of_mass_destruction:chests/gauntlet").addLoot("endrem:lost_eye");
+	// old eye koboleton sites & digging sand
+	event.addLootTableModifier("cataclysm:chests/desert_treasure").randomChance(0.1).addLoot("endrem:old_eye");
+	event.addBlockLootModifier("minecraft:sand").randomChance(0.0005).addLoot("endrem:old_eye"); // 1/2000 or approx 1 netherite shovel. this is supposed to be a boss eye
+	// cursed eye draugr sites
+	event.addLootTableModifier("cataclysm:chests/abandoned_treasure").randomChance(0.1).addLoot("endrem:cursed_eye");
 	
 	// adding eyes back to mobs
 	event.addEntityLootModifier("minecraft:evoker").randomChance(0.1).killedByPlayer().addLoot("endrem:magical_eye");
@@ -86,34 +92,33 @@ LootJS.modifiers((event) => {
 	event.addEntityLootModifier("bosses_of_mass_destruction:lich").killedByPlayer().addLoot("endrem:cold_eye");
 	event.addEntityLootModifier("graveyard:lich").killedByPlayer().addLoot("endrem:corrupted_eye");
 	// witch pupil from women
-	event.addEntityLootModifier("minecraft:witch").randomChance(0.01).killedByPlayer().addLoot("endrem:witch_pupil");
-	event.addEntityLootModifier("hmag:ender_executor").randomChance(0.01).killedByPlayer().addLoot("endrem:witch_pupil");
-	event.addEntityLootModifier("hmag:kobold").randomChance(0.01).killedByPlayer().addLoot("endrem:witch_pupil");
-	event.addEntityLootModifier("hmag:melty_monster").randomChance(0.01).killedByPlayer().addLoot("endrem:witch_pupil");
-	event.addEntityLootModifier("hmag:cursed_doll").randomChance(0.01).killedByPlayer().addLoot("endrem:witch_pupil");
-	event.addEntityLootModifier("hmag:jack_frost").randomChance(0.01).killedByPlayer().addLoot("endrem:witch_pupil");
-	event.addEntityLootModifier("hmag:hornet").randomChance(0.01).killedByPlayer().addLoot("endrem:witch_pupil");
-	event.addEntityLootModifier("hmag:dullahan").randomChance(0.01).killedByPlayer().addLoot("endrem:witch_pupil");
-	event.addEntityLootModifier("hmag:banshee").randomChance(0.01).killedByPlayer().addLoot("endrem:witch_pupil");
-	event.addEntityLootModifier("hmag:alraune").randomChance(0.01).killedByPlayer().addLoot("endrem:witch_pupil");
-	event.addEntityLootModifier("hmag:redcap").randomChance(0.01).killedByPlayer().addLoot("endrem:witch_pupil");
-	event.addEntityLootModifier("hmag:slime_girl").randomChance(0.01).killedByPlayer().addLoot("endrem:witch_pupil");
-	event.addEntityLootModifier("hmag:crimson_slaughterer").randomChance(0.01).killedByPlayer().addLoot("endrem:witch_pupil");
-	event.addEntityLootModifier("hmag:snow_canine").randomChance(0.01).killedByPlayer().addLoot("endrem:witch_pupil");
-	event.addEntityLootModifier("hmag:harpy").randomChance(0.01).killedByPlayer().addLoot("endrem:witch_pupil");
-	event.addEntityLootModifier("hmag:necrotic_reaper").randomChance(0.01).killedByPlayer().addLoot("endrem:witch_pupil");
-	event.addEntityLootModifier("hmag:dodomeki").randomChance(0.01).killedByPlayer().addLoot("endrem:witch_pupil");
-	event.addEntityLootModifier("hmag:imp").randomChance(0.01).killedByPlayer().addLoot("endrem:witch_pupil");
-	event.addEntityLootModifier("hmag:glaryad").randomChance(0.01).killedByPlayer().addLoot("endrem:witch_pupil");
-	event.addEntityLootModifier("hmag:jiangshi").randomChance(0.01).killedByPlayer().addLoot("endrem:witch_pupil");
-	event.addEntityLootModifier("hmag:nightwalker").randomChance(0.01).killedByPlayer().addLoot("endrem:witch_pupil");
-	event.addEntityLootModifier("cataclysm:cindaria").randomChance(0.01).killedByPlayer().addLoot("endrem:witch_pupil");
+	event.addEntityLootModifier("minecraft:witch").randomChance(0.03).killedByPlayer().addLoot("endrem:witch_pupil");
+	event.addEntityLootModifier("hmag:ender_executor").randomChance(0.03).killedByPlayer().addLoot("endrem:witch_pupil");
+	event.addEntityLootModifier("hmag:kobold").randomChance(0.03).killedByPlayer().addLoot("endrem:witch_pupil");
+	event.addEntityLootModifier("hmag:melty_monster").randomChance(0.03).killedByPlayer().addLoot("endrem:witch_pupil");
+	event.addEntityLootModifier("hmag:cursed_doll").randomChance(0.03).killedByPlayer().addLoot("endrem:witch_pupil");
+	event.addEntityLootModifier("hmag:jack_frost").randomChance(0.03).killedByPlayer().addLoot("endrem:witch_pupil");
+	event.addEntityLootModifier("hmag:hornet").randomChance(0.03).killedByPlayer().addLoot("endrem:witch_pupil");
+	event.addEntityLootModifier("hmag:dullahan").randomChance(0.03).killedByPlayer().addLoot("endrem:witch_pupil");
+	event.addEntityLootModifier("hmag:banshee").randomChance(0.03).killedByPlayer().addLoot("endrem:witch_pupil");
+	event.addEntityLootModifier("hmag:alraune").randomChance(0.03).killedByPlayer().addLoot("endrem:witch_pupil");
+	event.addEntityLootModifier("hmag:redcap").randomChance(0.03).killedByPlayer().addLoot("endrem:witch_pupil");
+	event.addEntityLootModifier("hmag:slime_girl").randomChance(0.03).killedByPlayer().addLoot("endrem:witch_pupil");
+	event.addEntityLootModifier("hmag:crimson_slaughterer").randomChance(0.03).killedByPlayer().addLoot("endrem:witch_pupil");
+	event.addEntityLootModifier("hmag:snow_canine").randomChance(0.03).killedByPlayer().addLoot("endrem:witch_pupil");
+	event.addEntityLootModifier("hmag:harpy").randomChance(0.03).killedByPlayer().addLoot("endrem:witch_pupil");
+	event.addEntityLootModifier("hmag:necrotic_reaper").randomChance(0.03).killedByPlayer().addLoot("endrem:witch_pupil");
+	event.addEntityLootModifier("hmag:dodomeki").randomChance(0.03).killedByPlayer().addLoot("endrem:witch_pupil");
+	event.addEntityLootModifier("hmag:imp").randomChance(0.03).killedByPlayer().addLoot("endrem:witch_pupil");
+	event.addEntityLootModifier("hmag:glaryad").randomChance(0.03).killedByPlayer().addLoot("endrem:witch_pupil");
+	event.addEntityLootModifier("hmag:jiangshi").randomChance(0.03).killedByPlayer().addLoot("endrem:witch_pupil");
+	event.addEntityLootModifier("hmag:nightwalker").randomChance(0.03).killedByPlayer().addLoot("endrem:witch_pupil");
+	event.addEntityLootModifier("cataclysm:cindaria").randomChance(0.03).killedByPlayer().addLoot("endrem:witch_pupil");
 	// undead soul from undead, i decided against bosses
 	event.addEntityLootModifier("cataclysm:aptrgangr").randomChance(0.1).killedByPlayer().addLoot("endrem:undead_soul");
 	event.addEntityLootModifier("cataclysm:kobolediator").randomChance(0.1).killedByPlayer().addLoot("endrem:undead_soul");
 	event.addEntityLootModifier("cataclysm:wadjet").randomChance(0.1).killedByPlayer().addLoot("endrem:undead_soul");
 	event.addEntityLootModifier("hmag:lich").randomChance(0.1).killedByPlayer().addLoot("endrem:undead_soul");
-	// thank you zarchyar
-	event.addLootTypeModifier([LootType.ENTITY]).matchEntity((entity) => {entity.isUndeadMob(true);}).randomChance(0.005).killedByPlayer().addLoot("endrem:undead_soul");
+	event.addLootTypeModifier([LootType.ENTITY]).matchEntity((entity) => {entity.isUndeadMob(true);}).randomChance(0.005).killedByPlayer().addLoot("endrem:undead_soul");	// thank you zarchyar
 
 });
