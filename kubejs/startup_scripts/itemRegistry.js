@@ -1,441 +1,438 @@
 // priority: 0
-
-console.info('Hello, World! (You will only see this line once in console, during startup)')
 // ============================================================
-const TOOLTIP_XP_COST      = 25;           
-const TOOLTIP_OFFHAND_ITEM = "Gold Ingot"; 
-const TOOLTIP_COOLDOWN_SEC = 5;            
+const _TOOLTIP_XP_COST = 25;
+const _TOOLTIP_OFFHAND_ITEM = "Gold Ingot";
+const _TOOLTIP_COOLDOWN_SEC = 5;
 // ============================================================
 
 StartupEvents.registry('item', event => {
-	// Register new items here
-	// event.create('example_item').displayName('Example Item')
-	
-//event.create('roguelite_ring').displayName('Ring of Rebirth').unstackable().glow(true).tag('curios:ring')
-	
-//processing
-//event.create('hammer_iron', 'pickaxe').tier('iron').maxDamage(250)
-event.create('wooden_form').displayName('Wooden Form').maxDamage(64)
-event.create('stone_mortar').displayName('Stone Mortar').maxDamage(64)
-event.create('iron_mortar').displayName('Iron Mortar').maxDamage(220)
-event.create('sifter').displayName('Sifter').maxDamage(1550)
+  // Register new items here
+  // event.create('example_item').displayName('Example Item')
 
-event.create('rick').displayName('Pet Coal').unstackable().burnTime(60000).rarity('epic').tooltip('Named Rick')	
+  //event.create('roguelite_ring').displayName('Ring of Rebirth').unstackable().glow(true).tag('curios:ring')
 
-//apoth
-event.create('socketweaver').displayName('Socket Weaver')
-event.create('gem_shard').displayName('Gem Shard')
-event.create('gem_shard_great').displayName('Greater Gem Shard').rarity('Uncommon')
-event.create('gem_shard_geode').displayName('Gem Shard Geode').rarity('Rare')
+  //processing
+  //event.create('hammer_iron', 'pickaxe').tier('iron').maxDamage(250)
+  event.create('wooden_form').displayName('Wooden Form').maxDamage(64);
+  event.create('stone_mortar').displayName('Stone Mortar').maxDamage(64);
+  event.create('iron_mortar').displayName('Iron Mortar').maxDamage(220);
+  event.create('sifter').displayName('Sifter').maxDamage(1550);
 
-//coins
-//quest coins
-event.create('copper_coin').displayName('Copper Coin').rarity('Uncommon')
-event.create('iron_coin').displayName('Iron Coin').rarity('Uncommon')
-event.create('gold_coin').displayName('Gold Coin').rarity('Rare')
-event.create('diamond_coin').displayName('Diamond Coin').rarity('Epic')
-//dimensional coins
-event.create('coin_aether').displayName('Aether Coin').rarity('Rare')
-event.create('coin_undergarden').displayName('Undergarden Coin').rarity('Rare')
-event.create('coin_twilight').displayName('Twilight Coin').rarity('Rare')
-event.create('coin_bumblezone').displayName('Bumblezone Coin').rarity('Rare')
-event.create('coin_icaria').displayName('Icaria Coin').rarity('Rare')
-event.create('coin_end').displayName('End Coin').rarity('Uncommon')
-event.create('coin_nether').displayName('Nether Coin').rarity('Uncommon')
+  event.create('rick').displayName('Pet Coal').unstackable().burnTime(60000).rarity('epic').tooltip('Named Rick');
 
-//dungeon raid related
-	event.create('coin_raid').displayName('Raid Token')
-	event.create('boss_killer').displayName('Boss Smasher').tooltip('Deals significant damage to §4Bosses. §fCan be used only in Dungeon Raid')
-	event.create('miniboss_killer').displayName('mini-Boss Smasher').tooltip('Deals significant damage to §4mini Bosses. §fCan be used only in Dungeon Raid')
-	event.create('dungeon_recall').displayName('Dungeon Raid Teleporter')
-	event.create('ice_shard').displayName('Ice Shard')
-	event.create('kill_multiplier').displayName('Void Hourglass')
-	event.create('kubejs:turret_item')
-		.displayName('Portable Turret')
-		.maxStackSize(1)
-		.maxDamage(10) // 5 uses
-    event.create('lootbox_common')
-        .displayName('§fCommon Lootbox')
-        .tooltip('§7A battered crate scavenged from dungeon floors.')
-        .tooltip('§7Contains basic supplies for the unprepared.')
-        .tooltip('')
-        .tooltip('§8Requires a §fCommon Key §8in off-hand to open.')
-        .maxStackSize(16);
- 
-    event.create('lootbox_rare')
-        .displayName('§9Rare Lootbox')
-        .tooltip('§7A reinforced chest bearing faint magical runes.')
-        .tooltip('§7Better odds. Better loot. Still a gamble.')
-        .tooltip('')
-        .tooltip('§8Requires a §9Rare Key §8in off-hand to open.')
-        .maxStackSize(16);
- 
-    event.create('lootbox_epic')
-        .displayName('§5Epic Lootbox')
-        .tooltip('§7Humming with unstable energy, this box')
-        .tooltip('§7demands respect — and the right key.')
-        .tooltip('')
-        .tooltip('§8Requires an §5Epic Key §8in off-hand to open.')
-        .maxStackSize(16);
- 
-    event.create('lootbox_legendary')
-        .displayName('§6Legendary Lootbox')
-        .tooltip('§7Few have held one. Fewer have opened one.')
-        .tooltip('§7The dungeon gives up its greatest secrets reluctantly.')
-        .tooltip('')
-        .tooltip('§8Requires a §6Legendary Key §8in off-hand to open.')
-        .maxStackSize(16);
- 
-    // ── KEYS ──────────────────────────────────────────────────
-    event.create('key_common')
-        .displayName('§fCommon Key')
-        .tooltip('§7A simple iron key. Fits common lootboxes.')
-        .tooltip('§8Hold in off-hand and right-click a §fCommon Lootbox§8.')
-        .maxStackSize(16);
- 
-    event.create('key_rare')
-        .displayName('§9Rare Key')
-        .tooltip('§7A finely cut key with a faint blue sheen.')
-        .tooltip('§8Hold in off-hand and right-click a §9Rare Lootbox§8.')
-        .maxStackSize(16);
- 
-    event.create('key_epic')
-        .displayName('§5Epic Key')
-        .tooltip('§7Carved from something that should not exist.')
-        .tooltip('§8Hold in off-hand and right-click an §5Epic Lootbox§8.')
-        .maxStackSize(16);
- 
-    event.create('key_legendary')
-        .displayName('§6Legendary Key')
-        .tooltip('§7It hums when you hold it. You feel watched.')
-        .tooltip('§8Hold in off-hand and right-click a §6Legendary Lootbox§8.')
-        .maxStackSize(16);
+  //apoth
+  event.create('socketweaver').displayName('Socket Weaver');
+  event.create('gem_shard').displayName('Gem Shard');
+  event.create('gem_shard_great').displayName('Greater Gem Shard').rarity('Uncommon');
+  event.create('gem_shard_geode').displayName('Gem Shard Geode').rarity('Rare');
 
-    event.create('guard_summon')
-        .displayName('§aGuard Summon Scroll')
-        .tooltip('§7A magical conctract that calls a guard to your side')
-        .tooltip('§7The guard will fight for you for §f1 minute §7before vanishing')
-        .tooltip('§8Only one guard may be active at a time')
-        .maxStackSize(3);
+  //coins
+  //quest coins
+  event.create('copper_coin').displayName('Copper Coin').rarity('Uncommon');
+  event.create('iron_coin').displayName('Iron Coin').rarity('Uncommon');
+  event.create('gold_coin').displayName('Gold Coin').rarity('Rare');
+  event.create('diamond_coin').displayName('Diamond Coin').rarity('Epic');
 
-//task coins
-//event.create('coin_food').displayName('Food Coin')
-//event.create('coin_gathering').displayName('Gathering Coin')
-//event.create('coin_exploration').displayName('Exploration Coin')
-event.create('coin_task').displayName('Task Coin')
-//event.create('coin_magic').displayName('Magic Coin')
-//event.create('coin_monster').displayName('Monster Coin')
-//loot coin
-event.create('coin_dungeon').displayName('Dungeon Coin')
-//??? coin
-event.create('coin_black').displayName('Black Market Coin')
-//minecolony coin
-event.create('proofofwork').displayName('Proof Of Work').rarity('Rare')
-//vouchers
-event.create('voucher_weapon').displayName('Weapon Exchange Voucher').rarity('Rare')
-event.create('voucher_weapon_fragment').displayName('Weapon Exchange Voucher Fragment').rarity('Uncommon')
-event.create('voucher_resource').displayName('Resource Exchange Voucher').rarity('Uncommon')
-event.create('voucher_relic').displayName('Unidentified Relic').rarity('Rare')
-event.create('map_fragment').displayName('Map Fragment').rarity('Uncommon')
-event.create('map_scroll_biome').displayName('Unidentified Map Scroll - Biome').rarity('Uncommon')
-event.create('map_scroll_structure').displayName('Unidentified Map Scroll - Structure').rarity('Rare')
-//essences
-event.create('essence_monster').displayName('Monster Essence').rarity('Uncommon')
-event.create('essence_monster_raw').displayName('Raw Monster Essence').rarity('Uncommon')
-event.create('essence_earth').displayName('Earth Essence').rarity('Uncommon')
+  //dimensional coins
+  event.create('coin_aether').displayName('Aether Coin').rarity('Rare');
+  event.create('coin_undergarden').displayName('Undergarden Coin').rarity('Rare');
+  event.create('coin_twilight').displayName('Twilight Coin').rarity('Rare');
+  event.create('coin_bumblezone').displayName('Bumblezone Coin').rarity('Rare');
+  event.create('coin_icaria').displayName('Icaria Coin').rarity('Rare');
+  event.create('coin_end').displayName('End Coin').rarity('Uncommon');
+  event.create('coin_nether').displayName('Nether Coin').rarity('Uncommon');
 
-event.create('key_magic').displayName('Magic Vault Key').rarity('Rare')
+  //dungeon raid related
+  event.create('coin_raid').displayName('Raid Token');
+  event.create('boss_killer').displayName('Boss Smasher').tooltip('Deals significant damage to §4Bosses. §fCan be used only in Dungeon Raid');
+  event.create('miniboss_killer').displayName('mini-Boss Smasher').tooltip('Deals significant damage to §4mini Bosses. §fCan be used only in Dungeon Raid');
+  event.create('dungeon_recall').displayName('Dungeon Raid Teleporter');
+  event.create('ice_shard').displayName('Ice Shard');
+  event.create('kill_multiplier').displayName('Void Hourglass');
+  event.create('kubejs:turret_item')
+    .displayName('Portable Turret')
+    .maxStackSize(1)
+    .maxDamage(10); // 5 uses
+  event.create('lootbox_common')
+    .displayName('§fCommon Lootbox')
+    .tooltip('§7A battered crate scavenged from dungeon floors.')
+    .tooltip('§7Contains basic supplies for the unprepared.')
+    .tooltip('')
+    .tooltip('§8Requires a §fCommon Key §8in off-hand to open.')
+    .maxStackSize(16);
 
-event.create('salvage').displayName('Scavenging Mastery Mark')
-event.create('alchemy').displayName('Alchemy Mastery Mark')
-event.create('enchantery').displayName('Enchanting Mastery Mark')
+  event.create('lootbox_rare')
+    .displayName('§9Rare Lootbox')
+    .tooltip('§7A reinforced chest bearing faint magical runes.')
+    .tooltip('§7Better odds. Better loot. Still a gamble.')
+    .tooltip('')
+    .tooltip('§8Requires a §9Rare Key §8in off-hand to open.')
+    .maxStackSize(16);
 
-event.create('dust_experience').displayName('Experience Dust').tooltip('Not for eating')
-event.create('dust_alchemical').displayName('Alchemy Powder').tooltip('Not for experiments')
-event.create('scraps').displayName('Scraps')
+  event.create('lootbox_epic')
+    .displayName('§5Epic Lootbox')
+    .tooltip('§7Humming with unstable energy, this box')
+    .tooltip('§7demands respect — and the right key.')
+    .tooltip('')
+    .tooltip('§8Requires an §5Epic Key §8in off-hand to open.')
+    .maxStackSize(16);
 
-event.create('portable_dissolver').displayName('Portable Experience Dissolver').maxDamage(480).rarity('Rare')
-event.create('portable_transmutator').displayName('Portable Transmutation Device').maxDamage(480).rarity('Rare')
-event.create('portable_salvager').displayName('Portable Mini Salvager').maxDamage(480).rarity('Rare')
-event.create('junk').displayName('Junk')
-event.create('sifted_dust').displayName('Sifted Dust')
+  event.create('lootbox_legendary')
+    .displayName('§6Legendary Lootbox')
+    .tooltip('§7Few have held one. Fewer have opened one.')
+    .tooltip('§7The dungeon gives up its greatest secrets reluctantly.')
+    .tooltip('')
+    .tooltip('§8Requires a §6Legendary Key §8in off-hand to open.')
+    .maxStackSize(16);
 
-event.create('artifact_fragment').displayName('Artifact Fragment')
+  // ── KEYS ──────────────────────────────────────────────────
+  event.create('key_common')
+    .displayName('§fCommon Key')
+    .tooltip('§7A simple iron key. Fits common lootboxes.')
+    .tooltip('§8Hold in off-hand and right-click a §fCommon Lootbox§8.')
+    .maxStackSize(16);
 
-event.create('scroll_exp').displayName('Experience Scroll')
-event.create('scroll_exp_great').displayName('Greater Experience Scroll').rarity('Uncommon')
+  event.create('key_rare')
+    .displayName('§9Rare Key')
+    .tooltip('§7A finely cut key with a faint blue sheen.')
+    .tooltip('§8Hold in off-hand and right-click a §9Rare Lootbox§8.')
+    .maxStackSize(16);
 
-event.create('spawnercore').displayName('Spawner Core').rarity('Uncommon')
+  event.create('key_epic')
+    .displayName('§5Epic Key')
+    .tooltip('§7Carved from something that should not exist.')
+    .tooltip('§8Hold in off-hand and right-click an §5Epic Lootbox§8.')
+    .maxStackSize(16);
 
-event.create('contraband').displayName('Contraband Shipment').rarity('Uncommon')
+  event.create('key_legendary')
+    .displayName('§6Legendary Key')
+    .tooltip('§7It hums when you hold it. You feel watched.')
+    .tooltip('§8Hold in off-hand and right-click a §6Legendary Lootbox§8.')
+    .maxStackSize(16);
 
-event.create('mending').displayName('Mending').texture('minecraft:item/enchanted_book').glow(true)
+  event.create('guard_summon')
+    .displayName('§aGuard Summon Scroll')
+    .tooltip('§7A magical conctract that calls a guard to your side')
+    .tooltip('§7The guard will fight for you for §f1 minute §7before vanishing')
+    .tooltip('§8Only one guard may be active at a time')
+    .maxStackSize(3);
 
-//interactables
-	event.create('mage_bag').displayName('Magic Satchel')
-	event.create('gemcutters_pouch').displayName('Gemcutters Pouch')
-	event.create('gemcutters_pouch_greater').displayName('Gemcutters Pouch').texture('kubejs:item/gemcutters_pouch')
+  //task coins
+  //event.create('coin_food').displayName('Food Coin')
+  //event.create('coin_gathering').displayName('Gathering Coin')
+  //event.create('coin_exploration').displayName('Exploration Coin')
+  event.create('coin_task').displayName('Task Coin');
+  //event.create('coin_magic').displayName('Magic Coin')
+  //event.create('coin_monster').displayName('Monster Coin')
+  //loot coin
+  event.create('coin_dungeon').displayName('Dungeon Coin');
+  //??? coin
+  event.create('coin_black').displayName('Black Market Coin');
+  //minecolony coin
+  event.create('proofofwork').displayName('Proof Of Work').rarity('Rare');
+  //vouchers
+  event.create('voucher_weapon').displayName('Weapon Exchange Voucher').rarity('Rare');
+  event.create('voucher_weapon_fragment').displayName('Weapon Exchange Voucher Fragment').rarity('Uncommon');
+  event.create('voucher_resource').displayName('Resource Exchange Voucher').rarity('Uncommon');
+  event.create('voucher_relic').displayName('Unidentified Relic').rarity('Rare');
+  event.create('map_fragment').displayName('Map Fragment').rarity('Uncommon');
+  event.create('map_scroll_biome').displayName('Unidentified Map Scroll - Biome').rarity('Uncommon');
+  event.create('map_scroll_structure').displayName('Unidentified Map Scroll - Structure').rarity('Rare');
+  //essences
+  event.create('essence_monster').displayName('Monster Essence').rarity('Uncommon');
+  event.create('essence_monster_raw').displayName('Raw Monster Essence').rarity('Uncommon');
+  event.create('essence_earth').displayName('Earth Essence').rarity('Uncommon');
 
-	event.create('unidentified_glyph_scroll').displayName('Unidentified Glyph Scroll')
-	event.create('unidentified_glyph_scroll_2').displayName('Unidentified Glyph Scroll').texture('kubejs:item/unidentified_glyph_scroll')
-	event.create('unidentified_glyph_scroll_3').displayName('Unidentified Glyph Scroll').texture('kubejs:item/unidentified_glyph_scroll')
+  event.create('key_magic').displayName('Magic Vault Key').rarity('Rare');
 
-	event.create('fortune_cookie').displayName('Fortune Cookie').food(f => { f.hunger(2).saturation(0.1) })
-	event.create('book_old').displayName('Battered Old Book')
-	event.create('book_ancient').displayName('Ancient Book')
-	event.create('canned_food').displayName('Canned Food')
-	event.create('lost_bag').displayName('Lost Bag')
-	event.create('ore_bag').displayName('Ore Bag')
-	event.create('reagent_box').displayName('Reagent Box')
-	event.create('detonator').displayName('Detonator').unstackable()
-	event.create('rusty_key').displayName('Rusty Key')
-	event.create('unstable_battery').displayName('Unstable Battery').unstackable()
-	event.create('emergency_flare').displayName('Emergency Flare')
-	event.create('bee_jar').displayName('Jar of Distraction').unstackable()
-	event.create('data_slate').displayName('Encoded Data Slate')
-	event.create('sentry_remote').displayName('Sentry Remote')
-	event.create('bioscan_syringe').displayName('Bio Extractor')
-	event.create('charged_stinger').displayName('Charged Stinger').food(food => {food.hunger(6).saturation(1.2)})
-	event.create('magnetic_grapple').displayName('Magnetic Grapple').maxDamage(32)
-	event.create('thermal_paste').displayName('Liquid Acid')
-	event.create('echo_locator').displayName('Echo-Locator').maxDamage(4)
-	event.create('kinetic_dampener').displayName('Kinetic Dampener').maxDamage(32).unstackable();
-    event.create('scavenger_magnet').displayName('Scavenger Magnet').maxDamage(100).unstackable();
-    event.create('translocation_coil').displayName('Translocation Coil').maxDamage(25).unstackable();
-	event.create('void_core').displayName('Void Core').unstackable();
-	
-	event.create('berserk_draught').displayName('Berserk Draught')
-	event.create('bottled_ice').displayName('Bottled Ice')
+  event.create('salvage').displayName('Scavenging Mastery Mark');
+  event.create('alchemy').displayName('Alchemy Mastery Mark');
+  event.create('enchantery').displayName('Enchanting Mastery Mark');
 
-    event.create('ancient_crate').displayName('§6Ancient Loot Crate').glow(true).tooltip('§7Right-click to open. §4Watch out for Mimics!')
-    // The Skeleton Key
-    event.create('skeleton_key').displayName('§bSkeleton Key').glow(true).tooltip('§7Bypasses crate cooldown and doubles Luck.')
-    // The Mimic Heart (Drop)
-    event.create('mimic_heart').displayName('§4Mimic Heart').tooltip('§7Still pulsing... used to craft Skeleton Keys.')
-	// The Ritual Crate (Element-themed)
-    event.create('ritual_crate').displayName('§6Ritualist\'s Offering').glow(true).tooltip('§7Must be opened in extreme environments.');
-    // The Chaos Crate (Challenge-themed)
-    event.create('chaos_crate').displayName('§5Crate of Discord').tooltip('§cWarning: Surivival not guaranteed.');
-    // The Wishing Well (Enchant-themed)
-    event.create('wishing_crate').displayName('§bWishing Well Crate').tooltip('§7May grant powerful, pre-enchanted Gear');
-	event.create('echo_crate').displayName('§6Echo Loot Crate')	
-	event.create('botanical_crate').displayName('§6Botanical Loot Crate').maxStackSize(1)
-	//Astrolabe
-    event.create('echo_extractor')
-         .displayName('Echo Extractor')
-         .unstackable()
-         .glow(true)
+  event.create('dust_experience').displayName('Experience Dust').tooltip('Not for eating');
+  event.create('dust_alchemical').displayName('Alchemy Powder').tooltip('Not for experiments');
+  event.create('scraps').displayName('Scraps');
 
-    // The Consumable "Fuel"
-    event.create('blessed_incense')
-         .displayName('Blessed Incense')
-         .tooltip('§8Fuel for Echo Extractor. Smells of ancient ozone');
-	event.create('spam_voucher')
-        .displayName('§bBarnaby\'s Discount Voucher§r')
-        .texture('minecraft:item/paper') // Standard paper texture
-        .unstackable()
-    // The Reward Item (Generic until decrypted)
-    event.create('sealed_tome')
-         .displayName('Ancient Sealed Tome')
-         .glow(true)
-		 .unstackable()
-	event.create('chronicle_of_echoes')
-         .displayName('Chronicle of Echoes')
-         .unstackable()
-         .texture('minecraft:item/writable_book')
-         .glow(true)
-         .tooltip('§7A record of your attunement to the spirit world.');
-	event.create('living_branch')
-         .displayName('Living Branch')
-		 .maxDamage(64)
-         .unstackable()
-         .rarity('rare')
-         .glow(true)
-    event.create('entropic_cent')
-         .displayName("§6The Entropic Cent")
-		 .maxDamage(8)
-         .unstackable()
-         .rarity('epic')	
-	event.create('living_branch_bridging')
-         .displayName('Living Branch of Bridging')
-         .maxStackSize(1)
-         .unstackable()
-         .maxDamage(128);
+  event.create('portable_dissolver').displayName('Portable Experience Dissolver').maxDamage(480).rarity('Rare');
+  event.create('portable_transmutator').displayName('Portable Transmutation Device').maxDamage(480).rarity('Rare');
+  event.create('portable_salvager').displayName('Portable Mini Salvager').maxDamage(480).rarity('Rare');
+  event.create('junk').displayName('Junk');
+  event.create('sifted_dust').displayName('Sifted Dust');
 
-    event.create('buzzing_living_branch')
-         .displayName('Buzzing Living Branch')
-         .maxStackSize(1)
-         .unstackable()
-         .maxDamage(32);	 
-		 
-	event.create('d6')
-         .displayName('D6 Dice')
-         .maxStackSize(1)
-         .unstackable()
-         .maxDamage(32)
-		 .texture('kubejs:item/dice')
-	event.create('d10')
-         .displayName('D10 Dice')
-         .maxStackSize(1)
-         .unstackable()
-         .maxDamage(32)
-		 .texture('kubejs:item/dice')
-	event.create('d12')
-         .displayName('D12 Dice')
-         .maxStackSize(1)
-         .unstackable()
-         .maxDamage(32)
-		 .texture('kubejs:item/dice')
-	event.create('d20')
-         .displayName('D20 Dice')
-         .maxStackSize(1)
-         .unstackable()
-         .maxDamage(32)
-		 .texture('kubejs:item/dice')
-	event.create('unfinished_dice')
-         .displayName('Unfinished Dice')
-         .maxStackSize(1)
-         .unstackable()
-         .maxDamage(32)
-		 .texture('kubejs:item/dice')	
+  event.create('artifact_fragment').displayName('Artifact Fragment');
 
-	event.create('item_recycler')
-        .displayName('Portable Matter Recycler')
-        .unstackable()
-		
-	event.create('recycling_journal')
-        .displayName('§bJournal of Recycling§r')
-        .unstackable()
-		.texture('minecraft:item/writable_book')
-        .glow(true)
+  event.create('scroll_exp').displayName('Experience Scroll');
+  event.create('scroll_exp_great').displayName('Greater Experience Scroll').rarity('Uncommon');
 
-    event.create("gamble_coin")
-        .displayName('§6Gamble Coin')
-		.maxDamage(32)
-        .maxStackSize(1)
-        .rarity("EPIC")
+  event.create('spawnercore').displayName('Spawner Core').rarity('Uncommon');
 
-//exchange coins
-event.create('coin_01').displayName('Coin').tooltip('Acquired by selling valuable materials')
-event.create('coin_02').displayName('Couple of Coins').tooltip('Acquired by selling valuable materials')
-event.create('coin_03').displayName('Stack of Coins').tooltip('Acquired by selling valuable materials')
-event.create('coin_04').displayName('Pile of Coins').tooltip('Acquired by selling valuable materials')
-event.create('coin_05').displayName('Dozen of Coins').tooltip('Acquired by selling valuable materials')
-event.create('coin_06').displayName('Bunch of Coins').tooltip('Acquired by selling valuable materials')
+  event.create('contraband').displayName('Contraband Shipment').rarity('Uncommon');
 
-event.create('quest_bundle').displayName('Leather Bundle').tooltip('Quest Item')
-event.create('quest_note').displayName('Note').tooltip('Quest Item')
-event.create('quest_crate').displayName('Crate').tooltip('Quest Item')
+  event.create('mending').displayName('Mending').texture('minecraft:item/enchanted_book').glow(true);
 
-event.create('great_soul').displayName('Great Soul').rarity('Epic')
+  //interactables
+  event.create('mage_bag').displayName('Magic Satchel');
+  event.create('gemcutters_pouch').displayName('Gemcutters Pouch');
+  event.create('gemcutters_pouch_greater').displayName('Gemcutters Pouch').texture('kubejs:item/gemcutters_pouch');
 
-//gear upgrades
-event.create('scroll_proficiency').displayName('Proficiency Scroll').rarity('Epic').texture('kubejs:item/manuscript')
+  event.create('unidentified_glyph_scroll').displayName('Unidentified Glyph Scroll');
+  event.create('unidentified_glyph_scroll_2').displayName('Unidentified Glyph Scroll').texture('kubejs:item/unidentified_glyph_scroll');
+  event.create('unidentified_glyph_scroll_3').displayName('Unidentified Glyph Scroll').texture('kubejs:item/unidentified_glyph_scroll');
 
-event.create('upgrade_blank').displayName('Blank Gear Upgrade').texture('kubejs:item/upgrades/gear_upgrade_blank')
-event.create('upgrade_swift').displayName('Gear Upgrade: Swift I').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/upgrade')
-event.create('upgrade_swift2').displayName('Gear Upgrade: Swift II').rarity('Rare').maxStackSize(1).texture('kubejs:item/upgrades/upgrade2')
-event.create('upgrade_swift3').displayName('Gear Upgrade: Swift III').rarity('Epic').maxStackSize(1).texture('kubejs:item/upgrades/upgrade3')
-event.create('upgrade_sharp').displayName('Gear Upgrade: Sharp I').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/sharp')
-event.create('upgrade_sharp2').displayName('Gear Upgrade: Sharp II').rarity('Rare').maxStackSize(1).texture('kubejs:item/upgrades/sharp2')
-event.create('upgrade_sharp3').displayName('Gear Upgrade: Sharp III').rarity('Epic').maxStackSize(1).texture('kubejs:item/upgrades/sharp3')
-event.create('upgrade_force').displayName('Gear Upgrade: Forceful').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/force')
-event.create('upgrade_prof').displayName('Gear Upgrade: Proficiency Gain').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/profgain')
+  event.create('fortune_cookie').displayName('Fortune Cookie').food(f => { f.hunger(2).saturation(0.1) });
+  event.create('book_old').displayName('Battered Old Book');
+  event.create('book_ancient').displayName('Ancient Book');
+  event.create('canned_food').displayName('Canned Food');
+  event.create('lost_bag').displayName('Lost Bag');
+  event.create('ore_bag').displayName('Ore Bag');
+  event.create('reagent_box').displayName('Reagent Box');
+  event.create('detonator').displayName('Detonator').unstackable();
+  event.create('rusty_key').displayName('Rusty Key');
+  event.create('unstable_battery').displayName('Unstable Battery').unstackable();
+  event.create('emergency_flare').displayName('Emergency Flare');
+  event.create('bee_jar').displayName('Jar of Distraction').unstackable();
+  event.create('data_slate').displayName('Encoded Data Slate');
+  event.create('sentry_remote').displayName('Sentry Remote');
+  event.create('bioscan_syringe').displayName('Bio Extractor');
+  event.create('charged_stinger').displayName('Charged Stinger').food(food => { food.hunger(6).saturation(1.2); });
+  event.create('magnetic_grapple').displayName('Magnetic Grapple').maxDamage(32);
+  event.create('thermal_paste').displayName('Liquid Acid');
+  event.create('echo_locator').displayName('Echo-Locator').maxDamage(4);
+  event.create('kinetic_dampener').displayName('Kinetic Dampener').maxDamage(32).unstackable();
+  event.create('scavenger_magnet').displayName('Scavenger Magnet').maxDamage(100).unstackable();
+  event.create('translocation_coil').displayName('Translocation Coil').maxDamage(25).unstackable();
+  event.create('void_core').displayName('Void Core').unstackable();
 
-event.create('upgrade_heart').displayName('Gear Upgrade: Bulky').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/hp')
-event.create('upgrade_gilded').displayName('Gear Upgrade: Gilded').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/shieldheart2')
-event.create('upgrade_guarding').displayName('Gear Upgrade: Guarding').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/shield2')
-event.create('upgrade_sniping').displayName('Gear Upgrade: Sniping').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/eye')
-event.create('upgrade_quick').displayName('Gear Upgrade: Quick').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/arrow')
-event.create('upgrade_reach').displayName('Gear Upgrade: Block Reach').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/reach')
-event.create('upgrade_quickfeet').displayName('Gear Upgrade: Quickfeet').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/speed')
-event.create('upgrade_lifesteal').displayName('Gear Upgrade: Lifesteal').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/lifesteal')
-event.create('upgrade_fortress').displayName('Gear Upgrade: Fortress').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/pillar')
+  event.create('berserk_draught').displayName('Berserk Draught');
+  event.create('bottled_ice').displayName('Bottled Ice');
 
-event.create('defence').displayName('defence')
-event.create('armorpen').displayName('armorpen')
-event.create('backstab').displayName('backstab')
-event.create('parry').displayName('parry')
-event.create('dualwield').displayName('dualwield')
+  event.create('ancient_crate').displayName('§6Ancient Loot Crate').glow(true).tooltip('§7Right-click to open. §4Watch out for Mimics!');
+  // The Skeleton Key
+  event.create('skeleton_key').displayName('§bSkeleton Key').glow(true).tooltip('§7Bypasses crate cooldown and doubles Luck.');
+  // The Mimic Heart (Drop)
+  event.create('mimic_heart').displayName('§4Mimic Heart').tooltip('§7Still pulsing... used to craft Skeleton Keys.');
+  // The Ritual Crate (Element-themed)
+  event.create('ritual_crate').displayName('§6Ritualist\'s Offering').glow(true).tooltip('§7Must be opened in extreme environments.');
+  // The Chaos Crate (Challenge-themed)
+  event.create('chaos_crate').displayName('§5Crate of Discord').tooltip('§cWarning: Surivival not guaranteed.');
+  // The Wishing Well (Enchant-themed)
+  event.create('wishing_crate').displayName('§bWishing Well Crate').tooltip('§7May grant powerful, pre-enchanted Gear');
+  event.create('echo_crate').displayName('§6Echo Loot Crate');
+  event.create('botanical_crate').displayName('§6Botanical Loot Crate').maxStackSize(1);
+  //Astrolabe
+  event.create('echo_extractor')
+    .displayName('Echo Extractor')
+    .unstackable()
+    .glow(true);
 
-event.create('star').displayName('Star').glow(true)
-event.create('medal').displayName('Medal').glow(true).tag('artifacts:artifact').maxDamage(666)
-event.create('heart').displayName('Heart')
-event.create('heart-half').displayName('Half Heart')
-event.create('caution').displayName('Caution')
-event.create('chest').displayName('Chest')
-event.create('chest2').displayName('Chest 2')
-event.create('fire').displayName('Fire')
-event.create('forbid').displayName('Stop')
-event.create('help').displayName('Help')
-event.create('key').displayName('Key')
-event.create('key_01d').displayName('Old Key')
-event.create('lightning').displayName('Lightning')
-event.create('lock').displayName('Lock')
-event.create('lock-2').displayName('Lock Unlocked')
-event.create('mark').displayName('Mark')
-event.create('skull').displayName('Skull')
-event.create('skull2').displayName('Skull')
-event.create('skull3').displayName('Skull')
-event.create('ace').displayName('Ace of Spades')
-event.create('armour').displayName('Kit')
-event.create('bleed').displayName('Bleed')
-event.create('book2').displayName('Book')
-event.create('book3').displayName('Book')
-event.create('book4').displayName('Book')
-event.create('book_02f').displayName('Book')
-event.create('book_04g').displayName('Book')
-event.create('campfire').displayName('Fake Campfire')
-event.create('dice').displayName('Dice')
-event.create('letter').displayName('Letter')
-event.create('magnifier').displayName('Magnifying Glass')
-event.create('manuscript').displayName('Manuscript')
-event.create('map').displayName('Treasure Map')
-event.create('mine').displayName('Mine')
-event.create('ruby').displayName('Fake Ruby')
-event.create('magicscroll').displayName('Magic Scroll')
-event.create('slash').displayName('Slashing')
-event.create('spellbook_01d').displayName('Spellbook')
-event.create('spyglass').displayName('Spyglass')
-event.create('levelup').displayName('Level Up')
-event.create('shield').displayName('Shield')
-event.create('amulet').displayName('Amulet')
-event.create('rucksack').displayName('Rucksack')
-event.create('bomb').displayName('Bomb')
-event.create('dodge').displayName('Dodge')
-event.create('scaling').displayName('Scaling')
+  // The Consumable "Fuel"
+  event.create('blessed_incense')
+    .displayName('Blessed Incense')
+    .tooltip('§8Fuel for Echo Extractor. Smells of ancient ozone');
 
-event.create('obliterator', 'sword')
-        .displayName('§4The Obliterator')
-        .unstackable()
-        .glow(true)
-        .tooltip('§7One hit to rule them all...')
-        .tier('netherite') 
-        .attackDamageBaseline(10000);
-///END
-})
+  event.create('spam_voucher')
+    .displayName('§bBarnaby\'s Discount Voucher§r')
+    .texture('minecraft:item/paper') // Standard paper texture
+    .unstackable();
+
+  // The Reward Item (Generic until decrypted)
+  event.create('sealed_tome')
+    .displayName('Ancient Sealed Tome')
+    .glow(true)
+    .unstackable();
+
+  event.create('chronicle_of_echoes')
+    .displayName('Chronicle of Echoes')
+    .unstackable()
+    .texture('minecraft:item/writable_book')
+    .glow(true)
+    .tooltip('§7A record of your attunement to the spirit world.');
+
+  event.create('living_branch')
+    .displayName('Living Branch')
+    .maxDamage(64)
+    .unstackable()
+    .rarity('rare')
+    .glow(true);
+
+  event.create('entropic_cent')
+    .displayName("§6The Entropic Cent")
+    .maxDamage(8)
+    .unstackable()
+    .rarity('epic');
+
+  event.create('living_branch_bridging')
+    .displayName('Living Branch of Bridging')
+    .maxStackSize(1)
+    .unstackable()
+    .maxDamage(128);
+
+  event.create('buzzing_living_branch')
+    .displayName('Buzzing Living Branch')
+    .maxStackSize(1)
+    .unstackable()
+    .maxDamage(32);
+
+  event.create('d6')
+    .displayName('D6 Dice')
+    .maxStackSize(1)
+    .unstackable()
+    .maxDamage(32)
+    .texture('kubejs:item/dice');
+
+  event.create('d10')
+    .displayName('D10 Dice')
+    .maxStackSize(1)
+    .unstackable()
+    .maxDamage(32)
+    .texture('kubejs:item/dice');
+
+  event.create('d12')
+    .displayName('D12 Dice')
+    .maxStackSize(1)
+    .unstackable()
+    .maxDamage(32)
+    .texture('kubejs:item/dice');
+
+  event.create('d20')
+    .displayName('D20 Dice')
+    .maxStackSize(1)
+    .unstackable()
+    .maxDamage(32)
+    .texture('kubejs:item/dice');
+
+  event.create('unfinished_dice')
+    .displayName('Unfinished Dice')
+    .maxStackSize(1)
+    .unstackable()
+    .maxDamage(32)
+    .texture('kubejs:item/dice');
+
+  event.create('item_recycler')
+    .displayName('Portable Matter Recycler')
+    .unstackable();
+
+  event.create('recycling_journal')
+    .displayName('§bJournal of Recycling§r')
+    .unstackable()
+    .texture('minecraft:item/writable_book')
+    .glow(true);
+
+  event.create("gamble_coin")
+    .displayName('§6Gamble Coin')
+    .maxDamage(32)
+    .maxStackSize(1)
+    .rarity("EPIC");
+
+  //exchange coins
+  event.create('coin_01').displayName('Coin').tooltip('Acquired by selling valuable materials');
+  event.create('coin_02').displayName('Couple of Coins').tooltip('Acquired by selling valuable materials');
+  event.create('coin_03').displayName('Stack of Coins').tooltip('Acquired by selling valuable materials');
+  event.create('coin_04').displayName('Pile of Coins').tooltip('Acquired by selling valuable materials');
+  event.create('coin_05').displayName('Dozen of Coins').tooltip('Acquired by selling valuable materials');
+  event.create('coin_06').displayName('Bunch of Coins').tooltip('Acquired by selling valuable materials');
+
+  event.create('quest_bundle').displayName('Leather Bundle').tooltip('Quest Item');
+  event.create('quest_note').displayName('Note').tooltip('Quest Item');
+  event.create('quest_crate').displayName('Crate').tooltip('Quest Item');
+
+  event.create('great_soul').displayName('Great Soul').rarity('Epic');
+
+  //gear upgrades;
+  event.create('scroll_proficiency').displayName('Proficiency Scroll').rarity('Epic').texture('kubejs:item/manuscript');
+
+  event.create('upgrade_blank').displayName('Blank Gear Upgrade').texture('kubejs:item/upgrades/gear_upgrade_blank');
+  event.create('upgrade_swift').displayName('Gear Upgrade: Swift I').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/upgrade');
+  event.create('upgrade_swift2').displayName('Gear Upgrade: Swift II').rarity('Rare').maxStackSize(1).texture('kubejs:item/upgrades/upgrade2');
+  event.create('upgrade_swift3').displayName('Gear Upgrade: Swift III').rarity('Epic').maxStackSize(1).texture('kubejs:item/upgrades/upgrade3');
+  event.create('upgrade_sharp').displayName('Gear Upgrade: Sharp I').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/sharp');
+  event.create('upgrade_sharp2').displayName('Gear Upgrade: Sharp II').rarity('Rare').maxStackSize(1).texture('kubejs:item/upgrades/sharp2');
+  event.create('upgrade_sharp3').displayName('Gear Upgrade: Sharp III').rarity('Epic').maxStackSize(1).texture('kubejs:item/upgrades/sharp3');
+  event.create('upgrade_force').displayName('Gear Upgrade: Forceful').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/force');
+  event.create('upgrade_prof').displayName('Gear Upgrade: Proficiency Gain').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/profgain');
+
+  event.create('upgrade_heart').displayName('Gear Upgrade: Bulky').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/hp');
+  event.create('upgrade_gilded').displayName('Gear Upgrade: Gilded').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/shieldheart2');
+  event.create('upgrade_guarding').displayName('Gear Upgrade: Guarding').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/shield2');
+  event.create('upgrade_sniping').displayName('Gear Upgrade: Sniping').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/eye');
+  event.create('upgrade_quick').displayName('Gear Upgrade: Quick').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/arrow');
+  event.create('upgrade_reach').displayName('Gear Upgrade: Block Reach').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/reach');
+  event.create('upgrade_quickfeet').displayName('Gear Upgrade: Quickfeet').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/speed');
+  event.create('upgrade_lifesteal').displayName('Gear Upgrade: Lifesteal').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/lifesteal');
+  event.create('upgrade_fortress').displayName('Gear Upgrade: Fortress').rarity('Uncommon').maxStackSize(1).texture('kubejs:item/upgrades/pillar');
+
+  event.create('defence').displayName('defence');
+  event.create('armorpen').displayName('armorpen');
+  event.create('backstab').displayName('backstab');
+  event.create('parry').displayName('parry');
+  event.create('dualwield').displayName('dualwield');
+
+  event.create('star').displayName('Star').glow(true);
+  event.create('medal').displayName('Medal').glow(true).tag('artifacts:artifact').maxDamage(666);
+  event.create('heart').displayName('Heart');
+  event.create('heart-half').displayName('Half Heart');
+  event.create('caution').displayName('Caution');
+  event.create('chest').displayName('Chest');
+  event.create('chest2').displayName('Chest 2');
+  event.create('fire').displayName('Fire');
+  event.create('forbid').displayName('Stop');
+  event.create('help').displayName('Help');
+  event.create('key').displayName('Key');
+  event.create('key_01d').displayName('Old Key');
+  event.create('lightning').displayName('Lightning');
+  event.create('lock').displayName('Lock');
+  event.create('lock-2').displayName('Lock Unlocked');
+  event.create('mark').displayName('Mark');
+  event.create('skull').displayName('Skull');
+  event.create('skull2').displayName('Skull');
+  event.create('skull3').displayName('Skull');
+  event.create('ace').displayName('Ace of Spades');
+  event.create('armour').displayName('Kit');
+  event.create('bleed').displayName('Bleed');
+  event.create('book2').displayName('Book');
+  event.create('book3').displayName('Book');
+  event.create('book4').displayName('Book');
+  event.create('book_02f').displayName('Book');
+  event.create('book_04g').displayName('Book');
+  event.create('campfire').displayName('Fake Campfire');
+  event.create('dice').displayName('Dice');
+  event.create('letter').displayName('Letter');
+  event.create('magnifier').displayName('Magnifying Glass');
+  event.create('manuscript').displayName('Manuscript');
+  event.create('map').displayName('Treasure Map');
+  event.create('mine').displayName('Mine');
+  event.create('ruby').displayName('Fake Ruby');
+  event.create('magicscroll').displayName('Magic Scroll');
+  event.create('slash').displayName('Slashing');
+  event.create('spellbook_01d').displayName('Spellbook');
+  event.create('spyglass').displayName('Spyglass');
+  event.create('levelup').displayName('Level Up');
+  event.create('shield').displayName('Shield');
+  event.create('amulet').displayName('Amulet');
+  event.create('rucksack').displayName('Rucksack');
+  event.create('bomb').displayName('Bomb');
+  event.create('dodge').displayName('Dodge');
+  event.create('scaling').displayName('Scaling');
+
+  event.create('obliterator', 'sword')
+    .displayName('§4The Obliterator')
+    .unstackable()
+    .glow(true)
+    .tooltip('§7One hit to rule them all...')
+    .tier('netherite')
+    .attackDamageBaseline(10000);
+});
 
 StartupEvents.registry('fluid', event => {
+  event.create('molten_orichalcum')
+    .thickTexture(0xFFBF49)
+    .bucketColor(0xFFBF49)
+    .displayName('Molten Orichalcum')
+    .noBlock();
 
-	event.create('molten_orichalcum')
-		.thickTexture(0xFFBF49)
-		.bucketColor(0xFFBF49)
-		.displayName('Molten Orichalcum')
-		.noBlock()
-
-    event.create('aquaculture:molten_neptunium')
-        .thickTexture(0x17f4b8)
-        .bucketColor(0x17f4b8)
-        .displayName('Molten Neptunium')
-        .tag('aquaculture:molten_neptunium');	
-
-  /// END
-})
-
-StartupEvents.registry('block', event => {
-	// Register new blocks here
-	// event.create('example_block').material('wood').hardness(1.0).displayName('Example Block')
-})
-
-
-StartupEvents.postInit(event => { Platform.mods.kubejs.name = 'RAD 3'; });
+  event.create('aquaculture:molten_neptunium')
+    .thickTexture(0x17f4b8)
+    .bucketColor(0x17f4b8)
+    .displayName('Molten Neptunium')
+    .tag('aquaculture:molten_neptunium');
+});
