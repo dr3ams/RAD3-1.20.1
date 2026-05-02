@@ -1,0 +1,29 @@
+{
+    "values": [
+        "minecraft:zombie",
+        "minecraft:husk",
+        "minecraft:drowned",
+        {
+            "required": false,
+            "id": "#l2hostility:melee_weapon_target"
+        },
+        {
+            "required": false,
+            "id": "hmag:hornet"
+        },
+        {
+            "required": false,
+            "id": "hmag:imp"
+        },
+        {
+            "required": false,
+            "id": "hmag:kobold"
+        }
+    ],
+    "remove": [
+        {
+            "required": false,
+            "id": "hmag:ender_executor"
+        }
+    ]
+}

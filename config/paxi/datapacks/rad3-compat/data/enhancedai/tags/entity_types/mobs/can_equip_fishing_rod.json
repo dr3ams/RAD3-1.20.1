@@ -4,7 +4,13 @@
 		"minecraft:husk",
 		"minecraft:drowned",
 		"minecraft:zombie_villager",
-		"hmag:ghost",
-		"cataclysm:deepling_angler"
+		{
+			"required": false,
+			"id": "hmag:ghost"
+		},
+		{
+			"required": false,
+			"id": "cataclysm:deepling_angler"
+		}
 	]
 }

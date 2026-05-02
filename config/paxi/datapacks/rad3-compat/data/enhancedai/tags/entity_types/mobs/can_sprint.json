@@ -1,0 +1,32 @@
+{
+    "replace": true,
+    "values": [
+        "minecraft:zombie",
+        "minecraft:husk",
+        "minecraft:drowned",
+        "minecraft:piglin",
+        "minecraft:zombified_piglin",
+        "minecraft:piglin_brute",
+        "minecraft:vindicator",
+        "minecraft:wither_skeleton",
+        "minecraft:zombie_villager",
+        {
+            "required": false,
+            "id": "#l2hostility:melee_weapon_target"
+        },
+        {
+            "required": false,
+            "id": "hmag:imp"
+        },
+        {
+            "required": false,
+            "id": "hmag:kobold"
+        }
+    ],
+    "remove": [
+        {
+            "required": false,
+            "id": "hmag:ender_executor"
+        }
+    ]
+}
