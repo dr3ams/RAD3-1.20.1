@@ -517,7 +517,7 @@
 		#Range: 0.0 ~ 1.0
 		"Miner chance" = 1.0
 		#Mobs with Miner AI will spawn with a Stone Pickaxe that never drops.
-		"Equip stone pick" = true
+		"Equip stone pick" = false
 		#Mobs can mine from the bottom of the world to this Y level.
 		#Range: -512 ~ 1024
 		"Max y" = 32
@@ -530,7 +530,7 @@
 		"Block blacklist as whitelist" = false
 		#NONE: No item is required. ANY_TOOL: Any item that can break blocks in the off-hand is required. CORRECT_TOOL_FOR_REQUIRED: The mob is able to mine any blocks that don't require a tool, and require a tool for blocks that require it (e.g. can always mine dirt but can't mine stone). CORRECT_TOOL_FOR_ANY_BLOCK: The mob can only mine blocks if the tool is the right one for the block (e.g. can mine dirt only with a shovel).
 		#Allowed Values: NONE, ANY_TOOL, CORRECT_TOOL_FOR_REQUIRED, CORRECT_TOOL_FOR_ANY_BLOCK
-		"Tool requirement" = "CORRECT_TOOL_FOR_REQUIRED"
+		"Tool requirement" = "NONE"
 		#The maximum distance from the target at which the Mobs can mine. Set to 0 to always mine.
 		#Range: 0 ~ 128
 		"Max target distance" = 0
