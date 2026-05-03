@@ -161,7 +161,7 @@
 
 [Skeletons]
 	#Skeletons try to stay away from the target. Only entity types in `enhancedai:skeleton/can_flee` tag are affected by this feature. This disables itself if Skeleton Shoot feature is disabled
-	"Enable Skeleton flee target" = true
+	"Enable Skeleton flee target" = false
 	#Skeletons are more precise when shooting and can hit a target farther away. Only entity types in `enhancedai:skeleton/better_shooting` tag are affected by this feature
 	"Enable Skeleton shoot" = true
 	#Wither skeletons can shoot Wither arrows.
@@ -302,7 +302,7 @@
 	#Make mobs angry when a block is broken. Check the mod's config folder Mobs/Break Anger/break_anger_config.json to change blocks and entities triggered.
 	"Enable Break anger" = false
 	#Mobs can mine blocks to reach the target. Uses offhand item to mine. Only mobs in the entity type tag enhancedai:mobs/can_mine can spawn with the ability to mine and blocks in the tag enhancedai:miner_blacklist cannot be mined. This feature also adds the block reach attribute to all entities.
-	"Enable Miner mobs" = false
+	"Enable Miner mobs" = true
 	#Mobs can bite if are attacked with non-weapons. Only mobs in the enhancedai:mobs/biting_mobs/can_bite entity type tag can bite. Entity types in `mobs/biting_mobs/unaffected_by_bite` tag are unaffected by bites. Damage types in `biting_mobs/doesnt_trigger_bite` tag don't trigger biting mobs.
 	"Enable Biting mobs" = true
 	#Endermen will make the player's item fall from his hands. Add/remove mobs via the enhancedai:mobs/can_disrupt_item entity type tag
@@ -335,7 +335,7 @@
 	#Adds a new push resistance attribute to mobs. This is added to some vanilla mobs through MPR data pack
 	"Enable Push resistance" = true
 	#Make mobs flee from the target. Use the enhancedai:mobs/can_flee entity type tag to add/remove entities that are affected by this feature. Mobs like animals have they're own feature for fleeing the target due to having different conditions.
-	"Enable Flee target" = true
+	"Enable Flee target" = false
 	"Enable Fire immune ticks" = true
 	#Enables a Mobs Properties Randomness data pack that adds even more buffs to mobs.
 	"Enable MPR data pack" = true
@@ -515,12 +515,12 @@
 	[Mobs."Miner mobs"]
 		#Chance for a mob in the entity type tag enhancedai:can_be_miner to spawn with the miner ability
 		#Range: 0.0 ~ 1.0
-		"Miner chance" = 0.04
+		"Miner chance" = 1.0
 		#Mobs with Miner AI will spawn with a Stone Pickaxe that never drops.
 		"Equip stone pick" = true
 		#Mobs can mine from the bottom of the world to this Y level.
 		#Range: -512 ~ 1024
-		"Max y" = 320
+		"Max y" = 32
 		#Mobs with Miner AI will not be able to break tile entities
 		"Blacklist tile entities" = false
 		#Multiplier for the time a mob takes to break blocks. E.g. with this set to 2, mobs will take twice the time to mine a block.
@@ -728,7 +728,7 @@
 	[Mobs."Teleport anti-cheese"]
 		#Chance for entity types in the enhancedai:anti_cheese/teleport tag to get the Teleport Anti-Cheese AI, teleporting the target near them after not being able to reach them. Entity types in the tag enhancedai:anti_cheese/cant_be_teleported can't be teleported
 		#Range: 0.0 ~ 1.0
-		Chance = 1.0
+		Chance = 0.2
 
 	#Allows mobs to call reinforcements (like vanilla zombies can, but better) and have leaders that have a high chance to call reinforcements. Only entity types in the `enhancedai:mobs/leaders` tag can jump. PLEASE NOTE that this feature uses a custom attribute (enhancedai:spawn_reinforcements_chance) instead of the vanilla one. This feature has also an MPR condition `enhancedai:is_leader` to check if the mob is a leader.
 	[Mobs.Leaders]
