@@ -1,3 +1,2 @@
-WorldgenEvents.remove(event => {
-
-})
+WorldgenEvents.remove((_event) => {
+});
