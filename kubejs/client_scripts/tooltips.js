@@ -1482,9 +1482,6 @@ ItemEvents.tooltip(event =>{
 	event.addAdvanced('minecraft:reinforced_deepslate', (item, advanced, text) => {
     text.add(1, Text.of('Can only be harvested by a Sculkium Pickaxe').gray()) 
 	})
-	event.addAdvanced('minecraft:sculk', (item, advanced, text) => {
-    text.add(1, Text.of('Can be partially harvested with shears').gray()) 
-	})
 	event.addAdvanced('minecraft:brewing_stand', (item, advanced, text) => {
     text.add(1, Text.of('Can only be harvested by a pickaxe with Silk Touch').gray()) 
 	})
@@ -1536,8 +1533,8 @@ ItemEvents.tooltip(event =>{
 	event.addAdvanced('landsoficaria:hyliastrum_ore', (item, advanced, text) => {
     text.add(1, Text.of('Can only be harvested by a Sideros Pickaxe or better... or explosives').gray()) 
 	})
-	event.addAdvanced('pandorasbox:pandoras_box', (item, advanced, text) => {
-    text.add(1, Text.of('WARNING: EXTREME DANGER').red()) 
+	event.addAdvanced('minecraft:ender_eye', (item, advanced, text) => {
+    text.add(1, Text.of('Only End Remastered eyes can find the stronghold').gray()) 
 	})
 	event.addAdvanced('kubejs:great_soul', (item, advanced, text) => {
       text.add(1, [Text.of('The soul of a powerful monster').darkRed().italic(true)])
