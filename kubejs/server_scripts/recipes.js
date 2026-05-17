@@ -16,6 +16,8 @@ const removals = [
   "minecraft:chainmail_leggings",
   "minecraft:chainmail_chestplate",
   
+  "lrdynamicdungeon:dungeon_pass",
+  
 //  "sophisticatedbackpacks:stack_upgrade_starter_tier",
 //  "sophisticatedbackpacks:stack_upgrade_tier_1",
 //  "sophisticatedbackpacks:stack_upgrade_tier_2",
@@ -52,8 +54,7 @@ const removals = [
   "tomeofblood:archmage_tome_of_blood",
   "bloodmagic:daggerofsacrifice",
   "ars_instrumentum:fake_wilden_tribute",
-  "l2complements:eternal",
-  "l2complements:invincible",
+  "l2complements:eternal_anvil",
   "l2hostility:flaming_thorn",
   "l2hostility:book_of_omniscience",
   "l2hostility:ring_of_divinity",
@@ -168,8 +169,6 @@ const removals = [
   "nameless_trinkets:dubious_dust",
   "nameless_trinkets:ultimate_dust",
   "nameless_trinkets:glowing_dust",
-  "tombstone:book_of_recycling",
-  "tombstone:book_of_magic_impregnation",
   "toms_storage:ts.open_crate",
   "toms_storage:ts.inventory_proxy",
   "toms_storage:ts.wireless_terminal",
@@ -215,127 +214,39 @@ const removals = [
   "naturesaura:rf_converter",
   "aether_redux:veridium_lantern",
   "supplementaries:altimeter",
-  "trials:crafter",
   "dawnoftimebuilder:cobbled_limestone",
-  "pandorasbox:pandoras_box",
+  "dawnoftimebuilder:acacia_planks_plate",
+  "dawnoftimebuilder:bamboo_planks_plate",
+  "dawnoftimebuilder:birch_planks_plate",
+  "dawnoftimebuilder:cherry_planks_plate",
+  "dawnoftimebuilder:dark_oak_planks_plate",
+  "dawnoftimebuilder:jungle_planks_plate",
+  "dawnoftimebuilder:mangrove_planks_plate",
+  "dawnoftimebuilder:oak_planks_plate",
+  "dawnoftimebuilder:warped_planks_plate",
+  "dawnoftimebuilder:crimson_planks_plate",
+  "dawnoftimebuilder:stone_plate",
+  "dawnoftimebuilder:stone_bricks_plate",
+  "dawnoftimebuilder:cobblestone_plate",
+  "dawnoftimebuilder:sandstone_plate",
+  "dawnoftimebuilder:cut_sandstone_plate",
+  "dawnoftimebuilder:smooth_sandstone_plate",
   "betterarcheology:bomb",
   "cookingforblockheads:heating_unit",
   "fantasy_armor:moon_crystal"
 ];
 
-
-const upgradeMap = new Map([
-  [
-    "sophisticatedbackpacks:pickup_upgrade",
-    "sophisticatedstorage:pickup_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:advanced_pickup_upgrade",
-    "sophisticatedstorage:advanced_pickup_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:filter_upgrade",
-    "sophisticatedstorage:filter_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:advanced_filter_upgrade",
-    "sophisticatedstorage:advanced_filter_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:magnet_upgrade",
-    "sophisticatedstorage:magnet_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:advanced_magnet_upgrade",
-    "sophisticatedstorage:advanced_magnet_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:feeding_upgrade",
-    "sophisticatedstorage:feeding_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:advanced_feeding_upgrade",
-    "sophisticatedstorage:advanced_feeding_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:compacting_upgrade",
-    "sophisticatedstorage:compacting_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:advanced_compacting_upgrade",
-    "sophisticatedstorage:advanced_compacting_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:void_upgrade", 
-    "sophisticatedstorage:void_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:advanced_void_upgrade",
-    "sophisticatedstorage:advanced_void_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:smelting_upgrade",
-    "sophisticatedstorage:smelting_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:auto_smelting_upgrade",
-    "sophisticatedstorage:auto_smelting_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:smoking_upgrade",
-    "sophisticatedstorage:smoking_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:auto_smoking_upgrade",
-    "sophisticatedstorage:auto_smoking_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:blasting_upgrade",
-    "sophisticatedstorage:blasting_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:auto_blasting_upgrade",
-    "sophisticatedstorage:auto_blasting_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:crafting_upgrade",
-    "sophisticatedstorage:crafting_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:stonecutter_upgrade",
-    "sophisticatedstorage:stonecutter_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:jukebox_upgrade",
-    "sophisticatedstorage:jukebox_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:pump_upgrade",
-    "sophisticatedstorage:pump_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:advanced_pump_upgrade",
-    "sophisticatedstorage:advanced_pump_upgrade",
-  ],
-  [
-    "sophisticatedbackpacks:xp_pump_upgrade",
-    "sophisticatedstorage:xp_pump_upgrade",
-  ]
-]);					
-		
-					
-  
 ServerEvents.recipes((event) => {
   // Change recipes here
   removals.forEach((element) => {
     event.remove({ output: element });
   });
 
-  upgradeMap.forEach((key, value) => {
-    event.shapeless(Item.of(key), [Item.of(value)]);
-    event.shapeless(Item.of(value), [Item.of(key)]);
-  });	
+  event.remove({ id: 'sophisticatedbackpacks:advanced_magnet_upgrade' })
+  event.remove({ id: 'sophisticatedstorage:advanced_magnet_upgrade' })
 
+
+  // shapeless recipes
   event.shapeless("sophisticatedbackpacks:crafting_upgrade", [
     "minecraft:crafting_table",
     "sophisticatedbackpacks:upgrade_base",
@@ -394,7 +305,7 @@ ServerEvents.recipes((event) => {
   event.replaceInput(
     { output: "sophisticatedbackpacks:everlasting_upgrade" },
     "minecraft:nether_star",
-    "l2complements:eternium_nugget"
+    "l2complements:eternium_ingot"
   );
   event.replaceInput(
     { output: "sophisticatedbackpacks:inception_upgrade" },
@@ -404,7 +315,7 @@ ServerEvents.recipes((event) => {
   event.replaceInput(
     { output: "sophisticatedbackpacks:anvil_upgrade" },
     "minecraft:diamond",
-    "l2complements:eternium_nugget"
+    "hmag:multiplex_reinforcing_chain"
   );
   event.replaceInput(
     { output: "sophisticatedbackpacks:xp_pump_upgrade" },
@@ -416,16 +327,20 @@ ServerEvents.recipes((event) => {
     "minecraft:redstone",
     "spelunkery:cinnabar"
   );
-  event.shapeless(
-  Item.of('sophisticatedbackpacks:magnet_upgrade', 1),
-  [
+  event.shapeless('sophisticatedbackpacks:magnet_upgrade', [
     'sophisticatedbackpacks:pickup_upgrade',
     'spelunkery:item_magnet'
   ]);
-  event.shapeless(
-  Item.of('sophisticatedstorage:magnet_upgrade', 1),
-  [
+  event.shapeless('sophisticatedbackpacks:advanced_magnet_upgrade', [
+    'sophisticatedbackpacks:advanced_pickup_upgrade',
+    'spelunkery:item_magnet'
+  ]);
+  event.shapeless('sophisticatedstorage:magnet_upgrade', [
     'sophisticatedstorage:pickup_upgrade',
+    'spelunkery:item_magnet'
+  ]);
+  event.shapeless('sophisticatedstorage:advanced_magnet_upgrade', [
+    'sophisticatedstorage:advanced_pickup_upgrade',
     'spelunkery:item_magnet'
   ]);
   
@@ -823,6 +738,14 @@ ServerEvents.recipes((event) => {
 	H: 'celestial_core:heart_fragment',
 	C: 'nameless_trinkets:cracked_crown'
   });
+  event.shaped('l2complements:eternal_anvil', [
+    'BBB',
+    ' I ',
+    'III'
+	], {
+    I: 'l2complements:eternium_ingot',
+	B: 'l2complements:eternium_block'
+  });
   event.shaped('l2hostility:flaming_thorn', [
     ' F ',
     ' T ',
@@ -975,20 +898,6 @@ ServerEvents.recipes((event) => {
   event.blasting('3x minecraft:iron_nugget', 'dungeonsdelight:stained_scrap', 0.1, 50);
   event.blasting('minecraft:iron_ingot', 'dungeonsdelight:stained_scrap_block', 0.5, 200);
   
-  event.shapeless(
-  Item.of('tombstone:essence_of_undeath', 1),
-  [
-    '2x #forge:ash',
-    'celestial_core:death_essence',
-    'minecraft:glass_bottle'
-  ]);
-  event.shapeless(
-  Item.of('tombstone:essence_of_undeath', 1),
-  [
-    '2x #forge:ash',
-    'endrem:undead_soul',
-    'minecraft:glass_bottle'
-  ]);
   event.shapeless(
   Item.of('minecraft:heart_of_the_sea', 1),
   [
@@ -1216,147 +1125,6 @@ ServerEvents.recipes((event) => {
     "ars_nouveau:enchanters_sword"
   );
 
-//masteries stuff
-	event.shaped('kubejs:portable_dissolver', [
-    'EGE',
-    'GRG',
-    'ALA'
-	], {
-    E: 'kubejs:dust_experience',
-	G: 'minecraft:glass',
-	R: 'minecraft:repeater',
-	A: 'minecraft:amethyst_shard',
-	L: 'minecraft:lapis_lazuli'
-	})
-
-	event.shapeless('2x kubejs:dust_experience', [
-    'kubejs:portable_dissolver',
-    'kubejs:scroll_exp'
-	]).damageIngredient(Item.of('kubejs:portable_dissolver'))
-  
-	event.shapeless('kubejs:dust_experience', [
-    'kubejs:portable_dissolver',
-    'minecraft:experience_bottle'
-	]).damageIngredient(Item.of('kubejs:portable_dissolver'))
-  
-	event.shapeless('2x kubejs:dust_experience', [
-    'kubejs:portable_dissolver',
-    'minecraft:lapis_lazuli'
-	]).damageIngredient(Item.of('kubejs:portable_dissolver'))
-  
-	event.shapeless('kubejs:dust_experience', [
-    'kubejs:portable_dissolver',
-    'minecraft:amethyst_block'
-	]).damageIngredient(Item.of('kubejs:portable_dissolver'))
-  
-	event.shapeless('2x kubejs:dust_experience', [
-    'kubejs:portable_dissolver',
-    'kubejs:spawnercore'
-	]).damageIngredient(Item.of('kubejs:portable_dissolver'))
-
-	event.shapeless('5x kubejs:dust_experience', [
-    'kubejs:portable_dissolver',
-    'shieldinghealth:power_token'
-	]).damageIngredient(Item.of('kubejs:portable_dissolver'))
-
-	event.shaped('kubejs:portable_transmutator', [
-    'EGE',
-    'GRG',
-    'ALA'
-	], {
-    E: 'kubejs:dust_alchemical',
-	G: 'minecraft:glass',
-	R: 'minecraft:comparator',
-	A: 'minecraft:amethyst_shard',
-	L: 'minecraft:lapis_lazuli'
-	})
-	
-	event.shapeless('2x kubejs:dust_alchemical', [
-    'kubejs:portable_transmutator',
-    'minecraft:ender_pearl'
-	]).damageIngredient(Item.of('kubejs:portable_transmutator'))
-  
-	event.shapeless('2x kubejs:dust_alchemical', [
-    'kubejs:portable_transmutator',
-    'minecraft:blaze_powder'
-	]).damageIngredient(Item.of('kubejs:portable_transmutator'))
-  
-	event.shapeless('2x kubejs:dust_alchemical', [
-    'kubejs:portable_transmutator',
-    'apotheosis:gem_dust'
-	]).damageIngredient(Item.of('kubejs:portable_transmutator'))
-    
-	event.shapeless('2x kubejs:dust_alchemical', [
-    'kubejs:portable_transmutator',
-    'kubejs:spawnercore'
-	]).damageIngredient(Item.of('kubejs:portable_transmutator'))
-
-	event.shapeless('5x kubejs:dust_alchemical', [
-    'kubejs:portable_transmutator',
-    'shieldinghealth:power_token'
-	]).damageIngredient(Item.of('kubejs:portable_transmutator'))  
-  
-  	event.shaped('kubejs:portable_salvager', [
-    'EGE',
-    'GRG',
-    'ALA'
-	], {
-    E: 'kubejs:scraps',
-	G: 'minecraft:glass',
-	R: 'minecraft:comparator',
-	A: 'minecraft:amethyst_shard',
-	L: 'minecraft:lapis_lazuli'
-	})
-	
-	event.shaped('kubejs:sifter', [
-    'TTT',
-    'SSS',
-    'TTT'
-	], {
-    S: 'minecraft:string',
-	T: 'minecraft:stick'
-	})
-	
-	event.shapeless('kubejs:sifted_dust', [
-    'kubejs:sifter',
-    'spelunkery:dust_block'
-	]).damageIngredient(Item.of('kubejs:sifter'))
-	
-	event.shapeless('2x kubejs:scraps', [
-    'kubejs:portable_salvager',
-    'minecraft:ender_pearl'
-	]).damageIngredient(Item.of('kubejs:portable_salvager'))
-	
-	event.shapeless('kubejs:scraps', [
-    'kubejs:portable_salvager',
-    'minecraft:raw_copper_block'
-	]).damageIngredient(Item.of('kubejs:portable_salvager'))
-  
-	event.shapeless('2x kubejs:scraps', [
-    'kubejs:portable_salvager',
-    'minecraft:blaze_powder'
-	]).damageIngredient(Item.of('kubejs:portable_salvager'))
-  
-	event.shapeless('2x kubejs:scraps', [
-    'kubejs:portable_salvager',
-    'apotheosis:gem_dust'
-	]).damageIngredient(Item.of('kubejs:portable_salvager'))
-  
-  	event.shapeless('kubejs:scraps', [
-    'kubejs:portable_salvager',
-    'minecraft:gold_block'
-	]).damageIngredient(Item.of('kubejs:portable_salvager'))
-  
-	event.shapeless('2x kubejs:scraps', [
-    'kubejs:portable_salvager',
-    'kubejs:spawnercore'
-	]).damageIngredient(Item.of('kubejs:portable_salvager'))
-	
-	event.shapeless('5x kubejs:scraps', [
-    'kubejs:portable_salvager',
-    'shieldinghealth:power_token'
-	]).damageIngredient(Item.of('kubejs:portable_salvager'))
-	
 	event.shaped('kubejs:upgrade_blank', [
     'CGC',
     'CPC',
@@ -1477,6 +1245,5 @@ ServerEvents.recipes((event) => {
 });
 
     
-
 
 
