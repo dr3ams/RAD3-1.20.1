@@ -16,8 +16,6 @@ const removals = [
   "minecraft:chainmail_leggings",
   "minecraft:chainmail_chestplate",
   
-  "lrdynamicdungeon:dungeon_pass",
-  
 //  "sophisticatedbackpacks:stack_upgrade_starter_tier",
 //  "sophisticatedbackpacks:stack_upgrade_tier_1",
 //  "sophisticatedbackpacks:stack_upgrade_tier_2",
@@ -396,7 +394,7 @@ ServerEvents.recipes((event) => {
   event.replaceInput(
     { output: "sophisticatedbackpacks:everlasting_upgrade" },
     "minecraft:nether_star",
-    "l2complements:eternium_ingot"
+    "l2complements:eternium_nugget"
   );
   event.replaceInput(
     { output: "sophisticatedbackpacks:inception_upgrade" },
@@ -406,7 +404,7 @@ ServerEvents.recipes((event) => {
   event.replaceInput(
     { output: "sophisticatedbackpacks:anvil_upgrade" },
     "minecraft:diamond",
-    "l2complements:eternium_ingot"
+    "l2complements:eternium_nugget"
   );
   event.replaceInput(
     { output: "sophisticatedbackpacks:xp_pump_upgrade" },
@@ -976,8 +974,21 @@ ServerEvents.recipes((event) => {
   event.blasting('aquaculture:neptunium_ingot', 'aquaculture:neptunes_bounty', 1.0);
   event.blasting('3x minecraft:iron_nugget', 'dungeonsdelight:stained_scrap', 0.1, 50);
   event.blasting('minecraft:iron_ingot', 'dungeonsdelight:stained_scrap_block', 0.5, 200);
-
-
+  
+  event.shapeless(
+  Item.of('tombstone:essence_of_undeath', 1),
+  [
+    '2x #forge:ash',
+    'celestial_core:death_essence',
+    'minecraft:glass_bottle'
+  ]);
+  event.shapeless(
+  Item.of('tombstone:essence_of_undeath', 1),
+  [
+    '2x #forge:ash',
+    'endrem:undead_soul',
+    'minecraft:glass_bottle'
+  ]);
   event.shapeless(
   Item.of('minecraft:heart_of_the_sea', 1),
   [
@@ -1205,6 +1216,147 @@ ServerEvents.recipes((event) => {
     "ars_nouveau:enchanters_sword"
   );
 
+//masteries stuff
+	event.shaped('kubejs:portable_dissolver', [
+    'EGE',
+    'GRG',
+    'ALA'
+	], {
+    E: 'kubejs:dust_experience',
+	G: 'minecraft:glass',
+	R: 'minecraft:repeater',
+	A: 'minecraft:amethyst_shard',
+	L: 'minecraft:lapis_lazuli'
+	})
+
+	event.shapeless('2x kubejs:dust_experience', [
+    'kubejs:portable_dissolver',
+    'kubejs:scroll_exp'
+	]).damageIngredient(Item.of('kubejs:portable_dissolver'))
+  
+	event.shapeless('kubejs:dust_experience', [
+    'kubejs:portable_dissolver',
+    'minecraft:experience_bottle'
+	]).damageIngredient(Item.of('kubejs:portable_dissolver'))
+  
+	event.shapeless('2x kubejs:dust_experience', [
+    'kubejs:portable_dissolver',
+    'minecraft:lapis_lazuli'
+	]).damageIngredient(Item.of('kubejs:portable_dissolver'))
+  
+	event.shapeless('kubejs:dust_experience', [
+    'kubejs:portable_dissolver',
+    'minecraft:amethyst_block'
+	]).damageIngredient(Item.of('kubejs:portable_dissolver'))
+  
+	event.shapeless('2x kubejs:dust_experience', [
+    'kubejs:portable_dissolver',
+    'kubejs:spawnercore'
+	]).damageIngredient(Item.of('kubejs:portable_dissolver'))
+
+	event.shapeless('5x kubejs:dust_experience', [
+    'kubejs:portable_dissolver',
+    'shieldinghealth:power_token'
+	]).damageIngredient(Item.of('kubejs:portable_dissolver'))
+
+	event.shaped('kubejs:portable_transmutator', [
+    'EGE',
+    'GRG',
+    'ALA'
+	], {
+    E: 'kubejs:dust_alchemical',
+	G: 'minecraft:glass',
+	R: 'minecraft:comparator',
+	A: 'minecraft:amethyst_shard',
+	L: 'minecraft:lapis_lazuli'
+	})
+	
+	event.shapeless('2x kubejs:dust_alchemical', [
+    'kubejs:portable_transmutator',
+    'minecraft:ender_pearl'
+	]).damageIngredient(Item.of('kubejs:portable_transmutator'))
+  
+	event.shapeless('2x kubejs:dust_alchemical', [
+    'kubejs:portable_transmutator',
+    'minecraft:blaze_powder'
+	]).damageIngredient(Item.of('kubejs:portable_transmutator'))
+  
+	event.shapeless('2x kubejs:dust_alchemical', [
+    'kubejs:portable_transmutator',
+    'apotheosis:gem_dust'
+	]).damageIngredient(Item.of('kubejs:portable_transmutator'))
+    
+	event.shapeless('2x kubejs:dust_alchemical', [
+    'kubejs:portable_transmutator',
+    'kubejs:spawnercore'
+	]).damageIngredient(Item.of('kubejs:portable_transmutator'))
+
+	event.shapeless('5x kubejs:dust_alchemical', [
+    'kubejs:portable_transmutator',
+    'shieldinghealth:power_token'
+	]).damageIngredient(Item.of('kubejs:portable_transmutator'))  
+  
+  	event.shaped('kubejs:portable_salvager', [
+    'EGE',
+    'GRG',
+    'ALA'
+	], {
+    E: 'kubejs:scraps',
+	G: 'minecraft:glass',
+	R: 'minecraft:comparator',
+	A: 'minecraft:amethyst_shard',
+	L: 'minecraft:lapis_lazuli'
+	})
+	
+	event.shaped('kubejs:sifter', [
+    'TTT',
+    'SSS',
+    'TTT'
+	], {
+    S: 'minecraft:string',
+	T: 'minecraft:stick'
+	})
+	
+	event.shapeless('kubejs:sifted_dust', [
+    'kubejs:sifter',
+    'spelunkery:dust_block'
+	]).damageIngredient(Item.of('kubejs:sifter'))
+	
+	event.shapeless('2x kubejs:scraps', [
+    'kubejs:portable_salvager',
+    'minecraft:ender_pearl'
+	]).damageIngredient(Item.of('kubejs:portable_salvager'))
+	
+	event.shapeless('kubejs:scraps', [
+    'kubejs:portable_salvager',
+    'minecraft:raw_copper_block'
+	]).damageIngredient(Item.of('kubejs:portable_salvager'))
+  
+	event.shapeless('2x kubejs:scraps', [
+    'kubejs:portable_salvager',
+    'minecraft:blaze_powder'
+	]).damageIngredient(Item.of('kubejs:portable_salvager'))
+  
+	event.shapeless('2x kubejs:scraps', [
+    'kubejs:portable_salvager',
+    'apotheosis:gem_dust'
+	]).damageIngredient(Item.of('kubejs:portable_salvager'))
+  
+  	event.shapeless('kubejs:scraps', [
+    'kubejs:portable_salvager',
+    'minecraft:gold_block'
+	]).damageIngredient(Item.of('kubejs:portable_salvager'))
+  
+	event.shapeless('2x kubejs:scraps', [
+    'kubejs:portable_salvager',
+    'kubejs:spawnercore'
+	]).damageIngredient(Item.of('kubejs:portable_salvager'))
+	
+	event.shapeless('5x kubejs:scraps', [
+    'kubejs:portable_salvager',
+    'shieldinghealth:power_token'
+	]).damageIngredient(Item.of('kubejs:portable_salvager'))
+	
 	event.shaped('kubejs:upgrade_blank', [
     'CGC',
     'CPC',
@@ -1325,5 +1477,6 @@ ServerEvents.recipes((event) => {
 });
 
     
+
 
 
