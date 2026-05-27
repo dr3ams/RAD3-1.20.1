@@ -1,11 +1,25 @@
 {
   "replace": false,
   "values": [
-    "cataclysm:ancient_ancient_remnant",
-    "graveyard:lich",
-    "mowziesmobs:ferrous_wroughtnaut",
-    "mowziesmobs:frostmaw",
-    "mowziesmobs:sculptor",
-    "mowziesmobs:umvuthi"
+    {
+        "required": false,
+        "id": "graveyard:lich"
+    },
+    {
+        "required": false,
+        "id": "mowziesmobs:ferrous_wroughtnaut"
+    },
+    {
+        "required": false,
+        "id": "mowziesmobs:frostmaw"
+    },
+    {
+        "required": false,
+        "id": "mowziesmobs:sculptor"
+    },
+    {
+        "required": false,
+        "id": "mowziesmobs:umvuthi"
+    }
   ]
 }
