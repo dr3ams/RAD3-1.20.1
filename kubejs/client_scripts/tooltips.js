@@ -1473,6 +1473,9 @@ ItemEvents.tooltip(event =>{
 	event.addAdvanced('hmag:bat_stew', (item, advanced, text) => {
     text.add(1, Text.of('Gives darkness immunity').gray()) 
 	})
+	event.addAdvanced('hmag:evil_arrow', (item, advanced, text) => {
+    text.add(1, Text.of('Bypasses armor, enchantments and effects').gray()) 
+	})
 	event.addAdvanced('#hmag:reinforced_blocks', (item, advanced, text) => {
     text.add(1, Text.of('Immune to Withers').gray()) 
 	})
