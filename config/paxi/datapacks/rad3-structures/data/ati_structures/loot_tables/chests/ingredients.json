@@ -1,0 +1,263 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 3,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sugar",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_tear",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fermented_spider_eye",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_wart",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blaze_powder",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:8991416,CustomPotionEffects:[{Id:1,Duration:1600,Amplifier:10},{Id:9,Duration:1600,Amplifier:10},{Id:27,Duration:1600,Amplifier:10},{Id:31,Duration:1600,Amplifier:10}],display:{Name:'[\"\",{\"text\":\"Arrow of Lobotomy\",\"italic\":false,\"color\":\"light_purple\"}]',Lore:['[\"\",{\"text\":\"Very fun to be hit by\",\"italic\":false}]']}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:8991416,CustomPotionEffects:[{Id:14,Duration:1200},{Id:24,Duration:1200},{Id:12,Duration:1200,Amplifier:1}],display:{Name:'[\"\",{\"text\":\"Skibidi \",\"italic\":false,\"color\":\"#0099cc\"},{\"text\":\"Elixir\",\"italic\":false,\"color\":\"light_purple\"}]',Lore:['[\"\",{\"text\":\"Just as amazing as it sounds\",\"italic\":false}]']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Trim:{pattern:spire,material:emerald},display:{color:6197270,Name:'[\"\",{\"text\":\"Tree Tunic\",\"italic\":false,\"color\":\"green\"}]',Lore:['[\"\",{\"text\":\"Made from magical flora\",\"italic\":false,\"color\":\"dark_green\"}]']},Enchantments:[{lvl:4,id:thorns},{lvl:6,id:\"radenchants:rejuvenate\"},{lvl:1,id:\"naturesaura:aura_mending\"},        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[\"\",{\"text\":\"Here be Treasure\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[\"\",{\"text\":\"Treasure huntin my beloved\",\"italic\":false,\"color\":\"yellow\"}]']},Enchantments:[{lvl:7,id:luck_of_the_sea},{lvl:3,id:unbreaking}]}"
+            }
+          ]
+        },]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Trim:{pattern:sentry,material:diamond},display:{color:3847130,Name:'[\"\",{\"text\":\"Aquatic Cap\",\"italic\":false,\"color\":\"aqua\"}]',Lore:['[\"\",{\"text\":\"Perfect for an\",\"italic\":false,\"color\":\"dark_aqua\"}]','[\"\",{\"text\":\"afternoon swim\",\"italic\":false,\"color\":\"dark_aqua\"}]']},Enchantments:[{lvl:1,id:aqua_affinity},{lvl:2,id:protection},{lvl:5,id:respiration},{lvl:5,id:unbreaking}]}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:popped_chorus_fruit",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_hide",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glass_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ink_sac",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 12
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": {
+          "min": 1,
+          "max": 6
+        },
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ore",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 15
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 10,
+                "max": 15
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:deepslate_gold_ore",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 15
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_block",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tuff",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 10,
+                "max": 15
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobbled_deepslate",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 10,
+                "max": 15
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 10,
+                "max": 15
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_gold_ore",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[\"\",{\"text\":\"Ancient \",\"italic\":false,\"color\":\"red\"},{\"text\":\"Chinese \",\"italic\":false,\"color\":\"dark_red\"},{\"text\":\"Harvesting \",\"italic\":false,\"color\":\"dark_green\"},{\"text\":\"tool\",\"italic\":false,\"color\":\"red\"}]',Lore:['[\"\",{\"text\":\"Yields mass harvests\",\"italic\":false,\"color\":\"#ff9999\"}]']},Enchantments:[{lvl:5,id:fortune},{lvl:2,id:unbreaking},{lvl:1,id:\"apotheosis:tempting\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:gold_rapier",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[\"\",{\"text\":\"The Great Épée\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[\"\",{\"text\":\"I feel so epee\",\"italic\":false,\"color\":\"yellow\"}]']},Enchantments:[{lvl:10,id:\"apotheosis:bane_of_illagers\"},{lvl:2,id:unbreaking},{lvl:1,id:\"radenchants:soul_mending\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:gold_claymore",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[\"\",{\"text\":\"Mohammed Sumbul\\'s Sword\",\"italic\":false,\"color\":\"blue\"}]',Lore:['[\"\",{\"text\":\"Now that is a big weapon sir\",\"italic\":false,\"color\":\"dark_aqua\"}]']},Enchantments:[{lvl:3,id:\"radenchants:tiger_claws\"},{lvl:3,id:sweeping},{lvl:2,id:unbreaking}]}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Trim:{pattern:ward,material:diamond},display:{Name:'[\"\",{\"text\":\"The crown of \",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"Alexander The Great\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[\"\",{\"text\":\"Made of pure 24 carat gold\",\"italic\":false,\"color\":\"yellow\"}]']},Enchantments:[{lvl:5,id:\"radenchants:glare\"},{lvl:1,id:\"l2complements:hardened\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[\"\",{\"text\":\"Golden Pomegranate\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[\"\",{\"text\":\"Fruit of the gods\",\"italic\":false,\"color\":\"yellow\"}]']},Enchantments:[{lvl:1,id:\"l2complements:eternal\"},{lvl:1,id:\"l2complements:invincible\"},{lvl:1,id:\"l2hostility:vanish\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_shovel",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[\"\",{\"text\":\"Odins Mace\",\"italic\":false,\"color\":\"#66cc99\"}]',Lore:['[\"\",{\"text\":\"A powerful mace (not a shovel)\",\"italic\":false,\"color\":\"dark_green\"}]']},Enchantments:[{lvl:3,id:knockback},{lvl:5,id:sharpness}]}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_boots"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:enchant_with_levels",
+          "levels": {
+            "min": 0,
+            "max": 30
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_axe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_shovel"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_sword"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:enchant_with_levels",
+          "levels": {
+            "min": 0,
+            "max": 40
+          }
+        }
+      ]
+    }
+  ]
+}
