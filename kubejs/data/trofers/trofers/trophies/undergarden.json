@@ -8,8 +8,7 @@
     "scale": 2.0
   },
   "item": {
-    "item": "undergarden:catalyst",
-    "count": 1
+    "item": "undergarden:catalyst"
   },
   "animation": {
     "type": "spinning",
@@ -18,5 +17,17 @@
   "name": {
     "color": "#f6ba47",
     "text": "Undergarden Quests Completion Trophy"
+  },
+  "tooltip": {
+	"text": "Grants immunity to Virulence"
+  },
+  "effects": {
+		"rewards": {
+				"statusEffect": {
+					"effect": "undergarden:virulent_resistance",
+					"duration": 10000
+				},
+				"cooldown": 15000
+		}
   }
 }

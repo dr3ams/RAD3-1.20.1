@@ -8,8 +8,7 @@
     "scale": 2.0
   },
   "item": {
-    "item": "landsoficaria:greek_fire_grenade",
-    "count": 1
+    "item": "landsoficaria:greek_fire_grenade"
   },
   "animation": {
     "type": "spinning",
@@ -18,5 +17,17 @@
   "name": {
     "color": "#f6ba47",
     "text": "Icaria Quests Completion Trophy"
+  },
+  "tooltip": {
+	"text": "Grants Slow Falling effect"
+  },
+  "effects": {
+		"rewards": {
+				"statusEffect": {
+					"effect": "minecraft:slow_falling",
+					"duration": 10000
+				},
+				"cooldown": 15000
+		}
   }
 }

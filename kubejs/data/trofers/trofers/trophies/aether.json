@@ -8,8 +8,7 @@
     "scale": 2.0
   },
   "item": {
-    "item": "ancient_aether:ancient_dungeon_key",
-    "count": 1
+    "item": "ancient_aether:ancient_dungeon_key"
   },
   "animation": {
     "type": "spinning",
@@ -18,5 +17,17 @@
   "name": {
     "color": "#f6ba47",
     "text": "Aether Quests Completion Trophy"
+  },
+  "tooltip": {
+	"text": "Grants resistance to damage from undead mobs"
+  },
+  "effects": {
+		"rewards": {
+				"statusEffect": {
+					"effect": "minecraft:slow_falling",
+					"duration": 4000
+				},
+				"cooldown": 15000
+		}
   }
 }
