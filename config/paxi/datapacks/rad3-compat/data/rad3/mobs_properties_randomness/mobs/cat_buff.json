@@ -1,0 +1,33 @@
+{
+    "target": "minecraft:cat",
+    "properties": [
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "minecraft:generic.max_health",
+	    "modifier_name": "Cat Health",
+	    "amount": {
+	        "min": 10,
+	        "max": 10
+	    },
+	    "operation": "addition"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "attributeslib:dodge_chance",
+	    "modifier_name": "Cat Reflexes",
+	    "amount": {
+	        "min": 0.25,
+	        "max": 0.25
+	    },
+	    "operation": "addition"
+	},
+        {
+	    "property": "raw_nbt",
+	    "nbt": "{Tags:[\"sh_shielded\"]}"
+	}
+    ],
+    "conditions": [
+    ],
+    "priority": 0,
+    "event_priority": "LOW"
+}

@@ -1,0 +1,39 @@
+{
+    "target": "minecraft:donkey",
+    "properties": [
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "minecraft:generic.movement_speed",
+	    "modifier_name": "Horse Speed",
+	    "amount": {
+	        "min": 0.3,
+	        "max": 0.3
+	    },
+	    "operation": "multiply_base"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "forge:swim_speed",
+	    "modifier_name": "Horse Swim Speed",
+	    "amount": {
+	        "min": 0.3,
+	        "max": 0.3
+	    },
+	    "operation": "multiply_base"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "minecraft:horse.jump_strength",
+	    "modifier_name": "Horse Jump",
+	    "amount": {
+	        "min": 0.35,
+	        "max": 0.35
+	    },
+	    "operation": "multiply_base"
+	}
+    ],
+    "conditions": [
+    ],
+    "priority": 0,
+    "event_priority": "LOW"
+}

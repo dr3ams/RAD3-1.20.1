@@ -7,12 +7,12 @@
 	[tools_and_abilities.suns_blessing]
 		#Duration in minutes of the Sun's Blessing effect.
 		#Range: > 0
-		suns_blessing_duration = 60
+		suns_blessing_duration = 180
 		#Range: 0.0 ~ 1.7976931348623157E308
-		suns_blessing_attack_multiplier = 1.0
+		suns_blessing_attack_multiplier = 6.0
 		#Cost in minutes of using the solar beam ability.
 		#Range: > 0
-		solar_beam_cost = 5
+		solar_beam_cost = 1
 
 	[tools_and_abilities.wrought_helm]
 		#Set to true for the Wrought Helm to have limited durability.
@@ -48,24 +48,24 @@
 		[tools_and_abilities.sol_visage.armor_config]
 			#Multiply armor damage reduction by this amount. See official Minecraft Wiki for an explanation of how armor damage reduction works.
 			#Range: 0.0 ~ 1.7976931348623157E308
-			damage_reduction_multiplier = 1.0
+			damage_reduction_multiplier = 2.0
 			#Multiply armor toughness by this amount. See official Minecraft Wiki for an explanation of how armor toughness works.
 			#Range: 0.0 ~ 1.7976931348623157E308
-			toughness_multiplier = 1.0
+			toughness_multiplier = 2.0
 
 	[tools_and_abilities.ice_crystal]
 		#Multiply all damage done with the ice crystal by this amount.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		attack_multiplier = 1.0
+		attack_multiplier = 6.0
 		#Set to true for the ice crystal to have limited durability.
 		#Prevents regeneration in inventory.
 		breakable = false
 		#Ice crystal durability
 		#Range: > 1
-		durability = 600
+		durability = 900
 		#Freeze duration in ticks (applies to frostmaw too!)
 		#Range: > 1
-		freeze_duration = 50
+		freeze_duration = 60
 
 	[tools_and_abilities.umvuthana_mask]
 
@@ -82,7 +82,7 @@
 		[tools_and_abilities.spear.tool_config]
 			#Tool attack damage
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_damage = 5.0
+			attack_damage = 5.5
 			#Tool attack speed
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_speed = 1.600000023841858
@@ -90,15 +90,15 @@
 	[tools_and_abilities.naga_fang_dagger]
 		#Duration in ticks of the poison effect (20 ticks = 1 second).
 		#Range: > 0
-		poison_duration = 40
+		poison_duration = 360
 		#Damage multiplier when attacking from behind
 		#Range: 0.0 ~ 1.7976931348623157E308
-		backstab_damage_mult = 2.0
+		backstab_damage_mult = 10.0
 
 		[tools_and_abilities.naga_fang_dagger.tool_config]
 			#Tool attack damage
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_damage = 3.0
+			attack_damage = 5.0
 			#Tool attack speed
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_speed = 2.0
@@ -106,10 +106,10 @@
 	[tools_and_abilities.blowgun]
 		#Duration in ticks of the poison effect (20 ticks = 1 second).
 		#Range: > 0
-		poison_duration = 40
+		poison_duration = 320
 		#Multiply all damage done with the blowgun/darts by this amount.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		attack_damage = 1.0
+		attack_damage = 8.0
 
 	[tools_and_abilities.geomancerArmor]
 
@@ -124,20 +124,20 @@
 	[tools_and_abilities.earthrend_gauntlet]
 		#Multiply all damage done with the Earthrend Gauntlet by this amount.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		attack_multiplier = 1.0
+		attack_multiplier = 2.0
 		#Set to true for the Earthrend Gauntlet to have limited durability.
 		#Prevents regeneration in inventory.
 		breakable = false
 		#Earthrend Gauntlet durability
 		#Range: > 1
-		durability = 400
+		durability = 600
 		#Set to false to disable the Earthrend Gauntlet's tunneling ability.
 		enable_tunneling = true
 
 		[tools_and_abilities.earthrend_gauntlet.tool_config]
 			#Tool attack damage
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_damage = 6.0
+			attack_damage = 9.0
 			#Tool attack speed
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_speed = 1.2000000476837158
@@ -145,12 +145,12 @@
 	[tools_and_abilities.sculptor_staff]
 		#Multiply all damage done with the Sculptor Staff by this amount.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		attack_multiplier = 1.0
+		attack_multiplier = 3.0
 
 		[tools_and_abilities.sculptor_staff.tool_config]
 			#Tool attack damage
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_damage = 3.0
+			attack_damage = 6.0
 			#Tool attack speed
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_speed = 1.0
@@ -329,7 +329,7 @@
 		test_height = 60
 		#The time limit (in seconds) for completing the Sculptor's test
 		#Range: 1 ~ 36000
-		test_time_limit = 400
+		test_time_limit = 480
 		#Disable/enable the Sculptor's boss health bar
 		has_boss_bar = true
 		#Which item the Sculptor desires in exchange for a chance to try his challenge
@@ -382,7 +382,7 @@
 			health_multiplier = 1.0
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 1.0
+			attack_multiplier = 2.0
 
 	[mobs.grottol]
 
@@ -404,7 +404,7 @@
 		[mobs.grottol.spawn_config]
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 2
+			spawn_rate = 4
 			#Minimum number of mobs that appear in a spawn group
 			#Range: > 1
 			min_group_size = 1
@@ -441,7 +441,7 @@
 			health_multiplier = 1.0
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 1.0
+			attack_multiplier = 999.0
 
 	[mobs.lantern]
 

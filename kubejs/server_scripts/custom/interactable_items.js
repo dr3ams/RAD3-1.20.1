@@ -16,11 +16,10 @@ const SECRET_MESSAGES = [
 ItemEvents.rightClicked(event => {
     const { player, item, level, server } = event;
 
-    //  UNSTABLE BATTERY: Speed surge with a Hunger penalty
+    //  UNSTABLE BATTERY: Double jump surge but explode when the effect ends
     if (item.id == 'kubejs:unstable_battery') {
-        player.potionEffects.add('speed', 600, 2); // 30 seconds
-        player.potionEffects.add('haste', 600, 2);
-        player.potionEffects.add('hunger', 600, 2); // Penalty
+        player.potionEffects.add('vinery:double_jump', 3600, 0); // 3 minutes
+        player.potionEffects.add('ars_elemental:static_charged', 3600, 0); // Struck by lightning
 		player.swing()
 		level.spawnParticles('minecraft:glow', true, player.x, player.y + 1, player.z, 0.5, 0.5, 0.5, 10, 0.05)
 		level.playSound(null, player.blockX, player.blockY, player.blockZ, 'minecraft:block.beacon.activate', 'players', 1.0, 1.0);
@@ -89,7 +88,7 @@ ItemEvents.rightClicked(event => {
         player.potionEffects.add('glowing', 200, 0); // 10 sec timer
         let hostiles = level.getEntities().filter(e => e.monster && e.distanceToEntity(player) < 10);
         hostiles.forEach(m => {
-            m.potionEffects.add('slowness', 200, 10);
+            m.potionEffects.add('mowziesmobs:frozen', 200, 0);
         });
 		level.spawnParticles('minecraft:large_smoke', true, player.x, player.y + 1, player.z, 0.5, 0.5, 0.5, 10, 0.05)
         level.playSound(null, player.blockX, player.blockY, player.blockZ, 'minecraft:entity.warden.sonic_boom', 'players', 1.0, 1.0);
@@ -98,7 +97,7 @@ ItemEvents.rightClicked(event => {
 
 // --- MAGNETIC GRAPPLE (With Particle Line) ---
     if (item.id == 'kubejs:magnetic_grapple') {
-        let hit = player.rayTrace(20);
+        let hit = player.rayTrace(25);
         if (hit.block) {
             let target = hit.block;
             let dx = target.x - player.x;
@@ -139,7 +138,7 @@ ItemEvents.rightClicked(event => {
             }
             event.cancel();
         } else {
-            player.setStatusMessage(Text.red("Out of range! (Max 20 blocks)"));
+            player.setStatusMessage(Text.red("Out of range! (Max 25 blocks)"));
         }
     }
 	

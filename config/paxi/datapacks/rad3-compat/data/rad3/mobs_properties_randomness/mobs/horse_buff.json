@@ -1,0 +1,39 @@
+{
+    "target": "minecraft:horse",
+    "properties": [
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "minecraft:generic.movement_speed",
+	    "modifier_name": "Horse Speed",
+	    "amount": {
+	        "min": 0.5,
+	        "max": 0.5
+	    },
+	    "operation": "multiply_base"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "forge:swim_speed",
+	    "modifier_name": "Horse Swim Speed",
+	    "amount": {
+	        "min": 0.5,
+	        "max": 0.5
+	    },
+	    "operation": "multiply_base"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "minecraft:generic.armor",
+	    "modifier_name": "Horse Armor Bonus",
+	    "amount": {
+	        "min": 1.0,
+	        "max": 1.0
+	    },
+	    "operation": "multiply_base"
+	}
+    ],
+    "conditions": [
+    ],
+    "priority": 0,
+    "event_priority": "LOW"
+}
