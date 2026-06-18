@@ -1,0 +1,19 @@
+{
+    "target": "minecraft:strider",
+    "properties": [
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "minecraft:generic.movement_speed",
+	    "modifier_name": "Strider Speed",
+	    "amount": {
+	        "min": 0.5,
+	        "max": 0.5
+	    },
+	    "operation": "multiply_base"
+	}
+    ],
+    "conditions": [
+    ],
+    "priority": 0,
+    "event_priority": "LOW"
+}

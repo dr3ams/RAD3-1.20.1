@@ -81,8 +81,8 @@ ItemEvents.tooltip(event => {
             id: 'kubejs:unstable_battery',
             lore: 'It hums with a dangerous, flickering orange light',
             mechanics: [
-                '§b• Grants massive Speed and Haste for 30 seconds',
-                '§2• Causes extreme exhaustion (Hunger) after the surge',
+                '§b• Jumpstarter: Grants the ability to Double Jump for 3 minutes',
+                '§2• Unstable: You get struck by lightning after the surge.',
                 '§6• Right-click to consume and activate'
             ]
         },

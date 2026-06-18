@@ -3,7 +3,7 @@
 [General]
 	#Chance 1 in X that a hostile entity drops either salve, a plaster or a bandage\nSet this to 0 if you want to disable entity drops
 	#Range: 0 ~ 32767
-	dropChance = 30
+	dropChance = 200
 	#Amount of half hearts sleeping heals. Set to 0 to disable this feature
 	#Range: 0.0 ~ 32767.0
 	sleepHealAmount = 4.0
@@ -14,19 +14,19 @@
 [HealCount]
 	#Use count for the salve item
 	#Range: > 0
-	salveHealCount = 4
+	salveHealCount = 5
 	#Use count for the plaster item
 	#Range: > 0
-	plasterHealCount = 4
+	plasterHealCount = 7
 	#Use count for the bandage item
 	#Range: > 0
-	bandageHealCount = 6
+	bandageHealCount = 12
 	#Use count for the medkit item
 	#Range: > 0
-	medkitHealCount = 16
+	medkitHealCount = 50
 	#Use count for the enchanted medkit item
 	#Range: > 0
-	medkitEnchantedHealCount = 16
+	medkitEnchantedHealCount = 50
 
 #Defines how much health the item restores on rightclick.
 [HealAmount]
@@ -35,7 +35,7 @@
 	salveHealAmount = 1.0
 	#Salve heal amount
 	#Range: 1.0 ~ 1.7976931348623157E308
-	plasterHealAmount = 1.0
+	plasterHealAmount = 1.5
 	#Salve heal amount
 	#Range: 1.0 ~ 1.7976931348623157E308
 	bandageHealAmount = 1.0
@@ -50,17 +50,17 @@
 [HealTime]
 	#Use time for the salve item
 	#Range: 0 ~ 72000
-	salveUseTime = 5
+	salveUseTime = 2
 	#Use count for the plaster item
 	#Range: 0 ~ 72000
-	plasterUseTime = 10
+	plasterUseTime = 7
 	#Use count for the bandage item
 	#Range: 0 ~ 72000
-	bandageUseTime = 20
+	bandageUseTime = 10
 	#Use count for the medkit item
 	#Range: 0 ~ 72000
-	medkitUseTime = 40
+	medkitUseTime = 20
 	#Use count for the enchanted medkit item
 	#Range: 0 ~ 72000
-	medkitEnchantedUseTime = 40
+	medkitEnchantedUseTime = 20
 

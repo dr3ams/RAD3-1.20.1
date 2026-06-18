@@ -12,7 +12,7 @@
 	// Allows client-side target search and server-side attack request execution against currently mounted entity of the player
 	"allow_attacking_mount": false,
 	// The minimum number of ticks between two attacks
-	"attack_interval_cap": 4,
+	"attack_interval_cap": 0,
 	/* Blacklist for entities that are acting as vehicle but should not be treated as protected mounts.
 	   Classical example is an alexsmobs:crocodile attempting a death spin.
 	   (Note all hostile mobs hittable by default, this config is to fix faulty mobs)
@@ -78,7 +78,12 @@
 		"minecraft:player": "NEUTRAL",
 		"minecraft:villager": "NEUTRAL",
 		"minecraft:iron_golem": "NEUTRAL",
-		"guardvillagers:guard": "NEUTRAL"
+		"guardvillagers:guard": "NEUTRAL",
+		"minecraft:horse": "NEUTRAL",
+		"minecraft:donkey": "NEUTRAL",
+		"minecraft:mule": "NEUTRAL",
+		"minecraft:cat": "NEUTRAL",
+		"mowziesmobs:sculptor": "NEUTRAL"
 	},
 	// Relation to unspecified entities those are instance of PassiveEntity(Yarn)
 	"player_relation_to_passives": "HOSTILE",
