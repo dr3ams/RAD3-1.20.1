@@ -2765,8 +2765,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: 2.0d
-			y: -12.0d
+			x: 4.5d
+			y: -7.0d
 		}
 		{
 			description: ["A strong undead found in deep caves. It can summon Vexes and shoot magic orbs."]
@@ -2797,8 +2797,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -6.0d
-			y: -12.0d
+			x: -2.5d
+			y: -7.0d
 		}
 		{
 			description: ["A cow-like monster that spawns in plains and savannahs at night. Its attacks deal high knockback and apply Blindness and Slowness."]
@@ -2899,7 +2899,7 @@
 				value: 1L
 			}]
 			x: 3.5d
-			y: -12.0d
+			y: -6.0d
 		}
 		{
 			description: ["A walking nest of spiders. It spawns in deep caves. Cave spiders will emerge when it is damaged."]
@@ -2930,8 +2930,8 @@
 				type: "kill"
 				value: 5L
 			}]
-			x: 5.0d
-			y: -12.0d
+			x: 4.5d
+			y: -6.0d
 		}
 		{
 			description: ["These magma creatures spawn in magma pools deep underground and in the Nether. They throw fireballs like Blazes and leave a trail of fire behind them. They are afraid of Striders and will leave players alone if they are riding one."]
@@ -2967,8 +2967,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: -1.5d
-			y: -12.0d
+			x: 2.0d
+			y: -7.0d
 		}
 		{
 			description: ["A monster that spawns at night in forests. It floats slightly above the ground. It burns in the sun and takes double damage from fire."]
@@ -3213,8 +3213,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: -4.5d
-			y: -12.0d
+			x: -1.5d
+			y: -7.0d
 		}
 		{
 			description: ["A clay golem that spawns underground in jungles and badlands. They take double damage from pickaxes. "]
@@ -4029,8 +4029,8 @@
 				value: 1L
 			}]
 			title: "King of the Underground"
-			x: -3.0d
-			y: -12.0d
+			x: -2.5d
+			y: -6.0d
 		}
 		{
 			description: ["Ancient Stones drop from Elder Guardians, Dogu, and Monoliths."]
@@ -4363,8 +4363,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.0d
-			y: -12.0d
+			x: 3.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["053F019267260F95"]
@@ -4435,6 +4435,303 @@
 			}]
 			title: "Bestiary"
 			x: 1.0d
+			y: -5.0d
+		}
+		{
+			description: ["Wilden do not spawn naturally - summon them with the Ritual of Wilden Summoning to hunt them down."]
+			icon: "ars_nouveau:wilden_horn"
+			id: "73EDAD2561CAC8D0"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "429F658208D0F511"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+				{
+					id: "09308203DFC24CD5"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "18FFCC8A16293829"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_hunter"
+				id: "0C4F462D3DC4CD62"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Wilden Hunter Bounty"
+			x: -6.0d
+			y: -12.0d
+		}
+		{
+			description: ["Wilden do not spawn naturally - summon them with the Ritual of Wilden Summoning to hunt them down."]
+			icon: "ars_nouveau:wilden_wing"
+			id: "1FD087D0BFE96339"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "679CCAED62C2850E"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+				{
+					id: "1E056824DEBA0506"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "0AF551DFF81709C8"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_stalker"
+				id: "27EC4EB75149910E"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Wilden Stalker Bounty"
+			x: -4.5d
+			y: -12.0d
+		}
+		{
+			description: ["Wilden do not spawn naturally - summon them with the Ritual of Wilden Summoning to hunt them down."]
+			icon: "ars_nouveau:wilden_spike"
+			id: "750B8AE584E4EB47"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "516DFCDE96BCC0A6"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+				{
+					id: "4DDC3E050E2FB3B1"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "6B0AF26D3030C649"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_guardian"
+				id: "5BB36A1BB6717FA1"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Wilden Guardian Bounty"
+			x: -3.0d
+			y: -12.0d
+		}
+		{
+			description: ["Slow but deceptively dangerous - keep your distance from its breath."]
+			icon: "minecraft:wither_rose"
+			id: "3F9CA46B9CC75030"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "7DDA081817ADD744"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "74E683728FB040E3"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "034A42930653A4AC"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "landsoficaria:catoblepas"
+				id: "31BC6CB9B4CEEF19"
+				type: "kill"
+				value: 2L
+			}]
+			title: "Catoblepas Bounty"
+			x: -1.5d
+			y: -12.0d
+		}
+		{
+			description: ["Found skulking in Icaria's undergrowth."]
+			icon: "minecraft:fermented_spider_eye"
+			id: "112D855C3BD41D43"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "4B323529C666FC75"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "391A53FC5D8A39B9"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "43493AD5D9032000"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "landsoficaria:vinegaroon"
+				id: "18EEE770966B0671"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Vinegaroon Bounty"
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			description: ["Venomous and quick - don't let its sting catch you off guard."]
+			icon: "minecraft:spider_eye"
+			id: "069AB8FABA71A26E"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "5A750AF49BFEF3E4"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "2AC33DF7EBE3A124"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "059FFA36A7AAB5BE"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "landsoficaria:scorpion"
+				id: "33CBAE44737B6B3B"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Scorpion Bounty"
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			description: ["A spellcaster lurking in Icaria's wilds."]
+			icon: "minecraft:warped_fungus"
+			id: "49B0447053B53481"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "4B9B93A1C1834D97"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "602714D495903405"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "00505C7E6B5A11BE"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "landsoficaria:plane_forest_hag"
+				id: "1A7E8A9A2A2142D7"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Forest Hag Bounty"
+			x: 3.5d
+			y: -12.0d
+		}
+		{
+			description: ["Small, fast, and relentless in packs."]
+			icon: "minecraft:bone"
+			id: "60B9C2E2E3EE851B"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "02F9747555BF4B71"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "2FEEE4E6EACBA11E"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "052E92AB1FBE9D34"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "landsoficaria:solifugae"
+				id: "3D597D0740AFB0E8"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Solifugae Bounty"
+			x: 5.0d
+			y: -12.0d
+		}
+		{
+			description: ["One of Icaria's mini-bosses - come prepared."]
+			icon: "minecraft:cobweb"
+			id: "161F2021CE3CAE15"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "60A0E761193AFA93"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "5A2AAE2313C95801"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "240D75F09AE37F81"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "landsoficaria:arachne"
+				id: "5A1C072194932AE2"
+				type: "kill"
+				value: 2L
+			}]
+			title: "Arachne Bounty"
+			x: 4.5d
 			y: -5.0d
 		}
 	]
