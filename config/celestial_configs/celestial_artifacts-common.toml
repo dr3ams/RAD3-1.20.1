@@ -190,7 +190,7 @@
 	holyTalismanProtectionUndead = 0.35
 	#Holy Talisman: totem cool down
 	#Range: > 1
-	holyTalismanCooldown = 60
+	holyTalismanCooldown = 300
 	#AbyssWillBadge: The levels after triggering the skill
 	#Range: > 0
 	abyssWillBadgeInitialLevel = 15
@@ -283,13 +283,13 @@
 	cursedTalismanCritDamageAdd = 0.08
 	#Cursed Totem: maximum level
 	#Range: > 0
-	cursedTotemMaxLevel = 5
+	cursedTotemMaxLevel = 10
 	#Cursed Totem: levels consumed when negating fatal damage
 	#Range: > 0
-	cursedTotemConsumption = 5
+	cursedTotemConsumption = 10
 	#Cursed Totem: duration of wither effect in seconds
 	#Range: > 0
-	cursedTotemEffectDuration = 30
+	cursedTotemEffectDuration = 10
 	#Cursed Totem: level of wither effect (0 means Lv.I)
 	#Range: 0 ~ 5
 	cursedTotemEffectLevel = 2
@@ -382,7 +382,7 @@
 	twistedBrainEffectDuration = 5
 	#Undead Charm: Cool Down in seconds
 	#Range: > 1
-	undeadCharmCooldown = 180
+	undeadCharmCooldown = 360
 	#War Dead Badge: healing in percentage of lost health per surrounding entity
 	#Range: 0.0 ~ 1.0
 	warDeadBadgeHeal = 0.01
