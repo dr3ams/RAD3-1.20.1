@@ -118,7 +118,7 @@
 			image: "minecraft:textures/particle/sonic_boom_14.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 18.0d
+			x: 17.0d
 			y: 15.5d
 		}
 		{
@@ -214,8 +214,8 @@
 			image: "l2complements:item/generated/poseidite/nugget"
 			rotation: 0.0d
 			width: 1.0d
-			x: 20.0d
-			y: 14.0d
+			x: 19.5d
+			y: 15.0d
 		}
 		{
 			height: 10.0d
@@ -264,6 +264,22 @@
 			width: 2.0d
 			x: 0.5d
 			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "hmag:item/ancient_stone"
+			rotation: 0.0d
+			width: 1.0d
+			x: 21.0d
+			y: 13.0d
+		}
+		{
+			height: 0.5d
+			image: "kubejs:item/great_soul"
+			rotation: 0.0d
+			width: 0.5d
+			x: 23.0d
+			y: 13.0d
 		}
 	]
 	order_index: 2
@@ -4053,7 +4069,7 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["52C9B081ECAD9285"]
+			dependencies: ["7E753FD2385CA6CD"]
 			description: ["&7&oA material that transcends time and space.&r"]
 			id: "0E175ABD91552D24"
 			subtitle: "The Enduring Metal"
@@ -4652,7 +4668,7 @@
 				}
 			]
 			title: "&bNeptunium Armor Set&r"
-			x: 18.0d
+			x: 17.0d
 			y: 15.5d
 		}
 		{
@@ -4722,8 +4738,8 @@
 				}
 			]
 			title: "&bPoseidite Armor Set&r"
-			x: 19.5d
-			y: 14.5d
+			x: 19.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["744697F13380C3A3"]
@@ -5532,6 +5548,147 @@
 			}]
 			x: -2.5d
 			y: 1.5d
+		}
+		{
+			description: ["The &aRepair&r enchantment is craftable once you've been to the Aether. It uses the mending power of Ambrosium to fully repair any item it is applied to, and resetting the anvil cost, being consumed in the process. "]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:mending"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "176E45BBA2A61807"
+			rewards: [{
+				id: "3ABCBD50CC3F46AC"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "6A390168C789C500"
+					item: "aether:ambrosium_shard"
+					type: "item"
+				}
+				{
+					id: "58DBB753AD9AB88E"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			title: "Keeping Your Gear Repaired"
+			x: 5.5d
+			y: 11.5d
+		}
+		{
+			description: ["These plates can be applied to any item in the anvil. They decrease the amount of durability the item loses. This stacks with enchantments and affixes. And they're pretty cheap!"]
+			id: "480C978C528A0001"
+			tasks: [
+				{
+					id: "4D591FF65F6541ED"
+					item: "celestial_artifacts:copper_reinforce_plate"
+					type: "item"
+				}
+				{
+					id: "35DC001BDB8D3C19"
+					item: "celestial_artifacts:amethyst_reinforce_plate"
+					type: "item"
+				}
+			]
+			title: "Reinforce Plates"
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			description: ["When you reinforce an item at a bonfire, it gets fully repaired. This only works on weapons and tools, and it gets more expensive every time you do it, but I felt like it was worth mentioning."]
+			id: "6B8DDC8F0B43C71E"
+			tasks: [{
+				id: "7F9F60FE98552BE4"
+				item: "bonfires:titanite_shard"
+				type: "item"
+			}]
+			title: "Bonfire Repairing"
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3148625C465CDE77"]
+			id: "7E753FD2385CA6CD"
+			subtitle: "Crystal Power"
+			tasks: [
+				{
+					id: "7BEDA99782A036BA"
+					item: {
+						Count: 1
+						id: "hmag:ancient_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F75BBFED3691829"
+					item: {
+						Count: 1
+						id: "hmag:ancient_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16B5DB0C22137DED"
+					item: {
+						Count: 1
+						id: "hmag:ancient_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "538E14680EE8460F"
+					item: {
+						Count: 1
+						id: "hmag:ancient_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ancient Armor Set"
+			x: 20.5d
+			y: 13.5d
 		}
 	]
 	title: "Equipment"
