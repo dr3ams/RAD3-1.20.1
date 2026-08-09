@@ -7,7 +7,7 @@
         "type": "skilltree:food"
       },
       "item_bonus": {
-        "effect": "tombstone:restoration",
+        "effect": "minecraft:regeneration",
         "duration": 300,
         "amplifier": 0,
         "type": "skilltree:food_effect"
@@ -45,7 +45,7 @@
           "translate": "item_bonus.skilltree.food_effect",
           "with": [
             {
-              "translate": "effect.tombstone.restoration"
+              "translate": "effect.minecraft.regeneration"
             },
             {
               "text": "00:15"
@@ -54,6 +54,5 @@
         }
       ]
     }
-  ],
-  "title": "Restoration"
+  ]
 }
