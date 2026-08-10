@@ -1,0 +1,27 @@
+
+{
+  "id": "fishing_rod_garbage_collector",
+  "key": "refinement.fishing_rod.garbage_collector",
+  "incompat": [],
+  "type": ["#forge:tools/fishing_rods"],
+  "proficiency_cost": 20,
+  "material": "kubejs:junk",
+  "material_count": 16,
+  "anvil_levels": 10,
+  "bonuses": [
+    {
+      "property": "attributeslib:experience_gained",
+      "amount": 0.5,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand"]
+    },
+    {
+      "property": "minecraft:generic.luck",
+      "amount": -5,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand"]
+    }
+  ],
+  "allowed_steps": [4],
+  "color": "red"
+}

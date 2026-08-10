@@ -1,0 +1,21 @@
+
+{
+  "id": "hoe_reaping",
+  "key": "refinement.hoe.reaping",
+  "incompat": [],
+  "type": ["#minecraft:hoes","#rad3:decapitating"],
+  "proficiency_cost": 10,
+  "material": "minecraft:glistering_melon_slice",
+  "material_count": 1,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "attributeslib:life_steal",
+      "amount": 0.01,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

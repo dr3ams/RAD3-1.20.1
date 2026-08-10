@@ -1,0 +1,21 @@
+
+{
+  "id": "heart_of_fire_flame",
+  "key": "refinement.heart_of_fire.flame",
+  "incompat": [],
+  "type": ["radweaponry:orb_fire"],
+  "proficiency_cost": 10,
+  "material": "minecraft:fire_charge",
+  "material_count": 6,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "attributeslib:fire_damage",
+      "amount": 0.5,
+      "operation": "addition",
+      "slots": ["minecraft:offhand"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

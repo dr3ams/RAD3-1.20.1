@@ -1,0 +1,21 @@
+
+{
+  "id": "hoe_sharp",
+  "key": "refinement.hoe.sharp",
+  "incompat": [],
+  "type": ["#minecraft:hoes"],
+  "proficiency_cost": 10,
+  "material": "embers:iron_plate",
+  "material_count": 1,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "minecraft:generic.attack_damage",
+      "amount": 3,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

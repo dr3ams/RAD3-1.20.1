@@ -1,0 +1,21 @@
+
+{
+  "id": "void_core_frost",
+  "key": "refinement.void_core.frost",
+  "incompat": [],
+  "type": ["radweaponry:void_core"],
+  "proficiency_cost": 10,
+  "material": "minecraft:snowball",
+  "material_count": 6,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "attributeslib:cold_damage",
+      "amount": 0.5,
+      "operation": "addition",
+      "slots": ["minecraft:offhand"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

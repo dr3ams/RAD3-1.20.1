@@ -1,0 +1,27 @@
+
+{
+  "id": "horse_toughness",
+  "key": "refinement.horse.toughness",
+  "incompat": [],
+  "type": ["minecraft:leather_horse_armor","minecraft:iron_horse_armor","minecraft:golden_horse_armor","minecraft:diamond_horse_armor"],
+  "proficiency_cost": 10,
+  "material": "#forge:plates/iron",
+  "material_count": 1,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "minecraft:generic.armor",
+      "amount": 2,
+      "operation": "addition",
+      "slots": ["minecraft:chest"]
+    },
+    {
+      "property": "minecraft:generic.armor_toughness",
+      "amount": 2,
+      "operation": "addition",
+      "slots": ["minecraft:chest"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

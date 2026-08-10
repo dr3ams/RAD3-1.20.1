@@ -1,0 +1,21 @@
+
+{
+  "id": "pitcher_canteen_overheal",
+  "key": "refinement.pitcher_canteen.overheal",
+  "incompat": [],
+  "type": ["radweaponry:pitcher_canteen"],
+  "proficiency_cost": 10,
+  "material": "shieldinghealth:shield_power",
+  "material_count": 6,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "attributeslib:overheal",
+      "amount": 0.005,
+      "operation": "addition",
+      "slots": ["minecraft:offhand"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

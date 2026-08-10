@@ -1,0 +1,27 @@
+
+{
+  "id": "shoulder_weapon_impact",
+  "key": "refinement.shoulder_weapon.impact",
+  "incompat": [],
+  "type": ["cataclysm:wither_assault_shoulder_weapon","cataclysm:void_assault_shoulder_weapon"],
+  "proficiency_cost": 30,
+  "material": "kubejs:detonator",
+  "material_count": 1,
+  "anvil_levels": 10,
+  "bonuses": [
+    {
+      "property": "attributeslib:crit_chance",
+      "amount": 0.5,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand","minecraft:offhand"]
+    },
+    {
+      "property": "attributeslib:crit_damage",
+      "amount": 0.5,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand","minecraft:offhand"]
+    }
+  ],
+  "allowed_steps": [4],
+  "color": "yellow"
+}

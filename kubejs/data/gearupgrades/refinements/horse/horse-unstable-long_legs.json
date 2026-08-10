@@ -1,0 +1,33 @@
+
+{
+  "id": "horse_unstable_long_legs",
+  "key": "refinement.horse.long_legs",
+  "incompat": [],
+  "type": ["minecraft:leather_horse_armor","minecraft:iron_horse_armor","minecraft:golden_horse_armor","minecraft:diamond_horse_armor"],
+  "proficiency_cost": 20,
+  "material": "minecraft:scaffolding",
+  "material_count": 4,
+  "anvil_levels": 10,
+  "bonuses": [
+    {
+      "property": "forge:step_height_addition",
+      "amount": 3,
+      "operation": "addition",
+      "slots": ["minecraft:chest"]
+    },
+    {
+      "property": "minecraft:horse.jump_strength",
+      "amount": 0.5,
+      "operation": "multiply_base",
+      "slots": ["minecraft:chest"]
+    },
+    {
+      "property": "minecraft:generic.movement_speed",
+      "amount": -0.1,
+      "operation": "multiply_base",
+      "slots": ["minecraft:chest"]
+    }
+  ],
+  "allowed_steps": [4],
+  "color": "red"
+}

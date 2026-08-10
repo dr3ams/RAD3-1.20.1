@@ -1,0 +1,27 @@
+
+{
+  "id": "fishing_rod_knockback",
+  "key": "refinement.fishing_rod.knockback",
+  "incompat": [],
+  "type": ["#forge:tools/fishing_rods"],
+  "proficiency_cost": 20,
+  "material": "minecraft:player_head",
+  "material_count": 1,
+  "anvil_levels": 10,
+  "bonuses": [
+    {
+      "property": "minecraft:generic.attack_knockback",
+      "amount": 1,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand"]
+    },
+    {
+      "property": "reach-entity-attributes:reach",
+      "amount": 2,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand"]
+    }
+  ],
+  "allowed_steps": [4],
+  "color": "yellow"
+}

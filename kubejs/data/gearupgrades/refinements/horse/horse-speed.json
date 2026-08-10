@@ -1,0 +1,27 @@
+
+{
+  "id": "horse_speed",
+  "key": "refinement.horse.speed",
+  "incompat": [],
+  "type": ["minecraft:leather_horse_armor","minecraft:iron_horse_armor","minecraft:golden_horse_armor","minecraft:diamond_horse_armor"],
+  "proficiency_cost": 10,
+  "material": "#forge:plates/copper",
+  "material_count": 1,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "minecraft:generic.movement_speed",
+      "amount": 0.1,
+      "operation": "multiply_base",
+      "slots": ["minecraft:chest"]
+    },
+    {
+      "property": "forge:swim_speed",
+      "amount": 0.1,
+      "operation": "multiply_base",
+      "slots": ["minecraft:chest"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}
