@@ -1,0 +1,21 @@
+
+{
+  "id": "fishing_rod_experience",
+  "key": "refinement.fishing_rod.experience",
+  "incompat": [],
+  "type": ["#forge:tools/fishing_rods"],
+  "proficiency_cost": 10,
+  "material": "kubejs:dust_experience",
+  "material_count": 2,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "attributeslib:experience_gained",
+      "amount": 0.05,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

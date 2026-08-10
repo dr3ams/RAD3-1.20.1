@@ -1,0 +1,21 @@
+
+{
+  "id": "gatling_armor_break",
+  "key": "refinement.gatling.armor_break",
+  "incompat": [],
+  "type": ["cataclysm:laser_gatling"],
+  "proficiency_cost": 20,
+  "material": "minecraft:repeater",
+  "material_count": 4,
+  "anvil_levels": 10,
+  "bonuses": [
+    {
+      "property": "attributeslib:armor_pierce",
+      "amount": 2,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand","minecraft:offhand"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

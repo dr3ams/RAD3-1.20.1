@@ -1,0 +1,27 @@
+
+{
+  "id": "gatling_armor_melt",
+  "key": "refinement.gatling.armor_melt",
+  "incompat": [],
+  "type": ["cataclysm:laser_gatling"],
+  "proficiency_cost": 40,
+  "material": "kubejs:thermal_paste",
+  "material_count": 1,
+  "anvil_levels": 20,
+  "bonuses": [
+    {
+      "property": "attributeslib:armor_pierce",
+      "amount": 5,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand","minecraft:offhand"]
+    },
+    {
+      "property": "attributeslib:prot_pierce",
+      "amount": 5,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand","minecraft:offhand"]
+    }
+  ],
+  "allowed_steps": [4],
+  "color": "yellow"
+}

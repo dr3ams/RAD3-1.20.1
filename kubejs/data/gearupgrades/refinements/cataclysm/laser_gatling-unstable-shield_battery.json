@@ -1,0 +1,51 @@
+
+{
+  "id": "gatling_shield_battery",
+  "key": "refinement.gatling.shield_battery",
+  "incompat": [],
+  "type": ["cataclysm:laser_gatling"],
+  "proficiency_cost": 40,
+  "material": "kubejs:unstable_battery",
+  "material_count": 3,
+  "anvil_levels": 20,
+  "bonuses": [
+    {
+      "property": "minecraft:generic.movement_speed",
+      "amount": -0.9,
+      "operation": "multiply_base",
+      "slots": ["minecraft:mainhand","minecraft:offhand"]
+    },
+    {
+      "property": "shieldinghealth:attribute.shieldinghealth.shield_delay",
+      "amount": 1.0,
+      "operation": "multiply_base",
+      "slots": ["minecraft:mainhand","minecraft:offhand"]
+    },
+    {
+      "property": "shieldinghealth:attribute.shieldinghealth.shield_regen",
+      "amount": 1.0,
+      "operation": "multiply_base",
+      "slots": ["minecraft:mainhand","minecraft:offhand"]
+    },
+    {
+      "property": "shieldinghealth:attribute.shieldinghealth.shield_value",
+      "amount": -1.0,
+      "operation": "multiply_base",
+      "slots": ["minecraft:mainhand","minecraft:offhand"]
+    },
+    {
+      "property": "attributeslib:crit_chance",
+      "amount": 0.6,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand","minecraft:offhand"]
+    },
+    {
+      "property": "attributeslib:crit_damage",
+      "amount": 1.5,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand","minecraft:offhand"]
+    }
+  ],
+  "allowed_steps": [4],
+  "color": "red"
+}

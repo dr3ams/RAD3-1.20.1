@@ -1,0 +1,21 @@
+
+{
+  "id": "shoulder_weapon_armor_break",
+  "key": "refinement.shoulder_weapon.armor_break",
+  "incompat": [],
+  "type": ["cataclysm:wither_assault_shoulder_weapon","cataclysm:void_assault_shoulder_weapon"],
+  "proficiency_cost": 15,
+  "material": "minecraft:gunpowder",
+  "material_count": 6,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "attributeslib:armor_shred",
+      "amount": 0.3,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand","minecraft:offhand"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

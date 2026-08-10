@@ -1,0 +1,45 @@
+
+{
+  "id": "horse_unstable_landspeeder",
+  "key": "refinement.horse.landspeeder",
+  "incompat": [],
+  "type": ["minecraft:leather_horse_armor","minecraft:iron_horse_armor","minecraft:golden_horse_armor","minecraft:diamond_horse_armor"],
+  "proficiency_cost": 20,
+  "material": "celestial_artifacts:magic_horseshoe",
+  "material_count": 1,
+  "anvil_levels": 10,
+  "bonuses": [
+    {
+      "property": "minecraft:generic.movement_speed",
+      "amount": 1.5,
+      "operation": "multiply_base",
+      "slots": ["minecraft:chest"]
+    },
+    {
+      "property": "attributeslib:dodge_chance",
+      "amount": 0.33,
+      "operation": "addition",
+      "slots": ["minecraft:chest"]
+    },
+    {
+      "property": "forge:entity_gravity",
+      "amount": 0.5,
+      "operation": "multiply_base",
+      "slots": ["minecraft:chest"]
+    },
+    {
+      "property": "forge:swim_speed",
+      "amount": -0.5,
+      "operation": "multiply_base",
+      "slots": ["minecraft:chest"]
+    },
+    {
+      "property": "minecraft:horse.jump_strength",
+      "amount": -0.5,
+      "operation": "multiply_base",
+      "slots": ["minecraft:chest"]
+    }
+  ],
+  "allowed_steps": [4],
+  "color": "red"
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " O",
+    "C "
+  ],
+  "key": {
+    "O": {
+      "item": "celestial_core:ocean_ingot"
+
+    },
+    "C": {
+      "item": "cataclysm:coral_chunk"
+
+    }
+  },
+  "result": {
+    "item": "cataclysm:athame",
+    "type": "forge:nbt",
+    "nbt": "{affix_data: {rarity:\"apotheosis:rare\",affixes:{\"apotheosis:sword/attribute/glacial\":3f},sockets: 3},display:{Lore:['{\"text\":\"Ocean Imbued: +2 Sockets and +1 Cold Damage\",\"color\":\"blue\",\"italic\":false}']}}"
+  }
+}

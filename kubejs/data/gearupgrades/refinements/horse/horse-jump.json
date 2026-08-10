@@ -1,0 +1,21 @@
+
+{
+  "id": "horse_jump",
+  "key": "refinement.horse.jump",
+  "incompat": [],
+  "type": ["minecraft:leather_horse_armor","minecraft:iron_horse_armor","minecraft:golden_horse_armor","minecraft:diamond_horse_armor"],
+  "proficiency_cost": 10,
+  "material": "spelunkery:spring_water_bucket",
+  "material_count": 1,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "minecraft:horse.jump_strength",
+      "amount": 0.15,
+      "operation": "multiply_base",
+      "slots": ["minecraft:chest"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

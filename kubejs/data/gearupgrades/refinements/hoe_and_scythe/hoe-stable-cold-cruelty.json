@@ -1,0 +1,21 @@
+
+{
+  "id": "hoe_stable_cold_cruelty",
+  "key": "refinement.hoe.cold_cruelty",
+  "incompat": [],
+  "type": ["#minecraft:hoes","#rad3:decapitating"],
+  "proficiency_cost": 20,
+  "material": "kubejs:bottled_ice",
+  "material_count": 1,
+  "anvil_levels": 10,
+  "bonuses": [
+    {
+      "property": "attributeslib:cold_damage",
+      "amount": 4,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand"]
+    }
+  ],
+  "allowed_steps": [4],
+  "color": "yellow"
+}

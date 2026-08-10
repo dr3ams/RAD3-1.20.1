@@ -1,0 +1,21 @@
+
+{
+  "id": "hemovial_healing",
+  "key": "refinement.hemovial.healing",
+  "incompat": [],
+  "type": ["radweaponry:hemovial"],
+  "proficiency_cost": 10,
+  "material": "undergarden:blood_globule",
+  "material_count": 6,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "attributeslib:healing_received",
+      "amount": 0.01,
+      "operation": "addition",
+      "slots": ["minecraft:offhand"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

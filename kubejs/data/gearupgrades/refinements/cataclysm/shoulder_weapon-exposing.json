@@ -1,0 +1,27 @@
+
+{
+  "id": "shoulder_weapon_exposing",
+  "key": "refinement.shoulder_weapon.exposing",
+  "incompat": [],
+  "type": ["cataclysm:wither_assault_shoulder_weapon","cataclysm:void_assault_shoulder_weapon"],
+  "proficiency_cost": 15,
+  "material": "minecraft:target",
+  "material_count": 6,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "attributeslib:crit_chance",
+      "amount": 0.1,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand","minecraft:offhand"]
+    },
+    {
+      "property": "attributeslib:crit_damage",
+      "amount": 0.1,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand","minecraft:offhand"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

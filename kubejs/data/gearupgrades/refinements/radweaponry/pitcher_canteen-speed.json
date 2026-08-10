@@ -1,0 +1,21 @@
+
+{
+  "id": "pitcher_canteen_speed",
+  "key": "refinement.pitcher_canteen.speed",
+  "incompat": [],
+  "type": ["radweaponry:pitcher_canteen"],
+  "proficiency_cost": 10,
+  "material": "minecraft:sugar",
+  "material_count": 6,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "minecraft:generic.movement_speed",
+      "amount": 0.05,
+      "operation": "multiply_base",
+      "slots": ["minecraft:offhand"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

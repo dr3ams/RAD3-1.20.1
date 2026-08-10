@@ -1,0 +1,21 @@
+
+{
+  "id": "fishing_rod_lucky",
+  "key": "refinement.fishing_rod.lucky",
+  "incompat": [],
+  "type": ["#forge:tools/fishing_rods"],
+  "proficiency_cost": 10,
+  "material": "minecraft:rabbit_foot",
+  "material_count": 1,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "minecraft:generic.luck",
+      "amount": 0.5,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}
