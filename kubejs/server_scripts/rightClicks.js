@@ -45,6 +45,29 @@ ItemEvents.rightClicked( event => {
     }
 })
 
+const EXP_SCROLL_CONFIG = {
+    'kubejs:scroll_exp_minor':   { min: 100,   max: 400   },
+    'kubejs:scroll_exp_lesser':  { min: 400,  max: 700  },
+    'kubejs:scroll_exp_greater': { min: 1000,  max: 4000  },
+    'kubejs:scroll_exp_supreme': { min: 4000,  max: 7000 }
+};
+
+ItemEvents.rightClicked(event => {
+    const { item, player, server } = event;
+
+    const cfg = EXP_SCROLL_CONFIG[item.id];
+    if (!cfg) return;
+
+    const amount = Math.floor(Math.random() * (cfg.max - cfg.min + 1)) + cfg.min;
+
+    server.runCommandSilent(`/experience add ${player.username} ${amount} points`);
+    player.setStatusMessage(`§b+${amount} Experience!`);
+    player.playSound('minecraft:entity.experience_orb.pickup', 1.0, 1.0);
+
+    item.count--;
+    event.cancel();
+});
+
 ItemEvents.rightClicked(event => {
     const { item, player, level } = event;
 

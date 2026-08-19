@@ -1,11 +1,6 @@
 // priority: 0
 
 console.info('Hello, World! (You will only see this line once in console, during startup)')
-// ============================================================
-const TOOLTIP_XP_COST      = 25;           
-const TOOLTIP_OFFHAND_ITEM = "Gold Ingot"; 
-const TOOLTIP_COOLDOWN_SEC = 5;            
-// ============================================================
 
 StartupEvents.registry('item', event => {
 	// Register new items here
@@ -165,6 +160,11 @@ event.create('artifact_fragment').displayName('Artifact Fragment')
 event.create('scroll_exp').displayName('Experience Scroll')
 event.create('scroll_exp_great').displayName('Greater Experience Scroll').rarity('Uncommon')
 
+    event.create('scroll_exp_minor').displayName('Minor Scroll of Knowledge').maxStackSize(16).tooltip('§7Grants a small burst of experience.')
+    event.create('scroll_exp_lesser').displayName('Lesser Scroll of Knowledge').rarity('Uncommon').maxStackSize(16).tooltip('§7Grants a modest burst of experience.')
+    event.create('scroll_exp_greater').displayName('Greater Scroll of Knowledge').rarity('Rare').maxStackSize(16).tooltip('§7Grants a large burst of experience.')
+    event.create('scroll_exp_supreme').displayName('Supreme Scroll of Knowledge').rarity('Epic').maxStackSize(16).tooltip('§7Grants a massive burst of experience.')
+	
 event.create('spawnercore').displayName('Spawner Core').rarity('Uncommon')
 
 event.create('contraband').displayName('Contraband Shipment').rarity('Uncommon')
@@ -189,14 +189,14 @@ event.create('mending').displayName('Mending').texture('minecraft:item/enchanted
 	event.create('reagent_box').displayName('Reagent Box')
 	event.create('detonator').displayName('Detonator').unstackable()
 	event.create('rusty_key').displayName('Rusty Key')
-	event.create('unstable_battery').displayName('Unstable Battery')
+	event.create('unstable_battery').displayName('Unstable Battery').unstackable()
 	event.create('emergency_flare').displayName('Emergency Flare')
 	event.create('bee_jar').displayName('Jar of Distraction').unstackable()
 	event.create('data_slate').displayName('Encoded Data Slate')
 	event.create('sentry_remote').displayName('Sentry Remote')
 	event.create('bioscan_syringe').displayName('Bio Extractor')
 	event.create('charged_stinger').displayName('Charged Stinger').food(food => {food.hunger(6).saturation(1.2)})
-	event.create('magnetic_grapple').displayName('Magnetic Grapple').maxDamage(64)
+	event.create('magnetic_grapple').displayName('Magnetic Grapple').maxDamage(32)
 	event.create('thermal_paste').displayName('Liquid Acid')
 	event.create('echo_locator').displayName('Echo-Locator').maxDamage(4)
 	event.create('kinetic_dampener').displayName('Kinetic Dampener').maxDamage(32).unstackable();

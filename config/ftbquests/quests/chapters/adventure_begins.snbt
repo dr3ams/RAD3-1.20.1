@@ -127,8 +127,8 @@
 		{
 			id: "287B78958ED96F15"
 			linked_quest: "2AF1B6A89DD4F4C2"
-			x: -7.0d
-			y: -5.5d
+			x: -5.5d
+			y: -8.5d
 		}
 		{
 			icon: {
@@ -556,135 +556,6 @@
 			title: "Collectibles"
 			x: -2.0d
 			y: 2.0d
-		}
-		{
-			dependencies: ["366659E50333BC5A"]
-			description: [
-				"Players earns knowledge points each time they use a grave's soul to enchant an item, when they free a soul from a receptacle, by praying near a decorative grave with a special item called Ankh of Pray (with a cooldown of 6 in-game hours), or by accomplishing the tombstone advancements."
-				""
-				"Theses points allow you to unlock some perks in a special gui \"Knowledge of Death\" (the keybind in \"misc\" is not defined by default)."
-				""
-				"The perks are small bonus related to all the features of tombstone, instead of providing them by default."
-			]
-			id: "2C5C6BA3B3AFEFD7"
-			rewards: [{
-				id: "688962A447F65683"
-				type: "xp"
-				xp: 50
-			}]
-			subtitle: "Chose your first knowledge of death"
-			tasks: [{
-				advancement: "tombstone:adventure/choose_knowledge"
-				criterion: ""
-				id: "518B97A059D9C268"
-				type: "advancement"
-			}]
-			x: -5.5d
-			y: -8.5d
-		}
-		{
-			dependencies: ["2C5C6BA3B3AFEFD7"]
-			description: [
-				"The Ankh allows you to use prayers by period."
-				""
-				"You can pray near a Decorative Grave giving you a chance to receive a beneficial effect or on certain creatures depending on your alignment."
-				""
-				"If your alignment is neutral or better, you can use Exorcism to convert a zombie-villager into a villager (or Zombify doing the opposite if your alignment is negative)"
-				""
-				"If your alignment is +1, you can use Prayer of Protection on a villager (or citizen of Minecolonies) preventing its next death."
-				""
-				"If your alignment is +2, you can use Prayer of Empathy to rally a tameable creature."
-			]
-			id: "0611628E78DF44FB"
-			rewards: [
-				{
-					id: "453C2306AEB7BFD8"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "4539904AA80E0807"
-					item: "nameless_trinkets:pocket_lightning_rod"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "5A7D361140FECB49"
-				item: {
-					Count: 1
-					id: "tombstone:ankh_of_prayer"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -6.5d
-			y: -9.5d
-		}
-		{
-			dependencies: ["2C5C6BA3B3AFEFD7"]
-			description: [
-				"Once enchanted, they allow to teleport in various ways."
-				""
-				"In ancient time, tablets had the ability to transport multiple creatures, but not one remembers the secret of their creation."
-			]
-			id: "05E6055834D440E5"
-			rewards: [{
-				id: "3B73BA00E43033DC"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "7CF72A116DB6C85C"
-				item: "tombstone:strange_tablet"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -9.5d
-		}
-		{
-			dependencies: ["2C5C6BA3B3AFEFD7"]
-			description: [
-				"The decorative graves are special blocks with a fog particle only during the night."
-				""
-				"The decorative graves can be haunted by a soul. The soul stays until used and allows some enchants like magic scroll/tablet, or upgrade the grave's key."
-				""
-				"Rarely, a Grave Guardian can appear near a decorative grave. This guardian will protect the surroundings from hostile creatures and will offer to trade with the players. This is one way to obtain Grave's Dust and Essence of Undeath. During special events, the trades may differ."
-			]
-			icon: "tombstone:essence_of_undeath"
-			id: "1747432114401210"
-			rewards: [{
-				id: "2ECF31D51DEB3A77"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [
-				{
-					id: "7FD817A158BC24AB"
-					item: "tombstone:essence_of_undeath"
-					type: "item"
-				}
-				{
-					id: "63E06DA1257CDC4A"
-					item: "tombstone:grave_dust"
-					type: "item"
-				}
-				{
-					id: "0707C6E6A7C3A185"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "tombstone:decorative_graves"
-						}
-					}
-					title: "Any #tombstone:decorative_graves"
-					type: "item"
-				}
-			]
-			x: -5.5d
-			y: -10.0d
 		}
 		{
 			dependencies: ["35A027D4B827463C"]
@@ -3663,33 +3534,6 @@
 			title: "Personal Dimension"
 			x: 1.0d
 			y: -5.0d
-		}
-		{
-			dependencies: [
-				"1747432114401210"
-				"3B713701E442645A"
-			]
-			id: "0D3C9711C0517F9F"
-			rewards: [{
-				id: "0C3388BC1A2A5E29"
-				type: "xp"
-				xp: 5
-			}]
-			tasks: [
-				{
-					id: "05B8B4EC99866557"
-					item: "tombstone:book_of_disenchantment"
-					type: "item"
-				}
-				{
-					id: "33FE1436AD7CD590"
-					item: "tombstone:scroll_of_knowledge"
-					type: "item"
-				}
-			]
-			title: "Store experience and disenchant"
-			x: -5.5d
-			y: -11.0d
 		}
 		{
 			dependencies: ["1966320B37D990A0"]

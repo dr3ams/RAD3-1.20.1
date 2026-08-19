@@ -194,7 +194,7 @@
 				title: "New Piglins Behavior"
 				type: "checkmark"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -224,29 +224,6 @@
 			title: "Trinkets and Curios"
 			x: -3.5d
 			y: 5.0d
-		}
-		{
-			dependencies: ["085E485E8091D543"]
-			description: [
-				"When you &4perish&r, a &8Tombstone&r will form at your location, &9preserving your items&r and &9preventing them from despawning&r. You will receive a &8&lGrave's Key&r&r upon respawning; this key acts as a compass, leading you directly back to your remains."
-				""
-				"As you interact with the world of the dead, you will accumulate &1Knowledge of Death&r. This allows you to perform powerful &4rituals&r using &eSoul Receptacles&r and the &3Decorative Graves&r you can craft. From enchanting scrolls to teleporting back to your place of death, the grave is just the beginning of your power."
-			]
-			id: "00EEAE0FACC02300"
-			rewards: [{
-				id: "2304ED8288AB39AC"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "&oDeath is not the end, but it is a major inconvenience.&r"
-			tasks: [{
-				advancement: "tombstone:adventure/first_knowledge"
-				criterion: ""
-				id: "6121BA739D1C7316"
-				type: "advancement"
-			}]
-			x: 5.5d
-			y: 3.0d
 		}
 		{
 			dependencies: ["219C6641A038984F"]
@@ -448,8 +425,8 @@
 				type: "observation"
 			}]
 			title: "Harder Spawners and Ageing Spawners"
-			x: 4.5d
-			y: 0.0d
+			x: 5.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2620A08E1295B3A3"]
@@ -1516,10 +1493,6 @@
 							{
 								Count: 1b
 								id: "sophisticatedbackpacks:xp_pump_upgrade"
-							}
-							{
-								Count: 1b
-								id: "tombstone:scroll_of_knowledge"
 							}
 						]
 					}
