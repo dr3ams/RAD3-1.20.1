@@ -82,7 +82,7 @@ ItemEvents.tooltip(event => {
             lore: 'It hums with a dangerous, flickering orange light',
             mechanics: [
                 '§b• Jumpstarter: Grants the ability to Double Jump for 3 minutes',
-                '§2• Unstable: You get struck by lightning after the surge.',
+                '§2• Unstable: You get struck by lightning after the surge',
                 '§6• Right-click to consume and activate'
             ]
         },

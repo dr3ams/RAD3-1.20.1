@@ -486,7 +486,7 @@
 	etchingSlotSize = 7
 	#Catastrophe Scroll: Number of charm slots size
 	#Range: 0 ~ 10
-	charmSlotSize = 3
+	charmSlotSize = 1
 
 [head]
 	#Abyss Core: effect cooldown
@@ -677,9 +677,12 @@
 	#Ring Of Life: effect interval
 	#Range: 1 ~ 100
 	ringOfLifeEffectInterval = 5
-	#Nostalgic Butterfly Ring: crit damage reduce
+	#Nostalgic Butterfly Ring: crit rate bonus
 	#Range: 0.0 ~ 100.0
 	nostalgicButterflyRingCritRate = 0.2
+	#Nostalgic Butterfly Ring: crit damage reduce
+	#Range: 0.0 ~ 100.0
+	nostalgicButterflyRingCritDmg = 0.2
 
 [scroll]
 	#Sky Walker Scroll: teleport cooldown in seconds

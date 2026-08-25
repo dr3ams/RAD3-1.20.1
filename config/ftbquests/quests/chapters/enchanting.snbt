@@ -861,8 +861,6 @@
 			description: [
 				"There are multiple methods to perform disenchanting."
 				""
-				"&5Book of Disenchantment&r can be used with a Grave Soul to strip multiple enchantments from items (not books), into individual books. Knowledge of Death perks can increase the amount extracted."
-				""
 				"&5Tome of Scrapping&r costs a few levels, destroys the item, and returns half the enchantments, rounded up, on a book."
 				""
 				"&5Tome of Superior Scrapping&r costs a lot of levels, destroys the item, but returns all of the enchantments."
@@ -887,10 +885,6 @@
 					id: "itemfilters:or"
 					tag: {
 						items: [
-							{
-								Count: 1b
-								id: "tombstone:book_of_disenchantment"
-							}
 							{
 								Count: 1b
 								id: "apotheosis:scrap_tome"

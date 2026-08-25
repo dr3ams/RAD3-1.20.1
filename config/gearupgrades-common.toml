@@ -21,12 +21,19 @@
 	#Global gain multiplier
 	#Range: 0.0 ~ 1000000.0
 	proficiencyGlobal = 1.0
+	#Should Damage Dealing proficiency account for victims current health
+	proficiencyDamagingLimiter = true
+	#Non-player gain multiplier
+	#Range: 0.0 ~ 1000000.0
+	proficiencyNonPlayer = 3.0
 
 [Misc]
 	#Upgrade Removal Item
 	removalItem = "minecraft:crying_obsidian"
 	#Limit Breaking Enabled - +1 Upgrade Capacity by combining with max upgraade base item
 	limitBreak = true
+	#Strict Quantity Enabled - Upgrading items requires the exact amount of a material
+	strictQuantity = false
 
 ["Default Slots"]
 	#Curio Slots

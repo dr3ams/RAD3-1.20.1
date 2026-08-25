@@ -101,7 +101,7 @@ const HUNGER_CONFIG = {
     // Base melee cost configured at 0.7× in toml.
     zeroMeleePenalty:        -2.0,
     // Shield regen penalty: heavily slows shield heart recovery when starving.
-    zeroShieldRegenPenalty:  1000,
+    zeroShieldRegenPenalty:  2000,
 
     // ── MID tier bonuses ──────────────────────────────────────
     midIdleRegenBonus:      3,
@@ -157,7 +157,7 @@ const HUNGER_CONFIG = {
     xpMax: 15,
 
     // --- Debug mode ---
-    debugMode: true,
+    debugMode: false,
 
     // ── RANDOM EFFECT POOL ────────────────────────────────────
     randomEffectsPool: [

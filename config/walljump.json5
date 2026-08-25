@@ -1,0 +1,49 @@
+{
+  // default: true
+  "allowReClinging": true,
+  // default: false
+  "autoRotation": false,
+  // default: true
+  "onFallDoubleJump": true,
+  // default: true
+  "onFallWallCling": true,
+  // min: 0.0, max: 5.0, default: 0.8
+  "exhaustionWallJump": 2.0,
+  // min: 3.0, max: 256.0, default: 3.0
+  "minFallDistance": 3.0,
+  // min: 0.0, max: 5.0, default: 0.0
+  "elytraSpeedBoost": 0.0,
+  // min: 0.0, max: 5.0, default: 0.0
+  "sprintSpeedBoost": 0.0,
+  // default: true
+  "stepAssist": true,
+  // default: false
+  "useDoubleJump": false,
+  // default: true
+  "useWallJump": true,
+  // min: 0.0, max: 1.0, default: 0.55
+  "wallJumpHeight": 0.65,
+  // min: 0, max: 2147483647, default: 15
+  "wallSlideDelay": 15,
+  // min: 0, max: 2147483647, default: 72000
+  "stopWallSlideDelay": 72000,
+  // min: 0, max: 2147483647, default: 72000
+  "maxWallJumps": 72000,
+  // default: true
+  "playFallingSound": true,
+  // default: []
+  "blockList": [],
+  // values: DISABLED, BLACKLIST, WHITELIST, default: BLACKLIST
+  "blockListMode": "BLACKLIST",
+
+  // default: true
+  "enableEnchantments": true,
+  // default: true
+  "enableWallJump": true,
+  // default: true
+  "enableDoubleJump": true,
+  // default: true
+  "enableSpeedBoost": false,
+  // min: 0.25, max: 1.0, default: 0.5
+  "speedBoostMultiplier": 0.5
+}

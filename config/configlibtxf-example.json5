@@ -1,0 +1,68 @@
+{
+  // A boolean field
+  // default: true
+  "booleanField": true,
+  // A string field
+  // default: Hello
+  "stringField": "Hello",
+  // String with regex
+  // default: Steve
+  "stringRegex": "Steve",
+  // values: EASY, NORMAL, HARD, EXTREME, default: NORMAL
+  "enumField": "NORMAL",
+  // An integer field
+  // min: 0, max: 100, default: 50
+  "intField": 50,
+  // Integer slider
+  // min: 0, max: 100, default: 75
+  "intSlider": 75,
+  // Float slider
+  // min: 0.0, max: 1.0, default: 0.5
+  "floatSlider": 0.5,
+  // A double field
+  // min: 0.0, max: 1000.0, default: 42.0
+  "doubleField": 42.0,
+  // String with item icon
+  // default: minecraft:diamond
+  "stringItemId": "minecraft:diamond",
+  // String with block icon
+  // default: minecraft:grass_block
+  "stringBlockId": "minecraft:grass_block",
+  // String with fixed item display
+  // default: Golden Apple
+  "stringItemDisplay": "Golden Apple",
+
+  // Color picker
+  // min: 7, width: 7, default: #FF5555
+  "colorField": "#FF5555",
+  // File chooser
+  // default: 
+  "fileChooser": "",
+  // Directory chooser
+  // default: 
+  "directoryChooser": "",
+  // String list
+  // default: [alpha, beta, gamma]
+  "stringList": [
+    "alpha",
+    "beta",
+    "gamma"
+  ],
+  // String list with item icons
+  // default: [minecraft:diamond, minecraft:emerald, minecraft:gold_ingot]
+  "stringListItems": [
+    "minecraft:diamond",
+    "minecraft:emerald",
+    "minecraft:gold_ingot"
+  ],
+  // Color list
+  // width: 7, default: [#FF5555, #55FF55, #5555FF]
+  "colorList": [
+    "#FF5555",
+    "#55FF55",
+    "#5555FF"
+  ],
+  // File list
+  // default: []
+  "fileList": []
+}
