@@ -296,9 +296,17 @@
 			}]
 			tasks: [{
 				id: "43C5BC49A3246F07"
-				item: "aether:blue_moa_egg"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "aether:moa_eggs"
+					}
+				}
+				title: "Any #aether:moa_eggs"
 				type: "item"
 			}]
+			title: "Moa Egg"
 			x: 2.0d
 			y: 7.0d
 		}
