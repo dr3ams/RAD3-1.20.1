@@ -1,0 +1,162 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "vinery:mead",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Year:-12}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vinery:apple_cider",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Year:-12}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vinery:apple_wine",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Year:-12}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vinery:mellohi_wine",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Year:-12}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vinery:solaris_wine",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Year:-12}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vinery:strad_wine",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Year:-12}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vinery:cherry_wine",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Year:-12}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vinery:aegis_wine",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Year:-12}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vinery:clark_wine",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Year:-12}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vinery:stal_wine",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Year:-12}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vinery:bottle_mojang_noir",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Year:-12}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vinery:eiswein",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Year:-12}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:thermal_paste"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.2
+        }
+      ]
+    }
+  ]
+}

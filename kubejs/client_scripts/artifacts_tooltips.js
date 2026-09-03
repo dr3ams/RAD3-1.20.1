@@ -73,7 +73,7 @@ ItemEvents.tooltip(event => {
             id: 'kubejs:rusty_key',
             lore: 'An old key covered in thick, orange rust',
             mechanics: [
-                '§6• Can be used to force open iron doors',
+                '§6• Can be used to force open iron doors, and lock blocks in the dungeon dimension',
                 '§2• The key is fragile and will break after one use'
             ]
         },
@@ -137,7 +137,7 @@ ItemEvents.tooltip(event => {
             mechanics: [
                 '§6• Pulls the user toward the targeted block',
                 '§2• High risk of mechanical failure (Durability)',
-                '§b• Maximum effective range: 20 blocks'
+                '§b• Maximum effective range: 25 blocks'
             ]
         },
         {

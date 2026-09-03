@@ -157,9 +157,13 @@ ItemEvents.rightClicked(event => {
 	// RUSTY KEY
     if (item.id == 'kubejs:rusty_key') {
         let block = player.rayTrace(4).block;
-        if (block && (block.id.contains('iron_door'))) {
-            block.set('minecraft:air');
-        block.set('minecraft:air'); // "Breaks" the door/lock
+        if (block && (block.id.contains('iron_door') || block.id.contains('lrdynamicdungeon:lock_block'))) {
+	        if (block && (block.id.contains('lrdynamicdungeon:lock_block'))) {
+	            block.set('lrdynamicdungeon:room_connection_block');
+		}
+		else {
+	            block.set('minecraft:air');
+		}
 		player.swing()
 		level.spawnParticles('minecraft:crit', true, block.x, block.y, block.z, 0.5, 0.5, 0.5, 10, 0.1);
 		level.playSound(null, player.blockX, player.blockY, player.blockZ, 'minecraft:block.iron_door.open', 'players', 1.0, 1.0);

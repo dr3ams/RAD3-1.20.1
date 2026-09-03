@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 3
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:sentry_remote"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:rusty_key",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:unstable_battery"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:emergency_flare",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:ore_bag",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:magnetic_grapple"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:lootbox_common"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "roughtweaks:bandage"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "supplementaries:bomb"
+        }
+      ]
+    }
+  ]
+}
