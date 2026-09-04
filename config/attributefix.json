@@ -1918,7 +1918,7 @@
       "enabled": true,
       "min": {
         "default": 0,
-        "value": -10
+        "value": -20
       },
       "max": {
         "default": 100,
@@ -2157,14 +2157,14 @@
       }
     },
     "attributeslib:arrow_damage": {
-      "enabled": false,
+      "enabled": true,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
         "default": 10,
-        "value": 10
+        "value": 10000
       }
     },
     "parcool:max_stamina": {
@@ -2179,14 +2179,14 @@
       }
     },
     "attributeslib:arrow_velocity": {
-      "enabled": false,
+      "enabled": true,
       "min": {
         "default": 0,
-        "value": 0
+        "value": -20
       },
       "max": {
         "default": 10,
-        "value": 10
+        "value": 20
       }
     },
     "attributeslib:life_steal": {
@@ -2622,7 +2622,7 @@
       "enabled": true,
       "min": {
         "default": 0,
-        "value": -10
+        "value": -20
       },
       "max": {
         "default": 100,
@@ -3007,7 +3007,7 @@
       "enabled": true,
       "min": {
         "default": 0,
-        "value": 0
+        "value": -50
       },
       "max": {
         "default": 100,
@@ -3073,7 +3073,7 @@
       "enabled": true,
       "min": {
         "default": 0,
-        "value": -1
+        "value": -10
       },
       "max": {
         "default": 1,
@@ -3466,14 +3466,14 @@
       }
     },
     "attributeslib:dodge_chance": {
-      "enabled": false,
+      "enabled": true,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
         "default": 1,
-        "value": 1
+        "value": 0.99
       }
     },
     "parcool:stamina_recovery": {
@@ -3620,14 +3620,14 @@
       }
     },
     "attributeslib:crit_damage": {
-      "enabled": false,
+      "enabled": true,
       "min": {
         "default": 1,
         "value": 1
       },
       "max": {
         "default": 100,
-        "value": 100
+        "value": 100000
       }
     },
     "additional_attributes:spell_type_firefly_swarm": {
@@ -4041,7 +4041,7 @@
       "enabled": true,
       "min": {
         "default": 0,
-        "value": -10
+        "value": -20
       },
       "max": {
         "default": 100,
