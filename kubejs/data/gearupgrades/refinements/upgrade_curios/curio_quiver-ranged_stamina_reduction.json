@@ -1,0 +1,21 @@
+
+{
+  "id": "quiver-stamina_reduction",
+  "key": "refinement.quiver.archer_spirit",
+  "incompat": [],
+  "type": ["skilltree:quiver","skilltree:fiery_quiver","skilltree:armored_quiver","skilltree:gilded_quiver","skilltree:toxic_quiver","skilltree:diamond_quiver","skilltree:healing_quiver","skilltree:silent_quiver","skilltree:bone_quiver","relics:arrow_quiver","uniqueaccessories:magick_quiver","supplementaries:quiver","celestial_artifacts:magic_arrow_bag","celestial_artifacts:flame_arrow_bag","celestial_artifacts:spirit_arrow_bag"],
+  "proficiency_cost": 15,
+  "material": "hmag:soul_powder",
+  "material_count": 16,
+  "anvil_levels": 10,
+  "bonuses": [
+    {
+      "property": "betterparagliders:range_stamina_reduction",
+      "amount": 0.5,
+      "operation": "addition",
+      "slots": ["curios:back","curios:belt"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

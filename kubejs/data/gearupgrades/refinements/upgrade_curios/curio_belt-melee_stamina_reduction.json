@@ -1,0 +1,21 @@
+
+{
+  "id": "melee_stamina_reduction",
+  "key": "refinement.belt.fighting_spirit",
+  "incompat": [],
+  "type": ["curios:belt","!supplementaries:quiver"],
+  "proficiency_cost": 15,
+  "material": "hmag:soul_powder",
+  "material_count": 16,
+  "anvil_levels": 10,
+  "bonuses": [
+    {
+      "property": "betterparagliders:base_melee_stamina_reduction",
+      "amount": 0.5,
+      "operation": "addition",
+      "slots": ["curios:belt"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

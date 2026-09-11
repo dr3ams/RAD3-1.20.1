@@ -1,0 +1,19 @@
+
+{
+  "id": "feet-hiking",
+  "key": "refinement.curio_feet.hiking",
+  "type": ["curios:feet"],
+  "proficiency_cost": 10,
+  "material": "farmersdelight:rope",
+  "material_count": 16,
+  "anvil_levels": 10,
+  "bonuses": [
+    {
+      "property": "minecraft:generic.movement_speed",
+      "amount": 0.03,
+      "operation": "multiply_base"
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

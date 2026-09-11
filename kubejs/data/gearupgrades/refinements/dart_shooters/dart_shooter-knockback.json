@@ -1,0 +1,21 @@
+
+{
+  "id": "dart_shooter-knockback",
+  "key": "refinement.dart_shooter.knockback",
+  "incompat": [],
+  "type": ["aether:golden_dart_shooter","aether:poison_dart_shooter","aether:enchanted_dart_shooter","ancient_aether:aeronautic_dart_shooter","aether_redux:veridium_dart_shooter","aether_redux:infused_veridium_dart_shooter"],
+  "proficiency_cost": 10,
+  "material": "minecraft:piston",
+  "material_count": 2,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "celestial_core:arrow_knock",
+      "amount": 2,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand","minecraft:offhand"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

@@ -1,0 +1,21 @@
+
+{
+  "id": "dart_shooter-gunner",
+  "key": "refinement.dart_shooter.gunner",
+  "incompat": [],
+  "type": ["aether:golden_dart_shooter","aether:poison_dart_shooter","aether:enchanted_dart_shooter","ancient_aether:aeronautic_dart_shooter","aether_redux:veridium_dart_shooter","aether_redux:infused_veridium_dart_shooter"],
+  "proficiency_cost": 20,
+  "material": "immersive_aircraft:rotary_cannon",
+  "material_count": 1,
+  "anvil_levels": 10,
+  "bonuses": [
+    {
+      "property": "attributeslib:draw_speed",
+      "amount": 0.76,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand","minecraft:offhand"]
+    }
+  ],
+  "allowed_steps": [4],
+  "color": "yellow"
+}

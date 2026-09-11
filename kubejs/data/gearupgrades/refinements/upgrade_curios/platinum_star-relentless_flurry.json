@@ -1,0 +1,27 @@
+
+{
+  "id": "platinum_star-relentless_flurry",
+  "key": "refinement.platinum_star.relentless_flurry",
+  "incompat": [],
+  "type": ["l2hostility:platinum_star"],
+  "proficiency_cost": 30,
+  "material": "miners_delight:powder_snow_cup",
+  "material_count": 1,
+  "anvil_levels": 20,
+  "bonuses": [
+    {
+      "property": "minecraft:generic.attack_speed",
+      "amount": 0.3,
+      "operation": "multiply_total",
+      "slots": ["curios:hands"]
+    },
+    {
+      "property": "betterparagliders:base_melee_stamina_reduction",
+      "amount": 1.0,
+      "operation": "addition",
+      "slots": ["curios:hands"]
+    }
+  ],
+  "allowed_steps": [4],
+  "color": "yellow"
+}

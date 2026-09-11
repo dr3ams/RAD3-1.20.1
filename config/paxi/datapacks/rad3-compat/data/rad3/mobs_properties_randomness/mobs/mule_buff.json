@@ -26,10 +26,21 @@
 	    "attribute": "minecraft:horse.jump_strength",
 	    "modifier_name": "Horse Jump",
 	    "amount": {
-	        "min": 0.35,
-	        "max": 0.35
+	        "min": 0.4,
+	        "max": 0.5
 	    },
 	    "operation": "multiply_base"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "shieldinghealth:attribute.shieldinghealth.shield_value",
+	    "modifier_name": "Horse Shielding 6 Hp",
+	    "amount": -4.0,
+	    "operation": "addition"
+	},
+        {
+	    "property": "raw_nbt",
+	    "nbt": "{Tags:[\"sh_shielded\"]}"
 	}
     ],
     "conditions": [

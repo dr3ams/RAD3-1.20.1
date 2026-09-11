@@ -1,0 +1,21 @@
+
+{
+  "id": "small_propulsion_device-arrows",
+  "key": "refinement.small_propulsion_device.arrows",
+  "incompat": [],
+  "type": ["uniqueaccessories:small_propulsion_device"],
+  "proficiency_cost": 20,
+  "material": "immersive_aircraft:enhanced_propeller",
+  "material_count": 1,
+  "anvil_levels": 10,
+  "bonuses": [
+    {
+      "property": "attributeslib:arrow_velocity",
+      "amount": 0.3,
+      "operation": "addition",
+      "slots": ["curios:charm"]
+    }
+  ],
+  "allowed_steps": [4],
+  "color": "yellow"
+}

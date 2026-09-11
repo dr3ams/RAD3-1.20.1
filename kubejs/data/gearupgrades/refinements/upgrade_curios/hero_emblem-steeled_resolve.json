@@ -1,0 +1,21 @@
+
+{
+  "id": "hero_emblem-armor",
+  "key": "refinement.hero_emblem.steeled_resolve",
+  "incompat": [],
+  "type": ["uniqueaccessories:hero_emblem","uniqueaccessories:championship_belt"],
+  "proficiency_cost": 10,
+  "material": "dungeonsdelight:stained_scrap",
+  "material_count": 5,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "minecraft:generic.armor",
+      "amount": 1,
+      "operation": "addition",
+      "slots": ["curios:charm"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

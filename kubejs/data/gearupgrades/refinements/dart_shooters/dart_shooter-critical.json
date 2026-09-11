@@ -1,0 +1,27 @@
+
+{
+  "id": "dart_shooter-critical",
+  "key": "refinement.dart_shooter.critical",
+  "incompat": [],
+  "type": ["aether:golden_dart_shooter","aether:poison_dart_shooter","aether:enchanted_dart_shooter","ancient_aether:aeronautic_dart_shooter","aether_redux:veridium_dart_shooter","aether_redux:infused_veridium_dart_shooter"],
+  "proficiency_cost": 10,
+  "material": "minecraft:target",
+  "material_count": 8,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "attributeslib:crit_chance",
+      "amount": 0.05,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand","minecraft:offhand"]
+    },
+    {
+      "property": "attributeslib:crit_damage",
+      "amount": 0.1,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand","minecraft:offhand"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

@@ -1,0 +1,21 @@
+
+{
+  "id": "ninja_relic-stealth",
+  "key": "refinement.ninja_relic.stealth",
+  "incompat": [],
+  "type": ["uniqueaccessories:tabi","uniqueaccessories:master_ninja_tabi","uniqueaccessories:black_belt","uniqueaccessories:ninjitsu_manual"],
+  "proficiency_cost": 10,
+  "material": "apotheosis:uncommon_material",
+  "material_count": 2,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "skilltree:stealth",
+      "amount": 1,
+      "operation": "addition",
+      "slots": ["curios:feet","curios:charm","curios:belt"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

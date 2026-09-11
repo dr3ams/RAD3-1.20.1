@@ -1,0 +1,21 @@
+
+{
+  "id": "ninja_relic-slipstream",
+  "key": "refinement.ninja_relic.slipstream",
+  "incompat": [],
+  "type": ["uniqueaccessories:tabi","uniqueaccessories:master_ninja_tabi","uniqueaccessories:black_belt","uniqueaccessories:ninjitsu_manual"],
+  "proficiency_cost": 10,
+  "material": "dawnoftimebuilder:water_source_trickle",
+  "material_count": 1,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "combatroll:recharge",
+      "amount": 0.05,
+      "operation": "addition",
+      "slots": ["curios:feet","curios:charm","curios:belt"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

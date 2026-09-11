@@ -1,7 +1,7 @@
 
 [Damage-Module]
 	#The purpose of the damage module is to remove the invulnerability ticks after an entity is damaged to better suit gameplay where entities are going to be ignoring too much damage if left unchecked. Disabling will nullify every feature listed under this module.
-	damageModuleEnabled = true
+	damageModuleEnabled = false
 	#Invulnerability Tick (I-Frame) count. Default: 0
 	invulnerabilityTickCount = 0
 	#Additional handling for player's interactions with reduced i-frames. "ALL" means there is no additional handling, "ONLY_LIVING" means only living attacks ignore player i-frames (may help with unforeseen damage like potions), and "NONE" means player's damage ticks are unaffected by the damage module.

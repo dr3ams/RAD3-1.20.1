@@ -1,0 +1,21 @@
+
+{
+  "id": "small_propulsion_device-swim_speed",
+  "key": "refinement.small_propulsion_device.swim_speed",
+  "incompat": [],
+  "type": ["uniqueaccessories:small_propulsion_device"],
+  "proficiency_cost": 10,
+  "material": "immersive_aircraft:propeller",
+  "material_count": 1,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "forge:swim_speed",
+      "amount": 0.15,
+      "operation": "multiply_base",
+      "slots": ["curios:charm"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

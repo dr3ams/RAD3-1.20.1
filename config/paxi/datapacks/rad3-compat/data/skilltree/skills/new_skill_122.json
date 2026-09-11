@@ -51,6 +51,162 @@
       "target_condition": {
         "type": "skilltree:none"
       }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:overheal",
+      "id": "947645ce-933a-49b6-a0b0-f13168e74816",
+      "name": "Skill",
+      "amount": -0.1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "item_condition": {
+            "equipment_type": "weapon",
+            "type": "skilltree:equipment_type"
+          },
+          "type": "skilltree:enchanted"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:overheal",
+      "id": "ec340e70-d062-44c5-915c-c78c1155c5a0",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:prot_shred",
+      "id": "dc461469-a4e0-42e0-96b9-237200a8b841",
+      "name": "Skill",
+      "amount": -0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "item_condition": {
+            "equipment_type": "weapon",
+            "type": "skilltree:equipment_type"
+          },
+          "type": "skilltree:enchanted"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:prot_shred",
+      "id": "717283e8-c3d4-4e24-9439-a9d4162c9ba7",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:current_hp_damage",
+      "id": "956b3aa8-a158-46f2-9acd-550c481ca071",
+      "name": "Skill",
+      "amount": -0.05,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "item_condition": {
+            "equipment_type": "weapon",
+            "type": "skilltree:equipment_type"
+          },
+          "type": "skilltree:enchanted"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:current_hp_damage",
+      "id": "06cead14-f9f6-42fc-bc96-c24027fa1bb3",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:armor_shred",
+      "id": "8ca13015-e231-45f7-b0e3-10fb10c45089",
+      "name": "Skill",
+      "amount": -0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "item_condition": {
+            "equipment_type": "weapon",
+            "type": "skilltree:equipment_type"
+          },
+          "type": "skilltree:enchanted"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:armor_shred",
+      "id": "27b2cbbb-1378-477e-9fe4-9e7915edc950",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
     }
   ],
   "directConnections": [

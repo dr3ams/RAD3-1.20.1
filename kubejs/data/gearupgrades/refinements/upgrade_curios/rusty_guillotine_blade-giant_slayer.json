@@ -1,0 +1,21 @@
+
+{
+  "id": "rusty_guillotine_blade-giant_slayer",
+  "key": "refinement.rusty_guillotine_blade.giant_slayer",
+  "incompat": [],
+  "type": ["uniqueaccessories:rusty_guillotine_blade","uniqueaccessories:bloody_knife"],
+  "proficiency_cost": 25,
+  "material": "spelunkery:diamond_grindstone",
+  "material_count": 1,
+  "anvil_levels": 15,
+  "bonuses": [
+    {
+      "property": "attributeslib:current_hp_damage",
+      "amount": 0.01,
+      "operation": "addition",
+      "slots": ["curios:charm"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

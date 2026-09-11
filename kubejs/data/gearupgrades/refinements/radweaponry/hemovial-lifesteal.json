@@ -1,0 +1,21 @@
+
+{
+  "id": "hemovial_lifesteal",
+  "key": "refinement.hemovial.lifesteal",
+  "incompat": [],
+  "type": ["radweaponry:hemovial"],
+  "proficiency_cost": 10,
+  "material": "ars_nouveau:wilden_horn",
+  "material_count": 16,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "attributeslib:life_steal",
+      "amount": 0.01,
+      "operation": "addition",
+      "slots": ["minecraft:offhand"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

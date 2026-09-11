@@ -1,0 +1,27 @@
+
+{
+  "id": "shiny_stone-passive_over_active",
+  "key": "refinement.shiny_stone.passive_over_active",
+  "incompat": [],
+  "type": ["uniqueaccessories:shiny_stone"],
+  "proficiency_cost": 20,
+  "material": "kubejs:living_branch",
+  "material_count": 1,
+  "anvil_levels": 10,
+  "bonuses": [
+    {
+      "property": "skilltree:blocking",
+      "amount": 5,
+      "operation": "addition",
+      "slots": ["curios:charm"]
+    },
+    {
+      "property": "combatroll:recharge",
+      "amount": -0.25,
+      "operation": "multiply_base",
+      "slots": ["curios:charm"]
+    }
+  ],
+  "allowed_steps": [4],
+  "color": "red"
+}

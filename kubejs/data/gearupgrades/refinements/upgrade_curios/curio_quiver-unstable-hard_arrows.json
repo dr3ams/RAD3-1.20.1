@@ -1,0 +1,33 @@
+
+{
+  "id": "quiver-hard_arrows",
+  "key": "refinement.quiver.hard_arrows",
+  "incompat": [],
+  "type": ["skilltree:quiver","skilltree:fiery_quiver","skilltree:armored_quiver","skilltree:gilded_quiver","skilltree:toxic_quiver","skilltree:diamond_quiver","skilltree:healing_quiver","skilltree:silent_quiver","skilltree:bone_quiver","relics:arrow_quiver","uniqueaccessories:magick_quiver","supplementaries:quiver","celestial_artifacts:magic_arrow_bag","celestial_artifacts:flame_arrow_bag","celestial_artifacts:spirit_arrow_bag"],
+  "proficiency_cost": 30,
+  "material": "apotheosis:obsidian_arrow",
+  "material_count": 8,
+  "anvil_levels": 25,
+  "bonuses": [
+    {
+      "property": "attributeslib:arrow_damage",
+      "amount": 0.2,
+      "operation": "addition",
+      "slots": ["curios:back","curios:belt"]
+    },
+    {
+      "property": "attributeslib:draw_speed",
+      "amount": -0.1,
+      "operation": "multiply_base",
+      "slots": ["curios:back","curios:belt"]
+    },
+    {
+      "property": "betterparagliders:range_stamina_reduction",
+      "amount": -3,
+      "operation": "addition",
+      "slots": ["curios:back","curios:belt"]
+    }
+  ],
+  "allowed_steps": [4],
+  "color": "red"
+}

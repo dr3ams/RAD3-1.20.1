@@ -1,0 +1,1 @@
+execute at @e[type=end_crystal,distance=..500,nbt={ShowBottom:1b}] run summon marker ~ ~ ~ {Tags:["ender_dragon_crystal_location"]}

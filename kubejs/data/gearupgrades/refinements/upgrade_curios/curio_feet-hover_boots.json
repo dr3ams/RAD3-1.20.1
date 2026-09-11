@@ -1,0 +1,21 @@
+
+{
+  "id": "feet-hover_boots",
+  "key": "refinement.curio_feet.hover_boots",
+  "incompat": [],
+  "type": ["curios:feet"],
+  "proficiency_cost": 15,
+  "material": "kubejs:kinetic_dampener",
+  "material_count": 1,
+  "anvil_levels": 10,
+  "bonuses": [
+    {
+      "property": "forge:entity_gravity",
+      "amount": -0.05,
+      "operation": "multiply_base",
+      "slots": ["curios:feet"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

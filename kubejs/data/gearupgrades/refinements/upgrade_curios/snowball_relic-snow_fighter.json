@@ -1,0 +1,21 @@
+
+{
+  "id": "snowball_relic-snow_fighter",
+  "key": "refinement.snowball_relic.snow_fighter",
+  "incompat": [],
+  "type": ["uniqueaccessories:snow_golem_doll","relics:wool_mitten"],
+  "proficiency_cost": 10,
+  "material": "minecraft:powder_snow_bucket",
+  "material_count": 1,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "attributeslib:crit_chance",
+      "amount": 0.03,
+      "operation": "addition",
+      "slots": ["curios:charm","curios:hands"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

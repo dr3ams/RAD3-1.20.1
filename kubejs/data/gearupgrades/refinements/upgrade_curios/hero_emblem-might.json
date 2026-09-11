@@ -1,0 +1,21 @@
+
+{
+  "id": "hero_emblem-might",
+  "key": "refinement.hero_emblem.might",
+  "incompat": [],
+  "type": ["uniqueaccessories:hero_emblem","uniqueaccessories:bloody_knife","uniqueaccessories:championship_belt"],
+  "proficiency_cost": 10,
+  "material": "supplementaries:bomb_spiky",
+  "material_count": 1,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "minecraft:generic.attack_damage",
+      "amount": 0.5,
+      "operation": "addition",
+      "slots": ["curios:charm"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

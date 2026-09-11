@@ -1,0 +1,21 @@
+
+{
+  "id": "belt_beginner-learning",
+  "key": "refinement.belt_beginner.learning",
+  "incompat": [],
+  "type": ["cataclysm:belt_of_beginner"],
+  "proficiency_cost": 10,
+  "material": "minecraft:book",
+  "material_count": 1,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "attributeslib:experience_gained",
+      "amount": 0.03,
+      "operation": "addition",
+      "slots": ["curios:belt"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

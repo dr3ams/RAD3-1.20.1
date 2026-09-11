@@ -1,0 +1,21 @@
+
+{
+  "id": "withered_heart-force_field",
+  "key": "refinement.withered_heart.force_field",
+  "incompat": [],
+  "type": ["uniqueaccessories:withered_heart"],
+  "proficiency_cost": 50,
+  "material": "l2complements:force_field",
+  "material_count": 1,
+  "anvil_levels": 30,
+  "bonuses": [
+    {
+      "property": "shieldinghealth:attribute.shieldinghealth.shield_value",
+      "amount": 40,
+      "operation": "addition",
+      "slots": ["curios:charm"]
+    }
+  ],
+  "allowed_steps": [4],
+  "color": "yellow"
+}

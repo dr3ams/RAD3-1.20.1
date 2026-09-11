@@ -1,0 +1,27 @@
+
+{
+  "id": "dart_shooter-shoot_backwards",
+  "key": "refinement.dart_shooter.shoot_backwards",
+  "incompat": [],
+  "type": ["aether:golden_dart_shooter","aether:poison_dart_shooter","aether:enchanted_dart_shooter","ancient_aether:aeronautic_dart_shooter","aether_redux:veridium_dart_shooter","aether_redux:infused_veridium_dart_shooter","cataclysm:cursed_bow"],
+  "proficiency_cost": 20,
+  "material": "toomanyglyphs:glyph_reverse_direction",
+  "material_count": 1,
+  "anvil_levels": 10,
+  "bonuses": [
+    {
+      "property": "attributeslib:arrow_velocity",
+      "amount": -2,
+      "operation": "multiply_total",
+      "slots": ["minecraft:mainhand","minecraft:offhand"]
+    },
+    {
+      "property": "attributeslib:arrow_damage",
+      "amount": 3,
+      "operation": "multiply_total",
+      "slots": ["minecraft:mainhand","minecraft:offhand"]
+    }
+  ],
+  "allowed_steps": [4],
+  "color": "yellow"
+}

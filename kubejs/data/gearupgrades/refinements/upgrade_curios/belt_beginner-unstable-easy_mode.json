@@ -1,0 +1,33 @@
+
+{
+  "id": "belt_beginner-easy_mode",
+  "key": "refinement.belt_beginner.easy_mode",
+  "incompat": [],
+  "type": ["cataclysm:belt_of_beginner"],
+  "proficiency_cost": 20,
+  "material": "minecraft:clock",
+  "material_count": 1,
+  "anvil_levels": 10,
+  "bonuses": [
+    {
+      "property": "minecraft:generic.armor",
+      "amount": 1,
+      "operation": "addition",
+      "slots": ["curios:belt"]
+    },
+    {
+      "property": "minecraft:generic.armor_toughness",
+      "amount": 1,
+      "operation": "addition",
+      "slots": ["curios:belt"]
+    },
+    {
+      "property": "l2hostility:extra_scale",
+      "amount": -0.5,
+      "operation": "addition",
+      "slots": ["curios:belt"]
+    }
+  ],
+  "allowed_steps": [4],
+  "color": "red"
+}

@@ -1,0 +1,21 @@
+
+{
+  "id": "snowball_relic-colder_strikes",
+  "key": "refinement.snowball_relic.colder_strikes",
+  "incompat": [],
+  "type": ["uniqueaccessories:snow_golem_doll","relics:wool_mitten"],
+  "proficiency_cost": 20,
+  "material": "kubejs:ice_shard",
+  "material_count": 1,
+  "anvil_levels": 10,
+  "bonuses": [
+    {
+      "property": "attributeslib:cold_damage",
+      "amount": 0.1,
+      "operation": "multiply_base",
+      "slots": ["curios:charm","curios:hands"]
+    }
+  ],
+  "allowed_steps": [4],
+  "color": "yellow"
+}

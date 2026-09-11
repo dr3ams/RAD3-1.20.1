@@ -1,0 +1,27 @@
+
+{
+  "id": "burning_soul-last_stand",
+  "key": "refinement.burning_soul.last_stand",
+  "incompat": [],
+  "type": ["uniqueaccessories:burning_soul","uniqueaccessories:championship_belt"],
+  "proficiency_cost": 20,
+  "material": "embers:flame_barrier",
+  "material_count": 1,
+  "anvil_levels": 15,
+  "bonuses": [
+    {
+      "property": "attributeslib:experience_gained",
+      "amount": 0.1,
+      "operation": "addition",
+      "slots": ["curios:charm"]
+    },
+    {
+      "property": "skilltree:exp_per_minute",
+      "amount": 25,
+      "operation": "addition",
+      "slots": ["curios:charm"]
+    }
+  ],
+  "allowed_steps": [4],
+  "color": "yellow"
+}

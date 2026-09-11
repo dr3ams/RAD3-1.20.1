@@ -1,0 +1,39 @@
+
+{
+  "id": "platinum_star-thousand_cuts",
+  "key": "refinement.platinum_star.thousand_cuts",
+  "incompat": [],
+  "type": ["l2hostility:platinum_star"],
+  "proficiency_cost": 40,
+  "material": "kubejs:bee_jar",
+  "material_count": 1,
+  "anvil_levels": 30,
+  "bonuses": [
+    {
+      "property": "minecraft:generic.attack_speed",
+      "amount": 6.0,
+      "operation": "multiply_total",
+      "slots": ["curios:hands"]
+    },
+    {
+      "property": "betterparagliders:base_melee_stamina_reduction",
+      "amount": 3.0,
+      "operation": "addition",
+      "slots": ["curios:hands"]
+    },
+    {
+      "property": "minecraft:generic.attack_damage",
+      "amount": -0.5,
+      "operation": "multiply_total",
+      "slots": ["curios:hands"]
+    },
+    {
+      "property": "attributeslib:armor_shred",
+      "amount": -0.5,
+      "operation": "multiply_total",
+      "slots": ["curios:hands"]
+    }
+  ],
+  "allowed_steps": [4],
+  "color": "red"
+}

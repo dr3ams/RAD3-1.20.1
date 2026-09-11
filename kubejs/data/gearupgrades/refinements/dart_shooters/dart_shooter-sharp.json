@@ -1,0 +1,21 @@
+
+{
+  "id": "dart_shooter-sharp",
+  "key": "refinement.dart_shooter.sharp",
+  "incompat": [],
+  "type": ["aether:golden_dart_shooter","aether:poison_dart_shooter","aether:enchanted_dart_shooter","ancient_aether:aeronautic_dart_shooter","aether_redux:veridium_dart_shooter","aether_redux:infused_veridium_dart_shooter"],
+  "proficiency_cost": 10,
+  "material": "minecraft:flint",
+  "material_count": 16,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "attributeslib:arrow_damage",
+      "amount": 0.1,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand","minecraft:offhand"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

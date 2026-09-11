@@ -80,61 +80,6 @@ ItemEvents.modification(event => {
 
 
 
-ItemEvents.modification(event => {
-    event.modify('relics:leather_belt', item => {
-        item.attachCuriosCapability(
-            CuriosJSCapabilityBuilder.create()
-                .addAttribute(
-                    "skilltree:blocking",
-                    "identifier",
-                    -0.2,
-                    'multiply_base'
-                )
-        )
-    })
-    event.modify('relics:rage_glove', item => {
-        item.attachCuriosCapability(
-            CuriosJSCapabilityBuilder.create()
-                .addAttribute(
-                    "skilltree:evasion",
-                    "identifier",
-                    -0.5,
-                    'multiply_base'
-                )
-                .addAttribute(
-                    "skilltree:stealth",
-                    "identifier",
-                    -0.5,
-                    'multiply_base'
-                )
-        )
-    })
-    event.modify('l2hostility:curse_of_pride', item => {
-        item.attachCuriosCapability(
-            CuriosJSCapabilityBuilder.create()
-                .addAttribute(
-                    "shieldinghealth:attribute.shieldinghealth.shield_value",
-                    "identifier",
-                    -1,
-                    'multiply_base'
-                )
-        )
-    })
-    event.modify('l2hostility:curse_of_wrath', item => {
-        item.attachCuriosCapability(
-            CuriosJSCapabilityBuilder.create()
-                .addAttribute(
-                    "attributeslib:healing_received",
-                    "identifier",
-                    -0.25,
-                    'multiply_base'
-                )
-        )
-    })
-})
-
-
-
 StartupEvents.registry('item', event => {
     event.create('builder_focus')
 	    .maxStackSize(1)

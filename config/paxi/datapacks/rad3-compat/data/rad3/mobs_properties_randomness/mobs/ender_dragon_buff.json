@@ -1,0 +1,219 @@
+{
+    "target": "minecraft:ender_dragon",
+    "properties": [
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "minecraft:generic.max_health",
+	    "modifier_name": "Dragon Health",
+	    "amount": 1.0,
+	    "operation": "multiply_base"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "attributeslib:healing_received",
+	    "modifier_name": "Dragon Healing",
+	    "amount": 2.0,
+	    "operation": "addition"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "attributeslib:crit_chance",
+	    "modifier_name": "Dragon Crits",
+	    "amount": 1.0,
+	    "operation": "addition"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "attributeslib:crit_damage",
+	    "modifier_name": "Dragon Damage",
+	    "amount": 2.0,
+	    "operation": "addition"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "attributeslib:armor_shred",
+	    "modifier_name": "Dragon Armor Shred",
+	    "amount": 0.5,
+	    "operation": "addition"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "attributeslib:prot_shred",
+	    "modifier_name": "Dragon Protection Shred",
+	    "amount": 0.5,
+	    "operation": "addition"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "attributeslib:current_hp_damage",
+	    "modifier_name": "Dragon Melee Attack",
+	    "amount": 0.25,
+	    "operation": "addition"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "l2damagetracker:damage_reduction",
+	    "modifier_name": "Dragon Resistance",
+	    "amount": -1.0,
+	    "operation": "addition"
+	},
+	{
+	    "property": "function",
+	    "function": "rad3:ender_dragon/end_crystal_location_markers"
+	},
+	{
+	    "property": "event",
+	    "event": "damaged",
+	    "id": "rad3:ender_dragon_crystal_shield",
+	    "target": "this",
+	    "apply_properties": [
+	        {
+	            "property": "function",
+	            "function": "rad3:ender_dragon/hurt"
+	        }
+	    ]
+	},
+	{
+	    "property": "event",
+	    "event": "damaged",
+	    "id": "rad3:respawn_end_crystals",
+	    "target": "this",
+	    "health_left": {
+	        "min": 0,
+	        "max": 0.5
+	    },
+	    "apply_properties": [
+	        {
+	            "property": "function",
+	            "function": "rad3:ender_dragon/half_health_effects"
+	        }
+	    ],
+	    "conditions": [
+	        {
+	            "condition": "health",
+		    "health": {
+		        "min": 0,
+		        "max": 0.5
+		    }
+	        }
+	    ]
+	},
+	{
+	    "property": "event",
+	    "event": "tick",
+	    "id": "rad3:ender_dragon_howitzers",
+	    "update_interval": {
+	        "min": 6,
+	        "max": 8
+	    },
+	    "apply_properties": [
+	        {
+	            "property": "function",
+	            "function": "rad3:ender_dragon/howitzers"
+	        }
+	    ],
+	    "conditions": [
+	        {
+	            "condition": "nbt",
+		    "inverted": true,
+	            "path": "DragonPhase",
+	            "type": "integer",
+	            "value": 6
+	        },
+	        {
+	            "condition": "nbt",
+		    "inverted": true,
+	            "path": "DragonPhase",
+	            "type": "integer",
+	            "value": 9
+	        },
+	        {
+	            "condition": "health",
+		    "health": {
+		        "min": 0,
+		        "max": 0.5
+		    }
+	        }
+	    ]
+	},
+	{
+	    "property": "event",
+	    "event": "tick",
+	    "id": "rad3:more_ender_dragon_howitzers",
+	    "update_interval": {
+	        "min": 6,
+	        "max": 8
+	    },
+	    "apply_properties": [
+	        {
+	            "property": "function",
+	            "function": "rad3:ender_dragon/more_howitzers"
+	        }
+	    ],
+	    "conditions": [
+	        {
+	            "condition": "nbt",
+		    "inverted": true,
+	            "path": "DragonPhase",
+	            "type": "integer",
+	            "value": 6
+	        },
+	        {
+	            "condition": "nbt",
+		    "inverted": true,
+	            "path": "DragonPhase",
+	            "type": "integer",
+	            "value": 9
+	        }
+	    ]
+	},
+	{
+	    "property": "event",
+	    "event": "death",
+	    "id": "rad3:ender_dragon_remove_crystal_markers_on_death",
+	    "target": "this",
+	    "apply_properties": [
+	        {
+	            "property": "function",
+	            "function": "rad3:ender_dragon/remove_end_crystal_markers"
+	        }
+	    ]
+	},
+	{
+	    "property": "event",
+	    "event": "damaged",
+	    "id": "rad3:ender_dragon_stacking_damage",
+	    "target": "this",
+	    "apply_properties": [
+	        {
+		    "property": "attribute_modifier",
+		    "attribute": "attributeslib:crit_damage",
+		    "modifier_name": "Dragon Rage Damage",
+		    "amount": 0.1,
+		    "operation": "addition"
+	        },
+	        {
+		    "property": "attribute_modifier",
+		    "attribute": "l2damagetracker:damage_reduction",
+		    "modifier_name": "Dragon Rage Vulnerability",
+		    "amount": 0.05,
+		    "operation": "addition"
+	        },
+	        {
+	            "property": "function",
+	            "function": "rad3:ender_dragon/remove_shield_broken_tag"
+	        }
+	    ],
+	    "conditions": [
+	        {
+	            "condition": "tag",
+	            "tags": [ "shield_broken"]
+	        }
+	    ]
+	}
+    ],
+    "conditions": [
+    ],
+    "priority": 0,
+    "event_priority": "LOW"
+}

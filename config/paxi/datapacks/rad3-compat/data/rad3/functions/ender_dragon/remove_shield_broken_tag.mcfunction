@@ -1,0 +1,1 @@
+tag @s remove shield_broken

@@ -1,0 +1,21 @@
+
+{
+  "id": "shiny_stone-lazy2",
+  "key": "refinement.shiny_stone.lazy2",
+  "incompat": [],
+  "type": ["uniqueaccessories:shiny_stone"],
+  "proficiency_cost": 10,
+  "material": "landsoficaria:greenpowder",
+  "material_count": 32,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "skilltree:exp_per_minute",
+      "amount": 1,
+      "operation": "addition",
+      "slots": ["curios:charm"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

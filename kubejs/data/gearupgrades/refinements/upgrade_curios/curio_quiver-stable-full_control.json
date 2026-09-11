@@ -1,0 +1,21 @@
+
+{
+  "id": "quiver-full_control",
+  "key": "refinement.quiver.full_control",
+  "incompat": [],
+  "type": ["skilltree:quiver","skilltree:fiery_quiver","skilltree:armored_quiver","skilltree:gilded_quiver","skilltree:toxic_quiver","skilltree:diamond_quiver","skilltree:healing_quiver","skilltree:silent_quiver","skilltree:bone_quiver","relics:arrow_quiver","uniqueaccessories:magick_quiver","supplementaries:quiver","celestial_artifacts:magic_arrow_bag","celestial_artifacts:flame_arrow_bag","celestial_artifacts:spirit_arrow_bag"],
+  "proficiency_cost": 30,
+  "material": "embers:clockwork_attenuator",
+  "material_count": 1,
+  "anvil_levels": 20,
+  "bonuses": [
+    {
+      "property": "betterparagliders:range_stamina_reduction",
+      "amount": 2,
+      "operation": "addition",
+      "slots": ["curios:back","curios:belt"]
+    }
+  ],
+  "allowed_steps": [4],
+  "color": "yellow"
+}

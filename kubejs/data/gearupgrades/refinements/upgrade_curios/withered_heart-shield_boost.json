@@ -1,0 +1,21 @@
+
+{
+  "id": "withered_heart-shield_boost",
+  "key": "refinement.withered_heart.shield_boost",
+  "incompat": [],
+  "type": ["uniqueaccessories:withered_heart"],
+  "proficiency_cost": 10,
+  "material": "hmag:golden_tropical_fish",
+  "material_count": 1,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "shieldinghealth:attribute.shieldinghealth.shield_value",
+      "amount": 4,
+      "operation": "addition",
+      "slots": ["curios:charm"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

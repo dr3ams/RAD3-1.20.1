@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "radenchants:tiger_claws"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 32
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"undergarden:long_brittleness\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:hamburger",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 24
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "uniqueaccessories:hero_emblem"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "uniqueaccessories:ninjutsu_manual"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "uniqueaccessories:withered_heart"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "radweaponry:gilded_armguard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "radweaponry:power_pole"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+
+{
+  "id": "hero_emblem-1_health",
+  "key": "refinement.hero_emblem.1_health",
+  "incompat": [],
+  "type": ["uniqueaccessories:hero_emblem"],
+  "proficiency_cost": 20,
+  "material": "endrem:corrupted_eye",
+  "material_count": 1,
+  "anvil_levels": 10,
+  "bonuses": [
+    {
+      "property": "minecraft:generic.max_health",
+      "amount": -1.0,
+      "operation": "multiply_total",
+      "slots": ["curios:charm"]
+    },
+    {
+      "property": "shieldinghealth:attribute.shieldinghealth.shield_value",
+      "amount": 2,
+      "operation": "multiply_base",
+      "slots": ["curios:charm"]
+    },
+    {
+      "property": "shieldinghealth:attribute.shieldinghealth.shield_delay",
+      "amount": -0.2,
+      "operation": "multiply_base",
+      "slots": ["curios:charm"]
+    },
+    {
+      "property": "shieldinghealth:attribute.shieldinghealth.shield_regen",
+      "amount": -0.2,
+      "operation": "multiply_base",
+      "slots": ["curios:charm"]
+    },
+    {
+      "property": "attributeslib:overheal",
+      "amount": 0.1,
+      "operation": "addition",
+      "slots": ["curios:charm"]
+    }
+  ],
+  "allowed_steps": [4],
+  "color": "red"
+}

@@ -1,0 +1,79 @@
+{
+    "target": "minecraft:warden",
+    "properties": [
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "minecraft:generic.max_health",
+	    "modifier_name": "Warden health",
+	    "amount": 1.0,
+	    "operation": "multiply_base"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "attributeslib:current_hp_damage",
+	    "modifier_name": "Warden current hp damage",
+	    "amount": 0.2,
+	    "operation": "addition"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "attributeslib:prot_shred",
+	    "modifier_name": "Warden protection shred",
+	    "amount": 0.25,
+	    "operation": "addition"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "forge:swim_speed",
+	    "modifier_name": "Warden swim speed",
+	    "amount": 1.0,
+	    "operation": "addition"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "forge:step_height_addition",
+	    "modifier_name": "Warden step height",
+	    "amount": 3.0,
+	    "operation": "addition"
+	},
+	{
+	    "property": "event",
+	    "event": "damaged",
+	    "id": "rad3:warden_speed_1",
+	    "target": "this",
+	    "health_left": {
+	        "min": 0,
+	        "max": 0.5
+	    },
+	    "apply_properties": [
+	        {
+		    "property": "attribute_modifier",
+		    "attribute": "minecraft:generic.movement_speed",
+		    "modifier_name": "Warden rage speed",
+		    "amount": 0.05,
+		    "operation": "multiply_base"
+	        },
+	        {
+		    "property": "attribute_modifier",
+		    "attribute": "forge:swim_speed",
+		    "modifier_name": "Warden rage swim speed",
+		    "amount": 0.1,
+		    "operation": "multiply_base"
+	        }
+	    ],
+	    "conditions": [
+	        {
+	            "condition": "health",
+		    "health": {
+		        "min": 0,
+		        "max": 0.5
+		    }
+	        }
+	    ]
+	}
+    ],
+    "conditions": [
+    ],
+    "priority": 0,
+    "event_priority": "LOW"
+}

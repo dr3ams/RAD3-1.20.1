@@ -1,0 +1,21 @@
+
+{
+  "id": "belt_beginner-training",
+  "key": "refinement.belt_beginner.training",
+  "incompat": [],
+  "type": ["cataclysm:belt_of_beginner"],
+  "proficiency_cost": 10,
+  "material": "minecraft:furnace_minecart",
+  "material_count": 1,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "gearupgrades:mastery",
+      "amount": 0.03,
+      "operation": "addition",
+      "slots": ["curios:belt"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

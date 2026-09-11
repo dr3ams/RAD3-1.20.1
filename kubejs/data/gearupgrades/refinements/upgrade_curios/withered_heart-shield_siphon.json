@@ -1,0 +1,21 @@
+
+{
+  "id": "withered_heart-shield_siphon",
+  "key": "refinement.withered_heart.shield_siphon",
+  "incompat": [],
+  "type": ["uniqueaccessories:withered_heart"],
+  "proficiency_cost": 10,
+  "material": "aquaculture:gold_hook",
+  "material_count": 12,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "attributeslib:overheal",
+      "amount": 0.05,
+      "operation": "addition",
+      "slots": ["curios:charm"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

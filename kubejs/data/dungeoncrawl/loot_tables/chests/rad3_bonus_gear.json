@@ -1,0 +1,594 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "attributeslib:dodge_chance",
+                  "name": "Helm Dodge",
+                  "amount": 0.2,
+                  "operation": "addition",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "minecraft:generic.max_health",
+                  "name": "Helm Max Health",
+                  "amount": -1,
+                  "operation": "multiply_base",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "minecraft:generic.armor",
+                  "name": "1 Defense",
+                  "amount": 0.25,
+                  "operation": "addition",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "minecraft:generic.armor_toughness",
+                  "name": "No Toughness",
+                  "amount": -1,
+                  "operation": "multiply_base",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "Helm Attack Damage",
+                  "amount": -0.24,
+                  "operation": "multiply_base",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "name": "Helm Attack Speed",
+                  "amount": 0.4,
+                  "operation": "multiply_base",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "attributeslib:arrow_damage",
+                  "name": "Helm Arrow Damage",
+                  "amount": -0.2,
+                  "operation": "multiply_base",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "attributeslib:draw_speed",
+                  "name": "Helm Draw Speed",
+                  "amount": 0.4,
+                  "operation": "multiply_base",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "combatroll:recharge",
+                  "name": "Helm Rolls",
+                  "amount": 0.25,
+                  "operation": "multiply_base",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "combatroll:count",
+                  "name": "Helm Rolls",
+                  "amount": 1,
+                  "operation": "addition",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "combatroll:distance",
+                  "name": "Warp",
+                  "amount": 1,
+                  "operation": "addition",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "skilltree:evasion",
+                  "name": "More Dodge",
+                  "amount": 5,
+                  "operation": "addition",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Part of the \"Bad Time\" set",
+                  "color": "aqua",
+                  "italic": false
+                },
+                {
+                  "text": "careful not to get a-head of yourself.",
+                  "color": "gray"
+                },
+                {
+                  "text": "Not an affix.",
+                  "color": "red"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "sans skull.",
+                "color": "aqua",
+                "italic": false
+              }
+            }
+          ],
+          "name": "minecraft:skeleton_skull",
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "attributeslib:dodge_chance",
+                  "name": "Helm Dodge",
+                  "amount": 0.3,
+                  "operation": "addition",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "minecraft:generic.max_health",
+                  "name": "Chest Max Health",
+                  "amount": -1,
+                  "operation": "multiply_base",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "minecraft:generic.armor",
+                  "name": "1 Defense",
+                  "amount": 0.25,
+                  "operation": "addition",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "minecraft:generic.armor_toughness",
+                  "name": "No Toughness",
+                  "amount": -1,
+                  "operation": "multiply_base",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "Helm Attack Damage",
+                  "amount": -0.35,
+                  "operation": "multiply_base",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "name": "Helm Attack Speed",
+                  "amount": 0.6,
+                  "operation": "multiply_base",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "attributeslib:arrow_damage",
+                  "name": "Helm Arrow Damage",
+                  "amount": -0.3,
+                  "operation": "multiply_base",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "attributeslib:draw_speed",
+                  "name": "Helm Draw Speed",
+                  "amount": 0.6,
+                  "operation": "multiply_base",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "combatroll:recharge",
+                  "name": "Chest Rolls",
+                  "amount": 0.35,
+                  "operation": "multiply_base",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "combatroll:count",
+                  "name": "Chest Rolls",
+                  "amount": 1,
+                  "operation": "addition",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "combatroll:distance",
+                  "name": "Warp",
+                  "amount": 1,
+                  "operation": "addition",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "shieldinghealth:attribute.shieldinghealth.shield_value",
+                  "name": "Shield",
+                  "amount": 8,
+                  "operation": "addition",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Unbreakable:1b,display:{color:3949738}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Part of the \"Bad Time\" set",
+                  "color": "aqua",
+                  "italic": false
+                },
+                {
+                  "text": "Just don't get hit, easy as that",
+                  "color": "gray"
+                },
+                {
+                  "text": "Not an affix.",
+                  "color": "red"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "sans jacket.",
+                "color": "aqua",
+                "italic": false
+              }
+            }
+          ],
+          "name": "minecraft:leather_chestplate",
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "attributeslib:dodge_chance",
+                  "name": "Helm Dodge",
+                  "amount": 0.25,
+                  "operation": "addition",
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "minecraft:generic.max_health",
+                  "name": "Legs Max Health",
+                  "amount": -1.0,
+                  "operation": "multiply_base",
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "Legs Attack Damage",
+                  "amount": -0.25,
+                  "operation": "multiply_base",
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "minecraft:generic.armor",
+                  "name": "1 Defense",
+                  "amount": 0.25,
+                  "operation": "addition",
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "minecraft:generic.armor_toughness",
+                  "name": "No Toughness",
+                  "amount": -1,
+                  "operation": "multiply_base",
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "name": "Helm Attack Speed",
+                  "amount": 0.5,
+                  "operation": "multiply_base",
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "attributeslib:arrow_damage",
+                  "name": "Helm Arrow Damage",
+                  "amount": -0.25,
+                  "operation": "multiply_base",
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "attributeslib:draw_speed",
+                  "name": "Helm Draw Speed",
+                  "amount": 0.5,
+                  "operation": "multiply_base",
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "combatroll:recharge",
+                  "name": "Legs Rolls",
+                  "amount": 0.3,
+                  "operation": "multiply_base",
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "combatroll:count",
+                  "name": "Legs Rolls",
+                  "amount": 1,
+                  "operation": "addition",
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "combatroll:distance",
+                  "name": "Warp",
+                  "amount": 1,
+                  "operation": "addition",
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "minecraft:generic.movement_speed",
+                  "name": "Speed",
+                  "amount": 0.2,
+                  "operation": "multiply_base",
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "forge:swim_speed",
+                  "name": "Speed",
+                  "amount": 0.2,
+                  "operation": "multiply_base",
+                  "slot": "legs"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Part of the \"Bad Time\" set",
+                  "color": "aqua",
+                  "italic": false
+                },
+                {
+                  "text": "Who needs health with legs like these?",
+                  "color": "gray"
+                },
+                {
+                  "text": "Not an affix.",
+                  "color": "red"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Unbreakable:1b,display:{color:3949738}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "sans pants.",
+                "color": "aqua",
+                "italic": false
+              }
+            }
+          ],
+          "name": "minecraft:leather_leggings",
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "attributeslib:dodge_chance",
+                  "name": "Helm Dodge",
+                  "amount": 0.15,
+                  "operation": "addition",
+                  "slot": "feet"
+                },
+                {
+                  "attribute": "minecraft:generic.max_health",
+                  "name": "Feet Max Health",
+                  "amount": -1.0,
+                  "operation": "multiply_base",
+                  "slot": "feet"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "Helm Attack Damage",
+                  "amount": -0.15,
+                  "operation": "multiply_base",
+                  "slot": "feet"
+                },
+                {
+                  "attribute": "minecraft:generic.armor",
+                  "name": "1 Defense",
+                  "amount": 0.25,
+                  "operation": "addition",
+                  "slot": "feet"
+                },
+                {
+                  "attribute": "minecraft:generic.armor_toughness",
+                  "name": "No Toughness",
+                  "amount": -1,
+                  "operation": "multiply_base",
+                  "slot": "feet"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "name": "Helm Attack Speed",
+                  "amount": 0.3,
+                  "operation": "multiply_base",
+                  "slot": "feet"
+                },
+                {
+                  "attribute": "attributeslib:arrow_damage",
+                  "name": "Helm Arrow Damage",
+                  "amount": -0.15,
+                  "operation": "multiply_base",
+                  "slot": "feet"
+                },
+                {
+                  "attribute": "attributeslib:draw_speed",
+                  "name": "Helm Draw Speed",
+                  "amount": 0.3,
+                  "operation": "multiply_base",
+                  "slot": "feet"
+                },
+                {
+                  "attribute": "combatroll:recharge",
+                  "name": "Feet Rolls",
+                  "amount": 0.2,
+                  "operation": "multiply_base",
+                  "slot": "feet"
+                },
+                {
+                  "attribute": "combatroll:count",
+                  "name": "Feet Rolls",
+                  "amount": 1,
+                  "operation": "addition",
+                  "slot": "feet"
+                },
+                {
+                  "attribute": "combatroll:distance",
+                  "name": "Warp",
+                  "amount": 1,
+                  "operation": "addition",
+                  "slot": "feet"
+                },
+                {
+                  "attribute": "forge:step_height_addition",
+                  "name": "Step",
+                  "amount": 0.5,
+                  "operation": "addition",
+                  "slot": "feet"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Unbreakable:1b,display:{color:3949738}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Part of the \"Bad Time\" set",
+                  "color": "aqua",
+                  "italic": false
+                },
+                {
+                  "text": "Comfy and great for not tripping over rocks.",
+                  "color": "gray"
+                },
+                {
+                  "text": "Not an affix.",
+                  "color": "red"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "sans slippers.",
+                "color": "aqua",
+                "italic": false
+              }
+            }
+          ],
+          "name": "minecraft:leather_boots",
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "attributeslib:armor_shred",
+                  "name": "Armor Shred",
+                  "amount": 1,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "attributeslib:prot_shred",
+                  "name": "Protection Shred",
+                  "amount": 1,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "attributeslib:current_hp_damage",
+                  "name": "Current Hp Damage",
+                  "amount": 0.01,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "name": "Attack Speed Boost",
+                  "amount": 1,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "dagger_of_bloodletting:soulfilling",
+                  "name": "Bone Souls",
+                  "amount": 1,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Part of the \"Bad Time\" set",
+                  "color": "aqua",
+                  "italic": false
+                },
+                {
+                  "text": "The weakest weapon. Can only deal 1 damage.",
+                  "color": "gray"
+                },
+                {
+                  "text": "Not an affix.",
+                  "color": "red"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{weapon_attributes:'{\"parent\":\"simplyswords:iron_chakram\"}',Poisons:[{Duration:160,\"forge:id\":\"minecraft:poison\"},{Duration:160,\"forge:id\":\"undergarden:brittleness\"},{Duration:160,\"forge:id\":\"attributeslib:grievous\",Amplifier:2}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "sans bone.",
+                "color": "aqua",
+                "italic": false
+              }
+            }
+          ],
+          "name": "minecraft:bone",
+          "conditions": []
+        }
+      ]
+    }
+  ]
+}

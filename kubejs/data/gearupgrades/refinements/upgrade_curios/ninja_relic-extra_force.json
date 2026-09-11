@@ -1,0 +1,21 @@
+
+{
+  "id": "ninja_relic-extra_force",
+  "key": "refinement.ninja_relic.extra_force",
+  "incompat": [],
+  "type": ["uniqueaccessories:tabi","uniqueaccessories:master_ninja_tabi","uniqueaccessories:black_belt","uniqueaccessories:ninjutsu_manual"],
+  "proficiency_cost": 10,
+  "material": "ntrials:wind_charge",
+  "material_count": 1,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "combatroll:distance",
+      "amount": 0.05,
+      "operation": "addition",
+      "slots": ["curios:feet","curios:charm","curios:belt"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

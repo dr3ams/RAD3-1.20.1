@@ -1,0 +1,21 @@
+
+{
+  "id": "waist_warmer-warmer_waist",
+  "key": "refinement.waist_warmer.warmer_waist",
+  "incompat": [],
+  "type": ["uniqueaccessories:waist_warmer"],
+  "proficiency_cost": 10,
+  "material": "minecraft:campfire",
+  "material_count": 3,
+  "anvil_levels": 5,
+  "bonuses": [
+    {
+      "property": "skilltree:regeneration",
+      "amount": 0.5,
+      "operation": "addition",
+      "slots": ["curios:belt"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

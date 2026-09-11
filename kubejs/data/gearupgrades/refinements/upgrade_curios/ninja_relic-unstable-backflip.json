@@ -1,0 +1,21 @@
+
+{
+  "id": "ninja_relic-backflip",
+  "key": "refinement.ninja_relic.backflip",
+  "incompat": [],
+  "type": ["uniqueaccessories:tabi","uniqueaccessories:master_ninja_tabi","uniqueaccessories:black_belt","uniqueaccessories:ninjutsu_manual"],
+  "proficiency_cost": 20,
+  "material": "toomanyglyphs:glyph_reverse_direction",
+  "material_count": 1,
+  "anvil_levels": 10,
+  "bonuses": [
+    {
+      "property": "combatroll:distance",
+      "amount": -2.5,
+      "operation": "multiply_total",
+      "slots": ["curios:feet","curios:charm","curios:belt"]
+    }
+  ],
+  "allowed_steps": [4],
+  "color": "yellow"
+}

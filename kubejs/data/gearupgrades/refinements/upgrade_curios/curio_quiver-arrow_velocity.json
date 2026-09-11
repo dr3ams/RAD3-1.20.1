@@ -1,0 +1,21 @@
+
+{
+  "id": "quiver-arrow_velocity",
+  "key": "refinement.quiver.arrow_velocity",
+  "incompat": [],
+  "type": ["skilltree:quiver","skilltree:fiery_quiver","skilltree:armored_quiver","skilltree:gilded_quiver","skilltree:toxic_quiver","skilltree:diamond_quiver","skilltree:healing_quiver","skilltree:silent_quiver","skilltree:bone_quiver","relics:arrow_quiver","uniqueaccessories:magic_quiver","supplementaries:quiver","celestial_artifacts:magic_arrow_bag","celestial_artifacts:flame_arrow_bag","celestial_artifacts:spirit_arrow_bag"],
+  "proficiency_cost": 15,
+  "material": "minecraft:feather",
+  "material_count": 8,
+  "anvil_levels": 10,
+  "bonuses": [
+    {
+      "property": "attributeslib:arrow_velocity",
+      "amount": 0.05,
+      "operation": "addition",
+      "slots": ["curios:back","curios:belt"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3],
+  "color": "green"
+}

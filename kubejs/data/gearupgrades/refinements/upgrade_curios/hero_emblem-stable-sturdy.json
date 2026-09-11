@@ -1,0 +1,27 @@
+
+{
+  "id": "hero_emblem-sturdy",
+  "key": "refinement.hero_emblem.sturdy",
+  "incompat": [],
+  "type": ["uniqueaccessories:hero_emblem"],
+  "proficiency_cost": 20,
+  "material": "#forge:plates/lead",
+  "material_count": 4,
+  "anvil_levels": 10,
+  "bonuses": [
+    {
+      "property": "minecraft:generic.knockback_resistance",
+      "amount": 0.2,
+      "operation": "addition",
+      "slots": ["curios:charm"]
+    },
+    {
+      "property": "skilltree:blocking",
+      "amount": 2,
+      "operation": "addition",
+      "slots": ["curios:charm"]
+    }
+  ],
+  "allowed_steps": [4],
+  "color": "yellow"
+}
