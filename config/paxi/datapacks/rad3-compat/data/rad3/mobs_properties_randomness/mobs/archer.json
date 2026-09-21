@@ -1,0 +1,32 @@
+{
+    "target": "takesapillage:archer",
+    "properties": [
+        {
+            "property": "presets",
+            "presets": [
+                {
+                    "preset": "rad3:wob",
+                    "weight": 1
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "chance",
+                    "chance": {
+		        "value": 0.01,
+		        "modifiers": [
+		            {
+		                "modifier": "difficulty",
+		                "operation": "add",
+		                "normal": -0.009,
+		                "hard": -0.0009
+		            }
+		        ]
+		    }
+                }
+            ]
+        }
+    ],
+    "priority": 0,
+    "event_priority": "LOW"
+}

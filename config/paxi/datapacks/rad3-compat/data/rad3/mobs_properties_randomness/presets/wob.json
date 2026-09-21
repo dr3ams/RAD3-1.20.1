@@ -1,0 +1,56 @@
+{
+    "properties": [
+        {
+	    "property": "equipment",
+	    "slot": "head",
+	    "items": [
+	        {
+	            "item": "simplehats:dumhat",
+	            "functions": [
+	                {
+	                    "function": "set_drop_chance",
+	                    "drop_chance": 0.01
+	                }
+	            ]
+	        }
+	    ]
+        },
+        {
+	    "property": "equipment",
+	    "slot": "mainhand",
+	    "items": [
+	        {
+	            "item": "minecraft:bow",
+	            "functions": [
+	                {
+	                    "function": "add_attribute_modifier",
+	                    "attribute": "attributeslib:arrow_damage",
+	                    "modifier_name": "More Damage",
+	                    "operation": "addition",
+	                    "amount": 2
+	                },
+	                {
+	                    "function": "add_attribute_modifier",
+	                    "attribute": "attributeslib:arrow_velocity",
+	                    "modifier_name": "Reverse",
+	                    "operation": "multiply_total",
+	                    "amount": -2
+	                },
+	                {
+	                    "function": "set_drop_chance",
+	                    "drop_chance": 2
+	                },
+	                {
+	                    "function": "set_raw_nbt",
+	                    "nbt": "{CustomModelData:1,display:{Lore:['{\"text\":\"I do not think that is how you use a bow.\",\"color\":\"light_purple\"}'],Name:'{\"text\":\"woB\",\"color\":\"blue\",\"italic\":false}'}}"
+	                }
+	            ]
+	        }
+	    ]
+        },
+        {
+            "property": "custom_name",
+            "prefixes": [ "Backwards " ]
+        }
+    ]
+}
