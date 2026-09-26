@@ -241,7 +241,7 @@ const ROOM_EVENTS = [
         desc: '§7Wait for it...',
         onStart: (player, level, server) => {
             level.getEntities().filter(e => e.isMonster() && e.distanceToEntity(player) < 48)
-                .forEach(m => m.potionEffects.add('ars_nouveau:blasting', 80, 0, false, true));
+                .forEach(m => m.potionEffects.add('ars_nouveau:blasting', RAID_CONFIG.explosionEventDuration, 0, false, true));
         },
         onEnd: (player) => {}
     },
