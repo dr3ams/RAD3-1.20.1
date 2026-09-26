@@ -1,21 +1,20 @@
 {
   "ground": [
     [
-      ["minecraft:slime", 0, 0, 0, { "Size": 0 }],
-	  ["minecraft:skeleton", 0, 0, 0, {"HandItems":[{"id":"minecraft:iron_axe","Count":1}]}],
-      ["minecraft:slime", -1, 0, 0, { "Size": 0 }],
-      ["minecraft:slime", 1, 0, 0, { "Size": 0 }]
+      ["minecraft:skeleton", 0, 0, 0, {"HandDropChances":[0.001,0.0],"HandItems":[{"id":"minecraft:iron_axe","Count":1}]}],
+      ["minecraft:slime", -1, 0, 0, { "Size": 1 }],
+      ["minecraft:slime", 1, 0, 0, { "Size": 1 }]
     ],
     [
 	  ["minecraft:silverfish", 1, 0, 0],
-      ["minecraft:zombie", 1, 0, 0],
+          ["minecraft:zombie", 1, 0, 0],
 	  ["minecraft:zombie", 0, 1, 0],
-	  ["minecraft:zombie", 0, 0, 1],
-	  ["minecraft:skeleton", 1, 0, 1, {"HandItems":[{"id":"minecraft:bow","Count":1}]}]
+	  ["minecraft:zombie", 0, 0, 1, {"ArmorDropChances":[0.0,0.0,0.0,0.0],"ArmorItems":[{},{},{},{id:"minecraft:leather_helmet","Count":1}]}],
+	  ["minecraft:skeleton", 1, 0, 1, {"HandDropChances":[0.001,0.0],"HandItems":[{"id":"minecraft:bow","Count":1}]}]
     ],
     [
       ["minecraft:silverfish", 1, 0, 0],
-	  ["minecraft:cave_spider", 0, 1, 0],
+      ["minecraft:cave_spider", 0, 1, 0],
       ["minecraft:silverfish", 1, 0, 1],
       ["minecraft:silverfish", 1, 0, 1]
     ],
@@ -25,8 +24,13 @@
 	  ["minecraft:zombie", 1, 0, 0],
     ],
     [
-      ["minecraft:spider", 1, 0, 0],
-	  ["minecraft:skeleton", 0, 1, 0, {"HandItems":[{"id":"minecraft:bow","Count":1}]}],
+          ["minecraft:creeper", 0, 0, 0],
+	  ["minecraft:spider", 1, 0, 0],
+	  ["minecraft:zombie", 1, 0, 0],
+    ],
+    [
+          ["minecraft:spider", 1, 0, 0],
+	  ["minecraft:skeleton", 0, 1, 0, {"HandDropChances":[0.001,0.0],"HandItems":[{"id":"minecraft:bow","Count":1}]}],
 	  ["minecraft:cave_spider", 0, 1, 0],
 	  ["minecraft:spider", 1, 0, 1],
 	  ["minecraft:spider", 0, 1, 1]
@@ -40,7 +44,7 @@
 	  ["creatures_of_petrichor:wandering_lantern", 1, 0, 1]
     ],
 	[
-      ["minecraft:bat", 1, 0, 0],
+          ["minecraft:bat", 1, 0, 0],
 	  ["minecraft:bat", 0, 1, 0],
 	  ["minecraft:bat", 0, 0, 1],
 	  ["hmag:ghost", 0, 0, 1],
@@ -69,23 +73,32 @@
   ],
   "miniboss": [
     [
-      ["minecraft:pillager", 0, 0, 0, {"HandItems":[{"id":"minecraft:crossbow","Count":1}]}],
-      ["graveyard:corrupted_vindicator", 0, 0, 1, {"HandItems":[{"id":"minecraft:iron_axe","Count":1}]}],
-      ["graveyard:corrupted_vindicator", 1, 0, 1, {"HandItems":[{"id":"minecraft:iron_axe","Count":1}]}]	  
+      ["minecraft:pillager", 0, 0, 0, {"HandDropChances":[0.002f,0.0f],"HandItems":[{"id":"minecraft:crossbow","Count":1}]}],
+      ["graveyard:corrupted_vindicator", 0, 0, 1, {"HandDropChances":[0.002,0.0],"HandItems":[{"id":"minecraft:iron_axe","Count":1}]}],
+      ["graveyard:corrupted_vindicator", 1, 0, 1, {"HandDropChances":[0.002,0.0],"HandItems":[{"id":"minecraft:iron_axe","Count":1}]}]	  
+    ],
+    [
+      ["takesapillage:legioner", 0, 0, 0, {"HandItems":[{"id":"minecraft:iron_sword","Count":1},{"id":"minecraft:shield","Count":1}]}],
+      ["takesapillage:skirmisher", 0, 0, 1, {"HandItems":[{"id":"simplyswords:iron_greataxe","Count":1}]}]
     ]
   ],
   "boss": [
     [
-      ["minecraft:evoker", 0, 0, 0],
-	  ["minecraft:vindicator", 0, 0, 0, {"HandItems":[{"id":"minecraft:iron_axe","Count":1}]}]
-    ],
-    [
-	  ["minecraft:pillager", 0, 0, 0, {"HandItems":[{"id":"minecraft:crossbow","Count":1}]}],
-      ["minecraft:vindicator", 0, 0, 0, {"HandItems":[{"id":"minecraft:iron_axe","Count":1}]}]
+          ["minecraft:evoker", 0, 0, 0],
+	  ["takesapillage:archer", 2, 0, 0, {"HandItems":[{"id":"minecraft:bow","Count":1}]}],
+          ["takesapillage:legioner", -2, 0, 0, {"HandItems":[{"id":"minecraft:iron_sword","Count":1},{"id":"minecraft:shield","Count":1}]}]
     ],
     [
       ["minecraft:witch", 0, 0, 0],
-	  ["minecraft:witch", 0, 0, 0]
+      ["minecraft:witch", 1, 0, 0],
+      ["minecraft:vindicator", 0, 0, 1, {"HandItems":[{"id":"minecraft:iron_axe","Count":1},{"id":"minecraft:iron_axe","Count":1}]}]
+    ],
+    [
+      ["minecraft:zombie", 0, 0, 0, {"IsBaby":1}],
+      ["minecraft:zombie", 1, 0, 0, {"IsBaby":1}],
+      ["minecraft:zombie", -1, 0, 0, {"IsBaby":1}],
+      ["minecraft:zombie", 0, 0, 1, {"IsBaby":1}],
+      ["minecraft:zombie", 0, 0, -1, {"IsBaby":1}]
     ],
 	[
       ["cataclysm:koboleton", 1, 0, 0],

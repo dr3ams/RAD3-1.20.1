@@ -1,0 +1,121 @@
+{
+    "properties": [
+	{
+	    "property": "event",
+	    "event": "tick",
+	    "id": "rad3:drink_estus_flask",
+	    "update_interval": 1,
+	    "target": "this",
+	    "apply_properties": [
+	        {
+	            "property": "function",
+	            "function": "rad3:estus_addict/start_drink_flask"
+	        }
+	    ],
+	    "conditions": [
+	        {
+	            "condition": "health",
+		    "health": {
+		        "min": 0,
+		        "max": 0.5
+		    }
+	        },
+	        {
+	            "condition": "nbt",
+	            "path": "DeathTime",
+	            "type": "integer",
+	            "value": 0
+	        },
+		{
+		    "condition": "effect",
+		    "inverted": true,
+		    "effect": "shield_overhaul:stun"
+		},
+	        {
+	            "condition": "score",
+		    "inverted": true,
+	            "objective": "effect_roll",
+	            "value": {
+	                "min": -999999,
+	                "max": 0
+	            }
+	        },
+	        {
+	            "condition": "tag",
+		    "inverted": true,
+	            "tags": [ "drinking_flask"]
+	        }
+	    ]
+	},
+	{
+	    "property": "event",
+	    "event": "tick",
+	    "id": "rad3:start_drinking_estus_flask",
+	    "update_interval": 0.2,
+	    "apply_properties": [
+	        {
+		    "property": "play_sound",
+		    "sound": "minecraft:entity.generic.drink",
+		    "volume": 0.8,
+		    "pitch": 1
+	        }
+	    ],
+	    "conditions": [
+	        {
+	            "condition": "tag",
+	            "tags": [ "drinking_flask"]
+	        },
+	        {
+	            "condition": "nbt",
+	            "path": "DeathTime",
+	            "type": "integer",
+	            "value": 0
+	        }
+	    ]
+	},
+	{
+	    "property": "event",
+	    "event": "tick",
+	    "id": "rad3:drinking_estus_flask",
+	    "update_interval": 0.05,
+	    "apply_properties": [
+	        {
+	            "property": "function",
+	            "function": "rad3:estus_addict/drink_cooldown_tick"
+	        }
+	    ],
+	    "conditions": [
+	        {
+	            "condition": "tag",
+	            "tags": [ "drinking_flask"]
+	        }
+	    ]
+	},
+	{
+	    "property": "event",
+	    "event": "tick",
+	    "id": "rad3:finish_estus_flask",
+	    "update_interval": 0.05,
+	    "apply_properties": [
+	        {
+	            "property": "heal",
+	            "amount": 100
+	        },
+	        {
+	            "property": "function",
+	            "function": "rad3:estus_addict/finish_drink_flask"
+	        }
+	    ],
+	    "conditions": [
+	        {
+	            "condition": "score",
+	            "objective": "cooldown_timer",
+	            "value": {
+	                "min": -999999,
+	                "max": 0
+	            }
+	        }
+	    ]
+	}
+    ]
+}

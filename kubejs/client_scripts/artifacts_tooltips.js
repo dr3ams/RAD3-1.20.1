@@ -213,9 +213,9 @@ ItemEvents.tooltip(event => {
             id: 'kubejs:ice_shard',
             lore: "The frozen shard from an ancient ice elemental",
             mechanics: [
-                '§6• Immobilizes all nearby enemies',
+                '§6• Immobilizes and blocks healing of all nearby enemies',
                 '§e• 8 blocks radius',
-                '§d• Effect lasts 3 seconds',
+                '§d• Effect lasts 12 seconds',
                 '§2• Consumable (1 use)',
                 '§8• Only functions within the Raid dimension'
             ]

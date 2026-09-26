@@ -50,6 +50,10 @@
 	  ["graveyard:wraith", 1, 1, 1],
 	  ["graveyard:corrupted_pillager", 1, 0, 0],
 	  ["graveyard:corrupted_pillager", 0, 0, 1]
+    ],
+    [
+      ["darkerdepths:void_soul_knight", -1, 0, -1],
+      ["darkerdepths:void_soul_knight", 1, 0, 1]
     ]
   ],
   "flying": [
@@ -57,9 +61,11 @@
 	  ["graveyard:wraith", 1, 0, 0],
 	  ["graveyard:wraith", 1, 1, 0]
     ],
+    [
+	  ["mowziesmobs:bluff", 0, 1, 0],
+	  ["mowziesmobs:bluff", 0, 1, 0]
+    ],
 	[
-	  ["graveyard:wraith", 1, 0, 0],
-	  ["graveyard:wraith", 1, 0, 0],
       ["graveyard:reaper", 0, 1, 0],
       ["graveyard:reaper", 0, 0, 1],
 	  ["creatures_of_petrichor:wandering_lantern", 0, 0, 1]
@@ -106,6 +112,10 @@
     ]
   ],
   "boss": [
+    [
+      ["mowziesmobs:ferrous_wroughtnaut", 0, 0, 0],
+      ["takesapillage:legioner", 1, 0, 1, {"HandItems":[{"id":"kubejs:boss_killer","Count":1},{"id":"minecraft:shield","Count":1}]}]
+    ],
     [
       ["cataclysm:deepling_brute", 0, 0, 0],
 	  ["cataclysm:deepling_priest", 1, 0, 1]

@@ -1,0 +1,248 @@
+{
+    "target": "takesapillage:legioner",
+    "properties": [
+        {
+	    "property": "equipment",
+	    "slot": "head",
+	    "items": [
+	        {
+	            "item": "minecraft:iron_helmet",
+	            "functions": [
+	                {
+	                    "function": "set_drop_chance",
+	                    "drop_chance": 0.001
+	                }
+	            ]
+	        }
+	    ],
+            "conditions": [
+	            {
+	               "condition": "game_stage",
+		       "game_stages": ["milestone_wither"]
+	            }
+	    ]
+        },
+        {
+	    "property": "equipment",
+	    "slot": "chest",
+	    "items": [
+	        {
+	            "item": "minecraft:iron_chestplate",
+	            "functions": [
+	                {
+	                    "function": "set_drop_chance",
+	                    "drop_chance": 0.001
+	                }
+	            ]
+	        }
+	    ],
+            "conditions": [
+	            {
+	               "condition": "game_stage",
+		       "game_stages": ["milestone_wither"]
+	            }
+	    ]
+        },
+        {
+	    "property": "equipment",
+	    "slot": "legs",
+	    "items": [
+	        {
+	            "item": "minecraft:iron_leggings",
+	            "functions": [
+	                {
+	                    "function": "set_drop_chance",
+	                    "drop_chance": 0.001
+	                }
+	            ]
+	        }
+	    ],
+            "conditions": [
+	            {
+	               "condition": "game_stage",
+		       "game_stages": ["milestone_wither"]
+	            }
+	    ]
+        },
+        {
+	    "property": "equipment",
+	    "slot": "feet",
+	    "items": [
+	        {
+	            "item": "minecraft:iron_boots",
+	            "functions": [
+	                {
+	                    "function": "set_drop_chance",
+	                    "drop_chance": 0.001
+	                }
+	            ]
+	        }
+	    ],
+            "conditions": [
+	            {
+	               "condition": "game_stage",
+		       "game_stages": ["milestone_wither"]
+	            }
+	    ]
+        },
+        {
+	    "property": "equipment",
+	    "slot": "mainhand",
+	    "items": [
+	        {
+	            "item": "simplyswords:iron_longsword",
+	            "functions": [
+	                {
+	                    "function": "set_drop_chance",
+	                    "drop_chance": 0.001
+	                },
+	                {
+	                    "function": "enchant",
+	                    "type": "random",
+	                    "lvl": {
+			        "value": 2,
+			        "modifiers": [
+			            {
+			                "modifier": "difficulty",
+			                "operation": "add",
+			                "easy": -1,
+			                "hard": 1
+			            }
+			        ]
+			    },
+		            "conditions": [
+		                {
+		                    "condition": "chance",
+		                    "chance": {
+				        "value": 0.3,
+				        "modifiers": [
+				            {
+				                "modifier": "difficulty",
+				                "operation": "add",
+				                "easy": -0.1,
+				                "hard": 0.1
+				            }
+				        ]
+				    }
+	        	        }
+		            ]
+	                }
+	            ]
+	        },
+	        {
+	            "item": "simplyswords:iron_claymore",
+	            "functions": [
+	                {
+	                    "function": "set_drop_chance",
+	                    "drop_chance": 0.001
+	                },
+	                {
+	                    "function": "enchant",
+	                    "type": "random",
+	                    "lvl": {
+			        "value": 2,
+			        "modifiers": [
+			            {
+			                "modifier": "difficulty",
+			                "operation": "add",
+			                "easy": -1,
+			                "hard": 1
+			            }
+			        ]
+			    },
+		            "conditions": [
+		                {
+		                    "condition": "chance",
+		                    "chance": {
+				        "value": 0.3,
+				        "modifiers": [
+				            {
+				                "modifier": "difficulty",
+				                "operation": "add",
+				                "easy": -0.1,
+				                "hard": 0.1
+				            }
+				        ]
+				    }
+	        	        }
+		            ]
+	                }
+	            ]
+	        }
+	    ],
+            "conditions": [
+		{
+			"condition": "equipment",
+			"slot": "mainhand",
+			"items": "minecraft:iron_sword"
+		}
+	    ]
+        },
+        {
+	    "property": "equipment",
+	    "slot": "offhand",
+	    "items": [
+	        {
+	            "item": "minecraft:air",
+	            "conditions": [
+			{
+				"condition": "equipment",
+				"slot": "mainhand",
+				"items": "#rad3:twohanded"
+			}
+		    ]
+	        }
+	    ]
+        },
+	{
+	    "property": "attribute_modifier",
+	    "attribute": "minecraft:generic.max_health",
+	    "modifier_name": "Two Handed Health",
+	    "amount": 0.5,
+	    "operation": "multiply_base",
+            "conditions": [
+		{
+			"condition": "equipment",
+			"slot": "mainhand",
+			"items": "#rad3:twohanded"
+		}
+	    ]
+	},
+        {
+            "property": "presets",
+            "presets": [
+                {
+                    "preset": "rad3:estus_drink",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "property": "presets",
+            "presets": [
+                {
+                    "preset": "rad3:estus_drink_runic",
+                    "weight": 1
+                }
+            ],
+	    "conditions": [
+	        {
+	            "condition": "or",
+	            "conditions": [
+			{
+				"condition": "equipment",
+				"slot": "mainhand",
+				"items": "kubejs:boss_killer"
+			},
+		        {
+		            "condition": "tag",
+		            "tags": [ "miniboss"]
+		        }
+	            ]
+	        }
+	    ]
+        }
+    ],
+    "priority": 0,
+    "event_priority": "LOW"
+}

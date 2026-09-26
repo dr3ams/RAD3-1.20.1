@@ -1,7 +1,7 @@
 {
   "ground": [
     [
-      ["minecraft:piglin", 0, 0, 0, {"HandItems":[{"id":"minecraft:iron_sword","Count":1}]}],
+      ["minecraft:piglin", 0, 0, 0, {"HandItems":[{"id":"simplyswords:gold_claymore","Count":1}]}],
       ["minecraft:piglin", 1, 0, 1, {"HandItems":[{"id":"minecraft:golden_sword","Count":1}]}],
 	  ["minecraft:piglin_brute", 1, 0, 0],
 	  ["minecraft:piglin_brute", 1, 0, 0],
@@ -10,10 +10,10 @@
     ],
     [
       ["minecraft:wither_skeleton", 0, 0, 0, {"HandItems":[{"id":"minecraft:bow","Count":1}]}],
-      ["minecraft:wither_skeleton", 1, 0, 1, {"HandItems":[{"id":"minecraft:iron_sword","Count":1}]}],
-      ["minecraft:wither_skeleton", -1, 0, 1, {"HandItems":[{"id":"minecraft:iron_sword","Count":1}]}],
-      ["minecraft:wither_skeleton", 1, 0, -1, {"HandItems":[{"id":"minecraft:iron_sword","Count":1}]}],
-      ["minecraft:wither_skeleton", -1, 0, -1, {"HandItems":[{"id":"minecraft:iron_sword","Count":1}]}],
+      ["minecraft:wither_skeleton", 1, 0, 1, {"AbsorptionAmount":10,"HandItems":[{"id":"simplyswords:iron_claymore","Count":1}]}],
+      ["minecraft:wither_skeleton", -1, 0, 1, {"AbsorptionAmount":10,"HandItems":[{"id":"simplyswords:iron_greataxe","Count":1}]}],
+      ["minecraft:wither_skeleton", 1, 0, -1, {"AbsorptionAmount":10,"HandItems":[{"id":"simplyswords:iron_scythe","Count":1}]}],
+      ["minecraft:wither_skeleton", -1, 0, -1, {"AbsorptionAmount":10,"HandItems":[{"id":"minecraft:iron_sword","Count":1}]}],
 	  ["hmag:wither_ghost", 1, 0, 0],
 	  ["hmag:wither_ghost", 1, 0, 0]
     ],
@@ -40,7 +40,8 @@
       ["graveyard:corrupted_vindicator", 0, 0, 0, {"HandItems":[{"id":"minecraft:crossbow","Count":1}]}]
     ],
     [
-      ["minecraft:hoglin", 0, 0, 0]
+      ["minecraft:hoglin", 1, 0, -1, {"AbsorptionAmount":15}],
+      ["minecraft:hoglin", -1, 0, 1, {"AbsorptionAmount":15}]
     ],
 	[
       ["friendsandfoes:illusioner", 0, 0, 0],
@@ -109,7 +110,11 @@
 	  ["cataclysm:draugr", 1, 0, 0],
 	  ["cataclysm:draugr", 0, 0, 1]
     ],
-	[
+    [
+	  ["ars_elemental:fire_mage", 1, 0, 0, {"ArmorItems":[{"id":"ars_elemental:fire_boots","Count":1},{"id":"ars_elemental:fire_leggings","Count":1},{"id":"ars_elemental:fire_robes","Count":1},{"id":"ars_elemental:fire_hat","Count":1}],"HandItems":[{"id":"ars_nouveau:apprentice_spell_book","Count":1,"tag":{"color":14}},{}]}],
+	  ["ars_elemental:fire_mage", 0, 0, 1, {"ArmorItems":[{"id":"ars_elemental:fire_boots","Count":1},{"id":"ars_elemental:fire_leggings","Count":1},{"id":"ars_elemental:fire_robes","Count":1},{"id":"ars_elemental:fire_hat","Count":1}],"HandItems":[{"id":"ars_nouveau:apprentice_spell_book","Count":1,"tag":{"color":14}},{}]}]
+    ],
+    [
 	  ["hmag:melty_monster", 1, 0, 0],
 	  ["hmag:kasha", 0, 0, 1],
 	  ["hmag:kasha", 0, 0, 1]
@@ -118,13 +123,17 @@
   "boss": [
     [
       ["hmag:fortress_keeper", 0, 0, 0],
-	  ["quark:foxhound", 0, 0, 0],
-	  ["quark:foxhound", 0, 0, 0],
-	  ["quark:foxhound", 0, 0, 0],
 	  ["landsoficaria:fire_jellyfish", 0, 0, 0],
 	  ["landsoficaria:fire_jellyfish", 0, 0, 0],
 	  ["landsoficaria:fire_jellyfish", 0, 0, 0],
 	  ["landsoficaria:fire_jellyfish", 0, 0, 0]
+    ],
+    [
+      ["friendsandfoes:wildfire", 0, 0, 0],
+      ["minecraft:blaze", 1, 0, 0],
+      ["minecraft:blaze", 0, 0, 1],
+      ["minecraft:blaze", -1, 0, 0],
+      ["minecraft:blaze", 0, 0, -1]
     ],
 	[
       ["cataclysm:royal_draugr", 0, 0, 0],

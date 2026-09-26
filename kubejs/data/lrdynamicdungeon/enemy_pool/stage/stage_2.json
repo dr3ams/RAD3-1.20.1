@@ -1,13 +1,13 @@
 {
   "ground": [
     [
-      ["minecraft:skeleton", 1, 0, 0, {"HandItems":[{"id":"minecraft:bow","Count":1}]}],
+      ["minecraft:skeleton", 1, 0, 0, {"ArmorItems":[{"id":"minecraft:chainmail_helmet","Count":1}],"HandItems":[{"id":"minecraft:bow","Count":1}]}],
 	  ["graveyard:corrupted_pillager", 0, 0, 1, {"HandItems":[{"id":"minecraft:crossbow","Count":1}]}],
 	  ["graveyard:corrupted_pillager", 1, 0, 1, {"HandItems":[{"id":"minecraft:crossbow","Count":1}]}]
     ],
     [
       ["minecraft:husk", 0, 0, 0, {"HandItems":[{"id":"minecraft:iron_axe","Count":1}]}],
-      ["minecraft:husk", 1, 0, 1, {"HandItems":[{"id":"minecraft:iron_axe","Count":1}]}],
+      ["minecraft:husk", 1, 0, 1, {"ArmorItems":[{"id":"minecraft:chainmail_helmet","Count":1}],"HandItems":[{"id":"minecraft:iron_axe","Count":1}]}],
 	  ["minecraft:skeleton", 1, 0, 0, {"HandItems":[{"id":"minecraft:bow","Count":1}]}],
 	  ["minecraft:skeleton", 1, 0, 0, {"HandItems":[{"id":"minecraft:bow","Count":1}]}],
     ],
@@ -26,6 +26,10 @@
       ["minecraft:skeleton", 1, 0, 0, {"HandItems":[{"id":"minecraft:bow","Count":1}]}],
 	  ["minecraft:skeleton", 0, 0, 1, {"HandItems":[{"id":"minecraft:bow","Count":1}]}],
 	  ["graveyard:skeleton_creeper", 0, 0, 1]
+    ],
+    [
+      ["embers:ancient_golem", 0, 0, 0],
+      ["embers:ancient_golem", 1, 0, 0]
     ]
   ],
   "flying": [
@@ -68,27 +72,26 @@
   ],
   "miniboss": [
     [
-      ["darkerdepths:void_soul_knight", 0, 0, 0]
+      ["undergarden:rotbeast", 0, 0, 0]
+    ],
+    [
+      ["hmag:nightwalker", 0, 0, 0]
     ],
 	[
-      ["hmag:nightwalker", 0, 0, 0]
+      ["ars_elemental:earth_mage", 0, 0, 0, {"ArmorItems":[{"id":"ars_elemental:earth_boots","Count":1},{"id":"ars_elemental:earth_leggings","Count":1},{"id":"ars_elemental:earth_robes","Count":1},{"id":"ars_elemental:earth_hat","Count":1}],"HandItems":[{"id":"ars_nouveau:apprentice_spell_book","Count":1,"tag":{"color":13}},{}]}]
+    ],
+    [
+      ["graveyard:acolyte", 0, 0, 0],
+      ["graveyard:corrupted_vindicator", 0, 0, 1],
+      ["graveyard:corrupted_pillager", 1, 0, 0]
     ]
   ],
   "boss": [
     [
-      ["minecraft:pillager", 0, 0, 0, {"HandItems":[{"id":"minecraft:crossbow","Count":1}]}],
-      ["minecraft:pillager", 0, 0, 1, {"HandItems":[{"id":"minecraft:crossbow","Count":1}]}],
-      ["minecraft:pillager", 1, 0, 0, {"HandItems":[{"id":"minecraft:crossbow","Count":1}]}],
-      ["minecraft:pillager", 1, 0, 1, {"HandItems":[{"id":"minecraft:crossbow","Count":1}]}]
+      ["takesapillage:legioner", 0, 0, 0, {"HandItems":[{"id":"kubejs:boss_killer","Count":1},{"id":"minecraft:shield","Count":1}]}]
     ],
     [
       ["hmag:ghastly_seeker", 0, 0, 0]
-    ],
-	[
-      ["graveyard:acolyte", 0, 0, 0],
-      ["graveyard:wraith", 0, 1, 0],
-      ["graveyard:corrupted_vindicator", 0, 0, 1],
-	  ["graveyard:corrupted_pillager", 1, 0, 0]
     ]
   ]
 }

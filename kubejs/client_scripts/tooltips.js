@@ -899,7 +899,7 @@ ItemEvents.tooltip(event =>{
       ])
 	    text.add(2, [
         Text.of('• Exchange it in ').white(),
-        Text.of('⭐ The Market ').gold(),
+        Text.of('Dungeon Raid ').gold(),
         Text.of('quest chapter in the ').white(),
 		Text.of('Quest Book ').green()
       ])

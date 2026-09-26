@@ -1,0 +1,1 @@
+scoreboard players remove @s cooldown_timer 1

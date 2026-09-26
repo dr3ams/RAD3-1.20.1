@@ -39,7 +39,7 @@ const RAID_CONFIG = {
     zombieKnockbackLift: 1.4,      // Vertical force
 	
     freezeRadius: 8,            // Radius for the Freeze Item
-    freezeDuration: 80,         // 3 seconds of freeze
+    freezeDuration: 240,         // 12 seconds of freeze
 
     // Mob scaling search radius
     scalingSearchRadius: 128,
@@ -65,6 +65,8 @@ const RAID_CONFIG = {
     roomEventMinDelay: 2400,      // Earliest a room event can fire (ticks, 1 min)
     roomEventMaxDelay: 6000,      // Latest a room event can fire (ticks, 5 min)
     roomEventDuration: 1200,      // How long a room event lasts (ticks, 1 min)
+    explosionEventDuration: 80,      // How long the explosive enemies event lasts (ticks, 4 seconds)
+
 
     // Cursed chests
     cursedChestChance: 0.10,      // 10% chance any chest is cursed
@@ -87,7 +89,11 @@ const DUNGEON_START_MESSAGES = [
     "§8--- §7Calculating loot-to-pain ratio. . .",
     "§8--- §7Generating 1,000,000 useless bats. . .",
     "§8--- §7Hiding the secret entrance in plain sight. . .",
-    "§8--- §7Checking if you brought a torch. . ."
+    "§8--- §7Checking if you brought a torch. . .",
+    "§8--- §7Sharpening vindicator axes. . .",
+    "§8--- §7Restocking dungeon merchant. . .",
+    "§8--- §7Adding extra entrances to the starting room. . .",
+    "§8--- §7Recycling tigers. . ."
 		  
 ];
 
@@ -106,7 +112,10 @@ const DUNGEON_EXIT_STATS = [
     "§7Ores walked past while distracted: §f",
     "§7Amount of 'Just one more chest' lies: §f",
     "§7Zombies offended by your presence: §f",
-    "§7Gravel blocks that ruined your day: §f"
+    "§7Gravel blocks that ruined your day: §f",
+    "§7Pillagers that said harr: §f",
+    "§7Times you got scammed by Morshu: §f",
+    "§7Dead Ends found: §f"
 ];
 
 const CHEST_BLOCK_IDS = [
@@ -218,12 +227,32 @@ const ROOM_EVENTS = [
         onEnd: (player) => { server.runCommandSilent(`effect clear ${player.username} minecraft:darkness`); }
     },
     {
+        id: 'desert_curse',
+        name: '§e☀ Desert Curse',
+        desc: '§7The dungeon curses you with the power of the desert. Your controls are inverted!',
+        onStart: (player, level, server) => {
+            player.potionEffects.add('cataclysm:curse_of_desert', RAID_CONFIG.roomEventDuration, 0, false, true);
+        },
+        onEnd: (player) => { server.runCommandSilent(`effect clear ${player.username} cataclysm:curse_of_desert`); }
+    },
+    {
+        id: 'explosive_enemies',
+        name: '§c⚗ Explosive Enemies',
+        desc: '§7Wait for it...',
+        onStart: (player, level, server) => {
+            level.getEntities().filter(e => e.isMonster() && e.distanceToEntity(player) < 48)
+                .forEach(m => m.potionEffects.add('ars_nouveau:blasting', 80, 0, false, true));
+        },
+        onEnd: (player) => {}
+    },
+    {
         id: 'brittle_mobs',
         name: '§b❄ Brittle Mobs',
         desc: '§7The cold saps the strength of your enemies. Strike hard!',
         onStart: (player, level, server) => {
             level.getEntities().filter(e => e.isMonster() && e.distanceToEntity(player) < 48)
-                .forEach(m => m.potionEffects.add('minecraft:weakness', RAID_CONFIG.roomEventDuration, 1, false, true));
+                .forEach(m => m.potionEffects.add('minecraft:weakness', RAID_CONFIG.roomEventDuration, 1, false, true))
+                .forEach(m => m.potionEffects.add('undergarden:brittleness', RAID_CONFIG.roomEventDuration, 1, false, true));
         },
         onEnd: (player) => {}
     },
@@ -238,34 +267,47 @@ const ROOM_EVENTS = [
 
 // Cursed chest debuffs — one random per cursed chest
 const CURSED_DEBUFFS = [
-    { id: 'minecraft:weakness', amp: 0, name: 'Weakness'   },
-    { id: 'minecraft:slowness', amp: 0, name: 'Slowness' },
-    { id: 'minecraft:hunger',   amp: 0, name: 'Hunger' },
-    { id: 'minecraft:nausea',   amp: 0, name: 'Nausea'     },
+    { id: 'minecraft:weakness', amp: 1, name: 'Weakness'   },
+    { id: 'minecraft:slowness', amp: 1, name: 'Slowness' },
+    { id: 'minecraft:hunger',   amp: 1, name: 'Hunger' },
+    { id: 'minecraft:nausea',   amp: 1, name: 'Nausea'     },
+    { id: 'attributeslib:grievous',   amp: 1, name: 'Reduced Healing'     },
+    { id: 'cataclysm:curse_of_desert',   amp: 0, name: 'Inverted Controls' },
 ];
 const MINIBOSS_MOB_IDS = [
 	'darkerdepths:void_soul_knight',
 	'minecraft:shulker',
+	'minecraft:evoker',
 	'cataclysm:koboleton',
 	'landsoficaria:soldier_revenant',
 	'hmag:nightwalker',
 	'landsoficaria:scorpion',
 	'cataclysm:draugr',
-	'friendsandfoes:illusioner',
+	'minecraft:illusioner',
+	'friendsandfoes:iceologer',
+	'mowziesmobs:umvuthana',
 	'hmag:dogu',
-	'hmag:melty_monster'
+	'hmag:melty_monster',
+	'ars_elemental:fire_mage',
+	'ars_elemental:water_mage',
+	'ars_elemental:earth_mage',
+	'ars_elemental:air_mage'
 ];
 
 const BOSS_MOB_IDS = [
 	'hmag:ghastly_seeker',
 	'landsoficaria:captain_revenant',
+	'mowziesmobs:umvuthi',
+	'mowziesmobs:ferrous_wroughtnaut',
 	'cataclysm:elite_draugr',
-	'mowziesmobs:umvuthana',
 	'cataclysm:deepling_brute',
+	'cataclysm:ender_golem',
 	'ntrials:breeze_boss',
 	'hmag:ogre',
 	'hmag:giant_mummy',
-	'hmag:spider_nest'
+	'hmag:spider_nest',
+	'takesapillage:legioner',
+	'friendsandfoes:wildfire'
 ];
 // ============================================================
 //  HELPER FUNCTIONS
@@ -526,7 +568,7 @@ CommonAddedEvents.playerChangeDimension(event => {
         [
             'minecraft:slowness', 'minecraft:fire_resistance', 'minecraft:blindness',
             'minecraft:regeneration', 'minecraft:haste', 'minecraft:speed',
-            'minecraft:darkness', 'minecraft:weakness', 'minecraft:hunger', 'minecraft:nausea'
+            'minecraft:darkness', 'minecraft:weakness', 'minecraft:hunger', 'minecraft:nausea', 'cataclysm:curse_of_desert'
         ].forEach(eff => {
             server.runCommandSilent(`effect clear ${player.username} ${eff}`);
         });	
@@ -861,7 +903,7 @@ ItemEvents.entityInteracted('kubejs:boss_killer', event => {
     }
 
     item.count--;
-    target.attack(target.maxHealth + 1000);
+    target.attack(target.maxHealth + 125);
 
     player.tell(Text.of(`§6⚔ §lBoss Killer §r§6activated! §f${entityId.split(':')[1]} §6obliterated.`).bold());
     level.playSound(null, player.blockX, player.blockY, player.blockZ,
@@ -889,7 +931,7 @@ ItemEvents.entityInteracted('kubejs:miniboss_killer', event => {
     }
 
     item.count--;
-    target.attack(target.maxHealth + 1000);
+    target.attack(target.maxHealth + 200);
 
     player.tell(Text.of(`§b★ Miniboss Killer §r§bactivated! §f${entityId.split(':')[1]} §bdefeated.`));
     level.playSound(null, player.blockX, player.blockY, player.blockZ,
@@ -920,7 +962,7 @@ ItemEvents.rightClicked(event => {
     }
 
     // --- FREEZE ITEM ---
-    if (item.id == 'kubejs:frost_scroll') {
+    if (item.id == 'kubejs:ice_shard') {
 		if (!player.persistentData.inRaid) {
             player.tell(Text.of("§cThis item only hums with power inside a dungeon."));
             return;
@@ -932,8 +974,9 @@ ItemEvents.rightClicked(event => {
         let targets = level.getEntities().filter(e => e.isMonster() && e.distanceToEntity(player) < RAID_CONFIG.freezeRadius);
         
         targets.forEach(mob => {
-            // Apply Slowness 255 (Complete immobilization) + Glowing
-            mob.potionEffects.add('minecraft:slowness', RAID_CONFIG.freezeDuration, 254);
+            // Apply Mowzies Frozen (Complete immobilization) + no healing + Glowing
+            mob.potionEffects.add('mowziesmobs:frozen', RAID_CONFIG.freezeDuration, 0);
+            mob.potionEffects.add('attributeslib:grievous', RAID_CONFIG.freezeDuration, 4);
             mob.potionEffects.add('minecraft:glowing', RAID_CONFIG.freezeDuration, 0);
             
             // Particle effect at each mob
@@ -1190,7 +1233,7 @@ ServerEvents.commandRegistry(event => {
                 player.tell(Text.of("§c§l💀 Death").bold());
                 player.tell(Text.of("§7Dying in the dungeon costs a small portion of your current rank's XP progress. You §lcannot lose a rank§r§7 from dying. Your run is not over — re-enter and keep going."));
                 player.tell(Text.of(""));
- 
+
                 player.tell(Text.of("§5§l👁 Room Events").bold());
                 player.tell(Text.of("§7Once per run, a random event fires at random time after entry. It might buff you, curse the mobs, double your score, or make things considerably harder. It lasts about 1 minute."));
                 player.tell(Text.of(""));

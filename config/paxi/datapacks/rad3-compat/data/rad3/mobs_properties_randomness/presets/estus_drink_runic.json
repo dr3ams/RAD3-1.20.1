@@ -1,0 +1,354 @@
+{
+    "properties": [
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "minecraft:generic.max_health",
+	    "modifier_name": "Runic Miniboss Health",
+	    "amount": 0.5,
+	    "operation": "multiply_base"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "minecraft:generic.attack_damage",
+	    "modifier_name": "Runic Miniboss Attack",
+	    "amount": 0.5,
+	    "operation": "multiply_base"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "minecraft:generic.follow_range",
+	    "modifier_name": "Runic Miniboss Chase",
+	    "amount": 1.0,
+	    "operation": "multiply_base"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "forge:swim_speed",
+	    "modifier_name": "Runic Miniboss Swim",
+	    "amount": 1.0,
+	    "operation": "multiply_base"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "reach-entity-attributes:attack_range",
+	    "modifier_name": "Runic Miniboss Reach",
+	    "amount": 0.5,
+	    "operation": "addition"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "attributeslib:crit_chance",
+	    "modifier_name": "Runic Miniboss Crit Bonus",
+	    "amount": 0.2,
+	    "operation": "addition"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "attributeslib:current_hp_damage",
+	    "modifier_name": "Runic Miniboss Percent Damage",
+	    "amount": 0.15,
+	    "operation": "addition"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "attributeslib:healing_received",
+	    "modifier_name": "Runic Miniboss Healing Bonus",
+	    "amount": 2,
+	    "operation": "multiply_base"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "attributeslib:prot_pierce",
+	    "modifier_name": "Runic Miniboss Prot Pierce",
+	    "amount": 10,
+	    "operation": "addition"
+	},
+        {
+	    "property": "equipment",
+	    "slot": "head",
+	    "items": [
+	        {
+	            "item": "minecraft:diamond_helmet",
+	            "functions": [
+	                {
+	                    "function": "set_drop_chance",
+	                    "drop_chance": 0
+	                }
+	            ]
+	        }
+	    ]
+        },
+        {
+	    "property": "equipment",
+	    "slot": "chest",
+	    "items": [
+	        {
+	            "item": "minecraft:diamond_chestplate",
+	            "functions": [
+	                {
+	                    "function": "set_drop_chance",
+	                    "drop_chance": 0
+	                }
+	            ]
+	        }
+	    ]
+        },
+        {
+	    "property": "equipment",
+	    "slot": "legs",
+	    "items": [
+	        {
+	            "item": "minecraft:diamond_leggings",
+	            "functions": [
+	                {
+	                    "function": "set_drop_chance",
+	                    "drop_chance": 0
+	                }
+	            ]
+	        }
+	    ]
+        },
+        {
+	    "property": "equipment",
+	    "slot": "feet",
+	    "items": [
+	        {
+	            "item": "minecraft:diamond_boots",
+	            "functions": [
+	                {
+	                    "function": "set_drop_chance",
+	                    "drop_chance": 0
+	                }
+	            ]
+	        }
+	    ]
+        },
+        {
+	    "property": "equipment",
+	    "slot": "mainhand",
+	    "items": [
+	        {
+	            "item": "simplyswords:runic_longsword",
+	            "functions": [
+	                {
+	                    "function": "set_drop_chance",
+	                    "drop_chance": 0.001
+	                },
+	                {
+	                    "function": "enchant",
+	                    "type": "random",
+	                    "lvl": {
+			        "value": 3,
+			        "modifiers": [
+			            {
+			                "modifier": "difficulty",
+			                "operation": "add",
+			                "easy": -1,
+			                "hard": 1
+			            }
+			        ]
+			    }
+	                }
+	            ]
+	        },
+	        {
+	            "item": "simplyswords:runic_claymore",
+	            "functions": [
+	                {
+	                    "function": "set_drop_chance",
+	                    "drop_chance": 0.001
+	                },
+	                {
+	                    "function": "enchant",
+	                    "type": "random",
+	                    "lvl": {
+			        "value": 3,
+			        "modifiers": [
+			            {
+			                "modifier": "difficulty",
+			                "operation": "add",
+			                "easy": -1,
+			                "hard": 1
+			            }
+			        ]
+			    }
+	                }
+	            ]
+	        }
+	    ]
+        },
+        {
+	    "property": "equipment",
+	    "slot": "offhand",
+	    "items": [
+	        {
+	            "item": "minecraft:air",
+	            "conditions": [
+			{
+				"condition": "equipment",
+				"slot": "mainhand",
+				"items": "#rad3:twohanded"
+			}
+		    ]
+	        }
+	    ]
+        },
+	{
+            "property": "function",
+            "function": "rad3:estus_addict/miniboss"
+	},
+	{
+	   "property": "potion_effect",
+           "effect": "minecraft:regeneration",
+	   "duration": 2,
+           "amplifier": 9,
+           "hide_particles": true
+	},
+	{
+	    "property": "raw_nbt",
+	    "nbt": "{PersistenceRequired:1b,Tags:[\"miniboss\"],DeathLootTable:\"rad3:entities/the_duelist\"}"
+	},
+	{
+	    "property": "custom_name",
+	    "overrides": "The Duelist"
+	},
+	{
+	    "property": "experience_multiplier",
+	    "multiplier": 10
+	},
+	{
+	    "property": "effect_immunity",
+	    "effects": ["l2complements:curse","shield_overhaul:stun","cataclysm:stun","relics:stun","relics:paralysis","simplyswords:freeze"]
+	},
+	{
+            "property": "boss_bar",
+	    "color": "blue",
+	    "type": "progress",
+	    "range": 48
+	},
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:jump/can_jump",
+            "value": 1
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:sprint/can_sprint",
+            "value": 1
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:open_doors/can_open_doors",
+            "value": 1
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:falling_shockwave/damage_per_block",
+            "value": 1
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:falling_shockwave/horizontal_range_per_block",
+            "value": 1.25
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:falling_shockwave/vertical_range_per_block",
+            "value": 0.5
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:falling_shockwave/knockup_strength_ratio",
+            "value": 0.05
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:throwing_web/web_thrower",
+            "value": 1
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:throwing_web/place_web_on_block_hit",
+            "value": 0
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:throwing_web/place_web_on_entity_hit",
+            "value": 0
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:throwing_web/damage",
+            "value": 8
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:throwing_web/distance_min",
+            "value": 5
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:throwing_web/distance_max",
+            "value": 48
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:throwing_web/cooldown",
+            "value": 30
+        },
+	{
+	    "property": "event",
+	    "event": "death",
+	    "id": "rad3:death_prevention",
+	    "cancel_death": "true",
+	    "target": "this",
+	    "apply_properties": [
+	        {
+		    "property": "play_sound",
+		    "sound": "enhancedai:wtf_boom_explode",
+		    "volume": 1.2,
+		    "pitch": 1
+	        },
+	        {
+		    "property": "attribute_modifier",
+		    "attribute": "minecraft:generic.max_health",
+		    "modifier_name": "Runic Miniboss Overkill Health Compensation",
+		    "amount": 0.5,
+		    "operation": "multiply_base"
+		},
+	        {
+		    "property": "attribute_modifier",
+		    "attribute": "attributeslib:crit_chance",
+		    "modifier_name": "Runic Miniboss Overkill Crit Damage Compensation",
+		    "amount": 0.05,
+		    "operation": "addition"
+		},
+	        {
+		    "property": "attribute_modifier",
+		    "attribute": "attributeslib:crit_damage",
+		    "modifier_name": "Runic Miniboss Overkill Crit Damage Compensation",
+		    "amount": 0.5,
+		    "operation": "addition"
+		},
+	        {
+		    "property": "attribute_modifier",
+		    "attribute": "attributeslib:healing_received",
+		    "modifier_name": "Runic Miniboss Overkill Healing Compensation",
+		    "amount": 0.5,
+		    "operation": "addition"
+		}
+	    ],
+	    "conditions": [
+	        {
+	            "condition": "score",
+		    "inverted": true,
+	            "objective": "effect_roll",
+	            "value": {
+	                "min": -999999,
+	                "max": 0
+	            }
+	        }
+	    ]
+	}
+    ]
+}

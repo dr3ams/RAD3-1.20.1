@@ -1,6 +1,13 @@
 {
     "properties": [
         {
+	    "property": "attribute_modifier",
+	    "attribute": "attributeslib:healing_received",
+	    "modifier_name": "Guard Melee Heal Bonus",
+	    "amount": 1.0,
+	    "operation": "addition"
+	},
+        {
             "property": "equipment",
             "slot": "head",
             "items": [
@@ -183,6 +190,16 @@
                     "item": "minecraft:air"
                 }
             ]
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:jump/can_jump",
+            "value": 1
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:parkour/can_parkour",
+            "value": 1
         }
     ]
 }

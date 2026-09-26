@@ -1,6 +1,13 @@
 {
     "properties": [
         {
+	    "property": "attribute_modifier",
+	    "attribute": "attributeslib:crit_chance",
+	    "modifier_name": "Guard Mage Sparkles",
+	    "amount": 1.0,
+	    "operation": "addition"
+	},
+        {
             "property": "equipment",
             "slot": "head",
             "items": [
@@ -108,6 +115,76 @@
                     "item": "minecraft:air"
                 }
             ]
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:jump/can_jump",
+            "value": 1
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:parkour/can_parkour",
+            "value": 1
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:throwing_web/web_thrower",
+            "value": 1
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:throwing_web/place_web_on_block_hit",
+            "value": 0
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:throwing_web/place_web_on_entity_hit",
+            "value": 0
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:throwing_web/damage",
+            "value": 2
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:throwing_web/distance_min",
+            "value": 6
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:throwing_web/distance_max",
+            "value": 32
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:throwing_web/cooldown",
+            "value": 60
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:throwing_web/slowness/enable",
+            "value": 1
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:throwing_web/slowness/stack_amplifier",
+            "value": 1
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:throwing_web/slowness/duration",
+            "value": 60
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:throwing_web/slowness/amplifier",
+            "value": 0
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:throwing_web/slowness/max_slowness_amplifier",
+            "value": 2
         }
     ]
 }

@@ -1,6 +1,13 @@
 {
     "properties": [
         {
+	    "property": "attribute_modifier",
+	    "attribute": "attributeslib:arrow_damage",
+	    "modifier_name": "Guard Ranged Bonus",
+	    "amount": 1.0,
+	    "operation": "multiply_base"
+	},
+        {
             "property": "equipment",
             "slot": "head",
             "items": [
@@ -138,6 +145,16 @@
 					]
                 }
             ]
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:jump/can_jump",
+            "value": 1
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:parkour/can_parkour",
+            "value": 1
         }
     ]
 }
