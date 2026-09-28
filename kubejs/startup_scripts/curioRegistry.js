@@ -81,15 +81,69 @@ ItemEvents.modification(event => {
 
 
 StartupEvents.registry('item', event => {
-    event.create('builder_focus')
+    event.create('vanilla_focus')
 	    .maxStackSize(1)
 		.tag('curios:an_focus')
 		.tag('rad3:artifacts')
-		.displayName('Builder Focus').color('gold')
+		.displayName('Vanilla Focus').color('gold')
 		.rarity('Uncommon')
         .texture('kubejs:item/crafterfp')
         .attachCuriosCapability(
             CuriosJSCapabilityBuilder.create()
+                .addAttribute(
+                    "minecraft:generic.max_health",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    10,
+                    'addition'
+                )
+                .addAttribute(
+                    "skilltree:regeneration",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    0.5,
+                    'addition'
+                )
+                .addAttribute(
+                    "betterparagliders:base_melee_stamina_reduction",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    6,
+                    'addition'
+                )
+                .addAttribute(
+                    "betterparagliders:range_stamina_reduction",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    5,
+                    'addition'
+                )
+                .addAttribute(
+                    "betterparagliders:block_stamina_reduction",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    5,
+                    'addition'
+                )
+                .addAttribute(
+                    "betterparagliders:sprinting_stamina_reduction",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    5,
+                    'addition'
+                )
+                .addAttribute(
+                    "betterparagliders:swimming_stamina_reduction",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    5,
+                    'addition'
+                )
+                .addAttribute(
+                    "shieldinghealth:attribute.shieldinghealth.shield_value",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    -1,
+                    'multiply_total'
+                )
+                .addAttribute(
+                    "combatroll:count",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    -1,
+                    'multiply_total'
+                )
                 .addAttribute(
                     "ars_nouveau:ars_nouveau.perk.max_mana",
                     "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
@@ -101,6 +155,29 @@ StartupEvents.registry('item', event => {
                     "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
                     -1,
                     'multiply_total'
+                )
+        )
+
+    event.create('archer_focus')
+	    .maxStackSize(1)
+		.tag('curios:an_focus')
+		.tag('rad3:artifacts')
+		.displayName('Way of the Archer').color('gold')
+		.rarity('Uncommon')
+        .texture('kubejs:item/roguefp')
+        .attachCuriosCapability(
+            CuriosJSCapabilityBuilder.create()
+                .addAttribute(
+                    "attributeslib:arrow_damage",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    4,
+                    'multiply_base'
+                )
+                .addAttribute(
+                    "attributeslib:draw_speed",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    0.1,
+                    'addition'
                 )
                 .addAttribute(
                     "attributeslib:healing_received",
@@ -120,37 +197,20 @@ StartupEvents.registry('item', event => {
                     4,
                     'multiply_base'
                 )
-        )
-
-    event.create('archer_focus')
-	    .maxStackSize(1)
-		.tag('curios:an_focus')
-		.tag('rad3:artifacts')
-		.displayName('Archer Focus').color('gold')
-		.rarity('Uncommon')
-        .texture('kubejs:item/roguefp')
-        .attachCuriosCapability(
-            CuriosJSCapabilityBuilder.create()
                 .addAttribute(
-                    "attributeslib:arrow_damage",
+                    "ars_nouveau:ars_nouveau.perk.warding",
                     "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
-                    1,
-                    'multiply_base'
+                    0.1,
+                    'multiply_total'
                 )
                 .addAttribute(
-                    "attributeslib:arrow_velocity",
+                    "ars_nouveau:ars_nouveau.perk.max_mana",
                     "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
-                    1,
-                    'multiply_base'
+                    -1,
+                    'multiply_total'
                 )
                 .addAttribute(
-                    "attributeslib:draw_speed",
-                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
-                    0.5,
-                    'multiply_base'
-                )
-                .addAttribute(
-                    "minecraft:generic.attack_damage",
+                    "ars_nouveau:ars_nouveau.perk.mana_regen",
                     "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
                     -1,
                     'multiply_total'
@@ -161,7 +221,7 @@ StartupEvents.registry('item', event => {
 	    .maxStackSize(1)
 		.tag('curios:an_focus')
 		.tag('rad3:artifacts')
-		.displayName('Combat Mage Focus').color('gold')
+		.displayName('Way of the Battlemage').color('gold')
 		.rarity('Uncommon')
         .texture('kubejs:item/wizardfp')
         .attachCuriosCapability(
@@ -169,20 +229,44 @@ StartupEvents.registry('item', event => {
                 .addAttribute(
                     "ars_nouveau:ars_nouveau.perk.spell_damage",
                     "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
-                    5,
-                    'multiply_base'
+                    10,
+                    'addition'
+                )
+                .addAttribute(
+                    "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    0.5,
+                    'multiply_total'
                 )
                 .addAttribute(
                     "ars_nouveau:ars_nouveau.perk.mana_regen",
                     "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
-                    1,
+                    0.5,
                     'multiply_base'
                 )
                 .addAttribute(
                     "minecraft:generic.attack_damage",
                     "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
-                    -1,
+                    -0.99,
                     'multiply_total'
+                )
+                .addAttribute(
+                    "minecraft:generic.attack_speed",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    -0.66,
+                    'multiply_total'
+                )
+                .addAttribute(
+                    "attributeslib:draw_speed",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    -0.1,
+                    'multiply_base'
+                )
+                .addAttribute(
+                    "attributeslib:arrow_velocity",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    -0.3,
+                    'multiply_base'
                 )
         )
 

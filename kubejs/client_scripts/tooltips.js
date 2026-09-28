@@ -1729,6 +1729,24 @@ ItemEvents.tooltip(event =>{
 		text.add(19, Text.of("The tragic tale of the most popular enchantment. Being famous and").gray().italic())
 		text.add(20, Text.of("powerful is an unescapable curse disguised as a blessing.").gray().italic())
 	})
+
+	event.addAdvanced('kubejs:vanilla_focus', (item, advanced, text) => {
+				text.add(1, Text.of('A focus for those who dislike when things are changed.').gray().italic())
+				text.add(2, Text.of(' • §6Reverts the player to be similar to vanilla minecraft.').white())
+				text.add(3, Text.of(' • §2Brings back the default 20 hp, health regeneration and no stamina.').white())
+				text.add(4, Text.of(' • §cNo rolls, no shielding, no mana.').white())
+	})
+
+	event.addAdvanced('kubejs:archer_focus', (item, advanced, text) => {
+				text.add(1, Text.of('For those seeking a life away from magic.').gray().italic())
+				text.add(2, Text.of(' • §cThis focus wards off the ars elements').white())
+				text.add(3, Text.of(' • §2But instead greatly improves your archery abilities.').white())
+	})
+
+	event.addAdvanced('kubejs:mage_focus', (item, advanced, text) => {
+				text.add(1, Text.of(' • §2A focus that greatly improves direct magic attacks').white())
+				text.add(2, Text.of(' • §cBut saps your physical strength.').white())
+	})
 	
 
 // THE END	

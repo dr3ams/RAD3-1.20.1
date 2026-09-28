@@ -400,6 +400,42 @@
 			x: 4.5d
 			y: 5.0d
 		}
+		{
+			can_repeat: true
+			description: [
+				"Tired of playing the dungeon the same old way over and over again? Try out one of these Class Focuses!"
+				""
+				"Class focuses completely change the way you play the game. These have huge upsides but also huge drawbacks."
+				""
+				"Choose the &l&6Vanilla Focus&r for a more vanilla-like experience; &2+10 Max Health, enabled health regeneration and no stamina, &cbut also lose out on magic, rolls and absorption shields.&r"
+				""
+				"Pick the &l&6Way of the Archer&r if you like to use &2ranged weapons and mine the old-fashioned way&r, &cand don't like spells."
+				""
+				"Select the &l&6Way of the Battlemage&r if you &2wish to have spells be your primary way of fighting&r, &cbut you will not be able to use melee weapons effectively.&r"
+				""
+				"&aThese work both outside and in the dungeon dimension."
+			]
+			icon: "kubejs:vanilla_focus"
+			id: "5DC751031783CA59"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FAAABD108534720"
+				table_id: 4541922436664233179L
+				type: "choice"
+			}]
+			subtitle: "Pick what you want"
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "6F661C16945525D6"
+				item: "kubejs:coin_raid"
+				type: "item"
+			}]
+			title: "Class Focuses"
+			x: 2.66d
+			y: 7.0d
+		}
 	]
 	title: "Dungeon Raid"
 }
