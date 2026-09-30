@@ -113,6 +113,12 @@ event.create('coin_nether').displayName('Nether Coin').rarity('Uncommon')
         .tooltip('§8Only one guard may be active at a time')
         .maxStackSize(3);
 
+    event.create('kubejs:soul_jar').maxStackSize(1).rarity('uncommon')
+    event.create('kubejs:book_of_disenchant_lesser').maxStackSize(16).rarity('common')
+    event.create('kubejs:book_of_disenchant_greater').maxStackSize(8).rarity('uncommon')
+    event.create('kubejs:tome_of_soul_unraveling').maxStackSize(1).rarity('rare').glow(true)
+    event.create('kubejs:tome_of_scattered_souls').maxStackSize(1).rarity('rare').glow(true)
+
 //task coins
 //event.create('coin_food').displayName('Food Coin')
 //event.create('coin_gathering').displayName('Gathering Coin')

@@ -1482,6 +1482,224 @@
 			x: -0.5d
 			y: -2.0d
 		}
+		{
+			description: [
+				"The &bSoul Jar&r stores captured souls - one shared count, no tiers to sort through."
+				""
+				"To capture a soul: hold the jar in your &eOFFHAND&r and land the killing blow yourself. Not every kill works - only certain entities can leave a soul behind, and even those aren't guaranteed"
+				""
+				"The jar holds &f10&r souls by default. Mastery raises that cap a lot further - see &6The Long Climb&r."
+			]
+			icon: "kubejs:soul_jar"
+			id: "0EC3FB01F7F960B9"
+			rewards: [{
+				id: "5D794183EF9418DE"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "It hums faintly when you hold it"
+			tasks: [{
+				id: "19EC0B2A977837F2"
+				item: "kubejs:soul_jar"
+				type: "item"
+			}]
+			title: "A Vessel for the Dead"
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0EC3FB01F7F960B9"]
+			description: [
+				"&eSneak + right-click&r the Soul Jar (main hand) to open a full status readout in chat:"
+				""
+				"&7- Souls stored, current capacity, and mastery rank"
+				"&7- A progress bar toward your next rank"
+				"&7- Capture bonus and conserve chance"
+				"&7- Lifetime souls captured"
+				"&7- Every perk's current live chance, or how many souls until it unlocks"
+				""
+				"The jar's tooltip shows a shorter version of the same thing - hold &e[Shift]&r for the mechanics list."
+			]
+			icon: "minecraft:spyglass"
+			id: "4F97DCE67B0AF101"
+			rewards: [{
+				id: "7532D140E542443D"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Sneak and right-click to check in"
+			tasks: [{
+				id: "12E865CA56C794F0"
+				title: "Sneak + right-click your Soul Jar"
+				type: "checkmark"
+			}]
+			title: "Reading the Jar"
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0EC3FB01F7F960B9"]
+			description: [
+				"All disenchanting works the same way: hold the book or tome in your &eMAIN HAND&r, the enchanted item in your &eOFFHAND&r, and right-click. A &5Soul Jar&r with enough souls just needs to be &fsomewhere in your inventory&r - you don't have to hold it."
+				""
+				"The &bBook of Disenchant (Lesser)&r costs &f1 soul&r and strips &f1-2 random&r enchantments onto separate books. The book itself isn't consumed - only the souls are spent (unless mastery conserves them, see &6The Long Climb&r). There is a small chance that ritual &cfails&r: 35%."
+				""
+				"The target item is never destroyed, whatever gets stripped comes back as loose enchanted books."
+			]
+			icon: "kubejs:book_of_disenchant_lesser"
+			id: "39009F5BF2A833D0"
+			rewards: [{
+				id: "3B8D17EFD442A86B"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Cheap, a little unreliable"
+			tasks: [{
+				id: "169CAAAD329AF9C2"
+				item: "kubejs:book_of_disenchant_lesser"
+				type: "item"
+			}]
+			title: "Lesser Disenchantment"
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["39009F5BF2A833D0"]
+			description: [
+				"The &bBook of Disenchant (Greater)&r costs &f2 souls&r and strips exactly &f2&r enchantments (or all of them, if the item has fewer than 2) - no randomness. Same interaction as the lesser book: main hand book, offhand target, right-click. "
+				""
+				"Also reusable."
+				""
+				"&cChance to fail&r is 20%"
+			]
+			icon: "kubejs:book_of_disenchant_greater"
+			id: "25C7B3964D06FAA7"
+			rewards: [{
+				id: "4CA7A11CEC93074F"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Same ritual, steadier hands"
+			tasks: [{
+				id: "3E054F8C2D09711D"
+				item: "kubejs:book_of_disenchant_greater"
+				type: "item"
+			}]
+			title: "Greater Disenchantment"
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["25C7B3964D06FAA7"]
+			description: [
+				"Costs &f4 souls&r and strips &fALL&r enchantments from the target item - but merges every one of them onto a single combined enchanted book instead of handing out separates."
+				""
+				"Unlike the two books above, the tome is &cconsumed&r on use. One ritual, one tome gone."
+			]
+			icon: "kubejs:tome_of_soul_unraveling"
+			id: "34D8FD32EDAA19CC"
+			rewards: [{
+				id: "118052EB2B1F85FE"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Everything it takes, onto one page"
+			tasks: [{
+				id: "1ECE004065662376"
+				item: "kubejs:tome_of_soul_unraveling"
+				type: "item"
+			}]
+			title: "Tome of Soul Unraveling"
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["25C7B3964D06FAA7"]
+			description: ["The pricier sibling to the Tome of Soul Unraveling. Costs &f8 souls&r, also strips &fALL&r enchantments and is also &cconsumed&r on use - but hands back a &fseparate book per enchantment&r instead of one merged book. More souls for more flexibility afterward."]
+			icon: "kubejs:tome_of_scattered_souls"
+			id: "3DD2121A90D8264C"
+			rewards: [{
+				id: "2DA6334D26D8A906"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Everything it takes, kept apart"
+			tasks: [{
+				id: "788E4CCA6D3260F7"
+				item: "kubejs:tome_of_scattered_souls"
+				type: "item"
+			}]
+			title: "Tome of Scattered Souls"
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F97DCE67B0AF101"]
+			description: [
+				"Every soul you've &fever&r captured (lifetime total, never resets) feeds a single mastery rank. Higher rank means a better capture chance, a better chance to not spend souls on a disenchant, and a much bigger jar:"
+				""
+				"&7Initiate (10): x1.05 capture, 5% conserve, +3 capacity"
+				"&7Apprentice (50): x1.10, 10%, +5"
+				"&7Soulcatcher (100): x1.15, 15%, +10"
+				"&7Ghostwalker (200): x1.20, 20%, +20"
+				"&7Wraithcaller (350): x1.30, 25%, +35"
+				"&7Spirit Tamer (500): x1.40, 30%, +50"
+				"&7Necromancer (750): x1.55, 35%, +75"
+				"&7Soulbound (1000): x1.70, 40%, +100"
+				"&7Reaper (1500): x1.85, 45%, +150"
+				"&dSoul Warden (2000): x2.00, 50%, +200"
+				""
+				"You'll get a banner announcement in chat the moment you cross into a new rank."
+			]
+			icon: "minecraft:experience_bottle"
+			id: "6C6F1A63BB83D255"
+			rewards: [{
+				id: "03CBFACAE2299234"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "One number, ten ranks, no ceiling in sight"
+			tasks: [{
+				id: "56262328839007BA"
+				title: "Reach the Apprentice rank (50 lifetime souls)"
+				type: "checkmark"
+			}]
+			title: "The Long Climb"
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6C6F1A63BB83D255"]
+			description: [
+				"Four passive perks unlock at their own mastery thresholds - and every one of them keeps climbing toward a cap instead of just switching on:"
+				""
+				"&6Ghostly Aftermath&r (100 souls): captures have a growing chance to grant a brief Resistance buff. Starts at 10%, caps at 65%."
+				""
+				"&6Ectoplasmic Tear&r (200 souls): captures have a growing chance to also pull a bonus item into the world nearby. Starts at 5%, caps at 25%."
+				""
+				"&6Dense Extraction&r (500 souls): killing certain boss entitiy has a growing chance to deposit 3-5 souls at once instead of 1. Starts at 20%, caps at 60%."
+				""
+				"&6Artifact Resonance&r (1000 souls): when mastery conserves your souls on a disenchant, there's a growing chance it also manifests a rare bonus item. Starts at 5%, caps at 25%."
+				""
+				"None of these are guaranteed even at max rank - check your jar's stats screen or tooltip for your current live percentages."
+			]
+			icon: "minecraft:totem_of_undying"
+			id: "6703DC721DE9D44C"
+			rewards: [{
+				id: "0693E104C4CCABDA"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Four more reasons to keep hunting"
+			tasks: [{
+				id: "5DFCDE1194143CEF"
+				title: "Unlock your first perk (100 lifetime souls)"
+				type: "checkmark"
+			}]
+			title: "Awakened Perks"
+			x: -8.0d
+			y: 2.0d
+		}
 	]
 	title: "Enchanting"
 }
