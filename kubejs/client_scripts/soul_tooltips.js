@@ -20,10 +20,10 @@ NetworkEvents.dataReceived('sync_soul_stats', event => {
 // Same unlockAt/baseChance/chancePerCapture/maxChance shape as SOUL_CONFIG in soul_system.js -
 // keep these two in sync manually if you tune the numbers on the server side.
 const SOUL_PERKS_CLIENT = {
-    ghostlyAftermath:  { label: 'Ghostly Aftermath',  unlockAt: 100,  baseChance: 0.15, chancePerCapture: 0.0005, maxChance: 0.75 },
+    ghostlyAftermath:  { label: 'Ghostly Aftermath',  unlockAt: 100,  baseChance: 0.10, chancePerCapture: 0.0005, maxChance: 0.65 },
     ectoplasmicTear:   { label: 'Ectoplasmic Tear',   unlockAt: 200,  baseChance: 0.05, chancePerCapture: 0.0001, maxChance: 0.25 },
-    denseExtraction:   { label: 'Dense Extraction',   unlockAt: 500,  baseChance: 0.20, chancePerCapture: 0.0003, maxChance: 0.65 },
-    artifactResonance: { label: 'Artifact Resonance', unlockAt: 1000, baseChance: 0.05, chancePerCapture: 0.0005, maxChance: 0.30 }
+    denseExtraction:   { label: 'Dense Extraction',   unlockAt: 500,  baseChance: 0.20, chancePerCapture: 0.0003, maxChance: 0.60 },
+    artifactResonance: { label: 'Artifact Resonance', unlockAt: 1000, baseChance: 0.05, chancePerCapture: 0.0005, maxChance: 0.25 }
 }
 
 function getPerkChanceClient(total, perk) {
@@ -37,16 +37,16 @@ function getPerkChanceClient(total, perk) {
 function getSoulMasteryClient(total) {
     let mastery = { tier: "§fNovice", captureMult: 1.00, conserveChance: 0, capacityBonus: 0 }
 
-    if      (total >= 2000) { mastery = { tier: "§d§lSoul Warden",  captureMult: 2.00, conserveChance: 50, capacityBonus: 10 } }
-    else if (total >= 1500) { mastery = { tier: "§5Reaper",        captureMult: 1.85, conserveChance: 45, capacityBonus: 9 } }
-    else if (total >= 1000) { mastery = { tier: "§9Soulbound",     captureMult: 1.70, conserveChance: 40, capacityBonus: 8 } }
-    else if (total >= 750)  { mastery = { tier: "§3Necromancer",   captureMult: 1.55, conserveChance: 35, capacityBonus: 7 } }
-    else if (total >= 500)  { mastery = { tier: "§aSpirit Tamer",  captureMult: 1.40, conserveChance: 30, capacityBonus: 6 } }
-    else if (total >= 350)  { mastery = { tier: "§2Wraithcaller",  captureMult: 1.30, conserveChance: 25, capacityBonus: 5 } }
-    else if (total >= 200)  { mastery = { tier: "§6Ghostwalker",   captureMult: 1.20, conserveChance: 20, capacityBonus: 4 } }
-    else if (total >= 100)  { mastery = { tier: "§eSoulcatcher",   captureMult: 1.15, conserveChance: 15, capacityBonus: 3 } }
-    else if (total >= 50)   { mastery = { tier: "§bApprentice",    captureMult: 1.10, conserveChance: 10, capacityBonus: 2 } }
-    else if (total >= 10)   { mastery = { tier: "§fInitiate",      captureMult: 1.05, conserveChance: 5,  capacityBonus: 1 } }
+    if      (total >= 2000) { mastery = { tier: "§d§lSoul Warden",  captureMult: 2.00, conserveChance: 50, capacityBonus: 200 } }
+    else if (total >= 1500) { mastery = { tier: "§5Reaper",        captureMult: 1.85, conserveChance: 45, capacityBonus: 150 } }
+    else if (total >= 1000) { mastery = { tier: "§9Soulbound",     captureMult: 1.70, conserveChance: 40, capacityBonus: 100 } }
+    else if (total >= 750)  { mastery = { tier: "§3Necromancer",   captureMult: 1.55, conserveChance: 35, capacityBonus: 75 } }
+    else if (total >= 500)  { mastery = { tier: "§aSpirit Tamer",  captureMult: 1.40, conserveChance: 30, capacityBonus: 50 } }
+    else if (total >= 350)  { mastery = { tier: "§2Wraithcaller",  captureMult: 1.30, conserveChance: 25, capacityBonus: 35 } }
+    else if (total >= 200)  { mastery = { tier: "§6Ghostwalker",   captureMult: 1.20, conserveChance: 20, capacityBonus: 20 } }
+    else if (total >= 100)  { mastery = { tier: "§eSoulcatcher",   captureMult: 1.15, conserveChance: 15, capacityBonus: 10 } }
+    else if (total >= 50)   { mastery = { tier: "§bApprentice",    captureMult: 1.10, conserveChance: 10, capacityBonus: 5 } }
+    else if (total >= 10)   { mastery = { tier: "§fInitiate",      captureMult: 1.05, conserveChance: 5,  capacityBonus: 3 } }
 
     mastery.ghostlyAftermathChance  = getPerkChanceClient(total, SOUL_PERKS_CLIENT.ghostlyAftermath)
     mastery.ectoplasmicTearChance   = getPerkChanceClient(total, SOUL_PERKS_CLIENT.ectoplasmicTear)
@@ -57,7 +57,7 @@ function getSoulMasteryClient(total) {
 }
 
 const SOUL_MASTERY_THRESHOLDS = [10, 50, 100, 200, 350, 500, 750, 1000, 1500, 2000]
-const SOUL_BASE_CAPACITY = 12 // must match SOUL_CONFIG.capacity in soul_system.js
+const SOUL_BASE_CAPACITY = 10 // must match SOUL_CONFIG.capacity in soul_system.js
 
 // Locked: "🔒 Ghostly Aftermath (unlocks at 100 souls)"
 // Unlocked: "Ghostly Aftermath: 42% (caps at 75%)" - takes the pre-computed chance, no recalculation
@@ -116,7 +116,7 @@ ItemEvents.tooltip(event => {
             text.add(Text.of('Hold [Shift] for mechanics').gray())
         } else {
             text.add(Text.of(' '))
-            text.add(Text.of('• §6Chance to capture a soul on a killing blow if held in offhand.').white())
+            text.add(Text.of('• §6Chance to capture a soul on a killing blow.').white())
             text.add(Text.of('• §bRight-click in main hand to release one trapped soul.').white())
             text.add(Text.of('• §2Sneak Right-click to view full mastery stats in chat.').gray())
             text.add(Text.of('• §dCapacity and capture chance grow with your mastery rank.').gray())

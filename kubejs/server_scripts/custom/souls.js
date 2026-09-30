@@ -3,8 +3,8 @@
 /**
  * SOUL CAPTURE & DISENCHANTMENT SCRIPT
  *
- * Capture souls from kills - hold the Soul Jar in your OFFHAND when you land
- * the killing blow on a listed entity, chance to store a soul in the jar.
+ * Capture souls from kills - have a Soul Jar anywhere in your inventory when
+ * you land the killing blow on a listed entity, chance to store a soul in it.
  *
  * Right-click the jar in your MAIN HAND to release one soul (ghost effect),
  * or sneak + right-click to check your jar/mastery stats.
@@ -29,12 +29,35 @@ const SOUL_CONFIG = {
     // Which entities drop souls and their BASE capture chance
     // (this gets multiplied by your mastery bonus below)
     sources: {
-        'minecraft:zombie':          1.0,
+        // --- common tier (~0.10) ---
+		'minecraft:zombie':          1.00,
         'minecraft:skeleton':        0.10,
-        'minecraft:wither_skeleton': 0.06,
-        'minecraft:evoker':          0.08,
-        'minecraft:warden':          0.15
-        // TODO: verify every entity ID in JEI before shipping, add more as needed
+        'minecraft:wither_skeleton': 0.15,
+        'minecraft:husk':                    0.10,
+        'minecraft:stray':                   0.10,
+        'creatures_of_petrichor:nameless':   0.10,
+        'dungeonsdelight:rotten_zombie':     0.10,
+        'undergarden:rotwalker':             0.10,
+
+        // --- mid tier (~0.08) ---
+        'minecraft:enderman':                 0.08,
+        'minecraft:ghast':                    0.08,
+        'creatures_of_petrichor:shade':       0.08,
+        'creatures_of_petrichor:haunt':       0.08,
+        'undergarden:forgotten':              0.08,
+        'graveyard:acolyte':                  0.08,
+        'graveyard:ghoul':                    0.08,
+        'graveyard:corrupted_pillager':       0.08,
+
+        // --- tougher tier (~0.06) ---
+        'graveyard:wraith':               0.06,
+        'graveyard:revenant':             0.06,
+        'graveyard:corrupted_vindicator': 0.06,
+
+        // --- rare tier (~0.15) ---
+        'graveyard:reaper':    0.15,
+        'graveyard:nightmare': 0.15
+
     },
 
     disenchantItems: {
@@ -43,14 +66,14 @@ const SOUL_CONFIG = {
             mode: 'random',      // strips 1..maxRandomStrip enchants
             maxRandomStrip: 2,
             consumesItem: false, // book survives, only souls are spent
-            failChance: 0.35    // 20% chance the whole ritual fizzles - nothing extracted, souls still spent
+            failChance: 0.35
         },
         'kubejs:book_of_disenchant_greater': {
             soulCost: 2,
             mode: 'guaranteed',  // strips exactly guaranteedCount (or fewer if item has less)
             guaranteedCount: 2,
             consumesItem: false,
-            failChance: 0.20     // pricier tier, more reliable - 10% fail chance
+            failChance: 0.20
         },
         'kubejs:tome_of_soul_unraveling': {
             soulCost: 4,
@@ -88,7 +111,7 @@ const SOUL_CONFIG = {
         baseChance: 0.05,
         chancePerCapture: 0.0001,
         maxChance: 0.25,
-        drops: ['minecraft:gold_nugget', 'minecraft:bone', 'minecraft:rotten_flesh', 'kubejs:gem_shard']
+        drops: ['apotheosis:common_material', 'minecraft:gold_nugget', 'minecraft:bone', 'kubejs:gem_shard', 'hmag:soul_powder', 'bloodmagic:reagentvoid', 'minecraft:ender_pearl']
     },
 
     // Dense Extraction: killing a listed entity has a chance to deposit a bonus batch of souls.
@@ -97,7 +120,7 @@ const SOUL_CONFIG = {
         baseChance: 0.20,
         chancePerCapture: 0.0003,
         maxChance: 0.60,
-        entities: ['minecraft:warden', 'minecraft:evoker'],
+        entities: ['minecraft:warden', 'minecraft:evoker', 'minecraft:wither', 'cataclysm:ignis', 'cataclysm:netherite_monstrosity', 'cataclysm:ender_guardian',  'cataclysm:the_harbinger', 'cataclysm:the_leviathan', 'cataclysm:ancient_remnant', 'cataclysm:maledictus', 'cataclysm:scylla', 'bosses_of_mass_destruction:lich', 'bosses_of_mass_destruction:obsidilith', 'bosses_of_mass_destruction:gauntlet', 'bosses_of_mass_destruction:void_blossom', 'graveyard:lich', 'ars_nouveau:wilden_boss'],
         minBonus: 3,
         maxBonus: 5
     },
@@ -108,7 +131,7 @@ const SOUL_CONFIG = {
         baseChance: 0.05,
         chancePerCapture: 0.0005,
         maxChance: 0.25,
-        rewards: ['apotheosis:epic_material', 'minecraft:nether_star', 'kubejs:gem_shard']
+        rewards: ['apotheosis:uncommon_material', 'apotheosis:rare_material', 'kubejs:gem_shard', 'kubejs:mage_bag', 'kubejs:gemcutters_pouch_greater']
     }
 }
 // ============================================================
@@ -283,18 +306,27 @@ PlayerEvents.loggedIn(event => {
 
 // ============================================================
 // --- 1. SOUL CAPTURE ---
-// Must be holding the Soul Jar in your OFFHAND when the kill lands.
+// Just needs a Soul Jar anywhere in your inventory when the kill lands.
 // ============================================================
 EntityEvents.death(event => {
     const { entity, source, level } = event // NOTE: verify EntityEvents.death exposes `level` - used by Ectoplasmic Tear below
     let killer = source.actual // matches the convention already used in example.js's guard AI hooks
     if (!killer || !killer.isPlayer()) return
 
-    let jar = killer.offHandItem
-    if (jar.id != 'kubejs:soul_jar') return // not holding the jar, nothing happens
-
     let baseChance = SOUL_CONFIG.sources[entity.type]
-    if (!baseChance) return // this entity doesn't drop souls
+    if (!baseChance) return // this entity doesn't drop souls - check before scanning the inventory
+
+    // Same 36-slot scan pattern the disenchant hook already uses to find a jar.
+    let jarSlot = -1
+    for (let i = 0; i < 36; i++) {
+        if (killer.inventory.getStackInSlot(i).id == 'kubejs:soul_jar') {
+            jarSlot = i
+            break
+        }
+    }
+    if (jarSlot == -1) return // no jar in inventory, nothing happens
+
+    let jar = killer.inventory.getStackInSlot(jarSlot)
 
     if (!killer.persistentData.totalSoulsCaptured) killer.persistentData.totalSoulsCaptured = 0
     let totalSouls = killer.persistentData.totalSoulsCaptured // single source of truth - same property every other hook reads
@@ -322,6 +354,7 @@ EntityEvents.death(event => {
     let newCount = Math.min(count + soulsRolled, capacity) // clamp to capacity, can't overfill
     let soulsGained = newCount - count
     setSoulCount(jar, newCount)
+    killer.inventory.setStackInSlot(jarSlot, jar) // commit back - reading via getStackInSlot needs an explicit write, unlike offHandItem before
 	
     let newTotal = totalSouls + soulsGained
     killer.persistentData.totalSoulsCaptured = newTotal
