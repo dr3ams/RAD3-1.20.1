@@ -540,6 +540,7 @@ ServerEvents.tags('item', event => {
 		.add('tomeofblood:living_mage_robes')
 
 	//i cannot get this to work as a datapack so this is the nuclear option
+	//note: get rid of this when the mod updates
 	event.get('curios:quiver')
 		.remove('skilltree:quiver')
 		.remove('skilltree:fiery_quiver')
@@ -625,4 +626,11 @@ ServerEvents.tags('block', event => {
 		.add('landsoficaria:medium_white_grain')
 		.add('landsoficaria:medium_yellow_grain')
 		.add('landsoficaria:large_brown_grain')
+
+	//this rather hacky solution prevents Stony Cliffs Are Cool from putting stone blocks on chalk cliffs
+	event.get('minecraft:base_stone_overworld')
+		.remove('regions_unexplored:chalk')
+		.remove('regions_unexplored:chalk_grass_block')
+	event.get('bookshelf:stones')
+		.add('regions_unexplored:chalk')
 })
