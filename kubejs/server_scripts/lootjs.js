@@ -72,7 +72,7 @@ LootJS.modifiers((event) => {
 		.replaceLoot("minecraft:iron_ingot", LootEntry.of("minecraft:iron_nugget").limitCount([1, 5]))
 		.replaceLoot("minecraft:diamond", "spelunkery:rough_diamond_shard")
 		.replaceLoot("hmag:diamond_fragment", "spelunkery:rough_diamond_shard")
-		.replaceLoot("minecraft:emerald", "spelunkery:emerald_shard")
+		.replaceLoot("minecraft:emerald_block", LootEntry.of("minecraft:emerald").limitCount([1, 5]))
 		.replaceLoot("hmag:emerald_fragment", "spelunkery:emerald_shard")
 		.replaceLoot("minecraft:diamond_pickaxe", "spelunkery:rough_diamond")
 		.replaceLoot("minecraft:diamond_sword", "spelunkery:rough_diamond")
@@ -97,6 +97,7 @@ LootJS.modifiers((event) => {
 		.replaceLoot("simplyswords:diamond_scythe", "spelunkery:rough_diamond")
 		.replaceLoot("simplyswords:diamond_halberd", "spelunkery:rough_diamond")
 		.replaceLoot("simplyswords:diamond_longsword", "spelunkery:rough_diamond")
+		.replaceLoot("minecraft:diamond_block", LootEntry.of("spelunkery:rough_diamond").limitCount([1, 5]))
 		.replaceLoot("supplementaries:rope", "farmersdelight:rope")
 		.replaceLoot("darkerdepths:rope", "farmersdelight:rope")
 		.replaceLoot("aether:enchanted_gravitite", "aether_redux:gravitite_ingot");
