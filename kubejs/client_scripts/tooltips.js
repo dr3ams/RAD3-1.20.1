@@ -1557,7 +1557,7 @@ ItemEvents.tooltip(event =>{
 	if (!event.isShift()) {	
       text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
 	  text.add(2, [Text.of('Type: ').white(),Text.of('Tools, Melee').darkGreen()])
-	  text.add(3, [Text.of('Info: ').white(),Text.of('Increase Mining Speed or Attack Speed by 15%').darkRed()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('Increase Mining Speed by 15% or Attack Speed by 10%').darkRed()])
 	} else {text.add(1, [
         Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
 	})
@@ -1566,7 +1566,7 @@ ItemEvents.tooltip(event =>{
 	if (!event.isShift()) {	
       text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
 	  text.add(2, [Text.of('Type: ').white(),Text.of('Tools, Melee').darkGreen()])
-	  text.add(3, [Text.of('Info: ').white(),Text.of('Increase Mining Speed or Attack Speed by 25%').darkRed()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('Increase Mining Speed Speed by 25%').darkRed()])
 	} else {text.add(1, [
         Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
 	})
@@ -1575,7 +1575,7 @@ ItemEvents.tooltip(event =>{
 	if (!event.isShift()) {	
       text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
 	  text.add(2, [Text.of('Type: ').white(),Text.of('Tools, Melee').darkGreen()])
-	  text.add(3, [Text.of('Info: ').white(),Text.of('Increase Mining Speed or Attack Speed by 35%').darkRed()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('Increase Mining Speed by 35%').darkRed()])
 	} else {text.add(1, [
         Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
 	})
@@ -1620,7 +1620,7 @@ ItemEvents.tooltip(event =>{
 	if (!event.isShift()) {	
       text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
 	  text.add(2, [Text.of('Type: ').white(),Text.of('Rings, Necklace, Belt, Charm, Bracelet').darkGreen()])
-	  text.add(3, [Text.of('Info: ').white(),Text.of('Increases Proficiency gain by 100%').darkRed()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('Not Implemented.').darkRed()])
 	} else {text.add(1, [
         Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
 	})
@@ -1629,7 +1629,7 @@ ItemEvents.tooltip(event =>{
 	if (!event.isShift()) {	
       text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
 	  text.add(2, [Text.of('Type: ').white(),Text.of('Chestplate').darkGreen()])
-	  text.add(3, [Text.of('Info: ').white(),Text.of('+400% Max Health, -100% Armor, -100% Armor Toughness').darkRed()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('+100% Max Health, -100% Armor, -100% Armor Toughness').darkRed()])
 	} else {text.add(1, [
         Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
 	})
@@ -1647,7 +1647,7 @@ ItemEvents.tooltip(event =>{
 	if (!event.isShift()) {	
       text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
 	  text.add(2, [Text.of('Type: ').white(),Text.of('Chestplate').darkGreen()])
-	  text.add(3, [Text.of('Info: ').white(),Text.of('-3 Max Hearts, +100% Armor, +100% Armor Toughness').darkRed()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('-50% Max Hearts, +50% Armor, +50% Armor Toughness').darkRed()])
 	} else {text.add(1, [
         Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
 	})
@@ -1656,7 +1656,7 @@ ItemEvents.tooltip(event =>{
 	if (!event.isShift()) {	
       text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
 	  text.add(2, [Text.of('Type: ').white(),Text.of('Bow').darkGreen()])
-	  text.add(3, [Text.of('Info: ').white(),Text.of('+30% Arrow DMG, +30% Arrow Speed, -25% Draw Speed, -20% Movement Speed').darkRed()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('+20% Arrow DMG, +20% Arrow Speed, -15% Draw Speed, -15% Movement Speed').darkRed()])
 	} else {text.add(1, [
         Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
 	})
@@ -1665,7 +1665,7 @@ ItemEvents.tooltip(event =>{
 	if (!event.isShift()) {	
       text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
 	  text.add(2, [Text.of('Type: ').white(),Text.of('Bow').darkGreen()])
-	  text.add(3, [Text.of('Info: ').white(),Text.of('+30% Draw Speed, -10% Movement Speed, -25% Arrow DMG, +20% Arrow Speed').darkRed()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('+15% Draw Speed, -10% Movement Speed, -15% Arrow DMG, +10% Arrow Speed').darkRed()])
 	} else {text.add(1, [
         Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
 	})	
@@ -1692,7 +1692,7 @@ ItemEvents.tooltip(event =>{
 	if (!event.isShift()) {	
       text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
 	  text.add(2, [Text.of('Type: ').white(),Text.of('Armor').darkGreen()])
-	  text.add(3, [Text.of('Info: ').white(),Text.of('+20% Lifesteal, -1 Max HP').darkRed()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('+1% Lifesteal, -15% Attack Speed').darkRed()])
 	} else {text.add(1, [
         Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
 	})	
@@ -1701,7 +1701,7 @@ ItemEvents.tooltip(event =>{
 	if (!event.isShift()) {	
       text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
 	  text.add(2, [Text.of('Type: ').white(),Text.of('Shield').darkGreen()])
-	  text.add(3, [Text.of('Info: ').white(),Text.of('+5 Attack Damage, +20% Attack Speed, +2 Attack Knockback, +10% Movement Speed').darkRed()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('+5 Attack Damage, +15% Attack Speed, +2 Attack Knockback, +10% Movement Speed').darkRed()])
 	} else {text.add(1, [
         Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
 	})		
