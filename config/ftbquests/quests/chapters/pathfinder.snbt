@@ -132,7 +132,7 @@
 		}
 		{
 			description: ["An ancient gateway to another realm, now lost to time."]
-			icon: "ars_nouveau:gilded_sourcestone_large_bricks"
+			icon: "minecraft:glowstone"
 			id: "3C6CA584F934B8B9"
 			rewards: [
 				{
@@ -147,19 +147,11 @@
 				}
 			]
 			subtitle: "Find Ruined Portal"
-			tasks: [
-				{
-					advancement: "ars_additions:find_ruined_portal"
-					criterion: ""
-					id: "1F0BFB0430425384"
-					type: "advancement"
-				}
-				{
-					id: "186F6FE0CC864FCF"
-					structure: "ars_additions:ruined_portal"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "186F6FE0CC864FCF"
+				structure: "aether:ruined_portal"
+				type: "structure"
+			}]
 			title: "Ruined Portal"
 			x: 8.5d
 			y: 5.0d
@@ -1747,14 +1739,8 @@
 			y: 0.5d
 		}
 		{
-			description: ["Towers like these once served as nodes for a worldwide magical network."]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "ars_nouveau:block/warp_portal"
-				}
-			}
+			description: [""]
+			icon: "minecraft:player_head"
 			id: "0536FA730C35CCA7"
 			rewards: [
 				{
@@ -1768,13 +1754,13 @@
 					xp: 200
 				}
 			]
-			subtitle: "A beacon of arcane energy."
+			subtitle: "A strange jungle mansion"
 			tasks: [{
 				id: "3AD248DFA5DDB118"
-				structure: "ars_additions:nexus_tower"
+				structure: "ati_structures:herobrine_stronghold"
 				type: "structure"
 			}]
-			title: "Nexus Tower"
+			title: "Herobrine?"
 			x: 0.5d
 			y: 8.5d
 		}
@@ -2207,6 +2193,7 @@
 			y: -2.0d
 		}
 		{
+			icon: "minecraft:polished_granite"
 			id: "2F3F87FC110D03D3"
 			rewards: [
 				{
@@ -2220,11 +2207,13 @@
 					xp: 200
 				}
 			]
+			subtitle: "A grand granite monument"
 			tasks: [{
-				biome: "regions_unexplored:bioshroom_caves"
-				id: "4F15845CD918433A"
-				type: "biome"
+				id: "34008BC17CEA389F"
+				structure: "ati_structures:catalonian_castle"
+				type: "structure"
 			}]
+			title: "Catalonian Castle"
 			x: 5.0d
 			y: -2.5d
 		}
@@ -2242,11 +2231,13 @@
 					xp: 200
 				}
 			]
+			subtitle: "Who lives here?"
 			tasks: [{
-				biome: "regions_unexplored:ancient_delta"
-				id: "62C8B7CD3E19A53B"
-				type: "biome"
+				id: "540CA3512756B722"
+				structure: "ati_structures:old_home"
+				type: "structure"
 			}]
+			title: "Old Home"
 			x: 7.0d
 			y: -2.0d
 		}
