@@ -1,0 +1,32 @@
+{
+    "target": "minecraft:rabbit",
+    "properties": [
+        {
+            "property": "presets",
+            "presets": [
+                {
+                    "preset": "rad3:rabbit_boss",
+                    "weight": 1
+                }
+            ],
+	    "conditions": [
+	        {
+	            "condition": "or",
+	            "conditions": [
+			{
+				"condition": "equipment",
+				"slot": "mainhand",
+				"items": "kubejs:boss_killer"
+			},
+		        {
+		            "condition": "tag",
+		            "tags": [ "boss"]
+		        }
+	            ]
+	        }
+	    ]
+        }
+    ],
+    "priority": 0,
+    "event_priority": "LOW"
+}

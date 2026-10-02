@@ -94,11 +94,11 @@
       ["minecraft:vindicator", 0, 0, 1, {"HandItems":[{"id":"minecraft:iron_axe","Count":1},{"id":"minecraft:iron_axe","Count":1}]}]
     ],
     [
-      ["minecraft:zombie", 0, 0, 0, {"IsBaby":1}],
-      ["minecraft:zombie", 1, 0, 0, {"IsBaby":1}],
-      ["minecraft:zombie", -1, 0, 0, {"IsBaby":1}],
-      ["minecraft:zombie", 0, 0, 1, {"IsBaby":1}],
-      ["minecraft:zombie", 0, 0, -1, {"IsBaby":1}]
+      ["dungeonsdelight:rotten_zombie", 0, 0, 0, {"IsBaby":1,"DeathLootTable":"minecraft:entities/zombie"}],
+      ["dungeonsdelight:rotten_zombie", 1, 0, 0, {"IsBaby":1,"DeathLootTable":"minecraft:entities/zombie"}],
+      ["dungeonsdelight:rotten_zombie", -1, 0, 0, {"IsBaby":1,"DeathLootTable":"minecraft:entities/zombie"}],
+      ["dungeonsdelight:rotten_zombie", 0, 0, 1, {"IsBaby":1,"DeathLootTable":"minecraft:entities/zombie"}],
+      ["dungeonsdelight:rotten_zombie", 0, 0, -1, {"IsBaby":1,"DeathLootTable":"minecraft:entities/zombie"}]
     ],
 	[
       ["cataclysm:koboleton", 1, 0, 0],

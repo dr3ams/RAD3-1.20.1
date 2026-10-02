@@ -109,19 +109,16 @@
 	  ["hmag:dogu", 0, 0, 0],
 	  ["minecraft:vex", 0, 1, 0],
 	  ["minecraft:vex", 0, 1, 1]
-    ]
-  ],
-  "boss": [
-    [
-      ["mowziesmobs:ferrous_wroughtnaut", 0, 0, 0],
-      ["takesapillage:legioner", 1, 0, 1, {"HandItems":[{"id":"kubejs:boss_killer","Count":1},{"id":"minecraft:shield","Count":1}]}]
     ],
     [
       ["cataclysm:deepling_brute", 0, 0, 0],
 	  ["cataclysm:deepling_priest", 1, 0, 1]
-    ],
-	[
-      ["hmag:crimson_slaughterer", 0, 0, 0]
+    ]
+  ],
+  "boss": [
+    [
+      ["minecraft:rabbit", 0, 0, 0, {"HandItems":[{"id":"kubejs:boss_killer","Count":1}]}],
+      ["takesapillage:legioner", 1, 0, 1, {"HandItems":[{"id":"kubejs:boss_killer","Count":1},{"id":"minecraft:shield","Count":1}]}]
     ],
 	[
       ["hmag:ogre", 0, 0, 0],

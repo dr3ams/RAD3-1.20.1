@@ -1,0 +1,264 @@
+{
+    "properties": [
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "minecraft:generic.max_health",
+	    "modifier_name": "Rabbit Boss Health",
+	    "amount": 67,
+	    "operation": "addition"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "minecraft:generic.movement_speed",
+	    "modifier_name": "Rabbit Boss go nyoom",
+	    "amount": 1.2,
+	    "operation": "multiply_base"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "attributeslib:dodge_chance",
+	    "modifier_name": "Rabbit Boss Dodge",
+	    "amount": 0.99,
+	    "operation": "addition"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "minecraft:generic.attack_damage",
+	    "modifier_name": "Rabbit Boss Attack",
+	    "amount": 0.5,
+	    "operation": "multiply_base"
+	},
+
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "minecraft:generic.follow_range",
+	    "modifier_name": "Rabbit Boss Chase",
+	    "amount": 1.0,
+	    "operation": "multiply_base"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "forge:swim_speed",
+	    "modifier_name": "Runic Boss Swim",
+	    "amount": 1.0,
+	    "operation": "multiply_base"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "reach-entity-attributes:attack_range",
+	    "modifier_name": "Runic Miniboss Reach",
+	    "amount": 0.5,
+	    "operation": "addition"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "attributeslib:current_hp_damage",
+	    "modifier_name": "Rabbit Boss Percent Damage",
+	    "amount": 0.25,
+	    "operation": "addition"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "attributeslib:armor_shred",
+	    "modifier_name": "Rabbit Boss Armor Shred",
+	    "amount": 0.5,
+	    "operation": "addition"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "attributeslib:prot_shred",
+	    "modifier_name": "Rabbit Boss Prot Shred",
+	    "amount": 0.5,
+	    "operation": "addition"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "minecraft:generic.knockback_resistance",
+	    "modifier_name": "Rabbit Boss Knockback Vulnerability",
+	    "amount": -2,
+	    "operation": "addition"
+	},
+        {
+	    "property": "attribute_modifier",
+	    "attribute": "forge:entity_gravity",
+	    "modifier_name": "Rabbit Boss Gravity",
+	    "amount": 0.5,
+	    "operation": "multiply_base"
+	},
+	{
+	   "property": "potion_effect",
+           "effect": "minecraft:jump_boost",
+           "amplifier": 1,
+           "hide_particles": true
+	},
+        {
+	    "property": "equipment",
+	    "slot": "offhand",
+	    "items": [
+	        {
+	            "item": "minecraft:ender_pearl",
+	            "functions": [
+	                {
+	                    "function": "set_drop_chance",
+	                    "drop_chance": 0
+	                }
+	            ]
+	        }
+	    ]
+        },
+	{
+            "property": "function",
+            "function": "rad3:rabbit_boss/spawn"
+	},
+	{
+	    "property": "raw_nbt",
+	    "nbt": "{RabbitType:99,AbsorptionAmount:1,PersistenceRequired:1b,Tags:[\"boss\"],DeathLootTable:\"rad3:entities/rabbit_boss\"}"
+	},
+	{
+	    "property": "custom_name",
+	    "overrides": "The Hare to Caerbannog's Throne"
+	},
+	{
+	    "property": "experience_multiplier",
+	    "multiplier": 20
+	},
+	{
+	    "property": "effect_immunity",
+	    "effects": ["minecraft:slowness","shield_overhaul:stun","cataclysm:stun","relics:stun","relics:paralysis","simplyswords:freeze","mowziesmobs:frozen","l2complements:frozen","l2complements:stone_cage"]
+	},
+	{
+            "property": "boss_bar",
+	    "color": "red",
+	    "type": "progress",
+	    "range": 48
+	},
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:jump/can_jump",
+            "value": 1
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:throwing_web/web_thrower",
+            "value": 1
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:throwing_web/place_web_on_block_hit",
+            "value": 0
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:throwing_web/place_web_on_entity_hit",
+            "value": 0
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:throwing_web/damage",
+            "value": 3
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:throwing_web/distance_min",
+            "value": 8
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:throwing_web/distance_max",
+            "value": 48
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:throwing_web/cooldown",
+            "value": 15
+        },
+        {
+            "property": "enhancedai:change_data",
+            "data": "enhancedai:pearler_mobs/inaccuracy",
+            "value": 3
+        },
+	{
+	    "property": "event",
+	    "event": "attack",
+	    "id": "rad3:rabbit_boss_attack",
+	    "target": "this",
+	    "apply_properties": [
+	        {
+	            "property": "function",
+	            "function": "rad3:rabbit_boss/panic"
+	        }
+	    ],
+	    "conditions": [
+	        {
+	            "condition": "chance",
+	            "chance": 0.25
+	        }
+	    ]
+	},
+	{
+	    "property": "event",
+	    "event": "damaged",
+	    "id": "rad3:explosion_vulnerability",
+	    "target": "this",
+	    "damage_type": "minecraft:explosion",
+	    "damage_modifier": 3.0,
+	    "damage_modifier_operation": "multiply",
+	    "apply_properties": [
+	        {
+	            "property": "potion_effect",
+	            "effect": "attributeslib:sundering",
+	            "duration": 5
+	        }
+	    ]
+	},
+	{
+	    "property": "event",
+	    "event": "death",
+	    "id": "rad3:rabbit_boss_death_prevention",
+	    "cancel_death": "true",
+	    "target": "this",
+	    "conditions": [
+	        {
+	            "condition": "health",
+		    "health": {
+		        "min": 0.9,
+		        "max": 1.0
+		    }
+	        }
+	    ],
+	    "apply_properties": [
+	        {
+		    "property": "play_sound",
+		    "sound": "enhancedai:wtf_boom_explode",
+		    "volume": 1.2,
+		    "pitch": 1.2
+	        },
+	        {
+		    "property": "attribute_modifier",
+		    "attribute": "minecraft:generic.max_health",
+		    "modifier_name": "Rabbit Boss Overkill Health Compensation",
+		    "amount": 1.0,
+		    "operation": "multiply_base"
+		},
+	        {
+		    "property": "attribute_modifier",
+		    "attribute": "attributeslib:crit_chance",
+		    "modifier_name": "Rabbit Boss Overkill Crit Chance Compensation",
+		    "amount": 0.05,
+		    "operation": "addition"
+		},
+	        {
+		    "property": "attribute_modifier",
+		    "attribute": "attributeslib:crit_damage",
+		    "modifier_name": "Rabbot Boss Overkill Crit Damage Compensation",
+		    "amount": 0.5,
+		    "operation": "addition"
+		},
+	        {
+	            "property": "heal",
+	            "amount": 5000
+	        }
+	    ]
+	}
+    ]
+}
