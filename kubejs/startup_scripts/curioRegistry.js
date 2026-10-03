@@ -79,6 +79,31 @@ ItemEvents.modification(event => {
 }) */
 
 
+ItemEvents.modification(event => {
+    event.modify('cataclysm:ring_of_grudged', item => {
+        item.attachCuriosCapability(
+            CuriosJSCapabilityBuilder.create()
+                .addAttribute(
+                    "attributeslib:crit_damage",
+                    "identifier",
+                    0.1,
+                    'addition'
+                )
+        )
+    })
+    event.modify('cataclysm:vitality_ankh', item => {
+        item.attachCuriosCapability(
+            CuriosJSCapabilityBuilder.create()
+                .addAttribute(
+                    "attributeslib:healing_received",
+                    "identifier",
+                    0.2,
+                    'addition'
+                )
+        )
+    })
+})
+
 
 StartupEvents.registry('item', event => {
     event.create('vanilla_focus')
@@ -286,8 +311,6 @@ StartupEvents.registry('item', event => {
                     'addition'
                 )
         )
-
-
 	
 ///END
 })
