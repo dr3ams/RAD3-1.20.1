@@ -1566,7 +1566,7 @@ ItemEvents.tooltip(event =>{
 	if (!event.isShift()) {	
       text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
 	  text.add(2, [Text.of('Type: ').white(),Text.of('Tools, Melee').darkGreen()])
-	  text.add(3, [Text.of('Info: ').white(),Text.of('Increase Mining Speed Speed by 25%').darkRed()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('Increase Mining Speed by 25%').darkRed()])
 	} else {text.add(1, [
         Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
 	})
