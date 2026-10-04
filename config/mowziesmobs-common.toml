@@ -2,14 +2,14 @@
 [tools_and_abilities]
 	#Cost in minutes of using the supernova ability.
 	#Range: > 0
-	supernova_cost = 60
+	supernova_cost = 20
 
 	[tools_and_abilities.suns_blessing]
 		#Duration in minutes of the Sun's Blessing effect.
 		#Range: > 0
 		suns_blessing_duration = 180
 		#Range: 0.0 ~ 1.7976931348623157E308
-		suns_blessing_attack_multiplier = 6.0
+		suns_blessing_attack_multiplier = 8.0
 		#Cost in minutes of using the solar beam ability.
 		#Range: > 0
 		solar_beam_cost = 1
@@ -116,31 +116,31 @@
 		[tools_and_abilities.geomancerArmor.armor_config]
 			#Multiply armor damage reduction by this amount. See official Minecraft Wiki for an explanation of how armor damage reduction works.
 			#Range: 0.0 ~ 1.7976931348623157E308
-			damage_reduction_multiplier = 1.0
+			damage_reduction_multiplier = 1.25
 			#Multiply armor toughness by this amount. See official Minecraft Wiki for an explanation of how armor toughness works.
 			#Range: 0.0 ~ 1.7976931348623157E308
-			toughness_multiplier = 1.0
+			toughness_multiplier = 2.0
 
 	[tools_and_abilities.earthrend_gauntlet]
 		#Multiply all damage done with the Earthrend Gauntlet by this amount.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		attack_multiplier = 2.0
+		attack_multiplier = 3.0
 		#Set to true for the Earthrend Gauntlet to have limited durability.
 		#Prevents regeneration in inventory.
 		breakable = false
 		#Earthrend Gauntlet durability
 		#Range: > 1
-		durability = 600
+		durability = 750
 		#Set to false to disable the Earthrend Gauntlet's tunneling ability.
 		enable_tunneling = true
 
 		[tools_and_abilities.earthrend_gauntlet.tool_config]
 			#Tool attack damage
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_damage = 9.0
+			attack_damage = 10.0
 			#Tool attack speed
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_speed = 1.2000000476837158
+			attack_speed = 1.5
 
 	[tools_and_abilities.sculptor_staff]
 		#Multiply all damage done with the Sculptor Staff by this amount.
@@ -164,7 +164,7 @@
 		cooldown = 1800
 		#How many times players can use an Elokosa Paw before it breaks
 		#Range: > 1
-		number_of_uses = 3
+		number_of_uses = 5
 
 [mobs]
 
@@ -217,10 +217,10 @@
 		[mobs.frostmaw.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 1.0
+			health_multiplier = 1.1
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 1.0
+			attack_multiplier = 1.1
 
 	[mobs.umvuthi]
 		#Disable/enable Umvuthi's boss health bar
@@ -236,7 +236,7 @@
 		reset_health_when_respawn = true
 		#Umvuthi will summon healers whenever he loses this much total health.
 		#Range: > 0
-		spawn_healers_threshold = 45
+		spawn_healers_threshold = 50
 
 		#Generation controls for Umvuthana Groves
 		[mobs.umvuthi.biome_config]
@@ -278,10 +278,10 @@
 		[mobs.umvuthi.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 1.0
+			health_multiplier = 1.1
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 1.0
+			attack_multiplier = 1.1
 
 	[mobs.ferrous_wroughtnaut]
 		#Disable/enable Ferrous Wroughtnaut's boss health bar
@@ -333,7 +333,7 @@
 			health_multiplier = 1.0
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 1.0
+			attack_multiplier = 1.1
 
 	[mobs.sculptor]
 		#Disable/enable the Sculptor healing while not in combat
@@ -393,7 +393,7 @@
 		[mobs.sculptor.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 1.0
+			health_multiplier = 2.0
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_multiplier = 2.0
