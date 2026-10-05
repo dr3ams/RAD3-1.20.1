@@ -23,6 +23,15 @@ ItemEvents.modification(event => {
   event.modify('minecraft:enchanted_golden_apple', item => {
     item.maxStackSize = 1
   })
+  event.modify('minecraft:potion', item => {
+    item.maxStackSize = 3
+  })
+  event.modify('minecraft:splash_potion', item => {
+    item.maxStackSize = 3
+  })
+  event.modify('minecraft:lingering_potion', item => {
+    item.maxStackSize = 3
+  })
   
  ////////////END 
 })
