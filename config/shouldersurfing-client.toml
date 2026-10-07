@@ -21,6 +21,8 @@
 	#The delay in ticks after which the camera will turn with the player.
 	#Range: > 1
 	turn_with_player_delay = 40
+	#The list of blocks that do not collide with the camera. Must be transparent blocks or blocks that do not take up a full block. This config option supports regular expressions. Example: 'minecraft:.*leaves' matches 'minecraft:oak_leaves' and 'minecraft:spruce_leaves'.
+	non_collidable_blocks = []
 
 	[camera.offset]
 		#Third person camera x-offset.
@@ -37,6 +39,8 @@
 		#Size of the offset adjustment per step.
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 		step_size = 0.025
+		#Whether to ignore block pillars, such as tree trunks, when calculating camera offsets. This improves overall immersion at the cost of block targeting accessibility.
+		ignore_block_pillars = false
 
 		[camera.offset.min]
 			#When x-offset is limited this is the minimum amount.
@@ -237,6 +241,30 @@
 	#Whether the third person back perspective is enabled.
 	third_person_back_enabled = true
 
+	[perspective.temporary_first_person_in_constrained_spaces]
+		#Whether to switch to first person temporarily when space constrained.
+		enabled = false
+		#The minium time in ticks the temporary first will be active when entering a constrained space.
+		#Range: > 0
+		minimum_time = 60
+		#The additional time in ticks the perspective will stay in temporary first person after leaving a constrained space.
+		#Range: > 0
+		additional_time = 20
+		#The time in ticks the temporary first will be on cooldown before it can be entered again.
+		#Range: > 0
+		cooldown_time = 60
+
+		[perspective.temporary_first_person_in_constrained_spaces.offset_threshold]
+			#The x-axis camera offset threshold. When the x-axis camera offset falls below the configured threshold, the perspective will switch to temporary first person.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			offset_x = 0.1
+			#The y-axis camera offset threshold. When the y-axis camera offset falls below the configured threshold, the perspective will switch to temporary first person.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			offset_y = 0.0
+			#The z-axis camera offset threshold. When the z-axis camera offset falls below the configured threshold, the perspective will switch to temporary first person.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			offset_z = 0.1
+
 [crosshair]
 	#Crosshair type to use for shoulder surfing.
 	#Allowed Values: ADAPTIVE, DYNAMIC, STATIC, STATIC_WITH_1PP, DYNAMIC_WITH_1PP
@@ -307,6 +335,8 @@
 		#The maximum angle to turn the player y-rot with the camera. This config option only applies when 'Turn player y-rot with camera' is enabled.
 		#Range: 0.0 ~ 180.0
 		turn_player_y_rot_angle_limit = 90.0
+		#Whether the x-rot of the player turns such that it is always facing the camera. This config option only applies when camera is decoupled and player x-rot turning with camera is enabled.
+		turn_player_x_rot_to_camera = false
 
 	[player.transparency]
 		#Whether to adjust the player model transparency when view is obstructed. Changing this value may require a game restart to take full effect.
@@ -322,6 +352,8 @@
 	custom_raytrace_distance = 400.0
 	#Whether to use the custom raytrace distance used for the dynamic crosshair.
 	use_custom_raytrace_distance = true
+	#The list of invisible entities to ignore while picking. This config option supports regular expressions. Example: 'minecraft:oak_.*' matches 'minecraft:oak_boat' and 'minecraft:oak_chest_boat'.
+	unpickable_invisible_entities = ["minecraft:armor_stand", "minecraft:block_display", "minecraft:item_display", "minecraft:text_display"]
 
 	[object_picker.pick_origin]
 		#The origin where the entity pick starts when using the static crosshair.

@@ -1,7 +1,7 @@
 {
   "maxRenderDistance": {
     "desc:": "Maximum allowed render distance, requires enableChunkManager enabled. default 64",
-    "maxRenderDistance": 128
+    "maxRenderDistance": 256
   },
   "enableChunkManager": {
     "desc:": "Enables a custom chunk manager, allowing to set higher view distances than 32 and smoothing out chunk loading from the server through caching. Can be disabled for compatibility issues, default true. (false) = vanilla",

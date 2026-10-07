@@ -52,3 +52,24 @@ ServerEvents.commandRegistry(event => {
             )
     )
 })
+
+// Admin utility to force a re-roll of the second attribute - useful if the pool
+// ever changes (like dropping Luck during balance testing) and a player's existing
+// pick would otherwise be locked in forever.
+ServerEvents.commandRegistry(event => {
+    const { commands: Commands } = event
+    event.register(
+        Commands.literal('soulattrreroll')
+            .requires(src => src.hasPermission(2))
+            .executes(ctx => {
+                let player = ctx.source.player
+                player.removeAttribute(player.persistentData.soulSecondAttribute, ATTR_CONFIG.secondAttribute.modifierId)
+                player.persistentData.soulSecondAttribute = null
+                player.persistentData.soulAttrSecondApplied = 0
+                updateSoulAttributes(player)
+                syncAttrStats(player)
+                player.tell(Text.of(`§d✦ Re-rolled: §f${formatId(player.persistentData.soulSecondAttribute)}`))
+                return 1
+            })
+    )
+})

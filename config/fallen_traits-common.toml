@@ -1,0 +1,380 @@
+
+[traits]
+
+	[traits.rage_trait]
+		#extra damage per hit, per trait level (0.1 = +10% per level)
+		#Range: 0.0 ~ 10.0
+		rageDamageIncreasePerHitPerLevel = 0.1
+		#damage cap, per trait level (1.0 = up to +100% per level)
+		#Range: 0.0 ~ 100.0
+		rageMaxBonusPerLevel = 1.0
+
+	[traits.mimic_trait]
+		#only players within this many blocks of the mob are considered for copying, keeps the search cheap
+		#Range: 1 ~ 256
+		mimicSearchRadius = 32
+		#also copy the offhand item, not just armor and main hand
+		mimicCopyOffhand = true
+
+	[traits.clone_trait]
+		#max number of clones a single mob can have alive at once
+		#Range: 0 ~ 16
+		cloneMaxAlive = 2
+		#minimum ticks between spawning new clones, only while the mob has a target
+		#Range: 1 ~ 72000
+		cloneSpawnIntervalTicks = 50
+		#flat max health for clones, low so any hit kills them regardless of the original's health/traits
+		#Range: 1.0 ~ 1000.0
+		cloneHealth = 1.0
+		#max damage dealt to entities at the center of a clone's death explosion, falls off linearly to 0 at the radius edge
+		#Range: 0.0 ~ 1000.0
+		cloneExplosionDamage = 6.0
+		#radius in blocks of the clone's death explosion, does not break blocks
+		#Range: 0.5 ~ 32.0
+		cloneExplosionRadius = 3.0
+		#clones get a cyan glowing outline so they're distinguishable from the real mob
+		cloneGlowEnabled = true
+		#clones are force-removed after this many ticks even if not killed, 0 disables this and relies on normal despawn rules
+		#Range: 0 ~ 72000
+		cloneLifetimeTicks = 1200
+
+	[traits.cleanse_trait]
+		#seconds between cleanses at trait level 1
+		#Range: 1 ~ 3600
+		cleanseIntervalBase = 15
+		#seconds the interval shrinks by per additional trait level
+		#Range: 0 ~ 3600
+		cleanseIntervalStep = 5
+		#lowest possible interval regardless of trait level
+		#Range: 1 ~ 3600
+		cleanseIntervalMin = 5
+
+	[traits.daywalker_trait]
+		#attack damage multiplier per level while it is day (0.1 = +10%)
+		#Range: 0.0 ~ 10.0
+		daywalkerDamageBonusPerLevel = 0.1
+		#movement speed multiplier per level while it is day (0.1 = +10%)
+		#Range: 0.0 ~ 10.0
+		daywalkerSpeedBonusPerLevel = 0.05
+
+	[traits.nightcrawler_trait]
+		#attack damage multiplier per level while it is night (0.1 = +10%)
+		#Range: 0.0 ~ 10.0
+		nightcrawlerDamageBonusPerLevel = 0.1
+		#movement speed multiplier per level while it is night (0.1 = +10%)
+		#Range: 0.0 ~ 10.0
+		nightcrawlerSpeedBonusPerLevel = 0.05
+
+		[traits.nightcrawler_trait.berserk_trait]
+			#extra cooldown ticks burned per game tick, per trait level, for Cataclysm boss cooldowns
+			#Range: 0 ~ 10000
+			berserkCataclysmDecrementPerLevel = 60
+			#attack actions cooldown reduction factor, per trait level, for ISS boss cooldowns
+			#Range: 0.0 ~ 1.0
+			berserkISSFactorPerLevel = 0.2
+
+			[traits.nightcrawler_trait.berserk_trait.infernal_trait]
+				#distance (blocks) the player must exceed to start charging enrage at level 1, reduced per level by infernalTriggerDistancePerLevel
+				#Range: 1 ~ 512
+				infernalTriggerDistanceBase = 60
+				#blocks subtracted from the trigger distance per trait level
+				#Range: 0 ~ 256
+				infernalTriggerDistancePerLevel = 10
+				#base ticks the player must stay past the trigger distance before enrage starts
+				#Range: 1 ~ 72000
+				infernalTriggerDurationBaseTicks = 20
+				#extra ticks required per trait level on top of the base duration
+				#Range: 0 ~ 72000
+				infernalTriggerDurationPerLevelTicks = 0
+				#how long enrage lasts once triggered, regardless of trait level
+				#Range: 20 ~ 72000
+				infernalEnrageDurationTicks = 300
+				#cooldown at level 1 after enrage ends before it can trigger again
+				#Range: 0 ~ 72000
+				infernalCooldownBaseTicks = 200
+				#ticks subtracted from the cooldown per trait level above 1
+				#Range: 0 ~ 72000
+				infernalCooldownPerLevelTicks = 50
+				#bonus damage dealt while enraged, per trait level (1.0 = +100% per level)
+				#Range: 0.0 ~ 10.0
+				infernalDamageBonusPerLevel = 1.0
+				#bonus movement speed while enraged, per trait level (1.0 = +100% per level)
+				#Range: 0.0 ~ 10.0
+				infernalSpeedBonusPerLevel = 1.0
+				#ticks between forward lunges toward the target while enraged
+				#Range: 1 ~ 72000
+				infernalLungeIntervalTicks = 60
+				#horizontal velocity impulse applied on each lunge
+				#Range: 0.0 ~ 20.0
+				infernalLungeStrength = 1.5
+				#radius in blocks in which players see the enrage actionbar warning
+				#Range: 1 ~ 512
+				infernalActionbarRadius = 128
+
+			[traits.nightcrawler_trait.berserk_trait.devourer_trait]
+				#percent of a nearby player's current HP drained per interval, per trait level (0.1 = 10% per level)
+				#Range: 0.0 ~ 1.0
+				devourerDrainPercentPerLevel = 0.1
+				#blocks of range for both HP draining and healing theft, per trait level
+				#Range: 1 ~ 128
+				devourerRadiusPerLevel = 10
+
+			[traits.nightcrawler_trait.berserk_trait.shredder_trait]
+				#percent of a nearby player's current armor stolen, per trait level (0.1 = 10% per level)
+				#Range: 0.0 ~ 1.0
+				shredderPercentPerLevel = 0.1
+
+			[traits.nightcrawler_trait.berserk_trait.titan_trait]
+				#size increase at trait level 1 (0.5 = +50%)
+				#Range: 0.0 ~ 10.0
+				titanSizeBase = 0.5
+				#additional size increase per level above 1
+				#Range: 0.0 ~ 10.0
+				titanSizeStep = 0.25
+				#max health increase at trait level 1 (1.0 = +100%)
+				#Range: 0.0 ~ 20.0
+				titanHealthBase = 1.0
+				#additional max health increase per level above 1
+				#Range: 0.0 ~ 20.0
+				titanHealthStep = 0.5
+				#knockback resistance at trait level 1 (0.5 = 50%, vanilla caps total at 100%)
+				#Range: 0.0 ~ 1.0
+				titanKnockbackBase = 0.5
+				#additional knockback resistance per level above 1
+				#Range: 0.0 ~ 1.0
+				titanKnockbackStep = 0.25
+
+			[traits.nightcrawler_trait.berserk_trait.dwarf_trait]
+				#size decrease at trait level 1 (0.15 = -15%)
+				#Range: 0.0 ~ 0.9
+				dwarfSizeBase = 0.15
+				#additional size decrease per level above 1
+				#Range: 0.0 ~ 0.9
+				dwarfSizeStep = 0.15
+				#movement speed increase at trait level 1 (0.5 = +50%)
+				#Range: 0.0 ~ 5.0
+				dwarfSpeedBase = 0.5
+				#additional movement speed increase per level above 1
+				#Range: 0.0 ~ 5.0
+				dwarfSpeedStep = 0.5
+				#dodge chance at trait level 1 (0.1 = 10%)
+				#Range: 0.0 ~ 1.0
+				dwarfDodgeBase = 0.1
+				#additional dodge chance per level above 1
+				#Range: 0.0 ~ 1.0
+				dwarfDodgeStep = 0.1
+
+		[traits.nightcrawler_trait.items]
+
+			[traits.nightcrawler_trait.items.rage_glove]
+				#extra damage per hit while stacking
+				#Range: 0.0 ~ 10.0
+				furyDamageIncreasePerHit = 0.25
+				#damage multiplier cap, 5.0 = 5x damage
+				#Range: 1.0 ~ 100.0
+				furyMaxDamageMultiplier = 5.0
+				#stacks reset if no hit lands within this many ticks
+				#Range: 1 ~ 72000
+				furyStackTimeoutTicks = 200
+				#extra mob difficulty while worn
+				#Range: 0 ~ 10000
+				furyExtraDifficulty = 50
+				#bonus chance for spawned mobs to roll a legendary trait
+				#Range: 0.0 ~ 1.0
+				furyLegendaryChanceBonus = 0.02
+
+			[traits.nightcrawler_trait.items.invulnerability_breaker]
+				#ticks shaved off the hit target's post-hit invulnerability window per hit
+				#Range: 0 ~ 20
+				invulnBreakerTargetInvulnReductionTicks = 5
+				#extra ticks added to the wearer's own post-hit invulnerability window when hurt
+				#Range: 0 ~ 20
+				invulnBreakerWearerInvulnBonusTicks = 5
+				#extra mob difficulty while worn
+				#Range: 0 ~ 10000
+				invulnBreakerExtraDifficulty = 100
+
+			[traits.nightcrawler_trait.items.mimic_equipment]
+				#drop chance for equipment copied by Mimic when the mob dies normally, 0 means it never drops
+				#Range: 0.0 ~ 1.0
+				mimicEquipmentDropChance = 0.0
+				#if false (default), Curse of Lust will not force Mimic-copied equipment to drop,
+				#preventing players from easily duping their own gear by killing a Mimic wearing it
+				allowLustToDropMimicEquipment = false
+
+			[traits.nightcrawler_trait.items.fury_of_infernal]
+				#extra mob difficulty while worn
+				#Range: 0 ~ 100000
+				furyInfernalExtraLevel = 500
+				#damage bonus per non-legendary trait level on the attacked mob (0.03 = +3% per level)
+				#Range: 0.0 ~ 10.0
+				furyInfernalDamagePerTraitLevel = 0.03
+				#crit damage attribute bonus per legendary trait level on the current tracked target (0.05 = +5%)
+				#Range: 0.0 ~ 10.0
+				furyInfernalCritDamagePerLegendaryLevel = 0.05
+				#minimum trait count on the tracked target to gain the attack speed bonus
+				#Range: 1 ~ 100
+				furyInfernalAttackSpeedTraitThreshold = 10
+				#base attack speed bonus once the threshold is met
+				#Range: 0.0 ~ 10.0
+				furyInfernalAttackSpeedBase = 0.25
+				#extra attack speed bonus per block of distance to the tracked target
+				#Range: 0.0 ~ 10.0
+				furyInfernalAttackSpeedPerBlock = 0.05
+				#minimum trait count on the tracked target to gain the movement speed bonus
+				#Range: 1 ~ 100
+				furyInfernalMoveSpeedTraitThreshold = 20
+				#base movement speed bonus once the threshold is met
+				#Range: 0.0 ~ 10.0
+				furyInfernalMoveSpeedBase = 0.25
+				#extra movement speed bonus per block of distance to the tracked target
+				#Range: 0.0 ~ 10.0
+				furyInfernalMoveSpeedPerBlock = 0.05
+				#distance is capped at this many blocks for the attack/movement speed bonuses
+				#Range: 1 ~ 10000
+				furyInfernalMaxBonusBlocks = 50
+				#tracked target is forgotten if no hit lands within this many ticks
+				#Range: 1 ~ 72000
+				furyInfernalTargetTimeoutTicks = 200
+
+			[traits.nightcrawler_trait.items.titans_heart]
+				#extra mob difficulty while worn
+				#Range: 0 ~ 100000
+				titansHeartExtraDifficulty = 300
+				#static size increase while worn (0.5 = +50%)
+				#Range: 0.0 ~ 100.0
+				titansHeartSize = 0.5
+				#static max health multiplier while worn (0.5 = +50%)
+				#Range: 0.0 ~ 100.0
+				titansHeartHealth = 0.5
+				#static armor multiplier while worn (0.5 = +50%)
+				#Range: 0.0 ~ 100.0
+				titansHeartArmor = 0.5
+				#bonus chance for spawned mobs to roll a legendary trait while worn
+				#Range: 0.0 ~ 1.0
+				titansHeartLegendaryChanceBonus = 0.5
+
+			[traits.nightcrawler_trait.items.law_of_scale]
+				#extra mob difficulty while worn
+				#Range: 0 ~ 100000
+				lawOfScaleExtraDifficulty = 500
+				#extra random traits mobs can spawn with while this curse is worn
+				#Range: 0 ~ 100
+				lawOfScaleExtraTraitCount = 5
+				#max bonus damage dealt to a larger enemy, as a percent of its current health (0.2 = 20%)
+				#Range: 0.0 ~ 1.0
+				lawOfScaleMaxDamagePercent = 0.2
+				#bonus damage percent gained per full size ratio the enemy is larger than you
+				#Range: 0.0 ~ 10.0
+				lawOfScaleDamagePercentPerSizeRatio = 0.2
+				#base knockback strength applied to smaller enemies
+				#Range: 0.0 ~ 10.0
+				lawOfScaleKnockbackBase = 0.3
+				#extra knockback strength per full size ratio you are larger than the enemy
+				#Range: 0.0 ~ 10.0
+				lawOfScaleKnockbackPerSizeRatio = 0.3
+				#maximum knockback strength regardless of size advantage
+				#Range: 0.0 ~ 20.0
+				lawOfScaleKnockbackMax = 2.0
+				#attack speed multiplier gained for every 50% smaller you are than your current target (0.1 = +10%)
+				#Range: 0.0 ~ 10.0
+				lawOfScaleAttackSpeedPer50PercentSmaller = 0.1
+				#attack damage multiplier gained for every 50% larger you are than your current target (0.1 = +10%)
+				#Range: 0.0 ~ 10.0
+				lawOfScaleAttackDamagePer50PercentLarger = 0.1
+				#tracked target is forgotten if no hit lands within this many ticks
+				#Range: 1 ~ 72000
+				lawOfScaleTargetTimeoutTicks = 200
+
+			[traits.nightcrawler_trait.items.feyweight]
+				#size reduction while worn (0.5 = -50%)
+				#Range: 0.0 ~ 0.99
+				feyweightSizeReduction = 0.5
+				#movement speed multiplier while worn (1.0 = +100%)
+				#Range: 0.0 ~ 100.0
+				feyweightMovementSpeed = 1.0
+				#attack speed multiplier while worn (0.5 = +50%)
+				#Range: 0.0 ~ 100.0
+				feyweightAttackSpeed = 0.5
+				#additive dodge chance while worn (0.1 = +10%)
+				#Range: 0.0 ~ 1.0
+				feyweightDodgeChance = 0.1
+				#extra damage received from any larger living attacker (0.2 = +20%)
+				#Range: 0.0 ~ 100.0
+				feyweightLargerEnemyDamage = 0.2
+
+			[traits.nightcrawler_trait.items.hand_of_creation]
+				#extra damage per hit while stacking, based on total damage rather than base damage
+				#Range: 0.0 ~ 10.0
+				handOfCreationDamageIncreasePerHit = 0.25
+				#damage multiplier cap, 5.0 = 5x damage
+				#Range: 1.0 ~ 100.0
+				handOfCreationMaxDamageMultiplier = 5.0
+				#stacks reset if no hit lands within this many ticks
+				#Range: 1 ~ 72000
+				handOfCreationStackTimeoutTicks = 200
+				#extra ticks added to the wearer's own post-hit invulnerability window when hurt
+				#Range: 0 ~ 20
+				handOfCreationWearerInvulnBonusTicks = 5
+				#duration in ticks of Soul Flame inflicted on hit
+				#Range: 1 ~ 10000
+				handOfCreationFlameDurationTicks = 100
+				#ticks after hitting a target that its harmful effects tick every game tick instead of their normal interval, while you wear Hand of Creation
+				#Range: 1 ~ 72000
+				handOfCreationDotOwnerWindowTicks = 20
+
+			[traits.nightcrawler_trait.items.wrath_of_fenrir]
+				#bonus damage per difficulty level difference (0.05 = 5%)
+				#Range: 0.0 ~ 10.0
+				wrathOfFenrirDamagePerLevelDiff = 0.05
+				#extra mob difficulty while worn
+				#Range: 0 ~ 100000
+				wrathOfFenrirExtraDifficulty = 400
+				#minimum traits disabled per hit
+				#Range: 1 ~ 10
+				wrathOfFenrirMinTraitsDisabled = 1
+				#maximum traits disabled per hit
+				#Range: 1 ~ 10
+				wrathOfFenrirMaxTraitsDisabled = 3
+				#duration in ticks traits stay disabled
+				#Range: 1 ~ 72000
+				wrathOfFenrirTraitDisableDuration = 60
+				#spawn rate multiplier (1.0 = +100%)
+				#Range: 0.0 ~ 100.0
+				wrathOfFenrirSpawnRateMultiplier = 1.0
+
+			[traits.nightcrawler_trait.items.universal_point_of_discontinuity]
+				#Range in blocks for Repelling mode
+				#Range: 1 ~ 64
+				updRepellingRange = 8
+				#Push strength for Repelling mode
+				#Range: 0.0 ~ 10.0
+				updRepellingStrength = 0.3
+				#Range in blocks for Asymptote mode
+				#Range: 1 ~ 64
+				updAsymptoteRange = 16
+				#Slow strength for Asymptote mode (1.0 = full stop at center)
+				#Range: 0.0 ~ 1.0
+				updAsymptoteSlowStrength = 0.9
+				#Range in blocks for Pulling mode
+				#Range: 1 ~ 64
+				updPullingRange = 8
+				#Pull strength for Pulling mode
+				#Range: 0.0 ~ 10.0
+				updPullingStrength = 0.15
+
+			[traits.nightcrawler_trait.items.yggdrasil_root]
+				#Maximum number of sealed items that can be unsealed simultaneously
+				#Range: 1 ~ 20
+				yggdrasilRootMaxUnsealSlots = 3
+				#Speed multiplier for unsealing (2.0 = 2x faster)
+				#Range: 1.0 ~ 10.0
+				yggdrasilRootUnsealSpeedMultiplier = 2.0
+
+			[traits.nightcrawler_trait.items.enchants]
+
+				[traits.nightcrawler_trait.items.enchants.incarcerating_blade]
+					#Base duration for Incarcerating Blade enchant
+					#Range: 1 ~ 10000
+					incarceratingEnchantDuration = 60
+

@@ -1,67 +1,124 @@
 {
   "dragonDifficulty": {
-    "desc:": "Sets the dragon difficulty modifier, the higher the more difficult the dragon gets.Scales up mob spawn amount, dragon damage and health aswell as crystal respawn intervals. Note that the difficulty already scales on the playercount involved in the fight, this is a static bonus ontop.default:2, vanilla:0",
+    // Sets the dragon difficulty modifier, the higher the more difficult the dragon gets.
+    // Scales up mob spawn amount, dragon damage and health aswell as crystal respawn intervals.
+    // Note that the difficulty already scales on the playercount involved in the fight,
+    // this is a static bonus ontop.
+    // Default:2, vanilla:0
     "dragonDifficulty": 3
   },
+
   "crystalRespawnTimeModifier": {
-    "desc:": "Modifies crystal respawn time, 0.5 = spawns twice as fast, 2 = twice as slow. default:1.0",
+    // Modifies crystal respawn time, 0.5 = spawns twice as fast, 2 = twice as slow. 
+    // Default:1.0
     "crystalRespawnTimeModifier": 2.0
   },
+
+  "doEndCrystalRespawn": {
+    // Set whether end crystals respawn at all. 
+    // Default:true
+    "doEndCrystalRespawn": true
+  },
+
+  "crystalMeleeKillDamage": {
+    // Set the current health percent the dragon looses when an end crystal is killed by a player in close quarters.
+    // Default:10, 0 to disable, 100 to instant kill the dragon
+    "crystalMeleeKillDamage": 10.0
+  },
+
+  "crystalPotionOnDeath": {
+    // Enables end crystals to spawn a lingering harmful potion effect around them on death.
+    // Duration scales with difficulty and crystal respawn modifier. 
+    // Default:true
+    "crystalPotionOnDeath": true
+  },
+
   "lightningExplosionDensity": {
-    "desc:": "Modifies lightning and explosion density, 0.5 = half as many, 2 = twice as many. default:1.0",
+    // Modifies lightning and explosion density, 0.5 = half as many, 2 = twice as many. 
+    // Default:1.0
     "lightningExplosionDensity": 2.0
   },
+
   "disableLightning": {
-    "desc:": "Disables lightning spawns: default:false",
+    // Disables lightning spawns: 
+    // Default:false
     "disableLightning": false
   },
+
   "antiflightAbility": {
-    "desc:": "Enables anti-flight ability: default:true",
+    // Enables anti-flight ability: 
+    // Default:true
     "antiflightAbility": false
   },
+
   "explosionImmunity": {
-    "desc:": "Enables explosion damage immunity for the dragon, note that beds are always immune regardless of this setting: default:true",
+    // Enables explosion damage immunity for the dragon, note that beds are always immune regardless of this setting: 
+    // Default:true
     "explosionImmunity": true
   },
+
   "dragonHealthModifier": {
-    "desc:": "Sets the dragon health modifier: default:1.0",
+    // Sets the dragon health modifier: 
+    // Default:1.0
     "dragonHealthModifier": 1.0
   },
+
   "dragonDamageModifier": {
-    "desc:": "Sets the dragon damage modifier: default:1.0",
+    // Sets the dragon damage modifier: 
+    // Default:1.0
     "dragonDamageModifier": 1.0
   },
+
   "mobSpawnAmountModifier": {
-    "desc:": "Sets the mob spawn amount modifier: default:1.0",
+    // Sets the mob spawn amount modifier: 
+    // Default:1.0
     "mobSpawnAmountModifier": 1.0
   },
+
   "dragonXPModifier": {
-    "desc:": "Sets the XP drop modifier: default:1.0",
+    // Sets the XP drop modifier: 
+    // Default:1.0
     "dragonXPModifier": 1.0
   },
+
+  "lightningSoundVolumeModifier": {
+    // Sets the lightning sound modifier as vanilla's sound is very loud, only works on clientside: 
+    // Default:0.6
+    "lightningSoundVolumeModifier": 0.6
+  },
+
   "printDragonPhases": {
-    "desc:": "Prints the dragon phase in chat if enabled: default:false",
+    // Prints the dragon phase in chat if enabled: 
+    // Default:false
     "printDragonPhases": false
   },
+
   "disableDragonAreaSpawns": {
-    "desc:": "Disables mob spawning on the Dragon island during the fight: default:true",
+    // Disables mob spawning on the Dragon island during the fight: 
+    // Default:true
     "disableDragonAreaSpawns": true
   },
-  "descSpawnEntries": "Below are configuration options for entity spawning, when trying to use nbt append it right after the entity type, e.g. minecraft:zombie{}. Put a backslash in front of all quotation marks",
+
+  // Below are configuration options for entity spawning, when trying to use nbt append it right after the entity type,
+  // e.g. minecraft:zombie{}. Put a backslash in front of all quotation marks
   "spawnoncrystaldestroy": {
-    "desc:": "List of mobs spawning when a crystal is destroyed at range, intended to be flying or ranged to close the gap: e.g. format :  [\"minecraft:zombie\", \"minecraft:creeper\"]",
+    // List of mobs spawning when a crystal is destroyed at range, intended to be flying or ranged to close the gap: e.g. format :  ["minecraft:zombie",
+    // "minecraft:creeper"]
     "spawnoncrystaldestroy": [
       "hmag:dyssomnia"
     ]
   },
+
   "spawnoncrystalrespawn": {
-    "desc:": "List of mobs spawning on crystal respawn, intended to be ranged to ward of players from a distance: e.g. format :  [\"minecraft:zombie\", \"minecraft:creeper\"]",
+    // List of mobs spawning on crystal respawn, intended to be ranged to ward off players from a distance: e.g. format :  ["minecraft:blaze"]
     "spawnoncrystalrespawn": [
       "hmag:monolith"
     ]
   },
+
   "spawnwhilelanded": {
-    "desc:": "List of mobs spawning while the dragon is sitting in the middle, intended to be melee and not vulnerable to ranged: e.g. format :  [\"minecraft:zombie\", \"minecraft:creeper\"]",
+    // List of mobs spawning while the dragon is sitting in the middle, intended to be melee and not vulnerable to ranged: e.g. format :  ["minecraft:zombie",
+    // "minecraft:creeper"]
     "spawnwhilelanded": [
       "minecraft:enderman"
     ]

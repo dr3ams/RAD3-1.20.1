@@ -1,0 +1,22 @@
+{
+  "comment_structure_height": "Only structures whose bounding box bottom (minY) is inside this range are processed.",
+  "Min structure height": 0,
+  "Max structure height": 512,
+  "comment_floating": "Automatic detection of flying structures (airships, planes) and ships at sea: a structure is skipped when at least \u0027Floating column ratio\u0027 of its footprint has more than \u0027Floating air gap\u0027 blocks of air below it, or when \u0027Water column ratio\u0027 of its footprint stands on water. A jigsaw structure placed at an absolute height (no project_start_to_heightmap) counts as an extra hint; optionally terrain_adaptation\u003dnone does too.",
+  "Auto skip floating structures": true,
+  "Floating air gap": 8,
+  "Floating column ratio": 0.8,
+  "Water column ratio": 0.6,
+  "Treat terrain adaptation none as floating hint": false,
+  "comment_shell": "Shell settings format: \"modid:structure_file\": { radius, verticalOffset, exponentialSpeed }",
+  "Shell settings": {},
+  "comment_lists": "Id lists support: full id (modid:name), namespace.*, *, #modid:tag. Structure blacklist: never processed. Foundation blacklist: template files (.nbt) of pieces whose structure is never processed. Force list: always processed, ignoring the blacklist and the automatic floating/water/underground detection.",
+  "Structure blacklist": [
+    "minecraft.*"
+  ],
+  "Foundation blacklist": [
+    "minecraft.*"
+  ],
+  "Force list": [],
+  "comment_templates": "The list of structure template files known to the server is written to structure_generation_improver.templates.txt at every start."
+}

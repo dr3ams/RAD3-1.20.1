@@ -35,3 +35,15 @@ lowEndMarqueeIntervalMultiplier = 1.5
 	#Enable the keybind to open the Bestiary screen
 	enableKeybind = true
 
+[integrations]
+
+	[integrations.incontrol]
+		#Show the 'Show conditional rule drops' checkbox in the Loot tab (client-side). If false, the checkbox is hidden and space is not reserved.
+		showInControlLootToggle = false
+		#Show the 'Modified:' section in Spawn tooltips and IC modification hints in the Attributes tab (client-side). If false, these are hidden.
+		showInControlModifiedCategory = true
+		#Show a checkbox in the Spawn tab to include conditional deny entries from In Control! rules. If false, the checkbox is hidden.
+		showInControlSpawnDenyToggle = false
+		#Include conditional 'result: deny' spawn entries in the Spawn list by default. Can be toggled in-UI when showInControlSpawnDenyToggle is true. Default: false (hidden).
+		showInControlConditionalDenySpawns = false
+

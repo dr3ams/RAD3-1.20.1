@@ -54,4 +54,15 @@
 	alwaysShow = true
 	#Enable debug logs
 	debugLogs = false
+	#Multiplier for the size of the explosion effects
+	#Range: 0.0 ~ 10.0
+	explosionScale = 1.0
+	#Multiplier for how long the explosion effects last, lower values make them fade out faster
+	#Range: 0.0 ~ 10.0
+	explosionDuration = 1.0
+	#Opacity of the explosion effects, from 0 (invisible) to 1 (opaque). Sparks also keep their own opacity option on top of this
+	#Range: 0.0 ~ 1.0
+	explosionOpacity = 1.0
+	#Entities whose explosions are ignored (for example: ["minecraft:creeper"])
+	entityBlacklist = []
 

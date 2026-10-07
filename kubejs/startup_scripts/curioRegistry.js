@@ -1,6 +1,6 @@
 // priority: 0
 
-console.info('curio registry loaded)')
+console.info('curio registry loaded')
 
 /* 
 	///EXAMPLE

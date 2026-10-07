@@ -15,12 +15,54 @@ NetworkEvents.dataReceived('sync_soul_stats', event => {
     }
 })
 
+// Which random attribute the player rolled (unique per player, so unlike the
+// perks it has to be synced separately rather than derived from totalCaptured alone)
+if (!global.soulAttrData) {
+    global.soulAttrData = { secondAttribute: '' }
+}
+
+NetworkEvents.dataReceived('sync_soul_attr_test', event => {
+    global.soulAttrData = {
+        secondAttribute: event.data.secondAttribute || ''
+    }
+})
+
+// Duplicated from ATTR_CONFIG.<x>.perTier in soul_system.js - keep in sync by hand
+const ATTR_PERTIER_CLIENT = {
+    maxHealth: [
+        { at: 100,  value: 1 },
+        { at: 200,  value: 2 },
+        { at: 350,  value: 3 },
+        { at: 500,  value: 4 },
+        { at: 750,  value: 5 },
+        { at: 1000, value: 6 },
+        { at: 1500, value: 7 },
+        { at: 2000, value: 8 }
+    ],
+    secondAttribute: [
+        { at: 350,  value: 0.01 },
+        { at: 500,  value: 0.02 },
+        { at: 750,  value: 0.03 },
+        { at: 1000, value: 0.04 },
+        { at: 1500, value: 0.05 },
+        { at: 2000, value: 0.05 }
+    ]
+}
+
+function getAttrTierValue(total, perTierList) {
+    let value = 0
+    perTierList.forEach(tier => {
+        if (total >= tier.at) value = tier.value
+    })
+    return value
+}
+
 // Duplicated from soul_system.js's mastery table - keep these two in sync manually,
 
 // Same unlockAt/baseChance/chancePerCapture/maxChance shape as SOUL_CONFIG in soul_system.js -
 // keep these two in sync manually if you tune the numbers on the server side.
 const SOUL_PERKS_CLIENT = {
-    ghostlyAftermath:  { label: 'Ghostly Aftermath',  unlockAt: 100,  baseChance: 0.10, chancePerCapture: 0.0005, maxChance: 0.65 },
+    ghostlyAftermath:  { label: 'Ghostly Aftermath',  unlockAt: 100,  baseChance: 0.10, chancePerCapture: 0.0005, maxChance: 0.50 },
     ectoplasmicTear:   { label: 'Ectoplasmic Tear',   unlockAt: 200,  baseChance: 0.05, chancePerCapture: 0.0001, maxChance: 0.25 },
     denseExtraction:   { label: 'Dense Extraction',   unlockAt: 500,  baseChance: 0.20, chancePerCapture: 0.0003, maxChance: 0.60 },
     artifactResonance: { label: 'Artifact Resonance', unlockAt: 1000, baseChance: 0.05, chancePerCapture: 0.0005, maxChance: 0.25 }
@@ -118,8 +160,29 @@ ItemEvents.tooltip(event => {
             text.add(Text.of(' '))
             text.add(Text.of('• §6Chance to capture a soul on a killing blow.').white())
             text.add(Text.of('• §bRight-click in main hand to release one trapped soul.').white())
-            text.add(Text.of('• §2Sneak Right-click to view full mastery stats in chat.').gray())
-            text.add(Text.of('• §dCapacity and capture chance grow with your mastery rank.').gray())
+            text.add(Text.of('• §2Sneak+Right-click to view full mastery stats in chat.').gray())
+            text.add(Text.of('• §dCapacity and capture chance grow with mastery rank.').gray())
+			text.add(Text.of('• §dPerks and attributes unlock as mastery rank increase.').gray())
+            text.add(Text.of(' '))
+            text.add(Text.of('Mastery Attributes §8(requires carrying the jar):').white())
+            if (total < 100) {
+                text.add(Text.of('  §8🔒 Max Health §8(unlocks at 100 souls)'))
+            } else {
+                let hp = getAttrTierValue(total, ATTR_PERTIER_CLIENT.maxHealth)
+                text.add(Text.of(`  §7Max Health: §f+${hp / 2} hearts §8(caps at +4 hearts)`))
+            }
+            if (total < 350) {
+                text.add(Text.of('  §8🔒 Second Attribute §8(unlocks at 350 souls)'))
+            } else if (!global.soulAttrData.secondAttribute) {
+                text.add(Text.of('  §8🔒 Second Attribute §8(syncing...)'))
+            } else {
+                let pct = getAttrTierValue(total, ATTR_PERTIER_CLIENT.secondAttribute)
+                let rawName = global.soulAttrData.secondAttribute.includes(':')
+                    ? global.soulAttrData.secondAttribute.split(':')[1].split('.').pop()
+                    : global.soulAttrData.secondAttribute
+                let label = rawName.split('_').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
+                text.add(Text.of(`  §7${label}: §f+${Math.round(pct * 100)}% §8(caps at +5%)`))
+            }
             text.add(Text.of(' '))
             text.add(Text.of('Mastery Perks §8(chance keeps rising):').white())
             text.add(perkLine(SOUL_PERKS_CLIENT.ghostlyAftermath, mastery.ghostlyAftermathChance, total))
