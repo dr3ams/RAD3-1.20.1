@@ -1747,6 +1747,16 @@ ItemEvents.tooltip(event =>{
 				text.add(1, Text.of(' • §2A focus that greatly improves direct magic attacks').white())
 				text.add(2, Text.of(' • §cBut saps your physical strength.').white())
 	})
+
+	event.addAdvanced('kubejs:tank_focus', (item, advanced, text) => {
+				text.add(1, Text.of('A focus for those who find fights too fast-paced.').white())
+				text.add(2, Text.of(' • §2Take 35% less damage from all sources.').white())
+				text.add(3, Text.of(' • §2Grants great defense with extra health and shielding. Blocking costs less stamina.').white())
+				text.add(4, Text.of(' • §2Faster shield regeneration and shorter delay.').white())
+				text.add(5, Text.of(' • §eHeavier with reduced knockback.').white())
+				text.add(6, Text.of(' • §cYou also deal less damage and move slower.').white())
+				text.add(7, Text.of(' • §cAttacking and Sprinting costs more stamina.').white())
+	})
 	
 
 // THE END	
