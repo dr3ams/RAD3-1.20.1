@@ -337,13 +337,13 @@ StartupEvents.registry('item', event => {
                 .addAttribute(
                     "shieldinghealth:attribute.shieldinghealth.shield_delay",
                     "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
-                    -0.2,
+                    -0.25,
                     'multiply_base'
                 )
                 .addAttribute(
                     "shieldinghealth:attribute.shieldinghealth.shield_regen",
                     "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
-                    -0.2,
+                    -0.25,
                     'multiply_base'
                 )
                 .addAttribute(
@@ -389,6 +389,12 @@ StartupEvents.registry('item', event => {
                     'addition'
                 )
                 .addAttribute(
+                    "enhancedai:push_resistance",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    1,
+                    'addition'
+                )
+                .addAttribute(
                     "forge:entity_gravity",
                     "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
                     0.25,
@@ -403,7 +409,7 @@ StartupEvents.registry('item', event => {
                 .addAttribute(
                     "combatroll:distance",
                     "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
-                    -0.33,
+                    -1.0,
                     'multiply_total'
                 )
                 .addAttribute(

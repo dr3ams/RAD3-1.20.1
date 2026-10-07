@@ -1754,8 +1754,9 @@ ItemEvents.tooltip(event =>{
 				text.add(3, Text.of(' • §2Grants great defense with extra health and shielding. Blocking costs less stamina.').white())
 				text.add(4, Text.of(' • §2Faster shield regeneration and shorter delay.').white())
 				text.add(5, Text.of(' • §eHeavier with reduced knockback.').white())
-				text.add(6, Text.of(' • §cYou also deal less damage and move slower.').white())
-				text.add(7, Text.of(' • §cAttacking and Sprinting costs more stamina.').white())
+				text.add(6, Text.of(' • §eMobs cannot push you, you will stand in place during rolls and shield bash.').white())
+				text.add(7, Text.of(' • §cYou also deal less damage and move slower.').white())
+				text.add(8, Text.of(' • §cAttacking and Sprinting costs more stamina.').white())
 	})
 	
 
