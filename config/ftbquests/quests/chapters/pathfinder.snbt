@@ -820,8 +820,8 @@
 			y: 2.0d
 		}
 		{
-			description: ["A whimsical dwelling sprouted from the forest floor."]
-			icon: "minecraft:red_mushroom"
+			description: ["The illagers have to get all that stone from somewhere"]
+			icon: "minecraft:coal_ore"
 			id: "6295F936F893D27B"
 			rewards: [
 				{
@@ -831,25 +831,17 @@
 				}
 				{
 					id: "06EC6DB2D983D418"
-					item: "kubejs:copper_coin"
+					item: "kubejs:iron_coin"
 					type: "item"
 				}
 			]
-			subtitle: "Find a Mushroom House"
-			tasks: [
-				{
-					advancement: "dungeons_enhanced:rarest_structure"
-					criterion: ""
-					id: "406C8DCD54A9B285"
-					type: "advancement"
-				}
-				{
-					id: "5A34918A4AEA6E6D"
-					structure: "dungeons_enhanced:mushroom_house"
-					type: "structure"
-				}
-			]
-			title: "Mushroom House"
+			subtitle: "Find a Stoneworks"
+			tasks: [{
+				id: "5A34918A4AEA6E6D"
+				structure: "ati_structures:ati_stoneworks"
+				type: "structure"
+			}]
+			title: "Stoneworks"
 			x: 6.0d
 			y: 6.5d
 		}
@@ -2115,8 +2107,8 @@
 			y: -4.5d
 		}
 		{
-			description: ["An entire community thriving in the caves away from the sun."]
-			icon: "minecraft:emerald"
+			description: ["What do these hooded specters guard... or who?"]
+			icon: "minecraft:gold_block"
 			id: "382FD79EE64EA346"
 			rewards: [
 				{
@@ -2130,13 +2122,13 @@
 					xp: 200
 				}
 			]
-			subtitle: "Life below the surface."
+			subtitle: "Bigger than a Castle Ruin"
 			tasks: [{
 				id: "3DD9F37DC9E89AD1"
-				structure: "stoneholm:underground_village"
+				structure: "ati_structures:ruined_castle"
 				type: "structure"
 			}]
-			title: "Underground Village"
+			title: "Ruined Castle"
 			x: 14.0d
 			y: 1.0d
 		}
