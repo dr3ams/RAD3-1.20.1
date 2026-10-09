@@ -39,7 +39,7 @@ ServerEvents.recipes((event) => {
         ' R '
     ], {
         B: 'minecraft:book',
-        P: 'quark:soul_bead',
+        P: 'minecraft:phantom_membrane',
         C: 'minecraft:crying_obsidian',
         M: 'minecraft:amethyst_shard',
         R: 'apotheosis:rare_material' 

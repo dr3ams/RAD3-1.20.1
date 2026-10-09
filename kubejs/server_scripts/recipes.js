@@ -262,22 +262,7 @@ ServerEvents.recipes((event) => {
 	"aether_redux:refined_sentrite_block"
   );
   event.replaceInput(
-    { output: "sophisticatedbackpacks:stack_upgrade_starter_tier_to_tier_1_conversion" },
-    "#forge:storage_blocks/iron",
-	"aether_redux:refined_sentrite_block"
-  );
-  event.replaceInput(
     { output: "sophisticatedbackpacks:stack_upgrade_tier_2" },
-    "#forge:storage_blocks/gold",
-	"undergarden:cloggrum_block"
-  );
-  event.replaceInput(
-    { output: "sophisticatedbackpacks:stack_upgrade_starter_tier_to_tier_2_conversion" },
-    "#forge:storage_blocks/gold",
-	"undergarden:cloggrum_block"
-  );
-  event.replaceInput(
-    { output: "sophisticatedbackpacks:stack_upgrade_tier_1_to_tier_2_conversion" },
     "#forge:storage_blocks/gold",
 	"undergarden:cloggrum_block"
   );
@@ -287,32 +272,7 @@ ServerEvents.recipes((event) => {
 	"cataclysm:void_stone"
   );
   event.replaceInput(
-    { output: "sophisticatedbackpacks:stack_upgrade_starter_tier_to_tier_3_conversion" },
-    "#forge:storage_blocks/diamond",
-	"cataclysm:void_stone"
-  );
-  event.replaceInput(
-    { output: "sophisticatedbackpacks:stack_upgrade_tier_1_to_tier_3_conversion" },
-    "#forge:storage_blocks/diamond",
-	"cataclysm:void_stone"
-  );
-  event.replaceInput(
-    { output: "sophisticatedbackpacks:stack_upgrade_tier_2_to_tier_3_conversion" },
-    "#forge:storage_blocks/diamond",
-	"cataclysm:void_stone"
-  );
-  event.replaceInput(
     { output: "sophisticatedstorage:stack_upgrade_tier_2" },
-    "#forge:storage_blocks/iron",
-	"aether_redux:refined_sentrite_block"
-  );
-  event.replaceInput(
-    { output: "sophisticatedstorage:stack_upgrade_tier_1_to_tier_2_conversion" },
-    "#forge:storage_blocks/iron",
-	"aether_redux:refined_sentrite_block"
-  );
-  event.replaceInput(
-    { output: "sophisticatedstorage:stack_upgrade_tier_1_plus_to_tier_2_conversion" },
     "#forge:storage_blocks/iron",
 	"aether_redux:refined_sentrite_block"
   );
@@ -322,42 +282,7 @@ ServerEvents.recipes((event) => {
 	"undergarden:cloggrum_block"
   );
   event.replaceInput(
-    { output: "sophisticatedstorage:stack_upgrade_tier_1_to_tier_3_conversion" },
-    "#forge:storage_blocks/gold",
-	"undergarden:cloggrum_block"
-  );
-  event.replaceInput(
-    { output: "sophisticatedstorage:stack_upgrade_tier_1_plus_to_tier_3_conversion" },
-    "#forge:storage_blocks/gold",
-	"undergarden:cloggrum_block"
-  );
-  event.replaceInput(
-    { output: "sophisticatedstorage:stack_upgrade_tier_2_to_tier_3_conversion" },
-    "#forge:storage_blocks/gold",
-	"undergarden:cloggrum_block"
-  );
-  event.replaceInput(
     { output: "sophisticatedstorage:stack_upgrade_tier_4" },
-    "#forge:storage_blocks/diamond",
-	"cataclysm:void_stone"
-  );
-  event.replaceInput(
-    { output: "sophisticatedstorage:stack_upgrade_tier_1_to_tier_4_conversion" },
-    "#forge:storage_blocks/diamond",
-	"cataclysm:void_stone"
-  );
-  event.replaceInput(
-    { output: "sophisticatedstorage:stack_upgrade_tier_1_plus_to_tier_4_conversion" },
-    "#forge:storage_blocks/diamond",
-	"cataclysm:void_stone"
-  );
-  event.replaceInput(
-    { output: "sophisticatedstorage:stack_upgrade_tier_2_to_tier_4_conversion" },
-    "#forge:storage_blocks/diamond",
-	"cataclysm:void_stone"
-  );
-  event.replaceInput(
-    { output: "sophisticatedstorage:stack_upgrade_tier_3_to_tier_4_conversion" },
     "#forge:storage_blocks/diamond",
 	"cataclysm:void_stone"
   );
@@ -367,57 +292,12 @@ ServerEvents.recipes((event) => {
 	"aether_redux:refined_sentrite"
   );
   event.replaceInput(
-    { output: "sophisticatedstorage:stack_upgrade_tier_1_to_tier_2_conversion" },
-    "#forge:ingots/iron",
-	"aether_redux:refined_sentrite"
-  );
-  event.replaceInput(
-    { output: "sophisticatedstorage:stack_upgrade_tier_1_plus_to_tier_2_conversion" },
-    "#forge:ingots/iron",
-	"aether_redux:refined_sentrite"
-  );
-  event.replaceInput(
     { output: "sophisticatedstorage:stack_upgrade_tier_3" },
     "#forge:ingots/gold",
 	"undergarden:cloggrum_ingot"
   );
   event.replaceInput(
-    { output: "sophisticatedstorage:stack_upgrade_tier_1_to_tier_3_conversion" },
-    "#forge:ingots/gold",
-	"undergarden:cloggrum_ingot"
-  );
-  event.replaceInput(
-    { output: "sophisticatedstorage:stack_upgrade_tier_1_plus_to_tier_3_conversion" },
-    "#forge:ingots/gold",
-	"undergarden:cloggrum_ingot"
-  );
-  event.replaceInput(
-    { output: "sophisticatedstorage:stack_upgrade_tier_2_to_tier_3_conversion" },
-    "#forge:ingots/gold",
-	"undergarden:cloggrum_ingot"
-  );
-  event.replaceInput(
     { output: "sophisticatedstorage:stack_upgrade_tier_4" },
-    "#forge:gems/diamond",
-	"cataclysm:void_infused_end_stone_bricks"
-  );
-  event.replaceInput(
-    { output: "sophisticatedstorage:stack_upgrade_tier_1_to_tier_4_conversion" },
-    "#forge:gems/diamond",
-	"cataclysm:void_infused_end_stone_bricks"
-  );
-  event.replaceInput(
-    { output: "sophisticatedstorage:stack_upgrade_tier_1_plus_to_tier_4_conversion" },
-    "#forge:gems/diamond",
-	"cataclysm:void_infused_end_stone_bricks"
-  );
-  event.replaceInput(
-    { output: "sophisticatedstorage:stack_upgrade_tier_2_to_tier_4_conversion" },
-    "#forge:gems/diamond",
-	"cataclysm:void_infused_end_stone_bricks"
-  );
-  event.replaceInput(
-    { output: "sophisticatedstorage:stack_upgrade_tier_3_to_tier_4_conversion" },
     "#forge:gems/diamond",
 	"cataclysm:void_infused_end_stone_bricks"
   );

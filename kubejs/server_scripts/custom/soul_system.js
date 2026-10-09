@@ -34,14 +34,14 @@ const SOUL_CONFIG = {
     // (this gets multiplied by your mastery bonus below)
     sources: {
         // --- common tier (~0.10) ---
-		'minecraft:zombie':          0.15,
-        'minecraft:skeleton':        0.15,
+		'minecraft:zombie':          1.00,
+        'minecraft:skeleton':        0.10,
         'minecraft:wither_skeleton': 0.15,
-        'minecraft:husk':                    0.15,
-        'minecraft:stray':                   0.15,
-        'creatures_of_petrichor:nameless':   0.15,
-        'dungeonsdelight:rotten_zombie':     0.15,
-        'undergarden:rotwalker':             0.15,
+        'minecraft:husk':                    0.10,
+        'minecraft:stray':                   0.10,
+        'creatures_of_petrichor:nameless':   0.10,
+        'dungeonsdelight:rotten_zombie':     0.10,
+        'undergarden:rotwalker':             0.10,
 
         // --- mid tier (~0.08) ---
         'minecraft:enderman':                 0.08,
@@ -115,7 +115,7 @@ const SOUL_CONFIG = {
         baseChance: 0.05,
         chancePerCapture: 0.0001,
         maxChance: 0.25,
-        drops: ['apotheosis:common_material', 'minecraft:gold_nugget', 'minecraft:bone', 'kubejs:gem_shard', 'hmag:soul_powder', 'bloodmagic:reagentvoid', 'minecraft:ender_pearl', 'minecraft:echo_shard', 'quark:soul_bead']
+        drops: ['apotheosis:common_material', 'minecraft:gold_nugget', 'minecraft:bone', 'kubejs:gem_shard', 'hmag:soul_powder', 'bloodmagic:reagentvoid', 'minecraft:ender_pearl']
     },
 
     // Dense Extraction: killing a listed entity has a chance to deposit a bonus batch of souls.
@@ -135,7 +135,7 @@ const SOUL_CONFIG = {
         baseChance: 0.05,
         chancePerCapture: 0.0005,
         maxChance: 0.25,
-        rewards: ['apotheosis:uncommon_material', 'apotheosis:rare_material', 'kubejs:gem_shard', 'kubejs:mage_bag', 'quark:soul_bead', 'kubejs:gemcutters_pouch_greater', 'minecraft:echo_shard']
+        rewards: ['apotheosis:uncommon_material', 'apotheosis:rare_material', 'kubejs:gem_shard', 'kubejs:mage_bag', 'kubejs:gemcutters_pouch_greater']
     }
 }
 // ============================================================
