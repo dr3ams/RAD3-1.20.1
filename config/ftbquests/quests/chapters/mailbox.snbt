@@ -166,6 +166,55 @@
 			x: -1.5d
 			y: 7.5d
 		}
+		{
+			dependencies: ["0C818E3CF87E5539"]
+			description: [
+				"&7&oAfter purchasing info about your inventory from 3rd party sellers we have sent another associate nearby on the surface with &fpersonalized offers&7 we believe are tailored to your interests!"
+				""
+				"&7&oAct fast, our offer will &r&lexpire in 10 minutes!&r"
+				""
+				"&7&oWe have equipped this trader with state-of-the-art \"thorns\" zombie defense mechanisms in case of unfortunate timing of our associate's arrival. We are not responsible for any deaths caused by accidentally pre-emptively activating this system.&r"
+				""
+				"&7&oIf you would like us to not buy or sell your personal information please respond with another stack of &r&bDiamonds.&r"
+			]
+			icon: "kubejs:letter"
+			icon_scale: 1.5d
+			id: "3946D284196ECF5E"
+			invisible: true
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/execute at @p run summon bee ~ ~2 ~ {Tags:[\"messenger_bee\"],CustomName:'{\"text\":\"Post-Courier Bee\"}',ActiveEffects:[{Id:24,Amplifier:0,Duration:1200,ShowParticles:0b}]}"
+					elevate_perms: true
+					icon: "kubejs:letter"
+					id: "631143D7A6CD5F2B"
+					silent: true
+					title: "New Mail!"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at @p run function rad3:wandering_trader/spawn"
+					elevate_perms: true
+					icon: "vinery:wandering_winemaker_spawn_egg"
+					id: "3CE61F34725FE265"
+					silent: true
+					title: "A personalized trader has arrived!"
+					type: "command"
+				}
+			]
+			shape: "none"
+			size: 1.5d
+			subtitle: "&3From:&r &6The Traveling Salesman League&r"
+			tasks: [{
+				elapsedTime: 3600L
+				id: "3C483167FAA6CB41"
+				type: "questsadditions:time"
+			}]
+			title: "Personalized Offers"
+			x: 0.0d
+			y: 7.5d
+		}
 	]
 	title: "&9⭐ Mailbox&r"
 }
