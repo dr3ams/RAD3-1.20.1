@@ -643,12 +643,12 @@ CommonAddedEvents.playerChangeDimension(event => {
             player.persistentData.statBestTime = durationSec;
         }
 
-        // ── DEPOSIT TOKENS INTO RAID VAULT ────────────────────
+        // ── DEPOSIT TOKENS INTO THE MAIN VAULT (cloudVault) ───
         if (tokens > 0) {
-            let rv = player.persistentData.getCompound('raidVault');
-            rv.putInt('raidTokens', (rv.getInt('raidTokens') || 0) + tokens);
-            player.persistentData.put('raidVault', rv);
-            player.tell(Text.of(`§6✦ §f${tokens} Raid Token${tokens !== 1 ? 's' : ''} §6deposited into your Raid Vault. §8(/raidvault)`));
+            let cv = player.persistentData.getCompound('cloudVault');
+            cv.putInt('kubejs:coin_raid', (cv.getInt('kubejs:coin_raid') || 0) + tokens);
+            player.persistentData.put('cloudVault', cv);
+            player.tell(Text.of(`§6✦ §f${tokens} Raid Token${tokens !== 1 ? 's' : ''} §6deposited into your Vault. §8(/vault balance)`));
             player.level.playSound(null, player.blockX, player.blockY, player.blockZ,
                 'minecraft:entity.player.levelup', 'players', 1.0, 1.0);
         }
@@ -1222,7 +1222,7 @@ ServerEvents.commandRegistry(event => {
                 player.tell(Text.of(""));
  
                 player.tell(Text.of("§6§l✦ Raid Tokens").bold());
-                player.tell(Text.of("§7Every kill and chest contributes to a score pool. When you exit, that score converts into §6Raid Tokens§7 deposited directly into your §6Raid Vault§7. Bosses and minibosses are worth more. Higher rank gives a token bonus multiplier."));
+                player.tell(Text.of("§7Every kill and chest contributes to a score pool. When you exit, that score converts into §6Raid Tokens§7 deposited directly into your §6Vault§7. Bosses and minibosses are worth more. Higher rank gives a token bonus multiplier."));
                 player.tell(Text.of("§8Spend tokens in the §7Dungeon Raid §8quest chapter."));
                 player.tell(Text.of(""));
  
@@ -1244,93 +1244,12 @@ ServerEvents.commandRegistry(event => {
   
                 player.tell(Text.of("§7§lCommands").bold());
                 player.tell(Text.of("§7/raidstats        §8— rank, XP, and lifetime statistics"));
-                player.tell(Text.of("§7/raidvault        §8— token balance"));
-                player.tell(Text.of("§7/raidvault withdraw <n> §8— move tokens to inventory"));
-                player.tell(Text.of("§7/raidvault deposit      §8— deposit held tokens into vault"));
+                player.tell(Text.of("§7/vault balance        §8— coin and raid token balance"));
+                player.tell(Text.of("§7/vault withdraw raid <n> §8— move raid tokens to inventory"));
+                player.tell(Text.of("§7/vault deposit          §8— deposit held tokens into vault"));
                 player.tell(Text.of("§8------------------------------------").bold());
  
                 return 1;
             })
     );
 });
-
-// ============================================================
-//  /raidvault COMMAND
-// ============================================================
-ServerEvents.commandRegistry(event => {
-    const { commands: Commands, arguments: Arguments } = event;
-
-    event.register(Commands.literal('raidvault')
-
-        // ── BALANCE ──────────────────────────────────────────────
-        .executes(ctx => {
-            let player  = ctx.source.player;
-            let rv      = player.persistentData.getCompound('raidVault');
-            let balance = rv.getInt('raidTokens') || 0;
-
-            player.tell(Text.of("--- §6[RAID VAULT]§r ---").bold());
-            player.tell(Text.of(`§7Raid Tokens: §6${formatNum(balance)}`));
-            player.tell(Text.of("§8---"));
-            player.tell(Text.of("§8/raidvault withdraw §7<amount> §8— withdraw tokens to inventory"));
-            player.tell(Text.of("§8/raidvault deposit  §8— deposit held tokens into vault"));
-            player.tell(Text.of("-----------------------").bold());
-            return 1;
-        })
-
-        // ── DEPOSIT (main hand) ───────────────────────────────────
-        .then(Commands.literal('deposit').executes(ctx => {
-            let player = ctx.source.player;
-            let item   = player.mainHandItem;
-
-            if (String(item.id) !== 'kubejs:coin_raid' || item.count === 0) {
-                player.tell(Text.of('§cYou are not holding any Raid Tokens!'));
-                return 0;
-            }
-
-            let rv      = player.persistentData.getCompound('raidVault');
-            let current = rv.getInt('raidTokens') || 0;
-            let amount  = item.count;
-            rv.putInt('raidTokens', current + amount);
-            player.persistentData.put('raidVault', rv);
-            item.setCount(0);
-
-            player.tell(Text.of(`§6✦ Deposited §f${amount} §6Raid Token${amount !== 1 ? 's' : ''} §8(Balance: §6${formatNum(current + amount)}§8)`));
-            player.level.playSound(null, player.blockX, player.blockY, player.blockZ,
-                'minecraft:entity.villager.yes', 'players', 1.0, 1.0);
-            return 1;
-        }))
-
-        // ── WITHDRAW <amount> ─────────────────────────────────────
-        .then(Commands.literal('withdraw')
-            .then(Commands.argument('amount', Arguments.INTEGER.create(event))
-                .executes(ctx => {
-                    let player  = ctx.source.player;
-                    let amount  = Arguments.INTEGER.getResult(ctx, 'amount');
-
-                    if (amount <= 0) {
-                        player.tell(Text.of('§cAmount must be greater than 0.'));
-                        return 0;
-                    }
-
-                    let rv      = player.persistentData.getCompound('raidVault');
-                    let balance = rv.getInt('raidTokens') || 0;
-
-                    if (balance < amount) {
-                        player.tell(Text.of(`§cInsufficient tokens! You have §f${formatNum(balance)} §cin your vault.`));
-                        return 0;
-                    }
-
-                    rv.putInt('raidTokens', balance - amount);
-                    player.persistentData.put('raidVault', rv);
-                    player.give(Item.of('kubejs:coin_raid', amount));
-
-                    player.tell(Text.of(`§6✦ Withdrew §f${amount} §6Raid Token${amount !== 1 ? 's' : ''} §8(Balance: §6${formatNum(balance - amount)}§8)`));
-                    player.level.playSound(null, player.blockX, player.blockY, player.blockZ,
-                        'minecraft:block.amethyst_block.break', 'players', 1.0, 1.2);
-                    return 1;
-                })
-            )
-        )
-    );
-});
-
