@@ -418,9 +418,11 @@ ItemEvents.tooltip(event =>{
 	event.addAdvanced('bonfires:estus_flask', (item, advanced, text) => {
 			text.add(Text.of(''));
 			text.add(Text.of('• §2Uses§7 are restored when using §6Bonfire§7').gray());
-			text.add(Text.of('• Reinforced with §eUndead §eBone Shards§7 at a §6Bonfire§7').gray());
-			text.add(Text.of('to increase the amount of §4uses§7').gray());
-			text.add(Text.of(''));
+			text.add(Text.of('• Reinforced at §6Bonfire§7 to increase the').gray());
+			text.add(Text.of('amount of §4healed hearts§7').gray());
+			text.add(Text.of('• §2Uses§7 can be increased by §1right-clicking§7').gray());
+			text.add(Text.of('an §eEstus Shard§7 with the §3Estus Flask§7 in').gray());
+			text.add(Text.of('your inventory').gray());
     });	
 
 	event.addAdvanced(['kubejs:gem_shard'], (item, advanced, text) => {
