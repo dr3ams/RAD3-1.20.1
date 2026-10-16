@@ -17,9 +17,9 @@ ServerEvents.recipes(event => {
         ['l2complements:shulkerate', 'l2complements:shulkerate_ingot', 'minecraft:iron'],
 
         // Ocean
-        ['celestial_core:guardian_ocean', 'celestial_core:guardian_ocean_ingot', 'minecraft:iron'],
-        ['aquaculture:neptunium', 'aquaculture:neptunium_ingot', 'celestial_core:guardian_ocean'],
-        ['l2complements:poseidite', 'l2complements:poseidite_ingot', 'celestial_core:guardian_ocean'],
+        ['celestial_core:ocean', 'celestial_core:reinforced_ocean_ingot', 'minecraft:iron'],
+        ['aquaculture:neptunium', 'aquaculture:neptunium_ingot', 'celestial_core:ocean'],
+        ['l2complements:poseidite', 'l2complements:poseidite_ingot', 'celestial_core:ocean'],
 		['l2complements:poseidite', 'l2complements:poseidite_ingot', 'aquaculture:neptunium'],
 
         // Gold
