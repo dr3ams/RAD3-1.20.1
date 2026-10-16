@@ -1,0 +1,20 @@
+
+{
+  "id": "highheel",
+  "key": "refinement.feet.highheel",
+  "type": ["feet"],
+  "proficiency_cost": 0,
+  "material": "minecraft:scaffolding",
+  "material_count": 2,
+  "anvil_levels": 5,
+  "bonuses": [
+	{
+      "property": "forge:step_height_addition",
+      "amount": 0.5,
+      "operation": "addition",
+      "slots": ["minecraft:feet"]
+    }
+  ],
+  "allowed_steps": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "color": "dark_blue"
+}

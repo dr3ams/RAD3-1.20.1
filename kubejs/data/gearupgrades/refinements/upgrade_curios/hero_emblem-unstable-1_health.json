@@ -23,19 +23,13 @@
     },
     {
       "property": "shieldinghealth:attribute.shieldinghealth.shield_delay",
-      "amount": -0.2,
-      "operation": "multiply_base",
+      "amount": -100,
+      "operation": "addition",
       "slots": ["curios:charm"]
     },
     {
       "property": "shieldinghealth:attribute.shieldinghealth.shield_regen",
-      "amount": -0.2,
-      "operation": "multiply_base",
-      "slots": ["curios:charm"]
-    },
-    {
-      "property": "attributeslib:overheal",
-      "amount": 0.1,
+      "amount": -100,
       "operation": "addition",
       "slots": ["curios:charm"]
     }

@@ -11,14 +11,14 @@
   "bonuses": [
     {
       "property": "attributeslib:crit_chance",
-      "amount": -0.25,
-      "operation": "multiply_total",
+      "amount": -0.15,
+      "operation": "addition",
       "slots": ["minecraft:mainhand"]
     },
     {
       "property": "attributeslib:crit_damage",
-      "amount": 0.25,
-      "operation": "multiply_total",
+      "amount": 0.15,
+      "operation": "addition",
       "slots": ["minecraft:mainhand"]
     }
   ],

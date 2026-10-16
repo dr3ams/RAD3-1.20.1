@@ -3,7 +3,7 @@
   "id": "armpenetration",
   "key": "refinement.melee.armpenetration",
   "incompat": [],
-  "type": ["melee_weapon"],
+  "type": ["melee_weapon","bxbow","cataclysm:cursed_bow"],
   "proficiency_cost": 20,
   "material": "ars_nouveau:wilden_horn",
   "material_count": 1,
@@ -12,7 +12,7 @@
     {
       "property": "celestial_core:armor_penetration",
       "amount": 0.10,
-      "operation": "multiply_total",
+      "operation": "addition",
       "slots": ["minecraft:mainhand"]
     }
   ],

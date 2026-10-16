@@ -2,7 +2,7 @@
 {
   "id": "bulky",
   "key": "refinement.armor.bulky",
-  "incompat": [],
+  "incompat": ["bulky"],
   "type": ["chest"],
   "proficiency_cost": 10,
   "material": "kubejs:upgrade_heart",
@@ -11,6 +11,12 @@
   "bonuses": [
 	{
       "property": "minecraft:generic.max_health",
+      "amount": 1.0,
+      "operation": "multiply_total",
+      "slots": ["minecraft:chest"]
+    },
+	{
+      "property": "shieldinghealth:attribute.shieldinghealth.shield_value",
       "amount": 1.0,
       "operation": "multiply_total",
       "slots": ["minecraft:chest"]

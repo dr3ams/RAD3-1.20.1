@@ -2,7 +2,7 @@
 {
   "id": "sharp",
   "key": "refinement.tool.sharp",
-  "incompat": ["sharp2", "sharp3"],
+  "incompat": [],
   "type": ["digger_only", "melee_weapon"],
   "proficiency_cost": 20,
   "material": "kubejs:upgrade_sharp",
@@ -12,7 +12,7 @@
     {
       "property": "minecraft:generic.attack_damage",
       "amount": 0.1,
-      "operation": "multiply_total",
+      "operation": "multiply_base",
       "slots": ["minecraft:mainhand"]
     }
   ],

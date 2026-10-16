@@ -423,6 +423,7 @@ ItemEvents.tooltip(event =>{
 			text.add(Text.of('• §2Uses§7 can be increased by §1right-clicking§7').gray());
 			text.add(Text.of('an §eEstus Shard§7 with the §3Estus Flask§7 in').gray());
 			text.add(Text.of('your inventory').gray());
+			text.add(Text.of(''));
     });	
 
 	event.addAdvanced(['kubejs:gem_shard'], (item, advanced, text) => {
@@ -1563,7 +1564,7 @@ ItemEvents.tooltip(event =>{
 	
 	event.addAdvanced('kubejs:upgrade_swift2', (item, advanced, text) => {
 	if (!event.isShift()) {	
-      text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
+      text.add(1, [Text.of('Rarity: ').white(),Text.of('Uncommon').blue()])
 	  text.add(2, [Text.of('Type: ').white(),Text.of('Tools, Melee').darkGreen()])
 	  text.add(3, [Text.of('Info: ').white(),Text.of('Increase Mining Speed by 25%').darkRed()])
 	} else {text.add(1, [
@@ -1572,7 +1573,7 @@ ItemEvents.tooltip(event =>{
 
 	event.addAdvanced('kubejs:upgrade_swift3', (item, advanced, text) => {
 	if (!event.isShift()) {	
-      text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
+      text.add(1, [Text.of('Rarity: ').white(),Text.of('Rare').blue()])
 	  text.add(2, [Text.of('Type: ').white(),Text.of('Tools, Melee').darkGreen()])
 	  text.add(3, [Text.of('Info: ').white(),Text.of('Increase Mining Speed by 35%').darkRed()])
 	} else {text.add(1, [
@@ -1590,7 +1591,7 @@ ItemEvents.tooltip(event =>{
 
 	event.addAdvanced('kubejs:upgrade_sharp2', (item, advanced, text) => {
 	if (!event.isShift()) {	
-      text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
+      text.add(1, [Text.of('Rarity: ').white(),Text.of('Uncommon').blue()])
 	  text.add(2, [Text.of('Type: ').white(),Text.of('Tools, Melee').darkGreen()])
 	  text.add(3, [Text.of('Info: ').white(),Text.of('Increases Attack Damage by 15%').darkRed()])
 	} else {text.add(1, [
@@ -1599,9 +1600,9 @@ ItemEvents.tooltip(event =>{
 
 	event.addAdvanced('kubejs:upgrade_sharp3', (item, advanced, text) => {
 	if (!event.isShift()) {	
-      text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
+      text.add(1, [Text.of('Rarity: ').white(),Text.of('Rare').blue()])
 	  text.add(2, [Text.of('Type: ').white(),Text.of('Tools, Melee').darkGreen()])
-	  text.add(3, [Text.of('Info: ').white(),Text.of('Increases Attack Damage by 25%').darkRed()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('Increases Attack Damage by 20%').darkRed()])
 	} else {text.add(1, [
         Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
 	})
@@ -1628,7 +1629,7 @@ ItemEvents.tooltip(event =>{
 	if (!event.isShift()) {	
       text.add(1, [Text.of('Rarity: ').white(),Text.of('Common').blue()])
 	  text.add(2, [Text.of('Type: ').white(),Text.of('Chestplate').darkGreen()])
-	  text.add(3, [Text.of('Info: ').white(),Text.of('+100% Max Health, -100% Armor, -100% Armor Toughness').darkRed()])
+	  text.add(3, [Text.of('Info: ').white(),Text.of('+100% Max Health, +100% Shielding Health, -100% Armor, -100% Armor Toughness').darkRed()])
 	} else {text.add(1, [
         Text.of('• Use ').white(),Text.of('Anvil ').darkGreen(),Text.of('to insert it into ').white(),Text.of('Upgrade Slot ').green(),Text.of('in your gear ').white(),Text.of('with enough ').white(),Text.of('Proficiency ').blue()])}	
 	})

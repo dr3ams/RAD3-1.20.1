@@ -10,15 +10,9 @@
   "anvil_levels": 5,
   "bonuses": [
     {
-      "property": "shieldinghealth:attribute.shieldinghealth.shield_delay",
-      "amount": -0.05,
-      "operation": "multiply_base",
-      "slots": ["curios:charm"]
-    },
-    {
       "property": "shieldinghealth:attribute.shieldinghealth.shield_regen",
-      "amount": -0.05,
-      "operation": "multiply_base",
+      "amount": -40,
+      "operation": "addition",
       "slots": ["curios:charm"]
     }
   ],

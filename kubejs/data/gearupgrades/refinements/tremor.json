@@ -3,19 +3,25 @@
   "id": "tremor",
   "key": "refinement.pick.tremor",
   "incompat": [],
-  "type": ["digger_only", "melee_weapon"],
-  "proficiency_cost": 5,
-  "material": "minecraft:gunpowder",
-  "material_count": 16,
+  "type": ["digger_only"],
+  "proficiency_cost": 40,
+  "material": "spelunkery:mineomite",
+  "material_count": 3,
   "anvil_levels": 10,
   "bonuses": [
     {
       "property": "minecraft:generic.attack_damage",
-      "amount": 0.1,
-      "operation": "multiply_total",
+      "amount": 4,
+      "operation": "addition",
       "slots": ["minecraft:mainhand"]
     },
-	{
+    {
+      "property": "attributeslib:armor_pierce",
+      "amount": 2,
+      "operation": "addition",
+      "slots": ["minecraft:mainhand"]
+    },
+    {
       "property": "minecraft:generic.attack_knockback",
       "amount": 1,
       "operation": "addition",
