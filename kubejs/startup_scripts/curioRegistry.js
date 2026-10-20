@@ -124,7 +124,7 @@ StartupEvents.registry('item', event => {
                 .addAttribute(
                     "skilltree:regeneration",
                     "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
-                    0.5,
+                    0.25,
                     'addition'
                 )
                 .addAttribute(
@@ -162,6 +162,18 @@ StartupEvents.registry('item', event => {
                     "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
                     -1,
                     'multiply_total'
+                )
+                .addAttribute(
+                    "forge:block_reach",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    1,
+                    'addition'
+                )
+                .addAttribute(
+                    "attributeslib:mining_speed",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    1,
+                    'multiply_base'
                 )
                 .addAttribute(
                     "combatroll:count",
@@ -205,31 +217,73 @@ StartupEvents.registry('item', event => {
                     'addition'
                 )
                 .addAttribute(
-                    "attributeslib:healing_received",
+                    "minecraft:generic.movement_speed",
                     "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
-                    1,
-                    'multiply_base'
-                )
-                .addAttribute(
-                    "forge:block_reach",
-                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
-                    2,
+                    -0.2,
                     'addition'
                 )
                 .addAttribute(
-                    "attributeslib:mining_speed",
-                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
-                    4,
+                    "minecraft:generic.movement_speed",
+                    "7107de5e-7ce8-4030-940e-514c1f160890",
+                    -2.2,
                     'multiply_base'
                 )
                 .addAttribute(
-                    "ars_nouveau:ars_nouveau.perk.warding",
+                    "enhancedai:push_resistance",
                     "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
-                    0.1,
+                    -0.5,
+                    'addition'
+                )
+                .addAttribute(
+                    "minecraft:generic.knockback_resistance",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    -0.5,
+                    'addition'
+                )
+                .addAttribute(
+                    "combatroll:recharge",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    0.25,
                     'multiply_total'
                 )
                 .addAttribute(
-                    "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "attributeslib:crit_chance",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    0.95,
+                    'addition'
+                )
+                .addAttribute(
+                    "attributeslib:crit_damage",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    -0.25,
+                    'addition'
+                )
+                .addAttribute(
+                    "betterparagliders:sprinting_stamina_reduction",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    1,
+                    'addition'
+                )
+                .addAttribute(
+                    "skilltree:evasion",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    -1,
+                    'multiply_total'
+                )
+                .addAttribute(
+                    "skilltree:blocking",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    -1,
+                    'multiply_total'
+                )
+                .addAttribute(
+                    "minecraft:generic.luck",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    -0.5,
+                    'multiply_base'
+                )
+                .addAttribute(
+                    "attributeslib:dodge_chance",
                     "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
                     -1,
                     'multiply_total'
@@ -237,7 +291,7 @@ StartupEvents.registry('item', event => {
                 .addAttribute(
                     "ars_nouveau:ars_nouveau.perk.mana_regen",
                     "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
-                    -1,
+                    -0.5,
                     'multiply_total'
                 )
         )
@@ -270,6 +324,12 @@ StartupEvents.registry('item', event => {
                     'multiply_base'
                 )
                 .addAttribute(
+                    "ars_nouveau:ars_nouveau.perk.warding",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    0.1,
+                    'multiply_total'
+                )
+                .addAttribute(
                     "minecraft:generic.attack_damage",
                     "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
                     -0.99,
@@ -283,12 +343,12 @@ StartupEvents.registry('item', event => {
                 )
                 .addAttribute(
                     "attributeslib:draw_speed",
-                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    "dcaf3c5c-d125-4708-b5e9-54f7a09908e7",
                     -0.1,
                     'multiply_base'
                 )
                 .addAttribute(
-                    "attributeslib:arrow_velocity",
+                    "celestial_core:arrow_speed",
                     "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
                     -0.3,
                     'multiply_base'
@@ -307,7 +367,7 @@ StartupEvents.registry('item', event => {
                 .addAttribute(
                     "l2damagetracker:damage_reduction",
                     "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
-                    -0.35,
+                    -0.4,
                     'multiply_base'
                 )
                 .addAttribute(
@@ -347,6 +407,12 @@ StartupEvents.registry('item', event => {
                     'multiply_base'
                 )
                 .addAttribute(
+                    "attributeslib:healing_received",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    0.25,
+                    'addition'
+                )
+                .addAttribute(
                     "skilltree:blocking",
                     "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
                     3,
@@ -363,6 +429,12 @@ StartupEvents.registry('item', event => {
                     "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
                     -0.5,
                     'multiply_total'
+                )
+                .addAttribute(
+                    "celestial_core:armor_penetration",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    -0.25,
+                    'addition'
                 )
                 .addAttribute(
                     "ars_nouveau:ars_nouveau.perk.spell_damage",
@@ -435,6 +507,12 @@ StartupEvents.registry('item', event => {
                     "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
                     3,
                     'addition'
+                )
+                .addAttribute(
+                    "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
+                    -0.5,
+                    'multiply_total'
                 )
         )
 

@@ -407,13 +407,7 @@
 				""
 				"Class focuses completely change the way you play the game. These have huge upsides but also huge drawbacks."
 				""
-				"Choose the &l&6Vanilla Focus&r for a more vanilla-like experience; &2+10 Max Health, enabled health regeneration and no stamina, &cbut also lose out on magic, rolls and absorption shields.&r"
-				""
-				"Pick the &l&6Way of the Archer&r if you like to use &2ranged weapons and mine the old-fashioned way&r, &cand don't like spells."
-				""
-				"Select the &l&6Way of the Battlemage&r if you &2wish to have spells be your primary way of fighting&r, &cbut you will not be able to use melee weapons effectively.&r"
-				""
-				"Take the &l&6Tank Focus&r to become &2tough to kill&r, &cbut your damage and ability to move will be reduced.&r"
+				"&eYou can look at the focuses in JEI for detailed stats before buying one."
 				""
 				"&aThese work both outside and in the dungeon dimension."
 			]
@@ -437,6 +431,34 @@
 			title: "Class Focuses"
 			x: 2.66d
 			y: 7.0d
+		}
+		{
+			description: [
+				"Dungeon Locks will usually automatically open after defeating all mobs in the room. However if this doesn't happen you can also force open one by using a Rusty Key on it."
+				""
+				"More Rusty Keys can be traded by the Dungeon Merchant."
+			]
+			id: "0737E33CCC3D8DC3"
+			invisible: true
+			optional: true
+			rewards: [{
+				count: 3
+				id: "2BCB0BE0B1D9B428"
+				item: "kubejs:rusty_key"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "lrdynamicdungeon:lock_block"
+				id: "64FB650C6E30335D"
+				observe_type: 0
+				timer: 20L
+				title: "Observe a Lock Block"
+				to_observe: "lrdynamicdungeon:lock_block"
+				type: "observation"
+			}]
+			title: "Stuck?"
+			x: 2.66d
+			y: -1.0d
 		}
 	]
 	title: "Dungeon Raid"

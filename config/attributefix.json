@@ -551,14 +551,14 @@
       }
     },
     "shieldinghealth:attribute.shieldinghealth.shield_value": {
-      "enabled": false,
+      "enabled": true,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
         "default": 65520,
-        "value": 65520
+        "value": 1000000
       }
     },
     "enhancedai:generic.xray_follow_range": {
@@ -672,10 +672,10 @@
       }
     },
     "celestial_core:toughness_penetration": {
-      "enabled": false,
+      "enabled": true,
       "min": {
         "default": 0,
-        "value": 0
+        "value": -100
       },
       "max": {
         "default": 1,
@@ -1354,10 +1354,10 @@
       }
     },
     "celestial_core:armor_penetration": {
-      "enabled": false,
+      "enabled": true,
       "min": {
         "default": 0,
-        "value": 0
+        "value": -100
       },
       "max": {
         "default": 1,
@@ -2905,10 +2905,10 @@
       }
     },
     "betterparagliders:block_stamina_reduction": {
-      "enabled": false,
+      "enabled": true,
       "min": {
         "default": 0,
-        "value": 0
+        "value": -100
       },
       "max": {
         "default": 100,
@@ -3554,10 +3554,10 @@
       }
     },
     "enhancedai:push_resistance": {
-      "enabled": false,
+      "enabled": true,
       "min": {
         "default": 0,
-        "value": 0
+        "value": -10
       },
       "max": {
         "default": 1,

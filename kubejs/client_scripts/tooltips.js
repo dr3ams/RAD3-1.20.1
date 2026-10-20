@@ -1734,13 +1734,21 @@ ItemEvents.tooltip(event =>{
 				text.add(1, Text.of('A focus for those who dislike when things are changed.').gray().italic())
 				text.add(2, Text.of(' • §6Reverts the player to be similar to vanilla minecraft.').white())
 				text.add(3, Text.of(' • §2Brings back the default 20 hp, health regeneration and no stamina.').white())
-				text.add(4, Text.of(' • §cNo rolls, no shielding, no mana.').white())
+				text.add(4, Text.of(' • §2Increases mining speed and block reach').white())
+				text.add(5, Text.of(' • §cNo rolls, no shielding, no mana.').white())
 	})
 
 	event.addAdvanced('kubejs:archer_focus', (item, advanced, text) => {
-				text.add(1, Text.of('For those seeking a life away from magic.').gray().italic())
-				text.add(2, Text.of(' • §cThis focus wards off the ars elements').white())
-				text.add(3, Text.of(' • §2But instead greatly improves your archery abilities.').white())
+				text.add(1, Text.of('A focus for those who utilize dexterity and speed rather than rely on chance.').gray().italic())
+				text.add(2, Text.of(' • §2Greatly Improves Archery and Rolling Abilities.').white())
+				text.add(3, Text.of(' • §2Guaranteed critical hits, but critical hits deal less damage. Effectively all your damage is increased by 25%.').white())
+				text.add(4, Text.of(' • §2You drain stamina slower from sprinting.').white())
+
+				text.add(5, Text.of(' • §eIncrease Movement Speed by 20%, However other things that affect your base movement speed or multiply base speed are inverted. Examples include froststeel armor, most speed affecting curios, running out of stamina and being affected by powder snow freezing. Most potion effects are not affected.').white())
+				text.add(6, Text.of(' • §eYou can roll and shield bash further, but also take extra knockback.').white())
+
+				text.add(7, Text.of(' • §cLuck is not on your side. You will never passively have the chance to dodge or block attacks.').white())
+				text.add(8, Text.of(' • §cReduced Mana Regeneration.').white())
 	})
 
 	event.addAdvanced('kubejs:mage_focus', (item, advanced, text) => {
@@ -1750,13 +1758,14 @@ ItemEvents.tooltip(event =>{
 
 	event.addAdvanced('kubejs:tank_focus', (item, advanced, text) => {
 				text.add(1, Text.of('A focus for those who find fights too fast-paced.').white())
-				text.add(2, Text.of(' • §2Take 35% less damage from all sources.').white())
+				text.add(2, Text.of(' • §2Take 40% less damage from all sources.').white())
 				text.add(3, Text.of(' • §2Grants great defense with extra health and shielding. Blocking costs less stamina.').white())
-				text.add(4, Text.of(' • §2Faster shield regeneration and shorter delay.').white())
+				text.add(4, Text.of(' • §2Faster health and shield regeneration and shorter delay.').white())
 				text.add(5, Text.of(' • §eHeavier with reduced knockback.').white())
 				text.add(6, Text.of(' • §eMobs cannot push you, you will stand in place during rolls and shield bash.').white())
-				text.add(7, Text.of(' • §cYou also deal less damage and move slower.').white())
+				text.add(7, Text.of(' • §cYou deal less damage especially against high defense enemies and move slower.').white())
 				text.add(8, Text.of(' • §cAttacking and Sprinting costs more stamina.').white())
+				text.add(9, Text.of(' • §cReduced Mana.').white())
 	})
 	
 
