@@ -1,0 +1,85 @@
+
+[general]
+	#Master switch. The keybind toggles this.
+	enabled = true
+
+[acquisition]
+	#true = only hostile mobs, false = any living entity except players and armor stands. Entities listed under [tiers] (and bosses from the boss tag) are targetable either way.
+	hostileOnly = true
+	#Blocks added on top of the player's entity reach
+	#Range: 0.0 ~ 16.0
+	reachBonus = 1.0
+	#Half-angle of the acquisition cone around the crosshair, in degrees
+	#Range: 1.0 ~ 90.0
+	coneHalfAngle = 35.0
+	#Re-scan every N ticks (2 = every 0.1 s)
+	#Range: 1 ~ 20
+	acquireIntervalTicks = 2
+	#Ticks to keep a target after it leaves the cone (10 = 0.5 s)
+	#Range: 0 ~ 100
+	loseGraceTicks = 10
+	#Score advantage of the current target, in degree-equivalents. Higher = less flicker between nearby enemies
+	#Range: 0.0 ~ 90.0
+	stickyBonus = 8.0
+	#Score added per block of distance (lower score wins)
+	#Range: 0.0 ~ 10.0
+	distanceWeight = 0.5
+	#Ignore enemies hidden behind blocks (checks head, body and feet, so fences and thin cover don't block it)
+	requireLineOfSight = true
+	#Entities that are never highlighted. Entity ids, or "modid:*" for every entity of a mod.
+	#Example: ["minecraft:villager", "guardvillagers:*"]
+	blacklist = []
+
+[ring]
+	#Draw a ring on the ground under the target
+	enabled = true
+	#Blocks added to the target's half-width to get the ring radius
+	#Range: 0.0 ~ 4.0
+	padding = 0.25
+	#Ring thickness in blocks
+	#Range: 0.01 ~ 1.0
+	thickness = 0.08
+	#Number of segments (more = rounder)
+	#Range: 8 ~ 128
+	segments = 40
+	#Blocks above the target's feet
+	#Range: 0.0 ~ 1.0
+	yOffset = 0.03
+
+[marker]
+	#Draw a small diamond above the target's head
+	enabled = true
+	#Blocks above the target's head
+	#Range: 0.0 ~ 4.0
+	height = 0.45
+	#Marker half-width in blocks
+	#Range: 0.02 ~ 1.0
+	size = 0.12
+
+[color]
+	#Colour of normal enemies (ring and marker) as RRGGBB hex
+	hex = "FFD75A"
+	#Opacity of normal enemies, 0-255
+	#Range: 0 ~ 255
+	alpha = 100
+	#Colour of enemies listed under customIds, RRGGBB hex
+	customHex = "5AC8FF"
+	#Opacity of custom-tier enemies, 0-255
+	#Range: 0 ~ 255
+	customAlpha = 100
+	#Colour of bosses, RRGGBB hex
+	bossHex = "FF5050"
+	#Opacity of bosses, 0-255
+	#Range: 0 ~ 255
+	bossAlpha = 140
+
+[tiers]
+	#Treat entities in the forge:bosses entity tag as bosses (many mods tag their bosses)
+	bossFromTag = true
+	#Extra entity ids to treat as bosses (boss colour). Entity ids, or "modid:*".
+	#Example: ["cataclysm:ignis", "mowziesmobs:*"]
+	bossIds = ["minecraft:ender_dragon", "minecraft:wither"]
+	#Entity ids that get the custom colour (e.g. minibosses or elites). Entity ids, or "modid:*".
+	#A boss entry wins over a custom entry.
+	customIds = ["minecraft:elder_guardian", "minecraft:warden"]
+

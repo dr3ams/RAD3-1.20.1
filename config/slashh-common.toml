@@ -1,0 +1,14 @@
+#Master switch. Off means the server sends no slashes at all. Players tune what they see in the client config
+#or the settings screen in the mod list.
+enabled = true
+#Most slashes one attacker sends per tick, and most a client draws per tick. A sweep through 30 mobs
+#still costs at most this many.
+#Range: 1 ~ 128
+maxEffectsPerTick = 6
+#Ticks between hits before a combo resets. Consecutive hits alternate direction and build to a finisher.
+#Range: 5 ~ 200
+comboResetTicks = 30
+#Every Nth hit of a combo is a finisher, a crossed X-cut. 0 turns finishers off for everyone.
+#Range: 0 ~ 20
+finisherEvery = 3
+

@@ -1,440 +1,1616 @@
 
-[loot]
-	#Range: 0.0 ~ 1.0
-	goldenEggChance = 0.002
-	#Range: 0.0 ~ 1.0
-	royalHoneycombChance = 0.01
-
-	[loot.chances]
-		#chance for accessory_box.ancient_city
-		#Range: 0.0 ~ 1.0
-		accessory_box_ancient_city = 0.0
-		#chance for accessory_box.bastion_treasure
-		#Range: 0.0 ~ 1.0
-		accessory_box_bastion_treasure = 0.0
-		#chance for accessory_box.buried_treasure
-		#Range: 0.0 ~ 1.0
-		accessory_box_buried_treasure = 0.0
-		#chance for accessory_box.desert_pyramid
-		#Range: 0.0 ~ 1.0
-		accessory_box_desert_pyramid = 0.0
-		#chance for accessory_box.end_city_treasure
-		#Range: 0.0 ~ 1.0
-		accessory_box_end_city_treasure = 0.0
-		#chance for accessory_box.jungle_temple
-		#Range: 0.0 ~ 1.0
-		accessory_box_jungle_temple = 0.0
-		#chance for accessory_box.pillager_outpost
-		#Range: 0.0 ~ 1.0
-		accessory_box_pillager_outpost = 0.0
-		#chance for accessory_box.ruined_portal
-		#Range: 0.0 ~ 1.0
-		accessory_box_ruined_portal = 0.0
-		#chance for accessory_box.shipwreck_treasure
-		#Range: 0.0 ~ 1.0
-		accessory_box_shipwreck_treasure = 0.0
-		#chance for accessory_box.simple_dungeon
-		#Range: 0.0 ~ 1.0
-		accessory_box_simple_dungeon = 0.0
-		#chance for accessory_box.stronghold_corridor
-		#Range: 0.0 ~ 1.0
-		accessory_box_stronghold_corridor = 0.0
-		#chance for accessory_box.stronghold_crossing
-		#Range: 0.0 ~ 1.0
-		accessory_box_stronghold_crossing = 0.0
-		#chance for accessory_box.village_desert_house
-		#Range: 0.0 ~ 1.0
-		accessory_box_village_desert_house = 0.0
-		#chance for accessory_box.village_plains_house
-		#Range: 0.0 ~ 1.0
-		accessory_box_village_plains_house = 0.0
-		#chance for accessory_box.village_savanna_house
-		#Range: 0.0 ~ 1.0
-		accessory_box_village_savanna_house = 0.0
-		#chance for accessory_box.village_snowy_house
-		#Range: 0.0 ~ 1.0
-		accessory_box_village_snowy_house = 0.0
-		#chance for accessory_box.village_taiga_house
-		#Range: 0.0 ~ 1.0
-		accessory_box_village_taiga_house = 0.0
-		#chance for accessory_box.woodland_mansion
-		#Range: 0.0 ~ 1.0
-		accessory_box_woodland_mansion = 0.0
-		#chance for all_purpose_seasoning.village_desert_house
-		#Range: 0.0 ~ 1.0
-		all_purpose_seasoning_village_desert_house = 0.0
-		#chance for all_purpose_seasoning.village_plains_house
-		#Range: 0.0 ~ 1.0
-		all_purpose_seasoning_village_plains_house = 0.0
-		#chance for all_purpose_seasoning.village_taiga_house
-		#Range: 0.0 ~ 1.0
-		all_purpose_seasoning_village_taiga_house = 0.0
-		#chance for all_purpose_seasoning.village_savanna_house
-		#Range: 0.0 ~ 1.0
-		all_purpose_seasoning_village_savanna_house = 0.0
-		#chance for all_purpose_seasoning.village_snowy_house
-		#Range: 0.0 ~ 1.0
-		all_purpose_seasoning_village_snowy_house = 0.0
-		#chance for amplifier_stone.abandoned_mineshaft
-		#Range: 0.0 ~ 1.0
-		amplifier_stone_abandoned_mineshaft = 0.0
-		#chance for ancient_chisel.desert_pyramid
-		#Range: 0.0 ~ 1.0
-		ancient_chisel_desert_pyramid = 0.0
-		#chance for anklet_of_fortune.village_desert_house
-		#Range: 0.0 ~ 1.0
-		anklet_of_fortune_village_desert_house = 0.0
-		#chance for anklet_of_fortune.village_plains_house
-		#Range: 0.0 ~ 1.0
-		anklet_of_fortune_village_plains_house = 0.0
-		#chance for anklet_of_fortune.village_taiga_house
-		#Range: 0.0 ~ 1.0
-		anklet_of_fortune_village_taiga_house = 0.0
-		#chance for anklet_of_fortune.village_savanna_house
-		#Range: 0.0 ~ 1.0
-		anklet_of_fortune_village_savanna_house = 0.0
-		#chance for anklet_of_fortune.village_snowy_house
-		#Range: 0.0 ~ 1.0
-		anklet_of_fortune_village_snowy_house = 0.0
-		#chance for black_belt.pillager
-		#Range: 0.0 ~ 1.0
-		black_belt_pillager = 0.0
-		#chance for black_belt.vindicator
-		#Range: 0.0 ~ 1.0
-		black_belt_vindicator = 0.0
-		#chance for blade_shoes.village_desert_house
-		#Range: 0.0 ~ 1.0
-		blade_shoes_village_desert_house = 0.0
-		#chance for blade_shoes.village_plains_house
-		#Range: 0.0 ~ 1.0
-		blade_shoes_village_plains_house = 0.0
-		#chance for blade_shoes.village_taiga_house
-		#Range: 0.0 ~ 1.0
-		blade_shoes_village_taiga_house = 0.0
-		#chance for blade_shoes.village_savanna_house
-		#Range: 0.0 ~ 1.0
-		blade_shoes_village_savanna_house = 0.0
-		#chance for blade_shoes.village_snowy_house
-		#Range: 0.0 ~ 1.0
-		blade_shoes_village_snowy_house = 0.0
-		#chance for bloody_knife.zombie
-		#Range: 0.0 ~ 1.0
-		bloody_knife_zombie = 0.0
-		#chance for bloody_knife.husk
-		#Range: 0.0 ~ 1.0
-		bloody_knife_husk = 0.0
-		#chance for bloody_knife.witch
-		#Range: 0.0 ~ 1.0
-		bloody_knife_witch = 0.0
-		#chance for burning_soul.warden
-		#Range: 0.0 ~ 1.0
-		burning_soul_warden = 0.0
-		#chance for cursed_doll_head.witch
-		#Range: 0.0 ~ 1.0
-		cursed_doll_head_witch = 0.0
-		#chance for devils_eyeball.bastion_treasure
-		#Range: 0.0 ~ 1.0
-		devils_eyeball_bastion_treasure = 0.0
-		#chance for devils_eyeball.nether_bridge
-		#Range: 0.0 ~ 1.0
-		devils_eyeball_nether_bridge = 0.0
-		#chance for durable_spring.village_armorer
-		#Range: 0.0 ~ 1.0
-		durable_spring_village_armorer = 0.0
-		#chance for durable_spring.village_desert_house
-		#Range: 0.0 ~ 1.0
-		durable_spring_village_desert_house = 0.0
-		#chance for durable_spring.village_plains_house
-		#Range: 0.0 ~ 1.0
-		durable_spring_village_plains_house = 0.0
-		#chance for durable_spring.village_savanna_house
-		#Range: 0.0 ~ 1.0
-		durable_spring_village_savanna_house = 0.0
-		#chance for durable_spring.village_snowy_house
-		#Range: 0.0 ~ 1.0
-		durable_spring_village_snowy_house = 0.0
-		#chance for durable_spring.village_taiga_house
-		#Range: 0.0 ~ 1.0
-		durable_spring_village_taiga_house = 0.0
-		#chance for fossil_shark_tooth.ocean_ruin_cold
-		#Range: 0.0 ~ 1.0
-		fossil_shark_tooth_ocean_ruin_cold = 0.0
-		#chance for fossil_shark_tooth.ocean_ruin_warm
-		#Range: 0.0 ~ 1.0
-		fossil_shark_tooth_ocean_ruin_warm = 0.0
-		#chance for hero_emblem.ender_dragon
-		#Range: 0.0 ~ 1.0
-		hero_emblem_ender_dragon = 0.0
-		#chance for large_paddle.village_fisher
-		#Range: 0.0 ~ 1.0
-		large_paddle_village_fisher = 0.0
-		#chance for large_paddle.village_desert_house
-		#Range: 0.0 ~ 1.0
-		large_paddle_village_desert_house = 0.0
-		#chance for large_paddle.village_plains_house
-		#Range: 0.0 ~ 1.0
-		large_paddle_village_plains_house = 0.0
-		#chance for large_paddle.village_savanna_house
-		#Range: 0.0 ~ 1.0
-		large_paddle_village_savanna_house = 0.0
-		#chance for large_paddle.village_snowy_house
-		#Range: 0.0 ~ 1.0
-		large_paddle_village_snowy_house = 0.0
-		#chance for large_paddle.village_taiga_house
-		#Range: 0.0 ~ 1.0
-		large_paddle_village_taiga_house = 0.0
-		#chance for life_jacket_belt.shipwreck_treasure
-		#Range: 0.0 ~ 1.0
-		life_jacket_belt_shipwreck_treasure = 0.0
-		#chance for magick_quiver.pillager_outpost
-		#Range: 0.0 ~ 1.0
-		magick_quiver_pillager_outpost = 0.0
-		#chance for moon_stone.end_city_treasure
-		#Range: 0.0 ~ 1.0
-		moon_stone_end_city_treasure = 0.0
-		#chance for power_crystal.abandoned_mineshaft
-		#Range: 0.0 ~ 1.0
-		power_crystal_abandoned_mineshaft = 0.0
-		#chance for rose_of_temptation.simple_dungeon
-		#Range: 0.0 ~ 1.0
-		rose_of_temptation_simple_dungeon = 0.0
-		#chance for rusty_guillotine_blade.ruined_portal
-		#Range: 0.0 ~ 1.0
-		rusty_guillotine_blade_ruined_portal = 0.0
-		#chance for sharp_fishing_hook.shipwreck_supply
-		#Range: 0.0 ~ 1.0
-		sharp_fishing_hook_shipwreck_supply = 0.0
-		#chance for shiny_stone.jungle_temple
-		#Range: 0.0 ~ 1.0
-		shiny_stone_jungle_temple = 0.0
-		#chance for silver_cat_tail.woodland_mansion
-		#Range: 0.0 ~ 1.0
-		silver_cat_tail_woodland_mansion = 0.0
-		#chance for small_propulsion_device.village_weaponsmith
-		#Range: 0.0 ~ 1.0
-		small_propulsion_device_village_weaponsmith = 0.0
-		#chance for small_propulsion_device.village_desert_house
-		#Range: 0.0 ~ 1.0
-		small_propulsion_device_village_desert_house = 0.0
-		#chance for small_propulsion_device.village_plains_house
-		#Range: 0.0 ~ 1.0
-		small_propulsion_device_village_plains_house = 0.0
-		#chance for small_propulsion_device.village_savanna_house
-		#Range: 0.0 ~ 1.0
-		small_propulsion_device_village_savanna_house = 0.0
-		#chance for small_propulsion_device.village_snowy_house
-		#Range: 0.0 ~ 1.0
-		small_propulsion_device_village_snowy_house = 0.0
-		#chance for small_propulsion_device.village_taiga_house
-		#Range: 0.0 ~ 1.0
-		small_propulsion_device_village_taiga_house = 0.0
-		#chance for snow_golem_doll.igloo_chest
-		#Range: 0.0 ~ 1.0
-		snow_golem_doll_igloo_chest = 0.0
-		#chance for soul_gem.stronghold_corridor
-		#Range: 0.0 ~ 1.0
-		soul_gem_stronghold_corridor = 0.0
-		#chance for soul_gem.stronghold_crossing
-		#Range: 0.0 ~ 1.0
-		soul_gem_stronghold_crossing = 0.0
-		#chance for starved_wolf_skull.desert_pyramid
-		#Range: 0.0 ~ 1.0
-		starved_wolf_skull_desert_pyramid = 0.0
-		#chance for starved_wolf_skull.desert_well
-		#Range: 0.0 ~ 1.0
-		starved_wolf_skull_desert_well = 0.0
-		#chance for still_beating_heart.piglin_brute
-		#Range: 0.0 ~ 1.0
-		still_beating_heart_piglin_brute = 0.0
-		#chance for strong_sticky_slime_ball.slime
-		#Range: 0.0 ~ 1.0
-		strong_sticky_slime_ball_slime = 0.0
-		#chance for sun_stone.ancient_city
-		#Range: 0.0 ~ 1.0
-		sun_stone_ancient_city = 0.0
-		#chance for survival_belt.village_desert_house
-		#Range: 0.0 ~ 1.0
-		survival_belt_village_desert_house = 0.0
-		#chance for survival_belt.village_plains_house
-		#Range: 0.0 ~ 1.0
-		survival_belt_village_plains_house = 0.0
-		#chance for survival_belt.village_taiga_house
-		#Range: 0.0 ~ 1.0
-		survival_belt_village_taiga_house = 0.0
-		#chance for survival_belt.village_savanna_house
-		#Range: 0.0 ~ 1.0
-		survival_belt_village_savanna_house = 0.0
-		#chance for survival_belt.village_snowy_house
-		#Range: 0.0 ~ 1.0
-		survival_belt_village_snowy_house = 0.0
-		#chance for supreme_meat.hoglin
-		#Range: 0.0 ~ 1.0
-		supreme_meat_hoglin = 0.0
-		#chance for suspicious_mushroom.mooshroom
-		#Range: 0.0 ~ 1.0
-		suspicious_mushroom_mooshroom = 0.0
-		#chance for tabi.pillager
-		#Range: 0.0 ~ 1.0
-		tabi_pillager = 0.0
-		#chance for tabi.vindicator
-		#Range: 0.0 ~ 1.0
-		tabi_vindicator = 0.0
-		#chance for tool_belt.village_toolsmith
-		#Range: 0.0 ~ 1.0
-		tool_belt_village_toolsmith = 0.0
-		#chance for tool_belt.village_desert_house
-		#Range: 0.0 ~ 1.0
-		tool_belt_village_desert_house = 0.0
-		#chance for tool_belt.village_plains_house
-		#Range: 0.0 ~ 1.0
-		tool_belt_village_plains_house = 0.0
-		#chance for tool_belt.village_savanna_house
-		#Range: 0.0 ~ 1.0
-		tool_belt_village_savanna_house = 0.0
-		#chance for tool_belt.village_snowy_house
-		#Range: 0.0 ~ 1.0
-		tool_belt_village_snowy_house = 0.0
-		#chance for tool_belt.village_taiga_house
-		#Range: 0.0 ~ 1.0
-		tool_belt_village_taiga_house = 0.0
-		#chance for waist_warmer.village_desert_house
-		#Range: 0.0 ~ 1.0
-		waist_warmer_village_desert_house = 0.0
-		#chance for waist_warmer.village_plains_house
-		#Range: 0.0 ~ 1.0
-		waist_warmer_village_plains_house = 0.0
-		#chance for waist_warmer.village_taiga_house
-		#Range: 0.0 ~ 1.0
-		waist_warmer_village_taiga_house = 0.0
-		#chance for waist_warmer.village_savanna_house
-		#Range: 0.0 ~ 1.0
-		waist_warmer_village_savanna_house = 0.0
-		#chance for waist_warmer.village_snowy_house
-		#Range: 0.0 ~ 1.0
-		waist_warmer_village_snowy_house = 0.0
-		#chance for withered_heart.nether_bridge
-		#Range: 0.0 ~ 1.0
-		withered_heart_nether_bridge = 0.0
-
-[charm]
-	#Range: 0.0 ~ 512.0
-	amplifierStoneRadius = 24.0
-	#Range: 0.0 ~ 10000.0
-	amplifierStoneDamage = 2.0
-	#Range: -10.0 ~ 100.0
-	ancientChiselMining = 0.5
-	#Range: 0.0 ~ 100.0
-	burningSoulLevelCost = 2.0
-	#Range: 0.0 ~ 512.0
-	cursedDollHeadEffectRadius = 48.0
-	#Range: 0.0 ~ 1.0
-	devilsEyeballCriticalChance = 0.2
-	#Range: -10.0 ~ 100.0
-	devilsEyeballCriticalDamage = 0.2
-	#Range: -1000.0 ~ 1000.0
-	fossilSharkToothPenetration = 5.0
-	#Range: 0.0 ~ 10000.0
-	goldenEggDamage = 8.0
-	#Range: -1000.0 ~ 10000.0
-	heroEmblemAttackDamage = 2.0
-	#Range: -10.0 ~ 100.0
-	heroEmblemArrowDamage = 0.1
-	#Range: -1000.0 ~ 10000.0
-	heroEmblemLowHpAttackDamage = 4.0
-	#Range: -10.0 ~ 100.0
-	heroEmblemLowHpArrowDamage = 0.2
-	#Range: -10.0 ~ 100.0
-	heroEmblemLowHpMovementSpeed = 0.2
-	#Range: -1000.0 ~ 10000.0
-	heroEmblem1HpAttackDamage = 6.0
-	#Range: -10.0 ~ 100.0
-	heroEmblem1HpArrowDamage = 0.3
-	#Range: 0.0 ~ 1.0
-	heroEmblem1HpDodgeChance = 0.2
-	#Range: 0.0 ~ 1.0
-	heroEmblem1HpCriticalChance = 0.2
-	#Range: -10.0 ~ 100.0
-	magickQuiverArrowDamage = 0.3
-	#Range: -10.0 ~ 100.0
-	magickQuiverArrowVelocity = 0.2
-	#Range: -1000.0 ~ 1000.0
-	moonStoneAttackDamage = 4.0
-	#Range: -1000.0 ~ 1000.0
-	moonStoneArmor = 4.0
-	#Range: -10.0 ~ 100.0
-	moonStoneArrowDamage = 0.2
-	#Range: 0.0 ~ 1.0
-	moonStoneCriticalChance = 0.2
-	#Range: -10.0 ~ 100.0
-	moonStoneMiningSpeed = 0.25
-	#Range: 0 ~ 10000
-	moonStoneAttackSpeed = 1
-	#Range: 0 ~ 600
-	moonStoneHealSec = 6
-	#Range: -1000.0 ~ 1000.0
-	sharpFishingHookDamage = 2.0
-	#Range: 0.0 ~ 100.0
-	smallPropulsionMultiplier = 1.3
-	#Range: -1000.0 ~ 10000.0
-	snowGolemDollSnowballDamage = 2.0
-	#Range: 0.0 ~ 1000.0
-	soulGemHeal = 2.0
-	#Range: 0.0 ~ 1000.0
-	starvedWolfSkullHeal = 1.0
-	#Range: -10.0 ~ 100.0
-	starvedWolfSkullMovementSpeed = 0.3
-	#Range: -1000.0 ~ 10000.0
-	starvedWolfSkullAttackDamage = 6.0
-	#Range: -1000.0 ~ 10000.0
-	sunStoneAttackDamage = 4.0
-	#Range: -1000.0 ~ 10000.0
-	sunStoneArmor = 4.0
-	#Range: -10.0 ~ 100.0
-	sunStoneArrowDamage = 0.2
-	#Range: 0.0 ~ 1.0
-	sunStoneCriticalChance = 0.2
-	#Range: -10.0 ~ 100.0
-	sunStoneMiningSpeed = 0.25
-	#Range: 0 ~ 10000
-	sunStoneAttackSpeed = 1
-	#Range: 0 ~ 600
-	sunStoneHealSec = 6
-	#Range: 0.0 ~ 1000.0
-	supremeMeatAttackDamage = 5.0
-	#Range: 0.0 ~ 1000.0
-	supremeMeatArmor = 10.0
-	#Range: 0.0 ~ 10.0
-	supremeMeatMovementSpeed = 0.3
-	#Range: -1000.0 ~ 1000.0
-	witheredHeartMaxHp = 1.0
-
-[belt]
-	#Range: 0.0 ~ 1.0
-	blackBeltDodgeChance = 0.15
-	#Range: -1000.0 ~ 10000.0
-	championshipBeltUnarmedAttackDamage = 6.0
-	#Range: -10.0 ~ 1000.0
-	championshipBeltUnarmedAttackSpeed = 2.0
-	#Range: -1000.0 ~ 10000.0
-	championshipBeltArmor = 4.0
-	#Range: -10.0 ~ 100.0
-	championshipBeltMovementSpeed = 0.05
-	#Range: 0.0 ~ 1.0
-	championshipBeltDodgeChance = 0.05
-	#Range: 0.0 ~ 1.0
-	championshipBeltKnockbackResistance = 0.1
-	#Range: 0.0 ~ 100.0
-	silverCatTailSprintSpeed = 0.1
-	#Range: -10.0 ~ 1000.0
-	toolBeltBlockReach = 2.0
-
 [feet]
+	#Harmful effect negation chance
+	#デバフ効果を無効化する確率
+	#Unit: percent
 	#Range: 0.0 ~ 1.0
 	ankletOfFortuneDebuffNegateChance = 0.5
+	#Walking speed bonus
+	#歩行速度加算
+	#Unit: percent
 	#Range: -10.0 ~ 100.0
-	durableSpringMovementSpeed = 0.05
+	tabiWalkSpeed = 0.2
+	#Maximum boosted glide speed (blocks/tick)
+	#エリトラ加速時の速度上限（ブロック/tick）
+	#Unit: number
+	#Range: 0.0 ~ 10.0
+	rocketShoesGlideSpeedCap = 2.0
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	masterNinjaTabiEnabled = true
+	#Dash strength
+	#ダッシュの強さ
+	#Unit: number
+	#Range: 0.0 ~ 10.0
+	masterNinjaDashStrength = 1.9
+	#Break cobwebs
+	#クモの巣を破壊する
+	#Unit: boolean
+	bladeShoesBreakCobwebs = true
+	#Movement speed bonus
+	#移動速度加算
+	#Unit: percent
+	#Range: -0.95 ~ 10.0
+	masterNinjaTabiWalkSpeed = 0.15
+	#Maximum upward velocity
+	#上昇速度の上限
+	#Unit: number
+	#Range: 0.0 ~ 5.0
+	rocketShoesVelocityCap = 0.75
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	rocketShoesEnabled = true
+	#Dash cooldown
+	#ダッシュのクールダウン
+	#Unit: ticks
+	#Range: 1 ~ 12000
+	masterNinjaDashCooldown = 20
+	#Allow airborne dash
+	#空中ダッシュを許可する
+	#Unit: boolean
+	masterNinjaDashInAir = true
+	#Fall distance reduction for damage calculation
+	#落下ダメージを軽減する距離
+	#Unit: blocks
+	#Range: 0.0 ~ 256.0
+	durableSpringFallGrace = 3.0
+	#Minimum food level for a dash
+	#ダッシュに必要な満腹度
+	#Unit: number
+	#Range: 0 ~ 20
+	masterNinjaDashFoodMinimum = 7
+	#Double-tap detection window
+	#ダブルタップを検出する時間
+	#Unit: ticks
+	#Range: 1 ~ 20
+	tabiDoubleTapTicks = 4
+	#Double-tap detection window
+	#ダブルタップを検出する時間
+	#Unit: ticks
+	#Range: 1 ~ 20
+	masterNinjaDoubleTapTicks = 4
+	#Attack area height above the feet
+	#足元からの攻撃判定の高さ
+	#Unit: blocks
+	#Range: 0.0 ~ 4.0
+	bladeShoesDamageHeight = 0.6
+	#Minimum food level for a dash
+	#ダッシュに必要な満腹度
+	#Unit: number
+	#Range: 0 ~ 20
+	tabiDashFoodMinimum = 7
+	#Maximum blocks broken per tick
+	#1tickあたりの最大破壊数
+	#Unit: number
+	#Range: 0 ~ 64
+	bladeShoesBreakLimit = 6
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	durableSpringEnabled = true
+	#Base upward thrust
+	#基本の上向き推力
+	#Unit: number
+	#Range: 0.0 ~ 3.0
+	rocketShoesBaseThrust = 0.17
+	#Maximum continuous thrust bonus
+	#連続起動ボーナスの上限
+	#Unit: number
+	#Range: 0.0 ~ 5.0
+	rocketShoesBonusMaximum = 0.45
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	bladeShoesEnabled = true
+	#Break other replaceable plants
+	#その他の置換可能な植物を破壊する
+	#Unit: boolean
+	bladeShoesBreakPlants = true
+	#Dash cooldown
+	#ダッシュのクールダウン
+	#Unit: ticks
+	#Range: 1 ~ 12000
+	tabiDashCooldown = 30
+	#Dash strength
+	#ダッシュの強さ
+	#Unit: number
+	#Range: 0.0 ~ 10.0
+	tabiDashStrength = 1.7
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	tabiEnabled = true
+	#Fall distance reduction per tick of thrust
+	#起動1tickあたりの落下距離軽減
+	#Unit: blocks
+	#Range: 0.0 ~ 10.0
+	rocketShoesFallReduction = 0.2
+	#Maximum thrust duration
+	#起動可能時間
+	#Unit: ticks
 	#Range: 1 ~ 12000
 	rocketShoesMaxTicks = 40
+	#Jump height bonus
+	#ジャンプの高さ加算
+	#Unit: percent
+	#Range: 0.0 ~ 10.0
+	durableSpringJumpHeightBonus = 0.5
+	#Base damage at feet while sprinting
+	#ダッシュ中の足元の基礎ダメージ
+	#Unit: number
+	#Range: 0.0 ~ 1000.0
+	bladeShoesSprintDamage = 2.0
+	#Break crops
+	#作物を破壊する
+	#Unit: boolean
+	bladeShoesBreakCrops = true
+	#Break flowers
+	#花を破壊する
+	#Unit: boolean
+	bladeShoesBreakFlowers = true
+	#Interval between sprint damage checks
+	#ダッシュ中の攻撃判定の間隔
+	#Unit: ticks
+	#Range: 1 ~ 200
+	bladeShoesDamageInterval = 10
+	#Additional horizontal speed on jump (blocks/tick)
+	#ジャンプ時の水平速度加算（ブロック/tick）
+	#Unit: number
+	#Range: 0.0 ~ 2.0
+	durableSpringSprintAcceleration = 0.12
+	#Movement speed bonus
+	#移動速度加算
+	#Unit: percent
 	#Range: -10.0 ~ 100.0
-	tabiWalkSpeed = 0.1
+	durableSpringMovementSpeed = 0.05
+	#Extra horizontal attack reach
+	#体の外側への攻撃範囲
+	#Unit: blocks
+	#Range: 0.0 ~ 8.0
+	bladeShoesDamageHorizontalRange = 0.3
+	#Thrust increase per tick of continuous use
+	#連続起動1tickあたりの推力加算
+	#Unit: number
+	#Range: 0.0 ~ 1.0
+	rocketShoesBonusStep = 0.004
+	#Food exhaustion per dash
+	#ダッシュ時の消耗量
+	#Unit: number
+	#Range: 0.0 ~ 40.0
+	masterNinjaDashExhaustion = 0.8
+	#Release the jump key before activating thrust
+	#空中でジャンプキーを一度離してから起動する
+	#Unit: boolean
+	rocketShoesRequireRelease = true
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	ankletOfFortuneEnabled = true
+	#Food exhaustion per dash
+	#ダッシュ時の消耗量
+	#Unit: number
+	#Range: 0.0 ~ 40.0
+	tabiDashExhaustion = 1.0
+	#Acceleration while gliding (blocks/tick per tick)
+	#エリトラ飛行中の加速量（ブロック/tick毎tick）
+	#Unit: number
+	#Range: 0.0 ~ 1.0
+	rocketShoesGlideAcceleration = 0.05
+
+[charm]
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	starvedWolfSkullEnabled = true
+	#Arrow damage bonus
+	#矢ダメージ加算
+	#Unit: percent
+	#Range: -10.0 ~ 100.0
+	magickQuiverArrowDamage = 0.3
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	amplifierStoneEnabled = true
+	#Attack speed bonus
+	#攻撃速度加算
+	#Unit: number
+	#Range: 0 ~ 10000
+	moonStoneAttackSpeed = 1
+	#Healing amount
+	#HP回復量
+	#Unit: number
+	#Range: 0.0 ~ 1000.0
+	starvedWolfSkullHeal = 1.0
+	#Mining speed bonus
+	#採掘速度加算
+	#Unit: percent
+	#Range: -10.0 ~ 100.0
+	sunStoneMiningSpeed = 0.25
+	#Medium-range distance limit
+	#中距離の範囲
+	#Unit: blocks
+	#Range: 0.0 ~ 512.0
+	amplifierStoneMiddleRadius = 8.0
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	powerCrystalEnabled = true
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	strongStickySlimeBallEnabled = true
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	devilsEyeballEnabled = true
+	#Damage at long range
+	#遠距離のダメージ
+	#Unit: number
+	#Range: 0.0 ~ 10000.0
+	amplifierStoneOuterDamage = 4.0
+	#Maximum food level for healing
+	#攻撃時の回復が発動する満腹度の上限
+	#Unit: number
+	#Range: 0 ~ 20
+	starvedWolfHealFoodThreshold = 6
+	#Critical damage multiplier bonus
+	#クリティカルダメージ倍率加算
+	#Unit: number
+	#Range: -10.0 ~ 100.0
+	devilsEyeballCriticalDamage = 0.2
+	#Melee healing cooldown
+	#近接攻撃による回復のクールダウン
+	#Unit: ticks
+	#Range: 1 ~ 12000
+	starvedWolfHealCooldown = 10
+	#Pet wolf buff range
+	#飼い狼を強化する範囲
+	#Unit: blocks
+	#Range: 0.0 ~ 64.0
+	supremeMeatRadius = 32.0
+	#Wither level on sting
+	#攻撃時に与える衰弱のレベル
+	#Unit: number
+	#Range: 1 ~ 10
+	royalBeeWitherLevel = 1
+	#Bee base flying speed
+	#蜂の基礎飛行速度
+	#Unit: number
+	#Range: 0.0 ~ 2.0
+	roseBeeSpeed = 0.45
+	#Close-range distance limit
+	#近距離の範囲
+	#Unit: blocks
+	#Range: 0.0 ~ 512.0
+	amplifierStoneNearRadius = 4.0
+	#Negate harmful effects at critical HP
+	#瀕死時にデバフ効果を無効化する
+	#Unit: boolean
+	heroEmblemCleanse = true
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	suspiciousMushroomEnabled = true
+	#Prevent knockback and blast push while crouching
+	#しゃがみ中はノックバックと爆風を無効化する
+	#Unit: boolean
+	stickySlimeAnchorWhileCrouching = true
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	snowGolemDollEnabled = true
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	largePaddleEnabled = true
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	burningSoulEnabled = true
+	#Experience levels per point of damage prevented
+	#保護ダメージあたりの消費レベル
+	#Unit: number
+	#Range: 0.0 ~ 100.0
+	burningSoulLevelCost = 2.0
+	#Attack damage bonus
+	#攻撃力加算
+	#Unit: number
+	#Range: -1000.0 ~ 1000.0
+	moonStoneAttackDamage = 4.0
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	ninjutsuManualEnabled = true
+	#Allow mobile mobs from other mods
+	#他Modの移動可能なMobも誘導する
+	#Unit: boolean
+	roseAllowModdedMobs = false
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	ancientChiselEnabled = true
+	#Target health ratio threshold
+	#対象のHP割合のしきい値
+	#Unit: percent
+	#Range: 0.0 ~ 1.0
+	rustyBladeHealthThreshold = 0.4
+	#Attack speed bonus
+	#攻撃速度加算
+	#Unit: number
+	#Range: 0 ~ 10000
+	sunStoneAttackSpeed = 1
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	cursedDollHeadEnabled = true
+	#Effect interval
+	#効果の発動間隔
+	#Unit: ticks
+	#Range: 1 ~ 12000
+	cursedDollInterval = 400
+	#Arrow velocity bonus
+	#矢の速度加算
+	#Unit: percent
+	#Range: -10.0 ~ 100.0
+	magickQuiverArrowVelocity = 0.2
+	#Summoned bee maximum health
+	#召喚した蜂の最大HP
+	#Unit: number
+	#Range: 1.0 ~ 1024.0
+	royalBeeHealth = 30.0
+	#Summoned bee speed bonus
+	#召喚した蜂の移動速度加算
+	#Unit: percent
+	#Range: 0.0 ~ 10.0
+	royalBeeSpeedBonus = 0.2
+	#Maximum targeting distance
+	#最大照準距離
+	#Unit: blocks
+	#Range: 1.0 ~ 512.0
+	enderLensMaxDistance = 320.0
+	#Damage bonus against targets with harmful effects
+	#デバフ効果のある対象へのダメージ加算
+	#Unit: percent
+	#Range: 0.0 ~ 10.0
+	cursedDollDebuffDamageBonus = 0.1
+	#Drop chance from hostile endermen
+	#敵対中のエンダーマンからのドロップ確率
+	#Unit: percent
+	#Range: 0.0 ~ 1.0
+	enderLensDropChance = 0.004
+	#Mining speed bonus
+	#採掘速度加算
+	#Unit: percent
+	#Range: -10.0 ~ 100.0
+	moonStoneMiningSpeed = 0.25
+	#Backstab direction threshold
+	#背後判定の内積しきい値
+	#Unit: number
+	#Range: -1.0 ~ 1.0
+	bloodyKnifeBehindDot = -0.5
+	#Required focus time
+	#注視に必要な時間
+	#Unit: ticks
+	#Range: 1 ~ 12000
+	enderLensFocusTicks = 40
+	#Gold nuggets dropped on impact
+	#命中時の金塊の個数
+	#Unit: number
+	#Range: 0 ~ 64
+	goldenEggNuggetCount = 1
+	#Fishing hook launch speed bonus
+	#釣り針の投射速度加算
+	#Unit: percent
+	#Range: 0.0 ~ 5.0
+	sharpFishingHookCastSpeedBonus = 0.5
+	#Prevent block activation while crouching
+	#しゃがみ中にブロックの作動判定を無視する
+	#Unit: boolean
+	ninjutsuIgnoreBlockTriggers = true
+	#Long-range distance limit
+	#遠距離の範囲
+	#Unit: blocks
+	#Range: 0.0 ~ 512.0
+	amplifierStoneOuterRadius = 16.0
+	#Wall climbing speed
+	#壁を登る速度
+	#Unit: number
+	#Range: 0.0 ~ 2.0
+	stickySlimeClimbSpeed = 0.15
+	#HP restored per healing pulse
+	#1回のHP回復量
+	#Unit: number
+	#Range: 0.0 ~ 1000.0
+	mushroomHealAmount = 1.0
+	#Summoning cooldown
+	#召喚のクールダウン
+	#Unit: ticks
+	#Range: 1 ~ 12000
+	royalBeeCooldown = 10
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	stillBeatingHeartEnabled = true
+	#Item charging speed bonus
+	#チャージ速度加算
+	#Unit: percent
+	#Range: -0.95 ~ 10.0
+	powerCrystalDrawSpeed = 0.3
+	#Health restored after eating
+	#食事時のHP回復量
+	#Unit: number
+	#Range: 0.0 ~ 1000.0
+	seasoningHeal = 1.0
+	#Idle time before healing
+	#回復開始までの静止時間
+	#Unit: ticks
+	#Range: 0 ~ 12000
+	shinyStoneIdleTicks = 60
+	#Healing amount
+	#HP回復量
+	#Unit: number
+	#Range: 0.0 ~ 1000.0
+	soulGemHeal = 2.0
+	#Armor bonus
+	#防御力加算
+	#Unit: number
+	#Range: 0.0 ~ 10000.0
+	heroEmblemArmor = 4.0
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	shinyStoneEnabled = true
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	sunStoneEnabled = true
+	#Healing interval
+	#HP回復の間隔
+	#Unit: ticks
+	#Range: 1 ~ 12000
+	mushroomHealInterval = 40
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	sharpFishingHookEnabled = true
+	#Attack damage bonus (base)
+	#通常時の攻撃力
+	#Unit: number
+	#Range: -1000.0 ~ 10000.0
+	heroEmblemAttackDamage = 2.0
+	#Mining speed bonus
+	#採掘速度加算
+	#Unit: percent
+	#Range: -10.0 ~ 100.0
+	ancientChiselMining = 0.5
+	#Critical chance bonus
+	#クリティカル率加算
+	#Unit: percent
+	#Range: 0.0 ~ 1.0
+	sunStoneCriticalChance = 0.2
+	#Hunger level while equipped (0 disables)
+	#装備中の空腹レベル（0で無効）
+	#Unit: number
+	#Range: 0 ~ 10
+	starvedWolfHungerLevel = 2
+	#Maximum wall sliding speed
+	#壁を滑り降りる速度の上限
+	#Unit: number
+	#Range: 0.0 ~ 2.0
+	stickySlimeSlideSpeed = 0.12
+	#Additional snowball damage
+	#雪玉のダメージ
+	#Unit: number
+	#Range: -1000.0 ~ 10000.0
+	snowGolemDollSnowballDamage = 2.0
+	#Summoned bee lifetime
+	#召喚した蜂の生存時間
+	#Unit: ticks
+	#Range: 1 ~ 12000
+	royalBeeLifetime = 160
+	#Healing interval
+	#回復の間隔
+	#Unit: seconds
+	#Range: 0 ~ 600
+	moonStoneHealSec = 6
+	#Arrow damage bonus
+	#矢ダメージ加算
+	#Unit: percent
+	#Range: -10.0 ~ 100.0
+	sunStoneArrowDamage = 0.2
+	#Low HP threshold as a fraction of maximum HP
+	#低HP強化の発動HP割合
+	#Unit: percent
+	#Range: 0.0 ~ 1.0
+	heroEmblemLowHpRatio = 0.5
+	#Additional boat acceleration factor
+	#ボートの追加加速係数
+	#Unit: number
+	#Range: 0.0 ~ 20.0
+	largePaddleSpeedBonus = 2.5
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	bloodyKnifeEnabled = true
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	accessoryBoxEnabled = true
+	#Attack damage bonus
+	#攻撃力加算
+	#Unit: number
+	#Range: -1000.0 ~ 10000.0
+	starvedWolfSkullAttackDamage = 6.0
+	#Extra dodge chance (critical HP)
+	#瀕死時の追加回避率
+	#Unit: percent
+	#Range: 0.0 ~ 1.0
+	heroEmblem1HpDodgeChance = 0.2
+	#Critical chance bonus
+	#クリティカル率加算
+	#Unit: percent
+	#Range: 0.0 ~ 1.0
+	devilsEyeballCriticalChance = 0.2
+	#Extra reel pull (horizontal and vertical)
+	#巻き上げ時の牽引力加算（水平・垂直）
+	#Unit: number
+	#Range: 0.0 ~ 5.0
+	sharpFishingHookPullBonus = 0.4
+	#Extra attack damage (critical HP)
+	#瀕死時の追加攻撃力
+	#Unit: number
+	#Range: -1000.0 ~ 10000.0
+	heroEmblem1HpAttackDamage = 6.0
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	enderLensEnabled = true
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	magickQuiverEnabled = true
+	#Movement speed bonus
+	#移動速度加算
+	#Unit: percent
+	#Range: -10.0 ~ 100.0
+	starvedWolfSkullMovementSpeed = 0.3
+	#Place snow while crouching
+	#しゃがみ中に雪を敷く
+	#Unit: boolean
+	snowGolemDollSnowTrail = true
+	#Projectile speed multiplier
+	#速度の倍率
+	#Unit: number
+	#Range: 0.0 ~ 100.0
+	smallPropulsionMultiplier = 1.3
+	#Extra arrow damage (critical HP)
+	#瀕死時の追加矢ダメージ
+	#Unit: percent
+	#Range: -10.0 ~ 100.0
+	heroEmblem1HpArrowDamage = 0.3
+	#Maximum effect level
+	#効果の最大レベル
+	#Unit: number
+	#Range: 1 ~ 10
+	cursedDollMaxLevel = 3
+	#Damage bonus with harmful effects
+	#デバフ効果がある間のダメージ加算
+	#Unit: percent
+	#Range: 0.0 ~ 100.0
+	mushroomDamageBonus = 0.15
+	#Epic reward weight
+	#エピック報酬の抽選重み
+	#Unit: number
+	#Range: 0 ~ 10000
+	accessoryBoxEpicWeight = 2
+	#Armor bonus
+	#防御力加算
+	#Unit: number
+	#Range: -1000.0 ~ 10000.0
+	sunStoneArmor = 4.0
+	#Attack damage bonus
+	#攻撃力加算
+	#Unit: number
+	#Range: -1000.0 ~ 10000.0
+	sunStoneAttackDamage = 4.0
+	#Arrow damage bonus
+	#矢ダメージ加算
+	#Unit: percent
+	#Range: -10.0 ~ 100.0
+	moonStoneArrowDamage = 0.2
+	#Extra arrow damage (low HP)
+	#低HP時の追加矢ダメージ
+	#Unit: percent
+	#Range: -10.0 ~ 100.0
+	heroEmblemLowHpArrowDamage = 0.2
+	#Extra attack damage (low HP)
+	#低HP時の追加攻撃力
+	#Unit: number
+	#Range: -1000.0 ~ 10000.0
+	heroEmblemLowHpAttackDamage = 4.0
+	#Low HP threshold
+	#低HP強化の発動HP
+	#Unit: number
+	#Range: 1.0 ~ 1024.0
+	heroEmblemLowHpThreshold = 10.0
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	rustyGuillotineBladeEnabled = true
+	#Negate contact damage while crouching
+	#しゃがみ中に接触ダメージを無効化する
+	#Unit: boolean
+	ninjutsuIgnoreBlockDamage = true
+	#Ignore slowing from blocks while crouching
+	#しゃがみ中にブロックによる減速を無視する
+	#Unit: boolean
+	ninjutsuIgnoreSlowing = true
+	#Damage at the farthest range
+	#最外周のダメージ
+	#Unit: number
+	#Range: 0.0 ~ 10000.0
+	amplifierStoneDamage = 2.0
+	#Golden egg launch speed
+	#投射速度
+	#Unit: number
+	#Range: 0.0 ~ 10.0
+	goldenEggVelocity = 1.5
+	#Teleport cooldown
+	#転送のクールダウン
+	#Unit: ticks
+	#Range: 0 ~ 12000
+	enderLensCooldownTicks = 1
+	#Maximum effect range
+	#最外周の範囲
+	#Unit: blocks
+	#Range: 0.0 ~ 512.0
+	amplifierStoneRadius = 32.0
+	#Armor pierce
+	#防御貫通
+	#Unit: number
+	#Range: -1000.0 ~ 1000.0
+	fossilSharkToothPenetration = 5.0
+	#Effect duration
+	#効果の持続時間
+	#Unit: ticks
+	#Range: 1 ~ 12000
+	cursedDollDuration = 400
+	#Extra movement speed (low HP)
+	#低HP時の追加移動速度
+	#Unit: percent
+	#Range: -10.0 ~ 100.0
+	heroEmblemLowHpMovementSpeed = 0.2
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	smallPropulsionDeviceEnabled = true
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	allPurposeSeasoningEnabled = true
+	#Movement speed bonus while crouching
+	#しゃがみ中の移動速度加算
+	#Unit: percent
+	#Range: 0.0 ~ 10.0
+	ninjutsuSneakSpeed = 2.0
+	#Armor bonus
+	#防御力加算
+	#Unit: number
+	#Range: -1000.0 ~ 1000.0
+	moonStoneArmor = 4.0
+	#Damage bonus at full health
+	#HP満タン時のダメージ加算
+	#Unit: percent
+	#Range: 0.0 ~ 100.0
+	stillBeatingHeartFullHpBonus = 0.2
+	#Pathfinding update interval
+	#経路を更新する間隔
+	#Unit: ticks
+	#Range: 1 ~ 40
+	roseNavigationInterval = 1
+	#Effect range along each axis
+	#範囲
+	#Unit: number
+	#Range: 0.0 ~ 512.0
+	cursedDollHeadEffectRadius = 48.0
+	#Damage bonus at or below the HP threshold
+	#しきい値以下の対象へのダメージ加算
+	#Unit: percent
+	#Range: 0.0 ~ 100.0
+	rustyBladeDamageBonus = 0.6
+	#Healing interval
+	#回復の間隔
+	#Unit: seconds
+	#Range: 0 ~ 600
+	sunStoneHealSec = 6
+	#Backstab damage bonus
+	#背後攻撃のダメージ加算
+	#Unit: percent
+	#Range: 0.0 ~ 100.0
+	bloodyKnifeDamageBonus = 0.3
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	royalHoneycombEnabled = true
+	#Damage at medium range
+	#中距離のダメージ
+	#Unit: number
+	#Range: 0.0 ~ 10000.0
+	amplifierStoneMiddleDamage = 6.0
+	#Extra saturation modifier
+	#追加の隠し満腹度係数
+	#Unit: number
+	#Range: 0.0 ~ 10.0
+	seasoningSaturation = 0.0
+	#HP restored per healing pulse
+	#1回のHP回復量
+	#Unit: number
+	#Range: 0.0 ~ 1000.0
+	shinyStoneHealAmount = 1.0
+	#Snow placement interval
+	#雪を敷く間隔
+	#Unit: ticks
+	#Range: 1 ~ 100
+	snowGolemDollTrailInterval = 2
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	supremeMeatEnabled = true
+	#Ground mob base movement speed
+	#地上Mobの基礎移動速度
+	#Unit: number
+	#Range: 0.0 ~ 2.0
+	roseGroundSpeed = 0.22
+	#Attack damage bonus
+	#攻撃力加算
+	#Unit: number
+	#Range: 0.0 ~ 1000.0
+	supremeMeatAttackDamage = 5.0
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	fossilSharkToothEnabled = true
+	#Damage at close range
+	#近距離のダメージ
+	#Unit: number
+	#Range: 0.0 ~ 10000.0
+	amplifierStoneNearDamage = 8.0
+	#Damage
+	#ダメージ
+	#Unit: number
+	#Range: 0.0 ~ 1000.0
+	sharpFishingHookDamage = 6.0
+	#Maximum food level for the movement speed bonus
+	#移動速度強化の満腹度しきい値
+	#Unit: number
+	#Range: 0 ~ 20
+	starvedWolfSpeedFoodThreshold = 6
+	#Armor bonus
+	#防御力加算
+	#Unit: number
+	#Range: 0.0 ~ 1000.0
+	supremeMeatArmor = 10.0
+	#Vertical range for finding a safe destination
+	#安全な転送先を探す上下の範囲
+	#Unit: blocks
+	#Range: 1 ~ 16
+	enderLensSafeSearchRange = 6
+	#Uncommon reward weight
+	#アンコモン報酬の抽選重み
+	#Unit: number
+	#Range: 0 ~ 10000
+	accessoryBoxCommonWeight = 80
+	#Critical HP threshold
+	#瀕死強化の発動HP
+	#Unit: number
+	#Range: 1.0 ~ 1024.0
+	heroEmblemCriticalHpThreshold = 1.0
+	#Movement speed bonus
+	#移動速度加算
+	#Unit: percent
+	#Range: 0.0 ~ 10.0
+	supremeMeatMovementSpeed = 0.3
+	#Healing interval
+	#回復の間隔
+	#Unit: ticks
+	#Range: 1 ~ 12000
+	shinyStoneHealInterval = 10
+	#Affect the wearer
+	#装備者も効果の対象にする
+	#Unit: boolean
+	cursedDollAffectsOwner = true
+	#Lure range
+	#誘導範囲
+	#Unit: blocks
+	#Range: 0.0 ~ 64.0
+	roseLureRadius = 16.0
+	#Accessory rolls per opening
+	#開封1回あたりの抽選回数
+	#Unit: number
+	#Range: 1 ~ 16
+	accessoryBoxRolls = 1
+	#Summoned bee attack damage bonus
+	#召喚した蜂の攻撃力加算
+	#Unit: number
+	#Range: 0.0 ~ 1000.0
+	royalBeeAttackBonus = 5.0
+	#Arrow damage bonus (base)
+	#通常時の矢ダメージ
+	#Unit: percent
+	#Range: -10.0 ~ 100.0
+	heroEmblemArrowDamage = 0.1
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	soulGemEnabled = true
+	#Extra food points
+	#追加の満腹度
+	#Unit: number
+	#Range: 0 ~ 20
+	seasoningFood = 2
+	#Critical chance bonus
+	#クリティカル率加算
+	#Unit: percent
+	#Range: 0.0 ~ 1.0
+	moonStoneCriticalChance = 0.2
+	#Damage
+	#ダメージ
+	#Unit: number
+	#Range: 0.0 ~ 10000.0
+	goldenEggDamage = 8.0
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	moonStoneEnabled = true
+	#Mob detection distance multiplier
+	#Mobの索敵距離の倍率
+	#Unit: number
+	#Range: 0.0 ~ 1.0
+	ninjutsuDetectionFactor = 0.4
+	#Wither duration on sting
+	#攻撃時に与える衰弱の持続時間
+	#Unit: ticks
+	#Range: 0 ~ 12000
+	royalBeeWitherDuration = 400
+	#Rare reward weight
+	#レア報酬の抽選重み
+	#Unit: number
+	#Range: 0 ~ 10000
+	accessoryBoxRareWeight = 18
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	goldenEggCharmEnabled = true
+	#Extra critical chance (critical HP)
+	#瀕死時の追加クリティカル率
+	#Unit: percent
+	#Range: 0.0 ~ 1.0
+	heroEmblem1HpCriticalChance = 0.2
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	roseOfTemptationEnabled = true
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	heroEmblemEnabled = true
+
+[belt]
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	championshipBeltEnabled = true
+	#Attack damage bonus while unarmed
+	#素手時の攻撃力加算
+	#Unit: number
+	#Range: -1000.0 ~ 10000.0
+	championshipBeltUnarmedAttackDamage = 6.0
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	toolBeltEnabled = true
+	#Maximum health fraction restored on waking
+	#起床時に回復する最大HPの割合
+	#Unit: percent
+	#Range: 0.0 ~ 1.0
+	waistWarmerHealRatio = 0.5
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	blackBeltEnabled = true
+	#Block reach bonus
+	#ブロック操作距離加算
+	#Unit: number
+	#Range: -10.0 ~ 1000.0
+	toolBeltBlockReach = 2.0
+	#Attack speed bonus while unarmed
+	#素手時の攻撃速度加算
+	#Unit: number
+	#Range: -10.0 ~ 1000.0
+	championshipBeltUnarmedAttackSpeed = 2.0
+	#HP restored per healing pulse
+	#1回のHP回復量
+	#Unit: number
+	#Range: 0.0 ~ 1000.0
+	survivalBeltHealAmount = 1.0
+	#Heat source search radius
+	#熱源を探す範囲
+	#Unit: blocks
+	#Range: 0 ~ 8
+	survivalBeltHeatRadius = 3
+	#Idle time before healing
+	#回復開始までの静止時間
+	#Unit: ticks
+	#Range: 0 ~ 12000
+	survivalBeltIdleTicks = 40
+	#Dodge chance bonus
+	#回避率加算
+	#Unit: percent
+	#Range: 0.0 ~ 1.0
+	championshipBeltDodgeChance = 0.05
+	#Movement speed bonus while sprinting
+	#疾走時の移動速度加算
+	#Unit: percent
+	#Range: 0.0 ~ 100.0
+	silverCatTailSprintSpeed = 0.1
+	#Attack damage bonus after dodging
+	#回避後の攻撃力加算
+	#Unit: number
+	#Range: 0.0 ~ 10000.0
+	blackBeltBuffAttack = 4.0
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	waistWarmerEnabled = true
+	#Waist depth below the surface
+	#水面から腰までの深さ
+	#Unit: blocks
+	#Range: 0.0 ~ 2.0
+	lifeJacketSurfaceOffset = 0.2
+	#Allow ignition while crouching
+	#しゃがみ中の着火を有効にする
+	#Unit: boolean
+	survivalBeltIgnition = true
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	silverCatTailEnabled = true
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	survivalBeltEnabled = true
+	#Buoyancy multiplier
+	#浮力の倍率
+	#Unit: number
+	#Range: 0.0 ~ 4.0
+	lifeJacketBuoyancy = 1.25
+	#Looting level bonus against animals
+	#動物を倒した時のドロップ増加レベル
+	#Unit: number
+	#Range: 0 ~ 10
+	survivalBeltAnimalLooting = 2
+	#Speed level on waking (0 disables)
+	#起床時の移動速度上昇レベル（0で無効）
+	#Unit: number
+	#Range: 0 ~ 10
+	waistWarmerSpeedLevel = 1
+	#Armor bonus in water or at the surface
+	#水中・水面での防御力加算
+	#Unit: number
+	#Range: 0.0 ~ 1000.0
+	lifeJacketWaterArmor = 4.0
+	#Additional step height
+	#段差を上がれる高さの加算
+	#Unit: blocks
+	#Range: 0.0 ~ 4.0
+	survivalBeltStepHeight = 0.5
+	#Haste level on waking (0 disables)
+	#起床時の採掘速度上昇レベル（0で無効）
+	#Unit: number
+	#Range: 0 ~ 10
+	waistWarmerHasteLevel = 1
+	#Water surface search height
+	#水面を探す最大の高さ
+	#Unit: blocks
+	#Range: 1 ~ 64
+	lifeJacketSurfaceSearch = 32
+	#Negate nonlethal fall damage
+	#致死量未満の落下ダメージを無効化する
+	#Unit: boolean
+	silverCatTailNegateSafeFalls = true
+	#Strength level on waking (0 disables)
+	#起床時の攻撃力上昇レベル（0で無効）
+	#Unit: number
+	#Range: 0 ~ 10
+	waistWarmerStrengthLevel = 1
+	#Buff duration after dodging
+	#回避後の強化時間
+	#Unit: ticks
+	#Range: 0 ~ 12000
+	blackBeltBuffDuration = 100
+	#Dive speed while crouching
+	#しゃがみ時の潜水速度
+	#Unit: number
+	#Range: 0.0 ~ 2.0
+	lifeJacketDiveSpeed = 0.08
+	#Healing interval
+	#回復の間隔
+	#Unit: ticks
+	#Range: 1 ~ 12000
+	survivalBeltHealInterval = 40
+	#Dodge chance bonus
+	#回避率加算
+	#Unit: percent
+	#Range: 0.0 ~ 1.0
+	blackBeltDodgeChance = 0.15
+	#Knockback resistance bonus
+	#ノックバック耐性加算
+	#Unit: number
+	#Range: 0.0 ~ 1.0
+	championshipBeltKnockbackResistance = 0.1
+	#Enable effects
+	#効果を有効にする
+	#Unit: boolean
+	lifeJacketBeltEnabled = true
+	#Movement speed bonus after dodging
+	#回避後の移動速度加算
+	#Unit: percent
+	#Range: 0.0 ~ 10.0
+	blackBeltBuffSpeed = 0.2
+	#Armor bonus
+	#防御力加算
+	#Unit: number
+	#Range: -1000.0 ~ 10000.0
+	championshipBeltArmor = 4.0
+	#Movement speed bonus
+	#移動速度加算
+	#Unit: percent
+	#Range: -10.0 ~ 100.0
+	championshipBeltMovementSpeed = 0.05
+	#Negate freezing
+	#凍結を無効化する
+	#Unit: boolean
+	waistWarmerFreezeImmunity = true
+	#Morning buff duration
+	#起床時の強化時間
+	#Unit: ticks
+	#Range: 0 ~ 24000
+	waistWarmerBuffDuration = 2400
+
+[_migration]
+	#Internal configuration migration history. Do not edit.
+	#設定の自動移行履歴です。手動で変更しないでください。
+	#Range: > 0
+	balanceDefaultsVersion = 1
+
+[loot]
+	#Drop chance when harvesting honeycomb
+	#ハニカム採取時の入手確率
+	#Unit: percent
+	#Range: 0.0 ~ 1.0
+	royalHoneycombChance = 0.01
+	#Drop chance when chickens lay eggs
+	#産卵時の入手確率
+	#Unit: percent
+	#Range: 0.0 ~ 1.0
+	goldenEggChance = 0.002
+
+	[loot.chances]
+		#Drop chance: durable_spring.village_desert_house
+		#入手確率: durable_spring.village_desert_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		durable_spring_village_desert_house = 0.0
+		#Drop chance: bloody_knife.zombie
+		#入手確率: bloody_knife.zombie
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		bloody_knife_zombie = 0.0
+		#Drop chance: waist_warmer.village_desert_house
+		#入手確率: waist_warmer.village_desert_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		waist_warmer_village_desert_house = 0.0
+		#Drop chance: all_purpose_seasoning.village_plains_house
+		#入手確率: all_purpose_seasoning.village_plains_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		all_purpose_seasoning_village_plains_house = 0.0
+		#Drop chance: large_paddle.village_desert_house
+		#入手確率: large_paddle.village_desert_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		large_paddle_village_desert_house = 0.0
+		#Drop chance: soul_gem.stronghold_crossing
+		#入手確率: soul_gem.stronghold_crossing
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		soul_gem_stronghold_crossing = 0.0
+		#Drop chance: suspicious_mushroom.mooshroom
+		#入手確率: suspicious_mushroom.mooshroom
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		suspicious_mushroom_mooshroom = 0.0
+		#Drop chance: blade_shoes.village_taiga_house
+		#入手確率: blade_shoes.village_taiga_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		blade_shoes_village_taiga_house = 0.0
+		#Drop chance: small_propulsion_device.village_plains_house
+		#入手確率: small_propulsion_device.village_plains_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		small_propulsion_device_village_plains_house = 0.0
+		#Drop chance: anklet_of_fortune.village_desert_house
+		#入手確率: anklet_of_fortune.village_desert_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		anklet_of_fortune_village_desert_house = 0.0
+		#Drop chance: snow_golem_doll.igloo_chest
+		#入手確率: snow_golem_doll.igloo_chest
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		snow_golem_doll_igloo_chest = 0.0
+		#Drop chance: survival_belt.village_savanna_house
+		#入手確率: survival_belt.village_savanna_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		survival_belt_village_savanna_house = 0.0
+		#Drop chance: survival_belt.village_taiga_house
+		#入手確率: survival_belt.village_taiga_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		survival_belt_village_taiga_house = 0.0
+		#Drop chance: devils_eyeball.nether_bridge
+		#入手確率: devils_eyeball.nether_bridge
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		devils_eyeball_nether_bridge = 0.0
+		#Drop chance: strong_sticky_slime_ball.slime
+		#入手確率: strong_sticky_slime_ball.slime
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		strong_sticky_slime_ball_slime = 0.0
+		#Drop chance: accessory_box.village_savanna_house
+		#入手確率: accessory_box.village_savanna_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		accessory_box_village_savanna_house = 0.0
+		#Drop chance: bloody_knife.husk
+		#入手確率: bloody_knife.husk
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		bloody_knife_husk = 0.0
+		#Drop chance: hero_emblem.ender_dragon
+		#入手確率: hero_emblem.ender_dragon
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		hero_emblem_ender_dragon = 0.0
+		#Drop chance: bloody_knife.witch
+		#入手確率: bloody_knife.witch
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		bloody_knife_witch = 0.0
+		#Drop chance: large_paddle.village_savanna_house
+		#入手確率: large_paddle.village_savanna_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		large_paddle_village_savanna_house = 0.0
+		#Drop chance: accessory_box.shipwreck_treasure
+		#入手確率: accessory_box.shipwreck_treasure
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		accessory_box_shipwreck_treasure = 0.0
+		#Drop chance: large_paddle.village_fisher
+		#入手確率: large_paddle.village_fisher
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		large_paddle_village_fisher = 0.0
+		#Drop chance: accessory_box.village_snowy_house
+		#入手確率: accessory_box.village_snowy_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		accessory_box_village_snowy_house = 0.0
+		#Drop chance: amplifier_stone.abandoned_mineshaft
+		#入手確率: amplifier_stone.abandoned_mineshaft
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		amplifier_stone_abandoned_mineshaft = 0.0
+		#Drop chance: anklet_of_fortune.village_snowy_house
+		#入手確率: anklet_of_fortune.village_snowy_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		anklet_of_fortune_village_snowy_house = 0.0
+		#Drop chance: devils_eyeball.bastion_treasure
+		#入手確率: devils_eyeball.bastion_treasure
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		devils_eyeball_bastion_treasure = 0.0
+		#Drop chance: accessory_box.village_taiga_house
+		#入手確率: accessory_box.village_taiga_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		accessory_box_village_taiga_house = 0.0
+		#Drop chance: survival_belt.village_snowy_house
+		#入手確率: survival_belt.village_snowy_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		survival_belt_village_snowy_house = 0.0
+		#Drop chance: moon_stone.end_city_treasure
+		#入手確率: moon_stone.end_city_treasure
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		moon_stone_end_city_treasure = 0.0
+		#Drop chance: accessory_box.bastion_treasure
+		#入手確率: accessory_box.bastion_treasure
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		accessory_box_bastion_treasure = 0.0
+		#Drop chance: accessory_box.pillager_outpost
+		#入手確率: accessory_box.pillager_outpost
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		accessory_box_pillager_outpost = 0.0
+		#Drop chance: anklet_of_fortune.village_taiga_house
+		#入手確率: anklet_of_fortune.village_taiga_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		anklet_of_fortune_village_taiga_house = 0.0
+		#Drop chance: all_purpose_seasoning.village_desert_house
+		#入手確率: all_purpose_seasoning.village_desert_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		all_purpose_seasoning_village_desert_house = 0.0
+		#Drop chance: large_paddle.village_plains_house
+		#入手確率: large_paddle.village_plains_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		large_paddle_village_plains_house = 0.0
+		#Drop chance: durable_spring.village_plains_house
+		#入手確率: durable_spring.village_plains_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		durable_spring_village_plains_house = 0.0
+		#Drop chance: all_purpose_seasoning.village_snowy_house
+		#入手確率: all_purpose_seasoning.village_snowy_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		all_purpose_seasoning_village_snowy_house = 0.0
+		#Drop chance: survival_belt.village_desert_house
+		#入手確率: survival_belt.village_desert_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		survival_belt_village_desert_house = 0.0
+		#Drop chance: fossil_shark_tooth.ocean_ruin_cold
+		#入手確率: fossil_shark_tooth.ocean_ruin_cold
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		fossil_shark_tooth_ocean_ruin_cold = 0.0
+		#Drop chance: blade_shoes.village_snowy_house
+		#入手確率: blade_shoes.village_snowy_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		blade_shoes_village_snowy_house = 0.0
+		#Drop chance: waist_warmer.village_savanna_house
+		#入手確率: waist_warmer.village_savanna_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		waist_warmer_village_savanna_house = 0.0
+		#Drop chance: power_crystal.abandoned_mineshaft
+		#入手確率: power_crystal.abandoned_mineshaft
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		power_crystal_abandoned_mineshaft = 0.0
+		#Drop chance: small_propulsion_device.village_savanna_house
+		#入手確率: small_propulsion_device.village_savanna_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		small_propulsion_device_village_savanna_house = 0.0
+		#Drop chance: accessory_box.simple_dungeon
+		#入手確率: accessory_box.simple_dungeon
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		accessory_box_simple_dungeon = 0.0
+		#Drop chance: accessory_box.village_desert_house
+		#入手確率: accessory_box.village_desert_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		accessory_box_village_desert_house = 0.0
+		#Drop chance: durable_spring.village_snowy_house
+		#入手確率: durable_spring.village_snowy_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		durable_spring_village_snowy_house = 0.0
+		#Drop chance: blade_shoes.village_desert_house
+		#入手確率: blade_shoes.village_desert_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		blade_shoes_village_desert_house = 0.0
+		#Drop chance: burning_soul.warden
+		#入手確率: burning_soul.warden
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		burning_soul_warden = 0.0
+		#Drop chance: durable_spring.village_taiga_house
+		#入手確率: durable_spring.village_taiga_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		durable_spring_village_taiga_house = 0.0
+		#Drop chance: tabi.pillager
+		#入手確率: tabi.pillager
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		tabi_pillager = 0.0
+		#Drop chance: accessory_box.desert_pyramid
+		#入手確率: accessory_box.desert_pyramid
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		accessory_box_desert_pyramid = 0.0
+		#Drop chance: large_paddle.village_snowy_house
+		#入手確率: large_paddle.village_snowy_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		large_paddle_village_snowy_house = 0.0
+		#Drop chance: tool_belt.village_savanna_house
+		#入手確率: tool_belt.village_savanna_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		tool_belt_village_savanna_house = 0.0
+		#Drop chance: rusty_guillotine_blade.ruined_portal
+		#入手確率: rusty_guillotine_blade.ruined_portal
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		rusty_guillotine_blade_ruined_portal = 0.0
+		#Drop chance: small_propulsion_device.village_desert_house
+		#入手確率: small_propulsion_device.village_desert_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		small_propulsion_device_village_desert_house = 0.0
+		#Drop chance: waist_warmer.village_snowy_house
+		#入手確率: waist_warmer.village_snowy_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		waist_warmer_village_snowy_house = 0.0
+		#Drop chance: blade_shoes.village_savanna_house
+		#入手確率: blade_shoes.village_savanna_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		blade_shoes_village_savanna_house = 0.0
+		#Drop chance: accessory_box.village_plains_house
+		#入手確率: accessory_box.village_plains_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		accessory_box_village_plains_house = 0.0
+		#Drop chance: large_paddle.village_taiga_house
+		#入手確率: large_paddle.village_taiga_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		large_paddle_village_taiga_house = 0.0
+		#Drop chance: waist_warmer.village_taiga_house
+		#入手確率: waist_warmer.village_taiga_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		waist_warmer_village_taiga_house = 0.0
+		#Drop chance: sharp_fishing_hook.shipwreck_supply
+		#入手確率: sharp_fishing_hook.shipwreck_supply
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		sharp_fishing_hook_shipwreck_supply = 0.0
+		#Drop chance: anklet_of_fortune.village_savanna_house
+		#入手確率: anklet_of_fortune.village_savanna_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		anklet_of_fortune_village_savanna_house = 0.0
+		#Drop chance: shiny_stone.jungle_temple
+		#入手確率: shiny_stone.jungle_temple
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		shiny_stone_jungle_temple = 0.0
+		#Drop chance: all_purpose_seasoning.village_taiga_house
+		#入手確率: all_purpose_seasoning.village_taiga_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		all_purpose_seasoning_village_taiga_house = 0.0
+		#Drop chance: silver_cat_tail.woodland_mansion
+		#入手確率: silver_cat_tail.woodland_mansion
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		silver_cat_tail_woodland_mansion = 0.0
+		#Drop chance: accessory_box.stronghold_crossing
+		#入手確率: accessory_box.stronghold_crossing
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		accessory_box_stronghold_crossing = 0.0
+		#Drop chance: survival_belt.village_plains_house
+		#入手確率: survival_belt.village_plains_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		survival_belt_village_plains_house = 0.0
+		#Drop chance: accessory_box.ruined_portal
+		#入手確率: accessory_box.ruined_portal
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		accessory_box_ruined_portal = 0.0
+		#Drop chance: tool_belt.village_toolsmith
+		#入手確率: tool_belt.village_toolsmith
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		tool_belt_village_toolsmith = 0.0
+		#Drop chance: tool_belt.village_plains_house
+		#入手確率: tool_belt.village_plains_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		tool_belt_village_plains_house = 0.0
+		#Drop chance: blade_shoes.village_plains_house
+		#入手確率: blade_shoes.village_plains_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		blade_shoes_village_plains_house = 0.0
+		#Drop chance: tool_belt.village_desert_house
+		#入手確率: tool_belt.village_desert_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		tool_belt_village_desert_house = 0.0
+		#Drop chance: accessory_box.jungle_temple
+		#入手確率: accessory_box.jungle_temple
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		accessory_box_jungle_temple = 0.0
+		#Drop chance: magick_quiver.pillager_outpost
+		#入手確率: magick_quiver.pillager_outpost
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		magick_quiver_pillager_outpost = 0.0
+		#Drop chance: accessory_box.buried_treasure
+		#入手確率: accessory_box.buried_treasure
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		accessory_box_buried_treasure = 0.0
+		#Drop chance: black_belt.vindicator
+		#入手確率: black_belt.vindicator
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		black_belt_vindicator = 0.0
+		#Drop chance: small_propulsion_device.village_weaponsmith
+		#入手確率: small_propulsion_device.village_weaponsmith
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		small_propulsion_device_village_weaponsmith = 0.0
+		#Drop chance: rose_of_temptation.simple_dungeon
+		#入手確率: rose_of_temptation.simple_dungeon
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		rose_of_temptation_simple_dungeon = 0.0
+		#Drop chance: accessory_box.stronghold_corridor
+		#入手確率: accessory_box.stronghold_corridor
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		accessory_box_stronghold_corridor = 0.0
+		#Drop chance: supreme_meat.hoglin
+		#入手確率: supreme_meat.hoglin
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		supreme_meat_hoglin = 0.0
+		#Drop chance: cursed_doll_head.witch
+		#入手確率: cursed_doll_head.witch
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		cursed_doll_head_witch = 0.0
+		#Drop chance: tabi.vindicator
+		#入手確率: tabi.vindicator
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		tabi_vindicator = 0.0
+		#Drop chance: anklet_of_fortune.village_plains_house
+		#入手確率: anklet_of_fortune.village_plains_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		anklet_of_fortune_village_plains_house = 0.0
+		#Drop chance: starved_wolf_skull.desert_pyramid
+		#入手確率: starved_wolf_skull.desert_pyramid
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		starved_wolf_skull_desert_pyramid = 0.0
+		#Drop chance: durable_spring.village_armorer
+		#入手確率: durable_spring.village_armorer
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		durable_spring_village_armorer = 0.0
+		#Drop chance: waist_warmer.village_plains_house
+		#入手確率: waist_warmer.village_plains_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		waist_warmer_village_plains_house = 0.0
+		#Drop chance: black_belt.pillager
+		#入手確率: black_belt.pillager
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		black_belt_pillager = 0.0
+		#Drop chance: accessory_box.ancient_city
+		#入手確率: accessory_box.ancient_city
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		accessory_box_ancient_city = 0.0
+		#Drop chance: starved_wolf_skull.desert_well
+		#入手確率: starved_wolf_skull.desert_well
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		starved_wolf_skull_desert_well = 0.0
+		#Drop chance: life_jacket_belt.shipwreck_treasure
+		#入手確率: life_jacket_belt.shipwreck_treasure
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		life_jacket_belt_shipwreck_treasure = 0.0
+		#Drop chance: still_beating_heart.piglin_brute
+		#入手確率: still_beating_heart.piglin_brute
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		still_beating_heart_piglin_brute = 0.0
+		#Drop chance: durable_spring.village_savanna_house
+		#入手確率: durable_spring.village_savanna_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		durable_spring_village_savanna_house = 0.0
+		#Drop chance: tool_belt.village_taiga_house
+		#入手確率: tool_belt.village_taiga_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		tool_belt_village_taiga_house = 0.0
+		#Drop chance: accessory_box.woodland_mansion
+		#入手確率: accessory_box.woodland_mansion
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		accessory_box_woodland_mansion = 0.0
+		#Drop chance: sun_stone.ancient_city
+		#入手確率: sun_stone.ancient_city
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		sun_stone_ancient_city = 0.0
+		#Drop chance: fossil_shark_tooth.ocean_ruin_warm
+		#入手確率: fossil_shark_tooth.ocean_ruin_warm
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		fossil_shark_tooth_ocean_ruin_warm = 0.0
+		#Drop chance: tool_belt.village_snowy_house
+		#入手確率: tool_belt.village_snowy_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		tool_belt_village_snowy_house = 0.0
+		#Drop chance: ancient_chisel.desert_pyramid
+		#入手確率: ancient_chisel.desert_pyramid
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		ancient_chisel_desert_pyramid = 0.0
+		#Drop chance: small_propulsion_device.village_snowy_house
+		#入手確率: small_propulsion_device.village_snowy_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		small_propulsion_device_village_snowy_house = 0.0
+		#Drop chance: soul_gem.stronghold_corridor
+		#入手確率: soul_gem.stronghold_corridor
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		soul_gem_stronghold_corridor = 0.0
+		#Drop chance: withered_heart.nether_bridge
+		#入手確率: withered_heart.nether_bridge
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		withered_heart_nether_bridge = 0.0
+		#Drop chance: all_purpose_seasoning.village_savanna_house
+		#入手確率: all_purpose_seasoning.village_savanna_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		all_purpose_seasoning_village_savanna_house = 0.0
+		#Drop chance: accessory_box.end_city_treasure
+		#入手確率: accessory_box.end_city_treasure
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		accessory_box_end_city_treasure = 0.0
+		#Drop chance: small_propulsion_device.village_taiga_house
+		#入手確率: small_propulsion_device.village_taiga_house
+		#Unit: percent
+		#Range: 0.0 ~ 1.0
+		small_propulsion_device_village_taiga_house = 0.0
 

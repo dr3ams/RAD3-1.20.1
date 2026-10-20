@@ -1,0 +1,26 @@
+
+[startup]
+	#Replace Iron's W x S imbue combinations with max(W, S) representative recipes.
+	#Every imbueable item and every enabled spell level remains represented in JEI.
+	compactIronImbuing = true
+	#Keep a small, coverage-preserving set of JEI anvil examples.
+	#Every enchantment with a generated recipe remains represented.
+	optimizeAnvilRepresentatives = true
+	#Maximum number of distinct compatible items shown for each anvil enchantment.
+	#Range: 1 ~ 64
+	anvilRepresentativesPerEnchantment = 3
+	#Maximum number of generic anvil repair examples retained in JEI.
+	#Range: 0 ~ 256
+	anvilRepairRepresentatives = 16
+	#Keep a small, coverage-preserving set of JEI grindstone examples.
+	#Every removable enchantment with a generated recipe remains represented.
+	optimizeGrindstoneRepresentatives = true
+	#Maximum number of distinct compatible items shown for each grindstone enchantment.
+	#Range: 1 ~ 64
+	grindstoneRepresentativesPerEnchantment = 3
+	#Maximum number of generic grindstone repair examples retained in JEI.
+	#Range: 0 ~ 256
+	grindstoneRepairRepresentatives = 16
+	#Log original and retained JEI representative recipe counts.
+	logRepresentativeStats = true
+

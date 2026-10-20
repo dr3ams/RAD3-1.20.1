@@ -30,3 +30,24 @@ ItemEvents.rightClicked('ars_nouveau:spell_crossbow', event => {
         player.swing()		
     }
 })
+
+const minMana = 100;
+
+const casterTomes = [
+    'ars_elemental:fire_caster_tome',
+    'ars_elemental:water_caster_tome',
+    'ars_elemental:air_caster_tome',
+    'ars_elemental:earth_caster_tome',
+    'ars_elemental:anima_caster_tome',
+    'ars_elemental:manipulation_caster_tome',
+    'ars_nouveau:caster_tome'
+]
+
+ItemEvents.rightClicked(event =>{
+    const {hand, item, target, entity} = event
+    //console.log(hand,item,target,entity)
+    if (!entity.isPlayer()) return
+    if (casterTomes.indexOf(item.getId()) >= 0){
+        if (entity.getAttributeTotalValue("ars_nouveau:ars_nouveau.perk.max_mana") <= minMana) event.cancel()
+    }
+})

@@ -721,7 +721,7 @@ function updateSoulAttributes(player) {
         if (healthBonus > 0) {
             player.modifyAttribute(ATTR_CONFIG.maxHealth.attribute, ATTR_CONFIG.maxHealth.modifierId, healthBonus, ATTR_CONFIG.maxHealth.operation)
         }
-        if (healthBonus > lastHealthBonus) {
+        if (healthBonus > 0 && healthBonus > lastHealthBonus) { // > 0 check: login resets lastHealthBonus to -1, so 0 > -1 would announce a bonus you don't have
             player.tell(Text.of(`§c✦ Your soul mastery strengthens your body. §7(+${healthBonus / 2} hearts)`).italic())
         } else if (healthBonus == 0 && lastHealthBonus > 0) {
             player.tell(Text.of('§7Your body dims without the jar at hand.').italic())
@@ -747,7 +747,7 @@ function updateSoulAttributes(player) {
             if (percentBonus > 0) {
                 player.modifyAttribute(chosenAttr, ATTR_CONFIG.secondAttribute.modifierId, percentBonus, ATTR_CONFIG.secondAttribute.operation)
             }
-            if (percentBonus > lastPercentBonus) {
+            if (percentBonus > 0 && percentBonus > lastPercentBonus) { // same -1 sentinel issue as health
                 player.tell(Text.of(`§b✦ The jar's power flows into you. §7(${formatId(chosenAttr)} +${Math.round(percentBonus * 100)}%)`).italic())
             }
             player.persistentData.soulAttrSecondApplied = percentBonus
