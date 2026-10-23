@@ -6,7 +6,7 @@
       "attribute": "minecraft:generic.armor",
       "id": "d0520bd3-d646-4050-9b59-b37abf504ee7",
       "name": "SkillBonus",
-      "amount": 5.0,
+      "amount": 3.0,
       "operation": 0,
       "player_multiplier": {
         "type": "skilltree:none"
@@ -20,7 +20,21 @@
       "attribute": "skilltree:blocking",
       "id": "f097b467-2a9f-4314-8862-6e0be4c6ac39",
       "name": "SkillBonus",
-      "amount": 5.0,
+      "amount": 3.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "celestial_core:armor_penetration",
+      "id": "66cc6aed-2f63-4d2d-aa8e-a88518903d54",
+      "name": "SkillBonus",
+      "amount": -0.2,
       "operation": 0,
       "player_multiplier": {
         "type": "skilltree:none"
@@ -44,5 +58,6 @@
   "positionX": -200.37517,
   "positionY": -283.09222,
   "buttonSize": 24,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "title": "Stalwart"
 }

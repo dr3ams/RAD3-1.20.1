@@ -3,10 +3,10 @@
   "bonuses": [
     {
       "type": "skilltree:attribute",
-      "attribute": "minecraft:generic.max_health",
+      "attribute": "shieldinghealth:attribute.shieldinghealth.shield_value",
       "id": "68579317-3c02-4513-af22-c57dfc5f861c",
       "name": "SkillBonus",
-      "amount": 2.0,
+      "amount": 1.0,
       "operation": 0,
       "player_multiplier": {
         "type": "skilltree:none"
@@ -17,7 +17,7 @@
     },
     {
       "type": "skilltree:incoming_healing",
-      "multiplier": 0.05,
+      "multiplier": 0.01,
       "player_multiplier": {
         "type": "skilltree:none"
       },

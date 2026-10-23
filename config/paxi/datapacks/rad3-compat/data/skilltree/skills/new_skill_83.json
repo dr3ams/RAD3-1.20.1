@@ -3,30 +3,17 @@
   "bonuses": [
     {
       "type": "skilltree:attribute",
-      "attribute": "minecraft:generic.attack_knockback",
-      "id": "6781cbd1-cf6e-4379-aa84-a299444c2b3f",
+      "attribute": "attributeslib:armor_shred",
+      "id": "ee8ca0df-a5c7-4188-8e4e-c0193c378d59",
       "name": "Skill",
-      "amount": 0.5,
+      "amount": 0.1,
       "operation": 0,
       "player_multiplier": {
         "type": "skilltree:none"
       },
       "player_condition": {
-        "type": "skilltree:none"
-      }
-    },
-    {
-      "type": "skilltree:attribute",
-      "attribute": "minecraft:generic.knockback_resistance",
-      "id": "32c50ead-9461-49e3-a716-7fd0612d320e",
-      "name": "Skill",
-      "amount": 0.1,
-      "operation": 1,
-      "player_multiplier": {
-        "type": "skilltree:none"
-      },
-      "player_condition": {
-        "type": "skilltree:none"
+        "effect": "fruitsdelight:leaf_piercing",
+        "type": "skilltree:has_effect"
       }
     }
   ],
@@ -39,9 +26,10 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/blacksmith_subclass_2_crafting_1.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "positionX": 462.9281,
-  "positionY": 199.75742,
+  "title": "Razor Leaf",
+  "titleColor": "",
+  "positionX": 462.928,
+  "positionY": 199.757,
   "buttonSize": 16,
-  "isStartingPoint": false,
-  "title": "Attack Knockback and Knockback Resistance"
+  "isStartingPoint": false
 }

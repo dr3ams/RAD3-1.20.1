@@ -2,32 +2,19 @@
   "id": "skilltree:blacksmith_subclass_1_crafting_5",
   "bonuses": [
     {
-      "type": "skilltree:crafted_item_bonus",
-      "item_condition": {
-        "equipment_type": "melee_weapon",
-        "type": "skilltree:equipment_type"
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:fire_damage",
+      "id": "1a086a2a-3ae4-4dba-91eb-a00066f91630",
+      "name": "Skill",
+      "amount": 3.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
       },
-      "item_bonus": {
-        "skill_bonus": {
-          "chance": 0.01,
-          "player_multiplier": {
-            "type": "skilltree:none"
-          },
-          "enemy_multiplier": {
-            "type": "skilltree:none"
-          },
-          "player_condition": {
-            "type": "skilltree:none"
-          },
-          "damage_condition": {
-            "type": "skilltree:none"
-          },
-          "target_condition": {
-            "type": "skilltree:none"
-          },
-          "type": "skilltree:crit_chance"
-        },
-        "type": "skilltree:skill_bonus"
+      "player_condition": {
+        "effect": "l2complements:curse",
+        "amplifier": 0,
+        "type": "skilltree:has_effect"
       }
     }
   ],
@@ -40,9 +27,10 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/blacksmith_subclass_1_crafting_1.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Cursed Blade",
   "titleColor": "",
-  "positionX": -238.8901,
-  "positionY": -349.80698,
+  "positionX": -238.89,
+  "positionY": -349.807,
   "buttonSize": 16,
   "isStartingPoint": false
 }

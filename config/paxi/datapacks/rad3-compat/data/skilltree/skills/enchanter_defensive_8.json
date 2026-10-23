@@ -3,10 +3,10 @@
   "bonuses": [
     {
       "type": "skilltree:attribute",
-      "attribute": "skilltree:blocking",
+      "attribute": "shieldinghealth:attribute.shieldinghealth.shield_value",
       "id": "4f934202-aadd-495e-8167-a5ad09d00e1d",
       "name": "SkillBonus",
-      "amount": 1.0,
+      "amount": 1,
       "operation": 0,
       "player_multiplier": {
         "type": "skilltree:none"
@@ -29,5 +29,6 @@
   "positionX": 275.71255,
   "positionY": -221.5202,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "title": "Shielding"
 }

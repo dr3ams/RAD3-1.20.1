@@ -9,28 +9,18 @@
       },
       "item_bonus": {
         "skill_bonus": {
-          "chance": 1.0,
-          "amount": 0.5,
-          "event_listener": {
-            "damage_condition": {
-              "type": "skilltree:none"
-            },
-            "enemy_condition": {
-              "type": "skilltree:none"
-            },
-            "player_condition": {
-              "type": "skilltree:none"
-            },
-            "enemy_multiplier": {
-              "type": "skilltree:none"
-            },
-            "player_multiplier": {
-              "type": "skilltree:none"
-            },
-            "target": "player",
-            "type": "skilltree:attack"
+          "attribute": "attributeslib:overheal",
+          "id": "d2200448-6fb2-414e-a69f-8b0d21ac178b",
+          "name": "SkillBonus",
+          "amount": 0.05,
+          "operation": 0,
+          "player_multiplier": {
+            "type": "skilltree:none"
           },
-          "type": "skilltree:healing"
+          "player_condition": {
+            "type": "skilltree:none"
+          },
+          "type": "skilltree:attribute"
         },
         "type": "skilltree:skill_bonus"
       }

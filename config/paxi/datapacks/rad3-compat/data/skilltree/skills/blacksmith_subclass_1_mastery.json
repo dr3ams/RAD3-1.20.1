@@ -3,20 +3,6 @@
   "bonuses": [
     {
       "type": "skilltree:attribute",
-      "attribute": "skilltree:blocking",
-      "id": "019a5a09-6279-4cfa-be84-2f853adf502f",
-      "name": "SkillBonus",
-      "amount": 10.0,
-      "operation": 0,
-      "player_multiplier": {
-        "type": "skilltree:none"
-      },
-      "player_condition": {
-        "type": "skilltree:none"
-      }
-    },
-    {
-      "type": "skilltree:attribute",
       "attribute": "minecraft:generic.armor",
       "id": "1394de43-0a17-4638-b97f-d7b6faab6d8b",
       "name": "SkillBonus",
@@ -30,23 +16,32 @@
       }
     },
     {
-      "type": "skilltree:damage",
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "019a5a09-6279-4cfa-be84-2f853adf502f",
+      "name": "SkillBonus",
+      "amount": 0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "1179dfb6-6a23-496d-bc59-13f5b7ba25f3",
+      "name": "SkillBonus",
       "amount": 0.05,
       "operation": 1,
       "player_multiplier": {
         "type": "skilltree:none"
       },
-      "enemy_multiplier": {
-        "type": "skilltree:none"
-      },
       "player_condition": {
-        "type": "skilltree:none"
-      },
-      "damage_condition": {
-        "type": "skilltree:melee"
-      },
-      "target_condition": {
-        "type": "skilltree:none"
+        "effect": "minecraft:resistance",
+        "type": "skilltree:has_effect"
       }
     }
   ],

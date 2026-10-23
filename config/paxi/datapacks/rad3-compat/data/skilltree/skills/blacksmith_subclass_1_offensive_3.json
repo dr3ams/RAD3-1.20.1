@@ -2,23 +2,18 @@
   "id": "skilltree:blacksmith_subclass_1_offensive_3",
   "bonuses": [
     {
-      "type": "skilltree:damage",
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "c4ff0342-d060-4b79-ba09-a295083ef14a",
+      "name": "SkillBonus",
       "amount": 0.01,
       "operation": 1,
       "player_multiplier": {
         "type": "skilltree:none"
       },
-      "enemy_multiplier": {
-        "type": "skilltree:none"
-      },
       "player_condition": {
-        "type": "skilltree:none"
-      },
-      "damage_condition": {
-        "type": "skilltree:melee"
-      },
-      "target_condition": {
-        "type": "skilltree:none"
+        "effect": "minecraft:resistance",
+        "type": "skilltree:has_effect"
       }
     },
     {
@@ -26,7 +21,7 @@
       "attribute": "skilltree:blocking",
       "id": "c9a810c6-a7f1-4a92-94e3-979bc29a6244",
       "name": "SkillBonus",
-      "amount": 1.0,
+      "amount": 0.5,
       "operation": 0,
       "player_multiplier": {
         "type": "skilltree:none"

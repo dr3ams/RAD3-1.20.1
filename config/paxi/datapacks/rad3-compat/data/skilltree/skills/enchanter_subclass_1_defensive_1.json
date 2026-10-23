@@ -3,24 +3,10 @@
   "bonuses": [
     {
       "type": "skilltree:attribute",
-      "attribute": "skilltree:evasion",
+      "attribute": "shieldinghealth:attribute.shieldinghealth.shield_value",
       "id": "0865232f-1619-43d2-96de-f4029b49b4ea",
       "name": "SkillBonus",
-      "amount": 0.5,
-      "operation": 0,
-      "player_multiplier": {
-        "type": "skilltree:none"
-      },
-      "player_condition": {
-        "type": "skilltree:none"
-      }
-    },
-    {
-      "type": "skilltree:attribute",
-      "attribute": "skilltree:blocking",
-      "id": "fb37cad2-d87f-49e6-949d-062adbba3fa2",
-      "name": "SkillBonus",
-      "amount": 0.5,
+      "amount": 1,
       "operation": 0,
       "player_multiplier": {
         "type": "skilltree:none"
@@ -43,5 +29,6 @@
   "positionX": 239.63829,
   "positionY": -15.995789,
   "buttonSize": 16,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "title": "Shielding"
 }

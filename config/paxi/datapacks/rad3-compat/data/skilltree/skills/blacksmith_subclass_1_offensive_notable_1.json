@@ -2,42 +2,33 @@
   "id": "skilltree:blacksmith_subclass_1_offensive_notable_1",
   "bonuses": [
     {
-      "type": "skilltree:damage",
-      "amount": 0.1,
-      "operation": 1,
-      "player_multiplier": {
-        "type": "skilltree:none"
-      },
-      "enemy_multiplier": {
-        "type": "skilltree:none"
-      },
-      "player_condition": {
-        "type": "skilltree:none"
-      },
-      "damage_condition": {
-        "type": "skilltree:melee"
-      },
-      "target_condition": {
-        "type": "skilltree:none"
-      }
-    },
-    {
-      "type": "skilltree:crit_damage",
-      "amount": 0.1,
-      "player_multiplier": {
-        "type": "skilltree:none"
-      },
-      "enemy_multiplier": {
-        "type": "skilltree:none"
-      },
-      "player_condition": {
-        "type": "skilltree:none"
-      },
-      "damage_condition": {
-        "type": "skilltree:melee"
-      },
-      "target_condition": {
-        "type": "skilltree:none"
+      "type": "skilltree:mob_effect",
+      "chance": 0.1,
+      "effect": "shield_overhaul:stun",
+      "duration": 40,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "item_condition": {
+            "tag_id": "rad3:twohanded",
+            "type": "skilltree:tag"
+          },
+          "type": "skilltree:has_item_in_hand"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
       }
     }
   ],

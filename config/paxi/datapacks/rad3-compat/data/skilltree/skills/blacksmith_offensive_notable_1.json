@@ -2,27 +2,39 @@
   "id": "skilltree:blacksmith_offensive_notable_1",
   "bonuses": [
     {
-      "type": "skilltree:damage",
-      "amount": 0.15,
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "f2d4206e-7992-4462-838e-9346197b6d11",
+      "name": "Skill",
+      "amount": 0.1,
       "operation": 1,
       "player_multiplier": {
         "type": "skilltree:none"
       },
-      "enemy_multiplier": {
+      "player_condition": {
+        "item_condition": {
+          "tag_id": "rad3:twohanded",
+          "type": "skilltree:tag"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "f2d4206e-7992-4462-838e-9346197b6d11",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1,
+      "player_multiplier": {
         "type": "skilltree:none"
       },
       "player_condition": {
         "item_condition": {
-          "equipment_type": "shield",
-          "type": "skilltree:equipment_type"
+          "tag_id": "rad3:twohanded",
+          "type": "skilltree:tag"
         },
         "type": "skilltree:has_item_in_hand"
-      },
-      "damage_condition": {
-        "type": "skilltree:none"
-      },
-      "target_condition": {
-        "type": "skilltree:none"
       }
     }
   ],

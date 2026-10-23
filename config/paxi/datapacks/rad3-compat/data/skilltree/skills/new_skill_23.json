@@ -4,28 +4,10 @@
     {
       "type": "skilltree:attribute",
       "attribute": "minecraft:generic.attack_damage",
-      "id": "a1076eed-c3ea-458a-9731-7177e45ef397",
+      "id": "edaea857-c82a-4d9a-8522-526e0bbd30d7",
       "name": "Skill",
-      "amount": 0.1,
-      "operation": 2,
-      "player_multiplier": {
-        "type": "skilltree:none"
-      },
-      "player_condition": {
-        "item_condition": {
-          "tag_id": "rad3:twohanded",
-          "type": "skilltree:tag"
-        },
-        "type": "skilltree:has_item_in_hand"
-      }
-    },
-    {
-      "type": "skilltree:attribute",
-      "attribute": "minecraft:generic.attack_speed",
-      "id": "6345efee-d64d-44ef-ad48-f77490357f8d",
-      "name": "Skill",
-      "amount": -0.05,
-      "operation": 2,
+      "amount": 0.05,
+      "operation": 1,
       "player_multiplier": {
         "type": "skilltree:none"
       },
@@ -51,5 +33,5 @@
   "positionY": -264.10834,
   "buttonSize": 16,
   "isStartingPoint": false,
-  "title": "Attack Damage and Attack Speed"
+  "title": "Two Handed Attack Damage"
 }

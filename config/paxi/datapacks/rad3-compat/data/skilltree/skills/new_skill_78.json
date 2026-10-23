@@ -3,30 +3,17 @@
   "bonuses": [
     {
       "type": "skilltree:attribute",
-      "attribute": "minecraft:generic.attack_knockback",
-      "id": "6781cbd1-cf6e-4379-aa84-a299444c2b3f",
+      "attribute": "shieldinghealth:attribute.shieldinghealth.shield_regen",
+      "id": "ee8ca0df-a5c7-4188-8e4e-c0193c378d59",
       "name": "Skill",
-      "amount": 0.5,
-      "operation": 0,
-      "player_multiplier": {
-        "type": "skilltree:none"
-      },
-      "player_condition": {
-        "type": "skilltree:none"
-      }
-    },
-    {
-      "type": "skilltree:attribute",
-      "attribute": "minecraft:generic.knockback_resistance",
-      "id": "32c50ead-9461-49e3-a716-7fd0612d320e",
-      "name": "Skill",
-      "amount": 0.1,
+      "amount": -0.1,
       "operation": 1,
       "player_multiplier": {
         "type": "skilltree:none"
       },
       "player_condition": {
-        "type": "skilltree:none"
+        "effect": "fruitsdelight:leaf_piercing",
+        "type": "skilltree:has_effect"
       }
     }
   ],
@@ -43,5 +30,5 @@
   "positionY": 221.05473,
   "buttonSize": 16,
   "isStartingPoint": false,
-  "title": "Attack Knockback and Knockback Resistance"
+  "title": "Leaf Recovery"
 }

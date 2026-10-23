@@ -4,15 +4,135 @@
     {
       "type": "skilltree:crafted_item_bonus",
       "item_condition": {
-        "equipment_type": "armor",
-        "type": "skilltree:equipment_type"
+        "tag_id": "minecraft:piglin_loved",
+        "type": "skilltree:tag"
+      },
+      "item_bonus": {
+        "amount": 200.0,
+        "operation": 0,
+        "type": "skilltree:durability"
+      }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "id": "minecraft:golden_helmet",
+        "type": "skilltree:item_id"
       },
       "item_bonus": {
         "skill_bonus": {
-          "attribute": "minecraft:generic.armor",
-          "id": "17d6cc37-e2b0-421f-b8d2-46db72a22762",
-          "name": "SkillBonus",
-          "amount": 1.0,
+          "attribute": "shieldinghealth:attribute.shieldinghealth.shield_value",
+          "id": "389f0d35-e00c-487d-98ad-368dcc0238a7",
+          "name": "Skill",
+          "amount": 4.0,
+          "operation": 0,
+          "player_multiplier": {
+            "type": "skilltree:none"
+          },
+          "player_condition": {
+            "type": "skilltree:none"
+          },
+          "type": "skilltree:attribute"
+        },
+        "type": "skilltree:skill_bonus"
+      }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "id": "minecraft:golden_chestplate",
+        "type": "skilltree:item_id"
+      },
+      "item_bonus": {
+        "skill_bonus": {
+          "attribute": "shieldinghealth:attribute.shieldinghealth.shield_value",
+          "id": "0e904ef3-fde0-4883-a001-f47c47366315",
+          "name": "Skill",
+          "amount": 4.0,
+          "operation": 0,
+          "player_multiplier": {
+            "type": "skilltree:none"
+          },
+          "player_condition": {
+            "type": "skilltree:none"
+          },
+          "type": "skilltree:attribute"
+        },
+        "type": "skilltree:skill_bonus"
+      }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "id": "minecraft:golden_leggings",
+        "type": "skilltree:item_id"
+      },
+      "item_bonus": {
+        "skill_bonus": {
+          "attribute": "shieldinghealth:attribute.shieldinghealth.shield_value",
+          "id": "c0dab2c2-bc63-445e-b4e3-487a74b02fae",
+          "name": "Skill",
+          "amount": 4.0,
+          "operation": 0,
+          "player_multiplier": {
+            "type": "skilltree:none"
+          },
+          "player_condition": {
+            "type": "skilltree:none"
+          },
+          "type": "skilltree:attribute"
+        },
+        "type": "skilltree:skill_bonus"
+      }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "id": "minecraft:golden_boots",
+        "type": "skilltree:item_id"
+      },
+      "item_bonus": {
+        "skill_bonus": {
+          "attribute": "shieldinghealth:attribute.shieldinghealth.shield_value",
+          "id": "6610e916-0b39-4529-962c-0052faabb018",
+          "name": "Skill",
+          "amount": 4.0,
+          "operation": 0,
+          "player_multiplier": {
+            "type": "skilltree:none"
+          },
+          "player_condition": {
+            "type": "skilltree:none"
+          },
+          "type": "skilltree:attribute"
+        },
+        "type": "skilltree:skill_bonus"
+      }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "tag_id": "simplyswords:gold_gear",
+        "type": "skilltree:tag"
+      },
+      "item_bonus": {
+        "amount": 167.0,
+        "operation": 0,
+        "type": "skilltree:durability"
+      }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "tag_id": "simplyswords:gold_gear",
+        "type": "skilltree:tag"
+      },
+      "item_bonus": {
+        "skill_bonus": {
+          "attribute": "attributeslib:overheal",
+          "id": "7c98117b-4c6e-466b-ad68-9510503347a3",
+          "name": "Skill",
+          "amount": 0.2,
           "operation": 0,
           "player_multiplier": {
             "type": "skilltree:none"
@@ -33,9 +153,30 @@
   "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
   "iconTexture": "skilltree:textures/icons/blacksmith_defensive_crafting_keystone_1.png",
   "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Goldsmithing",
   "titleColor": "",
-  "positionX": -340.10645,
-  "positionY": -89.01318,
+  "positionX": -340.106,
+  "positionY": -89.013,
   "buttonSize": 32,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Crafted Gold Items: +200 Durability"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Crafted Golden Armor: +4 Maximum Shield Capacity"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Crafted Simply Swords Gold Weapons: +0.2 Overheal"
+    }
+  ]
 }

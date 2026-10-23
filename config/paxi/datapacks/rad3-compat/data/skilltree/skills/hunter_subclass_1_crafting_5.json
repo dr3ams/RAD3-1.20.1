@@ -12,6 +12,30 @@
         "type": "skilltree:none"
       },
       "player_condition": {
+        "item_condition": {
+          "equipment_type": "crossbow",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      },
+      "damage_condition": {
+        "type": "skilltree:projectile"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 0.2,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
         "effect": "minecraft:bad_omen",
         "amplifier": 0,
         "type": "skilltree:has_effect"
@@ -24,8 +48,26 @@
       }
     },
     {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:experience_gained",
+      "id": "7f1def8f-fe64-46d3-bfcb-48ef510a4311",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "crossbow",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
       "type": "skilltree:command",
-      "command": "summon area_effect_cloud ~ ~ ~ {Passengers:[{id:\"minecraft:vindicator\"},{id:\"minecraft:vindicator\"},{id:\"minecraft:pillager\"}]}",
+      "command": "summon area_effect_cloud ~ ~ ~ {Passengers:[{id:\"minecraft:vindicator\",HandItems:[{id:\"minecraft:iron_axe\",Count:1}]},{id:\"minecraft:vindicator\",HandItems:[{id:\"minecraft:iron_axe\",Count:1}]},{id:\"minecraft:pillager\",HandItems:[{id:\"minecraft:crossbow\",Count:1}]}]}",
       "description": "Learning this skill may lead to unpleasant consequences",
       "event_listener": {
         "player_multiplier": {
@@ -44,7 +86,7 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/cook_subclass_special_1.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "title": "Tiger Outlaw",
+  "title": "Pillage",
   "titleColor": "",
   "positionX": 238.893,
   "positionY": 349.807,

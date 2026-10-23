@@ -3,11 +3,11 @@
   "bonuses": [
     {
       "type": "skilltree:attribute",
-      "attribute": "minecraft:generic.attack_speed",
-      "id": "6a2be28f-18ce-4c19-856d-5c6ce5a4d854",
+      "attribute": "attributeslib:armor_pierce",
+      "id": "646c527f-fae7-4f12-a3bc-27032e90f7f0",
       "name": "SkillBonus",
-      "amount": 0.05,
-      "operation": 1,
+      "amount": 0.5,
+      "operation": 0,
       "player_multiplier": {
         "type": "skilltree:none"
       },
@@ -18,6 +18,104 @@
         },
         "type": "skilltree:has_item_in_hand"
       }
+    },
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 1.0,
+      "effect": "fruitsdelight:leaf_piercing",
+      "duration": 400,
+      "amplifier": 0,
+      "event_listener": {
+        "item_condition": {
+          "potion_type": "any",
+          "type": "skilltree:potion"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:item_used"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:prot_pierce",
+      "id": "6028675f-8793-41d9-bc01-d8a659d16363",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "ranged_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 1.0,
+      "effect": "fruitsdelight:leaf_piercing",
+      "duration": 800,
+      "amplifier": 0,
+      "event_listener": {
+        "item_condition": {
+          "id": "ars_nouveau:potion_flask",
+          "type": "skilltree:item_id"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:item_used"
+      }
+    },
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 1.0,
+      "effect": "fruitsdelight:leaf_piercing",
+      "duration": 800,
+      "amplifier": 0,
+      "event_listener": {
+        "item_condition": {
+          "id": "ars_nouveau:potion_flask_amplify",
+          "type": "skilltree:item_id"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:item_used"
+      }
+    },
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 1.0,
+      "effect": "fruitsdelight:leaf_piercing",
+      "duration": 800,
+      "amplifier": 0,
+      "event_listener": {
+        "item_condition": {
+          "id": "ars_nouveau:potion_flask_extend_time",
+          "type": "skilltree:item_id"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:item_used"
+      }
     }
   ],
   "directConnections": [],
@@ -27,9 +125,37 @@
   "backgroundTexture": "skilltree:textures/icons/background/notable.png",
   "iconTexture": "skilltree:textures/icons/hunter_speed_notable_1.png",
   "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Overpiercer",
   "titleColor": "",
-  "positionX": 235.14684,
-  "positionY": 135.77867,
+  "positionX": 235.147,
+  "positionY": 135.779,
   "buttonSize": 20,
-  "isStartingPoint": false
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+0.5 Armor Pierce and Protection Pierce if You have Ranged Weapon in hand"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Gain Leaf Piercing for 20 seconds on Potion use, Increased to 40 seconds with Potion Flask use"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 12961221
+      },
+      "text": "(Leaf Piercing allows Projectiles to pass through leaves)",
+      "italic": true
+    }
+  ]
 }
