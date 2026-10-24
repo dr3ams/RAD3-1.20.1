@@ -539,6 +539,18 @@ ServerEvents.tags('item', event => {
 		.add('tomeofblood:living_mage_hood')
 		.add('tomeofblood:living_mage_robes')
 
+	event.get('rad3:spell_bow')
+		.add('ars_nouveau:spell_bow')
+		.add('ars_nouveau:spell_crossbow')
+
+	event.get('forge:tools/bows')
+		.add('ars_nouveau:spell_bow')
+		.add('deep_aether:storm_bow')
+
+	event.get('forge:tools/crossbows')
+		.add('ars_nouveau:spell_crossbow')
+		.add('aether_redux:subzero_crossbow')
+
 	//i cannot get this to work as a datapack so this is the nuclear option
 	//note: get rid of this when the mod updates
 	event.get('curios:quiver')
