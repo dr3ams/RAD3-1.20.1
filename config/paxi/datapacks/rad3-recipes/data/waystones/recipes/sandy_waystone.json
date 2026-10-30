@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+  ],
+  "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+	      "modid": "forge",
+	      "type": "forge:mod_loaded"
+          }
+        }
+  ],
+  "result": {
+  }
+}

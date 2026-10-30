@@ -1,0 +1,40 @@
+{
+  "result": {
+    "item": "bonfires:ash_bone_pile",
+    "type": "forge:nbt",
+    "nbt": "{display:{Name:'{\"text\":\"Waystone\"}',Lore:['{\"text\":\"This is better than a waystone. Just add a coiled sword!\",\"color\":\"yellow\",\"italic\":false}']}}"
+  },
+  "conditions": [
+    {
+      "modid": "waystones",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "SWS",
+    "OOO"
+  ],
+  "key": {
+    "S": [{
+      "item": "minecraft:stone_bricks"
+    },{
+      "item": "minecraft:mossy_stone_bricks"
+    },{
+      "item": "minecraft:chiseled_sandstone"
+    },{
+      "item": "minecraft:deepslate"
+    },{
+      "item": "minecraft:blackstone"
+    },{
+      "item": "minecraft:end_stone_bricks"
+    }],
+    "W": {
+      "item": "waystones:warp_stone"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  }
+}

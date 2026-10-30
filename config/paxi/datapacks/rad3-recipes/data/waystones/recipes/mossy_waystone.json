@@ -1,0 +1,24 @@
+{
+  "result": {
+    "item": "waystones:waystone",
+    "type": "forge:nbt",
+    "nbt": "{display:{Lore:['{\"text\":\"Look for Pile of Bone and Ash instead\",\"color\":\"yellow\",\"italic\":false}']}}"
+  },
+  "conditions": [
+    {
+      "modid": "waystones",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "waystones:waystone"
+    }
+  }
+}
