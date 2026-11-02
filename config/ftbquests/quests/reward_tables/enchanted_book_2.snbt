@@ -9,12 +9,25 @@
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
-						id: "apotheosis:natures_blessing"
+						id: "radenchants:rejuvenate"
+						lvl: 2s
+					}]
+				}
+			}
+			title: "Rejuvenate II"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "shieldinghealth:shielding"
 						lvl: 3s
 					}]
 				}
 			}
-			title: "Natures Blessing III"
+			title: "Shielding III"
 		}
 		{
 			item: {
@@ -22,12 +35,12 @@
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
-						id: "minecraft:piercing"
-						lvl: 5s
+						id: "minecraft:depth_strider"
+						lvl: 3s
 					}]
 				}
 			}
-			title: "Piercing V"
+			title: "Depth Strider III"
 		}
 		{
 			item: {
@@ -35,51 +48,12 @@
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
-						id: "minecraft:smite"
-						lvl: 5s
+						id: "walljump:double_jump"
+						lvl: 1s
 					}]
 				}
 			}
-			title: "Smite V"
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "minecraft:sweeping"
-						lvl: 4s
-					}]
-				}
-			}
-			title: "Sweeping IV"
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "minecraft:efficiency"
-						lvl: 4s
-					}]
-				}
-			}
-			title: "Efficiency IV"
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "minecraft:impaling"
-						lvl: 5s
-					}]
-				}
-			}
-			title: "Impaling V"
+			title: "Double-Jump I"
 		}
 		{
 			item: {
@@ -88,37 +62,11 @@
 				tag: {
 					StoredEnchantments: [{
 						id: "combatroll:acrobat"
-						lvl: 4s
-					}]
-				}
-			}
-			title: "Acrobat IV"
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "apotheosis:bane_of_illagers"
 						lvl: 3s
 					}]
 				}
 			}
-			title: "Bane of Illagers III"
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "l2complements:ice_blade"
-						lvl: 1s
-					}]
-				}
-			}
-			title: "Ice Blade I"
+			title: "Acrobat III"
 		}
 		{
 			item: {
@@ -131,20 +79,7 @@
 					}]
 				}
 			}
-			title: "Multi Roll III"
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "farmersdelight:backstabbing"
-						lvl: 3s
-					}]
-				}
-			}
-			title: "Backstabbing III"
+			title: "Multi-Roll III"
 		}
 		{
 			item: {
@@ -153,24 +88,11 @@
 				tag: {
 					StoredEnchantments: [{
 						id: "minecraft:sharpness"
-						lvl: 5s
+						lvl: 2s
 					}]
 				}
 			}
-			title: "Sharpness V"
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "hmag:health_boost"
-						lvl: 3s
-					}]
-				}
-			}
-			title: "Health Boost III"
+			title: "Sharpness II"
 		}
 		{
 			item: {
@@ -179,11 +101,11 @@
 				tag: {
 					StoredEnchantments: [{
 						id: "l2complements:wind_sweep"
-						lvl: 3s
+						lvl: 2s
 					}]
 				}
 			}
-			title: "Wind Sweep III"
+			title: "Wind Sweep II"
 		}
 		{
 			item: {
@@ -191,12 +113,77 @@
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
-						id: "l2complements:durable_armor"
+						id: "minecraft:power"
 						lvl: 3s
 					}]
 				}
 			}
-			title: "Durable Armor III"
+			title: "Power III"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "radenchants:gunner"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Gunner I"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:multishot"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Multishot I"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "ars_nouveau:mana_regen"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "Mana Regen III"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "Unbreaking III"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "l2complements:vien_mining"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Vein Mining I"
 		}
 		{
 			item: {
@@ -210,6 +197,45 @@
 				}
 			}
 			title: "Drill Digging I"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "Efficiency III"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:silk_touch"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Silk Touch I"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "l2complements:ice_blade"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Ice Blade I"
 		}
 	]
 	title: "Enchanted Book 2"

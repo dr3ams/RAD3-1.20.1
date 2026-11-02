@@ -231,10 +231,12 @@
 				"&9🛡 Shield Slamming 🛡&r"
 				""
 				"Attacking while blocking will make you quickly dash forward and slam with your shield, stunning the target you hit."
+				"This can be &9performed in mid-air&r to launch yourself to high places."
 				""
 				"&9⚔ Parrying ⚔&r"
 				""
 				"Blocking will now open a small time window where the attack will also stun the target."
+				"Parrying cannot be breached by an axe and blocks all damage including fall damage."
 			]
 			icon: "kubejs:shield"
 			id: "3E19A4FC23E03CEA"
@@ -294,8 +296,10 @@
 			dependencies: ["219C6641A038984F"]
 			description: [
 				"Press &6R&r to roll (&oby default&r). You can &9roll into any direction&r you are heading (&oforwards, backwards, sideways, etc...&r)"
+				"You become immune to damage during a roll."
+				"In this modpack, Combat Roll can be &9performed in mid-air&r, which can be handy for saving from long falls."
 				""
-				"The combat roll ability has &24 seconds cooldown&r by default. Which can be improved in different ways, including &5Passive Skill Tree&r."
+				"The combat roll ability has &23 seconds cooldown&r by default. Which can be improved in different ways, including &5Passive Skill Tree&r."
 				""
 				"&2Cooldown&r of your combat roll ability can be seen on the main UI, right next to your hotbar."
 				""
@@ -454,23 +458,25 @@
 			description: [
 				"&eHealing Salve :&r"
 				""
-				"- Lasts up to 4 uses, retains 0.5 hearts per use"
+				"- Lasts up to 5 uses, retains 0.5 hearts per use, 0.1 second use time"
+				"- Useful for quick burst healing in the middle of combat"
 				""
 				"&aPlaster :&r"
 				""
-				"- Lasts up to 4 uses, retains 0.5 hearts per use"
+				"- Lasts up to 7 uses, retains 0.75 hearts per use, 0.35 second use time"
+				"- Less total healing than the bandage, but heals more in a short amount of time"
 				""
 				"&9Bandage :&r"
 				""
-				"- The Bandage is a better healing item than both the plaster and the bandage, it lasts up to 6 uses, takes a little longer to use, retains 0.5 hearts per use and is very easy to craft!"
+				"- The Bandage is the average healing item with a respectable 12 uses, 0.5 hearts of healing and 0.5 second use time."
 				""
 				"&cMedkit :&r"
 				""
-				"- The Medkit is a good replacement for all of the above, it lasts up to 16 uses, takes much longer to use, retains 1 heart per use, but it requires all of the above plus some quartz and nether warts to craft!"
+				"- The Medkit is a good replacement for all of the above, it lasts up to 50 uses, takes 1 second to use, retains 1 heart per use, but it requires all of the above plus some quartz and nether warts to craft!"
 				""
 				"&4Enchanted Medkit :&r"
 				""
-				"- The Enchanted Medkit is the best healing item in the mod, it lasts up to 16 uses (just like a normal medkit!), takes as long as a normal medkit to use, retains 1.5 hearts per use and gives absorption effect to the consumer, but requires a medkit, a golden apple and a ghast tear!"
+				"- The Enchanted Medkit is the best healing item in the mod, it lasts up to 50 uses (just like a normal medkit!), takes as long as a normal medkit to use, retains 1.5 hearts per use and gives absorption effect to the consumer, but requires a medkit, a golden apple and a ghast tear!"
 				""
 				"&dThe Estus Flask&r"
 				""
@@ -672,11 +678,11 @@
 				""
 				"-&aCrawl&r: Press C (by default) to crawl through 1 block holes."
 				""
-				"-&aDouble Jump&r: You can jump a second time in midair for a little extra height or distance."
+				"-&aDouble Jump&r: You can jump a second time in midair for a little extra height or distance. Press the \"Flip\" (Not Bound by default) keybind, then Jump again in mid-air."
 				""
 				"-&aWall Jump&r: Pressing jump while next to a wall will let you let you do a wall jump, propelling you up and away from the wall. In a narrow shaft, you can keep jumping from wall to wall for even more height!"
 				""
-				"-&aBreak Fall&r: While falling, sneak just before you hit the ground to cushion your fall."
+				"-&aBreak Fall&r: While falling, press Combat Roll (R) just before you hit the ground to cushion your fall."
 				""
 				"There are many more maneuvers you can do provided by &2&lParcool&r&r if you bind their keys in Settings!"
 			]
@@ -866,28 +872,6 @@
 				type: "checkmark"
 			}]
 			x: 2.0d
-			y: 6.5d
-		}
-		{
-			description: [
-				"You will need to &4change the hotkey&r (or unnasign everything else from the button) for toolbelt in Controls. (&nsearch 'toolbelt'&r)"
-				""
-				"- Holds any non-stackable item."
-				"- 2 stock slots, upgradeable to 9 by combining with tool pouches in an anvil."
-				"- Item Display on Players -- show off your tools at all times. (only the first 2 slots are shown)"
-			]
-			id: "061AB51F066E50A2"
-			subtitle: "Quickly switch between tools using the handy Radial Menu!"
-			tasks: [{
-				id: "50E2E7103B3ACE33"
-				item: {
-					Count: 1
-					id: "toolbelt:belt"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 1.0d
 			y: 6.5d
 		}
 		{
@@ -1752,6 +1736,44 @@
 			}]
 			x: -2.5d
 			y: -0.5d
+		}
+		{
+			description: [
+				"Gear Upgrades are extra attributes for your gear."
+				""
+				"Hold &3Alt&r on an item that can accept gear upgrades will show all available upgrades that can be applied to that item."
+				""
+				"Hold &3Shift&r on the item to see all upgrades you have already equipped."
+				""
+				"Upgrades show the Name, Applicable Tiers, &eProficiency Cost&r, Experience Cost, and Item Cost in that order."
+				""
+				"-An item starts with 0 gear upgrades. Each time an upgrade is applied, the item's tier level is increased by 1. Some upgrades can only be applied when a specific number of gear upgrades are already applied. For example an upgrade with the Applicable Tiers [1, 2, 3] can be applied when there are 0, 1, or 2 upgrades already on the item. However an item with Applicable Tiers [4] can only be applied after 3 upgrades have been added before."
+				""
+				"-Some upgrades will have \"&eStable&r\" or \"&4Unstable&r\" in the name. These can only be applied after 3 upgrades have already been equipped. After you will have to make a choice between a stable or unstable upgrade. &eStable&r upgrades are a simple, more powerful upgrade than regular upgrades. &4Unstable&r upgrades are more powerful than &eStable&r upgrades, but come with a strong drawback."
+				""
+				"-&eProficiency&r is gained on an item over time as you use the item to attack, mine, take damage, etc depending on the item. The &3Proficiency Cost&r of an upgrade will have yellow text if you can afford the cost."
+				""
+				"To apply an upgrade, combine the item with the upgrade's Item Cost in an anvil."
+				""
+				"To remove all gear upgrades from an item, combine the item with &aCrying Obsidian&r in an anvil."
+				""
+				"Furthermore, you can &6Limit Break&r an item to add 1 extra upgrade slot to the piece of equipment."
+				"To &6Limit Break&r an item, you will need 2 of the same item both with all gear upgrade slots filled and &eProficiency 100&r then combine both in an anvil."
+			]
+			icon: "embers:winding_gears"
+			id: "2CCC9B49FB41B319"
+			rewards: [{
+				id: "7D7E9EC855B79179"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "5FC5F34BE8349737"
+				title: "Gear Upgrades"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 6.5d
 		}
 	]
 	title: "⭐ Features "

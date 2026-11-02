@@ -9,12 +9,12 @@
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
-						id: "minecraft:protection"
+						id: "minecraft:fire_protection"
 						lvl: 3s
 					}]
 				}
 			}
-			title: "Protection III"
+			title: "Fire Protection III"
 		}
 		{
 			item: {
@@ -22,12 +22,25 @@
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
-						id: "minecraft:fire_protection"
+						id: "minecraft:projectile_protection"
 						lvl: 3s
 					}]
 				}
 			}
-			title: "Fire Protection III"
+			title: "Projectile Protection III"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:blast_protection"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "Blast Protection III"
 		}
 		{
 			item: {
@@ -48,12 +61,12 @@
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
-						id: "minecraft:respiration"
-						lvl: 4s
+						id: "minecraft:frost_walker"
+						lvl: 2s
 					}]
 				}
 			}
-			title: "Respiration III"
+			title: "Frost Walker II"
 		}
 		{
 			item: {
@@ -61,38 +74,12 @@
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
-						id: "minecraft:depth_strider"
-						lvl: 4s
+						id: "minecraft:thorns"
+						lvl: 5s
 					}]
 				}
 			}
-			title: "Depth Strider IV"
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "minecraft:sharpness"
-						lvl: 3s
-					}]
-				}
-			}
-			title: "Sharpness III"
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "minecraft:efficiency"
-						lvl: 3s
-					}]
-				}
-			}
-			title: "Efficiency III"
+			title: "Thorns V"
 		}
 		{
 			item: {
@@ -101,89 +88,11 @@
 				tag: {
 					StoredEnchantments: [{
 						id: "walljump:speed_boost"
-						lvl: 3s
-					}]
-				}
-			}
-			title: "Speed Boost III"
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "minecraft:unbreaking"
-						lvl: 3s
-					}]
-				}
-			}
-			title: "Unbreaking III"
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "minecraft:power"
-						lvl: 3s
-					}]
-				}
-			}
-			title: "Power III"
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "minecraft:luck_of_the_sea"
-						lvl: 3s
-					}]
-				}
-			}
-			title: "Luck of the Sea III"
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "combatroll:longfooted"
-						lvl: 3s
-					}]
-				}
-			}
-			title: "Longfooted III"
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "ars_nouveau:mana_regen"
-						lvl: 3s
-					}]
-				}
-			}
-			title: "Mana Regen III"
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "walljump:wall_jump"
 						lvl: 1s
 					}]
 				}
 			}
-			title: "Wall Jump I"
+			title: "Speed Boost I"
 		}
 		{
 			item: {
@@ -191,12 +100,12 @@
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
-						id: "walljump:double_jump"
-						lvl: 2s
+						id: "minecraft:aqua_affinity"
+						lvl: 1s
 					}]
 				}
 			}
-			title: "Double Jump II"
+			title: "Aqua Affinity I"
 		}
 		{
 			item: {
@@ -217,12 +126,142 @@
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
-						id: "l2complements:vien_mining"
+						id: "minecraft:smite"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "Smite III"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:bane_of_arthropods"
+						lvl: 5s
+					}]
+				}
+			}
+			title: "Bane of Arthropods V"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "hmag:water_aspect"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "Water Aspect III"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fire_aspect"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "Fire Aspect III"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sweeping"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "Sweeping Edge III"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "farmersdelight:backstabbing"
+						lvl: 5s
+					}]
+				}
+			}
+			title: "Backstabbing V"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:punch"
+						lvl: 2s
+					}]
+				}
+			}
+			title: "Punch II"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:flame"
 						lvl: 1s
 					}]
 				}
 			}
-			title: "Vein Mining I"
+			title: "Flame I"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:impaling"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "Impaling III"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "apotheosis:spearfishing"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "Spearfishing III"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:piercing"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "Piercing III"
 		}
 		{
 			item: {
@@ -262,6 +301,84 @@
 				}
 			}
 			title: "Self Sling I"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "apotheosis:miners_fervor"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "Miner's Fervor III"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "hmag:anti_air"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "Anti-Air III"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "combatroll:longfooted"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "Longfooted III"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "apotheosis:natures_blessing"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Nature's Blessing I"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "radenchants:ethereal"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Ethereal I"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:vanishing_curse"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "&cCurse of Vanishing I&a (Curses give more enchantment points!)"
 		}
 	]
 	title: "Enchanted Book 1"
