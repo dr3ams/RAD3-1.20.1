@@ -405,6 +405,8 @@ ServerEvents.tags('item', event => {
 		.add('simplyswords:iron_greataxe')
 		.add('simplyswords:iron_scythe')
 		.add('radweaponry:hydra_scythe')
+		.add('radweaponry:pearl_sword')
+		.add('radweaponry:revenants_edge')
 		.add('simplyswords:gold_twinblade')
 		.add('simplyswords:gold_katana')
 		.add('simplyswords:gold_claymore')
@@ -546,12 +548,10 @@ ServerEvents.tags('item', event => {
 	event.get('forge:tools/bows')
 		.add('ars_nouveau:spell_bow')
 		.add('deep_aether:storm_bow')
-		.add('radweaponry:rhythmweaver')
 
 	event.get('forge:tools/crossbows')
 		.add('ars_nouveau:spell_crossbow')
 		.add('aether_redux:subzero_crossbow')
-		.add('radweaponry:cinderstorm')
 
 	//i cannot get this to work as a datapack so this is the nuclear option
 	//note: get rid of this when the mod updates
