@@ -537,5 +537,33 @@ ServerEvents.recipes((event) => {
 	G: 'dungeonsdelight:gritty_flesh',
 	F: 'hmag:sharp_fang'
   })
+  event.shaped(
+  Item.of('radweaponry:pearl_sword'), [
+    'V',
+    'P',
+    'S'
+	], {
+	V: 'bosses_of_mass_destruction:void_thorn',
+	P: 'minecraft:pearlescent_froglight',
+	S: '#forge:rods/wooden'
+  })
+  event.smithing(
+    'radweaponry:bloodthorn',
+    'undergarden:blood_globule',
+    'hmag:crimson_bow',
+    'hmag:evil_thorn'
+  )
+  event.shaped(
+  Item.of('radweaponry:fortunes_folly'), [
+    'GHG',
+    'DCD',
+    ' E '
+	], {
+	G: 'kubejs:gamble_coin',
+	H: 'aquaculture:gold_hook',
+	D: 'kubejs:unfinished_dice',
+	C: 'immersive_aircraft:heavy_crossbow',
+	E: 'kubejs:entropic_cent'
+  })
 
 });
