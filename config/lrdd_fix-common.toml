@@ -1,0 +1,40 @@
+
+#Last stage
+[last_stage]
+	#What the ground portal that appears after the last boss does.
+	#true  = entering it teleports the player out of the dungeon (original behaviour).
+	#false = entering it returns the player to the start room of the last stage. The run stays
+	#        active (players can keep looting, leave and return without a new pass) until a
+	#        new Dungeon Pass is used on the overworld portal, or the portal is destroyed.
+	terminate-on-exit-last-stage = true
+
+#Death
+[death]
+	#Players who die inside the dungeon dimension keep their inventory and experience
+	#(vanilla keepInventory, but only for this dimension). No grave, nothing to recover.
+	#The punishment is the walk back from the start room.
+	keep-inventory-in-dungeon = true
+
+#Full dungeon reset (same as using a Dungeon Pass on the portal).
+#A requested reset is stored in the world and runs as soon as the dungeon has no players
+#in it (a dead player counts as inside until they respawn).
+[reset]
+	#Reset when a player dies in the dungeon.
+	reset-on-death = false
+	#Reset when a player leaves the dungeon dimension by any means (portal, suffocation eject, ...).
+	reset-on-exit = false
+	#Reset when a player disconnects / closes the game while inside the dungeon.
+	#On the next login, a player still inside is moved to the surface so the reset can run.
+	reset-on-quit = false
+	#Reset on every world / server shutdown, even if nobody was inside.
+	reset-on-world-close = false
+
+#Dungeon Pass portal
+[portal]
+	#A Dungeon Pass used on a chiseled stone brick builds a portal on the flat platform of
+	#chiseled stone bricks, up to a ceiling of any block above it.
+	#Maximum number of air blocks between the platform and that ceiling. A taller gap is rejected
+	#(the original had no limit).
+	#Range: 1 ~ 64
+	dungeon-portal-max-height = 8
+

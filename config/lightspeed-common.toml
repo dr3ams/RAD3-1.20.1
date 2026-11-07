@@ -20,6 +20,4 @@
 	isolateModdedResourceReloadFailures = false
 	#Explicit class-name prefixes that may be isolated when resource reload fails. Wildcards are rejected so unrelated failures remain visible.
 	isolatedResourceReloadListenerPatterns = []
-	#When Sinytra Connector is installed, avoid startup/resource optimizations that change Fabric resource reload or renderer lookup timing.
-	connectorCompatibilityMode = true
 

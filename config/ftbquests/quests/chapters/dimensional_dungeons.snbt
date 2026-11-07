@@ -64,6 +64,15 @@
 				""
 				"Besides challenging monsters, the dungeons are also full of worthwhile loot! Many rooms with valuable treasure chests require solving a puzzle that will test your knowledge of Minecraft game mechanics."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "373262E31E3E4D5B"
 			rewards: [{
 				id: "5C2D4295AB59621B"
@@ -73,6 +82,17 @@
 			tasks: [
 				{
 					disable_toast: true
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0549D2EE17A5251A"
 					item: {
 						Count: 1
@@ -84,6 +104,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4A4034A4937136DF"
 					type: "checkmark"
 				}
@@ -94,6 +125,15 @@
 		{
 			dependencies: ["373262E31E3E4D5B"]
 			description: ["Blank Portal Keys are crafted from a Blaze Rod and a Name Tag. You may want several."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "49D31A8380AFA032"
 			rewards: [{
 				id: "73E63FDEF12D67A0"
@@ -107,6 +147,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "12B2B5EEC9822AE4"
 				item: "dimdungeons:item_portal_key"
 				type: "item"
@@ -117,6 +168,15 @@
 		{
 			dependencies: ["19C09B0537FF8F85"]
 			description: ["First craft three Gilded Portal Blocks, which are a Chiseled Stone Brick surrounded by 8 Gold Ingots."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "06FDB1551D976F28"
 			rewards: [{
 				id: "4C2D7FF0D88E1E94"
@@ -125,6 +185,17 @@
 			}]
 			tasks: [{
 				count: 3L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4DF5F1A54C512A3A"
 				item: "dimdungeons:block_gilded_portal"
 				type: "item"
@@ -135,6 +206,15 @@
 		{
 			dependencies: ["06FDB1551D976F28"]
 			description: ["Second, combine one of your three Gilded Portal Blocks with the Trapped Chest and the Eye of Ender to form a Portal Keyhole Block."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "467404C9A88BA929"
 			rewards: [{
 				id: "77E853324AA3466E"
@@ -142,6 +222,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3C4B4629A328B684"
 				item: "dimdungeons:block_portal_keyhole"
 				type: "item"
@@ -160,8 +251,28 @@
 				""
 				"Keys can only be written to once. However keys are absolutely reusable! If you find a dungeon that is worth visiting more than once be sure to save that key somewhere in your base. A named key will always consistently take you back to the same dungeon."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2205A97ACB6A9309"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "028ACB8879FC66F1"
 				type: "checkmark"
 			}]
@@ -181,8 +292,28 @@
 				""
 				"Keep in mind you will also need to craft and activate keys. This is only the first step."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "19C09B0537FF8F85"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0E498E4858047C55"
 				title: "Creating the Basic Portal"
 				type: "checkmark"
@@ -200,8 +331,28 @@
 				""
 				"Other Stone Brick variants can be used in the build, too. And the only air blocks that matter are the two blocks where the portal will appear."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "46BDA3FB1FD338F7"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "48F36A95518DC117"
 				title: "Valid Portal Builds"
 				type: "checkmark"
@@ -211,11 +362,31 @@
 		}
 		{
 			dependencies: ["2205A97ACB6A9309"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5F3AE6FDE9AC06B6"
 			subtitle: "Activate portal key"
 			tasks: [{
 				advancement: "dimdungeons:dungeons/activate_basic_key"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4F86E5AD6BC0CB17"
 				type: "advancement"
 			}]
@@ -235,6 +406,15 @@
 				""
 				"Second you must place two Portal Crown Blocks on top of your portal frame. You're going to have to rely on finding Portal Crown Blocks as loot in basic dungeon chests."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "563459F7C0D8D8D3"
 			rewards: [{
 				id: "03D3B4BD7967EF3C"
@@ -245,6 +425,17 @@
 			tasks: [{
 				advancement: "dimdungeons:dungeons/find_crown"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3A7C69B1D45081EA"
 				type: "advancement"
 			}]
@@ -252,6 +443,15 @@
 			y: 3.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "77844F4A14D9BF5B"
 			rewards: [
 				{
@@ -270,6 +470,17 @@
 			tasks: [{
 				advancement: "dimdungeons:dungeons/find_teleporter_key"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "581F488B9178BFE1"
 				type: "advancement"
 			}]
@@ -277,6 +488,15 @@
 			y: 2.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5437301A9745C786"
 			rewards: [
 				{
@@ -295,6 +515,17 @@
 			tasks: [{
 				advancement: "dimdungeons:dungeons/all_trophies"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "184D337C8FFFD553"
 				type: "advancement"
 			}]
@@ -302,6 +533,15 @@
 			y: 4.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "45F1098037C92E08"
 			rewards: [
 				{
@@ -320,6 +560,17 @@
 			tasks: [{
 				advancement: "dimdungeons:dungeons/find_advanced_key"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0CF422B73BCE2A7E"
 				type: "advancement"
 			}]
@@ -327,6 +578,15 @@
 			y: 2.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2A1BA337150218F8"
 			rewards: [
 				{
@@ -345,6 +605,17 @@
 			tasks: [{
 				advancement: "dimdungeons:dungeons/find_key_charger"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "169C8B1A432FF321"
 				type: "advancement"
 			}]

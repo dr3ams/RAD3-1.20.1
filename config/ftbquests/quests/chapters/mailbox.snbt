@@ -25,6 +25,15 @@
 				""
 				"&o&7I’ve guided you back this once. Don't expect me to be so generous next time.&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:letter"
 			icon_scale: 1.5d
 			id: "50636F87241A3723"
@@ -58,6 +67,17 @@
 			size: 1.5d
 			subtitle: "&3From:&r &o&4The Caretaker of Souls&r&r"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "kubejs:skull3"
 				id: "120BA5A62EE2A172"
 				stat: "minecraft:deaths"
@@ -76,6 +96,15 @@
 				""
 				"&o&7Act now and get a free jar of &bBlade Grease&r&o&7. Just don't tell the city guard where you got it.&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -114,6 +143,17 @@
 			subtitle: "&3From:&r Balthazar the Bold (Blacksmith)"
 			tasks: [{
 				elapsedTime: 2000L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "078FE64CBC6FE7AE"
 				type: "questsadditions:time"
 			}]
@@ -129,6 +169,15 @@
 				""
 				"&o&7Please respond with a stack of&r &bDiamonds&r &o&7if you wish to opt-out of our 'Frequent Visitor' program.&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:letter"
 			icon_scale: 1.5d
 			id: "0C818E3CF87E5539"
@@ -156,6 +205,17 @@
 			subtitle: "&3From:&r &6The Traveling Salesman League&r"
 			tasks: [{
 				disable_toast: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1391CA35DAB0505B"
 				observe_type: 5
 				timer: 0L
@@ -177,6 +237,15 @@
 				""
 				"&7&oIf you would like us to not buy or sell your personal information please respond with another stack of &r&bDiamonds.&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:letter"
 			icon_scale: 1.5d
 			id: "3946D284196ECF5E"
@@ -208,6 +277,17 @@
 			subtitle: "&3From:&r &6The Traveling Salesman League&r"
 			tasks: [{
 				elapsedTime: 3600L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3C483167FAA6CB41"
 				type: "questsadditions:time"
 			}]

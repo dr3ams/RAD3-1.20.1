@@ -98,6 +98,11 @@
 	# Default: 3
 	# Range: 1 ~ 6
 	MAX_PINNED_TOOLTIPS = 3
+	# Treat the items shown in FTB Quests tasks and rewards as regular items, so they get their custom frames, icon and the rest of the
+	# item styling. Off by default, as modpacks usually replace their descriptions.
+	# 
+	# Default: false
+	FTB_QUESTS_ITEM_TOOLTIPS = false
 
 # divider §§
 [divider]
@@ -256,8 +261,8 @@
 [effects]
 	# Effects. Options: bubbles, cinder, crystals, echo, fireflies, galaxy, magic_orbs, speed_lines, nebula, spiral, white_dust,
 	# metal_shining, rim_light, ripples, sonar, stars, fireflies_2, steel_shining, floating_stars, prism, snowfall, opal, aurora,
-	# fluorite, astral, comets, storm, sunbeams, fireworks, eruption, searchlights, blasts, firebreath, shield, lasers, missiles, wisps.
-	# You can chain effects together, for example: 'white_dust, nebula'
+	# fluorite, astral, comets, storm, sunbeams, fireworks, eruption, searchlights, blasts, firebreath, shield, lasers, missiles, wisps,
+	# matrix, hearts. You can chain effects together, for example: 'white_dust, nebula'
 	# 
 	# Default:
 	EFFECTS = "cinder"

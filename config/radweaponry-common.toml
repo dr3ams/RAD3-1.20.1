@@ -153,6 +153,9 @@
 	#Undead Bonus
 	#Range: 0.0 ~ 100000.0
 	holySpearUndeadBoost = 1.25
+	#Glowing Duration
+	#Range: 1 ~ 100000
+	holySpearGlowingDur = 200
 
 ["Scorpion Blade"]
 	#Attack Damage
@@ -174,13 +177,13 @@
 	#Range: 0 ~ 255
 	scorpionBladeLethalIncisionPoisonAmp = 3
 	#Lethal Incision Poison Duration
-	#Range: 0 ~ 100000
+	#Range: 1 ~ 100000
 	scorpionBladeLethalIncisionPoisonDur = 200
 	#Lethal Incision Lingering Amp
 	#Range: 0 ~ 255
 	scorpionBladeLethalIncisionLingeringAmp = 1
 	#Lethal Incision Lingering Duration
-	#Range: 0 ~ 100000
+	#Range: 1 ~ 100000
 	scorpionBladeLethalIncisionLingeringDur = 100
 	#Lethal Incision Cooldown
 	#Range: 1 ~ 100000
@@ -194,6 +197,9 @@
 	#Demon Core Charges
 	#Range: 1 ~ 100000
 	scorpionBladeDemonCoreCharges = 100
+	#Way of the Spider Poison Duration
+	#Range: 1 ~ 100000
+	scorpionBladeWayOfSpiderPoisonDuration = 200
 
 [Hemovial]
 	#Max Essence
@@ -350,19 +356,19 @@
 	#Blazing Halo Cooldown
 	#Range: 1 ~ 100000
 	heartOfFireCooldown = 400
-	#Heartseeking Frequency
+	#Heatseeking Frequency
 	#Range: 1.0 ~ 100000.0
 	heartOfFireFrequency = 100.0
-	#Heartseeking Targets
+	#Heatseeking Targets
 	#Range: 1 ~ 100000
 	heartOfFireTargets = 2
-	#Heartseeking Damage
+	#Heatseeking Damage
 	#Range: 0.01 ~ 100000.0
 	heartOfFireDamage = 4.0
-	#Heartseeking Bonus Targets per Flame
+	#Heatseeking Bonus Targets per Flame
 	#Range: 0 ~ 100000
 	heartOfFireFlameTargets = 1
-	#Heartseeking Bonus Damage per Flame
+	#Heatseeking Bonus Damage per Flame
 	#Range: 0.0 ~ 100000.0
 	heartOfFireFlameDamage = 2.0
 	#Fury of the Flame Burning Bonus
@@ -377,6 +383,9 @@
 	#Fury of the Flame Fire Spell Bonus
 	#Range: 1.0 ~ 100000.0
 	heartOfFireFireSpellBonus = 1.25
+	#Blazing Halo Base Damage
+	#Range: 0.0 ~ 100000.0
+	heartOfFireDamageBase = 4.0
 
 ["Soluna Blade"]
 	#Attack Damage
@@ -516,7 +525,7 @@
 	#Resonance Effect Amp Bonus
 	#Range: 0 ~ 100000
 	rhythmweaverEffectAmpBonus = 1
-	#Resonance Legato Burst Bonus
+	#Resonance Staccato Burst Bonus
 	#Range: 1 ~ 100000
 	rhythmweaverBurstBonus = 4
 	#Resonance Cadence Magic Damage Multiplier
@@ -554,6 +563,34 @@
 	rhythmweaverAngelOfDarkness = true
 	#Kimi no Toriko Effect Enabled
 	rhythmweaverKiminoToriko = true
+	#Crescendo Sharpness Duration Boost
+	#Range: 0.0 ~ 100000.0
+	rhythmweaverCrescendoSharpnessBoost = 0.2
+	#Decrescendo Frost Walker Duration Boost
+	#Range: 0.0 ~ 100000.0
+	rhythmweaverDecrescendoFrostWalkerBoost = 0.25
+	#Harmony Silk Touch Heal Boost
+	#Range: 0.0 ~ 100000.0
+	rhythmweaverHarmonySilkTouchBoost = 0.5
+	#Discordance Knockback Knockback Boost
+	#Range: 0.0 ~ 100000.0
+	rhythmweaverDiscordanceKnockbackBoost = 0.3
+	#Staccato Multishot Burst Boosts (Normal and Amplified)
+	#Range: 0 ~ 10
+	rhythmweaverStaccatoMultishotBoost = 2
+	#Legato Protection Duration Boost
+	#Range: 0.0 ~ 100000.0
+	rhythmweaverLegatoProtectionBoost = 0.25
+	#Cadence Impaling Damage Boost
+	#Range: 0.0 ~ 100000.0
+	rhythmweaverCadenceImpalingBoost = 0.2
+	#Cadence Channeling Pulse Count Boost (Normal and Amplified)
+	#Range: 0 ~ 10
+	rhythmweaverCadenceChannelingBoost = 1
+	#Golden Effect Enabled
+	rhythmweaverGolden = true
+	#Song of Healing Effect Enabled
+	rhythmweaverSongOfHealing = true
 
 [Stormcracker]
 	#Attack Damage
@@ -768,6 +805,20 @@
 	#Toughness Bonus
 	#Range: 0.0 ~ 100000.0
 	gildedArmguardToughBonus = 3.0
+	#Battle Bracer Speed Amp
+	#Range: 0 ~ 255
+	gildedArmguardSpeedAmp = 1
+	#Battle Bracer Speed Duration
+	#Range: 0 ~ 100000
+	gildedArmguardSpeedDuration = 100
+	#Golden Bastion Protection Armor Boost
+	#Range: 0.0 ~ 100000.0
+	gildedArmguardProtectionArmorBoost = 1.0
+	#Golden Bastion Protection Toughness Boost
+	#Range: 0.0 ~ 100000.0
+	gildedArmguardProtectionToughBoost = 0.5
+	#List of entity IDs Deflect does not work on
+	gildedArmguardDeflectBlacklist = ["minecraft:fireball", "minecraft:dragon_fireball", "minecraft:small_fireball", "minecraft:firework_rocket", "minecraft:llama_spit", "minecraft:ender_pearl", "minecraft:wither_skull", "minecraft:potion"]
 
 ["Revenant's Edge"]
 	#Attack Damage
@@ -886,4 +937,345 @@
 	[Logging."Dev Logging"]
 		#Logs a bunch of random things I use for testing
 		devLogging = false
+
+[Bloodthorn]
+	#Durability
+	#Range: 0 ~ 100000
+	bloodthornDurability = 1350
+	#Enchantability
+	#Range: 0 ~ 100000
+	bloodthornEnchantability = 35
+	#Bloodletting Percent of Max Health per Fully Charged Shot
+	#Range: 0.0 ~ 1.0
+	bloodthornBloodlettingHealth = 0.2
+	#Bloodletting Charge Percentage Damage Multiplier
+	#Default Base Damage = 2
+	#Arrow Base Damage (Post Power) = ArrowBaseDamage * (1 + (ChargePercent * This))
+	#Range: 0.0 ~ 10.0
+	bloodthornBloodlettingChargeDamage = 0.5
+	#Vital Overdraw Start Time
+	#Range: 20 ~ 100000
+	bloodthornVitalOverdrawStartTime = 40
+	#Vital Overdraw Max Bonus Ticks
+	#Range: 1 ~ 100000
+	bloodthornVitalOverdrawTicks = 30
+	#Vital Overdraw Max Bonus Damage
+	#Arrow Base Damage (Post Bloodletting) = Damage * (1 + (This * OverchargePercent)
+	#Range: 0.0 ~ 100000.0
+	bloodthornVitalOverdrawDamage = 0.5
+	#Hemorrhage Health Cost Refund on Hit
+	#Range: 0.0 ~ 1.0
+	bloodthornHemorrhageRefundHit = 0.5
+	#Hemorrhage Health Cost Refund on Kill
+	#Range: 0.0 ~ 1.0
+	bloodthornHemorrhageRefundKill = 1.0
+	#Hemorrhage Current Health Damage
+	#Range: 0.0 ~ 1.0
+	bloodthornHemorrhageDamageBonus = 0.01
+	#Hemorrhage Debuff Amplifier
+	#Range: 0 ~ 255
+	bloodthornHemorrhageDebuffAmplifier = 0
+	#Hemorrhage Debuff Multiplier
+	#Range: 0.01 ~ 10.0
+	bloodthornHemorrhageDebuffMultiplier = 0.1
+	#Hemorrhage Debuff Duration
+	#Range: 20 ~ 100000
+	bloodthornHemorrhageDebuffDuration = 200
+
+["Fortune's Folly"]
+	#Durability
+	#Range: 0 ~ 100000
+	follyDurability = 777
+	#Enchantability
+	#Range: 0 ~ 100000
+	follyEnchantability = 35
+	#Projectile Velocity
+	#Range: 1.0 ~ 10.0
+	follyVelocity = 3.15
+	#Spin the Wheel MobEffect IDs
+	follyWheelEffectList = ["minecraft:blindness", "minecraft:darkness", "minecraft:fire_resistance", "minecraft:glowing", "minecraft:haste", "minecraft:hunger", "minecraft:instant_damage", "minecraft:instant_health", "minecraft:invisiblity", "minecraft:jump_boost", "minecraft:levitation", "minecraft:luck", "minecraft:mining_fatigue", "minecraft:nausea", "minecraft:night_vision", "minecraft:poison", "minecraft:regeneration", "minecraft:resistance", "minecraft:slow_falling", "minecraft:slowness", "minecraft:speed", "minecraft:strength", "minecraft:unluck", "minecraft:weakness", "minecraft:wither", "radweaponry:gust", "radweaponry:hemorrhage"]
+	#Spin the Wheel Effect Duration
+	#Range: 20 ~ 100000
+	follyWheelEffectDuration = 100
+	#Jackpot Weight
+	#Range: 0 ~ 100000
+	follyWeightJackpot = 1
+	#All In Weight
+	#Range: 0 ~ 100000
+	follyWeightAllIn = 2
+	#Double Down Weight
+	#Range: 0 ~ 100000
+	follyWeightDoubleDown = 5
+	#Wheel of Fortune Weight
+	#Range: 0 ~ 100000
+	follyWeightWheel = 16
+	#Bust Weight
+	#Range: 0 ~ 100000
+	follyWeightBust = 2
+	#Fold Weight
+	#Range: 0 ~ 100000
+	follyWeightFold = 2
+	#Snake Eyes Weight
+	#Range: 0 ~ 100000
+	follyWeightSnakeEyes = 3
+	#Jackpot Damage Multiplier
+	#Range: 0.0 ~ 100000.0
+	follyJackpotDamage = 2.0
+	#Jackpot Item
+	#Blank to disable feature
+	follyJackpotItem = "minecraft:emerald"
+	#Jackpot Item Quantity
+	#Range: 0 ~ 64
+	follyJackpotQuantity = 7
+	#Jackpot Random Item Quantity
+	follyJackpotRandom = true
+	#Jackpot Item Quantity Based on Lucky Number
+	#If no Lucky Number is set, uses follyJackpotQuantity
+	follyJackpotUseLucky = true
+	#Jackpot Spawns 1 Exp Orb per Item Drop
+	follyJackpotExpOrb = true
+	#Jackpot Drops From Every Arrow
+	follyJackpotAllArrows = true
+	#All In Max Arrows
+	#Range: 1 ~ 64
+	follyAllInArrows = 8
+	#All In Max Damage Per Arrow Multiplier
+	#Range: 0.01 ~ 100000.0
+	follyAllInDamage = 0.1
+	#Wheel of Fortune Min Damage Multiplier
+	#Range: 0.0 ~ 100000.0
+	follyWheelMinDamage = 0.5
+	#Wheel of Fortune Max Damage Multiplier
+	#Range: 0.0 ~ 100000.0
+	follyWheelMaxDamage = 2.0
+	#Wheel of Fortune Damage Luck Influence Curve
+	#Curve: 1 = no effect, higher = stronger effect
+	#Multiplier: MinDamage + ((Roll 0~1)^Curve^-Luck) * (MaxDamage - MinDamage)
+	#Desmos: https://www.desmos.com/calculator/bsyxcuwbvx
+	#L = MinDamage, H = MaxDamage, R = 0~1 Roll, C = Curve
+	#Range: 1.0 ~ 5.0
+	follyWheelDamageCurve = 1.2
+	#Wheel of Fortune Min Arrows
+	#Range: 1 ~ 6
+	follyWheelMinArrows = 1
+	#Wheel of Fortune Max Arrows
+	#Range: 1 ~ 7
+	follyWheelMaxArrows = 7
+	#Bust Damage Multiplier
+	#Range: 0.0 ~ 1.0
+	follyBustDamage = 0.2
+	#Bust Durability Loss
+	#Range: 0 ~ 10000
+	follyBustDurability = 5
+	#Fold Cooldown
+	#Range: 0 ~ 10000
+	follyFoldCooldown = 60
+	#Snake Eyes Damage Multiplier
+	#Range: 0.0 ~ 1.0
+	follySnakeEyesDamage = 0.5
+	#Gambler's High Hot Streak Chance
+	#Cold Streak Chance is 1 minus this
+	#Range: 0.01 ~ 1.0
+	follyGamblerHotChance = 0.5
+	#Gambler's High Hot Streak Luck Modifier
+	#Hot Streak Chance= HotChance * (1 + (Luck * This))
+	#Range: 0.01 ~ 1.0
+	follyGamblerLuckModifier = 0.1
+	#Gambler's High Hot Streak Minimum Chance
+	#Range: 0.0 ~ 1.0
+	follyGamblerHotMinimumChance = 0.05
+	#Gambler's High Hot Streak Maximum Chance
+	#Range: 0.0 ~ 0.9
+	follyGamblerHotMaximumChance = 0.777
+	#Gambler's High Hot Streak Damage Per
+	#Range: 0.0 ~ 10.0
+	follyGamblerHotDamage = 0.05
+	#Gambler's High Cold Streak Damage Per
+	#Range: 0.0 ~ 10.0
+	follyGamblerColdDamage = 0.05
+	#Gambler's High Streak Max Amplifier
+	#Range: 1 ~ 255
+	follyGamblerMaxStreak = 9
+	#Gambler's High Streak Duration
+	#-1 is Infinite
+	#Range: -1 ~ 72000
+	follyGamblerDuration = -1
+	#Lucky Number Max Roll
+	#Range: 2 ~ 10000
+	follyLuckyNumberMax = 36
+	#Lucky Number Selection Item
+	#Blank to disable ability
+	follyLuckyNumberItem = "minecraft:emerald_block"
+	#Lucky Number Triggers per Selection
+	#Range: 1 ~ 10000
+	follyLuckyNumberTriggers = 7
+	#Lucky Number Minimum Chance
+	#Range: 0.0 ~ 1.0
+	follyLuckyNumberChanceMin = 0.05
+	#Lucky Number Maximum Chance
+	#Range: 0.0 ~ 1.0
+	follyLuckyNumberChanceMax = 0.5
+	#Lucky Number Chance Curve
+	#Curve: 0 = linear, higher = favors maximum numbers, lower = favors lower numbers
+	#Chance = MinChance + (MaxChance - MinChance) * ((LuckyNumber-1)/(MaxNumber-1))^(1+Curve)
+	#Desmos: https://www.desmos.com/calculator/lep0vzqnir
+	#L = ChanceMin, H = ChanceMax, M = MaxNumber, C = Curve
+	#Range: 0.0 ~ 1.0
+	follyLuckyNumberCurve = 0.5
+	#Loaded Dice Upgrade Item
+	#Blank to disable feature
+	follyLoadedItem = "minecraft:gold_block"
+	#Loaded Dice Upgrade Item Quantity
+	#Range: 1 ~ 64
+	follyLoadedQuantity = 64
+	#Loaded Dice Upgrade Luck Amount (1 to This)
+	#Range: 1 ~ 10000
+	follyLoadedUpgradeAmount = 5
+	#Loaded Dice Damage Bonus per Luck
+	#Range: 0.0 ~ 1.0
+	follyLoadedDamage = 0.05
+	#Loaded Dice Fortune Luck Bonus
+	#Range: 0.0 ~ 1.0
+	follyLoadedFortune = 0.5
+	#Loaded Dice Luck of the Sea Luck Bonus
+	#Range: 0.0 ~ 1.0
+	follyLoadedLOTS = 0.5
+
+[Riftwrought]
+	#Attack Damage
+	#Range: 0.0 ~ 100000.0
+	riftwroughtDamage = 7.0
+	#Attack Speed
+	#Range: 0.0 ~ 100000.0
+	riftwroughtSpeed = 1.7
+	#Durability
+	#Range: 0 ~ 100000
+	riftwroughtDurability = 1900
+	#Enchantability
+	#Range: 0 ~ 100000
+	riftwroughtEnchantability = 35
+	#Attack Reach Bonus
+	#Range: -2.0 ~ 2.0
+	"riftwrough tReach" = -0.5
+	#Convergence Attack Damage Boost
+	#Range: 0.0 ~ 10000.0
+	riftwroughtConvergenceAttackDamage = 0.25
+	#Convergence Attack Speed Boost
+	#Range: 0.0 ~ 10000.0
+	riftwroughtConvergenceAttackSpeed = 0.25
+	#Fracturing Debuff Duration
+	#Range: 1 ~ 72000
+	riftwroughtFracturingDebuffDuration = 400
+	#Fracturing Debuff Max Amplifier
+	#Range: 1 ~ 10000
+	riftwroughtFracturedMaxStacks = 4
+	#Fractured Armor Reduction per Stack
+	#Range: 0.0 ~ 1.0
+	riftwroughtFracturedArmorReduction = 0.1
+	#Fractured Armor Toughness Reduction per Stack
+	#Range: 0.0 ~ 1.0
+	riftwroughtFracturedToughnessReduction = 0.1
+	#Fracturing Maximum Fracture Charges
+	#Range: 1 ~ 10000
+	riftwroughtMaximumFractureCharges = 10
+	#Singularity Duration per Charge
+	#Range: 5 ~ 72000
+	riftwroughtSingularityDuration = 5
+	#Singularity Activation Rate
+	#Range: 5 ~ 72000
+	riftwroughtSingularityRate = 5
+	#Singularity Fractured Amplifier
+	#Range: 0 ~ 255
+	riftwroughtSingularityFracturedAmp = 1
+	#Singularity Cooldown
+	#Range: 20 ~ 10000
+	riftwroughtSingularityCooldown = 400
+	#Rift Walking Duration per Charge
+	#Range: 5 ~ 72000
+	riftwroughtRiftWalkingDuration = 20
+	#Riftstep Attack Speed Boost
+	#Range: 0.0 ~ 10000.0
+	riftwroughtRiftstepAttackSpeed = 0.25
+	#Riftstep Movement Speed Boost
+	#Range: 0.0 ~ 10000.0
+	riftwroughtRiftstepMoveSpeed = 0.5
+	#Rift Walking Cooldown
+	#Range: 20 ~ 10000
+	riftwroughtRiftWalkingCooldown = 200
+	#Rift Walking Unique Footstep Particle
+	riftwroughtRiftWalkingParticle = true
+
+["Pearlescent Needle}"]
+	#Attack Damage
+	#Range: 0.0 ~ 100000.0
+	pearlSwordDamage = 8.5
+	#Attack Speed
+	#Range: 0.0 ~ 100000.0
+	pearlSwordSpeed = 1.6
+	#Durability
+	#Range: 0 ~ 100000
+	pearlSwordDurability = 1400
+	#Enchantability
+	#Range: 0 ~ 100000
+	pearlSwordEnchantability = 35
+	#Attack Reach Bonus
+	#Range: -2.0 ~ 2.0
+	pearlSwordReach = 0.5
+	#Severance Damage Bypass Percent
+	#Range: 0.0 ~ 1.0
+	pearlSwordSeverancePercent = 0.5
+	#Renewal Requires Item Selected
+	pearlSwordRenewalSelected = false
+	#Renewal Frequency
+	#Range: 10 ~ 100000
+	pearlSwordRenewalRate = 100
+	#Renewal Repair Amount
+	#Range: 1 ~ 100000
+	pearlSwordRenewAmount = 5
+	#Renewal Low Durability Bonus Amount
+	#Rounds down, 100~75% = This*1, 75%~50% = This*2, 50%~25% = This*3, 25%~0% = This*4
+	#Range: 0.0 ~ 100000.0
+	pearlSwordRenewBonus = 0.75
+	#Renewal Mental Corruption Chance
+	#Consists of visual potion effects, client-side sounds and particles
+	#0 to Disable
+	#Range: 0.0 ~ 1.0
+	pearlSwordRenewCorruption = 0.1
+	#Resonance Damage
+	#Affected by Attack Damage attribute
+	#Range: 0.0 ~ 10000.0
+	pearlSwordResonanceDamage = 5.0
+	#Resonance Radius
+	#Range: 0.5 ~ 8.0
+	pearlSwordResonanceRadius = 3.0
+	#Resonance Weakness Amplifier
+	#Range: 0 ~ 255
+	pearlSwordResonanceWeaknessAmp = 1
+	#Resonance Weakness Duration
+	#Range: 5 ~ 72000
+	pearlSwordResonanceWeaknessDuration = 20
+	#Resonance Cooldown
+	#Range: 10 ~ 72000
+	pearlSwordResonanceCooldown = 100
+	#Resonance Dispel Enabled
+	pearlSwordResonanceDispelEnabled = true
+	#Resonance Dispel Bonus Damage
+	#Range: 0.0 ~ 10000.0
+	pearlSwordResonanceDispelBonus = 0.2
+	#Implosion Cooldown
+	#Range: 100 ~ 72000
+	pearlSwordImplosionCooldown = 1200
+	#Implosion Slownes Amplifier
+	#Range: 0 ~ 255
+	pearlSwordImplosionSlownessAmp = 0
+	#Implosion Slownes Duration
+	#Range: 20 ~ 72000
+	pearlSwordImplosionSlownessDuration = 40
+	#Implosion Damage
+	#Indirect Magic Damage, 50% on implosion, 50% over time
+	#Range: 0.0 ~ 10000.0
+	pearlSwordImplosionDamage = 20.0
+	#Implosion Potion Effect Duration
+	#Range: 20 ~ 72000
+	pearlSwordImplosionEffectDuration = 100
 

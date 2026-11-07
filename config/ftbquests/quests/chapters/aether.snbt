@@ -76,6 +76,15 @@
 	quest_links: [ ]
 	quests: [
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "357D3ED968C0B60C"
 			rewards: [
 				{
@@ -100,6 +109,17 @@
 			tasks: [{
 				advancement: "aether:enter_aether"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "55C6C9359E093844"
 				title: "Enter the Aether Dimension"
 				type: "advancement"
@@ -110,6 +130,15 @@
 		{
 			dependencies: ["04576ACE03218FEC"]
 			description: ["According to ancient tales, the Aether was born from the very essence of the skies, where the purest of energies converged to create a realm untouched by the chaos of the Overworld. It is a place of light and tranquility, where floating islands, ethereal forests, and radiant structures adorn the celestial landscape."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0B6E47092E441BC0"
 			rewards: [
 				{
@@ -127,89 +156,254 @@
 			tasks: [
 				{
 					biome: "aether:skyroot_forest"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					icon: "aether:skyroot_sapling"
 					id: "14C741550B1FC243"
 					type: "biome"
 				}
 				{
 					biome: "aether:skyroot_grove"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					icon: "aether:skyroot_leaves"
 					id: "76DDC3E9FA1C9646"
 					type: "biome"
 				}
 				{
 					biome: "aether:skyroot_meadow"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					icon: "aether:aether_grass_block"
 					id: "30E64F0B1E1C0E89"
 					type: "biome"
 				}
 				{
 					biome: "aether:skyroot_woodland"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					icon: "aether:skyroot_log"
 					id: "3D9F293CE0B48650"
 					type: "biome"
 				}
 				{
 					biome: "aether_redux:cloudcaps"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					icon: "aether_redux:cloudcap_mushling"
 					id: "3001A66F04DB107F"
 					type: "biome"
 				}
 				{
 					biome: "aether_redux:frosted_forests"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					icon: "aether_redux:glacia_sapling"
 					id: "2B87F87AE2FE7DAB"
 					type: "biome"
 				}
 				{
 					biome: "aether_redux:gilded_groves"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					icon: "aether_redux:gilded_oak_sapling"
 					id: "53B351C18E703A21"
 					type: "biome"
 				}
 				{
 					biome: "aether_redux:the_blight"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					icon: "aether_redux:blightwillow_sapling"
 					id: "2754B850012598B8"
 					type: "biome"
 				}
 				{
 					biome: "deep_aether:aerglow_forest"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					icon: "deep_aether:aerglow_blossom"
 					id: "5DE65F0C9CF5B932"
 					type: "biome"
 				}
 				{
 					biome: "deep_aether:aerlavender_fields"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					icon: "deep_aether:aerlavender"
 					id: "0417BBED57920BEC"
 					type: "biome"
 				}
 				{
 					biome: "deep_aether:blue_aerglow_forest"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					icon: "deep_aether:blue_roseroot_sapling"
 					id: "577E7F1B622C2244"
 					type: "biome"
 				}
 				{
 					biome: "deep_aether:golden_grove"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					icon: "deep_aether:golden_aspess"
 					id: "582F765EE75D95DD"
 					type: "biome"
 				}
 				{
 					biome: "deep_aether:golden_heights"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					icon: "aether:golden_oak_sapling"
 					id: "67AE01D5C45539D0"
 					type: "biome"
 				}
 				{
 					biome: "deep_aether:mystic_aerglow_forest"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "50424F53ECD71ACA"
 					type: "biome"
 				}
 				{
 					biome: "deep_aether:yagroot_swamp"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					icon: "deep_aether:yagroot_sapling"
 					id: "4B739DA377CE1848"
 					type: "biome"
@@ -225,6 +419,15 @@
 				"63E2678085E3BF1C"
 				"4B3F906E389F88B7"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "079DFC0E41D92241"
 			rewards: [{
 				id: "74EF99512611753B"
@@ -232,6 +435,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4FB1F9EE8D069667"
 				item: "deep_aether:stratus_ingot"
 				type: "item"
@@ -240,6 +454,15 @@
 			y: 14.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4B3F906E389F88B7"
 			rewards: [{
 				id: "13E030246509BB92"
@@ -247,6 +470,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "48F9D09D905DC3EA"
 				item: "deep_aether:skyjade"
 				type: "item"
@@ -256,6 +490,15 @@
 		}
 		{
 			dependencies: ["3173DC3B54DD3BDB"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5FA2B6E76BD78E36"
 			rewards: [{
 				id: "3C9F5E586BFF44EE"
@@ -263,6 +506,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "61FECF8098F02B44"
 				item: "aether_redux:gravitite_ingot"
 				type: "item"
@@ -271,6 +525,15 @@
 			y: 12.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "63E2678085E3BF1C"
 			rewards: [{
 				id: "79D006303BB593FB"
@@ -278,6 +541,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1018D2E636B4F28D"
 				item: "deep_aether:chromatic_aercloud"
 				type: "item"
@@ -288,6 +562,15 @@
 		{
 			dependencies: ["357D3ED968C0B60C"]
 			description: ["Graceful and gentle, Moas are majestic avian creatures with vibrant plumage and endearing personalities. They serve as loyal companions to adventurers, offering aerial assistance and companionship on their journeys."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "77A49F5DD325CC07"
 			rewards: [{
 				id: "7B2EF7D72394D509"
@@ -295,6 +578,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "43C5BC49A3246F07"
 				item: {
 					Count: 1
@@ -315,6 +609,15 @@
 				"77A49F5DD325CC07"
 				"6A8893C1A5005724"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3BEB71D044190B8F"
 			rewards: [{
 				id: "36F4F8B6B9F552D5"
@@ -322,6 +625,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5016C4B9205AC90C"
 				item: "aether:incubator"
 				type: "item"
@@ -331,6 +645,15 @@
 		}
 		{
 			dependencies: ["3BEB71D044190B8F"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "674277FB46A8D8D9"
 			rewards: [{
 				id: "38BB16647C26CD4B"
@@ -341,6 +664,17 @@
 			tasks: [{
 				advancement: "aether:incubate_moa"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7BEFBB858169D0ED"
 				type: "advancement"
 			}]
@@ -349,6 +683,15 @@
 		}
 		{
 			dependencies: ["357D3ED968C0B60C"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6A8893C1A5005724"
 			rewards: [
 				{
@@ -374,6 +717,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "295492944144E1BB"
 				item: "aether:ambrosium_shard"
 				type: "item"
@@ -386,6 +740,15 @@
 				"3261AA84DF4E4E12"
 				"6A8893C1A5005724"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3173DC3B54DD3BDB"
 			rewards: [{
 				id: "43B454043B139058"
@@ -393,6 +756,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "25FB49DD0905E793"
 				item: "aether:altar"
 				type: "item"
@@ -402,6 +776,15 @@
 		}
 		{
 			dependencies: ["357D3ED968C0B60C"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3261AA84DF4E4E12"
 			rewards: [
 				{
@@ -418,6 +801,17 @@
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "391ACA058940A955"
 				item: "aether:zanite_gemstone"
 				type: "item"
@@ -428,6 +822,15 @@
 		{
 			dependencies: ["5FA2B6E76BD78E36"]
 			description: ["With a full set, your jump will be increased. The Gravitite Ring boosts it even higher."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "aether:gravitite_helmet"
@@ -462,6 +865,17 @@
 			]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5DDDDE056BBBF104"
 					item: {
 						Count: 1
@@ -473,6 +887,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "14FE68BFF10AC7C1"
 					item: {
 						Count: 1
@@ -484,6 +909,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2F6D721511613400"
 					item: {
 						Count: 1
@@ -495,6 +931,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4F1AA6A1D09C3732"
 					item: {
 						Count: 1
@@ -506,6 +953,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7CB8C017A2DB0FD7"
 					item: {
 						Count: 1
@@ -522,6 +980,15 @@
 			y: 12.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "08067422126C49AF"
 			rewards: [
 				{
@@ -539,6 +1006,17 @@
 			size: 1.5d
 			subtitle: "Defeat the Slider within the Bronze Dungeon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "70E29EBB56487036"
 				item: "aether:bronze_dungeon_key"
 				type: "item"
@@ -547,6 +1025,15 @@
 			y: 7.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "39F8D249768715BE"
 			rewards: [
 				{
@@ -562,6 +1049,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2E4B99FD53AED4AE"
 				item: {
 					Count: 1
@@ -576,6 +1074,15 @@
 			y: 11.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "643083A83E5B9B18"
 			rewards: [
 				{
@@ -593,6 +1100,17 @@
 			size: 1.5d
 			subtitle: "Defeat the Valkyrie Queen within the Silver Dungeon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6662EF0638A6DCDB"
 				item: "aether:silver_dungeon_key"
 				type: "item"
@@ -602,6 +1120,15 @@
 		}
 		{
 			description: ["Thanks to the Aether 1.5 update, the Sun Guardian can now be damaged like a normal mob while in his frozen state. I find this much better than the old way."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4167FEC4F9A0252C"
 			rewards: [
 				{
@@ -624,6 +1151,17 @@
 			size: 1.5d
 			subtitle: "Defeat the Sun Spirit within the Gold Dungeon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2E13C67E02AE973E"
 				item: "aether:gold_dungeon_key"
 				type: "item"
@@ -632,6 +1170,15 @@
 			y: 7.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "75C310C72E5F9F14"
 			rewards: [
 				{
@@ -654,6 +1201,17 @@
 			size: 1.5d
 			subtitle: "Defeat the Aerwhale King within the Platinum Dungeon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3FEED9685C602C60"
 				item: "lost_aether_content:platinum_key"
 				type: "item"
@@ -662,6 +1220,15 @@
 			y: 7.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0A9462330AE2B8EF"
 			rewards: [
 				{
@@ -678,6 +1245,17 @@
 			shape: "diamond"
 			size: 1.0d
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "634167B4601920E3"
 				item: {
 					Count: 1
@@ -695,6 +1273,15 @@
 			y: 8.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3D7E1C891CAEB7E5"
 			rewards: [
 				{
@@ -710,6 +1297,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "53F772C9C1BD1967"
 				item: {
 					Count: 1
@@ -724,6 +1322,15 @@
 			y: 10.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4DEB1956180D3C61"
 			rewards: [
 				{
@@ -739,6 +1346,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2FEADB53CE1CCA8F"
 				item: {
 					Count: 1
@@ -753,6 +1371,15 @@
 			y: 9.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4FBD00CBE6F39027"
 			rewards: [
 				{
@@ -768,6 +1395,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0440093E482E3C9A"
 				item: {
 					Count: 1
@@ -782,6 +1420,15 @@
 			y: 8.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2B0649FBCDF189B5"
 			rewards: [
 				{
@@ -797,6 +1444,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "09D84E821D050234"
 				item: {
 					Count: 1
@@ -811,6 +1469,15 @@
 			y: 8.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0D12DFA2D267AA47"
 			rewards: [
 				{
@@ -826,6 +1493,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "03E59D4EC42798B6"
 				item: {
 					Count: 1
@@ -840,6 +1518,15 @@
 			y: 9.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1E1D119DBF1BE50F"
 			rewards: [
 				{
@@ -855,6 +1542,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3FF0ACBCBD11D7AD"
 				item: {
 					Count: 1
@@ -869,6 +1567,15 @@
 			y: 9.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3C737311F7CDC419"
 			rewards: [
 				{
@@ -884,6 +1591,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3844AC494F64965C"
 				item: {
 					Count: 1
@@ -900,6 +1618,15 @@
 		{
 			dependencies: ["04576ACE03218FEC"]
 			description: ["Resembling fluffy clouds, Sheepuff are docile creatures that roam the Aether's landscape. They can be sheared for wool just like an ordinary sheep."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2F147D07C676520B"
 			rewards: [{
 				id: "390BF68724D34FD8"
@@ -907,6 +1634,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "collectorsalbum:common_sheep_card"
 				id: "3D964C00336B8295"
 				observe_type: 5
@@ -918,6 +1656,15 @@
 			y: 4.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7F6E9A4C601CA13F"
 			rewards: [
 				{
@@ -934,6 +1681,17 @@
 			shape: "diamond"
 			size: 1.0d
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "73681E7D73B85673"
 				item: "aether:lightning_knife"
 				type: "item"
@@ -942,6 +1700,15 @@
 			y: 8.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "29620F40472C9BB4"
 			rewards: [
 				{
@@ -958,6 +1725,17 @@
 			shape: "diamond"
 			size: 1.0d
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1311BF7B3D11ADB5"
 				item: {
 					Count: 1
@@ -970,6 +1748,15 @@
 			y: 9.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0B0AB8C2C9CBE5B6"
 			rewards: [
 				{
@@ -985,6 +1772,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1CAF2C336836B1B1"
 				item: "aether:regeneration_stone"
 				type: "item"
@@ -993,6 +1791,15 @@
 			y: 10.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4E11F34EF194B62D"
 			rewards: [
 				{
@@ -1008,6 +1815,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "60D9980F86BBA770"
 				item: {
 					Count: 1
@@ -1022,6 +1840,15 @@
 			y: 8.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3FE975DF793F4C79"
 			rewards: [
 				{
@@ -1037,6 +1864,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "39958717469D15BF"
 				item: "aether:iron_bubble"
 				type: "item"
@@ -1046,6 +1884,15 @@
 		}
 		{
 			dependencies: ["08067422126C49AF"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "74BD71A20B66D919"
 			rewards: [
 				{
@@ -1062,6 +1909,17 @@
 			shape: "diamond"
 			subtitle: "Dropped when defeating a Slider without taking a single hit."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "755CF1443C175000"
 				item: {
 					Count: 1
@@ -1077,6 +1935,15 @@
 		}
 		{
 			dependencies: ["4167FEC4F9A0252C"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4D5977709FF623B4"
 			rewards: [
 				{
@@ -1093,6 +1960,17 @@
 			shape: "diamond"
 			subtitle: "Dropped when defeating a Sun Spirit without taking a single hit."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "41680B4EA0CC11C1"
 				item: "deep_aether:sun_core"
 				type: "item"
@@ -1102,6 +1980,15 @@
 		}
 		{
 			dependencies: ["643083A83E5B9B18"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "62574471315084C9"
 			rewards: [
 				{
@@ -1118,6 +2005,17 @@
 			shape: "diamond"
 			subtitle: "Dropped when defeating a Valkyrie Queen without taking a single hit."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "02D8CCBF7C96ABF7"
 				item: "deep_aether:medal_of_honor"
 				type: "item"
@@ -1127,6 +2025,15 @@
 		}
 		{
 			dependencies: ["04576ACE03218FEC"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "38426BE3149DCC59"
 			rewards: [{
 				id: "15A81BD83555FCB7"
@@ -1134,6 +2041,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "545ED15406D8BB37"
 				item: "aether:swet_ball"
 				type: "item"
@@ -1143,6 +2061,15 @@
 		}
 		{
 			dependencies: ["04576ACE03218FEC"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2390445545DCD9B2"
 			rewards: [{
 				id: "318C492D9F9F9540"
@@ -1150,6 +2077,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7ECB7ABC54B6D15D"
 				item: "aether_redux:golden_swet_ball"
 				type: "item"
@@ -1159,6 +2097,15 @@
 		}
 		{
 			dependencies: ["04576ACE03218FEC"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0596447CC99F3E85"
 			rewards: [{
 				id: "070F7018AE45A0A5"
@@ -1166,6 +2113,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5B7630FDF71BD0CA"
 				item: "aether_redux:vanilla_swet_ball"
 				type: "item"
@@ -1175,6 +2133,15 @@
 		}
 		{
 			description: ["using this as a weapon looks funny because the sprite is sideways"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "23E510849CE1FC8D"
 			rewards: [
 				{
@@ -1190,6 +2157,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3801F3F1FB1EAD3B"
 				item: {
 					Count: 1
@@ -1204,6 +2182,15 @@
 			y: 11.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "00E725158903352D"
 			rewards: [
 				{
@@ -1220,6 +2207,17 @@
 			shape: "diamond"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "17E5C85759661357"
 					item: {
 						Count: 1
@@ -1234,6 +2232,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5F438D94880E2EB6"
 					item: {
 						Count: 1
@@ -1248,6 +2257,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6FD7F61ED79D1139"
 					item: {
 						Count: 1
@@ -1262,6 +2282,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5D180D5DCA4CCF97"
 					item: {
 						Count: 1
@@ -1276,6 +2307,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "271C7D37068B5E36"
 					item: {
 						Count: 1
@@ -1293,6 +2335,15 @@
 		}
 		{
 			dependencies: ["0B6E47092E441BC0"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6A2394A0646AE1D0"
 			rewards: [
 				{
@@ -1309,71 +2360,225 @@
 			subtitle: "Collect every Aether sapling"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2C258B7E1F895833"
 					item: "deep_aether:roseroot_sapling"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "79A7E8C4D561C7F6"
 					item: "deep_aether:blue_roseroot_sapling"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0BEFF6EBF29D37F9"
 					item: "deep_aether:yagroot_sapling"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "091501F9CBA39D67"
 					item: "deep_aether:cruderoot_sapling"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4108296B49A3F344"
 					item: "deep_aether:conberry_sapling"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "54D23910BC1C9AA2"
 					item: "deep_aether:sunroot_sapling"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "787E8EDF783D82A5"
 					item: "aether:skyroot_sapling"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "56B82FEAE00854FB"
 					item: "aether:golden_oak_sapling"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7B4A4535F053098A"
 					item: "lost_aether_content:crystal_sapling"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1006493A54A8CF85"
 					item: "lost_aether_content:holiday_sapling"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3F3E9E54D14E9A6A"
 					item: "aether_redux:blightwillow_sapling"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4C536B4F2F35728A"
 					item: "aether_redux:blighted_skyroot_sapling"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3693931B3ECCD361"
 					item: "aether_redux:glacia_sapling"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "34560CCB09D5187F"
 					item: "aether_redux:gilded_oak_sapling"
 					type: "item"
@@ -1385,6 +2590,15 @@
 		}
 		{
 			dependencies: ["6A8893C1A5005724"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "37B6920A888292EA"
 			rewards: [{
 				id: "78A21E33DE277467"
@@ -1395,6 +2609,17 @@
 			tasks: [{
 				advancement: "aether_redux:infuse_veridium"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3576438BF3DC3690"
 				type: "advancement"
 			}]
@@ -1403,6 +2628,15 @@
 		}
 		{
 			dependencies: ["0B6E47092E441BC0"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2E3AFFEFE62D990F"
 			rewards: [
 				{
@@ -1419,116 +2653,369 @@
 			subtitle: "Collect every Aether flower"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "66A647F56BC30906"
 					item: "aether:purple_flower"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4E40051EF42F8EB5"
 					item: "aether_redux:golden_clover"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7BA0E4EC300CAD8F"
 					item: "deep_aether:golden_flower"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7C89AD961125B5AC"
 					item: "deep_aether:aether_cattails"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "27D3C5AEF4FACAC1"
 					item: "deep_aether:aerlavender"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "72ECA89D0EADB9BF"
 					item: "deep_aether:enchanted_blossom"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3285924E02C9C208"
 					item: "deep_aether:feather_grass"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "33D2FD27E2FCBF0B"
 					item: "deep_aether:sky_tulips"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "419D9B4C67102573"
 					item: "deep_aether:iaspove"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "60AAB51AEC22A855"
 					item: "deep_aether:golden_aspess"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2E8EEA559956930C"
 					item: "deep_aether:echaisy"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "64134E9BC3AD4CF9"
 					item: "aether:white_flower"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "21B77395E613D4D6"
 					item: "deep_aether:yagroot_vine"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "70B34E287A6DEC60"
 					item: "deep_aether:radiant_orchid"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0AA554F96855E9E2"
 					item: "aether_redux:golden_vines"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5780847E571F41D5"
 					item: "aether_redux:aurum"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3DB510C999A0CEFC"
 					item: "aether_redux:skysprouts"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1682205465FBD22F"
 					item: "aether_redux:iridia"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "11A7EFFFF39E6509"
 					item: "aether_redux:luxweed"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "76B7D44309988200"
 					item: "aether_redux:spirolyctil"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "66FAFE44B27CF5B2"
 					item: "aether_redux:blightshade"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "04B07FAFE399B5C6"
 					item: "aether_redux:cloudcap_mushling"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3E905D5B30C72704"
 					item: "aether_redux:lumina"
 					type: "item"
@@ -1541,6 +3028,15 @@
 		{
 			dependencies: ["079DFC0E41D92241"]
 			description: ["The Stratus armor keeps the high jump of the Gravitite armor, and also gives a dash."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "15A40EE1540457A3"
 			rewards: [
 				{
@@ -1570,6 +3066,17 @@
 			]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7B8A9BCF1BBD5030"
 					item: {
 						Count: 1
@@ -1581,6 +3088,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "38D5DB1976967D8C"
 					item: {
 						Count: 1
@@ -1592,6 +3110,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "57846378298AE203"
 					item: {
 						Count: 1
@@ -1603,6 +3132,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "56DC7D8074D5FC36"
 					item: {
 						Count: 1
@@ -1614,6 +3154,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7E155013D8A1183F"
 					item: {
 						Count: 1
@@ -1629,6 +3180,15 @@
 			y: 15.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "70E7688FC6916F87"
 			rewards: [
 				{
@@ -1644,6 +3204,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "27A3F5054A36E29F"
 				item: "aether:invisibility_cloak"
 				type: "item"
@@ -1653,6 +3224,15 @@
 		}
 		{
 			dependencies: ["3173DC3B54DD3BDB"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "13F03A5D89E4C30F"
 			rewards: [
 				{
@@ -1668,6 +3248,17 @@
 			]
 			subtitle: "Obtained from enchanting Holystone"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7B27E32C1B34BC03"
 				item: "aether:healing_stone"
 				type: "item"
@@ -1676,6 +3267,15 @@
 			y: 11.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1863FA8D3770A396"
 			rewards: [
 				{
@@ -1691,6 +3291,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "50925BE5EEC1B490"
 				item: "deep_aether:music_disc_nabooru"
 				type: "item"
@@ -1699,6 +3310,15 @@
 			y: 12.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "414610BAA4D63201"
 			rewards: [
 				{
@@ -1714,6 +3334,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "10160CC745CF4C93"
 				item: "deep_aether:music_disc_a_morning_wish"
 				type: "item"
@@ -1722,6 +3353,15 @@
 			y: 12.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "354EC46A209B3A85"
 			rewards: [
 				{
@@ -1737,6 +3377,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "59AEFF6C05A28B3B"
 				item: "aether:music_disc_aether_tune"
 				type: "item"
@@ -1745,6 +3396,15 @@
 			y: 12.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "472B2DD91C80D31C"
 			rewards: [
 				{
@@ -1760,6 +3420,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5DC2E2B8FB7C23E3"
 				item: "aether:music_disc_ascending_dawn"
 				type: "item"
@@ -1768,6 +3439,15 @@
 			y: 12.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5832BF00547EA4C6"
 			rewards: [
 				{
@@ -1783,6 +3463,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "310D3EC98A4ECE66"
 				item: "lost_aether_content:music_disc_legacy"
 				type: "item"
@@ -1791,6 +3482,15 @@
 			y: 13.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "01486283D240959E"
 			rewards: [
 				{
@@ -1806,6 +3506,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1525F83DFA6C8263"
 				item: "lost_aether_content:music_disc_sovereign_of_the_skies"
 				type: "item"
@@ -1815,6 +3526,15 @@
 		}
 		{
 			dependencies: ["357D3ED968C0B60C"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "047FB6BC7E8AEF3B"
 			rewards: [{
 				id: "28CC2CFF276E507E"
@@ -1822,6 +3542,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2AC93D84308C5FB1"
 				structure: "deep_aether:lake_oasis"
 				type: "structure"
@@ -1832,6 +3563,15 @@
 		{
 			dependencies: ["04576ACE03218FEC"]
 			description: ["These living clouds can't deal damage, but the snowballs they spit can knock you right off the islands."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3D59F7AAF729DA6D"
 			rewards: [{
 				id: "0142825CFBADF8A6"
@@ -1839,6 +3579,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "aether:zephyr_spawn_egg"
 				id: "39A5FFC78A8C9C6B"
 				observe_type: 5
@@ -1851,6 +3602,15 @@
 		}
 		{
 			dependencies: ["04576ACE03218FEC"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "24C570E6CC4E6A09"
 			rewards: [{
 				id: "49DADEBCC2D9216A"
@@ -1858,6 +3618,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "aether:aerwhale_spawn_egg"
 				id: "7CCD7ECBE2553E6F"
 				observe_type: 5
@@ -1870,8 +3641,28 @@
 		}
 		{
 			dependencies: ["357D3ED968C0B60C"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "04576ACE03218FEC"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5EC21C5EA6DC3898"
 				type: "checkmark"
 			}]
@@ -1880,6 +3671,15 @@
 			y: 4.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "44A23A923018CEFE"
 			rewards: [
 				{
@@ -1895,21 +3695,65 @@
 			]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "48EC8D42DE56AC6A"
 					item: "deep_aether:mossy_holystone_bricks"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1E3F25D6354C6142"
 					item: "deep_aether:gilded_holystone_bricks"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "32B25BBEEA6F7E33"
 					item: "deep_aether:blightmoss_holystone_bricks"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4D17B746F5724EAC"
 					item: "aether:holystone_bricks"
 					type: "item"
@@ -1920,6 +3764,15 @@
 			y: 17.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7F4E6F49552DCAE7"
 			rewards: [
 				{
@@ -1935,26 +3788,81 @@
 			]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0BA1351784EE3958"
 					item: "aether:carved_stone"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "44910426A85D23E2"
 					item: "aether:angelic_stone"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5E694D67A7F3AC81"
 					item: "aether:hellfire_stone"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7DB57521322A76A7"
 					item: "lost_aether_content:gale_stone"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "100D5EE655B7FDC1"
 					item: "ancient_aether:aerogetic_stone"
 					type: "item"
@@ -1965,6 +3873,15 @@
 			y: 17.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "63813B7783C6B9CF"
 			rewards: [
 				{
@@ -1979,6 +3896,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0C1DCD8B507992CB"
 				item: "aether:ambrosium_block"
 				type: "item"
@@ -1987,6 +3915,15 @@
 			y: 17.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "509F3C65485E0729"
 			rewards: [
 				{
@@ -2001,6 +3938,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "750853740DD691E8"
 				item: "aether:zanite_block"
 				type: "item"
@@ -2009,6 +3957,15 @@
 			y: 17.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7071A4417DFFD4B5"
 			rewards: [
 				{
@@ -2023,6 +3980,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6F1CAEC7907C7A1B"
 				item: "aether_redux:veridium_block"
 				type: "item"
@@ -2031,6 +3999,15 @@
 			y: 17.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1A391520AE850E13"
 			rewards: [
 				{
@@ -2045,6 +4022,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4EFDC9FFDBA3079C"
 				item: "deep_aether:skyjade_block"
 				type: "item"
@@ -2053,6 +4041,15 @@
 			y: 17.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3A120543B6135681"
 			rewards: [
 				{
@@ -2067,6 +4064,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0B8DF21E59BCF4C8"
 				item: "aether_redux:gravitite_block"
 				type: "item"
@@ -2075,6 +4083,15 @@
 			y: 17.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "40FE770B04AF0EFD"
 			rewards: [
 				{
@@ -2089,6 +4106,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1876BDED7473D4F0"
 				item: "ancient_aether:valkyrum_block"
 				type: "item"
@@ -2097,6 +4125,15 @@
 			y: 17.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6C83F0D214D7889B"
 			rewards: [
 				{
@@ -2111,6 +4148,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "46F3B991D328E49C"
 				item: "deep_aether:stratus_block"
 				type: "item"
@@ -2119,6 +4167,15 @@
 			y: 17.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3D7CF29EDE81DD87"
 			rewards: [
 				{
@@ -2134,6 +4191,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1D64FA40CCB365EC"
 				item: {
 					Count: 1
@@ -2146,6 +4214,15 @@
 			y: 14.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "066F5F35C2E89347"
 			rewards: [
 				{
@@ -2160,6 +4237,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "376FD4FD6C831219"
 				item: "aether_redux:refined_sentrite_block"
 				type: "item"
@@ -2169,6 +4257,15 @@
 		}
 		{
 			dependencies: ["75C310C72E5F9F14"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2E7059C7EF6965F1"
 			rewards: [
 				{
@@ -2185,6 +4282,17 @@
 			shape: "diamond"
 			subtitle: "Dropped when defeating an Aerwhale King without taking a single hit."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5D77E6EB024BC8B8"
 				item: "deep_aether:aerwhale_saddle"
 				type: "item"
@@ -2193,6 +4301,15 @@
 			y: 5.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "42D43DB30E1A1A86"
 			rewards: [
 				{
@@ -2208,6 +4325,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1DE99CDA47E9DA1E"
 				item: "aether:valkyrie_cape"
 				type: "item"
@@ -2216,6 +4344,15 @@
 			y: 10.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0025237D625DAACA"
 			rewards: [
 				{
@@ -2231,6 +4368,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3EF368BDF68359FB"
 				item: {
 					Count: 1
@@ -2247,6 +4395,15 @@
 			y: 8.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2FF50A945D63D33A"
 			rewards: [
 				{
@@ -2263,6 +4420,17 @@
 			shape: "diamond"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "559507C4BBFE088B"
 					item: {
 						Count: 1
@@ -2279,6 +4447,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "74E447079474A611"
 					item: {
 						Count: 1
@@ -2295,6 +4474,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "767D813DDBFAA1F4"
 					item: {
 						Count: 1
@@ -2311,6 +4501,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "455E1EF2845191E2"
 					item: {
 						Count: 1
@@ -2332,6 +4533,15 @@
 			y: 9.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "493C2E0419F41220"
 			rewards: [
 				{
@@ -2348,6 +4558,17 @@
 			shape: "diamond"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "769710DEE7ABA32C"
 					item: {
 						Count: 1
@@ -2361,6 +4582,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "44E2905961AE4519"
 					item: {
 						Count: 1
@@ -2379,6 +4611,15 @@
 			y: 9.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0A2FF65CC6CA5FE4"
 			rewards: [
 				{
@@ -2394,6 +4635,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6E17249A83E9FFE5"
 				item: {
 					Count: 1
@@ -2413,6 +4665,15 @@
 			y: 10.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "19A0DD4B4D201DEC"
 			rewards: [
 				{
@@ -2428,6 +4689,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "73DC50166DFCE984"
 				item: {
 					Count: 1
@@ -2447,6 +4719,15 @@
 			y: 11.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "721CD84BBAF8A7DE"
 			rewards: [
 				{
@@ -2462,6 +4743,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0A68F337DE31136A"
 				item: "ancient_aether:strength_stone"
 				type: "item"
@@ -2470,6 +4762,15 @@
 			y: 11.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3F1EF66D944F9E45"
 			rewards: [
 				{
@@ -2485,6 +4786,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "22299263FDD0B0C3"
 				item: {
 					Count: 1
@@ -2499,6 +4811,15 @@
 			y: 13.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "55CDA050ACC819AD"
 			rewards: [
 				{
@@ -2514,6 +4835,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "024D495A36C85843"
 				item: "aether:agility_cape"
 				type: "item"
@@ -2522,6 +4854,15 @@
 			y: 9.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5A98C9E6C8F046F2"
 			rewards: [
 				{
@@ -2537,6 +4878,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6B40A87494BBCF1D"
 				item: {
 					Count: 1
@@ -2551,6 +4903,15 @@
 			y: 9.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3817281C7E03BCE8"
 			rewards: [
 				{
@@ -2566,6 +4927,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "797EB9103132CB67"
 				item: {
 					Count: 1
@@ -2583,6 +4955,15 @@
 			y: 10.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6DEF3929C8C03AA1"
 			rewards: [
 				{
@@ -2598,6 +4979,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5D3EBCDB670FDA5A"
 				item: {
 					Count: 1
@@ -2617,6 +5009,15 @@
 			y: 11.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5EF3F213210E8F2C"
 			rewards: [
 				{
@@ -2632,6 +5033,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6EE03F261F832A93"
 				item: "aether:swet_cape"
 				type: "item"
@@ -2640,6 +5052,15 @@
 			y: 12.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5260D4402920AB0E"
 			rewards: [
 				{
@@ -2655,6 +5076,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "47B1E5A398141411"
 				item: "aether_redux:airbound_cape"
 				type: "item"
@@ -2663,6 +5095,15 @@
 			y: 10.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4C6460EF89C9B382"
 			rewards: [
 				{
@@ -2679,6 +5120,17 @@
 			shape: "diamond"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "797633370A358448"
 					item: {
 						Count: 1
@@ -2693,6 +5145,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "126C167298BCA3EA"
 					item: {
 						Count: 1
@@ -2707,6 +5170,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "18E497DC36EA9722"
 					item: {
 						Count: 1
@@ -2721,6 +5195,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "64BE9D489388C90D"
 					item: {
 						Count: 1
@@ -2735,6 +5220,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7FE3ECDE77912CC4"
 					item: {
 						Count: 1
@@ -2751,6 +5247,15 @@
 			y: 10.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "34AA3708440E4D9F"
 			rewards: [
 				{
@@ -2766,6 +5271,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "72D40B0942DDB53B"
 				item: {
 					Count: 1
@@ -2783,6 +5299,15 @@
 			y: 13.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6F77F7CE9E364AB6"
 			rewards: [
 				{
@@ -2798,6 +5323,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3B232AE5723B1202"
 				item: {
 					Count: 1
@@ -2814,6 +5350,15 @@
 			y: 8.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7989DE61CADF9467"
 			rewards: [
 				{
@@ -2836,6 +5381,17 @@
 			size: 1.5d
 			subtitle: "Defeat the Mutated Aechor Plant within the Sentry Laboratory"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "483F8CAF49EB8455"
 				item: "ancient_aether:laboratory_dungeon_key"
 				type: "item"
@@ -2845,6 +5401,15 @@
 		}
 		{
 			description: ["man i love candy canes"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0C2669EEAAAA6D7E"
 			rewards: [
 				{
@@ -2866,6 +5431,17 @@
 			shape: "diamond"
 			subtitle: "im eating a candy cane while i make these quests"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6FB5DBE47B494BCD"
 				item: {
 					Count: 1
@@ -2886,6 +5462,15 @@
 		}
 		{
 			description: ["A dimension with an unfinished final dungeon? Welcome back Twilight Forest"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7C1E3B2FA781C340"
 			optional: true
 			rewards: [
@@ -2904,6 +5489,17 @@
 			size: 1.5d
 			subtitle: "This part of the mod is not yet finished"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "31FEC3CD79259C35"
 				item: "ancient_aether:ancient_dungeon_key"
 				type: "item"
@@ -2912,6 +5508,15 @@
 			y: 7.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1C0F14A8697069DB"
 			optional: true
 			rewards: [
@@ -2929,6 +5534,17 @@
 			shape: "diamond"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "63E7BB683AEE198F"
 					item: {
 						Count: 1
@@ -2942,6 +5558,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "448CE45C133B03EE"
 					item: {
 						Count: 1
@@ -2960,6 +5587,15 @@
 			y: 8.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "59E2164B6FF8E97F"
 			rewards: [
 				{
@@ -2976,6 +5612,17 @@
 			shape: "diamond"
 			subtitle: "This rune is a key used to unlock the Ancient Dungeon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3BB1D90B2E1C1266"
 				item: "ancient_aether:ancient_rune"
 				type: "item"
@@ -2984,6 +5631,15 @@
 			y: 9.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0D7E47E81BB601CF"
 			optional: true
 			rewards: [
@@ -3000,6 +5656,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "02892D2AC9BDB0A4"
 				item: {
 					Count: 1
@@ -3019,6 +5686,15 @@
 			y: 8.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "68888F94CAE127E4"
 			rewards: [
 				{
@@ -3035,6 +5711,17 @@
 			shape: "diamond"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "66A4956F9D134E7D"
 					item: {
 						Count: 1
@@ -3048,6 +5735,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5E37C3110E521FF4"
 					item: {
 						Count: 1
@@ -3066,6 +5764,15 @@
 			y: 9.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "02CC547AA6264B50"
 			rewards: [
 				{
@@ -3081,6 +5788,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "60034AFB74207E1F"
 				item: {
 					Count: 1
@@ -3100,6 +5818,15 @@
 			y: 9.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5921D587DFA7F59A"
 			rewards: [
 				{
@@ -3115,6 +5842,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "15F8DF1DF6683A01"
 				item: {
 					Count: 1
@@ -3134,6 +5872,15 @@
 			y: 10.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0DCF6EB06F19AA66"
 			rewards: [
 				{
@@ -3149,6 +5896,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "09E1B0969061A182"
 				item: {
 					Count: 1
@@ -3166,6 +5924,15 @@
 			y: 10.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2FC2F0F08A028896"
 			rewards: [
 				{
@@ -3182,6 +5949,17 @@
 			shape: "diamond"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7400160F5C14635A"
 					item: {
 						Count: 1
@@ -3198,6 +5976,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7FCDCD1C874F1C7F"
 					item: {
 						Count: 1
@@ -3214,6 +6003,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "31AFBF1EB097D071"
 					item: {
 						Count: 1
@@ -3230,6 +6030,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6576C92FB3B6EF59"
 					item: {
 						Count: 1
@@ -3246,6 +6057,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2E075A8DE8CAD3B6"
 					item: {
 						Count: 1
@@ -3267,6 +6089,15 @@
 			y: 11.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2AA52630F1D91DC8"
 			rewards: [
 				{
@@ -3283,6 +6114,17 @@
 			shape: "diamond"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "60DAFA8B1EF55CE2"
 					item: {
 						Count: 1
@@ -3296,6 +6138,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "17E514A7999537CE"
 					item: {
 						Count: 1
@@ -3314,6 +6167,15 @@
 			y: 9.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "780B0FB0F027EC08"
 			rewards: [
 				{
@@ -3329,6 +6191,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "03022DC549FA8191"
 				item: "ancient_aether:shield_of_inebriation"
 				type: "item"
@@ -3337,6 +6210,15 @@
 			y: 8.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6A8D7CFC44A529A7"
 			rewards: [
 				{
@@ -3352,6 +6234,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3A6666F1274E830C"
 				item: "ancient_aether:shield_of_remediation"
 				type: "item"
@@ -3360,6 +6253,15 @@
 			y: 8.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "48317CB74A4B6904"
 			rewards: [
 				{
@@ -3375,6 +6277,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "765097BD015C76A7"
 				item: "aether:sun_altar"
 				type: "item"
@@ -3385,6 +6298,15 @@
 		{
 			dependencies: ["3173DC3B54DD3BDB"]
 			description: ["Only Aether items can be repaired in the Altar. "]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "52EF899298675408"
 			rewards: [{
 				count: 16
@@ -3393,6 +6315,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "20F288E19389014C"
 				title: "Altar Repairing"
 				type: "checkmark"
@@ -3403,6 +6336,15 @@
 		{
 			dependencies: ["6A8893C1A5005724"]
 			description: ["This size of Titanite allows you to upgrade your weapons from +3 to +6."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "031092FD31C06C56"
 			rewards: [{
 				count: 16
@@ -3411,6 +6353,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "556790E1F8625610"
 				item: "bonfires:large_titanite_shard"
 				type: "item"
@@ -3419,6 +6372,15 @@
 			y: 9.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7D3A7BA331F0259B"
 			rewards: [
 				{
@@ -3441,6 +6403,17 @@
 			size: 1.5d
 			subtitle: "Defeat the Eye of the Storm within the Brass Dungeon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "60204356DAB0F6F6"
 				item: "deep_aether:brass_dungeon_key"
 				type: "item"
@@ -3450,6 +6423,15 @@
 		}
 		{
 			dependencies: ["7D3A7BA331F0259B"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4DD0C6EBDB9F4E69"
 			rewards: [
 				{
@@ -3466,6 +6448,17 @@
 			shape: "diamond"
 			subtitle: "Dropped when defeating an Eye of the Storm without taking a single hit."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6B83C3789EE95E8E"
 				item: {
 					Count: 1
@@ -3482,6 +6475,15 @@
 			y: 5.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5FAED17FB57AAD5D"
 			rewards: [
 				{
@@ -3497,6 +6499,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "35C53A25DB037234"
 				item: "deep_aether:cloud_cape"
 				type: "item"
@@ -3505,6 +6518,15 @@
 			y: 8.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "351EE47F251F09C3"
 			rewards: [
 				{
@@ -3520,6 +6542,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2EC79F47A83D5717"
 				item: {
 					Count: 1
@@ -3536,6 +6569,15 @@
 			y: 8.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "46A10889FC8BE412"
 			rewards: [
 				{
@@ -3552,6 +6594,17 @@
 			shape: "diamond"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2603363152966E28"
 					item: {
 						Count: 1
@@ -3566,6 +6619,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4F9EA47C791C41B0"
 					item: {
 						Count: 1
@@ -3580,6 +6644,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5369CCA7123ECC46"
 					item: {
 						Count: 1
@@ -3594,6 +6669,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7E0959F9F2AD44E8"
 					item: {
 						Count: 1
@@ -3608,6 +6694,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "15AC3E8994854FAD"
 					item: {
 						Count: 1
@@ -3624,6 +6721,15 @@
 			y: 9.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1B3CC4C60338C7B6"
 			rewards: [
 				{
@@ -3639,6 +6745,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "62E624B8E6CB5829"
 				item: {
 					Count: 1
@@ -3658,6 +6775,15 @@
 			y: 9.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "201ACDDBB006682E"
 			rewards: [
 				{
@@ -3673,6 +6799,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "67841857789BB0CD"
 				item: {
 					Count: 1
@@ -3690,6 +6827,15 @@
 			y: 9.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6245ED4B81753B25"
 			rewards: [
 				{
@@ -3705,6 +6851,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6128CB3011F4AA1B"
 				item: {
 					Count: 1
@@ -3719,6 +6876,15 @@
 			y: 10.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "36BFD22865C18261"
 			rewards: [
 				{
@@ -3734,6 +6900,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5E8D09C6B0DA6B99"
 				item: {
 					Count: 1
@@ -3753,6 +6930,15 @@
 			y: 10.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0E23AA65EEB4AE50"
 			optional: true
 			rewards: [
@@ -3769,6 +6955,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "66FC2F5A344E59A2"
 				item: "ancient_aether:aeronautic_dart_shooter"
 				type: "item"
@@ -3777,6 +6974,15 @@
 			y: 9.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6B6CECABB7022F57"
 			rewards: [
 				{
@@ -3792,6 +6998,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "099BE8776E6D75B2"
 				item: {
 					Count: 1
@@ -3804,6 +7021,15 @@
 			y: 12.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "65AF31253BF255F7"
 			rewards: [
 				{
@@ -3819,6 +7045,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "12CD269BEF29C51B"
 				item: {
 					Count: 1
@@ -3831,6 +7068,15 @@
 			y: 12.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "59CD48F3B76E8773"
 			rewards: [
 				{
@@ -3846,6 +7092,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2CA20CE4FAD4BE79"
 				item: {
 					Count: 1
@@ -3858,6 +7115,15 @@
 			y: 12.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "54ED2605103214FD"
 			rewards: [
 				{
@@ -3873,6 +7139,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "22E76F220C90ABB6"
 				item: {
 					Count: 1
@@ -3885,6 +7162,15 @@
 			y: 13.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "64FE5FF3E007FE73"
 			rewards: [
 				{
@@ -3900,6 +7186,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "62AA36205D0280C1"
 				item: {
 					Count: 1
@@ -3912,6 +7209,15 @@
 			y: 13.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5D4B36496A165BEA"
 			rewards: [
 				{
@@ -3927,6 +7233,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "50494895618FA785"
 				item: {
 					Count: 1

@@ -67,6 +67,15 @@
 				""
 				"Choosing your first Specialization is free and to aquire tier 2 and 3 Specialization you will need to do some tasks."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7D7A71EA9FCC15E2"
 			rewards: [{
 				id: "2FF8A00EB9982608"
@@ -78,6 +87,17 @@
 			size: 2.0d
 			subtitle: "Specialization(Starterkit/kits/item sets)"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0358255126AF5F51"
 				title: "Choose your Specialization"
 				type: "checkmark"
@@ -87,6 +107,15 @@
 		}
 		{
 			dependencies: ["7AE8ABA3444E05E8"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:mark_miner"
 			id: "683225884B0525D7"
 			rewards: [
@@ -230,6 +259,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6ABFED21BC7228F6"
 				item: {
 					Count: 1
@@ -247,6 +287,15 @@
 		}
 		{
 			dependencies: ["7AE8ABA3444E05E8"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:mark_farmer"
 			id: "4124F9EEBAA895F0"
 			rewards: [
@@ -449,6 +498,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "75798495E4D81490"
 				item: {
 					Count: 1
@@ -466,6 +526,15 @@
 		}
 		{
 			dependencies: ["21ED1D6F4A0DADA6"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:mark_warrior"
 			id: "2B8432D35FB49159"
 			rewards: [
@@ -580,6 +649,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "474DECE6A48BF3A6"
 				item: {
 					Count: 1
@@ -598,6 +678,15 @@
 		{
 			dependencies: ["7F23DAD698D6D126"]
 			description: ["Archers are skilled bowmen. Generally independent and used to working alone, this tends to make them practical, a little haughty or arrogant and not the best at following orders, especially from those they don't respect. Due to the nature of their weapon, archers are typically stealthy and graceful and tend to fight at a distance. As a result, they're often portrayed as vulnerable to close-quarters combat unless they switch to a different weapon."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:mark_archer"
 			id: "3A9272D0C456214D"
 			rewards: [
@@ -748,6 +837,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1916577F27A50E89"
 				item: {
 					Count: 1
@@ -766,6 +866,15 @@
 		{
 			dependencies: ["7F23DAD698D6D126"]
 			description: ["Pirate will use a combination of weaponry instead of specializing - usually being able to switch freely between pistols and swords. They may also receive bonuses for fighting in water terrain or on ships, or be the best class at swimming. May have some aspects of the Bandit, or the Bandit class may be folded into Pirate entirely."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:mark_pirate"
 			id: "5ABCBE93E9B7A41E"
 			rewards: [
@@ -912,6 +1021,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "28697CD0160A8852"
 				item: {
 					Count: 1
@@ -930,6 +1050,15 @@
 		{
 			dependencies: ["7F23DAD698D6D126"]
 			description: ["The Thief, when it is a separate class, is a version of the Rogue with lower damage, but the ability to steal items from enemies. Sometimes, this can extend even to intangible items, such as experience points, but more commonly includes rare items that cannot be obtained in any other way."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:mark_thief"
 			id: "17B7928C5E72DF4A"
 			rewards: [
@@ -1096,6 +1225,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5CAE8A90A68C2AE4"
 				item: {
 					Count: 1
@@ -1113,6 +1253,15 @@
 		}
 		{
 			dependencies: ["7AE8ABA3444E05E8"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:mark_huntsman"
 			id: "04399280EC946CB6"
 			rewards: [
@@ -1279,6 +1428,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2EFA530BF8A20808"
 				item: {
 					Count: 1
@@ -1297,6 +1457,15 @@
 		{
 			dependencies: ["64A211BFC1049648"]
 			description: ["A squishy dedicated healer with little abilities at offense, though their magic may be able to harm specific types of enemies, most commonly demonic entities and the undead."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:mark_healer"
 			id: "591E749ECBF3BF91"
 			rewards: [
@@ -1429,6 +1598,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "55215A5038799BE6"
 				item: {
 					Count: 1
@@ -1447,6 +1627,15 @@
 		{
 			dependencies: ["7F23DAD698D6D126"]
 			description: ["While they have all the standard Rogue abilities, they tend to use them in less subtle ways - instead of unlocking a door they'll kick it down, and instead of stealthily pickpocketing their enemies they'll simply walk up and grab things from them. Sometimes they also have the ability to intimidate their enemies or are good at destroying structures, as well as whole slew of other \"gang\" related abilities."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:mark_pitfighter"
 			id: "064CD4861C2413A8"
 			rewards: [
@@ -1626,6 +1815,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0F518C109B53CBA8"
 				item: {
 					Count: 1
@@ -1644,6 +1844,15 @@
 		{
 			dependencies: ["64A211BFC1049648"]
 			description: ["Pet Masters specialize in controlling a powerful \"pet\" to fight by their side. The pet can be anything from a tamed animal to a summoned elemental to a constructed Golem, but usually it serves as a front-line melee combatant while the master hangs back to support it with healing, buffing and long-range attacks. In extreme cases the master does not take part in combat at all. If the pet is an animal then this class is often folded into Ranger or Nature Magician, and comes with the ability to control animals in general. If folded into Summoner then the character might have access to multiple pets, but only be able to use one at a time."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:mark_tamer"
 			id: "75434610CC4789B4"
 			rewards: [
@@ -1797,6 +2006,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1B16801BFACD6CED"
 				item: {
 					Count: 1
@@ -1814,6 +2034,15 @@
 		}
 		{
 			dependencies: ["21887C44858A1CCC"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "23D32CEF3529DC11"
 			rewards: [
 				{
@@ -1913,6 +2142,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "306118CD623F792B"
 				item: {
 					Count: 1
@@ -1930,6 +2170,15 @@
 		}
 		{
 			dependencies: ["7FF5520CEDEE2939"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2D76206095D119CB"
 			rewards: [
 				{
@@ -2029,6 +2278,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6CE5E63971CBDED4"
 				item: {
 					Count: 1
@@ -2046,6 +2306,15 @@
 		}
 		{
 			dependencies: ["43D73A55BBC63531"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0B619314C9EEA318"
 			rewards: [
 				{
@@ -2163,6 +2432,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7664573FCB589386"
 				item: {
 					Count: 1
@@ -2180,6 +2460,15 @@
 		}
 		{
 			dependencies: ["7B0E0B4307737D27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "457B4C8DB54B2C78"
 			rewards: [
 				{
@@ -2249,6 +2538,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "75714E1D034C0CBC"
 				item: {
 					Count: 1
@@ -2266,6 +2566,15 @@
 		}
 		{
 			dependencies: ["7AE8ABA3444E05E8"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "150C2D107C30D787"
 			rewards: [
 				{
@@ -2400,6 +2709,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4856C0D7D76E491A"
 				item: {
 					Count: 1
@@ -2417,6 +2737,15 @@
 		}
 		{
 			dependencies: ["0232037859276063"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7FE110B6FD08031B"
 			rewards: [
 				{
@@ -2514,6 +2843,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "064A3E0E65176FE5"
 				item: {
 					Count: 1
@@ -2531,6 +2871,15 @@
 		}
 		{
 			dependencies: ["3F25D47EE14139AF"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "75803607F74E0EA9"
 			rewards: [
 				{
@@ -2685,6 +3034,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "20FF86079C9B8C4B"
 				item: {
 					Count: 1
@@ -2702,6 +3062,15 @@
 		}
 		{
 			dependencies: ["4052BF0820AE08B5"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "46B016B40B360CEF"
 			rewards: [
 				{
@@ -2809,6 +3178,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3281D85AD3F95397"
 				item: {
 					Count: 1
@@ -2826,6 +3206,15 @@
 		}
 		{
 			dependencies: ["490A71C4BD4E06AB"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "50DB09954A68BDF3"
 			rewards: [
 				{
@@ -2975,6 +3364,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "13B95D75C2E163A6"
 				item: {
 					Count: 1
@@ -2992,6 +3392,15 @@
 		}
 		{
 			dependencies: ["7DD56E45EFC3F12A"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "42CC938BE615A4AF"
 			rewards: [
 				{
@@ -3109,6 +3518,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "23F2D3C3E71EAB2E"
 				item: "kubejs:mark_gladiator"
 				type: "item"
@@ -3118,6 +3538,15 @@
 		}
 		{
 			dependencies: ["747D1B2AA878430E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "18156A17C2B04B79"
 			rewards: [
 				{
@@ -3203,6 +3632,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1515C27AAFCB2DBF"
 				item: {
 					Count: 1
@@ -3220,6 +3660,15 @@
 		}
 		{
 			dependencies: ["683225884B0525D7"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_45"
 			id: "21887C44858A1CCC"
 			rewards: [{
@@ -3238,12 +3687,34 @@
 			shape: "diamond"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1D412E8D80E63B5D"
 					points: false
 					type: "xp"
 					value: 30L
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "089F032A95C285FB"
 					type: "custom"
 				}
@@ -3253,6 +3724,15 @@
 		}
 		{
 			dependencies: ["4124F9EEBAA895F0"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_45"
 			id: "7FF5520CEDEE2939"
 			rewards: [{
@@ -3271,12 +3751,34 @@
 			shape: "diamond"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "707D463C1A7276CE"
 					points: false
 					type: "xp"
 					value: 30L
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4497B54F088DE11C"
 					type: "custom"
 				}
@@ -3286,6 +3788,15 @@
 		}
 		{
 			dependencies: ["2B8432D35FB49159"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_right"
 			id: "43D73A55BBC63531"
 			rewards: [{
@@ -3304,12 +3815,34 @@
 			shape: "diamond"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0F65A47657B51964"
 					points: false
 					type: "xp"
 					value: 30L
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "005883E24AB68676"
 					type: "custom"
 				}
@@ -3319,6 +3852,15 @@
 		}
 		{
 			dependencies: ["3A9272D0C456214D"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_left"
 			id: "7B0E0B4307737D27"
 			rewards: [{
@@ -3337,12 +3879,34 @@
 			shape: "diamond"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0087A4E51A9E3ACB"
 					points: false
 					type: "xp"
 					value: 30L
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "302A5435C2F27E30"
 					type: "custom"
 				}
@@ -3352,6 +3916,15 @@
 		}
 		{
 			dependencies: ["150C2D107C30D787"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_45"
 			id: "5219B48B6F4A2440"
 			rewards: [{
@@ -3369,6 +3942,17 @@
 			}]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6FA0683AAFEC0E06"
 				points: false
 				type: "xp"
@@ -3379,6 +3963,15 @@
 		}
 		{
 			dependencies: ["5ABCBE93E9B7A41E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_left"
 			id: "0232037859276063"
 			rewards: [{
@@ -3397,12 +3990,34 @@
 			shape: "diamond"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "69E8522847C7B4E9"
 					points: false
 					type: "xp"
 					value: 30L
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7CE1A03F16CA9315"
 					type: "custom"
 				}
@@ -3412,6 +4027,15 @@
 		}
 		{
 			dependencies: ["17B7928C5E72DF4A"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_left"
 			id: "3F25D47EE14139AF"
 			rewards: [{
@@ -3430,12 +4054,34 @@
 			shape: "diamond"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6AAF29734317F5EB"
 					points: false
 					type: "xp"
 					value: 30L
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "276A7B3A575E91B4"
 					type: "custom"
 				}
@@ -3445,6 +4091,15 @@
 		}
 		{
 			dependencies: ["04399280EC946CB6"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_45"
 			id: "4052BF0820AE08B5"
 			rewards: [{
@@ -3463,16 +4118,49 @@
 			shape: "diamond"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "03187A51F036FAE6"
 					points: false
 					type: "xp"
 					value: 30L
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5B4CD8014C2F7954"
 					type: "custom"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "442B199E9F8843BA"
 					type: "custom"
 				}
@@ -3482,6 +4170,15 @@
 		}
 		{
 			dependencies: ["591E749ECBF3BF91"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_right"
 			id: "490A71C4BD4E06AB"
 			rewards: [{
@@ -3500,12 +4197,34 @@
 			shape: "diamond"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "72315DCD9E705F9B"
 					points: false
 					type: "xp"
 					value: 30L
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "46F8F7F20944FAF5"
 					type: "custom"
 				}
@@ -3515,6 +4234,15 @@
 		}
 		{
 			dependencies: ["064CD4861C2413A8"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_left"
 			id: "7DD56E45EFC3F12A"
 			rewards: [{
@@ -3533,12 +4261,34 @@
 			shape: "diamond"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2BACCA2E13D17DF5"
 					points: false
 					type: "xp"
 					value: 30L
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0C9772BF5E90AFD1"
 					type: "custom"
 				}
@@ -3548,6 +4298,15 @@
 		}
 		{
 			dependencies: ["75434610CC4789B4"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -3574,16 +4333,49 @@
 			shape: "diamond"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2A2DEEEFFA73995A"
 					points: false
 					type: "xp"
 					value: 30L
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "12573D4516BEC57E"
 					type: "custom"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "068C6F9FD33E0519"
 					type: "custom"
 				}
@@ -3593,6 +4385,15 @@
 		}
 		{
 			dependencies: ["23D32CEF3529DC11"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_45_yellow"
 			id: "3BBDE03F8B0A8787"
 			rewards: [{
@@ -3611,12 +4412,34 @@
 			shape: "diamond"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1E63CFCD947A90C5"
 					points: false
 					type: "xp"
 					value: 60L
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "05920564F20B0AB0"
 					type: "custom"
 				}
@@ -3626,6 +4449,15 @@
 		}
 		{
 			dependencies: ["2D76206095D119CB"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_45_yellow"
 			id: "1B5540BBC981B856"
 			rewards: [{
@@ -3643,6 +4475,17 @@
 			}]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3D11696445AC1C8C"
 				points: false
 				type: "xp"
@@ -3653,6 +4496,15 @@
 		}
 		{
 			dependencies: ["0B619314C9EEA318"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_right_yellow"
 			id: "24E0FADA45D0B349"
 			rewards: [{
@@ -3670,6 +4522,17 @@
 			}]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2CBE4D1232694FDF"
 				points: false
 				type: "xp"
@@ -3680,6 +4543,15 @@
 		}
 		{
 			dependencies: ["457B4C8DB54B2C78"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_left_yellow"
 			id: "69C134B9D4820F57"
 			rewards: [{
@@ -3697,6 +4569,17 @@
 			}]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "567F146124153071"
 				points: false
 				type: "xp"
@@ -3707,6 +4590,15 @@
 		}
 		{
 			dependencies: ["1A5023EA275AAF04"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_45_yellow"
 			id: "55400766E27D2AF3"
 			rewards: [{
@@ -3724,6 +4616,17 @@
 			}]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6C3DAAA1CF84BCD5"
 				points: false
 				type: "xp"
@@ -3734,6 +4637,15 @@
 		}
 		{
 			dependencies: ["7FE110B6FD08031B"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_left_yellow"
 			id: "1AFB43991CE7ED02"
 			rewards: [{
@@ -3751,6 +4663,17 @@
 			}]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7FB5F0ACFF8E6304"
 				points: false
 				type: "xp"
@@ -3761,6 +4684,15 @@
 		}
 		{
 			dependencies: ["75803607F74E0EA9"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_left_yellow"
 			id: "23E282F224289272"
 			rewards: [{
@@ -3778,6 +4710,17 @@
 			}]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "21FA3B2DCFD48FCC"
 				points: false
 				type: "xp"
@@ -3788,6 +4731,15 @@
 		}
 		{
 			dependencies: ["46B016B40B360CEF"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_45_yellow"
 			id: "11FE4B3D6390417B"
 			rewards: [{
@@ -3805,6 +4757,17 @@
 			}]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "09EBE9B30A5EFF46"
 				points: false
 				type: "xp"
@@ -3815,6 +4778,15 @@
 		}
 		{
 			dependencies: ["50DB09954A68BDF3"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_right_yellow"
 			id: "00E8654931C503B8"
 			rewards: [{
@@ -3832,6 +4804,17 @@
 			}]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7F02BC7E25B3412F"
 				points: false
 				type: "xp"
@@ -3842,6 +4825,15 @@
 		}
 		{
 			dependencies: ["42CC938BE615A4AF"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_left_yellow"
 			id: "5445B697B5A9FF87"
 			rewards: [{
@@ -3859,6 +4851,17 @@
 			}]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "172EBA377314275E"
 				points: false
 				type: "xp"
@@ -3869,6 +4872,15 @@
 		}
 		{
 			dependencies: ["18156A17C2B04B79"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -3894,6 +4906,17 @@
 			}]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "70CAA20677E6CF5E"
 				points: false
 				type: "xp"
@@ -3904,6 +4927,15 @@
 		}
 		{
 			dependencies: ["3BBDE03F8B0A8787"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "25FE6F8D9076C909"
 			rewards: [
 				{
@@ -3976,6 +5008,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "55DECC181D8DD7A8"
 				item: {
 					Count: 1
@@ -3993,6 +5036,15 @@
 		}
 		{
 			dependencies: ["1B5540BBC981B856"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "228F0BED78F0BD1F"
 			rewards: [
 				{
@@ -4081,6 +5133,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "59A7E63D9703D7DA"
 				item: {
 					Count: 1
@@ -4098,6 +5161,15 @@
 		}
 		{
 			dependencies: ["24E0FADA45D0B349"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "79B3B9D8435C6B6C"
 			rewards: [
 				{
@@ -4165,6 +5237,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "06CF43D161090C05"
 				item: {
 					Count: 1
@@ -4182,6 +5265,15 @@
 		}
 		{
 			dependencies: ["69C134B9D4820F57"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "27155BAC83580A64"
 			rewards: [
 				{
@@ -4253,6 +5345,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0B490CDDBE456061"
 				item: "kubejs:mark_sniper"
 				type: "item"
@@ -4262,6 +5365,15 @@
 		}
 		{
 			dependencies: ["55400766E27D2AF3"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6E51D4735105419A"
 			rewards: [
 				{
@@ -4317,6 +5429,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "61C4BF9F8BB33C0C"
 				item: {
 					Count: 1
@@ -4334,6 +5457,15 @@
 		}
 		{
 			dependencies: ["1AFB43991CE7ED02"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5835821DED0B50BB"
 			rewards: [
 				{
@@ -4420,6 +5552,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "38F970647A89D7D5"
 				item: {
 					Count: 1
@@ -4437,6 +5580,15 @@
 		}
 		{
 			dependencies: ["23E282F224289272"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "086467EF70DFCE43"
 			rewards: [
 				{
@@ -4535,6 +5687,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1379A41ED77D7E47"
 				item: "kubejs:mark_brigand"
 				type: "item"
@@ -4544,6 +5707,15 @@
 		}
 		{
 			dependencies: ["11FE4B3D6390417B"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "289B1DE30DC52A57"
 			rewards: [
 				{
@@ -4642,6 +5814,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7C4AC19A47A181C4"
 				item: {
 					Count: 1
@@ -4659,6 +5842,15 @@
 		}
 		{
 			dependencies: ["00E8654931C503B8"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2541699B18497F4D"
 			rewards: [
 				{
@@ -4759,6 +5951,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "430789429978685A"
 				item: {
 					Count: 1
@@ -4776,6 +5979,15 @@
 		}
 		{
 			dependencies: ["5445B697B5A9FF87"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "366092E413554761"
 			rewards: [
 				{
@@ -4873,6 +6085,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "72D3BEBBBBD1B29D"
 				item: {
 					Count: 1
@@ -4890,6 +6113,15 @@
 		}
 		{
 			dependencies: ["4ED61B005E3495D6"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5E27B6A9814D748F"
 			rewards: [
 				{
@@ -4975,6 +6207,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1FE7EEDF6536FB2D"
 				item: {
 					Count: 1
@@ -4992,8 +6235,28 @@
 		}
 		{
 			description: ["Rogues are a diverse class that contains everything from dexterous thieves, to treasure-hunters, to assassins. Masters of stealth and infiltration, Rogues prefer to attack when their opponent is least aware. They are quick but fragile, unable to take heavy damage, and instead rely on their speed to dodge attacks and slip in and out of the shadows to catch their opponent off guard; setting traps and inflicting status effects on foes to give them the edge. Outside of battle Rogues usually have a wide range of helpful utility abilities such as lockpicking to allow them to open locked doors and treasure chests without needing to find/buy keys or the ability to detect and disarm traps. Some can even steal items directly from enemies allowing the player to obtain items that otherwise might be unobtainable. Sometimes Rogues are lumped in with the Ranger class, but more commonly they are differentiated by specializing in melee - particularly with light blades and daggers or ranged attacks using throwing weapons such as knives and shuriken."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7F23DAD698D6D126"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2A4B49D7BA4C0D0C"
 				item: "kubejs:roguefp"
 				type: "item"
@@ -5002,8 +6265,28 @@
 			y: -2.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "64A211BFC1049648"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "747ACF6DD7B5C166"
 				item: "kubejs:wizardfp"
 				type: "item"
@@ -5013,8 +6296,28 @@
 		}
 		{
 			description: ["Fighter puts emphasis on strength and physical combat. Wielding melee weapons, they typically lack range, or have only limited ranged attack options, but they excel at fighting enemies in close range combat, often having high HP, defense, and attack capabilities to aid in this. In a team or party based game they put themselves at risk at the front of the group and take the brunt of the damage meant for their less sturdy comrades. A Fighter's strength is boosted by the wide variety of equipment they can use and they are usually able to equip the widest variety of weaponry and armor, including stuff too heavy for other classes. Most of the time the Fighter is considered the default \"hero\" class and as such they are often considered good for beginners."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "21ED1D6F4A0DADA6"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5D8ED809B45A1EE3"
 				item: "kubejs:fighterfp"
 				type: "item"
@@ -5023,8 +6326,28 @@
 			y: -6.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7AE8ABA3444E05E8"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "785866DC42402E2E"
 				item: "kubejs:crafterfp"
 				type: "item"
@@ -5034,8 +6357,28 @@
 		}
 		{
 			dependencies: ["7AE8ABA3444E05E8"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "20997FC878556B1C"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "149B1FB15A5ED298"
 				item: "kubejs:mark_explorer"
 				type: "item"
@@ -5046,9 +6389,29 @@
 		{
 			dependencies: ["7F23DAD698D6D126"]
 			description: ["A more offensive Rogue, who sacrifices technical expertise for better stealth and killing abilities. Often have a variety of weakening and poisoning abilities and are able to cripple a foe to leave him open for allies or to let him die from Damage Over Time."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:mark_shadow"
 			id: "6FC17C71BEC8762E"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "225822EC5D49F155"
 				item: "kubejs:mark_shadow"
 				type: "item"
@@ -5058,8 +6421,28 @@
 		}
 		{
 			dependencies: ["64A211BFC1049648"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3B44EDA737FEF194"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "09B128FFEB9F9E66"
 				item: "kubejs:mark_elementalist"
 				type: "item"
@@ -5070,8 +6453,28 @@
 		{
 			dependencies: ["64A211BFC1049648"]
 			description: ["An offensively-focused spellcaster who lacks some of the weaknesses of their setting's normal Squishy Wizards - they're tougher and can cast their spells faster or more reliably, in exchange for their arsenal being weaker or limited entirely to offense. Explanations for this can vary from special training, to special equipment, to their magic being somehow \"artificial\". Usually has at least a mild military theme, being either a soldier (possibly a Super Soldier) or someone who Had to Be Sharp. Tends to use spells with shorter ranges than other spellcasters, or to simply cast their spells at close range more often. Can sometimes equip better weapons or armor than other mages, in which case they're distinguished from the Magic Knight through poor physical stats or lack of advanced combat skills."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "400F579D0850605B"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3C991D6E023A2EA5"
 				item: "kubejs:mark_battlemage"
 				type: "item"
@@ -5081,8 +6484,28 @@
 		}
 		{
 			dependencies: ["64A211BFC1049648"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "23CFE8A4C41610AB"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "614C690E18652410"
 				item: "kubejs:mark_mage"
 				type: "item"
@@ -5093,8 +6516,28 @@
 		{
 			dependencies: ["21ED1D6F4A0DADA6"]
 			description: ["The Paladin is a Fighter with the power of Light and healing magic, as well as defensive buffs for their allies. Most paladins got their powers from their devotion to gods but paladins do not nesessary follow or worship deities to gain power. Some paladins got their powers throught sacred oaths and virtues. Their dedication to their faith gives them various prayers, healing abilities and holy-based spells to protect themselves and others. Naturally, they are a type of Magic Knight. They are also quite good at laying the smite down on undead, demons and other traditionally evil supernatural creatures."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "012FB4CD1F4DFF66"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7C4B8D767B5141B3"
 				item: "kubejs:mark_paladin"
 				type: "item"
@@ -5105,8 +6548,28 @@
 		{
 			dependencies: ["21ED1D6F4A0DADA6"]
 			description: ["The Dark Knight class is the opposite number of the Paladin, possessing the power of Darkness and often necromantic or dark-magic oriented abilities that deal large amounts of damage to enemies, although often at the cost of their own HP. They may have abilities that lower their target's stats or inflict status effects also. As the opposite of the Paladin, they may do more damage to light based enemies such as angels, fairies or other traditionally good/holy creatures even if Light Is Not Good or find such foes to be their biggest weakness."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "56B3B70206EE7478"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "289AC3AF3D1F5207"
 				item: "kubejs:mark_blackguard"
 				type: "item"
@@ -5117,8 +6580,28 @@
 		{
 			dependencies: ["21ED1D6F4A0DADA6"]
 			description: ["Barbarian  is a character who throws themself into a fight with such reckless abandon, it seems like they want to die. It could be over-enthusiasm, overconfidence, Unstoppable Rage, or the desire to die in battle. Whatever the cause, it's usually accompanied by a bellowing warcry. Sometimes with total obliviousness to whether they're actually fighting the enemy. And they never, ever retreat."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "152D28B677520DA7"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "75D934A99B17D77D"
 				item: "kubejs:mark_barbarian"
 				type: "item"
@@ -5129,8 +6612,28 @@
 		{
 			dependencies: ["21ED1D6F4A0DADA6"]
 			description: ["The Warlord is a tactical master. They can hold their own in frontline combat as well as giving out buffs to their underlings and allies, usually by commanding them to superior positions than the ones they would have thought of on their own, and they may have protective auras made of their own charisma to increase a team's effectiveness in battle. Sometimes may be able to summon their own troops."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3456211026FF64C1"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "708D404B177CDF8A"
 				item: "kubejs:mark_warlord"
 				type: "item"
@@ -5140,8 +6643,28 @@
 		}
 		{
 			dependencies: ["5219B48B6F4A2440"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1A5023EA275AAF04"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "65F1B49DDB8B577D"
 				item: "kubejs:mark_enchanter"
 				type: "item"
@@ -5151,9 +6674,29 @@
 		}
 		{
 			dependencies: ["012FB4CD1F4DFF66"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_up"
 			id: "229E5B40EAD7A519"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "756D156F1E4C8A9A"
 				points: false
 				type: "xp"
@@ -5164,8 +6707,28 @@
 		}
 		{
 			dependencies: ["229E5B40EAD7A519"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "35A289B908F24E62"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "74708179E1FC633F"
 				item: "kubejs:mark_crusader"
 				type: "item"
@@ -5175,8 +6738,28 @@
 		}
 		{
 			dependencies: ["5150314058A462F4"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3012EA51B31CDC7B"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1F90C2E398307E5D"
 				item: "kubejs:mark_templar"
 				type: "item"
@@ -5186,9 +6769,29 @@
 		}
 		{
 			dependencies: ["35A289B908F24E62"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_up_yellow"
 			id: "5150314058A462F4"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "22FB2E2B45A05A00"
 				points: false
 				type: "xp"
@@ -5199,8 +6802,28 @@
 		}
 		{
 			dependencies: ["4369E0E8D047C1B9"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "01B20E69958B3A93"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0B88A0F4B56748C9"
 				item: "kubejs:mark_hexblade"
 				type: "item"
@@ -5210,8 +6833,28 @@
 		}
 		{
 			dependencies: ["533E166DBB91E9B8"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4ED012DB26E18BB4"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "641139DCA6DBBF1B"
 				item: "kubejs:mark_deathknight"
 				type: "item"
@@ -5221,8 +6864,28 @@
 		}
 		{
 			dependencies: ["3F96B059EF6A4FBF"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "193687783A88CC7E"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "19D31328E3E8B428"
 				item: "kubejs:mark_savage"
 				type: "item"
@@ -5232,8 +6895,28 @@
 		}
 		{
 			dependencies: ["759B633CF5037571"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "50C71217DE6BF843"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3BFA6C880570FBE6"
 				item: "kubejs:mark_berserker"
 				type: "item"
@@ -5243,8 +6926,28 @@
 		}
 		{
 			dependencies: ["3C9425B661D84A50"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "088715270F290018"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "54C3F25DE45A6479"
 				item: "kubejs:mark_marshal"
 				type: "item"
@@ -5254,8 +6957,28 @@
 		}
 		{
 			dependencies: ["71291348EDB8E4AC"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "334060CED958A2DC"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3E5980E550224D9F"
 				item: "kubejs:mark_commander"
 				type: "item"
@@ -5265,8 +6988,28 @@
 		}
 		{
 			dependencies: ["50F08228DFB5D334"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "028B2BE2557D1F48"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0CAA1658E2FAB363"
 				item: "kubejs:mark_spellblade"
 				type: "item"
@@ -5276,8 +7019,28 @@
 		}
 		{
 			dependencies: ["4BADAC4510E8CEB2"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "332E45771F381815"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4F2DF5B798C31438"
 				item: "kubejs:mark_warmage"
 				type: "item"
@@ -5287,8 +7050,28 @@
 		}
 		{
 			dependencies: ["60D506F049E9C00A"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4EAE504CB1B74582"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6B215778982D64F8"
 				item: "kubejs:mark_warlock"
 				type: "item"
@@ -5298,8 +7081,28 @@
 		}
 		{
 			dependencies: ["2E22CD38A3E70035"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "05D0E23105C5BBE2"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "212FBD239DB387BB"
 				item: "kubejs:mark_archmage"
 				type: "item"
@@ -5309,8 +7112,28 @@
 		}
 		{
 			dependencies: ["1E0C06CA072449D7"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7C2362C90DA68545"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6A9F863B7FDE0937"
 				item: "kubejs:mark_sorcerer"
 				type: "item"
@@ -5320,8 +7143,28 @@
 		}
 		{
 			dependencies: ["513B7286BA0742AB"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "14286FB977C2D81D"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2AD7491D3019ABF5"
 				item: "kubejs:mark_masterlementalist"
 				type: "item"
@@ -5331,8 +7174,28 @@
 		}
 		{
 			dependencies: ["61464C8EE7F49445"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "32F5DAF1F2823D9C"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6D272D4A50C2F276"
 				item: "kubejs:mark_assasin"
 				type: "item"
@@ -5342,8 +7205,28 @@
 		}
 		{
 			dependencies: ["21D84F04D1E1B537"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7D150BAB9F464500"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1041DF81A34AE53A"
 				item: "kubejs:mark_nightblade"
 				type: "item"
@@ -5353,8 +7236,28 @@
 		}
 		{
 			dependencies: ["73EBC18E251672FE"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "48B6EEEF7B608E4A"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2EE55749F7EA8B30"
 				item: "kubejs:mark_wanderer"
 				type: "item"
@@ -5364,8 +7267,28 @@
 		}
 		{
 			dependencies: ["222B27CAA8028EE6"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4A54C3EE564463F1"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4873E043F2F97832"
 				item: "kubejs:mark_pathfinder"
 				type: "item"
@@ -5375,9 +7298,29 @@
 		}
 		{
 			dependencies: ["56B3B70206EE7478"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_up"
 			id: "4369E0E8D047C1B9"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2EB9FAD5B58A2F8C"
 				points: false
 				type: "xp"
@@ -5388,9 +7331,29 @@
 		}
 		{
 			dependencies: ["152D28B677520DA7"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_right"
 			id: "3F96B059EF6A4FBF"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "63225CECDF1CB609"
 				points: false
 				type: "xp"
@@ -5401,9 +7364,29 @@
 		}
 		{
 			dependencies: ["3456211026FF64C1"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_right"
 			id: "3C9425B661D84A50"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "59E2CBEB0D0F243B"
 				points: false
 				type: "xp"
@@ -5414,9 +7397,29 @@
 		}
 		{
 			dependencies: ["400F579D0850605B"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_right"
 			id: "50F08228DFB5D334"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "231F6612526945B2"
 				points: false
 				type: "xp"
@@ -5427,9 +7430,29 @@
 		}
 		{
 			dependencies: ["23CFE8A4C41610AB"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_right"
 			id: "60D506F049E9C00A"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "733FA9B3F36A43E6"
 				points: false
 				type: "xp"
@@ -5440,9 +7463,29 @@
 		}
 		{
 			dependencies: ["3B44EDA737FEF194"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_right"
 			id: "1E0C06CA072449D7"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "12EF97E5A2F24269"
 				points: false
 				type: "xp"
@@ -5453,9 +7496,29 @@
 		}
 		{
 			dependencies: ["6FC17C71BEC8762E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_down"
 			id: "61464C8EE7F49445"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "54D3478504DF5480"
 				points: false
 				type: "xp"
@@ -5466,9 +7529,29 @@
 		}
 		{
 			dependencies: ["32F5DAF1F2823D9C"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_down"
 			id: "21D84F04D1E1B537"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "50A65C317C273272"
 				points: false
 				type: "xp"
@@ -5479,9 +7562,29 @@
 		}
 		{
 			dependencies: ["7C2362C90DA68545"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_right_yellow"
 			id: "513B7286BA0742AB"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6F46F8BDFD37AC41"
 				points: false
 				type: "xp"
@@ -5492,9 +7595,29 @@
 		}
 		{
 			dependencies: ["4EAE504CB1B74582"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_right_yellow"
 			id: "2E22CD38A3E70035"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1F3196D7B534F380"
 				points: false
 				type: "xp"
@@ -5505,9 +7628,29 @@
 		}
 		{
 			dependencies: ["028B2BE2557D1F48"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_right_yellow"
 			id: "4BADAC4510E8CEB2"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3218D5686845B3F0"
 				points: false
 				type: "xp"
@@ -5518,9 +7661,29 @@
 		}
 		{
 			dependencies: ["20997FC878556B1C"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_up"
 			id: "73EBC18E251672FE"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "10FC22E930B54E08"
 				points: false
 				type: "xp"
@@ -5531,9 +7694,29 @@
 		}
 		{
 			dependencies: ["48B6EEEF7B608E4A"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_up_yellow"
 			id: "222B27CAA8028EE6"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "18E243A80ABE08FB"
 				points: false
 				type: "xp"
@@ -5544,9 +7727,29 @@
 		}
 		{
 			dependencies: ["01B20E69958B3A93"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_right_yellow"
 			id: "533E166DBB91E9B8"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "701440D89A22B421"
 				points: false
 				type: "xp"
@@ -5557,9 +7760,29 @@
 		}
 		{
 			dependencies: ["193687783A88CC7E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_right_yellow"
 			id: "759B633CF5037571"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "464C0C9EC3389A41"
 				points: false
 				type: "xp"
@@ -5570,9 +7793,29 @@
 		}
 		{
 			dependencies: ["088715270F290018"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:arrow_right_yellow"
 			id: "71291348EDB8E4AC"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "045E596F716BE3DB"
 				points: false
 				type: "xp"

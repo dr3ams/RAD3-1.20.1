@@ -268,6 +268,15 @@
 	quest_links: [ ]
 	quests: [
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:zombie_head"
 			id: "273BBE58DA6C6B5E"
 			optional: true
@@ -291,6 +300,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:zombie"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "42B5455E3940F98A"
 				type: "kill"
 				value: 15L
@@ -300,6 +320,15 @@
 		}
 		{
 			dependencies: ["273BBE58DA6C6B5E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:zombie_head"
 			id: "6D6F752283D9311E"
 			optional: true
@@ -323,6 +352,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:zombie"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2C62246C5F9EDF36"
 				type: "kill"
 				value: 30L
@@ -332,6 +372,15 @@
 		}
 		{
 			dependencies: ["0C2F14176C8B6233"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:zombie_head"
 			id: "24D7205FF1E55192"
 			optional: true
@@ -355,6 +404,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:zombie"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "16E8E02A92168725"
 				type: "kill"
 				value: 100L
@@ -364,6 +424,15 @@
 		}
 		{
 			dependencies: ["24D7205FF1E55192"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:zombie_head"
 			id: "36CB6AB1F16744C3"
 			optional: true
@@ -392,6 +461,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:zombie"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0A574ECB6510405C"
 				type: "kill"
 				value: 200L
@@ -401,6 +481,15 @@
 		}
 		{
 			dependencies: ["36CB6AB1F16744C3"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:zombie_head"
 			id: "42B5C52B1EB2CF21"
 			optional: true
@@ -429,6 +518,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:zombie"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3420BA4854BEB2AE"
 				type: "kill"
 				value: 500L
@@ -437,6 +537,15 @@
 			y: 2.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:skeleton_skull"
 			id: "3E1D08F6D98A914F"
 			optional: true
@@ -460,6 +569,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:skeleton"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "748792FF4EB3C697"
 				type: "kill"
 				value: 15L
@@ -469,6 +589,15 @@
 		}
 		{
 			dependencies: ["3E1D08F6D98A914F"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:skeleton_skull"
 			id: "708C3073CDD71408"
 			optional: true
@@ -492,6 +621,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:skeleton"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5D99AB8D10E4DCC3"
 				type: "kill"
 				value: 30L
@@ -501,6 +641,15 @@
 		}
 		{
 			dependencies: ["708C3073CDD71408"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:skeleton_skull"
 			id: "4A070C730B96D131"
 			optional: true
@@ -519,6 +668,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:skeleton"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3F7D026CA8DECD17"
 				type: "kill"
 				value: 60L
@@ -528,6 +688,15 @@
 		}
 		{
 			dependencies: ["4A070C730B96D131"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:skeleton_skull"
 			id: "7C643C8DA7163F80"
 			optional: true
@@ -551,6 +720,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:skeleton"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "34A2A0F7D815BE58"
 				type: "kill"
 				value: 100L
@@ -560,6 +740,15 @@
 		}
 		{
 			dependencies: ["7C643C8DA7163F80"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:skeleton_skull"
 			id: "02CA897446FE0C16"
 			optional: true
@@ -588,6 +777,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:skeleton"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "19CB74C05D36A294"
 				type: "kill"
 				value: 200L
@@ -597,6 +797,15 @@
 		}
 		{
 			dependencies: ["6D6F752283D9311E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:zombie_head"
 			id: "0C2F14176C8B6233"
 			optional: true
@@ -615,6 +824,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:zombie"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5FCB62D2A01560CA"
 				type: "kill"
 				value: 60L
@@ -624,6 +844,15 @@
 		}
 		{
 			dependencies: ["02CA897446FE0C16"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:skeleton_skull"
 			id: "7AA5044D18A2E23E"
 			optional: true
@@ -652,6 +881,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:skeleton"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "14321354793AEE6E"
 				type: "kill"
 				value: 500L
@@ -660,6 +900,15 @@
 			y: 2.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:creeper_head"
 			id: "36C063A88D708055"
 			optional: true
@@ -682,6 +931,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:creeper"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "24D9F5F9B0FC65F0"
 				type: "kill"
 				value: 10L
@@ -691,6 +951,15 @@
 		}
 		{
 			dependencies: ["36C063A88D708055"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:creeper_head"
 			id: "1D6BCC0FB9627EFB"
 			optional: true
@@ -714,6 +983,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:creeper"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1D3C15699121588E"
 				type: "kill"
 				value: 30L
@@ -723,6 +1003,15 @@
 		}
 		{
 			dependencies: ["1D6BCC0FB9627EFB"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:creeper_head"
 			id: "7DD33DBEE207DD46"
 			optional: true
@@ -741,6 +1030,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:creeper"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "08E9993926B7767E"
 				type: "kill"
 				value: 60L
@@ -749,6 +1049,15 @@
 			y: -0.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:wither_skeleton_skull"
 			id: "5C2C1E234FEA1C04"
 			optional: true
@@ -766,6 +1075,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:wither_skeleton"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "415DB1EB8A5355E0"
 				type: "kill"
 				value: 10L
@@ -775,6 +1095,15 @@
 		}
 		{
 			dependencies: ["5C2C1E234FEA1C04"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:wither_skeleton_skull"
 			id: "682B081A32B48DDE"
 			optional: true
@@ -792,6 +1121,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:wither_skeleton"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "785E98699CCD3F5F"
 				type: "kill"
 				value: 50L
@@ -801,6 +1141,15 @@
 		}
 		{
 			dependencies: ["682B081A32B48DDE"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:wither_skeleton_skull"
 			id: "1041E459F94EE676"
 			optional: true
@@ -818,6 +1167,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:wither_skeleton"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0523A24B92E81805"
 				type: "kill"
 				value: 100L
@@ -826,6 +1186,15 @@
 			y: -1.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:spider_spawn_egg"
 			id: "1D31E5ABED3743E7"
 			optional: true
@@ -843,6 +1212,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:spider"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2018B8343D76AC1F"
 				type: "kill"
 				value: 10L
@@ -852,6 +1232,15 @@
 		}
 		{
 			dependencies: ["1D31E5ABED3743E7"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:spider_spawn_egg"
 			id: "2A1CD461BF2F4A46"
 			optional: true
@@ -869,6 +1258,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:spider"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "445087023DEB2AFF"
 				type: "kill"
 				value: 30L
@@ -878,6 +1278,15 @@
 		}
 		{
 			dependencies: ["2A1CD461BF2F4A46"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:spider_spawn_egg"
 			id: "16B7281F7910FF1E"
 			optional: true
@@ -895,6 +1304,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:spider"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2D30E8A8D8C0236A"
 				type: "kill"
 				value: 100L
@@ -903,6 +1323,15 @@
 			y: 0.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:slime_ball"
 			id: "43B77AFB99476020"
 			optional: true
@@ -920,6 +1349,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:slime"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "61C2E428A8B7D6E3"
 				type: "kill"
 				value: 10L
@@ -929,6 +1369,15 @@
 		}
 		{
 			dependencies: ["43B77AFB99476020"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:slime_ball"
 			id: "08F70564BCE33B34"
 			optional: true
@@ -946,6 +1395,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:slime"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5D4697E898573527"
 				type: "kill"
 				value: 30L
@@ -955,6 +1415,15 @@
 		}
 		{
 			dependencies: ["08F70564BCE33B34"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:slime_ball"
 			id: "0A417DAC88234DED"
 			optional: true
@@ -972,6 +1441,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:slime"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3E511BB5D79CA3BB"
 				type: "kill"
 				value: 100L
@@ -981,6 +1461,15 @@
 		}
 		{
 			dependencies: ["0A417DAC88234DED"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5964A60436E9CAC5"
 			optional: true
 			rewards: [
@@ -997,6 +1486,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:slime"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:slime_ball"
 				id: "7F9FF2BF5A48B9B9"
 				type: "kill"
@@ -1007,6 +1507,15 @@
 		}
 		{
 			dependencies: ["5964A60436E9CAC5"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "30CC1CE792CF948C"
 			optional: true
 			rewards: [{
@@ -1016,6 +1525,17 @@
 			}]
 			tasks: [{
 				entity: "minecraft:slime"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:slime_ball"
 				id: "18083296F033EEF3"
 				type: "kill"
@@ -1026,6 +1546,15 @@
 		}
 		{
 			dependencies: ["30CC1CE792CF948C"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:slime_ball"
 			id: "3ABE874AEB3190FD"
 			optional: true
@@ -1053,6 +1582,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:slime"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2944EA85C53B17E8"
 				type: "kill"
 				value: 1000L
@@ -1061,6 +1601,15 @@
 			y: 3.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:evoker_spawn_egg"
 			id: "3E4FABF49DF8A4A0"
 			optional: true
@@ -1078,6 +1627,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:evoker"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "737BDF5CFFF1D71E"
 				type: "kill"
 				value: 1L
@@ -1088,6 +1648,15 @@
 		{
 			dependencies: ["3E4FABF49DF8A4A0"]
 			description: [""]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:evoker_spawn_egg"
 			id: "4C0A01CEE6B9573F"
 			optional: true
@@ -1105,6 +1674,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:evoker"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "45B1B1448FA90192"
 				type: "kill"
 				value: 5L
@@ -1114,6 +1694,15 @@
 		}
 		{
 			dependencies: ["4C0A01CEE6B9573F"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:evoker_spawn_egg"
 			id: "657547F95421C44F"
 			optional: true
@@ -1136,6 +1725,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:evoker"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2D066D05ED250E60"
 				type: "kill"
 				value: 10L
@@ -1144,6 +1744,15 @@
 			y: -5.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6D160C596B6D789D"
 			optional: true
 			rewards: [
@@ -1160,6 +1769,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:vindicator"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					Count: 1
 					id: "minecraft:iron_axe"
@@ -1176,6 +1796,15 @@
 		}
 		{
 			dependencies: ["6D160C596B6D789D"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "18023C5D8E985695"
 			optional: true
 			rewards: [
@@ -1192,6 +1821,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:vindicator"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					Count: 1
 					id: "minecraft:iron_axe"
@@ -1208,6 +1848,15 @@
 		}
 		{
 			dependencies: ["18023C5D8E985695"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7E06D127A3796ACD"
 			optional: true
 			rewards: [{
@@ -1217,6 +1866,17 @@
 			}]
 			tasks: [{
 				entity: "minecraft:vindicator"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					Count: 1
 					ForgeCaps: {
@@ -1237,6 +1897,15 @@
 			y: -6.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "66E4D05FE4EB1B37"
 			optional: true
 			rewards: [
@@ -1253,6 +1922,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:pillager"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					Count: 1
 					id: "minecraft:crossbow"
@@ -1269,6 +1949,15 @@
 		}
 		{
 			dependencies: ["66E4D05FE4EB1B37"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "78BCB063DF450FEA"
 			optional: true
 			rewards: [
@@ -1285,6 +1974,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:pillager"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6C29EE9F8549D219"
 				type: "kill"
 				value: 30L
@@ -1294,6 +1994,15 @@
 		}
 		{
 			dependencies: ["78BCB063DF450FEA"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3E37363F614DB7CF"
 			optional: true
 			rewards: [
@@ -1310,6 +2019,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:pillager"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4EFD44C2651919BA"
 				type: "kill"
 				value: 60L
@@ -1319,6 +2039,15 @@
 		}
 		{
 			dependencies: ["3E37363F614DB7CF"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "372F44A7635E5FB8"
 			optional: true
 			rewards: [
@@ -1335,6 +2064,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:pillager"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3464651AD0C97011"
 				type: "kill"
 				value: 100L
@@ -1344,6 +2084,15 @@
 		}
 		{
 			dependencies: ["372F44A7635E5FB8"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3A90C6BB095363CF"
 			optional: true
 			rewards: [
@@ -1360,6 +2109,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:pillager"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "626C8D8D44CF3A0E"
 				type: "kill"
 				value: 200L
@@ -1369,6 +2129,15 @@
 		}
 		{
 			dependencies: ["3A90C6BB095363CF"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "386E3605520B9CC4"
 			optional: true
 			rewards: [
@@ -1385,6 +2154,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:pillager"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "14612657FC694FA4"
 				type: "kill"
 				value: 400L
@@ -1393,6 +2173,15 @@
 			y: -5.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:ghast_tear"
 			id: "3C7112CE44982D6D"
 			optional: true
@@ -1410,6 +2199,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:ghast"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "34823DB462CC9EE2"
 				type: "kill"
 				value: 10L
@@ -1419,6 +2219,15 @@
 		}
 		{
 			dependencies: ["3C7112CE44982D6D"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:ghast_tear"
 			id: "43A621B14FB554AC"
 			optional: true
@@ -1437,6 +2246,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:ghast"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4C441BB778244486"
 				type: "kill"
 				value: 30L
@@ -1446,6 +2266,15 @@
 		}
 		{
 			dependencies: ["43A621B14FB554AC"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:ghast_tear"
 			id: "3F4E0FB2177E7F52"
 			optional: true
@@ -1463,6 +2292,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:ghast"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "33C3D544D070055F"
 				type: "kill"
 				value: 60L
@@ -1471,6 +2311,15 @@
 			y: 2.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:piglin_spawn_egg"
 			id: "04C9E8009D84B7A1"
 			optional: true
@@ -1488,6 +2337,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:piglin"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2D26F348F7EF4D12"
 				type: "kill"
 				value: 10L
@@ -1497,6 +2357,15 @@
 		}
 		{
 			dependencies: ["04C9E8009D84B7A1"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:piglin_spawn_egg"
 			id: "686519D5266C6F27"
 			optional: true
@@ -1519,6 +2388,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:piglin"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1C2249144A048D79"
 				type: "kill"
 				value: 100L
@@ -1527,6 +2407,15 @@
 			y: -1.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "11944C68F6D95C77"
 			optional: true
 			rewards: [
@@ -1543,6 +2432,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:piglin_brute"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3E1BB1EE7BF49EA5"
 				type: "kill"
 				value: 10L
@@ -1552,6 +2452,15 @@
 		}
 		{
 			dependencies: ["11944C68F6D95C77"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "307EEF462D4E001C"
 			optional: true
 			rewards: [
@@ -1568,6 +2477,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:piglin_brute"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "714191E33DE7E476"
 				type: "kill"
 				value: 50L
@@ -1577,6 +2497,15 @@
 		}
 		{
 			dependencies: ["307EEF462D4E001C"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "005B0AC8724A04CA"
 			optional: true
 			rewards: [{
@@ -1594,6 +2523,17 @@
 			}]
 			tasks: [{
 				entity: "minecraft:piglin_brute"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "424A82ED75AD396C"
 				type: "kill"
 				value: 100L
@@ -1602,6 +2542,15 @@
 			y: 3.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:blaze_powder"
 			id: "4B68EB265B0E1129"
 			optional: true
@@ -1619,6 +2568,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:blaze"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2C6BB4B0132BCE2E"
 				type: "kill"
 				value: 10L
@@ -1627,6 +2587,15 @@
 			y: -2.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:husk_spawn_egg"
 			id: "61CCF5EFBAC2D198"
 			optional: true
@@ -1650,6 +2619,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:husk"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6D7CFB65833A37C8"
 				type: "kill"
 				value: 100L
@@ -1658,6 +2638,15 @@
 			y: 0.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:stray_spawn_egg"
 			id: "5927A8C2376D0588"
 			optional: true
@@ -1681,6 +2670,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:stray"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2A52880819C52579"
 				type: "kill"
 				value: 100L
@@ -1689,6 +2689,15 @@
 			y: 2.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "minecraft:trident"
@@ -1718,6 +2727,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:drowned"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2C80F70C40CE718F"
 				type: "kill"
 				value: 100L
@@ -1727,6 +2747,15 @@
 		}
 		{
 			dependencies: ["7AA5044D18A2E23E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:skeleton_skull"
 			id: "72ED70613E3B7E52"
 			optional: true
@@ -1760,6 +2789,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:skeleton"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2AE68A2DAD3B3FCC"
 				type: "kill"
 				value: 1000L
@@ -1769,6 +2809,15 @@
 		}
 		{
 			dependencies: ["42B5C52B1EB2CF21"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:zombie_head"
 			id: "733169FE486DB8DD"
 			optional: true
@@ -1802,6 +2851,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:zombie"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "445B449D3FA7F188"
 				type: "kill"
 				value: 1000L
@@ -1811,6 +2871,15 @@
 		}
 		{
 			dependencies: ["7DD33DBEE207DD46"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:creeper_head"
 			id: "0674AD4EEDEEF4E4"
 			optional: true
@@ -1842,6 +2911,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:creeper"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3E554616A645C8FC"
 				type: "kill"
 				value: 100L
@@ -1851,6 +2931,15 @@
 		}
 		{
 			dependencies: ["0674AD4EEDEEF4E4"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:creeper_head"
 			id: "781AA84E08C4367A"
 			optional: true
@@ -1887,6 +2976,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:creeper"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2EC0D26EEE3E5288"
 				type: "kill"
 				value: 200L
@@ -1896,6 +2996,15 @@
 		}
 		{
 			dependencies: ["781AA84E08C4367A"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:creeper_head"
 			id: "552084F86F88D15C"
 			optional: true
@@ -1932,6 +3041,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:creeper"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "08EFF62508DFA82E"
 				type: "kill"
 				value: 500L
@@ -1941,6 +3061,15 @@
 		}
 		{
 			dependencies: ["4B68EB265B0E1129"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:blaze_powder"
 			id: "67EE916849A729B1"
 			optional: true
@@ -1966,6 +3095,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:blaze"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7F5C5B4E788DCADE"
 				type: "kill"
 				value: 50L
@@ -1975,6 +3115,15 @@
 		}
 		{
 			dependencies: ["67EE916849A729B1"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:blaze_powder"
 			id: "5537F265CE8EBD3E"
 			optional: true
@@ -1993,6 +3142,17 @@
 			}]
 			tasks: [{
 				entity: "minecraft:blaze"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7E1DE21F68BC1487"
 				type: "kill"
 				value: 150L
@@ -2002,6 +3162,15 @@
 		}
 		{
 			dependencies: ["5537F265CE8EBD3E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:blaze_powder"
 			id: "75244E4C3649BA77"
 			optional: true
@@ -2020,6 +3189,17 @@
 			}]
 			tasks: [{
 				entity: "minecraft:blaze"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2225F5E4286A5440"
 				type: "kill"
 				value: 300L
@@ -2029,6 +3209,15 @@
 		}
 		{
 			dependencies: ["32E4964F2AAA4E25"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "minecraft:trident"
@@ -2066,6 +3255,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:drowned"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "69C5EECC4586DA06"
 				type: "kill"
 				value: 200L
@@ -2075,6 +3275,15 @@
 		}
 		{
 			dependencies: ["61CCF5EFBAC2D198"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:husk_spawn_egg"
 			id: "14C32922D8142F37"
 			optional: true
@@ -2106,6 +3315,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:husk"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "172649389C5185DC"
 				type: "kill"
 				value: 200L
@@ -2115,6 +3335,15 @@
 		}
 		{
 			dependencies: ["5927A8C2376D0588"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:stray_spawn_egg"
 			id: "2D7D534F253D0806"
 			optional: true
@@ -2146,6 +3375,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:stray"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0657FC98101B13D0"
 				type: "kill"
 				value: 200L
@@ -2155,6 +3395,15 @@
 		}
 		{
 			dependencies: ["686519D5266C6F27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:piglin_spawn_egg"
 			id: "37A9A6535E7429F0"
 			optional: true
@@ -2173,6 +3422,17 @@
 			}]
 			tasks: [{
 				entity: "minecraft:piglin"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:piglin_spawn_egg"
 				id: "2010972436B14537"
 				type: "kill"
@@ -2183,6 +3443,15 @@
 		}
 		{
 			dependencies: ["3F4E0FB2177E7F52"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:ghast_tear"
 			id: "34E47A2C5335A2A7"
 			optional: true
@@ -2208,6 +3477,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:ghast"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "31CDF278D4CCA4FB"
 				type: "kill"
 				value: 100L
@@ -2216,6 +3496,15 @@
 			y: 3.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:magma_cream"
 			id: "02BF15564572F2BA"
 			optional: true
@@ -2234,6 +3523,17 @@
 			}]
 			tasks: [{
 				entity: "minecraft:magma_cube"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4E22A2F800BF4D87"
 				type: "kill"
 				value: 100L
@@ -2243,6 +3543,15 @@
 		}
 		{
 			dependencies: ["02BF15564572F2BA"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:magma_cream"
 			id: "3CCA705BCF4124B9"
 			optional: true
@@ -2261,6 +3570,17 @@
 			}]
 			tasks: [{
 				entity: "minecraft:magma_cube"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:magma_cream"
 				id: "631BA55EDE88F5B8"
 				type: "kill"
@@ -2270,6 +3590,15 @@
 			y: 3.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "40F5EEC0C7474750"
 			optional: true
 			rewards: [{
@@ -2287,6 +3616,17 @@
 			}]
 			tasks: [{
 				entity: "minecraft:wandering_trader"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "634CFAF0104F83AF"
 				type: "kill"
 				value: 10L
@@ -2297,6 +3637,15 @@
 		}
 		{
 			dependencies: ["40F5EEC0C7474750"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "234394677552B368"
 			optional: true
 			rewards: [
@@ -2321,6 +3670,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:wandering_trader"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "791007DE26AFE145"
 				type: "kill"
 				value: 50L
@@ -2331,6 +3691,15 @@
 		}
 		{
 			dependencies: ["234394677552B368"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0F58A03E48624EA5"
 			optional: true
 			rewards: [
@@ -2355,6 +3724,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:wandering_trader"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3081D7A3C8398AC1"
 				type: "kill"
 				value: 100L
@@ -2365,6 +3745,15 @@
 		}
 		{
 			dependencies: ["552084F86F88D15C"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:creeper_head"
 			id: "3CF6376C2F15744D"
 			optional: true
@@ -2398,6 +3787,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:creeper"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "013A697F588F3CD4"
 				type: "kill"
 				value: 1000L
@@ -2406,6 +3806,15 @@
 			y: 3.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "supplementaries:enderman_head"
 			id: "6EE8F9129E0A1D60"
 			optional: true
@@ -2423,6 +3832,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:enderman"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2BFE36FBC380F7D3"
 				type: "kill"
 				value: 10L
@@ -2431,6 +3851,15 @@
 			y: -3.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:cave_spider_spawn_egg"
 			id: "189B48C7EE98B1EF"
 			optional: true
@@ -2448,6 +3877,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:cave_spider"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7FCC20C2E6061313"
 				type: "kill"
 				value: 100L
@@ -2457,6 +3897,15 @@
 		}
 		{
 			dependencies: ["6EE8F9129E0A1D60"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "supplementaries:enderman_head"
 			id: "2B0920822CAF3FEB"
 			optional: true
@@ -2474,6 +3923,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:enderman"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "supplementaries:enderman_head"
 				id: "11B9CB4AE304B4F2"
 				type: "kill"
@@ -2484,6 +3944,15 @@
 		}
 		{
 			dependencies: ["2B0920822CAF3FEB"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "supplementaries:enderman_head"
 			id: "0AB325E800C9C5B9"
 			optional: true
@@ -2494,6 +3963,17 @@
 			}]
 			tasks: [{
 				entity: "minecraft:enderman"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "supplementaries:enderman_head"
 				id: "700BF6C0744020B5"
 				type: "kill"
@@ -2504,6 +3984,15 @@
 		}
 		{
 			dependencies: ["0AB325E800C9C5B9"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "supplementaries:enderman_head"
 			id: "3109A29AC8E8F676"
 			optional: true
@@ -2521,6 +4010,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:enderman"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "supplementaries:enderman_head"
 				id: "6CCE994B58DE96E7"
 				type: "kill"
@@ -2530,6 +4030,15 @@
 			y: 0.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4F18B88B2A7608F8"
 			optional: true
 			rewards: [
@@ -2546,6 +4055,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:illusioner"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "46494CE179A84D35"
 				type: "kill"
 				value: 10L
@@ -2555,6 +4075,15 @@
 		}
 		{
 			dependencies: ["16B7281F7910FF1E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:spider_spawn_egg"
 			id: "7500D3E11DFC4CAA"
 			optional: true
@@ -2572,6 +4101,17 @@
 			]
 			tasks: [{
 				entity: "minecraft:spider"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:spider_spawn_egg"
 				id: "59BF32BD54F5D46D"
 				type: "kill"
@@ -2582,6 +4122,15 @@
 		}
 		{
 			dependencies: ["11E0C6065E28FFD5"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4A8CDA44ED4CFA12"
 			optional: true
 			rewards: [
@@ -2603,6 +4152,17 @@
 			]
 			tasks: [{
 				entity: "hmag:ghost"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "hmag:soul_powder"
 				id: "1AFB04115D415EAA"
 				type: "kill"
@@ -2612,6 +4172,15 @@
 			y: -5.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3BA7BABE70235D83"
 			optional: true
 			rewards: [
@@ -2628,6 +4197,17 @@
 			]
 			tasks: [{
 				entity: "hmag:ghost"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "hmag:soul_powder"
 				id: "78F4748B9BFEE991"
 				type: "kill"
@@ -2638,6 +4218,15 @@
 		}
 		{
 			dependencies: ["3BA7BABE70235D83"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "11E0C6065E28FFD5"
 			optional: true
 			rewards: [
@@ -2654,6 +4243,17 @@
 			]
 			tasks: [{
 				entity: "hmag:ghost"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "hmag:soul_powder"
 				id: "6AE2099BE36C3214"
 				type: "kill"
@@ -2664,6 +4264,15 @@
 		}
 		{
 			description: ["A plant-like monster that spawns in jungles. Its attacks are highly toxic, and it can spit poisonous seeds. It regenerates when wet but takes double damage from fire."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4DD0B19D3F1EDCCC"
 			rewards: [
 				{
@@ -2691,6 +4300,17 @@
 			]
 			tasks: [{
 				entity: "hmag:alraune"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "hmag:mysterious_petal"
 				id: "27002A1F3963A73E"
 				type: "kill"
@@ -2701,6 +4321,15 @@
 		}
 		{
 			description: ["A stronger enderman that sometimes spawns instead of them. Also like an enderman, it is neutral unless provoked. It has an eye laser attack."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2221E09B513B79B4"
 			rewards: [
 				{
@@ -2722,6 +4351,17 @@
 			]
 			tasks: [{
 				entity: "hmag:ender_executor"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "hmag:ender_plasm"
 				id: "7CF737ECE6FDB4D1"
 				type: "kill"
@@ -2732,6 +4372,15 @@
 		}
 		{
 			description: ["A humanoid monster that spawns in caves."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "297C1765116A61CF"
 			rewards: [
 				{
@@ -2760,6 +4409,17 @@
 			]
 			tasks: [{
 				entity: "hmag:kobold"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "hmag:kobold_leather"
 				id: "57BBF06D4979B0F9"
 				type: "kill"
@@ -2770,6 +4430,15 @@
 		}
 		{
 			description: ["A strong undead found in deep caves. It can summon Vexes and shoot magic orbs."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "20C529E4B30ACD39"
 			rewards: [
 				{
@@ -2792,6 +4461,17 @@
 			]
 			tasks: [{
 				entity: "hmag:lich"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "hmag:lich_cloth"
 				id: "254902EE12044CC0"
 				type: "kill"
@@ -2802,6 +4482,15 @@
 		}
 		{
 			description: ["A cow-like monster that spawns in plains and savannahs at night. Its attacks deal high knockback and apply Blindness and Slowness."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "35D91F4E2BD7D32C"
 			rewards: [
 				{
@@ -2830,6 +4519,17 @@
 			]
 			tasks: [{
 				entity: "hmag:catoblepas"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:beef"
 				id: "7BBCAD49F949DB20"
 				type: "kill"
@@ -2840,6 +4540,15 @@
 		}
 		{
 			description: ["An arthropod that spawns in deserts and badlands at night. Its attacks afflict poison."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3BB34FFC5A3585E4"
 			rewards: [
 				{
@@ -2862,6 +4571,17 @@
 			]
 			tasks: [{
 				entity: "hmag:scorpion"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:dead_bush"
 				id: "61699D911736AC72"
 				type: "kill"
@@ -2872,6 +4592,15 @@
 		}
 		{
 			description: ["A strong monster that spawns in deep caves. Their attacks deal high knockback, break blocks, and inflict Slowness IV. "]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "01B445834A79BAEC"
 			rewards: [
 				{
@@ -2893,6 +4622,17 @@
 			]
 			tasks: [{
 				entity: "hmag:ogre"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "hmag:ogre_horn"
 				id: "41EBC590AED1DF78"
 				type: "kill"
@@ -2903,6 +4643,15 @@
 		}
 		{
 			description: ["A walking nest of spiders. It spawns in deep caves. Cave spiders will emerge when it is damaged."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "546F2AA4935B5357"
 			rewards: [
 				{
@@ -2925,6 +4674,17 @@
 			]
 			tasks: [{
 				entity: "hmag:spider_nest"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:cobweb"
 				id: "7DB7298CB6647405"
 				type: "kill"
@@ -2935,6 +4695,15 @@
 		}
 		{
 			description: ["These magma creatures spawn in magma pools deep underground and in the Nether. They throw fireballs like Blazes and leave a trail of fire behind them. They are afraid of Striders and will leave players alone if they are riding one."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4ECC6D216E912D3F"
 			rewards: [
 				{
@@ -2962,6 +4731,17 @@
 			]
 			tasks: [{
 				entity: "hmag:melty_monster"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:fire_charge"
 				id: "4199153B38CDBE79"
 				type: "kill"
@@ -2972,6 +4752,15 @@
 		}
 		{
 			description: ["A monster that spawns at night in forests. It floats slightly above the ground. It burns in the sun and takes double damage from fire."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "68298850C21311F5"
 			rewards: [
 				{
@@ -2994,6 +4783,17 @@
 			]
 			tasks: [{
 				entity: "hmag:cursed_doll"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:black_wool"
 				id: "730EE47C02EAA841"
 				type: "kill"
@@ -3004,6 +4804,15 @@
 		}
 		{
 			description: ["A monster that spawns in snowy biomes. It attacks with damaging snowballs. It heals while touching snow. It can freeze water it walks across."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4EB30556810264B2"
 			rewards: [
 				{
@@ -3043,6 +4852,17 @@
 			]
 			tasks: [{
 				entity: "hmag:jack_frost"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:snowball"
 				id: "06B433C7BDBC907F"
 				type: "kill"
@@ -3053,6 +4873,15 @@
 		}
 		{
 			description: ["Flying, bee-like monsters that spawn in forests. They wield poisonous spears."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "412A2E880F52BCE1"
 			rewards: [
 				{
@@ -3085,6 +4914,17 @@
 			]
 			tasks: [{
 				entity: "hmag:hornet"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:honeycomb"
 				id: "6D667684C90DF1AD"
 				type: "kill"
@@ -3095,6 +4935,15 @@
 		}
 		{
 			description: ["A sword-wielding monster that spawns in dark forests and mountains at night. Its attacks inflict Weakness. It burns in the sun."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "017BB96BB372EE97"
 			rewards: [
 				{
@@ -3117,6 +4966,17 @@
 			]
 			tasks: [{
 				entity: "hmag:dullahan"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					Count: 1
 					id: "minecraft:stone_sword"
@@ -3138,6 +4998,15 @@
 		}
 		{
 			description: ["A flying, ghostly monster found in taiga and mountain biomes. Its attacks inflict Weakness and Hunger."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7415C25CBE3D2BF6"
 			rewards: [
 				{
@@ -3171,6 +5040,17 @@
 			]
 			tasks: [{
 				entity: "hmag:banshee"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "hmag:soul_powder"
 				id: "4AEC46BED4AB756C"
 				type: "kill"
@@ -3181,6 +5061,15 @@
 		}
 		{
 			description: ["A cat-like monster that spawns in the Nether. Its attacks will set the player on fire."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "20C3710FF7F72DAA"
 			rewards: [
 				{
@@ -3208,6 +5097,17 @@
 			]
 			tasks: [{
 				entity: "hmag:kasha"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:nether_brick"
 				id: "2E071FF045AA8235"
 				type: "kill"
@@ -3218,6 +5118,15 @@
 		}
 		{
 			description: ["A clay golem that spawns underground in jungles and badlands. They take double damage from pickaxes. "]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6261053D2CDBF23F"
 			rewards: [
 				{
@@ -3240,6 +5149,17 @@
 			]
 			tasks: [{
 				entity: "hmag:dogu"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:brick"
 				id: "5EC5F5F81E12D5AE"
 				type: "kill"
@@ -3250,6 +5170,15 @@
 		}
 		{
 			description: ["An armored, axe-wielding monster that spawns in dark forests at night."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1200F229C7B43D41"
 			rewards: [
 				{
@@ -3278,6 +5207,17 @@
 			]
 			tasks: [{
 				entity: "hmag:redcap"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:red_dye"
 				id: "051D5AB86C6A58AE"
 				type: "kill"
@@ -3288,6 +5228,15 @@
 		}
 		{
 			description: ["Slime monsters that spawn at night in swamps and mangrove swamps. They regenerate when wet. Their attacks afflict Slowness II. When they die, they split into 2 tiny Magical Slimes."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "533D8472E093176E"
 			rewards: [
 				{
@@ -3310,6 +5259,17 @@
 			]
 			tasks: [{
 				entity: "hmag:slime_girl"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "hmag:cubic_nucleus"
 				id: "4700A5C10543B8D3"
 				type: "kill"
@@ -3320,6 +5280,15 @@
 		}
 		{
 			description: ["A strange, floating stone that spawns in the End, mostly near End Cities. It has an eye laser attack that inflicts negative effects. It also has a smoke blast attack that inflicts worse negative effects. It takes double damage from pickaxes."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0BA343B82E4FBB3A"
 			rewards: [
 				{
@@ -3341,6 +5310,17 @@
 			]
 			tasks: [{
 				entity: "hmag:monolith"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "hmag:ancient_stone"
 				id: "284E59C243A8898F"
 				type: "kill"
@@ -3351,6 +5331,15 @@
 		}
 		{
 			description: ["A hideous arthropod found in Crimson Forests. It can climb short walls. Its attacks inflict Hunger and Slowness. It is immune to fire and fall damage."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7763475BAF3D7E9C"
 			rewards: [
 				{
@@ -3390,6 +5379,17 @@
 			]
 			tasks: [{
 				entity: "hmag:crimson_slaughterer"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "hmag:crimson_cuticula"
 				id: "4BF295A3E864294F"
 				type: "kill"
@@ -3400,6 +5400,15 @@
 		}
 		{
 			description: ["A powerful phantom-like monster that spawns at night, most often during full moons. It attacks with magic orbs that inflict blindness. It also summons phantoms. "]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "053F019267260F95"
 			rewards: [
 				{
@@ -3428,6 +5437,17 @@
 			]
 			tasks: [{
 				entity: "hmag:dyssomnia"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "hmag:dyssomnia_skin"
 				id: "6B998B84D83C6AB6"
 				type: "kill"
@@ -3438,6 +5458,15 @@
 		}
 		{
 			description: ["A wolf-like monster that spawns in snowy biomes. It hunts sheep and rabbits."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0D586AADFA64F252"
 			rewards: [
 				{
@@ -3460,6 +5489,17 @@
 			]
 			tasks: [{
 				entity: "hmag:snow_canine"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "hmag:sharp_fang"
 				id: "0C7319540187DE8F"
 				type: "kill"
@@ -3470,6 +5510,15 @@
 		}
 		{
 			description: ["A bird-like monster that spawns in plains, savannahs, and deserts. "]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "23B5965DBF678E22"
 			rewards: [
 				{
@@ -3492,6 +5541,17 @@
 			]
 			tasks: [{
 				entity: "hmag:harpy"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:feather"
 				id: "6B299D8B882493B5"
 				type: "kill"
@@ -3502,6 +5562,15 @@
 		}
 		{
 			description: ["A predatory fish that spawns at night in swamps. It can jump out of the water to attack the player."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2E3777A3E412A4FB"
 			rewards: [
 				{
@@ -3518,6 +5587,17 @@
 			]
 			tasks: [{
 				entity: "hmag:savagefang"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "hmag:savagefang_meat"
 				id: "7529DE18271753DC"
 				type: "kill"
@@ -3528,6 +5608,15 @@
 		}
 		{
 			description: ["An undead that spawns deep underground. Its attacks inflict Slowness."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "25AC5A0F49956C36"
 			rewards: [
 				{
@@ -3555,6 +5644,17 @@
 			]
 			tasks: [{
 				entity: "hmag:necrotic_reaper"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "hmag:necrofiber"
 				id: "2765A7823FD269BB"
 				type: "kill"
@@ -3565,6 +5665,15 @@
 		}
 		{
 			description: ["A monster that spawns in taigas at night. Its attacks inflict Slowness. "]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3D25E97A517842CB"
 			rewards: [
 				{
@@ -3587,6 +5696,17 @@
 			]
 			tasks: [{
 				entity: "hmag:dodomeki"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "hmag:dodomeki_spawn_egg"
 				id: "3B6E3DEC0158AAA4"
 				type: "kill"
@@ -3597,6 +5717,15 @@
 		}
 		{
 			description: ["A monster that spawns in the Nether. It wields a Golden Fork."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0238855EEFE3CF53"
 			rewards: [
 				{
@@ -3624,6 +5753,17 @@
 			]
 			tasks: [{
 				entity: "hmag:imp"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					Count: 1
 					id: "hmag:golden_fork"
@@ -3645,6 +5785,15 @@
 		}
 		{
 			description: ["An undead that spawns in bamboo forests at night. Its attacks inflict poison. It gets faster when struck."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "212AD9C367FD0292"
 			rewards: [
 				{
@@ -3666,6 +5815,17 @@
 			]
 			tasks: [{
 				entity: "hmag:jiangshi"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:bamboo"
 				id: "556A996DEEEE41D1"
 				type: "kill"
@@ -3676,6 +5836,15 @@
 		}
 		{
 			description: ["These undead spawn in deserts at night. Their attacks can destroy weak blocks and inflict Slowness and Hunger."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7D57E502319A8F01"
 			rewards: [
 				{
@@ -3703,6 +5872,17 @@
 			]
 			tasks: [{
 				entity: "hmag:giant_mummy"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:paper"
 				id: "672FABF6481744CA"
 				type: "kill"
@@ -3713,6 +5893,15 @@
 		}
 		{
 			description: ["A strange stone monster that spawns in mesas at night. It fires magical orbs that inflict Mining Fatigue."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "20836CD80FE0EA6A"
 			rewards: [
 				{
@@ -3740,6 +5929,17 @@
 			]
 			tasks: [{
 				entity: "hmag:nightwalker"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:blue_terracotta"
 				id: "75E2B9A88FD631E0"
 				type: "kill"
@@ -3750,6 +5950,15 @@
 		}
 		{
 			description: ["A neutral creature found in Lush Caves. It likes Mysterious Petals. It acts like a Glare, pointing out dark spots for you. Water heals it."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2A310041BF7CC56A"
 			rewards: [
 				{
@@ -3771,6 +5980,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:flowering_azalea"
 				id: "71FD4DAAD086396C"
 				observe_type: 5
@@ -3783,6 +6003,15 @@
 		}
 		{
 			description: ["A squid-like monster that spawns in swamps and magrove swamps. Its tentacles inflict poison, and it spits ink that inflicts blindness."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "477A27F867D5BE40"
 			rewards: [
 				{
@@ -3805,6 +6034,17 @@
 			]
 			tasks: [{
 				entity: "hmag:swamper"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "hmag:swamper_tentacle"
 				id: "396D11ED466A2A41"
 				type: "kill"
@@ -3818,8 +6058,28 @@
 				"477A27F867D5BE40"
 				"2E3777A3E412A4FB"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3AB0ACB6AA944D51"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1F086B628CAE17AD"
 				item: "hmag:swampy_stew"
 				type: "item"
@@ -3835,6 +6095,15 @@
 				""
 				"Holding right click charges a magical orb attack. This orb costs 1 level and also becomes stronger the less experience you carry. The orb inflicts Weakness II, Mining Fatigue II, Slowness II, and Wither II for 15 seconds. It can penetrate multiple targets."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5F534F3AC1D5369F"
 			rewards: [{
 				id: "3EA5A140E952D8E8"
@@ -3842,6 +6111,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "74E3AC66C43F9057"
 				item: {
 					Count: 1
@@ -3865,6 +6145,15 @@
 			dependencies: ["7763475BAF3D7E9C"]
 			dependency_requirement: "all_started"
 			description: ["The hungrier you are, the stronger this bow becomes."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0325DAA9CDB74975"
 			rewards: [{
 				id: "4AE58CF81D0E6E9F"
@@ -3878,6 +6167,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1EC113F93AABC715"
 				item: {
 					Count: 1
@@ -3898,6 +6198,15 @@
 			dependencies: ["2221E09B513B79B4"]
 			dependency_requirement: "all_started"
 			description: ["Infinite use ender pearl"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5DCEB4A1CFCFC98B"
 			rewards: [{
 				id: "64C8CCBD403BA880"
@@ -3911,6 +6220,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4FF5909B4C84A950"
 				item: "hmag:endless_pearl"
 				type: "item"
@@ -3922,9 +6242,29 @@
 			dependencies: ["25AC5A0F49956C36"]
 			dependency_requirement: "all_started"
 			description: ["I don't know if this one has a set bonus. The Chinese wiki I translated to make this chapter didn't have a page for this armor."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "307FFA7E44FAAE02"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "60493F79F3D2DF87"
 					item: {
 						Count: 1
@@ -3939,6 +6279,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7225280EFF11457F"
 					item: {
 						Count: 1
@@ -3953,6 +6304,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "001C7DC1BBF065E0"
 					item: {
 						Count: 1
@@ -3967,6 +6329,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "622BF9227608614F"
 					item: {
 						Count: 1
@@ -3986,6 +6359,15 @@
 			y: -9.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7307805FF28F746C"
 			rewards: [
 				{
@@ -4022,6 +6404,17 @@
 			subtitle: "Now it's YOU"
 			tasks: [{
 				entity: "minecraft:warden"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "apotheosis:warden_tendril"
 				id: "53F9333382FD4E54"
 				type: "kill"
@@ -4033,8 +6426,28 @@
 		}
 		{
 			description: ["Ancient Stones drop from Elder Guardians, Dogu, and Monoliths."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "093BB943E44396B7"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4D21960754D47FC9"
 				item: "hmag:ancient_stone_block"
 				type: "item"
@@ -4045,9 +6458,29 @@
 		{
 			dependencies: ["093BB943E44396B7"]
 			description: ["Set bonus: immune to Mining Fatigue, Weakness, and Slowness"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "75322CAC407A4298"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "63FDC4D23E9E7DD1"
 					item: {
 						Count: 1
@@ -4062,6 +6495,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "748F7F9FAE6CE22D"
 					item: {
 						Count: 1
@@ -4076,6 +6520,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6EAA81E2F1108B34"
 					item: {
 						Count: 1
@@ -4090,6 +6545,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6FCE6C0BFDFF06AA"
 					item: {
 						Count: 1
@@ -4110,8 +6576,28 @@
 		}
 		{
 			dependencies: ["093BB943E44396B7"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5F9698FA0FEA05C7"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5639CE7575C8456C"
 				item: {
 					Count: 1
@@ -4130,8 +6616,28 @@
 		}
 		{
 			description: ["Drops from Charged Creepers"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "26BF2B0C25A383F4"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "45BF41E57918FE61"
 				item: "hmag:lightning_particle"
 				type: "item"
@@ -4142,8 +6648,28 @@
 		{
 			dependencies: ["26BF2B0C25A383F4"]
 			description: ["Strikes you with lightning and gives you several buffs for 1 minute."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "48712D7905F0F5C0"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "382E2A0ABBBFF3D6"
 				item: "hmag:lightning_soup"
 				type: "item"
@@ -4154,8 +6680,28 @@
 		{
 			dependencies: ["26BF2B0C25A383F4"]
 			description: ["Throw to strike lightning."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7BDFC70E5848E1E1"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "74553C1F6C76D578"
 				item: "hmag:lightning_bottle"
 				type: "item"
@@ -4165,8 +6711,28 @@
 		}
 		{
 			description: ["These blocks are wither-proof."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "344C1879370653CE"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "24BCE548F66DB0E5"
 				item: {
 					Count: 1
@@ -4184,8 +6750,28 @@
 		}
 		{
 			description: ["Makes you immune to Blindness and Darkness for a few seconds. If you don't have anything better, it might be worth it to bring a few of these to the Deep Dark."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "27FEA0B5D495FC9B"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6CF3233BE8D3CD84"
 				item: "hmag:bat_stew"
 				type: "item"
@@ -4195,6 +6781,15 @@
 		}
 		{
 			description: ["Golem-like monsters that spawn in Nether Fortresses. They can shoot small explosive fireballs."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "521EEC722DA8C00F"
 			rewards: [
 				{
@@ -4217,6 +6812,17 @@
 			]
 			tasks: [{
 				entity: "hmag:fortress_keeper"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "hmag:burning_core"
 				id: "7E11968005260C80"
 				type: "kill"
@@ -4228,8 +6834,28 @@
 		{
 			dependencies: ["521EEC722DA8C00F"]
 			description: ["Ignites attackers"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "345B131DE88C3F5E"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "10B9AC4B8C683B10"
 				item: {
 					Count: 1
@@ -4248,6 +6874,15 @@
 		}
 		{
 			description: ["A crab-like, neutral creature found in lush caves. Its meat is delicious. If provoked, it attacks with its claw and shoots crystals."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "737D6C861DAE7805"
 			rewards: [
 				{
@@ -4270,6 +6905,17 @@
 			]
 			tasks: [{
 				entity: "cataclysm:amethyst_crab"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:amethyst_cluster"
 				id: "67E70FB307978E4A"
 				type: "kill"
@@ -4281,6 +6927,15 @@
 		{
 			dependencies: ["737D6C861DAE7805"]
 			description: ["Amethyst Crab Meat can be blessed at the altar found in the library of a Sunken City. It is extremely helpful against the Leviathan."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "cataclysm:blessed_amethyst_crab_meat"
 			id: "69D6C6ADEF7CFCC7"
 			rewards: [{
@@ -4291,6 +6946,17 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					icon: "cataclysm:altar_of_amethyst"
 					id: "312AE004C3E80038"
 					observe_type: 0
@@ -4299,6 +6965,17 @@
 					type: "observation"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "73FA6E88C0BEB607"
 					item: "cataclysm:blessed_amethyst_crab_meat"
 					type: "item"
@@ -4310,6 +6987,15 @@
 		}
 		{
 			description: ["A friendly creature that can be found in mineshafts. It likes to play hide and seek. Find it 3 times and it will give you a gift."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "380CDF37C30FB86A"
 			rewards: [
 				{
@@ -4330,6 +7016,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:bundle"
 				id: "3B15F458E057264B"
 				observe_type: 5
@@ -4342,6 +7039,15 @@
 		}
 		{
 			description: ["A crablike creature with diamonds on its back. It runs from you. It can only be killed with a pickaxe."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "05D0F0442C0EC8B8"
 			rewards: [
 				{
@@ -4357,6 +7063,17 @@
 			]
 			tasks: [{
 				entity: "mowziesmobs:grottol"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "mowziesmobs:captured_grottol"
 				id: "7609781ABC61C676"
 				type: "kill"
@@ -4368,6 +7085,15 @@
 		{
 			dependencies: ["053F019267260F95"]
 			description: ["The Fruit and Sword of Insomnia become more powerful the longer it has been since you slept. They max out at 6 days without sleep. You won't be able to sleep as long as they are in your inventory."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "120E3243A96AA459"
 			rewards: [{
 				id: "7935F43927E83565"
@@ -4377,6 +7103,17 @@
 			subtitle: "All-nighter"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "07DBF0F138A27783"
 					item: {
 						Count: 1
@@ -4388,6 +7125,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "101DC6DE3B8694C7"
 					item: {
 						Count: 1
@@ -4417,6 +7165,15 @@
 				""
 				"Unlock new entries of &4monsters&r and creatures as you encounter or defeat them. Use a &6spyglass&r to unlock clues about them for a better chance unlocking higher ranks."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_dependency_lines: false
 			id: "1D75D97C2FE79008"
 			rewards: [{
@@ -4428,6 +7185,17 @@
 			size: 2.0d
 			subtitle: "Explore the unknown, farm with precision, and master your enemies with Araxer’s Bestiary!"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4E6BA45A6B1809B2"
 				item: "araxers_bestiary:bestiary_book"
 				type: "item"
@@ -4438,6 +7206,15 @@
 		}
 		{
 			description: ["Wilden do not spawn naturally - summon them with the Ritual of Wilden Summoning to hunt them down."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "ars_nouveau:wilden_horn"
 			id: "73EDAD2561CAC8D0"
 			optional: true
@@ -4461,6 +7238,17 @@
 			]
 			tasks: [{
 				entity: "ars_nouveau:wilden_hunter"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0C4F462D3DC4CD62"
 				type: "kill"
 				value: 3L
@@ -4471,6 +7259,15 @@
 		}
 		{
 			description: ["Wilden do not spawn naturally - summon them with the Ritual of Wilden Summoning to hunt them down."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "ars_nouveau:wilden_wing"
 			id: "1FD087D0BFE96339"
 			optional: true
@@ -4494,6 +7291,17 @@
 			]
 			tasks: [{
 				entity: "ars_nouveau:wilden_stalker"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "27EC4EB75149910E"
 				type: "kill"
 				value: 3L
@@ -4504,6 +7312,15 @@
 		}
 		{
 			description: ["Wilden do not spawn naturally - summon them with the Ritual of Wilden Summoning to hunt them down."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "ars_nouveau:wilden_spike"
 			id: "750B8AE584E4EB47"
 			optional: true
@@ -4527,6 +7344,17 @@
 			]
 			tasks: [{
 				entity: "ars_nouveau:wilden_guardian"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5BB36A1BB6717FA1"
 				type: "kill"
 				value: 3L
@@ -4537,6 +7365,15 @@
 		}
 		{
 			description: ["Slow but deceptively dangerous - keep your distance from its breath."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:wither_rose"
 			id: "3F9CA46B9CC75030"
 			optional: true
@@ -4560,6 +7397,17 @@
 			]
 			tasks: [{
 				entity: "landsoficaria:catoblepas"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "31BC6CB9B4CEEF19"
 				type: "kill"
 				value: 2L
@@ -4570,6 +7418,15 @@
 		}
 		{
 			description: ["Found skulking in Icaria's undergrowth."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:fermented_spider_eye"
 			id: "112D855C3BD41D43"
 			optional: true
@@ -4593,6 +7450,17 @@
 			]
 			tasks: [{
 				entity: "landsoficaria:vinegaroon"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "18EEE770966B0671"
 				type: "kill"
 				value: 5L
@@ -4603,6 +7471,15 @@
 		}
 		{
 			description: ["Venomous and quick - don't let its sting catch you off guard."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:spider_eye"
 			id: "069AB8FABA71A26E"
 			optional: true
@@ -4626,6 +7503,17 @@
 			]
 			tasks: [{
 				entity: "landsoficaria:scorpion"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "33CBAE44737B6B3B"
 				type: "kill"
 				value: 5L
@@ -4636,6 +7524,15 @@
 		}
 		{
 			description: ["A spellcaster lurking in Icaria's wilds."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:warped_fungus"
 			id: "49B0447053B53481"
 			optional: true
@@ -4659,6 +7556,17 @@
 			]
 			tasks: [{
 				entity: "landsoficaria:plane_forest_hag"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1A7E8A9A2A2142D7"
 				type: "kill"
 				value: 3L
@@ -4669,6 +7577,15 @@
 		}
 		{
 			description: ["Small, fast, and relentless in packs."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:bone"
 			id: "60B9C2E2E3EE851B"
 			optional: true
@@ -4692,6 +7609,17 @@
 			]
 			tasks: [{
 				entity: "landsoficaria:solifugae"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3D597D0740AFB0E8"
 				type: "kill"
 				value: 5L
@@ -4702,6 +7630,15 @@
 		}
 		{
 			description: ["One of Icaria's mini-bosses - come prepared."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:cobweb"
 			id: "161F2021CE3CAE15"
 			optional: true
@@ -4725,6 +7662,17 @@
 			]
 			tasks: [{
 				entity: "landsoficaria:arachne"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5A1C072194932AE2"
 				type: "kill"
 				value: 2L

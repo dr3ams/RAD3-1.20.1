@@ -103,6 +103,15 @@
 				""
 				"Clicking on a stored enchantment will extract one level of that enchantment. Shift-clicking a stored enchantment will extract as many levels as possible. Books are generated in the output slot as necessary."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1CA6332B5CCCF7A5"
 			rewards: [
 				{
@@ -117,6 +126,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2740B8971BB3E87D"
 				item: {
 					Count: 1
@@ -141,6 +161,15 @@
 				""
 				"&5Arcana&r is a secondary stat. It controls the rarity weights, and at certain thresholds will guarantee you get additional enchantments. At 25% &5Arcana&r, you will always receive at least two enchantments. At 75%, you will always receive three."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3C4CBE20B2EE36D3"
 			rewards: [{
 				id: "60C4E2E20BB12AD8"
@@ -149,6 +178,17 @@
 			}]
 			subtitle: "To reach level 45, you'll want to create some Hellshelves and add them to your existing Bookshelves."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "20B86AA2D218A423"
 				item: "apotheosis:hellshelf"
 				type: "item"
@@ -163,6 +203,15 @@
 				""
 				"Create a few more of the type of shelf you were using, infuse them, and upgrade them. These new shelves, on top of your old ones, will let you reach Level 60."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "517F851353600623"
 			rewards: [{
 				id: "177BC99B5964CE1B"
@@ -170,6 +219,17 @@
 				xp: 250
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "53ED0DE57D55DD29"
 				item: "apotheosis:infused_hellshelf"
 				type: "item"
@@ -179,6 +239,15 @@
 		}
 		{
 			dependencies: ["517F851353600623"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4ED73319150DF98D"
 			rewards: [{
 				id: "660FAACF59E1638C"
@@ -186,6 +255,17 @@
 				xp: 250
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "275849D745ADFB47"
 				item: "apotheosis:glowing_hellshelf"
 				type: "item"
@@ -195,6 +275,15 @@
 		}
 		{
 			dependencies: ["517F851353600623"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "767EB6A574FCFE2D"
 			rewards: [
 				{
@@ -209,6 +298,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "714182CF27B100C0"
 				item: "apotheosis:blazing_hellshelf"
 				type: "item"
@@ -218,6 +318,15 @@
 		}
 		{
 			dependencies: ["7B62D55B886496AF"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1BA9D21E423F5547"
 			rewards: [
 				{
@@ -249,6 +358,17 @@
 			]
 			subtitle: "Clues +2"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1A70BBE692D253EE"
 				item: "apotheosis:sightshelf_t2"
 				type: "item"
@@ -259,6 +379,15 @@
 		{
 			dependencies: ["517F851353600623"]
 			description: ["You now have access to better options for increasing other stats. On top of the bonuses from Hellshelves and Seashelves, you may now also create &4Sightshelves&r  to increase your &8Clues&r."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7B62D55B886496AF"
 			rewards: [
 				{
@@ -274,6 +403,17 @@
 			]
 			subtitle: "Clues +1"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "377DF6C0D9218820"
 				item: "apotheosis:sightshelf"
 				type: "item"
@@ -288,6 +428,15 @@
 				""
 				"&aEterna&r is the primary stat of enchanting. Each point of &aEterna&r increases the maximum enchanting level by two. Some blocks can only provide &aEterna&r up to a certain maximum value."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7878E38C1FFB963D"
 			rewards: [{
 				id: "3BE7A3EBD6A09D86"
@@ -296,6 +445,17 @@
 			}]
 			subtitle: "If you aren't fond of the Nether, you can also venture to the Ocean, and create Seashelves instead."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "685AF345F20AE05F"
 				item: "apotheosis:seashelf"
 				type: "item"
@@ -310,6 +470,15 @@
 				""
 				"Create a few more of the type of shelf you were using, infuse them, and upgrade them. These new shelves, on top of your old ones, will let you reach Level 60."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2D875F9BAD35800F"
 			rewards: [{
 				id: "199404AD538B19BB"
@@ -317,6 +486,17 @@
 				xp: 250
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1EB87CA08FBA498B"
 				item: "apotheosis:infused_seashelf"
 				type: "item"
@@ -326,6 +506,15 @@
 		}
 		{
 			dependencies: ["2D875F9BAD35800F"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "08C6B4F41D4AE88F"
 			rewards: [{
 				id: "63C90C6F3209D54B"
@@ -333,6 +522,17 @@
 				xp: 250
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "502CFB696E11623D"
 				item: "apotheosis:crystal_seashelf"
 				type: "item"
@@ -342,6 +542,15 @@
 		}
 		{
 			dependencies: ["2D875F9BAD35800F"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1D5F27093CFCE081"
 			rewards: [
 				{
@@ -356,6 +565,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "00494FFD8DA05F52"
 				item: "apotheosis:heart_seashelf"
 				type: "item"
@@ -374,6 +594,15 @@
 				""
 				"&oNote: books can be inserted the same way you use a chiseled bookshelf, and the shelf must be in a valid bookshelf slot to operate. Blacklisted enchantments will be reflected in the Enchanting Info Screen&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "77CADB958D24D541"
 			rewards: [
 				{
@@ -388,6 +617,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5E24444F96182327"
 				item: "apotheosis:filtering_shelf"
 				type: "item"
@@ -398,6 +638,15 @@
 		{
 			dependencies: ["2D875F9BAD35800F"]
 			description: ["If you have a stable supply of &5Amethyst&r, you can also make &9Rectifiers&r to further increase your &eRectification&r."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "351792A9531ADFF4"
 			rewards: [
 				{
@@ -412,6 +661,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "67F6B1A8D61DA526"
 				item: "apotheosis:rectifier"
 				type: "item"
@@ -426,6 +686,15 @@
 			]
 			dependency_requirement: "one_completed"
 			description: ["Once you've crafted a &1Dormant Deepshelf&r, you need to infuse it. This infusion recipe will require some extra blocks to reach the stat threshold. Completing the infusion will yield a  &0Deepshelf&r, which can get you to Level 70."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0367FE53FC0CC35B"
 			rewards: [
 				{
@@ -442,11 +711,33 @@
 			subtitle: "Reaching Level 70 requires a Level 60 Enchanting Table and access to Deepslate."
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7CFF1361D929AED7"
 					item: "apotheosis:dormant_deepshelf"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "25FE807570D29F34"
 					item: "apotheosis:deepshelf"
 					type: "item"
@@ -458,6 +749,15 @@
 		{
 			dependencies: ["0DA09629733D2F68"]
 			description: ["They can be useful for precisely adjusting stats for infusion recipes, but not much else."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "607B8B7D560BA6A8"
 			rewards: [{
 				id: "10210D19A4BEECC7"
@@ -466,16 +766,49 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "66965CFC3A18FBB7"
 					item: "apotheosis:beeshelf"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "73F309ED5C1173D8"
 					item: "apotheosis:melonshelf"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "70FBD08A0F52E9BE"
 					item: "apotheosis:stoneshelf"
 					type: "item"
@@ -488,6 +821,15 @@
 		{
 			dependencies: ["0367FE53FC0CC35B"]
 			description: ["To hit level 75, you will need to upgrade your Deepshelves. Doing this requires materials only found in the &0Deep Dark&r. &1Echo Shards&r may be looted from the Ancient City, and &1Sculk&r may be collected with Silk Touch."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "74AAE9C994E2993F"
 			rewards: [
 				{
@@ -503,6 +845,17 @@
 			]
 			subtitle: "Reaching Level 75"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "374161F8CAADF794"
 				item: "apotheosis:echoing_deepshelf"
 				type: "item"
@@ -513,6 +866,15 @@
 		{
 			dependencies: ["0367FE53FC0CC35B"]
 			description: ["To hit level 75, you will need to upgrade your Deepshelves. Doing this requires materials only found in the &0Deep Dark&r. &1Echo Shards&r may be looted from the Ancient City, and &1Sculk&r may be collected with Silk Touch."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0A64DCF2FEFE6DBC"
 			rewards: [
 				{
@@ -528,6 +890,17 @@
 			]
 			subtitle: "Reaching Level 75"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7FFF28D63B329BD4"
 				item: "apotheosis:soul_touched_deepshelf"
 				type: "item"
@@ -541,6 +914,15 @@
 				"The last step to Level 80 requires slaying the &0Warden&r, which allows crafting &1Sculkshelves&r."
 				""
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "076FED7E9FF5C848"
 			rewards: [
 				{
@@ -556,6 +938,17 @@
 			]
 			subtitle: "Reaching Level 80"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "767B434418A88423"
 				item: "apotheosis:echoing_sculkshelf"
 				type: "item"
@@ -566,6 +959,15 @@
 		{
 			dependencies: ["0A64DCF2FEFE6DBC"]
 			description: ["The last step to Level 80 requires slaying the &0Warden&r, which allows crafting &1Sculkshelves&r."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2830CB386FEDEF1F"
 			rewards: [
 				{
@@ -581,6 +983,17 @@
 			]
 			subtitle: "Reaching Level 80"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2FA611728D78D611"
 				item: "apotheosis:soul_touched_sculkshelf"
 				type: "item"
@@ -590,6 +1003,15 @@
 		}
 		{
 			dependencies: ["39FFF3DDA03C40EF"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "117DC5DDBE26FF9E"
 			rewards: [
 				{
@@ -605,6 +1027,17 @@
 			]
 			subtitle: "Reaching Level 90"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4F499CFCE3008D1A"
 				item: "apotheosis:endshelf"
 				type: "item"
@@ -614,6 +1047,15 @@
 		}
 		{
 			dependencies: ["117DC5DDBE26FF9E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "71563C6427333117"
 			rewards: [
 				{
@@ -628,6 +1070,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "660067EF895DE766"
 				item: "apotheosis:pearl_endshelf"
 				type: "item"
@@ -644,6 +1097,15 @@
 				""
 				"A single &dDraconic Endshelf&r provides enough raw strength to boost a table from Level 80 to Level 100. However, it provides no other stat bonuses."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3953AFE08C194E79"
 			rewards: [
 				{
@@ -659,6 +1121,17 @@
 			]
 			subtitle: "Reaching Level 100"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5A0A426F00996D3D"
 				item: "apotheosis:draconic_endshelf"
 				type: "item"
@@ -673,6 +1146,15 @@
 			]
 			dependency_requirement: "one_completed"
 			description: ["Accessing the penultimate tier requires a Level 80 table and access to &dDragon's Breath&r. With these, you can create Infused Dragon's Breath, a core component of &eEndshelves&r."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "39FFF3DDA03C40EF"
 			rewards: [{
 				id: "481DF045D0624855"
@@ -681,6 +1163,17 @@
 			}]
 			subtitle: "Reaching Level 90"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2E931D3215A820B3"
 				item: "apotheosis:infused_breath"
 				type: "item"
@@ -695,6 +1188,15 @@
 				""
 				"Placing this bookshelf in a valid slot will cause treasure enchantments to appear while enchanting. Bear in mind that most &cCurses&r are treasure enchantments."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5F4F7ABD18E5EF9C"
 			rewards: [
 				{
@@ -709,6 +1211,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1F6F2BE6D2F248B9"
 				item: "apotheosis:treasure_shelf"
 				type: "item"
@@ -719,6 +1232,15 @@
 		{
 			dependencies: ["3953AFE08C194E79"]
 			description: ["The &dLibrary of Alexandria&r has a Level Capacity of thirty-one (XXXI). It cannot be crafted directly, and must be created using Infusion Enchanting."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4E76C25DD113D334"
 			rewards: [
 				{
@@ -733,6 +1255,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "29AFF6E0979BD180"
 				item: "apotheosis:ender_library"
 				type: "item"
@@ -746,6 +1279,15 @@
 				"4A498CD14AEEE7E9"
 			]
 			description: ["At this stage, there are a few basic options for increasing other stats. you can use Candles to increase &5Arcana&r, Skulls to increase &cQuanta&r, and Amethyst Clusters to increase &eRectification&r."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0DA09629733D2F68"
 			rewards: [{
 				id: "02B848BE37A4A761"
@@ -755,6 +1297,17 @@
 			subtitle: "Reaching Level 30 is done in the usual way, with fifteen bookshelves."
 			tasks: [{
 				count: 15L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1ED83539D8760095"
 				item: { Count: 15, id: "minecraft:bookshelf" }
 				type: "item"
@@ -774,6 +1327,15 @@
 				""
 				"The specifics of how each stat modifies your &6Base Power&r can be found in the &cQuanta&r and &eRectification&r entries. Typically, a higher &dFinal Power&r will get you access to higher level enchantments."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -788,6 +1350,17 @@
 				xp: 5
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "20BA799FC787AF1A"
 				title: "Enchanting Power"
 				type: "checkmark"
@@ -841,6 +1414,15 @@
 				""
 				"You can also drop to zero clues, and be able to see nothing."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:help"
 			id: "4A498CD14AEEE7E9"
 			rewards: [{
@@ -849,6 +1431,17 @@
 				xp: 5
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "609F811F706DCA3A"
 				type: "checkmark"
 			}]
@@ -865,6 +1458,15 @@
 				""
 				"&5Tome of Superior Scrapping&r costs a lot of levels, destroys the item, but returns all of the enchantments."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4FFE28F3DB5EC162"
 			rewards: [
 				{
@@ -879,6 +1481,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "25E69B5E45CA5946"
 				item: {
 					Count: 1
@@ -913,6 +1526,15 @@
 				""
 				"Once you enchant a tome, it will transform into an enchanted book."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0FCC32F686193F78"
 			rewards: [{
 				id: "3F4B3503ECA512CB"
@@ -920,6 +1542,17 @@
 				xp: 50
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "56783C0C1D7A3936"
 				item: {
 					Count: 1
@@ -983,6 +1616,15 @@
 				""
 				"A &bDiamond Grindstone&r can remove all enchantments, even curses."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4243DD8F2FA37B9E"
 			rewards: [{
 				id: "75F58DE296718BF3"
@@ -990,6 +1632,17 @@
 				xp: 50
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "32321ABA22FF2A2C"
 				item: {
 					Count: 1
@@ -1024,6 +1677,15 @@
 		{
 			dependencies: ["11872459EE2E3A0B"]
 			description: ["An upgraded Beeshelf, granting 100% &cQuanta&r at a much lower &aEterna&r cost. A reward for using &2Nature's Aura&r."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "67212BA264C3C792"
 			rewards: [{
 				id: "4E0931B1BF3E9670"
@@ -1044,6 +1706,17 @@
 			shape: "diamond"
 			subtitle: "The Chaos of Nature"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5D0AEF66EE82CB42"
 				item: "apotheotic_additions:terra_shelf"
 				type: "item"
@@ -1054,6 +1727,15 @@
 		{
 			dependencies: ["11872459EE2E3A0B"]
 			description: ["Gives 100% &eRectification&r in exchange for some &aEterna&r and &cQuanta&r. No need for bulky rectifier shelves, just add this one rune."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "59D00BCFD888DADF"
 			rewards: [{
 				id: "0B59B86303EC9DDA"
@@ -1074,6 +1756,17 @@
 			shape: "diamond"
 			subtitle: "The Storm, Bound By Artifice"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "652698D0D8FA0240"
 				item: "apotheotic_additions:wavebinders_shelf"
 				type: "item"
@@ -1084,6 +1777,15 @@
 		{
 			dependencies: ["11872459EE2E3A0B"]
 			description: ["If you are a practitioner of &4Blood Magic&r, you may pay an ocean of &4life essence&r to bypass the entire bookshelf progression, skipping straight to the end!"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "622AEF3DA469F1C9"
 			rewards: [{
 				id: "5B70F4256FD3658D"
@@ -1104,6 +1806,17 @@
 			shape: "diamond"
 			subtitle: "Through Sacrifice, A Shortcut"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7D21332BA5143FAB"
 				item: "apotheotic_additions:sacrificial_shelf"
 				type: "item"
@@ -1114,6 +1827,15 @@
 		{
 			dependencies: ["11872459EE2E3A0B"]
 			description: ["This rune may be the best shelf in the pack, but it comes at a steep cost. But not to worry, the &5Nebula Cube&r can be obtained by any player, not just those bearing the &5Catastrophe Scroll&r! The &4Chaotic&r and &6Truth&r etchings do not need the player to have the Scroll. Go blow up some Withers!"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2365FE766CBF602F"
 			rewards: [{
 				id: "6FD4874007071FDB"
@@ -1134,6 +1856,17 @@
 			shape: "diamond"
 			subtitle: "The Treasures of the End"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "36156B87CADDD8D7"
 				item: "apotheotic_additions:void_shelf"
 				type: "item"
@@ -1144,6 +1877,15 @@
 		{
 			description: ["These runes exist outside of the normal bookshelf progression. Each one is very powerful and difficult to craft. They are a reward for players who like to think outside of the box."]
 			disable_toast: true
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "11872459EE2E3A0B"
 			rewards: [{
 				count: 3
@@ -1156,6 +1898,17 @@
 			subtitle: "Golden Power"
 			tasks: [{
 				disable_toast: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "68CFCEAC82BAF19B"
 				item: "minecraft:gold_block"
 				type: "item"
@@ -1170,6 +1923,15 @@
 				""
 				"For some reason JEI is no longer showing Evil Enchanting recipes, but they still function. I will detail every single one in these quests."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "34D1EAED46BB61BE"
 			rewards: [{
 				count: 12
@@ -1181,6 +1943,17 @@
 			size: 2.0d
 			subtitle: "Smithing Table Enchanting"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "10CAC167FB081359"
 				item: "hmag:evil_crystal_upgrade_smithing_template"
 				type: "item"
@@ -1191,6 +1964,15 @@
 		}
 		{
 			dependencies: ["351792A9531ADFF4"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5AFB6E15C24246D2"
 			rewards: [
 				{
@@ -1205,6 +1987,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5E366B32AC6F7205"
 				item: "apotheosis:rectifier_t2"
 				type: "item"
@@ -1214,6 +2007,15 @@
 		}
 		{
 			dependencies: ["5AFB6E15C24246D2"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "342F9A4A1E8BE362"
 			rewards: [
 				{
@@ -1228,6 +2030,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "008A25AE3AFC1F38"
 				item: "apotheosis:rectifier_t3"
 				type: "item"
@@ -1244,9 +2057,29 @@
 				""
 				"Tools: Smelt, max 1"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "38037091D6488B24"
 			subtitle: "Burning enchantments"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "04245C84C319ED1E"
 				item: "hmag:evil_flame"
 				type: "item"
@@ -1265,9 +2098,29 @@
 				""
 				"Boots: Depth Strider, max 5"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "740AAF52DF9EBE8F"
 			subtitle: "Water enchantments"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3AF8A00925D2AF78"
 				item: "hmag:evil_prismarine"
 				type: "item"
@@ -1282,9 +2135,29 @@
 				""
 				"Shields: Reflective Defenses, max 7"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4B9155CB4BBCACC8"
 			subtitle: "Thorns"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2A95BAB955D7B78D"
 				item: "hmag:evil_thorn"
 				type: "item"
@@ -1305,9 +2178,29 @@
 				""
 				"This is the only way to obtain Knockback 10, Punch 10, or Shield Bash 10."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1738A11EB21B6E74"
 			subtitle: "Repelling enchantments"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0F05BDA16E88EF6C"
 				item: "hmag:repulsion_gadget"
 				type: "item"
@@ -1318,9 +2211,29 @@
 		{
 			dependencies: ["34D1EAED46BB61BE"]
 			description: ["Any item: Unbreaking, max 5"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "41677ADA7C09E30E"
 			subtitle: "Unbreaking"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "08BF2CE37417C1FC"
 				item: "hmag:reinforcing_chain"
 				type: "item"
@@ -1335,9 +2248,29 @@
 				""
 				"This is the only way to obtain Unbreaking 10."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3B62486F60D527E7"
 			subtitle: "Unbreaking+"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5D823594A6756C80"
 				item: "hmag:multiplex_reinforcing_chain"
 				type: "item"
@@ -1348,9 +2281,29 @@
 		{
 			dependencies: ["34D1EAED46BB61BE"]
 			description: ["Swords: Looting, max 8"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "420570F8D2406F88"
 			subtitle: "Looting"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7C1406B95909BCBD"
 				item: "hmag:greedy_crystal"
 				type: "item"
@@ -1365,9 +2318,29 @@
 				""
 				"This is the only way to obtain Looting 10."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0B0D3699E7F39F29"
 			subtitle: "Looting+"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "39A0DCCFCBCB7A04"
 				item: "hmag:greedy_crystal_plus"
 				type: "item"
@@ -1378,9 +2351,29 @@
 		{
 			dependencies: ["34D1EAED46BB61BE"]
 			description: ["Pickaxes: Fortune, max 8"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "40450AFB706D9456"
 			subtitle: "Fortune"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1961E0DDC2689A71"
 				item: "hmag:fortune_crystal"
 				type: "item"
@@ -1395,9 +2388,29 @@
 				""
 				"This is the only way to obtain Fortune 10."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "363119A9CC31EF1A"
 			subtitle: "Fortune+"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "353AFBAB692AA4C4"
 				item: "hmag:fortune_crystal_plus"
 				type: "item"
@@ -1408,9 +2421,29 @@
 		{
 			dependencies: ["34D1EAED46BB61BE"]
 			description: ["Removes all curses from an item.  Honestly, I don't think it's worth the price. Just use a Prismarine Cobweb instead."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "440D46347B7FE013"
 			subtitle: "Curse removal"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3F7007A64A43DBB2"
 				item: "hmag:purification_cloth"
 				type: "item"
@@ -1429,6 +2462,15 @@
 				""
 				"It's a little better than a Hellshelf or Seashelf, but not quite as good as a Deepshelf."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			id: "13E31601F723D2DD"
 			rewards: [
@@ -1445,6 +2487,17 @@
 			]
 			subtitle: "The secret third shelf"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "02AD11AC79326204"
 				item: "apotheotic_additions:infused_skyshelf"
 				type: "item"
@@ -1459,6 +2512,15 @@
 				""
 				"5 Eterna is quite a lot for how easy it is to get this shelf. It can take you all the way to level 75, which is just as high as a Soul-touched or Echoing Deepshelf. "
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "64A92D70448C1445"
 			rewards: [
 				{
@@ -1475,6 +2537,17 @@
 			size: 0.5d
 			subtitle: "good eye"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1F7B7EB2630DEA39"
 				item: "apotheotic_additions:gilded_aerogel_skyshelf"
 				type: "item"
@@ -1490,6 +2563,15 @@
 				""
 				"The jar holds &f10&r souls by default. Mastery raises that cap a lot further - see &6The Long Climb&r."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:soul_jar"
 			id: "0EC3FB01F7F960B9"
 			rewards: [{
@@ -1499,6 +2581,17 @@
 			}]
 			subtitle: "It hums faintly when you hold it"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "19EC0B2A977837F2"
 				item: "kubejs:soul_jar"
 				type: "item"
@@ -1520,6 +2613,15 @@
 				""
 				"The jar's tooltip shows a shorter version of the same thing - hold &e[Shift]&r for the mechanics list."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:spyglass"
 			id: "4F97DCE67B0AF101"
 			rewards: [{
@@ -1529,6 +2631,17 @@
 			}]
 			subtitle: "Sneak and right-click to check in"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "12E865CA56C794F0"
 				title: "Sneak + right-click your Soul Jar"
 				type: "checkmark"
@@ -1546,6 +2659,15 @@
 				""
 				"The target item is never destroyed, whatever gets stripped comes back as loose enchanted books."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:book_of_disenchant_lesser"
 			id: "39009F5BF2A833D0"
 			rewards: [{
@@ -1555,6 +2677,17 @@
 			}]
 			subtitle: "Cheap, a little unreliable"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "169CAAAD329AF9C2"
 				item: "kubejs:book_of_disenchant_lesser"
 				type: "item"
@@ -1572,6 +2705,15 @@
 				""
 				"&cChance to fail&r is 20%"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:book_of_disenchant_greater"
 			id: "25C7B3964D06FAA7"
 			rewards: [{
@@ -1581,6 +2723,17 @@
 			}]
 			subtitle: "Same ritual, steadier hands"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3E054F8C2D09711D"
 				item: "kubejs:book_of_disenchant_greater"
 				type: "item"
@@ -1596,6 +2749,15 @@
 				""
 				"Unlike the two books above, the tome is &cconsumed&r on use. One ritual, one tome gone."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:tome_of_soul_unraveling"
 			id: "34D8FD32EDAA19CC"
 			rewards: [{
@@ -1605,6 +2767,17 @@
 			}]
 			subtitle: "Everything it takes, onto one page"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1ECE004065662376"
 				item: "kubejs:tome_of_soul_unraveling"
 				type: "item"
@@ -1616,6 +2789,15 @@
 		{
 			dependencies: ["25C7B3964D06FAA7"]
 			description: ["The pricier sibling to the Tome of Soul Unraveling. Costs &f8 souls&r, also strips &fALL&r enchantments and is also &cconsumed&r on use - but hands back a &fseparate book per enchantment&r instead of one merged book. More souls for more flexibility afterward."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:tome_of_scattered_souls"
 			id: "3DD2121A90D8264C"
 			rewards: [{
@@ -1625,6 +2807,17 @@
 			}]
 			subtitle: "Everything it takes, kept apart"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "788E4CCA6D3260F7"
 				item: "kubejs:tome_of_scattered_souls"
 				type: "item"
@@ -1651,6 +2844,15 @@
 				""
 				"You'll get a banner announcement in chat the moment you cross into a new rank."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:experience_bottle"
 			id: "6C6F1A63BB83D255"
 			rewards: [{
@@ -1660,6 +2862,17 @@
 			}]
 			subtitle: "One number, ten ranks, no ceiling in sight"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "56262328839007BA"
 				title: "Reach the Apprentice rank (50 lifetime souls)"
 				type: "checkmark"
@@ -1683,6 +2896,15 @@
 				""
 				"None of these are guaranteed even at max rank - check your jar's stats screen or tooltip for your current live percentages."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:totem_of_undying"
 			id: "6703DC721DE9D44C"
 			rewards: [{
@@ -1692,6 +2914,17 @@
 			}]
 			subtitle: "Four more reasons to keep hunting"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5DFCDE1194143CEF"
 				title: "Unlock your first perk (100 lifetime souls)"
 				type: "checkmark"

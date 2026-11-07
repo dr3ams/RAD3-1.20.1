@@ -28,6 +28,15 @@
 	quests: [
 		{
 			dependencies: ["4DA5FD5537A3454C"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "77F17C15B698F3CC"
 			rewards: [
 				{
@@ -53,6 +62,17 @@
 			tasks: [{
 				advancement: "minecraft:story/enter_the_end"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "128FAC40150681E1"
 				type: "advancement"
 			}]
@@ -62,6 +82,15 @@
 		}
 		{
 			dependencies: ["77F17C15B698F3CC"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:dragon_head"
 			id: "6CDC6733BD84ACA1"
 			rewards: [
@@ -85,6 +114,17 @@
 			size: 3.5d
 			tasks: [{
 				entity: "minecraft:ender_dragon"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "178EE111694A84FC"
 				type: "kill"
 				value: 1L
@@ -95,6 +135,15 @@
 		{
 			dependencies: ["6CDC6733BD84ACA1"]
 			description: ["Every time the Ender Dragon is slain, she drops another egg, just in case you missed the first one."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "01D2A7528EF5B6A6"
 			rewards: [{
 				id: "71FB50142E3B5EC9"
@@ -105,6 +154,17 @@
 			tasks: [{
 				advancement: "minecraft:end/respawn_dragon"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "33FC909BAC6F4424"
 				type: "advancement"
 			}]
@@ -113,6 +173,15 @@
 		}
 		{
 			dependencies: ["6CDC6733BD84ACA1"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0A5F8CB7AF0AF2BA"
 			rewards: [{
 				id: "659680B7AB9C9200"
@@ -124,6 +193,17 @@
 			tasks: [{
 				advancement: "minecraft:end/enter_end_gateway"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "56F1731DC44B96AD"
 				type: "advancement"
 			}]
@@ -132,6 +212,15 @@
 		}
 		{
 			dependencies: ["0A5F8CB7AF0AF2BA"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "241AD7C07B239921"
 			rewards: [
 				{
@@ -147,6 +236,17 @@
 			]
 			shape: "hexagon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "316A7969B84AD847"
 				item: "quark:myalite"
 				type: "item"
@@ -175,12 +275,32 @@
 			]
 			dependency_requirement: "one_completed"
 			description: ["Some hidden in dungeons, some scattered across the land, some belonging to powerful creatures. You will need 12 of these eyes in order to reach the End and fight the Ender Dragon."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4DA5FD5537A3454C"
 			shape: "none"
 			size: 3.0d
 			tasks: [{
 				advancement: "minecraft:story/follow_ender_eye"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "23AF130B6AE6344C"
 				type: "advancement"
 			}]
@@ -189,6 +309,15 @@
 			y: 0.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "187957920712EC2E"
 			rewards: [{
 				id: "039964EE8E475183"
@@ -197,6 +326,17 @@
 			}]
 			subtitle: "Take it from those who claim to rule the waves"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3DFD5820E0DB3403"
 				item: {
 					Count: 1
@@ -211,6 +351,15 @@
 			y: -4.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "019072942CD08248"
 			rewards: [{
 				id: "3725B06CE0051062"
@@ -219,6 +368,17 @@
 			}]
 			subtitle: "Slay the strongest wizard of ice... or enhance another source of ice magic"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5D77D7C7C471B5A3"
 				item: {
 					Count: 1
@@ -233,6 +393,15 @@
 			y: -5.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "312E91FEDE6AD514"
 			rewards: [{
 				id: "30B23BDE602185FB"
@@ -241,6 +410,17 @@
 			}]
 			subtitle: "Hidden in a grave somewhere"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5088E2EB0CEBFED3"
 				item: {
 					Count: 1
@@ -255,6 +435,15 @@
 			y: -5.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "41E7E3999273AAB3"
 			rewards: [{
 				id: "2F64CCE7AD616FBF"
@@ -263,6 +452,17 @@
 			}]
 			subtitle: "Slay a great construct"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "48E8D0C68B4F788A"
 				item: {
 					Count: 1
@@ -277,6 +477,15 @@
 			y: -4.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5FD4F2A6A56ACF90"
 			rewards: [{
 				id: "439269ABAF562B87"
@@ -285,6 +494,17 @@
 			}]
 			subtitle: "Held by one of the champions of the Aether"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5B23BA44DD7A1D38"
 				item: {
 					Count: 1
@@ -299,6 +519,15 @@
 			y: -3.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2D06110B5FFBF593"
 			rewards: [{
 				id: "57B3B7090305034B"
@@ -307,6 +536,17 @@
 			}]
 			subtitle: "Slay the King of the Desert... or comb the desert sands"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "712DF0E715FEE24A"
 				item: {
 					Count: 1
@@ -321,6 +561,15 @@
 			y: -1.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0C8E1D9B933DCF8E"
 			rewards: [{
 				id: "41449DB2FD3FE720"
@@ -329,6 +578,17 @@
 			}]
 			subtitle: "Delve deep into a Roguelike Dungeon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "69801F623A429712"
 				item: {
 					Count: 1
@@ -343,6 +603,15 @@
 			y: 1.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "19E9F7E51FF0B487"
 			rewards: [{
 				id: "625C36F180EEF80F"
@@ -351,6 +620,17 @@
 			}]
 			subtitle: "Slay the Cursed King... or collect the curses he bears"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "035F818FA1F67DB6"
 				item: {
 					Count: 1
@@ -365,6 +645,15 @@
 			y: 3.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "46A764FD3B5A200B"
 			rewards: [{
 				id: "23E87083F1452E80"
@@ -373,6 +662,17 @@
 			}]
 			subtitle: "Bought from a master in purple"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0A563F3938012D23"
 				item: {
 					Count: 1
@@ -387,6 +687,15 @@
 			y: 4.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7634083BD68D50E6"
 			rewards: [{
 				id: "6C9319401A5600D6"
@@ -395,6 +704,17 @@
 			}]
 			subtitle: "Lift the curse from the Monument"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "004C1C95AC376154"
 				item: {
 					Count: 1
@@ -409,6 +729,15 @@
 			y: 5.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "427446946F3D879E"
 			rewards: [{
 				id: "3CDA9BFA1154DDAD"
@@ -417,6 +746,17 @@
 			}]
 			subtitle: "Evokers and other magicians may possess one"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2E8DA2995D846365"
 				item: {
 					Count: 1
@@ -431,6 +771,15 @@
 			y: 5.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "73A3563B25AE33B0"
 			rewards: [{
 				id: "60F1FD249FE22947"
@@ -439,6 +788,17 @@
 			}]
 			subtitle: "Slay the three-headed one"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1C05A0F39012A54E"
 				item: {
 					Count: 1
@@ -453,6 +813,15 @@
 			y: 4.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "53A1D28E602AE4A3"
 			rewards: [{
 				id: "754FD8ECB2BA668E"
@@ -461,6 +830,17 @@
 			}]
 			subtitle: "Pluck the eye of an evil woman"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "521FF08588E641E6"
 				item: {
 					Count: 1
@@ -475,6 +855,15 @@
 			y: 3.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4F55F3DFC40B035E"
 			rewards: [{
 				id: "74CADBA309F2493C"
@@ -483,6 +872,17 @@
 			}]
 			subtitle: "Seek souls trapped between life and death"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6021940D861269A0"
 				item: {
 					Count: 1
@@ -497,6 +897,15 @@
 			y: 1.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1DF48B8BB3C3280F"
 			rewards: [{
 				id: "7CC84B83585685F6"
@@ -505,6 +914,17 @@
 			}]
 			subtitle: "Lost beneath the waves, or maybe floating above them"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4FC2FB055E8B122C"
 				item: {
 					Count: 1
@@ -519,6 +939,15 @@
 			y: -1.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "292195EFC543C544"
 			rewards: [{
 				id: "5057FA1C19555492"
@@ -527,6 +956,17 @@
 			}]
 			subtitle: "Infuse an eye with the strongest enchantments"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0B7ED7041F01AC1A"
 				item: {
 					Count: 1
@@ -547,9 +987,29 @@
 				""
 				"The young dragon can be tamed with raw fish. Once it's fully grown, you can saddle it and ride on its back. Two dragons can be bred with raw fish to produce more dragon eggs."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "49FAA77F347564A9"
 			subtitle: "A worthy pet"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "067078945FD3C2BC"
 				item: "minecraft:dragon_egg"
 				type: "item"
@@ -558,9 +1018,29 @@
 			y: 2.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "27AA755446014D36"
 			subtitle: "Surely you will be fine without at least one of these"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5EA6CDE8883162E7"
 				item: {
 					Count: 1

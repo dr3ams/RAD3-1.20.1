@@ -62,6 +62,15 @@
 				""
 				"&o&8You recognize Willow Creek as a small village on the outskirts of the forest, home to a renowned blacksmith named Silas. You've heard tales of his skill, crafting weapons and armor of incredible strength.&r&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:quest_bundle"
 			id: "303C9F12C46AB4A9"
 			progression_mode: "linear"
@@ -80,6 +89,17 @@
 			]
 			tasks: [{
 				biome: "regions_unexplored:deciduous_forest"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "21877238E98437AD"
 				title: "Enter Deciduous forest"
 				type: "biome"
@@ -99,6 +119,15 @@
 				""
 				"&0What if it's cursed?&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "minecraft:chest"
@@ -117,6 +146,17 @@
 			}]
 			subtitle: "&4Incompatible with \"Deliver the package\"&r"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "42FAE8B88B745503"
 				type: "checkmark"
 			}]
@@ -131,6 +171,15 @@
 				""
 				"This would be the honorable thing to do, but it might mean missing out on whatever &5secrets&r the package holds."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "04737BABF8D66665"
@@ -142,6 +191,17 @@
 			}]
 			subtitle: "&4Incompatible with \"Open the package\"&r"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0BF283CC7CB4D765"
 				type: "checkmark"
 			}]
@@ -158,6 +218,15 @@
 				""
 				"However, the path to &2Willow Creek&r is not without its challenges. &lGather your supplies first!&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "73B68DABF2FA7F97"
@@ -182,11 +251,33 @@
 				{
 					consume_items: true
 					count: 32L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1BE731A363F7DC57"
 					item: "minecraft:torch"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2333369A254577D8"
 					item: {
 						Count: 1
@@ -200,11 +291,33 @@
 				{
 					consume_items: true
 					count: 3L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0FA517D2C8740D4D"
 					item: "minecraft:bread"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "605E5DEA7815EF1C"
 					item: {
 						Count: 1
@@ -241,6 +354,15 @@
 				""
 				"The fate of Eli and the mysteries of the crypt await your decision! &9What will you choose to do?&r 🌌"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "minecraft:anvil"
@@ -260,12 +382,34 @@
 			]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3BF7D671A97E1625"
 					structure: "minecraft:village_plains"
 					type: "structure"
 				}
 				{
 					consume_items: true
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0CEFE4A5DFAFAF56"
 					item: "kubejs:quest_bundle"
 					type: "item"
@@ -286,6 +430,15 @@
 				""
 				"&3“&oAh, a traveler! Would you be willing to help me prepare dinner for the villagers? I could use an extra pair of hands!”&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "farmersdelight:cooking_pot"
@@ -303,6 +456,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3E4E70A7C5313EFA"
 				item: "farmersdelight:stuffed_pumpkin_block"
 				type: "item"
@@ -314,6 +478,15 @@
 		{
 			dependencies: ["13D8979279D22C3A"]
 			description: ["Take some time to gather additional supplies and gear before heading into the unknown."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "7BA2CF8F9F125C31"
@@ -336,6 +509,17 @@
 			}]
 			subtitle: "&4As you will leave the village, \"Explore the Village\" quest will become unavailable&r"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "707D954E78FE980E"
 				title: "Prepare for the Journey"
 				type: "checkmark"
@@ -354,6 +538,15 @@
 				""
 				"&o&3\"If you find this, know that I have embraced the truth. The artifact we seek lies within the Cultists' Crypt. Follow the path of the moonlight to the ancient oak, and there you will find the entrance hidden beneath the roots.\"&r&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "kubejs:quest_note"
@@ -396,12 +589,34 @@
 			]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "50A7078639942B19"
 					structure: "nova_structures:creeping_crypt"
 					type: "structure"
 				}
 				{
 					count: 40L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "67C95A7B9CFE7ACF"
 					item: "minecraft:bone"
 					type: "item"
@@ -422,6 +637,15 @@
 				""
 				"You steel yourself for the challenges ahead, knowing that the &4crypt&r is teeming with &0undead&r &4corrupted creatures&r that will stop at nothing to protect their secrets."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "5B0D50FA170721B1"
@@ -432,6 +656,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "71A7946DEC71D4F5"
 				structure: "graveyard:crypt"
 				type: "structure"
@@ -449,6 +684,15 @@
 				""
 				"&0Your mission is clear:&r &4confront the acolytes&r &0and extract the vital clues that will lead you to the source of the evil plaguing this place.&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "4011F731FDCAE1BA"
@@ -474,12 +718,34 @@
 			tasks: [
 				{
 					entity: "graveyard:acolyte"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "77A4D7A5A165D0B6"
 					type: "kill"
 					value: 10L
 				}
 				{
 					entity: "graveyard:corrupted_vindicator"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "672CD57000A19728"
 					type: "kill"
 					value: 10L
@@ -498,6 +764,15 @@
 				""
 				"&4&nYou reach the dead end.&r&r &oOr not?&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "41E57804435650E5"
@@ -513,6 +788,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "67BB117F7F48494B"
 				title: "Dead End"
 				type: "checkmark"
@@ -528,6 +814,15 @@
 				""
 				"&9A choice hangs heavy in the air, sharp as a brigand's blade...&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "424C3DA5FE66B323"
 			rewards: [{
 				id: "652171C906819A66"
@@ -535,6 +830,17 @@
 				xp: 50
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					Count: 1
 					id: "ftbquests:custom_icon"
@@ -553,6 +859,15 @@
 		{
 			dependencies: ["424C3DA5FE66B323"]
 			description: ["Join the bandits and raid a village."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "graveyard:skull_on_pike"
@@ -588,6 +903,17 @@
 			]
 			subtitle: "&4Incompatible with \"The Path of Justice\"&r"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3D9E4F8812903A77"
 				type: "checkmark"
 			}]
@@ -598,6 +924,15 @@
 		{
 			dependencies: ["424C3DA5FE66B323"]
 			description: ["Report the bandits to the guards in the nearby town. "]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: {
@@ -639,6 +974,17 @@
 			]
 			subtitle: "&4Incompatible with \"Embrace the Shadows\"&r"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "43C9AC749CFAAA54"
 				type: "checkmark"
 			}]
@@ -657,6 +1003,15 @@
 				""
 				"The villagers are not defenseless, and failure could mean a swift and brutal end. "
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: {
@@ -682,17 +1037,50 @@
 			tasks: [
 				{
 					entity: "minecraft:villager"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "71BEB50C3C9633FD"
 					type: "kill"
 					value: 10L
 				}
 				{
 					entity: "minecraft:iron_golem"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "528CAC7C894B7A9B"
 					type: "kill"
 					value: 1L
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "36F7BD55EBDCE7DE"
 					item: "minecraft:bell"
 					type: "item"
@@ -711,6 +1099,15 @@
 				""
 				"Will you be able to expose their hideout and secure their capture before they strike? The fate of the village rests on your shoulders."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "003ED95E5ACEA59E"
@@ -720,6 +1117,17 @@
 				xp: 50
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "032EBEAE58B40D81"
 				observe_type: 5
 				timer: 0L
@@ -732,6 +1140,15 @@
 		{
 			dependencies: ["003ED95E5ACEA59E"]
 			description: ["Village guard explains that the village is in dire need of supplies to prepare for the impending raid illager's gang. Your mission is clear: you must gather essential supplies to help fortify the village and protect its inhabitants."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "1575E8A79C805DDB"
@@ -741,6 +1158,17 @@
 				xp: 5
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6D5A9EC3D1214720"
 				type: "checkmark"
 			}]
@@ -764,6 +1192,15 @@
 				""
 				"&o&8You carefully fold the note, concealing it within a small, hollowed-out stone. This will be your messenger, a silent testament to your newfound allegiance. You choose a discreet location near the outskirts of the bandit camp, placing the stone in a pre-determined spot known only to the bandits. &r&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "minecraft:paper"
@@ -775,11 +1212,33 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "47E11818BC917091"
 					item: "spelunkery:charcoal_lump"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5ED6D51BB88B45FE"
 					item: "minecraft:paper"
 					type: "item"
@@ -796,6 +1255,15 @@
 				""
 				"The path you've chosen is fraught with danger and uncertainty, but the allure of power and belonging is strong."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "0B08811AC3483A75"
@@ -806,6 +1274,17 @@
 			}]
 			tasks: [{
 				elapsedTime: 300L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3C2F9A4A0F148A6A"
 				type: "questsadditions:time"
 			}]
@@ -821,6 +1300,15 @@
 				""
 				"&e&nThe coordinates!&r&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "367683643CE78873"
@@ -853,6 +1341,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "05A9A2069337B1A1"
 				type: "checkmark"
 			}]
@@ -869,6 +1368,15 @@
 				""
 				"The fight is over. Silence descends upon the clearing, broken only by the ragged breaths of the survivors. You stand amidst the carnage, your heart pounding, your hands trembling. You've won, but at a terrible cost. You've slain Krag, the leader of the bandits, and claimed his sword, a symbol of your triumph and a reminder of the darkness you've embraced."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "4ADB9500DDDE28EA"
@@ -919,24 +1427,68 @@
 			tasks: [
 				{
 					entity: "takesapillage:skirmisher"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "74D99A9ADEFE3C80"
 					type: "kill"
 					value: 15L
 				}
 				{
 					entity: "takesapillage:archer"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6545E2319F777337"
 					type: "kill"
 					value: 5L
 				}
 				{
 					entity: "takesapillage:legioner"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "24234DCAF32E8217"
 					type: "kill"
 					value: 3L
 				}
 				{
 					entity: "minecraft:pillager"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "211124592BF82E10"
 					type: "kill"
 					value: 10L
@@ -962,6 +1514,15 @@
 				""
 				"You're not sure how much longer you can hold out, but you're determined to fight until your last breath."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "2256D8378C8CA364"
@@ -972,6 +1533,17 @@
 				xp: 50
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7F977070645C19AF"
 				structure: "takesapillage:bastille"
 				type: "structure"
@@ -990,6 +1562,15 @@
 				""
 				"Some of the townfolks also decided to join me."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "63D38B0DBF63AF4D"
@@ -1028,6 +1609,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "141ADD0A8565327E"
 				title: "Gathering Evidence"
 				type: "checkmark"
@@ -1048,6 +1640,15 @@
 				""
 				"You're not sure how much longer you can hold out, but you're determined to fight until your last breath."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "11AC81CE6384C5F5"
 			rewards: [
 				{
@@ -1070,30 +1671,85 @@
 			tasks: [
 				{
 					entity: "minecraft:evoker"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0FC287C97E325C94"
 					type: "kill"
 					value: 1L
 				}
 				{
 					entity: "minecraft:pillager"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "76B85EA5620E0FAD"
 					type: "kill"
 					value: 20L
 				}
 				{
 					entity: "minecraft:vindicator"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "24285CDDE9448795"
 					type: "kill"
 					value: 10L
 				}
 				{
 					entity: "minecraft:ravager"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2E0069861A7EA47F"
 					type: "kill"
 					value: 3L
 				}
 				{
 					entity: "minecraft:witch"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6ECAFCDDAEFD28F9"
 					type: "kill"
 					value: 1L
@@ -1106,6 +1762,15 @@
 		{
 			dependencies: ["1575E8A79C805DDB"]
 			description: ["As you assist the Blacksmith, he shares valuable clues about the bandit hideout that could prove crucial for your mission. "]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "70B131FECAD482C7"
@@ -1152,12 +1817,34 @@
 			tasks: [
 				{
 					count: 64L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6FA3D4B5A76F01AC"
 					item: { Count: 64, id: "minecraft:arrow" }
 					type: "item"
 				}
 				{
 					consume_items: true
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0F071BE9240155BC"
 					item: {
 						Count: 1
@@ -1179,6 +1866,15 @@
 		{
 			dependencies: ["1575E8A79C805DDB"]
 			description: ["After your work with the blacksmith, you turn your attention to the cook, who shares some intriguing rumors that could provide further insight into the bandits' activities."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "75F8CFA5E1AE007E"
@@ -1195,11 +1891,33 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0B5139F167C67F1B"
 					item: "fruitsdelight:lychee_chicken"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "74E94446433CCCBE"
 					item: "fruitsdelight:orange_marinated_pork"
 					type: "item"
@@ -1216,6 +1934,15 @@
 				""
 				"The map indicates that the entrance to the hideout is concealed in a remote area, possibly covered by natural foliage or hidden within a rocky outcrop."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "381F497D537D074D"
@@ -1225,6 +1952,17 @@
 				xp: 50
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "29DEF943866E9A13"
 				structure: "nova_structures:illager_hideout"
 				type: "structure"
@@ -1236,6 +1974,15 @@
 		{
 			dependencies: ["1575E8A79C805DDB"]
 			description: ["As you speak with the cleric, he shares some intriguing rumors that could provide valuable insights into the bandits' activities and their plans."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "4D1D09DC5BAAD5D0"
@@ -1247,6 +1994,17 @@
 			}]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5446C9082A7673F4"
 				item: {
 					Count: 1
@@ -1263,6 +2021,15 @@
 		}
 		{
 			description: ["&6Treasure map reward&r will locate the nearest structure so be aware of that when standing next to the one that you have already visited"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -1272,6 +2039,17 @@
 			}
 			id: "422BEAD5E7E588A4"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2029645486E1A709"
 				type: "checkmark"
 			}]
@@ -1282,6 +2060,15 @@
 		{
 			dependencies: ["39939BF03332602B"]
 			description: ["&o&8\"These fragments... they look like parts of an old map. If we can piece them together, who knows what secrets they might reveal? You should speak with Eldrin, the Cartographer—he’s the best at deciphering such mysteries.\"&r&r"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "038AF7B7C3DAC3CA"
@@ -1292,12 +2079,34 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2B292FB125EDE0B9"
 					structure: "#minecraft:village"
 					title: "Find nearest Village"
 					type: "structure"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "25BB7426A025DCBE"
 					observe_type: 0
 					timer: 0L
@@ -1316,6 +2125,15 @@
 				""
 				"Perhaps the &6Cartographer&r or the &6Librarian&r in town can shed light on these ancient scraps."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "39939BF03332602B"
 			rewards: [{
 				command: "/supplementaries map structure_map #minecraft:village"
@@ -1328,6 +2146,17 @@
 				type: "command"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "515EF6B78FC62A98"
 				item: "kubejs:map_fragment"
 				type: "item"
@@ -1343,6 +2172,15 @@
 				""
 				"Eldrin provides you with a Pathfinder's Quill to reveal the location of the first structure. This site is a ruined watchtower rumored to hold clues to the cartographer’s greater mystery."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "minecraft:cartography_table"
@@ -1365,6 +2203,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4A1A551EC9712C80"
 				type: "checkmark"
 			}]
@@ -1378,6 +2227,15 @@
 				""
 				"&6Eldrin &rtasks me to gather some stuff for his further researches..."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: {
@@ -1396,12 +2254,34 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0B77BEFA3E678450"
 					structure: "dungeons_enhanced:tower_of_the_undead"
 					type: "structure"
 				}
 				{
 					entity: "minecraft:zombie"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "679170707E3D326C"
 					type: "kill"
 					value: 5L
@@ -1418,6 +2298,15 @@
 				""
 				"Eldrin sends you to seek him out, hoping the trader’s secrets will shed light on the mysterious map fragments."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "11B76339E844FE72"
@@ -1430,6 +2319,17 @@
 				{
 					consume_items: true
 					count: 3L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "34C47B87CCB67435"
 					item: { Count: 10, id: "minecraft:ink_sac" }
 					type: "item"
@@ -1437,18 +2337,51 @@
 				{
 					consume_items: true
 					count: 3L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2EAA7886EE7A87A5"
 					item: { Count: 3, id: "minecraft:paper" }
 					type: "item"
 				}
 				{
 					consume_items: true
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "12A079D4781BD061"
 					item: "minecraft:writable_book"
 					type: "item"
 				}
 				{
 					count: 2L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7E2B9A7EF530A1C7"
 					item: { Count: 2, id: "minecraft:slime_ball" }
 					type: "item"
@@ -1468,6 +2401,15 @@
 				""
 				"&o&8\"The Goblin Trader is a slippery one, always moving his den to avoid unwanted visitors. It took all your wit and patience to track him down, but now that you’ve found him, the real challenge begins.\"&r&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "7C9B25FFE3D57F83"
@@ -1477,6 +2419,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7EB34A6A26D73614"
 				observe_type: 5
 				timer: 0L
@@ -1496,6 +2449,15 @@
 				""
 				"Bring it back to him, and perhaps he will reveal what he knows."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "sorcerousnether:lava_lily"
@@ -1518,6 +2480,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1FF62EF6A4061FBB"
 				type: "checkmark"
 			}]
@@ -1531,6 +2504,15 @@
 				""
 				"His movements remain unpredictable, and you must delve deep underground again to track him down."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "4DAF35E5B8291B90"
@@ -1540,6 +2522,17 @@
 				xp: 5
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "770544C215DE76B7"
 				observe_type: 5
 				timer: 0L
@@ -1559,6 +2552,15 @@
 				""
 				"&o&2\"Promises? I don’t make promises lightly. Perhaps it was kin who spoke of such things. Know this - there are many like me, wandering both above and below. Seek them out if you wish to learn more.\"&r&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "kubejs:map_fragment"
@@ -1569,6 +2571,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "78577CB7EBAAD584"
 				type: "checkmark"
 			}]
@@ -1584,6 +2597,15 @@
 				""
 				"&o&8\"Though the road has been winding and fraught with dead ends, the fragments are not without worth. Your next step lies in forging alliances and trading wisely.\"&r&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "vinery:wandering_winemaker_spawn_egg"
@@ -1594,6 +2616,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7F03260F2197B524"
 				type: "checkmark"
 			}]
@@ -1613,6 +2646,15 @@
 				""
 				"The notice gives no address. Only a name: &6The Wandering Hold.&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:paper"
 			id: "00ED99B6105C9DE1"
 			rewards: [
@@ -1639,6 +2681,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "08326936A1F188F8"
 				structure: "#minecraft:village"
 				title: "Find a village notice board"
@@ -1667,6 +2720,15 @@
 				""
 				"&o&8The fragments of his story are scattered across the same dungeons he once cleared. Find them, and you may find him.&r&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "kubejs:map_fragment"
@@ -1698,6 +2760,17 @@
 			tasks: [{
 				consume_items: true
 				count: 3L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0C45289C21D93E27"
 				item: "kubejs:map_fragment"
 				title: "Gather rumours — collect 3 map fragments"
@@ -1722,6 +2795,15 @@
 				""
 				"Among the fallen, you find something unexpected: a small iron-banded crate. Whatever is inside, it was meant to be found."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: {
@@ -1748,6 +2830,17 @@
 			]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "132C085C8914FB8C"
 					structure: "nova_structures:undead_crypt"
 					title: "Enter the Undead Crypt"
@@ -1755,6 +2848,17 @@
 				}
 				{
 					entity: "minecraft:skeleton"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "134EEE52DB9FA0D4"
 					title: "Defeat Desram's undying crew"
 					type: "kill"
@@ -1762,11 +2866,33 @@
 				}
 				{
 					entity: "minecraft:zombie"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "13B49786B5B44131"
 					type: "kill"
 					value: 10L
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "14D8B814406C71E9"
 					item: "kubejs:quest_crate"
 					title: "Retrieve the iron-banded crate"
@@ -1794,6 +2920,15 @@
 				""
 				"You pocket the fragment. The crate, now empty, feels lighter than it should. &8Like it's waiting to be filled again.&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "kubejs:quest_crate"
@@ -1841,6 +2976,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1A3ED13A32E97CC3"
 				item: "kubejs:quest_crate"
 				title: "Open the iron-banded crate"
@@ -1863,6 +3009,15 @@
 				""
 				"&o&8Somewhere in the deepest chamber, another crate. Same iron bands, same compass rose. Waiting, as if it expected you.&r&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: {
@@ -1881,6 +3036,17 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "224ECDE331CE692E"
 					structure: "dungeons_enhanced:monster_maze"
 					title: "Enter the Monster Maze"
@@ -1888,6 +3054,17 @@
 				}
 				{
 					entity: "minecraft:zombie"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "225B5FED4A824882"
 					title: "Clear the maze of its inhabitants"
 					type: "kill"
@@ -1895,11 +3072,33 @@
 				}
 				{
 					entity: "minecraft:skeleton"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "24B941BBF8710654"
 					type: "kill"
 					value: 10L
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2595C78740F8F350"
 					item: "kubejs:quest_crate"
 					title: "Find the second iron-banded crate"
@@ -1929,6 +3128,15 @@
 				""
 				"&o&8The second fragment slots against the first in your pack. You can feel the third out there — somewhere cold and wet.&r&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "kubejs:quest_crate"
@@ -1976,6 +3184,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2E0D2242A00C3520"
 				item: "kubejs:quest_crate"
 				title: "Open the second iron-banded crate"
@@ -1998,6 +3217,15 @@
 				""
 				"&4The third crate is in the captain's quarters. Underwater. Sealed with something that isn't wax.&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "minecraft:nautilus_shell"
@@ -2018,6 +3246,17 @@
 			]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "354EB1C6CE03109B"
 					structure: "minecraft:shipwreck"
 					title: "Find Desram's sunken vessel"
@@ -2025,6 +3264,17 @@
 				}
 				{
 					entity: "minecraft:drowned"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "35FF4B7936D61998"
 					title: "Defeat the drowned crew"
 					type: "kill"
@@ -2032,12 +3282,34 @@
 				}
 				{
 					count: 3L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "37D16A3B73A0CC16"
 					item: "minecraft:nautilus_shell"
 					title: "Collect nautilus shells from the wreck"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "39C0CB52F511D9CB"
 					item: "kubejs:quest_crate"
 					secret: true
@@ -2066,6 +3338,15 @@
 				""
 				"&4A place where the boundary is thin.&r You know what that means. Find somewhere the dead walk."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "minecraft:paper"
@@ -2114,12 +3395,34 @@
 			tasks: [
 				{
 					consume_items: true
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3D74C3035DF4A6F8"
 					item: "kubejs:quest_crate"
 					title: "Open the third iron-banded crate"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "46F99F9D519FDB29"
 					item: {
 						Count: 1
@@ -2138,6 +3441,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "749575A2FB4ED7C8"
 					item: {
 						Count: 1
@@ -2175,6 +3489,15 @@
 				""
 				"&4He's watching. He always watches the third part. It's his favourite.&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: {
@@ -2200,6 +3523,17 @@
 			]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5B218569206D700A"
 					structure: "graveyard:crypt"
 					title: "Find a place where the boundary is thin"
@@ -2207,6 +3541,17 @@
 				}
 				{
 					entity: "graveyard:acolyte"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4B0AB01468EB41E4"
 					title: "Cut through the acolytes"
 					type: "kill"
@@ -2214,6 +3559,17 @@
 				}
 				{
 					entity: "graveyard:corrupted_vindicator"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4C95A9ABADAEA479"
 					title: "Put down the corrupted vindicators"
 					type: "kill"
@@ -2221,6 +3577,17 @@
 				}
 				{
 					entity: "graveyard:corrupted_pillager"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4D5AF9CBB07FCC9B"
 					title: "Drive back the corrupted Pillagers"
 					type: "kill"
@@ -2254,6 +3621,15 @@
 				""
 				"&6&o\"My spirit drifts further down these days. Toward the roots of things. Deeper than this world goes, almost. If you ever find your way to such depths — look for a compass rose carved into the dark.\"&r&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "minecraft:compass"
@@ -2264,6 +3640,17 @@
 				xp: 50
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "50D5F4FF1A5CAF29"
 				title: "Accept the Oath"
 				type: "checkmark"
@@ -2289,6 +3676,15 @@
 				""
 				"&8The cycle holds.&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: {
@@ -2327,6 +3723,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5B823778254659CA"
 				title: "Take the Blade"
 				type: "checkmark"
@@ -2348,6 +3755,15 @@
 				""
 				"&8The Hold is open.&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "vinery:wandering_winemaker_spawn_egg"
@@ -2358,6 +3774,17 @@
 				xp: 30
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "626C7D4BCE8F8233"
 				title: "The Hold is open"
 				type: "checkmark"
@@ -2377,11 +3804,31 @@
 				""
 				"&8The standing deals are listed above. Some are visible from the start. Others open up as your history with the Hold deepens.&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "kubejs:quest_crate"
 			id: "627290690A270635"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "62A0B3655BC91029"
 				title: "Open the Hold's ledger"
 				type: "checkmark"
@@ -2404,6 +3851,15 @@
 				""
 				"&4It's not the same sword. It never is. That's the whole point.&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: {
@@ -2428,6 +3884,17 @@
 			shape: "octagon"
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6426FAE9480469A7"
 				item: "kubejs:quest_crate"
 				title: "Present a stamped dungeon crate"
@@ -2449,6 +3916,15 @@
 				""
 				"&8The arrangement is simple. The Hold prefers simple.&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "minecraft:chest"
@@ -2473,6 +3949,17 @@
 			]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6F4C76FF8B24F98B"
 				item: "kubejs:quest_crate"
 				title: "Trade in a dungeon crate"
@@ -2496,6 +3983,15 @@
 				""
 				"&4Perfectly legal. Technically.&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "kubejs:contraband"
@@ -2508,6 +4004,17 @@
 			}]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7399F4FA49AB097E"
 				item: "kubejs:contraband"
 				title: "Move the contraband through the Hold"
@@ -2535,6 +4042,15 @@
 				""
 				"&6&o\"He said you'd know what to do with it.\"&r&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "kubejs:coin_undergarden"
@@ -2555,6 +4071,17 @@
 			tasks: [{
 				consume_items: true
 				count: 10L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "76F057FD1A8F5631"
 				item: "kubejs:coin_undergarden"
 				title: "Exchange the Undergarden coin"
@@ -2580,6 +4107,15 @@
 				""
 				"&6&o\"He left notes on a lot of people. You're in them now.\"&r&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: {
@@ -2606,6 +4142,17 @@
 			tasks: [{
 				consume_items: true
 				count: 3L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7E8CB19D851A496B"
 				item: "kubejs:quest_crate"
 				title: "Submit three dungeon crates at once"
@@ -2631,6 +4178,15 @@
 				""
 				"&6&o\"The King was patient about the debt. He said eventually the right person would come along. Apparently that's you.\"&r&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: {
@@ -2657,12 +4213,34 @@
 			tasks: [
 				{
 					entity: "minecraft:pillager"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "241B405C71119D7A"
 					type: "kill"
 					value: 10L
 				}
 				{
 					entity: "minecraft:vindicator"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7421E9AF54D80E55"
 					type: "kill"
 					value: 10L
@@ -2688,6 +4266,15 @@
 				""
 				"&6&o\"Bring me what the dead leave behind. I'll give you what the living need.\"&r&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "graveyard:dark_iron_ingot"
@@ -2713,6 +4300,17 @@
 			tasks: [{
 				consume_items: true
 				count: 8L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "46695D04DCC837AE"
 				item: "graveyard:dark_iron_ingot"
 				title: "Deliver the dark iron tithe"

@@ -83,3 +83,56 @@
 	#A boss entry wins over a custom entry.
 	customIds = ["minecraft:elder_guardian", "minecraft:warden"]
 
+[inReach]
+	#How the ring shows that the target is inside your real weapon reach (not just the assist range).
+	#OFF = no change, BRIGHTEN = the ring gets more opaque, COLOR = the ring uses the colour below.
+	#Allowed Values: OFF, BRIGHTEN, COLOR
+	mode = "BRIGHTEN"
+	#BRIGHTEN: opacity added to the ring while in reach (0-255, result capped at 255)
+	#Range: 0 ~ 255
+	alphaBoost = 90
+	#COLOR: ring colour while in reach, RRGGBB hex
+	hex = "7CFF7C"
+	#Blocks added to the reach used for this check (vanilla reach, or the Better Combat attack range). Negative values allowed.
+	#Range: -4.0 ~ 4.0
+	rangeExtra = 0.0
+	#If Better Combat is installed, use the held weapon's own attack range instead of the vanilla entity reach, and measure from shoulder height like Better Combat does. Has no effect when Better Combat is missing.
+	useBetterCombat = true
+
+[weaponOnly]
+	#Only show the highlight while the main hand holds a weapon, so it stays quiet when mining or building
+	enabled = false
+	#Count bows, crossbows and tridents as weapons
+	includeRanged = true
+	#Count axes as weapons
+	includeAxes = true
+	#Extra item ids that count as weapons (modded weapons are not always recognised). Item ids, or "modid:*".
+	#Example: ["simplyswords:*", "ars_nouveau:novice_spell_book"]
+	extraItems = []
+
+[ranged]
+	#Ranged mode: while aiming a bow, crossbow, trident or listed item, use a longer range and a narrower cone, and show the draw progress on the ring
+	enabled = true
+	#AIMING = only while drawing, charging, or holding a loaded crossbow. HOLDING = whenever a ranged weapon is held.
+	#Allowed Values: AIMING, HOLDING
+	trigger = "AIMING"
+	#Ticks to keep ranged mode after you stop aiming, so the highlight doesn't flicker (10 = 0.5 s)
+	#Range: 0 ~ 100
+	lingerTicks = 10
+	#Search range in blocks while in ranged mode
+	#Range: 5.0 ~ 128.0
+	range = 40.0
+	#Half-angle of the acquisition cone in ranged mode, in degrees. Narrower than melee because small aim errors matter at distance
+	#Range: 1.0 ~ 45.0
+	coneHalfAngle = 7.0
+	#Enlarge the ring and marker with distance in ranged mode so they stay readable
+	scaleWithDistance = true
+	#Largest size multiplier from distance scaling (reached at about 6 blocks times this value)
+	#Range: 1.0 ~ 8.0
+	maxScale = 4.0
+	#The ring follows the draw progress: BRIGHTEN mode fades it up while drawing, COLOR mode switches colour at full draw (see [inReach])
+	chargeBrightness = true
+	#Extra item ids treated as ranged weapons, such as spell casters or modded launchers. Item ids, or "modid:*". They count as aiming while the item is in use.
+	#Example: ["ars_nouveau:novice_spell_book", "somemod:*"]
+	extraItems = []
+

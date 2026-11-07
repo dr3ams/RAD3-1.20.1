@@ -30,6 +30,15 @@
 	quests: [
 		{
 			description: ["A damp, web-choked cavern where the skittering never stops."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:string"
 			id: "5954871D011EA31B"
 			rewards: [
@@ -49,10 +58,32 @@
 				{
 					advancement: "betterdungeons:spider_dungeon"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1D501E3BD17DD079"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "670D6A68A5FFE79B"
 					structure: "betterdungeons:spider_dungeon"
 					type: "structure"
@@ -64,6 +95,15 @@
 		}
 		{
 			description: ["The stench of decay lingers in these forgotten catacombs."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:rotten_flesh"
 			id: "028BAD294AD040AF"
 			rewards: [
@@ -83,10 +123,32 @@
 				{
 					advancement: "betterdungeons:zombie_dungeon"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "35AD77BC9FF9119A"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7F6F9DF6896A3373"
 					structure: "betterdungeons:zombie_dungeon"
 					type: "structure"
@@ -98,6 +160,15 @@
 		}
 		{
 			description: ["A fortress of the undead where bones click against cold stone."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:skeleton_skull"
 			id: "2FF97DE5D1B0F727"
 			rewards: [
@@ -117,10 +188,32 @@
 				{
 					advancement: "betterdungeons:skeleton_dungeon"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "19375711FD111567"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5D9F9D4B6BB6FD6D"
 					structure: "betterdungeons:skeleton_dungeon"
 					type: "structure"
@@ -132,6 +225,15 @@
 		}
 		{
 			description: ["An ancient gateway to another realm, now lost to time."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:glowstone"
 			id: "3C6CA584F934B8B9"
 			rewards: [
@@ -148,6 +250,17 @@
 			]
 			subtitle: "Find Ruined Portal"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "186F6FE0CC864FCF"
 				structure: "aether:ruined_portal"
 				type: "structure"
@@ -158,6 +271,15 @@
 		}
 		{
 			description: ["A compact room packed with danger and potential treasure."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:spawner"
 			id: "1C6EB956684D3209"
 			rewards: [
@@ -176,6 +298,17 @@
 			tasks: [{
 				advancement: "betterdungeons:small_dungeon"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3533A980E4933C2D"
 				type: "advancement"
 			}]
@@ -185,6 +318,15 @@
 		}
 		{
 			description: ["Outlaws have made their home in the harsh heat of the Badlands."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:dead_bush"
 			id: "40822E5624735C13"
 			rewards: [
@@ -204,10 +346,32 @@
 				{
 					advancement: "dungeons_arise:find_bandit_village"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "68D52A350D5DB36D"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5B97BF5C0D271CC8"
 					structure: "dungeons_arise:bandit_village"
 					type: "structure"
@@ -219,6 +383,15 @@
 		}
 		{
 			description: ["Nomadic traders often rest here before continuing their long journey."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:emerald"
 			id: "5906FA87FDF566D6"
 			rewards: [
@@ -238,10 +411,32 @@
 				{
 					advancement: "dungeons_arise:find_merchant_campsite"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5C2E6CE7098CD784"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "646B7C237895375D"
 					structure: "dungeons_arise:merchant_campsite"
 					type: "structure"
@@ -253,6 +448,15 @@
 		}
 		{
 			description: ["A temporary camp for raiding parties plotting their next attack."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "minecraft:crossbow"
@@ -281,10 +485,32 @@
 				{
 					advancement: "dungeons_arise:find_illager_campsite"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1714231BC1DD7644"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6A96AA62A75564A3"
 					structure: "dungeons_arise:illager_campsite"
 					type: "structure"
@@ -296,6 +522,15 @@
 		}
 		{
 			description: ["An intricate network of rails and machinery designed for heavy excavation."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:hopper_minecart"
 			id: "5DBEE11FFCE9799C"
 			rewards: [
@@ -315,10 +550,32 @@
 				{
 					advancement: "dungeons_arise:find_mining_system"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0EA577261C3A8FFA"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7364FDCC541063EA"
 					structure: "dungeons_arise:mining_system"
 					type: "structure"
@@ -330,6 +587,15 @@
 		}
 		{
 			description: ["A submerged monument guarded by powerful ancient entities."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:nautilus_shell"
 			id: "290A2645FBD90100"
 			rewards: [
@@ -349,10 +615,32 @@
 				{
 					advancement: "dungeons_enhanced:sunken_deeps"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "37AD441442A65F8A"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5B564897A5772880"
 					structure: "dungeons_enhanced:elders_temple"
 					type: "structure"
@@ -364,6 +652,15 @@
 		}
 		{
 			description: ["Deep within the earth, these mines burn with an eternal heat."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:blaze_powder"
 			id: "174122AEDDBE021E"
 			rewards: [
@@ -383,10 +680,32 @@
 				{
 					advancement: "dungeons_arise:find_scorched_mines"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4A068189A168ED81"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "74B2117997915D07"
 					structure: "dungeons_arise:scorched_mines"
 					type: "structure"
@@ -398,6 +717,15 @@
 		}
 		{
 			description: ["The roar of industrial furnaces echoes through these halls."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6ED59A6312146A9C"
 			rewards: [
 				{
@@ -415,6 +743,17 @@
 			tasks: [{
 				advancement: "dungeons_arise:find_foundry"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5512C4023307F9A0"
 				type: "advancement"
 			}]
@@ -424,6 +763,15 @@
 		}
 		{
 			description: ["A somber facility once meant for healing, now home to darkness."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:splash_potion"
 			id: "6523AEAB5C36B178"
 			rewards: [
@@ -443,10 +791,32 @@
 				{
 					advancement: "dungeons_arise:find_plague_asylum"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4A7C02F7232558C4"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "79232E524521DFA2"
 					structure: "dungeons_arise:plague_asylum"
 					type: "structure"
@@ -458,6 +828,15 @@
 		}
 		{
 			description: ["A quiet retreat by the water, perfect for a weary angler."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "minecraft:fishing_rod"
@@ -483,10 +862,32 @@
 				{
 					advancement: "dungeons_arise:find_fishing_hut"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3D35BF69A35BB333"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4209F42DB5A30DD4"
 					structure: "dungeons_arise:fishing_hut"
 					type: "structure"
@@ -498,6 +899,15 @@
 		}
 		{
 			description: ["A skeletal spire that pierces the sky, teeming with restless spirits."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:bone"
 			id: "33D0DE47FEC48EF3"
 			rewards: [
@@ -514,6 +924,17 @@
 			]
 			subtitle: "Discover the Tower of the Undead"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2BF5EA3202436871"
 				structure: "dungeons_enhanced:tower_of_the_undead"
 				type: "structure"
@@ -524,6 +945,15 @@
 		}
 		{
 			description: ["Bioluminescent fungi light the way through these subterranean tunnels."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "minecraft:iron_pickaxe"
@@ -549,10 +979,32 @@
 				{
 					advancement: "dungeons_arise:find_mushroom_mines"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "20768D8E6F19533A"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "608F317CE41852B6"
 					structure: "dungeons_arise:mushroom_mines"
 					type: "structure"
@@ -564,6 +1016,15 @@
 		}
 		{
 			description: ["A fearsome vessel of war, patrolling the open seas."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "betterarcheology:villager_fossil_head"
 			id: "5DD1A32CAD544DCC"
 			rewards: [
@@ -580,6 +1041,17 @@
 			]
 			subtitle: "Discover an Illager Galley"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "68914A9C83775BB5"
 				structure: "dungeons_arise:illager_galley"
 				type: "structure"
@@ -590,6 +1062,15 @@
 		}
 		{
 			description: ["An sprawling aquatic metropolis, hidden beneath the waves."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:prismarine_bricks"
 			id: "674C4F6C629090C7"
 			rewards: [
@@ -609,10 +1090,32 @@
 				{
 					advancement: "hopo:minecraft/adventure/locate_underwater_city"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5556E908ECF2D79A"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "49630730F25EAC46"
 					structure: "hopo:underwater/underwater_city"
 					type: "structure"
@@ -624,6 +1127,15 @@
 		}
 		{
 			description: ["A ghost ship that sails the fog, guarding its plundered loot."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:wither_skeleton_skull"
 			id: "0E132FABA501393B"
 			rewards: [
@@ -643,10 +1155,32 @@
 				{
 					advancement: "dungeons_enhanced:ahoy"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1EF290347315AADC"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "49E7D00EA61EB9C3"
 					structure: "dungeons_enhanced:pirate_ship"
 					type: "structure"
@@ -658,6 +1192,15 @@
 		}
 		{
 			description: ["A holy place claimed by the tides, now a sanctuary for the deep."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "dawnoftimebuilder:stone_bricks_water_jet"
 			id: "7DE3544787B49D46"
 			rewards: [
@@ -674,6 +1217,17 @@
 			]
 			subtitle: "Discover the Sunken Shrine"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2D97C1F184969D8E"
 				structure: "dungeons_enhanced:sunken_shrine"
 				type: "structure"
@@ -684,6 +1238,15 @@
 		}
 		{
 			description: ["A frozen abyss where the cold bite is as deadly as the inhabitants."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:bone"
 			id: "11B012F060DFF2F3"
 			rewards: [
@@ -703,10 +1266,32 @@
 				{
 					advancement: "dungeons_enhanced:chilled_halls"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5BA16AB06E385F21"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1FE80C67785CCDF7"
 					structure: "dungeons_enhanced:ice_pit"
 					type: "structure"
@@ -718,6 +1303,15 @@
 		}
 		{
 			description: ["A grand fortification standing as a testament to a bygone kingdom."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:stone_bricks"
 			id: "5CBB111DF657D689"
 			rewards: [
@@ -737,10 +1331,32 @@
 				{
 					advancement: "dungeons_enhanced:wars_and_kingdoms"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "39B08C30E8378D82"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "435E53245B6BF6C8"
 					structure: "dungeons_enhanced:castle"
 					type: "structure"
@@ -752,6 +1368,15 @@
 		}
 		{
 			description: ["Sand-swept ruins filled with ancient traps and hidden wealth."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:tnt"
 			id: "059C3889FEEB8688"
 			rewards: [
@@ -771,10 +1396,32 @@
 				{
 					advancement: "dungeons_enhanced:traps_and_curses"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6DBEACB4B01E6701"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "52819C69EF99E049"
 					structure: "dungeons_enhanced:desert_temple"
 					type: "structure"
@@ -786,6 +1433,15 @@
 		}
 		{
 			description: ["A labyrinth of terror where every turn could be your last."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:jack_o_lantern"
 			id: "7D9B765A3367AA22"
 			rewards: [
@@ -805,11 +1461,33 @@
 				{
 					advancement: "dungeons_enhanced:hidden_under_the_roots"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0CFDC47AF1C3D9F0"
 					type: "advancement"
 				}
 				{
 					disable_toast: true
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4BE19AFB8D780243"
 					structure: "dungeons_enhanced:monster_maze"
 					type: "structure"
@@ -821,6 +1499,15 @@
 		}
 		{
 			description: ["The illagers have to get all that stone from somewhere"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:coal_ore"
 			id: "6295F936F893D27B"
 			rewards: [
@@ -837,6 +1524,17 @@
 			]
 			subtitle: "Find a Stoneworks"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5A34918A4AEA6E6D"
 				structure: "ati_structures:ati_stoneworks"
 				type: "structure"
@@ -847,6 +1545,15 @@
 		}
 		{
 			description: ["A vine-wrapped structure built by a long-lost civilization."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:bamboo"
 			id: "39C49F2F329A1CC3"
 			rewards: [
@@ -866,10 +1573,32 @@
 				{
 					advancement: "dungeons_enhanced:ancient_civilizations"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "11A8863BB271D3A5"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "30B3F9A58AA29E5E"
 					structure: "dungeons_enhanced:jungle_monument"
 					type: "structure"
@@ -881,6 +1610,15 @@
 		}
 		{
 			description: ["A massive complex filled with danger, but also great rewards."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:skeleton_skull"
 			id: "58E0DDDAEB7E6186"
 			rewards: [
@@ -900,10 +1638,32 @@
 				{
 					advancement: "dungeons_enhanced:thats_a_dungeon"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2DB5096D969C8F84"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3368E842050949D7"
 					structure: "dungeons_enhanced:large_dungeon"
 					type: "structure"
@@ -915,6 +1675,15 @@
 		}
 		{
 			description: ["A dark fortress in the Nether, where secrets are meant to stay buried."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "minecraft:gilded_blackstone"
@@ -940,10 +1709,32 @@
 				{
 					advancement: "incendium:ash_barrens/enter_castle"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4F1B14FAB5721A15"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "64FDBC397416E0DE"
 					structure: "incendium:forbidden_castle"
 					type: "structure"
@@ -955,6 +1746,15 @@
 		}
 		{
 			description: ["A rare and dangerous bloom that thrives where nothing else can survive."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "bosses_of_mass_destruction:void_lily"
 			id: "18F22679FA467A3B"
 			rewards: [
@@ -973,6 +1773,17 @@
 			size: 1.5d
 			subtitle: "Confront the floral terror of the void."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1E8E328DFAEC8505"
 				structure: "bosses_of_mass_destruction:void_blossom"
 				type: "structure"
@@ -983,6 +1794,15 @@
 		}
 		{
 			description: ["Life finds a way even in the most humid and treacherous wetlands."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:mud"
 			id: "60A36721F16C9A19"
 			rewards: [
@@ -999,6 +1819,17 @@
 			]
 			subtitle: "Find a community hidden in the murky depths."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "70EFE1FD260432B5"
 				structure: "nova_structures:village_swamp"
 				type: "structure"
@@ -1009,6 +1840,15 @@
 		}
 		{
 			description: ["A cold, calculating defense built by those who have long since lost their warmth."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "minecraft:bow"
@@ -1036,6 +1876,17 @@
 			size: 1.5d
 			subtitle: "Infiltrate the frozen bastion of the Strays."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "213351A7D3A0BB10"
 				structure: "nova_structures:stray_fort"
 				type: "structure"
@@ -1046,6 +1897,15 @@
 		}
 		{
 			description: ["A place of unholy worship hidden amidst the quartz flats."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "minecraft:quartz_block"
@@ -1071,10 +1931,32 @@
 				{
 					advancement: "incendium:quartz_flats/sanctum/root"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "450E88982A9A94E5"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "442DA38CB87034A0"
 					structure: "incendium:sanctum"
 					type: "structure"
@@ -1086,6 +1968,15 @@
 		}
 		{
 			description: ["Volatile energy contained within a toxic environment."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "minecraft:slime_block"
@@ -1111,10 +2002,32 @@
 				{
 					advancement: "incendium:toxic_heap/nuclear_fusion"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "74ABC9AE3F212665"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5366750949BBB35B"
 					structure: "incendium:nether_reactor"
 					type: "structure"
@@ -1126,6 +2039,15 @@
 		}
 		{
 			description: ["The air is thick with the scent of old stone and lingering spirits."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:amethyst_cluster"
 			id: "6D6187CF453B4B2E"
 			rewards: [
@@ -1145,11 +2067,33 @@
 				{
 					advancement: "graveyard:graveyard/crypt"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "615F494D5C661882"
 					type: "advancement"
 				}
 				{
 					disable_toast: true
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "292ED6F46831C3AC"
 					structure: "graveyard:crypt"
 					type: "structure"
@@ -1161,6 +2105,15 @@
 		}
 		{
 			description: ["Luxury and dark magic go hand in hand in this secluded estate."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "ars_nouveau:potion_melder"
 			id: "360A14ED6EBA64D4"
 			rewards: [{
@@ -1172,6 +2125,17 @@
 			size: 1.5d
 			subtitle: "Discover the opulent home of a powerful witch."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0EF2D4FC963B2B28"
 				structure: "nova_structures:witch_villa"
 				type: "structure"
@@ -1182,6 +2146,15 @@
 		}
 		{
 			description: ["A place of rest for some, and a place of plotting for others."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0E6B88147B9F1896"
 			rewards: [
 				{
@@ -1200,6 +2173,17 @@
 			tasks: [{
 				advancement: "nova_structures:adventure/find_tavern"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0C503EE052BEDA8B"
 				type: "advancement"
 			}]
@@ -1209,6 +2193,15 @@
 		}
 		{
 			description: ["A fortified prison holding secrets that were meant to be forgotten."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:deepslate_bricks"
 			id: "4BCA960017B0992C"
 			rewards: [
@@ -1228,10 +2221,32 @@
 				{
 					advancement: "takesapillage:bastille"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2B9E2AC9EDA5E69A"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1994787491618AB8"
 					structure: "takesapillage:bastille"
 					type: "structure"
@@ -1243,6 +2258,15 @@
 		}
 		{
 			description: ["Tents and watchtowers mark the territory of these relentless raiders."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:dark_oak_log"
 			id: "6848C93746CC1FC0"
 			rewards: [
@@ -1262,10 +2286,32 @@
 				{
 					advancement: "takesapillage:pillager_camp"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6543D27A26C0B9EB"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1F0E15212432F11B"
 					structure: "takesapillage:pillager_camp"
 					type: "structure"
@@ -1277,6 +2323,15 @@
 		}
 		{
 			description: ["Many have entered looking for treasure; none have left the embrace of the ice."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "ars_nouveau:frostaya_pod"
 			id: "1F384765FE3167DB"
 			rewards: [
@@ -1300,6 +2355,17 @@
 			size: 1.5d
 			subtitle: "Thaw the secrets of the frozen dungeon."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5161C2A6B13D15EC"
 				structure: "cataclysm:frosted_prison"
 				type: "structure"
@@ -1310,6 +2376,15 @@
 		}
 		{
 			description: ["Gravity is merely a suggestion in the home of the Shulkers."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:purpur_block"
 			id: "3B822759AA2551D5"
 			rewards: [
@@ -1329,10 +2404,32 @@
 				{
 					advancement: "minecraft:end/find_end_city"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "20FC5CBC7066CE6D"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4943F149F619E19A"
 					structure: "minecraft:end_city"
 					type: "structure"
@@ -1344,6 +2441,15 @@
 		}
 		{
 			description: ["A place where death is not the end, but a beginning of servitude."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "graveyard:corruption"
 			id: "6E0F6DFA958172F8"
 			rewards: [
@@ -1362,6 +2468,17 @@
 			size: 1.5d
 			subtitle: "Face the eternal warden."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "08364C8420445356"
 				structure: "graveyard:lich_prison"
 				type: "structure"
@@ -1372,6 +2489,15 @@
 		}
 		{
 			description: ["The ocean hides many things, including entire cities swallowed by the tide."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:heart_of_the_sea"
 			id: "6D7846F53919A4D9"
 			invisible: true
@@ -1392,6 +2518,17 @@
 			size: 1.5d
 			subtitle: "Discover the ruins of a lost civilization."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2695AD0BE3085440"
 				structure: "cataclysm:sunken_city"
 				type: "structure"
@@ -1402,6 +2539,15 @@
 		}
 		{
 			description: ["The barrels are full, but you might not like what's on tap."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:barrel"
 			id: "1A19338C58738423"
 			rewards: [
@@ -1421,10 +2567,32 @@
 				{
 					advancement: "dungeons_arise:find_greenwood_pub"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7F580B20F36EF103"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "201577D69D65A7B2"
 					structure: "dungeons_arise:greenwood_pub"
 					type: "structure"
@@ -1436,6 +2604,15 @@
 		}
 		{
 			description: ["A sprout of unnatural proportions in an equally unnatural land."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:red_mushroom"
 			id: "4855DE6C38E2BB1A"
 			rewards: [
@@ -1455,10 +2632,32 @@
 				{
 					advancement: "graveyard:graveyard/giant_mushroom"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7944AE0474BFC3BA"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "05EA77D08CB66C83"
 					structure: "graveyard:giant_mushroom"
 					type: "structure"
@@ -1470,6 +2669,15 @@
 		}
 		{
 			description: ["The floorboards creak even when you're standing still."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:cobweb"
 			id: "26132E58E0F26C12"
 			rewards: [
@@ -1489,11 +2697,33 @@
 				{
 					advancement: "graveyard:graveyard/haunted_house"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6C63863C421CC2D5"
 					type: "advancement"
 				}
 				{
 					disable_toast: true
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "050D3197F08A543F"
 					structure: "graveyard:haunted_house"
 					type: "structure"
@@ -1505,6 +2735,15 @@
 		}
 		{
 			description: ["Home to creatures that never touch the ground."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:phantom_membrane"
 			id: "3BBC3ADD6990D183"
 			rewards: [
@@ -1524,10 +2763,32 @@
 				{
 					advancement: "dungeons_arise:find_aviary"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "250954E9C9BEE58D"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "59849DAC372339BA"
 					structure: "dungeons_arise:aviary"
 					type: "structure"
@@ -1539,6 +2800,15 @@
 		}
 		{
 			description: ["A military staging ground for the next big raid."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "176367F84C9DC00A"
 			rewards: [
 				{
@@ -1556,6 +2826,17 @@
 			tasks: [{
 				advancement: "dungeons_arise:find_illager_fort"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0EB063DCDF538475"
 				type: "advancement"
 			}]
@@ -1565,6 +2846,15 @@
 		}
 		{
 			description: ["Stained with the history of many lost souls."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "graveyard:bone_dagger"
@@ -1592,6 +2882,17 @@
 			]
 			subtitle: "A place of dark sacrifice."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "43CD3385872CBFC2"
 				structure: "graveyard:altar"
 				type: "structure"
@@ -1602,6 +2903,15 @@
 		}
 		{
 			description: ["The sheer number of graves here suggests a tragedy of epic proportions."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "graveyard:mossy_cobblestone_gravestone"
 			id: "03A6EA6C4C3BE548"
 			rewards: [
@@ -1618,6 +2928,17 @@
 			]
 			subtitle: "Vast fields of the fallen."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5C33C474705A36E5"
 				structure: "graveyard:large_graveyard"
 				type: "structure"
@@ -1628,6 +2949,15 @@
 		}
 		{
 			description: ["Once a home of prestige, now a hollow shell of memories."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "dawnoftimebuilder:candlestick"
 			id: "3A1250C40DD39D2C"
 			rewards: [
@@ -1644,6 +2974,17 @@
 			]
 			subtitle: "Explore the decaying elegance of the past."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1414D1DD36835107"
 				structure: "structory:old_manor"
 				type: "structure"
@@ -1654,6 +2995,15 @@
 		}
 		{
 			description: ["A massive stone fortress that has weathered countless sieges."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "valhelsia_structures:brazier"
 			id: "46C8E8E422AC314B"
 			rewards: [
@@ -1670,6 +3020,17 @@
 			]
 			subtitle: "Claim your right to the throne."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "75FE601BBBF4E13B"
 				structure: "valhelsia_structures:castle"
 				type: "structure"
@@ -1680,6 +3041,15 @@
 		}
 		{
 			description: ["What was once a seat of power is now reclaimed by the earth."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "valhelsia_structures:glazed_jar"
 			id: "0BE8761868D52D27"
 			rewards: [
@@ -1696,6 +3066,17 @@
 			]
 			subtitle: "Scavenge the remains of a fallen kingdom."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "62291874D657544C"
 				structure: "valhelsia_structures:castle_ruin"
 				type: "structure"
@@ -1706,6 +3087,15 @@
 		}
 		{
 			description: ["The Pillagers have set up a vantage point in the swamp to monitor travel."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "naturesaura:outpost_finder"
 			id: "2EF0FC7D4F346812"
 			rewards: [
@@ -1722,6 +3112,17 @@
 			]
 			subtitle: "Watch your step in the marsh."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6AA3DD6C9C63F0D2"
 				structure: "towns_and_towers:pillager_outpost_swamp"
 				type: "structure"
@@ -1732,6 +3133,15 @@
 		}
 		{
 			description: [""]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:player_head"
 			id: "0536FA730C35CCA7"
 			rewards: [
@@ -1748,6 +3158,17 @@
 			]
 			subtitle: "A strange jungle mansion"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3AD248DFA5DDB118"
 				structure: "ati_structures:herobrine_stronghold"
 				type: "structure"
@@ -1758,6 +3179,15 @@
 		}
 		{
 			description: ["Whatever stayed here left in a hurry."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:campfire"
 			id: "4CAEBC46230FD278"
 			rewards: [
@@ -1774,6 +3204,17 @@
 			]
 			subtitle: "The fire has long since gone out."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "52801D63828D643A"
 				structure: "structory:abandoned_camp"
 				type: "structure"
@@ -1784,6 +3225,15 @@
 		}
 		{
 			description: ["A small sanctuary left to the elements."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "celestial_artifacts:prayer_crown"
 			id: "1EC0AF8AFE8E0698"
 			rewards: [
@@ -1800,6 +3250,17 @@
 			]
 			subtitle: "Prayers echo in an empty room."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2F42E940A2A2D219"
 				structure: "structory:abandoned_chapel"
 				type: "structure"
@@ -1810,6 +3271,15 @@
 		}
 		{
 			description: ["A structure built to harness the sun's power."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "betterarcheology:growth_totem"
 			id: "1D08C4299AEA99E7"
 			rewards: [
@@ -1826,6 +3296,17 @@
 			]
 			subtitle: "Seek the radiance within."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "60E62954821EBF5C"
 				structure: "betterarcheology:light_temple"
 				type: "structure"
@@ -1836,6 +3317,15 @@
 		}
 		{
 			description: ["A compact but dangerous tomb where the deceased don't stay down."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:skeleton_skull"
 			id: "51EDFDBB75BC0B6F"
 			rewards: [
@@ -1852,6 +3342,17 @@
 			]
 			subtitle: "The restless dead reside here."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0B09379E0E21742F"
 				structure: "nova_structures:undead_crypt"
 				type: "structure"
@@ -1862,6 +3363,15 @@
 		}
 		{
 			description: ["The scent of musk and old bones fills the air."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "ars_nouveau:wilden_wing"
 			id: "02CBACBB423DE321"
 			rewards: [
@@ -1879,16 +3389,49 @@
 			subtitle: "Enter the lair of the Wilden."
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "21F61426E5618A42"
 					structure: "ars_nouveau:guardian_wilden_den"
 					type: "structure"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "66531E5C79DABA99"
 					structure: "ars_nouveau:hunter_wilden_den"
 					type: "structure"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "481DE7EC8CFBD746"
 					structure: "ars_nouveau:stalker_wilden_den"
 					type: "structure"
@@ -1900,6 +3443,15 @@
 		}
 		{
 			description: ["Huge spruce trees tower over these hardy villagers' homes."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:spruce_sapling"
 			id: "13190FEB61AF4C9D"
 			rewards: [
@@ -1916,6 +3468,17 @@
 			]
 			subtitle: "A village beneath the giants."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "47443356EF453D46"
 				structure: "towns_and_towers:village_old_growth_taiga"
 				type: "structure"
@@ -1926,6 +3489,15 @@
 		}
 		{
 			description: ["This witch preferred a view from above."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:cauldron"
 			id: "6A3FEAE6AC5EBAD8"
 			rewards: [
@@ -1942,6 +3514,17 @@
 			]
 			subtitle: "Keep your eyes on the skies."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5D8295CA72D061F2"
 				structure: "dungeons_enhanced:tall_witch_hut"
 				type: "structure"
@@ -1952,6 +3535,15 @@
 		}
 		{
 			description: ["A spire dedicated to the darker side of alchemy."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "l2hostility:poison"
 			id: "1BA7188D466B948F"
 			rewards: [
@@ -1968,6 +3560,17 @@
 			]
 			subtitle: "Arcane brewings from on high."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5A13F58B759559A9"
 				structure: "dungeons_enhanced:witch_tower"
 				type: "structure"
@@ -1978,6 +3581,15 @@
 		}
 		{
 			description: ["A small, humble hut for a not-so-humble magic user."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "simplehats:zigzagwitchhat"
 			id: "72F8D2F544992C2E"
 			rewards: [
@@ -1994,6 +3606,17 @@
 			]
 			subtitle: "Classic charms and hexes."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2A2E24E2C6295B0D"
 				structure: "valhelsia_structures:witch_hut"
 				type: "structure"
@@ -2004,6 +3627,15 @@
 		}
 		{
 			description: ["A village that lives and dies by the waves."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:emerald"
 			id: "75F029B974C556D2"
 			rewards: [
@@ -2020,6 +3652,17 @@
 			]
 			subtitle: "Sea-salt and trade."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "76445C8D48F5838D"
 				structure: "joshie:village_ocean"
 				type: "structure"
@@ -2030,6 +3673,15 @@
 		}
 		{
 			description: ["Deep underground, the portal awaits its eyes."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:ender_eye"
 			id: "466CDFA8CD24FA15"
 			rewards: [
@@ -2046,6 +3698,17 @@
 			]
 			subtitle: "The gateway to the end."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "06F222F468C893F0"
 				structure: "minecraft:stronghold"
 				type: "structure"
@@ -2056,6 +3719,15 @@
 		}
 		{
 			description: ["A fortified shelter designed to withstand any disaster."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:light_gray_concrete"
 			id: "1A7BB82B3F8597A4"
 			rewards: [
@@ -2072,6 +3744,17 @@
 			]
 			subtitle: "Prepare for the worst."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "688D386A3E81DFF7"
 				structure: "nova_structures:bunker"
 				type: "structure"
@@ -2082,6 +3765,15 @@
 		}
 		{
 			description: ["A burial site for those who worship the green blast."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "betterarcheology:creeper_fossil_head"
 			id: "14E7885D8FDDF3AB"
 			rewards: [
@@ -2098,6 +3790,17 @@
 			]
 			subtitle: "Watch for explosions."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3E4CD256DF84933A"
 				structure: "nova_structures:creeping_crypt"
 				type: "structure"
@@ -2108,6 +3811,15 @@
 		}
 		{
 			description: ["What do these hooded specters guard... or who?"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:gold_block"
 			id: "382FD79EE64EA346"
 			rewards: [
@@ -2124,6 +3836,17 @@
 			]
 			subtitle: "Bigger than a Castle Ruin"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3DD9F37DC9E89AD1"
 				structure: "ati_structures:ruined_castle"
 				type: "structure"
@@ -2134,6 +3857,15 @@
 		}
 		{
 			description: ["Where legendary tools and weapons are hammered into existence."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:anvil"
 			id: "4BB88702F6B2C5F9"
 			rewards: [
@@ -2150,6 +3882,17 @@
 			]
 			subtitle: "The heat of industry."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7DB858B9AF3B40BD"
 				structure: "valhelsia_structures:forge"
 				type: "structure"
@@ -2160,6 +3903,15 @@
 		}
 		{
 			description: ["Break the cage or face the consequences."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:spawner"
 			id: "2D9D7A681A4D6F78"
 			rewards: [
@@ -2176,6 +3928,17 @@
 			]
 			subtitle: "The source of the swarm."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3DEFFA675030272C"
 				structure: "valhelsia_structures:spawner_dungeon"
 				type: "structure"
@@ -2185,6 +3948,15 @@
 			y: -2.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:polished_granite"
 			id: "2F3F87FC110D03D3"
 			rewards: [
@@ -2201,6 +3973,17 @@
 			]
 			subtitle: "A grand granite monument"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "34008BC17CEA389F"
 				structure: "ati_structures:catalonian_castle"
 				type: "structure"
@@ -2210,6 +3993,15 @@
 			y: -2.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3AB137C13FE59AEA"
 			rewards: [
 				{
@@ -2225,6 +4017,17 @@
 			]
 			subtitle: "Who lives here?"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "540CA3512756B722"
 				structure: "ati_structures:old_home"
 				type: "structure"
@@ -2238,8 +4041,28 @@
 				"Cartographer villager now sells a lot of new maps to different structures."
 				"He may also know how to locate some of the biomes."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "71A84449B747D6B8"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:cartography_table"
 				id: "5769E8EDF0D0CDB9"
 				observe_type: 0
@@ -2259,6 +4082,15 @@
 				""
 				"Whether you seek the dense, mysterious jungles, the arid, sun-baked deserts, or the frosty, snow-covered tundras, the Adventurer's Quill will guide your path with unerring precision."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "39CE66AC4B1DC621"
 			rewards: [{
 				id: "0989F0977FE5648E"
@@ -2266,6 +4098,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5D770B513EA884FC"
 				item: {
 					Count: 1
@@ -2282,6 +4125,15 @@
 		{
 			can_repeat: true
 			dependencies: ["39CE66AC4B1DC621"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:oak_sapling"
 			id: "7124F1DC42561945"
 			rewards: [{
@@ -2292,6 +4144,17 @@
 			}]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "39B0C5ECCA4B100E"
 				item: "kubejs:map_scroll_biome"
 				type: "item"
@@ -2303,6 +4166,15 @@
 		{
 			can_repeat: true
 			dependencies: ["39CE66AC4B1DC621"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:netherrack"
 			id: "09CEE2920FE148CE"
 			rewards: [{
@@ -2313,6 +4185,17 @@
 			}]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "679D4A7550D1BD28"
 				item: "kubejs:map_scroll_biome"
 				type: "item"
@@ -2324,6 +4207,15 @@
 		{
 			can_repeat: true
 			dependencies: ["39CE66AC4B1DC621"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:brain_coral"
 			id: "3389D3F839C03ADC"
 			rewards: [{
@@ -2334,6 +4226,17 @@
 			}]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "71CFA26B39648260"
 				item: "kubejs:map_scroll_biome"
 				type: "item"
@@ -2345,6 +4248,15 @@
 		{
 			can_repeat: true
 			dependencies: ["39CE66AC4B1DC621"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:sculk"
 			id: "33676E1728D67B40"
 			rewards: [{
@@ -2355,6 +4267,17 @@
 			}]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "32D076E5CEFCC14F"
 				item: "kubejs:map_scroll_biome"
 				type: "item"
@@ -2372,6 +4295,15 @@
 				""
 				"With this quill in hand, you can trace the faintest echoes of lost temples, forgotten fortresses, and secret strongholds—each holding treasures, dangers, and stories long buried by time. "
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2BFC57CBDF3A7C5D"
 			rewards: [{
 				id: "089E5350BF87744D"
@@ -2379,6 +4311,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "676A5A2293AB9862"
 				item: {
 					Count: 1
@@ -2399,6 +4342,15 @@
 				""
 				"Upon identification, it reveals the location of a rare and ancient &5structure&r - be it a lost temple, a hidden fortress, or a secret &ostronghold&r - waiting to be discovered and conquered"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "336C9D4D96439135"
 			rewards: [{
 				id: "2E2608A8424B4BB5"
@@ -2407,6 +4359,17 @@
 			}]
 			shape: "octagon_important"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3549A929DC7FFB5D"
 				item: "kubejs:map_scroll_structure"
 				type: "item"
@@ -2421,6 +4384,15 @@
 				""
 				"Its parchment is etched with arcane symbols that shimmer faintly, concealing the location of &2biome&r yet to be revealed. Embrace the unknown and let this scroll guide you to new horizons filled with wonder and danger."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5F244D3C4801808B"
 			rewards: [{
 				id: "687769351D4FD680"
@@ -2429,6 +4401,17 @@
 			}]
 			shape: "octagon_important"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "337AFC04DDC49C68"
 				item: "kubejs:map_scroll_biome"
 				type: "item"
@@ -2449,6 +4432,15 @@
 				"&2- The Adventurer's Quill&r: A mystical scroll to guide you towards specific Biome."
 				"&b- The Pathfinder's Quill&r: an old map that reveals the path to the ancient and mysterious Structures."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "450E6B39B4DD42C7"
 			rewards: [
 				{
@@ -2477,6 +4469,17 @@
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "35A9FBACEF019C75"
 				item: "kubejs:map_fragment"
 				type: "item"
@@ -2488,6 +4491,15 @@
 		{
 			can_repeat: true
 			dependencies: ["2BFC57CBDF3A7C5D"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -2505,6 +4517,17 @@
 			}]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "65F2666E0856B70C"
 				item: "kubejs:map_scroll_structure"
 				type: "item"
@@ -2516,6 +4539,15 @@
 		{
 			can_repeat: true
 			dependencies: ["2BFC57CBDF3A7C5D"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -2533,6 +4565,17 @@
 			}]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "482FFE5128F5F83E"
 				item: "kubejs:map_scroll_structure"
 				type: "item"
@@ -2544,6 +4587,15 @@
 		{
 			can_repeat: true
 			dependencies: ["2BFC57CBDF3A7C5D"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -2561,6 +4613,17 @@
 			}]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "155351B1FE1287E4"
 				item: "kubejs:map_scroll_structure"
 				type: "item"
@@ -2572,6 +4635,15 @@
 		{
 			can_repeat: true
 			dependencies: ["2BFC57CBDF3A7C5D"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -2589,6 +4661,17 @@
 			}]
 			tasks: [{
 				consume_items: true
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "06515A4193B5C354"
 				item: "kubejs:map_scroll_structure"
 				type: "item"
@@ -2600,6 +4683,15 @@
 		{
 			can_repeat: true
 			dependencies: ["2BFC57CBDF3A7C5D"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -2619,11 +4711,33 @@
 				{
 					consume_items: true
 					count: 2L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "78C19CECC2D7F5E0"
 					item: "kubejs:map_scroll_structure"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "42025084C73BA058"
 					points: false
 					type: "xp"

@@ -151,6 +151,15 @@
 	]
 	quests: [
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "35A027D4B827463C"
 			rewards: [{
 				id: "30118E850776CCA4"
@@ -160,6 +169,17 @@
 			shape: "hexagon"
 			size: 3.0d
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "04608ED76862CEA9"
 				item: "minecraft:crafting_table"
 				type: "item"
@@ -180,6 +200,15 @@
 				""
 				"- &4Nether&r &eGold Ore&r also now drops &eRaw Gold Nuggets&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "033105F673C5EF80"
 			rewards: [{
 				id: "35145D85D8481144"
@@ -189,6 +218,17 @@
 			shape: "hexagon_important"
 			size: 2.0d
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7D55F06D13B66819"
 				item: {
 					Count: 1
@@ -223,6 +263,15 @@
 		}
 		{
 			dependencies: ["35A027D4B827463C"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1966320B37D990A0"
 			rewards: [
 				{
@@ -241,6 +290,17 @@
 			shape: "hexagon_important"
 			size: 2.0d
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "041C388F97AE9DB9"
 				item: "minecraft:furnace"
 				type: "item"
@@ -252,6 +312,15 @@
 		{
 			dependencies: ["35A027D4B827463C"]
 			description: [""]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "43EFBBF0712C67B9"
 			rewards: [
 				{
@@ -276,6 +345,17 @@
 			shape: "hexagon_important"
 			size: 2.0d
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:chest"
 				id: "5B5DA6B362BDF52E"
 				item: {
@@ -303,6 +383,15 @@
 				"- @dawnoftime"
 				"- @framedblocks"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7343C10D6EEAA88B"
 			rewards: [{
 				id: "77CB0D05E423BE88"
@@ -312,46 +401,145 @@
 			subtitle: "Make yourself at home!"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "79409487518DC9CE"
 					item: "minecraft:loom"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6151D9DD55A70B2E"
 					item: "minecraft:composter"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "51109AAD95079A0D"
 					item: "minecraft:smoker"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "476C04AA541BF1CE"
 					item: "minecraft:blast_furnace"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0060DD3C5D8B2927"
 					item: "minecraft:stonecutter"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1719489DE4801E27"
 					item: "minecraft:cartography_table"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "559A19A999D7957D"
 					item: "minecraft:smithing_table"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "438C812E22453866"
 					item: "minecraft:grindstone"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1D14F0D00917C87F"
 					item: "minecraft:fletching_table"
 					type: "item"
@@ -376,6 +564,15 @@
 				""
 				"- Shift right-clicking a depleted Diamond Grindstone with a Rough Diamond Shard will restore it by one Depletion stage at a time"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7F9831246F75C5C6"
 			rewards: [{
 				id: "53D6B109F45205B6"
@@ -384,11 +581,33 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "00CEB6A8C9816F7F"
 					item: "spelunkery:rough_diamond"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0DE7F6DB858B44C1"
 					item: "spelunkery:diamond_grindstone"
 					type: "item"
@@ -399,6 +618,15 @@
 		}
 		{
 			dependencies: ["1966320B37D990A0"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:iron_ingot"
 			id: "3A7C49FC5AA2927F"
 			rewards: [
@@ -430,11 +658,33 @@
 			size: 1.5d
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5F212814620367AE"
 					item: "minecraft:iron_ingot"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "27C6918DDDCE99CD"
 					item: "minecraft:iron_nugget"
 					type: "item"
@@ -458,6 +708,15 @@
 				""
 				"While travelling you may also find villages transformed into towns!"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "031D29EEE7B5A5A7"
 			rewards: [{
 				id: "3F9B6F960665E737"
@@ -468,6 +727,17 @@
 			tasks: [{
 				advancement: "morevillagers:first_trade"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "114773E0AF9E547B"
 				type: "advancement"
 			}]
@@ -476,6 +746,15 @@
 		}
 		{
 			dependencies: ["031D29EEE7B5A5A7"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "52FD67FD6156343A"
 			rewards: [{
 				id: "455361B3431332F6"
@@ -486,6 +765,17 @@
 			tasks: [{
 				advancement: "minecraft:adventure/hero_of_the_village"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "04724854D2AB6D77"
 				type: "advancement"
 			}]
@@ -501,6 +791,15 @@
 				""
 				"- Glow sticks also come in all 16 colors + the glow ink hue, making them ideal for marking out pathways to different location"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3C117B063253F59D"
 			rewards: [
 				{
@@ -520,6 +819,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6A72A66C282AB276"
 				item: "spelunkery:glowstick"
 				type: "item"
@@ -533,10 +843,30 @@
 				"&6Collectibles&r drop very very rare when you mine specific blocks, open dungeon chests or brush suspicious blocks. If you complete one set of collectibles, craft a &5loot bag&r with it and use it, as a reward you will receive very valuable items and xp!"
 				"{image:rad3:textures/misc/q-b-collect.png width:130 height:150 align:1}"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "14A5A832247630AC"
 			subtitle: "Collect enough collectibles and craft a Lootbag!"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4AD54254921FCE59"
 					item: {
 						Count: 1
@@ -551,6 +881,17 @@
 				{
 					advancement: "collectibles:lootbag"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0040310D1F7F1059"
 					type: "advancement"
 				}
@@ -566,6 +907,15 @@
 				""
 				"{ \"text\": \"- Click here for monster quests\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"273BBE58DA6C6B5E\" } }"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "366659E50333BC5A"
 			rewards: [{
 				id: "534BE3581CF3E72C"
@@ -578,6 +928,17 @@
 			tasks: [{
 				advancement: "minecraft:adventure/kill_a_mob"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6F5281C75824ABBC"
 				type: "advancement"
 			}]
@@ -588,6 +949,15 @@
 		{
 			dependencies: ["35A027D4B827463C"]
 			description: ["{ \"text\": \"CLICK HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"673DE11282C85AD4\" } }"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "undergarden:forgotten_pickaxe"
@@ -610,6 +980,17 @@
 			size: 1.0d
 			subtitle: "Check 'Equipment' quest chapter to find more"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "70D416AECE2E29F2"
 				type: "checkmark"
 			}]
@@ -619,6 +1000,15 @@
 		}
 		{
 			dependencies: ["35A027D4B827463C"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "149CB61732F787CF"
 			rewards: [{
 				count: 2
@@ -629,6 +1019,17 @@
 			shape: "hexagon_important"
 			size: 2.0d
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					Count: 1
 					id: "ftbquests:custom_icon"
@@ -651,11 +1052,31 @@
 				""
 				"{ \"text\": \"Click here to jump to it\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5E204AB79DAAB52D\" } }"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "52AB2CD360AC4DDE"
 			shape: "gear_important"
 			size: 1.0d
 			subtitle: "Visit 'Useful Gadgets' chapter to find more about different gadgets"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "70FC8985C5CDA82E"
 				type: "checkmark"
 			}]
@@ -665,6 +1086,15 @@
 		}
 		{
 			dependencies: ["35A027D4B827463C"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0000000000000171"
 			rewards: [
 				{
@@ -684,16 +1114,49 @@
 			subtitle: "Visit 'Fish n Farm' chapter to find more about farming possibilities"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0000000000000172"
 					item: "minecraft:sugar_cane"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0000000000000173"
 					item: "minecraft:wheat_seeds"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0000000000000174"
 					item: "minecraft:beetroot_seeds"
 					type: "item"
@@ -706,6 +1169,15 @@
 		{
 			dependencies: ["3A7C49FC5AA2927F"]
 			description: ["It's a little more expensive now."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1F988A67F250159F"
 			rewards: [{
 				id: "165D25EF7D406B8F"
@@ -714,11 +1186,33 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3590645E6C82B9B4"
 					item: "minecraft:blast_furnace"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7116F69046FDE709"
 					item: "embers:iron_plate"
 					type: "item"
@@ -744,6 +1238,15 @@
 				""
 				"&7➜ Visit the &6Not Enough Food&7 chapter to learn more and discover which dishes push you into each tier."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "09DCF997E89A3D37"
 			rewards: [
 				{
@@ -767,6 +1270,17 @@
 			size: 1.5d
 			subtitle: "Visit 'Not Enough Food' chapter to find more about cooking possibilities"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "28174D5298762441"
 				item: "farmersdelight:cooking_pot"
 				type: "item"
@@ -777,6 +1291,15 @@
 		}
 		{
 			dependencies: ["3A7C49FC5AA2927F"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "00000000000000C8"
 			rewards: [{
 				count: 2
@@ -790,6 +1313,17 @@
 			tasks: [{
 				advancement: "minecraft:story/enter_the_nether"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					Count: 1
 					id: "ftbquests:custom_icon"
@@ -806,6 +1340,15 @@
 		}
 		{
 			dependencies: ["3A7C49FC5AA2927F"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "minecraft:iron_chestplate"
@@ -862,6 +1405,17 @@
 			]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "00000000000002AB"
 					item: {
 						Count: 1
@@ -873,6 +1427,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "00000000000002AC"
 					item: {
 						Count: 1
@@ -884,6 +1449,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "00000000000002AD"
 					item: {
 						Count: 1
@@ -895,6 +1471,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "00000000000002AE"
 					item: {
 						Count: 1
@@ -906,6 +1493,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "554729809ED5063C"
 					item: {
 						Count: 1
@@ -923,6 +1521,15 @@
 		}
 		{
 			dependencies: ["0000000000000017"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "394202A011E33493"
 			rewards: [{
 				id: "0A13DC3141847F1C"
@@ -931,6 +1538,17 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5B9BC199451D5FCD"
 					item: {
 						Count: 1
@@ -940,6 +1558,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0732CCF54B6F752D"
 					item: "buildinggadgets2:gadget_exchanging"
 					type: "item"
@@ -955,6 +1584,15 @@
 				" "
 				"{ \"text\": \"The market\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0000000000000579\" } }"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1132350866F5AC7A"
 			rewards: [
 				{
@@ -971,6 +1609,17 @@
 			]
 			size: 0.7d
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "705F72C3A7D20EFB"
 				item: "kubejs:copper_coin"
 				type: "item"
@@ -988,6 +1637,15 @@
 				""
 				"&cWARNING!&r Sophisticated Storage chests DO NOT WORK inside Capsules. Sophisticated Storage barrels work, but not chests."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "capsule:capsule"
@@ -1000,6 +1658,17 @@
 			id: "3C58EBDE41F0F9F2"
 			subtitle: "Portable homes"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "25465A26772FA47E"
 				item: {
 					Count: 1
@@ -1078,6 +1747,15 @@
 				""
 				"There's too much to explain in just one quest. Read the wiki for more info: https://github.com/talhanation/wiki/wiki/Small-Ships-Wiki"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3D4767A8879BE0C1"
 			rewards: [{
 				id: "491FB3059CE82CDF"
@@ -1086,6 +1764,17 @@
 			}]
 			subtitle: "rule the waves"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0F545A687FA2CB44"
 				item: {
 					Count: 1
@@ -1103,6 +1792,15 @@
 		}
 		{
 			dependencies: ["366659E50333BC5A"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0B143DFB7C2FC5FC"
 			rewards: [{
 				id: "6FDA88E711939C8D"
@@ -1113,6 +1811,17 @@
 			tasks: [{
 				advancement: "quark:get_forgotten_hat"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "747B9E78636AABC1"
 				type: "advancement"
 			}]
@@ -1130,6 +1839,15 @@
 				""
 				"- &lRight-click&r while sneaking to open a menu there you can choose desired &l&9symbol&r&r to draw"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "249AA12A5A125F45"
 			rewards: [{
 				id: "546068A47FB21713"
@@ -1138,6 +1856,17 @@
 			}]
 			subtitle: "Chalk allows you to draw marks for easier navigation in caves or structures."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7E142BB4D4F903A7"
 				item: {
 					Count: 1
@@ -1154,6 +1883,15 @@
 		}
 		{
 			dependencies: ["7F9831246F75C5C6"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "34DE20EAE1581254"
 			rewards: [{
 				id: "791AF2FCBC442E9F"
@@ -1164,6 +1902,17 @@
 			tasks: [{
 				advancement: "quark:get_all_corundum"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0F095B7B41816327"
 				type: "advancement"
 			}]
@@ -1204,6 +1953,15 @@
 				""
 				"- Can be crafted into various useful components"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "037911ABA28CDC08"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1214,21 +1972,65 @@
 			subtitle: "Pink Salt, Sulfur, Saltpeter, Nephrite"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "000BA325FA839D66"
 					item: "spelunkery:rock_salt"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1792CB23B1DE3D97"
 					item: "spelunkery:sulfur"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4C3CDE503445FDDC"
 					item: "spelunkery:saltpeter"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1A449497AD5F226D"
 					item: "spelunkery:nephrite_chunk"
 					type: "item"
@@ -1240,10 +2042,30 @@
 		}
 		{
 			dependencies: ["7F9831246F75C5C6"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "733A59C038C65E4B"
 			size: 1.5d
 			subtitle: "Shining Bright"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3BA93612D1CBC3A5"
 				item: "minecraft:diamond"
 				type: "item"
@@ -1266,6 +2088,15 @@
 				""
 				"- Shift-right clicking a stack of rough materials on a grindstone will polish the entire stack and create the appropriate amount of byproduct."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6A01EC7A01F35671"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1274,6 +2105,17 @@
 				type: "random"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2476A9211E40437D"
 				item: {
 					Count: 1
@@ -1324,6 +2166,15 @@
 				""
 				"- &fQuartz geodes&r comprised of Netherrack, Blackstone, Nether Quartz Ore and Rough Quartz Blocks can be found throughout the nether."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:help"
 			id: "65CB7B9BFFA05C7D"
 			rewards: [{
@@ -1332,6 +2183,17 @@
 				xp: 10
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6B7460962C1DD065"
 				type: "checkmark"
 			}]
@@ -1348,6 +2210,15 @@
 				""
 				"- Activated Item Magnets in Item Frames will also draw in items, useful for automatic farms"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7BA828910935E8A0"
 			rewards: [{
 				id: "69F5261166A0038E"
@@ -1355,6 +2226,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "44FE2B47EFEE5DAC"
 				item: {
 					Count: 1
@@ -1377,6 +2259,15 @@
 				""
 				"- Can be found in Ancient City chests or crafted with Echo Shards, Sculk Veins and Iron"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1E502C67261C3780"
 			rewards: [{
 				id: "1C444E50FB880A74"
@@ -1384,6 +2275,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "40DC799B3FFAE7B0"
 				item: "spelunkery:echo_fork"
 				type: "item"
@@ -1413,6 +2315,15 @@
 				"- Diodes can be pushed by pistons unlike the other components"
 				"- A Redstone clock is required to make the best use of a Diode as it only transfers 1 Charge when it receives a signal"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "spelunkery:carved_nephrite"
 			id: "2C0C2641BC5C7BB4"
 			rewards: [{
@@ -1422,21 +2333,65 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4F82447F4EC9DF0C"
 					item: "spelunkery:carved_nephrite"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6801F9B62CA4FAD9"
 					item: "spelunkery:nephrite_siphon"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "51307218889F2191"
 					item: "spelunkery:nephrite_fountain"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6E8705B8C300DAE1"
 					item: "spelunkery:nephrite_diode"
 					type: "item"
@@ -1466,6 +2421,15 @@
 				""
 				"- Rock Salt can also be used to make a Salt Lamp, a light toggleable by right-click that can be placed on the ground or hung from the ceiling"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0B3168B426A40DD4"
 			rewards: [{
 				id: "6BCF4CF3C8C6DF74"
@@ -1473,6 +2437,17 @@
 				xp: 10
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "024CC23A0E91C5E5"
 				item: "spelunkery:salt"
 				type: "item"
@@ -1482,6 +2457,15 @@
 		}
 		{
 			dependencies: ["43EFBBF0712C67B9"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0000000000000017"
 			rewards: [
 				{
@@ -1502,6 +2486,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0000000000000018"
 				item: {
 					Count: 1
@@ -1519,6 +2514,15 @@
 		}
 		{
 			dependencies: ["0000000000000017"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0000000000000019"
 			rewards: [
 				{
@@ -1533,6 +2537,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "000000000000001A"
 				item: {
 					Count: 1
@@ -1575,6 +2590,15 @@
 				""
 				"- Each of the tiers adds more storage slots and more upgrade slots"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "sophisticatedbackpacks:backpack"
 			id: "5F8B9C6BD22D03AB"
 			rewards: [{
@@ -1585,11 +2609,33 @@
 			size: 1.0d
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3698B6956F8EBAE6"
 					item: "sophisticatedbackpacks:backpack"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "671F7E095854F0A9"
 					item: {
 						Count: 1
@@ -1811,6 +2857,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2B9F43BBFAC24B5A"
 					item: {
 						Count: 1
@@ -1866,6 +2923,15 @@
 		}
 		{
 			dependencies: ["366659E50333BC5A"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "61B3C7722CE2E9F4"
 			rewards: [
 				{
@@ -1883,6 +2949,17 @@
 			tasks: [{
 				advancement: "minecraft:story/cure_zombie_villager"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "00897EB3BEEE3685"
 				type: "advancement"
 			}]
@@ -1892,6 +2969,15 @@
 		{
 			dependencies: ["733A59C038C65E4B"]
 			description: ["&o&5sully did it first!&r&r"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "63F3D645C8C30D01"
 			rewards: [
 				{
@@ -1920,6 +3006,17 @@
 			tasks: [{
 				advancement: "spelunkery:spelunkery/every_ore"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3940A6AA1121E0A9"
 				type: "advancement"
 			}]
@@ -1929,6 +3026,15 @@
 		{
 			dependencies: ["733A59C038C65E4B"]
 			description: [""]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "minecraft:diamond_chestplate"
@@ -1944,6 +3050,17 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6BB131699E21FDB6"
 					item: {
 						Count: 1
@@ -1955,6 +3072,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2D22FE1D7EB7149D"
 					item: {
 						Count: 1
@@ -1966,6 +3094,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1640D7A699DEF0DA"
 					item: {
 						Count: 1
@@ -1977,6 +3116,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6165A318A0C852C0"
 					item: {
 						Count: 1
@@ -1999,6 +3149,15 @@
 				""
 				"- &9Limited Barrels&r only have 1 to 4 slots for items with higher stack size limits in each that get even higher when their tier gets upgraded."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "68BE52500EBA3198"
 			rewards: [{
 				id: "0F050B94EADF1443"
@@ -2008,6 +3167,17 @@
 			subtitle: "&cCan be crafted with &nany&r &cwood!&r"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7328DA5EA523CFEA"
 					item: {
 						Count: 1
@@ -2049,6 +3219,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "604EB1A22F5464C0"
 					item: {
 						Count: 1
@@ -2215,6 +3396,15 @@
 				""
 				"&cWARNING!&r Sophisticated Storage chests DO NOT WORK inside Capsules. Sophisticated Storage barrels work, but not chests."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "529D1D72F3E57C1D"
 			rewards: [{
 				id: "4EB4F1C1067BADC2"
@@ -2224,6 +3414,17 @@
 			subtitle: "&cCan be crafted with &nany&r &cwood!&r"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "31AA1CD5C760CBEB"
 					item: {
 						Count: 1
@@ -2264,6 +3465,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "04CBF36B5324995B"
 					item: {
 						Count: 1
@@ -2312,6 +3524,15 @@
 				""
 				"Use the Storage Terminal to access all of your items. "
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "56FE6C65EF970DF6"
 			rewards: [{
 				id: "0B8C5958A50B4BFA"
@@ -2320,6 +3541,17 @@
 			}]
 			size: 1.0d
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1CFD8B0F6D4183BE"
 				item: "toms_storage:ts.inventory_connector"
 				type: "item"
@@ -2334,6 +3566,15 @@
 				""
 				"Place it on an inventory or Inventory Connector."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "009F78659E60A2F0"
 			rewards: [{
 				id: "755612B7BC480181"
@@ -2341,6 +3582,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7E4FE74EB2E1F0C9"
 				item: "toms_storage:ts.storage_terminal"
 				type: "item"
@@ -2369,6 +3621,15 @@
 				""
 				"- Allow filtering multiple items, damage and NBT."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4EDB984C00749AC1"
 			rewards: [{
 				id: "6184CBF63D2C69CD"
@@ -2377,21 +3638,65 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "465FBBAA9138622F"
 					item: "toms_storage:ts.inventory_cable"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "407EB61F4FD9CB93"
 					item: "toms_storage:ts.inventory_hopper_basic"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2D4CA69DE1137593"
 					item: "toms_storage:ts.inventory_cable_connector"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "728F11F4E65FF6A7"
 					item: "toms_storage:ts.item_filter"
 					type: "item"
@@ -2408,11 +3713,31 @@
 				""
 				"{ \"text\": \"CLICK HERE TO JUMP STRAIGHT TO IT\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2A79FAE23F150F49\" } }"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:help"
 			id: "416124D7D0317D58"
 			shape: "hexagon"
 			size: 0.7d
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2BF376ED89D83077"
 				type: "checkmark"
 			}]
@@ -2431,6 +3756,15 @@
 				""
 				"Can ride ascending wind to gain height! Look out for rising particles while holding the Paraglider."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4EAB0F8461B6B3C4"
 			rewards: [{
 				id: "01824496657F2106"
@@ -2438,6 +3772,17 @@
 				xp: 5
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3D305FBCC0F8BF0F"
 				item: "paraglider:paraglider"
 				type: "item"
@@ -2456,6 +3801,15 @@
 				""
 				"- Later on, they are also useful for &ncutting and portioning&r ingredients when preparing meals."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "06FCFD49B9DC5C59"
 			rewards: [{
 				id: "1B694323AEFC9E27"
@@ -2467,6 +3821,17 @@
 			subtitle: "Knives are scavenging tools: they allow you to obtain a few more resources from both fauna and flora."
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "325414C7C64C34F1"
 					item: {
 						Count: 1
@@ -2478,6 +3843,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "256F840BDAAB9CB0"
 					item: "farmersdelight:straw"
 					type: "item"
@@ -2494,6 +3870,15 @@
 				""
 				"Mushrooms planted on Rich Soil under sufficient darkness will eventually form a Mushroom Colony. Such colonies will grow from 2 to 5 mushroom caps over time, dropping them when harvested."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1729A82B2351DE53"
 			rewards: [
 				{
@@ -2508,6 +3893,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5229C5BEC0FE4C1B"
 				item: "farmersdelight:rich_soil"
 				type: "item"
@@ -2530,6 +3926,15 @@
 				"- Other blocks of Organic Compost;"
 				"- Rich Soil, normal or tilled."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "56D3BC7D09F900CA"
 			rewards: [{
 				id: "3868E5AC6AFC1217"
@@ -2537,6 +3942,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6D4707A71CD44077"
 				item: "farmersdelight:organic_compost"
 				type: "item"
@@ -2553,6 +3969,15 @@
 				""
 				"To suppress rope deployment, simply sneak while placing it. If there's no space underneath to deploy, it will also place normally."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "27E4CBB51DBD27CD"
 			rewards: [{
 				id: "180CFD2E2371FBF5"
@@ -2560,6 +3985,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "52366E5C113F92FE"
 				item: {
 					Count: 1
@@ -2577,6 +4013,15 @@
 		{
 			dependencies: ["27E4CBB51DBD27CD"]
 			description: ["Fully absorbs your fall without dealing damage."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "22E1A465FAF7EAA2"
 			rewards: [
 				{
@@ -2591,6 +4036,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2E02EF01A2AC0E72"
 				item: "farmersdelight:safety_net"
 				type: "item"
@@ -2601,6 +4057,15 @@
 		{
 			dependencies: ["366659E50333BC5A"]
 			description: ["Wolfs can now wear armor and have enhanced AI"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "000000000000062D"
 			rewards: [
 				{
@@ -2618,6 +4083,17 @@
 			size: 1.0d
 			tasks: [{
 				count: 16L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "000000000000062E"
 				item: "minecraft:bone"
 				type: "item"
@@ -2633,6 +4109,15 @@
 				""
 				"{ \"text\": \"HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0DA09629733D2F68\" } }"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0000000000000047"
 			rewards: [
 				{
@@ -2660,6 +4145,17 @@
 			]
 			shape: "gear_important"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0000000000000048"
 				item: "minecraft:enchanting_table"
 				type: "item"
@@ -2671,6 +4167,15 @@
 		{
 			dependencies: ["031D29EEE7B5A5A7"]
 			description: ["Ever felt bored of the Minecraft Villagers? Do you wish they sold more useful items? More Villagers aims to fix that by adding multiple new villager jobs, all with unique trades, workstations, and advancements!"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "676CA2E8216F97FD"
 			rewards: [{
 				id: "1BFE0888A16F6498"
@@ -2679,41 +4184,129 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "16C4B42BD066F182"
 					item: "morevillagers:mining_bench"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "57638E8D5778F28B"
 					item: "morevillagers:oceanography_table"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5224EDA9A9B7A741"
 					item: "morevillagers:woodworking_table"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "544F05BB4DD3399F"
 					item: "morevillagers:decayed_workbench"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3D4922681CB85699"
 					item: "morevillagers:purpur_altar"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "61CCBACD22237C38"
 					item: "morevillagers:blueprint_table"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1C52B8DA81CDB307"
 					item: "morevillagers:gardening_table"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "539138C6F4D69E69"
 					item: "morevillagers:hunting_post"
 					type: "item"
@@ -2725,6 +4318,15 @@
 		}
 		{
 			dependencies: ["3A7C49FC5AA2927F"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "55C87018D524A77E"
 			rewards: [{
 				id: "5B8454697E1E1446"
@@ -2732,6 +4334,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "42FEB8220A1D720B"
 				item: "minecraft:bucket"
 				type: "item"
@@ -2748,6 +4361,15 @@
 				""
 				"- When a &4magma block&r is placed below it, it will attempt to boil upward through the ceiling. If there are natural blocks in its way it, will burrow through until it breaks through to the surface above."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5AA5BFD3FCB010B0"
 			rewards: [{
 				id: "1F5C6177A51EAA1E"
@@ -2755,6 +4377,17 @@
 				xp: 10
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0D1E2459F7BD15DF"
 				item: "spelunkery:spring_water_bucket"
 				type: "item"
@@ -2765,6 +4398,15 @@
 		}
 		{
 			dependencies: ["733A59C038C65E4B"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5BD0024E8E16BB8E"
 			rewards: [{
 				id: "5F898D8C8063B989"
@@ -2772,6 +4414,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "53B7D2BEB1474AA7"
 				item: {
 					Count: 1
@@ -2803,6 +4456,15 @@
 				""
 				"Tip: The simplest way to get lots of obsidian is to freeze buckets of lava in a freezer from the Aether."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4058A62B9B24E64F"
 			rewards: [{
 				count: 64
@@ -2812,21 +4474,65 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1937A8A87FCA8E6A"
 					item: "bonfires:titanite_shard"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "65631EDFF71F69CD"
 					item: "bonfires:large_titanite_shard"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "35CAF093794E288C"
 					item: "bonfires:titanite_chunk"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "195B98CB5872AB9C"
 					item: "bonfires:titanite_slab"
 					type: "item"
@@ -2838,6 +4544,15 @@
 		{
 			dependencies: ["68BE52500EBA3198"]
 			description: ["Framed Blocks will allow you to create various shaped blocks that you can use to decorate your base with complex shapes. The texture of the frame blocks can then be changed by right clicking them with a block of your choosing, which is held until the block is broken."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "289133175EA692FE"
 			rewards: [{
 				id: "290BDC3817CC2ABA"
@@ -2845,6 +4560,17 @@
 				xp: 5
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "30B831BE27F8291F"
 				item: "framedblocks:framed_cube"
 				type: "item"
@@ -2855,6 +4581,15 @@
 		}
 		{
 			dependencies: ["5466EEF8BC1D892F"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "557A1A0C8ACA0F84"
 			rewards: [
 				{
@@ -2876,6 +4611,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "200F6AAEBE659A14"
 				item: {
 					Count: 1
@@ -2986,6 +4732,15 @@
 		}
 		{
 			dependencies: ["43EFBBF0712C67B9"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "007AF41A705DEAD4"
 			rewards: [{
 				id: "545BA43BE7DE2A02"
@@ -2994,6 +4749,17 @@
 			}]
 			subtitle: "To show all your trophies"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2871183500DF05A9"
 				item: "supplementaries:pedestal"
 				type: "item"
@@ -3004,6 +4770,15 @@
 		{
 			dependencies: ["68BE52500EBA3198"]
 			description: ["Also functional as you can store items inside!"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "00000000000000BC"
 			rewards: [{
 				id: "000000000000013E"
@@ -3013,6 +4788,17 @@
 			subtitle: "Some slightly more decorative storage."
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2F8814D48037A431"
 					item: {
 						Count: 1
@@ -3058,6 +4844,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "60B7A48AF2E7C1E4"
 					item: {
 						Count: 1
@@ -3099,6 +4896,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "26A89E82A18E8890"
 					item: {
 						Count: 1
@@ -3144,6 +4952,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2C17DE56F08DF9E1"
 					item: {
 						Count: 1
@@ -3196,6 +5015,15 @@
 		{
 			dependencies: ["00000000000000BC"]
 			description: ["Some nice decorative bookshelves that can hold the manuals from mods or self written books."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "00000000000000BE"
 			rewards: [{
 				count: 16
@@ -3204,6 +5032,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7A43DEE690A69FAD"
 				item: {
 					Count: 1
@@ -3279,6 +5118,15 @@
 		{
 			dependencies: ["00000000000000BE"]
 			description: ["Collect all those books! Some of these manuals can be combined in the Eccentric Tome for safe keeping."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "eccentrictome:tome"
@@ -3289,11 +5137,33 @@
 			id: "0000000000000723"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0000000000000729"
 					item: "ftbquests:book"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "15D9B059AA37FF21"
 					item: {
 						Count: 1
@@ -3305,12 +5175,34 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2A95A92EF6610B75"
 					item: "aether:book_of_lore"
 					match_nbt: true
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "065F77421146D814"
 					item: {
 						Count: 1
@@ -3323,6 +5215,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "420C25CA852D8297"
 					item: {
 						Count: 1
@@ -3346,6 +5249,15 @@
 				""
 				"A Trowel will break after placing 256 blocks, or four stacks."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0000000000000063"
 			rewards: [
 				{
@@ -3387,6 +5299,17 @@
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0000000000000064"
 				item: {
 					Count: 1
@@ -3407,6 +5330,15 @@
 		}
 		{
 			dependencies: ["68BE52500EBA3198"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5466EEF8BC1D892F"
 			rewards: [{
 				count: 8
@@ -3415,6 +5347,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "00A7116AB30E5964"
 				item: {
 					Count: 1
@@ -3500,6 +5443,15 @@
 				""
 				"These little goblins have a little attitude and don't like it when you hit them. If you're feeling generous you can feed them their favourite food for a fun animation."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:coin_05"
 			id: "0603EEDA36C27ED6"
 			rewards: [{
@@ -3515,6 +5467,17 @@
 			}]
 			subtitle: "Unique and useful trades"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6976307623DE7D0F"
 				observe_type: 5
 				timer: 0L
@@ -3527,8 +5490,28 @@
 		{
 			dependencies: ["3C58EBDE41F0F9F2"]
 			description: ["This key, when inserted into a Dimensional Dungeons gate, will lead to your own personal dimension. You can build there to your heart's content and access it from anywhere. See the chapter \"Dimensional Travels\" for more details."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "29A66BD7F23D4EDD"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1176B1CC4CAAE099"
 				item: "dimdungeons:item_blank_build_key"
 				type: "item"
@@ -3540,6 +5523,15 @@
 		{
 			dependencies: ["1966320B37D990A0"]
 			description: ["You will need &9Fabrics&r for crafting bed, armor and backpacks. You can get it from &aZombies&r, find it as loot or buy for a copper or dungeon coin in '&eThe Market&r' quest chapter."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "624F1D5C9129DFA8"
 			rewards: [
 				{
@@ -3555,11 +5547,33 @@
 			]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "451225439A79BFC7"
 					item: "zombie_fabrics:fabric"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2A47455F6D215672"
 					item: {
 						Count: 1
@@ -3574,6 +5588,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "48F8F2AE8F37D58C"
 					item: {
 						Count: 1
@@ -3588,6 +5613,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4047BCEEEE78F503"
 					item: {
 						Count: 1
@@ -3602,6 +5638,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "436E97F78817DFFF"
 					item: {
 						Count: 1
@@ -3622,6 +5669,15 @@
 		{
 			dependencies: ["366659E50333BC5A"]
 			description: ["To add arrows place it together in a crafting grid"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1FD8FE1F7FD65D9A"
 			rewards: [{
 				id: "040E14C5A61F1E1A"
@@ -3629,6 +5685,17 @@
 				xp: 10
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5BAA0D5EA0FE200D"
 				item: {
 					Count: 1
@@ -3651,6 +5718,15 @@
 				""
 				"- &1uses&r can be increased by right click an &eEstus Shard&r with the &2Estus Flask&r in your inventory"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7340DB101BE8D6EB"
 			rewards: [{
 				id: "1B0324F08453DBE8"
@@ -3660,6 +5736,17 @@
 			subtitle: "Multi use healing potion"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7D8E7C1E1C1782BF"
 					item: {
 						Count: 1
@@ -3672,6 +5759,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2C626D2FDDB3B734"
 					item: "bonfires:estus_shard"
 					type: "item"
@@ -3683,6 +5781,15 @@
 		}
 		{
 			dependencies: ["033105F673C5EF80"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5BC9DC599459F744"
 			rewards: [{
 				id: "02373620D070EEA9"
@@ -3700,6 +5807,17 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "26711814F3306576"
 					item: {
 						Count: 1
@@ -3714,6 +5832,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0408D8F0476E1F15"
 					item: {
 						Count: 1
@@ -3728,6 +5857,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4E0B63A72C1BF9DD"
 					item: {
 						Count: 1
@@ -3742,6 +5882,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5FF81832183131C8"
 					item: {
 						Count: 1
@@ -3768,6 +5919,15 @@
 				""
 				"{ \"text\": \"- Click here for bosses quests\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3476C260BC2E3BBA\" } }"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -3796,6 +5956,17 @@
 			size: 1.5d
 			subtitle: "All about bosses"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1EF154911CF9999D"
 				title: "Bosses"
 				type: "checkmark"
@@ -3822,6 +5993,15 @@
 				""
 				"- Low Extraction Expertise players also face a high &4Backfire Chance&r - 30%, which summons Temporal Remnant. As &eExpertise Level&r increases, this risk fades down to 5%."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:echo_extractor"
 			id: "6FC9E6FFB041C6D9"
 			rewards: [
@@ -3841,11 +6021,33 @@
 			subtitle: "Magical vacuum for \"Spawner Energy.\""
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5EFD1C8176E1B6A1"
 					item: "kubejs:echo_extractor"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5A785B7FB9D62516"
 					item: "kubejs:blessed_incense"
 					type: "item"
@@ -3871,6 +6073,15 @@
 				""
 				" • &dQuantity&r: As you become a master, you learn how to pull more items out of the book."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "54B8F4541F6B0151"
 			rewards: [{
 				id: "25AB6DA37114A5E4"
@@ -3879,6 +6090,17 @@
 			}]
 			subtitle: "The Path to Grandmastery"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1F04ECADEACBFF10"
 				item: "kubejs:chronicle_of_echoes"
 				type: "item"
@@ -3910,6 +6132,15 @@
 				""
 				"&9Themes&r that you have discovered are listed in &eChronicle Of Echoes&r. At the moment, they are purely cosmetic and serve more to create an immersive effect."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "25D2E4EECF49EA64"
 			rewards: [{
 				id: "668E6B5C03135C31"
@@ -3918,6 +6149,17 @@
 			}]
 			subtitle: "You have trapped the essence. Now you must break the seal to claim the rewards"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7DE534076B707419"
 				item: "kubejs:sealed_tome"
 				type: "item"
@@ -3948,15 +6190,46 @@
 				""
 				"Use a &bRecycling Journal&r to track your progress. As your &bMastery Tier&r increases, you will nearly eliminate jams and significantly boost your &dJackpot&r rates."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:item_recycler"
 			id: "3AC71E8812CDFD93"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1D72B8CDCCA40C26"
 					item: "kubejs:item_recycler"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "456F10F64E0A42FE"
 					item: "kubejs:recycling_journal"
 					type: "item"
@@ -3991,6 +6264,15 @@
 				"Even a basic Farmer's Delight recipe makes a significant"
 				"difference in how long your buffs last."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:help"
 			id: "0542B0D812A87B7D"
 			rewards: [{
@@ -4000,6 +6282,17 @@
 			}]
 			shape: "circle"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1E02899E579FD5D3"
 				title: "Tips noted"
 				type: "checkmark"

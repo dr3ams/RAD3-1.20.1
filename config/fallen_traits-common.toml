@@ -23,10 +23,10 @@
 		#minimum ticks between spawning new clones, only while the mob has a target
 		#Range: 1 ~ 72000
 		cloneSpawnIntervalTicks = 50
-		#flat max health for clones, low so any hit kills them regardless of the original's health/traits
+		#ignored, clones always die in one hit. Kept for backward compatibility
 		#Range: 1.0 ~ 1000.0
 		cloneHealth = 1.0
-		#max damage dealt to entities at the center of a clone's death explosion, falls off linearly to 0 at the radius edge
+		#base max damage at the center of the explosion, before level scaling and health cap
 		#Range: 0.0 ~ 1000.0
 		cloneExplosionDamage = 6.0
 		#radius in blocks of the clone's death explosion, does not break blocks
@@ -34,9 +34,15 @@
 		cloneExplosionRadius = 3.0
 		#clones get a cyan glowing outline so they're distinguishable from the real mob
 		cloneGlowEnabled = true
-		#clones are force-removed after this many ticks even if not killed, 0 disables this and relies on normal despawn rules
+		#clones are force-removed after this many ticks even if not killed, 0 disables this
 		#Range: 0 ~ 72000
 		cloneLifetimeTicks = 1200
+		#extra damage per mob level. 0 disables level scaling
+		#Range: 0.0 ~ 10.0
+		cloneExplosionLevelScale = 0.01
+		#cap explosion damage at this fraction of the target's max health, so it cannot one-shot
+		#Range: 0.01 ~ 1.0
+		cloneExplosionMaxHealthPercentCap = 0.5
 
 	[traits.cleanse_trait]
 		#seconds between cleanses at trait level 1
@@ -120,9 +126,15 @@
 				devourerRadiusPerLevel = 10
 
 			[traits.nightcrawler_trait.berserk_trait.shredder_trait]
-				#percent of a nearby player's current armor stolen, per trait level (0.1 = 10% per level)
+				#percent of a nearby player's current armor stolen per hit, per trait level (0.1 = 10% per level)
 				#Range: 0.0 ~ 1.0
 				shredderPercentPerLevel = 0.1
+				#ticks until each stolen armor amount returns to the player at trait level 1
+				#Range: 1 ~ 72000
+				shredderReturnBaseTicks = 200
+				#additional ticks before stolen armor returns, per trait level above 1
+				#Range: 0 ~ 72000
+				shredderReturnTicksPerLevel = 100
 
 			[traits.nightcrawler_trait.berserk_trait.titan_trait]
 				#size increase at trait level 1 (0.5 = +50%)

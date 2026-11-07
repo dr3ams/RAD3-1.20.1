@@ -35,6 +35,15 @@
 				""
 				"To teleport out of the dimension, you can either dig down and fall below Y = 0 or climb your way to above Y = 256."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:honeycomb"
 			id: "17777CD49B8B6F41"
 			rewards: [{
@@ -46,10 +55,32 @@
 			tasks: [
 				{
 					dimension: "the_bumblezone:the_bumblezone"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "03C664A54AB9519A"
 					type: "dimension"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6ED6A250C59F80CB"
 					item: {
 						Count: 1
@@ -70,6 +101,15 @@
 		{
 			dependencies: ["17777CD49B8B6F41"]
 			description: ["i was sick while making this chapter, so sucking on hard candy while exploring the sugar dimension was very immersing"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5E4C69CC15CADF88"
 			rewards: [{
 				count: 8
@@ -78,6 +118,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "59B034778B633DD3"
 				item: {
 					Count: 1
@@ -96,6 +147,15 @@
 		{
 			dependencies: ["5E4C69CC15CADF88"]
 			description: ["Seriously, it's terrible. Don't even bother trying to upgrade it. It doesn't get any better."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3E69CC75B111D4A4"
 			rewards: [{
 				count: 7
@@ -104,6 +164,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "52042FF627E24425"
 				item: {
 					Count: 1
@@ -128,6 +199,15 @@
 		}
 		{
 			dependencies: ["17777CD49B8B6F41"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3BFBB0CC1C2BE735"
 			rewards: [
 				{
@@ -142,6 +222,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "323F6FE496B9FA0A"
 				item: {
 					Count: 1
@@ -159,6 +250,15 @@
 		}
 		{
 			dependencies: ["5E4C69CC15CADF88"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "308701D3BB09B731"
 			rewards: [{
 				id: "6C6519DAFAE858AC"
@@ -166,6 +266,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5218B252205231CE"
 				item: "the_bumblezone:glistering_honey_crystal"
 				type: "item"
@@ -184,6 +295,15 @@
 				""
 				"Basically, this thing is rare but OP as hell. Turn your vast hoard of random garbage into high level enchantments!"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "76253B8D309F08B1"
 			rewards: [{
 				count: 16
@@ -193,6 +313,17 @@
 			}]
 			subtitle: "Honey Enchanting"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "37F2275090890EA7"
 				item: "the_bumblezone:crystalline_flower"
 				type: "item"
@@ -202,6 +333,15 @@
 		}
 		{
 			dependencies: ["3BFBB0CC1C2BE735"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3F669E0A5933A36E"
 			rewards: [
 				{
@@ -216,6 +356,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0B0333FD3B3E6B05"
 				item: "minecraft:bee_nest"
 				type: "item"
@@ -225,6 +376,15 @@
 		}
 		{
 			dependencies: ["3F669E0A5933A36E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "141EC4ED45517ECB"
 			rewards: [
 				{
@@ -242,6 +402,17 @@
 			tasks: [{
 				advancement: "the_bumblezone:the_queens_desire/flooding_the_housing_market"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "11B5307AC6E60AED"
 				type: "advancement"
 			}]
@@ -250,6 +421,15 @@
 		}
 		{
 			dependencies: ["76253B8D309F08B1"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3FCE5DF50001B712"
 			rewards: [{
 				id: "2741B99F1C59F5CB"
@@ -260,6 +440,17 @@
 			tasks: [{
 				advancement: "the_bumblezone:crystalline_flower/enchant_crystalline_flower"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6FE07927427BE35B"
 				type: "advancement"
 			}]
@@ -268,6 +459,15 @@
 		}
 		{
 			dependencies: ["17777CD49B8B6F41"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0E0CFD4D8078AA9C"
 			rewards: [{
 				count: 16
@@ -276,6 +476,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "416E34015E31F5C9"
 				item: "minecraft:honey_bottle"
 				type: "item"
@@ -285,6 +496,15 @@
 		}
 		{
 			dependencies: ["0E0CFD4D8078AA9C"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "42CEB40F9DB55EFD"
 			rewards: [{
 				id: "05355E894ADA74B1"
@@ -295,6 +515,17 @@
 			tasks: [{
 				advancement: "the_bumblezone:effects/bee_hit_wrath_of_the_hive"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "35CA483741B24719"
 				type: "advancement"
 			}]
@@ -303,6 +534,15 @@
 		}
 		{
 			dependencies: ["0E0CFD4D8078AA9C"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1C3EF09C335A666D"
 			rewards: [{
 				id: "4FA112AD93602DB5"
@@ -313,6 +553,17 @@
 			tasks: [{
 				advancement: "the_bumblezone:effects/getting_protection"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1844AD9CD40BAB52"
 				type: "advancement"
 			}]
@@ -321,6 +572,15 @@
 		}
 		{
 			dependencies: ["17777CD49B8B6F41"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "152B481D2E28F2AD"
 			rewards: [{
 				id: "154F811AC9CEDB57"
@@ -328,6 +588,17 @@
 				xp: 100
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5323958243318716"
 				item: "the_bumblezone:pollen_puff"
 				type: "item"
@@ -337,6 +608,15 @@
 		}
 		{
 			dependencies: ["152B481D2E28F2AD"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7AA52AB4F0F5A0BA"
 			rewards: [{
 				id: "516C36F24BDA863B"
@@ -345,6 +625,17 @@
 			}]
 			subtitle: "Craft a Honey Compass and use it to locate a Cell Maze"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7184008314E9B574"
 				item: {
 					Count: 1
@@ -358,6 +649,15 @@
 		}
 		{
 			dependencies: ["152B481D2E28F2AD"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3260C4EC442E93EC"
 			rewards: [{
 				id: "2B742DCB9C07FB5D"
@@ -365,6 +665,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0BB2DC8B02E9A736"
 				item: "the_bumblezone:bee_bread"
 				type: "item"
@@ -378,6 +689,15 @@
 				"7AA52AB4F0F5A0BA"
 			]
 			description: ["The Cell Maze is full of bee-related loot, but the bees guard it jealously. Make sure you keep the Protection of the Hive while inside, or you'll be under attack from all sides."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2A7822E4D3E74753"
 			rewards: [{
 				id: "3FC05EEF2E7DE0E0"
@@ -399,6 +719,17 @@
 			tasks: [{
 				advancement: "the_bumblezone:structures/enter_cell_maze"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5CA514051C829DFE"
 				type: "advancement"
 			}]
@@ -416,6 +747,15 @@
 				""
 				"- Can be worn in a Curios or Trinkets hat/head slot and still get the effects."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "50D42DBEECD976D9"
 			rewards: [{
 				id: "7488E69DE1443CCE"
@@ -424,6 +764,17 @@
 			}]
 			subtitle: "Attracts bees while you wear it"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7AAECD78A3D1387D"
 				item: {
 					Count: 1
@@ -442,6 +793,15 @@
 		}
 		{
 			dependencies: ["17777CD49B8B6F41"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7E8B2328DDFEA530"
 			rewards: [{
 				id: "1086BADBD279977E"
@@ -452,6 +812,17 @@
 			tasks: [{
 				advancement: "the_bumblezone:tools/obtain_throne_honey_compass"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3AA81B5E5C9587B9"
 				type: "advancement"
 			}]
@@ -460,6 +831,15 @@
 		}
 		{
 			dependencies: ["308701D3BB09B731"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "75AF7A2371C28F63"
 			rewards: [{
 				id: "30C7DF0768CEBD79"
@@ -467,6 +847,17 @@
 				xp: 100
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0EE35EA1B2784519"
 				item: {
 					Count: 1
@@ -482,6 +873,15 @@
 		}
 		{
 			dependencies: ["7E8B2328DDFEA530"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "28A30A075DA149DC"
 			rewards: [{
 				id: "52EB05128B616036"
@@ -492,6 +892,17 @@
 			tasks: [{
 				advancement: "the_bumblezone:structures/enter_throne_pillar"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5589B35E5E84B59A"
 				type: "advancement"
 			}]
@@ -500,6 +911,15 @@
 		}
 		{
 			dependencies: ["28A30A075DA149DC"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "32D4C8324C73452F"
 			rewards: [{
 				id: "230025BA1A4025DE"
@@ -510,6 +930,17 @@
 			tasks: [{
 				advancement: "the_bumblezone:the_queens_desire/the_beginning"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "04BF60F582F4C87E"
 				type: "advancement"
 			}]
@@ -518,6 +949,15 @@
 		}
 		{
 			dependencies: ["32D4C8324C73452F"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2042611ED9BD1750"
 			rewards: [
 				{
@@ -535,6 +975,17 @@
 			tasks: [{
 				advancement: "the_bumblezone:the_queens_desire/peak_inefficiency"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6FF9D84046EFA617"
 				type: "advancement"
 			}]
@@ -543,6 +994,15 @@
 		}
 		{
 			dependencies: ["32D4C8324C73452F"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4AB51BF720381796"
 			rewards: [
 				{
@@ -560,6 +1020,17 @@
 			tasks: [{
 				advancement: "the_bumblezone:the_queens_desire/the_great_dragon_slayer"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2F7D6BC86EE6B83E"
 				type: "advancement"
 			}]
@@ -568,6 +1039,15 @@
 		}
 		{
 			dependencies: ["28A30A075DA149DC"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6271FB2D07ECA712"
 			rewards: [{
 				id: "1596A588C9EFB679"
@@ -578,6 +1058,17 @@
 			tasks: [{
 				advancement: "the_bumblezone:the_queens_desire/crazy_trader"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "076C6FE6DA9CDF83"
 				type: "advancement"
 			}]
@@ -586,6 +1077,15 @@
 		}
 		{
 			dependencies: ["0E0CFD4D8078AA9C"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3163182C1EB734ED"
 			rewards: [{
 				id: "1990877BB63793CE"
@@ -596,6 +1096,17 @@
 			tasks: [{
 				advancement: "the_bumblezone:the_queens_desire/honey_drunk"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "71596CE04E8F975F"
 				type: "advancement"
 			}]
@@ -609,6 +1120,15 @@
 				""
 				"Don't try to steal the royal jelly from the Throne Pillar, trust me, it's not worth it."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1E70E5E66DFFF271"
 			rewards: [{
 				id: "779931C69738CB87"
@@ -616,6 +1136,17 @@
 				xp: 100
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1204938A370691A6"
 				item: "the_bumblezone:royal_jelly_bottle"
 				type: "item"
@@ -633,6 +1164,15 @@
 				""
 				"Most importantly, though, you are now able to enter Sempiternal Sanctums without recieving debuffs from the Luminescent Wax. Even if you did make it to the final chamber without the Essence of the Bees, you can't do the challenges without it."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3F8CDD2757D4F2E5"
 			rewards: [
 				{
@@ -648,6 +1188,17 @@
 			]
 			subtitle: "Complete all of the Queen's Desire advancements!"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "63F8F285714F1610"
 				item: "the_bumblezone:essence_of_the_bees"
 				type: "item"
@@ -658,6 +1209,15 @@
 		{
 			dependencies: ["3BFBB0CC1C2BE735"]
 			description: ["Can be found in the Bumblezone, crafted from Honey Comb, or smelted from Beehive Beeswax."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "04A144687C154A3A"
 			rewards: [
 				{
@@ -672,6 +1232,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1840B1A7A60F85AD"
 				item: "the_bumblezone:carvable_wax"
 				type: "item"
@@ -686,6 +1257,15 @@
 				"32D4C8324C73452F"
 			]
 			description: ["Almost any potion can be imbued into a potion candle. Once lit, the candle will emit a cloud of potion effect for a minute or so before going out. It can be relit any number of times."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5E6F8E3DDCC2D933"
 			rewards: [{
 				id: "21F47622823EDCE8"
@@ -699,6 +1279,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7C5F1D5887B7394A"
 				item: "the_bumblezone:potion_candle"
 				type: "item"
@@ -708,6 +1299,15 @@
 		}
 		{
 			description: ["An ancient Elytra course (or Riptide course, if you feel so inclined) with some good loot."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5A94B59F6379E63E"
 			rewards: [
 				{
@@ -723,6 +1323,17 @@
 			]
 			subtitle: "Find some Ancient Hoops"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "collectibles:ring_jewelry"
 				id: "4E685A7C9D51181A"
 				structure: "the_bumblezone:ancient_hoops"
@@ -733,6 +1344,15 @@
 		}
 		{
 			dependencies: ["28A30A075DA149DC"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4982368FA48385D1"
 			rewards: [{
 				id: "1BA94040D8FC97D9"
@@ -752,6 +1372,17 @@
 			}]
 			subtitle: "Trade with the Queen for some Windy Air"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6F2D816AC80AA765"
 				item: "the_bumblezone:windy_air"
 				type: "item"
@@ -761,6 +1392,15 @@
 		}
 		{
 			description: ["An ancient, pollen-filled basin with an amethyst pillar in the center."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "557FFDE54CC428CB"
 			rewards: [
 				{
@@ -776,6 +1416,17 @@
 			]
 			subtitle: "Find an Ancient Shrine"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "the_bumblezone:super_candle_purple"
 				id: "47A1562F27E95F9D"
 				structure: "the_bumblezone:ancient_shrine"
@@ -786,6 +1437,15 @@
 		}
 		{
 			description: ["A wax dungeon full of cobwebs, wool, spider spawners, and some loot. It's a good place to complete the Queen's Desire quests to kill spiders and cave spiders."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5AA99061B31B1073"
 			rewards: [
 				{
@@ -801,6 +1461,17 @@
 			]
 			subtitle: "Find a Battle Cube dungeon"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "the_bumblezone:carvable_wax_grate"
 				id: "41A8CD19A53B10CA"
 				structure: "the_bumblezone:battle_cubes"
@@ -811,6 +1482,15 @@
 		}
 		{
 			description: ["The bee inside will give you a Bee Cannon :)"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2358071C97880FCF"
 			rewards: [
 				{
@@ -831,6 +1511,17 @@
 			]
 			subtitle: "Find a Bee House"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "simplehats:beehat"
 				id: "54EF277A42D65054"
 				structure: "the_bumblezone:bee_house"
@@ -841,6 +1532,15 @@
 		}
 		{
 			description: ["A simple parkour course made of candles with a few honey cocoons of loot. Of course, we can double jump, and place blocks..."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "46BB051650BB2179"
 			rewards: [
 				{
@@ -856,6 +1556,17 @@
 			]
 			subtitle: "Find a Candle Parkour course"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "the_bumblezone:super_candle_red"
 				id: "425E4777AE674734"
 				structure: "the_bumblezone:candle_parkour"
@@ -866,6 +1577,15 @@
 		}
 		{
 			description: ["A shooting range for crossbows and Crystal Cannons. Mineral blocks pop out of the top of the targets on a hit. You can complete the Queen's Desire quest for firing stingers from a crossbow here."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5CD46DD50DD7D0F5"
 			rewards: [
 				{
@@ -881,6 +1601,17 @@
 			]
 			subtitle: "Find a Cannon Range"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:target"
 				id: "27D4396625A040A3"
 				structure: "the_bumblezone:cannon_range"
@@ -891,6 +1622,15 @@
 		}
 		{
 			description: ["it's pretty :)"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "482E0B8861900657"
 			rewards: [
 				{
@@ -906,6 +1646,17 @@
 			]
 			subtitle: "Find a grove of cherry trees"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:cherry_sapling"
 				id: "35E7FBC3BCACD4D2"
 				structure: "the_bumblezone:cherry_veteran_tree"
@@ -916,6 +1667,15 @@
 		}
 		{
 			description: ["Somehow there is a villager here and he is ranchin' slimes. I ain't gonna question it."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7A451149DAE850DF"
 			rewards: [
 				{
@@ -931,6 +1691,17 @@
 			]
 			subtitle: "Find a Honey Slime ranch"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:honey_block"
 				id: "7F3DD979ABAC0103"
 				structure: "the_bumblezone:honey_slime_ranch"
@@ -941,6 +1712,15 @@
 		}
 		{
 			description: ["For some reason there is a disco club in the Bumblezone. You can find a special record here."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "51FE59E362FBA2BA"
 			rewards: [
 				{
@@ -956,6 +1736,17 @@
 			]
 			subtitle: "Find a Dance Floor"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:jukebox"
 				id: "6C3BAC92D3AFB2B7"
 				structure: "the_bumblezone:dance_floor"
@@ -966,6 +1757,15 @@
 		}
 		{
 			description: ["These ancient gazebos hang high above the floor. Some of them have treasure, but be careful, there are traps too."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "424982EB2203EE58"
 			rewards: [
 				{
@@ -981,6 +1781,17 @@
 			]
 			subtitle: "Find some hanging gazebos"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:chain"
 				id: "0D481311BC637FBF"
 				structure: "the_bumblezone:gazebuzz_cluster"
@@ -991,6 +1802,15 @@
 		}
 		{
 			description: ["A huge fountain of honey. Inside, there is raw gold and amethyst."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "00871A6CA23DCC02"
 			rewards: [
 				{
@@ -1006,6 +1826,17 @@
 			]
 			subtitle: "Find a bigger honey fountain"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "the_bumblezone:glistering_honey_crystal"
 				id: "0BD3CDEAA67155E2"
 				structure: "the_bumblezone:goliath_honey_fountain"
@@ -1016,6 +1847,15 @@
 		}
 		{
 			description: ["A big fountain of honey and sugar water. Inside, there is a Crystalline Flower."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3E3FA5F01A9DEB12"
 			rewards: [
 				{
@@ -1031,6 +1871,17 @@
 			]
 			subtitle: "Find a honey fountain"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "the_bumblezone:honey_crystal"
 				id: "60EABC52BBD5801A"
 				structure: "the_bumblezone:honey_fountain"
@@ -1041,6 +1892,15 @@
 		}
 		{
 			description: ["Huge platforms covered in flowers hang from the roof. It's very pretty. Also, there are several Crystalline Flowers here."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "23527A46BB0F4A73"
 			rewards: [
 				{
@@ -1056,6 +1916,17 @@
 			]
 			subtitle: "Find a Hanging Garden"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "deep_aether:flowering_roseroot_leaves"
 				id: "31FE11A20C78EDA6"
 				structure: "the_bumblezone:hanging_garden"
@@ -1066,6 +1937,15 @@
 		}
 		{
 			description: ["A wax temple with honey slimes and honey cocoons with some loot."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "19189338D654C3E7"
 			rewards: [
 				{
@@ -1081,6 +1961,17 @@
 			]
 			subtitle: "Find a Hive Temple"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "the_bumblezone:carvable_wax_bricks"
 				id: "029C5A041A206B48"
 				structure: "the_bumblezone:hive_temple"
@@ -1091,6 +1982,15 @@
 		}
 		{
 			description: ["A cave full of even more honey than usual. There are beehemoths and honey cocoons here."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "668ABE710729B3DE"
 			rewards: [
 				{
@@ -1106,6 +2006,17 @@
 			]
 			subtitle: "Find a Honey Cave"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "the_bumblezone:filled_porous_honeycomb_block"
 				id: "5B3B5A18A71700AF"
 				structure: "the_bumblezone:honey_cave_room"
@@ -1116,6 +2027,15 @@
 		}
 		{
 			description: ["A large wax building full of bees. There's some good loot and Crystalline Flowers if you can get to the top."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4F161820465F262D"
 			rewards: [
 				{
@@ -1131,6 +2051,17 @@
 			]
 			subtitle: "Find a Honitel"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:red_bed"
 				id: "469533B31546C758"
 				structure: "the_bumblezone:honitel"
@@ -1141,6 +2072,15 @@
 		}
 		{
 			description: ["Bees, frozen in a huge block of ice!"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1604B836D235CA08"
 			rewards: [
 				{
@@ -1156,6 +2096,17 @@
 			]
 			subtitle: "Find an Ice Monolith"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "minecraft:ice"
 				id: "58B7E80A65F2BFFB"
 				structure: "the_bumblezone:ice_monolith"
@@ -1166,6 +2117,15 @@
 		}
 		{
 			description: ["A massive, spiky stone fortress full of silverfish and endermites. There are almost a hundred spawners here, so it's a good place to get Spawner Cores. In the center of each of the four stone spikeballs is a piece of Ancient Debris, and at the tip of each spike are a few diamond and emerald ore. Bring a fortune pickaxe here and you could easily walk out with a few hundred diamonds."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "60D8F1FBA8863211"
 			rewards: [
 				{
@@ -1181,6 +2141,17 @@
 			]
 			subtitle: "Find a Mite Fotress"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "the_bumblezone:sugar_infused_stone"
 				id: "480F21D10E1978B7"
 				structure: "the_bumblezone:mite_fortress"
@@ -1191,6 +2162,15 @@
 		}
 		{
 			description: ["A huge flower of honey crystals. There are several Crystalline Flowers here."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6E04BFCA939F18EE"
 			rewards: [
 				{
@@ -1206,6 +2186,17 @@
 			]
 			subtitle: "Find an Overgrown Flower"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "the_bumblezone:crystalline_flower"
 				id: "4733F87759D25318"
 				structure: "the_bumblezone:overgrown_flower"
@@ -1216,6 +2207,15 @@
 		}
 		{
 			description: ["A huge, hanging, ancient brick structure full of phantoms. At the bottom of the four honey pools is a piece of deepslate diamond ore."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3973C07FBF620DB6"
 			rewards: [
 				{
@@ -1231,6 +2231,17 @@
 			]
 			subtitle: "Find a Phantom Aviary"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "the_bumblezone:ancient_wax_bricks"
 				id: "299E450905F56761"
 				structure: "the_bumblezone:phantasm_aviary"
@@ -1241,6 +2252,15 @@
 		}
 		{
 			description: ["I never expected to find a pirate ship with sails of wax and crewed by bees, but here we are. There's some good loot here."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3FF3E7CC68397E21"
 			rewards: [
 				{
@@ -1256,6 +2276,17 @@
 			]
 			subtitle: "Find a Pirate Ship"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "the_bumblezone:beehive_beeswax"
 				id: "00FA5CF8D8D9B949"
 				structure: "the_bumblezone:pirate_ship"
@@ -1266,6 +2297,15 @@
 		}
 		{
 			description: ["Just a little sugar water stream."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "03E055DA952507F3"
 			rewards: [
 				{
@@ -1281,6 +2321,17 @@
 			]
 			subtitle: "Find a Pollinated Stream"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "the_bumblezone:sugar_water_bucket"
 				id: "71CFEFED00522C2A"
 				structure: "the_bumblezone:pollinated_stream"
@@ -1291,6 +2342,15 @@
 		}
 		{
 			description: ["Just a little shrine for a Stinger Spear."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4E46307728B6629F"
 			rewards: [
 				{
@@ -1306,6 +2366,17 @@
 			]
 			subtitle: "Find a Stinger Spear Shrine"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					Count: 1
 					id: "the_bumblezone:stinger_spear"
@@ -1325,6 +2396,15 @@
 		}
 		{
 			description: ["It's... a subway!? There is a TON of loot here if you can grab it before the wind drags you past."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6CB75A88CEF72A32"
 			rewards: [
 				{
@@ -1340,6 +2420,17 @@
 			]
 			subtitle: "Find a Subway"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "the_bumblezone:windy_air"
 				id: "1108781CDFB32448"
 				structure: "the_bumblezone:subway"
@@ -1377,6 +2468,15 @@
 				"6E04BFCA939F18EE"
 			]
 			description: ["You don't actually have to &obeat&r the six Sempiternal Sanctums for this quest, but you do have to visit them."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_dependency_lines: true
 			id: "55D2BA70FC1D6603"
 			rewards: [
@@ -1412,6 +2512,17 @@
 			tasks: [{
 				advancement: "the_bumblezone:structures/enter_all_structures"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "54DC6706907232EB"
 				type: "advancement"
 			}]
@@ -1430,6 +2541,15 @@
 				""
 				"For the &4Red,&r &eYellow,&r and &9Blue&r challenges, I recommend using a few &6Hostility Orbs&r to remove hostility levels from the chunks that make up the room. Those challenges involve fighting, or at least surviving, against an onslaught of mobs, and removing hostility levels from those mobs will make those challenges a lot more doable."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7D397DFEB09C4579"
 			rewards: [{
 				count: 4
@@ -1442,6 +2562,17 @@
 			tasks: [{
 				advancement: "the_bumblezone:structures/enter_sempiternal_sanctum"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2CAB6B1F4B35A2D3"
 				type: "advancement"
 			}]
@@ -1455,6 +2586,15 @@
 				""
 				"&oHolding this item in offhand will highlight 4 nearby hostile mobs in red. Killing them will grant you Strength status effect and it will highlight more hostile mobs nearby (never more than 4 at a time). Each highlighted kill makes Strength effect stronger and maxes out at Strength 16 after killing 7 highlighted mobs! This makes this a powerful boss destroyer weapon if the boss summons minions around as at the last stage, every hit is a super blow!&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0D3635E426953676"
 			rewards: [
 				{
@@ -1470,6 +2610,17 @@
 			]
 			subtitle: "An endgame item only obtainable by defeating the red Sempiternal Sanctum's event!"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5B89487D41FCD0E6"
 				item: {
 					Count: 1
@@ -1490,6 +2641,15 @@
 				""
 				"&oHolding this item in offhand will highlight mobs and outline certain block entities near you! Allowing you to see what monster is nearby or hidden chests or suspicious blocks!&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "695BBDE815DF2FAB"
 			rewards: [
 				{
@@ -1505,6 +2665,17 @@
 			]
 			subtitle: "An endgame item only obtainable by defeating the purple Sempiternal Sanctum's event"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7081BCAE223B7391"
 				item: {
 					Count: 1
@@ -1525,6 +2696,15 @@
 				""
 				"&oHolding this item in offhand will make mobs nearby no longer get angry at you! The effect is lost early if player gets hurt by any mob or attacks any mob. If the player sprints while it is active, the item loses power crazy quickly! No rushing!&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6EF3CDF593D32C2B"
 			rewards: [
 				{
@@ -1540,6 +2720,17 @@
 			]
 			subtitle: "An endgame item only obtainable by defeating the blue Sempiternal Sanctum's event"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "336C59C452039F2C"
 				item: {
 					Count: 1
@@ -1560,6 +2751,15 @@
 				""
 				"&oHolding this item in offhand will grow crops and saplings nearby, revives Dead Bush into a random sapling, heal mobs tamed by you, and heal other mobs or players on the same team as you! Also, will cure Poison and Wither effect from the healed mobs. It will also cure Poison and Wither effect from the player themselves too.&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "00EAD934C0A931F5"
 			rewards: [
 				{
@@ -1575,6 +2775,17 @@
 			]
 			subtitle: "An endgame item only obtainable by defeating the green Sempiternal Sanctum's event"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1B750EF86B1BB90B"
 				item: {
 					Count: 1
@@ -1596,6 +2807,15 @@
 				""
 				"&oHolding this item in offhand while being in a spot with sky brightness 13 or above (basically in view of the sky) will grant you Regeneration 1, Saturation 1, Speed 1, Haste 2, and Damage Resistance 2. It will also slowly heal your armor durability as well over time!&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "519D24DCF148C17C"
 			rewards: [
 				{
@@ -1611,6 +2831,17 @@
 			]
 			subtitle: "An endgame item only obtainable by defeating the yellow Sempiternal Sanctum's event"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "25F90470D3737BB7"
 				item: {
 					Count: 1
@@ -1631,6 +2862,15 @@
 				""
 				"&oHolding this item in offhand will make dying not kill you and instead teleport you back to your respawn point with all health restored, hunger bar filled, neutral and negative status effects removed, and fire removed. Will work in hardcore worlds too!&r"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "50751D78FFE7BD1C"
 			rewards: [
 				{
@@ -1646,6 +2886,17 @@
 			]
 			subtitle: "An endgame item only obtainable by defeating the white Sempiternal Sanctum's event"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6F78FC327A191D06"
 				item: {
 					Count: 1
@@ -1661,6 +2912,15 @@
 		}
 		{
 			dependencies: ["04A144687C154A3A"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "32D32DA17E287D08"
 			rewards: [{
 				id: "4275F9720F2B7409"
@@ -1679,6 +2939,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0E09756A5970EBAB"
 				item: {
 					Count: 1
@@ -1704,6 +2975,15 @@
 				""
 				"As you put on more bee armor or bee wearables/curios/trinkets, the bee outlining range and glowing duration will be increased, Nausea and Poison effect duration being decreased much faster, and bees on your head will stay on your head for longer. "
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "49E2C3E3AF8D1B61"
 			rewards: [{
 				id: "4D86B121DDAC1228"
@@ -1712,6 +2992,17 @@
 			}]
 			subtitle: "Found in Cell Maze structure and comes in 2 variants."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "211BD5128DA9A5BF"
 				item: {
 					Count: 1
@@ -1759,6 +3050,15 @@
 				""
 				"Can be repaired by Honeycomb, Leather, Wool, or Rabbit Hide."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "11C5BA8DF03EA517"
 			rewards: [{
 				id: "325215437204507A"
@@ -1767,6 +3067,17 @@
 			}]
 			subtitle: "Found in Cell Maze structure and comes in 2 variants."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "301BE84EAF4022DB"
 				item: {
 					Count: 1
@@ -1812,6 +3123,15 @@
 				""
 				"Can be repaired by Honeycomb, Leather, Wool, or Rabbit Hide. "
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5F2F81BD34C54487"
 			rewards: [{
 				id: "2ABE5EBC6AFEE46B"
@@ -1820,6 +3140,17 @@
 			}]
 			subtitle: "Found in Cell Maze structure and comes in 4 variants"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1EEF861AA0BF0BE6"
 				item: {
 					Count: 1
@@ -1865,6 +3196,15 @@
 				""
 				"Can be repaired by Honeycomb, Leather, Wool, or Rabbit Hide."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "39940935CF99B3B0"
 			rewards: [{
 				id: "777E7E3EB41FC98B"
@@ -1873,6 +3213,17 @@
 			}]
 			subtitle: "Found in Cell Maze structure and comes in 2 variants."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6C601EE4E95F41B6"
 				item: {
 					Count: 1

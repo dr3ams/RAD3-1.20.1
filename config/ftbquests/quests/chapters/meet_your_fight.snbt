@@ -41,16 +41,47 @@
 				""
 				"Then place 4 soul stars on the altars to summon the Night Lich."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "bosses_of_mass_destruction:soul_star"
 			id: "0006C640879633AD"
 			tasks: [
 				{
 					count: 4L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5485E8B05204B190"
 					item: "bosses_of_mass_destruction:soul_star"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "30FA69D72AAFA97E"
 					structure: "bosses_of_mass_destruction:lich_tower"
 					type: "structure"
@@ -67,6 +98,15 @@
 				""
 				"guide to come"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "bosses_of_mass_destruction:void_thorn"
 			id: "095748A2E5B64CE5"
 			rewards: [{
@@ -90,15 +130,48 @@
 				{
 					advancement: "bosses_of_mass_destruction:adventure/void_blossom_defeat"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "753BCB8361F21595"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "092E5D795D60E0FC"
 					item: "bosses_of_mass_destruction:void_thorn"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "320EB8F27741F299"
 					item: "bosses_of_mass_destruction:crystal_fruit"
 					type: "item"
@@ -115,6 +188,15 @@
 				""
 				"guide to come"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "bosses_of_mass_destruction:obsidian_heart"
 			id: "29DDB0066E43F4D5"
 			rewards: [{
@@ -138,10 +220,32 @@
 				{
 					advancement: "bosses_of_mass_destruction:end/obsidilith_defeat"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "708D5D7B93CB54AC"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0A38CD7C04662768"
 					item: "bosses_of_mass_destruction:obsidian_heart"
 					type: "item"
@@ -158,6 +262,15 @@
 				""
 				"guide to come"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "bosses_of_mass_destruction:ancient_anima"
 			id: "6E081F780A318525"
 			rewards: [{
@@ -181,10 +294,32 @@
 				{
 					advancement: "bosses_of_mass_destruction:adventure/night_lich_defeat"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3F64F9965F19DD06"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0C23DA6C38942473"
 					item: "bosses_of_mass_destruction:ancient_anima"
 					type: "item"
@@ -201,6 +336,15 @@
 				""
 				"guide to come"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "bosses_of_mass_destruction:blazing_eye"
 			id: "607639870223C868"
 			rewards: [{
@@ -224,10 +368,32 @@
 				{
 					advancement: "bosses_of_mass_destruction:nether/gauntlet_defeat"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6932193AC518AD9A"
 					type: "advancement"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1B2D98D87465F346"
 					item: "bosses_of_mass_destruction:blazing_eye"
 					type: "item"
@@ -239,9 +405,29 @@
 		}
 		{
 			description: ["Resets a Bosses of Mass Destruction boss arena, allowing you to fight the boss again. Can also fix a structure with broken generation."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6BCCFE5F9186FE11"
 			size: 1.5d
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3D2776E12E69A6F1"
 				item: "bosses_of_mass_destruction:brimstone_nectar"
 				type: "item"
@@ -255,15 +441,46 @@
 				""
 				"Mine the blackstone prison of the Nether Gauntlet to summon it."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:polished_blackstone_bricks"
 			id: "4240B3713672628A"
 			tasks: [
 				{
 					dimension: "minecraft:the_nether"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "561311B046945101"
 					type: "dimension"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "07E88230F92B2929"
 					structure: "bosses_of_mass_destruction:gauntlet_arena"
 					type: "structure"
@@ -275,15 +492,46 @@
 		}
 		{
 			description: ["Follow the pollen and then dig deep underground. The Void Blossom can be found just above bedrock."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "bosses_of_mass_destruction:void_lily"
 			id: "1103CD03130A6D14"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5D0832E8568C12C2"
 					item: "bosses_of_mass_destruction:void_lily"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "150A4AB46CC0F36E"
 					structure: "bosses_of_mass_destruction:void_blossom"
 					type: "structure"
@@ -299,20 +547,62 @@
 				""
 				"Place an eye of ender in the frame atop the pillar to summon the Obsidilith."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:obsidian"
 			id: "0953BB27B5ADF021"
 			tasks: [
 				{
 					dimension: "minecraft:the_end"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "718F1DF801815128"
 					type: "dimension"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3CC38D9F0CBF386C"
 					structure: "bosses_of_mass_destruction:obsidilith_arena"
 					type: "structure"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7FE29035F48F7791"
 					item: "minecraft:ender_eye"
 					type: "item"
@@ -323,12 +613,32 @@
 			y: 8.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "cataclysm:mech_eye"
 			id: "5C293C81D2251DF7"
 			size: 1.0d
 			subtitle: "Locates the Ancient Factory"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "54138CE645A0C215"
 					item: "cataclysm:mech_eye"
 					type: "item"
@@ -336,6 +646,17 @@
 				{
 					advancement: "cataclysm:find_ancient_factory"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4F48093C43CC1CE3"
 					type: "advancement"
 				}
@@ -344,12 +665,32 @@
 			y: -3.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "cataclysm:flame_eye"
 			id: "5096E2DD5A0A07DE"
 			size: 1.0d
 			subtitle: "Locates the Burning Arena"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4E3F9E2F01F7D89F"
 					item: "cataclysm:flame_eye"
 					type: "item"
@@ -357,6 +698,17 @@
 				{
 					advancement: "cataclysm:find_burning_arena"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "752180462346B87E"
 					type: "advancement"
 				}
@@ -365,12 +717,32 @@
 			y: 3.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "cataclysm:abyss_eye"
 			id: "368FAA48F926B53F"
 			size: 1.0d
 			subtitle: "Locates the Sunken City"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "196DD44BE61F651C"
 					item: "cataclysm:abyss_eye"
 					type: "item"
@@ -378,6 +750,17 @@
 				{
 					advancement: "cataclysm:find_sunken_city"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "193C8CF7A420E197"
 					type: "advancement"
 				}
@@ -386,12 +769,32 @@
 			y: 8.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "cataclysm:desert_eye"
 			id: "59350804DD446DEC"
 			size: 1.0d
 			subtitle: "Locates the Cursed Pyramid"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5058B7185F3E5A5D"
 					item: "cataclysm:desert_eye"
 					type: "item"
@@ -399,6 +802,17 @@
 				{
 					advancement: "cataclysm:find_cursed_pyramid"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "03359451E4A69AAA"
 					type: "advancement"
 				}
@@ -407,12 +821,32 @@
 			y: 3.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "cataclysm:monstrous_eye"
 			id: "6007DD0F0E6A6940"
 			size: 1.0d
 			subtitle: "Locates the Soul Blacksmith"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "67B468C1D1EE6C0D"
 					item: "cataclysm:monstrous_eye"
 					type: "item"
@@ -420,6 +854,17 @@
 				{
 					advancement: "cataclysm:find_soul_black_smith"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					icon: "cataclysm:blackstone_pillar"
 					id: "5C58B6A7DA7270D3"
 					type: "advancement"
@@ -429,12 +874,32 @@
 			y: -3.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "cataclysm:void_eye"
 			id: "643A034439489514"
 			size: 1.0d
 			subtitle: "Locates the Ruined Citadel"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "73CDF85CE6023431"
 					item: "cataclysm:void_eye"
 					type: "item"
@@ -442,6 +907,17 @@
 				{
 					advancement: "cataclysm:find_ruined_citadel"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3F86C7F6928BD0EF"
 					type: "advancement"
 				}
@@ -452,6 +928,15 @@
 		{
 			dependencies: ["52D9091AE90972E6"]
 			description: ["This anvil can be used to combine together and enhance the drops of several Cataclysm bosses."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "06732AFEBD313F03"
 			rewards: [{
 				id: "6E3BD9BFD5A93FEC"
@@ -460,6 +945,17 @@
 			}]
 			shape: "gear"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "054978B167D911D7"
 				item: "cataclysm:mechanical_fusion_anvil"
 				type: "item"
@@ -468,6 +964,15 @@
 			y: -2.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "mowziesmobs:wrought_helmet"
@@ -497,6 +1002,17 @@
 			size: 1.5d
 			tasks: [{
 				entity: "mowziesmobs:ferrous_wroughtnaut"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					Count: 1
 					id: "mowziesmobs:wrought_helmet"
@@ -515,6 +1031,15 @@
 			y: -5.3d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "76FC1D5B921F7D89"
 			rewards: [{
 				id: "2BA4C20746C92282"
@@ -535,6 +1060,17 @@
 			size: 1.5d
 			tasks: [{
 				entity: "mowziesmobs:frostmaw"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					Count: 1
 					id: "mowziesmobs:ice_crystal"
@@ -551,6 +1087,15 @@
 			y: -5.3d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7D6FAAFCE7BFA0E3"
 			rewards: [{
 				id: "021A0B280976DE28"
@@ -571,6 +1116,17 @@
 			size: 1.5d
 			tasks: [{
 				entity: "mowziesmobs:umvuthi"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: {
 					Count: 1
 					id: "mowziesmobs:sol_visage"
@@ -591,6 +1147,15 @@
 		{
 			dependency_requirement: "one_completed"
 			description: ["Kill 8 villagers with a bone dagger and a glass bottle in your off hand to collect a full vial of blood."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "graveyard:vial_of_blood"
@@ -622,6 +1187,17 @@
 			subtitle: "You murderer!"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "38A80C56AF56DC96"
 					item: {
 						Count: 1
@@ -638,6 +1214,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "132B58BC1D7D231B"
 					item: {
 						Count: 1
@@ -667,6 +1254,15 @@
 				""
 				"The Corrupted Champion is stronger than anything you have faced so far. For this fight, you'll need your most powerful armor, your Smite X sword, and plenty of healing. In fact, bring everything you've got! This is the final battle! Defeat the Champion and nothing will ever stand in your way again!"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: "graveyard:white_bone_staff"
@@ -706,6 +1302,17 @@
 			size: 2.0d
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					icon: "graveyard:corruption"
 					id: "7B52061ACC537006"
 					structure: "graveyard:lich_prison"
@@ -713,6 +1320,17 @@
 				}
 				{
 					entity: "graveyard:lich"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "705F856FFEABF365"
 					type: "kill"
 					value: 1L
@@ -733,6 +1351,15 @@
 				"Guide to come"
 				""
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4C16519E8061C611"
 			rewards: [{
 				id: "25A6BA471EC6FF71"
@@ -751,6 +1378,17 @@
 			tasks: [{
 				advancement: "cataclysm:kill_remnant"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "cataclysm:ancient_metal_ingot"
 				id: "64B712F05D4EDE0B"
 				type: "advancement"
@@ -769,6 +1407,15 @@
 				""
 				"Guide to come"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7B1E2798AD487473"
 			rewards: [{
 				id: "39699AD0B7935DE4"
@@ -790,6 +1437,17 @@
 			tasks: [{
 				advancement: "cataclysm:kill_leviathan"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "453AF8CC96CF26E1"
 				type: "advancement"
 			}]
@@ -804,6 +1462,15 @@
 				""
 				"Guide to come"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5C6FB01D7ADF31BA"
 			rewards: [{
 				id: "64E1154A87A38152"
@@ -825,6 +1492,17 @@
 			tasks: [{
 				advancement: "cataclysm:kill_monstrosity"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "180AAF253677DD05"
 				type: "advancement"
 			}]
@@ -842,6 +1520,15 @@
 				""
 				"Guide to come"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7BF2A7E121BBB84B"
 			rewards: [{
 				id: "758E5A8B6191DC90"
@@ -863,6 +1550,17 @@
 			tasks: [{
 				advancement: "cataclysm:kill_ignis"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2D95F0F5290C0305"
 				type: "advancement"
 			}]
@@ -877,6 +1575,15 @@
 				""
 				"Guide to come"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "721F3CF4D3B9461F"
 			rewards: [{
 				id: "127B5903AA46701B"
@@ -898,6 +1605,17 @@
 			tasks: [{
 				advancement: "cataclysm:kill_ender_guardian"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5B49C158AD2A9C05"
 				type: "advancement"
 			}]
@@ -915,6 +1633,15 @@
 				""
 				"Guide to come"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "cataclysm:witherite_ingot"
 			id: "52D9091AE90972E6"
 			rewards: [{
@@ -926,6 +1653,17 @@
 			tasks: [{
 				advancement: "cataclysm:kill_harbinger"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "21B7B4030FB56BE1"
 				type: "advancement"
 			}]
@@ -941,6 +1679,15 @@
 				""
 				"Craft those into an Abyssal Sacrifice and use it on the Altar of Abyss to summon the Leviathan."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "cataclysm:abyssal_sacrifice"
 			id: "226C7BC218122A4F"
 			rewards: [{
@@ -957,11 +1704,33 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5D94F8704372C87D"
 					item: "cataclysm:abyssal_sacrifice"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					icon: "cataclysm:altar_of_abyss"
 					id: "7B299DE1F7F67761"
 					observe_type: 0
@@ -977,6 +1746,15 @@
 		{
 			dependencies: ["7B1E2798AD487473"]
 			description: ["Place it and wait and it will hatch! Isn't it cute? It can be tamed with tropical fish."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0DD449BA7F5FD7CD"
 			rewards: [{
 				count: 10
@@ -986,6 +1764,17 @@
 			}]
 			shape: "circle"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4AE7759823A3509F"
 				item: "cataclysm:abyssal_egg"
 				type: "item"
@@ -995,6 +1784,15 @@
 		}
 		{
 			description: ["Once you've cleared out the other enemies, use a Nether Star to activate the Harbinger."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:nether_star"
 			id: "24E9CE1582D7D687"
 			rewards: [{
@@ -1003,6 +1801,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7C05DA6FA0405435"
 				item: "minecraft:nether_star"
 				type: "item"
@@ -1018,6 +1827,15 @@
 				""
 				"Use the Ashes on the Altar of Fire to summon Ignis."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "cataclysm:burning_ashes"
 			id: "230A8E6A4E46C783"
 			rewards: [{
@@ -1035,16 +1853,49 @@
 			tasks: [
 				{
 					entity: "cataclysm:ignited_revenant"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6546810AE1E7452E"
 					type: "kill"
 					value: 1L
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2DB044A2F35EBC75"
 					item: "cataclysm:burning_ashes"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					icon: "cataclysm:altar_of_fire"
 					id: "182265ADC069F6E0"
 					observe_type: 0
@@ -1063,6 +1914,15 @@
 				""
 				"After you've fought all the koboletons in the lower chamber, use the Necklace of the Desert to wake the Ancient Remnant."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "cataclysm:necklace_of_the_desert"
 			id: "29639F3BD6826468"
 			rewards: [{
@@ -1072,6 +1932,17 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0F1BB7569B8F9B48"
 					item: {
 						Count: 1
@@ -1084,6 +1955,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5885E89EE203E6B9"
 					item: "cataclysm:necklace_of_the_desert"
 					type: "item"
@@ -1095,9 +1977,29 @@
 		}
 		{
 			dependencies: ["4C16519E8061C611"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "27484B84F54E291E"
 			shape: "circle"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "404111989DFAFE09"
 				item: "cataclysm:remnant_skull"
 				type: "item"
@@ -1106,12 +2008,32 @@
 			y: 2.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "cataclysm:cursed_eye"
 			id: "6835645D4005C6A4"
 			size: 1.0d
 			subtitle: "Locates the Frosted Prison"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6CD3AAA3BE2F4F73"
 					item: "cataclysm:cursed_eye"
 					type: "item"
@@ -1119,6 +2041,17 @@
 				{
 					advancement: "cataclysm:find_frosted_prison"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "726C5460BFFD69DE"
 					type: "advancement"
 				}
@@ -1136,6 +2069,15 @@
 				""
 				"guide to come"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6E5618EE2994DD2B"
 			rewards: [{
 				id: "5398703E17652B28"
@@ -1157,6 +2099,17 @@
 			tasks: [{
 				advancement: "cataclysm:kill_maledictus"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6E620E85AA9E82C5"
 				type: "advancement"
 			}]
@@ -1165,6 +2118,15 @@
 			y: -7.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "61FD92287F4E5AF1"
 			rewards: [{
 				id: "5613B6E8ED910193"
@@ -1173,6 +2135,17 @@
 			}]
 			size: 1.5d
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "022C425A56EC7BD9"
 				item: {
 					Count: 1
@@ -1193,12 +2166,32 @@
 			y: 5.3d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "cataclysm:storm_eye"
 			id: "5B049CDF09A52A6E"
 			size: 1.0d
 			subtitle: "Locates the Acropolis"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5589E2D64E243A22"
 					item: "cataclysm:storm_eye"
 					type: "item"
@@ -1206,6 +2199,17 @@
 				{
 					advancement: "cataclysm:find_acropolis"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "63D7A441FAD44F2E"
 					type: "advancement"
 				}
@@ -1220,6 +2224,15 @@
 				""
 				"guide to come"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0FDA1325DF9B62D2"
 			rewards: [{
 				id: "5484AA7CB75FBD6B"
@@ -1241,6 +2254,17 @@
 			tasks: [{
 				advancement: "cataclysm:kill_scylla"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0AF3F5629FF168CC"
 				type: "advancement"
 			}]
@@ -1250,9 +2274,29 @@
 		}
 		{
 			description: ["By putting the matching Eye into this block, a Cataclysm boss can be fought again."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "202B986A025AE395"
 			size: 1.5d
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "cataclysm:boss_respawner"
 				id: "51BC3887DA7FFDB5"
 				observe_type: 0
@@ -1265,6 +2309,15 @@
 			y: 2.2d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_dependency_lines: true
 			id: "596472E2A0C73260"
 			rewards: [{
@@ -1285,6 +2338,17 @@
 			size: 1.5d
 			subtitle: "Face the magic of the strongest undead wizard"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5FA85F695CB76717"
 				item: "graveyard:upper_bone_staff"
 				type: "item"
@@ -1293,6 +2357,15 @@
 			y: -1.1d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_dependency_lines: true
 			id: "013AA46FE381DE6E"
 			rewards: [{
@@ -1315,6 +2388,17 @@
 			size: 1.5d
 			subtitle: "Face the blades of the strongest undead warrior"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0C96F331B043718E"
 				item: "graveyard:middle_bone_staff"
 				type: "item"
@@ -1323,6 +2407,15 @@
 			y: -1.1d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_dependency_lines: true
 			id: "0AFE3C43104F7A12"
 			rewards: [
@@ -1354,6 +2447,17 @@
 			size: 1.5d
 			subtitle: "Face the might of the strongest undead monster"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "167F6B023D11E5B9"
 				item: "graveyard:lower_bone_staff"
 				type: "item"
@@ -1363,6 +2467,15 @@
 		}
 		{
 			description: ["Slay one of the Aptrgangr guarding the Frosted Prison to obtain the key to Maledictus' chamber."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "54B9A2B58A5AD98E"
 			rewards: [{
 				count: 8
@@ -1371,6 +2484,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "568E734A0470B6DF"
 				item: "cataclysm:strange_key"
 				type: "item"
@@ -1380,12 +2504,32 @@
 		}
 		{
 			dependencies: ["5C6FB01D7ADF31BA"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "cataclysm:netherite_effigy"
 			id: "5FCB168209F78630"
 			min_required_tasks: 2
 			shape: "circle"
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					icon: "cataclysm:netherite_ministrosity_bucket"
 					id: "04E86975B9F3BDEC"
 					observe_type: 5
@@ -1395,12 +2539,34 @@
 					type: "observation"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1FD1BFD9D19A78A8"
 					item: "cataclysm:netherite_effigy"
 					title: "...or craft a Netherite Effigy..."
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3224FC0A1FC67F6D"
 					item: "cataclysm:lava_power_cell"
 					title: "...and tame it using Lava Power Cells."

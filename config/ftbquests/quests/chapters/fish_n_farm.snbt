@@ -11,6 +11,15 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			description: ["Should be able to nab some of these to get you started from a village."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "053C0C086704A424"
 			rewards: [
 				{
@@ -26,6 +35,17 @@
 			]
 			tasks: [{
 				count: 64L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7F94F99A33EC2B49"
 				item: "minecraft:potato"
 				type: "item"
@@ -37,6 +57,15 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			description: ["Should be able to find a few of these in villages as well."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2CAD2936FBF8C162"
 			rewards: [{
 				id: "377B1761A5324C69"
@@ -45,6 +74,17 @@
 			}]
 			tasks: [{
 				count: 64L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7B3B51D1DA3771E3"
 				item: "minecraft:carrot"
 				type: "item"
@@ -55,6 +95,15 @@
 		}
 		{
 			dependencies: ["2CAD2936FBF8C162"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "62A913EB840D6093"
 			rewards: [{
 				id: "531C16991DCA4CFB"
@@ -63,6 +112,17 @@
 			}]
 			tasks: [{
 				count: 16L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "48B5277F59DE3629"
 				item: { Count: 16, id: "minecraft:golden_carrot" }
 				type: "item"
@@ -72,6 +132,15 @@
 		}
 		{
 			dependencies: ["62A913EB840D6093"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "07F65CEBEC7D3DC1"
 			rewards: [{
 				id: "5227A19DF1202772"
@@ -79,6 +148,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2B2B7C53840B7E7E"
 				item: "l2complements:totemic_carrot"
 				type: "item"
@@ -89,6 +169,15 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			description: ["Farmland that is always moist and can't be trampled."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "420C88598C4506FB"
 			rewards: [{
 				id: "51698D9CD86570BF"
@@ -96,6 +185,17 @@
 				xp: 25
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1AAF951DA04777D4"
 				item: "supplementaries:planter"
 				type: "item"
@@ -106,6 +206,15 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			description: ["You don't have jack on me Mr. Pumpkin!"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "02D47ED17855D7EF"
 			rewards: [{
 				id: "5F0A15CE458D448D"
@@ -113,6 +222,17 @@
 				xp: 10
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "593DC42110353A1C"
 				item: "minecraft:pumpkin_seeds"
 				type: "item"
@@ -122,6 +242,15 @@
 		}
 		{
 			dependencies: ["02D47ED17855D7EF"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "734B0DCBA9412A12"
 			rewards: [{
 				id: "3A2C0A6682B9F08C"
@@ -129,6 +258,17 @@
 				xp: 10
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0A60C2772A762313"
 				item: "minecraft:pumpkin"
 				type: "item"
@@ -139,6 +279,15 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			description: ["You will come across a lot of these from grass."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "31BD9D438DE7C517"
 			rewards: [{
 				id: "0B1CA8F97E75105C"
@@ -146,6 +295,17 @@
 				xp: 10
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "48F99AB951712C54"
 				item: "minecraft:wheat_seeds"
 				type: "item"
@@ -156,6 +316,15 @@
 		{
 			dependencies: ["31BD9D438DE7C517"]
 			description: ["Get to growing!"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "664517285527B807"
 			rewards: [{
 				count: 3
@@ -165,6 +334,17 @@
 			}]
 			tasks: [{
 				count: 64L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "16552AD597B7A9F9"
 				item: "minecraft:wheat"
 				type: "item"
@@ -176,6 +356,15 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			description: ["I am supposed to beat a root?"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5F18F2B90194BCC3"
 			rewards: [{
 				id: "4AD57E87135DEE1D"
@@ -183,6 +372,17 @@
 				xp: 10
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7851E931B45888AB"
 				item: "minecraft:beetroot_seeds"
 				type: "item"
@@ -192,6 +392,15 @@
 		}
 		{
 			dependencies: ["27AF065C882335E1"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "275387B29232F13A"
 			rewards: [{
 				id: "739BF7E02E37A1A2"
@@ -199,6 +408,17 @@
 				xp: 100
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "00909B4552089BBB"
 				item: "supplementaries:flower_box"
 				type: "item"
@@ -209,6 +429,15 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			description: ["Desert adventure time."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7A95813C7465B7C6"
 			rewards: [{
 				id: "5BADEA7DB8C22471"
@@ -217,6 +446,17 @@
 			}]
 			tasks: [{
 				count: 12L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "413401E96C63F5AC"
 				item: "minecraft:cactus"
 				type: "item"
@@ -227,6 +467,15 @@
 		}
 		{
 			dependencies: ["5F18F2B90194BCC3"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "192A80A11DED531C"
 			rewards: [{
 				id: "47290453EC38BD02"
@@ -236,6 +485,17 @@
 			tasks: [{
 				consume_items: true
 				count: 64L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4FF5947A791AA566"
 				item: "minecraft:beetroot"
 				type: "item"
@@ -246,6 +506,15 @@
 		{
 			dependencies: ["7A95813C7465B7C6"]
 			description: ["Give your base some flair."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3BCCF82725DF2A28"
 			rewards: [{
 				id: "63509E7F692B0B23"
@@ -253,6 +522,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5C42179F2C7E1F66"
 				item: "quark:midori_block"
 				type: "item"
@@ -263,6 +543,15 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			description: ["Have to eat some melons to make some melons."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "40AA50EB34627A92"
 			rewards: [{
 				id: "457EAB66AFAE2E5C"
@@ -270,6 +559,17 @@
 				xp: 10
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "49C844695E49CAB5"
 				item: "minecraft:melon_seeds"
 				type: "item"
@@ -279,6 +579,15 @@
 		}
 		{
 			dependencies: ["40AA50EB34627A92"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1952835D9E813B00"
 			rewards: [{
 				id: "710FE04F2AF7AD01"
@@ -288,6 +597,17 @@
 			tasks: [{
 				consume_items: true
 				count: 6L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5D45F3C63C692E33"
 				item: "minecraft:melon"
 				type: "item"
@@ -297,6 +617,15 @@
 		}
 		{
 			dependencies: ["1952835D9E813B00"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "07CD3B4239E51614"
 			rewards: [
 				{
@@ -313,6 +642,17 @@
 			tasks: [{
 				consume_items: false
 				count: 64L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "644A9B3A3C1A831F"
 				item: {
 					Count: 1
@@ -331,6 +671,15 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			description: ["Nether fortress mold."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "712C15991B37B7B1"
 			rewards: [{
 				id: "66DD275B44BB7A45"
@@ -339,6 +688,17 @@
 			}]
 			tasks: [{
 				count: 64L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "15929FF7F9EA6A82"
 				item: "minecraft:nether_wart"
 				type: "item"
@@ -349,6 +709,15 @@
 		}
 		{
 			dependencies: ["0000000000000FC0"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "109502AF0E1426E3"
 			rewards: [{
 				id: "1F1921657E5FF31E"
@@ -356,6 +725,17 @@
 				xp: 10
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0B7A1B5E2FEE7675"
 				item: "minecraft:bamboo"
 				type: "item"
@@ -365,6 +745,15 @@
 		}
 		{
 			dependencies: ["109502AF0E1426E3"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3BE59D712783F620"
 			rewards: [
 				{
@@ -381,6 +770,17 @@
 			tasks: [{
 				consume_items: true
 				count: 32L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "139533CAF8A0B3D0"
 				item: {
 					Count: 1
@@ -398,6 +798,15 @@
 		}
 		{
 			dependencies: ["3BE59D712783F620"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "46718966B28E3B14"
 			rewards: [
 				{
@@ -420,6 +829,17 @@
 			tasks: [{
 				consume_items: true
 				count: 64L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3311E477CC81761E"
 				item: {
 					Count: 1
@@ -438,6 +858,15 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			description: ["You are going to have to travel to the great white north to find some of these delicous berries."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "31291BCDDFA51962"
 			rewards: [{
 				id: "6DCAD01BEF21D5E1"
@@ -446,6 +875,17 @@
 			}]
 			tasks: [{
 				count: 64L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "59445B3F080FDFD1"
 				item: "minecraft:sweet_berries"
 				type: "item"
@@ -456,6 +896,15 @@
 		}
 		{
 			dependencies: ["0000000000000FC0"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1CF567879A605CDE"
 			rewards: [
 				{
@@ -473,6 +922,17 @@
 			tasks: [{
 				advancement: "minecraft:husbandry/bred_all_animals"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "657CBF0E6370C304"
 				type: "advancement"
 			}]
@@ -482,6 +942,15 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			description: ["Let those stalks reach for the sky!"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "479326E5BD12BF8A"
 			rewards: [
 				{
@@ -498,6 +967,17 @@
 			]
 			tasks: [{
 				count: 64L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "64DDC7E899C949C0"
 				item: "minecraft:sugar_cane"
 				type: "item"
@@ -509,6 +989,15 @@
 		{
 			dependencies: ["479326E5BD12BF8A"]
 			description: ["Man I will be able to write so much stuff on this."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "42E723A5E554D01D"
 			rewards: [{
 				id: "7E88053127D4450E"
@@ -517,6 +1006,17 @@
 			}]
 			tasks: [{
 				count: 3L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "420E9DCA8162ADEB"
 				item: "minecraft:paper"
 				type: "item"
@@ -526,6 +1026,15 @@
 		}
 		{
 			dependencies: ["479326E5BD12BF8A"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "49961DB59F6635D6"
 			rewards: [{
 				id: "1EE9334A2F87D5B4"
@@ -534,6 +1043,17 @@
 			}]
 			tasks: [{
 				count: 16L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2A5F424681BE8BA1"
 				item: "minecraft:sugar"
 				type: "item"
@@ -544,6 +1064,15 @@
 		}
 		{
 			dependencies: ["0000000000000FC0"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "27A17EA6EA3056BE"
 			rewards: [{
 				id: "51A0BD09FC9261AC"
@@ -552,6 +1081,17 @@
 			}]
 			tasks: [{
 				count: 64L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "62F3FACE3901E223"
 				item: { Count: 64, id: "farmersdelight:onion" }
 				type: "item"
@@ -562,6 +1102,15 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			description: ["Found on beaches."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "525F03AF99A1D135"
 			rewards: [{
 				id: "106A24F5BA2FECA3"
@@ -569,6 +1118,17 @@
 				xp: 1
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6222761DD1A93D5F"
 				item: "farmersdelight:cabbage_seeds"
 				type: "item"
@@ -578,8 +1138,28 @@
 		}
 		{
 			dependencies: ["0000000000000FC0"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5DD66D89CFFBC6CB"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2C92163AC6A0E68D"
 				item: "supplementaries:flax_seeds"
 				type: "item"
@@ -590,6 +1170,15 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			description: ["Found in savannahs, deserts, and other dry areas."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "560AD0F9298122F9"
 			rewards: [{
 				id: "71623572F0212709"
@@ -597,6 +1186,17 @@
 				xp: 1
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "25A6BF170C220383"
 				item: "farmersdelight:tomato_seeds"
 				type: "item"
@@ -607,6 +1207,15 @@
 		{
 			dependencies: ["525F03AF99A1D135"]
 			description: ["[insert overdone Avatar joke]"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3636E4985AE5DA4A"
 			rewards: [{
 				id: "6C50723C575BED05"
@@ -615,6 +1224,17 @@
 			}]
 			tasks: [{
 				count: 64L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "59D1B3C1813E156D"
 				item: "farmersdelight:cabbage"
 				type: "item"
@@ -625,6 +1245,15 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			description: ["They really added a whole mob for this plant, huh."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "53F9A4108D37742B"
 			rewards: [{
 				id: "1350D211B3899A3E"
@@ -632,6 +1261,17 @@
 				xp: 5
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "09676DA84A069270"
 				item: "minecraft:torchflower_seeds"
 				type: "item"
@@ -642,6 +1282,15 @@
 		{
 			dependencies: ["53F9A4108D37742B"]
 			description: ["At least it looks nice."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "27AF065C882335E1"
 			rewards: [{
 				id: "14EF2743B920C2E5"
@@ -649,6 +1298,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "07ADAED9C9B62707"
 				item: "minecraft:torchflower"
 				type: "item"
@@ -658,6 +1318,15 @@
 		}
 		{
 			dependencies: ["734B0DCBA9412A12"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "60466BDEAEB5226B"
 			rewards: [{
 				id: "435290EEFA0CBFC6"
@@ -665,6 +1334,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "104AC2CB9B6DF077"
 				item: "minecraft:pumpkin_pie"
 				type: "item"
@@ -674,6 +1354,15 @@
 		}
 		{
 			dependencies: ["560AD0F9298122F9"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1F315FE8A7B0B86A"
 			rewards: [{
 				id: "5E2E0DDC8C98FA66"
@@ -682,6 +1371,17 @@
 			}]
 			tasks: [{
 				count: 64L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3C5ED9C1AC4DEB98"
 				item: { Count: 64, id: "farmersdelight:tomato" }
 				type: "item"
@@ -692,6 +1392,15 @@
 		{
 			dependencies: ["1F315FE8A7B0B86A"]
 			description: ["throw them at your friends"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "773B6AA481F91A30"
 			rewards: [{
 				id: "1B5F7D49B12EECC8"
@@ -699,6 +1408,17 @@
 				xp: 5
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1BC1A01C640E82DF"
 				item: "farmersdelight:rotten_tomato"
 				type: "item"
@@ -709,6 +1429,15 @@
 		{
 			dependencies: ["5DD66D89CFFBC6CB"]
 			description: ["Wait a minute, I can't eat string!"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3C3D0DC9A0B47CF7"
 			rewards: [{
 				id: "69C1BB2A5A8A3967"
@@ -717,6 +1446,17 @@
 			}]
 			tasks: [{
 				count: 64L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3E76D80A140A8DF7"
 				item: { Count: 64, id: "supplementaries:flax" }
 				type: "item"
@@ -727,6 +1467,15 @@
 		{
 			dependencies: ["664517285527B807"]
 			description: ["You robbed a village for this, didn't you."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "448EFB9BF8C8E4DC"
 			rewards: [{
 				id: "2088A017E57AEB79"
@@ -735,6 +1484,17 @@
 			}]
 			tasks: [{
 				count: 64L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "001853966E149396"
 				item: { Count: 64, id: "minecraft:hay_block" }
 				type: "item"
@@ -745,6 +1505,15 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			description: ["There's food to be found, deep underground"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "14660686F1A64AE5"
 			rewards: [{
 				id: "58E116A718D6CC10"
@@ -753,6 +1522,17 @@
 			}]
 			tasks: [{
 				count: 64L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "136EAB8CCC9923FF"
 				item: "miners_delight:cave_carrot"
 				type: "item"
@@ -763,6 +1543,15 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			description: ["Found in swamps. Must be grown in water 1 block deep. This is both the seed and the product."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "21B44E8D2E48896B"
 			rewards: [{
 				id: "670B3FA8FF023898"
@@ -770,6 +1559,17 @@
 				xp: 5
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6BF9E6A507AC0571"
 				item: "farmersdelight:rice"
 				type: "item"
@@ -779,6 +1579,15 @@
 		}
 		{
 			dependencies: ["21B44E8D2E48896B"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2D3315618404C6FB"
 			rewards: [{
 				id: "17384718695E1B8C"
@@ -787,6 +1596,17 @@
 			}]
 			tasks: [{
 				count: 64L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1430851ADFD2FE17"
 				item: { Count: 64, id: "farmersdelight:rice_panicle" }
 				type: "item"
@@ -796,6 +1616,15 @@
 		}
 		{
 			dependencies: ["192A80A11DED531C"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "378862B8056108A3"
 			rewards: [{
 				id: "4DB73C2396D718D2"
@@ -804,6 +1633,17 @@
 			}]
 			tasks: [{
 				count: 10L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "69F2AAA1F9C8BCC7"
 				item: "minecraft:beetroot_soup"
 				type: "item"
@@ -814,6 +1654,15 @@
 		{
 			dependencies: ["3636E4985AE5DA4A"]
 			description: ["Cabbage is mostly an ingredient in more complex foods. You can't really eat it by itself."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "08BA0EFA7BA00A04"
 			rewards: [{
 				id: "617DD1AE2266E4A3"
@@ -822,6 +1671,17 @@
 			}]
 			tasks: [{
 				count: 64L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "63AEA07DA2331981"
 				item: { Count: 64, id: "farmersdelight:cabbage_crate" }
 				type: "item"
@@ -831,6 +1691,15 @@
 		}
 		{
 			dependencies: ["14660686F1A64AE5"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "25009AD8713D833D"
 			rewards: [{
 				id: "59F010CBEA244589"
@@ -839,6 +1708,17 @@
 			}]
 			tasks: [{
 				count: 32L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2454777715FC624C"
 				item: { Count: 32, id: "miners_delight:baked_cave_carrot" }
 				type: "item"
@@ -848,6 +1728,15 @@
 		}
 		{
 			dependencies: ["27A17EA6EA3056BE"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7C1FB9C39840E2CE"
 			rewards: [{
 				id: "5D7CDF9CCFD24C64"
@@ -856,6 +1745,17 @@
 			}]
 			tasks: [{
 				count: 64L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1D22B21FB88DD918"
 				item: { Count: 64, id: "farmersdelight:onion_crate" }
 				type: "item"
@@ -865,6 +1765,15 @@
 		}
 		{
 			dependencies: ["31291BCDDFA51962"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "110D80709A6E0A74"
 			rewards: [{
 				id: "1E49EA0D9C1E219D"
@@ -873,6 +1782,17 @@
 			}]
 			tasks: [{
 				count: 16L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0DD4DCC9641BDA9C"
 				item: { Count: 16, id: "farmersdelight:sweet_berry_cookie" }
 				type: "item"
@@ -881,6 +1801,15 @@
 			y: 4.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "148702145B2BFE27"
 			rewards: [{
 				id: "31B7D76C9DB779AC"
@@ -890,6 +1819,17 @@
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "04934A661E040D87"
 				item: {
 					Count: 1
@@ -909,6 +1849,15 @@
 		}
 		{
 			dependencies: ["053C0C086704A424"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5581946E99704369"
 			rewards: [{
 				id: "2319E3FF95D401D9"
@@ -917,6 +1866,17 @@
 			}]
 			tasks: [{
 				count: 64L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "41D2A8F9495D5F00"
 				item: { Count: 64, id: "minecraft:baked_potato" }
 				type: "item"
@@ -927,6 +1887,15 @@
 		{
 			dependencies: ["148702145B2BFE27"]
 			description: ["The tacklebox is used to bait your rod and swap hooks. It can be used to store fishing gear, picked up, and moved like a shulker box."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6A6B425160229A27"
 			rewards: [{
 				id: "569A58A9BE9245FC"
@@ -934,6 +1903,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "06B2C1C1A5672C11"
 				item: "aquaculture:tackle_box"
 				type: "item"
@@ -944,6 +1924,15 @@
 		{
 			dependencies: ["6A6B425160229A27"]
 			description: ["Like a composter, but makes worms instead of compost."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "721A95A657A71C08"
 			rewards: [{
 				id: "6EF0AEEC08AD48AA"
@@ -951,6 +1940,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5C85E079178DDF67"
 				item: "aquaculture:worm_farm"
 				type: "item"
@@ -961,6 +1961,15 @@
 		{
 			dependencies: ["721A95A657A71C08"]
 			description: ["Worms can be used to bait your rod, which increases catching power."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5B237B67091E0EE6"
 			rewards: [{
 				id: "468F3DB6E43662F1"
@@ -968,6 +1977,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6938B0D2A1796767"
 				item: {
 					Count: 1
@@ -984,6 +2004,15 @@
 		{
 			dependencies: ["6A6B425160229A27"]
 			description: ["These can be dyed for a little personal flair to your fishing."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "09580BA2B4BC4BEC"
 			rewards: [{
 				id: "2A4D3B9EDE866EEF"
@@ -992,11 +2021,33 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4749EA8CC1DE539E"
 					item: "aquaculture:bobber"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7F6465C419F6E75F"
 					item: "aquaculture:fishing_line"
 					type: "item"
@@ -1008,6 +2059,15 @@
 		}
 		{
 			dependencies: ["6A6B425160229A27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "32800384FDF25FD6"
 			rewards: [{
 				id: "622FDBF42D8AACAA"
@@ -1015,6 +2075,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6D7E475CC5F404B5"
 				item: "aquaculture:iron_hook"
 				type: "item"
@@ -1024,6 +2095,15 @@
 		}
 		{
 			dependencies: ["32800384FDF25FD6"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5AB0F10B7739CC96"
 			rewards: [{
 				id: "1ABC55D242E85FBC"
@@ -1031,6 +2111,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "269EEA4B6185C7C8"
 				item: "aquaculture:gold_hook"
 				type: "item"
@@ -1040,6 +2131,15 @@
 		}
 		{
 			dependencies: ["32800384FDF25FD6"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7C37A2EF3DCCE61F"
 			rewards: [
 				{
@@ -1062,6 +2162,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0704282FC395D643"
 				item: "aquaculture:diamond_hook"
 				type: "item"
@@ -1071,6 +2182,15 @@
 		}
 		{
 			dependencies: ["7C37A2EF3DCCE61F"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7D2982F4C8FD94F0"
 			rewards: [{
 				id: "17A9F07C8655EDDD"
@@ -1078,6 +2198,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "13D905B735259B12"
 				item: "aquaculture:nether_star_hook"
 				type: "item"
@@ -1087,6 +2218,15 @@
 		}
 		{
 			dependencies: ["32800384FDF25FD6"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7049BCFB065CB3B7"
 			rewards: [{
 				id: "1EFBE4654EA7E00B"
@@ -1094,6 +2234,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1EAA695FAD4F7200"
 				item: "aquaculture:light_hook"
 				type: "item"
@@ -1103,6 +2254,15 @@
 		}
 		{
 			dependencies: ["32800384FDF25FD6"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "006CBB1ABC68C111"
 			rewards: [{
 				id: "1A50E85FD6F85B48"
@@ -1110,6 +2270,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "58A99571ACE62615"
 				item: "aquaculture:heavy_hook"
 				type: "item"
@@ -1119,6 +2290,15 @@
 		}
 		{
 			dependencies: ["32800384FDF25FD6"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "317AC8A722CB9316"
 			rewards: [{
 				id: "51858DDBFC7B3266"
@@ -1126,6 +2306,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3083B35EB738784C"
 				item: "aquaculture:double_hook"
 				type: "item"
@@ -1135,6 +2326,15 @@
 		}
 		{
 			dependencies: ["32800384FDF25FD6"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5D6B0A411A31BAA1"
 			rewards: [{
 				id: "257B9B2CE6DACDDB"
@@ -1142,6 +2342,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "71508A48E1D5F987"
 				item: "aquaculture:redstone_hook"
 				type: "item"
@@ -1151,6 +2362,15 @@
 		}
 		{
 			dependencies: ["32800384FDF25FD6"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7C13586B90FD285F"
 			rewards: [{
 				id: "11FB21D8CCC9FAA5"
@@ -1158,6 +2378,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "076B2D66F0AAC883"
 				item: "aquaculture:note_hook"
 				type: "item"
@@ -1167,6 +2398,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "00447E9A207DA93A"
 			rewards: [{
 				id: "4CC07B38085FE3E9"
@@ -1174,6 +2414,17 @@
 				xp: 10
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3DF608F30B23FC19"
 				item: "minecraft:cod"
 				type: "item"
@@ -1183,6 +2434,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "317DD5BA7A2FE9B1"
 			rewards: [{
 				id: "71820BF23EAC4E7F"
@@ -1190,6 +2450,17 @@
 				xp: 10
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4EA156AC187A2F46"
 				item: "minecraft:salmon"
 				type: "item"
@@ -1199,6 +2470,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "64CE361A732ACC01"
 			rewards: [{
 				id: "68A66D5CE801DB72"
@@ -1206,6 +2486,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5F7ADD9248CE6D12"
 				item: "minecraft:tropical_fish"
 				type: "item"
@@ -1215,6 +2506,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "636C5C576A5D121E"
 			rewards: [{
 				id: "5CC1BEC54EF1EAF4"
@@ -1222,6 +2522,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3168CCF5126217FC"
 				item: "minecraft:pufferfish"
 				type: "item"
@@ -1231,6 +2542,15 @@
 		}
 		{
 			dependencies: ["636C5C576A5D121E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "10BE0A2837F374B9"
 			rewards: [{
 				id: "03AFB4EBEDFB9155"
@@ -1239,6 +2559,17 @@
 			}]
 			tasks: [{
 				count: 64L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6C48D91B28046C88"
 				item: { Count: 64, id: "minecraft:pufferfish" }
 				type: "item"
@@ -1248,6 +2579,15 @@
 		}
 		{
 			dependencies: ["64CE361A732ACC01"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "239A4519AAA5DC57"
 			rewards: [{
 				count: 5
@@ -1256,6 +2596,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "24C6525952230FEC"
 				item: "hmag:golden_tropical_fish"
 				type: "item"
@@ -1265,6 +2616,15 @@
 		}
 		{
 			dependencies: ["00447E9A207DA93A"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5667551548297CD7"
 			rewards: [{
 				count: 5
@@ -1273,6 +2633,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0E30AE62661F2932"
 				item: "oceansdelight:cooked_stuffed_cod"
 				type: "item"
@@ -1282,8 +2653,28 @@
 		}
 		{
 			dependencies: ["0000000000000FC0"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5D30E304E65A1FB4"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "139248C74239962E"
 				item: "minecraft:kelp"
 				type: "item"
@@ -1293,6 +2684,15 @@
 		}
 		{
 			dependencies: ["5D30E304E65A1FB4"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "456A4247C5C245B7"
 			rewards: [{
 				id: "236F6378A0653890"
@@ -1301,6 +2701,17 @@
 			}]
 			tasks: [{
 				count: 64L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3EB8C3D9E0A021CE"
 				item: { Count: 64, id: "minecraft:dried_kelp" }
 				type: "item"
@@ -1310,6 +2721,15 @@
 		}
 		{
 			dependencies: ["456A4247C5C245B7"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "108B521C77B11D4D"
 			rewards: [{
 				id: "31EB884A305431A8"
@@ -1318,6 +2738,17 @@
 			}]
 			tasks: [{
 				count: 64L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2BF82344C816BDC1"
 				item: { Count: 64, id: "minecraft:dried_kelp_block" }
 				type: "item"
@@ -1327,6 +2758,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "080F66D990B84386"
 			rewards: [{
 				id: "68D760CA7A8DAF22"
@@ -1334,6 +2774,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2464801E329E58CB"
 				item: "aquaculture:atlantic_cod"
 				type: "item"
@@ -1343,6 +2794,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "440B4795DE135FCD"
 			rewards: [{
 				id: "45DB366E912E658F"
@@ -1350,6 +2810,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "736D1EC651FE93B1"
 				item: "aquaculture:blackfish"
 				type: "item"
@@ -1359,6 +2830,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "29BF1ED47B7EBB00"
 			rewards: [{
 				id: "24800CF98B89ADC0"
@@ -1366,6 +2846,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0377D78A1D30856B"
 				item: "aquaculture:pacific_halibut"
 				type: "item"
@@ -1375,6 +2866,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1D13E71AFB48A9C8"
 			rewards: [{
 				id: "263FA05572550DBF"
@@ -1382,6 +2882,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "62C61BD1FC8017F4"
 				item: "aquaculture:atlantic_halibut"
 				type: "item"
@@ -1391,6 +2902,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0B7FCCD033E325DC"
 			rewards: [{
 				id: "3075FAD0A198F875"
@@ -1398,6 +2918,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0E661024FF258FE7"
 				item: "aquaculture:atlantic_herring"
 				type: "item"
@@ -1407,6 +2938,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "23E01B043A246845"
 			rewards: [{
 				id: "53047CB3B3D361CF"
@@ -1414,6 +2954,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "50A5FA7B29C6E1C0"
 				item: "aquaculture:pink_salmon"
 				type: "item"
@@ -1423,6 +2974,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6D381F47FD0CC6FD"
 			rewards: [{
 				id: "4C410FCB04019205"
@@ -1430,6 +2990,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4D0BDBE80CA9BB45"
 				item: "aquaculture:pollock"
 				type: "item"
@@ -1439,6 +3010,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "65C2B2E7C71C82CB"
 			rewards: [{
 				id: "0D5E0ACD1D1FF2AB"
@@ -1446,6 +3026,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "77393769EDDE8039"
 				item: "aquaculture:rainbow_trout"
 				type: "item"
@@ -1455,6 +3046,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "45CC47FDADF46C43"
 			rewards: [{
 				id: "5569C6374D6BA6D6"
@@ -1462,6 +3062,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1CBB4A844E1ED97E"
 				item: "aquaculture:bayad"
 				type: "item"
@@ -1471,6 +3082,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "085DED0C6EBE6C08"
 			rewards: [{
 				id: "7A3DA50122052D62"
@@ -1478,6 +3098,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0FB8CBEBD432062A"
 				item: "aquaculture:boulti"
 				type: "item"
@@ -1487,6 +3118,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "46B0F5E291012E64"
 			rewards: [{
 				id: "109CD0F11A795039"
@@ -1494,6 +3134,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "62B190E8CF2DDFC6"
 				item: "aquaculture:capitaine"
 				type: "item"
@@ -1503,6 +3154,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5D96F0AC32EDB7BF"
 			rewards: [{
 				id: "4AA8578F9CCFFC91"
@@ -1510,6 +3170,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "08DBE24AA0AED07B"
 				item: "aquaculture:synodontis"
 				type: "item"
@@ -1519,6 +3190,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "154703951626E85D"
 			rewards: [{
 				id: "602B83C2CFB29929"
@@ -1526,6 +3206,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "54406913ED8096AA"
 				item: "aquaculture:smallmouth_bass"
 				type: "item"
@@ -1535,6 +3226,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4D500D64D058A367"
 			rewards: [{
 				id: "17FC6A34F4E163CD"
@@ -1542,6 +3242,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "43D2DE345A19C8DA"
 				item: "aquaculture:bluegill"
 				type: "item"
@@ -1551,6 +3262,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "45DED4CACDBA6FE7"
 			rewards: [{
 				id: "5DA13AA665969DBA"
@@ -1558,6 +3278,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0533855675904D73"
 				item: "aquaculture:brown_trout"
 				type: "item"
@@ -1567,6 +3298,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "24E60B4F885740DA"
 			rewards: [{
 				id: "16B91D35E944EFF7"
@@ -1574,6 +3314,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1D194D6336C479F3"
 				item: "aquaculture:carp"
 				type: "item"
@@ -1583,6 +3334,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6B74057A60E729CF"
 			rewards: [{
 				id: "3C16D6A0D0368CB3"
@@ -1590,6 +3350,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "50D91AFC159749DF"
 				item: "aquaculture:catfish"
 				type: "item"
@@ -1599,6 +3370,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4C6C669AD3DDE8B4"
 			rewards: [{
 				id: "0697652167B7F8E6"
@@ -1606,6 +3386,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0911245257B7147C"
 				item: "aquaculture:gar"
 				type: "item"
@@ -1615,6 +3406,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "393F898C884509BD"
 			rewards: [{
 				id: "2E7F986E5663A64C"
@@ -1622,6 +3422,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "68F9F0F8534607E6"
 				item: {
 					Count: 1
@@ -1637,6 +3448,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "40E980CBAF91F22B"
 			rewards: [{
 				id: "327D909BD38BAF39"
@@ -1644,6 +3464,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "47CA59B60462A4BA"
 				item: "aquaculture:muskellunge"
 				type: "item"
@@ -1653,6 +3484,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "44F907A2A70426BB"
 			rewards: [{
 				id: "21D81869B3470FE2"
@@ -1660,6 +3500,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "162657F08F1B0E58"
 				item: "aquaculture:perch"
 				type: "item"
@@ -1669,6 +3520,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0CCD7A2AB957E3E9"
 			rewards: [{
 				id: "08FE2EF24366A553"
@@ -1676,6 +3536,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "04D271FF475477FA"
 				item: "aquaculture:arapaima"
 				type: "item"
@@ -1685,6 +3556,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5CD60CF8794967B5"
 			rewards: [{
 				id: "6C4BB8FDFFD69767"
@@ -1692,6 +3572,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "124C24572F11A37D"
 				item: "aquaculture:piranha"
 				type: "item"
@@ -1701,6 +3592,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6F13DE349100F35E"
 			rewards: [{
 				id: "73CB3C5649A4862B"
@@ -1708,6 +3608,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0219FAD9B8E0B21A"
 				item: "aquaculture:tambaqui"
 				type: "item"
@@ -1717,6 +3628,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "41CC5BFAA1250438"
 			rewards: [{
 				id: "2347B4376555E7AC"
@@ -1724,6 +3644,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "06DA83D426D701BB"
 				item: "aquaculture:brown_shrooma"
 				type: "item"
@@ -1733,6 +3664,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1FBB1E97DFD29832"
 			rewards: [{
 				id: "7682C76CA4E4D143"
@@ -1740,6 +3680,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7F42094F5285ED00"
 				item: "aquaculture:red_shrooma"
 				type: "item"
@@ -1749,6 +3700,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5AF1D346CE845523"
 			rewards: [{
 				id: "4AEC88E15E0A3B96"
@@ -1756,6 +3716,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2B35F580AF5ABBF1"
 				item: "aquaculture:red_grouper"
 				type: "item"
@@ -1765,6 +3736,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "476B228C4CCC35ED"
 			rewards: [{
 				id: "7DD58BDDDE9426D0"
@@ -1772,6 +3752,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "66433826BE2CEC1F"
 				item: "aquaculture:tuna"
 				type: "item"
@@ -1781,6 +3772,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7219711EB4455DDA"
 			rewards: [{
 				id: "4BD0A66589623C62"
@@ -1788,6 +3788,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7C8E646A29FC23C3"
 				item: "aquaculture:goldfish"
 				type: "item"
@@ -1798,6 +3809,15 @@
 		{
 			dependencies: ["6A6B425160229A27"]
 			description: ["These treasure chests can be fished up with enough luck. They contain some junk and a random Neptunium item."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "69CF521B5823F2BF"
 			rewards: [
 				{
@@ -1812,6 +3832,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "593C40C36B492713"
 				item: "aquaculture:neptunes_bounty"
 				type: "item"
@@ -1821,6 +3852,15 @@
 		}
 		{
 			dependencies: ["69CF521B5823F2BF"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "694BAA9D2C7B5152"
 			rewards: [{
 				id: "7433477D93A47ACA"
@@ -1828,6 +3868,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "686CCDBF18A0620D"
 				item: {
 					Count: 1
@@ -1846,6 +3897,15 @@
 		}
 		{
 			dependencies: ["69CF521B5823F2BF"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "079F17749B28FB52"
 			rewards: [{
 				id: "0856A79FECD43524"
@@ -1853,6 +3913,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "293ADFB4E7F011F0"
 				item: {
 					Count: 1
@@ -1872,6 +3943,15 @@
 		}
 		{
 			dependencies: ["317DD5BA7A2FE9B1"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5CA17EF9A37EE150"
 			rewards: [{
 				id: "108F4E534187248D"
@@ -1880,6 +3960,17 @@
 			}]
 			tasks: [{
 				count: 64L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5AB9B5B8F70A3D66"
 				item: { Count: 64, id: "minecraft:cooked_salmon" }
 				type: "item"
@@ -1889,8 +3980,28 @@
 		}
 		{
 			description: ["Turn the fruits of your garden into liquor with powerful effects!"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0FE8DE378AE2A9DA"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "043B683FC791C91A"
 				item: "vinery:fermentation_barrel"
 				type: "item"
@@ -1900,8 +4011,28 @@
 			y: 0.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "57B7ABFF82D3058D"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4B057B08FBEB1C79"
 				item: "vinery:red_grape_seeds"
 				type: "item"
@@ -1910,8 +4041,28 @@
 			y: -2.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4F967E85C640401D"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5B0051A0380FCF88"
 				item: "vinery:white_grape_seeds"
 				type: "item"
@@ -1920,8 +4071,28 @@
 			y: 2.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7DDD5541F2392278"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1CCCEE7CC495FBC2"
 				item: "vinery:savanna_grape_seeds_red"
 				type: "item"
@@ -1930,8 +4101,28 @@
 			y: -2.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0FDEA33E61F29A90"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1F4E96AFB65D3896"
 				item: "vinery:savanna_grape_seeds_white"
 				type: "item"
@@ -1940,8 +4131,28 @@
 			y: 2.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6F98EBDE3A5AF072"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "42CCF63F6D71F3E6"
 				item: "vinery:taiga_grape_seeds_red"
 				type: "item"
@@ -1950,8 +4161,28 @@
 			y: -2.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7EAFCE4A382C639D"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0588DB474EF03A6E"
 				item: "vinery:taiga_grape_seeds_white"
 				type: "item"
@@ -1960,8 +4191,28 @@
 			y: 2.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5F5B75162CEB540F"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1C33B5B5C650E00E"
 				item: "vinery:jungle_grape_seeds_red"
 				type: "item"
@@ -1970,8 +4221,28 @@
 			y: -2.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "01C3E335FDA2EE7B"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "547CB25A2E6A0227"
 				item: "vinery:jungle_grape_seeds_white"
 				type: "item"
@@ -1980,8 +4251,28 @@
 			y: 2.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "55988662584A558E"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "332D8D94391EFC9A"
 				item: "vinery:dark_cherry_sapling"
 				type: "item"
@@ -1990,8 +4281,28 @@
 			y: -0.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "21267E243A5F2691"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6FB11A896591DABE"
 				item: "vinery:apple_tree_sapling"
 				type: "item"
@@ -2000,8 +4311,28 @@
 			y: 0.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "11AD514C0599769F"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0B5DC8D1FB8485BE"
 				item: "vinery:cherry"
 				type: "item"
@@ -2010,8 +4341,28 @@
 			y: -0.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "205C724D4797FCE7"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "18D92C4BBC66C32F"
 				item: "minecraft:apple"
 				type: "item"
@@ -2020,8 +4371,28 @@
 			y: 0.5d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "604FF7E861A74327"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "214937F83117CD11"
 				item: "vinery:red_grape"
 				type: "item"
@@ -2030,8 +4401,28 @@
 			y: -3.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "750459D4535B4BDF"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "31C8ABE112E4A939"
 				item: "vinery:white_grape"
 				type: "item"
@@ -2040,8 +4431,28 @@
 			y: 3.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "389F848FC18A5986"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "34A1C20C12F542E6"
 				item: "vinery:jungle_grapes_white"
 				type: "item"
@@ -2050,8 +4461,28 @@
 			y: 3.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1564A67BF6FB195E"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2801D754E6C037D1"
 				item: "vinery:savanna_grapes_white"
 				type: "item"
@@ -2060,8 +4491,28 @@
 			y: 3.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6824F59A6CCE60B4"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6E29DB558CB1160A"
 				item: "vinery:taiga_grapes_white"
 				type: "item"
@@ -2070,8 +4521,28 @@
 			y: 3.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "483E6A88BAD48DF8"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "028C1B11EE1B3381"
 				item: "vinery:jungle_grapes_red"
 				type: "item"
@@ -2080,8 +4551,28 @@
 			y: -3.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "632DAC1B27E4543F"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "526CCCB20E69C748"
 				item: "vinery:taiga_grapes_red"
 				type: "item"
@@ -2090,8 +4581,28 @@
 			y: -3.0d
 		}
 		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7E1DD8048AF5B2B5"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "798527FAF7999510"
 				item: "vinery:savanna_grapes_red"
 				type: "item"
@@ -2101,6 +4612,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7CD7CBEA0089E52C"
 			rewards: [{
 				id: "53EC1B694C3DB903"
@@ -2108,6 +4628,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7D69DC5D1C0209E0"
 				item: "aquaculture:box_turtle"
 				type: "item"
@@ -2117,6 +4648,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4C31F1FDD9E9D3AD"
 			rewards: [{
 				id: "2F1F80B9FB6D5E08"
@@ -2124,6 +4664,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3035FF0CEF37430D"
 				item: "aquaculture:arrau_turtle"
 				type: "item"
@@ -2133,6 +4684,15 @@
 		}
 		{
 			dependencies: ["148702145B2BFE27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4EC2765B95D5EC63"
 			rewards: [{
 				id: "647DFA0B274443A8"
@@ -2140,6 +4700,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5ED9DECD5D786083"
 				item: "aquaculture:starshell_turtle"
 				type: "item"
@@ -2149,6 +4720,15 @@
 		}
 		{
 			dependencies: ["6A6B425160229A27"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0000000000000168"
 			rewards: [
 				{
@@ -2175,31 +4755,97 @@
 			]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2C90592E111D8242"
 					item: "aquaculture:driftwood"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "000000000000016C"
 					item: "aquaculture:tin_can"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "000000000000016D"
 					item: "aquaculture:message_in_a_bottle"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "000000000000016E"
 					item: "aquaculture:box"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "000000000000016F"
 					item: "aquaculture:lockbox"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0000000000000170"
 					item: "aquaculture:treasure_chest"
 					type: "item"
@@ -2212,6 +4858,15 @@
 		{
 			dependencies: ["0000000000000FC0"]
 			description: ["Good Lord, this stuff explodes!"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6D564EC3B4625C67"
 			rewards: [{
 				id: "0F3F878D79C433E5"
@@ -2219,6 +4874,17 @@
 				xp: 15
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "643734262CEA37A3"
 				item: "nethersdelight:propelplant_cane"
 				type: "item"
@@ -2228,6 +4894,15 @@
 		}
 		{
 			dependencies: ["6D564EC3B4625C67"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1C662D549DB2E6DB"
 			rewards: [{
 				id: "52122FE05210EA3A"
@@ -2236,6 +4911,17 @@
 			}]
 			tasks: [{
 				count: 64L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5702643D1F4E754A"
 				item: { Count: 64, id: "nethersdelight:propelplant_cane" }
 				type: "item"
@@ -2249,6 +4935,15 @@
 				""
 				"The quests following the initial crops give a basic recipe to help keep you fed but look to JEI for more complex and fullfilling recipes."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "minecraft:farmland"
 			id: "0000000000000FC0"
 			rewards: [
@@ -2266,6 +4961,17 @@
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6898A7D9513E670C"
 				item: {
 					Count: 1

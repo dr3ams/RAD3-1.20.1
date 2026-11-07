@@ -11,6 +11,15 @@
 		{
 			dependencies: ["085E485E8091D543"]
 			description: ["This charm is a must-have for all adventurers. Equipping it will allow mobs to drop rare items related to the traits they have. You'll want to hunt fiery, moonwalk, and gravity mobs for blaze powder and particles of lightning. Those are used to craft the next tier of looting charm. "]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4AB1E47BD55C667F"
 			rewards: [
 				{
@@ -26,6 +35,17 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1487D4DC87887C0E"
 				item: "l2hostility:charm_of_looting_1"
 				type: "item"
@@ -36,6 +56,15 @@
 		{
 			dependencies: ["4AB1E47BD55C667F"]
 			description: ["This looting charm enables unique drops from mobs based on their traits. These rare drops are far more difficult to get without this charm."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4647DFF4EABDE353"
 			rewards: [{
 				id: "3162B16E28FFAB15"
@@ -44,6 +73,17 @@
 			}]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7178D3E1EDD737B7"
 				item: "l2hostility:charm_of_looting_2"
 				type: "item"
@@ -63,6 +103,15 @@
 				" - Holding a shield and getting rammed by a Ravager"
 				" - Casting Launch with a lot of Amplify on it"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2C8184EF50649550"
 			rewards: [{
 				count: 4
@@ -71,6 +120,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2FB8AE9C0F310FB3"
 				item: "l2hostility:chaos_ingot"
 				type: "item"
@@ -87,6 +147,15 @@
 				""
 				"Note: When an enchanted book appears in a crafting recipe, ANY ITEM with that enchantment can be used. So, for example, this curse can be crafted with a sword with looting and a pickaxe with silk touch."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1887FFFDF2F18508"
 			rewards: [{
 				id: "56A6CE2633563884"
@@ -96,6 +165,17 @@
 			shape: "octagon_important"
 			subtitle: "I want what you have"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6531E6FD09790BC7"
 				item: "l2hostility:curse_of_envy"
 				type: "item"
@@ -106,6 +186,15 @@
 		{
 			dependencies: ["2C8184EF50649550"]
 			description: ["Stops the difficulty from rising, but also stops you from getting special loot. Basically, a pause button on progress."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2C7BE26B882BA97A"
 			rewards: [
 				{
@@ -122,6 +211,17 @@
 			shape: "octagon_important"
 			subtitle: "I want a break"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1108D3ABFFE642A6"
 				item: "l2hostility:curse_of_sloth"
 				type: "item"
@@ -132,6 +232,15 @@
 		{
 			dependencies: ["2C8184EF50649550"]
 			description: ["Equipping the Chaotic Looting Charm enables even more unique drops. "]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2F1B8FFAB949F4BF"
 			rewards: [{
 				count: 8
@@ -141,6 +250,17 @@
 			}]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "644933C86C6EA2E1"
 				item: "l2hostility:charm_of_looting_3"
 				type: "item"
@@ -151,6 +271,15 @@
 		{
 			dependencies: ["1887FFFDF2F18508"]
 			description: ["This curse makes mobs drop Bottles of Curse based on their level. You are going to need A LOT of Bottles of Curse."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1EAB72EC26A866EF"
 			rewards: [{
 				id: "507CFA76120EDB90"
@@ -160,6 +289,17 @@
 			shape: "octagon_important"
 			subtitle: "MORE BOTTLES"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "35A8A25BACED3031"
 				item: "l2hostility:curse_of_gluttony"
 				type: "item"
@@ -170,6 +310,15 @@
 		{
 			dependencies: ["1887FFFDF2F18508"]
 			description: ["Gives you more loot, but raises the difficulty. Raising the difficulty can be good, since it lets mobs with new, powerful traits spawn. High risk, high reward."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "37EFC27EA5A642AC"
 			rewards: [{
 				id: "40C4FF696E92D3D3"
@@ -179,6 +328,17 @@
 			shape: "octagon_important"
 			subtitle: "I want more"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "41D4E55C7DFD707C"
 				item: "l2hostility:curse_of_greed"
 				type: "item"
@@ -189,6 +349,15 @@
 		{
 			dependencies: ["1887FFFDF2F18508"]
 			description: ["This curse makes mobs drop all their armor and weapons. Very helpful for collecting tridents or items with Protection 4."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "44E782F20A5B4CF2"
 			rewards: [{
 				id: "7D53C1EDA29E44C2"
@@ -198,6 +367,17 @@
 			shape: "octagon_important"
 			subtitle: "Take off your armor~♪"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "457615BB9A7F18B4"
 				item: "l2hostility:curse_of_lust"
 				type: "item"
@@ -208,6 +388,15 @@
 		{
 			dependencies: ["6BB9F5B1E1AE4BDE"]
 			description: ["The fourth and final looting charm. Equipping it will make Eternium nuggets drop from mobs with Ragnarok and the Imagine Breaker will drop from mobs with Dispell 3."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6DF2981982ED9BAE"
 			rewards: [{
 				id: "551358B69CD0A19D"
@@ -216,6 +405,17 @@
 			}]
 			shape: "diamond"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "18CC932CB8D7B0BB"
 				item: "l2hostility:charm_of_looting_4"
 				type: "item"
@@ -230,6 +430,15 @@
 				""
 				"Bottles of Curse can also be drunk to increase your difficulty. This is the only way to encounter some of the rarest and most powerful mob traits, such as Ragnarok."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "32C34F16A99784BF"
 			rewards: [{
 				id: "6C54F024FAED0846"
@@ -239,6 +448,17 @@
 			tasks: [{
 				consume_items: true
 				count: 256L
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7A26D3694D0094F1"
 				item: "l2hostility:bottle_of_curse"
 				type: "item"
@@ -257,6 +477,15 @@
 				""
 				"They can also be used on mobs to give them that item's trait. This includes some pets!"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "19E3721B38A7E89F"
 			rewards: [{
 				count: 3
@@ -265,6 +494,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "48CCF9E920EABA2C"
 				item: {
 					Count: 1
@@ -286,6 +526,15 @@
 				"19E3721B38A7E89F"
 			]
 			description: ["Miracle Ingots are used to craft the last two curses as well as other end-game gear."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6BB9F5B1E1AE4BDE"
 			rewards: [{
 				count: 4
@@ -294,6 +543,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5FFA445BDF4BAAA5"
 				item: "l2hostility:miracle_ingot"
 				type: "item"
@@ -304,6 +564,15 @@
 		{
 			dependencies: ["6BB9F5B1E1AE4BDE"]
 			description: ["A powerful offensive curse. Grants immunity to several negative effects and gives a massive, scaling attack boost. You'll definitely need it."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "43B44F0D48673B37"
 			rewards: [{
 				id: "39EB5A874AF41F52"
@@ -313,6 +582,17 @@
 			shape: "octagon_important"
 			subtitle: "I'm gonna kill you"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "11F9FF16D9172330"
 				item: "l2hostility:curse_of_wrath"
 				type: "item"
@@ -327,6 +607,15 @@
 				""
 				"I recommend removing this curse when summoning a boss, then equipping it again once it is summoned."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4D584EC8ED383E57"
 			rewards: [{
 				id: "385640D64E131B12"
@@ -336,6 +625,17 @@
 			shape: "octagon_important"
 			subtitle: "I'm the best"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0FF4129423628988"
 				item: "l2hostility:curse_of_pride"
 				type: "item"
@@ -346,6 +646,15 @@
 		{
 			dependencies: ["6DF2981982ED9BAE"]
 			description: ["Eternium can either be crafted one nugget at a time, or looted from mobs with Ragnarok if you have the Miraculous Looting Charm equipped. It is used to craft end-game gear."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "07FAEDB31A2025A5"
 			rewards: [{
 				count: 4
@@ -354,6 +663,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5B96EEFEE9E93A00"
 				item: "l2complements:eternium_ingot"
 				type: "item"
@@ -364,6 +684,15 @@
 		{
 			dependencies: ["6DF2981982ED9BAE"]
 			description: ["Equipping this allows you to bypass all protective traits and deal damage to the mob directly. Having this equipped is the ONLY way to kill a mob with both Dispell and Dementor. After you get your first one, any extras can be smelted down into chaos ingots."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "638E809A1EB154B2"
 			rewards: [{
 				id: "239D1A7BA8A4ED20"
@@ -371,6 +700,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2E0B3E3ED3AF6301"
 				item: "l2hostility:imagine_breaker"
 				type: "item"
@@ -381,6 +721,15 @@
 		{
 			dependencies: ["37EFC27EA5A642AC"]
 			description: ["Straight-up multiplies mob drops. You can even get overstacked items with it. Even higher risk for even higher reward!"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5B44C59226BC1BFE"
 			rewards: [{
 				id: "1549D52FCB16F0DE"
@@ -389,6 +738,17 @@
 			}]
 			subtitle: "I want it all!"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6345EF91C80A9B6B"
 				item: "l2hostility:greed_of_nidhoggur"
 				type: "item"
@@ -399,6 +759,15 @@
 		{
 			dependencies: ["07FAEDB31A2025A5"]
 			description: ["Despite the similar-looking tooltip, the Abrahadabra is far more powerful than the Ring of Reflection. The Abrahadabra gives you immunity to (almost) all traits. Pulling, Repelling, Killer Aura, Ragnarok, they all do nothing to you. Reprint, though, still hurts."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "500559C4EC48DAE9"
 			rewards: [{
 				id: "4FA1FF20ABF0B9F5"
@@ -406,6 +775,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "05CAF95AC3121999"
 				item: "l2hostility:abrahadabra"
 				type: "item"
@@ -416,6 +796,15 @@
 		{
 			dependencies: ["07FAEDB31A2025A5"]
 			description: ["Makes every mob as powerful as it can be for its level, but you'll always get all of its traits. High risk, high reward. Good for hunting down rare mob traits."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2447BA68A5E96A73"
 			rewards: [{
 				id: "122ED1777B6F2B93"
@@ -431,6 +820,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "41452B1B165DB2AA"
 				item: "l2hostility:abyssal_thorn"
 				type: "item"
@@ -441,6 +841,15 @@
 		{
 			dependencies: ["2C7BE26B882BA97A"]
 			description: ["Resets the difficulty to minimum. It'll only raise from curios and dimension-specific difficulty. This curio lacks the downside of the Curse of Sloth, so you can still get special drops while you have it."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "14CF2EF91064A780"
 			rewards: [{
 				count: 3
@@ -450,6 +859,17 @@
 			}]
 			subtitle: "I don't want to fight"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1AFDFEA5A78D0F4C"
 				item: "l2hostility:divinity_light"
 				type: "item"
@@ -464,6 +884,15 @@
 				""
 				"fun fact: it used to take 558 anvils to craft this anvil"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4720DBBDF38D580A"
 			rewards: [
 				{
@@ -481,6 +910,17 @@
 			]
 			subtitle: "lol. lmao even."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "67C48D6AC003956B"
 				item: "l2complements:eternal_anvil"
 				type: "item"
@@ -490,6 +930,15 @@
 		}
 		{
 			dependencies: ["4AB1E47BD55C667F"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7CB2EC23265E714B"
 			rewards: [{
 				id: "5F7CA0C1CC6ACEDE"
@@ -497,6 +946,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7D1BA320342BBCD2"
 				item: "l2hostility:hostility_detector"
 				type: "item"
@@ -507,6 +967,15 @@
 		{
 			dependencies: ["4AB1E47BD55C667F"]
 			description: ["Once you start seeing mobs above level 50, I highly recommend crafting and wearing a pair of these goggles. They'll stop invisible mobs from sneaking up on you. And they're just handy to have in general."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "424EC719533E15F9"
 			rewards: [
 				{
@@ -521,6 +990,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7EB097F588A25867"
 				item: "l2hostility:detector_glasses"
 				type: "item"
@@ -531,6 +1011,15 @@
 		{
 			dependencies: ["2F1B8FFAB949F4BF"]
 			description: ["When an enchantment is applied to this book in an anvil, it creates two of that enchanted book. You'll need this later on."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1BEBBCBDDF2D0138"
 			rewards: [{
 				count: 16
@@ -539,6 +1028,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3EF1C561C6D9F946"
 				item: "l2hostility:book_of_reprint"
 				type: "item"
@@ -549,6 +1049,15 @@
 		{
 			dependencies: ["1BEBBCBDDF2D0138"]
 			description: ["This book can be renamed in an anvil to the ID of any non-treasure enchantment (so no Mending or Vien Miner, for example) to turn it into that enchanted book. Can be very helpful, if expensive."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5FDE0BD13FFD0089"
 			rewards: [{
 				count: 16
@@ -557,6 +1066,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "61F724EE27A52A9F"
 				item: "l2hostility:book_of_omniscience"
 				type: "item"
@@ -570,6 +1090,15 @@
 				""
 				"Totemic gold armor is only about as good as iron, but it heals you when it loses durability. This pairs well with the Life-Mending enchantment. If you add the Hardened enchantment, you won't heal as much."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "l2complements:totemic_gold_chestplate"
@@ -602,6 +1131,17 @@
 			]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "107352A16C2A0639"
 					item: {
 						Count: 1
@@ -616,6 +1156,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3650F5C27EB333CA"
 					item: {
 						Count: 1
@@ -630,6 +1181,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4BD010BD2220BE5A"
 					item: {
 						Count: 1
@@ -644,6 +1206,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2539B1C12EA2589D"
 					item: {
 						Count: 1
@@ -664,6 +1237,15 @@
 		}
 		{
 			description: ["Totemic gold tools and weapons heal you when they lose durability. They also deal more damage to undead."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "l2complements:totemic_gold_pickaxe"
@@ -697,6 +1279,17 @@
 			]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6DBE8A095C4A54FC"
 					item: {
 						Count: 1
@@ -711,6 +1304,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2E67554F5B2801D0"
 					item: {
 						Count: 1
@@ -725,6 +1329,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1D65D60676D3C689"
 					item: {
 						Count: 1
@@ -739,6 +1354,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "43ACE5E2C3708A4F"
 					item: {
 						Count: 1
@@ -753,6 +1379,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4175649FD1126C56"
 					item: {
 						Count: 1
@@ -774,6 +1411,15 @@
 		{
 			dependencies: ["6BB9F5B1E1AE4BDE"]
 			description: ["Pairs well with the Ring of Divinity."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "66DA3907930D748C"
 			rewards: [{
 				id: "620068C4DC85E9DE"
@@ -789,6 +1435,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "635B7BE001EED842"
 				item: "l2hostility:divinity_cross"
 				type: "item"
@@ -802,6 +1459,15 @@
 				""
 				"Shulkerate armor is as good as diamond, but it has the Hardened enchantment built in, making it extremely durable."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "l2complements:shulkerate_chestplate"
@@ -820,6 +1486,17 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0902B520CC095AA6"
 					item: {
 						Count: 1
@@ -834,6 +1511,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1C165E164808965B"
 					item: {
 						Count: 1
@@ -848,6 +1536,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "618EFC0E0DB54390"
 					item: {
 						Count: 1
@@ -862,6 +1561,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3D531047FF583972"
 					item: {
 						Count: 1
@@ -882,6 +1592,15 @@
 		}
 		{
 			description: ["Shulkerate tools are extremely durable and have a slightly longer reach than most tools."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "l2complements:shulkerate_pickaxe"
@@ -901,6 +1620,17 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5B74E2F044A6AAF8"
 					item: {
 						Count: 1
@@ -915,6 +1645,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7EB399CE0C0C3BD7"
 					item: {
 						Count: 1
@@ -929,6 +1670,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7342F9D1BF9A0D04"
 					item: {
 						Count: 1
@@ -943,6 +1695,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "46FF8402489F9C35"
 					item: {
 						Count: 1
@@ -957,6 +1720,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2105639322808160"
 					item: {
 						Count: 1
@@ -977,6 +1751,15 @@
 		}
 		{
 			description: ["Riptide on land! Fall damage protection not included."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0F8CD94C12F70AB6"
 			rewards: [{
 				id: "339D369D5E111168"
@@ -984,6 +1767,17 @@
 				xp: 777
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "457999D6F409903F"
 				item: {
 					Count: 1
@@ -1001,6 +1795,15 @@
 		}
 		{
 			description: ["Stops you from getting obliterated in one hit. But watch out for the second hit."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4C9A4D021457F777"
 			rewards: [{
 				id: "1F21C02B7B678E6E"
@@ -1008,6 +1811,17 @@
 				xp: 777
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5BC9F641E51A557D"
 				item: {
 					Count: 1
@@ -1025,6 +1839,15 @@
 		}
 		{
 			description: ["Erases all potion effects, both good and bad. Also makes you immune to magic damage."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4B0874B6C46A9363"
 			rewards: [{
 				id: "42A68F864E452B3C"
@@ -1032,6 +1855,17 @@
 				xp: 777
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "305266B59F923567"
 				item: {
 					Count: 1
@@ -1049,6 +1883,15 @@
 		}
 		{
 			description: ["Tired of getting blinded, weakened, poisoned, withered, nauseated, frozen, and slowed? This ring is for you!"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5B05AD90640A64D0"
 			rewards: [{
 				id: "69823A235DBF08B1"
@@ -1056,6 +1899,17 @@
 				xp: 777
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "06B664BA3235FF04"
 				item: {
 					Count: 1
@@ -1073,6 +1927,15 @@
 		}
 		{
 			description: ["Very handy for preventing Endermen or other teleporting mobs from teleporting away from you."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0DAB16C5E892D9A0"
 			rewards: [{
 				id: "536798F114EE1936"
@@ -1080,6 +1943,17 @@
 				xp: 777
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "08D0012ECCD28F37"
 				item: {
 					Count: 1
@@ -1097,6 +1971,15 @@
 		}
 		{
 			description: ["Pairs well with Totemic Gold equipment or the Hardened enchantment, but not both at once!"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0A4A56A37F9F870E"
 			rewards: [{
 				id: "429937B56C3A9D2B"
@@ -1104,6 +1987,17 @@
 				xp: 777
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6178AF00FF5A983F"
 				item: {
 					Count: 1
@@ -1121,6 +2015,15 @@
 		}
 		{
 			description: ["Heals you for 1% of your health per second. Better than nothing, and you might be able to abuse it with really high health."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7B7FA58532DDA106"
 			rewards: [{
 				id: "35AC4E5D90CE4AF8"
@@ -1128,6 +2031,17 @@
 				xp: 777
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6D6452AA06F7DA61"
 				item: {
 					Count: 1
@@ -1149,6 +2063,15 @@
 				""
 				"Poseidite armor is about as good as diamond armor on land. In the water, it becomes arguably the best armor in the pack, giving huge boosts to speed and defense. If you plan on wearing the full set DO NOT put Depth Strider on the boots. The Dolphin's Grace effect combined with Depth Strider will make it impossible to control your player in the water."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "l2complements:poseidite_chestplate"
@@ -1167,6 +2090,17 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "308451A1B1C6A7CF"
 					item: {
 						Count: 1
@@ -1181,6 +2115,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "093F99E2969ACF36"
 					item: {
 						Count: 1
@@ -1195,6 +2140,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1F56993011B8A627"
 					item: {
 						Count: 1
@@ -1209,6 +2165,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1285B31F20DEE9AF"
 					item: {
 						Count: 1
@@ -1229,6 +2196,15 @@
 		}
 		{
 			description: ["Poseidite weapons and tools are about as good as diamond on land. In the water, they receive huge boosts to speed and damage. They also deal extra damage to aquatic mobs and mobs damaged by water."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "l2complements:poseidite_pickaxe"
@@ -1247,6 +2223,17 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2390E74060862535"
 					item: {
 						Count: 1
@@ -1261,6 +2248,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5A90B0546EF9C07B"
 					item: {
 						Count: 1
@@ -1275,6 +2273,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "05685602777C3712"
 					item: {
 						Count: 1
@@ -1289,6 +2298,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0FBC2EFBDFE0D21B"
 					item: {
 						Count: 1
@@ -1303,6 +2323,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3BEB3CCB3C11A714"
 					item: {
 						Count: 1
@@ -1327,6 +2358,15 @@
 				""
 				"Sculkium armor has high defense, durability, and gives bonus health and attack speed. Wearing even one piece will give immunity to several negative effects and knockback. Wearing a full set will make you silent, undetectable by sculk sensors or the Warden."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "l2complements:sculkium_chestplate"
@@ -1354,6 +2394,17 @@
 			]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7504F111EF2CB68F"
 					item: {
 						Count: 1
@@ -1368,6 +2419,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3A41928523134CDA"
 					item: {
 						Count: 1
@@ -1382,6 +2444,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4888EE234DAD2084"
 					item: {
 						Count: 1
@@ -1396,6 +2469,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "72754C37B7D7AB34"
 					item: {
 						Count: 1
@@ -1416,6 +2500,15 @@
 		}
 		{
 			description: ["Sculkium tools have high durability and break all blocks at the same speed."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "l2complements:sculkium_pickaxe"
@@ -1443,6 +2536,17 @@
 			]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "430EE60C8E7292A0"
 					item: {
 						Count: 1
@@ -1457,6 +2561,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1DBC18D4B0694349"
 					item: {
 						Count: 1
@@ -1471,6 +2586,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "28D98BA209BB8092"
 					item: {
 						Count: 1
@@ -1485,6 +2611,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "74508D2B9FA2BBC8"
 					item: {
 						Count: 1
@@ -1499,6 +2636,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "670C299651E6BE57"
 					item: {
 						Count: 1
@@ -1519,6 +2667,15 @@
 		}
 		{
 			description: ["Eternium armor has incredible armor toughness and knockback resistance. It is unbreakable. The durability is just for show."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "l2complements:eternium_chestplate"
@@ -1537,6 +2694,17 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4DAD3A192395CEC8"
 					item: {
 						Count: 1
@@ -1551,6 +2719,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2B3F2D942C465612"
 					item: {
 						Count: 1
@@ -1565,6 +2744,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6161B44A1ED0007C"
 					item: {
 						Count: 1
@@ -1579,6 +2769,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "7C54E8B863D5BA93"
 					item: {
 						Count: 1
@@ -1599,6 +2800,15 @@
 		}
 		{
 			description: ["Eternium tools are unbreakable."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: {
 				Count: 1
 				id: "l2complements:eternium_pickaxe"
@@ -1617,6 +2827,17 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "374AAA9EAD1A56EB"
 					item: {
 						Count: 1
@@ -1631,6 +2852,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "43395F3BD9C054EA"
 					item: {
 						Count: 1
@@ -1645,6 +2877,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "607755D62E33C9D3"
 					item: {
 						Count: 1
@@ -1659,6 +2902,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "41C3A99A599A7982"
 					item: {
 						Count: 1
@@ -1673,6 +2927,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "283AB0166B42D0C8"
 					item: {
 						Count: 1
@@ -1694,6 +2959,15 @@
 		{
 			dependencies: ["6BB9F5B1E1AE4BDE"]
 			description: ["This item automatically unseals items that have been sealed by the Ragnarok trait. It is immune to being sealed."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "45806027148F0D54"
 			rewards: [{
 				id: "10387862CFB71F3F"
@@ -1701,6 +2975,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7C0C7994EDB744B6"
 				item: {
 					Count: 1
@@ -1717,6 +3002,15 @@
 		{
 			dependencies: ["6BB9F5B1E1AE4BDE"]
 			description: ["I'm not sure if this item actually does anything with Better Combat installed."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "28D8095FD4371A77"
 			rewards: [{
 				id: "06E8A7D2C971E499"
@@ -1724,6 +3018,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1322FD4CBD91D50D"
 				item: "l2hostility:platinum_star"
 				type: "item"
@@ -1733,6 +3038,15 @@
 		}
 		{
 			dependencies: ["19E3721B38A7E89F"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "46A0376C04C60574"
 			rewards: [
 				{
@@ -1754,6 +3068,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4AF881FFAF30DC0A"
 				item: {
 					Count: 1
@@ -1770,6 +3095,15 @@
 		{
 			dependencies: ["2C8184EF50649550"]
 			description: ["Adds 2 more head slots. You can only wear one Oddeyes Glasses. Now you can wear your Detector Glasses and your Night Vision Goggles at the same time!"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0ABFF4AB2E27B025"
 			rewards: [{
 				id: "47E32F9E354E4B95"
@@ -1777,6 +3111,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6EB35F3195E844A5"
 				item: "l2hostility:oddeyes_glasses"
 				type: "item"
@@ -1787,6 +3132,15 @@
 		{
 			dependencies: ["2C8184EF50649550"]
 			description: ["Adds 3 more back slots. You can only wear one Triple-Strip Cape. "]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1359529A03001723"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1795,6 +3149,17 @@
 				type: "choice"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3624D21DEC0547A4"
 				item: "l2hostility:triple_strip_cape"
 				type: "item"
@@ -1805,6 +3170,15 @@
 		{
 			dependencies: ["2C8184EF50649550"]
 			description: ["Adds 5 rings slots and 1 charm slot. Very helpful due to the sheer number of rings and charms in the pack."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "36AF8F60D4EFD9ED"
 			rewards: [{
 				id: "4B8128DCE84350D5"
@@ -1832,6 +3206,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "38BBB7F626FC0844"
 				item: "l2hostility:infinity_glove"
 				type: "item"
@@ -1860,6 +3245,15 @@
 				""
 				"Use &9Hostility Detector&r to know about current difficulty, use &5Hostility Spawner&r to make a chunk section permanently not spawning mobs with level."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:skull"
 			id: "085E485E8091D543"
 			rewards: [{
@@ -1875,6 +3269,17 @@
 			}]
 			subtitle: "Stronger mobs with special abilities."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6F34BE3F91ED8359"
 				type: "checkmark"
 			}]
@@ -1943,6 +3348,15 @@
 				"- &4Killer Aura:&r Appears only after Lv.300. Mobs will deal damage to nearby targets every few seconds, range indicated by particle effects."
 				"- &6Ragnarok:&r Appears only after Lv.600. When mob hit target, mob will \"seal\" some equipments or curios on target, which can be unsealed by hold using the item for a few seconds."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "kubejs:backstab"
 			id: "544FFD8F98E83BED"
 			rewards: [{
@@ -1951,6 +3365,17 @@
 				xp: 5
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0F89D372B785514B"
 				title: "Mob Traits"
 				type: "checkmark"
@@ -1961,6 +3386,15 @@
 		{
 			can_repeat: true
 			dependencies: ["19E3721B38A7E89F"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "l2hostility:tank"
@@ -1979,12 +3413,34 @@
 				{
 					advancement: "l2hostility:hostility/kill_5_traits"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "2303F9C1E438E97A"
 					type: "advancement"
 				}
 				{
 					consume_items: true
 					count: 4L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "19541B663529D737"
 					item: { Count: 4, id: "l2hostility:miracle_powder" }
 					type: "item"
@@ -1997,6 +3453,15 @@
 		{
 			can_repeat: true
 			dependencies: ["19E3721B38A7E89F"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "l2hostility:reprint"
@@ -2015,12 +3480,34 @@
 				{
 					advancement: "l2hostility:hostility/kill_10_traits"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0E8D5AE2DD6F7227"
 					type: "advancement"
 				}
 				{
 					consume_items: true
 					count: 8L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "3F0107656E4D1457"
 					item: { Count: 8, id: "l2hostility:miracle_powder" }
 					type: "item"
@@ -2033,6 +3520,15 @@
 		{
 			can_repeat: true
 			dependencies: ["19E3721B38A7E89F"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "l2hostility:dispell"
@@ -2051,12 +3547,34 @@
 				{
 					advancement: "l2hostility:hostility/kill_dementor"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "0460EE83C5062E38"
 					type: "advancement"
 				}
 				{
 					consume_items: true
 					count: 16L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6CB8EA671AE64059"
 					item: { Count: 16, id: "l2hostility:miracle_powder" }
 					type: "item"
@@ -2069,6 +3587,15 @@
 		{
 			can_repeat: true
 			dependencies: ["19E3721B38A7E89F"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "l2hostility:ragnarok"
@@ -2087,12 +3614,34 @@
 				{
 					advancement: "l2hostility:hostility/kill_ragnarok"
 					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6065A446C5242F69"
 					type: "advancement"
 				}
 				{
 					consume_items: true
 					count: 32L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "36C0DE1ECF568663"
 					item: { Count: 32, id: "l2hostility:miracle_powder" }
 					type: "item"

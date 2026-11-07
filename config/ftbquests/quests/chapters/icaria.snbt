@@ -42,29 +42,82 @@
 				""
 				"Below the arch can be any solid block. Then, throw a Greek Fire Grenade at the portal. It may take a few grenades to light. Once it lights, step through!"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "landsoficaria:greek_fire_grenade"
 			id: "528C5558C3EBA559"
 			size: 1.5d
 			tasks: [
 				{
 					count: 6L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5AFDF72535BB845F"
 					item: { Count: 6, id: "minecraft:quartz_pillar" }
 					type: "item"
 				}
 				{
 					count: 2L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "04C03DA9854F1318"
 					item: { Count: 2, id: "landsoficaria:quartz_pillar_head" }
 					type: "item"
 				}
 				{
 					count: 6L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "5DE5B36F855B2966"
 					item: { Count: 6, id: "minecraft:quartz_slab" }
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "6A4A544F1825E49E"
 					item: "landsoficaria:greek_fire_grenade"
 					type: "item"
@@ -76,6 +129,15 @@
 		}
 		{
 			dependencies: ["552F10398C8E1E8E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "70FAD65365767FAC"
 			rewards: [
 				{
@@ -92,6 +154,17 @@
 			shape: "gear_important"
 			subtitle: "Might be useful elsewhere..."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6CE569F7015BBF1A"
 				item: "landsoficaria:orichalcum_ingot"
 				type: "item"
@@ -113,6 +186,15 @@
 				"c. Loot villages for better materials"
 				"If you choose the first two, I recommend also having a magnet so you don't lose items to the void."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			icon: "landsoficaria:chiseled_relicstone"
 			id: "5E598ADB0425DE0A"
 			rewards: [{
@@ -123,6 +205,17 @@
 			}]
 			tasks: [{
 				dimension: "landsoficaria:icaria"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3B373334E4FA1B97"
 				type: "dimension"
 			}]
@@ -133,6 +226,15 @@
 		{
 			dependencies: ["5E598ADB0425DE0A"]
 			description: ["The Kiln is used to fire glass and bricks. I miss the Atum kiln..."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0CB0FCE3E7B5F92F"
 			rewards: [
 				{
@@ -152,6 +254,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1C3AB75DB2779F89"
 				item: "landsoficaria:kiln"
 				type: "item"
@@ -162,6 +275,15 @@
 		{
 			dependencies: ["0CB0FCE3E7B5F92F"]
 			description: ["The Forge is a powerful furnace used to smelt and alloy metals."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "552F10398C8E1E8E"
 			rewards: [
 				{
@@ -182,6 +304,17 @@
 			]
 			size: 1.5d
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7CA08352BB7AC7F7"
 				item: "landsoficaria:forge"
 				type: "item"
@@ -192,6 +325,15 @@
 		{
 			dependencies: ["5E598ADB0425DE0A"]
 			description: ["Pots can be picked up and thrown to break them. They're full of loot!"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "64C5EB6BEBE15808"
 			rewards: [
 				{
@@ -208,6 +350,17 @@
 			tasks: [{
 				advancement: "landsoficaria:loot_vase"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5D970AB9DF52815D"
 				type: "advancement"
 			}]
@@ -217,6 +370,15 @@
 		{
 			dependencies: ["6E063E9EB9CD1948"]
 			description: ["The Grinder uses Sliver (yes I spelled that right) and various Gears to grind items down. Each type of Gear grinds a different set of items so you'll have to collect all of them."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2817AA338DD2F274"
 			rewards: [
 				{
@@ -236,6 +398,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "54A47607F752A1E3"
 				item: "landsoficaria:grinder"
 				type: "item"
@@ -245,6 +418,15 @@
 		}
 		{
 			dependencies: ["552F10398C8E1E8E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "535D2A4231F1D2FB"
 			rewards: [
 				{
@@ -259,6 +441,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "64C8453EEE0C7F9F"
 				item: "landsoficaria:molybdenumsteel_ingot"
 				type: "item"
@@ -268,6 +461,15 @@
 		}
 		{
 			dependencies: ["552F10398C8E1E8E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7A151A90BF3B46C4"
 			rewards: [
 				{
@@ -282,6 +484,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2772784DEF380881"
 				item: "landsoficaria:vanadiumsteel_ingot"
 				type: "item"
@@ -292,6 +505,15 @@
 		{
 			dependencies: ["64C5EB6BEBE15808"]
 			description: ["Barrels can be filled with loot, water, or even explosives!"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "38EB037515E45631"
 			rewards: [
 				{
@@ -309,6 +531,17 @@
 			tasks: [{
 				advancement: "landsoficaria:barrel"
 				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2ABC4C1E07E0AB8E"
 				type: "advancement"
 			}]
@@ -318,6 +551,15 @@
 		{
 			dependencies: ["7A151A90BF3B46C4"]
 			description: ["Vanadiumsteel makes the best weapons and armor in Icaria... almost as good as diamond."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "135E5D59199FE4A0"
 			rewards: [
 				{
@@ -333,6 +575,17 @@
 			]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "629880C920FEF78B"
 					item: {
 						Count: 1
@@ -347,6 +600,17 @@
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4E0DAB6AA6043987"
 					item: {
 						Count: 1
@@ -367,6 +631,15 @@
 		{
 			dependencies: ["535D2A4231F1D2FB"]
 			description: ["Molybdenumsteel makes the best tools in Icaria, capable of mining any block."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "06D5B912C3291A58"
 			rewards: [
 				{
@@ -381,6 +654,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4BEFD91D29DC1A9F"
 				item: {
 					Count: 1
@@ -403,6 +687,15 @@
 		{
 			dependencies: ["64C5EB6BEBE15808"]
 			description: ["These gear fragments can be found rarely in pots in villages."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1239D23C7CAC4F84"
 			rewards: [
 				{
@@ -418,16 +711,49 @@
 			]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "04286945856DAFBD"
 					item: "landsoficaria:blue_gearfragment"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "09EB6322B29AA338"
 					item: "landsoficaria:green_gearfragment"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "63E5C127AC16F6AA"
 					item: "landsoficaria:yellow_gearfragment"
 					type: "item"
@@ -440,6 +766,15 @@
 		{
 			dependencies: ["1239D23C7CAC4F84"]
 			description: ["This gear is unbreakable, but can only be used to grind blurred platoshale."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0E74BBA3D7F1F4A2"
 			rewards: [
 				{
@@ -454,6 +789,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3BFD221A3772F3E9"
 				item: "landsoficaria:daedalian_gear"
 				type: "item"
@@ -467,6 +813,15 @@
 				"0CB0FCE3E7B5F92F"
 			]
 			description: ["Materials not found in the overworld may be needed to form this brick..."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "7799424461FD01D7"
 			rewards: [
 				{
@@ -483,6 +838,17 @@
 			shape: "gear_important"
 			subtitle: "Might be useful elsewhere..."
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4E57B8DB15892800"
 				item: "embers:caminite_brick"
 				type: "item"
@@ -492,6 +858,15 @@
 		}
 		{
 			dependencies: ["5E598ADB0425DE0A"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "788B82A79A853630"
 			rewards: [
 				{
@@ -506,6 +881,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "751CD1B8F223DD99"
 				item: "embers:caminite_blend"
 				type: "item"
@@ -515,6 +901,15 @@
 		}
 		{
 			dependencies: ["552F10398C8E1E8E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4B1C6BEC8472B5D9"
 			rewards: [
 				{
@@ -529,6 +924,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "31AB34D0C42A8DF3"
 				item: "landsoficaria:sideros_ingot"
 				type: "item"
@@ -539,6 +945,15 @@
 		{
 			dependencies: ["552F10398C8E1E8E"]
 			description: ["The wood and metal found here are very light, but strong. I wonder what I can build with them..."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "540E8271E4EFA6A6"
 			rewards: [
 				{
@@ -553,6 +968,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "0EFCF02DE91FF075"
 				item: "landsoficaria:kassiteros_ingot"
 				type: "item"
@@ -563,6 +989,15 @@
 		{
 			dependencies: ["540E8271E4EFA6A6"]
 			description: ["The materials for this can only be found in Icaria"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0256881F319F9840"
 			rewards: [
 				{
@@ -577,6 +1012,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "49B0A153459485FB"
 				item: "immersive_aircraft:hull"
 				type: "item"
@@ -591,6 +1037,15 @@
 				"0A2529CC69DD9DC9"
 			]
 			description: ["An airship to carry you from one island to the next! It takes any fuel that could go in a furnace."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0E28615A7A3DC421"
 			rewards: [
 				{
@@ -607,6 +1062,17 @@
 			size: 2.0d
 			subtitle: "Flying through open skies"
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "77503176B2E39849"
 				item: "immersive_aircraft:airship"
 				type: "item"
@@ -616,6 +1082,15 @@
 		}
 		{
 			description: ["Materials for these will have to be brought from the Overworld"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0A2529CC69DD9DC9"
 			rewards: [
 				{
@@ -631,11 +1106,33 @@
 			]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1B3C8FEB7E2FA94D"
 					item: "immersive_aircraft:engine"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "49C1852591283E88"
 					item: "embers:atmospheric_gauge"
 					type: "item"
@@ -647,6 +1144,15 @@
 		}
 		{
 			description: ["The materials for this can be found in many places"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "3A0CFD6024CCB224"
 			rewards: [
 				{
@@ -661,6 +1167,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "73BBDF8AE1014E64"
 				item: "immersive_aircraft:sail"
 				type: "item"
@@ -670,6 +1187,15 @@
 		}
 		{
 			dependencies: ["0E28615A7A3DC421"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6866BBDF421A9837"
 			rewards: [
 				{
@@ -684,6 +1210,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "3D8FF5A275A48DC1"
 				item: "immersive_aircraft:cargo_airship"
 				type: "item"
@@ -693,6 +1230,15 @@
 		}
 		{
 			dependencies: ["6866BBDF421A9837"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0D05B550ECF48A7F"
 			rewards: [
 				{
@@ -707,6 +1253,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "287A597FCF027D48"
 				item: "immersive_aircraft:warship"
 				type: "item"
@@ -719,6 +1276,15 @@
 				"0E28615A7A3DC421"
 				"0861D104C45FFE2F"
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2E4AA17A148BB6FD"
 			rewards: [
 				{
@@ -733,6 +1299,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "55327088FD9F9156"
 				item: "immersive_aircraft:biplane"
 				type: "item"
@@ -742,6 +1319,15 @@
 		}
 		{
 			dependencies: ["0E28615A7A3DC421"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5D043431BD92213F"
 			rewards: [
 				{
@@ -756,6 +1342,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5402B61825EF520F"
 				item: "immersive_aircraft:industrial_gears"
 				type: "item"
@@ -765,6 +1362,15 @@
 		}
 		{
 			dependencies: ["0D05B550ECF48A7F"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "13066CFB997CAA45"
 			rewards: [
 				{
@@ -779,6 +1385,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2F715DD664D094FC"
 				item: "immersive_aircraft:rotary_cannon"
 				type: "item"
@@ -788,6 +1405,15 @@
 		}
 		{
 			dependencies: ["0D05B550ECF48A7F"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "5DD1B40A284E7144"
 			rewards: [
 				{
@@ -802,6 +1428,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2CE19897A2F0D517"
 				item: "immersive_aircraft:heavy_crossbow"
 				type: "item"
@@ -811,6 +1448,15 @@
 		}
 		{
 			dependencies: ["0D05B550ECF48A7F"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "626ED60534554D63"
 			rewards: [
 				{
@@ -825,6 +1471,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4925F29BC8DD3575"
 				item: "immersive_aircraft:bomb_bay"
 				type: "item"
@@ -834,6 +1491,15 @@
 		}
 		{
 			dependencies: ["4B1C6BEC8472B5D9"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "0861D104C45FFE2F"
 			rewards: [
 				{
@@ -848,6 +1514,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "6DDA94DCC3305100"
 				item: "immersive_aircraft:propeller"
 				type: "item"
@@ -857,6 +1534,15 @@
 		}
 		{
 			dependencies: ["2E4AA17A148BB6FD"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "33256D7B1E0492E6"
 			rewards: [
 				{
@@ -871,6 +1557,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "4E9D3A24C281E4E1"
 				item: "immersive_aircraft:improved_landing_gear"
 				type: "item"
@@ -880,6 +1577,15 @@
 		}
 		{
 			dependencies: ["0E28615A7A3DC421"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "481FEDD45A3D2644"
 			rewards: [
 				{
@@ -894,6 +1600,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "5C7A17FC58B00432"
 				item: "immersive_aircraft:sturdy_pipes"
 				type: "item"
@@ -904,6 +1621,15 @@
 		{
 			dependencies: ["5E598ADB0425DE0A"]
 			description: ["Arachne can be found in ruined villages, and serve as a sort of miniboss."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "1B53FBA9CFF2A8EF"
 			rewards: [{
 				id: "35B390C519B24D1B"
@@ -912,6 +1638,17 @@
 			}]
 			tasks: [{
 				entity: "landsoficaria:arachne"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "landsoficaria:arachne_string"
 				id: "7B4E45D094D98E6D"
 				type: "kill"
@@ -923,6 +1660,15 @@
 		{
 			dependencies: ["5E598ADB0425DE0A"]
 			description: ["The Captain Revenant can be found in damaged villages full of lesser revenants. It is the second miniboss of Icaria."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "38344BDD1AA29488"
 			rewards: [{
 				id: "79CF5E18285B5EA2"
@@ -931,6 +1677,17 @@
 			}]
 			tasks: [{
 				entity: "landsoficaria:captain_revenant"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				icon: "landsoficaria:revenant_skull"
 				id: "43EB8D1C1BB8A919"
 				type: "kill"
@@ -952,6 +1709,15 @@
 				""
 				"4. When the last ingredient has been placed, wait a few seconds. Your finished spell will pop out of the Kettle."
 			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "545FD79030CAC86C"
 			rewards: [
 				{
@@ -971,6 +1737,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7762DD01E0AF9B89"
 				item: "landsoficaria:kettle"
 				type: "item"
@@ -980,6 +1757,15 @@
 		}
 		{
 			dependencies: ["2817AA338DD2F274"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "28C0312FA424E135"
 			rewards: [
 				{
@@ -999,6 +1785,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "1CAB09EAD3C529D4"
 				item: {
 					Count: 1
@@ -1014,6 +1811,15 @@
 		}
 		{
 			dependencies: ["2817AA338DD2F274"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "33F087E15718CCEE"
 			rewards: [
 				{
@@ -1033,6 +1839,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "05903B99261D54F2"
 				item: {
 					Count: 1
@@ -1048,6 +1865,15 @@
 		}
 		{
 			dependencies: ["2817AA338DD2F274"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "61F0FA4530588A01"
 			rewards: [
 				{
@@ -1067,6 +1893,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "7199ABAFB4BEE7F1"
 				item: {
 					Count: 1
@@ -1082,6 +1919,15 @@
 		}
 		{
 			dependencies: ["2817AA338DD2F274"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "2008CEA177977FC1"
 			rewards: [
 				{
@@ -1101,6 +1947,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "055A02980AD242BC"
 				item: {
 					Count: 1
@@ -1117,6 +1974,15 @@
 		{
 			dependencies: ["5E598ADB0425DE0A"]
 			description: ["These glowing crystals generate on the underside of each layer of floating island."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "4224D4779CAD0530"
 			rewards: [{
 				id: "67971705E824B87C"
@@ -1125,21 +1991,65 @@
 			}]
 			tasks: [
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "27412FCCC125B2EB"
 					item: "landsoficaria:calcite_shard"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "20A14B238734F641"
 					item: "landsoficaria:halite_shard"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "1CA71B516FC1D6CA"
 					item: "landsoficaria:jasper_shard"
 					type: "item"
 				}
 				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
 					id: "4B889D53B04426B3"
 					item: "landsoficaria:zircon_shard"
 					type: "item"
@@ -1151,6 +2061,15 @@
 		}
 		{
 			dependencies: ["70FAD65365767FAC"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "6E063E9EB9CD1948"
 			rewards: [
 				{
@@ -1165,6 +2084,17 @@
 				}
 			]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "048ECE9489290EFE"
 				item: "landsoficaria:sliver"
 				type: "item"
@@ -1175,6 +2105,15 @@
 		{
 			dependencies: ["6E063E9EB9CD1948"]
 			description: ["This size of Titanite allows you to upgrade your weapons from +6 to +9."]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
 			id: "60E551CDF422D715"
 			rewards: [{
 				count: 16
@@ -1183,6 +2122,17 @@
 				type: "item"
 			}]
 			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
 				id: "2CF5178F702D823E"
 				item: "bonfires:titanite_chunk"
 				type: "item"
