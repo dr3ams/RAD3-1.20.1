@@ -21,11 +21,11 @@ PlayerEvents.loggedIn(event =>{
   if (!event.player.stages.has('starting_items')) {
       
       startingItems.forEach(item => {
-          event.player.inventory.setStackInSlot(item[0], item[1]);
+          event.player.inventory.setStackInSlot(item[0], item[1].copy());
       })
       
-      event.player.setFeetArmorItem(Item.of('minecraft:leather_boots'));
-      event.player.setLegsArmorItem(Item.of('minecraft:leather_leggings'));
+      event.player.setFeetArmorItem(Item.of('minecraft:leather_boots').copy());
+      event.player.setLegsArmorItem(Item.of('minecraft:leather_leggings').copy());
 
       event.player.stages.add('starting_items');
   }
