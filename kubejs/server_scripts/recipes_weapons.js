@@ -539,13 +539,13 @@ ServerEvents.recipes((event) => {
   })
   event.shaped(
   Item.of('radweaponry:pearl_sword'), [
-    'V',
+    'T',
     'P',
     'S'
 	], {
-	V: 'bosses_of_mass_destruction:void_thorn',
+	T: 'hmag:evil_thorn',
 	P: 'minecraft:pearlescent_froglight',
-	S: '#forge:rods/wooden'
+	S: 'minecraft:end_rod'
   })
   event.smithing(
     'radweaponry:bloodthorn',
@@ -564,6 +564,28 @@ ServerEvents.recipes((event) => {
 	D: 'kubejs:unfinished_dice',
 	C: 'immersive_aircraft:heavy_crossbow',
 	E: 'kubejs:entropic_cent'
+  })
+  event.shaped(
+  Item.of('radweaponry:revenants_edge'), [
+    ' NV',
+    'BVN',
+    'SP '
+	], {
+	N: 'aether_redux:veridium_nugget',
+	V: 'aether_redux:veridium_ingot',
+	B: 'quark:soul_bead',
+	S: '#forge:rods/iron',
+	P: 'hmag:soul_powder_block'
+  })
+  event.shaped(
+  Item.of('radweaponry:riftwrought'), [
+    'V',
+    'O',
+    'S'
+	], {
+	V: 'kubejs:void_core',
+	O: 'minecraft:crying_obsidian',
+	S: 'bonfires:large_titanite_shard'
   })
 
 });
