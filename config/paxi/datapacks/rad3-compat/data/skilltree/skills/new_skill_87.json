@@ -4,28 +4,54 @@
     {
       "type": "skilltree:attribute",
       "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
-      "id": "15bc01e4-4a36-4a4c-8563-911d9d49e140",
+      "id": "4fbac155-5ef5-468e-92df-4c0fe27724b1",
       "name": "Skill",
-      "amount": 1.0,
+      "amount": 3.0,
       "operation": 0,
       "player_multiplier": {
         "type": "skilltree:none"
       },
       "player_condition": {
-        "max": 0.5,
-        "type": "skilltree:health_percentage"
+        "type": "skilltree:none"
       }
     },
     {
       "type": "skilltree:attribute",
-      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
-      "id": "81c5e5d6-7e35-4599-b3c4-51d32555b201",
+      "attribute": "ars_nouveau:ars_elemental.perk.summon_power",
+      "id": "b62572e5-39d2-4673-9858-7b804a2afab1",
       "name": "Skill",
-      "amount": 100.0,
+      "amount": 3.0,
       "operation": 0,
       "player_multiplier": {
-        "divisor": 10.0,
-        "type": "skilltree:missing_health_percentage"
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:prot_pierce",
+      "id": "6d5d2b47-7f17-478e-9fd2-8071774a892a",
+      "name": "Skill",
+      "amount": 3.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "99d472c9-ed56-4db0-9869-ff6bb4028357",
+      "name": "Skill",
+      "amount": -3.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
       },
       "player_condition": {
         "type": "skilltree:none"
@@ -41,9 +67,9 @@
   "backgroundTexture": "skilltree:textures/icons/background/notable.png",
   "iconTexture": "skilltree:textures/icons/miner_offensive_crafting_1.png",
   "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Specialist",
   "positionX": 381.442,
   "positionY": -301.986,
   "buttonSize": 20,
-  "isStartingPoint": false,
-  "title": "Spell Damage and Max Mana"
+  "isStartingPoint": false
 }

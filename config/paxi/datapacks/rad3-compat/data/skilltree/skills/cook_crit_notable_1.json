@@ -19,6 +19,18 @@
       "target_condition": {
         "type": "skilltree:none"
       }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "type": "skilltree:food"
+      },
+      "item_bonus": {
+        "effect": "runiclib:burning_thorns",
+        "duration": 600,
+        "amplifier": 0,
+        "type": "skilltree:food_effect"
+      }
     }
   ],
   "directConnections": [],

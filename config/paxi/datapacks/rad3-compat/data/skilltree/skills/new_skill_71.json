@@ -3,14 +3,13 @@
   "bonuses": [
     {
       "type": "skilltree:attribute",
-      "attribute": "minecraft:generic.attack_speed",
-      "id": "d38982f2-f57a-4d25-b09a-980b990f3476",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "390299c2-1a47-453f-80e2-9d46120d9d57",
       "name": "Skill",
-      "amount": 0.03,
-      "operation": 1,
+      "amount": 2.0,
+      "operation": 0,
       "player_multiplier": {
-        "divisor": 20.0,
-        "type": "skilltree:missing_health_percentage"
+        "type": "skilltree:none"
       },
       "player_condition": {
         "item_condition": {
@@ -30,9 +29,9 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/blacksmith_subclass_1_offensive_1.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Two Handed Toughness",
   "positionX": -497.714,
-  "positionY": -250.30101,
+  "positionY": -250.301,
   "buttonSize": 16,
-  "isStartingPoint": false,
-  "title": "Attack Speed"
+  "isStartingPoint": false
 }

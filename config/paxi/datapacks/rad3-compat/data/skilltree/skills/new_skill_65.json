@@ -2,14 +2,13 @@
   "id": "skilltree:new_skill_65",
   "bonuses": [
     {
-      "type": "skilltree:damage",
-      "amount": 0.03,
-      "operation": 1,
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "942f9125-181e-406b-a0dc-b14ce94e7b3c",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
       "player_multiplier": {
-        "divisor": 10.0,
-        "type": "skilltree:missing_health_percentage"
-      },
-      "enemy_multiplier": {
         "type": "skilltree:none"
       },
       "player_condition": {
@@ -18,12 +17,6 @@
           "type": "skilltree:tag"
         },
         "type": "skilltree:has_item_in_hand"
-      },
-      "damage_condition": {
-        "type": "skilltree:melee"
-      },
-      "target_condition": {
-        "type": "skilltree:none"
       }
     }
   ],
@@ -36,9 +29,9 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/blacksmith_subclass_1_offensive_1.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "positionX": -512.6258,
-  "positionY": -271.5996,
+  "title": "Two-Handed Guard",
+  "positionX": -512.626,
+  "positionY": -271.6,
   "buttonSize": 16,
-  "isStartingPoint": false,
-  "title": "Two-Handed Melee Damage"
+  "isStartingPoint": false
 }

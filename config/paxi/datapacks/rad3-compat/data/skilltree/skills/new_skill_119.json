@@ -2,27 +2,69 @@
   "id": "skilltree:new_skill_119",
   "bonuses": [
     {
-      "type": "skilltree:damage",
-      "amount": 0.1,
-      "operation": 1,
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:fire_damage",
+      "id": "23137520-47dd-4912-b322-007a133517b5",
+      "name": "Skill",
+      "amount": 5.0,
+      "operation": 0,
       "player_multiplier": {
-        "type": "skilltree:none"
-      },
-      "enemy_multiplier": {
         "type": "skilltree:none"
       },
       "player_condition": {
         "item_condition": {
-          "equipment_type": "axe",
-          "type": "skilltree:equipment_type"
+          "id": "farmersdelight:skillet",
+          "type": "skilltree:item_id"
         },
         "type": "skilltree:has_item_in_hand"
-      },
-      "damage_condition": {
-        "type": "skilltree:melee"
-      },
-      "target_condition": {
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "e206e435-1ba9-4aad-88dc-a68f59630cf2",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
         "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "farmersdelight:skillet",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.01,
+      "effect": "minecraft:saturation",
+      "duration": 20,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "item_condition": {
+            "id": "farmersdelight:skillet",
+            "type": "skilltree:item_id"
+          },
+          "type": "skilltree:has_item_in_hand"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:attack"
       }
     }
   ],
@@ -33,9 +75,9 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/cook_subclass_1_crafting_notable_1.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "positionX": -37.930065,
-  "positionY": -550.5659,
+  "title": "Hot Skillet",
+  "positionX": -37.93,
+  "positionY": -550.566,
   "buttonSize": 16,
-  "isStartingPoint": false,
-  "title": "Axe Melee Damage"
+  "isStartingPoint": false
 }

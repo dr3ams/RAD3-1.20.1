@@ -2,27 +2,57 @@
   "id": "skilltree:new_skill_120",
   "bonuses": [
     {
-      "type": "skilltree:damage",
-      "amount": 0.1,
-      "operation": 1,
+      "type": "skilltree:attribute",
+      "attribute": "gearupgrades:mastery",
+      "id": "99612bc4-b6bd-42e3-8909-ff8a3df2e4e3",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
       "player_multiplier": {
-        "type": "skilltree:none"
-      },
-      "enemy_multiplier": {
         "type": "skilltree:none"
       },
       "player_condition": {
         "item_condition": {
-          "equipment_type": "axe",
-          "type": "skilltree:equipment_type"
+          "id": "farmersdelight:skillet",
+          "type": "skilltree:item_id"
         },
         "type": "skilltree:has_item_in_hand"
-      },
-      "damage_condition": {
-        "type": "skilltree:melee"
-      },
-      "target_condition": {
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_chance",
+      "id": "7025fd5e-9137-462b-b79f-b5d0ae9395ab",
+      "name": "Skill",
+      "amount": 0.15,
+      "operation": 0,
+      "player_multiplier": {
         "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "farmersdelight:skillet",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_damage",
+      "id": "01a9edad-cb05-436c-8018-e766cea0e87a",
+      "name": "Skill",
+      "amount": 0.25,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "farmersdelight:skillet",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_in_hand"
       }
     }
   ],
@@ -35,9 +65,9 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/cook_subclass_1_crafting_notable_1.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "positionX": -48.920147,
-  "positionY": -527.00287,
+  "title": "Skilled Skillet",
+  "positionX": -48.92,
+  "positionY": -527.003,
   "buttonSize": 16,
-  "isStartingPoint": false,
-  "title": "Axe Melee Damage"
+  "isStartingPoint": false
 }

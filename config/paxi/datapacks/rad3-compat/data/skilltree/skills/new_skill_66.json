@@ -2,27 +2,63 @@
   "id": "skilltree:new_skill_66",
   "bonuses": [
     {
-      "type": "skilltree:damage",
-      "amount": 0.1,
-      "operation": 1,
-      "player_multiplier": {
-        "type": "skilltree:none"
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "id": "farmersdelight:skillet",
+        "type": "skilltree:item_id"
       },
-      "enemy_multiplier": {
-        "type": "skilltree:none"
+      "item_bonus": {
+        "amount": 700.0,
+        "operation": 0,
+        "type": "skilltree:durability"
+      }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "id": "farmersdelight:skillet",
+        "type": "skilltree:item_id"
       },
-      "player_condition": {
-        "item_condition": {
-          "equipment_type": "axe",
-          "type": "skilltree:equipment_type"
+      "item_bonus": {
+        "skill_bonus": {
+          "attribute": "minecraft:generic.attack_speed",
+          "id": "87cdf9a6-5666-4edc-9e6c-854e79f3ce30",
+          "name": "Skill",
+          "amount": 0.3,
+          "operation": 0,
+          "player_multiplier": {
+            "type": "skilltree:none"
+          },
+          "player_condition": {
+            "type": "skilltree:none"
+          },
+          "type": "skilltree:attribute"
         },
-        "type": "skilltree:has_item_in_hand"
+        "type": "skilltree:skill_bonus"
+      }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "id": "farmersdelight:skillet",
+        "type": "skilltree:item_id"
       },
-      "damage_condition": {
-        "type": "skilltree:melee"
-      },
-      "target_condition": {
-        "type": "skilltree:none"
+      "item_bonus": {
+        "skill_bonus": {
+          "attribute": "minecraft:generic.attack_damage",
+          "id": "6aea2050-8245-447b-a2c1-783dbd7b8308",
+          "name": "Skill",
+          "amount": 3.0,
+          "operation": 0,
+          "player_multiplier": {
+            "type": "skilltree:none"
+          },
+          "player_condition": {
+            "type": "skilltree:none"
+          },
+          "type": "skilltree:attribute"
+        },
+        "type": "skilltree:skill_bonus"
       }
     }
   ],
@@ -35,9 +71,9 @@
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/cook_subclass_1_crafting_notable_1.png",
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "positionX": -26.939983,
-  "positionY": -574.12897,
+  "title": "Durable Skillet",
+  "positionX": -26.94,
+  "positionY": -574.129,
   "buttonSize": 16,
-  "isStartingPoint": false,
-  "title": "Axe Melee Damage"
+  "isStartingPoint": false
 }

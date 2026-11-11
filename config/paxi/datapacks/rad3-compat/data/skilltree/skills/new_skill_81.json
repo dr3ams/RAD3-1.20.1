@@ -3,19 +3,64 @@
   "bonuses": [
     {
       "type": "skilltree:attribute",
-      "attribute": "minecraft:generic.attack_speed",
-      "id": "417fcde9-cece-4bea-b15e-abaad64ef16d",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "e55677e6-1b75-471e-8eef-d832d32c5556",
       "name": "Skill",
-      "amount": 0.03,
+      "amount": 0.05,
       "operation": 1,
       "player_multiplier": {
-        "divisor": 20.0,
-        "type": "skilltree:missing_health_percentage"
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "0bf3dcdc-b3b1-4acd-8422-6a9926b68bcb",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "dc292dbd-4c6c-4c8f-af3e-d9f092fde2fd",
+      "name": "Skill",
+      "amount": -0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
       },
       "player_condition": {
         "item_condition": {
-          "tag_id": "rad3:twohanded",
-          "type": "skilltree:tag"
+          "id": "radweaponry:questing_sword",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "e36323d4-27f1-4915-b67a-19c5112ddd31",
+      "name": "Skill",
+      "amount": -0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "radweaponry:questing_sword",
+          "type": "skilltree:item_id"
         },
         "type": "skilltree:has_item_in_hand"
       }
@@ -27,12 +72,20 @@
   "longConnections": [],
   "oneWayConnections": [],
   "tags": [],
-  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
   "iconTexture": "skilltree:textures/icons/blacksmith_subclass_1_offensive_1.png",
-  "borderTexture": "skilltree:textures/tooltip/lesser.png",
-  "positionX": -467.89026,
-  "positionY": -207.7035,
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Oathbreaker",
+  "positionX": -467.89,
+  "positionY": -207.704,
   "buttonSize": 16,
   "isStartingPoint": false,
-  "title": "Attack Speed"
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+5% Attack Damage and Attack Speed if you are NOT wielding The Questing Sword"
+    }
+  ]
 }
