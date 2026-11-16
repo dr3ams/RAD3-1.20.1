@@ -66,9 +66,9 @@
 				""
 				"&9&lAvailable Commands&r"
 				"&7/raidstats &r— view your rank, XP, and lifetime statistics"
-				"&7/raidvault &r— check your token balance"
-				"&7/raidvault withdraw <amount> &r— move tokens to your inventory"
-				"&7/raidvault deposit &r— deposit held tokens back into the vault"
+				"&7/vault &r— check your token balance"
+				"&7/vault withdraw raid <amount> &r— move raid tokens to your inventory"
+				"&7/vault deposit &r— deposit held tokens back into the vault"
 				"&7/raidhelp &r— quick in-game system overview"
 			]
 			hide_dependency_lines: false
@@ -298,13 +298,9 @@
 			subtitle: "Pick what you need"
 			tasks: [{
 				consume_items: true
-				count: 10L
-				id: "2B3A9E5D6DC11FF6"
-				item: {
-					Count: 1
-					id: "kubejs:coin_raid"
-					tag: { }
-				}
+				count: 5L
+				id: "44B978AAC923DACD"
+				item: "kubejs:coin_raid"
 				type: "item"
 			}]
 			title: "Useful Items"
@@ -423,8 +419,8 @@
 			subtitle: "Pick what you want"
 			tasks: [{
 				consume_items: true
-				count: 20L
-				id: "6F661C16945525D6"
+				count: 5L
+				id: "20A5B3F2D7E4295A"
 				item: "kubejs:coin_raid"
 				type: "item"
 			}]

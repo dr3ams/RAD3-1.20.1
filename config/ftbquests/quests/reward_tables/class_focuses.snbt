@@ -1,6 +1,15 @@
 {
 	icon: "kubejs:vanilla_focus"
 	id: "3F0826645ABF8CDB"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "class_focuses"
+	}
 	loot_size: 1
 	order_index: 99
 	rewards: [
@@ -8,6 +17,13 @@
 		{ item: "kubejs:archer_focus" }
 		{ item: "kubejs:mage_focus" }
 		{ item: "kubejs:tank_focus" }
+		{ item: "kubejs:berserker_focus" }
+		{ item: "kubejs:shadow_focus" }
+		{ item: "kubejs:blood_pact_focus" }
+		{ item: "kubejs:wayfarer_focus" }
+		{ item: "kubejs:delver_focus" }
+		{ item: "kubejs:last_stand_focus" }
+		{ item: "kubejs:gambler_focus" }
 	]
 	title: "Class Focuses"
 }

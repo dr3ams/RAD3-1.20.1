@@ -207,7 +207,7 @@ StartupEvents.registry('item', event => {
                 .addAttribute(
                     "attributeslib:arrow_damage",
                     "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
-                    4,
+                    3,
                     'multiply_base'
                 )
                 .addAttribute(
@@ -308,7 +308,7 @@ StartupEvents.registry('item', event => {
                 .addAttribute(
                     "ars_nouveau:ars_nouveau.perk.spell_damage",
                     "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
-                    10,
+                    6,
                     'addition'
                 )
                 .addAttribute(
@@ -326,8 +326,8 @@ StartupEvents.registry('item', event => {
                 .addAttribute(
                     "ars_nouveau:ars_nouveau.perk.warding",
                     "1bc873d2-5603-4f79-9c7e-0bf796abbf99",
-                    0.1,
-                    'multiply_total'
+                    1,
+                    'addition'
                 )
                 .addAttribute(
                     "minecraft:generic.attack_damage",

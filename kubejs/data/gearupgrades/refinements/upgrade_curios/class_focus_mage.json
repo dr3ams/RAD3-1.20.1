@@ -1,0 +1,19 @@
+
+{
+  "id": "class_focus_mage",
+  "key": "refinement.class_focus_mage",
+  "type": ["kubejs:mage_focus"],
+  "proficiency_cost": 100,
+  "material": "kubejs:great_soul",
+  "material_count": 1,
+  "anvil_levels": 100,
+  "bonuses": [
+    {
+      "property": "ars_nouveau:ars_nouveau.perk.spell_damage",
+      "amount": 4,
+      "operation": "addition"
+    }
+  ],
+  "allowed_steps": [1, 2],
+  "color": "gold"
+}
