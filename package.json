@@ -1,0 +1,21 @@
+{
+  "name": "rad3-kubejs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "KubeJS scripts for the RAD3 modpack",
+  "scripts": {
+    "format": "prettier --write \"kubejs/**/*.{js,json,mcmeta}\"",
+    "format:check": "prettier --check \"kubejs/**/*.{js,json,mcmeta}\"",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "kubejs/**/*.js": "prettier --write",
+    "kubejs/**/*.json": "prettier --write",
+    "kubejs/**/*.mcmeta": "prettier --write"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.0",
+    "prettier": "^3.6.2"
+  }
+}
