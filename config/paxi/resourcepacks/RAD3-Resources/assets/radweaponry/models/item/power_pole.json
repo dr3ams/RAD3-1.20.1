@@ -1,0 +1,84 @@
+{
+  "credit": "Texture by Bizzoula (bizzoula)",
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "radweaponry:item/power_pole"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [0, -90, 55],
+      "translation": [0, 32.5, -6],
+      "scale": [3.4, 3.4, 0.85]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [0, 90, -55],
+      "translation": [0, 32.5, -6],
+      "scale": [3.4, 3.4, 0.85]
+    },
+    "firstperson_righthand": {
+      "rotation": [0, -90, 25],
+      "translation": [10, 20, 0],
+      "scale": [2.72, 2.72, 0.68]
+    },
+    "firstperson_lefthand": {
+      "rotation": [0, 90, -25],
+      "translation": [10, 20, 0],
+      "scale": [2.72, 2.72, 0.68]
+    },
+    "ground": {
+      "translation": [0, 10, 0],
+      "scale": [2, 2, 0.5]
+    },
+    "gui": {
+      "translation": [24, 24, 0],
+      "scale": [4, 4, 1]
+    },
+    "fixed": {
+      "translation": [24, 24, 0],
+      "scale": [4, 4, 1]
+    }
+  },
+  "overrides": [
+    {"predicate": {"extend": 1, "style": 0.0}, "model": "radweaponry:item/power_pole2"},
+    {"predicate": {"extend": 2, "style": 0.0}, "model": "radweaponry:item/power_pole3"},
+    {"predicate": {"extend": 3, "style": 0.0}, "model": "radweaponry:item/power_pole4"},
+    {"predicate": {"extend": 4, "style": 0.0}, "model": "radweaponry:item/power_pole5"},
+    {"predicate": {"extend": 5, "style": 0.0}, "model": "radweaponry:item/power_pole6"},
+    {"predicate": {"extend": 6, "style": 0.0}, "model": "radweaponry:item/power_pole7"},
+    {"predicate": {"extend": 7, "style": 0.0}, "model": "radweaponry:item/power_pole8"},
+    {"predicate": {"extend": 8, "style": 0.0}, "model": "radweaponry:item/power_pole9"},
+    {"predicate": {"extend": 9, "style": 0.0}, "model": "radweaponry:item/power_pole10"},
+    {"predicate": {"extend": 10, "style": 0.0}, "model": "radweaponry:item/power_pole11"},
+    {"predicate": {"extend": 11, "style": 0.0}, "model": "radweaponry:item/power_pole12"},
+    {"predicate": {"extend": 12, "style": 0.0}, "model": "radweaponry:item/power_pole13"},
+
+    {"predicate": {"extend": 0, "style": 1.0}, "model": "radweaponry:item/power_pole_alt"},
+    {"predicate": {"extend": 1, "style": 1.0}, "model": "radweaponry:item/power_pole_alt2"},
+    {"predicate": {"extend": 2, "style": 1.0}, "model": "radweaponry:item/power_pole_alt3"},
+    {"predicate": {"extend": 3, "style": 1.0}, "model": "radweaponry:item/power_pole_alt4"},
+    {"predicate": {"extend": 4, "style": 1.0}, "model": "radweaponry:item/power_pole_alt5"},
+    {"predicate": {"extend": 5, "style": 1.0}, "model": "radweaponry:item/power_pole_alt6"},
+    {"predicate": {"extend": 6, "style": 1.0}, "model": "radweaponry:item/power_pole_alt7"},
+    {"predicate": {"extend": 7, "style": 1.0}, "model": "radweaponry:item/power_pole_alt8"},
+    {"predicate": {"extend": 8, "style": 1.0}, "model": "radweaponry:item/power_pole_alt9"},
+    {"predicate": {"extend": 9, "style": 1.0}, "model": "radweaponry:item/power_pole_alt10"},
+    {"predicate": {"extend": 10, "style": 1.0}, "model": "radweaponry:item/power_pole_alt11"},
+    {"predicate": {"extend": 11, "style": 1.0}, "model": "radweaponry:item/power_pole_alt12"},
+    {"predicate": {"extend": 12, "style": 1.0}, "model": "radweaponry:item/power_pole_alt13"},
+
+    {"predicate": {"custom_model_data":55}, "model": "radweaponry:item/big_stick"},
+    {"predicate": {"custom_model_data":55,"extend": 1}, "model": "radweaponry:item/big_stick2"},
+    {"predicate": {"custom_model_data":55,"extend": 2}, "model": "radweaponry:item/big_stick3"},
+    {"predicate": {"custom_model_data":55,"extend": 3}, "model": "radweaponry:item/big_stick4"},
+    {"predicate": {"custom_model_data":55,"extend": 4}, "model": "radweaponry:item/big_stick5"},
+    {"predicate": {"custom_model_data":55,"extend": 5}, "model": "radweaponry:item/big_stick6"},
+    {"predicate": {"custom_model_data":55,"extend": 6}, "model": "radweaponry:item/big_stick7"},
+    {"predicate": {"custom_model_data":55,"extend": 7}, "model": "radweaponry:item/big_stick8"},
+    {"predicate": {"custom_model_data":55,"extend": 8}, "model": "radweaponry:item/big_stick9"},
+    {"predicate": {"custom_model_data":55,"extend": 9}, "model": "radweaponry:item/big_stick10"},
+    {"predicate": {"custom_model_data":55,"extend": 10}, "model": "radweaponry:item/big_stick11"},
+    {"predicate": {"custom_model_data":55,"extend": 11}, "model": "radweaponry:item/big_stick12"},
+    {"predicate": {"custom_model_data":55,"extend": 12}, "model": "radweaponry:item/big_stick13"}
+  ]
+
+}
