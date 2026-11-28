@@ -4,6 +4,41 @@
 // grey italic flavour line, then one gold / green / red bullet each.
 
 ItemEvents.tooltip(event => {
+    event.add('kubejs:vanilla_focus', [
+        Text.gray('A focus for those who dislike when things are changed.').italic(),
+        Text.gold(' ▪ Reverts the player to be similar to vanilla minecraft.'),
+        Text.green(' ▪ Brings back the default 20 hp, health regeneration and no stamina.'),
+        Text.green(' ▪ Increases mining speed and block reach'),
+        Text.red(' ▪ No rolls, no shielding, no mana.')
+    ]);
+
+    event.add('kubejs:archer_focus', [
+        Text.gray('A focus for those who utilize dexterity and precision rather than rely on chance.').italic(),
+        Text.green(' ▪ Greatly Improves Archery and Rolling Abilities.'),
+        Text.green(' ▪ Guaranteed critical hits, but critical hits deal less damage. Effectively all your damage is increased by 25%.'),
+        Text.green(' ▪ You drain stamina slower from sprinting.'),
+        Text.yellow(' ▪ You can roll and shield bash further, but also take extra knockback.'),
+        Text.red(' ▪ Luck is not on your side. You will never passively have the chance to dodge or block attacks.'),
+        Text.red(' ▪ Reduced Mana Regeneration.')
+    ]);
+
+    event.add('kubejs:mage_focus', [
+        Text.green(' ▪ A focus that greatly improves direct magic attacks'),
+        Text.red(' ▪ But saps your physical strength.')
+    ]);
+
+    event.add('kubejs:tank_focus', [
+        Text.gray('A focus for those who find fights too fast-paced.').italic(),
+        Text.green(' ▪ Take 40% less damage from all sources.'),
+        Text.green(' ▪ Grants great defense with extra health and shielding. Blocking costs less stamina.'),
+        Text.green(' ▪ Faster health and shield regeneration and shorter delay.'),
+        Text.yellow(' ▪ Heavier with reduced knockback.'),
+        Text.yellow(' ▪ Mobs cannot push you, you will stand in place during rolls and shield bash.'),
+        Text.red(' ▪ You deal less damage especially against high defense enemies and move slower.'),
+        Text.red(' ▪ Attacking and Sprinting costs more stamina.'),
+        Text.red(' ▪ Reduced Mana.')
+    ]);
+
     event.add('kubejs:berserker_focus', [
         Text.gray('For those who would rather die swinging.').italic(),
         Text.gold(' ▪ Turns every fight into a brawl you win by bleeding the enemy first.'),

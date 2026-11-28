@@ -1,0 +1,19 @@
+
+{
+  "id": "class_focus_last_stand",
+  "key": "refinement.class_focus_last_stand",
+  "type": ["kubejs:last_stand_focus"],
+  "proficiency_cost": 100,
+  "material": "kubejs:great_soul",
+  "material_count": 1,
+  "anvil_levels": 100,
+  "bonuses": [
+    {
+      "property": "shieldinghealth:attribute.shieldinghealth.shield_value",
+      "amount": 0.5,
+      "operation": "multiply_base"
+    }
+  ],
+  "allowed_steps": [1, 2],
+  "color": "gold"
+}

@@ -1,0 +1,19 @@
+
+{
+  "id": "class_focus_blood_pact",
+  "key": "refinement.class_focus_blood_pact",
+  "type": ["kubejs:blood_pact_focus"],
+  "proficiency_cost": 100,
+  "material": "kubejs:great_soul",
+  "material_count": 1,
+  "anvil_levels": 100,
+  "bonuses": [
+    {
+      "property": "attributeslib:life_steal",
+      "amount": 0.2,
+      "operation": "addition"
+    }
+  ],
+  "allowed_steps": [1, 2],
+  "color": "gold"
+}

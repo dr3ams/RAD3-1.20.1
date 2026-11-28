@@ -1,0 +1,19 @@
+
+{
+  "id": "class_focus_berserker",
+  "key": "refinement.class_focus_berserker",
+  "type": ["kubejs:berserker_focus"],
+  "proficiency_cost": 100,
+  "material": "kubejs:great_soul",
+  "material_count": 1,
+  "anvil_levels": 100,
+  "bonuses": [
+    {
+      "property": "minecraft:generic.attack_damage",
+      "amount": 0.2,
+      "operation": "multiply_base"
+    }
+  ],
+  "allowed_steps": [1, 2],
+  "color": "gold"
+}

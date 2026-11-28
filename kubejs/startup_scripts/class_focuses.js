@@ -10,6 +10,102 @@ let FOCUS_UUID = '1bc873d2-5603-4f79-9c7e-0bf796abbf99';
 
 let CLASS_FOCUSES = [
     {
+        id: 'vanilla_focus',
+        name: 'Vanilla Focus',
+        texture: 'kubejs:item/crafterfp',
+        attrs: [
+            // upsides
+            ['minecraft:generic.max_health', 10, 'addition'],
+            ['skilltree:regeneration', 0.25, 'addition'],
+            ['forge:block_reach', 1, 'addition'],
+            ['attributeslib:mining_speed', 1, 'multiply_base'],
+            ['betterparagliders:base_melee_stamina_reduction', 6, 'addition'],
+            ['betterparagliders:range_stamina_reduction', 5, 'addition'],
+            ['betterparagliders:block_stamina_reduction', 5, 'addition'],
+            ['betterparagliders:sprinting_stamina_reduction', 5, 'addition'],
+            ['betterparagliders:swimming_stamina_reduction', 5, 'addition'],
+            // drawbacks
+            ['combatroll:count', -1, 'multiply_total'],
+            ['shieldinghealth:attribute.shieldinghealth.shield_value', -1, 'multiply_total'],
+            ['ars_nouveau:ars_nouveau.perk.max_mana', -1, 'multiply_total'],
+            ['ars_nouveau:ars_nouveau.perk.mana_regen', -1, 'multiply_total']
+        ]
+    },
+    {
+        id: 'archer_focus',
+        name: 'Way of the Archer',
+        texture: 'kubejs:item/roguefp',
+        attrs: [
+            // upsides
+            ['attributeslib:arrow_damage', 3, 'multiply_base'],
+            ['attributeslib:draw_speed', 0.1, 'addition'],
+            ['attributeslib:crit_chance', 0.95, 'addition'],
+            ['betterparagliders:sprinting_stamina_reduction', 1, 'addition'],
+            ['combatroll:recharge', 0.25, 'multiply_base'],
+            // neutral
+            ['enchancedai:push_resistance', -0.5, 'addition'],
+            // drawbacks
+            ['attributeslib:crit_damage', -0.25, 'addition'],
+            ['minecraft:generic.knockback_resistance', -0.5, 'addition'],
+            ['skilltree:evasion', -1, 'multiply_total'],
+            ['skilltree:blocking', -1, 'multiply_total'],
+            ['attributeslib:dodge_chance', -1, 'multiply_total'],
+            ['ars_nouveau:ars_nouveau.perk.mana_regen', -0.5, 'multiply_base']
+        ]
+    },
+    {
+        id: 'mage_focus',
+        name: 'Way of the Battlemage',
+        texture: 'kubejs:item/wizardfp',
+        attrs: [
+            // upsides
+            ['ars_nouveau:ars_nouveau.perk.spell_damage', 6, 'addition'],
+            ['ars_nouveau:ars_nouveau.perk.max_mana', 0.5, 'multiply_base'],
+            ['ars_nouveau:ars_nouveau.perk.mana_regen', 0.5, 'multiply_base'],
+            ['ars_nouveau:ars_nouveau.perk.warding', 1, 'addition'],
+            // drawbacks
+            ['minecraft:generic.attack_damage', -0.99, 'multiply_total'],
+            ['minecraft:generic.attack_speed', -0.66, 'multiply_total'],
+            ['attributeslib:draw_speed', -0.3, 'multiply_base'],
+            ['celestial_core:arrow_speed', -0.3, 'multiply_base']
+        ]
+    },
+    {
+        id: 'tank_focus',
+        name: 'Tank Focus',
+        texture: 'kubejs:item/fighterfp',
+        attrs: [
+            // upsides
+            ['l2damagetracker:damage_reduction', -0.4, 'multiply_base'],
+            ['minecraft:generic.armor', 5, 'addition'],
+            ['minecraft:generic.armor_toughness', 5, 'addition'],
+            ['minecraft:generic.max_health', 10, 'addition'],
+            ['minecraft:generic.knockback_resistance', 0.5, 'addition'],
+            ['shieldinghealth:attribute.shieldinghealth.shield_value', 10, 'addition'],
+            ['shieldinghealth:attribute.shieldinghealth.shield_delay', -0.25, 'multiply_base'],
+            ['shieldinghealth:attribute.shieldinghealth.shield_regen', -0.25, 'multiply_base'],
+            ['attributeslib:healing_received', 0.25, 'addition'],
+            ['skilltree:blocking', 3, 'addition'],
+            ['betterparagliders:block_stamina_reduction', 3, 'addition'],
+	    // neutral
+            ['enhancedai:push_resistance', 1, 'addition'],
+            ['forge:entity_gravity', 0.25, 'multiply_total'],
+            ['combatroll:distance', -1, 'multiply_total'],
+            // drawbacks
+            ['minecraft:generic.attack_damage', -0.5, 'multiply_total'],
+            ['minecraft:generic.movement_speed', -0.2, 'multiply_total'],
+            ['attributeslib:arrow_damage', -0.5, 'multiply_total'],
+            ['celestial_core:armor_penetration', -0.25, 'addition'],
+            ['ars_nouveau:ars_nouveau.perk.spell_damage', -5, 'addition'],
+            ['ars_nouveau:ars_nouveau.perk.max_mana', -0.5, 'multiply_total'],
+            ['forge:swim_speed', -0.2, 'multiply_total'],
+            ['combatroll:recharge', -0.33, 'multiply_total'],
+            ['betterparagliders:base_melee_stamina_reduction', -3, 'addition'],
+            ['betterparagliders:range_stamina_reduction', -3, 'addition'],
+            ['betterparagliders:sprinting_stamina_reduction', -3, 'addition']
+        ]
+    },
+    {
         id: 'berserker_focus',
         name: 'Way of the Berserker',
         texture: 'kubejs:item/berserkerfp',
@@ -78,15 +174,15 @@ let CLASS_FOCUSES = [
         attrs: [
             // upsides
             ['minecraft:generic.movement_speed', 0.2, 'multiply_base'],
-			['minecraft:generic.luck', 1, 'addition'],
+            ['minecraft:generic.luck', 1, 'addition'],
             ['forge:swim_speed', 0.3, 'addition'],
             ['forge:step_height_addition', 0.5, 'addition'],
-            ['betterparagliders:sprinting_stamina_reduction', 0.8, 'addition'],
-            ['betterparagliders:swimming_stamina_reduction', 0.8, 'addition'],
+            ['betterparagliders:sprinting_stamina_reduction', 2, 'addition'],
+            ['betterparagliders:swimming_stamina_reduction', 2, 'addition'],
             ['attributeslib:experience_gained', 0.5, 'multiply_base'],
             // drawbacks
             ['minecraft:generic.attack_damage', -0.75, 'multiply_total'],
-			['shieldinghealth:attribute.shieldinghealth.shield_value', -1, 'multiply_total'],
+            ['shieldinghealth:attribute.shieldinghealth.shield_value', -1, 'multiply_total'],
             ['attributeslib:arrow_damage', -0.75, 'multiply_total'],
             ['betterparagliders:base_melee_stamina_reduction', -20, 'addition'],
             ['minecraft:generic.max_health', -6, 'addition'],
@@ -124,7 +220,7 @@ let CLASS_FOCUSES = [
             // drawbacks
             ['minecraft:generic.max_health', -8, 'addition'],
             ['attributeslib:healing_received', -0.5, 'multiply_base'],
-            ['shieldinghealth:attribute.shieldinghealth.shield_value', -1, 'multiply_total'],
+            ['shieldinghealth:attribute.shieldinghealth.shield_value', -1, 'multiply_base'],
             ['ars_nouveau:ars_nouveau.perk.max_mana', -1, 'multiply_total'],
             ['ars_nouveau:ars_nouveau.perk.mana_regen', -1, 'multiply_total']
         ]
@@ -161,25 +257,44 @@ let GAMBLER = {
             { a: 'attributeslib:crit_damage',        min: 0.25, max: 1.00, op: 'addition' },
             { a: 'attributeslib:dodge_chance',       min: 0.10, max: 0.30, op: 'addition' },
             { a: 'attributeslib:life_steal',         min: 0.05, max: 0.15, op: 'addition' },
+            { a: 'attributeslib:overheal',         min: 0.03, max: 0.1, op: 'addition' },
+            { a: 'attributeslib:arrow_damage',         min: 0.25, max: 0.80, op: 'addition' },
             { a: 'attributeslib:experience_gained',  min: 0.25, max: 1.00, op: 'multiply_base' },
             { a: 'attributeslib:mining_speed',       min: 0.50, max: 1.50, op: 'multiply_base' },
-            { a: 'minecraft:generic.attack_damage',  min: 0.20, max: 0.80, op: 'multiply_base' },
+            { a: 'minecraft:generic.attack_damage',  min: 0.20, max: 0.75, op: 'multiply_base' },
+            { a: 'minecraft:generic.attack_speed',  min: 0.15, max: 0.50, op: 'multiply_base' },
             { a: 'minecraft:generic.movement_speed', min: 0.10, max: 0.30, op: 'multiply_base' },
             { a: 'minecraft:generic.max_health',     min: 4,    max: 12,   op: 'addition' },
             { a: 'minecraft:generic.armor',          min: 3,    max: 8,    op: 'addition' },
+            { a: 'forge:swim_speed', min: 0.4, max: 0.75, op: 'multiply_base' },
+            { a: 'forge:block_reach',          min: 0.5,    max: 2,    op: 'addition' },
             { a: 'attributeslib:healing_received',   min: 0.30, max: 0.80, op: 'multiply_base' },
-            { a: 'betterparagliders:sprinting_stamina_reduction', min: 3, max: 8, op: 'addition' }
+            { a: 'betterparagliders:sprinting_stamina_reduction', min: 2, max: 6, op: 'addition' },
+            { a: 'shieldinghealth:attribute.shieldinghealth.shield_value', min: 6, max: 14, op: 'addition' },
+            { a: 'ars_nouveau:ars_nouveau.perk.max_mana',  min: 0.3, max: 0.75, op: 'multiply_base' },
+            { a: 'ars_nouveau:ars_nouveau.perk.mana_regen', min: 0.2, max: 0.5, op: 'multiply_total' },
+            { a: 'combatroll:recharge',                 min: 0.25,   max: 0.5,    op: 'multiply_base' },
+            { a: 'combatroll:count',                 min: 1,   max: 1,    op: 'addition' },
         ],
         banes: [
             { a: 'minecraft:generic.max_health',     min: -10,  max: -4,    op: 'addition' },
             { a: 'minecraft:generic.armor',          min: -0.7, max: -0.3,  op: 'multiply_base' },
             { a: 'minecraft:generic.attack_damage',  min: -0.5, max: -0.2,  op: 'multiply_base' },
+            { a: 'minecraft:generic.attack_speed',  min: -0.5, max: -0.15, op: 'multiply_base' },
             { a: 'minecraft:generic.movement_speed', min: -0.25, max: -0.1, op: 'multiply_base' },
+            { a: 'minecraft:generic.knockback_resistance', min: -1.5, max: -0.5, op: 'addition' },
+            { a: 'forge:swim_speed', min: -0.6, max: -0.3, op: 'multiply_base' },
+            { a: 'forge:block_reach',          min: -1,    max: -0.5,    op: 'addition' },
             { a: 'attributeslib:healing_received',   min: -0.7, max: -0.3,  op: 'multiply_base' },
-            { a: 'ars_nouveau:ars_nouveau.perk.max_mana',  min: -1, max: -0.5, op: 'multiply_total' },
-            { a: 'ars_nouveau:ars_nouveau.perk.mana_regen', min: -1, max: -0.5, op: 'multiply_total' },
+            { a: 'attributeslib:arrow_damage',         min: -0.66, max: -0.33, op: 'addition' },
+            { a: 'ars_nouveau:ars_nouveau.perk.max_mana',  min: -1, max: -0.5, op: 'multiply_base' },
+            { a: 'ars_nouveau:ars_nouveau.perk.mana_regen', min: -1, max: -0.5, op: 'multiply_base' },
             { a: 'shieldinghealth:attribute.shieldinghealth.shield_value', min: -1, max: -0.5, op: 'multiply_total' },
-            { a: 'combatroll:count',                 min: -1,   max: -1,    op: 'multiply_total' }
+            { a: 'combatroll:recharge',                 min: -1,   max: -0.33,    op: 'multiply_base' },
+            { a: 'combatroll:count',                 min: -1,   max: -1,    op: 'addition' },
+            { a: 'celestial_core:armor_penetration',                 min: -0.5,   max: -0.25,    op: 'multiply_base' },
+            { a: 'betterparagliders:base_melee_stamina_reduction', min: -6, max: -2, op: 'addition' },
+            { a: 'betterparagliders:range_stamina_reduction', min: -6, max: -2, op: 'addition' }
         ]
     }
 };

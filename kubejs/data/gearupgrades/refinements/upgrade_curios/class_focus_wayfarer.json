@@ -1,0 +1,19 @@
+
+{
+  "id": "class_focus_wayfarer",
+  "key": "refinement.class_focus_wayfarer",
+  "type": ["kubejs:wayfarer_focus"],
+  "proficiency_cost": 100,
+  "material": "kubejs:great_soul",
+  "material_count": 1,
+  "anvil_levels": 100,
+  "bonuses": [
+    {
+      "property": "minecraft:generic.movement_speed",
+      "amount": 0.3,
+      "operation": "multiply_base"
+    }
+  ],
+  "allowed_steps": [1, 2],
+  "color": "gold"
+}
