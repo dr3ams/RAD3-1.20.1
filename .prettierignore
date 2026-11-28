@@ -1,0 +1,17 @@
+# Modpack binaries / backups
+*.zip
+*.pdn
+*.js-
+
+# Mod-generated configs (rewritten by the game on launch)
+/config/
+/defaultconfigs/
+
+# Generated KubeJS output
+kubejs/assets/ponderjs_generated/
+
+# Non-source KubeJS files
+kubejs/**/*.txt
+
+# Java-style float literals (e.g. 0.002f) that no JS parser accepts
+kubejs/data/lrdynamicdungeon/enemy_pool/stage/stage_1.json
